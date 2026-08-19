@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1417.jpg",
+    "relative_path": "train/1417.jpg",
+    "sha256": "0c411f4faa0389ce028c0865d634e9e455491afb435f02255f6ad6d8d1461cf2",
+    "split": "train"
+  },
+  "canonical_sha256": "fe6e2a6d6070236f7793630cd1367be711b4b4c4625687b5e50aa568597bfe5c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "文旅宣传",
+      "景点导览"
+    ],
+    "short_description": "宣传牌，展示景点与服务信息，上方有金色书法招牌。",
+    "theme": "宣传"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央为多色拼接的宣传板，包含景点名称与图标。",
+      "宣传板上方悬挂一块深色背景、金色书法字样的招牌。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "彩色图文",
+      "金色书法",
+      "悬挂灯泡"
+    ],
+    "relations": [],
+    "scene": "户外商业宣传区域",
+    "subjects": [
+      "宣传牌",
+      "招牌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央为多色拼接的宣传板，包含景点名称与图标；宣传板上方悬挂一块深色背景、金色书法字样的招牌。",
+    "safe_facts": [
+      "画面中央为多色拼接的宣传板，包含景点名称与图标。",
+      "宣传板上方悬挂一块深色背景、金色书法字样的招牌。"
+    ]
+  },
+  "label_id": "cpl_b59521f07f91a092c50ba3af",
+  "provenance": {
+    "generated_at": "2026-08-03T14:21:40.565758+00:00",
+    "migrated_at": "2026-08-03T14:21:40.569698+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e0c6b7b704be4d786830b57f3f09038d954ba0608f14c277a68baf11d5267cb2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_bfbd6aad2037c2c02dbc0eaf",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:21:40.570559+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_bfbd6aad2037c2c02dbc0eaf"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "遇见明湖",
+      "济南文旅",
+      "天下第一泉风景区",
+      "灵岩寺",
+      "趵突泉",
+      "黑虎泉"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "遇见明湖",
+      "济南文旅",
+      "天下第一泉风景区",
+      "灵岩寺",
+      "趵突泉",
+      "黑虎泉"
+    ]
+  }
+}

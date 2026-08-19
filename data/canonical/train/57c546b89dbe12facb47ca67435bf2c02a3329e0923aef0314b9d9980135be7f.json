@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:379.jpg",
+    "relative_path": "train/379.jpg",
+    "sha256": "57c546b89dbe12facb47ca67435bf2c02a3329e0923aef0314b9d9980135be7f",
+    "split": "train"
+  },
+  "canonical_sha256": "16d989a22a8f9385b22633ed526227cafb6a6fa3449382c71ccfe5cc15eb854f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "峡谷",
+      "河流",
+      "绿植",
+      "悬崖",
+      "天空"
+    ],
+    "short_description": "蓝天白云下，翠绿峡谷中蜿蜒河流穿行于陡峭岩壁之间，植被茂密，景色壮丽。",
+    "theme": "峡谷绿意"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "岩壁上覆盖着茂密的绿色植被。"
+    ],
+    "direct_observations": [
+      "画面呈现开阔峡谷，两侧为高耸岩壁。",
+      "谷底有一条蜿蜒的绿色河流。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色植被覆盖",
+      "蓝色天空",
+      "白色云朵",
+      "灰白色岩壁"
+    ],
+    "relations": [
+      "河流位于峡谷底部。",
+      "树木生长在岩壁与谷底。"
+    ],
+    "scene": "峡谷地貌",
+    "subjects": [
+      "河流",
+      "山崖",
+      "树木",
+      "云朵"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "岩壁上覆盖着茂密的绿色植被。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现开阔峡谷，两侧为高耸岩壁；谷底有一条蜿蜒的绿色河流。",
+    "safe_facts": [
+      "画面呈现开阔峡谷，两侧为高耸岩壁。",
+      "谷底有一条蜿蜒的绿色河流。"
+    ]
+  },
+  "label_id": "cpl_74f73935b3a380e73a9841d9",
+  "provenance": {
+    "generated_at": "2026-08-03T10:51:22.070432+00:00",
+    "migrated_at": "2026-08-03T10:51:22.072295+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bd78d7f318ade1ba7e99c73dddf9a0e2fbba943f94cf6001c83de84099fdbdd7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_59975a7a0c3485d36e0ec358",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:51:22.072731+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_59975a7a0c3485d36e0ec358"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

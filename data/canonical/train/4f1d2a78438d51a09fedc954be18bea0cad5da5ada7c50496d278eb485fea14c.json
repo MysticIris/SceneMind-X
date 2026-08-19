@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:102.jpg",
+    "relative_path": "train/102.jpg",
+    "sha256": "4f1d2a78438d51a09fedc954be18bea0cad5da5ada7c50496d278eb485fea14c",
+    "split": "train"
+  },
+  "canonical_sha256": "c931c79c25fcdf378a3bbc9b1c23855d7cd73247443f623fb019e1bebaa04121",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "秋叶",
+      "峡谷",
+      "荒漠",
+      "蓝天"
+    ],
+    "short_description": "金黄树叶点缀在荒漠峡谷间，远山层叠，蓝天白云，构成一幅色彩鲜明的秋季自然画卷。",
+    "theme": "秋日峡谷风光"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该场景可能处于秋季，因树叶呈现金黄色。"
+    ],
+    "direct_observations": [
+      "画面中央有一片密集的金黄色树木。",
+      "背景是连绵起伏的浅色岩石山丘。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金黄色树叶",
+      "浅棕色岩石",
+      "蓝色天空",
+      "白色云朵"
+    ],
+    "relations": [
+      "树木生长在岩石地表上。",
+      "云朵漂浮在天空中。"
+    ],
+    "scene": "开阔的峡谷地貌",
+    "subjects": [
+      "金黄色树木",
+      "岩石山丘",
+      "稀疏灌木",
+      "天空与云朵"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该场景可能处于秋季，因树叶呈现金黄色。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一片密集的金黄色树木；背景是连绵起伏的浅色岩石山丘。",
+    "safe_facts": [
+      "画面中央有一片密集的金黄色树木。",
+      "背景是连绵起伏的浅色岩石山丘。"
+    ]
+  },
+  "label_id": "cpl_afc1d418a86e833fc1dfbf38",
+  "provenance": {
+    "generated_at": "2026-08-03T09:25:51.578854+00:00",
+    "migrated_at": "2026-08-03T09:25:51.580296+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5db9dc14f2250c0a5f96b64d30cfad9a289200a49953130c75f61ca006ffdba1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5b0ae4ddb1a7040defa13331",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:29.521890+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5b0ae4ddb1a7040defa13331",
+    "cpl_60174b7284258cccbbda6b4c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2257.jpg",
+    "relative_path": "val/2257.jpg",
+    "sha256": "666c52188ee9d527f0a9647a050853804f22fa82204968a9a381a3c9b8828714",
+    "split": "val"
+  },
+  "canonical_sha256": "6f123b4216e01dcfef181c9172894efa66d08e950ec004f22acd7db25ec573b9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "控制系统",
+      "根轨迹图",
+      "反馈系统"
+    ],
+    "short_description": "一张包含控制系统开环传递函数及要求绘制正负反馈根轨迹图的题目截图。",
+    "theme": "控制系统的根轨迹分析"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见开环传递函数表达式和题目编号。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "数学题截图",
+    "subjects": [
+      "开环传递函数表达式",
+      "题目编号"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见开环传递函数表达式和题目编号。",
+    "safe_facts": [
+      "画面中可见开环传递函数表达式和题目编号。"
+    ]
+  },
+  "label_id": "cpl_35e1f2288d8f9598762c57c9",
+  "provenance": {
+    "generated_at": "2026-08-03T16:18:56.987250+00:00",
+    "migrated_at": "2026-08-03T16:18:56.988761+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "478976161453ff330974c56c88506513bde1280d9d747c3bef3c3b1e77f418e4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_575a12204eeb60f8a76a1e2d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:18:56.989120+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:direct_observations"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_575a12204eeb60f8a76a1e2d"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "4-17",
+      "G(s) = K*(s+1)/(s2(s+2)(s+4))"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "4-17",
+      "G(s) = K*(s+1)/(s2(s+2)(s+4))"
+    ]
+  }
+}

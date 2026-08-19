@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:602.jpg",
+    "relative_path": "train/602.jpg",
+    "sha256": "f1f12f0bdcd859582a3420553298ac8a4621efe209891b1f1644a5d7f91aaeed",
+    "split": "train"
+  },
+  "canonical_sha256": "c1e2177cba40e72d81183d04165b8598bc9fb3436b089184df48d0313f432626",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "甲醛检测",
+      "比色卡",
+      "室内空气质量"
+    ],
+    "short_description": "一张甲醛检测比色卡，中心为浅绿色圆形区域，周围环绕彩色扇形区域，用于比对甲醛浓度。",
+    "theme": "甲醛检测比色卡"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "卡片中央有一个浅绿色圆形区域。",
+      "卡片边缘环绕着多个颜色渐变的扇形区域。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色卡片",
+      "浅绿色圆形区域",
+      "彩色扇形区域",
+      "卡通图案布面背景"
+    ],
+    "relations": [],
+    "scene": "一张白色卡片放置在带有卡通图案的布面上",
+    "subjects": [
+      "甲醛检测比色卡"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "卡片中央有一个浅绿色圆形区域；卡片边缘环绕着多个颜色渐变的扇形区域。",
+    "safe_facts": [
+      "卡片中央有一个浅绿色圆形区域。",
+      "卡片边缘环绕着多个颜色渐变的扇形区域。"
+    ]
+  },
+  "label_id": "cpl_fac674817de9d700f96d8d47",
+  "provenance": {
+    "generated_at": "2026-08-03T11:42:28.929549+00:00",
+    "migrated_at": "2026-08-03T11:42:28.931446+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c59584b9af152206112ee9c1f3e032f1eb625a2d461cf8f625352322585134b3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_bac859eeab08344307dd2bec",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:42:28.931845+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_bac859eeab08344307dd2bec"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

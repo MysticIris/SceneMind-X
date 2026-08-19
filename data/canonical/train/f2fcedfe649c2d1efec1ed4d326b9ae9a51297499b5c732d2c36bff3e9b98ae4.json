@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1240.jpg",
+    "relative_path": "train/1240.jpg",
+    "sha256": "f2fcedfe649c2d1efec1ed4d326b9ae9a51297499b5c732d2c36bff3e9b98ae4",
+    "split": "train"
+  },
+  "canonical_sha256": "cbdb17cd03ee53eb86f29e7c5e81bdfe3fd0d44cfb1530eac9cf872364502e84",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "玻璃幕墙",
+      "商业广场",
+      "城市景观"
+    ],
+    "short_description": "现代都市商业区，玻璃幕墙建筑环绕，中央有步行广场、绿植与阶梯式通道，远处可见大型广告牌。",
+    "theme": "现代城市商业广场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多栋高层玻璃幕墙建筑。",
+      "广场上有树木、步道和照明灯柱。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "现代设计",
+      "多层结构",
+      "户外空间"
+    ],
+    "relations": [
+      "建筑物围绕广场分布。",
+      "植物点缀地面。"
+    ],
+    "scene": "城市商业区户外广场",
+    "subjects": [
+      "建筑物",
+      "行人",
+      "绿化植物",
+      "楼梯通道"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多栋高层玻璃幕墙建筑；广场上有树木、步道和照明灯柱。",
+    "safe_facts": [
+      "画面中有多栋高层玻璃幕墙建筑。",
+      "广场上有树木、步道和照明灯柱。"
+    ]
+  },
+  "label_id": "cpl_3cbe50b5b1c6d434df92c2d5",
+  "provenance": {
+    "generated_at": "2026-08-03T13:57:24.489984+00:00",
+    "migrated_at": "2026-08-03T13:57:24.495876+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0929bee52f7e765bd5c01f819b9bbf9810d0e9a0b68d1070c19d2da794c29290",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fbced3fc76f389bc52ac5f33",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:57:24.496223+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fbced3fc76f389bc52ac5f33"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "asset_id": "3e0ca12ffeacc6b8",
+  "asset_sha256": "3e0ca12ffeacc6b8235bea7cc769c1047c358549e8a2d70fce0d62fbffa56a10",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"城市运动场雪景\",\n    \"short_description\": \"阴天下的城市运动场，草坪上覆盖着薄雪并散布着许多白色雪人。前景是带有白色隔离护栏的沥青路面，背景可见高层住宅楼、树木及红色跑道。\",\n    \"micro_tags\": [\n      \"运动场\",\n      \"雪人\",\n      \"积雪\",\n      \"城市建筑\",\n      \"白色护栏\",\n      \"阴天\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"户外运动场及周边街道\",\n    \"subjects\": [\n      \"运动场草坪\",\n      \"雪人\",\n      \"白色交通护栏\",\n      \"高层住宅楼\",\n      \"树木\",\n      \"路灯杆\",\n      \"蓝色指示牌\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"阴天\",\n      \"地面有残雪\",\n      \"草坪被绿色围网包围\",\n      \"护栏底座为黄色\",\n      \"远处有红色看台座椅\"\n    ],\n    \"relations\": [\n      \"白色护栏位于画面前景\",\n      \"运动场位于护栏后方\",\n      \"高层建筑位于树木后方作为背景\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面前景有两排白色的拱形金属交通护栏，部分底座旁有少量积雪。\",\n      \"中景是一个被绿色铁丝网围住的运动场，绿色草坪上覆盖着白雪，并排列着数十个堆砌好的雪人。\",\n      \"背景矗立着多栋米色或灰色的高层住宅楼，天空呈现灰白色。\"\n    ],\n    \"cautious_inferences\": [\n      \"草坪上的雪人可能是近期降雪后由人堆砌而成。\",\n      \"场景看起来像是一个学校或公共体育中心的操场。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的拍摄地点或时间。\",\n      \"无法看清远处蓝色标牌上的具体文字内容。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_unreadable\",\n    \"visual_candidates\": []\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张展示城市运动场的照片，前景有白色道路护栏，中景草坪上有积雪和多个雪人，背景为高楼大厦。\",\n    \"safe_facts\": [\n      \"图片展示了户外场景，包含道路、运动场和建筑物。\",\n      \"地面上有白色积雪痕迹。\",\n      \"运动场草坪上分布着多个白色球状物体，形态类似雪人。\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 622,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 622,
+        "total_tokens": 3827,
+        "estimated_cost_cny": 0.011386,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "城市运动场雪景",
+          "short_description": "阴天下的城市运动场，草坪上覆盖着薄雪并散布着许多白色雪人。前景是带有白色隔离护栏的沥青路面，背景可见高层住宅楼、树木及红色跑道。",
+          "micro_tags": [
+            "运动场",
+            "雪人",
+            "积雪",
+            "城市建筑",
+            "白色护栏",
+            "阴天"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "户外运动场及周边街道",
+          "subjects": [
+            "运动场草坪",
+            "雪人",
+            "白色交通护栏",
+            "高层住宅楼",
+            "树木",
+            "路灯杆",
+            "蓝色指示牌"
+          ],
+          "actions": [],
+          "attributes": [
+            "阴天",
+            "地面有残雪",
+            "草坪被绿色围网包围",
+            "护栏底座为黄色",
+            "远处有红色看台座椅"
+          ],
+          "relations": [
+            "白色护栏位于画面前景",
+            "运动场位于护栏后方",
+            "高层建筑位于树木后方作为背景"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "画面前景有两排白色的拱形金属交通护栏，部分底座旁有少量积雪。",
+            "中景是一个被绿色铁丝网围住的运动场，绿色草坪上覆盖着白雪，并排列着数十个堆砌好的雪人。",
+            "背景矗立着多栋米色或灰色的高层住宅楼，天空呈现灰白色。"
+          ],
+          "cautious_inferences": [
+            "草坪上的雪人可能是近期降雪后由人堆砌而成。",
+            "场景看起来像是一个学校或公共体育中心的操场。"
+          ],
+          "uncertainties": [
+            "无法确定具体的拍摄地点或时间。",
+            "无法看清远处蓝色标牌上的具体文字内容。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_unreadable",
+          "visual_candidates": []
+        },
+        "fallback": {
+          "safe_caption": "一张展示城市运动场的照片，前景有白色道路护栏，中景草坪上有积雪和多个雪人，背景为高楼大厦。",
+          "safe_facts": [
+            "图片展示了户外场景，包含道路、运动场和建筑物。",
+            "地面上有白色积雪痕迹。",
+            "运动场草坪上分布着多个白色球状物体，形态类似雪人。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 8073084,
+        "request_bytes": 6051740,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 12.397611700005655,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "ecdc204b31ca85e888b5b8353f8df9fc53945c25d95e5edb46d8671fa09db1fb"
+}

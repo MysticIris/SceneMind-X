@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1348.jpg",
+    "relative_path": "train/1348.jpg",
+    "sha256": "4c118033c758f523a9361b054e5cdeef51a88c78d12050d779e238d32a137050",
+    "split": "train"
+  },
+  "canonical_sha256": "7d342d57c089f7f959064549bda051070c4b69b6363785a9721bf8ea89488989",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪地",
+      "绿篱",
+      "晾衣架",
+      "宿舍楼"
+    ],
+    "short_description": "雪覆盖的校园小径旁，整齐绿篱与晾衣架并列，远处是多层宿舍楼，地面停放着大量电动车。",
+    "theme": "雪后校园一角"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能为冬季降雪后场景。"
+    ],
+    "direct_observations": [
+      "地面覆盖白色积雪。",
+      "绿篱呈深绿色且修剪整齐。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "积雪覆盖地面",
+      "绿篱茂密",
+      "晾衣架金属材质",
+      "电动车密集停放"
+    ],
+    "relations": [
+      "绿篱沿小径边缘生长。",
+      "晾衣架立于积雪地面。",
+      "电动车停放在遮阳棚下。"
+    ],
+    "scene": "校园户外区域",
+    "subjects": [
+      "建筑物",
+      "绿篱",
+      "晾衣架",
+      "地面积雪",
+      "电动车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能为冬季降雪后场景。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面覆盖白色积雪；绿篱呈深绿色且修剪整齐。",
+    "safe_facts": [
+      "地面覆盖白色积雪。",
+      "绿篱呈深绿色且修剪整齐。"
+    ]
+  },
+  "label_id": "cpl_c59c2167a2cc624db5777718",
+  "provenance": {
+    "generated_at": "2026-08-03T14:11:08.657402+00:00",
+    "migrated_at": "2026-08-03T14:11:08.663764+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4225c221145272799632cb7dcd222697c2a9ac634a8a5905a17ee130d608dad6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_55f0af0c1749f9e31395cb67",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:11:08.664120+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_55f0af0c1749f9e31395cb67"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

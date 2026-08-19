@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1432.jpg",
+    "relative_path": "train/1432.jpg",
+    "sha256": "fde38eb96e8f806d3accc7e85cb7164aeec91c107ae4d230e957efc2af453b07",
+    "split": "train"
+  },
+  "canonical_sha256": "0a959ee9f80f5effd6a936463a1deb3faa41f851a9732fd8b687a3cfbb4b6195",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "手写数学",
+      "几何图形",
+      "坐标计算"
+    ],
+    "short_description": "一张手写几何题解过程，包含三角形、坐标点及代数推导，最终求得两个答案。",
+    "theme": "几何计算手稿"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "纸上绘制了包含点A、B、C、E、F、G、O的几何图形。",
+      "图形旁附有手写计算步骤和公式。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "一张白纸上的手写数学演算过程",
+    "subjects": [
+      "几何图形"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "纸上绘制了包含点A、B、C、E、F、G、O的几何图形；图形旁附有手写计算步骤和公式。",
+    "safe_facts": [
+      "纸上绘制了包含点A、B、C、E、F、G、O的几何图形。",
+      "图形旁附有手写计算步骤和公式。"
+    ]
+  },
+  "label_id": "cpl_57dccaa5a9d66276fb02c28a",
+  "provenance": {
+    "generated_at": "2026-08-03T14:22:39.755479+00:00",
+    "migrated_at": "2026-08-03T14:22:39.758402+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0012167b448c6d3ca62f458f8e8701d95467367f1d3eb0470cc1b4c188aac5e2",
+    "recovered_at_tokens": 768,
+    "source_label_id": "cpl_6c6fd5a9963fd8e00265c37a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:22:39.759678+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_768_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6c6fd5a9963fd8e00265c37a"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "AB=20 OA=16 OB=12",
+      "OC=6 AC=10",
+      "作AG⊥BE于点G",
+      "由∠ACG=∠BCO ∠AGC=∠BOC",
+      "∴△AGC∽△BOC",
+      "AG/CG = BC/OB ⇒ AG=4√5"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "AB=20 OA=16 OB=12",
+      "OC=6 AC=10",
+      "作AG⊥BE于点G",
+      "由∠ACG=∠BCO ∠AGC=∠BOC",
+      "∴△AGC∽△BOC",
+      "AG/CG = BC/OB ⇒ AG=4√5"
+    ]
+  }
+}

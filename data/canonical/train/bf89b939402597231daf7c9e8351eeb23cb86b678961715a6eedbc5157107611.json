@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1887.jpg",
+    "relative_path": "train/1887.jpg",
+    "sha256": "bf89b939402597231daf7c9e8351eeb23cb86b678961715a6eedbc5157107611",
+    "split": "train"
+  },
+  "canonical_sha256": "ecf076a0b4bd0c13bbae18be99b3a9e3a125ea7bd1dacc52dacc61b4bad58fd2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑猫",
+      "夜间",
+      "台阶",
+      "摩托车"
+    ],
+    "short_description": "一只黑白相间的猫蹲坐在户外台阶上，眼睛在暗光下发亮，背景是停放的摩托车。",
+    "theme": "夜色中的黑猫"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "猫可能处于静止观察状态。"
+    ],
+    "direct_observations": [
+      "猫的毛色为黑色与白色相间。",
+      "猫的眼睛在暗光下呈现黄色反光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑白毛色",
+      "眼睛发光",
+      "蹲坐姿态"
+    ],
+    "relations": [
+      "猫位于台阶上。",
+      "猫在摩托车前方。"
+    ],
+    "scene": "户外夜间环境",
+    "subjects": [
+      "一只猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "猫可能处于静止观察状态。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "猫的毛色为黑色与白色相间；猫的眼睛在暗光下呈现黄色反光。",
+    "safe_facts": [
+      "猫的毛色为黑色与白色相间。",
+      "猫的眼睛在暗光下呈现黄色反光。"
+    ]
+  },
+  "label_id": "cpl_7390f760c0177eeb1d104de1",
+  "provenance": {
+    "generated_at": "2026-08-03T15:17:08.128257+00:00",
+    "migrated_at": "2026-08-03T15:17:08.130195+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4457667515c47a3147024f5b389f5ba7b158cf7ed1c40e71f0ca8324b5853457",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_27c75d1cfb95c90ddeb0014b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:17:08.130389+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_27c75d1cfb95c90ddeb0014b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

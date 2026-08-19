@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2346.jpg",
+    "relative_path": "val/2346.jpg",
+    "sha256": "5916ec8e900c133f1a710d83efc975f1275c92bdc0873dca55e5888cc4da5c40",
+    "split": "val"
+  },
+  "canonical_sha256": "00ddd108880d7701518e8a98627b479c75a242002ff8216bf3147082bda0f014",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "山地",
+      "徒步小径",
+      "晴天",
+      "岩石地形"
+    ],
+    "short_description": "晴朗天空下，一条蜿蜒小径穿过岩石与灌木覆盖的山脊，远处可见连绵山脉轮廓。",
+    "theme": "山地徒步路径"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "地面光照充足，推测为日间拍摄。"
+    ],
+    "direct_observations": [
+      "天空呈纯净蓝色，无云层遮挡。",
+      "山脊表面有明显碎石和裸露岩层。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晴朗",
+      "干燥",
+      "裸露岩石",
+      "低矮灌木"
+    ],
+    "relations": [
+      "小径位于山脊上。",
+      "植被覆盖山体表面。"
+    ],
+    "scene": "山地景观",
+    "subjects": [
+      "山脊",
+      "小径",
+      "植被",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "地面光照充足，推测为日间拍摄。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈纯净蓝色，无云层遮挡；山脊表面有明显碎石和裸露岩层。",
+    "safe_facts": [
+      "天空呈纯净蓝色，无云层遮挡。",
+      "山脊表面有明显碎石和裸露岩层。"
+    ]
+  },
+  "label_id": "cpl_569b01f1c76522cfdf6b8759",
+  "provenance": {
+    "generated_at": "2026-08-03T16:32:08.257229+00:00",
+    "migrated_at": "2026-08-03T16:32:08.259041+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dcb4737285634364bee6e579bea1342d95216d0980fa49f56eedfe11f8b3d444",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ae4c9e45d8d1533ee31ca130",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:32:08.259262+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ae4c9e45d8d1533ee31ca130"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

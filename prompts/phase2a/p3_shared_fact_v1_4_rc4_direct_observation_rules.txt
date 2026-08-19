@@ -1,0 +1,1 @@
+scene_summary 简短概括整图。subjects、activities、relationships 和 observations 使用具体的简体中文短句；保留重要背景、小目标和媒介内部细节。observations 只写直接可见内容，每项独立完整。可能的解释放入 inference_candidates，不要把身份、地点、机构或用途猜测写成观察事实。

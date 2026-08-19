@@ -1,0 +1,5 @@
+比较这些视觉资产，区分图像本身的媒介类型与媒介内部内容。仅输出一个 JSON 对象，包含 shared_facts、differences、medium_types、uncertainty。不得编造不可见事实。
+
+输入映射：图片1=114.jpg；图片2=655.jpg；图片3=1058.jpg
+用户的比较或排序要求：比较三张图片的主体、场景、空间层次与光线差异。
+必须逐张引用上述 asset 文件名，不得遗漏任何图片。若要求排序，JSON 还必须包含 ranking 数组，每项含 asset_id、rank、reason。

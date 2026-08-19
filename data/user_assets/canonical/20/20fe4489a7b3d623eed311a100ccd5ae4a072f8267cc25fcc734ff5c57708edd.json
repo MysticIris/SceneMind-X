@@ -1,0 +1,151 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_04bb84374ec191a875cd2be2",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_18444ca76da2d9bf2465aea9"
+  ],
+  "asset": {
+    "asset_id": "20fe4489a7b3d623",
+    "sha256": "20fe4489a7b3d623eed311a100ccd5ae4a072f8267cc25fcc734ff5c57708edd",
+    "split": "user_custom",
+    "relative_path": "user_assets/20/20fe4489a7b3d623eed311a100ccd5ae4a072f8267cc25fcc734ff5c57708edd/20fe4489a7b3d623eed311a100ccd5ae4a072f8267cc25fcc734ff5c57708edd.jpg"
+  },
+  "display": {
+    "theme": "电子维修工作台",
+    "short_description": "一张俯拍的电子维修或组装工作台特写。桌面上杂乱摆放着各种工具和耗材，包括黄色防静电瓶、白色镂空容器、透明玻璃瓶、蓝色零件盒、螺丝刀、镊子以及散落的微小金属零件和螺丝。",
+    "micro_tags": [
+      "维修工具",
+      "电子元件",
+      "工作台",
+      "螺丝",
+      "防静电",
+      "胶水"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "室内工作台面",
+    "subjects": [
+      "黄色塑料瓶",
+      "白色镂空容器",
+      "透明玻璃瓶",
+      "蓝色零件收纳盒",
+      "金属螺丝与零件",
+      "维修工具"
+    ],
+    "actions": [],
+    "attributes": [
+      "杂乱",
+      "俯视视角",
+      "微距",
+      "工业风"
+    ],
+    "relations": [
+      "工具与零件散落在桌面上。",
+      "瓶子与容器并排摆放。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "画面右侧有一个黄色的塑料瓶，瓶身印有黑色三角形标志和'ESD SAFE'字样。",
+      "画面下方横放着一个透明玻璃瓶，瓶盖为银色带蓝色顶部，瓶身贴有包含条形码的标签。",
+      "右下角可见蓝色的塑料零件盒，盒体上有'Parts box'浮雕文字。",
+      "左上角黑色垫板上散落着大量细小的银色金属支架、螺丝和电子元件。",
+      "中间位置有一个白色的圆柱形镂空塑料容器。"
+    ],
+    "cautious_inferences": [
+      "桌面上的胶水管和清洁瓶表明正在进行需要粘合或清洁的精细作业。"
+    ],
+    "uncertainties": [
+      "无法确定玻璃瓶内原本装的是什么液体。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "ESD SAFE",
+      "100ML",
+      "AB",
+      "NO:7148",
+      "Parts box",
+      "SIM"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "ESD SAFE",
+      "100ML",
+      "AB",
+      "NO:7148",
+      "Parts box",
+      "SIM"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "画面右侧有一个黄色的塑料瓶，瓶身印有黑色三角形标志和'ESD SAFE'字样；画面下方横放着一个透明玻璃瓶，瓶盖为银色带蓝色顶部，瓶身贴有包含条形码的标签。",
+    "safe_facts": [
+      "画面右侧有一个黄色的塑料瓶，瓶身印有黑色三角形标志和'ESD SAFE'字样。",
+      "画面下方横放着一个透明玻璃瓶，瓶盖为银色带蓝色顶部，瓶身贴有包含条形码的标签。",
+      "右下角可见蓝色的塑料零件盒，盒体上有'Parts box'浮雕文字。"
+    ],
+    "do_not_assert": [
+      "桌面上的胶水管和清洁瓶表明正在进行需要粘合或清洁的精细作业。",
+      "无法确定玻璃瓶内原本装的是什么液体。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_145b65e9-62c6-4094-a439-dbd108a63e72",
+    "generated_at": "2026-08-12T03:24:44.973291+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "6676074e6fdd3d36171198bbea562fa27164d70c26b25165357ee5de99b074bb",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:24:44.974332+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_18444ca76da2d9bf2465aea9",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:24:44.974775+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "667e2ebd2b285ab9e9c2e31592e2b07b4a3fc0f6cb7c1e34b3eeacb3b18cac2e"
+}

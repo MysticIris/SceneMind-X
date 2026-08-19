@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1043.jpg",
+    "relative_path": "train/1043.jpg",
+    "sha256": "a9a8c30dabc517ba54970742189840ebd404925044b1114e89edc15ce0b9539e",
+    "split": "train"
+  },
+  "canonical_sha256": "3bccb631238221435d9b17603fe0de1b27f9022e034b12b241521ba7dd7f1251",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "彩色灯光",
+      "夜景",
+      "江边塔楼"
+    ],
+    "short_description": "夜晚珠江边一座高耸的塔式建筑被彩色灯光照亮，水面倒映着斑斓光影，远处可见桥梁和城市轮廓。",
+    "theme": "夜景摩天大楼"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "塔楼表面覆盖着彩虹色灯光带。",
+      "水面反射塔楼的彩色光斑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "被彩色灯光装饰",
+      "水面有倒影",
+      "天空黑暗"
+    ],
+    "relations": [
+      "塔楼位于江边。",
+      "桥梁横跨江面。",
+      "城市建筑群在塔楼后方。"
+    ],
+    "scene": "城市夜景",
+    "subjects": [
+      "塔楼",
+      "水面",
+      "桥梁",
+      "城市建筑群"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "塔楼表面覆盖着彩虹色灯光带；水面反射塔楼的彩色光斑。",
+    "safe_facts": [
+      "塔楼表面覆盖着彩虹色灯光带。",
+      "水面反射塔楼的彩色光斑。"
+    ]
+  },
+  "label_id": "cpl_bf74c48c7990aa4fc53b9294",
+  "provenance": {
+    "generated_at": "2026-08-03T13:27:47.400623+00:00",
+    "migrated_at": "2026-08-03T13:27:47.403758+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8ad5f281731a3d30f3b51509675ae67339c43d04c83c76abf210029d5cce2a17",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_64adc65a21b04230f94c6b03",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:27:47.404076+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_64adc65a21b04230f94c6b03"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

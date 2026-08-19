@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1714.jpg",
+    "relative_path": "train/1714.jpg",
+    "sha256": "0dddaccd0e626269afcf7ec4c3e609a7c8ab22da9730006160928f8fb64ff8bc",
+    "split": "train"
+  },
+  "canonical_sha256": "401d5080edaa2c4c119cf2f4efaabe3de925e97672cd7e31784ce56559186aa3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "竹筏",
+      "捕鱼",
+      "山水",
+      "乡村"
+    ],
+    "short_description": "一位渔夫在竹筏上作业，背景是连绵青山与村落，水面平静，岸边有养殖设施。",
+    "theme": "山野捕鱼"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该人可能正在捕鱼或整理渔具。"
+    ],
+    "direct_observations": [
+      "一名穿着深色衣物的人站在竹筏上，手持绿色网具。",
+      "竹筏上放置一个白色水桶，周围有竹竿支撑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "捕鱼",
+      "站立",
+      "操作网具"
+    ],
+    "attributes": [
+      "竹筏漂浮于水面",
+      "水面平静",
+      "远处有房屋和山丘"
+    ],
+    "relations": [
+      "渔夫站在竹筏上。",
+      "竹筏位于水面上。",
+      "网具与水桶在竹筏上。"
+    ],
+    "scene": "河流与山地乡村景观",
+    "subjects": [
+      "渔夫",
+      "竹筏",
+      "水桶",
+      "网具"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该人可能正在捕鱼或整理渔具。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名穿着深色衣物的人站在竹筏上，手持绿色网具；竹筏上放置一个白色水桶，周围有竹竿支撑。",
+    "safe_facts": [
+      "一名穿着深色衣物的人站在竹筏上，手持绿色网具。",
+      "竹筏上放置一个白色水桶，周围有竹竿支撑。"
+    ]
+  },
+  "label_id": "cpl_b5d0c8c9fa08160d0aa4e5f4",
+  "provenance": {
+    "generated_at": "2026-08-03T14:58:40.327995+00:00",
+    "migrated_at": "2026-08-03T14:58:40.329528+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "012257507e1360021133f3016da82e9c5f8a37bc536c288e1156c2a320f366e6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_10fe81600906807728aa60e9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:58:40.329756+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_10fe81600906807728aa60e9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

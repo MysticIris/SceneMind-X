@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:48.jpg",
+    "relative_path": "train/48.jpg",
+    "sha256": "5965f8554f5f412b7ec820beecc14ff82f08112f18a28a500ed49ae59d1aac1f",
+    "split": "train"
+  },
+  "canonical_sha256": "769a7f01d5c2264c089b4dd7ad04ce295cfcbc65df8ff70e348f550d243fc439",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "窗边",
+      "西瓜",
+      "书本",
+      "阳光"
+    ],
+    "short_description": "阳光透过薄纱窗帘洒在窗台，西瓜切块与书本静静相伴，窗外绿树红瓦映衬宁静午后。",
+    "theme": "窗边静谧时光"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "窗外建筑有红瓦屋顶和绿植。"
+    ],
+    "direct_observations": [
+      "白色薄纱窗帘部分拉开，透入自然光。",
+      "窗台上放置三块西瓜切块和一个玻璃杯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色薄纱窗帘",
+      "红色瓦片屋顶",
+      "绿色树木",
+      "木质桌面"
+    ],
+    "relations": [
+      "西瓜切块放在窗台上。",
+      "书本放在圆桌上。",
+      "玻璃杯在窗台右侧。"
+    ],
+    "scene": "室内窗边",
+    "subjects": [
+      "西瓜切块",
+      "打开的书",
+      "玻璃杯",
+      "窗帘",
+      "窗户"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "窗外建筑有红瓦屋顶和绿植。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "白色薄纱窗帘部分拉开，透入自然光；窗台上放置三块西瓜切块和一个玻璃杯。",
+    "safe_facts": [
+      "白色薄纱窗帘部分拉开，透入自然光。",
+      "窗台上放置三块西瓜切块和一个玻璃杯。"
+    ]
+  },
+  "label_id": "cpl_57923f71153f4bb6c59e6d43",
+  "provenance": {
+    "generated_at": "2026-08-03T09:14:08.368214+00:00",
+    "migrated_at": "2026-08-03T09:14:08.369725+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9271a2ce079976c035904ef71e5d5c77a44d6d61bad57c25b799ae5377134fab",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fc8659504b49ffcd85c5e14b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:27.059379+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fc8659504b49ffcd85c5e14b",
+    "cpl_515116913ee687d9f7192f63"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

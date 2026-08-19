@@ -1,0 +1,124 @@
+{
+  "asset_id": "53aad5b7d2daff37",
+  "asset_sha256": "53aad5b7d2daff378f9b183b4162ad6347504522cf9617b23c49edccfcda001e",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"电涡流传感器习题页\",\n    \"short_description\": \"这是一张拍摄于教科书页面的照片，内容涉及电涡流式传感器的测量原理。页面包含电路原理图、振动波形图以及关于轴向振动和厚度检测的计算题文字。\",\n    \"micro_tags\": [\n      \"教科书\",\n      \"电路图\",\n      \"物理习题\",\n      \"传感器\",\n      \"波形图\",\n      \"中文教材\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"室内书本特写\",\n    \"subjects\": [\n      \"印刷书页\",\n      \"电路示意图\",\n      \"波形图表\",\n      \"中文题目文本\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"黑白印刷\",\n      \"纸张纹理\",\n      \"页面弯曲\",\n      \"右下角有手指按压\"\n    ],\n    \"relations\": [\n      \"文字围绕图表排版\",\n      \"图表位于题目上方或中间\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"页面左侧展示了一个包含电感线圈和二极管的桥式电路图（图5-15）。\",\n      \"页面中部有一个表示振动波形的折线图（图5-16(b)），标注了40mV和40ms的刻度。\",\n      \"页面右侧和下方排列着编号为5-10和5-11的中文计算题段落。\",\n      \"图片右下角可见一只人手的大拇指指尖，正在按压书页边缘。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据内容判断，这可能是一本关于自动化仪表或传感器技术的大学教材或辅导书。\",\n      \"页面呈现一定的弧度，表明书本处于打开状态且未被完全压平。\"\n    ],\n    \"uncertainties\": [\n      \"由于拍摄角度和焦距原因，部分小字号文字可能无法完全清晰辨认。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"5-10 用电涡流式测振仪测量某机器主轴的轴向振动\",\n      \"图 5-15 差动电感式传感器测量电路\",\n      \"图 5-16 题 5-10 图\",\n      \"(a)电涡流式测振仪测量主轴的轴向振动 (b)振动波形\",\n      \"5-11 电涡流式传感器线圈的外径、内径和厚度分别为 8 mm、3 mm 和 2 mm\",\n      \"49\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张打开的中文理工科教材页面特写，页面上印有电路原理图、数据波形图以及相关的习题文字，右下角有人手按住书页。\",\n    \"safe_facts\": [\n      \"图片展示了包含技术图表和文字的印刷品页面\",\n      \"可见几何线条构成的电路符号和坐标轴图表\",\n      \"页面布局为典型的教科书排版风格\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 728,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 728,
+        "total_tokens": 3933,
+        "estimated_cost_cny": 0.012234,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "电涡流传感器习题页",
+          "short_description": "这是一张拍摄于教科书页面的照片，内容涉及电涡流式传感器的测量原理。页面包含电路原理图、振动波形图以及关于轴向振动和厚度检测的计算题文字。",
+          "micro_tags": [
+            "教科书",
+            "电路图",
+            "物理习题",
+            "传感器",
+            "波形图",
+            "中文教材"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "室内书本特写",
+          "subjects": [
+            "印刷书页",
+            "电路示意图",
+            "波形图表",
+            "中文题目文本"
+          ],
+          "actions": [],
+          "attributes": [
+            "黑白印刷",
+            "纸张纹理",
+            "页面弯曲",
+            "右下角有手指按压"
+          ],
+          "relations": [
+            "文字围绕图表排版",
+            "图表位于题目上方或中间"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "页面左侧展示了一个包含电感线圈和二极管的桥式电路图（图5-15）。",
+            "页面中部有一个表示振动波形的折线图（图5-16(b)），标注了40mV和40ms的刻度。",
+            "页面右侧和下方排列着编号为5-10和5-11的中文计算题段落。",
+            "图片右下角可见一只人手的大拇指指尖，正在按压书页边缘。"
+          ],
+          "cautious_inferences": [
+            "根据内容判断，这可能是一本关于自动化仪表或传感器技术的大学教材或辅导书。",
+            "页面呈现一定的弧度，表明书本处于打开状态且未被完全压平。"
+          ],
+          "uncertainties": [
+            "由于拍摄角度和焦距原因，部分小字号文字可能无法完全清晰辨认。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "5-10 用电涡流式测振仪测量某机器主轴的轴向振动",
+            "图 5-15 差动电感式传感器测量电路",
+            "图 5-16 题 5-10 图",
+            "(a)电涡流式测振仪测量主轴的轴向振动 (b)振动波形",
+            "5-11 电涡流式传感器线圈的外径、内径和厚度分别为 8 mm、3 mm 和 2 mm",
+            "49"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张打开的中文理工科教材页面特写，页面上印有电路原理图、数据波形图以及相关的习题文字，右下角有人手按住书页。",
+          "safe_facts": [
+            "图片展示了包含技术图表和文字的印刷品页面",
+            "可见几何线条构成的电路符号和坐标轴图表",
+            "页面布局为典型的教科书排版风格"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 6652592,
+        "request_bytes": 4986371,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.790980700003274,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "30f87d32069e396c772555792a5fd7751ba9267ef0d57a600028ed3fb2df9223"
+}

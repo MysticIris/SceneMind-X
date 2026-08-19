@@ -1,0 +1,125 @@
+{
+  "asset_id": "af4a1b315238a5a0",
+  "asset_sha256": "af4a1b315238a5a0b445aa5192acc1b6f17ceab51782a989caa4086dcb1aa097",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"游戏角色表情包\",\n    \"short_description\": \"一张以游戏角色头像为核心的网络迷因图。画面中央是一个粉紫色头发、面带夸张笑容的卡通女性角色头部，周围环绕着三个圆形的游戏技能图标。背景为模糊的黑白书法字体，底部配有两行黑色中文标语，整体呈现出幽默调侃的风格。\",\n    \"micro_tags\": [\n      \"游戏表情包\",\n      \"卡通头像\",\n      \"技能图标\",\n      \"网络迷因\",\n      \"趣味文字\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"mixed\",\n    \"scene\": \"白色背景上的图文合成设计\",\n    \"subjects\": [\n      \"粉发卡通角色头像\",\n      \"圆形技能图标\",\n      \"中文文本\",\n      \"模糊背景字\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"彩色\",\n      \"二维平面\",\n      \"拼贴风格\",\n      \"高饱和度\"\n    ],\n    \"relations\": [\n      \"角色头像位于画面中上部\",\n      \"技能图标分布在角色周围\",\n      \"说明性文字位于画面底部\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面中心是一个拥有粉紫色蓬松头发、蓝色眼睛和露齿笑容的3D卡通女性角色头部。\",\n      \"角色周围悬浮着三个带有金色边框的圆形图标，分别包含奔跑人形、火焰猫头和加速小人的图案。\",\n      \"图片底部有两行清晰的黑色黑体中文字符。\",\n      \"背景中有巨大的、经过高斯模糊处理的黑色汉字笔画。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据图标样式（如闪现、伤害、加速）和角色造型，这看起来像是MOBA类手机游戏的玩家自制表情包。\",\n      \"底部的文字内容可能是对角色 gameplay 特点（如灵活、难抓）的调侃或自述。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定该角色的具体官方名称或所属游戏的确切版本。\",\n      \"背景模糊的大字具体内容难以完全辨认，推测可能是“中路”或相关词汇。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"闪现\",\n      \"伤害\",\n      \"加速\",\n      \"你抓不住我\",\n      \"我是中路灵活的小见猫\",\n      \"@虎扑JR0413501840\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张包含卡通人物头像、三个圆形功能图标以及底部两行中文说明文字的合成图片，背景有模糊的黑色字迹。\",\n    \"safe_facts\": [\n      \"图片主体为一个彩色的卡通人物头部特写。\",\n      \"画面中包含三个圆形的UI风格图标。\",\n      \"图片下半部分排列着黑色的中文句子。\"\n    ]\n  }\n}",
+      "input_tokens": 2232,
+      "output_tokens": 701,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 2232,
+        "output_tokens": 701,
+        "total_tokens": 2933,
+        "estimated_cost_cny": 0.010072,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "游戏角色表情包",
+          "short_description": "一张以游戏角色头像为核心的网络迷因图。画面中央是一个粉紫色头发、面带夸张笑容的卡通女性角色头部，周围环绕着三个圆形的游戏技能图标。背景为模糊的黑白书法字体，底部配有两行黑色中文标语，整体呈现出幽默调侃的风格。",
+          "micro_tags": [
+            "游戏表情包",
+            "卡通头像",
+            "技能图标",
+            "网络迷因",
+            "趣味文字"
+          ]
+        },
+        "facts": {
+          "visual_medium": "mixed",
+          "scene": "白色背景上的图文合成设计",
+          "subjects": [
+            "粉发卡通角色头像",
+            "圆形技能图标",
+            "中文文本",
+            "模糊背景字"
+          ],
+          "actions": [],
+          "attributes": [
+            "彩色",
+            "二维平面",
+            "拼贴风格",
+            "高饱和度"
+          ],
+          "relations": [
+            "角色头像位于画面中上部",
+            "技能图标分布在角色周围",
+            "说明性文字位于画面底部"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "画面中心是一个拥有粉紫色蓬松头发、蓝色眼睛和露齿笑容的3D卡通女性角色头部。",
+            "角色周围悬浮着三个带有金色边框的圆形图标，分别包含奔跑人形、火焰猫头和加速小人的图案。",
+            "图片底部有两行清晰的黑色黑体中文字符。",
+            "背景中有巨大的、经过高斯模糊处理的黑色汉字笔画。"
+          ],
+          "cautious_inferences": [
+            "根据图标样式（如闪现、伤害、加速）和角色造型，这看起来像是MOBA类手机游戏的玩家自制表情包。",
+            "底部的文字内容可能是对角色 gameplay 特点（如灵活、难抓）的调侃或自述。"
+          ],
+          "uncertainties": [
+            "无法确定该角色的具体官方名称或所属游戏的确切版本。",
+            "背景模糊的大字具体内容难以完全辨认，推测可能是“中路”或相关词汇。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "闪现",
+            "伤害",
+            "加速",
+            "你抓不住我",
+            "我是中路灵活的小见猫",
+            "@虎扑JR0413501840"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张包含卡通人物头像、三个圆形功能图标以及底部两行中文说明文字的合成图片，背景有模糊的黑色字迹。",
+          "safe_facts": [
+            "图片主体为一个彩色的卡通人物头部特写。",
+            "画面中包含三个圆形的UI风格图标。",
+            "图片下半部分排列着黑色的中文句子。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 273636,
+        "request_bytes": 202153,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.181319000002986,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "5ff90e4c882b1d526943563bdcc62467399cdcba6808f94255abb85b4b37f2d7"
+}

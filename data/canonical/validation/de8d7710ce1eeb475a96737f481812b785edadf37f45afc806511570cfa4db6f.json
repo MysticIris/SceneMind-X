@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2016.jpg",
+    "relative_path": "val/2016.jpg",
+    "sha256": "de8d7710ce1eeb475a96737f481812b785edadf37f45afc806511570cfa4db6f",
+    "split": "val"
+  },
+  "canonical_sha256": "8bef018a760b5d8271ba01516fbf8aaee4ccba6ea01d1c92bb7af208a6388a6e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "室内",
+      "会议桌",
+      "多人",
+      "冬季服装"
+    ],
+    "short_description": "三名男子围坐在一张长木桌旁，穿着厚外套，似乎在参与讨论或听讲。",
+    "theme": "三人会议室内景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "三名男性并排坐在一张长条形木纹桌子旁。",
+      "背景中有两个木质文件柜和一扇带窗帘的窗户。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "戴眼镜",
+      "穿夹克",
+      "坐姿端正"
+    ],
+    "relations": [
+      "三人在同一张桌子旁。"
+    ],
+    "scene": "室内办公或会议室环境",
+    "subjects": [
+      "三名男性"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三名男性并排坐在一张长条形木纹桌子旁；背景中有两个木质文件柜和一扇带窗帘的窗户。",
+    "safe_facts": [
+      "三名男性并排坐在一张长条形木纹桌子旁。",
+      "背景中有两个木质文件柜和一扇带窗帘的窗户。"
+    ]
+  },
+  "label_id": "cpl_abab9aea74f8b05835ac94f9",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/val/val_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "e32d3af75c130700fc73cbca19128fe8491843a5f2d834ae73a5bd88abf3c6d1",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T15:48:45.068723+00:00",
+    "migrated_at": "2026-08-03T15:48:45.070135+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "380fcac8257884d87b45e7280ac161081be03c72775ee60cd45b346e584cbdbc",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e0d046d39fc1f76e02eda2a8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:48:45.070332+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "三名人物、会议桌和室内位置关系描述准确。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e0d046d39fc1f76e02eda2a8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

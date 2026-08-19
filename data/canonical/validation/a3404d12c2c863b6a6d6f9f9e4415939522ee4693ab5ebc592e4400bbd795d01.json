@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2239.jpg",
+    "relative_path": "val/2239.jpg",
+    "sha256": "a3404d12c2c863b6a6d6f9f9e4415939522ee4693ab5ebc592e4400bbd795d01",
+    "split": "val"
+  },
+  "canonical_sha256": "d3b809441a9abb4c16a5e0d4a15fb23d9da8d3ef317cb5ac918a95d71cd3b596",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "水母",
+      "深蓝海水",
+      "发光生物",
+      "海洋生物"
+    ],
+    "short_description": "深蓝色水域中漂浮着大量半透明水母，形态各异，发出淡绿色荧光，营造梦幻海洋氛围。",
+    "theme": "水母群游"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见多个形态不同的水母悬浮于深蓝色背景中。",
+      "水母整体呈现半透明质感并带有淡绿色荧光效果。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "半透明",
+      "淡绿色荧光",
+      "漂浮"
+    ],
+    "relations": [],
+    "scene": "水族馆或海洋环境中的水母群",
+    "subjects": [
+      "水母"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见多个形态不同的水母悬浮于深蓝色背景中；水母整体呈现半透明质感并带有淡绿色荧光效果。",
+    "safe_facts": [
+      "画面中可见多个形态不同的水母悬浮于深蓝色背景中。",
+      "水母整体呈现半透明质感并带有淡绿色荧光效果。"
+    ]
+  },
+  "label_id": "cpl_68ee08eea2215e0fac583779",
+  "provenance": {
+    "generated_at": "2026-08-03T16:16:42.570890+00:00",
+    "migrated_at": "2026-08-03T16:16:42.572392+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "93613dae72720dec7718a66493da14a960a8c715900f3326ad32293c1dfb6dbd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2c329e388471d8032d9fac59",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:16:42.572586+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2c329e388471d8032d9fac59"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

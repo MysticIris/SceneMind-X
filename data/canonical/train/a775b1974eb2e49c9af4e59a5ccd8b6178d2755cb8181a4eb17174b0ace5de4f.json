@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1532.jpg",
+    "relative_path": "train/1532.jpg",
+    "sha256": "a775b1974eb2e49c9af4e59a5ccd8b6178d2755cb8181a4eb17174b0ace5de4f",
+    "split": "train"
+  },
+  "canonical_sha256": "d763000baa16c47f3abf0e4df2c1764a90d250702881d90b782df12565fcf12f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "四足机器人",
+      "科技展览",
+      "产品展示"
+    ],
+    "short_description": "蓝色四足机器人陈列于展台，背景有儿童座椅和设备，配有说明牌。",
+    "theme": "机器人展示"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "机器人呈四足站立姿态，主体为蓝色和黑色。",
+      "机器人放置在白色展台上，前方有木质底座的说明牌。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色外壳",
+      "黑色关节",
+      "四条腿",
+      "站立姿态"
+    ],
+    "relations": [
+      "机器人位于展示台上。",
+      "机器人前方有说明牌。",
+      "儿童座椅在机器人后方。"
+    ],
+    "scene": "室内展览台",
+    "subjects": [
+      "蓝色四足机器人",
+      "儿童安全座椅",
+      "白色折叠椅",
+      "透明展示板"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "机器人呈四足站立姿态，主体为蓝色和黑色；机器人放置在白色展台上，前方有木质底座的说明牌。",
+    "safe_facts": [
+      "机器人呈四足站立姿态，主体为蓝色和黑色。",
+      "机器人放置在白色展台上，前方有木质底座的说明牌。"
+    ]
+  },
+  "label_id": "cpl_27e7e28849cad4a7314e1598",
+  "provenance": {
+    "generated_at": "2026-08-03T14:34:42.742068+00:00",
+    "migrated_at": "2026-08-03T14:34:42.748026+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ef760354d06a95369ed309100582ef1e76c3b980bc6dc6d051b0c3b3a3d7ec7b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2c5834579ac77b6ebb9b3404",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:34:42.751010+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2c5834579ac77b6ebb9b3404"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "绝影",
+      "京士堂工",
+      "HUAWEI Mate 10 Pro NEW LEICA DUAL CAMERA"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "绝影",
+      "京士堂工",
+      "HUAWEI Mate 10 Pro NEW LEICA DUAL CAMERA"
+    ]
+  }
+}

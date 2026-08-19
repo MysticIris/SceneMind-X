@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1003.jpg",
+    "relative_path": "train/1003.jpg",
+    "sha256": "8621288236393b944c7054cfcda6125e622ddba9a19a790b585a7015c12fccdd",
+    "split": "train"
+  },
+  "canonical_sha256": "400b3fb1455b5664896431295c5c013cc9abf4145055aca19a1d89bcd188a157",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "山峰",
+      "徒步者",
+      "日出",
+      "自然风光"
+    ],
+    "short_description": "一人立于陡峭山脊之上，远眺层叠起伏的山脉，晨光洒落，光影交错，天地辽阔。",
+    "theme": "山巅孤影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线从上方照射，可能为日出或日落时段。"
+    ],
+    "direct_observations": [
+      "画面中有一人站在崎岖山脊上。",
+      "背景呈现多层连绵山脉，由近及远逐渐模糊。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "穿着浅色上衣",
+      "站立姿态"
+    ],
+    "relations": [
+      "人位于山脊上。"
+    ],
+    "scene": "高山山脊",
+    "subjects": [
+      "人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线从上方照射，可能为日出或日落时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一人站在崎岖山脊上；背景呈现多层连绵山脉，由近及远逐渐模糊。",
+    "safe_facts": [
+      "画面中有一人站在崎岖山脊上。",
+      "背景呈现多层连绵山脉，由近及远逐渐模糊。"
+    ]
+  },
+  "label_id": "cpl_1aa4bbc2c79c051c9a9fe9be",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/train/train_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "170dc34eb8269f1babe6835cdb58f23286285057aea88fcd9025beb9e0166c19",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-02T22:18:54.629708+00:00",
+    "migrated_at": "2026-08-03T07:13:41.557751+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b663788199a046c56eaff8bdb85f3f719f3f8fa19d0dd0812ca1ed0db0873519",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d90325f51f202a187d32ae40",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:16.609409+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "远景山脉与人物位置描述符合原图。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d90325f51f202a187d32ae40",
+    "cpl_38c659cdedc86dace1b04651"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2036.jpg",
+    "relative_path": "val/2036.jpg",
+    "sha256": "77f7361ad19cc7f9947f811b458210b7c6448131bd86e4ea2ca3d876779989fc",
+    "split": "val"
+  },
+  "canonical_sha256": "296bcb0b451054fe7aff4c67a22e3fbe43ea2a1c4db898377225979ba05bae14",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "官方讲话",
+      "红色牌匾"
+    ],
+    "short_description": "投影屏幕显示关于的官方讲话内容及配套视觉元素，包括红色牌匾和金币堆叠。",
+    "theme": "主题展示"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕上显示一段中文讲话内容。",
+      "屏幕下方有一个红色牌匾，上面有金色汉字。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "牌匾为红色",
+      "金币呈堆叠状"
+    ],
+    "relations": [
+      "牌匾位于屏幕下方前景位置。",
+      "金币堆叠物位于牌匾前方。"
+    ],
+    "scene": "投影屏幕展示政治宣传内容",
+    "subjects": [
+      "红色牌匾",
+      "金币堆叠物"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕上显示一段中文讲话内容；屏幕下方有一个红色牌匾，上面有金色汉字。",
+    "safe_facts": [
+      "屏幕上显示一段中文讲话内容。",
+      "屏幕下方有一个红色牌匾，上面有金色汉字。"
+    ]
+  },
+  "label_id": "cpl_9110f88c694ddcc04e6048cc",
+  "provenance": {
+    "generated_at": "2026-08-03T15:51:50.593446+00:00",
+    "migrated_at": "2026-08-03T15:51:50.595277+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "74a6489dc0321645a4898d9f0aa44fbb905d4eabf6a4f24542f174dc50f4ef9f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a9c48d3f84a9aad8a7e64343",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:51:50.595819+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a9c48d3f84a9aad8a7e64343"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "我们始终坚定人民立场,强调消除贫困、改善民生、实现共同富裕是社会主义的本质要求,",
+      "——2021年2月25日,习近平在全国脱贫攻坚总结表彰大会上的讲话",
+      "共同富裕"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "我们始终坚定人民立场,强调消除贫困、改善民生、实现共同富裕是社会主义的本质要求,",
+      "——2021年2月25日,习近平在全国脱贫攻坚总结表彰大会上的讲话",
+      "共同富裕"
+    ]
+  }
+}

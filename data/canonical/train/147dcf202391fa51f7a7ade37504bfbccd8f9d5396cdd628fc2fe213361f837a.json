@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1866.jpg",
+    "relative_path": "train/1866.jpg",
+    "sha256": "147dcf202391fa51f7a7ade37504bfbccd8f9d5396cdd628fc2fe213361f837a",
+    "split": "train"
+  },
+  "canonical_sha256": "f099a059894d1a5939ccea2a9efd7a80dbf1d3419fa4947c44a3e97ee727af72",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "幻灯片"
+    ],
+    "short_description": "左下角有一个红色五角星标志。",
+    "theme": "幻灯片内容与红色五角星标志"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "左下角有一个红色五角星标志。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色背景",
+      "灰色城市剪影背景"
+    ],
+    "relations": [],
+    "scene": "",
+    "subjects": [
+      "幻灯片内容",
+      "红色五角星标志"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "左下角有一个红色五角星标志。",
+    "safe_facts": [
+      "左下角有一个红色五角星标志。"
+    ]
+  },
+  "label_id": "cpl_a9126c85dc07f59b0ac41704",
+  "provenance": {
+    "generated_at": "2026-08-03T15:16:11.379641+00:00",
+    "migrated_at": "2026-08-03T15:16:11.381588+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "df899aaff56f6f1c52aabd5c0719fd342597600aa6cfdc9b25e04b1adf0626dc",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ef81a8e5689cb5461d02b505",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:16:11.382261+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ef81a8e5689cb5461d02b505"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "马克思主文青年观——不断丰富发展的思想观点体系",
+      "经典观点:对青年地位、作用、本质的认识——本体论",
+      "重要观点:关于青年运动的观点、关于青年组织的观点、关于青年工作的观点;关于青年干",
+      "青年是(社会)革命事业的未来和希望。",
+      "青年是一支最有生气的社会力量,是生力军是突击队是先锋力量。",
+      "青年处于成长时期:身体的成长、智慧的成长、政治素质和价值观的形成期——面临众多自"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "马克思主文青年观——不断丰富发展的思想观点体系",
+      "经典观点:对青年地位、作用、本质的认识——本体论",
+      "重要观点:关于青年运动的观点、关于青年组织的观点、关于青年工作的观点;关于青年干",
+      "青年是(社会)革命事业的未来和希望。",
+      "青年是一支最有生气的社会力量,是生力军是突击队是先锋力量。",
+      "青年处于成长时期:身体的成长、智慧的成长、政治素质和价值观的形成期——面临众多自"
+    ]
+  }
+}

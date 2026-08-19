@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2229.jpg",
+    "relative_path": "val/2229.jpg",
+    "sha256": "97040c4fdc67eb19c81d9fec08466f28014abca091ec2bd238e24e07be56b4c7",
+    "split": "val"
+  },
+  "canonical_sha256": "ccbc1a69bc71d7f6ed0dcf2c9f694e72c7c3cb4026a646c26a9429b2c1e6b6d4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "猫",
+      "梳理毛发",
+      "户外",
+      "棕黑虎斑"
+    ],
+    "short_description": "一只棕黑色虎斑猫在杂草丛生的地面蜷缩着，正低头舔舐自己的前爪进行清洁。",
+    "theme": "猫在户外梳理毛发"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "猫身体呈棕黑相间虎斑纹路。",
+      "猫四肢伸展，头部低垂正在舔舐前爪。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "舔舐",
+      "蜷缩"
+    ],
+    "attributes": [
+      "棕黑色虎斑花纹",
+      "低垂耳朵",
+      "粉色舌头"
+    ],
+    "relations": [
+      "猫位于地面植被旁。"
+    ],
+    "scene": "户外地面，有植被和枯枝落叶",
+    "subjects": [
+      "一只猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "猫身体呈棕黑相间虎斑纹路；猫四肢伸展，头部低垂正在舔舐前爪。",
+    "safe_facts": [
+      "猫身体呈棕黑相间虎斑纹路。",
+      "猫四肢伸展，头部低垂正在舔舐前爪。"
+    ]
+  },
+  "label_id": "cpl_d1c66d404ca2ed6a1b42091a",
+  "provenance": {
+    "generated_at": "2026-08-03T16:15:29.056551+00:00",
+    "migrated_at": "2026-08-03T16:15:29.058220+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "81dccda9bc661f85413a9c71b34edfd08ac6202ddf10b069e4a6eb15d51bbb34",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_728a63b4ad4607df8065a107",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:15:29.058523+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_728a63b4ad4607df8065a107"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

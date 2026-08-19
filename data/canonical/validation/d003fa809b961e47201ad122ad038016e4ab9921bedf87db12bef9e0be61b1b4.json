@@ -1,0 +1,138 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2077.jpg",
+    "relative_path": "val/2077.jpg",
+    "sha256": "d003fa809b961e47201ad122ad038016e4ab9921bedf87db12bef9e0be61b1b4",
+    "split": "val"
+  },
+  "canonical_sha256": "9cb302a8d10789cd8e04bb6a407738a30a2221ee93dd6c73220c0279d248b7ff",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [],
+    "short_description": "一张展示不同系数下系统与特性的表格，含图形示意。",
+    "theme": "系统响应特性表"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见表格。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色背景",
+      "分栏结构",
+      "包含数学符号"
+    ],
+    "relations": [],
+    "scene": "一张显示控制理论中阻尼系统响应特性的表格截图",
+    "subjects": [
+      "表格"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见表格。",
+    "safe_facts": [
+      "画面中可见表格。"
+    ]
+  },
+  "label_id": "cpl_966042ccf4b7284701760994",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/val/val_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "e32d3af75c130700fc73cbca19128fe8491843a5f2d834ae73a5bd88abf3c6d1",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T15:56:19.400507+00:00",
+    "migrated_at": "2026-08-03T15:56:19.402082+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fd7ac1770efd57489f30dac7aaa9871154045de45bc1f3c1d93ef04897c0951e",
+    "recovered_at_tokens": 768,
+    "source_label_id": "cpl_4ff0ed3d7fefad764ba784f1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:56:19.402439+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [
+      "removed_unverified_text:direct_observations",
+      "removed_unverified_text:micro_tags",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_safe_facts_empty",
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_768_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "768 恢复标签正确概括系统特性表格和曲线。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4ff0ed3d7fefad764ba784f1"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "ζ",
+      "阻尼",
+      "极点位置",
+      "极点描述",
+      "单位阶跃响应",
+      "响应描述"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "ζ",
+      "阻尼",
+      "极点位置",
+      "极点描述",
+      "单位阶跃响应",
+      "响应描述"
+    ]
+  }
+}

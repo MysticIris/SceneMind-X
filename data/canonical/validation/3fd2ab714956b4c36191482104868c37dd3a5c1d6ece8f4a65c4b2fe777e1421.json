@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2208.jpg",
+    "relative_path": "val/2208.jpg",
+    "sha256": "3fd2ab714956b4c36191482104868c37dd3a5c1d6ece8f4a65c4b2fe777e1421",
+    "split": "val"
+  },
+  "canonical_sha256": "33c06d2bec2f718908f7cdf0d7a55dce7ee14ddf330b087c548019b23fbe097e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄蛇",
+      "人造草坪",
+      "盘绕",
+      "岩石装饰"
+    ],
+    "short_description": "一条黄色花纹蛇盘踞在人造草坪上，周围有岩石和木头装饰，环境模拟自然栖息地。",
+    "theme": "黄蛇栖息草地上"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "蛇可能处于休息状态。"
+    ],
+    "direct_observations": [
+      "蛇身体呈黄色并带有白色斑纹。",
+      "蛇盘绕在绿色人造草地上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黄色鳞片",
+      "白色斑纹",
+      "盘绕姿态"
+    ],
+    "relations": [
+      "蛇位于人造草坪上。",
+      "蛇周围有岩石和木头。"
+    ],
+    "scene": "人工布置的蛇类栖息环境",
+    "subjects": [
+      "一条黄色蛇"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "蛇可能处于休息状态。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "蛇身体呈黄色并带有白色斑纹；蛇盘绕在绿色人造草地上。",
+    "safe_facts": [
+      "蛇身体呈黄色并带有白色斑纹。",
+      "蛇盘绕在绿色人造草地上。"
+    ]
+  },
+  "label_id": "cpl_6bb22eda4f1282a43bf6d53c",
+  "provenance": {
+    "generated_at": "2026-08-03T16:13:58.498759+00:00",
+    "migrated_at": "2026-08-03T16:13:58.500777+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cd44b6d0f7f8094b0c7c89dba22c080971ade00ea9369b1550c45b247d889c32",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5c975480523d88ab5a8c5899",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:13:58.500978+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5c975480523d88ab5a8c5899"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

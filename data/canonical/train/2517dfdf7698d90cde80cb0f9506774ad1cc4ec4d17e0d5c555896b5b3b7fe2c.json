@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1744.jpg",
+    "relative_path": "train/1744.jpg",
+    "sha256": "2517dfdf7698d90cde80cb0f9506774ad1cc4ec4d17e0d5c555896b5b3b7fe2c",
+    "split": "train"
+  },
+  "canonical_sha256": "4c4e7ae750383334428c2c189d5f0b2944a45589e84c212cb99a507f1d46034e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "溪流",
+      "枯枝",
+      "花苞",
+      "自然景观"
+    ],
+    "short_description": "溪流旁枯枝上点缀着淡黄色花苞，水面倒映着岸边植被，整体色调偏暗，呈现静谧自然氛围。",
+    "theme": "溪边初春景象"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "花苞可能处于早春绽放前的状态。"
+    ],
+    "direct_observations": [
+      "画面中可见溪流及沿岸的枯枝。",
+      "枯枝上分布有淡黄色小花苞。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "淡黄色花苞",
+      "枯枝",
+      "深色溪水",
+      "暗色调环境"
+    ],
+    "relations": [
+      "枯枝位于溪流边缘。",
+      "花苞附着于枯枝上。",
+      "溪水倒映岸边植被。"
+    ],
+    "scene": "溪流与河岸",
+    "subjects": [
+      "枯枝",
+      "花苞",
+      "溪水",
+      "岸边植被"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "花苞可能处于早春绽放前的状态。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见溪流及沿岸的枯枝；枯枝上分布有淡黄色小花苞。",
+    "safe_facts": [
+      "画面中可见溪流及沿岸的枯枝。",
+      "枯枝上分布有淡黄色小花苞。"
+    ]
+  },
+  "label_id": "cpl_116b955a0cacba03916ec54b",
+  "provenance": {
+    "generated_at": "2026-08-03T15:01:56.956901+00:00",
+    "migrated_at": "2026-08-03T15:01:56.958693+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4d4c64fd53aaac1e5c9d3f3fc77e9e6e956a4ce65a1c9427313a1a4c8eea47e4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8056cde74f1767017124cf9d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:01:56.958892+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8056cde74f1767017124cf9d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "asset_id": "2c1e701f1b445a5a",
+  "asset_sha256": "2c1e701f1b445a5a1f3f97f1186c8064fe8964f2ab87561d27d950d0849c2eb5",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"学院楼入口与自动售货设施\",\n    \"short_description\": \"图片展示了一栋现代建筑的一层入口区域，上方悬挂有包含“生命科学”字样的蓝色立体招牌。入口处设有玻璃雨棚和台阶，左侧有一个带蓝白条纹遮阳篷的小型服务点，右侧并排摆放着一台红色饮料自动售货机和一台白色零食售货机。前景地面铺有地砖，放置有红白交通锥。\",\n    \"micro_tags\": [\n      \"建筑入口\",\n      \"自动售货机\",\n      \"校园设施\",\n      \"玻璃雨棚\",\n      \"交通锥\",\n      \"便利店\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"建筑物外部入口及门前广场\",\n    \"subjects\": [\n      \"建筑立面\",\n      \"招牌\",\n      \"自动售货机\",\n      \"小型商铺\",\n      \"交通锥\",\n      \"台阶\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"玻璃幕墙\",\n      \"混凝土墙面\",\n      \"金属框架雨棚\",\n      \"蓝白条纹遮阳篷\",\n      \"红色机身\",\n      \"白色机身\",\n      \"砖铺地面\"\n    ],\n    \"relations\": [\n      \"售货机位于入口右侧\",\n      \"商铺位于入口左侧\",\n      \"招牌悬挂于雨棚上方\",\n      \"交通锥位于前景地面\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"建筑入口上方安装有大型蓝色立体汉字招牌，下方有对应的英文翻译行。\",\n      \"入口右侧放置有一台红色的瓶装饮料自动售货机和一台白色的格子式零食售货机。\",\n      \"入口左侧设有一个带有蓝白条纹伸缩遮阳篷的小型售卖亭，前方立有蓝色广告牌。\",\n      \"前景的砖石地面上放置有两个橙红色的交通反光锥。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据招牌上的文字内容，该建筑可能属于某高校的生命科学与技术学院。\",\n      \"左侧的小型售卖亭看起来像是一个提供咖啡或简餐的服务点。\"\n    ],\n    \"uncertainties\": [\n      \"无法确认拍摄的具体时间和天气状况，虽然光线均匀看似阴天。\",\n      \"无法确认售货机内商品的具体品牌细节。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"生命科学与...\",\n      \"COLLEGE OF LIFE SCIENCE AND TECHNOLOGY...\",\n      \"Life Nook\",\n      \"农夫山泉\",\n      \"COFFEE\",\n      \"A Nook for Life, A Break for Science.\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张展示建筑物入口处的照片，可见玻璃雨棚、台阶、左侧带遮阳篷的小店以及右侧红白两色的自动售货机，地面有交通锥。\",\n    \"safe_facts\": [\n      \"画面主体为一栋建筑的底层入口，具有玻璃和金属结构的雨棚。\",\n      \"入口两侧分别设有商业服务设施，包括一个小亭子和两台自动售货设备。\",\n      \"地面铺设了互锁砖块，并放置有安全警示用的圆锥筒。\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 769,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 769,
+        "total_tokens": 3974,
+        "estimated_cost_cny": 0.012562,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "学院楼入口与自动售货设施",
+          "short_description": "图片展示了一栋现代建筑的一层入口区域，上方悬挂有包含“生命科学”字样的蓝色立体招牌。入口处设有玻璃雨棚和台阶，左侧有一个带蓝白条纹遮阳篷的小型服务点，右侧并排摆放着一台红色饮料自动售货机和一台白色零食售货机。前景地面铺有地砖，放置有红白交通锥。",
+          "micro_tags": [
+            "建筑入口",
+            "自动售货机",
+            "校园设施",
+            "玻璃雨棚",
+            "交通锥",
+            "便利店"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "建筑物外部入口及门前广场",
+          "subjects": [
+            "建筑立面",
+            "招牌",
+            "自动售货机",
+            "小型商铺",
+            "交通锥",
+            "台阶"
+          ],
+          "actions": [],
+          "attributes": [
+            "玻璃幕墙",
+            "混凝土墙面",
+            "金属框架雨棚",
+            "蓝白条纹遮阳篷",
+            "红色机身",
+            "白色机身",
+            "砖铺地面"
+          ],
+          "relations": [
+            "售货机位于入口右侧",
+            "商铺位于入口左侧",
+            "招牌悬挂于雨棚上方",
+            "交通锥位于前景地面"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "建筑入口上方安装有大型蓝色立体汉字招牌，下方有对应的英文翻译行。",
+            "入口右侧放置有一台红色的瓶装饮料自动售货机和一台白色的格子式零食售货机。",
+            "入口左侧设有一个带有蓝白条纹伸缩遮阳篷的小型售卖亭，前方立有蓝色广告牌。",
+            "前景的砖石地面上放置有两个橙红色的交通反光锥。"
+          ],
+          "cautious_inferences": [
+            "根据招牌上的文字内容，该建筑可能属于某高校的生命科学与技术学院。",
+            "左侧的小型售卖亭看起来像是一个提供咖啡或简餐的服务点。"
+          ],
+          "uncertainties": [
+            "无法确认拍摄的具体时间和天气状况，虽然光线均匀看似阴天。",
+            "无法确认售货机内商品的具体品牌细节。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "生命科学与...",
+            "COLLEGE OF LIFE SCIENCE AND TECHNOLOGY...",
+            "Life Nook",
+            "农夫山泉",
+            "COFFEE",
+            "A Nook for Life, A Break for Science."
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张展示建筑物入口处的照片，可见玻璃雨棚、台阶、左侧带遮阳篷的小店以及右侧红白两色的自动售货机，地面有交通锥。",
+          "safe_facts": [
+            "画面主体为一栋建筑的底层入口，具有玻璃和金属结构的雨棚。",
+            "入口两侧分别设有商业服务设施，包括一个小亭子和两台自动售货设备。",
+            "地面铺设了互锁砖块，并放置有安全警示用的圆锥筒。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 5653740,
+        "request_bytes": 4237231,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 16.104948300002434,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "2e28c15ba84caf9e244176b4775840e5ad6a935d1f7f6289e543cbaff342fd36"
+}

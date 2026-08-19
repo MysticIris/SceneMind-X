@@ -1,0 +1,140 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:607.jpg",
+    "relative_path": "train/607.jpg",
+    "sha256": "cff4ace0646ec997eaaa273c915e99e6eceb6d64f10b931c4c51781250101708",
+    "split": "train"
+  },
+  "canonical_sha256": "8f44eb556851f753ef2b968b0fc048372ef852a435610b8acaf6c7da98ce0cc8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "奶茶",
+      "卡通贴纸",
+      "木质桌面",
+      "可降解吸管"
+    ],
+    "short_description": "一杯带卡通贴纸的冰镇奶茶置于木纹桌面上，旁边放着可降解吸管，背景是模糊的咖啡馆环境。",
+    "theme": "奶茶杯与木质桌面"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "饮料可能是冰镇的，因为杯壁有水珠且杯内有冰块或珍珠状物。"
+    ],
+    "direct_observations": [
+      "杯子表面有冷凝水珠。",
+      "杯身贴有动漫风格圆形贴纸。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "透明塑料杯",
+      "带盖子",
+      "杯身有贴纸",
+      "杯壁有水珠",
+      "吸管为可降解材质"
+    ],
+    "relations": [
+      "奶茶杯放在木桌上。",
+      "吸管放在奶茶杯旁。"
+    ],
+    "scene": "室内咖啡馆或饮品店",
+    "subjects": [
+      "奶茶杯",
+      "木桌",
+      "背景顾客"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "饮料可能是冰镇的，因为杯壁有水珠且杯内有冰块或珍珠状物。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "杯子表面有冷凝水珠；杯身贴有动漫风格圆形贴纸。",
+    "safe_facts": [
+      "杯子表面有冷凝水珠。",
+      "杯身贴有动漫风格圆形贴纸。"
+    ]
+  },
+  "label_id": "cpl_c634ee048037a3e9a8acd320",
+  "provenance": {
+    "generated_at": "2026-08-03T11:43:27.616785+00:00",
+    "migrated_at": "2026-08-03T11:43:27.618592+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fa19ea2c4a578d514cc94f79a9a3dfb461506505783e14cf32f9d347dc84e1a1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0f8a108bcf383d7d685488b3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:43:27.619238+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0f8a108bcf383d7d685488b3"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "PLA可降解环保吸管",
+      "源于植物资源,可生物降解",
+      "缘华·寒霜龙眼椰",
+      "丝打冰沙"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "PLA可降解环保吸管",
+      "源于植物资源,可生物降解",
+      "缘华·寒霜龙眼椰",
+      "丝打冰沙"
+    ]
+  }
+}

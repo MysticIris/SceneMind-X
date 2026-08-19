@@ -1,0 +1,66 @@
+{
+  "asset_id": "434a24ae12801c90",
+  "asset_sha256": "434a24ae12801c9085644eeefe9dd6b88547e99a556f0c280ecb487a4163105c",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"手机天气应用界面截图\",\n    \"short_description\": \"这是一张智能手机天气应用程序的深色模式界面截图。屏幕顶部显示当前时间为03:48，地点标注为“鞍山市铁东区”，实时气温3度，天气状况为多云。界面中部包含每小时天气预报条，下方列出了未来10日的天气趋势，显示了从周四到周五的气温剧烈变化，最低温达零下19度，并配有相应的晴、云、风等气象图标及温度进度条。\",\n    \"micro_tags\": [\n      \"天气预报\",\n      \"手机截图\",\n      \"深色模式\",\n      \"气温数据\",\n      \"鞍山\",\n      \"UI界面\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动设备操作系统界面\",\n    \"subjects\": [\n      \"天气应用程序窗口\",\n      \"状态栏信息\",\n      \"温度曲线图\",\n      \"气象图标列表\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"深色背景\",\n      \"白色文字\",\n      \"蓝色温度指示条\",\n      \"黄色太阳图标\",\n      \"灰色云朵图标\"\n    ],\n    \"relations\": [\n      \"时间位于屏幕左上角\",\n      \"地点名称位于屏幕中上部\",\n      \"逐小时预报位于实时天气下方\",\n      \"十日预报列表位于屏幕下半部分\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕左上角显示数字时间“03:48”，右上角有电池电量图标显示“22”及信号格。\",\n      \"界面主要区域展示了多行天气数据，每行包含星期几（如“周四”、“周五”）、天气图标（太阳、云、风）以及左右两侧的温度数值（如“-16°”、“2°”）。\",\n      \"温度数值之间连接有水平进度条，颜色随温度高低呈现深蓝至浅蓝渐变。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局推测这是iOS或类似风格的智能手机原生天气应用。\",\n      \"显示的负温度值（如-19°）表明该地区正处于寒冷季节或寒潮期间。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"03:48\",\n      \"22\",\n      \"我的位置\",\n      \"鞍山市铁东区\",\n      \"3° | 多云\",\n      \"每小时天气预报\",\n      \"日出\",\n      \"10日天气预报\",\n      \"今天\",\n      \"周四\",\n      \"周五\",\n      \"周六\",\n      \"周日\",\n      \"周一\",\n      \"周二\",\n      \"周三\",\n      \"空气质量地图\",\n      \"宏伟区\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张展示详细气象数据的手机应用截图，采用深色主题设计。画面包含当前实时天气概况、逐小时变化趋势以及未来多日的温度预测列表，通过图标和彩色进度条直观呈现气温波动。\",\n    \"safe_facts\": [\n      \"图像为垂直构图的电子屏幕截图\",\n      \"界面背景为深灰黑色，文字",
+      "input_tokens": 3227,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 768,
+        "total_tokens": 3995,
+        "estimated_cost_cny": 0.012598,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "手机天气应用界面截图",
+        "short_description": "这是一张智能手机天气应用程序的深色模式界面截图。屏幕顶部显示当前时间为03:48，地点标注为“鞍山市铁东区”，实时气温3度，天气状况为多云。界面中部包含每小时天气预报条，下方列出了未来10日的天气趋势，显示了从周四到周五的气温剧烈变化，最低温达零下19度，并配有相应的晴、云、风等气象图标及温度进度条。",
+        "micro_tags": [
+          "天气预报",
+          "手机截图",
+          "深色模式",
+          "气温数据",
+          "鞍山",
+          "UI界面"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 7844660,
+        "request_bytes": 5880421,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.294188599997142,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "265cbad2d496045755073e4e5dd1888bcdee987439644eabe37ffaffba096299"
+}

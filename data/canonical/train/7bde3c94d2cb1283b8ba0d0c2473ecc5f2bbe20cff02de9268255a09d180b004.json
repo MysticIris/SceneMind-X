@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:906.jpg",
+    "relative_path": "train/906.jpg",
+    "sha256": "7bde3c94d2cb1283b8ba0d0c2473ecc5f2bbe20cff02de9268255a09d180b004",
+    "split": "train"
+  },
+  "canonical_sha256": "5f55991a868ba89e9c240b6f07f578355861fe615753a3400cc545337236fd73",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "学术讲座",
+      "教师介绍",
+      "大学讲堂"
+    ],
+    "short_description": "讲座现场，讲者站在讲台前，大屏幕显示教师名单及班级信息。",
+    "theme": "学术会议教师介绍"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "讲者身穿浅色衬衫，手持麦克风。",
+      "屏幕背景为深蓝色，带有科技感图案。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "讲者站立讲台前"
+    ],
+    "attributes": [
+      "讲台木质"
+    ],
+    "relations": [
+      "讲者位于讲台前方。",
+      "屏幕位于讲者后方。"
+    ],
+    "scene": "室内讲堂",
+    "subjects": [
+      "一名男性讲者",
+      "大型电子显示屏"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "讲者身穿浅色衬衫，手持麦克风；屏幕背景为深蓝色，带有科技感图案。",
+    "safe_facts": [
+      "讲者身穿浅色衬衫，手持麦克风。",
+      "屏幕背景为深蓝色，带有科技感图案。"
+    ]
+  },
+  "label_id": "cpl_7a9dc28c69d56087755ecd5a",
+  "provenance": {
+    "generated_at": "2026-08-03T12:47:49.110069+00:00",
+    "migrated_at": "2026-08-03T12:47:49.117365+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0841bf02491582753e4124bc6ac14b5aeeb51a9854767f46fb3c930a2c939de8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_44567ce567480cd1873fb237",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:47:49.120401+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_44567ce567480cd1873fb237"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "华中科技大学",
+      "TEACHERS",
+      "辅导员 李梦叶老师",
+      "研究生班主任",
+      "一班:杨尚旭同学",
+      "二班:胡耀丹同学"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "华中科技大学",
+      "TEACHERS",
+      "辅导员 李梦叶老师",
+      "研究生班主任",
+      "一班:杨尚旭同学",
+      "二班:胡耀丹同学"
+    ]
+  }
+}

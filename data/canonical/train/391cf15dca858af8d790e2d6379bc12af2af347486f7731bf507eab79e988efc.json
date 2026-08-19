@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:603.jpg",
+    "relative_path": "train/603.jpg",
+    "sha256": "391cf15dca858af8d790e2d6379bc12af2af347486f7731bf507eab79e988efc",
+    "split": "train"
+  },
+  "canonical_sha256": "cf53c4f5a92df94cdf26da8eb78b89f926d69dcc358e61aa1c8303e66c971b0f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪地",
+      "校园",
+      "建筑群",
+      "树木"
+    ],
+    "short_description": "雪覆盖的校园广场，几栋建筑环绕，树木和停放的车辆静立其中，前景有棕色标牌。",
+    "theme": "雪后校园"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面被白雪覆盖。",
+      "建筑物外墙为浅色砖块。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "积雪覆盖地面",
+      "建筑物多层",
+      "树木有绿叶"
+    ],
+    "relations": [
+      "树木位于建筑物前方。",
+      "车辆停放在左侧建筑旁。",
+      "标牌位于前景。"
+    ],
+    "scene": "雪后校园广场",
+    "subjects": [
+      "建筑物",
+      "树木",
+      "停放的车辆",
+      "地面积雪",
+      "标牌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面被白雪覆盖；建筑物外墙为浅色砖块。",
+    "safe_facts": [
+      "地面被白雪覆盖。",
+      "建筑物外墙为浅色砖块。"
+    ]
+  },
+  "label_id": "cpl_71fb7a8754c435450bb3dd63",
+  "provenance": {
+    "generated_at": "2026-08-03T11:42:42.413845+00:00",
+    "migrated_at": "2026-08-03T11:42:42.415244+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dc2f1c4baa1d51e36ec530669e326b4885e252fbb5827c0d12f5449120ca1a60",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_209c363718018ea9db20c39d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:42:42.415444+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_209c363718018ea9db20c39d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

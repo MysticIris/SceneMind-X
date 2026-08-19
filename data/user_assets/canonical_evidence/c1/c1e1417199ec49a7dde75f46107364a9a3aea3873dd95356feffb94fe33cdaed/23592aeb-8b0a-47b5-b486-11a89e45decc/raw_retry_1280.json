@@ -1,0 +1,144 @@
+{
+  "asset_id": "c1e1417199ec49a7",
+  "asset_sha256": "c1e1417199ec49a7dde75f46107364a9a3aea3873dd95356feffb94fe33cdaed",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"盲盒玩具包装展示\",\n    \"short_description\": \"一张手持拍摄的玩具包装盒背面照片。淡紫色背景上印有六款Q版卡通人物挂件图鉴，角色分别穿着熊猫、猪、熊、兔子等动物造型服饰，并配有中英文说明文字及概率标识。背景可见货架上堆叠的其他黑色与米色包装盒。\",\n    \"micro_tags\": [\n      \"盲盒\",\n      \"玩具包装\",\n      \"Q版公仔\",\n      \"挂件\",\n      \"POP MART\",\n      \"哪吒\",\n      \"敖丙\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"室内零售环境或收藏展示区\",\n    \"subjects\": [\n      \"玩具包装盒\",\n      \"手\",\n      \"货架\",\n      \"其他商品盒\"\n    ],\n    \"actions\": [\n      \"手持\",\n      \"展示\"\n    ],\n    \"attributes\": [\n      \"淡紫色背景\",\n      \"Q版卡通形象\",\n      \"动物拟人化造型\",\n      \"挂环设计\",\n      \"红色概率标签\"\n    ],\n    \"relations\": [\n      \"手握住包装盒右侧边缘\",\n      \"包装盒位于前景\",\n      \"其他盒子位于背景货架上\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面主体为一个长方体包装盒的背面，背景为淡紫色纹理。\",\n      \"盒面上排列着六个卡通人物形象，均带有顶部的挂环结构，看似钥匙扣或挂件。\",\n      \"每个形象旁都有竖排的中英文文字说明以及红底白字的'1/6'标识。\",\n      \"左侧背景中有黑色的盒子堆叠，侧面有红色的'POP MART'标志。\",\n      \"下方背景中有米黄色的盒子，同样印有红色的'POP MART'标志。\",\n      \"右下角可见一只手的大拇指和部分手掌正在握持该包装盒。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据'1/6'标识和多个不同造型推测，这是一套包含6种常规款式的盲盒或随机抽取类玩具。\",\n      \"根据文字内容（如'Nezha'、'Ao Bing'）推测，这些角色可能源自中国神话故事《封神演义》或相关动画电影。\",\n      \"拍摄地点可能是在泡泡玛特（POP MART）的门店内或自动售货机旁。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的拍摄时间。\",\n      \"无法确认盒内实际包含的具体款式，仅能看到外包装图示。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"POP MART\",\n      \"Nezha's Pig Edition\",\n      \"小猪吒儿\",\n      \"1/6\",\n      \"Nezha's Panda Edition\",\n      \"熊猫吒儿\",\n      \"Ao Bing's Polar Bear Edition\",\n      \"白熊丙丙\",\n      \"Nezha's Brown Bear Edition\",\n      \"棕熊吒儿\",\n      \"Ao Bing's Rabbit Edition\",\n      \"小兔丙丙\",\n      \"Ao Bing's Loong Edition\",\n      \"白龙丙丙\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一只手握着一个淡紫色的玩具包装盒，盒面上展示了六个穿着不同动物服装的Q版卡通人物挂件图案。背景模糊，可以看到货架上摆放着其他印有红色标志的黑色和米色盒子。\",\n    \"safe_facts\": [\n      \"图片展示了一个产品的外包装背面。\",\n      \"包装上有六个主要的卡通插图，呈两行三列排列。\",\n      \"每个插图旁边都有文字标签和数字比例标识。\",\n      \"背景中有多个类似的立方体盒子堆叠在一起。\",\n      \"画面右下角有人手的一部分。\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 912,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 912,
+        "total_tokens": 4117,
+        "estimated_cost_cny": 0.013706,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "盲盒玩具包装展示",
+          "short_description": "一张手持拍摄的玩具包装盒背面照片。淡紫色背景上印有六款Q版卡通人物挂件图鉴，角色分别穿着熊猫、猪、熊、兔子等动物造型服饰，并配有中英文说明文字及概率标识。背景可见货架上堆叠的其他黑色与米色包装盒。",
+          "micro_tags": [
+            "盲盒",
+            "玩具包装",
+            "Q版公仔",
+            "挂件",
+            "POP MART",
+            "哪吒",
+            "敖丙"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "室内零售环境或收藏展示区",
+          "subjects": [
+            "玩具包装盒",
+            "手",
+            "货架",
+            "其他商品盒"
+          ],
+          "actions": [
+            "手持",
+            "展示"
+          ],
+          "attributes": [
+            "淡紫色背景",
+            "Q版卡通形象",
+            "动物拟人化造型",
+            "挂环设计",
+            "红色概率标签"
+          ],
+          "relations": [
+            "手握住包装盒右侧边缘",
+            "包装盒位于前景",
+            "其他盒子位于背景货架上"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "画面主体为一个长方体包装盒的背面，背景为淡紫色纹理。",
+            "盒面上排列着六个卡通人物形象，均带有顶部的挂环结构，看似钥匙扣或挂件。",
+            "每个形象旁都有竖排的中英文文字说明以及红底白字的'1/6'标识。",
+            "左侧背景中有黑色的盒子堆叠，侧面有红色的'POP MART'标志。",
+            "下方背景中有米黄色的盒子，同样印有红色的'POP MART'标志。",
+            "右下角可见一只手的大拇指和部分手掌正在握持该包装盒。"
+          ],
+          "cautious_inferences": [
+            "根据'1/6'标识和多个不同造型推测，这是一套包含6种常规款式的盲盒或随机抽取类玩具。",
+            "根据文字内容（如'Nezha'、'Ao Bing'）推测，这些角色可能源自中国神话故事《封神演义》或相关动画电影。",
+            "拍摄地点可能是在泡泡玛特（POP MART）的门店内或自动售货机旁。"
+          ],
+          "uncertainties": [
+            "无法确定具体的拍摄时间。",
+            "无法确认盒内实际包含的具体款式，仅能看到外包装图示。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "POP MART",
+            "Nezha's Pig Edition",
+            "小猪吒儿",
+            "1/6",
+            "Nezha's Panda Edition",
+            "熊猫吒儿",
+            "Ao Bing's Polar Bear Edition",
+            "白熊丙丙",
+            "Nezha's Brown Bear Edition",
+            "棕熊吒儿",
+            "Ao Bing's Rabbit Edition",
+            "小兔丙丙",
+            "Ao Bing's Loong Edition",
+            "白龙丙丙"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一只手握着一个淡紫色的玩具包装盒，盒面上展示了六个穿着不同动物服装的Q版卡通人物挂件图案。背景模糊，可以看到货架上摆放着其他印有红色标志的黑色和米色盒子。",
+          "safe_facts": [
+            "图片展示了一个产品的外包装背面。",
+            "包装上有六个主要的卡通插图，呈两行三列排列。",
+            "每个插图旁边都有文字标签和数字比例标识。",
+            "背景中有多个类似的立方体盒子堆叠在一起。",
+            "画面右下角有人手的一部分。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 6442080,
+        "request_bytes": 4828487,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 17.5630181000015,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "2f3ca62e22d38de3b0f0e938d1e1bfcb4c7ed8d06639ba72789340095c1eb117"
+}

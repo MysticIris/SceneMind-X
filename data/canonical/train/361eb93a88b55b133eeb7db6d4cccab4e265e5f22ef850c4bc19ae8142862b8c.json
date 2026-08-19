@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1180.jpg",
+    "relative_path": "train/1180.jpg",
+    "sha256": "361eb93a88b55b133eeb7db6d4cccab4e265e5f22ef850c4bc19ae8142862b8c",
+    "split": "train"
+  },
+  "canonical_sha256": "d77888b90d76898cb50fa0f41518be1237877ddfd98de860ccfcde474462ba1b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蝴蝶标本",
+      "蓝色翅膀",
+      "装裱画框"
+    ],
+    "short_description": "一只蓝紫渐变翅膀的蝴蝶标本被装裱在黑色画框内，背景为浅色墙面，上方有蓝色装饰物。",
+    "theme": "蓝紫色蝴蝶标本"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "蝴蝶标本翅膀呈现蓝紫渐变色。",
+      "蝴蝶标本被置于黑色画框中并有玻璃保护层。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝紫色翅膀",
+      "透明玻璃罩",
+      "黑色画框"
+    ],
+    "relations": [
+      "蝴蝶标本位于画框内。",
+      "画框挂在墙上。"
+    ],
+    "scene": "室内展示墙",
+    "subjects": [
+      "蝴蝶标本",
+      "画框",
+      "墙面装饰"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "蝴蝶标本翅膀呈现蓝紫渐变色；蝴蝶标本被置于黑色画框中并有玻璃保护层。",
+    "safe_facts": [
+      "蝴蝶标本翅膀呈现蓝紫渐变色。",
+      "蝴蝶标本被置于黑色画框中并有玻璃保护层。"
+    ]
+  },
+  "label_id": "cpl_ecaa70a1723d0df16331a74e",
+  "provenance": {
+    "generated_at": "2026-08-03T13:48:59.885651+00:00",
+    "migrated_at": "2026-08-03T13:48:59.889714+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "347c14e6671d7b68825a93ce25f2b3960640e141169ce33678a64d63b816d450",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3cbd7a78e197731574bf9efa",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:48:59.890501+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3cbd7a78e197731574bf9efa"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Morpho godarti",
+      "晶闪蝶",
+      "Happiness forever"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Morpho godarti",
+      "晶闪蝶",
+      "Happiness forever"
+    ]
+  }
+}

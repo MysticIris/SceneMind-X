@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2322.jpg",
+    "relative_path": "val/2322.jpg",
+    "sha256": "1ff39034570af8eb014ed6c3769e7d203f79f8a3c4e89b53049c609fdfbf6577",
+    "split": "val"
+  },
+  "canonical_sha256": "339efeee0e37756833f2e352b7305ba4bcec40ed4f6fe913d2350616e6f7765c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "高楼大厦",
+      "灯火通明"
+    ],
+    "short_description": "高楼林立的城市夜景，灯火通明，天空阴沉，建筑群密集分布，部分楼顶有发光标识。",
+    "theme": "城市夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多栋高层建筑在夜间亮着灯光。",
+      "天空呈灰暗色，无明显日光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "阴天",
+      "密集建筑群"
+    ],
+    "relations": [],
+    "scene": "城市夜景",
+    "subjects": [
+      "高层建筑",
+      "城市灯光"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多栋高层建筑在夜间亮着灯光；天空呈灰暗色，无明显日光。",
+    "safe_facts": [
+      "多栋高层建筑在夜间亮着灯光。",
+      "天空呈灰暗色，无明显日光。"
+    ]
+  },
+  "label_id": "cpl_de34b53c23713ef9ee50f0dc",
+  "provenance": {
+    "generated_at": "2026-08-03T16:29:16.258970+00:00",
+    "migrated_at": "2026-08-03T16:29:16.260648+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9c42b858c6be20e591341e3de3b0b7535b913a8dc35862dc268899a910143614",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fb0d040cc32a65f03852d7e5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:29:16.260860+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fb0d040cc32a65f03852d7e5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1231.jpg",
+    "relative_path": "train/1231.jpg",
+    "sha256": "dfd43b0298f3b9702a554d3475cc6686599048a979fe6fa281a4c9fc94dee072",
+    "split": "train"
+  },
+  "canonical_sha256": "c82d6f3977370a49c130d814287d066e646992c0ee99f29b4e98de35b5828788",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "树荫",
+      "监控摄像头",
+      "林间小路"
+    ],
+    "short_description": "阳光穿透茂密树冠，在林间投下斑驳光影，一根电线杆上安装着监控摄像头，左侧可见建筑一角。",
+    "theme": "林荫道监控视角"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多棵高大树木，枝叶繁茂，遮蔽了大部分天空。",
+      "一根白色电线杆上悬挂着一个球形监控摄像头。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "茂密树叶",
+      "斑驳光影",
+      "深色树干"
+    ],
+    "relations": [
+      "摄像头安装在电线杆上。",
+      "树木环绕道路。"
+    ],
+    "scene": "城市街道旁的树林区域",
+    "subjects": [
+      "树木",
+      "监控摄像头",
+      "电线杆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多棵高大树木，枝叶繁茂，遮蔽了大部分天空；一根白色电线杆上悬挂着一个球形监控摄像头。",
+    "safe_facts": [
+      "画面中有多棵高大树木，枝叶繁茂，遮蔽了大部分天空。",
+      "一根白色电线杆上悬挂着一个球形监控摄像头。"
+    ]
+  },
+  "label_id": "cpl_368e7a85dfc21c293f3c82ea",
+  "provenance": {
+    "generated_at": "2026-08-03T13:58:18.067078+00:00",
+    "migrated_at": "2026-08-03T13:58:18.069726+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e696971c28aa122346e5f7565f80569fd3cee2781e642cd54e931a3b12647ed4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3680cfcdca7b060c6c27b946",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:58:18.070440+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3680cfcdca7b060c6c27b946"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

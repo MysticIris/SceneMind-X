@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:595.jpg",
+    "relative_path": "train/595.jpg",
+    "sha256": "a84d31da91f697ee3c5736070e9a580de171cf1b2906f51631b55a0daedc8e90",
+    "split": "train"
+  },
+  "canonical_sha256": "01e8f71bce4564a8b2732db3703a7be2d1bd4b330784b4b35a9028eef2c198f1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雾天",
+      "城市街道",
+      "高层建筑"
+    ],
+    "short_description": "浓雾笼罩城市高楼，街道上有行人与车辆，部分建筑被雾气遮挡，交通设施清晰可见。",
+    "theme": "雾中城市街景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "雾气导致远处建筑轮廓模糊。"
+    ],
+    "direct_observations": [
+      "天空和建筑物被浓雾覆盖。",
+      "街道上有行人、车辆及电动车在移动。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行人行走",
+      "车辆行驶",
+      "电动车行驶"
+    ],
+    "attributes": [
+      "浓雾弥漫",
+      "多栋高层建筑",
+      "路面有蓝色隔离带",
+      "有交通标志牌"
+    ],
+    "relations": [
+      "行人走在人行道上。",
+      "车辆在道路上行驶。",
+      "高楼位于背景中。"
+    ],
+    "scene": "城市街道交叉口",
+    "subjects": [
+      "行人",
+      "车辆",
+      "高楼",
+      "交通信号灯",
+      "电子显示屏"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "雾气导致远处建筑轮廓模糊。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空和建筑物被浓雾覆盖；街道上有行人、车辆及电动车在移动。",
+    "safe_facts": [
+      "天空和建筑物被浓雾覆盖。",
+      "街道上有行人、车辆及电动车在移动。"
+    ]
+  },
+  "label_id": "cpl_6879a0aa39c030e985387bd9",
+  "provenance": {
+    "generated_at": "2026-08-03T11:40:56.940028+00:00",
+    "migrated_at": "2026-08-03T11:40:56.941518+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3e7b7ac6ef420d92d384dd5acd28bdb02fc899aaa1a516b928be0948d840d500",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_181ef82c4a59bd16b7bf81ed",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:40:56.941727+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_181ef82c4a59bd16b7bf81ed"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

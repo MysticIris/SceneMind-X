@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1316.jpg",
+    "relative_path": "train/1316.jpg",
+    "sha256": "df434f39425bfd49a19f870704cd89360c962db31eb220cadc4d12443c5467a8",
+    "split": "train"
+  },
+  "canonical_sha256": "c571af61c167afb0857984a13be2a92abed3bcce0fed419c99243eebc1f82b27",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蓝发少年",
+      "玫瑰花",
+      "趴卧姿势",
+      "卡通插画"
+    ],
+    "short_description": "蓝发卡通少年趴卧着，头顶有一朵红色玫瑰花，表情平静，风格可爱简约。",
+    "theme": "蓝发少年与玫瑰"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "角色拥有浅蓝色短发。",
+      "角色头顶有一朵红色玫瑰花。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝发",
+      "大眼睛",
+      "黑色上衣",
+      "白色手套"
+    ],
+    "relations": [
+      "玫瑰花位于少年头顶。"
+    ],
+    "scene": "纯白背景",
+    "subjects": [
+      "蓝发卡通人物",
+      "红色玫瑰花"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "角色拥有浅蓝色短发；角色头顶有一朵红色玫瑰花。",
+    "safe_facts": [
+      "角色拥有浅蓝色短发。",
+      "角色头顶有一朵红色玫瑰花。"
+    ]
+  },
+  "label_id": "cpl_cce1e887a7357ffa511c9f7a",
+  "provenance": {
+    "generated_at": "2026-08-03T14:08:56.510770+00:00",
+    "migrated_at": "2026-08-03T14:08:56.513660+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0bd4eec5b798f08d2057b8bbad59818dc564fac4552daa73f177b282d25d93eb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d84164d23df03d96ad3e0ace",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:08:56.514062+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d84164d23df03d96ad3e0ace"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

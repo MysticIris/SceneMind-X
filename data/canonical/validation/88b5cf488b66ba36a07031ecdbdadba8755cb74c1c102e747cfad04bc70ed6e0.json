@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2154.jpg",
+    "relative_path": "val/2154.jpg",
+    "sha256": "88b5cf488b66ba36a07031ecdbdadba8755cb74c1c102e747cfad04bc70ed6e0",
+    "split": "val"
+  },
+  "canonical_sha256": "7ecf25c72e27d5a319650d451ae2240654fbee7f2b2aac91869b5892af43a4f2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "颁奖",
+      "花束",
+      "领奖台"
+    ],
+    "short_description": "一名男子在领奖台上向另一名男子递送花束，背景为紫色幕布。",
+    "theme": "颁奖仪式"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两名男子站在领奖台上，其中一人正将花束递给另一人。",
+      "领奖台正面标有红色数字1。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "递送花束"
+    ],
+    "attributes": [
+      "紫色背景幕布",
+      "领奖台标有数字1"
+    ],
+    "relations": [
+      "一名男子向另一名男子递送花束。"
+    ],
+    "scene": "颁奖台前",
+    "subjects": [
+      "一名穿黑色运动服的男子",
+      "一名穿白色外套的男子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两名男子站在领奖台上，其中一人正将花束递给另一人；领奖台正面标有红色数字1。",
+    "safe_facts": [
+      "两名男子站在领奖台上，其中一人正将花束递给另一人。",
+      "领奖台正面标有红色数字1。"
+    ]
+  },
+  "label_id": "cpl_26a7ff5be1b0f18988ca25fd",
+  "provenance": {
+    "generated_at": "2026-08-03T16:07:16.168170+00:00",
+    "migrated_at": "2026-08-03T16:07:16.169625+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "955d689d755497b381518934ef96aed111a84d4209a8fbe00c29b74e40d811b7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ed7f407d2293f47e04acdf74",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:07:16.169823+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ed7f407d2293f47e04acdf74"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

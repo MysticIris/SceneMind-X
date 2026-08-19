@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:251.jpg",
+    "relative_path": "train/251.jpg",
+    "sha256": "df446a28033de785656da3b95a267889a30bb6e7e8cd86b739a3d55bd862fa55",
+    "split": "train"
+  },
+  "canonical_sha256": "b12e11df0815361cbb859960796a9c401124cd7ce520cc35ff47941bcde1d83a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "欧式建筑",
+      "广场",
+      "行人",
+      "阴天"
+    ],
+    "short_description": "阴天下的欧式建筑群前，行人穿梭，广场铺砖，有游客在拍照。",
+    "theme": "欧式建筑广场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央是一座带双尖塔的石砌建筑。",
+      "广场地面铺设红灰相间砖块。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "站立",
+      "坐着",
+      "拍照"
+    ],
+    "attributes": [
+      "石砌建筑",
+      "尖顶塔楼",
+      "红砖外墙",
+      "铺砖地面",
+      "戴口罩的人"
+    ],
+    "relations": [
+      "行人位于建筑前方。",
+      "树木位于广场边缘。",
+      "路灯立于人行道旁。"
+    ],
+    "scene": "城市广场",
+    "subjects": [
+      "行人",
+      "建筑",
+      "树木",
+      "路灯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是一座带双尖塔的石砌建筑；广场地面铺设红灰相间砖块。",
+    "safe_facts": [
+      "画面中央是一座带双尖塔的石砌建筑。",
+      "广场地面铺设红灰相间砖块。"
+    ]
+  },
+  "label_id": "cpl_e9275fe2d3cb135b2c9368b1",
+  "provenance": {
+    "generated_at": "2026-08-03T10:25:07.836989+00:00",
+    "migrated_at": "2026-08-03T10:25:07.839273+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "88df81678cccb92663b35d1bad5d517d8809a565f7909a485cbc283e174e28ab",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4ee7957e413e51b0a70a0f5b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:25:07.839479+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4ee7957e413e51b0a70a0f5b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

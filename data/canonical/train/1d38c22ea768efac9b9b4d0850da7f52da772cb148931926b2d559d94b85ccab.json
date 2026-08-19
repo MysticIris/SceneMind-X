@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:624.jpg",
+    "relative_path": "train/624.jpg",
+    "sha256": "1d38c22ea768efac9b9b4d0850da7f52da772cb148931926b2d559d94b85ccab",
+    "split": "train"
+  },
+  "canonical_sha256": "068b201a6a5a5155c1526c6ac57c1bc58cf5de5f2ffedf2cd97752e376e22b6d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "桥梁",
+      "城市景观",
+      "江水"
+    ],
+    "short_description": "长江边的钢桥横跨水面，远处高楼林立，天空晴朗，岸边有人活动。",
+    "theme": "江畔城市天际线"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一座大型钢架桥梁从画面左侧延伸至远方。",
+      "江面上有一艘小船，岸边有数人聚集。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "人站立",
+      "人行走",
+      "船漂浮"
+    ],
+    "attributes": [
+      "晴朗天空",
+      "混凝土桥墩",
+      "高层建筑",
+      "水面波纹"
+    ],
+    "relations": [
+      "桥梁跨越江面。",
+      "建筑群位于对岸。",
+      "人群在岸边活动。",
+      "船只在江中。"
+    ],
+    "scene": "城市江岸",
+    "subjects": [
+      "桥梁",
+      "城市建筑群",
+      "江面",
+      "岸边人群",
+      "船只"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一座大型钢架桥梁从画面左侧延伸至远方；江面上有一艘小船，岸边有数人聚集。",
+    "safe_facts": [
+      "一座大型钢架桥梁从画面左侧延伸至远方。",
+      "江面上有一艘小船，岸边有数人聚集。"
+    ]
+  },
+  "label_id": "cpl_c8a49585fe1cf5c8f06b9144",
+  "provenance": {
+    "generated_at": "2026-08-03T11:46:47.671696+00:00",
+    "migrated_at": "2026-08-03T11:46:47.675764+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "11694ddea06fba8280251db6bdf2a8d1873c402895926b34b26000e3f0bb8e51",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ab86477739a5c8a6fc381013",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:46:47.676179+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ab86477739a5c8a6fc381013"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

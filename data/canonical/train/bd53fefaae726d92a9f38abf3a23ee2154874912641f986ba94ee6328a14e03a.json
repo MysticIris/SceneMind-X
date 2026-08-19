@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1087.jpg",
+    "relative_path": "train/1087.jpg",
+    "sha256": "bd53fefaae726d92a9f38abf3a23ee2154874912641f986ba94ee6328a14e03a",
+    "split": "train"
+  },
+  "canonical_sha256": "7d58f23981ba4deab29af43e13275dbd2f23c9a5042e0da3651b1a783628be8d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "溪流",
+      "山景",
+      "竹林",
+      "石头"
+    ],
+    "short_description": "清澈溪水映天光云影，石滩蜿蜒，竹林环绕，远山层叠，静谧自然风光。",
+    "theme": "山间溪流"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "水面倒映天空与云朵，表明天气晴朗或多云。"
+    ],
+    "direct_observations": [
+      "溪水透明，底部石子清晰可见。",
+      "岸边有石砌挡土墙，墙后为茂密竹林。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "清澈",
+      "平静",
+      "绿色植被",
+      "多石"
+    ],
+    "relations": [
+      "溪水流动于石滩之间。",
+      "竹林沿岸生长。",
+      "石墙分隔溪流与陆地。"
+    ],
+    "scene": "山间溪流",
+    "subjects": [
+      "溪水",
+      "岩石",
+      "竹林",
+      "远山",
+      "石墙"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "水面倒映天空与云朵，表明天气晴朗或多云。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "溪水透明，底部石子清晰可见；岸边有石砌挡土墙，墙后为茂密竹林。",
+    "safe_facts": [
+      "溪水透明，底部石子清晰可见。",
+      "岸边有石砌挡土墙，墙后为茂密竹林。"
+    ]
+  },
+  "label_id": "cpl_c056fd33a7342ed42b83edc7",
+  "provenance": {
+    "generated_at": "2026-08-03T13:35:30.752661+00:00",
+    "migrated_at": "2026-08-03T13:35:30.756281+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7a7c341b788e586e219ae4fd68b41ae9588ae229fbea4fc1574c7b232fc0ced9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a172024fb275fdfdc0eb60ee",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:35:30.756643+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a172024fb275fdfdc0eb60ee"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

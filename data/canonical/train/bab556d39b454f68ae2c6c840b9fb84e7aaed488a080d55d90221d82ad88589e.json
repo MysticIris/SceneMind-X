@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1741.jpg",
+    "relative_path": "train/1741.jpg",
+    "sha256": "bab556d39b454f68ae2c6c840b9fb84e7aaed488a080d55d90221d82ad88589e",
+    "split": "train"
+  },
+  "canonical_sha256": "40a0a2c02db280a3b980a0495833bcb0ad58ab3a88e76351428629b06729e50e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "云雾山景",
+      "蜿蜒小径",
+      "溪流绿植"
+    ],
+    "short_description": "云雾缭绕的山谷中，蜿蜒小径穿过绿意盎然的山坡，溪水清澈见底，几处人工景观点缀其间。",
+    "theme": "山间云雾溪谷"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "步道可能是供游客行走的观光路径。"
+    ],
+    "direct_observations": [
+      "画面中可见被云雾部分遮蔽的山峰。",
+      "溪流旁设有红色步道及小型人工池塘。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "云雾笼罩",
+      "绿色植被覆盖",
+      "人工步道铺设",
+      "溪水呈青绿色"
+    ],
+    "relations": [
+      "步道沿溪流延伸。",
+      "山脉环绕山谷。"
+    ],
+    "scene": "山谷地貌",
+    "subjects": [
+      "山脉",
+      "植被",
+      "溪流",
+      "步道",
+      "人工景观"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "步道可能是供游客行走的观光路径。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见被云雾部分遮蔽的山峰；溪流旁设有红色步道及小型人工池塘。",
+    "safe_facts": [
+      "画面中可见被云雾部分遮蔽的山峰。",
+      "溪流旁设有红色步道及小型人工池塘。"
+    ]
+  },
+  "label_id": "cpl_c9f8c47f9520641d452a8ed4",
+  "provenance": {
+    "generated_at": "2026-08-03T15:00:14.423029+00:00",
+    "migrated_at": "2026-08-03T15:00:14.424728+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "38d4f8f78691f651583c0085471a65e228e48050ad3f5ae8a20175d6bf606e3e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a3a613c56bf292592548c28e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:00:14.424950+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a3a613c56bf292592548c28e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

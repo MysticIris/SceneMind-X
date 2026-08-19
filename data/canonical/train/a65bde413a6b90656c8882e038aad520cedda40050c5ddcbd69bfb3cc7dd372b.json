@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1017.jpg",
+    "relative_path": "train/1017.jpg",
+    "sha256": "a65bde413a6b90656c8882e038aad520cedda40050c5ddcbd69bfb3cc7dd372b",
+    "split": "train"
+  },
+  "canonical_sha256": "09c8569f4e910a4a623bee4c363680e749dc742382101de9a0877a3d90a6b3c1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市公园",
+      "水景",
+      "现代建筑",
+      "高压电塔"
+    ],
+    "short_description": "晴朗天气下，城市公园内水景与现代建筑相映，树木环绕，远处可见高压电塔。",
+    "theme": "现代城市公园景观"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "阳光从左上方照射，投射出树影在地面。"
+    ],
+    "direct_observations": [
+      "画面中央有圆形水池，水面平静并反射天空。",
+      "水池边缘有绿色草坪，周围种植树木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晴朗天空",
+      "灰色铺装地面",
+      "绿色草坪",
+      "红色装饰物悬挂"
+    ],
+    "relations": [
+      "水池位于前景。",
+      "树木环绕水池。",
+      "建筑位于背景。",
+      "电塔位于画面右侧。"
+    ],
+    "scene": "城市公园",
+    "subjects": [
+      "水池",
+      "树木",
+      "现代建筑",
+      "高压电塔"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "阳光从左上方照射，投射出树影在地面。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有圆形水池，水面平静并反射天空；水池边缘有绿色草坪，周围种植树木。",
+    "safe_facts": [
+      "画面中央有圆形水池，水面平静并反射天空。",
+      "水池边缘有绿色草坪，周围种植树木。"
+    ]
+  },
+  "label_id": "cpl_65dc8c5aa61520cbbaaf8b88",
+  "provenance": {
+    "generated_at": "2026-08-03T13:24:11.998369+00:00",
+    "migrated_at": "2026-08-03T13:24:12.001043+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e03831192a1e8ebb110ced4c48e5f5b03fa43169611cc501d0547c6093808299",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0f34ff41534086797f3194d6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:24:12.001395+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0f34ff41534086797f3194d6"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

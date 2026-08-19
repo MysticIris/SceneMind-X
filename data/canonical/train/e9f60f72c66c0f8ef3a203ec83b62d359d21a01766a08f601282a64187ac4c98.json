@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1537.jpg",
+    "relative_path": "train/1537.jpg",
+    "sha256": "e9f60f72c66c0f8ef3a203ec83b62d359d21a01766a08f601282a64187ac4c98",
+    "split": "train"
+  },
+  "canonical_sha256": "b3c3b964664c2c4a68802a0d748e245117ac1701ca622edb8225db11a85f49e7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "笑脸",
+      "表情符号",
+      "开心"
+    ],
+    "short_description": "一个黄色圆形笑脸表情符号，眼睛和嘴巴呈简化线条状，整体呈现开心表情。",
+    "theme": "表情符号传达情绪"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像主体为一个圆形的黄色笑脸表情符号。",
+      "眼睛和嘴巴由黑色和红色线条构成。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黄色",
+      "圆形",
+      "简化线条眼睛",
+      "简化线条嘴巴"
+    ],
+    "relations": [],
+    "scene": "无具体场景",
+    "subjects": [
+      "笑脸表情符号"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像主体为一个圆形的黄色笑脸表情符号；眼睛和嘴巴由黑色和红色线条构成。",
+    "safe_facts": [
+      "图像主体为一个圆形的黄色笑脸表情符号。",
+      "眼睛和嘴巴由黑色和红色线条构成。"
+    ]
+  },
+  "label_id": "cpl_9c2252f6297c12f887b706ed",
+  "provenance": {
+    "generated_at": "2026-08-03T14:35:09.882285+00:00",
+    "migrated_at": "2026-08-03T14:35:09.885122+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "01487b3e89bcea24a4d94e68d9ffc635ad048a3477cc49aaa20b76742ef9be3f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_99b07c4aa36589a458e469da",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:35:09.885622+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_99b07c4aa36589a458e469da"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "心情写在脸上"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "心情写在脸上"
+    ]
+  }
+}

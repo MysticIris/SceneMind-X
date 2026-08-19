@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1209.jpg",
+    "relative_path": "train/1209.jpg",
+    "sha256": "ca429d80e54bc81c3969304e4281bb4a4482739117acda9ad26534d90375d1b2",
+    "split": "train"
+  },
+  "canonical_sha256": "32e9eae7a11fa2020d4b4f11a620828611f15ed484d2e9927bee636e155539fb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雾天",
+      "乡村道路",
+      "积雪",
+      "房屋"
+    ],
+    "short_description": "浓雾笼罩的乡村小路，路边有积雪和房屋，电线杆延伸至远方，整体氛围静谧朦胧。",
+    "theme": "雾中乡村道路"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "雾气遮蔽了远处景物，视线受限。"
+    ],
+    "direct_observations": [
+      "道路两旁有房屋建筑。",
+      "道路边缘有未融化的积雪。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "浓雾",
+      "积雪",
+      "灰暗天空",
+      "裸树"
+    ],
+    "relations": [
+      "积雪位于道路边缘。",
+      "房屋位于道路两侧。",
+      "电线杆沿道路延伸。"
+    ],
+    "scene": "乡村道路被浓雾覆盖",
+    "subjects": [
+      "道路",
+      "房屋",
+      "积雪",
+      "电线杆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "雾气遮蔽了远处景物，视线受限。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "道路两旁有房屋建筑；道路边缘有未融化的积雪。",
+    "safe_facts": [
+      "道路两旁有房屋建筑。",
+      "道路边缘有未融化的积雪。"
+    ]
+  },
+  "label_id": "cpl_3f070acfd3b632c55c10fd9a",
+  "provenance": {
+    "generated_at": "2026-08-03T13:55:54.936767+00:00",
+    "migrated_at": "2026-08-03T13:55:54.940088+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ca7595fa84bd31e3cd2f3778bdf6f1837b905f7c09ab71283efbe13124019646",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8067ef673e79191d11942330",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:55:54.940437+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8067ef673e79191d11942330"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

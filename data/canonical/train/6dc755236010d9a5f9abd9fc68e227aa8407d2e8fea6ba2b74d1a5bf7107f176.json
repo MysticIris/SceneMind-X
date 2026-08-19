@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:935.jpg",
+    "relative_path": "train/935.jpg",
+    "sha256": "6dc755236010d9a5f9abd9fc68e227aa8407d2e8fea6ba2b74d1a5bf7107f176",
+    "split": "train"
+  },
+  "canonical_sha256": "8e44c177e22af64224d00880f9084dd70fa6b9d0bc7d5a8b9c659b9d1e390024",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "海浪",
+      "岩石",
+      "海岸",
+      "浪花"
+    ],
+    "short_description": "海浪拍打崎岖岩石，激起白色泡沫，阳光照射下岩层纹理清晰可见。",
+    "theme": "海岸岩石与浪花"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "海浪冲击岩石形成白色泡沫。",
+      "岩石表面呈现棕黄色与深色纹理。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "拍打",
+      "翻涌"
+    ],
+    "attributes": [
+      "白色泡沫",
+      "粗糙纹理",
+      "阳光照射"
+    ],
+    "relations": [
+      "海浪撞击岩石。"
+    ],
+    "scene": "海边岩石区域",
+    "subjects": [
+      "海浪",
+      "岩石"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "海浪冲击岩石形成白色泡沫；岩石表面呈现棕黄色与深色纹理。",
+    "safe_facts": [
+      "海浪冲击岩石形成白色泡沫。",
+      "岩石表面呈现棕黄色与深色纹理。"
+    ]
+  },
+  "label_id": "cpl_60dc8a22c5ba548737148179",
+  "provenance": {
+    "generated_at": "2026-08-03T13:03:57.762377+00:00",
+    "migrated_at": "2026-08-03T13:03:57.764522+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "01c3f2243f2d8848a0cfd37dfeb7d6377789923692dbb7c9e19ea8f4762883a1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_60dc8a22c5ba548737148179",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:21:19.662188+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e9a7faf79ec11a0e4139dfda"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

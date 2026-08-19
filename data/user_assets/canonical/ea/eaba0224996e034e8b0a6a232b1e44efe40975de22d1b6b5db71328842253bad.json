@@ -1,0 +1,157 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_1ca292f18b9a95ebd9a968f2",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_abcabcc0d6f591e8923b2dca"
+  ],
+  "asset": {
+    "asset_id": "eaba0224996e034e",
+    "sha256": "eaba0224996e034e8b0a6a232b1e44efe40975de22d1b6b5db71328842253bad",
+    "split": "user_custom",
+    "relative_path": "user_assets/ea/eaba0224996e034e8b0a6a232b1e44efe40975de22d1b6b5db71328842253bad/eaba0224996e034e8b0a6a232b1e44efe40975de22d1b6b5db71328842253bad.jpg"
+  },
+  "display": {
+    "theme": "高速公路龙门架指示牌",
+    "short_description": "阴天下的高速公路行车视角，前方横跨着巨大的绿色交通指示龙门架。路牌显示出口编号147及分叉路口信息，包含G7212、S40、G80等高速编号及多个城市名称。路面有车辆行驶，右侧设有隔音屏障。",
+    "micro_tags": [
+      "高速公路",
+      "交通指示牌",
+      "龙门架",
+      "行车记录",
+      "阴天",
+      "道路设施"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "高速公路路段",
+    "subjects": [
+      "绿色交通指示牌",
+      "金属龙门架",
+      "行驶中的汽车",
+      "沥青路面",
+      "路边护栏",
+      "隔音墙"
+    ],
+    "actions": [
+      "车辆沿车道向前行驶",
+      "指示牌悬挂于道路上方"
+    ],
+    "attributes": [
+      "天空阴沉灰白",
+      "指示牌为绿底白字",
+      "立柱底部有黄黑警示条纹",
+      "路面标线清晰"
+    ],
+    "relations": [
+      "指示牌位于道路正上方。",
+      "蓝色轿车位于前方右侧车道。",
+      "黑色SUV位于前方左侧车道。",
+      "隔音墙位于道路右侧边缘。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "画面中央上方有一个大型绿色高速公路指示牌，由两根带有黄黑条纹的金属立柱支撑。",
+      "指示牌右上角标有“出口 147”，中间有白色分叉箭头图案。",
+      "路牌上可见“G7212”、“S40”、“G80”等红黄底编号框，以及“桂平”、“柳州”、“贵港东”、“玉林”、“北海”等汉字地名。",
+      "前方路面有两辆正在行驶的私家车，右侧车道为一辆蓝色轿车，左侧车道为一辆深色SUV。",
+      "道路右侧安装有连续的半透明隔音屏障，左侧为绿色波形护栏。"
+    ],
+    "cautious_inferences": [
+      "拍摄视角来自后方车辆的行车记录仪或车内乘客视角。"
+    ],
+    "uncertainties": [
+      "无法确定具体的拍摄时间和日期。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "出口 147",
+      "G7212 (北)",
+      "S40",
+      "G7212 (南)",
+      "G80",
+      "小红书号:373332785"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "出口 147",
+      "G7212 (北)",
+      "S40",
+      "G7212 (南)",
+      "G80",
+      "小红书号:373332785"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "画面中央上方有一个大型绿色高速公路指示牌，由两根带有黄黑条纹的金属立柱支撑；指示牌右上角标有“出口 147”，中间有白色分叉箭头图案。",
+    "safe_facts": [
+      "画面中央上方有一个大型绿色高速公路指示牌，由两根带有黄黑条纹的金属立柱支撑。",
+      "指示牌右上角标有“出口 147”，中间有白色分叉箭头图案。",
+      "路牌上可见“G7212”、“S40”、“G80”等红黄底编号框，以及“桂平”、“柳州”、“贵港东”、“玉林”、“北海”等汉字地名。"
+    ],
+    "do_not_assert": [
+      "拍摄视角来自后方车辆的行车记录仪或车内乘客视角。",
+      "无法确定具体的拍摄时间和日期。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_6f859199-ecb1-4422-83f3-01f1dfb96c52",
+    "generated_at": "2026-08-12T03:09:18.564572+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "1af0dfd7b2dcd10ee6fad0d7093d102de43b0b0502fca4ead4f00fa8aeab3f19",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:09:18.566145+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_abcabcc0d6f591e8923b2dca",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:09:18.566723+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "4daf2a346e0992d230f821f10e2796b2d6fd1860f100d22eea3fbb245e578769"
+}

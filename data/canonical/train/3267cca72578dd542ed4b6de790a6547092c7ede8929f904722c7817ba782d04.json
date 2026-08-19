@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:696.jpg",
+    "relative_path": "train/696.jpg",
+    "sha256": "3267cca72578dd542ed4b6de790a6547092c7ede8929f904722c7817ba782d04",
+    "split": "train"
+  },
+  "canonical_sha256": "f69bc856bee5ec706101e979db14c3229ac5b46b714b7e2b0ac5368dc6fd2feb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电动车",
+      "夜间",
+      "湿地面",
+      "防寒罩"
+    ],
+    "short_description": "夜间湿漉漉的街道旁，多辆电动车和一辆汽车停放在路边，部分车辆覆盖着防寒罩。",
+    "theme": "夜间停放的电动车"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多辆电动车并排停放，其中一辆覆盖着白色菱形纹防寒罩。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "湿滑地面",
+      "夜间照明",
+      "覆盖防寒罩"
+    ],
+    "relations": [
+      "电动车停放在汽车旁边。",
+      "防寒罩覆盖在电动车上。"
+    ],
+    "scene": "夜间户外停车场或路边",
+    "subjects": [
+      "电动车",
+      "汽车",
+      "防寒罩"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多辆电动车并排停放，其中一辆覆盖着白色菱形纹防寒罩。",
+    "safe_facts": [
+      "多辆电动车并排停放，其中一辆覆盖着白色菱形纹防寒罩。"
+    ]
+  },
+  "label_id": "cpl_0293bb6af5d2d76a86acc54b",
+  "provenance": {
+    "generated_at": "2026-08-03T12:02:56.133298+00:00",
+    "migrated_at": "2026-08-03T12:02:56.138509+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "55fdc25610b7acf3d8a21a5be496672fddb0848311835b2bb360e20640d62167",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1bfd6b22fc4da74440de5462",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:02:56.138857+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1bfd6b22fc4da74440de5462"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

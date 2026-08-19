@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1639.jpg",
+    "relative_path": "train/1639.jpg",
+    "sha256": "9ebf9ab8a7c2c51dc5f64e7f8e9682fead2dd95196d4e878a5466ca3835809b8",
+    "split": "train"
+  },
+  "canonical_sha256": "ec7669ed2d8190141504ad39b58a471bd295b9f90fed85f9b6e29e52b71548de",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "猴子",
+      "铁丝网",
+      "伸出手臂"
+    ],
+    "short_description": "一只猴子伸出手臂穿过铁丝网，另一只猴子在它身旁，两者似乎在互动或试图获取食物。",
+    "theme": "笼中猴子互动"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两只猴子，位于金属铁丝网围栏内。",
+      "其中一只猴子手臂伸出，朝向围栏外。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "伸出手臂"
+    ],
+    "attributes": [
+      "毛发呈灰褐色",
+      "面部皮肤粉红"
+    ],
+    "relations": [
+      "两只猴子在同一个围栏内。"
+    ],
+    "scene": "铁丝网围栏内",
+    "subjects": [
+      "猴子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两只猴子，位于金属铁丝网围栏内；其中一只猴子手臂伸出，朝向围栏外。",
+    "safe_facts": [
+      "画面中有两只猴子，位于金属铁丝网围栏内。",
+      "其中一只猴子手臂伸出，朝向围栏外。"
+    ]
+  },
+  "label_id": "cpl_386abc3c87c690294df37b04",
+  "provenance": {
+    "generated_at": "2026-08-03T14:48:37.558937+00:00",
+    "migrated_at": "2026-08-03T14:48:37.561880+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bfa10ebb4209c46a5b7d169bcf0f2b6f324512192f7d2f151b3d9ce7777f3dcd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_34be98635676aca0686e9863",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:48:37.562204+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_34be98635676aca0686e9863"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

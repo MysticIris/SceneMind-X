@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2067.jpg",
+    "relative_path": "val/2067.jpg",
+    "sha256": "7420300d0fff58ed412247e58c1e3a3dafe4709e9af5dc6347a83e0565081424",
+    "split": "val"
+  },
+  "canonical_sha256": "4701e16821ebea4b07baeb29794407dd66bf9027f336a663b61a59469e27cab7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪景",
+      "城市建筑",
+      "积雪枝条",
+      "晴天"
+    ],
+    "short_description": "雪覆盖的城市建筑群，前景有积雪枝条，天空晴朗有云，远处山峦隐约可见。",
+    "theme": "雪后城市街景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天气寒冷，可能刚下过雪。"
+    ],
+    "direct_observations": [
+      "建筑物屋顶和街道上有积雪。",
+      "前景树枝上覆盖着白雪。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "积雪覆盖",
+      "晴朗天空",
+      "多云",
+      "枝条裸露"
+    ],
+    "relations": [
+      "树枝位于前景。",
+      "建筑物位于中景。",
+      "远山位于背景。"
+    ],
+    "scene": "城市街区",
+    "subjects": [
+      "建筑物",
+      "树枝",
+      "积雪",
+      "天空",
+      "远山"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天气寒冷，可能刚下过雪。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑物屋顶和街道上有积雪；前景树枝上覆盖着白雪。",
+    "safe_facts": [
+      "建筑物屋顶和街道上有积雪。",
+      "前景树枝上覆盖着白雪。"
+    ]
+  },
+  "label_id": "cpl_7f3849bc9c018e70a8d92d29",
+  "provenance": {
+    "generated_at": "2026-08-03T15:54:42.063097+00:00",
+    "migrated_at": "2026-08-03T15:54:42.065053+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5db4810e49425878da0315d1ab23a73c9e0d53715b6825134055e037b55e154d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0b439f75e1e03ea6bc7d69aa",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:54:42.065405+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0b439f75e1e03ea6bc7d69aa"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

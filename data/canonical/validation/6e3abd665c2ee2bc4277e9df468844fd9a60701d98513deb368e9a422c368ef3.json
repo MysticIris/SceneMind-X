@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2162.jpg",
+    "relative_path": "val/2162.jpg",
+    "sha256": "6e3abd665c2ee2bc4277e9df468844fd9a60701d98513deb368e9a422c368ef3",
+    "split": "val"
+  },
+  "canonical_sha256": "bc849355df89ab57d6c17c33e618f857d646865cc6c24bbf8970bb4fc1f69322",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "示波器",
+      "信号发生器",
+      "实验室设备"
+    ],
+    "short_description": "实验室环境中，示波器显示正弦波信号，信号发生器连接并设置频率，背景有人员和设备。",
+    "theme": "电子测量设备操作"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "示波器屏幕上显示一个绿色的正弦波图形。",
+      "信号发生器面板上有数字频率显示。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "示波器屏幕显示波形",
+      "信号发生器有数字显示屏"
+    ],
+    "relations": [
+      "示波器通过线缆连接信号发生器。"
+    ],
+    "scene": "实验室工作台",
+    "subjects": [
+      "示波器",
+      "信号发生器",
+      "人员"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "示波器屏幕上显示一个绿色的正弦波图形；信号发生器面板上有数字频率显示。",
+    "safe_facts": [
+      "示波器屏幕上显示一个绿色的正弦波图形。",
+      "信号发生器面板上有数字频率显示。"
+    ]
+  },
+  "label_id": "cpl_4f3944bcc9584f38ce092c3f",
+  "provenance": {
+    "generated_at": "2026-08-03T16:08:17.981155+00:00",
+    "migrated_at": "2026-08-03T16:08:17.983331+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2b47452d9dd34fbb3f672df44d2333b2f9e98babb67eff3221b08b9085775a7e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_cb86c5098bebf923608e79d9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:08:17.983665+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_cb86c5098bebf923608e79d9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

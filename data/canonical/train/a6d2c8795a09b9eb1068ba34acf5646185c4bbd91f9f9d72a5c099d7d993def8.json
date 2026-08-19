@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1426.jpg",
+    "relative_path": "train/1426.jpg",
+    "sha256": "a6d2c8795a09b9eb1068ba34acf5646185c4bbd91f9f9d72a5c099d7d993def8",
+    "split": "train"
+  },
+  "canonical_sha256": "c5386e538cd42cbd8c1d614acc85560fc44739084afd86a921676cc37db546fa",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "汉字书法",
+      "花卉装饰",
+      "砖墙背景"
+    ],
+    "short_description": "砖墙前悬挂着带有花卉装饰的竖幅，上面有汉字和拼音。",
+    "theme": "字样装饰"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有一块竖向悬挂的浅色布面横幅。",
+      "横幅上方有大量白色与淡粉色玫瑰及绿色叶片组成的花环装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "竖幅为浅色布料",
+      "花朵为白色与淡粉色",
+      "绿叶茂密"
+    ],
+    "relations": [
+      "竖幅悬挂在砖墙上。",
+      "花卉装饰位于竖幅上方。"
+    ],
+    "scene": "户外墙面装饰",
+    "subjects": [
+      "竖幅",
+      "玫瑰花",
+      "绿叶",
+      "砖墙"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一块竖向悬挂的浅色布面横幅；横幅上方有大量白色与淡粉色玫瑰及绿色叶片组成的花环装饰。",
+    "safe_facts": [
+      "画面中央有一块竖向悬挂的浅色布面横幅。",
+      "横幅上方有大量白色与淡粉色玫瑰及绿色叶片组成的花环装饰。"
+    ]
+  },
+  "label_id": "cpl_d9e11fae5fbcfd63792d614d",
+  "provenance": {
+    "generated_at": "2026-08-03T14:21:27.977226+00:00",
+    "migrated_at": "2026-08-03T14:21:27.980767+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ebfcb1a44c8f8bf41b03af80216f04fe39873e1993e2b3d6251e3877d38e6506",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1e4905ecd5a8b15ee3ee5ec0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:21:27.981323+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1e4905ecd5a8b15ee3ee5ec0"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "天津",
+      "Tianjin"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "天津",
+      "Tianjin"
+    ]
+  }
+}

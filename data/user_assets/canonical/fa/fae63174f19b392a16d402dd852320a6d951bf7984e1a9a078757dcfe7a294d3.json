@@ -1,0 +1,133 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_900604175df1e6a4ef533dbd",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_e6ecc944264e3ad8154e0f1d"
+  ],
+  "asset": {
+    "asset_id": "fae63174f19b392a",
+    "sha256": "fae63174f19b392a16d402dd852320a6d951bf7984e1a9a078757dcfe7a294d3",
+    "split": "user_custom",
+    "relative_path": "user_assets/fa/fae63174f19b392a16d402dd852320a6d951bf7984e1a9a078757dcfe7a294d3/fae63174f19b392a16d402dd852320a6d951bf7984e1a9a078757dcfe7a294d3.jpg"
+  },
+  "display": {
+    "theme": "手写信号与系统笔记",
+    "short_description": "一张横线笔记本页面的特写照片，上面写满了关于离散时间系统分析的数学推导。内容涉及线性、时不变性、稳定性和因果性的判断，包含正弦函数、求和符号及不等式证明。",
+    "micro_tags": [
+      "手写笔记",
+      "数学公式",
+      "信号处理",
+      "学习笔记",
+      "横线纸"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "书桌或学习区域",
+    "subjects": [
+      "笔记本页面",
+      "手写数学推导"
+    ],
+    "actions": [],
+    "attributes": [
+      "黑色墨水",
+      "行线格纸",
+      "字迹潦草但清晰",
+      "包含复杂数学符号"
+    ],
+    "relations": []
+  },
+  "evidence": {
+    "direct_observations": [
+      "图片展示了一页带有水平横线的白色笔记本纸。",
+      "页面上用黑色笔迹写满了多行数学公式和中文注释。",
+      "可见明显的数学符号如求和符号(Σ)、正弦函数(sin)、绝对值符号以及变量n，k，m等。"
+    ],
+    "cautious_inferences": [
+      "拍摄角度略微倾斜，光线均匀，看起来是在室内灯光下拍摄。"
+    ],
+    "uncertainties": [
+      "无法确定具体的拍摄日期或作者身份。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "为线性系统",
+      "非移变系统"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "为线性系统",
+      "非移变系统"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "图片展示了一页带有水平横线的白色笔记本纸；页面上用黑色笔迹写满了多行数学公式和中文注释。",
+    "safe_facts": [
+      "图片展示了一页带有水平横线的白色笔记本纸。",
+      "页面上用黑色笔迹写满了多行数学公式和中文注释。",
+      "可见明显的数学符号如求和符号(Σ)、正弦函数(sin)、绝对值符号以及变量n，k，m等。"
+    ],
+    "do_not_assert": [
+      "拍摄角度略微倾斜，光线均匀，看起来是在室内灯光下拍摄。",
+      "无法确定具体的拍摄日期或作者身份。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_98ca88cd-c509-492b-b221-b590b7bb4811",
+    "generated_at": "2026-08-12T03:08:47.390455+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "e5a36f162ca8f258a2d6eb0d841a87b110d3979a2109da63358a38cd0efb91f6",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:08:47.391936+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_e6ecc944264e3ad8154e0f1d",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:08:47.392296+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "7b971b82a57c6887323bee010ecc0c71049acb17596504d526e0d7d6d59e1db5"
+}

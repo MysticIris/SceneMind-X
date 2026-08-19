@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1559.jpg",
+    "relative_path": "train/1559.jpg",
+    "sha256": "e394119af0ca575ff64eae0c684f9c5d3e377752782a4e38f77af8c4cad7e55d",
+    "split": "train"
+  },
+  "canonical_sha256": "189712860a7987a8a5f7392fe40f43b1320c6a397eb0e33b3966f6a6f99e3208",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "生日蛋糕",
+      "点燃的蜡烛",
+      "奶油裱花",
+      "水果装饰"
+    ],
+    "short_description": "一个装饰着水果和蜡烛的生日蛋糕，烛光温暖，奶油裱花精致，边缘有饼干圈。",
+    "theme": "生日蛋糕"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "蛋糕表面有两支点燃的蜡烛。",
+      "蛋糕周围有奶油裱花和水果装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "点燃的蜡烛",
+      "奶油裱花",
+      "水果装饰",
+      "圆形蛋糕"
+    ],
+    "relations": [
+      "蜡烛插在蛋糕上。",
+      "水果放在蛋糕中央。",
+      "奶油裱花围绕蛋糕边缘。"
+    ],
+    "scene": "室内桌面",
+    "subjects": [
+      "蛋糕",
+      "蜡烛",
+      "水果",
+      "奶油裱花",
+      "饼干边饰"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "蛋糕表面有两支点燃的蜡烛；蛋糕周围有奶油裱花和水果装饰。",
+    "safe_facts": [
+      "蛋糕表面有两支点燃的蜡烛。",
+      "蛋糕周围有奶油裱花和水果装饰。"
+    ]
+  },
+  "label_id": "cpl_4e29af6d3007771c78340b79",
+  "provenance": {
+    "generated_at": "2026-08-03T14:38:15.344429+00:00",
+    "migrated_at": "2026-08-03T14:38:15.347297+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "64e06b29769de43cb3067f38f48100f4ea6251aaea9288e36a5704b7d809e584",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8c242d27fe9b889da82c299e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:38:15.347648+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8c242d27fe9b889da82c299e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

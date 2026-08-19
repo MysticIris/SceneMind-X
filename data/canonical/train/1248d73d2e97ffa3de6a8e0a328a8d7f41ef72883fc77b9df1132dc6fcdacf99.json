@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1787.jpg",
+    "relative_path": "train/1787.jpg",
+    "sha256": "1248d73d2e97ffa3de6a8e0a328a8d7f41ef72883fc77b9df1132dc6fcdacf99",
+    "split": "train"
+  },
+  "canonical_sha256": "8074cd8fa384257a46d981563b439d3ac3eab8ce59c99f6ab586b390261b5539",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "写作技巧",
+      "主动语态",
+      "句子结构"
+    ],
+    "short_description": "一张演示文稿幻灯片，讲解主动语态写作技巧，对比主动与被动语态句子，强调其简洁性与清晰度。",
+    "theme": "写作技巧指南"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现的是电子设备屏幕上的教学材料。",
+      "内容涉及语言写作方法的指导。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "电脑屏幕显示的教育类幻灯片",
+    "subjects": [
+      "蓝色背景框",
+      "粉色背景框"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现的是电子设备屏幕上的教学材料；内容涉及语言写作方法的指导。",
+    "safe_facts": [
+      "图像呈现的是电子设备屏幕上的教学材料。",
+      "内容涉及语言写作方法的指导。"
+    ]
+  },
+  "label_id": "cpl_ab277a95f77f3d3605e3126c",
+  "provenance": {
+    "generated_at": "2026-08-03T15:06:11.554756+00:00",
+    "migrated_at": "2026-08-03T15:06:11.557832+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6dbcdfe3fa68a4bf0278ed00cb3d9a5d7cf7e6c1d1aefabea5980e79897cf441",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_de67c87c9e6a1006df4da37a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:06:11.558667+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_de67c87c9e6a1006df4da37a"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "2.1 Eight guidelines for improving your",
+      "2.1.6 Write active sentences",
+      "active vs. passive sentence",
+      "The active sentences are more direct, sh",
+      "The improved versions are presented in s",
+      "Section X presents the improved versions"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "2.1 Eight guidelines for improving your",
+      "2.1.6 Write active sentences",
+      "active vs. passive sentence",
+      "The active sentences are more direct, sh",
+      "The improved versions are presented in s",
+      "Section X presents the improved versions"
+    ]
+  }
+}

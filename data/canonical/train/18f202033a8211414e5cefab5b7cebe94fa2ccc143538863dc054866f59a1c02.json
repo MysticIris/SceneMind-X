@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1707.jpg",
+    "relative_path": "train/1707.jpg",
+    "sha256": "18f202033a8211414e5cefab5b7cebe94fa2ccc143538863dc054866f59a1c02",
+    "split": "train"
+  },
+  "canonical_sha256": "2e96957daa9539f046f4f96cffcbd033a4cc3cd4cb026c9077c4b3ab40880911",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "孩子",
+      "水坑",
+      "玩具小丑",
+      "俯身"
+    ],
+    "short_description": "一个孩子俯身在水坑旁，手触碰水中漂浮的玩具小丑。",
+    "theme": "儿童玩水"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "孩子穿着蓝色上衣，俯身靠近水坑。",
+      "水坑中有红色鼻子、绿色身体的玩具小丑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "俯身",
+      "触碰"
+    ],
+    "attributes": [
+      "蓝色上衣",
+      "棕色头发",
+      "红色鼻子的玩具小丑",
+      "绿色身体"
+    ],
+    "relations": [
+      "孩子在水坑旁。",
+      "玩具小丑在水中。"
+    ],
+    "scene": "户外水坑",
+    "subjects": [
+      "孩子",
+      "玩具小丑"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "孩子穿着蓝色上衣，俯身靠近水坑；水坑中有红色鼻子、绿色身体的玩具小丑。",
+    "safe_facts": [
+      "孩子穿着蓝色上衣，俯身靠近水坑。",
+      "水坑中有红色鼻子、绿色身体的玩具小丑。"
+    ]
+  },
+  "label_id": "cpl_131bf365c7450e22a0d5dcc8",
+  "provenance": {
+    "generated_at": "2026-08-03T14:56:11.474072+00:00",
+    "migrated_at": "2026-08-03T14:56:11.475737+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f003df6b7e1f6170972ef27add22c0a554559e6417047c4648abec43aa4ed7dd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_95fbfe83035feb1244e81434",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:56:11.475956+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_95fbfe83035feb1244e81434"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

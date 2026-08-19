@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:116.jpg",
+    "relative_path": "train/116.jpg",
+    "sha256": "3709af9f97a62a64cb1fb55cebc095f7541bb1bbfee1874b706e0ab76fb278d1",
+    "split": "train"
+  },
+  "canonical_sha256": "a4e4be3db9c5e93d2a59e2969bbcd6a365ae6abfd752349ead2b7f8e0e8cc749",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "白色塑料",
+      "支架",
+      "桌面物品"
+    ],
+    "short_description": "一个白色的塑料支架静置于浅色平面上，造型简洁，具有支撑功能。",
+    "theme": "白色塑料支架"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "物体呈白色，表面光滑。",
+      "物体放置于浅灰色平面上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色",
+      "塑料材质",
+      "几何形状"
+    ],
+    "relations": [
+      "支架位于平面上。"
+    ],
+    "scene": "室内平面",
+    "subjects": [
+      "白色塑料支架"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "物体呈白色，表面光滑；物体放置于浅灰色平面上。",
+    "safe_facts": [
+      "物体呈白色，表面光滑。",
+      "物体放置于浅灰色平面上。"
+    ]
+  },
+  "label_id": "cpl_8b3992f0412ef2d81d2b1033",
+  "provenance": {
+    "generated_at": "2026-08-02T22:31:13.338718+00:00",
+    "migrated_at": "2026-08-03T07:13:41.857498+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "34c31316c15645af9ccc14bd95b3fe836840b9b705090efd1ad260ee285f3cbf",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1fba598ca094ed7e7479a583",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:30.242724+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1fba598ca094ed7e7479a583",
+    "cpl_52faf4acbd27117b724d291a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

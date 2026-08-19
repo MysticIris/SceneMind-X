@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:779.jpg",
+    "relative_path": "train/779.jpg",
+    "sha256": "c5f3ceda57efe927ab8ac0e604103d3a1a3aeaa727fcac141ef4f9e7afe6217d",
+    "split": "train"
+  },
+  "canonical_sha256": "5985c4054273c2becfadc27074ee494ad1301784dd4c476577a76503a5038d3d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "皮卡丘",
+      "毛绒玩具",
+      "宝可梦周边",
+      "黄色商品"
+    ],
+    "short_description": "货架上摆放着多个皮卡丘毛绒玩具、小黄鸭、宝可梦玩具盒及其他周边商品，色彩明亮，以黄色为主。",
+    "theme": "宝可梦主题商品陈列"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "货架上有多款皮卡丘毛绒玩具，颜色为黄色，带有红色脸颊和黑色眼睛。",
+      "货架中层放置了小黄鸭和宝可梦玩具盒，部分商品有包装。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黄色",
+      "毛绒材质",
+      "塑料玩具",
+      "包装盒"
+    ],
+    "relations": [
+      "商品陈列于货架上。",
+      "皮卡丘玩具位于上方货架。"
+    ],
+    "scene": "商店货架陈列区",
+    "subjects": [
+      "皮卡丘毛绒玩具",
+      "小黄鸭",
+      "宝可梦玩具盒",
+      "其他周边商品"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "货架上有多款皮卡丘毛绒玩具，颜色为黄色，带有红色脸颊和黑色眼睛；货架中层放置了小黄鸭和宝可梦玩具盒，部分商品有包装。",
+    "safe_facts": [
+      "货架上有多款皮卡丘毛绒玩具，颜色为黄色，带有红色脸颊和黑色眼睛。",
+      "货架中层放置了小黄鸭和宝可梦玩具盒，部分商品有包装。"
+    ]
+  },
+  "label_id": "cpl_e7e4f907b5dda71c805a6615",
+  "provenance": {
+    "generated_at": "2026-08-03T12:21:38.605607+00:00",
+    "migrated_at": "2026-08-03T12:21:38.608517+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c1e1948eeec27ec00abc8e79a3f613ffac09689fd7f46f347eb1f5e7617a5b42",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_294795959b2b6771f3469acd",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:21:38.608909+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_294795959b2b6771f3469acd"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

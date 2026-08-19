@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2217.jpg",
+    "relative_path": "val/2217.jpg",
+    "sha256": "74965866189e6ab4f84a2d4ce6a49278f70ce642997cc9ce5ebe925cccbe96be",
+    "split": "val"
+  },
+  "canonical_sha256": "fda2727f45f4303afec691eadd5f98f37b8b5e05e233d1f54ad4f15adb5d44ff",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "学术写作",
+      "研究结构",
+      "读者分析"
+    ],
+    "short_description": "一张演示幻灯片，用对话气泡形式说明学术论文各部分应回答的问题，中心配有一张思考中的男性肖像。",
+    "theme": "学术写作指导"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "中央位置有一张黑白男性肖像，手托下巴，目光向上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑白肖像",
+      "灰色背景"
+    ],
+    "relations": [],
+    "scene": "投影屏幕上的演示文稿",
+    "subjects": [
+      "男性肖像"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "中央位置有一张黑白男性肖像，手托下巴，目光向上。",
+    "safe_facts": [
+      "中央位置有一张黑白男性肖像，手托下巴，目光向上。"
+    ]
+  },
+  "label_id": "cpl_3ff29ec96695dcca7d810b8b",
+  "provenance": {
+    "generated_at": "2026-08-03T16:13:54.384408+00:00",
+    "migrated_at": "2026-08-03T16:13:54.387010+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "552a4a2e28fbaee6ae9aaf0b7c320749cb9e35ded1b19ab3b5c80dda0b1a226a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_efc010f7c56815a2079f5750",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:13:54.387629+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_efc010f7c56815a2079f5750"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "You need to know your readers",
+      "Methods",
+      "Results",
+      "What did you do?",
+      "What did you find?",
+      "Introduction"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "You need to know your readers",
+      "Methods",
+      "Results",
+      "What did you do?",
+      "What did you find?",
+      "Introduction"
+    ]
+  }
+}

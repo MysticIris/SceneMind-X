@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1352.jpg",
+    "relative_path": "train/1352.jpg",
+    "sha256": "ac02059ec718d35328cfbd4e2ae3d13bcc6ad7bc2f5a5303cfa7ef929a02097c",
+    "split": "train"
+  },
+  "canonical_sha256": "31651f45252fd3ed1e35c1fd393633f6e77e41e11d74fbabadfae34ee902fa38",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "数学运算"
+    ],
+    "short_description": "黑色卡西欧计算器显示数学表达式，屏幕呈现分数运算结果，按键布局清晰。",
+    "theme": "学生计算器"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "设备正面朝向镜头，整体轮廓清晰。",
+      "屏幕显示数学表达式及计算结果。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色外壳",
+      "液晶显示屏",
+      "多功能按键"
+    ],
+    "relations": [],
+    "scene": "产品正面展示",
+    "subjects": [],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "设备正面朝向镜头，整体轮廓清晰；屏幕显示数学表达式及计算结果。",
+    "safe_facts": [
+      "设备正面朝向镜头，整体轮廓清晰。",
+      "屏幕显示数学表达式及计算结果。"
+    ]
+  },
+  "label_id": "cpl_9e6c358f62b8f4305614097b",
+  "provenance": {
+    "generated_at": "2026-08-03T14:13:44.438069+00:00",
+    "migrated_at": "2026-08-03T14:13:44.448334+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "57e586a495ad06307e5c9a1615b9b3ecb565660a61ff46efdb4742a0e4fb89aa",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_99b3090ea315f277a0b2d0d7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:13:44.450174+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_99b3090ea315f277a0b2d0d7"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "CASIO",
+      "fx-82ES PLUS A",
+      "学生用计算器",
+      "NATURAL-V.P.A.M.",
+      "2nd edition",
+      "SHIFT"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "CASIO",
+      "fx-82ES PLUS A",
+      "学生用计算器",
+      "NATURAL-V.P.A.M.",
+      "2nd edition",
+      "SHIFT"
+    ]
+  }
+}

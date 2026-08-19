@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:655.jpg",
+    "relative_path": "train/655.jpg",
+    "sha256": "c8326e30d80e1da4d23d820c2d930caa8377c384e34e82578be780039f3a58d1",
+    "split": "train"
+  },
+  "canonical_sha256": "1f0ab38d2f61960d9df3bf0355d7656cd634d41db020ed4d3d12f74153aca286",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "猫咪",
+      "依偎",
+      "毛茸茸",
+      "黑白",
+      "浅色"
+    ],
+    "short_description": "两只毛茸茸猫咪依偎在一起，一只黑白相间，一只浅色，眼神温柔，画面温馨可爱。",
+    "theme": "黑白猫咪亲密相依"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两只猫，一只黑白相间，一只颜色较浅。",
+      "两只猫都处于静止状态，头部朝向镜头方向。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "毛发蓬松",
+      "眼睛大而圆",
+      "鼻子粉嫩"
+    ],
+    "relations": [
+      "两只猫身体靠近。"
+    ],
+    "scene": "室内静物",
+    "subjects": [
+      "一只黑白长毛猫",
+      "一只浅色长毛猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两只猫，一只黑白相间，一只颜色较浅；两只猫都处于静止状态，头部朝向镜头方向。",
+    "safe_facts": [
+      "画面中有两只猫，一只黑白相间，一只颜色较浅。",
+      "两只猫都处于静止状态，头部朝向镜头方向。"
+    ]
+  },
+  "label_id": "cpl_c71a05092f0c16f5964d799e",
+  "provenance": {
+    "generated_at": "2026-08-03T11:53:12.009414+00:00",
+    "migrated_at": "2026-08-03T11:53:12.013276+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "312eba5d3735ce45e8091cbc79d6f8196d7593ed941e796fe2a796827733ad6f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f8977ff9546217bde6ab08e4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:53:12.013643+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f8977ff9546217bde6ab08e4"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

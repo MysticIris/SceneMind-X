@@ -1,0 +1,20 @@
+{
+  "built_at": "2026-08-19T13:59:45.759166+08:00",
+  "created_at": "2026-08-04T14:41:19.986426+08:00",
+  "dimensions": 2048,
+  "index_type": "IndexFlatIP",
+  "index_version": "e1-product-4f53cda18c2b",
+  "items": 0,
+  "last_append_count": 1,
+  "manifest_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "metric": "inner_product_on_l2_normalized_vectors",
+  "model": "Qwen/Qwen3-VL-Embedding-2B",
+  "portable_path_scheme": "scenemindx_portable_asset_uri_v1",
+  "portable_paths": true,
+  "revision": "cda4398c9bbfb3a644105446a2793692a8da5ea1",
+  "schema_version": "scenemindx_e1_product_index_v1",
+  "serialization_version": "scenemindx_local_e1_portable_v1",
+  "source_index_version": "e1-product-c813eb0ab9c1",
+  "source_manifest_sha256": "65791490b5f78f7343f4e5d701ac7e040b5f3ca2ccabe3e49d9b0ed7257d0928",
+  "updated_at": "2026-08-19T13:59:45.759166+08:00"
+}

@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1139.jpg",
+    "relative_path": "train/1139.jpg",
+    "sha256": "daf07ffbb00a0f6feb0437856c721165da1170d0b6308d57ccceb3d74e859755",
+    "split": "train"
+  },
+  "canonical_sha256": "7ad308b6fe9e65a2a2f58d41d344756e7e50cf4e946af67a5f55071b6a0bb2e5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蓝色跑车",
+      "小米SU7",
+      "展厅展示"
+    ],
+    "short_description": "一辆亮蓝色小米SU7跑车停放在展厅内，车身光滑，前脸设计锐利，周围有参观者。",
+    "theme": "蓝色跑车展厅"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "汽车表面有光泽反射。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "亮蓝色车身",
+      "黑色轮毂",
+      "前脸带LED灯组"
+    ],
+    "relations": [
+      "汽车位于展厅中央。",
+      "参观者站在汽车旁。"
+    ],
+    "scene": "室内展厅",
+    "subjects": [
+      "蓝色汽车",
+      "参观者"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "汽车表面有光泽反射。",
+    "safe_facts": [
+      "汽车表面有光泽反射。"
+    ]
+  },
+  "label_id": "cpl_475ee929a90d486de4028a3b",
+  "provenance": {
+    "generated_at": "2026-08-03T13:44:06.950630+00:00",
+    "migrated_at": "2026-08-03T13:44:06.954816+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b9716dc2177fecd791621ce45926219a88f4ac1376a992ebdcd1dfd5c0ac22ae",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_cd8c54f7ee49cb8d2f02511c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:44:06.955301+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_cd8c54f7ee49cb8d2f02511c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "XIAOMI SU7"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "XIAOMI SU7"
+    ]
+  }
+}

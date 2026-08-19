@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:758.jpg",
+    "relative_path": "train/758.jpg",
+    "sha256": "507d7f27e5c7238211ca4cf3d1be434d0f2bac3e375d31fa0065358659fdaf7a",
+    "split": "train"
+  },
+  "canonical_sha256": "992a7ff102988ea4eb0c008cfa473ab83ed5301f3d64d243634ff455bfdf4199",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "喷泉",
+      "飞机雕塑",
+      "主题乐园",
+      "蓝天",
+      "绿植"
+    ],
+    "short_description": "蓝天下的主题乐园广场，中央有两架蓝白相间的飞机造型喷泉，周围环绕绿植与栏杆。",
+    "theme": "主题乐园喷泉雕塑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两架蓝白相间的飞机造型雕塑立于圆形喷泉中央。",
+      "雕塑周围有水雾喷出，地面湿润。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝白相间",
+      "喷水",
+      "雾气弥漫",
+      "晴朗天空"
+    ],
+    "relations": [
+      "飞机雕塑位于喷泉中心。",
+      "树木环绕广场。",
+      "灌木丛在栏杆后方。"
+    ],
+    "scene": "户外主题乐园广场",
+    "subjects": [
+      "飞机雕塑",
+      "喷泉",
+      "树木",
+      "灌木丛",
+      "栏杆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两架蓝白相间的飞机造型雕塑立于圆形喷泉中央；雕塑周围有水雾喷出，地面湿润。",
+    "safe_facts": [
+      "两架蓝白相间的飞机造型雕塑立于圆形喷泉中央。",
+      "雕塑周围有水雾喷出，地面湿润。"
+    ]
+  },
+  "label_id": "cpl_f6d413935b7d7afcf183e8b7",
+  "provenance": {
+    "generated_at": "2026-08-03T12:17:06.891230+00:00",
+    "migrated_at": "2026-08-03T12:17:06.893727+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d51ffb462c6d92dff335097784a604818157477a71ee0c10121b1d0659e84d51",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9d6232f3ea87ea337047ca5b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:17:06.894282+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9d6232f3ea87ea337047ca5b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

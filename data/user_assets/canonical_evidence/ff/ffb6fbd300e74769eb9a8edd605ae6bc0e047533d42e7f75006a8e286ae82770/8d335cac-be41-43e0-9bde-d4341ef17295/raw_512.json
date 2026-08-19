@@ -1,0 +1,125 @@
+{
+  "asset_id": "ffb6fbd300e74769",
+  "asset_sha256": "ffb6fbd300e74769eb9a8edd605ae6bc0e047533d42e7f75006a8e286ae82770",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"卡通主题店铺外观\",\n    \"short_description\": \"夜间拍摄的店铺入口，墙面挂有粉橙渐变色的卡通猫插画招牌，描绘了柜台场景。门口上方有装饰性雨棚，右侧悬挂黄色发光灯箱，店内可见陈列着各类小商品的洞洞板墙面。\",\n    \"micro_tags\": [\n      \"卡通插画\",\n      \"店铺招牌\",\n      \"夜间摄影\",\n      \"可爱风格\",\n      \"商品陈列\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"临街店铺入口及外墙\",\n    \"subjects\": [\n      \"墙面大型装饰画\",\n      \"店铺入口\",\n      \"悬挂式灯箱\",\n      \"室内货架\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"粉紫色调\",\n      \"暖色照明\",\n      \"卡通形象\",\n      \"夜间环境\"\n    ],\n    \"relations\": [\n      \"装饰画位于入口左侧墙面\",\n      \"灯箱悬挂于入口右侧\",\n      \"雨棚覆盖在入口上方\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"左侧墙面有一幅竖向长方形装饰画，背景由粉色渐变为橙色，画面包含多个拟人化猫咪角色、柜台、电话机及植物盆栽等元素。\",\n      \"入口右侧悬挂一个垂直的长方形黄色灯箱，内部发光，表面印有与主招牌风格一致的卡通图案和竖排文字。\",\n      \"透过敞开的玻璃门可以看到店内墙壁上安装了洞洞板，上面挂满了各种小型包装商品或挂件。\",\n      \"入口上方有一个紫红色的遮阳棚，边缘装饰有蝴蝶结、花朵、信封等白色剪影图标。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据招牌上的卡通形象和店内陈列的小商品推测，这可能是一家售卖文具、饰品或杂货的精品店。\",\n      \"画面右下角的水印表明该图片可能来源于社交媒体分享。\"\n    ],\n    \"uncertainties\": [\n      \"无法确认店铺的具体地理位置或名称。\",\n      \"无法确认画中角色的具体IP归属（虽然视觉上极似Hello Kitty，但作为标注器仅描述为卡通猫形象）。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"猫池渔商店\",\n      \"HELLO\",\n      \"KITTY\",\n      \"小红书\",\n      \"ovoyy0016\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张夜间拍摄的店铺外观照片，特色在于墙面上巨大的粉橙色卡通风格装饰画，画中描绘了猫咪在柜台工作的场景。店铺入口敞开，透出温暖的室内光线，右侧挂有发光的黄色招牌，店内可见密集的商品陈列架。\",\n    \"safe_facts\": [\n      \"图片展示了夜晚灯光下的店铺门面。\",\n      \"主要视觉焦点是一幅描绘卡通动物角色的彩色壁画。\",\n      \"店铺内部通过玻璃门可见，摆放着大量小件商品。\",\n      \"整体色调偏向暖色和粉紫色系。\"\n    ]\n  }\n}",
+      "input_tokens": 2736,
+      "output_tokens": 745,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 2736,
+        "output_tokens": 745,
+        "total_tokens": 3481,
+        "estimated_cost_cny": 0.011432,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "卡通主题店铺外观",
+          "short_description": "夜间拍摄的店铺入口，墙面挂有粉橙渐变色的卡通猫插画招牌，描绘了柜台场景。门口上方有装饰性雨棚，右侧悬挂黄色发光灯箱，店内可见陈列着各类小商品的洞洞板墙面。",
+          "micro_tags": [
+            "卡通插画",
+            "店铺招牌",
+            "夜间摄影",
+            "可爱风格",
+            "商品陈列"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "临街店铺入口及外墙",
+          "subjects": [
+            "墙面大型装饰画",
+            "店铺入口",
+            "悬挂式灯箱",
+            "室内货架"
+          ],
+          "actions": [],
+          "attributes": [
+            "粉紫色调",
+            "暖色照明",
+            "卡通形象",
+            "夜间环境"
+          ],
+          "relations": [
+            "装饰画位于入口左侧墙面",
+            "灯箱悬挂于入口右侧",
+            "雨棚覆盖在入口上方"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "左侧墙面有一幅竖向长方形装饰画，背景由粉色渐变为橙色，画面包含多个拟人化猫咪角色、柜台、电话机及植物盆栽等元素。",
+            "入口右侧悬挂一个垂直的长方形黄色灯箱，内部发光，表面印有与主招牌风格一致的卡通图案和竖排文字。",
+            "透过敞开的玻璃门可以看到店内墙壁上安装了洞洞板，上面挂满了各种小型包装商品或挂件。",
+            "入口上方有一个紫红色的遮阳棚，边缘装饰有蝴蝶结、花朵、信封等白色剪影图标。"
+          ],
+          "cautious_inferences": [
+            "根据招牌上的卡通形象和店内陈列的小商品推测，这可能是一家售卖文具、饰品或杂货的精品店。",
+            "画面右下角的水印表明该图片可能来源于社交媒体分享。"
+          ],
+          "uncertainties": [
+            "无法确认店铺的具体地理位置或名称。",
+            "无法确认画中角色的具体IP归属（虽然视觉上极似Hello Kitty，但作为标注器仅描述为卡通猫形象）。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "猫池渔商店",
+            "HELLO",
+            "KITTY",
+            "小红书",
+            "ovoyy0016"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张夜间拍摄的店铺外观照片，特色在于墙面上巨大的粉橙色卡通风格装饰画，画中描绘了猫咪在柜台工作的场景。店铺入口敞开，透出温暖的室内光线，右侧挂有发光的黄色招牌，店内可见密集的商品陈列架。",
+          "safe_facts": [
+            "图片展示了夜晚灯光下的店铺门面。",
+            "主要视觉焦点是一幅描绘卡通动物角色的彩色壁画。",
+            "店铺内部通过玻璃门可见，摆放着大量小件商品。",
+            "整体色调偏向暖色和粉紫色系。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 569944,
+        "request_bytes": 424385,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.006654600001639,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "6860bc991fb48d244b6333a3c73e032dd6e75609096113986d3e39a7424597ab"
+}

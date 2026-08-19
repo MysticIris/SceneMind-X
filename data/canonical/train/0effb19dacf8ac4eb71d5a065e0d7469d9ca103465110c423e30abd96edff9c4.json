@@ -1,0 +1,135 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:831.jpg",
+    "relative_path": "train/831.jpg",
+    "sha256": "0effb19dacf8ac4eb71d5a065e0d7469d9ca103465110c423e30abd96edff9c4",
+    "split": "train"
+  },
+  "canonical_sha256": "f70a1133ca26414b7d9ce6073277ff635f87b3bee88e1032d7b94bb1dd8300d9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "索尼门店",
+      "商场入口",
+      "玻璃门"
+    ],
+    "short_description": "索尼品牌门店入口，玻璃门内顾客浏览商品，地面反光清晰，天花板装有监控摄像头。",
+    "theme": "索尼门店入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面为光滑反光材质，映出店内景象。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "顾客站立",
+      "顾客行走"
+    ],
+    "attributes": [
+      "明亮灯光",
+      "光滑地面",
+      "黑色门框"
+    ],
+    "relations": [
+      "顾客位于门店入口前。",
+      "品牌标识位于门楣上方。"
+    ],
+    "scene": "室内商场索尼专卖店入口区域",
+    "subjects": [
+      "顾客",
+      "玻璃门",
+      "索尼品牌标识",
+      "反光地面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面为光滑反光材质，映出店内景象。",
+    "safe_facts": [
+      "地面为光滑反光材质，映出店内景象。"
+    ]
+  },
+  "label_id": "cpl_f343f30242c6ed58ead96bea",
+  "provenance": {
+    "generated_at": "2026-08-03T12:32:19.618566+00:00",
+    "migrated_at": "2026-08-03T12:32:19.622638+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "515d1b93b4fbe132b175738c1a2ba1b7b66ca6e3922c93f362c1cf483e26c8a9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_da52d440db4d3192fdc5cb3c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:32:19.623637+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_da52d440db4d3192fdc5cb3c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "SONY",
+      "XPERIA 5",
+      "地球移动版",
+      "Linus S",
+      "store"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "SONY",
+      "XPERIA 5",
+      "地球移动版",
+      "Linus S",
+      "store"
+    ]
+  }
+}

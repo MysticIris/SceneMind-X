@@ -1,0 +1,19 @@
+{
+  "prompt_id": "phase6_0b_canonical_recovery_v1",
+  "status": "inactive_recovery_only",
+  "purpose": "Only after the frozen Phase 6.0-A 512-token and 768-token contracts both fail with truncation evidence.",
+  "model": "Qwen/Qwen3-VL-4B-Instruct",
+  "model_revision": "unchanged_from_phase6_0a",
+  "prompt_path": "prompts/phase6_0b/canonical_recovery_v1/prompt.txt",
+  "prompt_sha256": "a1b9e02b68561075c20a39e92cf25e495d05a8017f7ff3050b6f68f5012a9bfb",
+  "response_schema_path": "data/schemas/phase6_0b_recovery_payload_v1.schema.json",
+  "response_schema_sha256": "5d0ba33ba02a8011ee6a13a65e9022a0048a6b43daaa0be94e751104b278357c",
+  "canonical_schema_path": "data/schemas/scenemindx_canonical_pseudo_label_v2_1_candidate.schema.json",
+  "canonical_schema_sha256": "bff0ec9e1e98eec0edf8f7ba425c4fb250baf2c9b77890eae49f8ad171d5c3c8",
+  "max_new_tokens": 384,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "hardcoded_asset_ids": [],
+  "enabled_by_default": false,
+  "external_api": false
+}

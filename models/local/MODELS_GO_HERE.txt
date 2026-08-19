@@ -1,0 +1,3 @@
+中文：请将 Qwen3-VL-4B-Instruct 与 Qwen3-VL-Embedding-2B 的完整官方权重目录放在本目录。详见 docs/DEPLOYMENT_LOCAL.md。
+
+English: Place the complete official Qwen3-VL-4B-Instruct and Qwen3-VL-Embedding-2B weight directories here. See docs/DEPLOYMENT_LOCAL.md.

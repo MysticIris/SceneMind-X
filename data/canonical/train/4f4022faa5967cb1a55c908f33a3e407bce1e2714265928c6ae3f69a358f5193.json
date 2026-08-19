@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1638.jpg",
+    "relative_path": "train/1638.jpg",
+    "sha256": "4f4022faa5967cb1a55c908f33a3e407bce1e2714265928c6ae3f69a358f5193",
+    "split": "train"
+  },
+  "canonical_sha256": "b92dc92a21506b4e73ecf8ba964d65cbb0272a9eaec92f8d82e417934e548b97",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄昏",
+      "城市天际线",
+      "情侣",
+      "草地"
+    ],
+    "short_description": "一对情侣坐在草地上，远眺被霞光染成粉紫色的城市天际线，前景是茂密灌木丛。",
+    "theme": "黄昏城市景观"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "两人可能正在欣赏日落景色。"
+    ],
+    "direct_observations": [
+      "天空呈现粉紫色调，太阳位于地平线附近。",
+      "前景有整齐排列的深色灌木丛，后方是城市建筑轮廓。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "坐着",
+      "望向远方"
+    ],
+    "attributes": [
+      "天空呈粉紫色",
+      "远处有高楼建筑群",
+      "前景有深色灌木丛",
+      "地面为绿色草坪"
+    ],
+    "relations": [
+      "两人并排坐于草地上。",
+      "两人面向城市方向。"
+    ],
+    "scene": "城市郊外开阔草地",
+    "subjects": [
+      "一名男性",
+      "一名女性"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "两人可能正在欣赏日落景色。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现粉紫色调，太阳位于地平线附近；前景有整齐排列的深色灌木丛，后方是城市建筑轮廓。",
+    "safe_facts": [
+      "天空呈现粉紫色调，太阳位于地平线附近。",
+      "前景有整齐排列的深色灌木丛，后方是城市建筑轮廓。"
+    ]
+  },
+  "label_id": "cpl_9b37a0849dcaa092300b18c5",
+  "provenance": {
+    "generated_at": "2026-08-03T14:48:13.376499+00:00",
+    "migrated_at": "2026-08-03T14:48:13.379155+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8033582db76331c6dd82080c07eb7de0e4fee2bac95efa5be8e5c6b0ffa347c1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8fe01e20a682504bdce2c003",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:48:13.379511+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8fe01e20a682504bdce2c003"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

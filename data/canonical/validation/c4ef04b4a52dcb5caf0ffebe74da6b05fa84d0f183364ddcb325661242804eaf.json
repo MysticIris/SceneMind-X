@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2368.jpg",
+    "relative_path": "val/2368.jpg",
+    "sha256": "c4ef04b4a52dcb5caf0ffebe74da6b05fa84d0f183364ddcb325661242804eaf",
+    "split": "val"
+  },
+  "canonical_sha256": "2bc0cd60fa543dc2e22181c1dd54fb1911492906e394498a1bb0d6c52f6be5a3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式亭子",
+      "绿树成荫",
+      "户外休闲"
+    ],
+    "short_description": "绿树掩映下的中式亭台，人们在草坪上休憩，环境宁静宜人。",
+    "theme": "中式园林庭院"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "亭子可能是供游客休息或观景的场所。"
+    ],
+    "direct_observations": [
+      "画面左侧有一棵粗壮的深色大树，枝叶繁茂。",
+      "右侧有一个带灰色瓦顶的中式凉亭，周围有数人活动。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "坐着",
+      "站立",
+      "撑伞"
+    ],
+    "attributes": [
+      "绿色草坪",
+      "深色树干",
+      "灰色瓦片屋顶",
+      "白色柱子"
+    ],
+    "relations": [
+      "亭子位于草坪旁。",
+      "树木遮蔽部分天空。",
+      "人群聚集在亭子附近。"
+    ],
+    "scene": "中式园林庭院",
+    "subjects": [
+      "游客",
+      "树木",
+      "亭子",
+      "草坪",
+      "植物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "亭子可能是供游客休息或观景的场所。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面左侧有一棵粗壮的深色大树，枝叶繁茂；右侧有一个带灰色瓦顶的中式凉亭，周围有数人活动。",
+    "safe_facts": [
+      "画面左侧有一棵粗壮的深色大树，枝叶繁茂。",
+      "右侧有一个带灰色瓦顶的中式凉亭，周围有数人活动。"
+    ]
+  },
+  "label_id": "cpl_5f56a6f9a81859238e24ce09",
+  "provenance": {
+    "generated_at": "2026-08-03T16:34:31.020484+00:00",
+    "migrated_at": "2026-08-03T16:34:31.021911+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e15c9ddf2e67854903645326802abc4725f2ffbbc408cee96c62550a9446f069",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d42da14247fbaacef57a8bbc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:34:31.022118+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d42da14247fbaacef57a8bbc"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

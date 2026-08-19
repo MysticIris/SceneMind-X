@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1137.jpg",
+    "relative_path": "train/1137.jpg",
+    "sha256": "d18382f3a11ec077fe4f3e71b174b5020999176213b42d6af4bade5834246b2b",
+    "split": "train"
+  },
+  "canonical_sha256": "40d1ba89ad02b7048e708c02e0c3427be8b178921c069dffe66696d304ddc01e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "剑",
+      "金属",
+      "特写",
+      "暗背景"
+    ],
+    "short_description": "一把剑身泛光的长剑斜置于深色背景上，剑刃部分反射光线，整体呈现古朴质感。",
+    "theme": "金属长条物特写"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "剑身呈细长条状，表面有反光。",
+      "剑被放置在纯黑色背景上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金属材质",
+      "表面有光泽",
+      "斜放"
+    ],
+    "relations": [],
+    "scene": "深色背景下的一把剑",
+    "subjects": [
+      "剑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "剑身呈细长条状，表面有反光；剑被放置在纯黑色背景上。",
+    "safe_facts": [
+      "剑身呈细长条状，表面有反光。",
+      "剑被放置在纯黑色背景上。"
+    ]
+  },
+  "label_id": "cpl_5719a40c6e0d2ccebb8910ce",
+  "provenance": {
+    "generated_at": "2026-08-03T13:43:46.421100+00:00",
+    "migrated_at": "2026-08-03T13:43:46.425377+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "89c578f76a4275d3d9591387aebfd792ef95fb907996b9f1773b3173c6bee088",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_68654845ad6a2485090eecdc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:43:46.427854+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_68654845ad6a2485090eecdc"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

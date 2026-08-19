@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:939.jpg",
+    "relative_path": "train/939.jpg",
+    "sha256": "cf52f6acbf800ad4e5a05aeba0da1e4fc493fef359ab828f4dad3f0f83057ae2",
+    "split": "train"
+  },
+  "canonical_sha256": "091f4942b6b088081bfac14c7979f2adda5aef411f1001c561025df45ba07f9c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "麦田",
+      "女子",
+      "户外",
+      "自然风光"
+    ],
+    "short_description": "一位红发女子站在金黄色麦田中，背景是树木和晴朗天空，画面色调温暖。",
+    "theme": "田野中的女子"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一名红发女子站立于金黄色麦田中。",
+      "背景可见树木和远处建筑轮廓，天空呈浅蓝色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红发",
+      "穿棕色外套",
+      "站立",
+      "麦田呈金黄色"
+    ],
+    "relations": [
+      "女子位于麦田中。"
+    ],
+    "scene": "开阔的田野",
+    "subjects": [
+      "一名女子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一名红发女子站立于金黄色麦田中；背景可见树木和远处建筑轮廓，天空呈浅蓝色。",
+    "safe_facts": [
+      "画面中有一名红发女子站立于金黄色麦田中。",
+      "背景可见树木和远处建筑轮廓，天空呈浅蓝色。"
+    ]
+  },
+  "label_id": "cpl_fca8d370cacd9093f1dcf111",
+  "provenance": {
+    "generated_at": "2026-08-03T13:04:43.993647+00:00",
+    "migrated_at": "2026-08-03T13:04:43.996545+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ea6365440310eca37871bf44335b8c4961bc07cf52f85c2e014b5cbeded3277a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fca8d370cacd9093f1dcf111",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:21:19.768114+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_533efc8be82323c277f8a17e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

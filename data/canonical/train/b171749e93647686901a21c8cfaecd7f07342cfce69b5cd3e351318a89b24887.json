@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1134.jpg",
+    "relative_path": "train/1134.jpg",
+    "sha256": "b171749e93647686901a21c8cfaecd7f07342cfce69b5cd3e351318a89b24887",
+    "split": "train"
+  },
+  "canonical_sha256": "d18525cef52e40068c1c805f57b852d57cf1f1f5032cb01cf02a8c091a72abb4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蓝色蝴蝶",
+      "标本",
+      "玻璃框",
+      "装饰边框"
+    ],
+    "short_description": "两幅装裱的蓝色蝴蝶标本，翅膀展开，置于玻璃框内，背景有装饰性图案。",
+    "theme": "蝴蝶标本展示"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两只蓝色蝴蝶标本，翅膀展开，被玻璃罩住。",
+      "标本周围有装饰性画框，部分框边有金色花纹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "翅膀展开",
+      "玻璃保护层",
+      "金色装饰边框"
+    ],
+    "relations": [
+      "蝴蝶标本被装裱在画框内。"
+    ],
+    "scene": "室内陈列柜或展台",
+    "subjects": [
+      "蓝色蝴蝶标本",
+      "装饰性画框"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两只蓝色蝴蝶标本，翅膀展开，被玻璃罩住；标本周围有装饰性画框，部分框边有金色花纹。",
+    "safe_facts": [
+      "画面中有两只蓝色蝴蝶标本，翅膀展开，被玻璃罩住。",
+      "标本周围有装饰性画框，部分框边有金色花纹。"
+    ]
+  },
+  "label_id": "cpl_3e2df99183e89ecc1fab9db1",
+  "provenance": {
+    "generated_at": "2026-08-03T13:41:47.636082+00:00",
+    "migrated_at": "2026-08-03T13:41:47.640988+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2b4c9195202608be0e2a46f7d83588d93b0106c835407649edf67bcbadfa679d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b27ae57ed31bbaeae7d755e0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:41:47.643591+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b27ae57ed31bbaeae7d755e0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

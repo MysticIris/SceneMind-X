@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2098.jpg",
+    "relative_path": "val/2098.jpg",
+    "sha256": "e95d0955640e844420488d910e8afa8b7d4c4177ae109376cf07f9fe9ec703ca",
+    "split": "val"
+  },
+  "canonical_sha256": "68e9863ad9e85e113bbcd9be1ad78767e4a064d3e742be510d22b62e03da8101",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "大熊猫",
+      "树干",
+      "休息",
+      "岩石背景"
+    ],
+    "short_description": "一只大熊猫蜷缩在粗壮的树枝上休息，周围环绕着岩石和竹林，环境模拟自然栖息地。",
+    "theme": "熊猫栖息于树干"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "熊猫可能正在睡觉或打盹。"
+    ],
+    "direct_observations": [
+      "熊猫身体呈蜷缩姿态，双眼闭合。",
+      "熊猫被一根青绿色绳索缠绕在树枝上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "蜷缩",
+      "休息"
+    ],
+    "attributes": [
+      "黑白毛色",
+      "闭眼",
+      "缠绕绳索"
+    ],
+    "relations": [
+      "熊猫位于树枝上。",
+      "树枝附着于岩石背景。"
+    ],
+    "scene": "室内模拟自然栖息地",
+    "subjects": [
+      "大熊猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "熊猫可能正在睡觉或打盹。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "熊猫身体呈蜷缩姿态，双眼闭合；熊猫被一根青绿色绳索缠绕在树枝上。",
+    "safe_facts": [
+      "熊猫身体呈蜷缩姿态，双眼闭合。",
+      "熊猫被一根青绿色绳索缠绕在树枝上。"
+    ]
+  },
+  "label_id": "cpl_7a346764216cf76c25d04325",
+  "provenance": {
+    "generated_at": "2026-08-03T15:59:19.809583+00:00",
+    "migrated_at": "2026-08-03T15:59:19.811837+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6b99b1f4789be58333a37432f0c6912a44e017394d0ec3c1cc47d287c068865e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_297522a5b69d99338763b6ba",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:59:19.812036+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_297522a5b69d99338763b6ba"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

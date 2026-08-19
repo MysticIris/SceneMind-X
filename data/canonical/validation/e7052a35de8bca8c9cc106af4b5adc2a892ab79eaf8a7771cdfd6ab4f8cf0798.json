@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2319.jpg",
+    "relative_path": "val/2319.jpg",
+    "sha256": "e7052a35de8bca8c9cc106af4b5adc2a892ab79eaf8a7771cdfd6ab4f8cf0798",
+    "split": "val"
+  },
+  "canonical_sha256": "cae25637bcac3ef445cf94fd2159ba3ae86c0caf0dd69d04560e2e2e374e79fb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "公园",
+      "小径",
+      "绿树",
+      "阴天"
+    ],
+    "short_description": "阴天下的公园小径旁，绿草如茵，高大树木成行，一人缓步前行。",
+    "theme": "公园小径与绿树"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "地面湿润，可能刚下过雨或空气潮湿。"
+    ],
+    "direct_observations": [
+      "画面中有一条铺设平整的灰色小径，延伸至远方。",
+      "草坪呈鲜绿色，分布着几块浅色石板。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走"
+    ],
+    "attributes": [
+      "阴天",
+      "绿色草坪",
+      "高大树木",
+      "湿润路面"
+    ],
+    "relations": [
+      "行人走在小径上。",
+      "树木环绕草坪。",
+      "小径连接草坪与建筑。"
+    ],
+    "scene": "城市公园绿地",
+    "subjects": [
+      "行人",
+      "树木",
+      "草坪",
+      "道路"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "地面湿润，可能刚下过雨或空气潮湿。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一条铺设平整的灰色小径，延伸至远方；草坪呈鲜绿色，分布着几块浅色石板。",
+    "safe_facts": [
+      "画面中有一条铺设平整的灰色小径，延伸至远方。",
+      "草坪呈鲜绿色，分布着几块浅色石板。"
+    ]
+  },
+  "label_id": "cpl_8c8c92a7ec5eca32517b0636",
+  "provenance": {
+    "generated_at": "2026-08-03T16:26:30.067326+00:00",
+    "migrated_at": "2026-08-03T16:26:30.069466+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e625f9a36145f50027f527f924b755dfe1b62264ba7332beab7d2bf3ccba7b98",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4ae6ae9528f2d9ae39555fd0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:26:30.069735+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4ae6ae9528f2d9ae39555fd0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

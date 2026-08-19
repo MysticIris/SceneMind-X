@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:339.jpg",
+    "relative_path": "train/339.jpg",
+    "sha256": "79251b9b81654122934831d6eff65499f01357625d67773317ee1708030d1ffc",
+    "split": "train"
+  },
+  "canonical_sha256": "e46d6ddef5cbf8182792ff04a9b912cc0cb9e3981505feaa2a3a7addd58b00c8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "中式楼阁",
+      "城市街道"
+    ],
+    "short_description": "夜晚城市街道上，一座传统中式多层楼阁被暖光灯饰照亮，背景是现代高楼，前景有人群和路灯。",
+    "theme": "夜景建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现夜间城市环境。",
+      "中式楼阁被暖黄色灯光装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "被灯光照亮",
+      "多层结构",
+      "传统风格",
+      "现代建筑背景"
+    ],
+    "relations": [
+      "中式楼阁位于现代高楼前方。",
+      "人群在街道前景。"
+    ],
+    "scene": "城市夜景街道",
+    "subjects": [
+      "中式楼阁",
+      "现代高楼",
+      "人群",
+      "路灯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现夜间城市环境；中式楼阁被暖黄色灯光装饰。",
+    "safe_facts": [
+      "画面呈现夜间城市环境。",
+      "中式楼阁被暖黄色灯光装饰。"
+    ]
+  },
+  "label_id": "cpl_02e1728feb0b2c50b7f15ebc",
+  "provenance": {
+    "generated_at": "2026-08-03T10:42:55.435073+00:00",
+    "migrated_at": "2026-08-03T10:42:55.436622+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d0e60437dd1aa76bb850ebb11931eeb5b2a43d6b2cecb81fff3e72c8306e4ed3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_52ae33414c2daf7da1fe6ab4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:42:55.436824+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_52ae33414c2daf7da1fe6ab4"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

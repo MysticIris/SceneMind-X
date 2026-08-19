@@ -1,0 +1,151 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_bf45fb960b10d60779e6fb3a",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_5c9c547d8ae04089d9d72bef"
+  ],
+  "asset": {
+    "asset_id": "8c4bbb9ce694ffec",
+    "sha256": "8c4bbb9ce694ffec48de6db6f36b148fa7f827a18d5bc724b6c1bfe0ea211dd6",
+    "split": "user_custom",
+    "relative_path": "user_assets/8c/8c4bbb9ce694ffec48de6db6f36b148fa7f827a18d5bc724b6c1bfe0ea211dd6/8c4bbb9ce694ffec48de6db6f36b148fa7f827a18d5bc724b6c1bfe0ea211dd6.jpg"
+  },
+  "display": {
+    "theme": "手持梅子乌龙茶饮料",
+    "short_description": "一张户外拍摄的特写照片，展示了一只手握着一瓶透明塑料瓶装的梅子乌龙茶饮料。背景为模糊的灰色地砖路面。",
+    "micro_tags": [
+      "梅子乌龙",
+      "瓶装饮料",
+      "手持特写",
+      "户外街拍",
+      "茶饮",
+      "冷凝水珠"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "户外铺砖路面",
+    "subjects": [
+      "手",
+      "塑料饮料瓶",
+      "标签",
+      "手串"
+    ],
+    "actions": [
+      "手持瓶子"
+    ],
+    "attributes": [
+      "透明瓶身",
+      "琥珀色液体",
+      "白色瓶盖",
+      "瓶身有水珠",
+      "绿色圆形图案",
+      "黑色书法字体"
+    ],
+    "relations": [
+      "手握住瓶身中部。",
+      "瓶子位于画面右侧前景。",
+      "背景虚化。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "一只左手握着一个透明塑料瓶，手腕处佩戴有一串深褐色圆珠手串。",
+      "瓶内装有约三分之二高度的黄褐色液体，瓶身外壁附着大量细小水珠。",
+      "背景是灰色的长方形地砖铺设的地面，景深较浅，背景模糊。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法确定拍摄的具体地点或时间。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "name.",
+      "steps.",
+      "武夷山大红袍",
+      "萃取头道茶汤",
+      "自然熟成至浓香的发酵青梅汁",
+      "梅子酸甜 岩韵茶香"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "name.",
+      "steps.",
+      "武夷山大红袍",
+      "萃取头道茶汤",
+      "自然熟成至浓香的发酵青梅汁",
+      "梅子酸甜 岩韵茶香"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "一只左手握着一个透明塑料瓶，手腕处佩戴有一串深褐色圆珠手串；瓶内装有约三分之二高度的黄褐色液体，瓶身外壁附着大量细小水珠。",
+    "safe_facts": [
+      "一只左手握着一个透明塑料瓶，手腕处佩戴有一串深褐色圆珠手串。",
+      "瓶内装有约三分之二高度的黄褐色液体，瓶身外壁附着大量细小水珠。",
+      "背景是灰色的长方形地砖铺设的地面，景深较浅，背景模糊。"
+    ],
+    "do_not_assert": [
+      "无法确定拍摄的具体地点或时间。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "needs_review",
+    "schema_valid": true,
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": true,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_007d84f3-173c-4477-816b-c5bc00741458",
+    "generated_at": "2026-08-12T03:18:21.528124+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "84fdef09743de518fffc78db0b9eca57bb9ec362e69c14da4b0f0bdfdec71a9b",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:18:21.529444+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_5c9c547d8ae04089d9d72bef",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:18:21.529941+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "4a07426a0833d24b137a091f51feaf4a8c9ca1681677cbc6c8df57a51157f921"
+}

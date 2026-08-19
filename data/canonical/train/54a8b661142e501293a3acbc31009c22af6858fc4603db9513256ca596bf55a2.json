@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:528.jpg",
+    "relative_path": "train/528.jpg",
+    "sha256": "54a8b661142e501293a3acbc31009c22af6858fc4603db9513256ca596bf55a2",
+    "split": "train"
+  },
+  "canonical_sha256": "4e8b60e3acd94b3029918eac996fcb4db80ec92eccbc80c797c6e4b3471c422f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "带刺铁丝网",
+      "混凝土墙",
+      "装饰性尖顶",
+      "晴朗天空"
+    ],
+    "short_description": "多层带刺铁丝网横跨于混凝土墙顶，墙顶装有装饰性金属尖顶，背景为浅蓝色天空和远处建筑。",
+    "theme": "带刺铁丝网围墙"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "铁丝网可能用于围栏或安全防护。"
+    ],
+    "direct_observations": [
+      "图像中可见多条平行的带刺铁丝网。",
+      "墙体表面有明显污渍和风化痕迹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "多层铁丝网",
+      "锈迹斑斑的金属支架",
+      "墙面有污渍",
+      "尖顶呈三叶草状"
+    ],
+    "relations": [
+      "铁丝网安装在墙上。",
+      "尖顶位于墙顶。",
+      "建筑位于墙后。"
+    ],
+    "scene": "户外围墙场景",
+    "subjects": [
+      "带刺铁丝网",
+      "混凝土墙",
+      "装饰性金属尖顶",
+      "远处建筑",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "铁丝网可能用于围栏或安全防护。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像中可见多条平行的带刺铁丝网；墙体表面有明显污渍和风化痕迹。",
+    "safe_facts": [
+      "图像中可见多条平行的带刺铁丝网。",
+      "墙体表面有明显污渍和风化痕迹。"
+    ]
+  },
+  "label_id": "cpl_d1704816deba7b28ebd4e21a",
+  "provenance": {
+    "generated_at": "2026-08-03T11:23:02.410733+00:00",
+    "migrated_at": "2026-08-03T11:23:02.413224+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7e1f5e50afa5faacc146a340c477ff63be57d1d2481cc995a56ce26be21e09b9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7cb04f6fe0eec044ecf8b532",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:23:02.413563+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7cb04f6fe0eec044ecf8b532"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:444.jpg",
+    "relative_path": "train/444.jpg",
+    "sha256": "3aaea2849c22056057b118856a9534683b7b9736c7fce6a75ae361e3ab8febac",
+    "split": "train"
+  },
+  "canonical_sha256": "6f232e7010243174df5e348975f06094e6a8ab0d0bb2e986c236d116b65ea02c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪山",
+      "城堡",
+      "松林",
+      "湖泊",
+      "冬季"
+    ],
+    "short_description": "雪覆山峦间，城堡静立湖畔，松林环绕，天空云霞绚烂，构成一幅冬日童话般的壮丽画卷。",
+    "theme": "雪山城堡风光"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空呈现紫粉色调，可能为日出或日落时分。"
+    ],
+    "direct_observations": [
+      "画面中可见多座被白雪覆盖的山峰。",
+      "前景与中景有密集的松树林，枝头积雪明显。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "覆盖积雪",
+      "天空有云霞",
+      "松树挂雪"
+    ],
+    "relations": [
+      "城堡位于山腰湖畔。",
+      "松林环绕城堡与山脚。",
+      "湖泊被群山环抱。"
+    ],
+    "scene": "雪山与森林环绕的湖泊及城堡景观",
+    "subjects": [
+      "雪山",
+      "城堡",
+      "松树林",
+      "湖泊"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空呈现紫粉色调，可能为日出或日落时分。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见多座被白雪覆盖的山峰；前景与中景有密集的松树林，枝头积雪明显。",
+    "safe_facts": [
+      "画面中可见多座被白雪覆盖的山峰。",
+      "前景与中景有密集的松树林，枝头积雪明显。"
+    ]
+  },
+  "label_id": "cpl_0646ed726b89f77593663c70",
+  "provenance": {
+    "generated_at": "2026-08-03T11:04:39.127274+00:00",
+    "migrated_at": "2026-08-03T11:04:39.129693+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c226c5323553d14fbae4696c75a2d5d41fa6ad3cd0783d6d8505794a632c6ad7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4d1b703d214b564008634c60",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:04:39.129963+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4d1b703d214b564008634c60"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

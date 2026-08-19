@@ -1,0 +1,52 @@
+{
+  "reconstruction_status": "reconstructed_from_frozen_source",
+  "asset_id": "655.jpg",
+  "asset_sha256": "c8326e30d80e1da4d23d820c2d930caa8377c384e34e82578be780039f3a58d1",
+  "input_image_count_per_stage": 1,
+  "system_message": null,
+  "message_role": "user",
+  "content_order": ["image", "stage_prompt_text"],
+  "calls": [
+    {
+      "stage": "global_subjects",
+      "prompt_file": "../prompts/p3_v1_4/stage_01_global_subjects.txt",
+      "max_new_tokens": 64
+    },
+    {
+      "stage": "activities",
+      "prompt_file": "../prompts/p3_v1_4/stage_02_activities.txt",
+      "max_new_tokens": 32
+    },
+    {
+      "stage": "attributes",
+      "prompt_file": "../prompts/p3_v1_4/stage_03_attributes.txt",
+      "max_new_tokens": 40
+    },
+    {
+      "stage": "relations",
+      "prompt_file": "../prompts/p3_v1_4/stage_04_relations.txt",
+      "max_new_tokens": 40
+    },
+    {
+      "stage": "visible_text",
+      "prompt_file": "../prompts/p3_v1_4/stage_05_visible_text.txt",
+      "max_new_tokens": 24
+    },
+    {
+      "stage": "scene_hypotheses",
+      "prompt_file": "../prompts/p3_v1_4/stage_06_scene_hypotheses.txt",
+      "max_new_tokens": 48
+    },
+    {
+      "stage": "uncertainties",
+      "prompt_file": "../prompts/p3_v1_4/stage_07_uncertainties.txt",
+      "max_new_tokens": 40
+    },
+    {
+      "stage": "evidence",
+      "prompt_file": "../prompts/p3_v1_4/stage_08_evidence.txt",
+      "max_new_tokens": 48
+    }
+  ],
+  "trace_id": "470cb095-b281-4856-8602-ee0ebb1eb854"
+}

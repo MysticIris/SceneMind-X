@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:85.jpg",
+    "relative_path": "train/85.jpg",
+    "sha256": "7e34882af7ae86ba717af180c71aebdc3376b8f62bbb04f6551ab516bcb66ef4",
+    "split": "train"
+  },
+  "canonical_sha256": "f6385ced2d24b3883dc313c4d83a58e75541f927598b803675bd59ebcbd43afd",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "工人",
+      "升降机",
+      "交通灯",
+      "高空作业"
+    ],
+    "short_description": "一名工人站在升降机上，正在维修悬挂在空中的交通信号灯，旁边有绿灯和倒计时显示。",
+    "theme": "高空作业维修交通灯"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一名身穿浅色上衣的人站在黄色升降机平台上。",
+      "交通信号灯呈绿色亮起状态，其中一盏带有数字倒计时显示。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "维修"
+    ],
+    "attributes": [
+      "绿色灯光",
+      "倒计时显示"
+    ],
+    "relations": [
+      "工人站在升降机上。",
+      "升降机位于交通信号灯下方。"
+    ],
+    "scene": "户外街道上方",
+    "subjects": [
+      "工人",
+      "升降机",
+      "交通信号灯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名身穿浅色上衣的人站在黄色升降机平台上；交通信号灯呈绿色亮起状态，其中一盏带有数字倒计时显示。",
+    "safe_facts": [
+      "一名身穿浅色上衣的人站在黄色升降机平台上。",
+      "交通信号灯呈绿色亮起状态，其中一盏带有数字倒计时显示。"
+    ]
+  },
+  "label_id": "cpl_a7fd80f0187a5ba39268354b",
+  "provenance": {
+    "generated_at": "2026-08-03T09:22:25.408763+00:00",
+    "migrated_at": "2026-08-03T09:22:25.410306+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "36243c5276e50dc22b48ac804e5d926378e48c0c0fedf1e2d245f06849f24d4e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_64942074794e41b9e80a5c8d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:28.650229+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_64942074794e41b9e80a5c8d",
+    "cpl_ee0d41911c6d598746315fe1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

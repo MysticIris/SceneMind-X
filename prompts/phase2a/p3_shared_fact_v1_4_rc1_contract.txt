@@ -1,0 +1,43 @@
+Exact field contract:
+
+Top-level keys, in order: visual_medium, depicted_content, scene_summary, subjects, activities, relationships, text_assessment, evidence_items, claims, short_caption, dense_caption, self_check.
+
+Nested item keys, in order:
+- subjects[]: subject_id, name, salience, medium_layer, attributes, evidence_refs, confidence, uncertainty_reason. attributes[] contains exactly key and value.
+- activities[]: subject_ref, action, evidence_refs, confidence, uncertainty_reason.
+- relationships[]: subject_ref, relation, object_ref, object_text, evidence_refs, confidence, uncertainty_reason. Exactly one of object_ref and object_text is non-null.
+- text_assessment.ocr_candidates[]: text, language, script_type, legibility, direction, source_type, region_ref, confidence, uncertainty_reason. For this model call, source_type must be model_visual.
+- evidence_items[]: evidence_id, source_type, content, region_ref, tool_ref, confidence. For this model call, source_type is visual_global, visual_region or model_text_assessment; tool_ref must be null.
+- claims[]: claim_id, claim_type, text, evidence_refs, confidence, uncertainty_reason.
+
+Enums:
+- visual_medium primary_type/secondary_types: real_world_photo, screenshot, presentation_slide, meme_or_reaction_image, poster_or_advertisement, document_or_paper, webpage_or_user_interface, chat_screenshot, chart_or_infographic, illustration_or_comic, packaging, mixed, uncertain.
+- depicted_content.real_world_event_status: directly_observed, depicted_only, mixed, uncertain.
+- salience: primary, secondary, background, uncertain.
+- medium_layer: scene_direct, depicted_inside_medium, both, uncertain.
+- text_presence: none, possible, present.
+- text_types: printed, handwritten, artistic, digital_interface, mixed, unknown.
+- text legibility: none, low, partial, high, mixed.
+- false_positive_contexts: footprint, snow, texture, glare, reflection, compression_artifact, other.
+- OCR script_type: printed, handwritten, artistic, digital, mixed, unknown.
+- OCR direction: left_to_right, right_to_left, top_to_bottom, mixed, unknown.
+- claim_type: direct_observation, reasonable_inference, uncertain, abstention.
+
+IDs and references:
+- subject_id uses s1, s2, ...; evidence_id uses ev1, ev2, ...; claim_id uses cl1, cl2, .... IDs are unique.
+- Every evidence_refs entry must reference an existing evidence_id. Activity and relationship subject_ref/object_ref must reference existing subject_id values.
+
+Nullability and uncertainty:
+- Arrays are never null. Empty arrays are allowed where no supported fact exists.
+- Nullable: visual_medium.uncertainty_reason, depicted_content.summary, depicted_content.uncertainty_reason, scene_summary, item uncertainty_reason, relationship object_ref/object_text, OCR text/language/region_ref, evidence region_ref/tool_ref, short_caption, dense_caption.
+- primary_type=uncertain, real_world_event_status=uncertain, uncertain/abstention claims, possible text, and unreadable/conflicting text require a non-null uncertainty_reason.
+- text_presence=none requires text_types=[], legibility=none, ocr_candidates=[], scene_inference_allowed=false.
+- text_presence=possible requires scene_inference_allowed=false.
+
+Limits:
+- scene_summary <= 240 characters; short_caption <= 120; dense_caption <= 600.
+- subject name, action, relation and relationship object_text <= 80; attribute key <= 60 and value <= 120.
+- evidence content and claim text <= 240; uncertainty_reason and self_check issue <= 160.
+- At most 20 subjects, 20 activities, 30 relationships, 30 OCR candidates, 60 evidence items, 60 claims and 12 self_check issues.
+
+The output must contain no downstream, direct_observations, inferences, uncertainties, VQA, retrieval, reranking, generation or routing fields.

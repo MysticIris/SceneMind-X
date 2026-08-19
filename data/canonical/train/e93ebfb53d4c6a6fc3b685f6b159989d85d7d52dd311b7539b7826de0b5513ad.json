@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:73.jpg",
+    "relative_path": "train/73.jpg",
+    "sha256": "e93ebfb53d4c6a6fc3b685f6b159989d85d7d52dd311b7539b7826de0b5513ad",
+    "split": "train"
+  },
+  "canonical_sha256": "2e3c7e6688922942ee7a06e33653473ce11b0f1db18d899b84d621bad7536b43",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "公交站台",
+      "等车人群",
+      "城市街景"
+    ],
+    "short_description": "三名乘客在公交站等车，其中一人戴红帽口罩，背景有格力广告牌和行驶车辆。",
+    "theme": "公交站台日常"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "三名乘客站在公交站台边缘，面向公交车方向。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立等待"
+    ],
+    "attributes": [
+      "佩戴口罩",
+      "背着背包",
+      "穿着休闲装"
+    ],
+    "relations": [
+      "三人并排站立于公交站台。"
+    ],
+    "scene": "城市街道公交站",
+    "subjects": [
+      "戴红帽的男子",
+      "戴草帽的女子",
+      "穿黄色上衣的工作人员"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三名乘客站在公交站台边缘，面向公交车方向。",
+    "safe_facts": [
+      "三名乘客站在公交站台边缘，面向公交车方向。"
+    ]
+  },
+  "label_id": "cpl_a28c8f821104c169b3968dde",
+  "provenance": {
+    "generated_at": "2026-08-03T09:19:46.951860+00:00",
+    "migrated_at": "2026-08-03T09:19:46.953553+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7bcad561dc085e9d4eee7c337f9c746b2134f431f0f680c183dc987e4e79c84e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_50e0ae06defdc4761aa33ff7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:28.122444+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_50e0ae06defdc4761aa33ff7",
+    "cpl_51ab0c126f06af9a6b049c41"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "GREE格力",
+      "让世界爱上中国造"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "GREE格力",
+      "让世界爱上中国造"
+    ]
+  }
+}

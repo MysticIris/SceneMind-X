@@ -1,0 +1,145 @@
+{
+  "asset_id": "cec9ce654f66aa5b",
+  "asset_sha256": "cec9ce654f66aa5b6bfb81ce0761018c911a7ea5548503e2be2adc3fea037870",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"游戏结算界面截图\",\n    \"short_description\": \"这是一张电子游戏的对局结算界面截图。画面左侧展示了一位身穿白色裙装、拥有银白色长发的女性角色立绘，背景为深蓝色星空与冰晶特效。界面右侧及中央覆盖着半透明数据面板，显示巨大的评分数字“14.9”以及“MVP”、“顶级中路”等荣誉标识，下方排列着分路表现、团队贡献等勋章图标及星级评价进度条。\",\n    \"micro_tags\": [\n      \"游戏截图\",\n      \"结算界面\",\n      \"女性角色\",\n      \"MVP\",\n      \"冰雪主题\",\n      \"UI设计\",\n      \"星空背景\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"电子游戏对局结束后的数据统计与评价页面\",\n    \"subjects\": [\n      \"银发白衣女性游戏角色\",\n      \"游戏UI数据面板\",\n      \"荣誉勋章图标\",\n      \"评分数字\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"深蓝色调\",\n      \"星空背景\",\n      \"冰晶装饰\",\n      \"金色徽章\",\n      \"半透明遮罩\",\n      \"高亮文字\"\n    ],\n    \"relations\": [\n      \"角色立绘位于画面左侧前景\",\n      \"数据面板悬浮于角色右侧及上方\",\n      \"评分数字位于视觉中心偏上位置\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面左侧有一位侧身坐着的银发女性角色，身着带有冰雪纹理的白色礼服，周围环绕着冰棱状物体。\",\n      \"屏幕中央显示巨大的米黄色数字“14.9”，其右侧紧邻红底白字的“MVP”标签和紫色标签。\",\n      \"界面中部横向排列三个圆形金色边框的勋章图标，分别对应下方的文字说明区域。\",\n      \"底部有一条金色的进度条，右端显示三颗金星及“星级+3”字样。\",\n      \"右上角有一排小型状态图标，包括剑、骷髅头、拳头符号及数字。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局推测，这是MOBA类或角色扮演类手游的赛后结算画面。\",\n      \"巨大的数字可能代表该局游戏的综合评分或表现指数。\",\n      \"角色可能是玩家在本局比赛中使用的英雄或皮肤。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的游戏名称及版本号。\",\n      \"无法确认角色的具体姓名设定。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"14.9\",\n      \"前1%\",\n      \"顶级中路\",\n      \"MVP\",\n      \"分路表现\",\n      \"团队贡献\",\n      \"战斗操作\",\n      \"对本分路塔伤害占比15%\",\n      \"参团率94%\",\n      \"最多连杀4\",\n      \"本局总计积分 +301\",\n      \"星级+3\",\n      \"点击此处继续\",\n      \"甄姬\",\n      \"848/3000\",\n      \"+55\",\n      \"+1\",\n      \"里程碑计数：达成累计击败数量251\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张深蓝色调的游戏结算界面截图，左侧为银发女性角色立绘，右侧展示评分数据、MVP标识及多个金色成就勋章。\",\n    \"safe_facts\": [\n      \"图片包含一位白发女性角色的全身或半身像。\",\n      \"背景呈现星空与冰晶元素。\",\n      \"界面上有明显的数字评分和荣誉标签。\",\n      \"包含多个圆形的成就或统计图标。\",\n      \"底部有表示等级或进度的星形图标。\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 922,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 922,
+        "total_tokens": 4149,
+        "estimated_cost_cny": 0.01383,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "游戏结算界面截图",
+          "short_description": "这是一张电子游戏的对局结算界面截图。画面左侧展示了一位身穿白色裙装、拥有银白色长发的女性角色立绘，背景为深蓝色星空与冰晶特效。界面右侧及中央覆盖着半透明数据面板，显示巨大的评分数字“14.9”以及“MVP”、“顶级中路”等荣誉标识，下方排列着分路表现、团队贡献等勋章图标及星级评价进度条。",
+          "micro_tags": [
+            "游戏截图",
+            "结算界面",
+            "女性角色",
+            "MVP",
+            "冰雪主题",
+            "UI设计",
+            "星空背景"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "电子游戏对局结束后的数据统计与评价页面",
+          "subjects": [
+            "银发白衣女性游戏角色",
+            "游戏UI数据面板",
+            "荣誉勋章图标",
+            "评分数字"
+          ],
+          "actions": [],
+          "attributes": [
+            "深蓝色调",
+            "星空背景",
+            "冰晶装饰",
+            "金色徽章",
+            "半透明遮罩",
+            "高亮文字"
+          ],
+          "relations": [
+            "角色立绘位于画面左侧前景",
+            "数据面板悬浮于角色右侧及上方",
+            "评分数字位于视觉中心偏上位置"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "画面左侧有一位侧身坐着的银发女性角色，身着带有冰雪纹理的白色礼服，周围环绕着冰棱状物体。",
+            "屏幕中央显示巨大的米黄色数字“14.9”，其右侧紧邻红底白字的“MVP”标签和紫色标签。",
+            "界面中部横向排列三个圆形金色边框的勋章图标，分别对应下方的文字说明区域。",
+            "底部有一条金色的进度条，右端显示三颗金星及“星级+3”字样。",
+            "右上角有一排小型状态图标，包括剑、骷髅头、拳头符号及数字。"
+          ],
+          "cautious_inferences": [
+            "根据界面布局推测，这是MOBA类或角色扮演类手游的赛后结算画面。",
+            "巨大的数字可能代表该局游戏的综合评分或表现指数。",
+            "角色可能是玩家在本局比赛中使用的英雄或皮肤。"
+          ],
+          "uncertainties": [
+            "无法确定具体的游戏名称及版本号。",
+            "无法确认角色的具体姓名设定。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "14.9",
+            "前1%",
+            "顶级中路",
+            "MVP",
+            "分路表现",
+            "团队贡献",
+            "战斗操作",
+            "对本分路塔伤害占比15%",
+            "参团率94%",
+            "最多连杀4",
+            "本局总计积分 +301",
+            "星级+3",
+            "点击此处继续",
+            "甄姬",
+            "848/3000",
+            "+55",
+            "+1",
+            "里程碑计数：达成累计击败数量251"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张深蓝色调的游戏结算界面截图，左侧为银发女性角色立绘，右侧展示评分数据、MVP标识及多个金色成就勋章。",
+          "safe_facts": [
+            "图片包含一位白发女性角色的全身或半身像。",
+            "背景呈现星空与冰晶元素。",
+            "界面上有明显的数字评分和荣誉标签。",
+            "包含多个圆形的成就或统计图标。",
+            "底部有表示等级或进度的星形图标。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 6102532,
+        "request_bytes": 4573826,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 17.82947250000143,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "cd4ae9915cef993d00c69dbb6765a7a85a902628dff43e922093d73b9565d6ec"
+}

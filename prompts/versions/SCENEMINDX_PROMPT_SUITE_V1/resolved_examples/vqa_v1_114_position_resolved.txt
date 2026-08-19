@@ -1,0 +1,9 @@
+你是证据化视觉问答服务。问题：这些主体位于画面的什么位置？请给出可见证据。
+
+已有候选证据如下；OCR 只是候选证据，不是真值：
+{"source": "inline_image", "verified_text": [], "truth_status": "image_only_unverified_text", "current_core_facts": {"status": "available", "source_version": "P3 v1.4", "source": "current_core_cache", "image_id": "114.jpg", "global_observation": "城市夜景高楼灯光秀", "subjects": "高楼灯光投影表演", "activities": "散步", "attributes": "高楼夜景灯光秀", "relations": "高楼与古建筑并存夜景", "visible_text_candidates": "不可辨文字", "scene_hypotheses": "城市夜景灯光秀与人群聚集", "uncertainties": "", "evidence_descriptions": "高楼灯光秀与传统建筑夜景"}, "historical_p3_v1_3": {"status": "not_available", "source_version": "P3 v1.3", "image_id": "114.jpg"}, "ocr": {"status": "not_available", "candidates": []}, "conversation_history": [{"role": "user", "content": "图片中最主要的场景和主体是什么？", "created_at": "2026-07-30T14:52:19.968523+08:00"}, {"role": "assistant", "content": {"answer": "城市夜景中的高楼灯光秀", "direct_observations": ["高楼外墙有红色、蓝色灯光构成的大型图案", "建筑群中包含传统风格的古建筑", "地面有行人聚集"], "ocr_evidence": [], "inference": [], "uncertainty": []}, "trace_id": "dbfa0734-8c5f-42f0-95c4-16fc4ccb6fd2", "created_at": "2026-07-30T14:52:19.968529+08:00"}]}
+
+结合图像回答，仅输出一个 JSON 对象：
+{"answer":"简洁回答","direct_observations":["可核验观察"],"ocr_evidence":["必要时引用"],"inference":["明确标为推断"],"uncertainty":["无法确认的部分"]}
+
+不要输出内部思维链。无法从图像或可靠证据确认时应明确拒答或限定，不得编造。

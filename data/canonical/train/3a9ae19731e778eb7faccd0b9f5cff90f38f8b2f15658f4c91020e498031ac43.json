@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:377.jpg",
+    "relative_path": "train/377.jpg",
+    "sha256": "3a9ae19731e778eb7faccd0b9f5cff90f38f8b2f15658f4c91020e498031ac43",
+    "split": "train"
+  },
+  "canonical_sha256": "0e38c478d9feff2780c8c75228484d5c253f76c46a114b384070e816f97c65fe",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "海岸",
+      "石阶",
+      "悬崖",
+      "帆船"
+    ],
+    "short_description": "俯瞰视角下，蜿蜒石阶沿陡峭崖壁延伸至碧蓝海水旁，一艘帆船静泊于清澈海面。",
+    "theme": "海岸阶梯小径"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现从高空俯瞰的视角，可见多条石砌阶梯沿着山体曲线延伸。",
+      "左侧为深蓝色海水，右侧为布满岩石与树木的陡峭崖壁。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蜿蜒",
+      "石砌",
+      "陡峭",
+      "碧蓝",
+      "绿色植被"
+    ],
+    "relations": [
+      "石阶依附于悬崖。",
+      "帆船位于海面。"
+    ],
+    "scene": "沿海悬崖地貌",
+    "subjects": [
+      "石阶",
+      "悬崖",
+      "海水",
+      "帆船"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现从高空俯瞰的视角，可见多条石砌阶梯沿着山体曲线延伸；左侧为深蓝色海水，右侧为布满岩石与树木的陡峭崖壁。",
+    "safe_facts": [
+      "画面呈现从高空俯瞰的视角，可见多条石砌阶梯沿着山体曲线延伸。",
+      "左侧为深蓝色海水，右侧为布满岩石与树木的陡峭崖壁。"
+    ]
+  },
+  "label_id": "cpl_9cbf5a4e67825e6f89f2e225",
+  "provenance": {
+    "generated_at": "2026-08-03T10:50:57.186481+00:00",
+    "migrated_at": "2026-08-03T10:50:57.188734+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ef500c7e229e6d41b1f30949f5da0b76432e3cceca9781230d064761c72edd73",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e97f59d16b8154a8d08badde",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:50:57.188987+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e97f59d16b8154a8d08badde"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

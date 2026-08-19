@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scenemind-x.local/schemas/phase5_2a_multiturn_chat_response_v2.schema.json",
+  "title": "SceneMind-X Phase 5.2-A model-only multi-turn Chat response",
+  "type": "object",
+  "required": [
+    "answer",
+    "image_references",
+    "evidence",
+    "uncertainty"
+  ],
+  "properties": {
+    "answer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "image_references": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 5,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^IMG_[1-9][0-9]*$"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "uncertainty": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

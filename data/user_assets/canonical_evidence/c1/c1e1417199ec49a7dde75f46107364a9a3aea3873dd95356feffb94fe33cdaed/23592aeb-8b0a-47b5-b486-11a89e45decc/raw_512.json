@@ -1,0 +1,67 @@
+{
+  "asset_id": "c1e1417199ec49a7",
+  "asset_sha256": "c1e1417199ec49a7dde75f46107364a9a3aea3873dd95356feffb94fe33cdaed",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"盲盒玩具包装展示\",\n    \"short_description\": \"一张手持拍摄的玩具包装盒背面照片。淡紫色背景上印有六款Q版卡通人物挂件图鉴，角色分别穿着熊猫、猪、熊、兔子等动物造型服饰，并配有中英文说明文字及概率标识。背景可见货架上堆叠的其他黑色与米色包装盒。\",\n    \"micro_tags\": [\n      \"盲盒\",\n      \"玩具包装\",\n      \"Q版公仔\",\n      \"挂件\",\n      \"POP MART\",\n      \"哪吒\",\n      \"敖丙\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"室内零售店货架前\",\n    \"subjects\": [\n      \"玩具包装盒\",\n      \"手\",\n      \"货架\",\n      \"其他商品盒\"\n    ],\n    \"actions\": [\n      \"手持\",\n      \"展示\"\n    ],\n    \"attributes\": [\n      \"淡紫色背景\",\n      \"Q版卡通形象\",\n      \"动物造型服饰\",\n      \"挂环设计\",\n      \"图文排版\"\n    ],\n    \"relations\": [\n      \"手握住包装盒右侧\",\n      \"包装盒位于前景\",\n      \"其他盒子位于背景货架\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面主体为一个长方体包装盒的背面，背景为淡紫色纹理。\",\n      \"盒面上排列着六个卡通人物形象，均带有顶部的挂环结构，看似钥匙扣或挂件。\",\n      \"每个形象旁都有竖排的中英文文字说明以及类似分数的数字标识（如1/6）。\",\n      \"右下角可见一只手的大拇指和部分手掌正在握持该盒子。\",\n      \"左侧背景中有黑色的盒子堆叠，下方有米黄色的盒子，上面印有红色的“POP MART”标志。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据包装背面的图鉴布局，这很可能是一款盲盒或随机抽取类玩具的系列展示。\",\n      \"角色形象具有明显的中国神话特征（如黑眼圈、发髻），可能源自特定IP（如哪吒之魔童降世）。\"\n    ],\n    \"uncertainties\": [\n      \"无法确认拍摄的具体店铺名称。\",\n      \"无法确认盒内实际包含的具体款式。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"POP MART\",\n      \"Nezha's Pig Edition\",\n      \"小猪吒儿\",\n      \"1/6\",\n      \"Nezha's Panda Edition\",\n      \"熊猫吒儿\",\n      \"Ao Bing's Polar Bear Edition\",\n      \"白熊丙丙\",\n      \"Nezha's Brown Bear Edition\",\n      \"棕熊吒儿\",\n      \"Ao Bing's Rabbit Edition\",\n      \"小兔丙丙\",\n      \"Ao Bing's Loong Edition\",\n      \"白龙丙丙\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一只手拿着一个印有六个Q版卡通动物造型挂件的紫色包装盒，背景是摆满同类商品的货架。\",\n    \"safe_facts\": [\n      \"图片展示了玩具产品的包装背面。\",\n      \"包装上有六个",
+      "input_tokens": 3205,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 768,
+        "total_tokens": 3973,
+        "estimated_cost_cny": 0.012554,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "盲盒玩具包装展示",
+        "short_description": "一张手持拍摄的玩具包装盒背面照片。淡紫色背景上印有六款Q版卡通人物挂件图鉴，角色分别穿着熊猫、猪、熊、兔子等动物造型服饰，并配有中英文说明文字及概率标识。背景可见货架上堆叠的其他黑色与米色包装盒。",
+        "micro_tags": [
+          "盲盒",
+          "玩具包装",
+          "Q版公仔",
+          "挂件",
+          "POP MART",
+          "哪吒",
+          "敖丙"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 6442080,
+        "request_bytes": 4828487,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.28463660000125,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "e60d3be4b2eb53a3e0a7f8a5bc666cdd17c7f65c0d0cf024cf3d5335cf6b45c2"
+}

@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1412.jpg",
+    "relative_path": "train/1412.jpg",
+    "sha256": "cb961bb2a7a96bf41db9ea9c45c036afae48caa7a8c42042b737d0f0f7fdd0a0",
+    "split": "train"
+  },
+  "canonical_sha256": "443b18b9ecaa4e01bc50059405c0ba5b2de746d963e5f95d29bb73e4e39c5baa",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄昏",
+      "湖水",
+      "灯光倒影",
+      "枯枝"
+    ],
+    "short_description": "黄昏时分，湖面倒映着远处灯光，前景有枯枝遮挡，水面波光粼粼，远处山丘轮廓隐约可见。",
+    "theme": "黄昏湖畔"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空颜色表明时间接近黄昏或黎明。"
+    ],
+    "direct_observations": [
+      "湖面有细小波纹，反射远处灯光。",
+      "前景有一棵无叶的树，枝干伸向画面。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "水面有波纹",
+      "天空呈紫灰色渐变",
+      "树木无叶"
+    ],
+    "relations": [
+      "枯树枝位于前景。",
+      "灯光反射在湖面上。",
+      "山丘位于背景。"
+    ],
+    "scene": "湖边黄昏景观",
+    "subjects": [
+      "湖水",
+      "枯树",
+      "远处灯光",
+      "山丘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空颜色表明时间接近黄昏或黎明。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "湖面有细小波纹，反射远处灯光；前景有一棵无叶的树，枝干伸向画面。",
+    "safe_facts": [
+      "湖面有细小波纹，反射远处灯光。",
+      "前景有一棵无叶的树，枝干伸向画面。"
+    ]
+  },
+  "label_id": "cpl_d49464d7877b6ab8f74eb519",
+  "provenance": {
+    "generated_at": "2026-08-03T14:19:37.094905+00:00",
+    "migrated_at": "2026-08-03T14:19:37.100415+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3088ebe3c9aa9a96803b9717229436e815378c12fa9506635c43d6ea17e8061d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5f884ebcb0334bd469ffdb34",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:19:37.100787+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5f884ebcb0334bd469ffdb34"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

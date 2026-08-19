@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1088.jpg",
+    "relative_path": "train/1088.jpg",
+    "sha256": "156a099b0ca1ed810e06f3c7f1b07940c3bb86ee33ddb5ade613885f985403a6",
+    "split": "train"
+  },
+  "canonical_sha256": "4fef37ab7e5fcb5b026d0ffce989bad004d36f5f74367beeabc949f2372c4a35",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "睡莲",
+      "池塘",
+      "粉红色花朵",
+      "荷叶"
+    ],
+    "short_description": "池塘中绽放着粉色睡莲，绿叶铺满水面，背景是石砌池岸。",
+    "theme": "池塘睡莲"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两朵盛开的粉红色睡莲。",
+      "水面漂浮大量绿色荷叶。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "粉红色花瓣",
+      "绿色荷叶",
+      "水面倒影"
+    ],
+    "relations": [
+      "睡莲生长于荷叶之间。"
+    ],
+    "scene": "池塘水面",
+    "subjects": [
+      "睡莲",
+      "荷叶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两朵盛开的粉红色睡莲；水面漂浮大量绿色荷叶。",
+    "safe_facts": [
+      "画面中有两朵盛开的粉红色睡莲。",
+      "水面漂浮大量绿色荷叶。"
+    ]
+  },
+  "label_id": "cpl_58668da20377fc57d53d2389",
+  "provenance": {
+    "generated_at": "2026-08-03T13:34:00.670912+00:00",
+    "migrated_at": "2026-08-03T13:34:00.676620+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c19a35f64c0ae22a2fa8a0b0b5cca684f287944e855d853f220935c5b1b30ccf",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d904fd383c19248299cab696",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:34:00.676947+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d904fd383c19248299cab696"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "asset_id": "82de7bd228fcc2a9",
+  "asset_sha256": "82de7bd228fcc2a91bb34cd894dbf0240b45ecba6d0ff86d762620a9c4011923",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"数字逻辑电路示意图\",\n    \"short_description\": \"这是一张电子电路逻辑图，展示了包含多输入异或门、非门、与门及或门的组合逻辑结构。图中通过蓝色连线连接各个逻辑符号，并标注了“0位错”、“1位错”、“2位错”等中文标签，用于表示不同的错误检测状态。\",\n    \"micro_tags\": [\n      \"逻辑电路图\",\n      \"异或门\",\n      \" error detection\",\n      \"数字电路\",\n      \" schematic\",\n      \"工程制图\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"illustration\",\n    \"scene\": \"带有网格背景的工程绘图界面\",\n    \"subjects\": [\n      \"逻辑门符号\",\n      \"连接导线\",\n      \"文本标签\",\n      \"输入输出端\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"蓝色线条\",\n      \"黑色轮廓\",\n      \"点状网格背景\",\n      \"标准逻辑符号\"\n    ],\n    \"relations\": [\n      \"左侧信号输入至多输入异或门\",\n      \"异或门输出分支连接至后续逻辑门\",\n      \"逻辑门组合最终指向右侧的错误指示标签\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图像左侧有一个标有'检测'的方框，连接到一个6输入的异或门（XOR）。\",\n      \"电路右侧有三个输出分支，分别标记为'0位错'、'2位错'和'1位错'。\",\n      \"背景是均匀分布的黑色点阵网格。\",\n      \"连接线主要为蓝色，逻辑门符号为黑色轮廓白色填充。\"\n    ],\n    \"cautious_inferences\": [\n      \"该电路图可能用于演示海明码（Hamming Code）或类似的纠错编码原理。\",\n      \"图中的逻辑结构旨在根据校验位的状态判断数据传输中是否发生错误以及错误的位数。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的软件工具名称，虽然风格类似Multisim或Logisim。\",\n      \"中间方框内的具体文字因分辨率原因略显模糊，推测为'总校验位错'。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"检测\",\n      \"0位错\",\n      \"总校验位错\",\n      \"2位错\",\n      \"1位错\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张展示数字逻辑门电路连接的示意图，包含异或门、与门和或门，背景为点状网格，配有中文标注说明不同的逻辑输出状态。\",\n    \"safe_facts\": [\n      \"图像包含标准的电子逻辑门符号。\",\n      \"存在明显的输入端到输出端的信号流向。\",\n      \"图中有清晰的中文文本标注。\",\n      \"背景具有规则的网格纹理。\"\n    ]\n  }\n}",
+      "input_tokens": 920,
+      "output_tokens": 716,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 920,
+        "output_tokens": 716,
+        "total_tokens": 1636,
+        "estimated_cost_cny": 0.007568,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "数字逻辑电路示意图",
+          "short_description": "这是一张电子电路逻辑图，展示了包含多输入异或门、非门、与门及或门的组合逻辑结构。图中通过蓝色连线连接各个逻辑符号，并标注了“0位错”、“1位错”、“2位错”等中文标签，用于表示不同的错误检测状态。",
+          "micro_tags": [
+            "逻辑电路图",
+            "异或门",
+            " error detection",
+            "数字电路",
+            " schematic",
+            "工程制图"
+          ]
+        },
+        "facts": {
+          "visual_medium": "illustration",
+          "scene": "带有网格背景的工程绘图界面",
+          "subjects": [
+            "逻辑门符号",
+            "连接导线",
+            "文本标签",
+            "输入输出端"
+          ],
+          "actions": [],
+          "attributes": [
+            "蓝色线条",
+            "黑色轮廓",
+            "点状网格背景",
+            "标准逻辑符号"
+          ],
+          "relations": [
+            "左侧信号输入至多输入异或门",
+            "异或门输出分支连接至后续逻辑门",
+            "逻辑门组合最终指向右侧的错误指示标签"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图像左侧有一个标有'检测'的方框，连接到一个6输入的异或门（XOR）。",
+            "电路右侧有三个输出分支，分别标记为'0位错'、'2位错'和'1位错'。",
+            "背景是均匀分布的黑色点阵网格。",
+            "连接线主要为蓝色，逻辑门符号为黑色轮廓白色填充。"
+          ],
+          "cautious_inferences": [
+            "该电路图可能用于演示海明码（Hamming Code）或类似的纠错编码原理。",
+            "图中的逻辑结构旨在根据校验位的状态判断数据传输中是否发生错误以及错误的位数。"
+          ],
+          "uncertainties": [
+            "无法确定具体的软件工具名称，虽然风格类似Multisim或Logisim。",
+            "中间方框内的具体文字因分辨率原因略显模糊，推测为'总校验位错'。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "检测",
+            "0位错",
+            "总校验位错",
+            "2位错",
+            "1位错"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张展示数字逻辑门电路连接的示意图，包含异或门、与门和或门，背景为点状网格，配有中文标注说明不同的逻辑输出状态。",
+          "safe_facts": [
+            "图像包含标准的电子逻辑门符号。",
+            "存在明显的输入端到输出端的信号流向。",
+            "图中有清晰的中文文本标注。",
+            "背景具有规则的网格纹理。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 16168,
+        "request_bytes": 9052,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.458041899997625,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "1ad5fac9e76e0047cc765d578b1d9908b01c40ab14e84005d2b3ad2a43680c08"
+}

@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:94.jpg",
+    "relative_path": "train/94.jpg",
+    "sha256": "23609e34800185db91383275e39749fedd14f515fd2edb4549006ac38aab9712",
+    "split": "train"
+  },
+  "canonical_sha256": "83a5067344f460a9643e4ae0c59c29749c0300f732076efbaf10e5d99fae59ef",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "演唱会",
+      "体育场",
+      "舞台灯光"
+    ],
+    "short_description": "体育场内灯光璀璨，舞台巨型屏幕显示艺人形象，观众席座无虚席，气氛热烈。",
+    "theme": "大型演唱会现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "舞台上方悬挂多个大型LED屏幕。",
+      "观众席上坐满人群。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灯光照明",
+      "烟雾效果",
+      "密集人群"
+    ],
+    "relations": [
+      "观众围绕舞台。",
+      "屏幕位于舞台上方。"
+    ],
+    "scene": "室内体育场演唱会现场",
+    "subjects": [
+      "观众",
+      "舞台设备",
+      "大型屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "舞台上方悬挂多个大型LED屏幕；观众席上坐满人群。",
+    "safe_facts": [
+      "舞台上方悬挂多个大型LED屏幕。",
+      "观众席上坐满人群。"
+    ]
+  },
+  "label_id": "cpl_35cfb0d4fee8d852c9c91ef3",
+  "provenance": {
+    "generated_at": "2026-08-03T09:24:16.026393+00:00",
+    "migrated_at": "2026-08-03T09:24:16.028163+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1d85811cfb626ba3b606d89ace984965dbac44ede73cf4e6b83a38cf03079349",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1dffaa04cadaa1c09f5e7b2d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:29.133637+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1dffaa04cadaa1c09f5e7b2d",
+    "cpl_8a4564e3be78b0cb02db5cd9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

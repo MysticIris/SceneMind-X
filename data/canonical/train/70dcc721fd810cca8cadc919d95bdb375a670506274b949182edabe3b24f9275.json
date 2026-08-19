@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1002.jpg",
+    "relative_path": "train/1002.jpg",
+    "sha256": "70dcc721fd810cca8cadc919d95bdb375a670506274b949182edabe3b24f9275",
+    "split": "train"
+  },
+  "canonical_sha256": "43c5a8de7d2910ea47116aeabc7227a929a220125fdb2bf28321653f83b08ac3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "竹林",
+      "石阶",
+      "雾气",
+      "幽深"
+    ],
+    "short_description": "雾气弥漫的竹林中，一条石阶小路蜿蜒向上，两侧是高耸密集的竹子，氛围幽静神秘。",
+    "theme": "竹林小径"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线透过竹林形成斑驳效果，可能因雾气散射。"
+    ],
+    "direct_observations": [
+      "画面中可见大量高大细长的竹子，排列密集。",
+      "石阶从前景延伸至背景，被浓雾部分遮挡。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "高耸",
+      "密集",
+      "湿润",
+      "幽暗"
+    ],
+    "relations": [
+      "石阶位于竹林中。",
+      "雾气笼罩竹林。"
+    ],
+    "scene": "竹林中的石阶小径",
+    "subjects": [
+      "竹子",
+      "石阶",
+      "雾气"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线透过竹林形成斑驳效果，可能因雾气散射。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见大量高大细长的竹子，排列密集；石阶从前景延伸至背景，被浓雾部分遮挡。",
+    "safe_facts": [
+      "画面中可见大量高大细长的竹子，排列密集。",
+      "石阶从前景延伸至背景，被浓雾部分遮挡。"
+    ]
+  },
+  "label_id": "cpl_8d6a9258282be0d0c53501ae",
+  "provenance": {
+    "generated_at": "2026-08-03T13:23:28.075323+00:00",
+    "migrated_at": "2026-08-03T13:23:28.078798+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6276d596be4d7c29e368320c72895a4b7a9739f00382761b8815a48b1cb2bd3a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_560e8050b8d7da479b429528",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:23:28.079147+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_560e8050b8d7da479b429528"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

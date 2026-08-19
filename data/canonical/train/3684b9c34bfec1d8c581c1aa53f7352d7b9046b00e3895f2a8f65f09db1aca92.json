@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:941.jpg",
+    "relative_path": "train/941.jpg",
+    "sha256": "3684b9c34bfec1d8c581c1aa53f7352d7b9046b00e3895f2a8f65f09db1aca92",
+    "split": "train"
+  },
+  "canonical_sha256": "0af6579331cfe97ba444cbc8cf401569e016c198e76f600d47a2bd39e6aa33ba",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "螺旋楼梯",
+      "藤蔓缠绕",
+      "蕨类植物",
+      "白色栏杆"
+    ],
+    "short_description": "白色螺旋楼梯被茂密藤蔓和蕨类植物环绕，自然与建筑交融，充满生机。",
+    "theme": "绿意盎然的螺旋楼梯"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "楼梯呈白色，具有螺旋结构。",
+      "大量绿色藤蔓和蕨类植物覆盖楼梯及周围区域。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色",
+      "绿色",
+      "螺旋状",
+      "被植物覆盖"
+    ],
+    "relations": [
+      "藤蔓缠绕楼梯柱。",
+      "蕨类植物位于楼梯上方。"
+    ],
+    "scene": "室内植物环绕的楼梯区域",
+    "subjects": [
+      "螺旋楼梯",
+      "藤蔓植物",
+      "蕨类植物",
+      "栏杆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "楼梯呈白色，具有螺旋结构；大量绿色藤蔓和蕨类植物覆盖楼梯及周围区域。",
+    "safe_facts": [
+      "楼梯呈白色，具有螺旋结构。",
+      "大量绿色藤蔓和蕨类植物覆盖楼梯及周围区域。"
+    ]
+  },
+  "label_id": "cpl_0ba39bc28dfd694bec3671bc",
+  "provenance": {
+    "generated_at": "2026-08-03T13:05:07.530006+00:00",
+    "migrated_at": "2026-08-03T13:05:07.533004+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3ac377271d4fc820b659e804c185d2f1e050c50e38ed62d9f2d93d51a7230c66",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0ba39bc28dfd694bec3671bc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:21:19.806217+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6a07c5d5a2d309bebad5ca6a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

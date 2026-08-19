@@ -1,0 +1,132 @@
+{
+  "asset_id": "7b8665707ba8b8ef",
+  "asset_sha256": "7b8665707ba8b8efe07053a9bfdfdb4f1a16a93750d02a2218c7a614bf7ab794",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"手写书信与情感记录\",\n    \"short_description\": \"一张特写照片展示了一本打开的纹理质感笔记本，页面上用黑色和蓝色墨水手写着中文标题“消失的下雨天”及一段关于食堂相遇的短文。一只手在下方托举着本子，背景为简洁的浅色平面，整体呈现出文艺且怀旧的氛围。\",\n    \"micro_tags\": [\n      \"手写体\",\n      \"笔记本\",\n      \"情感语录\",\n      \"特写摄影\",\n      \"文艺风格\",\n      \"文字记录\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"室内近距离拍摄场景\",\n    \"subjects\": [\n      \"打开的笔记本\",\n      \"人手\",\n      \"手写文字\"\n    ],\n    \"actions\": [\n      \"手持\",\n      \"展示\"\n    ],\n    \"attributes\": [\n      \"纸张具有明显的凹凸纹理\",\n      \"右页上方贴有一张边缘不规则的白色纸片\",\n      \"左页有蓝色线条装饰\",\n      \"字体为手写风格\"\n    ],\n    \"relations\": [\n      \"手位于笔记本下方支撑\",\n      \"文字书写在纸张表面\",\n      \"白色纸片粘贴在右侧页面上方\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图片中心是一本摊开的书或笔记本，纸张表面有明显的皱褶和纹理质感。\",\n      \"左页写有巨大的蓝色和黑色汉字，右页上方贴有一张白色便签纸，上面写有密集的小字。\",\n      \"一只左手的手指（可见拇指和部分手掌）从下方托住笔记本的下边缘。\",\n      \"背景是模糊的灰白色平面，光线柔和均匀。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据纸张的质感和手写内容推测，这可能是一本手账、日记本或自制的情感语录册。\",\n      \"文字内容涉及‘食堂’、‘下雨天’等词汇，可能是在记录一段回忆或表达某种心情。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定拍摄的具体地点是在家中还是其他室内场所。\",\n      \"无法确认持有者的具体身份特征。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"第二封\",\n      \"2023.9.24\",\n      \"消失的\",\n      \"下雨天\",\n      \"第一次在食堂碰见你\",\n      \"你迎面走来\",\n      \"外面的天还下着小雨\",\n      \"我的心却是晴天\",\n      \"我好想再淋一遍\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一只手托举着一本打开的 textured 笔记本，页面上布满了手写的中文字符和简单的涂鸦装饰，右页贴有一张白色小纸条，背景干净简洁。\",\n    \"safe_facts\": [\n      \"图像主体为一本打开的纸质笔记本。\",\n      \"页面上有明显的黑色和蓝色手写笔迹。\",\n      \"一只手正在握持该物体。\",\n      \"纸张表面具有特殊的纹理效果。\"\n    ]\n  }\n}",
+      "input_tokens": 2231,
+      "output_tokens": 757,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 2231,
+        "output_tokens": 757,
+        "total_tokens": 2988,
+        "estimated_cost_cny": 0.010518,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "手写书信与情感记录",
+          "short_description": "一张特写照片展示了一本打开的纹理质感笔记本，页面上用黑色和蓝色墨水手写着中文标题“消失的下雨天”及一段关于食堂相遇的短文。一只手在下方托举着本子，背景为简洁的浅色平面，整体呈现出文艺且怀旧的氛围。",
+          "micro_tags": [
+            "手写体",
+            "笔记本",
+            "情感语录",
+            "特写摄影",
+            "文艺风格",
+            "文字记录"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "室内近距离拍摄场景",
+          "subjects": [
+            "打开的笔记本",
+            "人手",
+            "手写文字"
+          ],
+          "actions": [
+            "手持",
+            "展示"
+          ],
+          "attributes": [
+            "纸张具有明显的凹凸纹理",
+            "右页上方贴有一张边缘不规则的白色纸片",
+            "左页有蓝色线条装饰",
+            "字体为手写风格"
+          ],
+          "relations": [
+            "手位于笔记本下方支撑",
+            "文字书写在纸张表面",
+            "白色纸片粘贴在右侧页面上方"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图片中心是一本摊开的书或笔记本，纸张表面有明显的皱褶和纹理质感。",
+            "左页写有巨大的蓝色和黑色汉字，右页上方贴有一张白色便签纸，上面写有密集的小字。",
+            "一只左手的手指（可见拇指和部分手掌）从下方托住笔记本的下边缘。",
+            "背景是模糊的灰白色平面，光线柔和均匀。"
+          ],
+          "cautious_inferences": [
+            "根据纸张的质感和手写内容推测，这可能是一本手账、日记本或自制的情感语录册。",
+            "文字内容涉及‘食堂’、‘下雨天’等词汇，可能是在记录一段回忆或表达某种心情。"
+          ],
+          "uncertainties": [
+            "无法确定拍摄的具体地点是在家中还是其他室内场所。",
+            "无法确认持有者的具体身份特征。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "第二封",
+            "2023.9.24",
+            "消失的",
+            "下雨天",
+            "第一次在食堂碰见你",
+            "你迎面走来",
+            "外面的天还下着小雨",
+            "我的心却是晴天",
+            "我好想再淋一遍"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一只手托举着一本打开的 textured 笔记本，页面上布满了手写的中文字符和简单的涂鸦装饰，右页贴有一张白色小纸条，背景干净简洁。",
+          "safe_facts": [
+            "图像主体为一本打开的纸质笔记本。",
+            "页面上有明显的黑色和蓝色手写笔迹。",
+            "一只手正在握持该物体。",
+            "纸张表面具有特殊的纹理效果。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 472972,
+        "request_bytes": 351656,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.286896799996612,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "a697a706eaef18df04e5402517725a0a6141b725e170a684c005799457b847e9"
+}

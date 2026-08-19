@@ -1,0 +1,144 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_ebf7146f1da0c5237dad1b3d",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_1161516a86c72bba832f999c"
+  ],
+  "asset": {
+    "asset_id": "e0ff6202bfaa676b",
+    "sha256": "e0ff6202bfaa676b0ef38154ad2a0ae89f2a7f44db7d821b32ca01badfa038f9",
+    "split": "user_custom",
+    "relative_path": "user_assets/e0/e0ff6202bfaa676b0ef38154ad2a0ae89f2a7f44db7d821b32ca01badfa038f9/e0ff6202bfaa676b0ef38154ad2a0ae89f2a7f44db7d821b32ca01badfa038f9.jpg"
+  },
+  "display": {
+    "theme": "电竞战队乐队化宣传海报",
+    "short_description": "一张红黑配色的横向宣传图，展示了五位身穿白红黑相间队服的年轻男性。他们分别手持麦克风、架子鼓棒、电吉他、贝斯和电子琴，呈现出乐队成员的站位。图片上方有显著的英文标题，底部对应标注了主唱、鼓手、吉他手等中文角色名称及图标。",
+    "micro_tags": [
+      "电子竞技",
+      "乐队组合",
+      "人物群像",
+      "乐器展示",
+      "宣传海报",
+      "队服"
+    ]
+  },
+  "facts": {
+    "visual_medium": "poster_document",
+    "scene": "红色背景的室内摄影棚或合成背景",
+    "subjects": [
+      "五位年轻男性",
+      "电声乐器",
+      "运动风格队服"
+    ],
+    "actions": [
+      "站立",
+      "手持乐器",
+      "注视镜头"
+    ],
+    "attributes": [
+      "红色主色调",
+      "白色上衣",
+      "黑色短发",
+      "戴眼镜(部分人物)"
+    ],
+    "relations": [
+      "五人并排排列。",
+      "乐器与人物动作匹配。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "图片顶部中央有大号白色英文文本 'TOP ESPORTS' 及盾形标志。",
+      "五位人物从左至右依次持有麦克风、鼓棒、电吉他、贝斯和键盘。",
+      "每个人物头顶上方有一个独特的黑白几何图标。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "TOP ESPORTS",
+      "TES BAND LIVE TOUR 2026",
+      "主唱 VOCAL",
+      "鼓手 DRUMMER",
+      "吉他手 GUITARIST",
+      "贝斯手 BASSIST"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "TOP ESPORTS",
+      "TES BAND LIVE TOUR 2026",
+      "主唱 VOCAL",
+      "鼓手 DRUMMER",
+      "吉他手 GUITARIST",
+      "贝斯手 BASSIST"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "图片顶部中央有大号白色英文文本 'TOP ESPORTS' 及盾形标志；五位人物从左至右依次持有麦克风、鼓棒、电吉他、贝斯和键盘。",
+    "safe_facts": [
+      "图片顶部中央有大号白色英文文本 'TOP ESPORTS' 及盾形标志。",
+      "五位人物从左至右依次持有麦克风、鼓棒、电吉他、贝斯和键盘。",
+      "每个人物头顶上方有一个独特的黑白几何图标。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "needs_review",
+    "schema_valid": true,
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": true,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_a037a246-fd02-41df-92df-e88a69f8cf86",
+    "generated_at": "2026-08-12T03:13:42.241374+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "efb04138bf85508d4f19b121c9752a3676a20a9ce7d298a8b60f0510fde0cc60",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:13:42.242523+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_1161516a86c72bba832f999c",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:13:42.242866+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "da87b783722c25c2ff127b9e021afb829638fb1fe53a41de739be0b2ad4fa80b"
+}

@@ -1,0 +1,139 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1527.jpg",
+    "relative_path": "train/1527.jpg",
+    "sha256": "285988d26cee2184debb4fcaed480b2f3c286afa1399b332f2d076d4a453a012",
+    "split": "train"
+  },
+  "canonical_sha256": "b81c0a29f7f7ac6fdb43d1c36b7e0124814fc21b4bfde9b5c921651985fa13f6",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式屋檐",
+      "悬挂铜铃",
+      "城市远景",
+      "湖泊风光"
+    ],
+    "short_description": "中式屋檐悬铃俯瞰湖面与城市天际线，天空云层稀疏，景致开阔宁静。",
+    "theme": "传统建筑与城市远景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "屋檐可能属于寺庙或传统建筑。",
+      "铜铃可能随风轻摆。"
+    ],
+    "direct_observations": [
+      "画面左侧可见中式屋檐及悬挂的铜铃。",
+      "远处可见城市建筑群与一片水域。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色瓦片",
+      "黑色屋檐",
+      "金属铜铃",
+      "多云天空",
+      "远处高楼林立"
+    ],
+    "relations": [
+      "屋檐悬垂铜铃。",
+      "屋檐位于前景。",
+      "城市建筑群位于背景。",
+      "湖泊位于城市前方。"
+    ],
+    "scene": "户外景观",
+    "subjects": [
+      "中式屋檐",
+      "铜铃",
+      "城市建筑群",
+      "湖泊",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "屋檐可能属于寺庙或传统建筑。",
+      "铜铃可能随风轻摆。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面左侧可见中式屋檐及悬挂的铜铃；远处可见城市建筑群与一片水域。",
+    "safe_facts": [
+      "画面左侧可见中式屋檐及悬挂的铜铃。",
+      "远处可见城市建筑群与一片水域。"
+    ]
+  },
+  "label_id": "cpl_6a7c6eda0bbbab806b1bb064",
+  "provenance": {
+    "generated_at": "2026-08-03T14:33:49.077240+00:00",
+    "migrated_at": "2026-08-03T14:33:49.082106+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ab0502d8d617c07fb3e4974b1f9145f52c373d27e432e681bc78173487b46f2d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_116350f83658bea7f828c267",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:33:49.083488+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_116350f83658bea7f828c267"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "HUAWEI Mate 10 Pro",
+      "NEW LEICA DUAL CAMERA"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "HUAWEI Mate 10 Pro",
+      "NEW LEICA DUAL CAMERA"
+    ]
+  }
+}

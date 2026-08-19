@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:677.jpg",
+    "relative_path": "train/677.jpg",
+    "sha256": "911c22fbaa0fc679b4f69e09ecdff98c327744a172fedbae97601ecfa7d2821f",
+    "split": "train"
+  },
+  "canonical_sha256": "5148b2b2bed06619b5d0352089dba75b1426b6c502970c7b8e2a7bbecdd3bac7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "人物合成",
+      "火箭背景",
+      "头像拼贴"
+    ],
+    "short_description": "两位男性头像并排置于火箭背景前，下方附带两张小头像，画面带有平台水印和观看人数提示。",
+    "theme": "人物与火箭背景合成图"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有两幅主要人物肖像。",
+      "背景中有多个火箭造型物体。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "左侧男性有胡须",
+      "右侧男性有浓密胡须",
+      "背景火箭有中国国旗图案"
+    ],
+    "relations": [
+      "左侧男性与右侧男性并排。",
+      "下方两个小头像位于主图下方。"
+    ],
+    "scene": "合成图像背景为多枚火箭",
+    "subjects": [
+      "左侧白发戴眼镜男性",
+      "右侧留胡子穿白衬衫男性",
+      "下方左小头像女性",
+      "下方右小头像男性"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有两幅主要人物肖像；背景中有多个火箭造型物体。",
+    "safe_facts": [
+      "画面中央有两幅主要人物肖像。",
+      "背景中有多个火箭造型物体。"
+    ]
+  },
+  "label_id": "cpl_5b88c2bbb14788d71355a7e3",
+  "provenance": {
+    "generated_at": "2026-08-03T11:58:15.878119+00:00",
+    "migrated_at": "2026-08-03T11:58:15.882464+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b9848d7f9753cbcaae53ac04b6b744da820fb467904edf348c059d90639b661d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_45298db5491d7ec951382575",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:58:15.883529+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_45298db5491d7ec951382575"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "这张图就是dmk做的",
+      "燕三喽喽喽 bili bili",
+      "2000+人正在看"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "这张图就是dmk做的",
+      "燕三喽喽喽 bili bili",
+      "2000+人正在看"
+    ]
+  }
+}

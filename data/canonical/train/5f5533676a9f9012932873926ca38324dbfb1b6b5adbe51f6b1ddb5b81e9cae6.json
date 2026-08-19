@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1761.jpg",
+    "relative_path": "train/1761.jpg",
+    "sha256": "5f5533676a9f9012932873926ca38324dbfb1b6b5adbe51f6b1ddb5b81e9cae6",
+    "split": "train"
+  },
+  "canonical_sha256": "4ccba6e01d77663eaef5b0ece2c89fb6f61883b91203eb686391910da741075b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "鸭子",
+      "锦鲤",
+      "水面",
+      "游动"
+    ],
+    "short_description": "平静水面漂浮着几只鸭子，周围游动着大量锦鲤，水波荡漾，画面宁静自然。",
+    "theme": "水边鸭群与鱼群"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "鸭子可能在觅食或休息。",
+      "锦鲤可能被鸭子活动吸引而聚集。"
+    ],
+    "direct_observations": [
+      "水面有三只鸭子，其中一只颜色鲜艳，另两只颜色较普通。",
+      "水中有多条橙色和白色相间的鱼(锦鲤)在游动。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "漂浮",
+      "游动"
+    ],
+    "attributes": [
+      "水面平静",
+      "有涟漪"
+    ],
+    "relations": [
+      "鸭子在水面漂浮。",
+      "锦鲤在水中游动。"
+    ],
+    "scene": "池塘或湖泊水面",
+    "subjects": [
+      "鸭子",
+      "锦鲤"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "鸭子可能在觅食或休息。",
+      "锦鲤可能被鸭子活动吸引而聚集。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "水面有三只鸭子，其中一只颜色鲜艳，另两只颜色较普通；水中有多条橙色和白色相间的鱼(锦鲤)在游动。",
+    "safe_facts": [
+      "水面有三只鸭子，其中一只颜色鲜艳，另两只颜色较普通。",
+      "水中有多条橙色和白色相间的鱼(锦鲤)在游动。"
+    ]
+  },
+  "label_id": "cpl_febeb7c5270ac8daeb42378e",
+  "provenance": {
+    "generated_at": "2026-08-03T15:02:43.908630+00:00",
+    "migrated_at": "2026-08-03T15:02:43.910270+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "663456a9719b40dfaf7e42a7a1f3821394448cf027658f6dac7e99d68afb9006",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7188dc2942abb02696418ab1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:02:43.910490+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7188dc2942abb02696418ab1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

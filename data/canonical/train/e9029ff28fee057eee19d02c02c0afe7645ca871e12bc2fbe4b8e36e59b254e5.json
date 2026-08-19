@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1184.jpg",
+    "relative_path": "train/1184.jpg",
+    "sha256": "e9029ff28fee057eee19d02c02c0afe7645ca871e12bc2fbe4b8e36e59b254e5",
+    "split": "train"
+  },
+  "canonical_sha256": "211f3d91587fc0d14fc8744f52e39d74e1841afcbf7f2a5df50128b35603ba34",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "木质器物",
+      "红褐色斑驳",
+      "博物馆展柜"
+    ],
+    "short_description": "博物馆展柜内陈列着几件古朴的木质器物，表面有红褐色斑驳痕迹，包括碗状器皿和方形托盘。",
+    "theme": "古代文物陈列"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多个木质器物摆放在白色展台上。",
+      "器物表面呈现红褐色斑驳痕迹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "表面有红褐色斑驳",
+      "呈古旧质感",
+      "放置于白色展台"
+    ],
+    "relations": [
+      "器物被陈列在展柜中。"
+    ],
+    "scene": "博物馆展柜内",
+    "subjects": [
+      "木质碗状器物",
+      "木质方形托盘",
+      "青铜圆鼎"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多个木质器物摆放在白色展台上；器物表面呈现红褐色斑驳痕迹。",
+    "safe_facts": [
+      "多个木质器物摆放在白色展台上。",
+      "器物表面呈现红褐色斑驳痕迹。"
+    ]
+  },
+  "label_id": "cpl_8492287ec79a34ebb6622e59",
+  "provenance": {
+    "generated_at": "2026-08-02T22:06:33.883496+00:00",
+    "migrated_at": "2026-08-03T07:13:41.464841+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "10346517507ced1693d3eb4daeb71c6d31a965504cdcbc42cd632a0f3688e2d4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2f8d7f9cd3c2bc63ff1ba4c6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:49:20.500338+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2f8d7f9cd3c2bc63ff1ba4c6",
+    "cpl_f9800e236cf1d6124e0a70c7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

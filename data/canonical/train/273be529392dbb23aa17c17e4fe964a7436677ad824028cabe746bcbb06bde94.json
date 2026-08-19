@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:7.jpg",
+    "relative_path": "train/7.jpg",
+    "sha256": "273be529392dbb23aa17c17e4fe964a7436677ad824028cabe746bcbb06bde94",
+    "split": "train"
+  },
+  "canonical_sha256": "7b2e083a5cc5d156f63b0f6e6d246ddb180af80eed58a34a56c92b693af8d2e4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "教室",
+      "课桌椅",
+      "窗户",
+      "绿植",
+      "阳光"
+    ],
+    "short_description": "阳光透过窗户洒在空教室的课桌上，绿色植物在窗外摇曳，灰色窗帘半掩，桌椅整齐排列。",
+    "theme": "教室窗边静景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "窗外有茂密的绿色树木。"
+    ],
+    "direct_observations": [
+      "窗户透入阳光，在课桌上形成光斑。",
+      "窗帘呈灰银色，系于窗边。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质桌面",
+      "黄色椅面",
+      "灰色窗帘",
+      "白色窗框",
+      "砖墙背景"
+    ],
+    "relations": [
+      "课桌与椅子成组摆放。",
+      "窗帘挂在窗户右侧。",
+      "植物位于窗外。"
+    ],
+    "scene": "室内教室环境",
+    "subjects": [
+      "课桌",
+      "椅子",
+      "窗户",
+      "窗帘",
+      "植物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "窗外有茂密的绿色树木。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "窗户透入阳光，在课桌上形成光斑；窗帘呈灰银色，系于窗边。",
+    "safe_facts": [
+      "窗户透入阳光，在课桌上形成光斑。",
+      "窗帘呈灰银色，系于窗边。"
+    ]
+  },
+  "label_id": "cpl_c9155b74eff45c7f96c56c74",
+  "provenance": {
+    "generated_at": "2026-08-03T09:05:07.320980+00:00",
+    "migrated_at": "2026-08-03T09:05:07.322923+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fbbe150173e1f269e9a75388c51f39b09fe0fc876b624d9bbbe87e9043acffe6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6d8b6497d8d8c9ee9fdc58e0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:25.450935+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6d8b6497d8d8c9ee9fdc58e0",
+    "cpl_94f2a46d0b8ca6dbca2a8ddc"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

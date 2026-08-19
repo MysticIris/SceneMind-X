@@ -1,0 +1,146 @@
+{
+  "asset_id": "231ae211e4e05349",
+  "asset_sha256": "231ae211e4e05349038ddfb166cc8b2feb08c713aef6cb5cf3d839dbc69ece58",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"食堂英语词汇教学课件\",\n    \"short_description\": \"这是一张电脑屏幕的实拍照片，显示正在进行的在线英语教学会议。屏幕中央展示了一份关于“Cafeteria (食堂)”的演示文稿，表格详细列出了热食、冷食、饮料和甜点区的英文描述及常用句型。顶部可见多位参会者的头像窗口，左侧排列着各类桌面应用程序图标。\",\n    \"micro_tags\": [\n      \"在线课堂\",\n      \"英语教学\",\n      \"食堂词汇\",\n      \"PPT课件\",\n      \"视频会议\",\n      \"电脑桌面\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"电脑显示器屏幕界面\",\n    \"subjects\": [\n      \"教学幻灯片\",\n      \"视频会议软件界面\",\n      \"桌面图标\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"青绿色表头\",\n      \"三列式表格布局\",\n      \"中英文对照标题\",\n      \"右侧配有食物图片\"\n    ],\n    \"relations\": [\n      \"幻灯片位于屏幕中央主要区域\",\n      \"参会者头像位于屏幕顶部边缘\",\n      \"应用图标位于屏幕左侧边缘\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕中央显示标题为“Cafeteria (食堂)”的演示文稿，包含zone、description、useful phrases三列内容的表格。\",\n      \"屏幕顶部横向排列着四个视频窗口，分别显示用户头像或名称（如Elsie、房峻熙等）。\",\n      \"屏幕左侧垂直排列着多行应用程序快捷方式图标，包括浏览器、社交软件和游戏图标。\",\n      \"屏幕底部可见Windows系统的任务栏，包含搜索框、天气显示（15°C）及多个应用图标。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局推测，这可能是一堂正在进行的远程英语辅导课或语言学习会议。\",\n      \"左侧图标显示该电脑安装了多种娱乐和办公软件，属于个人使用的设备。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的授课时间或课程所属机构。\",\n      \"无法确认参会者的真实身份关系。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"Cafeteria (食堂)\",\n      \"zone\",\n      \"description\",\n      \"useful phrases\",\n      \"hot food station\",\n      \"cold food station\",\n      \"beverage station\",\n      \"dessert & snack station\",\n      \"Freshly cooked dishes: fried chicken, stews, pasta...\",\n      \"What's the daily special?\",\n      \"Can I get a side of rice with this?\",\n      \"I'd like a garden salad with ranch dressing.\",\n      \"Where can I get a refill?\",\n      \"Are these cookies sold individually?\",\n      \"Elsie\",\n      \"房峻熙\",\n      \"余雨柔\",\n      \"刘钧仁\",\n      \"Google Chrome\",\n      \"腾讯会议\",\n      \"Adobe Premiere Pro\",\n      \"QQ\",\n      \"微信\",\n      \"bilibili\",\n      \"15°C\",\n      \"搜索\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张拍摄电脑显示器的照片，屏幕上显示着带有表格内容的演示文稿以及视频会议软件的界面，左侧可见排列整齐的桌面应用程序图标。\",\n    \"safe_facts\": [\n      \"图像展示了计算机操作系统的桌面环境。\",\n      \"中心区域是一个包含文本和图像的演示文档窗口。\",\n      \"顶部边缘有一排小型的用户头像窗口。\",\n      \"左侧边缘分布着多列彩色的软件启动图标。\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 881,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 881,
+        "total_tokens": 4086,
+        "estimated_cost_cny": 0.013458,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "食堂英语词汇教学课件",
+          "short_description": "这是一张电脑屏幕的实拍照片，显示正在进行的在线英语教学会议。屏幕中央展示了一份关于“Cafeteria (食堂)”的演示文稿，表格详细列出了热食、冷食、饮料和甜点区的英文描述及常用句型。顶部可见多位参会者的头像窗口，左侧排列着各类桌面应用程序图标。",
+          "micro_tags": [
+            "在线课堂",
+            "英语教学",
+            "食堂词汇",
+            "PPT课件",
+            "视频会议",
+            "电脑桌面"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "电脑显示器屏幕界面",
+          "subjects": [
+            "教学幻灯片",
+            "视频会议软件界面",
+            "桌面图标"
+          ],
+          "actions": [],
+          "attributes": [
+            "青绿色表头",
+            "三列式表格布局",
+            "中英文对照标题",
+            "右侧配有食物图片"
+          ],
+          "relations": [
+            "幻灯片位于屏幕中央主要区域",
+            "参会者头像位于屏幕顶部边缘",
+            "应用图标位于屏幕左侧边缘"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "屏幕中央显示标题为“Cafeteria (食堂)”的演示文稿，包含zone、description、useful phrases三列内容的表格。",
+            "屏幕顶部横向排列着四个视频窗口，分别显示用户头像或名称（如Elsie、房峻熙等）。",
+            "屏幕左侧垂直排列着多行应用程序快捷方式图标，包括浏览器、社交软件和游戏图标。",
+            "屏幕底部可见Windows系统的任务栏，包含搜索框、天气显示（15°C）及多个应用图标。"
+          ],
+          "cautious_inferences": [
+            "根据界面布局推测，这可能是一堂正在进行的远程英语辅导课或语言学习会议。",
+            "左侧图标显示该电脑安装了多种娱乐和办公软件，属于个人使用的设备。"
+          ],
+          "uncertainties": [
+            "无法确定具体的授课时间或课程所属机构。",
+            "无法确认参会者的真实身份关系。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "Cafeteria (食堂)",
+            "zone",
+            "description",
+            "useful phrases",
+            "hot food station",
+            "cold food station",
+            "beverage station",
+            "dessert & snack station",
+            "Freshly cooked dishes: fried chicken, stews, pasta...",
+            "What's the daily special?",
+            "Can I get a side of rice with this?",
+            "I'd like a garden salad with ranch dressing.",
+            "Where can I get a refill?",
+            "Are these cookies sold individually?",
+            "Elsie",
+            "房峻熙",
+            "余雨柔",
+            "刘钧仁",
+            "Google Chrome",
+            "腾讯会议",
+            "Adobe Premiere Pro",
+            "QQ",
+            "微信",
+            "bilibili",
+            "15°C",
+            "搜索"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张拍摄电脑显示器的照片，屏幕上显示着带有表格内容的演示文稿以及视频会议软件的界面，左侧可见排列整齐的桌面应用程序图标。",
+          "safe_facts": [
+            "图像展示了计算机操作系统的桌面环境。",
+            "中心区域是一个包含文本和图像的演示文档窗口。",
+            "顶部边缘有一排小型的用户头像窗口。",
+            "左侧边缘分布着多列彩色的软件启动图标。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 6219536,
+        "request_bytes": 4661579,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 16.741075400001137,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "e654ba49016cb4ee114710305bb2ebbd2ea30ceb6e904668a4242dd4761ac24e"
+}

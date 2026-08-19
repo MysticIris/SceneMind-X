@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1724.jpg",
+    "relative_path": "train/1724.jpg",
+    "sha256": "23a1153135206e22ac802cab2b6fe8feff160c4d6231290890789fb8213c8c4b",
+    "split": "train"
+  },
+  "canonical_sha256": "b37d2a43c54330fb9f28f36a4da4e9a31fc3ce267971728fb5f8282dd006d7a1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红墙黄瓦",
+      "人群聚集",
+      "松树"
+    ],
+    "short_description": "红墙金瓦的大门前，人群聚集，两侧松树挺拔，天空多云。",
+    "theme": "正门"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑主体为红色墙体和金色琉璃瓦屋顶。",
+      "建筑正门上方悬挂有黑色牌匾，上有汉字。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色墙体",
+      "金色屋檐",
+      "拱形门洞",
+      "多云天空"
+    ],
+    "relations": [
+      "人群位于建筑前方。",
+      "树木位于建筑两侧。"
+    ],
+    "scene": "故宫博物院门前广场",
+    "subjects": [
+      "建筑",
+      "人群",
+      "树木",
+      "路灯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑主体为红色墙体和金色琉璃瓦屋顶；建筑正门上方悬挂有黑色牌匾，上有汉字。",
+    "safe_facts": [
+      "建筑主体为红色墙体和金色琉璃瓦屋顶。",
+      "建筑正门上方悬挂有黑色牌匾，上有汉字。"
+    ]
+  },
+  "label_id": "cpl_5de939245c3e14cb63456b33",
+  "provenance": {
+    "generated_at": "2026-08-03T14:59:51.015783+00:00",
+    "migrated_at": "2026-08-03T14:59:51.017565+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5c1d3717b25c31cfe558d1b5e0e7f2aad3a6874fb682dad2408309b5c2ca4381",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_41407c7a6d70f8dd17436bea",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:59:51.017966+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_41407c7a6d70f8dd17436bea"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "故宫博物院"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "故宫博物院"
+    ]
+  }
+}

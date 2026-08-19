@@ -1,0 +1,1 @@
+先记录直接可见事实，再写少量有证据支持的推断。subjects、activities、relationships 和 observations 使用简短中文字符串；observations 按数组下标从 0 编号。每条 inference 的 support 只能引用已有 observation 下标，且 confidence 只能为 low、medium 或 high。

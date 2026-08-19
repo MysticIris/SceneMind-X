@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:441.jpg",
+    "relative_path": "train/441.jpg",
+    "sha256": "8ff31faf6cdece39e5c86c7e031e82762fb651abea5edf943b4713391d587807",
+    "split": "train"
+  },
+  "canonical_sha256": "697ce41251ec82360ab47d40a7d3969a1cee3f0ad9779b8ad947d83b25da89c9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "钢桥",
+      "木桩",
+      "水面",
+      "黄昏"
+    ],
+    "short_description": "暮色中，一座钢桁架桥横跨水面，前景是被水淹没的木桩，天空呈现紫蓝渐变。",
+    "theme": "黄昏桥梁水景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "水面因长时间曝光而呈现平滑流动效果。"
+    ],
+    "direct_observations": [
+      "画面中有一座绿色钢桁架桥横跨水面。",
+      "前景有多根深色、表面覆盖青苔的木桩部分浸在水中。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "钢制结构",
+      "木质腐朽",
+      "水面平静",
+      "天空渐变色彩"
+    ],
+    "relations": [
+      "桥跨越水面。",
+      "木桩部分浸入水中。"
+    ],
+    "scene": "水面上方的桥梁与前景木桩",
+    "subjects": [
+      "钢桁架桥",
+      "木桩",
+      "水面",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "水面因长时间曝光而呈现平滑流动效果。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一座绿色钢桁架桥横跨水面；前景有多根深色、表面覆盖青苔的木桩部分浸在水中。",
+    "safe_facts": [
+      "画面中有一座绿色钢桁架桥横跨水面。",
+      "前景有多根深色、表面覆盖青苔的木桩部分浸在水中。"
+    ]
+  },
+  "label_id": "cpl_c408d13051f668378546110c",
+  "provenance": {
+    "generated_at": "2026-08-03T11:04:00.799995+00:00",
+    "migrated_at": "2026-08-03T11:04:00.801464+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "590f75699cb17dd0ae7f1f9f1b2e3160234d968a75c2a920781d7e224d331d71",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_70775377ae34557240b2e193",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:04:00.801663+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_70775377ae34557240b2e193"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:752.jpg",
+    "relative_path": "train/752.jpg",
+    "sha256": "5240dc71cf95dbcab5a2fe853f1ee6c65a074755a8d5c16e09eaabca2c7ac64a",
+    "split": "train"
+  },
+  "canonical_sha256": "20e4a0d98528760cff34fc73500ac1cae173c548edf838e269546e8d04fc2c75",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "彩色汉堡",
+      "双层牛肉饼",
+      "芝麻面包",
+      "蔬菜沙拉"
+    ],
+    "short_description": "一个顶部覆盖粉色和黄色酱料的双层汉堡，旁边配有一份带萝卜片和黄瓜的沙拉，摆放在金属托盘上。",
+    "theme": "彩色汉堡与沙拉"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "汉堡由两片面包夹着肉饼、生菜和酱料组成。",
+      "沙拉包含切片的红萝卜、黄瓜片和番茄块。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "汉堡有芝麻面包",
+      "沙拉含萝卜片和黄瓜",
+      "汉堡顶部有彩色酱料"
+    ],
+    "relations": [
+      "汉堡与沙拉并排摆放于托盘上。"
+    ],
+    "scene": "餐厅桌面",
+    "subjects": [
+      "汉堡",
+      "沙拉"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "汉堡由两片面包夹着肉饼、生菜和酱料组成；沙拉包含切片的红萝卜、黄瓜片和番茄块。",
+    "safe_facts": [
+      "汉堡由两片面包夹着肉饼、生菜和酱料组成。",
+      "沙拉包含切片的红萝卜、黄瓜片和番茄块。"
+    ]
+  },
+  "label_id": "cpl_1431855187e313c0c41e879b",
+  "provenance": {
+    "generated_at": "2026-08-03T12:15:42.758185+00:00",
+    "migrated_at": "2026-08-03T12:15:42.761121+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9d4db20daaa9a451f57d83fe2be79b5c04c96e900f7e704681d4a221c7f0b2ba",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9ef777220e342d863694fc58",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:15:42.762977+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9ef777220e342d863694fc58"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

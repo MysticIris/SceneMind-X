@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1319.jpg",
+    "relative_path": "train/1319.jpg",
+    "sha256": "ed21d134cd9973ac27e3d001aa4c254546171a8eaaede9eb7ebed5dbf29b9187",
+    "split": "train"
+  },
+  "canonical_sha256": "18c2b33115acee16fd953508474e4ab8ac7760bd5d38b03fc29600f96a5a7906",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "会议厅",
+      "多人聚集",
+      "室内照明"
+    ],
+    "short_description": "一间会议厅内，多人站立或就座，前方屏幕显示活动名称，天花板有红色LED灯带。",
+    "theme": "室内会议厅"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天花板上有多条长方形照明灯具。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "就座",
+      "观看屏幕"
+    ],
+    "attributes": [
+      "红色LED灯带",
+      "深色座椅",
+      "浅色地板"
+    ],
+    "relations": [
+      "人员位于屏幕前方。",
+      "座椅排列成行。"
+    ],
+    "scene": "室内会议厅",
+    "subjects": [
+      "多名人员",
+      "投影屏幕",
+      "天花板灯带"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天花板上有多条长方形照明灯具。",
+    "safe_facts": [
+      "天花板上有多条长方形照明灯具。"
+    ]
+  },
+  "label_id": "cpl_7c21751326ef6e9f400bcbc4",
+  "provenance": {
+    "generated_at": "2026-08-03T14:07:35.084069+00:00",
+    "migrated_at": "2026-08-03T14:07:35.088887+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "75ec5f2be4ca76a524e3ee1d0b3ed6649bd89f243c4c45b2eca370bd36895300",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3827322ecc24340eacee0400",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:07:35.089206+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3827322ecc24340eacee0400"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

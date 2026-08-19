@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:825.jpg",
+    "relative_path": "train/825.jpg",
+    "sha256": "0bb5697ff533567d962b6a10a1d2f8f50548a396c485ff26b67b2d40e3d6b093",
+    "split": "train"
+  },
+  "canonical_sha256": "531549fd7463fe5f3b85d5e75e740774f19360cc77b8088017089a2bf90fcf25",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "充电盒",
+      "产品展示"
+    ],
+    "short_description": "黑色托盘上摆放三款苹果系列耳机及充电盒，旁边附有产品说明卡。",
+    "theme": "无线耳机产品陈列"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "黑色托盘上整齐排列三组耳机及对应充电盒。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色耳机",
+      "白色充电盒",
+      "黑色托盘",
+      "纸质说明卡"
+    ],
+    "relations": [
+      "耳机放置于充电盒上方。",
+      "充电盒位于托盘中央。"
+    ],
+    "scene": "电子产品展示台",
+    "subjects": [],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "黑色托盘上整齐排列三组耳机及对应充电盒。",
+    "safe_facts": [
+      "黑色托盘上整齐排列三组耳机及对应充电盒。"
+    ]
+  },
+  "label_id": "cpl_200640d4dc31de2784cb093b",
+  "provenance": {
+    "generated_at": "2026-08-03T12:31:01.431886+00:00",
+    "migrated_at": "2026-08-03T12:31:01.436385+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5ff34ae94e2403bd47009324237d33724c7d7f15c6ab32942af326c86307f0c8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_23186df860f6940bef3798f6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:31:01.437919+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_23186df860f6940bef3798f6"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "AirPods",
+      "AirPods Pro",
+      "AirPods Max",
+      "MagSafe",
+      "1899",
+      "1399"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "AirPods",
+      "AirPods Pro",
+      "AirPods Max",
+      "MagSafe",
+      "1899",
+      "1399"
+    ]
+  }
+}

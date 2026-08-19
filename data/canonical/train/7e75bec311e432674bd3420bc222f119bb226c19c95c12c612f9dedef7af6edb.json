@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1561.jpg",
+    "relative_path": "train/1561.jpg",
+    "sha256": "7e75bec311e432674bd3420bc222f119bb226c19c95c12c612f9dedef7af6edb",
+    "split": "train"
+  },
+  "canonical_sha256": "e8e52551a94c9c54172dcc935a029817d4cde116bbeea56ab2903af8d1190e0e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "圆形餐桌",
+      "中式餐具",
+      "现代装修"
+    ],
+    "short_description": "一张圆形餐桌摆设整齐，配有餐具、酒杯和绿植装饰，背景为厨房区域。",
+    "theme": "现代简约餐厅"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "桌子为圆形，铺有灰色桌布。",
+      "桌上摆放着多套餐具、酒杯和绿色植物装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灰色桌布",
+      "白色盘子",
+      "黑色碗",
+      "金色小碟",
+      "透明玻璃杯",
+      "折叠餐巾"
+    ],
+    "relations": [
+      "餐桌位于房间中央。",
+      "餐椅围绕餐桌摆放。",
+      "餐具放置在餐盘旁。"
+    ],
+    "scene": "室内餐厅",
+    "subjects": [
+      "餐桌",
+      "餐椅",
+      "餐具",
+      "绿植装饰"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "桌子为圆形，铺有灰色桌布；桌上摆放着多套餐具、酒杯和绿色植物装饰。",
+    "safe_facts": [
+      "桌子为圆形，铺有灰色桌布。",
+      "桌上摆放着多套餐具、酒杯和绿色植物装饰。"
+    ]
+  },
+  "label_id": "cpl_6e726eb610a1ffcede7fefb8",
+  "provenance": {
+    "generated_at": "2026-08-03T14:38:33.701233+00:00",
+    "migrated_at": "2026-08-03T14:38:33.707421+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9e77fa302521667ba1f857b585e2edd878b4e7ab7557592aba8f73f495a97c52",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7808b4f1991076486890642e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:38:33.707797+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7808b4f1991076486890642e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

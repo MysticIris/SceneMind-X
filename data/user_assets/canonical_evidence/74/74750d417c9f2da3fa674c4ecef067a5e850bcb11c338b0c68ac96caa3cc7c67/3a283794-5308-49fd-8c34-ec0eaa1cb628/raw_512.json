@@ -1,0 +1,66 @@
+{
+  "asset_id": "74750d417c9f2da3",
+  "asset_sha256": "74750d417c9f2da3fa674c4ecef067a5e850bcb11c338b0c68ac96caa3cc7c67",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"数字电路仿真波形图\",\n    \"short_description\": \"这是一张电子设计自动化（EDA）软件的界面截图，展示了名为counter74HC161的数字计数器模块的仿真波形。左侧列出了cep、cet、cp等信号名称及其当前数值，右侧黑色背景区域显示了随时间变化的绿色信号时序图，包含时钟脉冲和数据计数序列。\",\n    \"micro_tags\": [\n      \"波形仿真\",\n      \"FPGA\",\n      \"Verilog\",\n      \"数字逻辑\",\n      \"EDA工具\",\n      \"时序图\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"计算机屏幕上的工程软件界面\",\n    \"subjects\": [\n      \"信号列表面板\",\n      \"波形显示区域\",\n      \"顶部标签页\",\n      \"工具栏图标\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"深色背景\",\n      \"绿色波形线条\",\n      \"十六进制数值显示\",\n      \"网格线\"\n    ],\n    \"relations\": [\n      \"左侧列表与右侧波形一一对应\",\n      \"顶部标签页控制当前查看的文件\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"界面顶部有三个标签页，分别显示'counter74HC161_tb.v'、'counter74HC161.v'和'Untitled 2'。\",\n      \"左侧信号列表中可见名称如'cep'、'cet'、'pe_n'、'cp'、'cr_n'、'd[3:0]'、'tc'、'q[3:0]'。\",\n      \"右侧波形图中，'cp'信号呈现密集的周期性方波（时钟信号）。\",\n      \"'q[3:0]'信号的波形下方标注了从'0'到'f'再到'0'的十六进制计数序列。\",\n      \"时间轴刻度从0 ns延伸至900 ns以上。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据文件名后缀'.v'和信号命名习惯，这很可能是一个Verilog硬件描述语言的仿真环境。\",\n      \"74HC161通常指代一种4位二进制同步计数器芯片，仿真内容与其功能一致。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体使用的EDA软件品牌（如ModelSim、Vivado或Quartus等），因为缺乏明显的Logo标识。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"counter74HC161_tb.v\",\n      \"counter74HC161.v\",\n      \"Untitled 2\",\n      \"Name\",\n      \"Value\",\n      \"cep\",\n      \"cet\",\n      \"pe_n\",\n      \"cp\",\n      \"cr_n\",\n      \"d[3:0]\",\n      \"tc\",\n      \"q[3:0]\",\n      \"0 ns\",\n      \"100 ns\",\n      \"200 ns\",\n      \"999.982 ns\",\n      \"x 0 c d e f 0 1 2 3 4 5\",\n      \"",
+      "input_tokens": 2262,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 2262,
+        "output_tokens": 768,
+        "total_tokens": 3030,
+        "estimated_cost_cny": 0.010668,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "数字电路仿真波形图",
+        "short_description": "这是一张电子设计自动化（EDA）软件的界面截图，展示了名为counter74HC161的数字计数器模块的仿真波形。左侧列出了cep、cet、cp等信号名称及其当前数值，右侧黑色背景区域显示了随时间变化的绿色信号时序图，包含时钟脉冲和数据计数序列。",
+        "micro_tags": [
+          "波形仿真",
+          "FPGA",
+          "Verilog",
+          "数字逻辑",
+          "EDA工具",
+          "时序图"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 51624,
+        "request_bytes": 35644,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.19283279999945,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "609341751d46ab55b34230eaa7d08807359a8c2386e96bf964ffe91ae01122ae"
+}

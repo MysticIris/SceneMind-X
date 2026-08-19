@@ -1,0 +1,134 @@
+{
+  "asset_id": "3a364fe258c27a0b",
+  "asset_sha256": "3a364fe258c27a0be14398939c30672a0f9a1885e3f298662b14b0b1df7d41b1",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"雨夜城市街道\",\n    \"short_description\": \"这是一张夜间城市街道的摄影照片。路面潮湿反光，空气中弥漫着雾气，路灯在雾中形成光晕。画面左侧人行道上密集停放着大量电动车，远处有车辆行驶，红色尾灯在湿滑路面上投下倒影。\",\n    \"micro_tags\": [\n      \"雨夜\",\n      \"街道\",\n      \"电动车\",\n      \"路灯\",\n      \"雾气\",\n      \"湿滑路面\",\n      \"夜景\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"夜间城市道路及人行道\",\n    \"subjects\": [\n      \"停放的电动车\",\n      \"路灯\",\n      \"行驶的车辆\",\n      \"行人\",\n      \"建筑物\",\n      \"树木\"\n    ],\n    \"actions\": [\n      \"车辆行驶\",\n      \"灯光照射\",\n      \"路面反光\"\n    ],\n    \"attributes\": [\n      \"潮湿\",\n      \"有雾\",\n      \"夜间\",\n      \"人工照明\"\n    ],\n    \"relations\": [\n      \"电动车排列在人行道边缘\",\n      \"路灯沿道路延伸\",\n      \"车灯倒影映在路面上\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"沥青路面呈现明显的湿润状态，反射着红色的车尾灯光和黄色的路灯光芒。\",\n      \"画面左侧前景区域停放着数十辆电动两轮车，排列较为紧凑。\",\n      \"远处的光源周围有明显的光晕扩散现象，表明空气中有雾气或水汽。\",\n      \"左上角有一个发光的蓝色长方形招牌，上面有可见的白色文字和数字。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据路面的高反光率和空气中的光晕，推测当时可能正在下雨或刚下过雨且伴有雾气。\",\n      \"左侧招牌上的数字格式看起来像是电话号码或服务代码。\"\n    ],\n    \"uncertainties\": [\n      \"无法确认具体的地理位置或城市名称。\",\n      \"无法辨认远处行人的具体身份或动作细节。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"24(h)报警\",\n      \"求助电话\",\n      \"87541110\",\n      \"87543564\",\n      \"派出所\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"夜间雾气笼罩的城市街道，潮湿的路面反射着路灯和车灯的光芒，路边整齐停放着许多电动车。\",\n    \"safe_facts\": [\n      \"场景为夜间的户外街道\",\n      \"路面潮湿且有明显反光\",\n      \"左侧人行道停放着大量两轮电动车\",\n      \"远处有车辆尾灯亮起\",\n      \"空气中有雾气导致灯光散射\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 689,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 689,
+        "total_tokens": 3894,
+        "estimated_cost_cny": 0.011922,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "雨夜城市街道",
+          "short_description": "这是一张夜间城市街道的摄影照片。路面潮湿反光，空气中弥漫着雾气，路灯在雾中形成光晕。画面左侧人行道上密集停放着大量电动车，远处有车辆行驶，红色尾灯在湿滑路面上投下倒影。",
+          "micro_tags": [
+            "雨夜",
+            "街道",
+            "电动车",
+            "路灯",
+            "雾气",
+            "湿滑路面",
+            "夜景"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "夜间城市道路及人行道",
+          "subjects": [
+            "停放的电动车",
+            "路灯",
+            "行驶的车辆",
+            "行人",
+            "建筑物",
+            "树木"
+          ],
+          "actions": [
+            "车辆行驶",
+            "灯光照射",
+            "路面反光"
+          ],
+          "attributes": [
+            "潮湿",
+            "有雾",
+            "夜间",
+            "人工照明"
+          ],
+          "relations": [
+            "电动车排列在人行道边缘",
+            "路灯沿道路延伸",
+            "车灯倒影映在路面上"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "沥青路面呈现明显的湿润状态，反射着红色的车尾灯光和黄色的路灯光芒。",
+            "画面左侧前景区域停放着数十辆电动两轮车，排列较为紧凑。",
+            "远处的光源周围有明显的光晕扩散现象，表明空气中有雾气或水汽。",
+            "左上角有一个发光的蓝色长方形招牌，上面有可见的白色文字和数字。"
+          ],
+          "cautious_inferences": [
+            "根据路面的高反光率和空气中的光晕，推测当时可能正在下雨或刚下过雨且伴有雾气。",
+            "左侧招牌上的数字格式看起来像是电话号码或服务代码。"
+          ],
+          "uncertainties": [
+            "无法确认具体的地理位置或城市名称。",
+            "无法辨认远处行人的具体身份或动作细节。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "24(h)报警",
+            "求助电话",
+            "87541110",
+            "87543564",
+            "派出所"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "夜间雾气笼罩的城市街道，潮湿的路面反射着路灯和车灯的光芒，路边整齐停放着许多电动车。",
+          "safe_facts": [
+            "场景为夜间的户外街道",
+            "路面潮湿且有明显反光",
+            "左侧人行道停放着大量两轮电动车",
+            "远处有车辆尾灯亮起",
+            "空气中有雾气导致灯光散射"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 7077584,
+        "request_bytes": 5305114,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.39398600000277,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "58f67e702573aa88d052b373a1a337fc673fe2a038ab0663c6fe93b48ac6de87"
+}

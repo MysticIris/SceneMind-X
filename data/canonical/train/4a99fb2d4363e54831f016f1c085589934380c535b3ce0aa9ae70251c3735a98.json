@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:526.jpg",
+    "relative_path": "train/526.jpg",
+    "sha256": "4a99fb2d4363e54831f016f1c085589934380c535b3ce0aa9ae70251c3735a98",
+    "split": "train"
+  },
+  "canonical_sha256": "0a625b1e51d97a7b959a17effeedbc9aa9bf0e2d722c5a0b730e1af627a4285b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "羽毛球",
+      "颁奖",
+      "庆祝",
+      "室内场馆"
+    ],
+    "short_description": "多人在室内羽毛球场庆祝，有人举手、持奖杯，背景有观众和横幅。",
+    "theme": "羽毛球比赛颁奖现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多人在室内场馆中举起手臂庆祝。",
+      "中间一人手持透明奖杯并竖起大拇指。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "挥手",
+      "竖起大拇指",
+      "微笑",
+      "举手庆祝"
+    ],
+    "attributes": [
+      "戴眼镜",
+      "穿运动服",
+      "手持羽毛球拍",
+      "手持透明奖杯"
+    ],
+    "relations": [
+      "人群聚集。",
+      "有人站在前方中央。"
+    ],
+    "scene": "室内羽毛球馆",
+    "subjects": [
+      "多名男性和女性",
+      "一名手持奖杯者",
+      "一名举着球拍者"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多人在室内场馆中举起手臂庆祝；中间一人手持透明奖杯并竖起大拇指。",
+    "safe_facts": [
+      "多人在室内场馆中举起手臂庆祝。",
+      "中间一人手持透明奖杯并竖起大拇指。"
+    ]
+  },
+  "label_id": "cpl_65c3101081403083d657bc0d",
+  "provenance": {
+    "generated_at": "2026-08-03T11:22:36.341362+00:00",
+    "migrated_at": "2026-08-03T11:22:36.343361+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "83d50394dab068e2baf6cd1d8542edb255eb1786726c460340f9a6aa0a6e988a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_eb408e8e4a054a2c3d91e573",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:22:36.343588+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_eb408e8e4a054a2c3d91e573"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

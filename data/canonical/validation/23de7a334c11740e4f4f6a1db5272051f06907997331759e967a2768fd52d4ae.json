@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2173.jpg",
+    "relative_path": "val/2173.jpg",
+    "sha256": "23de7a334c11740e4f4f6a1db5272051f06907997331759e967a2768fd52d4ae",
+    "split": "val"
+  },
+  "canonical_sha256": "0ba43de4d90559f0e219931dea3fe701fbe9c25fa08c7db7ecf30b9a9007be70",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑猫",
+      "石阶",
+      "趴着",
+      "户外"
+    ],
+    "short_description": "一只黑色猫咪趴在宽阔石阶上，姿态放松，背景是阶梯和瓷砖墙。",
+    "theme": "台阶上的黑猫"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一只黑色猫趴在石阶上。",
+      "石阶由灰色石材砌成，右侧有瓷砖墙。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "趴着"
+    ],
+    "attributes": [
+      "黑色",
+      "石阶",
+      "灰色砖面"
+    ],
+    "relations": [
+      "猫位于石阶上。"
+    ],
+    "scene": "室外石阶",
+    "subjects": [
+      "一只黑猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只黑色猫趴在石阶上；石阶由灰色石材砌成，右侧有瓷砖墙。",
+    "safe_facts": [
+      "一只黑色猫趴在石阶上。",
+      "石阶由灰色石材砌成，右侧有瓷砖墙。"
+    ]
+  },
+  "label_id": "cpl_ec4391f5919afab0fc1b6357",
+  "provenance": {
+    "generated_at": "2026-08-03T16:08:20.647054+00:00",
+    "migrated_at": "2026-08-03T16:08:20.649448+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "66781589a8682e83ab534c279a4fc43c07cd620730e78baf95d212ca1b81bb98",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a4bfd57572d78c0f40eb94fd",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:08:20.649770+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a4bfd57572d78c0f40eb94fd"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

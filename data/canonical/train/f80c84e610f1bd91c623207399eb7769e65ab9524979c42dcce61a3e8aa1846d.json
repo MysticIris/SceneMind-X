@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1203.jpg",
+    "relative_path": "train/1203.jpg",
+    "sha256": "f80c84e610f1bd91c623207399eb7769e65ab9524979c42dcce61a3e8aa1846d",
+    "split": "train"
+  },
+  "canonical_sha256": "74b832af615d9760f31a33f2fe1bd13262f2cf3dfb2ddb1eed8ebcb77a08f272",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "展览标识",
+      "博物馆展板"
+    ],
+    "short_description": "图像呈现的是一个室内展览环境。",
+    "theme": "标识牌与墙面装饰"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现的是一个室内展览环境。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "发光",
+      "白色背景"
+    ],
+    "relations": [],
+    "scene": "室内展厅入口区域",
+    "subjects": [
+      "标识牌",
+      "墙面装饰"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现的是一个室内展览环境。",
+    "safe_facts": [
+      "图像呈现的是一个室内展览环境。"
+    ]
+  },
+  "label_id": "cpl_a8cbd466fb122d62d53db7fd",
+  "provenance": {
+    "generated_at": "2026-08-03T13:55:03.145116+00:00",
+    "migrated_at": "2026-08-03T13:55:03.149005+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4dd266f8816e7cb5252d2888839aaaefd4324c532fd91d26bf81ed13552f2e03",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e71c4ee2078d989b0476a95a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:55:03.149980+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [
+      "removed_unverified_text:display.theme"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "legacy_contract_short_description_length",
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e71c4ee2078d989b0476a95a"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "天籁",
+      "Sounds of Nature",
+      "湖北出土的早期乐器",
+      "Early Musical Instruments Found in Hubei"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "天籁",
+      "Sounds of Nature",
+      "湖北出土的早期乐器",
+      "Early Musical Instruments Found in Hubei"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "asset_id": "eaba0224996e034e",
+  "asset_sha256": "eaba0224996e034e8b0a6a232b1e44efe40975de22d1b6b5db71328842253bad",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"高速公路龙门架指示牌\",\n    \"short_description\": \"阴天下的高速公路行车视角，前方横跨着巨大的绿色交通指示龙门架。路牌显示出口编号147及分叉路口信息，包含G7212、S40、G80等高速编号及多个城市地名。路面有车辆行驶，右侧设有隔音屏障。\",\n    \"micro_tags\": [\n      \"高速公路\",\n      \"交通指示牌\",\n      \"龙门架\",\n      \"行车记录\",\n      \"阴天\",\n      \"道路设施\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"高速公路路段\",\n    \"subjects\": [\n      \"绿色交通指示牌\",\n      \"金属龙门架\",\n      \"行驶中的汽车\",\n      \"沥青路面\",\n      \"右侧隔音墙\",\n      \"左侧护栏\"\n    ],\n    \"actions\": [\n      \"车辆沿车道向前行驶\",\n      \"指示牌悬挂于道路上方\"\n    ],\n    \"attributes\": [\n      \"天空呈灰白色\",\n      \"路面干燥\",\n      \"指示牌为绿底白字\",\n      \"立柱底部有黄黑警示条纹\"\n    ],\n    \"relations\": [\n      \"指示牌位于道路正上方\",\n      \"车辆位于指示牌下方车道内\",\n      \"隔音墙平行于道路右侧延伸\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面中央上方有一个大型绿色矩形交通指示牌，由两根金属立柱支撑横跨路面。\",\n      \"指示牌右上角有一个标有'出口 147'的小牌子。\",\n      \"主指示牌中间有一个白色的Y形分岔箭头符号。\",\n      \"指示牌左侧区域可见'G7212'、'S40'编号及'桂平'、'柳州'、'梧州'、'广州'等汉字。\",\n      \"指示牌右侧区域可见'G7212'、'G80'编号及'贵港东'、'玉林'、'北海'等汉字。\",\n      \"路面上有两辆正在行驶的轿车，一辆深色SUV在左前方，一辆蓝色轿车在右前方。\",\n      \"道路右侧安装有连续的半透明隔音屏障。\",\n      \"支撑指示牌的立柱下部涂有黄黑相间的斜纹警示漆。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据路牌上的城市名称（如柳州、桂林、北海等）推测该路段位于中国广西壮族自治区境内。\",\n      \"Y形箭头表明前方即将到达一个高速公路枢纽或分流点。\",\n      \"拍摄视角来自后方车辆的行车记录仪或车内乘客。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的拍摄时间，虽然光线均匀但可能是清晨或傍晚的阴天。\",\n      \"无法确认前方车辆的具体品牌型号。\"\n    ]\n    },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"出口 147\",\n      \"G7212 (北)\",\n      \"S40\",\n      \"桂平\",\n      \"柳州\",\n      \"梧州\",\n      \"广州\",\n      \"G7212",
+      "input_tokens": 2241,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 2241,
+        "output_tokens": 768,
+        "total_tokens": 3009,
+        "estimated_cost_cny": 0.010626,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "高速公路龙门架指示牌",
+        "short_description": "阴天下的高速公路行车视角，前方横跨着巨大的绿色交通指示龙门架。路牌显示出口编号147及分叉路口信息，包含G7212、S40、G80等高速编号及多个城市地名。路面有车辆行驶，右侧设有隔音屏障。",
+        "micro_tags": [
+          "高速公路",
+          "交通指示牌",
+          "龙门架",
+          "行车记录",
+          "阴天",
+          "道路设施"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 236348,
+        "request_bytes": 174189,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.605767699998978,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "7f73db87dcd322087aa9d79718c3902405c74b0f152ee9c6327112a98f5b0cec"
+}

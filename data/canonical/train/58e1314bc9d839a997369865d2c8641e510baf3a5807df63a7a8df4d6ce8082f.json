@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1051.jpg",
+    "relative_path": "train/1051.jpg",
+    "sha256": "58e1314bc9d839a997369865d2c8641e510baf3a5807df63a7a8df4d6ce8082f",
+    "split": "train"
+  },
+  "canonical_sha256": "12da234079400b5f23ed9b65ce6570119e426c68bf985dc1d8914e16539452a7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "彩色装饰",
+      "悬挂装置",
+      "户外景观"
+    ],
+    "short_description": "树上悬挂着多组蓝紫渐变的菱形装饰物，在阳光下反射出光泽，背景是绿植与模糊的街道。",
+    "theme": "彩色装饰树"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "装饰物可能在日落或日出时分被拍摄，因光线从上方照射产生高光。"
+    ],
+    "direct_observations": [
+      "多个菱形装饰物悬挂在树枝间。",
+      "装饰物表面呈现蓝紫渐变色彩并有反光效果。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝紫色渐变",
+      "菱形",
+      "反光材质",
+      "绿色树叶"
+    ],
+    "relations": [
+      "装饰物悬挂在树枝上。"
+    ],
+    "scene": "户外公园或街道绿化带",
+    "subjects": [
+      "树木",
+      "悬挂装饰物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "装饰物可能在日落或日出时分被拍摄，因光线从上方照射产生高光。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多个菱形装饰物悬挂在树枝间；装饰物表面呈现蓝紫渐变色彩并有反光效果。",
+    "safe_facts": [
+      "多个菱形装饰物悬挂在树枝间。",
+      "装饰物表面呈现蓝紫渐变色彩并有反光效果。"
+    ]
+  },
+  "label_id": "cpl_f94ccf87e8aacebf3b7b9a48",
+  "provenance": {
+    "generated_at": "2026-08-03T13:28:52.451756+00:00",
+    "migrated_at": "2026-08-03T13:28:52.461072+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "be383f4b68ff1daf8a7082e8480a8ebe4bf5ffcfdc559c0ca081ae27fe656166",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e66fd7eddc60b0bda0764dfb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:28:52.461426+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e66fd7eddc60b0bda0764dfb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

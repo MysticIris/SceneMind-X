@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:790.jpg",
+    "relative_path": "train/790.jpg",
+    "sha256": "6bf01553cc3c5203691db40ed38a332218782611a86d5170279b2e714fd38005",
+    "split": "train"
+  },
+  "canonical_sha256": "01d64b40515bc241b532bfdf744917f030bb1693070f2894635690a49fd863e6",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "AI书籍",
+      "科技出版物",
+      "书店货架"
+    ],
+    "short_description": "书籍以堆叠方式陈列在木质书架上。",
+    "theme": "AI技术书籍陈列"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "书籍以堆叠方式陈列在木质书架上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "多本书籍堆叠",
+      "部分书籍带塑料包装"
+    ],
+    "relations": [
+      "书籍放置于书架上。"
+    ],
+    "scene": "书店或图书馆的书架区域",
+    "subjects": [
+      "书籍",
+      "书架"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "书籍以堆叠方式陈列在木质书架上。",
+    "safe_facts": [
+      "书籍以堆叠方式陈列在木质书架上。"
+    ]
+  },
+  "label_id": "cpl_1c7f075e0158a8b5d6675cab",
+  "provenance": {
+    "generated_at": "2026-08-03T12:24:02.521949+00:00",
+    "migrated_at": "2026-08-03T12:24:02.525993+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3aac47610f7baaf285b77bb1617df0b4547520e7795d8b8571e75c2c44e8ffb9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9c3aed92882fb7cc8f48239d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:24:02.528622+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:direct_observations",
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9c3aed92882fb7cc8f48239d"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "人工智能 AI绘画与后期修图",
+      "零基础玩转剪映",
+      "AI绘画大师 Stable Diffusion",
+      "短视频 LIVE 短视频拍摄剪辑从入门到精通",
+      "ChatGPT+Midjourney AI绘画入门教程",
+      "AI绘师 文案、图片与视频制作从入门到精通"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "人工智能 AI绘画与后期修图",
+      "零基础玩转剪映",
+      "AI绘画大师 Stable Diffusion",
+      "短视频 LIVE 短视频拍摄剪辑从入门到精通",
+      "ChatGPT+Midjourney AI绘画入门教程",
+      "AI绘师 文案、图片与视频制作从入门到精通"
+    ]
+  }
+}

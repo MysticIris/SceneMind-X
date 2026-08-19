@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:480.jpg",
+    "relative_path": "train/480.jpg",
+    "sha256": "7c1e25dc13dd73660a51df70ddc7b56e4184a7384a540b0cce60a248333f0133",
+    "split": "train"
+  },
+  "canonical_sha256": "dcf8200cc40b2e5f3cdc3eed2948be335d635b8dc1e0bacb821dfcbc579f77e4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古堡",
+      "黄昏",
+      "湖泊",
+      "庙宇"
+    ],
+    "short_description": "夕阳余晖映照着山巅古堡，前景白色庙宇与湖水相映，城市灯火初现。",
+    "theme": "黄昏城堡景观"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自日落方向，表明时间接近黄昏。"
+    ],
+    "direct_observations": [
+      "天空呈现橙粉渐变色。",
+      "古堡和庙宇被人工灯光照亮。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "被灯光照亮",
+      "黄昏时分",
+      "岩石地形"
+    ],
+    "relations": [
+      "古堡位于山丘上。",
+      "庙宇位于湖畔。",
+      "城市在远处。"
+    ],
+    "scene": "山丘上的城堡与前景建筑及湖泊",
+    "subjects": [
+      "古堡",
+      "庙宇",
+      "湖泊",
+      "城市"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自日落方向，表明时间接近黄昏。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现橙粉渐变色；古堡和庙宇被人工灯光照亮。",
+    "safe_facts": [
+      "天空呈现橙粉渐变色。",
+      "古堡和庙宇被人工灯光照亮。"
+    ]
+  },
+  "label_id": "cpl_4363e6c34d498125b48c1a0b",
+  "provenance": {
+    "generated_at": "2026-08-03T11:12:15.447715+00:00",
+    "migrated_at": "2026-08-03T11:12:15.449723+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "131b91adf05cd59bfcd269cc0030499eb5df4000c38c9f58d98d4c2cbd406f0a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_690006be3c1d4c910371e9cc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:12:15.449933+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_690006be3c1d4c910371e9cc"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:574.jpg",
+    "relative_path": "train/574.jpg",
+    "sha256": "cf20a7195d2bb7c767fcf7657fbc451d3c7966322b1a8c05f3304b783f93c304",
+    "split": "train"
+  },
+  "canonical_sha256": "eab3871c4130671868370218151a2073ecad05807ad131b0e2e1d949b63febd9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市公园",
+      "拍摄现场",
+      "卡车",
+      "雕像"
+    ],
+    "short_description": "城市公园广场上，两辆卡车旁聚集着拍摄设备和人员，背景是高楼与白色雕像。",
+    "theme": "城市公园拍摄现场"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能正在进行影视拍摄或大型活动准备。"
+    ],
+    "direct_observations": [
+      "地面由灰色砖块铺设，有白色标线。",
+      "广场上有两辆卡车，一辆红色箱式，一辆红蓝相间厢式。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "聚集",
+      "站立",
+      "行走"
+    ],
+    "attributes": [
+      "砖铺地面",
+      "绿树环绕",
+      "多云天空"
+    ],
+    "relations": [
+      "卡车位于广场两侧。",
+      "拍摄人员围绕设备聚集。",
+      "雕像位于广场中央。"
+    ],
+    "scene": "城市公园广场",
+    "subjects": [
+      "卡车",
+      "拍摄人员",
+      "雕像",
+      "高楼"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能正在进行影视拍摄或大型活动准备。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面由灰色砖块铺设，有白色标线；广场上有两辆卡车，一辆红色箱式，一辆红蓝相间厢式。",
+    "safe_facts": [
+      "地面由灰色砖块铺设，有白色标线。",
+      "广场上有两辆卡车，一辆红色箱式，一辆红蓝相间厢式。"
+    ]
+  },
+  "label_id": "cpl_592eb2058e1c6732cd846835",
+  "provenance": {
+    "generated_at": "2026-08-02T22:29:44.436047+00:00",
+    "migrated_at": "2026-08-03T07:13:41.797400+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e781282987c4b3c6bcd150b141dea22befa68e61b82d73b86954e5a9c2585726",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f90f328ba155faf057867912",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:36:30.983832+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f90f328ba155faf057867912",
+    "cpl_f63262a523f2b831ab9cdce1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

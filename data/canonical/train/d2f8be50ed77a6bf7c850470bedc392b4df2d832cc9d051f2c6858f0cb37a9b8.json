@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:456.jpg",
+    "relative_path": "train/456.jpg",
+    "sha256": "d2f8be50ed77a6bf7c850470bedc392b4df2d832cc9d051f2c6858f0cb37a9b8",
+    "split": "train"
+  },
+  "canonical_sha256": "dd54ed8e18493b88e255c1f22e4ec2ffbfd734be7aedd418b7d9227c2d7cd483",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪景",
+      "古建筑",
+      "飞檐翘角",
+      "松树"
+    ],
+    "short_description": "雪落古亭，飞檐覆雪，松柏披银，静谧如画，地面积雪未融，雪花纷飞。",
+    "theme": "雪中古建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屋檐和地面覆盖着白雪。",
+      "背景树木枝干上挂满积雪。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "覆盖积雪",
+      "飞檐翘角",
+      "传统木结构"
+    ],
+    "relations": [
+      "亭楼位于松树前方。",
+      "积雪覆盖屋顶与地面。"
+    ],
+    "scene": "中式园林入口处",
+    "subjects": [
+      "亭式门楼",
+      "松树",
+      "积雪地面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屋檐和地面覆盖着白雪；背景树木枝干上挂满积雪。",
+    "safe_facts": [
+      "屋檐和地面覆盖着白雪。",
+      "背景树木枝干上挂满积雪。"
+    ]
+  },
+  "label_id": "cpl_4e4eab407fc5335d50ba54c2",
+  "provenance": {
+    "generated_at": "2026-08-03T11:07:08.309435+00:00",
+    "migrated_at": "2026-08-03T11:07:08.310897+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "12dbebef745a9e1120eb2c4049c93cd88f0d0f782f6e34905e6f67b56101add7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_78f9cc5b9e10d069bc922240",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:07:08.311084+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_78f9cc5b9e10d069bc922240"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

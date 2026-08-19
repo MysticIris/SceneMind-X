@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:42.jpg",
+    "relative_path": "train/42.jpg",
+    "sha256": "4e22fe8c4de46892ce815b35bf0137954489a7384a5d3ee1cabc952069cb5186",
+    "split": "train"
+  },
+  "canonical_sha256": "9e2c5d1a70ecc39d9cf45f3ad129905f12145f47f24a36b09f7856856ea9823b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "书籍封面",
+      "手绘插图"
+    ],
+    "short_description": "一本名为《》的书籍封面，封面有手绘风格的建筑图案，放置于深色皮革表面上。",
+    "theme": "书籍封面"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "封面为浅色纸张材质。",
+      "封面上有手绘风格的建筑轮廓线稿。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "浅色封面",
+      "红色手写体书名",
+      "灰色线条插图"
+    ],
+    "relations": [
+      "书籍封面位于皮革表面上。"
+    ],
+    "scene": "书籍封面置于深色皮革表面",
+    "subjects": [
+      "书籍封面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "封面为浅色纸张材质；封面上有手绘风格的建筑轮廓线稿。",
+    "safe_facts": [
+      "封面为浅色纸张材质。",
+      "封面上有手绘风格的建筑轮廓线稿。"
+    ]
+  },
+  "label_id": "cpl_ddfcab8cd554cc0e7dda4b47",
+  "provenance": {
+    "generated_at": "2026-08-03T09:12:46.425573+00:00",
+    "migrated_at": "2026-08-03T09:12:46.427527+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1f0b8f1628696e27ba671eed95b0d750e5d2d8d85658f96935c99cb81b7a49d8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_586667eaf9bb9a77dc93f70b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:26.800720+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_586667eaf9bb9a77dc93f70b",
+    "cpl_4ff6b5f35a889bd38c446e26"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "纪念版",
+      "我与地坛",
+      "史铁生 著",
+      "人民文学出版社"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "纪念版",
+      "我与地坛",
+      "史铁生 著",
+      "人民文学出版社"
+    ]
+  }
+}

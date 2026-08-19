@@ -1,0 +1,140 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:93.jpg",
+    "relative_path": "train/93.jpg",
+    "sha256": "af0fcad98e520c27a60e6ec46d0f8104eed12fe9573fb1b15959ff3d09de33f8",
+    "split": "train"
+  },
+  "canonical_sha256": "a6c76fabfc77bb32dd01d51ef0b9b9783213a25e8f83175be6b4e65bb6f3ec6b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "书法作品",
+      "文房四宝",
+      "书桌",
+      "笔记本电脑"
+    ],
+    "short_description": "书桌旁挂满书法作品，桌上摆放笔记本电脑、文房四宝及花瓶，呈现传统文人工作氛围。",
+    "theme": "书法创作空间"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "墙上悬挂多幅书法作品，内容为汉字。",
+      "桌面上有一台打开的笔记本电脑，屏幕显示图像。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "墙上挂有多幅书法作品",
+      "桌上放置打开的笔记本电脑",
+      "桌面有毛笔、墨水瓶等文房用品"
+    ],
+    "relations": [
+      "书法作品悬挂在墙上。",
+      "笔记本电脑放在桌面上。",
+      "花瓶置于桌面两侧。"
+    ],
+    "scene": "室内书桌区域",
+    "subjects": [
+      "书法作品",
+      "笔记本电脑",
+      "文房四宝",
+      "花瓶",
+      "桌面物品"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "墙上悬挂多幅书法作品，内容为汉字；桌面上有一台打开的笔记本电脑，屏幕显示图像。",
+    "safe_facts": [
+      "墙上悬挂多幅书法作品，内容为汉字。",
+      "桌面上有一台打开的笔记本电脑，屏幕显示图像。"
+    ]
+  },
+  "label_id": "cpl_cbc7666bd4c0d2195ae303ca",
+  "provenance": {
+    "generated_at": "2026-08-03T09:24:05.130884+00:00",
+    "migrated_at": "2026-08-03T09:24:05.132973+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4f28e1c78adf2fc19361654757cd6206336f82283ee91ed9c0e8406b38654b6a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c8dc32b88d19bae78771fbd8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:29.077299+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c8dc32b88d19bae78771fbd8",
+    "cpl_fe1e18f07f7371dc572ff025"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "志",
+      "天雲模",
+      "載厚德",
+      "小如舟",
+      "何室雅",
+      "靜致遠"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "志",
+      "天雲模",
+      "載厚德",
+      "小如舟",
+      "何室雅",
+      "靜致遠"
+    ]
+  }
+}

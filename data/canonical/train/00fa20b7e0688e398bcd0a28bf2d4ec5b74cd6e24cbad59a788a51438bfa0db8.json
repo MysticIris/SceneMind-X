@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1409.jpg",
+    "relative_path": "train/1409.jpg",
+    "sha256": "00fa20b7e0688e398bcd0a28bf2d4ec5b74cd6e24cbad59a788a51438bfa0db8",
+    "split": "train"
+  },
+  "canonical_sha256": "1e7091c6c8a6a42ca2421c98e076da2c473e521eb737416166b229ae17816f82",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "户外",
+      "多人",
+      "男性",
+      "戴眼镜"
+    ],
+    "short_description": "三名男子站在户外，背景有蓝色横幅，其中一人穿长外套戴眼镜，另两人着便装。",
+    "theme": "户外多人合影"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有三名男性站立在户外环境中。",
+      "前景人物穿着深色长外套和眼镜。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "戴眼镜",
+      "穿外套",
+      "穿夹克",
+      "穿牛仔裤",
+      "戴帽子"
+    ],
+    "relations": [],
+    "scene": "户外",
+    "subjects": [
+      "一名穿深色长外套的男子",
+      "一名穿夹克和牛仔裤的男子",
+      "一名戴帽子的男子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有三名男性站立在户外环境中；前景人物穿着深色长外套和眼镜。",
+    "safe_facts": [
+      "画面中有三名男性站立在户外环境中。",
+      "前景人物穿着深色长外套和眼镜。"
+    ]
+  },
+  "label_id": "cpl_2b0a14c76cdfa17bc80bf46d",
+  "provenance": {
+    "generated_at": "2026-08-03T14:20:57.882048+00:00",
+    "migrated_at": "2026-08-03T14:20:57.884675+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9fa00c7cf73295a74177388142809ec74320de0433a316e8878a73148de28df2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0dd7a28a5edc5474a59cae08",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:20:57.885008+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0dd7a28a5edc5474a59cae08"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

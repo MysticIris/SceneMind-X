@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:14.jpg",
+    "relative_path": "train/14.jpg",
+    "sha256": "a0f1afc9432580697f1bf135f6194b97a4b984fd8c3d8eb4e314a89a59f89d5b",
+    "split": "train"
+  },
+  "canonical_sha256": "0fb0047e9dbf497c3435e0374103bf837ac9fa314bb2298f0d03741b9fe17789",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "学生",
+      "树荫道",
+      "背书包",
+      "户外步行"
+    ],
+    "short_description": "四名背着书包的学生背对镜头，在绿树成荫的道路上并肩行走，阳光透过树叶洒下斑驳光影。",
+    "theme": "树荫小径漫步"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能是在上学或放学途中。"
+    ],
+    "direct_observations": [
+      "四名学生背对镜头沿道路行走。",
+      "两侧树木排列整齐，形成林荫通道。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走"
+    ],
+    "attributes": [
+      "背着书包",
+      "穿着校服风格服装",
+      "头发被风吹动"
+    ],
+    "relations": [
+      "四人并排行走。",
+      "行走在道路中央。"
+    ],
+    "scene": "林荫道",
+    "subjects": [
+      "四名学生"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能是在上学或放学途中。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "四名学生背对镜头沿道路行走；两侧树木排列整齐，形成林荫通道。",
+    "safe_facts": [
+      "四名学生背对镜头沿道路行走。",
+      "两侧树木排列整齐，形成林荫通道。"
+    ]
+  },
+  "label_id": "cpl_d82a461029479a7eead9606d",
+  "provenance": {
+    "generated_at": "2026-08-03T09:06:40.832821+00:00",
+    "migrated_at": "2026-08-03T09:06:40.834339+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7482a3a6dd3d657c8969f2f31c7a9412cba45bcf0bcf7e5d8d7e025c727b4aaa",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a16cb66d4102a6a671cd4d6d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:25.705470+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a16cb66d4102a6a671cd4d6d",
+    "cpl_ac2c7aee6aeb61cf182b634a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

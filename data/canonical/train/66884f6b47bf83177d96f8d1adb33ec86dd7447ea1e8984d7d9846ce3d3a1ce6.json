@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:182.jpg",
+    "relative_path": "train/182.jpg",
+    "sha256": "66884f6b47bf83177d96f8d1adb33ec86dd7447ea1e8984d7d9846ce3d3a1ce6",
+    "split": "train"
+  },
+  "canonical_sha256": "685b9fb8ededc87562f67cc3e11303088695205e91b94030c3d56aa4d0682da2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古籍",
+      "展柜",
+      "书本",
+      "历史文献"
+    ],
+    "short_description": "展柜内陈列五本古旧书籍，封面多有磨损，配有说明牌，背景为浅色布面。",
+    "theme": "古籍陈列"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "五本古籍并排置于白色布面上。",
+      "每本书下方对应一块透明说明牌。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "古旧",
+      "封面磨损",
+      "浅色布面背景"
+    ],
+    "relations": [
+      "书籍陈列于展柜内。",
+      "说明牌位于书籍正下方。"
+    ],
+    "scene": "博物馆或展览馆的玻璃展柜内",
+    "subjects": [
+      "五本古籍",
+      "说明牌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "五本古籍并排置于白色布面上；每本书下方对应一块透明说明牌。",
+    "safe_facts": [
+      "五本古籍并排置于白色布面上。",
+      "每本书下方对应一块透明说明牌。"
+    ]
+  },
+  "label_id": "cpl_b3d8e4f166e36c8a45a0f725",
+  "provenance": {
+    "generated_at": "2026-08-03T10:11:39.847382+00:00",
+    "migrated_at": "2026-08-03T10:11:39.849742+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b06b113f14f24bc82edb0892ddcb9a1e22e26a3a87c103462189e5894e8b0360",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6a7726aa650755652fa4dd56",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:11:39.849993+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6a7726aa650755652fa4dd56"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

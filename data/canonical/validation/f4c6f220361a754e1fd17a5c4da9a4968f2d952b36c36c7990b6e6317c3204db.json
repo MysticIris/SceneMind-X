@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2078.jpg",
+    "relative_path": "val/2078.jpg",
+    "sha256": "f4c6f220361a754e1fd17a5c4da9a4968f2d952b36c36c7990b6e6317c3204db",
+    "split": "val"
+  },
+  "canonical_sha256": "3c5f31c940287289bb31b655967c23bb469043f1bb8328615197aa3d1a4136c1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雨天",
+      "学校门口",
+      "城市街道"
+    ],
+    "short_description": "雨天街道旁的学校大门，有行人和电动车经过，地面湿滑，建筑上有标识牌。",
+    "theme": "城市街景入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面有积水反光，显示刚下过雨。",
+      "学校大门前设有黄色警示栏杆。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "地面湿润",
+      "有交通标志",
+      "有栏杆设施"
+    ],
+    "relations": [],
+    "scene": "城市街道与学校入口",
+    "subjects": [
+      "学校大门",
+      "行人",
+      "电动车",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面有积水反光，显示刚下过雨；学校大门前设有黄色警示栏杆。",
+    "safe_facts": [
+      "地面有积水反光，显示刚下过雨。",
+      "学校大门前设有黄色警示栏杆。"
+    ]
+  },
+  "label_id": "cpl_ac1f698df5de2e7e7ea7dc8e",
+  "provenance": {
+    "generated_at": "2026-08-03T15:56:53.071016+00:00",
+    "migrated_at": "2026-08-03T15:56:53.072545+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f4a91ea5a9440ae60a77984fbf08b474e6980d0dbda1ad7276955ec2f12a77cf",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2a67059f6bc2c02c81e194a6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:56:53.072747+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2a67059f6bc2c02c81e194a6"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

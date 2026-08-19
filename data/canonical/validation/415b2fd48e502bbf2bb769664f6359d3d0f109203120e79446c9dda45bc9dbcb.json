@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2233.jpg",
+    "relative_path": "val/2233.jpg",
+    "sha256": "415b2fd48e502bbf2bb769664f6359d3d0f109203120e79446c9dda45bc9dbcb",
+    "split": "val"
+  },
+  "canonical_sha256": "76349e4abd424b5c3f9bfd54068b8dc04a69b5c3f7b4b4c5ccbeaea2d7ecaef1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蓝色手柄",
+      "Xbox标志",
+      "手持设备"
+    ],
+    "short_description": "一只手握着一个亮蓝色的游戏手柄，手柄中央的Xbox标志发光，背景有背包和杂物。",
+    "theme": "蓝色游戏手柄"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "手柄整体呈蓝色，表面光滑。",
+      "手柄顶部的Xbox标志正在发光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "握持"
+    ],
+    "attributes": [
+      "蓝色",
+      "发光标志",
+      "塑料材质"
+    ],
+    "relations": [
+      "手握着手柄。"
+    ],
+    "scene": "室内环境",
+    "subjects": [
+      "一只手",
+      "一个游戏手柄"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "手柄整体呈蓝色，表面光滑；手柄顶部的Xbox标志正在发光。",
+    "safe_facts": [
+      "手柄整体呈蓝色，表面光滑。",
+      "手柄顶部的Xbox标志正在发光。"
+    ]
+  },
+  "label_id": "cpl_7c324270a11a587615261347",
+  "provenance": {
+    "generated_at": "2026-08-03T16:15:59.039782+00:00",
+    "migrated_at": "2026-08-03T16:15:59.041607+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b81bd9cc90dba68cb0bfea80e059355208d6600aa832bf4cee9d16258bbc96b8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6bc84bf26b2df87ca86a5110",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:15:59.041805+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6bc84bf26b2df87ca86a5110"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

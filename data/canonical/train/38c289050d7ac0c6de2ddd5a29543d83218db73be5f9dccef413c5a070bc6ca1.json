@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1040.jpg",
+    "relative_path": "train/1040.jpg",
+    "sha256": "38c289050d7ac0c6de2ddd5a29543d83218db73be5f9dccef413c5a070bc6ca1",
+    "split": "train"
+  },
+  "canonical_sha256": "0f12de0875c04d8db64dfcb4460f00d288bf92f8ab3dfb694e277d8022b2a391",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红叶",
+      "绿植",
+      "城市公园",
+      "晴天"
+    ],
+    "short_description": "阳光下，一株红叶树与绿灌木相映成趣，背景是晴朗蓝天和远处建筑。",
+    "theme": "红叶与绿植"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该场景可能位于城市绿化区域。"
+    ],
+    "direct_observations": [
+      "画面中央有一株叶片呈红色的树木。",
+      "树木周围有茂密的绿色灌木丛。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红叶",
+      "绿色灌木",
+      "晴朗天空",
+      "树干被包裹"
+    ],
+    "relations": [
+      "红叶树位于前景。",
+      "绿灌木环绕树根。",
+      "树木由竹竿支撑。"
+    ],
+    "scene": "户外园林",
+    "subjects": [
+      "红叶树",
+      "绿灌木",
+      "树木支撑杆",
+      "远处建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该场景可能位于城市绿化区域。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一株叶片呈红色的树木；树木周围有茂密的绿色灌木丛。",
+    "safe_facts": [
+      "画面中央有一株叶片呈红色的树木。",
+      "树木周围有茂密的绿色灌木丛。"
+    ]
+  },
+  "label_id": "cpl_7fd05798bce7a55c0f2be14d",
+  "provenance": {
+    "generated_at": "2026-08-03T13:28:33.848336+00:00",
+    "migrated_at": "2026-08-03T13:28:33.852336+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2851d334ea14599fa981a811e5e4380fe6e69af77683142dbd2c9d668dffb6dd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_39b34d991daaafb31d33a8f1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:28:33.852687+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_39b34d991daaafb31d33a8f1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

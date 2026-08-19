@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:633.jpg",
+    "relative_path": "train/633.jpg",
+    "sha256": "d55ed541627d88884c1775ac084ed41ca9ce8c9941dc2628d5f72403250d2708",
+    "split": "train"
+  },
+  "canonical_sha256": "dc8cb22f5c87bb1e072c045e03c3ed378cb3fbca4da6121914732dcee25e4f93",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "冰饮",
+      "木质桌面",
+      "饮品菜单"
+    ],
+    "short_description": "一杯边缘撒有白色颗粒的深色冰饮置于木质桌面上，旁边有菜单卡和水杯。",
+    "theme": "冰镇饮品特写"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "玻璃杯内装有深色液体和冰块。",
+      "杯沿覆盖一层白色颗粒状物质。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "冰饮含冰块",
+      "杯沿有白色颗粒",
+      "饮品呈深色",
+      "桌面为木纹材质"
+    ],
+    "relations": [
+      "冰饮放置于菜单卡上。",
+      "水杯位于画面左侧。"
+    ],
+    "scene": "室内餐桌",
+    "subjects": [
+      "一杯冰饮",
+      "一张菜单卡",
+      "一个玻璃水杯",
+      "一个纸巾盒"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "玻璃杯内装有深色液体和冰块；杯沿覆盖一层白色颗粒状物质。",
+    "safe_facts": [
+      "玻璃杯内装有深色液体和冰块。",
+      "杯沿覆盖一层白色颗粒状物质。"
+    ]
+  },
+  "label_id": "cpl_c8c3ce347acf57f5cb370559",
+  "provenance": {
+    "generated_at": "2026-08-03T11:48:28.445698+00:00",
+    "migrated_at": "2026-08-03T11:48:28.448245+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e8b616ed82b73021248acc8b9718b51bef78318620ba9cc95f4353540215c39b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_09522155945d1a2be3080734",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:48:28.448578+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_09522155945d1a2be3080734"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

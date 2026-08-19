@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2035.jpg",
+    "relative_path": "val/2035.jpg",
+    "sha256": "abdb635bcb267bacf944194744b0650aed84a80ba4fa831a2d9ba63c689a0562",
+    "split": "val"
+  },
+  "canonical_sha256": "79ee119faee343899819c8fefc78509610848efd5283e187e729a51a01bef456",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "历史动力",
+      "政治宣传"
+    ],
+    "short_description": "图像呈现于电子屏幕；内容涉及政治宣传主题。",
+    "theme": "幻灯片内容"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现于电子屏幕。",
+      "内容涉及政治宣传主题。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "电脑屏幕显示政治教育幻灯片",
+    "subjects": [
+      "幻灯片内容"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现于电子屏幕；内容涉及政治宣传主题。",
+    "safe_facts": [
+      "图像呈现于电子屏幕。",
+      "内容涉及政治宣传主题。"
+    ]
+  },
+  "label_id": "cpl_9312c52e6d60bad6d458e8a4",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/val/val_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "e32d3af75c130700fc73cbca19128fe8491843a5f2d834ae73a5bd88abf3c6d1",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T15:50:38.814971+00:00",
+    "migrated_at": "2026-08-03T15:50:38.817456+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "434c90f4b1a8b6ee408ac5c911010565f5c8d01adbe31290b3d7784ebabaca71",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_101d6043c2fb1d399b987823",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:50:38.818223+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "投影幻灯片及政治宣传主题概括合理。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_101d6043c2fb1d399b987823"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "(一)人民是创造历史的动力",
+      "不论过去、现在和将来,我们都要坚持一切为了群众,一切依靠群众,从群众中来,到群众",
+      "群众路线始终是党的生命线和根本工作路线是我们党永葆青春活力和战斗力的重要传家宝",
+      "一切为了群众",
+      "一切依靠群众",
+      "从群众中来"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "(一)人民是创造历史的动力",
+      "不论过去、现在和将来,我们都要坚持一切为了群众,一切依靠群众,从群众中来,到群众",
+      "群众路线始终是党的生命线和根本工作路线是我们党永葆青春活力和战斗力的重要传家宝",
+      "一切为了群众",
+      "一切依靠群众",
+      "从群众中来"
+    ]
+  }
+}

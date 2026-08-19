@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:864.jpg",
+    "relative_path": "train/864.jpg",
+    "sha256": "fb1085fcf680ac439065342c9c24e1b2a3d7fe145f091d39ddc864717a26a84b",
+    "split": "train"
+  },
+  "canonical_sha256": "bf78c9b8a7c9c51bbfd17f6a1622c55baa62ce73c1872e450bbe966998fe6dd5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "学术讲座",
+      "演讲者",
+      "PPT演示"
+    ],
+    "short_description": "一位演讲者在讲台上进行报告，背景大屏幕显示关于的PPT内容。",
+    "theme": "学术讲座现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一名男性站立在木质讲台后，手持麦克风正在讲话。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "演讲者手持麦克风讲话"
+    ],
+    "attributes": [
+      "演讲者穿着浅色衬衫和深色裤子",
+      "投影屏幕显示中文PPT内容"
+    ],
+    "relations": [
+      "演讲者站在讲台后方。",
+      "观众位于演讲者前方。"
+    ],
+    "scene": "室内讲座或会议现场",
+    "subjects": [
+      "演讲者",
+      "观众",
+      "投影屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名男性站立在木质讲台后，手持麦克风正在讲话。",
+    "safe_facts": [
+      "一名男性站立在木质讲台后，手持麦克风正在讲话。"
+    ]
+  },
+  "label_id": "cpl_a08306f07cf20839e7b3772b",
+  "provenance": {
+    "generated_at": "2026-08-03T12:39:08.056640+00:00",
+    "migrated_at": "2026-08-03T12:39:08.059292+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f22f5be9afc53c4dbafa6f8a88fb00360b64c5d2690e22a951172ec8e2615819",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_666a8456c5f64cf4e7d02b12",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:39:08.060114+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_666a8456c5f64cf4e7d02b12"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "组织与保障工作",
+      "组建基础课程教学团队",
+      "资源整合与保障",
+      "优化管理机制",
+      "拟举办‘光谷未来论坛’",
+      "未来技术学院院长论坛"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "组织与保障工作",
+      "组建基础课程教学团队",
+      "资源整合与保障",
+      "优化管理机制",
+      "拟举办‘光谷未来论坛’",
+      "未来技术学院院长论坛"
+    ]
+  }
+}

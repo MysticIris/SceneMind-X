@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1189.jpg",
+    "relative_path": "train/1189.jpg",
+    "sha256": "91228b44ef443f63dc013a2ee6a05d87ad049e2e3683d8b60e3e8963330bf793",
+    "split": "train"
+  },
+  "canonical_sha256": "3cf73aa19f503f02ef49b75e158bf8277a92ff4097ab683aab1530d831ef892b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古籍",
+      "木刻印刷",
+      "历史文献"
+    ],
+    "short_description": "博物馆展柜中陈列的古籍文献，包含文本与插图。",
+    "theme": "古籍文献展示"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现两个独立的古籍页面，分别装裱于透明玻璃展柜中。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "博物馆展柜内陈列的古籍文献",
+    "subjects": [
+      "古籍文本",
+      "古籍插图"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现两个独立的古籍页面，分别装裱于透明玻璃展柜中。",
+    "safe_facts": [
+      "图像呈现两个独立的古籍页面，分别装裱于透明玻璃展柜中。"
+    ]
+  },
+  "label_id": "cpl_72e360dca1d4a0e6d2ed6ed6",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/train/train_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "170dc34eb8269f1babe6835cdb58f23286285057aea88fcd9025beb9e0166c19",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T13:52:25.021283+00:00",
+    "migrated_at": "2026-08-03T13:52:25.023999+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "94d3584ce7287b1fab3f436c0f9b696cde174808b865f6f714b8636e4cf8c099",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_bf125eccbb22b258d2d24acd",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:52:25.024803+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "古籍展陈、文字与插图结构描述准确。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_bf125eccbb22b258d2d24acd"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "百衲本《史记·楚世家》",
+      "《古列女传·节义传》",
+      "楚昭王之妻越姬"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "百衲本《史记·楚世家》",
+      "《古列女传·节义传》",
+      "楚昭王之妻越姬"
+    ]
+  }
+}

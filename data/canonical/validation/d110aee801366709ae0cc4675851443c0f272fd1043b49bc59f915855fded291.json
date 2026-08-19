@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2343.jpg",
+    "relative_path": "val/2343.jpg",
+    "sha256": "d110aee801366709ae0cc4675851443c0f272fd1043b49bc59f915855fded291",
+    "split": "val"
+  },
+  "canonical_sha256": "7a956c640456c029795a167549d510091ace71179b8faae1e0f5df0100fc550b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "青苔岩壁",
+      "金属桥梁",
+      "峡谷溪流"
+    ],
+    "short_description": "青苔覆盖的岩壁间，一座金属桥横跨溪流，远处山峦叠嶂，植被葱郁。",
+    "theme": "岩壁峡谷景观"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "溪流位于桥梁下方，水流平静。"
+    ],
+    "direct_observations": [
+      "左侧岩壁布满绿色青苔。",
+      "中间有一座金属栏杆桥梁横跨溪流。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "青苔覆盖",
+      "金属栏杆",
+      "溪水流动",
+      "树木生长"
+    ],
+    "relations": [
+      "桥梁连接两侧岩壁。",
+      "岩壁环绕溪流。"
+    ],
+    "scene": "峡谷地貌",
+    "subjects": [
+      "岩壁",
+      "桥梁",
+      "溪流",
+      "植被"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "溪流位于桥梁下方，水流平静。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "左侧岩壁布满绿色青苔；中间有一座金属栏杆桥梁横跨溪流。",
+    "safe_facts": [
+      "左侧岩壁布满绿色青苔。",
+      "中间有一座金属栏杆桥梁横跨溪流。"
+    ]
+  },
+  "label_id": "cpl_352a427aa7b4a9f2dee3c6d5",
+  "provenance": {
+    "generated_at": "2026-08-03T16:29:25.985201+00:00",
+    "migrated_at": "2026-08-03T16:29:25.986633+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2e796cfc1531a4bdc7d75a6e553212be1ab0a57df39bd41916d78799ca7311b1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fe363a35364b0316bf6a4051",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:29:25.986830+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fe363a35364b0316bf6a4051"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

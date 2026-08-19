@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2133.jpg",
+    "relative_path": "val/2133.jpg",
+    "sha256": "3afb994afb106c6daf37434e19d615fdb42e57eec8a10c8d8c5f9acd60f83719",
+    "split": "val"
+  },
+  "canonical_sha256": "0e5200d5141dbdf6ca0d6f20465e84d6155a583c2abb42a27dd212ee523c49c0",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "烤制食品",
+      "绿色叶子",
+      "白色长盘"
+    ],
+    "short_description": "三块圆形烤制食物置于绿叶上，摆放在白色长盘中，表面焦香，内里呈浅色。",
+    "theme": "三块烤制食物"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "三块圆形食物呈深褐色，表面有颗粒状物质。",
+      "食物被放置在一片绿色叶子上，叶子位于白色长方形盘子中央。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "表面焦黑",
+      "内里浅色",
+      "圆形切片",
+      "放置于叶子上"
+    ],
+    "relations": [
+      "食物放置于叶子上。",
+      "叶子放置于盘子上。"
+    ],
+    "scene": "餐桌环境",
+    "subjects": [
+      "三块圆形食物",
+      "绿色叶子",
+      "白色长盘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三块圆形食物呈深褐色，表面有颗粒状物质；食物被放置在一片绿色叶子上，叶子位于白色长方形盘子中央。",
+    "safe_facts": [
+      "三块圆形食物呈深褐色，表面有颗粒状物质。",
+      "食物被放置在一片绿色叶子上，叶子位于白色长方形盘子中央。"
+    ]
+  },
+  "label_id": "cpl_7a81904975133a9a68d2982f",
+  "provenance": {
+    "generated_at": "2026-08-03T16:03:25.065207+00:00",
+    "migrated_at": "2026-08-03T16:03:25.067254+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d2f74ffaf8e72246356994ff64ec59ddc1e37e0836cb3d4470d3c63295e2f0d6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6c197358def9047491a36ab5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:03:25.067469+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6c197358def9047491a36ab5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1569.jpg",
+    "relative_path": "train/1569.jpg",
+    "sha256": "2459649716189993a4cecf69927db5b1a2ff609cfcb4c02f2ab047e8d949fade",
+    "split": "train"
+  },
+  "canonical_sha256": "6fad96f6f36914d630f5af83ab183a927f2f58fb7d7ebc552032abea3d2c9136",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "湖泊",
+      "城市天际线",
+      "岩石",
+      "晴天"
+    ],
+    "short_description": "晴朗天空下，湖面平静，几块岩石露出水面，远处城市天际线清晰可见。",
+    "theme": "湖畔城市天际线"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能为白天拍摄。"
+    ],
+    "direct_observations": [
+      "天空呈蓝色，有少量云彩。",
+      "水面平静，反射天空颜色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晴朗",
+      "平静的水面",
+      "浅色岩石"
+    ],
+    "relations": [
+      "岩石位于水面上。",
+      "城市建筑群位于湖对岸。"
+    ],
+    "scene": "开阔水域与城市远景",
+    "subjects": [
+      "岩石",
+      "城市建筑群",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能为白天拍摄。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈蓝色，有少量云彩；水面平静，反射天空颜色。",
+    "safe_facts": [
+      "天空呈蓝色，有少量云彩。",
+      "水面平静，反射天空颜色。"
+    ]
+  },
+  "label_id": "cpl_e60218255c6580d23b0fee0e",
+  "provenance": {
+    "generated_at": "2026-08-03T14:39:35.237828+00:00",
+    "migrated_at": "2026-08-03T14:39:35.240388+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1e99b5371521b10838ea3ee320c0aa3ba0efdd96040ea693e20f7cbc36c0a331",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ffee828d137fb1b294199786",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:39:35.240997+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ffee828d137fb1b294199786"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

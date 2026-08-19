@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1780.jpg",
+    "relative_path": "train/1780.jpg",
+    "sha256": "8feaa56def65fc9b95a82c856e2fe63b9aca8099b23155aeecdea03d341712fe",
+    "split": "train"
+  },
+  "canonical_sha256": "b72e950fa860f0b7142069386125f25c2e57234af7b81f5c914054fa0acc1667",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪鸮",
+      "白色羽毛",
+      "人造草地",
+      "树干背景"
+    ],
+    "short_description": "两只白色雪鸮静立于人造草地上，背景为仿树干纹理，一只面向镜头，另一只侧卧。",
+    "theme": "雪鸮栖息场景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "雪鸮可能处于静态展示状态。"
+    ],
+    "direct_observations": [
+      "画面中有两只白色鸟类，外形类似雪鸮。",
+      "背景呈现垂直条纹状树干纹理。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色羽毛",
+      "黄色眼睛",
+      "斑点羽翼",
+      "绿色人造草坪"
+    ],
+    "relations": [
+      "两只雪鸮并排站立。",
+      "雪鸮位于人造草地上。"
+    ],
+    "scene": "室内或人工布置的栖息环境",
+    "subjects": [
+      "雪鸮"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "雪鸮可能处于静态展示状态。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两只白色鸟类，外形类似雪鸮；背景呈现垂直条纹状树干纹理。",
+    "safe_facts": [
+      "画面中有两只白色鸟类，外形类似雪鸮。",
+      "背景呈现垂直条纹状树干纹理。"
+    ]
+  },
+  "label_id": "cpl_8022a3525c35f0dd84b1187d",
+  "provenance": {
+    "generated_at": "2026-08-03T15:06:16.732002+00:00",
+    "migrated_at": "2026-08-03T15:06:16.733511+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3c978c65f0c3ac1ecbea5c7fd51c3d1ca8b93921d26debf48838512c924e1689",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2d0a7e0f3bbae4d533055311",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:06:16.733713+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2d0a7e0f3bbae4d533055311"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

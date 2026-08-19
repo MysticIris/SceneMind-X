@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1390.jpg",
+    "relative_path": "train/1390.jpg",
+    "sha256": "cceaab316986570ee65d90d78e1508e936553ea8cb816f403106e59a941cb9aa",
+    "split": "train"
+  },
+  "canonical_sha256": "6bbe312121df9dfcaa1ed33cc93ffc51f2b5b38c39d0050f1626506ef675d243",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "凉拌粉条",
+      "中式凉菜",
+      "餐桌美食"
+    ],
+    "short_description": "一盘色泽红亮的凉拌粉条，搭配豆芽、葱段和辣椒，盛放在白色椭圆盘中，背景有另一道小菜。",
+    "theme": "凉拌粉条"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "这是一道凉拌菜，因食材未见明显热气或油光，且酱汁呈凉拌常见状态。"
+    ],
+    "direct_observations": [
+      "盘中食物主要由透明状粉条构成，表面覆盖酱色液体。",
+      "粉条间夹杂黄色豆芽、绿色葱段及少量红色辣椒碎。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "透明粉条",
+      "酱色芡汁",
+      "绿色豆芽",
+      "葱花点缀"
+    ],
+    "relations": [
+      "粉条与配菜混合。",
+      "食物盛于白色盘中。"
+    ],
+    "scene": "餐厅餐桌",
+    "subjects": [
+      "凉拌粉条",
+      "配菜",
+      "餐盘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "这是一道凉拌菜，因食材未见明显热气或油光，且酱汁呈凉拌常见状态。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "盘中食物主要由透明状粉条构成，表面覆盖酱色液体；粉条间夹杂黄色豆芽、绿色葱段及少量红色辣椒碎。",
+    "safe_facts": [
+      "盘中食物主要由透明状粉条构成，表面覆盖酱色液体。",
+      "粉条间夹杂黄色豆芽、绿色葱段及少量红色辣椒碎。"
+    ]
+  },
+  "label_id": "cpl_7f4ee2fa7749f1ba26236353",
+  "provenance": {
+    "generated_at": "2026-08-03T14:16:38.391592+00:00",
+    "migrated_at": "2026-08-03T14:16:38.395825+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "273d9a7a72ff74fed77103d56dd5ef5edc5d8cfec166989fca322be611d4f329",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6883b54c91b8bb0b278d5023",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:16:38.396199+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6883b54c91b8bb0b278d5023"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

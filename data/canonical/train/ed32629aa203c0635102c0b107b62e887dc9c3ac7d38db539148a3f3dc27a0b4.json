@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:838.jpg",
+    "relative_path": "train/838.jpg",
+    "sha256": "ed32629aa203c0635102c0b107b62e887dc9c3ac7d38db539148a3f3dc27a0b4",
+    "split": "train"
+  },
+  "canonical_sha256": "5b175e4fba779bee384ae4a27b73caa214998ff9971d8f883cef1f48a1a1c998",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "日落",
+      "云彩",
+      "山脉",
+      "剪影"
+    ],
+    "short_description": "夕阳西下，云层被染成橙粉色调，远山轮廓分明，前景树木剪影清晰。",
+    "theme": "日落山景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自地平线方向，应为日落时段。"
+    ],
+    "direct_observations": [
+      "天空呈现橙色与粉紫色调。",
+      "远处山脉呈深蓝色剪影。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空呈橙粉色",
+      "云朵有层次感",
+      "山脉呈深蓝色剪影"
+    ],
+    "relations": [
+      "云朵位于山脉上方。",
+      "树木位于前景。"
+    ],
+    "scene": "自然风光",
+    "subjects": [
+      "云朵",
+      "山脉",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自地平线方向，应为日落时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现橙色与粉紫色调；远处山脉呈深蓝色剪影。",
+    "safe_facts": [
+      "天空呈现橙色与粉紫色调。",
+      "远处山脉呈深蓝色剪影。"
+    ]
+  },
+  "label_id": "cpl_5a8295fb688e339de248326d",
+  "provenance": {
+    "generated_at": "2026-08-02T22:29:30.553347+00:00",
+    "migrated_at": "2026-08-03T07:13:41.789986+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3b16ae3bc8fca6335d3518890b68b8450e034116261fec1ebceed82505b25f00",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_12115b65e6a29728c31c171a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:33:37.621449+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_12115b65e6a29728c31c171a",
+    "cpl_6853908bb0cd9e25d91d53f2"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

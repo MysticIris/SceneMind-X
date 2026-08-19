@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1326.jpg",
+    "relative_path": "train/1326.jpg",
+    "sha256": "2ab1cc95a2799dff2847efcc07b4916d1b203df1b352441a3ca29fee57ad3ef1",
+    "split": "train"
+  },
+  "canonical_sha256": "e128ff937e5bd3cf4e65c1f376bac4e893e5a61236ea281d692ce517d4c44b05",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "手机",
+      "侧面",
+      "手握持"
+    ],
+    "short_description": "一只手握着一部白色手机，展示其左侧边框，可见音量键和电源键。",
+    "theme": "手持手机侧面"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "手机外壳为白色，边缘有按键凹槽。",
+      "手指握持手机，拇指位于手机下部。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "握持"
+    ],
+    "attributes": [
+      "白色手机壳",
+      "金属按键",
+      "浅灰色墙面"
+    ],
+    "relations": [
+      "手握持手机。"
+    ],
+    "scene": "室内，浅色背景墙前",
+    "subjects": [
+      "手",
+      "手机"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "手机外壳为白色，边缘有按键凹槽；手指握持手机，拇指位于手机下部。",
+    "safe_facts": [
+      "手机外壳为白色，边缘有按键凹槽。",
+      "手指握持手机，拇指位于手机下部。"
+    ]
+  },
+  "label_id": "cpl_eb33b50d4926fd02131dfa62",
+  "provenance": {
+    "generated_at": "2026-08-02T22:05:26.125323+00:00",
+    "migrated_at": "2026-08-03T07:13:41.417596+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "268184906cad51926d2120bedc61a42638e80c85baca5e41fab565182f8493c1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_903f764e42a98e9825880ef1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:10:42.324213+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_903f764e42a98e9825880ef1",
+    "cpl_b2986b9356679bce896a7003"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

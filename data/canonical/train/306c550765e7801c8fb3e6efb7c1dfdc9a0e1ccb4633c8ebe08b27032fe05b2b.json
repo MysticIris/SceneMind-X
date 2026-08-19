@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1918.jpg",
+    "relative_path": "train/1918.jpg",
+    "sha256": "306c550765e7801c8fb3e6efb7c1dfdc9a0e1ccb4633c8ebe08b27032fe05b2b",
+    "split": "train"
+  },
+  "canonical_sha256": "44d44c150f45b75c4da7e536ac0963412b7bfe6b2aa016ee889658ca3c81063e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "跑步",
+      "运动员",
+      "跑道"
+    ],
+    "short_description": "一名男性运动员在红色跑道上奔跑，画面带有彩色装饰边框。",
+    "theme": "跑步运动员宣传图"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "运动员身穿蓝色运动背心和黑色短裤。",
+      "运动员在红色塑胶跑道上进行跑步动作。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "奔跑"
+    ],
+    "attributes": [
+      "穿着运动背心",
+      "佩戴黑色护臂",
+      "穿运动鞋"
+    ],
+    "relations": [],
+    "scene": "室外田径跑道",
+    "subjects": [
+      "一名男性运动员"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "运动员身穿蓝色运动背心和黑色短裤；运动员在红色塑胶跑道上进行跑步动作。",
+    "safe_facts": [
+      "运动员身穿蓝色运动背心和黑色短裤。",
+      "运动员在红色塑胶跑道上进行跑步动作。"
+    ]
+  },
+  "label_id": "cpl_d4f020e3ece4679d829a1ad2",
+  "provenance": {
+    "generated_at": "2026-08-03T15:22:48.190969+00:00",
+    "migrated_at": "2026-08-03T15:22:48.193215+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c26979385ba775dfcef74091e90fd7bde2398efbcdeed5a523b25cddfa076ad8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5f0c12e04c09a0b854b055e7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:22:48.193719+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5f0c12e04c09a0b854b055e7"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "吴家宁",
+      "喻桐",
+      "高手过招,顶尖争锋",
+      "谁能问鼎冠军?",
+      "谁是黑马逆袭?",
+      "让我们拭目以待"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "吴家宁",
+      "喻桐",
+      "高手过招,顶尖争锋",
+      "谁能问鼎冠军?",
+      "谁是黑马逆袭?",
+      "让我们拭目以待"
+    ]
+  }
+}

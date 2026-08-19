@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1790.jpg",
+    "relative_path": "train/1790.jpg",
+    "sha256": "f6096d1be6a1f6b4e6d2250b549f8f75cccc362730afc6681515671b2029d00a",
+    "split": "train"
+  },
+  "canonical_sha256": "d32b6aaf5204ba4120a77de4ac77864ab5c7bbef0e78cad3b9479549366b15f0",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "教室",
+      "学生",
+      "听课",
+      "黑板"
+    ],
+    "short_description": "一间明亮的教室里，多名学生坐在课桌前听课，一名老师站在黑板前讲解。",
+    "theme": "教室授课场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多名学生坐在排列整齐的课桌前。",
+      "一名老师站在绿色黑板前。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "坐着",
+      "听课",
+      "站立讲解"
+    ],
+    "attributes": [
+      "明亮的灯光",
+      "木质课桌椅",
+      "绿色黑板"
+    ],
+    "relations": [
+      "学生与老师相对而坐。",
+      "学生围绕讲台方向。"
+    ],
+    "scene": "室内教室",
+    "subjects": [
+      "学生",
+      "老师"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多名学生坐在排列整齐的课桌前；一名老师站在绿色黑板前。",
+    "safe_facts": [
+      "多名学生坐在排列整齐的课桌前。",
+      "一名老师站在绿色黑板前。"
+    ]
+  },
+  "label_id": "cpl_0ab2be0633f8107bf3110a11",
+  "provenance": {
+    "generated_at": "2026-08-02T22:20:43.831785+00:00",
+    "migrated_at": "2026-08-03T07:13:41.647194+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b70b78b3a516318eccc0257632672a57ae208f02ef32534a04a3f07d0aa7262f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_94e6b645a76876685ff6dcb4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:07:47.154198+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_94e6b645a76876685ff6dcb4",
+    "cpl_e8c46d2d02e664b50d7b03ba"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

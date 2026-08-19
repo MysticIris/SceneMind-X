@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1496.jpg",
+    "relative_path": "train/1496.jpg",
+    "sha256": "89508962e87dea70ab5be262aeef4821b540a9f3fec9225800952d7b5be15e71",
+    "split": "train"
+  },
+  "canonical_sha256": "4fd41c25880733b11cc01ce04357e8f44026a280b7eb4ec6d55421c8caa6194f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "学校",
+      "高楼",
+      "黄昏",
+      "标语牌"
+    ],
+    "short_description": "黄昏时分，学校建筑群前有红色标语牌，背景是高层住宅楼和云层。",
+    "theme": "校园建筑群"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有数栋高层建筑。",
+      "天空布满云层并呈现黄昏色调。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色标语牌",
+      "高层建筑",
+      "黄昏光线",
+      "云层"
+    ],
+    "relations": [
+      "标语牌位于前景。",
+      "建筑物位于背景。",
+      "树木位于建筑物前方。"
+    ],
+    "scene": "城市校园区域",
+    "subjects": [
+      "建筑物",
+      "树木",
+      "标语牌",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有数栋高层建筑；天空布满云层并呈现黄昏色调。",
+    "safe_facts": [
+      "画面中有数栋高层建筑。",
+      "天空布满云层并呈现黄昏色调。"
+    ]
+  },
+  "label_id": "cpl_02ddc06320d578582f48f830",
+  "provenance": {
+    "generated_at": "2026-08-03T14:30:36.431058+00:00",
+    "migrated_at": "2026-08-03T14:30:36.433822+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "228a783a2a559e34c913dae9e05bf701b2c99d8eb18eeed352e4bfbfd4db3cd7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b9d37a10e80b5145a1594e93",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:30:36.434152+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b9d37a10e80b5145a1594e93"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

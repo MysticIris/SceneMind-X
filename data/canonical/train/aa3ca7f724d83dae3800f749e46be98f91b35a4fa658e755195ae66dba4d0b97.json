@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1483.jpg",
+    "relative_path": "train/1483.jpg",
+    "sha256": "aa3ca7f724d83dae3800f749e46be98f91b35a4fa658e755195ae66dba4d0b97",
+    "split": "train"
+  },
+  "canonical_sha256": "e0182f9f21f326471c7b3716bb9891cdeaf8591709194927515a2457e3ee374a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "郁金香",
+      "花田",
+      "热气球",
+      "公园"
+    ],
+    "short_description": "一片色彩斑斓的郁金香花田，黄色、红色、粉色花朵整齐排列，远处有游客和热气球装饰。",
+    "theme": "郁金香花海"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "花田可能用于观赏或旅游景点。"
+    ],
+    "direct_observations": [
+      "大量郁金香按颜色分区域种植，形成条纹状图案。",
+      "背景中有树木和人群，部分树干底部被涂成白色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "色彩丰富",
+      "成行种植",
+      "树干涂白"
+    ],
+    "relations": [
+      "郁金香分布在地面。",
+      "游客站在花田后方。",
+      "热气球装饰位于花田中。"
+    ],
+    "scene": "户外花园或公园",
+    "subjects": [
+      "郁金香",
+      "游客",
+      "热气球装饰"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "花田可能用于观赏或旅游景点。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大量郁金香按颜色分区域种植，形成条纹状图案；背景中有树木和人群，部分树干底部被涂成白色。",
+    "safe_facts": [
+      "大量郁金香按颜色分区域种植，形成条纹状图案。",
+      "背景中有树木和人群，部分树干底部被涂成白色。"
+    ]
+  },
+  "label_id": "cpl_cf61c7f67dd49dbf9929958a",
+  "provenance": {
+    "generated_at": "2026-08-03T14:28:42.792058+00:00",
+    "migrated_at": "2026-08-03T14:28:42.796904+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "19f2bc1c63865cb3867de630b5ee1a7ee161c68fa17ff0a34862f4a0375bcaad",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_36e079484f213cd3478d9159",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:28:42.797267+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_36e079484f213cd3478d9159"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

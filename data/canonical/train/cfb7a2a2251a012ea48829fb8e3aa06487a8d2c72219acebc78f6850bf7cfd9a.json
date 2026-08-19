@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1029.jpg",
+    "relative_path": "train/1029.jpg",
+    "sha256": "cfb7a2a2251a012ea48829fb8e3aa06487a8d2c72219acebc78f6850bf7cfd9a",
+    "split": "train"
+  },
+  "canonical_sha256": "ad5153ba8c30763c245930fa7adb657bf872b7d75664debea2549c9bb5dde489",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "游船",
+      "霓虹灯",
+      "城市天际线"
+    ],
+    "short_description": "夜晚河面上一艘装饰华丽的游船，灯光璀璨，倒映在水面上，背景是城市高楼。",
+    "theme": "夜景游船"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一艘装饰着黄色和红色灯光的游船。",
+      "水面反射了游船和周围建筑的灯光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灯光装饰",
+      "水面倒影",
+      "夜间照明"
+    ],
+    "relations": [
+      "游船位于水面上。",
+      "高楼位于背景中。"
+    ],
+    "scene": "城市河流夜景",
+    "subjects": [
+      "游船",
+      "高楼建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一艘装饰着黄色和红色灯光的游船；水面反射了游船和周围建筑的灯光。",
+    "safe_facts": [
+      "画面中有一艘装饰着黄色和红色灯光的游船。",
+      "水面反射了游船和周围建筑的灯光。"
+    ]
+  },
+  "label_id": "cpl_653d109c57844a2d0f5618a0",
+  "provenance": {
+    "generated_at": "2026-08-03T13:25:41.332499+00:00",
+    "migrated_at": "2026-08-03T13:25:41.339705+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d10dfb296acdd1bebe9852aaebc74ebb9b02c85edea7c26de1743f7b7e76abf3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6231603589e26a0be96cc264",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:25:41.340055+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6231603589e26a0be96cc264"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

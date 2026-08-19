@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1517.jpg",
+    "relative_path": "train/1517.jpg",
+    "sha256": "0f586db523214ff36936cb3f9b47ceca842f0dd47b61346acb286a557ed91587",
+    "split": "train"
+  },
+  "canonical_sha256": "f9f3d0926661a5475abb13a66dabe530ca8b6a813f5f9306232d9529b3d941cb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "云层",
+      "河流",
+      "桥梁",
+      "黄昏"
+    ],
+    "short_description": "天空中巨大云团翻滚，夕阳余晖洒在河面，远处桥梁横跨水面，两岸建筑与电线杆剪影清晰。",
+    "theme": "云层下的河岸"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自地平线附近，可能是日落或日出时段。"
+    ],
+    "direct_observations": [
+      "天空中有大片积云，形态蓬松且层次分明。",
+      "河流表面有反光，显示光源来自低角度。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "云层庞大",
+      "河水反射光",
+      "建筑物轮廓清晰"
+    ],
+    "relations": [
+      "云位于天空。",
+      "桥梁跨越河流。",
+      "建筑物位于河岸。"
+    ],
+    "scene": "河岸与天空景观",
+    "subjects": [
+      "云",
+      "河流",
+      "桥梁",
+      "建筑物",
+      "电线杆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自地平线附近，可能是日落或日出时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空中有大片积云，形态蓬松且层次分明；河流表面有反光，显示光源来自低角度。",
+    "safe_facts": [
+      "天空中有大片积云，形态蓬松且层次分明。",
+      "河流表面有反光，显示光源来自低角度。"
+    ]
+  },
+  "label_id": "cpl_bf49e5654be37143578025b1",
+  "provenance": {
+    "generated_at": "2026-08-03T15:36:01.062989+00:00",
+    "migrated_at": "2026-08-03T15:36:01.064441+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "81e84d9efab1854d0604f79484dc19a8fd5191fa3f4cca960a141b8d22922ddb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5375649d73be4d327426e971",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:36:01.064709+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5375649d73be4d327426e971"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

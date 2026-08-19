@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:452.jpg",
+    "relative_path": "train/452.jpg",
+    "sha256": "eee03efaf6c04f132af3f16e989f6c6d61ac5fdfe0f0cd1db5340484134bd5f0",
+    "split": "train"
+  },
+  "canonical_sha256": "a0e9e661a8866fec8051f376e09eb6686e62f8472e8a1ecfd051675ab620210e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "动漫少女",
+      "夜景",
+      "微笑",
+      "校服"
+    ],
+    "short_description": "一位动漫少女在夜晚海边微笑，背景是深蓝色海面与栏杆。",
+    "theme": "动漫少女特写"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "少女有灰黑色长发和蓝色眼睛。",
+      "少女穿着带有红色领结的白色衬衫和深色外套。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灰发",
+      "蓝眼睛",
+      "脸颊泛红",
+      "嘴角上扬",
+      "穿着校服"
+    ],
+    "relations": [
+      "少女位于前景。",
+      "背景为海面与栏杆。"
+    ],
+    "scene": "夜晚海边",
+    "subjects": [
+      "一位灰发蓝眼的动漫少女"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "少女有灰黑色长发和蓝色眼睛；少女穿着带有红色领结的白色衬衫和深色外套。",
+    "safe_facts": [
+      "少女有灰黑色长发和蓝色眼睛。",
+      "少女穿着带有红色领结的白色衬衫和深色外套。"
+    ]
+  },
+  "label_id": "cpl_47514d127786ee784575979d",
+  "provenance": {
+    "generated_at": "2026-08-03T11:06:21.092851+00:00",
+    "migrated_at": "2026-08-03T11:06:21.094695+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f93713bf9015efe6981e512507988e34661966a0f6ce2c21c3b91cfc54f9bd5d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_53cf8411061fbfcc81e2344c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:06:21.094998+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_53cf8411061fbfcc81e2344c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "比企谷同学 我喜欢你"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "比企谷同学 我喜欢你"
+    ]
+  }
+}

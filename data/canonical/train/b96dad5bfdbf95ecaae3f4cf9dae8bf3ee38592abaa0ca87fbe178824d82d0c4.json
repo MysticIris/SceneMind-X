@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:238.jpg",
+    "relative_path": "train/238.jpg",
+    "sha256": "b96dad5bfdbf95ecaae3f4cf9dae8bf3ee38592abaa0ca87fbe178824d82d0c4",
+    "split": "train"
+  },
+  "canonical_sha256": "c0fe1740778a7e4c5954ec7eb2db43c0469b1025eb128387c5b948c42ff682bc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "寺庙",
+      "石阶",
+      "人群",
+      "登山"
+    ],
+    "short_description": "众多游客在古寺石阶上向上攀登，两侧是黄色墙壁和绿树，阳光明媚。",
+    "theme": "寺庙阶梯人群"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能为旅游景点，因人群密集且沿路径分布。"
+    ],
+    "direct_observations": [
+      "多人在石阶上向上行走。",
+      "石阶两侧有黄色墙体和绿色植物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "攀登",
+      "行走"
+    ],
+    "attributes": [
+      "黄色墙壁",
+      "绿色树木",
+      "晴朗天气",
+      "佩戴口罩"
+    ],
+    "relations": [
+      "游客在石阶上移动。",
+      "石阶连接建筑。",
+      "树木环绕石阶。"
+    ],
+    "scene": "古寺外的石阶",
+    "subjects": [
+      "游客",
+      "石阶",
+      "建筑墙壁",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能为旅游景点，因人群密集且沿路径分布。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多人在石阶上向上行走；石阶两侧有黄色墙体和绿色植物。",
+    "safe_facts": [
+      "多人在石阶上向上行走。",
+      "石阶两侧有黄色墙体和绿色植物。"
+    ]
+  },
+  "label_id": "cpl_f71569167151e15b9240c650",
+  "provenance": {
+    "generated_at": "2026-08-03T10:22:36.296364+00:00",
+    "migrated_at": "2026-08-03T10:22:36.298488+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "44d5d98f6f78345fc7d50e0f3c96c116b71cfbd8b6484a91b3729176925089a7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_cce359b45754b9bef2ee9a87",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:22:36.298720+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_cce359b45754b9bef2ee9a87"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

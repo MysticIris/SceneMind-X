@@ -1,0 +1,7 @@
+以下两个 Train-only 示例只演示结构边界。
+
+示例 1984.jpg（幻灯片）
+{"visual_medium":"presentation_slide","depicted_content":"英文课件总结空气污染、疾病与历史烟雾事件。","scene_summary":"一页带英文标题和正文的课堂幻灯片。","subjects":["课件标题","英文正文"],"activities":[],"relationships":["标题位于正文上方"],"text_presence":"present","text_role":"decision_critical","text_reliability":"likely","visible_text_candidates":["Improved summary 2","air pollution"],"selected_text":null,"text_summary":"正文讨论空气污染及其影响。","text_uncertainty":"局部受反光影响，仅保留清晰候选。","observations":["画面具有标题栏和正文区的幻灯片版式。","正文为多行英文，局部有反光。"],"inference_candidates":["这可能是一页课堂课件。"],"uncertainties":["部分英文段落无法可靠逐字转写。"]}
+
+示例 1631.jpg（模糊文字）
+{"visual_medium":"real_world_photo","depicted_content":"透明卡套内有黑底白色动物图案。","scene_summary":"双手拿着一张带图案和模糊文字的卡片。","subjects":["双手","透明卡套","黑底白色图案"],"activities":["双手拿着卡片"],"relationships":["黑底白色图案位于卡片中央"],"text_presence":"present","text_role":"contextual","text_reliability":"low","visible_text_candidates":[],"selected_text":null,"text_summary":"卡片上存在文字，但未可靠转写。","text_uncertainty":"中央文字模糊且受反光影响。","observations":["双手拿着透明卡套。","卡片中央有黑底白色动物图案。","卡片文字区域模糊并有反光。"],"inference_candidates":[],"uncertainties":["无法确认卡片文字内容。"]}

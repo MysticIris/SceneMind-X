@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:617.jpg",
+    "relative_path": "train/617.jpg",
+    "sha256": "5e3ec51870c9223b078e192ee66e92eb8328d3459df3535124969afe854123d5",
+    "split": "train"
+  },
+  "canonical_sha256": "5cf3d2519b6d01d357cdc02ca815eeb737576317694e28569d46def3d5af916f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "水道",
+      "游船",
+      "灯光装饰"
+    ],
+    "short_description": "夜幕下，河道两岸灯火通明，传统建筑与游船倒映水中，构成一幅宁静而绚丽的水乡夜景。",
+    "theme": "夜色水乡"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "船只可能载有游客，因船上有人影和装饰性灯光。"
+    ],
+    "direct_observations": [
+      "水面反射岸边灯光和船只灯光。",
+      "沿岸建筑屋顶和屋檐有暖黄色灯光装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "航行",
+      "照明"
+    ],
+    "attributes": [
+      "亮灯",
+      "倒影",
+      "传统风格建筑"
+    ],
+    "relations": [
+      "游船在水道上行驶。",
+      "建筑沿水道分布。",
+      "灯光照亮水面。"
+    ],
+    "scene": "城市水道夜景",
+    "subjects": [
+      "游船",
+      "沿河建筑",
+      "水面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "船只可能载有游客，因船上有人影和装饰性灯光。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "水面反射岸边灯光和船只灯光；沿岸建筑屋顶和屋檐有暖黄色灯光装饰。",
+    "safe_facts": [
+      "水面反射岸边灯光和船只灯光。",
+      "沿岸建筑屋顶和屋檐有暖黄色灯光装饰。"
+    ]
+  },
+  "label_id": "cpl_897de4f810204e5849e86805",
+  "provenance": {
+    "generated_at": "2026-08-03T11:45:47.311535+00:00",
+    "migrated_at": "2026-08-03T11:45:47.314205+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7b993a161c86f7eae401533105b916747be7f61789547ca96b2b742815b8e0ea",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a78eadd21de5df5d53be4b0d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:45:47.314550+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a78eadd21de5df5d53be4b0d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

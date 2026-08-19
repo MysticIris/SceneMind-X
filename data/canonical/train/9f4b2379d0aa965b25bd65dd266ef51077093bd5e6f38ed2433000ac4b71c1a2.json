@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:67.jpg",
+    "relative_path": "train/67.jpg",
+    "sha256": "9f4b2379d0aa965b25bd65dd266ef51077093bd5e6f38ed2433000ac4b71c1a2",
+    "split": "train"
+  },
+  "canonical_sha256": "22600d3f5527a963dc5cca3c2ae685f9babebdf3553c7f4aa31e12686de2fcd8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "老人",
+      "牵手",
+      "林荫道",
+      "散步"
+    ],
+    "short_description": "一对老年夫妇手牵手在林荫道上散步，落叶铺满路面，阳光透过枝叶洒下斑驳光影。",
+    "theme": "树荫下的散步"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一男一女两位老年人，背对镜头，手牵手向前走。",
+      "道路两侧有高大树木，地面散落着枯黄落叶。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "牵手"
+    ],
+    "attributes": [
+      "穿着外套",
+      "头发灰白",
+      "路面有落叶"
+    ],
+    "relations": [
+      "两人并肩行走。",
+      "手牵手。"
+    ],
+    "scene": "户外林荫小路",
+    "subjects": [
+      "一位老年女性",
+      "一位老年男性"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一男一女两位老年人，背对镜头，手牵手向前走；道路两侧有高大树木，地面散落着枯黄落叶。",
+    "safe_facts": [
+      "画面中有一男一女两位老年人，背对镜头，手牵手向前走。",
+      "道路两侧有高大树木，地面散落着枯黄落叶。"
+    ]
+  },
+  "label_id": "cpl_1009f76a1c9c7d70370e58ee",
+  "provenance": {
+    "generated_at": "2026-08-03T09:18:25.843731+00:00",
+    "migrated_at": "2026-08-03T09:18:25.845612+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "588d604680405a1a86a7484a6852541a8bc1909d08db7a97e424c38aabcd9a5d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1d8af29fe44ceebe3c11de89",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:27.842958+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1d8af29fe44ceebe3c11de89",
+    "cpl_21fc25938a1f00767e1b61b8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

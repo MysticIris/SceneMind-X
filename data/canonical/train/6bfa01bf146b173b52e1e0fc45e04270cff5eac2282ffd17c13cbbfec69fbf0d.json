@@ -1,0 +1,114 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:289.jpg",
+    "relative_path": "train/289.jpg",
+    "sha256": "6bfa01bf146b173b52e1e0fc45e04270cff5eac2282ffd17c13cbbfec69fbf0d",
+    "split": "train"
+  },
+  "canonical_sha256": "3d3f9a89082f9dc3ba4cf1ee9cd41a016c2b8050e183348c9a93d1d9a8ac9b59",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "地铁列车",
+      "站台",
+      "城市建筑"
+    ],
+    "short_description": "一列地铁列车正驶入车站，站台上方有现代钢结构顶棚，背景是城市高楼。",
+    "theme": "地铁站台"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "列车停靠在轨道上，车头朝向镜头方向。",
+      "站台设有金属栏杆和玻璃隔断。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色车身",
+      "红色条纹",
+      "车头显示电子屏"
+    ],
+    "relations": [],
+    "scene": "地铁站台",
+    "subjects": [
+      "地铁列车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "列车停靠在轨道上，车头朝向镜头方向；站台设有金属栏杆和玻璃隔断。",
+    "safe_facts": [
+      "列车停靠在轨道上，车头朝向镜头方向。",
+      "站台设有金属栏杆和玻璃隔断。"
+    ]
+  },
+  "label_id": "cpl_3c84b367ae39dbb72b4a46ff",
+  "provenance": {
+    "generated_at": "2026-08-03T10:32:53.745951+00:00",
+    "migrated_at": "2026-08-03T10:32:53.747775+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "20697cd3928cc575d6b62158161bc235868e605c9e17a453bd00629a4ef62ab2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c178bcfb83adf2879d56bd31",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:32:53.748196+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c178bcfb83adf2879d56bd31"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

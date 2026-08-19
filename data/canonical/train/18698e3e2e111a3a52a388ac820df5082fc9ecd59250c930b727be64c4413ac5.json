@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:707.jpg",
+    "relative_path": "train/707.jpg",
+    "sha256": "18698e3e2e111a3a52a388ac820df5082fc9ecd59250c930b727be64c4413ac5",
+    "split": "train"
+  },
+  "canonical_sha256": "a77ae8ae5a66d9eed16fbe30c8c8cf99874af729fe8e7592e7a097962e2bf24e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "行李袋",
+      "搬家",
+      "室内角落"
+    ],
+    "short_description": "室内角落堆放着多个深蓝色大行李袋，旁边有一个绿色收纳包和一个浅蓝色盆子。",
+    "theme": "搬家行李堆叠"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面铺有白色瓷砖。",
+      "多个深蓝色大袋子堆放在角落。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深蓝色",
+      "绿色",
+      "浅蓝色",
+      "带提手",
+      "堆叠"
+    ],
+    "relations": [
+      "行李袋堆叠在地面上。",
+      "收纳包靠墙放置。",
+      "盆子位于盆子旁。"
+    ],
+    "scene": "室内角落",
+    "subjects": [
+      "深蓝色行李袋",
+      "绿色收纳包",
+      "浅蓝色盆子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面铺有白色瓷砖；多个深蓝色大袋子堆放在角落。",
+    "safe_facts": [
+      "地面铺有白色瓷砖。",
+      "多个深蓝色大袋子堆放在角落。"
+    ]
+  },
+  "label_id": "cpl_203c0687fa4c6d4e60752499",
+  "provenance": {
+    "generated_at": "2026-08-03T12:05:26.510885+00:00",
+    "migrated_at": "2026-08-03T12:05:26.516364+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7621b051b059b98550aacc06df3c40fb0208b010586e42c241707bfa41f24e63",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2c54a391f133ce3ce0be659b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:05:26.516840+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2c54a391f133ce3ce0be659b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

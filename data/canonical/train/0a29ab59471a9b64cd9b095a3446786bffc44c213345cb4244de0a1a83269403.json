@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1208.jpg",
+    "relative_path": "train/1208.jpg",
+    "sha256": "0a29ab59471a9b64cd9b095a3446786bffc44c213345cb4244de0a1a83269403",
+    "split": "train"
+  },
+  "canonical_sha256": "96106d98eba82872fcd382551414b125564a47ea8b2c9f6138cfe0db325ab215",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "公路",
+      "风力发电机",
+      "黄昏或清晨",
+      "田野"
+    ],
+    "short_description": "从车内视角拍摄的公路旁景象，远处可见数座风力发电机，天空呈灰白渐变，地面植被稀疏。",
+    "theme": "公路旁风力发电机"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线条件可能为日出或日落时段。"
+    ],
+    "direct_observations": [
+      "画面前景可见汽车后视镜边缘。",
+      "远处地平线上分布着多个风力发电机轮廓。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空灰白渐变",
+      "植被稀疏",
+      "护栏绿色"
+    ],
+    "relations": [
+      "风力发电机位于公路旁。",
+      "树木位于风力发电机前方。"
+    ],
+    "scene": "公路旁开阔地带",
+    "subjects": [
+      "风力发电机",
+      "树木",
+      "公路护栏",
+      "车辆后视镜"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线条件可能为日出或日落时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景可见汽车后视镜边缘；远处地平线上分布着多个风力发电机轮廓。",
+    "safe_facts": [
+      "画面前景可见汽车后视镜边缘。",
+      "远处地平线上分布着多个风力发电机轮廓。"
+    ]
+  },
+  "label_id": "cpl_ab969c6a627c256e405c88cc",
+  "provenance": {
+    "generated_at": "2026-08-03T13:53:29.484454+00:00",
+    "migrated_at": "2026-08-03T13:53:29.489827+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d52453b4825ba8ebfb7d75733871ff7fdd69e9049e1621c85a98b09ef851f760",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f5b3ee066e6bf2b03f88eb5b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:53:29.490191+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f5b3ee066e6bf2b03f88eb5b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

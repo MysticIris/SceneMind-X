@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2215.jpg",
+    "relative_path": "val/2215.jpg",
+    "sha256": "3d7edab23423ffba949f58049309e98b2a95b381fafc98be73e8551d3e3371b3",
+    "split": "val"
+  },
+  "canonical_sha256": "73ef242ec0271cd8d92bb35e9fa23fdfad7a6470fa5288714463f72a0ac6a484",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "实验步骤",
+      "投影屏幕",
+      "操作指南"
+    ],
+    "short_description": "屏幕下方可见部分观众头部轮廓。",
+    "theme": "实验操作步骤"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕下方可见部分观众头部轮廓。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "室内投影演示场景",
+    "subjects": [
+      "投影屏幕"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕下方可见部分观众头部轮廓。",
+    "safe_facts": [
+      "屏幕下方可见部分观众头部轮廓。"
+    ]
+  },
+  "label_id": "cpl_804757b6ea152ee5d25bcefc",
+  "provenance": {
+    "generated_at": "2026-08-03T16:13:38.414770+00:00",
+    "migrated_at": "2026-08-03T16:13:38.417122+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "714415244b9eeacf0148b3a501a501642f2c0a09ebacafb51e875b0440dabd82",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6ec4c3f640cd4e6d4cf9ef90",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:13:38.417996+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6ec4c3f640cd4e6d4cf9ef90"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "总结",
+      "1.打开仪器,设置好balance电压200V左右",
+      "2.用水平泡调整油雾室水平",
+      "3.打开挡板,喷雾器垂直打入油滴,关闭挡板",
+      "4.用up, down选择合适的带负电油滴",
+      "5.测量油滴匀速下降1.5mm所需时间。Balance电压100-300V,时间"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "总结",
+      "1.打开仪器,设置好balance电压200V左右",
+      "2.用水平泡调整油雾室水平",
+      "3.打开挡板,喷雾器垂直打入油滴,关闭挡板",
+      "4.用up, down选择合适的带负电油滴",
+      "5.测量油滴匀速下降1.5mm所需时间。Balance电压100-300V,时间"
+    ]
+  }
+}

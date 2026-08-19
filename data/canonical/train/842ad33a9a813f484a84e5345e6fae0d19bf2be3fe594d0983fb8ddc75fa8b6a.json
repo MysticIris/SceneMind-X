@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1138.jpg",
+    "relative_path": "train/1138.jpg",
+    "sha256": "842ad33a9a813f484a84e5345e6fae0d19bf2be3fe594d0983fb8ddc75fa8b6a",
+    "split": "train"
+  },
+  "canonical_sha256": "d3007da6f65e112250e84c472c5b3db5e3a7d4ded19a2f935ab6b547661f05d8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古琴",
+      "博物馆展品",
+      "红漆木器"
+    ],
+    "short_description": "博物馆玻璃展柜内陈列一件红漆木制古琴，琴身长条形，一端雕花装饰，置于红色绒布之上。",
+    "theme": "古琴展陈"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "物体呈长条形，表面覆盖红棕色漆面。",
+      "物体一端有复杂雕刻纹饰，另一端有卷曲边缘。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红漆",
+      "木制",
+      "雕花端部",
+      "置于红色绒布上"
+    ],
+    "relations": [],
+    "scene": "博物馆展柜内",
+    "subjects": [
+      "古琴"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "物体呈长条形，表面覆盖红棕色漆面；物体一端有复杂雕刻纹饰，另一端有卷曲边缘。",
+    "safe_facts": [
+      "物体呈长条形，表面覆盖红棕色漆面。",
+      "物体一端有复杂雕刻纹饰，另一端有卷曲边缘。"
+    ]
+  },
+  "label_id": "cpl_ab16cce583b9dd3d45333285",
+  "provenance": {
+    "generated_at": "2026-08-03T13:42:29.628859+00:00",
+    "migrated_at": "2026-08-03T13:42:29.633608+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0fb1c891520a6af3b08259eefd96fc9fe414d752deadd7265b6922741ebf4264",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2924baa71e0a32f36b9f7a32",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:42:29.634894+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2924baa71e0a32f36b9f7a32"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

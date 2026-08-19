@@ -1,0 +1,1 @@
+本轮没有 OCR 或人工文字核验，selected_text 必须为 null，text_reliability 不得使用 verified。可见文字只放入 visible_text_candidates，并按用途选择 decision_critical、contextual、decorative、incidental、mixed、none 或 uncertain。装饰性、背景性、过小、模糊、倾斜、遮挡、艺术化或方向不确定的文字不得用于推断真实地点、机构、品牌、人物身份或核心场景。月饼盒插画中的模糊牌匾通常是 decorative；候选可保留，但不得传播到 scene_summary、observations 或 inference_candidates。

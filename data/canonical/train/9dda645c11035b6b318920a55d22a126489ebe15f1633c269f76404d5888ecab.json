@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:329.jpg",
+    "relative_path": "train/329.jpg",
+    "sha256": "9dda645c11035b6b318920a55d22a126489ebe15f1633c269f76404d5888ecab",
+    "split": "train"
+  },
+  "canonical_sha256": "c0e62b8dd85744ff68e2f3671d28b6f491f566e784afe042ab0036d9af339750",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石雕像",
+      "悬垂苔藓",
+      "古树",
+      "户外雕塑"
+    ],
+    "short_description": "一座白色石雕立于古树之下，枝干上垂挂大量灰绿色苔藓，营造出幽静神秘的自然氛围。",
+    "theme": "石像与悬垂苔藓"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "石雕像呈站立姿态，身着长袍，手捧花束。",
+      "树木枝干上覆盖大量灰绿色悬垂状植物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色石质",
+      "长发",
+      "手持花束",
+      "基座雕花"
+    ],
+    "relations": [
+      "石雕像位于树木前方。",
+      "苔藓垂挂在树枝上。"
+    ],
+    "scene": "户外树林",
+    "subjects": [
+      "石雕像",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "石雕像呈站立姿态，身着长袍，手捧花束；树木枝干上覆盖大量灰绿色悬垂状植物。",
+    "safe_facts": [
+      "石雕像呈站立姿态，身着长袍，手捧花束。",
+      "树木枝干上覆盖大量灰绿色悬垂状植物。"
+    ]
+  },
+  "label_id": "cpl_33e4f2dc753a7a9ff482008d",
+  "provenance": {
+    "generated_at": "2026-08-03T10:40:45.826066+00:00",
+    "migrated_at": "2026-08-03T10:40:45.827658+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5eb2b7e2e9e26b3a5c19bfc7503b53f57be9cb75359af535aed83c9bbd34c43b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8b1b09a40f53091cbb1932d8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:40:45.827865+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8b1b09a40f53091cbb1932d8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

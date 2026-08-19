@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2020.jpg",
+    "relative_path": "val/2020.jpg",
+    "sha256": "1eb90bc5a60d9433e78b84a12f0cb267d2d7d8c526e1e1676a2cb136958e7754",
+    "split": "val"
+  },
+  "canonical_sha256": "da9b7f4588a814e23f911762815705c2688ac424f4aeb7d01fa1db573d2c62e8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "运动模糊",
+      "绿色服装"
+    ],
+    "short_description": "夜间户外道路，一人穿着绿色卡通服装，旁边停放着多辆电动车，画面因运动模糊而失焦。",
+    "theme": "夜间户外模糊身影"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面整体呈现运动模糊效果。",
+      "可见路灯照明下的户外道路及停放的电动车。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色服装",
+      "夜间环境",
+      "路灯照明"
+    ],
+    "relations": [
+      "人位于电动车旁。"
+    ],
+    "scene": "夜间户外道路",
+    "subjects": [
+      "穿绿色服装的人",
+      "多辆电动车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面整体呈现运动模糊效果；可见路灯照明下的户外道路及停放的电动车。",
+    "safe_facts": [
+      "画面整体呈现运动模糊效果。",
+      "可见路灯照明下的户外道路及停放的电动车。"
+    ]
+  },
+  "label_id": "cpl_fc02a6daa7b081d3a3798ecd",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/val/val_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "e32d3af75c130700fc73cbca19128fe8491843a5f2d834ae73a5bd88abf3c6d1",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T15:49:12.052487+00:00",
+    "migrated_at": "2026-08-03T15:49:12.054124+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b2c066873c9c4e8f2e1a9942d3ac5e0d159c7f57c378e71c13fb8b70926435fb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c428eb5f584aeb181d30901d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:49:12.054399+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "夜间道路、人物和运动模糊描述准确。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c428eb5f584aeb181d30901d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1619.jpg",
+    "relative_path": "train/1619.jpg",
+    "sha256": "533ace3890c4c5cf5470fc30d1eed7939cf4a9ce423117edd82f0b810577d6f3",
+    "split": "train"
+  },
+  "canonical_sha256": "c1cf1b146a9b32146f326934ca70d285ab2d52629e71d1c43b9d79704729e47a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "青瓦屋顶",
+      "中式建筑",
+      "古建筑",
+      "树木环绕"
+    ],
+    "short_description": "青瓦飞檐的传统中式建筑，被绿树环绕，天空呈灰蓝色。",
+    "theme": "中式古典建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "建筑风格属于中国传统宫殿式或庙宇式设计。"
+    ],
+    "direct_observations": [
+      "建筑屋顶覆盖青绿色琉璃瓦。",
+      "建筑具有多层重叠的飞檐结构。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "青绿色瓦片",
+      "多层屋檐",
+      "石质墙体",
+      "高大树木"
+    ],
+    "relations": [
+      "树木位于建筑前方。"
+    ],
+    "scene": "户外建筑景观",
+    "subjects": [
+      "建筑",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "建筑风格属于中国传统宫殿式或庙宇式设计。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑屋顶覆盖青绿色琉璃瓦；建筑具有多层重叠的飞檐结构。",
+    "safe_facts": [
+      "建筑屋顶覆盖青绿色琉璃瓦。",
+      "建筑具有多层重叠的飞檐结构。"
+    ]
+  },
+  "label_id": "cpl_36fca466a5c5e164c3c15389",
+  "provenance": {
+    "generated_at": "2026-08-03T14:46:03.938981+00:00",
+    "migrated_at": "2026-08-03T14:46:03.942451+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1534ffea7d7d367a437c76de9440decc4222ee9f85a323946cc2973525803ffa",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_96c022c6956c44196cef81df",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:46:03.942814+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_96c022c6956c44196cef81df"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

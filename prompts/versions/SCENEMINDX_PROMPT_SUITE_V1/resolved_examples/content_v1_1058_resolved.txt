@@ -1,0 +1,8 @@
+你是受视觉事实约束的内容编辑。视觉事实与候选证据：
+[{"status": "available", "source_version": "P3 v1.4", "source": "current_core_cache", "image_id": "1058.jpg", "global_observation": "雪山映湖水", "subjects": "雪山与湖泊", "activities": "", "attributes": "雪山映湖，夕阳染金", "relations": "雪山在湖面后方，天空在上方", "visible_text_candidates": "无文字", "scene_hypotheses": "雪山映湖，夕阳余晖照山巅", "uncertainties": "", "evidence_descriptions": "雪山映湖，蓝空无云"}]
+
+用户设置：
+{"tone": "客观事实", "audience": "课程项目审阅者", "length": 120, "style": "factual"}
+
+可以创造表达方式，但不得创造视觉事实，不得虚构活动日期、机构、地点、人物身份，也不得把课件、海报、截图或表情包中的事件写成现实发生。仅输出一个 JSON 对象：
+{"content":"生成内容","used_facts":["实际采用的事实"],"omitted_uncertain_facts":["主动避开的不确定项"],"fact_guard":"passed或failed"}

@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1663.jpg",
+    "relative_path": "train/1663.jpg",
+    "sha256": "c4529099de1bf438e58eddfe43287510531d45dc50ad266bab67bf4cc8b41354",
+    "split": "train"
+  },
+  "canonical_sha256": "add01b65e733fb7376bee3d575e1159f9d3e427b9caed54db3c87e8226e37088",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "秋叶",
+      "晴天",
+      "城市街道"
+    ],
+    "short_description": "晴朗天空下，行道树叶片泛黄，枝干挺拔，路灯与建筑轮廓隐约可见。",
+    "theme": "秋日街景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线从上方照射，使树叶呈现暖色。"
+    ],
+    "direct_observations": [
+      "天空呈现均匀的蓝色。",
+      "树木叶子以黄色为主色调。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "树叶呈黄色",
+      "天空湛蓝"
+    ],
+    "relations": [
+      "树木位于建筑物前方。",
+      "路灯分布在树木之间。"
+    ],
+    "scene": "城市街道旁的树木与建筑",
+    "subjects": [
+      "树木",
+      "路灯",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线从上方照射，使树叶呈现暖色。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现均匀的蓝色；树木叶子以黄色为主色调。",
+    "safe_facts": [
+      "天空呈现均匀的蓝色。",
+      "树木叶子以黄色为主色调。"
+    ]
+  },
+  "label_id": "cpl_4bac79c57f22d4e52b7868b0",
+  "provenance": {
+    "generated_at": "2026-08-03T14:51:22.127594+00:00",
+    "migrated_at": "2026-08-03T14:51:22.130650+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "83192cc4afe27c0941eb6a795f4b4fce649b5419b0c46310dfd4a722835d104e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b58d2357f6c990e997bf41b0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:51:22.131705+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b58d2357f6c990e997bf41b0"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "HUAWEI Mate 10 Pro",
+      "NEW LEICA DUAL CAMERA"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "HUAWEI Mate 10 Pro",
+      "NEW LEICA DUAL CAMERA"
+    ]
+  }
+}

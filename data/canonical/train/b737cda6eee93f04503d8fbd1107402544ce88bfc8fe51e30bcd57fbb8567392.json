@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:719.jpg",
+    "relative_path": "train/719.jpg",
+    "sha256": "b737cda6eee93f04503d8fbd1107402544ce88bfc8fe51e30bcd57fbb8567392",
+    "split": "train"
+  },
+  "canonical_sha256": "c62c650c33493831ce405bb426ad042eabf11f1c3e4320f0e57fcacf664ad2a8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "显示器"
+    ],
+    "short_description": "一台显示器正显示 品牌标志，屏幕下方有 标识，旁边放置着黑色键盘。",
+    "theme": "电脑屏幕显示品牌标志"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见显示器和键盘。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "显示器屏幕亮着",
+      "键盘为黑色"
+    ],
+    "relations": [
+      "键盘位于显示器前方。"
+    ],
+    "scene": "室内办公或工作台环境",
+    "subjects": [
+      "显示器",
+      "键盘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见显示器和键盘。",
+    "safe_facts": [
+      "画面中可见显示器和键盘。"
+    ]
+  },
+  "label_id": "cpl_a9308b84911a262ae8077ba7",
+  "provenance": {
+    "generated_at": "2026-08-03T12:07:55.131905+00:00",
+    "migrated_at": "2026-08-03T12:07:55.134812+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "585607c3657f9b1b41d78a037b774d0589c437aedc64a4fc9cf8db4bc644aef2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_389e28fbe2257cd896185e83",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:07:55.135521+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:direct_observations"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_389e28fbe2257cd896185e83"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "SUPERMICRO",
+      "www.supermicro.com",
+      "ubuntu",
+      "Press Ctrl+C to cancel all filesystem ch"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "SUPERMICRO",
+      "www.supermicro.com",
+      "ubuntu",
+      "Press Ctrl+C to cancel all filesystem ch"
+    ]
+  }
+}

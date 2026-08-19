@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1135.jpg",
+    "relative_path": "train/1135.jpg",
+    "sha256": "5064d9224286473d86662b2d5b480d4acc97d2e55f17274831799603362fbe47",
+    "split": "train"
+  },
+  "canonical_sha256": "194eae5afe91f5fd53fd9b7cae00e485a76bb714c80d266a7fe531d974996d59",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蝴蝶标本",
+      "装裱画框",
+      "蓝色装饰"
+    ],
+    "short_description": "蓝色翅膀的蝴蝶标本装裱于黑色画框内，旁边有另一幅蝴蝶标本，背景为蓝色装饰布。",
+    "theme": "蝴蝶标本展示"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一只蝴蝶标本被固定在白色衬纸上并装入黑色画框。",
+      "画框右侧有另一幅装裱的蝴蝶标本。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色翅膀",
+      "棕色边缘",
+      "黑色画框",
+      "白色衬纸",
+      "蓝色缎面布料"
+    ],
+    "relations": [
+      "蝴蝶标本被装裱在画框内。",
+      "画框放置在蓝色布料上。"
+    ],
+    "scene": "室内展示架",
+    "subjects": [
+      "蝴蝶标本",
+      "画框",
+      "装饰布"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只蝴蝶标本被固定在白色衬纸上并装入黑色画框；画框右侧有另一幅装裱的蝴蝶标本。",
+    "safe_facts": [
+      "一只蝴蝶标本被固定在白色衬纸上并装入黑色画框。",
+      "画框右侧有另一幅装裱的蝴蝶标本。"
+    ]
+  },
+  "label_id": "cpl_9f7251a1668484081b0e43ee",
+  "provenance": {
+    "generated_at": "2026-08-03T13:43:32.741246+00:00",
+    "migrated_at": "2026-08-03T13:43:32.746639+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "75d64a9bf94ec143f0d2e77cf521f2760339744ec85a1ef50956768ddd3f60ac",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d808ad2f38051d23be740238",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:43:32.753008+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d808ad2f38051d23be740238"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Morpho godarti",
+      "晶闪蝶",
+      "Happiness forever"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Morpho godarti",
+      "晶闪蝶",
+      "Happiness forever"
+    ]
+  }
+}

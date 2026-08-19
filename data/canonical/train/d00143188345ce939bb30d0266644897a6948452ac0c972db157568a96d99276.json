@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1770.jpg",
+    "relative_path": "train/1770.jpg",
+    "sha256": "d00143188345ce939bb30d0266644897a6948452ac0c972db157568a96d99276",
+    "split": "train"
+  },
+  "canonical_sha256": "1b681ecbeeaa974b623d73206841ddc2f3a730283cae320358856fac8216af1f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "积雪",
+      "石球",
+      "城市街道",
+      "雪夜"
+    ],
+    "short_description": "雪夜街道旁堆积着大量积雪和冰块，几颗石球被雪掩埋，一辆黑色轿车驶过。",
+    "theme": "雪后城市街景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "积雪可能是近期降雪后未清理所致。"
+    ],
+    "direct_observations": [
+      "画面右侧有大量积雪和碎冰堆积。",
+      "三颗深色圆形石球部分被雪掩埋。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "积雪覆盖地面",
+      "石球呈圆形",
+      "轿车车灯亮起",
+      "路灯照明"
+    ],
+    "relations": [
+      "积雪堆积在石球周围。",
+      "轿车行驶在积雪旁的道路。"
+    ],
+    "scene": "城市街道夜间雪景",
+    "subjects": [
+      "积雪",
+      "石球",
+      "黑色轿车",
+      "路灯",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "积雪可能是近期降雪后未清理所致。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面右侧有大量积雪和碎冰堆积；三颗深色圆形石球部分被雪掩埋。",
+    "safe_facts": [
+      "画面右侧有大量积雪和碎冰堆积。",
+      "三颗深色圆形石球部分被雪掩埋。"
+    ]
+  },
+  "label_id": "cpl_4e8f6f17b3ed8aa10aa3aeed",
+  "provenance": {
+    "generated_at": "2026-08-03T15:05:03.798813+00:00",
+    "migrated_at": "2026-08-03T15:05:03.800264+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6340524e3f4246b4ec02a309d1170ed9eafa53a10a11d2e109c6eaeab6dc9f51",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4f04c45d1f21bf025a07f6b2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:05:03.800481+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4f04c45d1f21bf025a07f6b2"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

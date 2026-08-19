@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1249.jpg",
+    "relative_path": "train/1249.jpg",
+    "sha256": "98d6196a6cba5a99bff1b458c774ec519fd9729ec8f4e6c1d42ebd578ba225d7",
+    "split": "train"
+  },
+  "canonical_sha256": "b754510d05171452d47d6ab9d4a0d9432b2bb7d522cb07b5faf5862b3187b1ae",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电动车",
+      "防寒膜",
+      "钥匙孔",
+      "车把"
+    ],
+    "short_description": "一辆电动车的驾驶区域，包括车把、钥匙孔和覆盖着银色防寒膜的座椅，背景中可见另一辆浅蓝色电动车。",
+    "theme": "电动车座垫特写"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "电动车的车把和仪表盘区域可见。",
+      "座椅上覆盖着一层银色网格状材料。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色车把",
+      "银色网格状防寒膜",
+      "钥匙插在锁孔中"
+    ],
+    "relations": [
+      "钥匙位于钥匙孔内。",
+      "防寒膜覆盖在座椅上。"
+    ],
+    "scene": "户外停放的电动车",
+    "subjects": [
+      "电动车",
+      "座椅",
+      "车把",
+      "钥匙"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "电动车的车把和仪表盘区域可见；座椅上覆盖着一层银色网格状材料。",
+    "safe_facts": [
+      "电动车的车把和仪表盘区域可见。",
+      "座椅上覆盖着一层银色网格状材料。"
+    ]
+  },
+  "label_id": "cpl_7d70b52b5717f227e95d6d39",
+  "provenance": {
+    "generated_at": "2026-08-03T14:01:01.889968+00:00",
+    "migrated_at": "2026-08-03T14:01:01.895882+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "622f46589579c542cb6f9521f4345e51bd27175724b0ebdba6123b6936e6fcbb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6d7f218c6f4ef0ab0fa7b0e5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:01:01.896271+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6d7f218c6f4ef0ab0fa7b0e5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

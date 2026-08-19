@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1659.jpg",
+    "relative_path": "train/1659.jpg",
+    "sha256": "3c21c0a3b0b5fdb57dff98ad592081d4eda286ba23d8a2fe4a8d54166010d9f9",
+    "split": "train"
+  },
+  "canonical_sha256": "37088c78a3ce3b7a2e60e87110e19a995075c56c4461c98eabb690724537f4cc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石狮",
+      "中式建筑",
+      "庭院景观"
+    ],
+    "short_description": "一座石雕狮子蹲踞在石座上，背景是红白相间的中式建筑和树木。",
+    "theme": "石狮雕像"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "石雕狮子呈蹲坐姿态，有鬃毛、爪子和龙鳞纹路。",
+      "石狮置于多层石质基座之上，基座有浮雕装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "石质",
+      "雕刻精细",
+      "红白墙体",
+      "绿色围栏"
+    ],
+    "relations": [
+      "石狮位于石座上。",
+      "石狮在建筑前方。",
+      "树木环绕石狮。"
+    ],
+    "scene": "户外庭院",
+    "subjects": [
+      "石雕狮子",
+      "建筑",
+      "树木",
+      "围栏"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "石雕狮子呈蹲坐姿态，有鬃毛、爪子和龙鳞纹路；石狮置于多层石质基座之上，基座有浮雕装饰。",
+    "safe_facts": [
+      "石雕狮子呈蹲坐姿态，有鬃毛、爪子和龙鳞纹路。",
+      "石狮置于多层石质基座之上，基座有浮雕装饰。"
+    ]
+  },
+  "label_id": "cpl_a8caa6b0d80c8a7dfc4cd8de",
+  "provenance": {
+    "generated_at": "2026-08-03T14:50:49.815660+00:00",
+    "migrated_at": "2026-08-03T14:50:49.820678+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5f82cd157e6caacc4822206da7c85f0ff906cc7c81e9e9c9fc97fcef1c38f849",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_67deda97e40ef670b376719e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:50:49.821038+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_67deda97e40ef670b376719e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

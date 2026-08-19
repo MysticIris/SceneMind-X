@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1493.jpg",
+    "relative_path": "train/1493.jpg",
+    "sha256": "b4618df44286404f2106d2d58cd222d2a66d23d583e1f83874701c2c6b95132c",
+    "split": "train"
+  },
+  "canonical_sha256": "38a388acd7bd40683329afb37e94038a6407991a3cd3b0357528d7ebda12542e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "学生",
+      "校门",
+      "教学楼",
+      "花坛"
+    ],
+    "short_description": "一群学生走过大学校门，背景是教学楼和花坛，整体氛围宁静有序。",
+    "theme": "校园入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多人在宽阔的道路上行走。",
+      "校门两侧有石柱和花坛。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走"
+    ],
+    "attributes": [
+      "石质校门",
+      "多层建筑",
+      "种植花卉"
+    ],
+    "relations": [
+      "学生在校园入口行走。",
+      "校门通向教学楼。"
+    ],
+    "scene": "大学校园入口",
+    "subjects": [
+      "学生",
+      "校门",
+      "教学楼",
+      "花坛"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多人在宽阔的道路上行走；校门两侧有石柱和花坛。",
+    "safe_facts": [
+      "多人在宽阔的道路上行走。",
+      "校门两侧有石柱和花坛。"
+    ]
+  },
+  "label_id": "cpl_35770f887dde4f5b7551f1be",
+  "provenance": {
+    "generated_at": "2026-08-03T14:29:53.205142+00:00",
+    "migrated_at": "2026-08-03T14:29:53.208979+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1bea22b7f344443c3d667bb3c1fb7e01270c5290cf5f491cbb9a03cd5fd4815e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7be9a5ceb6e4759e0959af61",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:29:53.209330+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7be9a5ceb6e4759e0959af61"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

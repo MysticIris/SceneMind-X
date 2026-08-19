@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1301.jpg",
+    "relative_path": "train/1301.jpg",
+    "sha256": "e50f1553567193ebcd17349e4cbb9d6aa9efefdc4407c9d07c766248a2041642",
+    "split": "train"
+  },
+  "canonical_sha256": "9bdd1115ae82b5689514acfa172dd20708b2d8cd0a43f1190414b4121bb8de7c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "世界地图",
+      "日本",
+      "地图对比"
+    ],
+    "short_description": "两幅地图均显示美洲大陆、亚洲大陆及大洋洲等地理区域。",
+    "theme": "世界地图对比"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两幅地图均显示美洲大陆、亚洲大陆及大洋洲等地理区域。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "两张世界地图并排展示",
+    "subjects": [
+      "世界地图",
+      "日本"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两幅地图均显示美洲大陆、亚洲大陆及大洋洲等地理区域。",
+    "safe_facts": [
+      "两幅地图均显示美洲大陆、亚洲大陆及大洋洲等地理区域。"
+    ]
+  },
+  "label_id": "cpl_05401c2f60f530d63961393a",
+  "provenance": {
+    "generated_at": "2026-08-03T14:04:51.365052+00:00",
+    "migrated_at": "2026-08-03T14:04:51.379518+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "650075df2098d0d4aef7a0fbe736c10f06f9a02ab884e0b36bfbe0b00b5bf04c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ebe2619d5c4dc5ea59ea9a5f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:04:51.380376+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:micro_tags",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ebe2619d5c4dc5ea59ea9a5f"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "美国地图",
+      "中国地图",
+      "U.S.",
+      "JAPAN"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "美国地图",
+      "中国地图",
+      "U.S.",
+      "JAPAN"
+    ]
+  }
+}

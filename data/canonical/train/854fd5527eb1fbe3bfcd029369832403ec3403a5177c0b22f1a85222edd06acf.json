@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1034.jpg",
+    "relative_path": "train/1034.jpg",
+    "sha256": "854fd5527eb1fbe3bfcd029369832403ec3403a5177c0b22f1a85222edd06acf",
+    "split": "train"
+  },
+  "canonical_sha256": "a811de7a25a9a3f871d1485225a9fa69bf68865953322bc75311c52ab43b1702",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "晨雾",
+      "校园",
+      "阳光穿透",
+      "砖石路面"
+    ],
+    "short_description": "薄雾笼罩下的校园草坪，阳光穿透树影洒落，铺满砖石小径，远处建筑轮廓朦胧。",
+    "theme": "晨雾中的校园"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自低角度，可能是日出或日落时段。"
+    ],
+    "direct_observations": [
+      "天空呈灰白色，有阳光从树梢间透出形成光束。",
+      "地面铺设有红褐色砖石，前方为草坪区域。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "薄雾弥漫",
+      "阳光斜射",
+      "砖石铺路",
+      "修剪整齐的灌木"
+    ],
+    "relations": [
+      "树木位于草坪后方。",
+      "建筑物在背景中。",
+      "雕塑立于草坪边缘。"
+    ],
+    "scene": "户外校园景观",
+    "subjects": [
+      "树木",
+      "草坪",
+      "建筑物",
+      "雕塑",
+      "铺装路面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自低角度，可能是日出或日落时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈灰白色，有阳光从树梢间透出形成光束；地面铺设有红褐色砖石，前方为草坪区域。",
+    "safe_facts": [
+      "天空呈灰白色，有阳光从树梢间透出形成光束。",
+      "地面铺设有红褐色砖石，前方为草坪区域。"
+    ]
+  },
+  "label_id": "cpl_7702884a292d94e7bf574474",
+  "provenance": {
+    "generated_at": "2026-08-03T13:27:40.469177+00:00",
+    "migrated_at": "2026-08-03T13:27:40.473628+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "de32687760be257bf92b0327b262c39dd21d2438be47cade9cc6c45500dc706a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_35ecd5459bf9e67f3e2dd4a7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:27:40.474003+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_35ecd5459bf9e67f3e2dd4a7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1717.jpg",
+    "relative_path": "train/1717.jpg",
+    "sha256": "ed810c91a76ea2d5a570adc3a5fee4a03f4ed28a2debabb1f5dd5978e49e53b7",
+    "split": "train"
+  },
+  "canonical_sha256": "3adc64e97e86f6c053464c8e81f94aae09b4f38cdb409e3715251ca51785498c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "月夜",
+      "山景",
+      "水面倒影",
+      "路灯"
+    ],
+    "short_description": "月光下，山峦静默，水面倒映着岸边灯光，云层低垂，夜色宁静。",
+    "theme": "月夜山河"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "远处山体被植被覆盖，轮廓模糊。"
+    ],
+    "direct_observations": [
+      "天空中有一轮明亮的月亮。",
+      "水面倒映着岸边的黄色灯光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色夜空",
+      "水面平静",
+      "路灯亮着",
+      "云层低垂"
+    ],
+    "relations": [
+      "月亮位于天空上方。",
+      "山脉位于画面中下部。",
+      "水面反射路灯灯光。",
+      "树木沿岸分布。"
+    ],
+    "scene": "夜间户外自然景观",
+    "subjects": [
+      "月亮",
+      "山脉",
+      "水面",
+      "树木",
+      "路灯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "远处山体被植被覆盖，轮廓模糊。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空中有一轮明亮的月亮；水面倒映着岸边的黄色灯光。",
+    "safe_facts": [
+      "天空中有一轮明亮的月亮。",
+      "水面倒映着岸边的黄色灯光。"
+    ]
+  },
+  "label_id": "cpl_c5b026bafa86debe7a98a084",
+  "provenance": {
+    "generated_at": "2026-08-03T14:57:07.677128+00:00",
+    "migrated_at": "2026-08-03T14:57:07.679048+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ac628928838b01782086471633d6e5c809d57e5903040749cf48b7cf4cbe48ea",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4df9cb29fd2de710f8541d08",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:57:07.679326+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4df9cb29fd2de710f8541d08"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

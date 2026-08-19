@@ -1,0 +1,71 @@
+{
+  "schema_version": "scenemindx_task_prompt_candidate_registry_v1",
+  "production_registry_untouched": true,
+  "candidates": {
+    "natural_chinese_detailed_description_v2_candidate": {
+      "version": "NATURAL_CHINESE_DETAILED_DESCRIPTION_V2_CANDIDATE",
+      "status": "approved_candidate_pending_clean_replay",
+      "file": "natural_chinese_detailed_description_v2_candidate.txt",
+      "sha256": "eaeed18de4a143d868dec25e820fc9d3db24621b9f6a265de6ea88acb110731c",
+      "serializer": "description_input_serializer_v2_candidate",
+      "serializer_file": "../../scripts/description_input_serializer_v2_candidate.py",
+      "serializer_sha256": "8fc729de73301c53e652348d309e4cf1ffe62bbd754c6c8185b8c8545dc6b170",
+      "selection_experiment": "EXP-20260726-PHASE4D-B-DESCRIPTION16-AB",
+      "review_label": "machine_provisional",
+      "target_length": 180,
+      "length_contract": [150, 350]
+    },
+    "natural_chinese_photo_description_v1_candidate": {
+      "version": "NATURAL_CHINESE_PHOTO_DESCRIPTION_V1_CANDIDATE",
+      "status": "experimental_inactive_held",
+      "production_enabled": false,
+      "default_route": false,
+      "file": "natural_chinese_photo_description_v1_candidate.txt",
+      "sha256": "3b9b7b3c6c0a428106242d8b7d9d294bd991445d20a8a70db3ab14bbb6eadd9b",
+      "selection_experiment": "EXP-20260727-PHASE4D-H-PROMPT-FAMILY-AB32",
+      "review_label": "machine_provisional",
+      "decision": "B. HOLD CHINESE DESCRIPTION PROMPT FAMILY CANDIDATE"
+    },
+    "natural_chinese_text_rich_description_v1_candidate": {
+      "version": "NATURAL_CHINESE_TEXT_RICH_DESCRIPTION_V1_CANDIDATE",
+      "status": "experimental_inactive_held",
+      "production_enabled": false,
+      "default_route": false,
+      "file": "natural_chinese_text_rich_description_v1_candidate.txt",
+      "sha256": "4f1742fe1c1d18ffadbf3dfab7ed98fce51e85d2b437ade8fd8d5a12bafd838b",
+      "selection_experiment": "EXP-20260727-PHASE4D-H-PROMPT-FAMILY-AB32",
+      "review_label": "machine_provisional",
+      "decision": "B. HOLD CHINESE DESCRIPTION PROMPT FAMILY CANDIDATE"
+    },
+    "natural_chinese_meme_screenshot_description_v1_candidate": {
+      "version": "NATURAL_CHINESE_MEME_SCREENSHOT_DESCRIPTION_V1_CANDIDATE",
+      "status": "experimental_inactive_held",
+      "production_enabled": false,
+      "default_route": false,
+      "file": "natural_chinese_meme_screenshot_description_v1_candidate.txt",
+      "sha256": "8611f75b26f2faf9c44399ab88bcd9195c63034342cebeafacad057af1dfd148",
+      "selection_experiment": "EXP-20260727-PHASE4D-H-PROMPT-FAMILY-AB32",
+      "review_label": "machine_provisional",
+      "decision": "B. HOLD CHINESE DESCRIPTION PROMPT FAMILY CANDIDATE"
+    },
+    "chinese_description_prompt_family_v1_1_must_include_candidate": {
+      "version": "CHINESE_DESCRIPTION_PROMPT_FAMILY_V1_1_MUST_INCLUDE_CANDIDATE",
+      "status": "experimental_inactive_held",
+      "production_enabled": false,
+      "default_route": false,
+      "base_prompt_versions": [
+        "NATURAL_CHINESE_PHOTO_DESCRIPTION_V1_CANDIDATE",
+        "NATURAL_CHINESE_TEXT_RICH_DESCRIPTION_V1_CANDIDATE",
+        "NATURAL_CHINESE_MEME_SCREENSHOT_DESCRIPTION_V1_CANDIDATE"
+      ],
+      "logical_sha256": "056f49d51bcec3a8def38df6b37305c3d5b06256c2b1a48c5340579f582560a5",
+      "serializer": "phase4d_i_must_include_serializer_v1",
+      "serializer_file": "../../scripts/phase4d_i_must_include_serializer_v1.py",
+      "serializer_definition_sha256": "d5db010c62f4e1d5cc1bb3be993f5bf998d7175614cea10a3831c88992561003",
+      "must_include_instruction_sha256": "b8df5c5b8e574e51f69d35383125ca84d939f4fe66f4b58c595ab3d174b92058",
+      "selection_experiment": "EXP-20260727-PHASE4D-I-FRESH16-MUST-INCLUDE",
+      "review_label": "machine_provisional",
+      "decision": "B. HOLD MUST-INCLUDE + CANDIDATE SELECTOR"
+    }
+  }
+}

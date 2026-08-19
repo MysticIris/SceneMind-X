@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1624.jpg",
+    "relative_path": "train/1624.jpg",
+    "sha256": "39709388c1536ae4c64d9961f55d46df5707e7c612f562048fd408c68800aac6",
+    "split": "train"
+  },
+  "canonical_sha256": "b225370c9597362c7b1cb128329a57911bd3030896b9a734fb7d215a08a87526",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石雕",
+      "香炉",
+      "庭院",
+      "古建筑构件"
+    ],
+    "short_description": "一座大型石雕香炉，顶部呈球形，饰有波浪纹，底部有三足支撑，置于石质基座上，周围环境为户外庭院。",
+    "theme": "石雕香炉"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "主体为灰色石材雕刻而成。",
+      "香炉顶部呈球形，表面有波浪状浮雕图案。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "石质",
+      "雕刻纹饰",
+      "三足",
+      "球形顶盖",
+      "多层基座"
+    ],
+    "relations": [
+      "香炉放置于基座之上。"
+    ],
+    "scene": "户外庭院",
+    "subjects": [
+      "石雕香炉"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "主体为灰色石材雕刻而成；香炉顶部呈球形，表面有波浪状浮雕图案。",
+    "safe_facts": [
+      "主体为灰色石材雕刻而成。",
+      "香炉顶部呈球形，表面有波浪状浮雕图案。"
+    ]
+  },
+  "label_id": "cpl_cffc42c74382f0854755ec6e",
+  "provenance": {
+    "generated_at": "2026-08-03T14:46:29.720316+00:00",
+    "migrated_at": "2026-08-03T14:46:29.725379+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "199a24f055636fcf8e23cfcbcde1e0719b27425c2a64075715eaea68345d820c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_289ccadd462b473d19fa8186",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:46:29.725722+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_289ccadd462b473d19fa8186"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:517.jpg",
+    "relative_path": "train/517.jpg",
+    "sha256": "38912295836303da9ab7b496c4db307b7df94683ce6421a42649242aed270924",
+    "split": "train"
+  },
+  "canonical_sha256": "3f9b0601205895c1b8390142f26fcf68ebfb2131feafc37399e9f356e0b1c354",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "学院简介",
+      "数据统计",
+      "教育信息"
+    ],
+    "short_description": "图像呈现的是一个用于展示数据的屏幕；屏幕上方有天花板吊扇和照明设备。",
+    "theme": "学院数据展示"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现的是一个用于展示数据的屏幕。",
+      "屏幕上方有天花板吊扇和照明设备。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色背景",
+      "彩色数字和百分比"
+    ],
+    "relations": [
+      "吊扇悬挂在天花板上。",
+      "灯具安装在天花板下。"
+    ],
+    "scene": "室内投影屏幕展示学术数据",
+    "subjects": [
+      "投影屏幕",
+      "天花板吊扇",
+      "照明灯具"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现的是一个用于展示数据的屏幕；屏幕上方有天花板吊扇和照明设备。",
+    "safe_facts": [
+      "图像呈现的是一个用于展示数据的屏幕。",
+      "屏幕上方有天花板吊扇和照明设备。"
+    ]
+  },
+  "label_id": "cpl_97d0e26ba278e048d9072c47",
+  "provenance": {
+    "generated_at": "2026-08-03T11:20:08.487948+00:00",
+    "migrated_at": "2026-08-03T11:20:08.490371+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "24d7c0afbb12679f2df3192a36208024f96a674488697194227638f23c016ab4",
+    "recovered_at_tokens": 768,
+    "source_label_id": "cpl_07a5498d68c93af2edc3861c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:20:08.490941+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_768_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_07a5498d68c93af2edc3861c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "人工智能与自动化学院学院情况简介",
+      "2605",
+      "18804",
+      "56%",
+      "73%",
+      "6个认证平台"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "人工智能与自动化学院学院情况简介",
+      "2605",
+      "18804",
+      "56%",
+      "73%",
+      "6个认证平台"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1225.jpg",
+    "relative_path": "train/1225.jpg",
+    "sha256": "2ea7d63373bdb2e2f445de1c45c52b7a07202682b8509ce5dc5464cb7278b8d0",
+    "split": "train"
+  },
+  "canonical_sha256": "55df9b208d4539bd0309e9abee50be5e7ed7c9fbdd83d886fa16d7958e411d71",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "青椒炒肉丝",
+      "手拿勺子",
+      "餐盘组合"
+    ],
+    "short_description": "一只手正用勺子舀起一盘青椒炒肉丝，旁边配有米饭、丸子和炒菜。",
+    "theme": "餐盘中的炒菜"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一只手正用透明塑料勺从浅黄色盘子中舀取食物。",
+      "盘中盛有绿色青椒片和碎肉丝混合物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "舀取食物"
+    ],
+    "attributes": [
+      "绿色青椒",
+      "碎肉丝",
+      "白色米饭",
+      "棕色丸子",
+      "浅黄色盘子"
+    ],
+    "relations": [
+      "手握着勺子。",
+      "勺子在青椒炒肉丝上方。",
+      "青椒炒肉丝在盘子中央。"
+    ],
+    "scene": "餐桌上的多盘菜肴",
+    "subjects": [
+      "手",
+      "勺子",
+      "青椒炒肉丝",
+      "米饭",
+      "丸子",
+      "炒菜"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只手正用透明塑料勺从浅黄色盘子中舀取食物；盘中盛有绿色青椒片和碎肉丝混合物。",
+    "safe_facts": [
+      "一只手正用透明塑料勺从浅黄色盘子中舀取食物。",
+      "盘中盛有绿色青椒片和碎肉丝混合物。"
+    ]
+  },
+  "label_id": "cpl_714b52b424717a48c3857395",
+  "provenance": {
+    "generated_at": "2026-08-03T13:57:46.840209+00:00",
+    "migrated_at": "2026-08-03T13:57:46.843497+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cd9af1383452289adda3aa687b3e153bd072f27d956fa5f4fd65fcacd99ff711",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d40363e03ecdd049711a8040",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:57:46.843859+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d40363e03ecdd049711a8040"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

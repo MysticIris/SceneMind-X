@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1396.jpg",
+    "relative_path": "train/1396.jpg",
+    "sha256": "8156709e838ac9b27a06f9ba169141fcf4da820b96b45aff5bcce5c497b91215",
+    "split": "train"
+  },
+  "canonical_sha256": "f0b52af66d450dcf75629627d4faed5cb8495a16bcd31e93d9c42b7b33832149",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "湿巾",
+      "办公桌面"
+    ],
+    "short_description": "一包清风牌湿巾放置在木质桌面上，背景是带红色背光的黑色键盘。",
+    "theme": "湿巾包装特写"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像中有一个湿巾包装盒。",
+      "包装盒后方可见键盘。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色包装",
+      "白色封口",
+      "红色背光按键",
+      "木质桌面"
+    ],
+    "relations": [
+      "湿巾包装位于键盘前方。"
+    ],
+    "scene": "办公桌面",
+    "subjects": [
+      "湿巾包装",
+      "键盘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像中有一个湿巾包装盒；包装盒后方可见键盘。",
+    "safe_facts": [
+      "图像中有一个湿巾包装盒。",
+      "包装盒后方可见键盘。"
+    ]
+  },
+  "label_id": "cpl_a2953f88fe7e9fe70c334d70",
+  "provenance": {
+    "generated_at": "2026-08-03T14:17:32.593072+00:00",
+    "migrated_at": "2026-08-03T14:17:32.600085+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "48da23b774788b158e7c6e65271657e19870f1fe3c4e8df3921d22bfbf2f5fbc",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b3b53d6bb798579b4a54cbba",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:17:32.601648+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b3b53d6bb798579b4a54cbba"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "清风 Breeze",
+      "EDI纯水",
+      "WET WIPES",
+      "新升级",
+      "40片装",
+      "弱酸性, 配方液pH4.5~6"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "清风 Breeze",
+      "EDI纯水",
+      "WET WIPES",
+      "新升级",
+      "40片装",
+      "弱酸性, 配方液pH4.5~6"
+    ]
+  }
+}

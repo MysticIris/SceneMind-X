@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:991.jpg",
+    "relative_path": "train/991.jpg",
+    "sha256": "8f4b1a8d35ea03434db737caad6bd4c266e7841c21e23267c8b7fbea9082199d",
+    "split": "train"
+  },
+  "canonical_sha256": "b9311f80070b9f53e91a25a1283248c471d883918bfc0694a6e6556afb269aa2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "湖水倒影",
+      "山间村落",
+      "绿树环绕"
+    ],
+    "short_description": "湖水倒映着依山而建的彩色房屋，背景是茂密的绿色山林，宁静优美。",
+    "theme": "湖畔山居"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "房屋可能为多层建筑，部分带阳台或露台。"
+    ],
+    "direct_observations": [
+      "画面中有数栋房屋沿湖岸分布，屋顶呈橙红色。",
+      "湖面平静，清晰反射出房屋和山林的影像。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "彩色屋顶",
+      "茂密植被",
+      "平静水面"
+    ],
+    "relations": [
+      "房屋位于山坡上。",
+      "湖水倒映房屋与山林。"
+    ],
+    "scene": "湖边山坡上的村庄",
+    "subjects": [
+      "房屋",
+      "山林",
+      "湖水"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "房屋可能为多层建筑，部分带阳台或露台。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有数栋房屋沿湖岸分布，屋顶呈橙红色；湖面平静，清晰反射出房屋和山林的影像。",
+    "safe_facts": [
+      "画面中有数栋房屋沿湖岸分布，屋顶呈橙红色。",
+      "湖面平静，清晰反射出房屋和山林的影像。"
+    ]
+  },
+  "label_id": "cpl_b44b62c17440120187d35acc",
+  "provenance": {
+    "generated_at": "2026-08-03T13:12:07.629967+00:00",
+    "migrated_at": "2026-08-03T13:12:07.633154+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9d20b805cfeb2336602bd7cf514096892b5f83ecbed6011dc4ede2c9a855eecb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b44b62c17440120187d35acc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:21:21.687796+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8d31be813cd267d72e816822"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

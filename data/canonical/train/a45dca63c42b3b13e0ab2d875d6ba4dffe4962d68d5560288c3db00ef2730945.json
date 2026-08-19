@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:242.jpg",
+    "relative_path": "train/242.jpg",
+    "sha256": "a45dca63c42b3b13e0ab2d875d6ba4dffe4962d68d5560288c3db00ef2730945",
+    "split": "train"
+  },
+  "canonical_sha256": "dddf153437b1781a64af964cb627536f45e658bbb8bc78493d96de346497fc51",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雾天",
+      "湖泊",
+      "静谧",
+      "远山"
+    ],
+    "short_description": "薄雾笼罩湖面，远山轮廓模糊，水面平静如镜，左下角有枯枝伸入水中。",
+    "theme": "雾中湖景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能为清晨或傍晚时分拍摄。"
+    ],
+    "direct_observations": [
+      "画面整体被雾气覆盖，远处山体轮廓模糊。",
+      "湖面平静，无明显波纹，呈现镜面反射效果。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "雾气弥漫",
+      "水面平静",
+      "颜色灰白"
+    ],
+    "relations": [
+      "枯枝位于湖面前景。",
+      "远山倒映于湖面。"
+    ],
+    "scene": "湖面及远岸",
+    "subjects": [
+      "湖水",
+      "远山",
+      "枯枝"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能为清晨或傍晚时分拍摄。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面整体被雾气覆盖，远处山体轮廓模糊；湖面平静，无明显波纹，呈现镜面反射效果。",
+    "safe_facts": [
+      "画面整体被雾气覆盖，远处山体轮廓模糊。",
+      "湖面平静，无明显波纹，呈现镜面反射效果。"
+    ]
+  },
+  "label_id": "cpl_e094a6715fc725a4ab595bf5",
+  "provenance": {
+    "generated_at": "2026-08-03T10:23:27.625294+00:00",
+    "migrated_at": "2026-08-03T10:23:27.627803+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d597bd28f0562c6b4b9e8fada9186135ac04a90ba3cd875f816bc78d5e4db350",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d627e4c4581740c5538937e1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:23:27.628019+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d627e4c4581740c5538937e1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

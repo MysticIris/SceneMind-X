@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1565.jpg",
+    "relative_path": "train/1565.jpg",
+    "sha256": "1d0a1b8261c9dc99d28f14cf183e80c8d146f22041b542bf4301dc229b484f0b",
+    "split": "train"
+  },
+  "canonical_sha256": "a4aaf6fe43100b477fe769886356db4934132be3996981405e00d5501c1139c1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "通风柜",
+      "实验室",
+      "试剂瓶",
+      "实验台"
+    ],
+    "short_description": "实验室通风柜内摆放着多个试剂瓶和实验器材，台面整洁，旁边有蓝色凳子和电源插座。",
+    "theme": "实验室通风柜"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "通风柜内有多个透明塑料瓶和玻璃容器。",
+      "台面为黑色，柜体为白色，配有金属把手和电源插座。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色台面",
+      "白色柜体",
+      "灰色边框",
+      "带玻璃挡板"
+    ],
+    "relations": [
+      "试剂瓶放置于通风柜台面上。",
+      "蓝色凳子位于通风柜右侧。"
+    ],
+    "scene": "实验室工作区",
+    "subjects": [
+      "通风柜",
+      "试剂瓶",
+      "实验器材",
+      "蓝色凳子",
+      "电源插座"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "通风柜内有多个透明塑料瓶和玻璃容器；台面为黑色，柜体为白色，配有金属把手和电源插座。",
+    "safe_facts": [
+      "通风柜内有多个透明塑料瓶和玻璃容器。",
+      "台面为黑色，柜体为白色，配有金属把手和电源插座。"
+    ]
+  },
+  "label_id": "cpl_fa028053d48512be95907ff2",
+  "provenance": {
+    "generated_at": "2026-08-03T14:39:06.772850+00:00",
+    "migrated_at": "2026-08-03T14:39:06.775298+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "119f17284515fa3b82fb12432f614db07b7298ca026b8c1bcfc36e78c8a333e4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_06da3dcff7512b4d99ece081",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:39:06.777646+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_06da3dcff7512b4d99ece081"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

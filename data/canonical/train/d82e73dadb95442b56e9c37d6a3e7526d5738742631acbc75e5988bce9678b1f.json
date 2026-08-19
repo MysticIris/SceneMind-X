@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:788.jpg",
+    "relative_path": "train/788.jpg",
+    "sha256": "d82e73dadb95442b56e9c37d6a3e7526d5738742631acbc75e5988bce9678b1f",
+    "split": "train"
+  },
+  "canonical_sha256": "1d94987a696436c49b1619dc3d404490a069b1054968b1762d3fb388cf65ef93",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪景",
+      "倒木",
+      "冬季",
+      "树林"
+    ],
+    "short_description": "雪夜中一棵大树倒伏于地面，树干覆雪，周围树木枝叶积雪，地面有积雪与裸露泥土。",
+    "theme": "雪后倒木"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能因暴风雪或强风导致树木倒伏。"
+    ],
+    "direct_observations": [
+      "背景中的多棵树木枝叶上也覆盖着白色物质，地面部分区域有积雪。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "覆雪",
+      "倒伏",
+      "枯枝",
+      "裸露泥土"
+    ],
+    "relations": [
+      "倒伏的大树位于地面。",
+      "树木枝叶覆盖积雪。"
+    ],
+    "scene": "户外雪地",
+    "subjects": [
+      "倒伏的大树",
+      "积雪覆盖的树木",
+      "地面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能因暴风雪或强风导致树木倒伏。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "背景中的多棵树木枝叶上也覆盖着白色物质，地面部分区域有积雪。",
+    "safe_facts": [
+      "背景中的多棵树木枝叶上也覆盖着白色物质，地面部分区域有积雪。"
+    ]
+  },
+  "label_id": "cpl_70ac86e4d4422a713436c5c8",
+  "provenance": {
+    "generated_at": "2026-08-03T12:23:35.429650+00:00",
+    "migrated_at": "2026-08-03T12:23:35.433772+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1b143818f60fa933257287202568b8e650ccf86a8f9d0b17fb3f6ffdc88b7a39",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fb924bc8127f5fede480da53",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:23:35.434145+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fb924bc8127f5fede480da53"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

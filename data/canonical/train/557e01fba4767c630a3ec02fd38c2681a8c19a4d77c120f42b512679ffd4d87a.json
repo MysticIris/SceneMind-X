@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:464.jpg",
+    "relative_path": "train/464.jpg",
+    "sha256": "557e01fba4767c630a3ec02fd38c2681a8c19a4d77c120f42b512679ffd4d87a",
+    "split": "train"
+  },
+  "canonical_sha256": "4bc474f75fde187fb8078916418c584e2af2eca7b9633168d731c2bc83530408",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蓝天",
+      "绿树",
+      "晴天",
+      "自然风光"
+    ],
+    "short_description": "晴朗天空下，茂密树林枝叶繁盛，蓝天湛蓝，云朵稀疏，右上角可见一弯新月。",
+    "theme": "蓝天绿树"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "树木种类可能包括竹子和阔叶树。"
+    ],
+    "direct_observations": [
+      "画面主体为绿色树木与蓝色天空。",
+      "天空中有少量白色云朵，右上角有一弯新月。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晴朗",
+      "湛蓝",
+      "茂密",
+      "稀疏云朵",
+      "新月"
+    ],
+    "relations": [
+      "树木位于天空下方。",
+      "云朵漂浮于天空中。",
+      "月亮悬挂在天空右上方。"
+    ],
+    "scene": "户外自然景观",
+    "subjects": [
+      "树木",
+      "天空",
+      "云朵",
+      "月亮"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "树木种类可能包括竹子和阔叶树。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面主体为绿色树木与蓝色天空；天空中有少量白色云朵，右上角有一弯新月。",
+    "safe_facts": [
+      "画面主体为绿色树木与蓝色天空。",
+      "天空中有少量白色云朵，右上角有一弯新月。"
+    ]
+  },
+  "label_id": "cpl_754f527340491ff809d31778",
+  "provenance": {
+    "generated_at": "2026-08-03T11:08:44.605363+00:00",
+    "migrated_at": "2026-08-03T11:08:44.607445+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "58c9b5fab365f0da25d05c0bcfa9b63d89f48f12b8e324f0189242b29f4ae39e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fe236e219e7b13b1a128af8a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:08:44.607651+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fe236e219e7b13b1a128af8a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

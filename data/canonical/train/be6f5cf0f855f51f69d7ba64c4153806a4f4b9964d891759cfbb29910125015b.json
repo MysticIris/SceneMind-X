@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:986.jpg",
+    "relative_path": "train/986.jpg",
+    "sha256": "be6f5cf0f855f51f69d7ba64c4153806a4f4b9964d891759cfbb29910125015b",
+    "split": "train"
+  },
+  "canonical_sha256": "7aa2cd660418be52d228efcfd1deb25d3f7ab52c83cb0d2b5e025026761501a7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑白照片",
+      "教堂",
+      "广场",
+      "摊贩"
+    ],
+    "short_description": "黑白照片中，一座宏伟的哥特式教堂矗立在广场中央，前景有摊贩摆设画框，背景人群聚集。",
+    "theme": "黑白建筑广场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面整体为黑白影像。",
+      "教堂正面有大型圆形窗户和尖塔结构。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "摆设",
+      "站立",
+      "聚集"
+    ],
+    "attributes": [
+      "黑白",
+      "石砌建筑",
+      "拱形门窗",
+      "圆形窗户"
+    ],
+    "relations": [
+      "教堂位于广场中心。",
+      "摊贩在教堂前方摆设画框。",
+      "人群在广场上聚集。"
+    ],
+    "scene": "城市广场",
+    "subjects": [
+      "教堂",
+      "摊贩",
+      "画框",
+      "人群"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面整体为黑白影像；教堂正面有大型圆形窗户和尖塔结构。",
+    "safe_facts": [
+      "画面整体为黑白影像。",
+      "教堂正面有大型圆形窗户和尖塔结构。"
+    ]
+  },
+  "label_id": "cpl_74f8baa0a3987801723ed192",
+  "provenance": {
+    "generated_at": "2026-08-03T13:10:57.740013+00:00",
+    "migrated_at": "2026-08-03T13:10:57.743119+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ab1137125acb2d6b3d3a39d0cfef2d2482008a25a3309e2d81597350fb44a770",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_74f8baa0a3987801723ed192",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:17.712952+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b6305b419fd767b00f0495e3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

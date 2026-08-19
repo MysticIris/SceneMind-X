@@ -1,0 +1,143 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_e4f2fdcb18fa0016a1a45525",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_2166a1a15cd2cf763eacdf1d"
+  ],
+  "asset": {
+    "asset_id": "352589fc29973cb5",
+    "sha256": "352589fc29973cb576cfd7b10c94a7d5c0c96b6ef2073ce47208a7acd4999843",
+    "split": "user_custom",
+    "relative_path": "user_assets/35/352589fc29973cb576cfd7b10c94a7d5c0c96b6ef2073ce47208a7acd4999843/352589fc29973cb576cfd7b10c94a7d5c0c96b6ef2073ce47208a7acd4999843.png"
+  },
+  "display": {
+    "theme": "社交软件聊天界面截图",
+    "short_description": "一张手机社交应用Soul的聊天界面截图。",
+    "micro_tags": [
+      "Soul",
+      "聊天记录",
+      "即时通讯",
+      "UI界面",
+      "社交APP",
+      "手机截图"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "移动端应用程序聊天窗口",
+    "subjects": [
+      "聊天气泡",
+      "用户头像",
+      "顶部导航栏",
+      "底部输入区"
+    ],
+    "actions": [],
+    "attributes": [
+      "白色背景",
+      "青色发送方气泡",
+      "白色接收方气泡",
+      "圆形卡通头像",
+      "顶部状态栏显示时间11：17"
+    ],
+    "relations": [
+      "消息气泡按时间顺序垂直排列。",
+      "右侧气泡对应发送方，左侧气泡对应接收方。",
+      "头像位于对应消息气泡的外侧。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "屏幕顶部中央显示应用名称'Soul'，左上角时间为'11：17'，右上角有5G信号和90%电量图标。",
+      "界面右侧为青色圆角矩形消息气泡，左侧为白色圆角矩形消息气泡，分别配有不同的二次元风格圆形头像。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法确定截图者的真实身份及具体地理位置。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "Soul",
+      "11:17",
+      "我还以为你们高中生",
+      "都在晚上活动",
+      "400"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "Soul",
+      "11:17",
+      "我还以为你们高中生",
+      "都在晚上活动",
+      "400"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "屏幕顶部中央显示应用名称'Soul'，左上角时间为'11：17'，右上角有5G信号和90%电量图标；界面右侧为青色圆角矩形消息气泡，左侧为白色圆角矩形消息气泡，分别配有不同的二次元风格圆形头像。",
+    "safe_facts": [
+      "屏幕顶部中央显示应用名称'Soul'，左上角时间为'11：17'，右上角有5G信号和90%电量图标。",
+      "界面右侧为青色圆角矩形消息气泡，左侧为白色圆角矩形消息气泡，分别配有不同的二次元风格圆形头像。"
+    ],
+    "do_not_assert": [
+      "无法确定截图者的真实身份及具体地理位置。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_ffbc0f0b-7d51-457c-84ae-1f2c2609495a",
+    "generated_at": "2026-08-12T03:02:13.422717+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "51490996af2dcc437f53e09b20dc4505adfc263796b9c9721ae1ffe287715e8b",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:02:13.423565+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_2166a1a15cd2cf763eacdf1d",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:02:13.424187+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "97a383e14e83b4e263a4160e7afb90fc7624be3bc3203f67cdb772968702aa4c"
+}

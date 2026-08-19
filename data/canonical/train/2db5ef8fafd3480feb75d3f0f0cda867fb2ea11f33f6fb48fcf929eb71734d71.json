@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:461.jpg",
+    "relative_path": "train/461.jpg",
+    "sha256": "2db5ef8fafd3480feb75d3f0f0cda867fb2ea11f33f6fb48fcf929eb71734d71",
+    "split": "train"
+  },
+  "canonical_sha256": "dcf04a801c0080c48ba71514b0d3fbec1a78e8661ea26746fe47e576b1223f4b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雾天",
+      "湖泊",
+      "静谧",
+      "水面上漂浮物"
+    ],
+    "short_description": "薄雾笼罩平静水面，远处山影朦胧，水面上漂浮着一根黑色长条状物体。",
+    "theme": "雾中静湖"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "漂浮物可能是人工放置的浮标或网具。"
+    ],
+    "direct_observations": [
+      "画面整体被雾气覆盖，远景模糊不清。",
+      "水面平静无波纹，倒映天空与远山轮廓。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "雾气弥漫",
+      "水面平静",
+      "漂浮物呈黑色"
+    ],
+    "relations": [
+      "漂浮物位于水面上。",
+      "远山在雾中若隐若现。"
+    ],
+    "scene": "雾天湖泊",
+    "subjects": [
+      "水面",
+      "远山",
+      "漂浮物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "漂浮物可能是人工放置的浮标或网具。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面整体被雾气覆盖，远景模糊不清；水面平静无波纹，倒映天空与远山轮廓。",
+    "safe_facts": [
+      "画面整体被雾气覆盖，远景模糊不清。",
+      "水面平静无波纹，倒映天空与远山轮廓。"
+    ]
+  },
+  "label_id": "cpl_678336ca3c766ba17a8b27f3",
+  "provenance": {
+    "generated_at": "2026-08-03T11:08:07.767641+00:00",
+    "migrated_at": "2026-08-03T11:08:07.769040+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "29affdb1d4a46526553876c50d5bef310fcbf43128c4a157abf0c4c38f9118ee",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a47828518562e4b906111756",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:08:07.769241+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a47828518562e4b906111756"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

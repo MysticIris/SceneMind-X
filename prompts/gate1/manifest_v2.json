@@ -1,0 +1,25 @@
+{
+  "manifest_version": "gate1_prompts_v2",
+  "prompts": {
+    "P0": {
+      "version": "P0.1",
+      "file": "p0_v1.txt",
+      "sha256": "557A0765AE0E76FB01BEA223DE3961634A7ED4B2C412CF498F38D0C41FFAD44C"
+    },
+    "P1": {
+      "version": "P1.2",
+      "file": "p1_v2.txt",
+      "sha256": "AC2E66BF1E897DECF9412441A65E5853A9E8008E756D6D1F499BF179F1D5E14C"
+    },
+    "P2": {
+      "version": "P2.2",
+      "file": "p2_v2.txt",
+      "sha256": "DE8C31A032FDEB95CC643768ABA23615A8C1F201311B49BC666E8A2817FFD4E3"
+    },
+    "P3": {
+      "version": "P3.2",
+      "file": "p3_v2.txt",
+      "sha256": "0801BC3CB98B5F69624C0DF4D70C86BB04730B2AD131968F6F59C7789CE94A3B"
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1697.jpg",
+    "relative_path": "train/1697.jpg",
+    "sha256": "128d0c9417813ad54f9c539d55e91ccc194aea3265fa098f0fc4efc2ee19aa4e",
+    "split": "train"
+  },
+  "canonical_sha256": "43c4bde89e6552e6cc2bf6ce6c4cdf419f9bcbcebd06991ea77a87e65db7c089",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "木牌",
+      "流苏",
+      "祈愿",
+      "悬挂"
+    ],
+    "short_description": "密集悬挂的木牌墙，每片木牌上都系着彩色流苏，呈现传统祈愿仪式的场景。",
+    "theme": "祈愿木牌墙"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "大量木牌垂直悬挂成墙状。",
+      "每片木牌末端系有彩色流苏。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "多片木牌",
+      "彩色流苏"
+    ],
+    "relations": [
+      "木牌悬挂于竹竿上。",
+      "流苏系于木牌末端。"
+    ],
+    "scene": "室内悬挂木牌墙",
+    "subjects": [
+      "木牌",
+      "流苏"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大量木牌垂直悬挂成墙状；每片木牌末端系有彩色流苏。",
+    "safe_facts": [
+      "大量木牌垂直悬挂成墙状。",
+      "每片木牌末端系有彩色流苏。"
+    ]
+  },
+  "label_id": "cpl_26f157f4cb0ffbc3f1839b35",
+  "provenance": {
+    "generated_at": "2026-08-03T14:56:34.458281+00:00",
+    "migrated_at": "2026-08-03T14:56:34.459974+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b1359d7fc40c0f22973804405926baa4ecdd713e9de287ef8a8a3b940610db75",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9cf8eb35970d6fa44ba36fa3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:56:34.460170+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9cf8eb35970d6fa44ba36fa3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_unreadable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:834.jpg",
+    "relative_path": "train/834.jpg",
+    "sha256": "b642b4608b162409235caad871e5a8a08c1973d523e3b2c140d7e0e7b7327389",
+    "split": "train"
+  },
+  "canonical_sha256": "5360d2468f8a20e74e330d5909d3ee369a867b134dde597abbf0f1a65628d7ea",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "乡村道路",
+      "黄昏天空",
+      "绿树",
+      "垃圾桶",
+      "路灯"
+    ],
+    "short_description": "傍晚时分，乡村公路旁绿树成荫，天空呈现蓝紫渐变，路边有垃圾桶和路灯，远处山峦轮廓隐约可见。",
+    "theme": "黄昏乡村道路"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线表明时间接近黄昏。"
+    ],
+    "direct_observations": [
+      "天空呈现从蓝色到淡紫色的渐变色。",
+      "道路旁有绿色植被和树木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空呈蓝紫色渐变",
+      "树木茂密",
+      "垃圾桶盖打开",
+      "路灯装有太阳能板"
+    ],
+    "relations": [
+      "垃圾桶位于道路左侧。",
+      "路灯立于道路右侧。",
+      "树木分布在道路两侧及中间。"
+    ],
+    "scene": "乡村公路旁的自然景观",
+    "subjects": [
+      "树木",
+      "垃圾桶",
+      "路灯",
+      "电线杆",
+      "远山"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线表明时间接近黄昏。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现从蓝色到淡紫色的渐变色；道路旁有绿色植被和树木。",
+    "safe_facts": [
+      "天空呈现从蓝色到淡紫色的渐变色。",
+      "道路旁有绿色植被和树木。"
+    ]
+  },
+  "label_id": "cpl_29780412d546f92882ab08ee",
+  "provenance": {
+    "generated_at": "2026-08-03T12:32:57.641043+00:00",
+    "migrated_at": "2026-08-03T12:32:57.646390+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4ab59f9aed85ed344c314820f19749e347dd64412fe9fb6e2efacb9ef0634286",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f282125e5a4faeae6741538f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:32:57.646752+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f282125e5a4faeae6741538f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1077.jpg",
+    "relative_path": "train/1077.jpg",
+    "sha256": "34f6489be4d1a78d5a6128da6f3254549a61459eab51f50091d4f909d15d77b0",
+    "split": "train"
+  },
+  "canonical_sha256": "e42979fd85f3afd87e901219451ae1243a95f065f4c5a2e1859cc2028deea23d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "商场中庭",
+      "扶梯",
+      "玻璃穹顶",
+      "绿植装饰"
+    ],
+    "short_description": "现代商场中庭内，多层扶梯连接各楼层，顶部玻璃穹顶悬挂灯饰，绿植环绕中央结构，人群在扶梯和通道间穿行。",
+    "theme": "商场多层中庭"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "空间设计注重垂直交通与绿化结合。"
+    ],
+    "direct_observations": [
+      "可见多部自动扶梯连接不同楼层。",
+      "天花板为玻璃结构并悬挂串灯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "乘坐扶梯"
+    ],
+    "attributes": [
+      "多层结构",
+      "透明玻璃屋顶",
+      "悬挂灯饰",
+      "绿色植物装饰"
+    ],
+    "relations": [
+      "顾客在扶梯上移动。",
+      "绿植围绕中央结构。",
+      "扶梯连接不同楼层。"
+    ],
+    "scene": "室内多层购物中心中庭",
+    "subjects": [
+      "顾客",
+      "扶梯",
+      "绿植",
+      "玻璃穹顶结构"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "空间设计注重垂直交通与绿化结合。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "可见多部自动扶梯连接不同楼层；天花板为玻璃结构并悬挂串灯。",
+    "safe_facts": [
+      "可见多部自动扶梯连接不同楼层。",
+      "天花板为玻璃结构并悬挂串灯。"
+    ]
+  },
+  "label_id": "cpl_10e58bd5a6d2cc989074f840",
+  "provenance": {
+    "generated_at": "2026-08-03T13:33:58.519778+00:00",
+    "migrated_at": "2026-08-03T13:33:58.522330+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4bd167fb8ca8c532f32a586d9e2e6c504ba9fcd320b0c899fd5a676f4cb243b1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5266befc007fc397d8fed1be",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:33:58.522691+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5266befc007fc397d8fed1be"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

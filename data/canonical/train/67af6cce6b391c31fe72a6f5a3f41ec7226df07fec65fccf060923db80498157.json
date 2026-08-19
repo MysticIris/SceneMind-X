@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1177.jpg",
+    "relative_path": "train/1177.jpg",
+    "sha256": "67af6cce6b391c31fe72a6f5a3f41ec7226df07fec65fccf060923db80498157",
+    "split": "train"
+  },
+  "canonical_sha256": "ec3455f879a450a767a1248aec80bcdfbb6203cda53f4b2bb68d31ebb0ba1f4a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "青铜器",
+      "博物馆展品",
+      "绿锈"
+    ],
+    "short_description": "博物馆展柜内陈列着三件青铜器，包括带动物形钮的鼎和铜盒，表面覆盖绿锈。",
+    "theme": "青铜器陈列"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "三件青铜器被陈列在浅色展台上。",
+      "青铜器表面覆盖绿色锈迹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "表面有绿锈",
+      "带盖",
+      "三足",
+      "有动物形钮"
+    ],
+    "relations": [
+      "青铜鼎位于铜盒后方。",
+      "青铜器放置于展台上。"
+    ],
+    "scene": "博物馆展柜内",
+    "subjects": [
+      "青铜鼎",
+      "青铜铜盒"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三件青铜器被陈列在浅色展台上；青铜器表面覆盖绿色锈迹。",
+    "safe_facts": [
+      "三件青铜器被陈列在浅色展台上。",
+      "青铜器表面覆盖绿色锈迹。"
+    ]
+  },
+  "label_id": "cpl_d78cf7d3d98c6b86601b6cae",
+  "provenance": {
+    "generated_at": "2026-08-03T13:50:25.058023+00:00",
+    "migrated_at": "2026-08-03T13:50:25.063067+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3163923cb28e6ad3e499af92d626a181324014140c5cfe095528ec2b8e836fe0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c3c5dcba85b88bc04b335d73",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:50:25.063825+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c3c5dcba85b88bc04b335d73"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "兽形钮盖鼎、铜盒",
+      "Lidded bronze ding-tripod with animal-sh"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "兽形钮盖鼎、铜盒",
+      "Lidded bronze ding-tripod with animal-sh"
+    ]
+  }
+}

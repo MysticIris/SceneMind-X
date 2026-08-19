@@ -1,0 +1,137 @@
+{
+  "asset_id": "09376a9e0d373321",
+  "asset_sha256": "09376a9e0d3733219cf0685b0689a16f537607e73bfa15dbe96913ab8cc7f323",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"游戏荣耀称号结算界面\",\n    \"short_description\": \"这是一张手机游戏界面的截图，展示了“本周荣耀称号”的获取情况。画面中央横向排列着六张竖版卡片，包含多位动漫风格的游戏角色立绘（如粉发女性、白发男性等）以及一个抽象图标。每张卡片上方标有蓝色地域排名标签，下方有数字徽章。底部统计了高级、中级和初级荣耀的数量，并设有“确定”和“炫耀一下”两个交互按钮，背景为深蓝色科技风格。\",\n    \"micro_tags\": [\n      \"游戏截图\",\n      \"荣誉结算\",\n      \"角色立绘\",\n      \"排行榜\",\n      \"UI界面\",\n      \"王者荣耀\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"电子游戏内的结算或展示界面\",\n    \"subjects\": [\n      \"六张竖向排列的荣誉卡片\",\n      \"游戏角色立绘\",\n      \"抽象几何图标\",\n      \"底部功能按钮\",\n      \"统计数据文本\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"深蓝色背景\",\n      \"发光特效\",\n      \"金色与蓝色配色的UI元素\",\n      \"卡片式布局\"\n    ],\n    \"relations\": [\n      \"卡片水平并列排布\",\n      \"文字位于卡片上方或下方\",\n      \"按钮位于界面最底部\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"界面顶部显示大标题“恭喜您获得本周荣耀称号”及副标题。\",\n      \"中间区域有六张卡片，其中五张印有不同造型的二次元角色，最左侧一张为抽象图标。\",\n      \"每张卡片顶部都有蓝底白字的标签，底部有带数字的盾形徽章。\",\n      \"底部中央显示“高级荣耀 1个”、“中级荣耀 1个”、“初级荣耀 7个”的统计信息。\",\n      \"最下方有两个矩形按钮，左侧为蓝色“确定”，右侧为金色“炫耀一下”。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局和术语（如“巅峰”、“省/区百强”），推测这是《王者荣耀》等MOBA类手游的战区排名结算画面。\",\n      \"卡片上的角色可能是玩家擅长或本周表现突出的英雄。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"恭喜您获得本周荣耀称号\",\n      \"仅展示级别最高的6个荣耀称号\",\n      \"...珠区巅峰一百强\",\n      \"广东省五十强\",\n      \"海珠区五十强\",\n      \"海珠区一百强\",\n      \"巅峰中路\",\n      \"嫦娥\",\n      \"娜可露露\",\n      \"空空儿\",\n      \"海月\",\n      \"沈梦溪\",\n      \"高级荣耀 1个\",\n      \"中级荣耀 1个\",\n      \"初级荣耀 7个\",\n      \"确定\",\n      \"炫耀一下\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张深蓝色调的游戏界面截图，展示了六个并排的竖向卡片，包含人物插画和图标，底部有统计数据和操作按钮。\",\n    \"safe_facts\": [\n      \"图片为横向构图的数字界面截图\",\n      \"包含六个主要的垂直矩形展示区域\",\n      \"背景呈现深蓝渐变与光效\",\n      \"底部设有两个明显的交互按钮\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 837,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 837,
+        "total_tokens": 4064,
+        "estimated_cost_cny": 0.01315,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "游戏荣耀称号结算界面",
+          "short_description": "这是一张手机游戏界面的截图，展示了“本周荣耀称号”的获取情况。画面中央横向排列着六张竖版卡片，包含多位动漫风格的游戏角色立绘（如粉发女性、白发男性等）以及一个抽象图标。每张卡片上方标有蓝色地域排名标签，下方有数字徽章。底部统计了高级、中级和初级荣耀的数量，并设有“确定”和“炫耀一下”两个交互按钮，背景为深蓝色科技风格。",
+          "micro_tags": [
+            "游戏截图",
+            "荣誉结算",
+            "角色立绘",
+            "排行榜",
+            "UI界面",
+            "王者荣耀"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "电子游戏内的结算或展示界面",
+          "subjects": [
+            "六张竖向排列的荣誉卡片",
+            "游戏角色立绘",
+            "抽象几何图标",
+            "底部功能按钮",
+            "统计数据文本"
+          ],
+          "actions": [],
+          "attributes": [
+            "深蓝色背景",
+            "发光特效",
+            "金色与蓝色配色的UI元素",
+            "卡片式布局"
+          ],
+          "relations": [
+            "卡片水平并列排布",
+            "文字位于卡片上方或下方",
+            "按钮位于界面最底部"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "界面顶部显示大标题“恭喜您获得本周荣耀称号”及副标题。",
+            "中间区域有六张卡片，其中五张印有不同造型的二次元角色，最左侧一张为抽象图标。",
+            "每张卡片顶部都有蓝底白字的标签，底部有带数字的盾形徽章。",
+            "底部中央显示“高级荣耀 1个”、“中级荣耀 1个”、“初级荣耀 7个”的统计信息。",
+            "最下方有两个矩形按钮，左侧为蓝色“确定”，右侧为金色“炫耀一下”。"
+          ],
+          "cautious_inferences": [
+            "根据界面布局和术语（如“巅峰”、“省/区百强”），推测这是《王者荣耀》等MOBA类手游的战区排名结算画面。",
+            "卡片上的角色可能是玩家擅长或本周表现突出的英雄。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "恭喜您获得本周荣耀称号",
+            "仅展示级别最高的6个荣耀称号",
+            "...珠区巅峰一百强",
+            "广东省五十强",
+            "海珠区五十强",
+            "海珠区一百强",
+            "巅峰中路",
+            "嫦娥",
+            "娜可露露",
+            "空空儿",
+            "海月",
+            "沈梦溪",
+            "高级荣耀 1个",
+            "中级荣耀 1个",
+            "初级荣耀 7个",
+            "确定",
+            "炫耀一下"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张深蓝色调的游戏界面截图，展示了六个并排的竖向卡片，包含人物插画和图标，底部有统计数据和操作按钮。",
+          "safe_facts": [
+            "图片为横向构图的数字界面截图",
+            "包含六个主要的垂直矩形展示区域",
+            "背景呈现深蓝渐变与光效",
+            "底部设有两个明显的交互按钮"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 5805028,
+        "request_bytes": 4350697,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 16.200939800000924,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "477f1d6afa12c54187b840cfa4beb6334e2351802c09dcca6f6237145ae9ee6d"
+}

@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1116.jpg",
+    "relative_path": "train/1116.jpg",
+    "sha256": "7f2931f7cfab48265c6399e18fac55a567abf1f033ddfe08f2988632102ba4df",
+    "split": "train"
+  },
+  "canonical_sha256": "ab14612616ba08e2800433c00b57ea1cd5417847d1d97fe82e93734accb181e3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "商业建筑",
+      "霓虹灯饰"
+    ],
+    "short_description": "夜晚城市商业区入口，大型发光装饰结构醒目，地面铺砖，行人稀少，建筑灯光营造氛围。",
+    "theme": "现代商业建筑夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面铺设深色砖块，部分区域有照明。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "发光装饰",
+      "铺砖地面",
+      "现代风格"
+    ],
+    "relations": [],
+    "scene": "城市商业区入口",
+    "subjects": [
+      "建筑",
+      "灯光装置",
+      "地面",
+      "行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面铺设深色砖块，部分区域有照明。",
+    "safe_facts": [
+      "地面铺设深色砖块，部分区域有照明。"
+    ]
+  },
+  "label_id": "cpl_16162e24a0ac42cc3d12a9a0",
+  "provenance": {
+    "generated_at": "2026-08-03T13:38:54.356228+00:00",
+    "migrated_at": "2026-08-03T13:38:54.358890+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d7eedc2d9f5536c1efa45d350d39f1c8735444e6f6ed8db8e13fb6cbf62bbf97",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9153c23f40639f43ff7bd6ee",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:38:54.361511+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9153c23f40639f43ff7bd6ee"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "K11",
+      "EXIT"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "K11",
+      "EXIT"
+    ]
+  }
+}

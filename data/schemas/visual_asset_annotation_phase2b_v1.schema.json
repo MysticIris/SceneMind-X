@@ -1,0 +1,532 @@
+{
+  "$defs": {
+    "CanonicalActivity": {
+      "additionalProperties": false,
+      "properties": {
+        "activity_id": {
+          "pattern": "^act_[0-9]{3}$",
+          "title": "Activity Id",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 96,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "activity_id",
+        "text"
+      ],
+      "title": "CanonicalActivity",
+      "type": "object"
+    },
+    "CanonicalInferenceCandidate": {
+      "additionalProperties": false,
+      "properties": {
+        "inference_id": {
+          "pattern": "^inf_[0-9]{3}$",
+          "title": "Inference Id",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 256,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "verification_status": {
+          "const": "unverified",
+          "title": "Verification Status",
+          "type": "string"
+        },
+        "promoted_to_claim": {
+          "const": false,
+          "title": "Promoted To Claim",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "inference_id",
+        "text",
+        "verification_status",
+        "promoted_to_claim"
+      ],
+      "title": "CanonicalInferenceCandidate",
+      "type": "object"
+    },
+    "CanonicalRelationship": {
+      "additionalProperties": false,
+      "properties": {
+        "relationship_id": {
+          "pattern": "^rel_[0-9]{3}$",
+          "title": "Relationship Id",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 96,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "relationship_id",
+        "text"
+      ],
+      "title": "CanonicalRelationship",
+      "type": "object"
+    },
+    "CanonicalSubject": {
+      "additionalProperties": false,
+      "properties": {
+        "subject_id": {
+          "pattern": "^sub_[0-9]{3}$",
+          "title": "Subject Id",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 96,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "subject_id",
+        "text"
+      ],
+      "title": "CanonicalSubject",
+      "type": "object"
+    },
+    "DirectObservationClaim": {
+      "additionalProperties": false,
+      "properties": {
+        "claim_id": {
+          "pattern": "^cl_[0-9]{3}$",
+          "title": "Claim Id",
+          "type": "string"
+        },
+        "claim_type": {
+          "const": "direct_observation",
+          "title": "Claim Type",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 256,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "evidence_refs": {
+          "items": {
+            "pattern": "^ev_[0-9]{3}$",
+            "type": "string"
+          },
+          "maxItems": 1,
+          "minItems": 1,
+          "title": "Evidence Refs",
+          "type": "array"
+        },
+        "verification_status": {
+          "const": "vlm_unverified",
+          "title": "Verification Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "claim_id",
+        "claim_type",
+        "text",
+        "evidence_refs",
+        "verification_status"
+      ],
+      "title": "DirectObservationClaim",
+      "type": "object"
+    },
+    "EvidenceItem": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence_id": {
+          "pattern": "^ev_[0-9]{3}$",
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "source_type": {
+          "const": "visual_observation",
+          "title": "Source Type",
+          "type": "string"
+        },
+        "verification_status": {
+          "const": "vlm_unverified",
+          "title": "Verification Status",
+          "type": "string"
+        },
+        "content": {
+          "maxLength": 256,
+          "minLength": 1,
+          "title": "Content",
+          "type": "string"
+        }
+      },
+      "required": [
+        "evidence_id",
+        "source_type",
+        "verification_status",
+        "content"
+      ],
+      "title": "EvidenceItem",
+      "type": "object"
+    },
+    "MediaConfidence": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "title": "MediaConfidence",
+      "type": "string"
+    },
+    "Phase2bAnnotationMeta": {
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "visual_asset_annotation_phase2b_v1",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "pipeline_version": {
+          "const": "phase2b_v1",
+          "title": "Pipeline Version",
+          "type": "string"
+        },
+        "media_prompt_version": {
+          "const": "phase2b_media_router_v1",
+          "title": "Media Prompt Version",
+          "type": "string"
+        },
+        "semantic_prompt_version": {
+          "const": "phase2b_semantic_extractor_v1",
+          "title": "Semantic Prompt Version",
+          "type": "string"
+        },
+        "run_id": {
+          "pattern": "^phase2b_[A-Za-z0-9_\\-]+$",
+          "title": "Run Id",
+          "type": "string"
+        },
+        "image_id": {
+          "pattern": "^[^/\\\\]+\\.[A-Za-z0-9]+$",
+          "title": "Image Id",
+          "type": "string"
+        },
+        "source_split": {
+          "const": "train",
+          "title": "Source Split",
+          "type": "string"
+        },
+        "source_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Source Sha256",
+          "type": "string"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "title": "Generated At",
+          "type": "string"
+        },
+        "model_name": {
+          "maxLength": 128,
+          "minLength": 1,
+          "title": "Model Name",
+          "type": "string"
+        },
+        "model_revision": {
+          "pattern": "^[0-9a-f]{40}$",
+          "title": "Model Revision",
+          "type": "string"
+        },
+        "media_max_new_tokens": {
+          "maximum": 256,
+          "minimum": 1,
+          "title": "Media Max New Tokens",
+          "type": "integer"
+        },
+        "semantic_max_new_tokens": {
+          "maximum": 768,
+          "minimum": 1,
+          "title": "Semantic Max New Tokens",
+          "type": "integer"
+        },
+        "constrained_decoding": {
+          "enum": [
+            "none",
+            "outlines_canary_only",
+            "native"
+          ],
+          "title": "Constrained Decoding",
+          "type": "string"
+        }
+      },
+      "required": [
+        "schema_version",
+        "pipeline_version",
+        "media_prompt_version",
+        "semantic_prompt_version",
+        "run_id",
+        "image_id",
+        "source_split",
+        "source_sha256",
+        "generated_at",
+        "model_name",
+        "model_revision",
+        "media_max_new_tokens",
+        "semantic_max_new_tokens",
+        "constrained_decoding"
+      ],
+      "title": "Phase2bAnnotationMeta",
+      "type": "object"
+    },
+    "PolicyOverride": {
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "maxLength": 128,
+          "minLength": 1,
+          "title": "Path",
+          "type": "string"
+        },
+        "detected_claim": {
+          "maxLength": 256,
+          "minLength": 1,
+          "title": "Detected Claim",
+          "type": "string"
+        },
+        "action": {
+          "const": "ignored_verification_claim",
+          "title": "Action",
+          "type": "string"
+        }
+      },
+      "required": [
+        "path",
+        "detected_claim",
+        "action"
+      ],
+      "title": "PolicyOverride",
+      "type": "object"
+    },
+    "TextGovernance": {
+      "additionalProperties": false,
+      "properties": {
+        "verification_source": {
+          "const": "vlm_only",
+          "title": "Verification Source",
+          "type": "string"
+        },
+        "verification_status": {
+          "const": "unverified",
+          "title": "Verification Status",
+          "type": "string"
+        },
+        "selected_text": {
+          "title": "Selected Text",
+          "type": "null"
+        },
+        "unverified_text_candidates": {
+          "items": {
+            "$ref": "#/$defs/UnverifiedTextCandidate"
+          },
+          "maxItems": 8,
+          "title": "Unverified Text Candidates",
+          "type": "array"
+        },
+        "policy_overrides": {
+          "items": {
+            "$ref": "#/$defs/PolicyOverride"
+          },
+          "maxItems": 16,
+          "title": "Policy Overrides",
+          "type": "array"
+        }
+      },
+      "required": [
+        "verification_source",
+        "verification_status",
+        "selected_text",
+        "unverified_text_candidates",
+        "policy_overrides"
+      ],
+      "title": "TextGovernance",
+      "type": "object"
+    },
+    "UnverifiedTextCandidate": {
+      "additionalProperties": false,
+      "properties": {
+        "candidate_id": {
+          "pattern": "^txt_[0-9]{3}$",
+          "title": "Candidate Id",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 256,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "verification_source": {
+          "const": "vlm_only",
+          "title": "Verification Source",
+          "type": "string"
+        },
+        "verification_status": {
+          "const": "unverified",
+          "title": "Verification Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "candidate_id",
+        "text",
+        "verification_source",
+        "verification_status"
+      ],
+      "title": "UnverifiedTextCandidate",
+      "type": "object"
+    },
+    "VisualMedium": {
+      "enum": [
+        "real_world_photo",
+        "screenshot",
+        "presentation_slide",
+        "meme_or_reaction_image",
+        "poster_or_advertisement",
+        "document_or_paper",
+        "webpage_or_user_interface",
+        "chat_screenshot",
+        "chart_or_infographic",
+        "illustration_or_comic",
+        "packaging",
+        "photographed_screen_content",
+        "mixed",
+        "uncertain"
+      ],
+      "title": "VisualMedium",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "annotation_meta": {
+      "$ref": "#/$defs/Phase2bAnnotationMeta"
+    },
+    "visual_medium": {
+      "$ref": "#/$defs/VisualMedium"
+    },
+    "medium_confidence": {
+      "$ref": "#/$defs/MediaConfidence"
+    },
+    "depicted_content": {
+      "anyOf": [
+        {
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Depicted Content"
+    },
+    "scene_summary": {
+      "maxLength": 256,
+      "minLength": 1,
+      "title": "Scene Summary",
+      "type": "string"
+    },
+    "subjects": {
+      "items": {
+        "$ref": "#/$defs/CanonicalSubject"
+      },
+      "maxItems": 12,
+      "title": "Subjects",
+      "type": "array"
+    },
+    "activities": {
+      "items": {
+        "$ref": "#/$defs/CanonicalActivity"
+      },
+      "maxItems": 8,
+      "title": "Activities",
+      "type": "array"
+    },
+    "relationships": {
+      "items": {
+        "$ref": "#/$defs/CanonicalRelationship"
+      },
+      "maxItems": 12,
+      "title": "Relationships",
+      "type": "array"
+    },
+    "text_governance": {
+      "$ref": "#/$defs/TextGovernance"
+    },
+    "evidence_items": {
+      "items": {
+        "$ref": "#/$defs/EvidenceItem"
+      },
+      "maxItems": 12,
+      "minItems": 1,
+      "title": "Evidence Items",
+      "type": "array"
+    },
+    "claims": {
+      "items": {
+        "$ref": "#/$defs/DirectObservationClaim"
+      },
+      "maxItems": 12,
+      "minItems": 1,
+      "title": "Claims",
+      "type": "array"
+    },
+    "inference_candidates": {
+      "items": {
+        "$ref": "#/$defs/CanonicalInferenceCandidate"
+      },
+      "maxItems": 8,
+      "title": "Inference Candidates",
+      "type": "array"
+    },
+    "uncertainties": {
+      "items": {
+        "maxLength": 256,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 8,
+      "title": "Uncertainties",
+      "type": "array"
+    }
+  },
+  "required": [
+    "annotation_meta",
+    "visual_medium",
+    "medium_confidence",
+    "depicted_content",
+    "scene_summary",
+    "subjects",
+    "activities",
+    "relationships",
+    "text_governance",
+    "evidence_items",
+    "claims",
+    "inference_candidates",
+    "uncertainties"
+  ],
+  "title": "FinalCanonicalAnnotation",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "visual_asset_annotation_phase2b_v1"
+}

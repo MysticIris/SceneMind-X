@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:25.jpg",
+    "relative_path": "train/25.jpg",
+    "sha256": "983f452830e4ca8d1d6a32163d4ecf44ff6d9aefa03a11e39f32c1156856d36c",
+    "split": "train"
+  },
+  "canonical_sha256": "594ae648ac6b3439a9743a9786f3dc2da4a41a2646ff4196a2ae29a02e0f2811",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "跑步人群",
+      "秋季树木",
+      "城市街道"
+    ],
+    "short_description": "大量跑者在金黄色树叶掩映的街道上奔跑，道路两侧设有护栏，远处有车辆行驶。",
+    "theme": "秋日马拉松赛道"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "大量身穿运动服装的人群正在沿道路奔跑。",
+      "道路两旁种植着叶子呈金黄色的树木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "奔跑"
+    ],
+    "attributes": [
+      "穿着运动服",
+      "佩戴号码布"
+    ],
+    "relations": [
+      "跑者在道路上行进。",
+      "树木位于道路两侧。"
+    ],
+    "scene": "城市街道",
+    "subjects": [
+      "跑者"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大量身穿运动服装的人群正在沿道路奔跑；道路两旁种植着叶子呈金黄色的树木。",
+    "safe_facts": [
+      "大量身穿运动服装的人群正在沿道路奔跑。",
+      "道路两旁种植着叶子呈金黄色的树木。"
+    ]
+  },
+  "label_id": "cpl_6959d622726f341292139e42",
+  "provenance": {
+    "generated_at": "2026-08-03T09:09:05.421321+00:00",
+    "migrated_at": "2026-08-03T09:09:05.423904+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c4ba0867f853dc637ffc0f8e25be6743405b4165ba87870da7e75c175903755f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c561d1425c34df9c1eb33b4b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:26.093112+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c561d1425c34df9c1eb33b4b",
+    "cpl_63cd71fe14623f996113c2e9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1498.jpg",
+    "relative_path": "train/1498.jpg",
+    "sha256": "47d19be2c2fd32fd1715529a688f769f6e03030f4bf269a83dbcfe88aced91b5",
+    "split": "train"
+  },
+  "canonical_sha256": "9829c4660855517f12e014dc8bc9b61d802e50850d9aa00210410765dcc00fd4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "池塘",
+      "暖光灯",
+      "灌木丛",
+      "倒影"
+    ],
+    "short_description": "池塘边一盏暖光灯照亮灌木丛，倒影映在水面，周围有绿植和岩石，远处停着一辆粉色汽车。",
+    "theme": "水边夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "灯光可能用于夜间景观照明。"
+    ],
+    "direct_observations": [
+      "水面有植物倒影和灯光反射。",
+      "灌木丛被暖黄色灯光照亮。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "暖黄色灯光",
+      "绿色植物",
+      "水面倒影",
+      "粉色车身"
+    ],
+    "relations": [
+      "灯光照射灌木丛。",
+      "灌木丛位于池塘边缘。",
+      "水面反射灯光和植物。"
+    ],
+    "scene": "户外池塘边",
+    "subjects": [
+      "灯光",
+      "灌木丛",
+      "水面",
+      "岩石",
+      "汽车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "灯光可能用于夜间景观照明。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "水面有植物倒影和灯光反射；灌木丛被暖黄色灯光照亮。",
+    "safe_facts": [
+      "水面有植物倒影和灯光反射。",
+      "灌木丛被暖黄色灯光照亮。"
+    ]
+  },
+  "label_id": "cpl_9ab7ddca46d76ef3f3962da0",
+  "provenance": {
+    "generated_at": "2026-08-03T14:30:51.804694+00:00",
+    "migrated_at": "2026-08-03T14:30:51.809530+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "822320f05b81651e37114f8a3d57d24fb005486e7d308ccf697a912e12fe9597",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c63f5dd1c95e63394b27238c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:30:51.809888+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c63f5dd1c95e63394b27238c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

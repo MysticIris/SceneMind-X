@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1689.jpg",
+    "relative_path": "train/1689.jpg",
+    "sha256": "558a3867da1cbd0d95fe6178aca5593f7a5ea36a0ca95fa91d3785477a120503",
+    "split": "train"
+  },
+  "canonical_sha256": "34a8cb17aaa208f98237dad1481ad07de3b27c2c96a515f956a70416a9bc2916",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市公园",
+      "现代雕塑",
+      "冬季树木"
+    ],
+    "short_description": "灰蒙天空下，现代雕塑灯柱与光秃树木点缀草坪，远处可见大型建筑结构和城市天际线。",
+    "theme": "城市公园景观"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天气可能阴沉或寒冷，因树木无叶且地面颜色偏枯黄。"
+    ],
+    "direct_observations": [
+      "画面中有多个无叶树木，枝干裸露。",
+      "前景有草坪，部分区域呈枯黄色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灰蒙天空",
+      "光秃树枝",
+      "金属雕塑灯柱",
+      "枯黄草地"
+    ],
+    "relations": [
+      "树木位于草坪上。",
+      "雕塑灯柱立于草坪旁。",
+      "建筑位于背景远处。"
+    ],
+    "scene": "城市公园或公共广场",
+    "subjects": [
+      "路灯",
+      "树木",
+      "草坪",
+      "远处建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天气可能阴沉或寒冷，因树木无叶且地面颜色偏枯黄。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个无叶树木，枝干裸露；前景有草坪，部分区域呈枯黄色。",
+    "safe_facts": [
+      "画面中有多个无叶树木，枝干裸露。",
+      "前景有草坪，部分区域呈枯黄色。"
+    ]
+  },
+  "label_id": "cpl_82f3b365208b49a9ffaf9b29",
+  "provenance": {
+    "generated_at": "2026-08-03T14:54:50.300004+00:00",
+    "migrated_at": "2026-08-03T14:54:50.301773+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "39d0288b0c1ffdce22b78b95f562a27cca56a57cb561bfe3d541626598a27287",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2eade5345ff57e3e235b96e5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:54:50.301984+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2eade5345ff57e3e235b96e5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:799.jpg",
+    "relative_path": "train/799.jpg",
+    "sha256": "703edb600a15d021031ce9e209d186237cb2b173e4a79d38fff7b091abaabc06",
+    "split": "train"
+  },
+  "canonical_sha256": "a317d3099efea45fc16873aa95018b9f009fe290740fb719da6198ae4f6f5614",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "宝可梦",
+      "钥匙扣",
+      "塑料玩具"
+    ],
+    "short_description": "一个蓝绿色的宝可梦角色钥匙扣，带有红色眼睛和嘴巴，背部有绿色叶子，配有金属挂环。",
+    "theme": "宝可梦钥匙扣"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "物体为宝可梦角色造型，颜色以蓝绿为主。",
+      "物体顶部连接金属挂环，用于悬挂。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色身体",
+      "红色眼睛",
+      "绿色叶子",
+      "金属挂环",
+      "塑料材质"
+    ],
+    "relations": [],
+    "scene": "白色平面上的静物",
+    "subjects": [
+      "宝可梦角色钥匙扣"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "物体为宝可梦角色造型，颜色以蓝绿为主；物体顶部连接金属挂环，用于悬挂。",
+    "safe_facts": [
+      "物体为宝可梦角色造型，颜色以蓝绿为主。",
+      "物体顶部连接金属挂环，用于悬挂。"
+    ]
+  },
+  "label_id": "cpl_ec5ddbea74ec5371d0e229d0",
+  "provenance": {
+    "generated_at": "2026-08-03T12:25:43.292171+00:00",
+    "migrated_at": "2026-08-03T12:25:43.295271+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d404e0f1a79a4896c9167c3976ad00c548984eade94a75738d06c21ed355c656",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f0b94373dfb9411314a027cc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:25:43.295937+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f0b94373dfb9411314a027cc"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

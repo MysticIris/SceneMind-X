@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1399.jpg",
+    "relative_path": "train/1399.jpg",
+    "sha256": "94898bc2f53a4b1ce0776e80ede416ac0cd96b73dd70af0f55c79895c313ab72",
+    "split": "train"
+  },
+  "canonical_sha256": "77b975e5ff8baf7c2b8cbf92022141c90d1264b9823c098b170f311560cc3f37",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "建筑外墙",
+      "夜间",
+      "窗户",
+      "排水管"
+    ],
+    "short_description": "夜间拍摄的建筑外墙，有窗户和排水管，旁边有茂密树木。",
+    "theme": "夜间建筑外墙"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "窗户内透出灯光，表明有人居住或办公。"
+    ],
+    "direct_observations": [
+      "建筑外墙呈灰白色，有多个带白色窗框的窗户。",
+      "一根白色管道从上至下垂直固定在墙体上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灰色墙体",
+      "白色窗框",
+      "垂直排水管",
+      "深色树叶"
+    ],
+    "relations": [
+      "排水管沿墙体垂直安装。",
+      "树木位于建筑旁。"
+    ],
+    "scene": "建筑物外立面夜间景象",
+    "subjects": [
+      "建筑墙体",
+      "窗户",
+      "排水管",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "窗户内透出灯光，表明有人居住或办公。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑外墙呈灰白色，有多个带白色窗框的窗户；一根白色管道从上至下垂直固定在墙体上。",
+    "safe_facts": [
+      "建筑外墙呈灰白色，有多个带白色窗框的窗户。",
+      "一根白色管道从上至下垂直固定在墙体上。"
+    ]
+  },
+  "label_id": "cpl_861c64e90c7d6ec907efd2ef",
+  "provenance": {
+    "generated_at": "2026-08-03T14:19:43.279222+00:00",
+    "migrated_at": "2026-08-03T14:19:43.284525+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "480dd9bbfcf1e4a4d776546024f21bbb35d3752f0330cebab7159dad2e940256",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_db4e9f8b67a27d16440042f1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:19:43.284895+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_db4e9f8b67a27d16440042f1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:69.jpg",
+    "relative_path": "train/69.jpg",
+    "sha256": "0d316d8be8fcf9e0634cfa5d704a777fc5ef49e2e73ee4e7bb66e15c4db4ec98",
+    "split": "train"
+  },
+  "canonical_sha256": "59817a550aa725a3160623f931c950bb5025437e5242a265f908f0f5279ba1ff",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "老人",
+      "公交车",
+      "拐杖",
+      "窗帘"
+    ],
+    "short_description": "一位老年男性坐在公交车上，手扶窗帘，身旁放着拐杖和橙色包，阳光透过车窗洒入。",
+    "theme": "公交车内老人"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "老人坐在橙色塑料座椅上。",
+      "老人右手伸向蓝色窗帘。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "坐着",
+      "伸手触碰窗帘"
+    ],
+    "attributes": [
+      "穿着浅色衬衫和深色背心",
+      "手持拐杖",
+      "身旁有橙色包"
+    ],
+    "relations": [
+      "老人坐在座位上。",
+      "拐杖放在腿边。",
+      "橙色包放在腿上。"
+    ],
+    "scene": "公交车内部",
+    "subjects": [
+      "老年男性"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "老人坐在橙色塑料座椅上；老人右手伸向蓝色窗帘。",
+    "safe_facts": [
+      "老人坐在橙色塑料座椅上。",
+      "老人右手伸向蓝色窗帘。"
+    ]
+  },
+  "label_id": "cpl_29f1fbdce38a4a9bcfff3dc5",
+  "provenance": {
+    "generated_at": "2026-08-03T09:18:51.504026+00:00",
+    "migrated_at": "2026-08-03T09:18:51.505919+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "41c9009230794890eae08c0522f3e23f5b69aa34127f1c2c2705332fdb4ab095",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d7d2353637e7ca807d1f8150",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:27.928473+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d7d2353637e7ca807d1f8150",
+    "cpl_721b732794edd25f8da24e27"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

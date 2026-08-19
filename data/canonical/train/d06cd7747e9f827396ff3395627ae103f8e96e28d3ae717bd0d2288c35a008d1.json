@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1031.jpg",
+    "relative_path": "train/1031.jpg",
+    "sha256": "d06cd7747e9f827396ff3395627ae103f8e96e28d3ae717bd0d2288c35a008d1",
+    "split": "train"
+  },
+  "canonical_sha256": "01db3b7cfe1b8449394e2347ed54e1bb45313a7f5efbf7c523ac875d1eebd183",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "餐盘",
+      "米饭",
+      "蔬菜",
+      "甜甜圈"
+    ],
+    "short_description": "白色盘子盛放着米饭、香肠、鸡胸肉片、烤番茄、西兰花和一个绿色甜甜圈，旁边配有一小碗溏心蛋。",
+    "theme": "餐盘食物组合"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "食物可能是准备好的餐食，而非正在烹饪中。"
+    ],
+    "direct_observations": [
+      "盘子内装有多种食物，包括米饭、香肠、鸡胸肉片、烤番茄、西兰花和一个绿色甜甜圈。",
+      "盘子旁有一个黑色小碗，碗内盛有溏心蛋。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色盘子",
+      "大理石台面",
+      "绿色甜甜圈",
+      "橙色香肠",
+      "红色烤番茄",
+      "黄色西兰花"
+    ],
+    "relations": [
+      "盘子放在大理石台面上。",
+      "甜甜圈在盘子上。",
+      "米饭在盘子右侧。",
+      "香肠在盘子中央偏右。",
+      "鸡胸肉在盘子左侧。"
+    ],
+    "scene": "大理石台面上的餐桌",
+    "subjects": [
+      "盘子",
+      "米饭",
+      "香肠",
+      "鸡胸肉",
+      "烤番茄",
+      "西兰花"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "食物可能是准备好的餐食，而非正在烹饪中。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "盘子内装有多种食物，包括米饭、香肠、鸡胸肉片、烤番茄、西兰花和一个绿色甜甜圈；盘子旁有一个黑色小碗，碗内盛有溏心蛋。",
+    "safe_facts": [
+      "盘子内装有多种食物，包括米饭、香肠、鸡胸肉片、烤番茄、西兰花和一个绿色甜甜圈。",
+      "盘子旁有一个黑色小碗，碗内盛有溏心蛋。"
+    ]
+  },
+  "label_id": "cpl_0557cfb72a17a64bd7a7cf3a",
+  "provenance": {
+    "generated_at": "2026-08-03T13:26:04.037460+00:00",
+    "migrated_at": "2026-08-03T13:26:04.043203+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e9fe42fe231b5c63b29d7dafa4689ef3d43883a11278b36ff68d7e4d724ff7a8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f1cd519cf9aff24414baaffc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:26:04.043611+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f1cd519cf9aff24414baaffc"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

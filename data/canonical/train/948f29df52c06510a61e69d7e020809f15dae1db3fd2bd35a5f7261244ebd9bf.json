@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1095.jpg",
+    "relative_path": "train/1095.jpg",
+    "sha256": "948f29df52c06510a61e69d7e020809f15dae1db3fd2bd35a5f7261244ebd9bf",
+    "split": "train"
+  },
+  "canonical_sha256": "0fb4359983be3decf369ab025d12448232d8156e27c33ff0aac0ba3c66628d2f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "山水剪影",
+      "发光装置",
+      "蓝色展台"
+    ],
+    "short_description": "蓝色展台上摆放着山水剪影灯饰，背景有发光圆盘与透明材质，旁附说明牌。",
+    "theme": "艺术装置"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "展台为纯蓝色平面。",
+      "灯饰由黑色剪影山峦与黄色发光圆盘构成。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "发光",
+      "木质底座",
+      "透明材质",
+      "蓝色表面"
+    ],
+    "relations": [
+      "灯饰放置于展台之上。",
+      "说明牌位于灯饰左侧。"
+    ],
+    "scene": "室内展示场景",
+    "subjects": [
+      "山水剪影灯饰",
+      "蓝色展台",
+      "说明牌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "展台为纯蓝色平面；灯饰由黑色剪影山峦与黄色发光圆盘构成。",
+    "safe_facts": [
+      "展台为纯蓝色平面。",
+      "灯饰由黑色剪影山峦与黄色发光圆盘构成。"
+    ]
+  },
+  "label_id": "cpl_2cdfbe7340ad551592570876",
+  "provenance": {
+    "generated_at": "2026-08-03T13:36:40.550061+00:00",
+    "migrated_at": "2026-08-03T13:36:40.553292+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "185d3e8102666411ff272386b6d410c59bb27de2624e8415c5fc0b5036f4cd85",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_10c7260703532e7992384023",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:36:40.554173+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_10c7260703532e7992384023"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "山河镜",
+      "HOTECH",
+      "激光玻璃切割、打孔"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "山河镜",
+      "HOTECH",
+      "激光玻璃切割、打孔"
+    ]
+  }
+}

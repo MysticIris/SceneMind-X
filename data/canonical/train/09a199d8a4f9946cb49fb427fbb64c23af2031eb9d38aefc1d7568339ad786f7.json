@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1060.jpg",
+    "relative_path": "train/1060.jpg",
+    "sha256": "09a199d8a4f9946cb49fb427fbb64c23af2031eb9d38aefc1d7568339ad786f7",
+    "split": "train"
+  },
+  "canonical_sha256": "aa628f8cd1d8f021919ca6fc1071c082f926ca9c90205e71bbecd3d94c74444c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "户外咖啡座",
+      "现代建筑",
+      "彩色座椅"
+    ],
+    "short_description": "绿色斜屋顶建筑旁的户外咖啡区，配有彩色椅子和收起的遮阳伞。",
+    "theme": "现代建筑外景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑外墙由绿色金属板构成，呈倾斜排列。",
+      "地面铺设灰色方形地砖，有白色和蓝色椅子。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色斜屋顶",
+      "彩色塑料椅",
+      "收起的遮阳伞",
+      "灰色地砖"
+    ],
+    "relations": [
+      "椅子围绕遮阳伞摆放。",
+      "建筑位于背景。"
+    ],
+    "scene": "城市户外商业区",
+    "subjects": [
+      "建筑",
+      "遮阳伞",
+      "椅子",
+      "地面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑外墙由绿色金属板构成，呈倾斜排列；地面铺设灰色方形地砖，有白色和蓝色椅子。",
+    "safe_facts": [
+      "建筑外墙由绿色金属板构成，呈倾斜排列。",
+      "地面铺设灰色方形地砖，有白色和蓝色椅子。"
+    ]
+  },
+  "label_id": "cpl_a7e158b20b5c72ed3cad2741",
+  "provenance": {
+    "generated_at": "2026-08-03T13:29:59.052941+00:00",
+    "migrated_at": "2026-08-03T13:29:59.056204+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "33dd47be2bb7f17fd4a1ed98328fe63583fcef309fd9e54931880114568486bf",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_43432fb2dd21598c2b3141e1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:29:59.056677+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_43432fb2dd21598c2b3141e1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2132.jpg",
+    "relative_path": "val/2132.jpg",
+    "sha256": "0f4f4fea0ad9750015a8aa4109c4569243a8e36cb3024ba39b007cead1ac19fd",
+    "split": "val"
+  },
+  "canonical_sha256": "88cdd1727b2d330b47ac22ee76b550f18661bea9406c47a80c34e1a034e6804c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "粉色花朵",
+      "绿叶丛生",
+      "户外花园"
+    ],
+    "short_description": "阳光下盛开的粉色花朵，绿叶衬托，背景有树木和模糊人影。",
+    "theme": "粉红花海"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线从上方照射，形成明暗对比。"
+    ],
+    "direct_observations": [
+      "大量粉色花朵密集分布于画面前景和中景。",
+      "花朵周围环绕着深绿色宽叶。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "盛开",
+      "阳光照射",
+      "色彩鲜艳"
+    ],
+    "relations": [
+      "花朵生长于绿叶之间。",
+      "人影位于背景。"
+    ],
+    "scene": "户外花园",
+    "subjects": [
+      "粉色花朵",
+      "绿叶",
+      "树木",
+      "模糊人影"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线从上方照射，形成明暗对比。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大量粉色花朵密集分布于画面前景和中景；花朵周围环绕着深绿色宽叶。",
+    "safe_facts": [
+      "大量粉色花朵密集分布于画面前景和中景。",
+      "花朵周围环绕着深绿色宽叶。"
+    ]
+  },
+  "label_id": "cpl_c8ad85f7091b58756012d7b4",
+  "provenance": {
+    "generated_at": "2026-08-03T16:04:10.761198+00:00",
+    "migrated_at": "2026-08-03T16:04:10.763130+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "783d66b7412789e12601eced2cf23f4fbeaa3084f2e4dee42ec396e28c1464f0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7cbc73d113a349e84580b8b9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:04:10.763458+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7cbc73d113a349e84580b8b9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

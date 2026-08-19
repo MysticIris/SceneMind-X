@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2144.jpg",
+    "relative_path": "val/2144.jpg",
+    "sha256": "859bc84b46b4c0b9e68df324715394655330fc2ad04d13a9a865fe847a0cedb0",
+    "split": "val"
+  },
+  "canonical_sha256": "8c39db92bdabd83252b8f6c7340e94c8f8368fad6de206f66dc94cfc5c80c4ff",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "讲座",
+      "PPT展示",
+      "学术会议"
+    ],
+    "short_description": "一位演讲者在讲台上向听众展示关于的PPT，内容涉及议题。",
+    "theme": "学术讲座现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "演讲者站在木质讲台后，讲台上有水瓶和笔记本电脑。",
+      "观众席有多人背对镜头坐着，部分人穿着外套。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "演讲",
+      "观看"
+    ],
+    "attributes": [
+      "听众背对镜头"
+    ],
+    "relations": [
+      "演讲者站在讲台后。",
+      "听众坐在讲台前。"
+    ],
+    "scene": "室内讲座厅",
+    "subjects": [
+      "演讲者",
+      "听众",
+      "投影屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "演讲者站在木质讲台后，讲台上有水瓶和笔记本电脑；观众席有多人背对镜头坐着，部分人穿着外套。",
+    "safe_facts": [
+      "演讲者站在木质讲台后，讲台上有水瓶和笔记本电脑。",
+      "观众席有多人背对镜头坐着，部分人穿着外套。"
+    ]
+  },
+  "label_id": "cpl_62ed5814848e159d56d30939",
+  "provenance": {
+    "generated_at": "2026-08-03T16:06:06.223941+00:00",
+    "migrated_at": "2026-08-03T16:06:06.226911+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "62e21432b53929ab1a4d22ff264e82646b4e603cd99c06795c7bca128abc158d",
+    "recovered_at_tokens": 768,
+    "source_label_id": "cpl_059775b79b0e51514e2331ad",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:06:06.227833+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_768_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_059775b79b0e51514e2331ad"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "学期总结反馈",
+      "升学指导类",
+      "保研流程?保研指标(直博)?保外比例?",
+      "如何接触导师?如何参与夏令营并获得内诺?:保研分享会 3月10日",
+      "“国优计划”解读:保研分享会 3月10日",
+      "留学指导、出国交流项目:1.学校项目:华中科技大学本科生出国(境)交流管理服务平"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "学期总结反馈",
+      "升学指导类",
+      "保研流程?保研指标(直博)?保外比例?",
+      "如何接触导师?如何参与夏令营并获得内诺?:保研分享会 3月10日",
+      "“国优计划”解读:保研分享会 3月10日",
+      "留学指导、出国交流项目:1.学校项目:华中科技大学本科生出国(境)交流管理服务平"
+    ]
+  }
+}

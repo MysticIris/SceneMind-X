@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2334.jpg",
+    "relative_path": "val/2334.jpg",
+    "sha256": "9efd904976f2342b5253ba0ab0848f7e48666db94f797f79290c1c0c2a1c0b9e",
+    "split": "val"
+  },
+  "canonical_sha256": "e0b1e620e5491b3312a0b5fd66eaca277dd2816bbc2e53ddccb25ebc81f29fe6",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "炸鸡",
+      "年糕",
+      "韩式酱料",
+      "外卖盒"
+    ],
+    "short_description": "盒装炸鸡与年糕，一半裹红酱，一半裹黄酱，撒黑芝麻，置于锡纸内。",
+    "theme": "韩式炸鸡配年糕"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "食物盛放在白色纸质外卖盒内，底部铺有锡纸。",
+      "炸鸡块表面覆盖红色和黄色酱汁，年糕条上撒有黑色芝麻。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "裹酱",
+      "撒黑芝麻",
+      "置于锡纸内"
+    ],
+    "relations": [
+      "炸鸡与年糕混合摆放。"
+    ],
+    "scene": "白色外卖盒内",
+    "subjects": [
+      "炸鸡块",
+      "年糕条"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "食物盛放在白色纸质外卖盒内，底部铺有锡纸；炸鸡块表面覆盖红色和黄色酱汁，年糕条上撒有黑色芝麻。",
+    "safe_facts": [
+      "食物盛放在白色纸质外卖盒内，底部铺有锡纸。",
+      "炸鸡块表面覆盖红色和黄色酱汁，年糕条上撒有黑色芝麻。"
+    ]
+  },
+  "label_id": "cpl_90e65cbf8fd6f019040f1549",
+  "provenance": {
+    "generated_at": "2026-08-03T16:30:41.631864+00:00",
+    "migrated_at": "2026-08-03T16:30:41.633869+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7ea26f1044396f14451948b5b2a712fbc9432efce753a717e29959dcd2e6ac38",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_10f52f377393ef05427955d5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:30:41.634174+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_10f52f377393ef05427955d5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

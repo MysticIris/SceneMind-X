@@ -1,0 +1,130 @@
+{
+  "asset_id": "ec380b56c8990268",
+  "asset_sha256": "ec380b56c8990268fb93db8ad0ae3901386f64881ccd68ef6f3c759821a6e3cd",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"游戏界面与证件截图\",\n    \"short_description\": \"这是一张手机游戏个人主页界面的截图，画面中央叠加了一张绿底金字的证件图片，背景可见游戏角色立绘及左侧的数据统计菜单。\",\n    \"micro_tags\": [\n      \"游戏截图\",\n      \"个人主页\",\n      \"证件\",\n      \"UI界面\",\n      \"叠加图\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端游戏应用界面\",\n    \"subjects\": [\n      \"游戏UI菜单\",\n      \"绿色证件卡片\",\n      \"游戏角色立绘\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"深蓝色背景\",\n      \"青绿色卡片\",\n      \"金色浮雕质感图标\",\n      \"垂直排列的文本列表\"\n    ],\n    \"relations\": [\n      \"证件图片覆盖在游戏界面中央\",\n      \"菜单栏位于画面左侧\",\n      \"角色立绘位于画面右侧背景\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面中心有一张青绿色的矩形卡片，上方有金色的花朵状轮廓包围字母R的图标，下方有两行排列整齐的金色文字。\",\n      \"背景为深蓝色的软件界面，左侧列有“战绩”、“英雄”、“皮肤”等选项，右下角有白色的椭圆形水印标识。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局推测这是某款多人在线战术竞技游戏的个人资料页面。\",\n      \"中间的卡片看起来像是某种官方颁发的资格证书或身份证明文件的扫描件或照片。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"个人主页\",\n      \"电竞空间\",\n      \"战绩\",\n      \"英雄\",\n      \"皮肤\",\n      \"荣誉\",\n      \"游戏\",\n      \"社交\",\n      \"中华人民共和国\",\n      \"残疾人证\",\n      \"小红书\",\n      \"小红书号：2879801433\",\n      \"1487\",\n      \"499\",\n      \"1746\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张深蓝色调的游戏应用界面截图，中央显著位置展示了一张带有金色徽章和文字的绿色证件图片，界面包含侧边栏菜单和背景人物插画。\",\n    \"safe_facts\": [\n      \"图像为数字屏幕截图\",\n      \"包含垂直排列的导航菜单项\",\n      \"中央有一个矩形的绿色图文卡片\",\n      \"卡片上有金色的图形标志\",\n      \"右下角有社交媒体平台的水印\"\n    ]\n  }\n}",
+      "input_tokens": 1431,
+      "output_tokens": 651,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 1431,
+        "output_tokens": 651,
+        "total_tokens": 2082,
+        "estimated_cost_cny": 0.00807,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "游戏界面与证件截图",
+          "short_description": "这是一张手机游戏个人主页界面的截图，画面中央叠加了一张绿底金字的证件图片，背景可见游戏角色立绘及左侧的数据统计菜单。",
+          "micro_tags": [
+            "游戏截图",
+            "个人主页",
+            "证件",
+            "UI界面",
+            "叠加图"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "移动端游戏应用界面",
+          "subjects": [
+            "游戏UI菜单",
+            "绿色证件卡片",
+            "游戏角色立绘"
+          ],
+          "actions": [],
+          "attributes": [
+            "深蓝色背景",
+            "青绿色卡片",
+            "金色浮雕质感图标",
+            "垂直排列的文本列表"
+          ],
+          "relations": [
+            "证件图片覆盖在游戏界面中央",
+            "菜单栏位于画面左侧",
+            "角色立绘位于画面右侧背景"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "画面中心有一张青绿色的矩形卡片，上方有金色的花朵状轮廓包围字母R的图标，下方有两行排列整齐的金色文字。",
+            "背景为深蓝色的软件界面，左侧列有“战绩”、“英雄”、“皮肤”等选项，右下角有白色的椭圆形水印标识。"
+          ],
+          "cautious_inferences": [
+            "根据界面布局推测这是某款多人在线战术竞技游戏的个人资料页面。",
+            "中间的卡片看起来像是某种官方颁发的资格证书或身份证明文件的扫描件或照片。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "个人主页",
+            "电竞空间",
+            "战绩",
+            "英雄",
+            "皮肤",
+            "荣誉",
+            "游戏",
+            "社交",
+            "中华人民共和国",
+            "残疾人证",
+            "小红书",
+            "小红书号：2879801433",
+            "1487",
+            "499",
+            "1746"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张深蓝色调的游戏应用界面截图，中央显著位置展示了一张带有金色徽章和文字的绿色证件图片，界面包含侧边栏菜单和背景人物插画。",
+          "safe_facts": [
+            "图像为数字屏幕截图",
+            "包含垂直排列的导航菜单项",
+            "中央有一个矩形的绿色图文卡片",
+            "卡片上有金色的图形标志",
+            "右下角有社交媒体平台的水印"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 151168,
+        "request_bytes": 110302,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 12.391490200003318,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "42bfeb6504b3c027e86b1d78ad5a778830424f5e6d1b3b65b4512aff562a1078"
+}

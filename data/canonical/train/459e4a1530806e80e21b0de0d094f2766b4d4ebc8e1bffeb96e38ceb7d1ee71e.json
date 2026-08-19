@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1630.jpg",
+    "relative_path": "train/1630.jpg",
+    "sha256": "459e4a1530806e80e21b0de0d094f2766b4d4ebc8e1bffeb96e38ceb7d1ee71e",
+    "split": "train"
+  },
+  "canonical_sha256": "d589e34900cec4108db466b5d232edeedd7dc5f3c778e85aa1dd6c5a687f0b97",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "桥梁",
+      "城市景观",
+      "电动车",
+      "电视塔"
+    ],
+    "short_description": "桥面有行人与电动车通行，远处可见电视塔及城市建筑群，天空多云。",
+    "theme": "桥上交通与城市天际线"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "远处高耸的塔状建筑可能是通讯或广播电视塔。"
+    ],
+    "direct_observations": [
+      "画面中有两辆电动车在桥面上行驶。",
+      "桥旁设有白色护栏和蓝色路障。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "骑行",
+      "行驶"
+    ],
+    "attributes": [
+      "多云天气",
+      "混凝土护栏",
+      "限速标志"
+    ],
+    "relations": [
+      "电视塔位于远处背景。",
+      "车辆在桥面上行驶。"
+    ],
+    "scene": "城市桥梁",
+    "subjects": [
+      "骑电动车的人",
+      "汽车",
+      "电视塔",
+      "路灯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "远处高耸的塔状建筑可能是通讯或广播电视塔。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两辆电动车在桥面上行驶；桥旁设有白色护栏和蓝色路障。",
+    "safe_facts": [
+      "画面中有两辆电动车在桥面上行驶。",
+      "桥旁设有白色护栏和蓝色路障。"
+    ]
+  },
+  "label_id": "cpl_d51bd30664f209b86d7bdcb4",
+  "provenance": {
+    "generated_at": "2026-08-03T14:47:24.524948+00:00",
+    "migrated_at": "2026-08-03T14:47:24.532073+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "54d40e0db4e4d730865f1cc89eb674ab06b33816150b23416100b7abc2b2badf",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3a1711d7fc0914f2b804d4fb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:47:24.532426+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3a1711d7fc0914f2b804d4fb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1713.jpg",
+    "relative_path": "train/1713.jpg",
+    "sha256": "45c27c84e6e91802875998ace6c49adab9c1a6f2bc64d00280d57f68d50f74cc",
+    "split": "train"
+  },
+  "canonical_sha256": "cbe44f691272f92d63975431a29576a59549f9f8b062c67c866dea474fd5e7d1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石砌建筑",
+      "穹顶结构",
+      "十字架",
+      "飞鸟"
+    ],
+    "short_description": "阴天背景下，一座装饰繁复的石质建筑穹顶与十字架，天空中有一只飞鸟掠过。",
+    "theme": "古典建筑穹顶"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑顶部有带十字架的圆顶结构。",
+      "天空中有飞行的鸟类剪影。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "石质",
+      "装饰繁复",
+      "灰白色调",
+      "阴天背景"
+    ],
+    "relations": [
+      "飞鸟在建筑上方天空中飞行。"
+    ],
+    "scene": "阴天下的建筑局部",
+    "subjects": [
+      "建筑穹顶",
+      "飞鸟"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑顶部有带十字架的圆顶结构；天空中有飞行的鸟类剪影。",
+    "safe_facts": [
+      "建筑顶部有带十字架的圆顶结构。",
+      "天空中有飞行的鸟类剪影。"
+    ]
+  },
+  "label_id": "cpl_22758aec63e924c784abde75",
+  "provenance": {
+    "generated_at": "2026-08-03T14:56:40.261306+00:00",
+    "migrated_at": "2026-08-03T14:56:40.262860+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ef5c59db6cd89214c2dbe53c3f274387902810a7707abe99873306d14cf4bfef",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2a6d2b8df94d7c37230f7c95",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:56:40.263050+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2a6d2b8df94d7c37230f7c95"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

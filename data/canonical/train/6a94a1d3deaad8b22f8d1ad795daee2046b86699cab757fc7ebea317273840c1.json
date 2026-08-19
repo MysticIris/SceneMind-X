@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1366.jpg",
+    "relative_path": "train/1366.jpg",
+    "sha256": "6a94a1d3deaad8b22f8d1ad795daee2046b86699cab757fc7ebea317273840c1",
+    "split": "train"
+  },
+  "canonical_sha256": "d348c4ff78e5a4bb3ea74a846135a9ed6f02a43d2e20b63037135efadddbb891",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "人",
+      "哈士奇",
+      "淋浴间",
+      "玻璃隔断",
+      "叼着喷头"
+    ],
+    "short_description": "一个人在淋浴间低头，一只哈士奇犬站在玻璃隔断外，嘴里叼着淋浴喷头。",
+    "theme": "人与狗的浴室互动"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一个人弯腰低头，手部遮挡面部。",
+      "一只哈士奇犬站立于玻璃隔断外，嘴中含着一根软管状物体。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "人低头",
+      "狗叼着喷头"
+    ],
+    "attributes": [
+      "人穿灰色上衣",
+      "狗毛色黑白相间",
+      "玻璃隔断透明"
+    ],
+    "relations": [
+      "人位于玻璃隔断内。",
+      "狗位于玻璃隔断外。"
+    ],
+    "scene": "室内淋浴间",
+    "subjects": [
+      "一个人",
+      "一只哈士奇犬"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一个人弯腰低头，手部遮挡面部；一只哈士奇犬站立于玻璃隔断外，嘴中含着一根软管状物体。",
+    "safe_facts": [
+      "一个人弯腰低头，手部遮挡面部。",
+      "一只哈士奇犬站立于玻璃隔断外，嘴中含着一根软管状物体。"
+    ]
+  },
+  "label_id": "cpl_eddbebe10c6579a240059748",
+  "provenance": {
+    "generated_at": "2026-08-03T14:15:21.950876+00:00",
+    "migrated_at": "2026-08-03T14:15:21.955933+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "305819a6b4d57f8449382429264cec8fc1fdf631fcb97384f2e0c7f3539cd4a2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ca5f7f4a732451b90c91baa5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:15:21.956304+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ca5f7f4a732451b90c91baa5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

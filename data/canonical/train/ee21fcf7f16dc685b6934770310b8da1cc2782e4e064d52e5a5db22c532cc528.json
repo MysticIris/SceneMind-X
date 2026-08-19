@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1016.jpg",
+    "relative_path": "train/1016.jpg",
+    "sha256": "ee21fcf7f16dc685b6934770310b8da1cc2782e4e064d52e5a5db22c532cc528",
+    "split": "train"
+  },
+  "canonical_sha256": "317b888416ce95d2391d2a9075d78679c01c5e0b4a5afe9aed3a9e11e97da802",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "牛排",
+      "西兰花",
+      "酱汁",
+      "烤蔬菜"
+    ],
+    "short_description": "切片牛排配西兰花、番茄和南瓜，摆放在绿叶上，旁边有酱汁。",
+    "theme": "牛排配蔬菜"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "牛排被切成数片，表面呈焦褐色，内部带粉红色。",
+      "盘中有绿色西兰花、红色番茄和橙色南瓜块。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "切片",
+      "烤制",
+      "撒有香草碎"
+    ],
+    "relations": [
+      "牛排放在绿叶上。",
+      "酱汁在盘子右侧。"
+    ],
+    "scene": "餐盘上的食物",
+    "subjects": [
+      "牛排",
+      "西兰花",
+      "番茄",
+      "南瓜",
+      "酱汁"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "牛排被切成数片，表面呈焦褐色，内部带粉红色；盘中有绿色西兰花、红色番茄和橙色南瓜块。",
+    "safe_facts": [
+      "牛排被切成数片，表面呈焦褐色，内部带粉红色。",
+      "盘中有绿色西兰花、红色番茄和橙色南瓜块。"
+    ]
+  },
+  "label_id": "cpl_a511a8fcb208078dae12d644",
+  "provenance": {
+    "generated_at": "2026-08-03T13:25:29.449780+00:00",
+    "migrated_at": "2026-08-03T13:25:29.455649+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5fcce1c82c4b95fa3abb368d3dfd3182d8311f65e2c49efb8d03f47f135b98d2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4df8fe1456b7c679682e9211",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:25:29.456883+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4df8fe1456b7c679682e9211"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

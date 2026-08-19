@@ -1,0 +1,1 @@
+比较这些视觉资产，区分图像本身的媒介类型与媒介内部内容。仅输出一个 JSON 对象，包含 shared_facts、differences、medium_types、uncertainty。不得编造不可见事实。

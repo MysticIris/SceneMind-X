@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:466.jpg",
+    "relative_path": "train/466.jpg",
+    "sha256": "2f2f72fdf61e366956b1f6e1c2501015e571d4499a6c40c585a47eb9484fb239",
+    "split": "train"
+  },
+  "canonical_sha256": "55b1b69deb9371d3329f493c243e51b03eec50e6c6a09a8ad4fb971b553cb4da",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "时间轴",
+      "学术发展",
+      "教学科研"
+    ],
+    "short_description": "一张展示某机构学科的时间轴幻灯片，包含多个年份节点及对应成就，观众正在观看。",
+    "theme": "学术发展时间轴"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕上显示一个横向的时间轴图表，标注了多个年份和对应的发展节点。",
+      "屏幕下方可见多名观众的后脑勺，表明有人正在观看演示。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "室内会议或讲座现场",
+    "subjects": [
+      "投影屏幕",
+      "观众席"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕上显示一个横向的时间轴图表，标注了多个年份和对应的发展节点；屏幕下方可见多名观众的后脑勺，表明有人正在观看演示。",
+    "safe_facts": [
+      "屏幕上显示一个横向的时间轴图表，标注了多个年份和对应的发展节点。",
+      "屏幕下方可见多名观众的后脑勺，表明有人正在观看演示。"
+    ]
+  },
+  "label_id": "cpl_047adc6d5f3445eb9094afb4",
+  "provenance": {
+    "generated_at": "2026-08-03T11:09:11.860491+00:00",
+    "migrated_at": "2026-08-03T11:09:11.862897+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cab35da48e390fa6e7ae2a1e211086526f22d6c22568723b7eff5689bbecab8b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3f97d300a6750a3f02b51c29",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:09:11.863779+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3f97d300a6750a3f02b51c29"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "发展历程",
+      "1978年 图像识别与人工智能研究所",
+      "1993年 教育部重点实验室成立",
+      "2005年 国家级重点实验室成立",
+      "2013年 合并组建自动化学院,在自动化专业设立模式识别方向",
+      "2017年 学科评估被评为A-"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "发展历程",
+      "1978年 图像识别与人工智能研究所",
+      "1993年 教育部重点实验室成立",
+      "2005年 国家级重点实验室成立",
+      "2013年 合并组建自动化学院,在自动化专业设立模式识别方向",
+      "2017年 学科评估被评为A-"
+    ]
+  }
+}

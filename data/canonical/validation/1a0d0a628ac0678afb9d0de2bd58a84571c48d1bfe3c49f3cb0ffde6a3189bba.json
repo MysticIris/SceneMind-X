@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2192.jpg",
+    "relative_path": "val/2192.jpg",
+    "sha256": "1a0d0a628ac0678afb9d0de2bd58a84571c48d1bfe3c49f3cb0ffde6a3189bba",
+    "split": "val"
+  },
+  "canonical_sha256": "99d2ce0ccccd15e0f7a632e6e085241c6f6c3f660ea0071cadd202ff8ee6634a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "饮品",
+      "游戏界面"
+    ],
+    "short_description": "画面中央有一杯装有绿色液体的玻璃杯，杯口有薄荷叶装饰；右侧有一个装饰物选择面板，包含多个图标选项。",
+    "theme": "饮品装饰选择"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有一杯装有绿色液体的玻璃杯，杯口有薄荷叶装饰。",
+      "右侧有一个装饰物选择面板，包含多个图标选项。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色液体",
+      "金色杯沿",
+      "薄荷叶装饰",
+      "游戏UI元素"
+    ],
+    "relations": [],
+    "scene": "游戏内饮品调制界面",
+    "subjects": [
+      "一杯绿色饮品",
+      "装饰物选择面板",
+      "风味调节滑块"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一杯装有绿色液体的玻璃杯，杯口有薄荷叶装饰；右侧有一个装饰物选择面板，包含多个图标选项。",
+    "safe_facts": [
+      "画面中央有一杯装有绿色液体的玻璃杯，杯口有薄荷叶装饰。",
+      "右侧有一个装饰物选择面板，包含多个图标选项。"
+    ]
+  },
+  "label_id": "cpl_874bf901befaf335ca89aacf",
+  "provenance": {
+    "generated_at": "2026-08-03T16:11:58.585510+00:00",
+    "migrated_at": "2026-08-03T16:11:58.587343+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "114a19c4b234aedc06bf251f0abb7a36eae5bdcec6c41bde07035e948d2e77c8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_47973c3338c02e804b5e307c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:11:58.588025+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_47973c3338c02e804b5e307c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "选择装饰物",
+      "去给你自己调杯专属饮料吧",
+      "当前风味",
+      "微甜",
+      "超柔和",
+      "超清爽"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "选择装饰物",
+      "去给你自己调杯专属饮料吧",
+      "当前风味",
+      "微甜",
+      "超柔和",
+      "超清爽"
+    ]
+  }
+}

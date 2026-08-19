@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1246.jpg",
+    "relative_path": "train/1246.jpg",
+    "sha256": "ef44b3e15ba89464e156cb2453778727e7bb6d4553a213c3a3e895a09e70636c",
+    "split": "train"
+  },
+  "canonical_sha256": "213ca86d0a6351e08206fca25736de7df90526a50a01df9435eb5de3c801967f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红碗",
+      "白米饭",
+      "卤味",
+      "便当"
+    ],
+    "short_description": "一碗红碗盛着卤味汤面，配一盒白米饭，食物摆放在木质桌面上。",
+    "theme": "红碗配白饭"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "红碗内盛有卤味汤面，含煎蛋、香肠片、豆腐块等食材。",
+      "白米饭盒内装满白米饭，米粒分明。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红碗",
+      "白米饭",
+      "卤味汤面",
+      "木质桌面"
+    ],
+    "relations": [
+      "红碗与白米饭盒并置。",
+      "卤味汤面盛于红碗内。"
+    ],
+    "scene": "餐桌",
+    "subjects": [
+      "红碗",
+      "白米饭盒",
+      "卤味汤面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "红碗内盛有卤味汤面，含煎蛋、香肠片、豆腐块等食材；白米饭盒内装满白米饭，米粒分明。",
+    "safe_facts": [
+      "红碗内盛有卤味汤面，含煎蛋、香肠片、豆腐块等食材。",
+      "白米饭盒内装满白米饭，米粒分明。"
+    ]
+  },
+  "label_id": "cpl_e87bb085e068491016f893c0",
+  "provenance": {
+    "generated_at": "2026-08-03T13:57:56.731243+00:00",
+    "migrated_at": "2026-08-03T13:57:56.736117+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "860a4e290a3c0bfcec15bab6621bf49e67b3b8de49d775e791fbf5f602ee3bca",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8a5c527281d96f75d2d109e6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:57:56.736491+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8a5c527281d96f75d2d109e6"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

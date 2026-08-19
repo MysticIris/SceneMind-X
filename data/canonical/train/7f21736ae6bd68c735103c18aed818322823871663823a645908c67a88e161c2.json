@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:540.jpg",
+    "relative_path": "train/540.jpg",
+    "sha256": "7f21736ae6bd68c735103c18aed818322823871663823a645908c67a88e161c2",
+    "split": "train"
+  },
+  "canonical_sha256": "a26f25a6466d8f298f8949135ca94f16776177694039a34be6d3fc8c361c518d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古塔",
+      "人群",
+      "阴天",
+      "中式建筑"
+    ],
+    "short_description": "阴天下的多层中式古塔，周围人群熙攘，台阶旁有红色装饰门楼。",
+    "theme": "古建筑群落"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空灰暗，可能是阴天。"
+    ],
+    "direct_observations": [
+      "画面中央是一座多层重檐中式古塔。",
+      "塔前有大量人群在石阶上活动。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "行走",
+      "拍照"
+    ],
+    "attributes": [
+      "多层",
+      "红墙绿瓦",
+      "石砌台阶",
+      "云层密布天空"
+    ],
+    "relations": [
+      "游客聚集在古塔前。",
+      "装饰门楼位于石阶旁。"
+    ],
+    "scene": "户外古建筑前的广场",
+    "subjects": [
+      "古塔",
+      "游客",
+      "石阶",
+      "装饰门楼"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空灰暗，可能是阴天。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是一座多层重檐中式古塔；塔前有大量人群在石阶上活动。",
+    "safe_facts": [
+      "画面中央是一座多层重檐中式古塔。",
+      "塔前有大量人群在石阶上活动。"
+    ]
+  },
+  "label_id": "cpl_37b326bea687e9677a823f2c",
+  "provenance": {
+    "generated_at": "2026-08-03T11:25:45.498865+00:00",
+    "migrated_at": "2026-08-03T11:25:45.501396+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a199f8a2aefbd34583736bafb541079e7c8e1166883849015a4b98f055574403",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_62bb7bbf12f98bf2d42914c5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:25:45.501675+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_62bb7bbf12f98bf2d42914c5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

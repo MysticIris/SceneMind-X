@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:9.jpg",
+    "relative_path": "train/9.jpg",
+    "sha256": "3a0b301e86cd332b7cb30e7173e0fa6566f28466485fd4b7db9ff18c9da30e2b",
+    "split": "train"
+  },
+  "canonical_sha256": "36c4c0cb47865908d80749bb9de1a1f998d9ac92e639bae53d4c7cc9080dc1fe",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "书本",
+      "水下",
+      "鱼群",
+      "水草"
+    ],
+    "short_description": "一本打开的书被置于水中，周围有鱼和水草。",
+    "theme": "书本与水下世界"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "书本被放置在水中，书页部分浸没。",
+      "水面下可见多条鱼和绿色水草。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "打开的书本",
+      "水下环境",
+      "绿色水草",
+      "游动的鱼"
+    ],
+    "relations": [
+      "书本位于水中。",
+      "鱼在水中游动。",
+      "水草在水中生长。"
+    ],
+    "scene": "水下环境中的书本",
+    "subjects": [
+      "书本",
+      "鱼",
+      "水草"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "书本被放置在水中，书页部分浸没；水面下可见多条鱼和绿色水草。",
+    "safe_facts": [
+      "书本被放置在水中，书页部分浸没。",
+      "水面下可见多条鱼和绿色水草。"
+    ]
+  },
+  "label_id": "cpl_7bb794c656ddf1d82ac69b4e",
+  "provenance": {
+    "generated_at": "2026-08-03T09:05:35.440294+00:00",
+    "migrated_at": "2026-08-03T09:05:35.442337+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "619aee758650ba97abac243e73f106820e3ea113832d1cfd6245012d00408f66",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9ce44a5ad313ce81981257a9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:25.522957+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9ce44a5ad313ce81981257a9",
+    "cpl_39b9f1bfd235b3be66ad621e"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "The Great Gatsby",
+      "was over. Next day at five o'clock she m"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "The Great Gatsby",
+      "was over. Next day at five o'clock she m"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1069.jpg",
+    "relative_path": "train/1069.jpg",
+    "sha256": "99956862c44ff4047e82ab202b2a33b94a4813f0d40cf63f69a4bd2b3fdde158",
+    "split": "train"
+  },
+  "canonical_sha256": "067583fbaf274114018804f15a6e28ba62a3c139a93fd9c2f372b847600723b2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "湖泊",
+      "高原",
+      "山脉",
+      "蓝天"
+    ],
+    "short_description": "湛蓝湖水映衬远山，湖面有浅滩与沙洲，天空云朵飘逸，地貌辽阔壮美。",
+    "theme": "高原湖泊风光"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "湖岸附近有浅滩和裸露的沙洲。"
+    ],
+    "direct_observations": [
+      "湖水呈现不同深浅的蓝色调。",
+      "远处山脉连绵起伏，部分山顶有积雪痕迹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "湖水呈蓝色",
+      "天空晴朗",
+      "云层分布",
+      "陆地呈棕褐色"
+    ],
+    "relations": [
+      "湖泊位于前景。",
+      "山脉位于背景。",
+      "天空覆盖上方。"
+    ],
+    "scene": "开阔高原湖泊景观",
+    "subjects": [
+      "湖泊",
+      "山脉",
+      "天空",
+      "陆地"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "湖岸附近有浅滩和裸露的沙洲。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "湖水呈现不同深浅的蓝色调；远处山脉连绵起伏，部分山顶有积雪痕迹。",
+    "safe_facts": [
+      "湖水呈现不同深浅的蓝色调。",
+      "远处山脉连绵起伏，部分山顶有积雪痕迹。"
+    ]
+  },
+  "label_id": "cpl_54f60eff5d54664401754eaa",
+  "provenance": {
+    "generated_at": "2026-08-03T13:32:41.346127+00:00",
+    "migrated_at": "2026-08-03T13:32:41.349431+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c7ac710365e8f5b04022ca02259391aceebf32941d69deb099f85489093611d3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b2ee113c382c6052d5a61355",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:32:41.349785+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b2ee113c382c6052d5a61355"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

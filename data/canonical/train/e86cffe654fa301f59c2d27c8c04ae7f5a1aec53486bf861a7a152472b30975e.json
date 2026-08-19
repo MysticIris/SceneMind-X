@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1568.jpg",
+    "relative_path": "train/1568.jpg",
+    "sha256": "e86cffe654fa301f59c2d27c8c04ae7f5a1aec53486bf861a7a152472b30975e",
+    "split": "train"
+  },
+  "canonical_sha256": "f80d81813eb19354c087fe55a09d073db08986ee00c76e8c00736c762a4f5b2f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄昏",
+      "河流",
+      "山脉",
+      "通信塔"
+    ],
+    "short_description": "黄昏时分，河流蜿蜒穿过岸边，远处山脉轮廓在橙色天际线下清晰可见，左侧矗立着通信塔。",
+    "theme": "黄昏河岸山景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自地平线方向，表明是日落时刻。"
+    ],
+    "direct_observations": [
+      "天空从上至下由蓝色过渡到橙黄色。",
+      "河流表面有细密波纹，两岸有裸露的泥滩。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空呈渐变色彩",
+      "水面有波纹",
+      "山体呈剪影状"
+    ],
+    "relations": [
+      "河流位于前景。",
+      "山脉位于背景。",
+      "通信塔位于左侧。"
+    ],
+    "scene": "河岸与远山的黄昏景观",
+    "subjects": [
+      "河流",
+      "山脉",
+      "通信塔",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自地平线方向，表明是日落时刻。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空从上至下由蓝色过渡到橙黄色；河流表面有细密波纹，两岸有裸露的泥滩。",
+    "safe_facts": [
+      "天空从上至下由蓝色过渡到橙黄色。",
+      "河流表面有细密波纹，两岸有裸露的泥滩。"
+    ]
+  },
+  "label_id": "cpl_80659a23b0762c1d31768cc9",
+  "provenance": {
+    "generated_at": "2026-08-03T14:39:06.283818+00:00",
+    "migrated_at": "2026-08-03T14:39:06.287862+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7832a2db29737a17ad9c77688c0eb0e27bc01b363642e91b2cb7c24c5ad4da21",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7daf9ed36acc739f7a2ff251",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:39:06.288231+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7daf9ed36acc739f7a2ff251"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

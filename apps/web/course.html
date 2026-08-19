@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SceneMind-X 课程优先多模态视觉工作台">
+  <link rel="icon" href="data:,">
+  <title>SceneMind-X · Course Studio</title>
+  <link rel="stylesheet" href="/static/course.css?v=phase7_7_f">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#chat" aria-label="SceneMind-X 首页">
+      <span class="brand-mark">SX</span>
+      <span class="brand-copy"><strong>SceneMind-X</strong><small class="brand-subtitle">面向多图理解、检索与内容生成的视觉语言智能工作台</small></span>
+    </a>
+    <nav class="primary-nav" aria-label="主功能">
+      <button class="nav-item active" data-view="chat">多模态对话</button>
+      <button class="nav-item" data-view="generate">多图生成</button>
+      <button class="nav-item" data-view="retrieve">图像检索</button>
+      <button class="nav-item" data-view="rank">比较排序</button>
+      <button class="nav-item" data-view="library">图片库</button>
+    </nav>
+    <div class="top-actions">
+      <button id="model-access-entry" class="provider-access-entry" type="button" aria-controls="model-access-drawer" aria-expanded="false">
+        <span>模型接入</span>
+        <strong id="health">正在读取状态…</strong>
+      </button>
+      <button id="refresh" class="quiet-button" type="button">刷新</button>
+    </div>
+  </header>
+
+  <aside id="model-access-drawer" class="model-access-drawer hidden" aria-label="模型接入设置">
+    <div class="model-access-head">
+      <div>
+        <span class="kicker">MODEL ACCESS</span>
+        <h2>选择模型接入方式</h2>
+        <p>不会阻止浏览；你也可以暂不接入模型，稍后再从这里修改。</p>
+      </div>
+      <div class="model-access-head-actions">
+        <button id="provider-revalidate" class="quiet-button" type="button">刷新连接状态</button>
+        <button id="model-access-close" class="square-button" type="button" aria-label="关闭模型接入设置">×</button>
+      </div>
+    </div>
+    <div id="provider-current-summary" class="provider-current-summary">正在读取当前接入状态…</div>
+    <form id="provider-selection-form">
+      <div class="provider-mode-grid">
+        <label class="provider-mode-card">
+          <input type="radio" name="provider-mode" value="no_model">
+          <span><strong>暂不接入模型</strong><small>浏览、导入、选择和查看已有结果；新的模型推理与检索暂停。</small></span>
+        </label>
+        <label class="provider-mode-card">
+          <input type="radio" name="provider-mode" value="bailian">
+          <span><strong class="provider-mode-title">百炼云端模型 <span class="provider-mode-badge recommended">推荐</span></strong><small>使用阿里云百炼视觉模型与独立云端检索索引。</small></span>
+        </label>
+        <label class="provider-mode-card">
+          <input type="radio" name="provider-mode" value="local">
+          <span><strong class="provider-mode-title">当前电脑本地加载 <span class="provider-mode-badge weights-required">需要自己下载权重</span></strong><small>本地模式不是开箱即用；请先自行下载模型权重并放入指定目录，系统不会静默下载。</small></span>
+        </label>
+        <label class="provider-mode-card">
+          <input type="radio" name="provider-mode" value="self_hosted">
+          <span><strong>服务器映射（课程演示）</strong><small>依赖作者当前电脑、私有服务器与 SSH 隧道，其他用户通常无法直接使用。</small></span>
+        </label>
+      </div>
+      <section id="cloud-tier-section" class="provider-subsection hidden">
+        <h3>云端档位</h3>
+        <label><input type="radio" name="cloud-tier" value="standard" checked> 云端标准 · qwen3.6-flash</label>
+        <p>兼顾质量、速度和费用，推荐作为默认云端模式。</p>
+        <label><input type="radio" name="cloud-tier" value="high_quality"> 云端高质量 · qwen3.7-plus</label>
+        <p>适合复杂多图理解与高质量长内容，延迟和费用通常更高。</p>
+        <h3>凭据来源</h3>
+        <label><input type="radio" name="credential-source" value="user_session"> 使用自己的阿里云百炼 API Key</label>
+        <label><input type="radio" name="credential-source" value="course_default" checked> 使用课程演示默认 API Key</label>
+        <div id="user-credential-fields" class="credential-panel hidden">
+          <label>API Key
+            <span class="credential-key-row">
+              <input id="provider-api-key" type="password" autocomplete="new-password" spellcheck="false" placeholder="请输入阿里云百炼API Key（通常以sk-开头）">
+              <button id="provider-api-key-toggle" class="quiet-button" type="button" aria-pressed="false">显示</button>
+              <button id="provider-api-key-clear" class="quiet-button" type="button">清空</button>
+            </span>
+          </label>
+          <p id="provider-api-key-summary">尚未输入；仅保存在当前后端运行会话。</p>
+          <label>地域
+            <select id="provider-region">
+              <option value="cn-beijing" selected>华北2（北京） · cn-beijing</option>
+            </select>
+          </label>
+          <details class="provider-key-guide provider-endpoint-advanced">
+            <summary>API Host 与业务空间（高级设置）</summary>
+            <label>Endpoint 模式
+              <select id="provider-endpoint-mode">
+                <option value="shared" selected>北京地域共享兼容端点（推荐）</option>
+                <option value="workspace">按 Workspace ID 派生专用端点</option>
+                <option value="custom">自定义完整 API Host</option>
+              </select>
+            </label>
+            <label id="provider-workspace-row" class="hidden">Workspace ID
+              <input id="provider-workspace-id" type="text" autocomplete="off" placeholder="请输入业务空间 ID">
+            </label>
+            <label id="provider-api-host-row" class="hidden">自定义完整 API Host
+              <input id="provider-api-host" type="url" autocomplete="off" placeholder="https://…">
+            </label>
+            <p>后端会分别派生 VLM 的 OpenAI-compatible 地址与 Embedding 的 DashScope 原生地址；不会把 Key 放入 URL。</p>
+          </details>
+          <label class="checkbox-line"><input id="provider-session-only" type="checkbox" checked disabled> 仅本次后端运行会话使用</label>
+          <p>API Key 不会存入浏览器 LocalStorage，也不会通过 GET 接口回显。</p>
+        </div>
+        <div id="course-credential-note" class="credential-panel">
+          <div class="course-credential-title-row">
+            <strong id="course-credential-note-title">课程演示默认 Key 状态待确认</strong>
+            <span id="course-credential-expiry" class="provider-mode-badge expiry">预计于 2026 年 9 月 30 日停用</span>
+          </div>
+          <p id="course-credential-note-body">正在读取本机后端的安全配置状态。</p>
+          <p id="course-credential-note-extra">该默认 Key 仅用于课程演示与课程作业验收；预计在 2026 年 9 月 30 日后由作者手动取消。自 2026 年 10 月 1 日起如无法调用，应按计划内到期停用处理，不是网页故障或模型异常；如需继续使用，请改用自己的阿里云百炼 API Key。</p>
+        </div>
+        <div class="provider-help-links">
+          <a href="https://bailian.console.aliyun.com/cn-beijing?tab=model" target="_blank" rel="noreferrer">打开百炼控制台</a>
+          <a href="https://help.aliyun.com/zh/model-studio/get-api-key" target="_blank" rel="noreferrer">官方 API Key 创建说明</a>
+        </div>
+        <details class="provider-key-guide">
+          <summary>如何创建自己的 API Key</summary>
+          <ol>
+            <li>登录阿里云百炼控制台，选择“华北2（北京）”。</li>
+            <li>进入“API Key”页面并点击“创建 API Key”。</li>
+            <li>选择默认业务空间；权限建议选择“全部”。</li>
+            <li>创建后立即保存完整 API Key 和 API Host。</li>
+            <li>回到 SceneMind-X 粘贴 Key 并测试连接。</li>
+          </ol>
+          <p>API 调用可能消耗免费额度或账户余额，费用由所用阿里云账号承担。</p>
+        </details>
+        <div class="provider-connection-actions">
+          <button id="provider-test-connection" class="quiet-button" type="button">测试 VLM 与 Embedding</button>
+          <span id="provider-connection-result">尚未测试</span>
+        </div>
+        <div id="cloud-index-controls" class="credential-panel">
+          <strong>独立云端检索索引</strong>
+          <p id="cloud-full-index-scope">课程全量云索引：正在读取覆盖状态…</p>
+          <p id="cloud-index-scope">当前云端检索索引：0项基础资产 + 0项用户资产</p>
+          <p>权威基座覆盖 Train 2000 与 Val 369，共 2369 项；用户图片作为独立增量叠加。云端标准与云端高质量共用同一索引，不会因切换档位重新编码，也不混用本地 E1。</p>
+          <button id="cloud-index-build-first10" class="quiet-button" type="button">检查云索引状态</button>
+          <span id="cloud-index-result">正在读取状态…</span>
+        </div>
+      </section>
+      <section id="local-provider-section" class="provider-subsection hidden">
+        <h3>当前电脑本地加载</h3>
+        <p class="local-provider-recommendation" title="当前设备资源不足以稳定加载完整本地模型">本地模型接入能力已准备完成，但当前设备尚未安装模型权重，且显存不足以稳定加载完整双模型。建议继续使用百炼云端模式。</p>
+        <div class="local-action-row">
+          <button id="local-provider-preflight" class="quiet-button" type="button">检查本机环境</button>
+          <button id="local-provider-load" class="quiet-button" type="button">开始按需加载</button>
+          <button id="local-provider-unload" class="quiet-button" type="button">卸载本地模型</button>
+        </div>
+        <div class="local-status-summary" role="status" aria-live="polite">
+          <span id="local-provider-preflight-result">尚未检查本机环境</span>
+          <span id="local-provider-load-result">本地模型尚未加载</span>
+        </div>
+        <label class="checkbox-line"><input id="local-provider-force-low-vram" type="checkbox"> 显存低于推荐值时仍然尝试</label>
+        <details id="local-provider-diagnostics" class="local-diagnostics hidden">
+          <summary>本地诊断</summary>
+          <div id="local-provider-diagnostics-content" class="credential-panel"></div>
+        </details>
+        <details id="local-provider-developer-details" class="provider-key-guide developer-only hidden">
+          <summary>开发者详情</summary>
+          <p id="local-provider-developer-code">暂无内部错误码</p>
+        </details>
+      </section>
+      <section id="self-hosted-provider-section" class="provider-subsection hidden">
+        <h3>服务器映射（课程演示）</h3>
+        <p><strong>该模式依赖作者当前电脑上的服务器、SSH 隧道和私有运行环境，仅用于课程演示、验收和录制视频。将项目打包发送给其他用户后，该模式通常无法直接使用。</strong></p>
+        <p>其他用户请选择“百炼云端模型”，或在满足显存要求时选择“当前电脑本地加载”。前端不能修改服务器地址、SSH 密钥或授权配置。</p>
+        <div id="self-hosted-index-scope" class="credential-panel">
+          正在读取当前产品索引与系统 Train / Val 索引…
+        </div>
+        <div class="provider-connection-actions">
+          <button id="self-hosted-provider-test" class="quiet-button" type="button">重新检查服务器连接</button>
+          <span id="self-hosted-provider-result">尚未检查</span>
+        </div>
+      </section>
+      <div class="provider-form-actions">
+        <button id="provider-save-selection" type="submit">保存接入选择</button>
+        <button id="provider-continue-browsing" class="quiet-button" type="button">继续浏览</button>
+      </div>
+    </form>
+    <div class="provider-boundary-note">
+      Rerank 实验未接入正式产品，也不会显示在普通检索链路中。
+    </div>
+  </aside>
+
+  <div class="app-shell">
+    <aside class="asset-sidebar">
+      <div class="sidebar-title">
+        <div><span class="kicker">ASSET LIBRARY</span><h1>视觉资产</h1></div>
+        <span id="library-count" class="count-badge">0</span>
+      </div>
+      <div class="library-row">
+        <select id="library-select" aria-label="当前图片库"></select>
+        <button id="new-library" type="button" class="square-button" title="创建图片库">＋</button>
+        <button id="rename-library" type="button" class="square-button" title="重命名自定义图片库">✎</button>
+        <button id="delete-library" type="button" class="square-button" title="删除自定义图片库">−</button>
+      </div>
+      <div id="library-lock-notice" class="library-lock-notice hidden">
+        训练图片库和验证图片库为系统锁定库，不能通过本地上传修改。
+      </div>
+      <label class="import-mode-label">本地图片用途
+        <select id="import-mode">
+          <option value="custom_library">保存到当前自定义图片库</option>
+          <option value="session_only">仅临时用于当前会话</option>
+        </select>
+      </label>
+      <p id="import-mode-hint" class="import-mode-hint">
+        持久保存到项目托管存储；刷新页面或重启服务后仍可使用。
+      </p>
+      <label id="upload-button" class="upload-button" for="file-input">
+        <span>导入本地图片</span><small>JPG · PNG · WEBP</small>
+      </label>
+      <input id="file-input" type="file" accept="image/*" multiple hidden>
+      <div class="sidebar-selection-actions">
+        <small id="batch-selection-summary">当前工作区批量勾选 0 张</small>
+        <small class="selection-help">可双击图片快速加入，也可勾选后在当前工作区执行添加。</small>
+        <div id="batch-selection-toolbar" class="batch-selection-toolbar hidden" role="group" aria-label="批量选择操作">
+          <strong id="batch-selection-target">将加入 Chat</strong>
+          <button id="batch-add-selected" type="button" class="action-button primary-action">加入当前工作区</button>
+          <button id="batch-clear-selected" type="button" class="action-button quiet-button">取消选择</button>
+        </div>
+      </div>
+      <section id="provider-index-coverage" class="provider-index-coverage" aria-live="polite">
+        <strong>当前 Provider 索引</strong>
+        <span id="provider-index-coverage-summary">正在读取覆盖状态…</span>
+        <div class="provider-index-actions">
+          <button id="backfill-current-library" type="button" class="quiet-button" data-backfill-action="library">补齐当前图库索引</button>
+          <button id="backfill-all-assets" type="button" class="quiet-button" data-backfill-action="all_user_assets">补齐全部自定义资产</button>
+        </div>
+      </section>
+      <div class="search-box"><span>⌕</span><input id="asset-filter" placeholder="按数字 ID、文件名、资产 ID、主题、微标签或描述搜索"></div>
+      <div class="library-filters">
+        <select id="label-filter" aria-label="标注状态">
+          <option value="">全部标注状态</option>
+          <option value="machine_provisional">机器暂定</option>
+          <option value="pending">待标注</option>
+        </select>
+        <select id="asset-sort" aria-label="排序">
+          <option value="sequence_asc">按稳定顺序</option>
+          <option value="filename_asc">文件名升序</option>
+          <option value="filename_desc">文件名降序</option>
+        </select>
+      </div>
+      <div id="library" class="asset-list" aria-live="polite"></div>
+      <div class="library-pagination">
+        <button id="library-prev" type="button" class="quiet-button">上一页</button>
+        <span id="library-page">第 1 / 1 页</span>
+        <button id="library-next" type="button" class="quiet-button">下一页</button>
+      </div>
+      <section class="sidebar-asset-section custom-library-assets" aria-labelledby="custom-library-assets-title">
+        <div class="local-divider"><span id="custom-library-assets-title">当前自定义图片库</span><span id="local-count">0</span></div>
+        <div id="local-assets" class="asset-list compact" tabindex="0" aria-label="当前自定义图片库图片列表"></div>
+      </section>
+      <section class="sidebar-asset-section current-session-assets" aria-labelledby="current-session-assets-title">
+        <div class="local-divider"><span id="current-session-assets-title">当前会话图片</span><span id="session-count">0</span></div>
+        <div id="session-assets" class="asset-list compact" tabindex="0" aria-label="当前会话图片列表"></div>
+      </section>
+    </aside>
+
+    <main class="workspace">
+      <div id="error" class="error-banner hidden" role="alert"></div>
+      <div id="toast" class="toast-notice hidden" role="status" aria-live="polite"></div>
+
+      <section id="view-chat" class="view active">
+        <div class="view-heading">
+          <div><span class="kicker">MULTIMODAL CHAT</span><h2>围绕图片持续对话</h2><p>1-5 张图片 · 多轮上下文 · 轻量工具路由 · 可恢复会话</p></div>
+          <button id="new-conversation" type="button">新建对话</button>
+        </div>
+        <section id="chat-context-bar" class="context-bar" aria-label="Chat 图片上下文">
+          <div class="context-heading">
+            <span class="kicker">ACTIVE VISUAL CONTEXT</span>
+            <strong>Chat 上下文 <span id="context-count">0</span>/5</strong>
+          </div>
+          <div id="context-assets" class="context-assets">
+            <span class="empty-context">从左侧选择图片并加入上下文</span>
+          </div>
+          <div class="chat-context-actions">
+            <button id="chat-add-selected" type="button" class="action-button primary-action">加入当前对话</button>
+            <button id="clear-context" type="button" class="action-button quiet-button">清空未锁图片</button>
+          </div>
+        </section>
+        <div class="chat-layout">
+          <aside class="conversation-panel">
+            <div class="panel-label">对话记录</div>
+            <div id="conversation-list" class="conversation-list"></div>
+          </aside>
+          <section class="chat-panel">
+            <div class="chat-message-region">
+              <div id="chat-welcome" class="chat-welcome">
+                <div class="welcome-mark">◎</div>
+                <h3>让图片成为可追问的上下文</h3>
+                <p>可以提问、比较、生成、检索或排序。没有图片时，我只提供功能帮助，不会编造视觉答案。</p>
+                <div class="prompt-chips">
+                  <button type="button" data-prompt="分别说明这些图片里的主要内容">分别说明主体</button>
+                  <button type="button" data-prompt="比较这些图片的共同点和差异">比较共同点</button>
+                  <button type="button" data-prompt="为这些图片生成一段朋友圈文案">生成朋友圈</button>
+                </div>
+              </div>
+              <div id="chat-messages" class="chat-messages"></div>
+            </div>
+            <form id="vqa-form" class="composer">
+              <textarea id="vqa-question" placeholder="输入当前问题；也可以说“搜索相似图片”“按课程展示效果排序”" required></textarea>
+              <div class="composer-foot">
+                <span id="conversation-meta">尚未创建对话</span>
+                <button type="submit">发送</button>
+              </div>
+            </form>
+            <pre id="vqa-result" class="legacy-result" aria-hidden="true"></pre>
+          </section>
+        </div>
+      </section>
+
+      <section id="view-generate" class="view">
+        <div class="view-heading">
+          <div><span class="kicker">IMAGE TO TEXT</span><h2>多图图生文</h2><p>使用本工作区独立选图，生成自然、完整、可直接复制的中文成稿。</p></div>
+          <span class="baseline-badge candidate">CONTENT V2 · STORY V1</span>
+        </div>
+        <div class="function-workspace" data-workspace="generation">
+          <div><span class="kicker">GENERATION WORKSPACE</span><strong>生成工作区图片 <span id="generation-workspace-count">0</span>/5</strong></div>
+          <div id="generation-workspace-assets" class="workspace-assets"><span class="empty-context">尚未选择图片</span></div>
+          <div class="workspace-actions">
+            <button id="generation-add-selected" type="button" class="quiet-button">添加当前选中</button>
+            <button id="generation-import-chat" type="button" class="quiet-button">从当前 Chat 导入</button>
+            <button id="generation-clear" type="button" class="quiet-button">清空当前选择</button>
+          </div>
+        </div>
+        <div class="two-column">
+          <form id="content-form" class="control-card">
+            <div class="panel-label">生成参数</div>
+            <label>内容类型
+              <select id="content-mode">
+                <option value="auto" selected>自动识别</option>
+                <option value="objective_description">客观描述</option>
+                <option value="moments">朋友圈</option>
+                <option value="travel_diary">旅行日记</option>
+                <option value="news_caption">新闻图注</option>
+                <option value="advertisement">广告文案</option>
+                <option value="poster_title">海报标题</option>
+                <option value="poem">诗歌</option>
+                <option value="creative_story">故事创作</option>
+                <option value="article">普通文章</option>
+              </select>
+            </label>
+            <label>你想生成什么
+              <textarea id="content-request" rows="3" placeholder="例如：根据这些图片编一个有起因、转折和结尾的短故事。"></textarea>
+            </label>
+            <div class="field-pair">
+              <label>目标长度
+              <input id="content-length" type="number" min="10" max="1000" value="300">
+              <small id="content-length-help">可设置 10–1000 字</small>
+              </label>
+              <label class="weak-option">组织方式（可选）
+                <select id="content-organization">
+                  <option value="input_order">按输入顺序</option>
+                  <option value="importance">按重要性</option>
+                  <option value="chronological_if_evidenced">有证据时按时间</option>
+                  <option value="independent_panels">独立画面</option>
+                </select>
+              </label>
+            </div>
+            <button type="submit">生成内容</button>
+            <p class="form-note">风格和受众会由内容类型自动匹配；你的自然语言要求始终优先。</p>
+          </form>
+          <article class="output-card generation-output-card">
+            <div class="output-head"><div><span class="kicker">FINAL TEXT</span><strong>生成结果</strong></div><button class="quiet-button" type="button" data-copy="content-final-text">复制正文</button></div>
+            <div id="content-result" class="rich-result empty-result"><span id="content-final-text">等待生成</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="view-retrieve" class="view">
+        <div class="view-heading">
+          <div><span class="kicker">UNIFIED RETRIEVAL</span><h2>智能检索</h2><p>输入文字、加入图片，或两者同时使用；系统会自动识别检索方式。</p></div>
+          <span id="retriever-badge" class="baseline-badge">E1 CONNECTING</span>
+        </div>
+        <div class="function-workspace" data-workspace="retrieval">
+          <div><span class="kicker">RETRIEVAL WORKSPACE</span><strong>查询图片 <span id="retrieval-workspace-count">0</span>/5</strong></div>
+          <div id="retrieval-workspace-assets" class="workspace-assets"><span class="empty-context">文本检索可保持为空</span></div>
+          <div class="workspace-actions">
+            <button id="retrieval-add-selected" type="button" class="quiet-button">添加当前选中</button>
+            <button id="retrieval-import-chat" type="button" class="quiet-button">从当前 Chat 导入</button>
+            <button id="retrieval-clear" type="button" class="quiet-button">清空当前选择</button>
+          </div>
+        </div>
+        <form id="search-form" class="retrieval-form">
+          <div id="search-detected-mode" class="detected-mode">当前：请输入文字或加入查询图片</div>
+          <div class="retrieval-input">
+            <input id="search-query" placeholder="例如：安静的自然风景">
+            <select id="search-top-k" hidden><option selected>5</option></select>
+            <button type="submit">检索 Top-5</button>
+          </div>
+          <label class="weak-option">检索范围
+            <select id="search-library-scope">
+              <option value="current_library">当前图片库</option>
+              <option value="system_train">仅训练图片库</option>
+              <option value="system_val">仅验证图片库</option>
+              <option value="all_libraries" selected>所有图片库</option>
+            </select>
+          </label>
+          <label class="checkbox-line"><input id="search-exclude-query" type="checkbox" checked> 从结果中排除查询图片</label>
+          <div id="query-asset-note" class="query-note">检索工作区中的图片会自动作为查询条件。</div>
+        </form>
+        <div id="retriever-meta" class="result-summary">正在读取 Retriever 状态…</div>
+        <div id="cloud-retrieval-scope" class="result-summary hidden">当前云端检索索引：0项基础资产 + 0项用户资产</div>
+        <div id="search-summary" class="result-summary"></div>
+        <div id="search-results" class="result-grid"></div>
+      </section>
+
+      <section id="view-rank" class="view">
+        <div class="view-heading">
+          <div><span class="kicker">SELECT & RANK</span><h2>选图与排序</h2><p>用一句话说明目标，再选择最佳图片或生成完整排序。</p></div>
+          <span class="baseline-badge candidate">VLM 综合排序</span>
+        </div>
+        <div class="function-workspace" data-workspace="compare">
+          <div><span class="kicker">COMPARE WORKSPACE</span><strong>比较图片 <span id="compare-workspace-count">0</span>/5</strong></div>
+          <div id="compare-workspace-assets" class="workspace-assets"><span class="empty-context">至少选择 2 张图片</span></div>
+          <div class="workspace-actions">
+            <button id="compare-add-selected" type="button" class="quiet-button">添加当前选中</button>
+            <button id="compare-import-chat" type="button" class="quiet-button">从当前 Chat 导入</button>
+            <button id="compare-clear" type="button" class="quiet-button">清空当前选择</button>
+          </div>
+        </div>
+        <div id="compare-picker" class="rank-assets"></div>
+        <form id="compare-form" class="rank-form">
+          <textarea id="compare-instruction" placeholder="请描述你想选图的标准，例如：哪张更适合作为旅游图片？" required></textarea>
+          <div class="field-pair">
+            <label>操作
+              <select id="compare-action">
+                <option value="select">选择最佳 / Top K</option>
+                <option value="rank">完整排序</option>
+              </select>
+            </label>
+            <label id="compare-select-count-field">选择数量<input id="compare-select-count" type="number" min="1" max="5" value="1"></label>
+          </div>
+          <div class="rank-actions">
+            <button type="submit">开始选择或排序</button>
+          </div>
+        </form>
+        <div id="compare-result" class="rich-result empty-result">等待比较或排序</div>
+      </section>
+
+      <section id="view-library" class="view">
+        <div class="view-heading">
+          <div><span class="kicker">LIBRARY INSPECTOR</span><h2>图片库与资产核验</h2><p>ID、完整 SHA-256、来源、分析状态、去重和上下文绑定。</p></div>
+          <button id="analyze" type="button">生成 Canonical 标注</button>
+        </div>
+        <div class="asset-inspector">
+          <div class="preview-card">
+            <div class="asset-detail-main">
+              <div class="asset-preview-column">
+                <img id="selected-image" alt="当前选中资产">
+                <p id="selected-media-meta" class="selected-media-meta">保持原始比例预览</p>
+              </div>
+              <div class="asset-info-column">
+                <div class="preview-meta">
+                  <span class="kicker">SELECTED ASSET</span>
+                  <h3 id="selected-title" title="未选择图片">未选择图片</h3>
+                </div>
+                <div class="asset-info-block">
+                  <span class="asset-info-label">来源</span>
+                  <p id="image-meta">从左侧选择一张图片。</p>
+                </div>
+                <div class="selected-asset-actions">
+                  <button id="add-context" type="button">加入当前工作区</button>
+                  <a id="open-selected-image" class="quiet-button action-link" href="#" target="_blank" rel="noopener">查看图片</a>
+                  <button id="backfill-selected-asset" class="quiet-button" type="button">为当前图片建立索引</button>
+                  <button id="save-session-asset" class="quiet-button hidden" type="button">保存到自定义图片库</button>
+                  <button id="move-selected-asset" class="quiet-button" type="button">移动</button>
+                  <button id="delete-selected-asset" class="quiet-button" type="button">移除</button>
+                </div>
+                <section id="selected-label-summary" class="selected-label-summary">
+                  <div class="asset-info-block">
+                    <span class="asset-info-label canonical-key-label">类别</span>
+                    <div id="selected-category-tags" class="canonical-categories"><span class="empty-context">暂无类别</span></div>
+                  </div>
+                  <div class="asset-info-block">
+                    <span class="asset-info-label canonical-key-label canonical-theme-label">主题</span>
+                    <p id="selected-theme" class="asset-info-value">暂无</p>
+                  </div>
+                  <div class="asset-info-block">
+                    <span class="asset-info-label canonical-key-label">简短描述</span>
+                    <p id="selected-short-description" class="asset-info-value">暂无结构化简述。</p>
+                  </div>
+                  <div class="asset-info-block">
+                    <span class="asset-info-label canonical-key-label">微标签</span>
+                    <div id="selected-micro-tags" class="canonical-tags"><span class="empty-context">暂无</span></div>
+                  </div>
+                  <div class="asset-info-block">
+                    <span class="asset-info-label">当前 Canonical 状态</span>
+                    <p id="selected-current-status" class="canonical-state">尚未生成</p>
+                    <p id="selected-canonical-message" class="canonical-user-message">选择自定义图片后可以生成 Canonical 标注。</p>
+                  </div>
+                </section>
+              </div>
+            </div>
+            <details id="selected-label-details" class="canonical-details">
+              <summary>标注详情</summary>
+              <dl id="selected-label-detail-fields" class="field-grid"><dd>暂无</dd></dl>
+            </details>
+            <details class="asset-developer-details developer-only">
+              <summary>开发者信息</summary>
+              <dl id="selected-developer-fields" class="field-grid"><dd>暂无</dd></dl>
+            </details>
+          </div>
+        </div>
+        <section id="canonical-preview-panel" class="canonical-preview-panel hidden">
+          <div class="canonical-preview-heading">
+            <div>
+              <span class="kicker">CANONICAL PSEUDO-LABEL PREVIEW</span>
+              <h3>Canonical 伪标注示例</h3>
+              <p>展示若干代表性图片及其系统自动生成的 Canonical 伪标注结果。</p>
+            </div>
+            <span id="canonical-preview-count" class="baseline-badge candidate">0 张</span>
+          </div>
+          <div class="candidate-notice">以下内容用于展示代表性图片的自动伪标注效果，结果可继续核验与完善。</div>
+          <div id="canonical-preview-grid" class="canonical-preview-grid"></div>
+        </section>
+      </section>
+
+      <section id="view-history" class="view">
+        <div class="view-heading">
+          <div><span class="kicker">OBSERVABILITY</span><h2>历史、Trace 与系统状态</h2><p>真实运行身份、可恢复状态和已知能力边界。</p></div>
+          <div><a class="export-link" href="/exports/history?format=json" target="_blank">导出 JSON</a><button id="load-history" type="button">刷新</button></div>
+        </div>
+        <div id="system-status" class="status-grid"></div>
+        <div class="history-layout">
+          <div><div class="panel-label">最近请求</div><div id="history-result" class="history-list"></div></div>
+          <div class="boundary-card">
+            <span class="kicker">BOUNDARIES</span>
+            <h3>本阶段明确边界</h3>
+            <ul>
+              <li>Prompt Suite V1 保持冻结。</li>
+              <li>默认检索为冻结预训练 E1 Embedding + CPU Faiss，R0 仅作显式回退。</li>
+              <li>排序不是训练后的 Reranker。</li>
+              <li>不读取 Val / Test / Blind。</li>
+              <li>不训练，不导入完整 Train-2000。</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <footer class="trace-bar developer-only">
+        <span>Latest Trace</span><code id="trace-result">暂无请求</code>
+        <span id="prompt-state">Suite V1 frozen · Phase 5.4 Router/Profile Candidates</span>
+      </footer>
+    </main>
+  </div>
+  <dialog id="index-backfill-dialog" class="index-backfill-dialog" role="dialog" aria-modal="true" aria-labelledby="index-backfill-title">
+    <form method="dialog" class="index-backfill-card">
+      <div class="index-backfill-head">
+        <div><span class="kicker">PROVIDER INDEX COVERAGE</span><h3 id="index-backfill-title">索引补齐</h3></div>
+        <button id="index-backfill-close" value="cancel" class="quiet-button" aria-label="关闭索引补齐面板">关闭</button>
+      </div>
+      <p id="index-backfill-message"></p>
+      <dl id="index-backfill-details" class="field-grid"></dl>
+      <details class="index-backfill-technical developer-only">
+        <summary>技术详情</summary>
+        <dl id="index-backfill-technical-details" class="field-grid"></dl>
+      </details>
+      <div id="index-backfill-progress" class="index-backfill-progress hidden" role="status" aria-live="polite"></div>
+      <div class="index-backfill-actions">
+        <button id="index-backfill-confirm" type="button">立即补齐</button>
+        <button id="index-backfill-later" value="cancel" class="quiet-button">稍后处理</button>
+        <button id="index-backfill-cancel-task" type="button" class="quiet-button hidden">取消任务</button>
+      </div>
+    </form>
+  </dialog>
+  <script src="/static/course.js?v=phase7_7_f" defer></script>
+</body>
+</html>

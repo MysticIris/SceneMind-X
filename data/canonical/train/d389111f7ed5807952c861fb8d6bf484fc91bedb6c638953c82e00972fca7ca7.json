@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:469.jpg",
+    "relative_path": "train/469.jpg",
+    "sha256": "d389111f7ed5807952c861fb8d6bf484fc91bedb6c638953c82e00972fca7ca7",
+    "split": "train"
+  },
+  "canonical_sha256": "367371783b8906bd9db24468b58946fe71cda0e460a190f08b50858cc23eeec9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "冷藏柜",
+      "瓶装饮料",
+      "超市货架"
+    ],
+    "short_description": "超市冷藏柜内陈列多种瓶装饮料，包括冰红茶、劲凉、蜜柚子等，货架整齐，灯光照明。",
+    "theme": "饮料冷藏柜"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "冷藏柜为双开门设计，玻璃门透光。",
+      "货架上整齐排列着多种瓶装饮料。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "透明玻璃门",
+      "多层货架",
+      "内置照明"
+    ],
+    "relations": [
+      "饮料瓶放置于冷藏柜货架上。"
+    ],
+    "scene": "超市冷藏展示区",
+    "subjects": [
+      "饮料瓶",
+      "冷藏柜"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "冷藏柜为双开门设计，玻璃门透光；货架上整齐排列着多种瓶装饮料。",
+    "safe_facts": [
+      "冷藏柜为双开门设计，玻璃门透光。",
+      "货架上整齐排列着多种瓶装饮料。"
+    ]
+  },
+  "label_id": "cpl_478af972294da3bc5d8b36d6",
+  "provenance": {
+    "generated_at": "2026-08-03T11:09:46.374451+00:00",
+    "migrated_at": "2026-08-03T11:09:46.376285+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "51a89415b9706e4f191720552e9813b38e4ea0176bb95ffdefe9e671bf5137ae",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d4276e788d7ee94153beefad",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:09:46.376487+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d4276e788d7ee94153beefad"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

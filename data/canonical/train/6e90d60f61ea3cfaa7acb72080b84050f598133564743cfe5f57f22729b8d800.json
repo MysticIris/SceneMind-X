@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:163.jpg",
+    "relative_path": "train/163.jpg",
+    "sha256": "6e90d60f61ea3cfaa7acb72080b84050f598133564743cfe5f57f22729b8d800",
+    "split": "train"
+  },
+  "canonical_sha256": "cc667b4d8bc07af933f8f93e4d99406b19a88323d5f6ab1e2dd9f04116bf37b1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "木栈道",
+      "沙丘",
+      "海滩",
+      "日落或日出"
+    ],
+    "short_description": "一条木质栈道穿过沙丘，延伸至海边，天空云层丰富，光线柔和。",
+    "theme": "木栈道通向海滩"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空中的云层被阳光照亮，可能处于日出或日落时段。"
+    ],
+    "direct_observations": [
+      "画面中央有一条由木板构成的阶梯式栈道。",
+      "栈道两侧有木制栏杆，周围环绕着长草覆盖的沙丘。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质结构",
+      "沙丘覆盖草丛",
+      "天空多云",
+      "海面平静"
+    ],
+    "relations": [
+      "栈道位于沙丘之上。",
+      "栈道通向海洋。"
+    ],
+    "scene": "沙滩与沙丘景观",
+    "subjects": [
+      "木制栈道",
+      "沙丘",
+      "天空",
+      "海洋"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空中的云层被阳光照亮，可能处于日出或日落时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一条由木板构成的阶梯式栈道；栈道两侧有木制栏杆，周围环绕着长草覆盖的沙丘。",
+    "safe_facts": [
+      "画面中央有一条由木板构成的阶梯式栈道。",
+      "栈道两侧有木制栏杆，周围环绕着长草覆盖的沙丘。"
+    ]
+  },
+  "label_id": "cpl_ab0d800c260abb8f8915a759",
+  "provenance": {
+    "generated_at": "2026-08-03T10:07:52.893155+00:00",
+    "migrated_at": "2026-08-03T10:07:52.894557+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8995feadce3f0a5c22c00da993eb7f515568b8120d19f0a138d30372b7974fe0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_02fb5a36ee7aaaa339273750",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:07:52.895284+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_02fb5a36ee7aaaa339273750"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

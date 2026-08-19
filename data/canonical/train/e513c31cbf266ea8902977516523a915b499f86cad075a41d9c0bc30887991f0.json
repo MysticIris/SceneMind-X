@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:195.jpg",
+    "relative_path": "train/195.jpg",
+    "sha256": "e513c31cbf266ea8902977516523a915b499f86cad075a41d9c0bc30887991f0",
+    "split": "train"
+  },
+  "canonical_sha256": "70762b50169a37d2721653d6b80b4e22128528390f277713d1d757401ea8645a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "火星车模型",
+      "太阳能板",
+      "模拟火星地形"
+    ],
+    "short_description": "火星车模型陈列于模拟火星地貌展台上，配备太阳能板与机械臂，背景为屏幕显示的火星景观。",
+    "theme": "火星探测车展品"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像中可见一个火星车模型，其两侧展开太阳能板。",
+      "模型下方地面呈现红褐色岩石状纹理，模拟火星地貌。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "带太阳能板",
+      "有机械臂",
+      "置于模拟火星地表"
+    ],
+    "relations": [
+      "火星车模型位于模拟火星地形之上。"
+    ],
+    "scene": "室内展览环境",
+    "subjects": [
+      "火星车模型"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像中可见一个火星车模型，其两侧展开太阳能板；模型下方地面呈现红褐色岩石状纹理，模拟火星地貌。",
+    "safe_facts": [
+      "图像中可见一个火星车模型，其两侧展开太阳能板。",
+      "模型下方地面呈现红褐色岩石状纹理，模拟火星地貌。"
+    ]
+  },
+  "label_id": "cpl_a9a66d2782439b96afb9145a",
+  "provenance": {
+    "generated_at": "2026-08-03T10:14:16.366704+00:00",
+    "migrated_at": "2026-08-03T10:14:16.368845+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2576e419bc958b47492781e48ba052c79a74e284b00d07d00ffab1a12b519243",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_810ee5c246a2e8fa97b0a4fc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:14:16.369106+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_810ee5c246a2e8fa97b0a4fc"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:791.jpg",
+    "relative_path": "train/791.jpg",
+    "sha256": "6aa53826af8fb6bc3d8464120ac2ec943f1178c64b2a419589a7cdaf6f637997",
+    "split": "train"
+  },
+  "canonical_sha256": "d6a2f001721bb7676fb7282cd60008a7596254911088341f232072be7330570d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "灯光装饰",
+      "高楼大厦"
+    ],
+    "short_description": "现代都市街道上空悬挂着黄色灯笼和发光线条装置，两侧高楼林立，地面湿润反光。",
+    "theme": "城市夜景灯光装饰"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天空呈蓝色，有多个黄色灯笼悬挂在空中。",
+      "街道两侧是高层建筑，地面有水渍反光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黄色灯笼",
+      "发光线条装置",
+      "玻璃幕墙建筑",
+      "湿润地面"
+    ],
+    "relations": [
+      "灯笼悬挂在空中。",
+      "发光线条装置连接灯笼。",
+      "高楼建筑位于街道两侧。"
+    ],
+    "scene": "城市商业街区",
+    "subjects": [
+      "悬挂的灯笼",
+      "发光线条装置",
+      "高楼建筑",
+      "街道地面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈蓝色，有多个黄色灯笼悬挂在空中；街道两侧是高层建筑，地面有水渍反光。",
+    "safe_facts": [
+      "天空呈蓝色，有多个黄色灯笼悬挂在空中。",
+      "街道两侧是高层建筑，地面有水渍反光。"
+    ]
+  },
+  "label_id": "cpl_55d2ce3fd7da31493dd807fe",
+  "provenance": {
+    "generated_at": "2026-08-03T12:24:15.443942+00:00",
+    "migrated_at": "2026-08-03T12:24:15.446882+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2cd5032ddb38f733d59fa5e8f1a13e66d8071b195eac990ea5390ba0b5a03d7e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6c5e2b59fca043b3c2367ccf",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:24:15.447233+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6c5e2b59fca043b3c2367ccf"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

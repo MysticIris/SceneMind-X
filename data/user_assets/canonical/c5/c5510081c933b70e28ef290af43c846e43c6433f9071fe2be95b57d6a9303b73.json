@@ -1,0 +1,140 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_edc7361e5e37f2046ebaebc5",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_eda9108d09fcd8831b75cbfb"
+  ],
+  "asset": {
+    "asset_id": "c5510081c933b70e",
+    "sha256": "c5510081c933b70e28ef290af43c846e43c6433f9071fe2be95b57d6a9303b73",
+    "split": "user_custom",
+    "relative_path": "user_assets/c5/c5510081c933b70e28ef290af43c846e43c6433f9071fe2be95b57d6a9303b73/c5510081c933b70e28ef290af43c846e43c6433f9071fe2be95b57d6a9303b73.png"
+  },
+  "display": {
+    "theme": "留学申请方案列表",
+    "short_description": "这是一张手机应用截图，展示了“指南者留学”APP中的硕士留学申请方案详情。页面以列表形式呈现了宾夕法尼亚大学、约翰霍普金斯大学、哥伦比亚大学等多所名校的机器人、计算机及人工智能相关专业，包含QS排名、学费及入学时间等信息，底部设有顾问联系方式。",
+    "micro_tags": [
+      "留学申请",
+      "硕士项目",
+      "院校列表",
+      "QS排名",
+      "计算机科学",
+      "机器人学",
+      "移动端界面"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "移动端应用程序界面",
+    "subjects": [
+      "留学方案列表",
+      "大学校徽",
+      "专业名称文本",
+      "底部咨询按钮"
+    ],
+    "actions": [],
+    "attributes": [
+      "白底蓝头设计",
+      "列表式布局",
+      "包含多所高校信息",
+      "显示QS排名标签"
+    ],
+    "relations": [
+      "每个列表项左侧为校徽，右侧为学校及专业详情。",
+      "底部悬浮栏包含顾问头像及操作按钮。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "屏幕顶部标题栏显示文字“指南者留学”，下方有两个选项卡“方案详情”和“专业对比”，其中“方案详情”处于选中高亮状态。",
+      "列表中包含宾夕法尼亚大学(QS第15名)、约翰霍普金斯大学(QS第24名)、哥伦比亚大学(QS第38名)等条目，均标记有蓝色的“主申”标签。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "指南者留学",
+      "方案详情",
+      "专业对比",
+      "宾夕法尼亚大学",
+      "QS第15名",
+      "机器人学硕士"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "指南者留学",
+      "方案详情",
+      "专业对比",
+      "宾夕法尼亚大学",
+      "QS第15名",
+      "机器人学硕士"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "屏幕顶部标题栏显示文字“指南者留学”，下方有两个选项卡“方案详情”和“专业对比”，其中“方案详情”处于选中高亮状态；列表中包含宾夕法尼亚大学(QS第15名)、约翰霍普金斯大学(QS第24名)、哥伦比亚大学(QS第38名)等条目，均标记有蓝色的“主申”标签。",
+    "safe_facts": [
+      "屏幕顶部标题栏显示文字“指南者留学”，下方有两个选项卡“方案详情”和“专业对比”，其中“方案详情”处于选中高亮状态。",
+      "列表中包含宾夕法尼亚大学(QS第15名)、约翰霍普金斯大学(QS第24名)、哥伦比亚大学(QS第38名)等条目，均标记有蓝色的“主申”标签。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_0e99988d-4458-4a3b-866f-c905317449a9",
+    "generated_at": "2026-08-12T03:08:30.739093+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "0e400ee78dfb33060c10df7e44e96291de6521a608b8a023fbdece8eac57021f",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:08:30.740357+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_eda9108d09fcd8831b75cbfb",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:08:30.740959+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "3e6bab136eafeef793120938b11c1e818cf89afa39629ffb0134335dde332880"
+}

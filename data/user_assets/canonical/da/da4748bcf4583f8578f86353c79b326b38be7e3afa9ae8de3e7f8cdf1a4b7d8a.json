@@ -1,0 +1,144 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_d62604135e0f3181000ad7b6",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_d57ec3bbe5eff39bd41515b3"
+  ],
+  "asset": {
+    "asset_id": "da4748bcf4583f85",
+    "sha256": "da4748bcf4583f8578f86353c79b326b38be7e3afa9ae8de3e7f8cdf1a4b7d8a",
+    "split": "user_custom",
+    "relative_path": "user_assets/da/da4748bcf4583f8578f86353c79b326b38be7e3afa9ae8de3e7f8cdf1a4b7d8a/da4748bcf4583f8578f86353c79b326b38be7e3afa9ae8de3e7f8cdf1a4b7d8a.jpg"
+  },
+  "display": {
+    "theme": "电竞选手巨幅海报展示",
+    "short_description": "一张拍摄于夜间的大型户外LED屏幕照片。屏幕上显示着一位身穿红白配色队服的年轻男性电竞选手肖像，他留着浅色短发并做出手指向上的手势。画面左侧有巨大的“iQOO FMVP”字样，底部标有选手名字，背景为深蓝色科技感光效。",
+    "micro_tags": [
+      "电竞",
+      "FMVP",
+      "巨型屏幕",
+      "人物肖像",
+      "夜景",
+      "战队队服"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "夜间户外大型电子显示屏前",
+    "subjects": [
+      "电子屏幕上的男性人物"
+    ],
+    "actions": [
+      "人物举起右手食指指向上方",
+      "人物注视前方"
+    ],
+    "attributes": [
+      "浅金色短发",
+      "红白相间运动外套",
+      "深色背景",
+      "蓝色光束特效",
+      "红色顶部装饰灯带"
+    ],
+    "relations": [
+      "人物位于屏幕右侧。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "屏幕左侧显示有清晰的白色英文单词“iQOO”和“FMVP”。",
+      "屏幕右下角有一个长条形名牌，上面写着中文“一诺(徐必成)”。",
+      "屏幕左上角有一排较小的标志和文字，包含“2025”、“王者荣耀”等字样。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法确定屏幕上方远处模糊的灯光具体属于什么建筑或设施。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "iQOO",
+      "FMVP",
+      "一诺(徐必成)",
+      "电竞北京2025",
+      "王者荣耀",
+      "AG"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "iQOO",
+      "FMVP",
+      "一诺(徐必成)",
+      "电竞北京2025",
+      "王者荣耀",
+      "AG"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "屏幕左侧显示有清晰的白色英文单词“iQOO”和“FMVP”；屏幕右下角有一个长条形名牌，上面写着中文“一诺(徐必成)”。",
+    "safe_facts": [
+      "屏幕左侧显示有清晰的白色英文单词“iQOO”和“FMVP”。",
+      "屏幕右下角有一个长条形名牌，上面写着中文“一诺(徐必成)”。",
+      "屏幕左上角有一排较小的标志和文字，包含“2025”、“王者荣耀”等字样。"
+    ],
+    "do_not_assert": [
+      "无法确定屏幕上方远处模糊的灯光具体属于什么建筑或设施。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_2e751073-ff42-47ba-8bf7-1b29be929442",
+    "generated_at": "2026-08-12T03:05:03.226654+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "2b26eb36c95f3c21c6a6af90769927aff9b19fc79ed0f5aa1e662997770c0e15",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:05:03.227723+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_d57ec3bbe5eff39bd41515b3",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:05:03.228279+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "9f161ac44af060bc958d7f74ce5118f545a1801466628cbc4a80f0ca026ce7b1"
+}

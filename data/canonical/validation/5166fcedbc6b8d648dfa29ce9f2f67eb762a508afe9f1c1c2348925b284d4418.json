@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2227.jpg",
+    "relative_path": "val/2227.jpg",
+    "sha256": "5166fcedbc6b8d648dfa29ce9f2f67eb762a508afe9f1c1c2348925b284d4418",
+    "split": "val"
+  },
+  "canonical_sha256": "fc4349dbf6e5a5f616b62f3e9758fa5e01188cfde1a48ac14a4421b8cb7b7589",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电路板",
+      "发光元件",
+      "测试探针"
+    ],
+    "short_description": "双手正用探针测试一块发光的电路板，板上图案呈灯笼状并亮起橙色光点。",
+    "theme": "电子元件测试"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "双手持红色和黑色探针接触电路板上的元件。",
+      "电路板上有多个发光的橙色光点构成图案。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "测试",
+      "接触"
+    ],
+    "attributes": [
+      "发光",
+      "橙色光点",
+      "黑色底板"
+    ],
+    "relations": [
+      "双手操作探针接触电路板。"
+    ],
+    "scene": "桌面环境",
+    "subjects": [
+      "双手",
+      "电路板",
+      "测试探针"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "双手持红色和黑色探针接触电路板上的元件；电路板上有多个发光的橙色光点构成图案。",
+    "safe_facts": [
+      "双手持红色和黑色探针接触电路板上的元件。",
+      "电路板上有多个发光的橙色光点构成图案。"
+    ]
+  },
+  "label_id": "cpl_01285365e3cc1463d55237b4",
+  "provenance": {
+    "generated_at": "2026-08-03T16:15:14.772059+00:00",
+    "migrated_at": "2026-08-03T16:15:14.773644+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "50a7af6d244c1b3ce20f7fbf1a5e95a60dc501016b373000b90abd6f15f7b15b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_38916bf6667cf2c1d8885e0a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:15:14.773845+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_38916bf6667cf2c1d8885e0a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

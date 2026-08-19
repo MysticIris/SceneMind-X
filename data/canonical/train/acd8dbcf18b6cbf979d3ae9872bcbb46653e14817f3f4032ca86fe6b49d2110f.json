@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1212.jpg",
+    "relative_path": "train/1212.jpg",
+    "sha256": "acd8dbcf18b6cbf979d3ae9872bcbb46653e14817f3f4032ca86fe6b49d2110f",
+    "split": "train"
+  },
+  "canonical_sha256": "ddf6bf29f60553520824db29765cb0e82c05783b3f58781efd1d51f175447e4b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "卡通狼",
+      "叼着圆物"
+    ],
+    "short_description": "一只灰白相间的卡通狼，尾巴蓬松，嘴叼着一个黄色圆形物体，表情愉快。",
+    "theme": "卡通动物形象"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现卡通风格的狼形角色。",
+      "狼的尾巴粗大且蓬松。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "叼着"
+    ],
+    "attributes": [
+      "灰白色毛发",
+      "蓬松尾巴",
+      "黄色圆形物体"
+    ],
+    "relations": [],
+    "scene": "",
+    "subjects": [
+      "卡通狼"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现卡通风格的狼形角色；狼的尾巴粗大且蓬松。",
+    "safe_facts": [
+      "图像呈现卡通风格的狼形角色。",
+      "狼的尾巴粗大且蓬松。"
+    ]
+  },
+  "label_id": "cpl_f8ff684f74a03160d73fef4c",
+  "provenance": {
+    "generated_at": "2026-08-03T13:54:04.836799+00:00",
+    "migrated_at": "2026-08-03T13:54:04.840632+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9aeb26bcc68e1d0a1bd41e795f3b8c07a316f96a67c395a6244b9d06b43a3dfd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_71272dd0c0ee62da45c1425c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:54:04.841245+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_71272dd0c0ee62da45c1425c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "西伯利亚大尾巴狼"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "西伯利亚大尾巴狼"
+    ]
+  }
+}

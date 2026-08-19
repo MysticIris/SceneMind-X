@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:65.jpg",
+    "relative_path": "train/65.jpg",
+    "sha256": "59d04fd7fb678a8de1e65b96ede68674b79418116ddb500b7e790e7bb18184e5",
+    "split": "train"
+  },
+  "canonical_sha256": "b82360da1514dac70520123c224796364950985a4eb6358d1f91deecc099eaa2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夕阳",
+      "湖边",
+      "树荫",
+      "长椅",
+      "散步"
+    ],
+    "short_description": "夕阳透过枝叶洒在湖面，两人静坐长椅，一人缓步走过，树影婆娑，光影斑驳。",
+    "theme": "湖畔黄昏树影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "树冠遮挡部分天空，形成剪影效果。"
+    ],
+    "direct_observations": [
+      "太阳位于画面右上方，光线穿过树枝形成光束。",
+      "水面反射阳光，呈现金色波纹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "坐着",
+      "行走"
+    ],
+    "attributes": [
+      "夕阳",
+      "树影",
+      "水面反光"
+    ],
+    "relations": [
+      "人与长椅。",
+      "人与树。"
+    ],
+    "scene": "湖边公园",
+    "subjects": [
+      "两人坐在长椅上",
+      "一人行走"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "树冠遮挡部分天空，形成剪影效果。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "太阳位于画面右上方，光线穿过树枝形成光束；水面反射阳光，呈现金色波纹。",
+    "safe_facts": [
+      "太阳位于画面右上方，光线穿过树枝形成光束。",
+      "水面反射阳光，呈现金色波纹。"
+    ]
+  },
+  "label_id": "cpl_771513a8c23561905b354360",
+  "provenance": {
+    "generated_at": "2026-08-03T09:18:01.117673+00:00",
+    "migrated_at": "2026-08-03T09:18:01.119150+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "45f72f44a596a4631c347df8d776eb7516eec3ca1b5604d3b49728247fd64ad4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5aaf5375cd5bd89454ac8813",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:27.760730+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5aaf5375cd5bd89454ac8813",
+    "cpl_219b7ad2c8147fa2fa7b3077"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

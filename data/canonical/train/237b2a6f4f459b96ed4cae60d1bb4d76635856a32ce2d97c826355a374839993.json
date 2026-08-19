@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:291.jpg",
+    "relative_path": "train/291.jpg",
+    "sha256": "237b2a6f4f459b96ed4cae60d1bb4d76635856a32ce2d97c826355a374839993",
+    "split": "train"
+  },
+  "canonical_sha256": "501f9bf7792d15cf964da396007fe1150df4e70700de4ff51bdda6bd83687c03",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "教室",
+      "显示屏",
+      "讲台"
+    ],
+    "short_description": "一间配备多屏显示和控制台的现代化教室，墙上投影着数据图表，前方有讲台。",
+    "theme": "教学控制室"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "房间内有多个电子屏幕显示信息。",
+      "讲台上放置有麦克风和设备。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色墙面",
+      "白色桌面",
+      "黑色天花板",
+      "多台电脑显示器"
+    ],
+    "relations": [
+      "讲台位于房间左侧。",
+      "显示器放置于桌面上。",
+      "投影屏幕挂在墙面上。"
+    ],
+    "scene": "室内教学或控制环境",
+    "subjects": [
+      "人",
+      "显示器",
+      "讲台",
+      "投影屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "房间内有多个电子屏幕显示信息；讲台上放置有麦克风和设备。",
+    "safe_facts": [
+      "房间内有多个电子屏幕显示信息。",
+      "讲台上放置有麦克风和设备。"
+    ]
+  },
+  "label_id": "cpl_0faa01a05d95ca437fd78be3",
+  "provenance": {
+    "generated_at": "2026-08-03T10:33:17.163325+00:00",
+    "migrated_at": "2026-08-03T10:33:17.165229+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d8e1dc137b3245aabb084a3bd3b4198e6ee9411b732747715768e28fb2b32ca3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_109561cd868bc2090febdb89",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:33:17.165457+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_109561cd868bc2090febdb89"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

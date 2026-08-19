@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1151.jpg",
+    "relative_path": "train/1151.jpg",
+    "sha256": "316da551056f8555b60b5f3622457b44abd27ae6b6a5aeb8e56c976d2822ab2d",
+    "split": "train"
+  },
+  "canonical_sha256": "1950216c364ced2391a3b8eeb185896b99e0cb2f2ab51e8b87c563a8cf8246a6",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古代玉器",
+      "博物馆展品"
+    ],
+    "short_description": "一对陈列于展台上，造型古朴，色泽温润，背景深色衬托其精致工艺。",
+    "theme": "古代玉器"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两件玉佩呈对称摆放，均为龙形雕刻。",
+      "玉佩置于黑色支架上，背景为深灰色展墙。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "雕刻精细",
+      "呈浅黄色",
+      "立体造型"
+    ],
+    "relations": [
+      "玉佩被支架支撑。"
+    ],
+    "scene": "博物馆展柜内",
+    "subjects": [],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两件玉佩呈对称摆放，均为龙形雕刻；玉佩置于黑色支架上，背景为深灰色展墙。",
+    "safe_facts": [
+      "两件玉佩呈对称摆放，均为龙形雕刻。",
+      "玉佩置于黑色支架上，背景为深灰色展墙。"
+    ]
+  },
+  "label_id": "cpl_ab66fcab946e24d19592ca8e",
+  "provenance": {
+    "generated_at": "2026-08-03T13:46:01.547867+00:00",
+    "migrated_at": "2026-08-03T13:46:01.551770+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "275083b3f32e0444700272ff4437d63e231f7100530b07cde945b33674b97ec3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_72aeb9f5bfebf94ddd9d873b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:46:01.554186+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_subjects_empty",
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_72aeb9f5bfebf94ddd9d873b"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "龙形玉佩",
+      "Jade pendants in the shape of a dragon"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "龙形玉佩",
+      "Jade pendants in the shape of a dragon"
+    ]
+  }
+}

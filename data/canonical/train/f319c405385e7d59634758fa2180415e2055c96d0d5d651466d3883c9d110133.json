@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:417.jpg",
+    "relative_path": "train/417.jpg",
+    "sha256": "f319c405385e7d59634758fa2180415e2055c96d0d5d651466d3883c9d110133",
+    "split": "train"
+  },
+  "canonical_sha256": "3f2c202ee6cd864e0ff7949819638a283c454aa63fe3133b22fb6af3697b7580",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "户外烧烤",
+      "夜间聚会",
+      "朋友聚餐"
+    ],
+    "short_description": "夜晚户外帐篷下，多人围坐烧烤，烟雾缭绕，气氛轻松。",
+    "theme": "户外烧烤聚会"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能是在进行社交活动。",
+      "看起来像是朋友或同事间的聚会。"
+    ],
+    "direct_observations": [
+      "画面中有多个穿着休闲服装的年轻人聚集在帐篷下。",
+      "有人正在操作烧烤架，周围有食物和餐具。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "烤肉",
+      "坐着",
+      "站立",
+      "吃东西"
+    ],
+    "attributes": [
+      "夜晚",
+      "有烟雾",
+      "有遮阳篷"
+    ],
+    "relations": [
+      "人与烧烤架相邻。",
+      "人与椅子相对。",
+      "食物与容器放置在一起。"
+    ],
+    "scene": "夜间户外帐篷下的烧烤区域",
+    "subjects": [
+      "多名年轻人",
+      "烧烤架",
+      "木椅",
+      "食物容器"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能是在进行社交活动。",
+      "看起来像是朋友或同事间的聚会。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个穿着休闲服装的年轻人聚集在帐篷下；有人正在操作烧烤架，周围有食物和餐具。",
+    "safe_facts": [
+      "画面中有多个穿着休闲服装的年轻人聚集在帐篷下。",
+      "有人正在操作烧烤架，周围有食物和餐具。"
+    ]
+  },
+  "label_id": "cpl_e8fe186df0820bcecb3b648e",
+  "provenance": {
+    "generated_at": "2026-08-03T10:59:04.619103+00:00",
+    "migrated_at": "2026-08-03T10:59:04.621083+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "291fb79e6272e94f24699baf5e91a6a74171c56ab0d52cb50ce52d6b1e77225d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5f23d9b2cfe25211f1f0e63f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:59:04.621298+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5f23d9b2cfe25211f1f0e63f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

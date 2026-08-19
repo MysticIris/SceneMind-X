@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:197.jpg",
+    "relative_path": "train/197.jpg",
+    "sha256": "f856085df570a3ebca979321de5538481e9848748c1c8ea4f347ec77753d712e",
+    "split": "train"
+  },
+  "canonical_sha256": "1c86bc6227c91064ca63a99c9adac37abf491ffaf47732c3021ee7a67c9c240d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "地铁显示屏",
+      "扬州宣传",
+      "山水画背景"
+    ],
+    "short_description": "地铁车厢显示屏上播放扬州旅游宣传片，背景为暖色调山水画，配有书法字体标题及副标题。",
+    "theme": "地铁站内宣传画面"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕顶部显示地铁线路信息和时间日期。",
+      "屏幕中央区域呈现带有书法字样的宣传画面。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "暖色调背景",
+      "书法字体"
+    ],
+    "relations": [],
+    "scene": "地铁车厢内的电子显示屏",
+    "subjects": [
+      "显示屏",
+      "宣传画面"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕顶部显示地铁线路信息和时间日期；屏幕中央区域呈现带有书法字样的宣传画面。",
+    "safe_facts": [
+      "屏幕顶部显示地铁线路信息和时间日期。",
+      "屏幕中央区域呈现带有书法字样的宣传画面。"
+    ]
+  },
+  "label_id": "cpl_6674ab6c26457343e76c9dfd",
+  "provenance": {
+    "generated_at": "2026-08-02T22:33:49.585530+00:00",
+    "migrated_at": "2026-08-03T07:13:41.973278+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bd23f94457743fda56b4763717a0342ee34f38548d38a5b21906298f38116d8a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1e50f0a19cf162dfe8b6b12e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:14:50.306133+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1e50f0a19cf162dfe8b6b12e",
+    "cpl_147765342d92102393ccfc2f"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "M 2号线 Line 2",
+      "2023年12月30日 星期六 15:19:34",
+      "开往武汉东站方向 当前站广埠屯",
+      "冬游扬州",
+      "“食”“泉”十美"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "M 2号线 Line 2",
+      "2023年12月30日 星期六 15:19:34",
+      "开往武汉东站方向 当前站广埠屯",
+      "冬游扬州",
+      "“食”“泉”十美"
+    ]
+  }
+}

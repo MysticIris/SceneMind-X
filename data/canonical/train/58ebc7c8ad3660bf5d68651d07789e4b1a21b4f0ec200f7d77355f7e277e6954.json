@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1045.jpg",
+    "relative_path": "train/1045.jpg",
+    "sha256": "58ebc7c8ad3660bf5d68651d07789e4b1a21b4f0ec200f7d77355f7e277e6954",
+    "split": "train"
+  },
+  "canonical_sha256": "58642eef9436efa1c449a60588146bada6931eb1b7f44309acde2d1a4b35cf63",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "橙色花朵",
+      "喇叭花",
+      "树上花簇"
+    ],
+    "short_description": "阳光下橙色喇叭状花朵密集绽放于枝头，背景绿叶模糊，色彩鲜艳。",
+    "theme": "橙色花簇"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "花朵可能处于盛放期。"
+    ],
+    "direct_observations": [
+      "画面中可见多簇橙色喇叭形花朵聚集在树枝上。",
+      "背景呈现绿色叶片与蓝色天空，景深较浅。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "橙色",
+      "喇叭状",
+      "密集",
+      "阳光照射"
+    ],
+    "relations": [
+      "花朵生长在树枝上。"
+    ],
+    "scene": "户外植物特写",
+    "subjects": [
+      "橙色花朵",
+      "树枝"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "花朵可能处于盛放期。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见多簇橙色喇叭形花朵聚集在树枝上；背景呈现绿色叶片与蓝色天空，景深较浅。",
+    "safe_facts": [
+      "画面中可见多簇橙色喇叭形花朵聚集在树枝上。",
+      "背景呈现绿色叶片与蓝色天空，景深较浅。"
+    ]
+  },
+  "label_id": "cpl_64b4658b035c50a3fde08481",
+  "provenance": {
+    "generated_at": "2026-08-03T13:28:01.909362+00:00",
+    "migrated_at": "2026-08-03T13:28:01.913925+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5b892c960544f09174c8819cb48bcb3c01d38bffd1c42fe5a78c4173a022c4bf",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fa8db24318231ca5bf45038b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:28:01.914299+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fa8db24318231ca5bf45038b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

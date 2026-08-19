@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1951.jpg",
+    "relative_path": "train/1951.jpg",
+    "sha256": "65cf13d85e8180a33078140d6b0e5a868ad73af43e5aff8cf0939ecdb998e322",
+    "split": "train"
+  },
+  "canonical_sha256": "0ada9705416bd06f2267e48d5b7970fe5addce3d3c90cac33447d2235d0b8c2e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城堡",
+      "游客",
+      "户外",
+      "童话主题"
+    ],
+    "short_description": "人群聚集在一座卡通风格城堡前，城堡有红顶白墙，周围绿树环绕，天空晴朗。",
+    "theme": "童话城堡入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多个成年人和儿童在城堡入口处活动。",
+      "城堡建筑具有白色墙体、蓝色屋顶和红色尖顶。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "站立",
+      "聚集"
+    ],
+    "attributes": [
+      "卡通风格",
+      "晴朗天气",
+      "多层塔楼",
+      "红色尖顶"
+    ],
+    "relations": [
+      "游客在城堡前。",
+      "城堡被树木环绕。"
+    ],
+    "scene": "公园或游乐场入口",
+    "subjects": [
+      "游客",
+      "城堡建筑",
+      "树木",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个成年人和儿童在城堡入口处活动；城堡建筑具有白色墙体、蓝色屋顶和红色尖顶。",
+    "safe_facts": [
+      "画面中有多个成年人和儿童在城堡入口处活动。",
+      "城堡建筑具有白色墙体、蓝色屋顶和红色尖顶。"
+    ]
+  },
+  "label_id": "cpl_e6fae45b4997e9d97c111a07",
+  "provenance": {
+    "generated_at": "2026-08-03T15:25:51.041820+00:00",
+    "migrated_at": "2026-08-03T15:25:51.043335+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f14db5a2e21091ca5452384b5ae5a60df5382d59d3708c304cfb4c8ef203742c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9dd4fe95632606442df41315",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:25:51.043705+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9dd4fe95632606442df41315"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

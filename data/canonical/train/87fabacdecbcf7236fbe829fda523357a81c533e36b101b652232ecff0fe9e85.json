@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1673.jpg",
+    "relative_path": "train/1673.jpg",
+    "sha256": "87fabacdecbcf7236fbe829fda523357a81c533e36b101b652232ecff0fe9e85",
+    "split": "train"
+  },
+  "canonical_sha256": "6272d81fe75b42c99d5619ab1baae82542016da40d2cc121757b2fd611e8571c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "湖畔",
+      "白色礼服",
+      "城市远景"
+    ],
+    "short_description": "一位穿白色礼服的女士站在湖边岩石上，背景是城市天际线和霞光映照的水面。",
+    "theme": "湖畔婚纱照"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "女士穿着白色长裙，站立于岸边岩石上。",
+      "远处可见城市建筑群轮廓，水面反射其影像。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色礼服",
+      "长裙",
+      "树荫下",
+      "黄昏光线"
+    ],
+    "relations": [
+      "女士站在岩石旁。",
+      "女士面向镜头。",
+      "城市建筑倒映在水面上。"
+    ],
+    "scene": "湖边草地与城市天际线",
+    "subjects": [
+      "穿白色礼服的女士"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "女士穿着白色长裙，站立于岸边岩石上；远处可见城市建筑群轮廓，水面反射其影像。",
+    "safe_facts": [
+      "女士穿着白色长裙，站立于岸边岩石上。",
+      "远处可见城市建筑群轮廓，水面反射其影像。"
+    ]
+  },
+  "label_id": "cpl_0579eb44db5f3969e56cc202",
+  "provenance": {
+    "generated_at": "2026-08-03T14:52:44.308568+00:00",
+    "migrated_at": "2026-08-03T14:52:44.311159+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "58240341a1a196119038ab267a4ade099c5edee12af4cc7e4806a1b49e1777b1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ef7b8b443493901f9f288a2d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:52:44.311492+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ef7b8b443493901f9f288a2d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

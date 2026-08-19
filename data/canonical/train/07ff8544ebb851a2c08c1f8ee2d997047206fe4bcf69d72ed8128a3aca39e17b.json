@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:826.jpg",
+    "relative_path": "train/826.jpg",
+    "sha256": "07ff8544ebb851a2c08c1f8ee2d997047206fe4bcf69d72ed8128a3aca39e17b",
+    "split": "train"
+  },
+  "canonical_sha256": "455ea53033526769fa5d4de3be505d3baf32819eab4b5796cfa0242c693a4ce6",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "废弃汽车",
+      "被植物覆盖",
+      "锈迹斑斑",
+      "藤蔓缠绕"
+    ],
+    "short_description": "一辆被藤蔓和绿叶包围的废弃汽车，车头部分锈迹斑斑，前灯破损，轮胎和轮毂裸露在外。",
+    "theme": "废弃车辆被植被覆盖"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "汽车车身被大量绿色藤蔓和叶片覆盖。",
+      "车头部分有明显锈蚀痕迹，前保险杠破损。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "生锈",
+      "藤蔓覆盖",
+      "前灯破损",
+      "轮胎暴露"
+    ],
+    "relations": [
+      "植物缠绕在汽车上。"
+    ],
+    "scene": "户外自然环境",
+    "subjects": [
+      "废弃汽车",
+      "绿色植物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "汽车车身被大量绿色藤蔓和叶片覆盖；车头部分有明显锈蚀痕迹，前保险杠破损。",
+    "safe_facts": [
+      "汽车车身被大量绿色藤蔓和叶片覆盖。",
+      "车头部分有明显锈蚀痕迹，前保险杠破损。"
+    ]
+  },
+  "label_id": "cpl_6b7f7d73061d230b52c9133a",
+  "provenance": {
+    "generated_at": "2026-08-03T12:31:14.111509+00:00",
+    "migrated_at": "2026-08-03T12:31:14.114889+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5836fb54ac31f07af78b42708b2f0204a112f83b9eb2f4cc76a449f7cb74408a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_034c290f870e8afec4e7fd16",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:31:14.115221+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_034c290f870e8afec4e7fd16"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

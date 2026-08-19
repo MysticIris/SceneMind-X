@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1765.jpg",
+    "relative_path": "train/1765.jpg",
+    "sha256": "f64fec62205dd0d3dde0945f1063c956c7e4d39f0b86a286e024a2d9c30311c7",
+    "split": "train"
+  },
+  "canonical_sha256": "6fc3eae5f5f905509462add5b31c5999a83c5257170df197728ce6267cc54f94",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "熊猫幼崽",
+      "睡觉",
+      "木制围栏",
+      "垫子"
+    ],
+    "short_description": "两只熊猫幼崽躺在木制围栏内的垫子上，安静地睡觉，周围环境整洁。",
+    "theme": "熊猫幼崽休息"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两只熊猫幼崽趴在浅色毯子上。",
+      "背景有木制围栏和白色瓷砖墙。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑白毛色",
+      "毛茸茸",
+      "躺着",
+      "闭着眼睛"
+    ],
+    "relations": [
+      "两只熊猫幼崽并排躺着。",
+      "熊猫幼崽位于木制围栏内。"
+    ],
+    "scene": "室内木制平台区域",
+    "subjects": [
+      "熊猫幼崽"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两只熊猫幼崽趴在浅色毯子上；背景有木制围栏和白色瓷砖墙。",
+    "safe_facts": [
+      "两只熊猫幼崽趴在浅色毯子上。",
+      "背景有木制围栏和白色瓷砖墙。"
+    ]
+  },
+  "label_id": "cpl_5625ea211d466294d843514f",
+  "provenance": {
+    "generated_at": "2026-08-03T15:03:13.054878+00:00",
+    "migrated_at": "2026-08-03T15:03:13.056514+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ba62963c55464e86090cac1e0629e1b834d86768474658bbe11c75f8619bdd24",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_96924a257a5a892cc414a750",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:03:13.056757+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_96924a257a5a892cc414a750"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

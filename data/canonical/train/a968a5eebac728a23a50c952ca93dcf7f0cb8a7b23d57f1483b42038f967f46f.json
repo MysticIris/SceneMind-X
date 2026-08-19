@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:931.jpg",
+    "relative_path": "train/931.jpg",
+    "sha256": "a968a5eebac728a23a50c952ca93dcf7f0cb8a7b23d57f1483b42038f967f46f",
+    "split": "train"
+  },
+  "canonical_sha256": "54c77394737eebe8167adc932b2b5eed023debb43af68f3ed4092bb79eabbb0b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "欧式建筑",
+      "街道入口",
+      "仰拍视角"
+    ],
+    "short_description": "仰拍视角下的欧式风格建筑入口，蓝天映衬，招牌上有中英文标识，周围有绿植和石墙装饰。",
+    "theme": "欧式风情街入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现仰视角度，建筑顶部朝向天空。",
+      "建筑立面有拱形窗户和装饰性檐口。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "棕色外墙",
+      "拱形窗",
+      "蓝色天空",
+      "石砌墙面"
+    ],
+    "relations": [
+      "招牌位于建筑上方。",
+      "绿植位于前景。"
+    ],
+    "scene": "城市街道入口",
+    "subjects": [
+      "建筑",
+      "招牌",
+      "绿植",
+      "石墙"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现仰视角度，建筑顶部朝向天空；建筑立面有拱形窗户和装饰性檐口。",
+    "safe_facts": [
+      "画面呈现仰视角度，建筑顶部朝向天空。",
+      "建筑立面有拱形窗户和装饰性檐口。"
+    ]
+  },
+  "label_id": "cpl_93a603634999ee2779a23337",
+  "provenance": {
+    "generated_at": "2026-08-03T12:53:09.130857+00:00",
+    "migrated_at": "2026-08-03T12:53:09.138466+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "071fcaa74ad2d16020da3e393f267027a15fee386e6747eb29f14f76651ec614",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6f5110cc6433351a3c1a4b8c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:53:09.139549+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6f5110cc6433351a3c1a4b8c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "西班牙风情街",
+      "SPANISH STYLE STREET"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "西班牙风情街",
+      "SPANISH STYLE STREET"
+    ]
+  }
+}

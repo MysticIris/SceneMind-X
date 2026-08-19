@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1234.jpg",
+    "relative_path": "train/1234.jpg",
+    "sha256": "acb98d16e92c805a6981eb4161aebbba1f522f213807f55864b614c79bc6530f",
+    "split": "train"
+  },
+  "canonical_sha256": "86583636cbabda9e760c127fc62625467154c4a693148c5193f9c31c2cd3c9fd",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "户外服务台",
+      "交通服务"
+    ],
+    "short_description": "户外蓝色帐篷下，工作人员在办理 ETC 相关业务，民众正在咨询或填写资料。",
+    "theme": "穿荧光黄背心的工作人员与穿深色外套的民众"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "三名工作人员和一名民众聚集在蓝色桌子旁。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "工作人员俯身操作",
+      "工作人员查看手机",
+      "民众手持手机"
+    ],
+    "attributes": [
+      "蓝色帐篷",
+      "蓝色桌布",
+      "荧光黄反光背心",
+      "黑色长裤"
+    ],
+    "relations": [
+      "工作人员在桌前为民众提供服务。"
+    ],
+    "scene": "户外临时搭建的蓝色帐篷下",
+    "subjects": [
+      "穿荧光黄背心的工作人员",
+      "穿深色外套的民众"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三名工作人员和一名民众聚集在蓝色桌子旁。",
+    "safe_facts": [
+      "三名工作人员和一名民众聚集在蓝色桌子旁。"
+    ]
+  },
+  "label_id": "cpl_ccf9272cc350db10c94420da",
+  "provenance": {
+    "generated_at": "2026-08-03T13:56:41.207755+00:00",
+    "migrated_at": "2026-08-03T13:56:41.210961+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e41c09cd6b9fc91317e879ec2d75f5f72191927a8b7ef40c21b39d0dd95f1794",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d6f07ac03024104fd22ef2ad",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:56:41.211591+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d6f07ac03024104fd22ef2ad"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "湖北交投",
+      "ETC办理服务台"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "湖北交投",
+      "ETC办理服务台"
+    ]
+  }
+}

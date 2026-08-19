@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1974.jpg",
+    "relative_path": "train/1974.jpg",
+    "sha256": "20e3ed8684ac8833e2b9907b6a60c4acf91dd3137e8342bcb45be7e22d32338b",
+    "split": "train"
+  },
+  "canonical_sha256": "fd6432715037e38f520942cfbade445cb0b8feb2a7acea64ff1b2706a13d0187",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市天际线",
+      "黄昏云层",
+      "建筑群",
+      "路灯照明"
+    ],
+    "short_description": "城市高楼剪影下，天空布满层状云彩，路灯亮起，部分窗户透出暖光，呈现都市傍晚宁静氛围。",
+    "theme": "城市黄昏云景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自地平线方向，可能是日落或日出时段。"
+    ],
+    "direct_observations": [
+      "天空被密集的云层覆盖，云层呈层状结构。",
+      "多栋高层建筑轮廓清晰，部分窗户亮着灯光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空布满云层",
+      "路灯亮着",
+      "部分窗户亮灯"
+    ],
+    "relations": [
+      "路灯位于街道上。",
+      "建筑群位于街道旁。",
+      "云层覆盖天空。"
+    ],
+    "scene": "城市街道与高层建筑群",
+    "subjects": [
+      "高楼建筑",
+      "路灯",
+      "云层"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自地平线方向，可能是日落或日出时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空被密集的云层覆盖，云层呈层状结构；多栋高层建筑轮廓清晰，部分窗户亮着灯光。",
+    "safe_facts": [
+      "天空被密集的云层覆盖，云层呈层状结构。",
+      "多栋高层建筑轮廓清晰，部分窗户亮着灯光。"
+    ]
+  },
+  "label_id": "cpl_bfd6d925f708bdcfccbca06e",
+  "provenance": {
+    "generated_at": "2026-08-03T15:30:41.565274+00:00",
+    "migrated_at": "2026-08-03T15:30:41.567102+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "619119bfe55fefb2616761c3e346d93f33814fa9721f94286bac6407891328f2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_826a1fd424c1a0b7509f227d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:30:41.567459+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_826a1fd424c1a0b7509f227d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

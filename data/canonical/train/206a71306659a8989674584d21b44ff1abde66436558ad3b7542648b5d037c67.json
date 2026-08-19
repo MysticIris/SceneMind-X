@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1797.jpg",
+    "relative_path": "train/1797.jpg",
+    "sha256": "206a71306659a8989674584d21b44ff1abde66436558ad3b7542648b5d037c67",
+    "split": "train"
+  },
+  "canonical_sha256": "5c866e4c8ec4ca37e290bf2b2d6772768083d781e1a9d30a94de8244522fb162",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雏菊",
+      "花丛",
+      "绿色植物"
+    ],
+    "short_description": "一片盛开的白色雏菊在绿叶间随风摇曳，背景是城市街道与行人。",
+    "theme": "白色雏菊丛"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "大量白色雏菊花朵盛开，中心呈黄色。",
+      "花朵周围环绕着绿色茎叶和杂草。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色花瓣",
+      "黄色花心",
+      "绿色茎叶"
+    ],
+    "relations": [
+      "雏菊生长于绿叶植物之间。"
+    ],
+    "scene": "城市路边绿化带",
+    "subjects": [
+      "雏菊",
+      "绿叶植物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大量白色雏菊花朵盛开，中心呈黄色；花朵周围环绕着绿色茎叶和杂草。",
+    "safe_facts": [
+      "大量白色雏菊花朵盛开，中心呈黄色。",
+      "花朵周围环绕着绿色茎叶和杂草。"
+    ]
+  },
+  "label_id": "cpl_eb9b34044bd31a698d9b7ad3",
+  "provenance": {
+    "generated_at": "2026-08-03T15:07:12.263724+00:00",
+    "migrated_at": "2026-08-03T15:07:12.265308+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5ab46d449eae02d7926b54a857cc4f94fe9b6783748870be4abf3735f1a94680",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9bb39ce419d469dc77eb7f89",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:07:12.265507+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9bb39ce419d469dc77eb7f89"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

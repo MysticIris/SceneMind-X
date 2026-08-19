@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:873.jpg",
+    "relative_path": "train/873.jpg",
+    "sha256": "45dc95b1003a266cfab9a2028e077bb3bd035f986f78fbedf895b20c262cef22",
+    "split": "train"
+  },
+  "canonical_sha256": "79ce7765dbff55626b95c45c60cb7a79ee2fd51b5d10d0b3dee912de71582425",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "迷彩服",
+      "队列",
+      "操场"
+    ],
+    "short_description": "一群身着迷彩服的人在绿色人造草坪上整齐列队，背景是现代建筑和树木。",
+    "theme": "军训队列"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多人穿着迷彩服并排站立。",
+      "地面为绿色人造草坪，边缘有红色跑道。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "站立",
+      "整齐排列",
+      "绿色人造草坪",
+      "红色跑道",
+      "现代建筑",
+      "树木"
+    ],
+    "relations": [],
+    "scene": "户外运动场",
+    "subjects": [
+      "穿着迷彩服的人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多人穿着迷彩服并排站立；地面为绿色人造草坪，边缘有红色跑道。",
+    "safe_facts": [
+      "多人穿着迷彩服并排站立。",
+      "地面为绿色人造草坪，边缘有红色跑道。"
+    ]
+  },
+  "label_id": "cpl_6420ef20b0b29c85dd5b2aa8",
+  "provenance": {
+    "generated_at": "2026-08-03T12:40:51.861866+00:00",
+    "migrated_at": "2026-08-03T12:40:51.865713+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "58ea9fe71ac9d6c05c700f9832e240c79e3f14e3157b3fbaadf229990425f37f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c510a755f393f3065b360cc9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:40:51.866040+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c510a755f393f3065b360cc9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

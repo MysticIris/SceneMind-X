@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:701.jpg",
+    "relative_path": "train/701.jpg",
+    "sha256": "1352fa59dacca27588550a51965160d6c324c51049f75b46e25d522ad1ed1d30",
+    "split": "train"
+  },
+  "canonical_sha256": "a6b951a304c32c47ed7dc06884b2a8366578eec83ebe46dacc8e9a64ef73c42b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "火锅",
+      "热气",
+      "餐桌",
+      "配菜"
+    ],
+    "short_description": "冒着热气的火锅锅具旁放着一小碟配菜，背景模糊可见餐厅环境。",
+    "theme": "热气腾腾的火锅"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央是一个正在冒热气的火锅锅具。",
+      "锅具旁有一个白色小碟，内含几块深色食物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "冒着热气",
+      "金属锅具",
+      "白色桌面"
+    ],
+    "relations": [
+      "火锅锅具放置于桌面。",
+      "小碟配菜置于火锅旁。"
+    ],
+    "scene": "室内用餐环境",
+    "subjects": [
+      "火锅锅具",
+      "小碟配菜"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是一个正在冒热气的火锅锅具；锅具旁有一个白色小碟，内含几块深色食物。",
+    "safe_facts": [
+      "画面中央是一个正在冒热气的火锅锅具。",
+      "锅具旁有一个白色小碟，内含几块深色食物。"
+    ]
+  },
+  "label_id": "cpl_056d744bed4d8ff03af9c460",
+  "provenance": {
+    "generated_at": "2026-08-03T12:04:07.534140+00:00",
+    "migrated_at": "2026-08-03T12:04:07.536667+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2ad34ee83b1ff78322ebce922c1873dbf83ce103a2499191fcf597b879f65bb0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ac219aac447f2d46238757ff",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:04:07.536999+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ac219aac447f2d46238757ff"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

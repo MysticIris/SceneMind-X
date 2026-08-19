@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1001.jpg",
+    "relative_path": "train/1001.jpg",
+    "sha256": "d639d3bb34f91d1b3662ad9433a7ffa8e1f07fa68b3a77c63550d7e61b6b9bb9",
+    "split": "train"
+  },
+  "canonical_sha256": "fc9e77968984226af3ce05ea323f6730010c850842f577895a2a98e970642a94",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "女性",
+      "土墙",
+      "棕榈树",
+      "透视装"
+    ],
+    "short_description": "一位女性倚靠土黄色墙壁，身着蓝灰色透视装，背景有棕榈树，阳光洒落，氛围宁静。",
+    "theme": "沙漠墙边静坐"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自左上方，投下阴影。"
+    ],
+    "direct_observations": [
+      "女性身穿蓝灰色透视材质服装。",
+      "女性脚穿棕色靴子，倚靠在粗糙土墙旁。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "倚靠",
+      "手托下巴"
+    ],
+    "attributes": [
+      "深色头发",
+      "蓝灰色服装",
+      "棕色靴子"
+    ],
+    "relations": [
+      "女性倚靠在墙上。",
+      "女性位于棕榈树前方。"
+    ],
+    "scene": "户外土墙旁",
+    "subjects": [
+      "一名女性"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自左上方，投下阴影。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "女性身穿蓝灰色透视材质服装；女性脚穿棕色靴子，倚靠在粗糙土墙旁。",
+    "safe_facts": [
+      "女性身穿蓝灰色透视材质服装。",
+      "女性脚穿棕色靴子，倚靠在粗糙土墙旁。"
+    ]
+  },
+  "label_id": "cpl_16994a78939c8b747e84812f",
+  "provenance": {
+    "generated_at": "2026-08-03T13:22:15.526147+00:00",
+    "migrated_at": "2026-08-03T13:22:15.531975+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2d375fd03635c7ee82398296ac56c23f5ba705042c1fda18bcd8b1cbd50510ac",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_45f7bb8b6a33893598ae9f53",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:15.532315+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_45f7bb8b6a33893598ae9f53"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

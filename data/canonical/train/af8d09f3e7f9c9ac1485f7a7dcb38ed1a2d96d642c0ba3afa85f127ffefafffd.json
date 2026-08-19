@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1776.jpg",
+    "relative_path": "train/1776.jpg",
+    "sha256": "af8d09f3e7f9c9ac1485f7a7dcb38ed1a2d96d642c0ba3afa85f127ffefafffd",
+    "split": "train"
+  },
+  "canonical_sha256": "fa6d241bbd80394169ad1d3748ea7af1f3f132acc143abc7a65a7e9de69edfd5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "犀牛",
+      "鸵鸟",
+      "动物园",
+      "树木",
+      "鸟类"
+    ],
+    "short_description": "一只犀牛和一只鸵鸟站在泥土地上，背景是茂密的树林和几只黑鸟。",
+    "theme": "动物园动物场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有大型哺乳动物犀牛和大型鸟类鸵鸟。",
+      "背景有茂密绿植和几棵枯树。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "土黄色地面",
+      "绿色植被",
+      "枯树干"
+    ],
+    "relations": [
+      "犀牛与鸵鸟同处一地。",
+      "黑鸟在远处树丛中。"
+    ],
+    "scene": "户外动物园围栏区域",
+    "subjects": [
+      "犀牛",
+      "鸵鸟",
+      "黑鸟"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有大型哺乳动物犀牛和大型鸟类鸵鸟；背景有茂密绿植和几棵枯树。",
+    "safe_facts": [
+      "画面中有大型哺乳动物犀牛和大型鸟类鸵鸟。",
+      "背景有茂密绿植和几棵枯树。"
+    ]
+  },
+  "label_id": "cpl_82259d370ba122375ed0d24d",
+  "provenance": {
+    "generated_at": "2026-08-03T15:05:47.948456+00:00",
+    "migrated_at": "2026-08-03T15:05:47.950827+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ad0c11225fc58090d6af4b4407c44abd2c0a36f334a0a7148ba66b495ee84548",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_13ff3057c583eed36e64f93e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:05:47.951208+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_13ff3057c583eed36e64f93e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

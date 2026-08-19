@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1254.jpg",
+    "relative_path": "train/1254.jpg",
+    "sha256": "d2b733d2f39e62379c87125c701b4b66b8d4385d14a244bd7d26ec99cb869cd0",
+    "split": "train"
+  },
+  "canonical_sha256": "ea25720c88e0e8965541c252bf3093c669dab44c54bd1f9d9405912852c5a1df",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪地",
+      "跳跃的猫",
+      "阳光明媚"
+    ],
+    "short_description": "一只白灰相间的猫在雪地中腾空跃起，双爪张开，背景是雪山和晴朗蓝天，阳光从上方照射。",
+    "theme": "雪地跳跃猫咪"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "阳光从画面顶部照射，形成星芒效果。"
+    ],
+    "direct_observations": [
+      "猫身体悬空，四肢展开。",
+      "地面覆盖积雪，远处有山脉。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "跳跃"
+    ],
+    "attributes": [
+      "白灰相间毛发",
+      "戴黑色项圈",
+      "睁大眼睛"
+    ],
+    "relations": [
+      "猫在雪地上方空中。",
+      "猫位于雪山前。"
+    ],
+    "scene": "雪地山景",
+    "subjects": [
+      "一只猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "阳光从画面顶部照射，形成星芒效果。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "猫身体悬空，四肢展开；地面覆盖积雪，远处有山脉。",
+    "safe_facts": [
+      "猫身体悬空，四肢展开。",
+      "地面覆盖积雪，远处有山脉。"
+    ]
+  },
+  "label_id": "cpl_8b7e5b7e4a8f9fb1846c2743",
+  "provenance": {
+    "generated_at": "2026-08-03T13:58:54.828150+00:00",
+    "migrated_at": "2026-08-03T13:58:54.831129+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e5636b89e0a72cfc931bd3d2695dcd259fb3748390a3354d060e6b235c44193a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_af003f10d805a39b17e99b4e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:58:54.831501+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_af003f10d805a39b17e99b4e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

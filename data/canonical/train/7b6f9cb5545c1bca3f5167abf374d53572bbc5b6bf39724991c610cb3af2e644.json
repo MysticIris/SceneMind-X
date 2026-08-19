@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:576.jpg",
+    "relative_path": "train/576.jpg",
+    "sha256": "7b6f9cb5545c1bca3f5167abf374d53572bbc5b6bf39724991c610cb3af2e644",
+    "split": "train"
+  },
+  "canonical_sha256": "e00d0eecffdc2478cd664649258e34d00cee981f56100ed8f78d4b4dc76c1542",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "公路",
+      "护栏",
+      "湖景",
+      "树木"
+    ],
+    "short_description": "阳光下公路护栏旁绿树成荫，远处湖面波光粼粼，路标指示左转方向。",
+    "theme": "公路旁湖景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "太阳位于画面右上方，光线较强。"
+    ],
+    "direct_observations": [
+      "画面中有金属护栏沿公路边缘延伸。",
+      "护栏旁有一棵枝叶茂密的树。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阳光明媚",
+      "绿色植被",
+      "蓝色路标"
+    ],
+    "relations": [
+      "护栏位于公路边缘。",
+      "路标立于护栏旁。",
+      "树木生长在护栏与公路之间。"
+    ],
+    "scene": "公路旁的湖边景观",
+    "subjects": [
+      "护栏",
+      "树木",
+      "湖面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "太阳位于画面右上方，光线较强。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有金属护栏沿公路边缘延伸；护栏旁有一棵枝叶茂密的树。",
+    "safe_facts": [
+      "画面中有金属护栏沿公路边缘延伸。",
+      "护栏旁有一棵枝叶茂密的树。"
+    ]
+  },
+  "label_id": "cpl_06ea6de267b2845f91beea4f",
+  "provenance": {
+    "generated_at": "2026-08-03T11:36:56.767979+00:00",
+    "migrated_at": "2026-08-03T11:36:56.770640+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "481e03e1224c26c76093de27f7ff19baa5f33408f54fda46907c978e5948fd18",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_82cea073da822a4126a37149",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:36:56.771159+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_82cea073da822a4126a37149"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "蓝色背景白色箭头路标"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "蓝色背景白色箭头路标"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1759.jpg",
+    "relative_path": "train/1759.jpg",
+    "sha256": "3aa6f457a7738529c92602a0b0c60af848bda0b3316ab5a57a9b13d49802aa50",
+    "split": "train"
+  },
+  "canonical_sha256": "4d973406c845bccd712f6f4dbcbc4fb40ae23f11e7ac18bdadb4489592ca3d29",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "像素拼贴",
+      "建筑",
+      "彩色方块"
+    ],
+    "short_description": "一幅由彩色小方块组成的建筑图像，中央是一座红色网格状建筑，背景有天空和高楼，前景有水面倒影。",
+    "theme": "像素拼贴建筑景观"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像由大量彩色小方块拼接而成。",
+      "画面中有建筑物、天空和水面倒影。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "由小方块构成",
+      "色彩鲜艳",
+      "有倒影"
+    ],
+    "relations": [
+      "建筑位于画面中央。",
+      "天空在建筑上方。",
+      "水面在建筑前方。"
+    ],
+    "scene": "室内墙面展示",
+    "subjects": [
+      "建筑",
+      "天空",
+      "水面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像由大量彩色小方块拼接而成；画面中有建筑物、天空和水面倒影。",
+    "safe_facts": [
+      "图像由大量彩色小方块拼接而成。",
+      "画面中有建筑物、天空和水面倒影。"
+    ]
+  },
+  "label_id": "cpl_51f4e13e9d526df3ede8b7e6",
+  "provenance": {
+    "generated_at": "2026-08-03T15:02:27.778012+00:00",
+    "migrated_at": "2026-08-03T15:02:27.780068+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "14a7c99ad805faec66b56dcce530160fe6b50bca1efdd51865a1da7e2b15acd9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_54f6446090c317c87f0b8f59",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:02:27.780276+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_54f6446090c317c87f0b8f59"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

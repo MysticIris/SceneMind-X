@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:813.jpg",
+    "relative_path": "train/813.jpg",
+    "sha256": "5a39e4ab0a94fff91d4c9e267b72d2a10b687d0028d64a2d04b53b51e96a4b3f",
+    "split": "train"
+  },
+  "canonical_sha256": "c1ebc1010e612151fdcb0c4c04fea90bda69e09a04aba196373b9fb37d463a2f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "林荫道",
+      "行人",
+      "绿树",
+      "树荫"
+    ],
+    "short_description": "绿树成荫的林荫道上，两人缓步前行，两侧树木高大茂密，形成天然拱廊。",
+    "theme": "林荫道漫步"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "道路两侧排列着高大树木，枝叶繁茂形成遮蔽效果。",
+      "两名行人沿道路向前行走，其中一人穿浅色上衣，另一人穿深色上衣。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走"
+    ],
+    "attributes": [
+      "树木茂密",
+      "路面平整"
+    ],
+    "relations": [
+      "行人位于林荫道中央。"
+    ],
+    "scene": "林荫道",
+    "subjects": [
+      "行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "道路两侧排列着高大树木，枝叶繁茂形成遮蔽效果；两名行人沿道路向前行走，其中一人穿浅色上衣，另一人穿深色上衣。",
+    "safe_facts": [
+      "道路两侧排列着高大树木，枝叶繁茂形成遮蔽效果。",
+      "两名行人沿道路向前行走，其中一人穿浅色上衣，另一人穿深色上衣。"
+    ]
+  },
+  "label_id": "cpl_80fdc016507688cd4b316995",
+  "provenance": {
+    "generated_at": "2026-08-03T12:28:32.765071+00:00",
+    "migrated_at": "2026-08-03T12:28:32.767680+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "463cd95d0847b3ed08b879ccd8394d3a31551ddeb163fffefdd12b1f09d83f0d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_efbe9f78dc77c892ef8f489d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:28:32.768034+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_efbe9f78dc77c892ef8f489d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

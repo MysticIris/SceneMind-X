@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scenemind-x.local/schemas/gate1-d3-semantic-review-payload-p3-v1-1.schema.json",
+  "title": "Gate 1-D3 P3 semantic review payload v1.1",
+  "description": "Nine deterministic string fields assembled from short stage outputs; raw stage outputs remain authoritative evidence.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["global_observation", "subjects", "activities", "attributes", "relations", "visible_text_candidates", "scene_hypotheses", "uncertainties", "evidence_descriptions"],
+  "properties": {
+    "global_observation": {"type": "string", "maxLength": 160},
+    "subjects": {"type": "string", "maxLength": 160},
+    "activities": {"type": "string", "maxLength": 160},
+    "attributes": {"type": "string", "maxLength": 160},
+    "relations": {"type": "string", "maxLength": 160},
+    "visible_text_candidates": {"type": "string", "maxLength": 160},
+    "scene_hypotheses": {"type": "string", "maxLength": 160},
+    "uncertainties": {"type": "string", "maxLength": 160},
+    "evidence_descriptions": {"type": "string", "maxLength": 160}
+  }
+}

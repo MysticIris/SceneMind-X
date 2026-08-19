@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1798.jpg",
+    "relative_path": "train/1798.jpg",
+    "sha256": "737863b98a65067b57b068c66da844134a0b9a95486ecadb533c76a5e5744a91",
+    "split": "train"
+  },
+  "canonical_sha256": "848bfd23045f920b258e7bd1756e18dec2c275032fccc68d1f2b47b45802c58b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "烤肉串",
+      "面条",
+      "餐桌",
+      "食物"
+    ],
+    "short_description": "一根烤肉串悬于镜头前，背景是盛有面条的碗，桌上散落着餐具和包装。",
+    "theme": "烤肉串与面条"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有一根金属签子穿过的烤肉块。",
+      "背景中有一个带蓝边的白色碗，内盛面条状食物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "烤肉串表面有调料颗粒",
+      "面条碗边缘有蓝色花纹"
+    ],
+    "relations": [
+      "烤肉串位于面条碗前方。"
+    ],
+    "scene": "室内餐桌",
+    "subjects": [
+      "烤肉串",
+      "面条碗"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一根金属签子穿过的烤肉块；背景中有一个带蓝边的白色碗，内盛面条状食物。",
+    "safe_facts": [
+      "画面中央有一根金属签子穿过的烤肉块。",
+      "背景中有一个带蓝边的白色碗，内盛面条状食物。"
+    ]
+  },
+  "label_id": "cpl_641ae299581754c279fa8892",
+  "provenance": {
+    "generated_at": "2026-08-03T15:08:45.904651+00:00",
+    "migrated_at": "2026-08-03T15:08:45.907015+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "57517933957bd6ec72063095fceb2e64a614ba789ba5d6ee66c01f18a5cd89cd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1d8d3ab21a2aadc282d8ab90",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:08:45.907440+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1d8d3ab21a2aadc282d8ab90"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

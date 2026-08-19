@@ -1,0 +1,136 @@
+{
+  "asset_id": "620c7dabe66f8a65",
+  "asset_sha256": "620c7dabe66f8a6558f4a4690cbeab59dd0a91e894d2155f3b33d42748a46fb7",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"NVIDIA招聘网站申请状态页\",\n    \"short_description\": \"这是一张电脑屏幕截图，显示了NVIDIA（英伟达）的求职者主页。页面包含“我的申请”列表，显示两个深度学习架构师职位的申请状态为“申请已收到”，提交日期均为2026年5月18日。下方还有根据申请推荐的职位卡片。\",\n    \"micro_tags\": [\n      \"网页截图\",\n      \"求职申请\",\n      \"NVIDIA\",\n      \"招聘系统\",\n      \"深度学习\",\n      \"用户界面\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"浏览器窗口内的Web应用程序界面\",\n    \"subjects\": [\n      \"网页布局\",\n      \"申请状态表格\",\n      \"推荐职位卡片\",\n      \"浏览器标签页\",\n      \"Windows任务栏\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白色背景\",\n      \"绿色状态标签\",\n      \"蓝色链接文本\",\n      \"列表视图\",\n      \"网格视图\"\n    ],\n    \"relations\": [\n      \"表格位于页面中部\",\n      \"推荐卡片位于表格下方\",\n      \"浏览器地址栏位于顶部\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"页面标题区域显示“我的申请”，下列表格包含“职称”、“职位要求”、“我的申请状态”等列。\",\n      \"表格中有两行数据，状态列均显示绿色的“申请已收到”标签，日期列显示“2026年5月18日”。\",\n      \"页面底部有三个并排的卡片，标题包含“深度学习性能架构师”和“深度学习解决方案架构师”。\",\n      \"浏览器地址栏可见URL包含“nvidia.wd5.myworkdayjobs.com”。\"\n    ],\n    \"cautious_inferences\": [\n      \"用户可能正在查看自己在NVIDIA公司的求职申请进度。\",\n      \"界面语言设置为简体中文。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"NVIDIA Corporation 工作机会\",\n      \"Candidate Home\",\n      \"你没有没有任何任务。\",\n      \"我的申请\",\n      \"活跃 (2)\",\n      \"不活跃 (0)\",\n      \"深度学习性能架构师\",\n      \"JR2018038\",\n      \"申请已收到\",\n      \"2026年5月18日\",\n      \"深度学习性能架构师 - 实习生 - 2026\",\n      \"JR2006158\",\n      \"根据您申请过的职位，为您推荐以下职位 (15)\",\n      \"深度学习解决方案架构师\",\n      \"2个地点\",\n      \"全职\",\n      \"发布于 30 天前\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张显示求职管理系统的网页截图，包含申请状态列表和职位推荐模块。\",\n    \"safe_facts\": [\n      \"图像展示了典型的Web端人力资源管理系统界面。\",\n      \"界面包含数据表格和卡片式布局组件。\",\n      \"使用了绿色高亮来指示特定的状态信息。\"\n    ]\n  }\n}",
+      "input_tokens": 3207,
+      "output_tokens": 774,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3207,
+        "output_tokens": 774,
+        "total_tokens": 3981,
+        "estimated_cost_cny": 0.012606,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "NVIDIA招聘网站申请状态页",
+          "short_description": "这是一张电脑屏幕截图，显示了NVIDIA（英伟达）的求职者主页。页面包含“我的申请”列表，显示两个深度学习架构师职位的申请状态为“申请已收到”，提交日期均为2026年5月18日。下方还有根据申请推荐的职位卡片。",
+          "micro_tags": [
+            "网页截图",
+            "求职申请",
+            "NVIDIA",
+            "招聘系统",
+            "深度学习",
+            "用户界面"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "浏览器窗口内的Web应用程序界面",
+          "subjects": [
+            "网页布局",
+            "申请状态表格",
+            "推荐职位卡片",
+            "浏览器标签页",
+            "Windows任务栏"
+          ],
+          "actions": [],
+          "attributes": [
+            "白色背景",
+            "绿色状态标签",
+            "蓝色链接文本",
+            "列表视图",
+            "网格视图"
+          ],
+          "relations": [
+            "表格位于页面中部",
+            "推荐卡片位于表格下方",
+            "浏览器地址栏位于顶部"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "页面标题区域显示“我的申请”，下列表格包含“职称”、“职位要求”、“我的申请状态”等列。",
+            "表格中有两行数据，状态列均显示绿色的“申请已收到”标签，日期列显示“2026年5月18日”。",
+            "页面底部有三个并排的卡片，标题包含“深度学习性能架构师”和“深度学习解决方案架构师”。",
+            "浏览器地址栏可见URL包含“nvidia.wd5.myworkdayjobs.com”。"
+          ],
+          "cautious_inferences": [
+            "用户可能正在查看自己在NVIDIA公司的求职申请进度。",
+            "界面语言设置为简体中文。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "NVIDIA Corporation 工作机会",
+            "Candidate Home",
+            "你没有没有任何任务。",
+            "我的申请",
+            "活跃 (2)",
+            "不活跃 (0)",
+            "深度学习性能架构师",
+            "JR2018038",
+            "申请已收到",
+            "2026年5月18日",
+            "深度学习性能架构师 - 实习生 - 2026",
+            "JR2006158",
+            "根据您申请过的职位，为您推荐以下职位 (15)",
+            "深度学习解决方案架构师",
+            "2个地点",
+            "全职",
+            "发布于 30 天前"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张显示求职管理系统的网页截图，包含申请状态列表和职位推荐模块。",
+          "safe_facts": [
+            "图像展示了典型的Web端人力资源管理系统界面。",
+            "界面包含数据表格和卡片式布局组件。",
+            "使用了绿色高亮来指示特定的状态信息。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 399912,
+        "request_bytes": 296861,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.278392500003974,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "e28362a6ae98765f8407264ea4fabeaae2723a2f85c531c848ea92f74c518de3"
+}

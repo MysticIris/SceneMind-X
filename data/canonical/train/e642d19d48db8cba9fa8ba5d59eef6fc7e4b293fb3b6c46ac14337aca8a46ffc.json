@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:818.jpg",
+    "relative_path": "train/818.jpg",
+    "sha256": "e642d19d48db8cba9fa8ba5d59eef6fc7e4b293fb3b6c46ac14337aca8a46ffc",
+    "split": "train"
+  },
+  "canonical_sha256": "3c306cd201cacb7db89f2f301550b9b8936897290ef9b9c7fa2c799e24644c8d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "自动售货机",
+      "饮品包装",
+      "货架陈列"
+    ],
+    "short_description": "自动售货机货架上摆放着多盒饮品，其中一盒蓝色包装的饮品悬挂在货架前方。",
+    "theme": "自动售货机内景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "货架上有多个饮品包装盒，部分被黑色挂钩固定。",
+      "货架上方有红色标签显示货道编号及价格。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色包装盒",
+      "白色包装盒",
+      "棕色包装盒",
+      "带价格标签的货架"
+    ],
+    "relations": [
+      "饮品包装盒放置于货架格子内。",
+      "蓝色包装盒悬挂在货架前方。"
+    ],
+    "scene": "自动售货机内部货架区域",
+    "subjects": [
+      "饮品包装盒",
+      "货架"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "货架上有多个饮品包装盒，部分被黑色挂钩固定；货架上方有红色标签显示货道编号及价格。",
+    "safe_facts": [
+      "货架上有多个饮品包装盒，部分被黑色挂钩固定。",
+      "货架上方有红色标签显示货道编号及价格。"
+    ]
+  },
+  "label_id": "cpl_7b134e6a46bf1da5b263041f",
+  "provenance": {
+    "generated_at": "2026-08-03T12:29:28.138503+00:00",
+    "migrated_at": "2026-08-03T12:29:28.141909+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4deaadf503020de5d62c45b07e94af15430eb773b8d6b8cf45307f8cd197dbb4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3e53184885c055658a2a567b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:29:28.142264+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3e53184885c055658a2a567b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

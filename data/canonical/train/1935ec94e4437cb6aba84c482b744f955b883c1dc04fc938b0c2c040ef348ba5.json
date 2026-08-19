@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:532.jpg",
+    "relative_path": "train/532.jpg",
+    "sha256": "1935ec94e4437cb6aba84c482b744f955b883c1dc04fc938b0c2c040ef348ba5",
+    "split": "train"
+  },
+  "canonical_sha256": "be888510145b9b563973fc18ffc1bebc551772778e20164cbe4f111a4dfcc3cc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "大熊猫",
+      "户外围栏",
+      "木架",
+      "石墙"
+    ],
+    "short_description": "两只大熊猫在户外围栏内活动，一只卧于木架，另一只在树干旁，背景为爬满藤蔓的石墙。",
+    "theme": "熊猫栖息地"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两只大熊猫位于户外围栏区域内。",
+      "一只熊猫趴在木制平台上，另一只在树干旁站立。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "卧着",
+      "站立"
+    ],
+    "attributes": [
+      "黑白毛色",
+      "木质结构",
+      "绿色植被"
+    ],
+    "relations": [
+      "熊猫在围栏内。",
+      "熊猫与石墙相邻。"
+    ],
+    "scene": "户外熊猫栖息区",
+    "subjects": [
+      "大熊猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两只大熊猫位于户外围栏区域内；一只熊猫趴在木制平台上，另一只在树干旁站立。",
+    "safe_facts": [
+      "两只大熊猫位于户外围栏区域内。",
+      "一只熊猫趴在木制平台上，另一只在树干旁站立。"
+    ]
+  },
+  "label_id": "cpl_ea04087ed57b67f280775884",
+  "provenance": {
+    "generated_at": "2026-08-03T11:23:55.396118+00:00",
+    "migrated_at": "2026-08-03T11:23:55.398936+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b18a8ee754395cc5da4105154a693e25dac57d6f409494ceac0771b3de91d08e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d6f90f0ba0d1566cbdaa7705",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:23:55.399187+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d6f90f0ba0d1566cbdaa7705"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

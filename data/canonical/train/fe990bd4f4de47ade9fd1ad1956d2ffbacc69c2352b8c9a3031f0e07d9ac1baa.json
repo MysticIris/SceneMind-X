@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1722.jpg",
+    "relative_path": "train/1722.jpg",
+    "sha256": "fe990bd4f4de47ade9fd1ad1956d2ffbacc69c2352b8c9a3031f0e07d9ac1baa",
+    "split": "train"
+  },
+  "canonical_sha256": "c6935e57a764369f275f09716826e6db7f374f64c9f42985c49648e7989fdd1b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市景观",
+      "河流",
+      "现代建筑",
+      "红砖建筑"
+    ],
+    "short_description": "阴天下的城市河流旁，现代高楼与红砖建筑并立，一座弧形桥梁横跨水面。",
+    "theme": "城市河畔建筑群"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空呈灰白色，可能为阴天或雾霾天气。"
+    ],
+    "direct_observations": [
+      "画面中可见多栋高层玻璃幕墙建筑。",
+      "画面右侧有一栋红砖外墙建筑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阴天",
+      "灰蓝色天空",
+      "水面平静",
+      "树木无叶"
+    ],
+    "relations": [
+      "建筑群位于河流对岸。",
+      "桥梁连接两岸。",
+      "红砖建筑位于画面右侧。"
+    ],
+    "scene": "城市河流沿岸",
+    "subjects": [
+      "高层建筑",
+      "红砖建筑",
+      "桥梁",
+      "河流"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空呈灰白色，可能为阴天或雾霾天气。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见多栋高层玻璃幕墙建筑；画面右侧有一栋红砖外墙建筑。",
+    "safe_facts": [
+      "画面中可见多栋高层玻璃幕墙建筑。",
+      "画面右侧有一栋红砖外墙建筑。"
+    ]
+  },
+  "label_id": "cpl_ba0fd996fc4e6f21476cbe16",
+  "provenance": {
+    "generated_at": "2026-08-03T14:59:35.482937+00:00",
+    "migrated_at": "2026-08-03T14:59:35.484879+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d776c0e23be5c2630f64eb0580066266bdb0281c8c09bd08769d267e9286e9c7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fcb5eb07395801279c9f2c96",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:59:35.485217+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fcb5eb07395801279c9f2c96"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

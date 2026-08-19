@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:808.jpg",
+    "relative_path": "train/808.jpg",
+    "sha256": "3baa2af30a92e3b2c7e12d76e79207884cad2f151743432d4fca12130cdf9b16",
+    "split": "train"
+  },
+  "canonical_sha256": "56e67a9157f215e3c79e60b7a3e20056edddf2a98ea2f68c2cc6d7cf8b8c816c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "高楼大厦",
+      "霓虹灯光",
+      "深蓝天空"
+    ],
+    "short_description": "城市夜幕下高楼林立，灯光璀璨，天空云层密布，街道灯光明亮，树木点缀其间。",
+    "theme": "城市夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多栋高层建筑外墙有垂直条状灯光装饰。",
+      "天空呈现深蓝色并有云层分布。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灯光照明",
+      "云层覆盖",
+      "现代建筑风格"
+    ],
+    "relations": [
+      "建筑群位于街道上方。",
+      "树木分布在建筑前方。"
+    ],
+    "scene": "城市天际线夜景",
+    "subjects": [
+      "高层建筑",
+      "路灯",
+      "树木",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多栋高层建筑外墙有垂直条状灯光装饰；天空呈现深蓝色并有云层分布。",
+    "safe_facts": [
+      "多栋高层建筑外墙有垂直条状灯光装饰。",
+      "天空呈现深蓝色并有云层分布。"
+    ]
+  },
+  "label_id": "cpl_0fe24d7c0fa4e590ac89fcd7",
+  "provenance": {
+    "generated_at": "2026-08-03T12:27:28.161443+00:00",
+    "migrated_at": "2026-08-03T12:27:28.164372+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2ab2136b7d1c99ded753cfa53abd348dc5bd056ec28c1bfdf8e5d36b83aabb9b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_eff8dee0dac6a386238bba47",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:27:28.164717+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_eff8dee0dac6a386238bba47"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

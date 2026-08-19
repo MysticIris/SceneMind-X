@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1153.jpg",
+    "relative_path": "train/1153.jpg",
+    "sha256": "d1825afed738f16efeef2b4bb8aa5531f7a115c77b03b71932ffbee25f9cdfb6",
+    "split": "train"
+  },
+  "canonical_sha256": "5c77bf00d1604ed4e6cb4fb08f0cda9caddd36220f5aabaf6428a6185677508e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪夜",
+      "人行天桥",
+      "拱形结构",
+      "积雪"
+    ],
+    "short_description": "雪夜中，一座现代拱形人行天桥被积雪覆盖，桥上行人稀少，远处路灯与建筑灯光照亮夜景。",
+    "theme": "雪夜人行天桥"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "桥体由白色弧形钢架构成，表面有圆形装饰灯。",
+      "桥面及两侧地面被厚雪覆盖。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色拱形结构",
+      "金属栏杆",
+      "积雪覆盖地面",
+      "夜间照明"
+    ],
+    "relations": [
+      "积雪覆盖在人行天桥地面。",
+      "行人位于天桥右侧。"
+    ],
+    "scene": "城市夜间街道",
+    "subjects": [
+      "人行天桥",
+      "积雪",
+      "行人",
+      "路灯",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "桥体由白色弧形钢架构成，表面有圆形装饰灯；桥面及两侧地面被厚雪覆盖。",
+    "safe_facts": [
+      "桥体由白色弧形钢架构成，表面有圆形装饰灯。",
+      "桥面及两侧地面被厚雪覆盖。"
+    ]
+  },
+  "label_id": "cpl_799146b338a373ed4562ac86",
+  "provenance": {
+    "generated_at": "2026-08-03T13:46:24.103579+00:00",
+    "migrated_at": "2026-08-03T13:46:24.108961+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f2187a1ee9f9120f5a43bbe2c94c56b154dfd4efced9806fb629e668097a5cff",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0cab4531c73a6e6bfa311ea2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:46:24.110926+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0cab4531c73a6e6bfa311ea2"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "asset_id": "45ee838256d28155",
+  "asset_sha256": "45ee838256d28155e7c5a338179bffe1a33fbf5de1fbebf3b144cc48cfffc684",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"水泥地上的快递纸箱\",\n    \"short_description\": \"一个棕色瓦楞纸箱放置在灰色水泥地面上，箱体表面缠绕着透明胶带进行加固，顶部贴有一张白色的物流面单。纸箱左上角的地面上有一块白色的片状垃圾，图片上方边缘可见黑色轮胎的局部。\",\n    \"micro_tags\": [\n      \"快递包裹\",\n      \"瓦楞纸箱\",\n      \"水泥地面\",\n      \"物流面单\",\n      \"透明胶带\",\n      \"户外场景\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"室外或半室外的水泥硬化地面\",\n    \"subjects\": [\n      \"棕色瓦楞纸箱\",\n      \"白色物流面单\",\n      \"透明封箱胶带\",\n      \"地面白色碎片\",\n      \"黑色轮胎局部\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"棕色\",\n      \"方形\",\n      \"被胶带缠绕\",\n      \"贴有标签\",\n      \"静止放置\"\n    ],\n    \"relations\": [\n      \"纸箱位于画面中央\",\n      \"面单贴在纸箱顶部\",\n      \"白色碎片位于纸箱左后方地面\",\n      \"轮胎位于画面上方边缘\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"一个封闭的棕色瓦楞纸箱放置在粗糙的灰色水泥地面上\",\n      \"纸箱顶部和侧面有多道透明胶带交叉缠绕固定\",\n      \"纸箱顶面贴有一张包含条形码和二维码的白色矩形标签\",\n      \"画面左上角地面有一块白色的扁平废弃物\",\n      \"画面正上方边缘可见黑色橡胶轮胎的下部\"\n    ],\n    \"cautious_inferences\": [\n      \"该纸箱看起来是一个待寄出或刚送达的快递包裹\",\n      \"根据光照和地面纹理判断，拍摄环境可能为室外街道或仓库装卸区\"\n    ],\n    \"uncertainties\": [\n      \"无法确认纸箱内部的具体物品\",\n      \"无法确认面单上的具体文字信息（如地址、单号）\",\n      \"无法确认轮胎所属的具体车辆类型\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_unreadable\",\n    \"visual_candidates\": []\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一个用透明胶带封好的棕色纸箱静置在水泥地面上，箱体上方贴有白色标签，周围地面有少量杂物。\",\n    \"safe_facts\": [\n      \"主体为一个棕色立方体纸箱\",\n      \"纸箱表面覆盖有透明胶带\",\n      \"背景为灰色水泥质地地面\",\n      \"纸箱上附着一张白色矩形贴纸\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 644,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 644,
+        "total_tokens": 3849,
+        "estimated_cost_cny": 0.011562,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "水泥地上的快递纸箱",
+          "short_description": "一个棕色瓦楞纸箱放置在灰色水泥地面上，箱体表面缠绕着透明胶带进行加固，顶部贴有一张白色的物流面单。纸箱左上角的地面上有一块白色的片状垃圾，图片上方边缘可见黑色轮胎的局部。",
+          "micro_tags": [
+            "快递包裹",
+            "瓦楞纸箱",
+            "水泥地面",
+            "物流面单",
+            "透明胶带",
+            "户外场景"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "室外或半室外的水泥硬化地面",
+          "subjects": [
+            "棕色瓦楞纸箱",
+            "白色物流面单",
+            "透明封箱胶带",
+            "地面白色碎片",
+            "黑色轮胎局部"
+          ],
+          "actions": [],
+          "attributes": [
+            "棕色",
+            "方形",
+            "被胶带缠绕",
+            "贴有标签",
+            "静止放置"
+          ],
+          "relations": [
+            "纸箱位于画面中央",
+            "面单贴在纸箱顶部",
+            "白色碎片位于纸箱左后方地面",
+            "轮胎位于画面上方边缘"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "一个封闭的棕色瓦楞纸箱放置在粗糙的灰色水泥地面上",
+            "纸箱顶部和侧面有多道透明胶带交叉缠绕固定",
+            "纸箱顶面贴有一张包含条形码和二维码的白色矩形标签",
+            "画面左上角地面有一块白色的扁平废弃物",
+            "画面正上方边缘可见黑色橡胶轮胎的下部"
+          ],
+          "cautious_inferences": [
+            "该纸箱看起来是一个待寄出或刚送达的快递包裹",
+            "根据光照和地面纹理判断，拍摄环境可能为室外街道或仓库装卸区"
+          ],
+          "uncertainties": [
+            "无法确认纸箱内部的具体物品",
+            "无法确认面单上的具体文字信息（如地址、单号）",
+            "无法确认轮胎所属的具体车辆类型"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_unreadable",
+          "visual_candidates": []
+        },
+        "fallback": {
+          "safe_caption": "一个用透明胶带封好的棕色纸箱静置在水泥地面上，箱体上方贴有白色标签，周围地面有少量杂物。",
+          "safe_facts": [
+            "主体为一个棕色立方体纸箱",
+            "纸箱表面覆盖有透明胶带",
+            "背景为灰色水泥质地地面",
+            "纸箱上附着一张白色矩形贴纸"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 7169604,
+        "request_bytes": 5374129,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.012084900001355,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "48c9c67e31b1e897888b0ea12cb3fd0a9209ba3d878663569e5f8ba386415fe3"
+}

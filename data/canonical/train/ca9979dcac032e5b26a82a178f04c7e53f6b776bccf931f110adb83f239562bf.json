@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1244.jpg",
+    "relative_path": "train/1244.jpg",
+    "sha256": "ca9979dcac032e5b26a82a178f04c7e53f6b776bccf931f110adb83f239562bf",
+    "split": "train"
+  },
+  "canonical_sha256": "40e8310fef3a015d64df7f853e7257527f9d6b3c008ed77a874c979c776e4e25",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "浅蓝色背包",
+      "毛绒装饰",
+      "星星图案",
+      "V字手势"
+    ],
+    "short_description": "一位穿着灰色卫衣的人背着浅蓝色背包，背包上有白色毛绒蝴蝶结和星星装饰，手比V字手势。",
+    "theme": "浅蓝色毛绒装饰背包"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "背包为浅蓝色，表面有白色毛绒蝴蝶结和星星装饰。",
+      "人物身穿灰色连帽卫衣，右手比V字手势，左手持杯状物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "背",
+      "比手势"
+    ],
+    "attributes": [
+      "浅蓝色",
+      "白色毛绒装饰",
+      "灰色卫衣",
+      "手拿杯子"
+    ],
+    "relations": [
+      "人背着背包。"
+    ],
+    "scene": "室内背景",
+    "subjects": [
+      "人",
+      "背包"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "背包为浅蓝色，表面有白色毛绒蝴蝶结和星星装饰；人物身穿灰色连帽卫衣，右手比V字手势，左手持杯状物。",
+    "safe_facts": [
+      "背包为浅蓝色，表面有白色毛绒蝴蝶结和星星装饰。",
+      "人物身穿灰色连帽卫衣，右手比V字手势，左手持杯状物。"
+    ]
+  },
+  "label_id": "cpl_dd189626999a6fbfe14ff820",
+  "provenance": {
+    "generated_at": "2026-08-03T13:57:39.965837+00:00",
+    "migrated_at": "2026-08-03T13:57:39.968297+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "45d36ac0602e47c8183635cc1f3ce1e635abd0b485766fef164adddfe703224c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_02032bfc9c69c6e7e75cfd0d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:57:39.969048+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_02032bfc9c69c6e7e75cfd0d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

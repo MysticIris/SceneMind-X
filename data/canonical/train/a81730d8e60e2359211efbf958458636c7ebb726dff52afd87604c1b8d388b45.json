@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1785.jpg",
+    "relative_path": "train/1785.jpg",
+    "sha256": "a81730d8e60e2359211efbf958458636c7ebb726dff52afd87604c1b8d388b45",
+    "split": "train"
+  },
+  "canonical_sha256": "3349fe878e1ed387b4276d1c5213f87f4f748049093f64520b0ef57bfa3ea7cf",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "论文提要",
+      "学术写作",
+      "双语教学"
+    ],
+    "short_description": "屏幕上有两个带方框的文本区域，分别包含英文和中文内容。",
+    "theme": "学术写作指导"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕上有两个带方框的文本区域，分别包含英文和中文内容。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "带边框的文本区域"
+    ],
+    "relations": [],
+    "scene": "电脑屏幕显示教学幻灯片",
+    "subjects": [
+      "幻灯片内容"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕上有两个带方框的文本区域，分别包含英文和中文内容。",
+    "safe_facts": [
+      "屏幕上有两个带方框的文本区域，分别包含英文和中文内容。"
+    ]
+  },
+  "label_id": "cpl_543c0df383f87054c7302ba4",
+  "provenance": {
+    "generated_at": "2026-08-03T15:05:54.597752+00:00",
+    "migrated_at": "2026-08-03T15:05:54.599993+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e0c669408b05ee2bff3c1b40d067bfda3a0789384a479783f48706cafa784a7c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8acddab753e97601ccf0464d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:05:54.600742+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8acddab753e97601ccf0464d"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "How should you construct an outline?",
+      "你应该如何起草你的提要?",
+      "Write them both down, and pick the best",
+      "把它们两者都写出来,去选择假设、目的和数据的最佳组合。",
+      "Often the objectives of a paper when it",
+      "时常,当一篇文章完成时,它的目的和开始时是不同的。"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "How should you construct an outline?",
+      "你应该如何起草你的提要?",
+      "Write them both down, and pick the best",
+      "把它们两者都写出来,去选择假设、目的和数据的最佳组合。",
+      "Often the objectives of a paper when it",
+      "时常,当一篇文章完成时,它的目的和开始时是不同的。"
+    ]
+  }
+}

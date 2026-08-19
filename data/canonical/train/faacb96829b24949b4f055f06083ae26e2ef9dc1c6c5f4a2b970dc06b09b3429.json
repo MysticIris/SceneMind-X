@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:840.jpg",
+    "relative_path": "train/840.jpg",
+    "sha256": "faacb96829b24949b4f055f06083ae26e2ef9dc1c6c5f4a2b970dc06b09b3429",
+    "split": "train"
+  },
+  "canonical_sha256": "4da843a2f4be6d6ee995f7f2ccdf86347d0875b0180c47dc68d0d7a4f215cb38",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市景观",
+      "黄昏",
+      "校园",
+      "树木",
+      "建筑群"
+    ],
+    "short_description": "黄昏时分，校园内绿树成荫，多栋建筑错落分布，前景有雕塑与行人，右侧可见空调外机。",
+    "theme": "城市黄昏校园景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "场景可能为大学或住宅区校园。"
+    ],
+    "direct_observations": [
+      "天空呈现橙粉色晚霞。",
+      "画面右下角有白色空调外机。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黄昏光线",
+      "多层建筑",
+      "绿色植被",
+      "金属雕塑"
+    ],
+    "relations": [
+      "树木位于建筑前方。",
+      "雕塑位于广场中央。",
+      "行人与摩托车在广场边缘。"
+    ],
+    "scene": "城市校园户外区域",
+    "subjects": [
+      "建筑物",
+      "树木",
+      "雕塑",
+      "行人",
+      "摩托车",
+      "空调外机"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "场景可能为大学或住宅区校园。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现橙粉色晚霞；画面右下角有白色空调外机。",
+    "safe_facts": [
+      "天空呈现橙粉色晚霞。",
+      "画面右下角有白色空调外机。"
+    ]
+  },
+  "label_id": "cpl_385668355a9cb133c02dffa8",
+  "provenance": {
+    "generated_at": "2026-08-03T12:34:01.215152+00:00",
+    "migrated_at": "2026-08-03T12:34:01.217979+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2da8c5dbc0273d692a95de84dbd5ccbe9f4f9ccf0d9afe4bcaf73ea4854193d6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ee40f861998d7da2c7f1cb06",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:34:01.218325+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ee40f861998d7da2c7f1cb06"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

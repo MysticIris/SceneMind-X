@@ -1,0 +1,136 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:46.jpg",
+    "relative_path": "train/46.jpg",
+    "sha256": "7f8b62a3e00deebd459112cf28daf7d42887638af2fd252242c4d47bc82aebc0",
+    "split": "train"
+  },
+  "canonical_sha256": "2d0378189a52af5c78141b3d4d70f89686236b4c41b30b11fcf6f675b554930f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪景",
+      "古建筑",
+      "红墙"
+    ],
+    "short_description": "雪覆盖的正门及周边建筑群，红墙金瓦，松树披雪，游客在雪地中行走。",
+    "theme": "雪中古建筑群"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "地面部分区域有积雪，部分区域因行人踩踏而融化。"
+    ],
+    "direct_observations": [
+      "多座传统中式建筑屋顶覆盖白雪。",
+      "建筑墙体呈红色，屋檐有金色装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "站立"
+    ],
+    "attributes": [
+      "覆雪",
+      "红墙",
+      "飞檐翘角",
+      "积雪覆盖屋顶"
+    ],
+    "relations": [
+      "游客在建筑前广场活动。",
+      "松树位于前景和两侧。"
+    ],
+    "scene": "故宫博物院区域冬季雪景",
+    "subjects": [
+      "建筑群",
+      "松树",
+      "游客"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "地面部分区域有积雪，部分区域因行人踩踏而融化。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多座传统中式建筑屋顶覆盖白雪；建筑墙体呈红色，屋檐有金色装饰。",
+    "safe_facts": [
+      "多座传统中式建筑屋顶覆盖白雪。",
+      "建筑墙体呈红色，屋檐有金色装饰。"
+    ]
+  },
+  "label_id": "cpl_60626ae680f2259f6d7b36d1",
+  "provenance": {
+    "generated_at": "2026-08-03T09:13:41.860077+00:00",
+    "migrated_at": "2026-08-03T09:13:41.861586+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7f1d9c82c2515bdc550d542b6437f558ecc3f2158cbf5be0a47ed7140b2b89ef",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e460841798edc2989996283c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:26.973579+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e460841798edc2989996283c",
+    "cpl_6c272d01f9d8d0d9bd17c572"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "故宫博物院"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "故宫博物院"
+    ]
+  }
+}

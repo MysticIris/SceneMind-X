@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2340.jpg",
+    "relative_path": "val/2340.jpg",
+    "sha256": "37735fb4554c2d337224e481ce6d8445ef9935f993a3b492e9fe8d819bd5da7e",
+    "split": "val"
+  },
+  "canonical_sha256": "f2477f8ee9d6a1e2b37490cadfcddb0e6fffd25f079c822fee775e65a5009960",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "田野",
+      "绿草",
+      "干土",
+      "远山",
+      "阴天"
+    ],
+    "short_description": "阴天下的田野分界清晰，绿草与干土交错，远处有树木和房屋，天空云层厚重。",
+    "theme": "乡村田野风光"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能因季节或灌溉差异导致土地状态不同。"
+    ],
+    "direct_observations": [
+      "前景有绿色草坪与裸露干土区域并存。",
+      "背景可见连绵山脉与稀疏植被。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阴天",
+      "绿色",
+      "干燥",
+      "分界明显"
+    ],
+    "relations": [
+      "草地与干地相邻。",
+      "树木位于房屋附近。",
+      "房屋在远山前方。"
+    ],
+    "scene": "乡村田野",
+    "subjects": [
+      "草地",
+      "干地",
+      "树木",
+      "房屋",
+      "远山"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能因季节或灌溉差异导致土地状态不同。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "前景有绿色草坪与裸露干土区域并存；背景可见连绵山脉与稀疏植被。",
+    "safe_facts": [
+      "前景有绿色草坪与裸露干土区域并存。",
+      "背景可见连绵山脉与稀疏植被。"
+    ]
+  },
+  "label_id": "cpl_920a8819c2a11449a89c4905",
+  "provenance": {
+    "generated_at": "2026-08-03T16:31:25.507372+00:00",
+    "migrated_at": "2026-08-03T16:31:25.508876+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e15bfb40f30ccda312c73a61e59974a78463cd8313eefa7f3b4f0ee010657529",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a2a7b2ea711c09bebd275946",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:31:25.509100+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a2a7b2ea711c09bebd275946"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

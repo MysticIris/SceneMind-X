@@ -1,0 +1,132 @@
+{
+  "asset_id": "b2e445aa6615c4d8",
+  "asset_sha256": "b2e445aa6615c4d8ab3fc7c36a1a5e68dea100bf970d83f60f637d5ced7a78d7",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"社交软件交友动态截图\",\n    \"short_description\": \"这是一张手机社交应用界面的截图。内容显示用户“lucky”发布了一条寻找武汉大学、武汉理工大学或华中科技大学身高180以上男生的交友动态，并带有地理位置标签。下方评论区展示了其他用户的互动留言及作者的回复。\",\n    \"micro_tags\": [\n      \"社交APP\",\n      \"交友动态\",\n      \"评论区\",\n      \"校园恋爱\",\n      \"手机截图\",\n      \"UI界面\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端社交应用程序界面\",\n    \"subjects\": [\n      \"用户头像\",\n      \"文本内容\",\n      \"交互按钮\",\n      \"评论列表\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白色背景\",\n      \"竖屏布局\",\n      \"包含表情符号\",\n      \"顶部状态栏显示时间17:38\"\n    ],\n    \"relations\": [\n      \"评论内容位于主贴下方\",\n      \"作者回复位于特定评论之下\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕顶部显示时间为17:38，信号为5G，电量33%。\",\n      \"界面包含用户昵称“lucky”及兔子头像，正文提及“武大”、“武汉理工大学”、“华科”及“180+帅哥”。\",\n      \"评论区可见用户“草莓熊哥哥”和“Whuer”的留言，以及作者“lucky”的回复“也行”和“不是的勿扰”。\",\n      \"底部导航栏包含“说点什么”输入框及点赞、收藏、评论、私聊图标。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局和功能按钮（如送礼、小火苗），这可能是一款主打陌生人社交或校园交友的应用（如Soul）。\",\n      \"发布者可能是一名在武汉高校就读或关注该地区的学生。\"\n    ],\n    \"uncertainties\": [\n      \"无法确认发布者的真实身份及性别。\",\n      \"无法确认评论互动的具体语境是否严肃。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"lucky\",\n      \"有没有武大或者武汉理工大学的华科180+帅哥\",\n      \"想谈恋爱了\",\n      \"武汉大学(工学部)\",\n      \"草莓熊哥哥\",\n      \"凭什么华科不行?\",\n      \"也行\",\n      \"不是的勿扰\",\n      \"Whuer\",\n      \"武大180小帅 本硕985\",\n      \"提曝光\",\n      \"送礼\",\n      \"小火苗\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张智能手机社交应用的界面截图，展示了包含文本、头像和评论互动的帖子详情页。\",\n    \"safe_facts\": [\n      \"图片为竖屏手机截图\",\n      \"界面包含典型的社交媒体元素如头像、正文、评论区和底部操作栏\",\n      \"背景主要为白色，文字为黑色或灰色\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 752,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 752,
+        "total_tokens": 3979,
+        "estimated_cost_cny": 0.01247,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "社交软件交友动态截图",
+          "short_description": "这是一张手机社交应用界面的截图。内容显示用户“lucky”发布了一条寻找武汉大学、武汉理工大学或华中科技大学身高180以上男生的交友动态，并带有地理位置标签。下方评论区展示了其他用户的互动留言及作者的回复。",
+          "micro_tags": [
+            "社交APP",
+            "交友动态",
+            "评论区",
+            "校园恋爱",
+            "手机截图",
+            "UI界面"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "移动端社交应用程序界面",
+          "subjects": [
+            "用户头像",
+            "文本内容",
+            "交互按钮",
+            "评论列表"
+          ],
+          "actions": [],
+          "attributes": [
+            "白色背景",
+            "竖屏布局",
+            "包含表情符号",
+            "顶部状态栏显示时间17:38"
+          ],
+          "relations": [
+            "评论内容位于主贴下方",
+            "作者回复位于特定评论之下"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "屏幕顶部显示时间为17:38，信号为5G，电量33%。",
+            "界面包含用户昵称“lucky”及兔子头像，正文提及“武大”、“武汉理工大学”、“华科”及“180+帅哥”。",
+            "评论区可见用户“草莓熊哥哥”和“Whuer”的留言，以及作者“lucky”的回复“也行”和“不是的勿扰”。",
+            "底部导航栏包含“说点什么”输入框及点赞、收藏、评论、私聊图标。"
+          ],
+          "cautious_inferences": [
+            "根据界面布局和功能按钮（如送礼、小火苗），这可能是一款主打陌生人社交或校园交友的应用（如Soul）。",
+            "发布者可能是一名在武汉高校就读或关注该地区的学生。"
+          ],
+          "uncertainties": [
+            "无法确认发布者的真实身份及性别。",
+            "无法确认评论互动的具体语境是否严肃。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "lucky",
+            "有没有武大或者武汉理工大学的华科180+帅哥",
+            "想谈恋爱了",
+            "武汉大学(工学部)",
+            "草莓熊哥哥",
+            "凭什么华科不行?",
+            "也行",
+            "不是的勿扰",
+            "Whuer",
+            "武大180小帅 本硕985",
+            "提曝光",
+            "送礼",
+            "小火苗"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张智能手机社交应用的界面截图，展示了包含文本、头像和评论互动的帖子详情页。",
+          "safe_facts": [
+            "图片为竖屏手机截图",
+            "界面包含典型的社交媒体元素如头像、正文、评论区和底部操作栏",
+            "背景主要为白色，文字为黑色或灰色"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 524536,
+        "request_bytes": 390328,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.269663799997943,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "f0cb2a733f8bbb508ad5e04e88d159b41b203f5e3821619d72e5c57960ab2079"
+}

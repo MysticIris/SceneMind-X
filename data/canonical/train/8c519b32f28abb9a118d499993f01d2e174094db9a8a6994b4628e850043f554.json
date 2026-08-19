@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:262.jpg",
+    "relative_path": "train/262.jpg",
+    "sha256": "8c519b32f28abb9a118d499993f01d2e174094db9a8a6994b4628e850043f554",
+    "split": "train"
+  },
+  "canonical_sha256": "b73eb5c01c278a3a94c13a01d28b0e38e050036592bf7b775191c0004e07f02e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "卧推架",
+      "杠铃片",
+      "健身器材"
+    ],
+    "short_description": "健身房内一台银色卧推架，杠铃上装有黄黑相间的杠铃片，地面为深灰色防滑地砖。",
+    "theme": "健身房卧推区"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "卧推架为银色金属材质，配有黑色坐垫。",
+      "杠铃杆两端各装有一组黄黑相间的圆形杠铃片。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "银色金属框架",
+      "黑色垫子",
+      "黄黑相间杠铃片",
+      "深灰色地砖"
+    ],
+    "relations": [
+      "杠铃放置在卧推架上。",
+      "杠铃片安装在杠铃杆两端。"
+    ],
+    "scene": "室内健身房环境",
+    "subjects": [
+      "卧推架",
+      "杠铃",
+      "杠铃片"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "卧推架为银色金属材质，配有黑色坐垫；杠铃杆两端各装有一组黄黑相间的圆形杠铃片。",
+    "safe_facts": [
+      "卧推架为银色金属材质，配有黑色坐垫。",
+      "杠铃杆两端各装有一组黄黑相间的圆形杠铃片。"
+    ]
+  },
+  "label_id": "cpl_061d8ed8e8b05407516a830f",
+  "provenance": {
+    "generated_at": "2026-08-03T10:27:22.530027+00:00",
+    "migrated_at": "2026-08-03T10:27:22.532288+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2d7478dbd27d575f1ab04e76f3f0e01a12f9709b2b94341be2ae7c638d7edffb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3c4e90b180b4fd8c87c709b6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:27:22.532513+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3c4e90b180b4fd8c87c709b6"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

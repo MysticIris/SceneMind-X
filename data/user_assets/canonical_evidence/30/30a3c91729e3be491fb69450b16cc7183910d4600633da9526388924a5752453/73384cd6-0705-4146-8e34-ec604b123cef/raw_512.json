@@ -1,0 +1,116 @@
+{
+  "asset_id": "30a3c91729e3be49",
+  "asset_sha256": "30a3c91729e3be491fb69450b16cc7183910d4600633da9526388924a5752453",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"白发红眼动漫角色大笑\",\n    \"short_description\": \"这是一张二次元风格的人物特写插画。画面主体为一位拥有白色波浪长发和红色瞳孔的女性角色，她正仰头开怀大笑，表情生动且带有几分疯狂感。其面部脸颊、颈部及肩部可见明显的红色擦伤或血迹，身穿深红色衣物，佩戴金色耳环。\",\n    \"micro_tags\": [\n      \"动漫插画\",\n      \"白发\",\n      \"红瞳\",\n      \"大笑\",\n      \"战损\",\n      \"女性角色\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"illustration\",\n    \"scene\": \"纯色或模糊背景的人物特写\",\n    \"subjects\": [\n      \"白发红眼女性角色\"\n    ],\n    \"actions\": [\n      \"张嘴大笑\",\n      \"仰头\"\n    ],\n    \"attributes\": [\n      \"白色长卷发\",\n      \"红色眼睛\",\n      \"面部有红色伤痕/血迹\",\n      \"佩戴金色圆环耳饰\",\n      \"深色衣领\"\n    ],\n    \"relations\": []\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"人物拥有白色的波浪状长发和红色的虹膜。\",\n      \"角色嘴巴大张露出牙齿，呈现大笑或狂笑的表情。\",\n      \"角色的左脸颊、脖颈处以及右肩皮肤上有红色的痕迹，看起来像血迹或擦伤。\",\n      \"耳朵上佩戴着金色的圆形耳环。\"\n    ],\n    \"cautious_inferences\": [\n      \"脸上的红色痕迹可能表示该角色刚经历过战斗或受伤。\",\n      \"这种夸张的笑容可能表现出角色疯狂、兴奋或反派的性格特征。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的作品来源或角色名称。\",\n      \"背景过于模糊，无法判断具体环境。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_unreadable\",\n    \"visual_candidates\": []\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张动漫风格的女性角色特写，她有着白色的头发和红色的眼睛，脸上带着伤痕，正在开心地大笑。\",\n    \"safe_facts\": [\n      \"图中是一个白发红眼的动漫女性形象。\",\n      \"人物表情为张嘴大笑。\",\n      \"人物脸部和身体上有红色的印记。\"\n    ]\n  }\n}",
+      "input_tokens": 1833,
+      "output_tokens": 578,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 1833,
+        "output_tokens": 578,
+        "total_tokens": 2411,
+        "estimated_cost_cny": 0.00829,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "白发红眼动漫角色大笑",
+          "short_description": "这是一张二次元风格的人物特写插画。画面主体为一位拥有白色波浪长发和红色瞳孔的女性角色，她正仰头开怀大笑，表情生动且带有几分疯狂感。其面部脸颊、颈部及肩部可见明显的红色擦伤或血迹，身穿深红色衣物，佩戴金色耳环。",
+          "micro_tags": [
+            "动漫插画",
+            "白发",
+            "红瞳",
+            "大笑",
+            "战损",
+            "女性角色"
+          ]
+        },
+        "facts": {
+          "visual_medium": "illustration",
+          "scene": "纯色或模糊背景的人物特写",
+          "subjects": [
+            "白发红眼女性角色"
+          ],
+          "actions": [
+            "张嘴大笑",
+            "仰头"
+          ],
+          "attributes": [
+            "白色长卷发",
+            "红色眼睛",
+            "面部有红色伤痕/血迹",
+            "佩戴金色圆环耳饰",
+            "深色衣领"
+          ],
+          "relations": []
+        },
+        "evidence": {
+          "direct_observations": [
+            "人物拥有白色的波浪状长发和红色的虹膜。",
+            "角色嘴巴大张露出牙齿，呈现大笑或狂笑的表情。",
+            "角色的左脸颊、脖颈处以及右肩皮肤上有红色的痕迹，看起来像血迹或擦伤。",
+            "耳朵上佩戴着金色的圆形耳环。"
+          ],
+          "cautious_inferences": [
+            "脸上的红色痕迹可能表示该角色刚经历过战斗或受伤。",
+            "这种夸张的笑容可能表现出角色疯狂、兴奋或反派的性格特征。"
+          ],
+          "uncertainties": [
+            "无法确定具体的作品来源或角色名称。",
+            "背景过于模糊，无法判断具体环境。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_unreadable",
+          "visual_candidates": []
+        },
+        "fallback": {
+          "safe_caption": "一张动漫风格的女性角色特写，她有着白色的头发和红色的眼睛，脸上带着伤痕，正在开心地大笑。",
+          "safe_facts": [
+            "图中是一个白发红眼的动漫女性形象。",
+            "人物表情为张嘴大笑。",
+            "人物脸部和身体上有红色的印记。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 255684,
+        "request_bytes": 188691,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 11.202023099998769,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "33867f702218db98cb10e9315c041906f1d0d9c7a1cac92c4d1a58ca966dc37b"
+}

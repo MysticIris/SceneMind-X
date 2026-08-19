@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:822.jpg",
+    "relative_path": "train/822.jpg",
+    "sha256": "6bff6007f54653489ab8ab4762c4998365a6a5dd158091fc1851b273f3833759",
+    "split": "train"
+  },
+  "canonical_sha256": "158d878632511c12bd7211a4938919a297e54ee250e7383422464040b974b2f8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "霓虹灯牌",
+      "电子屏幕",
+      "商业街"
+    ],
+    "short_description": "夜晚繁华商业街，霓虹灯牌林立，大型电子屏幕显示人群，红色钢结构天桥横跨街道。",
+    "theme": "城市夜景商业街"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能为城市商业区，因密集的广告牌和人流聚集迹象。"
+    ],
+    "direct_observations": [
+      "画面呈现城市夜间环境，天空漆黑。",
+      "建筑物外立面布满发光的竖向和横向招牌。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "灯光璀璨",
+      "多层建筑",
+      "玻璃幕墙"
+    ],
+    "relations": [
+      "霓虹灯牌附着于建筑立面。",
+      "电子屏幕嵌入建筑外墙。"
+    ],
+    "scene": "城市商业街区夜间景象",
+    "subjects": [
+      "建筑物",
+      "霓虹灯招牌",
+      "电子显示屏",
+      "钢结构天桥"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能为城市商业区，因密集的广告牌和人流聚集迹象。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现城市夜间环境，天空漆黑；建筑物外立面布满发光的竖向和横向招牌。",
+    "safe_facts": [
+      "画面呈现城市夜间环境，天空漆黑。",
+      "建筑物外立面布满发光的竖向和横向招牌。"
+    ]
+  },
+  "label_id": "cpl_340fb52a684764275473ff17",
+  "provenance": {
+    "generated_at": "2026-08-03T12:30:22.285752+00:00",
+    "migrated_at": "2026-08-03T12:30:22.288875+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c81255acf126ff01d57d364ca45af16d4f2d2bc504567adab7a5cd6d65c5f472",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_af8e2a9dd8cefd5634e9ec24",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:30:22.289374+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_af8e2a9dd8cefd5634e9ec24"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

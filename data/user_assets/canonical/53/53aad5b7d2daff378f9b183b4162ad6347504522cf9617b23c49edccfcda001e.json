@@ -1,0 +1,141 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_7a5ba0f6634d24ca28b17857",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_7c113cf56685f5e5efc670dc"
+  ],
+  "asset": {
+    "asset_id": "53aad5b7d2daff37",
+    "sha256": "53aad5b7d2daff378f9b183b4162ad6347504522cf9617b23c49edccfcda001e",
+    "split": "user_custom",
+    "relative_path": "user_assets/53/53aad5b7d2daff378f9b183b4162ad6347504522cf9617b23c49edccfcda001e/53aad5b7d2daff378f9b183b4162ad6347504522cf9617b23c49edccfcda001e.jpg"
+  },
+  "display": {
+    "theme": "电涡流传感器习题页",
+    "short_description": "这是一张拍摄于教科书页面的照片，内容涉及电涡流式传感器的测量原理。",
+    "micro_tags": [
+      "教科书",
+      "电路图",
+      "物理习题",
+      "传感器",
+      "波形图",
+      "中文教材"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "室内书本特写",
+    "subjects": [
+      "印刷书页",
+      "电路示意图",
+      "波形图表",
+      "中文题目文本"
+    ],
+    "actions": [],
+    "attributes": [
+      "黑白印刷",
+      "纸张纹理",
+      "页面弯曲",
+      "右下角有手指按压"
+    ],
+    "relations": [
+      "图表位于题目上方或中间。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "页面左侧展示了一个包含电感线圈和二极管的桥式电路图(图5-15)。",
+      "页面中部有一个表示振动波形的折线图(图5-16(b))，标注了40mV和40ms的刻度。",
+      "页面右侧和下方排列着编号为5-10和5-11的中文计算题段落。",
+      "图片右下角可见一只人手的大拇指指尖，正在按压书页边缘。"
+    ],
+    "cautious_inferences": [
+      "页面呈现一定的弧度，表明书本处于打开状态且未被完全压平。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "5-10 用电涡流式测振仪测量某机器主轴的轴向振动",
+      "图 5-15 差动电感式传感器测量电路",
+      "图 5-16 题 5-10 图",
+      "49"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "5-10 用电涡流式测振仪测量某机器主轴的轴向振动",
+      "图 5-15 差动电感式传感器测量电路",
+      "图 5-16 题 5-10 图",
+      "49"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "页面左侧展示了一个包含电感线圈和二极管的桥式电路图(图5-15)；页面中部有一个表示振动波形的折线图(图5-16(b))，标注了40mV和40ms的刻度。",
+    "safe_facts": [
+      "页面左侧展示了一个包含电感线圈和二极管的桥式电路图(图5-15)。",
+      "页面中部有一个表示振动波形的折线图(图5-16(b))，标注了40mV和40ms的刻度。",
+      "页面右侧和下方排列着编号为5-10和5-11的中文计算题段落。"
+    ],
+    "do_not_assert": [
+      "页面呈现一定的弧度，表明书本处于打开状态且未被完全压平。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "needs_review",
+    "schema_valid": true,
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": true,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_fea33bf5-55a1-422c-9eea-757351195a21",
+    "generated_at": "2026-08-12T03:17:24.216733+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "30f87d32069e396c772555792a5fd7751ba9267ef0d57a600028ed3fb2df9223",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:17:24.217690+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_7c113cf56685f5e5efc670dc",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:17:24.218032+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "a1f970b0436158f49dc548c199e4cebe93fd55785e0d3b5950eaab5afad0aa32"
+}

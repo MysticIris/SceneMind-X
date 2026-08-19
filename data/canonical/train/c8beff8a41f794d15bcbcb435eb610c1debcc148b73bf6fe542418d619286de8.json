@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1792.jpg",
+    "relative_path": "train/1792.jpg",
+    "sha256": "c8beff8a41f794d15bcbcb435eb610c1debcc148b73bf6fe542418d619286de8",
+    "split": "train"
+  },
+  "canonical_sha256": "01ff894e084cd282db90120fd706c2f02adcbb18284c517d4c89e6a2bde27684",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "手写笔记",
+      "物理公式",
+      "磁学概念"
+    ],
+    "short_description": "一张的纸张上，手写记录了磁学相关公式与概念，包括、、电磁感应等内容。",
+    "theme": "手写物理笔记"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "纸张上有大量手写公式和中文物理术语。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "纸质媒介",
+      "蓝色印刷校名",
+      "黑色墨水书写"
+    ],
+    "relations": [],
+    "scene": "一张纸张上的手写笔记",
+    "subjects": [
+      "大学校徽与名称"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "纸张上有大量手写公式和中文物理术语。",
+    "safe_facts": [
+      "纸张上有大量手写公式和中文物理术语。"
+    ]
+  },
+  "label_id": "cpl_92ce3f9d10580d202c31f128",
+  "provenance": {
+    "generated_at": "2026-08-03T15:08:04.281601+00:00",
+    "migrated_at": "2026-08-03T15:08:04.284378+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "963fcfc913ea5320dd8dc3c8e00ad3374f78cd8f5cfc26e013b222ed1df8cce6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5dc7676306c3be8063a454fc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:08:04.285430+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5dc7676306c3be8063a454fc"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "华中科技大学",
+      "HUAZHONG UNIVERSITY OF SCIENCE AND TECHN",
+      "Wuhan 430074, Hubei, P.R.China 中国·武汉 Tel",
+      "磁导率",
+      "磁化强度",
+      "磁场强度"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "华中科技大学",
+      "HUAZHONG UNIVERSITY OF SCIENCE AND TECHN",
+      "Wuhan 430074, Hubei, P.R.China 中国·武汉 Tel",
+      "磁导率",
+      "磁化强度",
+      "磁场强度"
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:476.jpg",
+    "relative_path": "train/476.jpg",
+    "sha256": "a3b03998449f433354e8097e7585f4e2c78557a2013b999a2d21d68c194dc8a5",
+    "split": "train"
+  },
+  "canonical_sha256": "54f74fa6594c6b6c607d553fe38f6e0ddfa210ecaf256cb9ebd1d65803e88eef",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "大象",
+      "动物园",
+      "观众",
+      "棕榈树"
+    ],
+    "short_description": "一只长有象牙的大象在绿树环绕的围栏内行走，周围聚集着观看的人群。",
+    "theme": "动物园大象表演"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有一头成年亚洲象，身体呈灰褐色，拥有两根明显象牙。",
+      "大象周围有茂密的树木和灌木，前景和背景均有观众站立观看。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "大象行走"
+    ],
+    "attributes": [
+      "灰色皮肤",
+      "长有象牙",
+      "绿色植被背景",
+      "棕榈树"
+    ],
+    "relations": [
+      "大象在围栏内。",
+      "人群在围栏外观看。"
+    ],
+    "scene": "户外动物园围栏区域",
+    "subjects": [
+      "大象",
+      "人群"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一头成年亚洲象，身体呈灰褐色，拥有两根明显象牙；大象周围有茂密的树木和灌木，前景和背景均有观众站立观看。",
+    "safe_facts": [
+      "画面中央有一头成年亚洲象，身体呈灰褐色，拥有两根明显象牙。",
+      "大象周围有茂密的树木和灌木，前景和背景均有观众站立观看。"
+    ]
+  },
+  "label_id": "cpl_4fc1cf3ed6161d185a53a0b1",
+  "provenance": {
+    "generated_at": "2026-08-03T11:11:16.152144+00:00",
+    "migrated_at": "2026-08-03T11:11:16.153978+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b3041f2651b838f84b9579539606d2fd450615789bef7ae61d42fde08ad1c8d7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_776f47b54abafbd97d2f623d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:11:16.154193+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_776f47b54abafbd97d2f623d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

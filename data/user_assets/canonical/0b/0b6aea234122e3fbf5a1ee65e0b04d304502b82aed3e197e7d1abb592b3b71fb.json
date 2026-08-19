@@ -1,0 +1,156 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_251a498f73fe8ac180f295bb",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_dd2b119e1b133110a314ea97"
+  ],
+  "asset": {
+    "asset_id": "0b6aea234122e3fb",
+    "sha256": "0b6aea234122e3fbf5a1ee65e0b04d304502b82aed3e197e7d1abb592b3b71fb",
+    "split": "user_custom",
+    "relative_path": "user_assets/0b/0b6aea234122e3fbf5a1ee65e0b04d304502b82aed3e197e7d1abb592b3b71fb/0b6aea234122e3fbf5a1ee65e0b04d304502b82aed3e197e7d1abb592b3b71fb.jpg"
+  },
+  "display": {
+    "theme": "粉色花海中的街角小店",
+    "short_description": "这是一张手机锁屏截图，画面呈现插画风格。街道转角处有一家蓝色店铺，周围被盛开的粉色花树和攀爬植物环绕，地面铺满花瓣。店外停着自行车，右侧有人坐在桌边，整体氛围浪漫唯美。",
+    "micro_tags": [
+      "插画",
+      "锁屏壁纸",
+      "粉色花朵",
+      "街景",
+      "蓝色店铺",
+      "浪漫氛围"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "开满鲜花的街道转角",
+    "subjects": [
+      "蓝色店铺",
+      "粉色花树",
+      "自行车",
+      "路人",
+      "桌椅"
+    ],
+    "actions": [
+      "花朵盛开",
+      "人物就座"
+    ],
+    "attributes": [
+      "粉色调",
+      "插画风格",
+      "繁茂",
+      "明亮"
+    ],
+    "relations": [
+      "花树环绕建筑。",
+      "自行车停在店前。",
+      "人物位于右侧户外座位。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "图片顶部中央显示时间数字“17：06”及日期文字。",
+      "画面主体为一家位于转角的蓝色店面，拥有大面积玻璃橱窗。",
+      "街道两侧及上方布满盛开的粉色花朵，路面可见散落的花瓣。",
+      "店铺左侧停放着一辆自行车，右侧户外区域有两人坐在桌旁。",
+      "右下角有“小红书”图标及一串数字ID，底部有“按下主屏幕按钮以解锁”提示。"
+    ],
+    "cautious_inferences": [
+      "画面风格具有明显的手绘或数字插画特征，非真实摄影。"
+    ],
+    "uncertainties": [
+      "店铺招牌上的具体外文名称难以完全确认识别。",
+      "右侧人物的具体身份和动作细节因距离较远而不清晰。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "7月19日周六",
+      "乙巳年六月廿五",
+      "17:06",
+      "Patisserie",
+      "按下主屏幕按钮以解锁",
+      "小红书号:42791090184"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "7月19日周六",
+      "乙巳年六月廿五",
+      "17:06",
+      "Patisserie",
+      "按下主屏幕按钮以解锁",
+      "小红书号:42791090184"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "图片顶部中央显示时间数字“17：06”及日期文字；画面主体为一家位于转角的蓝色店面，拥有大面积玻璃橱窗。",
+    "safe_facts": [
+      "图片顶部中央显示时间数字“17：06”及日期文字。",
+      "画面主体为一家位于转角的蓝色店面，拥有大面积玻璃橱窗。",
+      "街道两侧及上方布满盛开的粉色花朵，路面可见散落的花瓣。"
+    ],
+    "do_not_assert": [
+      "画面风格具有明显的手绘或数字插画特征，非真实摄影。",
+      "店铺招牌上的具体外文名称难以完全确认识别。",
+      "右侧人物的具体身份和动作细节因距离较远而不清晰。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_b4b6f0d5-ef5f-4072-97f3-f0b3f54c008c",
+    "generated_at": "2026-08-12T02:59:51.055296+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "4498146fc66019bd64c939d9b2db93ef9da55613e12969c45ffd679619b13b49",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T02:59:51.056611+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_dd2b119e1b133110a314ea97",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T02:59:51.057085+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "1c3919d7dd6b2ce7388326454f5fdcd1cfb97071aa8a5948c744dd3c933e8989"
+}

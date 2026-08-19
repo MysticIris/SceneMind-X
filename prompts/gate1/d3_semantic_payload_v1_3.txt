@@ -1,0 +1,6 @@
+只输出一行、无空格的标准 JSON；不要 Markdown、解释或额外字段。键名必须逐字复制，使用 ASCII 双引号。九个字段都必须出现。每个数组最多 1 项，只保留最重要内容；没有内容用 []。global_observation 最多 18 个汉字，其余字符串尽量短。只写直接可见内容；推断放入 scene_hypotheses；看不清文字写 "|unreadable|no"，不得猜测。
+
+严格格式：
+{"global_observation":"短句","subjects":["主体"],"activities":["行为"],"attributes":["主体:属性"],"relations":["主体>关系>客体"],"visible_text_candidates":["文字|clear|yes"],"scene_hypotheses":["候选|依据|low"],"uncertainties":["不确定"],"evidence_descriptions":["证据"]}
+
+visible_text_candidates 的第三段只能是 yes/no；scene_hypotheses 的第三段只能是 low/medium/high。屏幕、海报、包装或照片中的对象不是现场真实对象；无法区分反射、阴影和直接物体时写入 uncertainties。

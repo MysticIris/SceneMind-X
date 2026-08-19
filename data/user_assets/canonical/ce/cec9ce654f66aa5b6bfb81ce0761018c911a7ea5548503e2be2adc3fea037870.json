@@ -1,0 +1,149 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_bbe62867fb65908a7ba69b4d",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_251df0e45cf21288ec35199c"
+  ],
+  "asset": {
+    "asset_id": "cec9ce654f66aa5b",
+    "sha256": "cec9ce654f66aa5b6bfb81ce0761018c911a7ea5548503e2be2adc3fea037870",
+    "split": "user_custom",
+    "relative_path": "user_assets/ce/cec9ce654f66aa5b6bfb81ce0761018c911a7ea5548503e2be2adc3fea037870/cec9ce654f66aa5b6bfb81ce0761018c911a7ea5548503e2be2adc3fea037870.png"
+  },
+  "display": {
+    "theme": "游戏结算界面截图",
+    "short_description": "这是一张电子游戏的对局结算界面截图。画面左侧展示了一位身穿白色裙装、拥有银白色长发的女性角色立绘，背景为深蓝色星空与冰晶特效。界面右侧及中央覆盖着半透明数据面板，显示巨大的评分数字“14.9”以及“MVP”、“顶级中路”等荣誉标识，下方排列着分路表现、团队贡献等勋章图标及星级评价。",
+    "micro_tags": [
+      "游戏截图",
+      "结算界面",
+      "女性角色",
+      "MVP",
+      "冰雪主题",
+      "UI设计",
+      "星空背景"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "电子游戏对局结束后的数据统计与评价页面",
+    "subjects": [
+      "银发白衣女性游戏角色",
+      "游戏UI数据面板",
+      "荣誉勋章图标",
+      "评分数字"
+    ],
+    "actions": [],
+    "attributes": [
+      "深蓝色调",
+      "星空背景",
+      "冰晶装饰",
+      "金色徽章",
+      "半透明遮罩"
+    ],
+    "relations": [
+      "角色立绘位于画面左侧前景。",
+      "数据面板悬浮于角色右侧及上方。",
+      "评分数字位于视觉中心偏上位置。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "画面左侧有一位侧身坐着的银发女性角色，身着带有冰雪纹理的白色礼服，周围环绕着冰棱状物体。",
+      "屏幕中央显示巨大的米黄色数字“14.9”，其右侧紧邻红底白字的“MVP”标签和紫色标签。",
+      "右上角有一排小型状态图标，包括剑、骷髅头、拳头符号及数字。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法确定具体的游戏名称及版本号。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "14.9",
+      "顶级中路",
+      "MVP",
+      "分路表现",
+      "团队贡献",
+      "848/3000"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "14.9",
+      "顶级中路",
+      "MVP",
+      "分路表现",
+      "团队贡献",
+      "848/3000"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "画面左侧有一位侧身坐着的银发女性角色，身着带有冰雪纹理的白色礼服，周围环绕着冰棱状物体；屏幕中央显示巨大的米黄色数字“14.9”，其右侧紧邻红底白字的“MVP”标签和紫色标签。",
+    "safe_facts": [
+      "画面左侧有一位侧身坐着的银发女性角色，身着带有冰雪纹理的白色礼服，周围环绕着冰棱状物体。",
+      "屏幕中央显示巨大的米黄色数字“14.9”，其右侧紧邻红底白字的“MVP”标签和紫色标签。",
+      "右上角有一排小型状态图标，包括剑、骷髅头、拳头符号及数字。"
+    ],
+    "do_not_assert": [
+      "无法确定具体的游戏名称及版本号。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "needs_review",
+    "schema_valid": true,
+    "warning_codes": [
+      "legacy_contract_short_description_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": true,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_887923eb-3230-4d3c-9696-c554dcc21671",
+    "generated_at": "2026-08-12T03:02:48.416014+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "cd4ae9915cef993d00c69dbb6765a7a85a902628dff43e922093d73b9565d6ec",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:02:48.417143+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_251df0e45cf21288ec35199c",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:02:48.417585+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "44db2b7671058e32f28d768a1768b0c226e0bc5553b544c106467e32e44e2a1a"
+}

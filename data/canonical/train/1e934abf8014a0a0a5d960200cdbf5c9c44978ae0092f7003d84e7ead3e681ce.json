@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:432.jpg",
+    "relative_path": "train/432.jpg",
+    "sha256": "1e934abf8014a0a0a5d960200cdbf5c9c44978ae0092f7003d84e7ead3e681ce",
+    "split": "train"
+  },
+  "canonical_sha256": "18d313f77b736ba054aa594b49b835efbf2ceac547de13315723fd8b291e5848",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "奶油蛋糕",
+      "透明包装",
+      "桌面摆拍"
+    ],
+    "short_description": "透明容器中的奶油小蛋糕，顶部装饰有奶油、果干和金色小勺，背景为键盘。",
+    "theme": "甜点特写"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "蛋糕被透明塑料容器包裹。",
+      "蛋糕顶部有奶油、深色果干和浅色碎屑状装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "奶油色",
+      "圆形",
+      "有装饰物",
+      "带金色小勺"
+    ],
+    "relations": [
+      "蛋糕在容器内。",
+      "容器放在桌面上。",
+      "键盘在蛋糕后方。"
+    ],
+    "scene": "白色桌面上的甜点",
+    "subjects": [
+      "小蛋糕",
+      "透明塑料容器",
+      "键盘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "蛋糕被透明塑料容器包裹；蛋糕顶部有奶油、深色果干和浅色碎屑状装饰。",
+    "safe_facts": [
+      "蛋糕被透明塑料容器包裹。",
+      "蛋糕顶部有奶油、深色果干和浅色碎屑状装饰。"
+    ]
+  },
+  "label_id": "cpl_a729f5e05eb995d141690251",
+  "provenance": {
+    "generated_at": "2026-08-03T11:02:23.526498+00:00",
+    "migrated_at": "2026-08-03T11:02:23.528358+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e6584044c2939728b27fa4a0bf487f4beb98afd523e03fc57b01498e3e6ef9ff",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a207073152878ad44111d58e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:02:23.528548+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a207073152878ad44111d58e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

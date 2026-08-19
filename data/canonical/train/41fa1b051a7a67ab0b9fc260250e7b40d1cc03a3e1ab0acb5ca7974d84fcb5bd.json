@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1597.jpg",
+    "relative_path": "train/1597.jpg",
+    "sha256": "41fa1b051a7a67ab0b9fc260250e7b40d1cc03a3e1ab0acb5ca7974d84fcb5bd",
+    "split": "train"
+  },
+  "canonical_sha256": "e43aa0bb1194dfaf1fbd3f2aad215372a5a4168fb1fe952c57bc185b234cd45e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "橘猫",
+      "摆烂表情",
+      "瞪眼"
+    ],
+    "short_description": "一只橘色虎斑猫正用严肃眼神盯着镜头。",
+    "theme": "猫咪盯人表情包"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "猫的毛色为橘色并带有深色条纹。",
+      "猫的眼睛睁得很大，直视前方。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "橘色虎斑纹",
+      "白色爪垫",
+      "大眼睛",
+      "凝视镜头"
+    ],
+    "relations": [],
+    "scene": "室内环境",
+    "subjects": [
+      "一只猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "猫的毛色为橘色并带有深色条纹；猫的眼睛睁得很大，直视前方。",
+    "safe_facts": [
+      "猫的毛色为橘色并带有深色条纹。",
+      "猫的眼睛睁得很大，直视前方。"
+    ]
+  },
+  "label_id": "cpl_f8d2724bb4e3906e563e56b6",
+  "provenance": {
+    "generated_at": "2026-08-03T14:43:23.854140+00:00",
+    "migrated_at": "2026-08-03T14:43:23.861334+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3e1e0f605faa5e2021c8b7b32fb39b7dca74a9965bab530f288bb4174f61156e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ed9d36d5184339e53a0fbbbd",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:43:23.862037+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ed9d36d5184339e53a0fbbbd"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "你被摆烂猫猫盯上了!",
+      "接下来的24小时你会持续摆烂!"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "你被摆烂猫猫盯上了!",
+      "接下来的24小时你会持续摆烂!"
+    ]
+  }
+}

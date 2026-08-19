@@ -1,0 +1,142 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1311.jpg",
+    "relative_path": "train/1311.jpg",
+    "sha256": "4e0f266f0c91e455a22c3da98c50498cc25f3945e932f5bc7bdf8bd7d55b659a",
+    "split": "train"
+  },
+  "canonical_sha256": "f4b77f19e077fe7fb8a9d6cea73200d0560d3b3707bb0d482b8ebbd86934f977",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "斗地主",
+      "手机游戏"
+    ],
+    "short_description": "手机斗地主游戏界面，玩家手牌为黑桃2、A、、7，显示剩余4张牌，房主已往不谏，机器人和玩家宁宁均不。",
+    "theme": "斗地主游戏界面"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见玩家和机器人。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "机器人分值-2",
+      "玩家宁宁分值-8",
+      "倍数1",
+      "剩余4张牌"
+    ],
+    "relations": [
+      "房主持有手牌。",
+      "机器人与玩家并列对局。"
+    ],
+    "scene": "手机斗地主游戏对局界面",
+    "subjects": [
+      "玩家",
+      "机器人",
+      "房主",
+      "游戏界面元素"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见玩家和机器人。",
+    "safe_facts": [
+      "画面中可见玩家和机器人。"
+    ]
+  },
+  "label_id": "cpl_92d70c47da355bfa0620b29f",
+  "provenance": {
+    "generated_at": "2026-08-03T14:06:31.362997+00:00",
+    "migrated_at": "2026-08-03T14:06:31.367983+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3d51001b8d5de1ef001298e632301bc958ffc5d7f7a5bcf20a5daf079b086e43",
+    "recovered_at_tokens": 768,
+    "source_label_id": "cpl_81474dff0639cb9885f28a48",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:06:31.368865+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:attributes",
+      "removed_unverified_text:direct_observations",
+      "removed_unverified_text:micro_tags",
+      "removed_unverified_text:relations"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_768_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_81474dff0639cb9885f28a48"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "3/6局",
+      "不出",
+      "跑得快好友房 64分封顶",
+      "房间号: 249590",
+      "10",
+      "出牌"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "3/6局",
+      "不出",
+      "跑得快好友房 64分封顶",
+      "房间号: 249590",
+      "10",
+      "出牌"
+    ]
+  }
+}

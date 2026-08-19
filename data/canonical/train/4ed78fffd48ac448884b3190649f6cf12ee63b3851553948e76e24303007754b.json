@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1952.jpg",
+    "relative_path": "train/1952.jpg",
+    "sha256": "4ed78fffd48ac448884b3190649f6cf12ee63b3851553948e76e24303007754b",
+    "split": "train"
+  },
+  "canonical_sha256": "396d6c7a894d2fce122eecb481b5e692dcb04897cf84c2a3ff9090e5ff72ea4d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "商场中庭",
+      "电子屏幕",
+      "广告宣传"
+    ],
+    "short_description": "商场中庭内悬挂着一块巨大的电子广告屏，周围是多层楼面和来往行人。",
+    "theme": "商场中庭巨幕广告"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中心为竖向长条形电子屏幕。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "大型电子屏幕",
+      "多层结构",
+      "室内照明"
+    ],
+    "relations": [
+      "电子屏幕位于商场中庭中央。",
+      "行人分布在各楼层。"
+    ],
+    "scene": "多层商场中庭",
+    "subjects": [
+      "电子屏幕",
+      "女性艺人形象",
+      "行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中心为竖向长条形电子屏幕。",
+    "safe_facts": [
+      "画面中心为竖向长条形电子屏幕。"
+    ]
+  },
+  "label_id": "cpl_63c3203104a8be1aac3a8ab7",
+  "provenance": {
+    "generated_at": "2026-08-02T22:32:52.873283+00:00",
+    "migrated_at": "2026-08-03T07:13:41.920904+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "78c5531cec7d7b9776edc3cecaac08c2f0368e7d4f58924b866ad55d3751a759",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c95023fe9cd6afa636d08ee6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:27:56.089864+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c95023fe9cd6afa636d08ee6",
+    "cpl_f6506fbc8dee7d0f313e676e"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "流行殿堂的最高境界",
+      "Los Angeles Times",
+      "让我们携手展开神奇冒险",
+      "IMAX",
+      "武商梦时代摩尔影城",
+      "WU SHANG DREAM MALL CINEMA"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "流行殿堂的最高境界",
+      "Los Angeles Times",
+      "让我们携手展开神奇冒险",
+      "IMAX",
+      "武商梦时代摩尔影城",
+      "WU SHANG DREAM MALL CINEMA"
+    ]
+  }
+}

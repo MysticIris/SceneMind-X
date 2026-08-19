@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:784.jpg",
+    "relative_path": "train/784.jpg",
+    "sha256": "30c98f3900ec9cb53d007dd9c4ed1511e173a4a184976902bd408be330960db1",
+    "split": "train"
+  },
+  "canonical_sha256": "5050a3fa773e2218bcdcb269ebf15158bf0cea728c311f9a110c390c25530e53",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "冻干咖啡粉",
+      "多口味",
+      "独立小杯"
+    ],
+    "short_description": "一盒装有多种口味的包装盒，内含不同颜色的独立小杯。",
+    "theme": "包装"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "包装盒内可见多个蓝色、橙色和灰色的小杯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深蓝色包装盒",
+      "透明塑料窗口",
+      "白色品牌标志",
+      "多颜色小杯"
+    ],
+    "relations": [
+      "小杯被封装在包装盒内。"
+    ],
+    "scene": "产品包装正面展示",
+    "subjects": [
+      "咖啡粉包装盒",
+      "蓝色小杯",
+      "橙色小杯",
+      "灰色小杯"
+    ],
+    "visual_medium": "product_packaging"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "包装盒内可见多个蓝色、橙色和灰色的小杯。",
+    "safe_facts": [
+      "包装盒内可见多个蓝色、橙色和灰色的小杯。"
+    ]
+  },
+  "label_id": "cpl_7b2d6732d8d1211853142191",
+  "provenance": {
+    "generated_at": "2026-08-03T12:22:44.526067+00:00",
+    "migrated_at": "2026-08-03T12:22:44.530766+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f07a9a64b67153243a48984f24f8c2d76a2d735c8b512c7d178989f5be08904c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a0aab2727381222b12523011",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:22:44.532477+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a0aab2727381222b12523011"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Member's Mark",
+      "QUALITY GUARANTEED By Sams Club",
+      "FREEZE DRIED INSTANT COFFEE POWDER",
+      "冻干速溶咖啡粉",
+      "哥伦比亚 蕙兰 热萃工艺 8 CUPS",
+      "埃塞俄比亚 耶加雪菲 冷萃工艺 8 CUPS"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Member's Mark",
+      "QUALITY GUARANTEED By Sams Club",
+      "FREEZE DRIED INSTANT COFFEE POWDER",
+      "冻干速溶咖啡粉",
+      "哥伦比亚 蕙兰 热萃工艺 8 CUPS",
+      "埃塞俄比亚 耶加雪菲 冷萃工艺 8 CUPS"
+    ]
+  }
+}

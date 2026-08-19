@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:433.jpg",
+    "relative_path": "train/433.jpg",
+    "sha256": "77c6424d697815444a9d08f90970888df6c7f5041fbf3a7994e122d7e19f4155",
+    "split": "train"
+  },
+  "canonical_sha256": "4a75aa931743c17950852072c107dbb4ccf68df9b9ab180e2e7d7372e77dc49c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "白色轿车",
+      "车展",
+      "车尾设计",
+      "人群围观"
+    ],
+    "short_description": "一辆白色轿车停放在室内展厅，车尾有品牌标识，周围有人群围观。",
+    "theme": "白色轿车后视图"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "车尾灯亮起，呈蓝色光带状。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色车身",
+      "流线型车尾",
+      "尾灯发光"
+    ],
+    "relations": [
+      "观众围绕轿车站立。"
+    ],
+    "scene": "室内展厅",
+    "subjects": [
+      "白色轿车",
+      "多名观众"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "车尾灯亮起，呈蓝色光带状。",
+    "safe_facts": [
+      "车尾灯亮起，呈蓝色光带状。"
+    ]
+  },
+  "label_id": "cpl_23b6130d49fd11322fa7cd6d",
+  "provenance": {
+    "generated_at": "2026-08-03T11:02:35.544292+00:00",
+    "migrated_at": "2026-08-03T11:02:35.546780+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5485b1143404c5662df5663855cd4acb89244ffb54707e4fc68b55bb02db04a7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4efd2f7a8ae63047f349d537",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:02:35.547105+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4efd2f7a8ae63047f349d537"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Xiaomi",
+      "SU7 Max",
+      "SU7"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Xiaomi",
+      "SU7 Max",
+      "SU7"
+    ]
+  }
+}

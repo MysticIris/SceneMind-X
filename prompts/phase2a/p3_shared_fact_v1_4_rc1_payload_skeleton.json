@@ -1,0 +1,14 @@
+{
+  "visual_medium": {"primary_type": "uncertain", "secondary_types": [], "confidence": 0.0, "evidence_refs": [], "uncertainty_reason": null},
+  "depicted_content": {"summary": null, "real_world_event_status": "uncertain", "evidence_refs": [], "uncertainty_reason": null},
+  "scene_summary": null,
+  "subjects": [],
+  "activities": [],
+  "relationships": [],
+  "text_assessment": {"text_presence": "none", "text_types": [], "legibility": "none", "suspected_false_positive": false, "false_positive_contexts": [], "ocr_candidates": [], "scene_inference_allowed": false, "uncertainty_reason": null},
+  "evidence_items": [],
+  "claims": [],
+  "short_caption": null,
+  "dense_caption": null,
+  "self_check": {"medium_content_separated": false, "ocr_false_positive_guard_passed": false, "unsupported_inference_absent": false, "json_complete": false, "issues": []}
+}

@@ -1,0 +1,135 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:648.jpg",
+    "relative_path": "train/648.jpg",
+    "sha256": "da6568e9d7f016cfc82489524353b7c25e9cd230b3b0be8f8969e91dc4339f55",
+    "split": "train"
+  },
+  "canonical_sha256": "ab873a27e2da790e9c574232b7c9252b756009dce21562aa68f5fbe36a7aa9cd",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古装人物",
+      "对视",
+      "视频截图"
+    ],
+    "short_description": "古装人物在室内进行对话，画面带有弹幕和水印。",
+    "theme": "古装人物对话"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两名古装人物，一人为正面特写，另一人背对镜头。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "对视",
+      "交谈"
+    ],
+    "attributes": [
+      "古装服饰",
+      "黑色发髻",
+      "胡须",
+      "深色衣袍"
+    ],
+    "relations": [
+      "两人面对面站立。"
+    ],
+    "scene": "室内对话场景",
+    "subjects": [
+      "一名男性角色",
+      "另一名背对镜头的角色"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两名古装人物，一人为正面特写，另一人背对镜头。",
+    "safe_facts": [
+      "画面中有两名古装人物，一人为正面特写，另一人背对镜头。"
+    ]
+  },
+  "label_id": "cpl_70ad142227677c18465475ca",
+  "provenance": {
+    "generated_at": "2026-08-03T11:51:44.686334+00:00",
+    "migrated_at": "2026-08-03T11:51:44.691130+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b0fbf085bcd395ee5046846052df897f914e953ebfd3b4e8d10cdf25d7e87c1d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_162adbcf7d2e34584bf0c3c8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:51:44.692696+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_162adbcf7d2e34584bf0c3c8"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "这里有个隐藏彩秦国谍报工作出色,赵王都不清楚的人你深闺梦里人解",
+      "赵括遇几次挫折或可成名将",
+      "廖耀湘:勿Q,勿Q",
+      "我要梭哈!",
+      "我方畅通无阻",
+      "秦国体现出了对国家命运的最大恭敬"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "这里有个隐藏彩秦国谍报工作出色,赵王都不清楚的人你深闺梦里人解",
+      "赵括遇几次挫折或可成名将",
+      "廖耀湘:勿Q,勿Q",
+      "我要梭哈!",
+      "我方畅通无阻",
+      "秦国体现出了对国家命运的最大恭敬"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:664.jpg",
+    "relative_path": "train/664.jpg",
+    "sha256": "7e5ee2310de3d48694ba4cabacfcde4d0d6db435e1116dc3035e16549cc2e44a",
+    "split": "train"
+  },
+  "canonical_sha256": "cdc99aa60f5b8f4bdc185ad18b16cc95fec9a054f3b4993a6ef099e6800857ab",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "水果自助",
+      "冷藏展示",
+      "餐饮柜台"
+    ],
+    "short_description": "玻璃柜内陈列多种切好的新鲜水果，包括西瓜、哈密瓜、青梅和生菜，顾客正在取食。",
+    "theme": "自助餐台水果区"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "玻璃柜内有多格白色托盘装着不同种类的切好水果。",
+      "一名顾客正用夹子从托盘中取西瓜块。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "取食"
+    ],
+    "attributes": [
+      "切片",
+      "冷藏",
+      "透明玻璃柜"
+    ],
+    "relations": [
+      "顾客与水果柜互动。"
+    ],
+    "scene": "室内餐饮场所的自助餐台",
+    "subjects": [
+      "水果",
+      "顾客",
+      "玻璃展示柜"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "玻璃柜内有多格白色托盘装着不同种类的切好水果；一名顾客正用夹子从托盘中取西瓜块。",
+    "safe_facts": [
+      "玻璃柜内有多格白色托盘装着不同种类的切好水果。",
+      "一名顾客正用夹子从托盘中取西瓜块。"
+    ]
+  },
+  "label_id": "cpl_1c0118de795e91f38cc06304",
+  "provenance": {
+    "generated_at": "2026-08-03T11:55:08.905193+00:00",
+    "migrated_at": "2026-08-03T11:55:08.911806+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "93e0a811068674dc0bb6a900bcfb29ce496cc21d145cfb75f34c75fdc9976268",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4149f5b2581bd2847cf18fe8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:55:08.912178+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4149f5b2581bd2847cf18fe8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

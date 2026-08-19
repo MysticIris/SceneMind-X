@@ -1,0 +1,145 @@
+{
+  "schema_version": "scenemindx_cloud_image_transport_profiles_v1",
+  "default_profile_id": "default_transport_v1",
+  "oversized_profile_id": "oversized_image_downscale_v1",
+  "compatible_profile_ids": [
+    "oversized_image_downscale_v1",
+    "oversized_image_downscale_v2",
+    "oversized_image_downscale_v3"
+  ],
+  "profiles": {
+    "default_transport_v1": {
+      "profile_id": "default_transport_v1",
+      "profile_version": "1",
+      "transform": "none",
+      "description": "Send the original managed image after SHA verification."
+    },
+    "oversized_image_downscale_v1": {
+      "profile_id": "oversized_image_downscale_v1",
+      "profile_version": "1",
+      "compatibility_level": 1,
+      "max_long_edge": 4096,
+      "max_pixels": 12582912,
+      "max_encoded_bytes": 7870000,
+      "output_format": "JPEG",
+      "jpeg_quality": 92,
+      "jpeg_subsampling": 0,
+      "jpeg_optimize": false,
+      "jpeg_progressive": false,
+      "color_space": "RGB",
+      "exif_orientation": "transpose_then_strip",
+      "preserve_transparency": false,
+      "transparency_background": "#FFFFFF",
+      "resampling": "LANCZOS",
+      "metadata_policy": "strip",
+      "crop": false,
+      "stretch": false,
+      "content_enhancement": false,
+      "watermark": false
+    },
+    "oversized_image_downscale_v2": {
+      "profile_id": "oversized_image_downscale_v2",
+      "profile_version": "1",
+      "compatibility_level": 2,
+      "max_long_edge": 3072,
+      "max_pixels": 4194304,
+      "max_encoded_bytes": 7870000,
+      "output_format": "JPEG",
+      "jpeg_quality": 85,
+      "jpeg_subsampling": 0,
+      "jpeg_optimize": false,
+      "jpeg_progressive": false,
+      "color_space": "RGB",
+      "exif_orientation": "transpose_then_strip",
+      "preserve_transparency": false,
+      "transparency_background": "#FFFFFF",
+      "resampling": "LANCZOS",
+      "metadata_policy": "strip",
+      "crop": false,
+      "stretch": false,
+      "content_enhancement": false,
+      "watermark": false
+    },
+    "oversized_image_downscale_v3": {
+      "profile_id": "oversized_image_downscale_v3",
+      "profile_version": "1",
+      "compatibility_level": 3,
+      "max_long_edge": 2048,
+      "max_pixels": 1048576,
+      "max_encoded_bytes": 7870000,
+      "output_format": "JPEG",
+      "jpeg_quality": 75,
+      "jpeg_subsampling": 0,
+      "jpeg_optimize": false,
+      "jpeg_progressive": false,
+      "color_space": "RGB",
+      "exif_orientation": "transpose_then_strip",
+      "preserve_transparency": false,
+      "transparency_background": "#FFFFFF",
+      "resampling": "LANCZOS",
+      "metadata_policy": "strip",
+      "crop": false,
+      "stretch": false,
+      "content_enhancement": false,
+      "watermark": false
+    }
+  },
+  "provider_profiles": {
+    "default": {
+      "compatible_profile_ids": [
+        "oversized_image_downscale_v1",
+        "oversized_image_downscale_v2",
+        "oversized_image_downscale_v3"
+      ]
+    },
+    "bailian_standard": {
+      "inherits": "default"
+    },
+    "bailian_high_quality": {
+      "inherits": "default"
+    },
+    "self_hosted": {
+      "inherits": "default"
+    },
+    "local": {
+      "inherits": "default"
+    }
+  },
+  "preflight": {
+    "request_overhead_bytes": 4096,
+    "max_estimated_request_body_bytes": 10500000,
+    "max_source_file_bytes": 7800000,
+    "max_original_long_edge": 8192,
+    "max_original_short_edge": 6144,
+    "max_original_pixels": 50331648,
+    "trigger_semantics": "any_strictly_greater",
+    "evidence": {
+      "largest_observed_success_bytes": 7727358,
+      "largest_observed_success_asset_id": "course_v1:train:606.jpg",
+      "request_too_large_assets": [
+        "course_v1:train:563.jpg",
+        "course_v1:train:626.jpg"
+      ],
+      "request_too_large_bytes": [
+        8475624,
+        7926846
+      ]
+    }
+  },
+  "fallback": {
+    "http_statuses": [
+      413
+    ],
+    "codes": [
+      "RequestTooLarge",
+      "RequestEntityTooLarge"
+    ],
+    "message_terms": [
+      "request too large",
+      "request entity too large",
+      "payload too large"
+    ],
+    "max_transport_attempts": 3,
+    "repeat_original_request": false
+  }
+}

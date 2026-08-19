@@ -1,0 +1,113 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:352.jpg",
+    "relative_path": "train/352.jpg",
+    "sha256": "4aeaea51c9a3c87f3ce376475ff20fe9512550af0510160425c768f248b6985a",
+    "split": "train"
+  },
+  "canonical_sha256": "be48307980b06e32b0e5a6f65a97b032946a8bff9264ab37f37b26e69407baa9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "人群聚集",
+      "彩色队列",
+      "室内场馆"
+    ],
+    "short_description": "大量人群在室内场馆内按颜色分组整齐排列，背景悬挂国旗与横幅。",
+    "theme": "大型室内集会"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "场馆内有多排座位，坐满穿着不同颜色衣服的人群。",
+      "场馆顶部有金属结构和管道系统。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "穿着彩色服装",
+      "分区域排列"
+    ],
+    "relations": [],
+    "scene": "室内大型场馆",
+    "subjects": [
+      "人群"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "场馆内有多排座位，坐满穿着不同颜色衣服的人群；场馆顶部有金属结构和管道系统。",
+    "safe_facts": [
+      "场馆内有多排座位，坐满穿着不同颜色衣服的人群。",
+      "场馆顶部有金属结构和管道系统。"
+    ]
+  },
+  "label_id": "cpl_08114b1382f9740e73a8b795",
+  "provenance": {
+    "generated_at": "2026-08-03T10:45:29.345432+00:00",
+    "migrated_at": "2026-08-03T10:45:29.347333+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "255834fe67d55c0a8ce18956b28353d0ed002342bfa608f29a1afb01350abab7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c7df6288a47abf771e8fce69",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:45:29.347538+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c7df6288a47abf771e8fce69"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:164.jpg",
+    "relative_path": "train/164.jpg",
+    "sha256": "0ca09b50c7899a05e153d3e088625cfcdaa93694b81b63e2e209bd1c38086fd3",
+    "split": "train"
+  },
+  "canonical_sha256": "d882ad8617839a006c60351bac2c39a32a04d16eac160199541a66ec8e0da389",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "溪流",
+      "秋林",
+      "岩石",
+      "湍急"
+    ],
+    "short_description": "湍急的蓝绿色溪水冲刷着岩石河床，两岸树木呈现金黄与翠绿交织的秋色，峭壁陡立，水流激荡。",
+    "theme": "秋日山涧溪流"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "岩石峭壁上植被稀疏，可能因地形陡峭或季节影响。"
+    ],
+    "direct_observations": [
+      "溪水呈蓝绿色，表面有白色浪花，显示水流湍急。",
+      "河岸两侧树木叶子呈现金黄色与绿色混合，符合秋季特征。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "流动",
+      "冲刷"
+    ],
+    "attributes": [
+      "蓝绿色",
+      "湍急",
+      "金黄色树叶",
+      "灰褐色岩壁"
+    ],
+    "relations": [
+      "溪水流经岩石河床。",
+      "树木生长于岩壁与河岸。"
+    ],
+    "scene": "山涧溪流",
+    "subjects": [
+      "溪水",
+      "树木",
+      "岩石峭壁"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "岩石峭壁上植被稀疏，可能因地形陡峭或季节影响。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "溪水呈蓝绿色，表面有白色浪花，显示水流湍急；河岸两侧树木叶子呈现金黄色与绿色混合，符合秋季特征。",
+    "safe_facts": [
+      "溪水呈蓝绿色，表面有白色浪花，显示水流湍急。",
+      "河岸两侧树木叶子呈现金黄色与绿色混合，符合秋季特征。"
+    ]
+  },
+  "label_id": "cpl_fdc5f8db9c8c887f808631be",
+  "provenance": {
+    "generated_at": "2026-08-03T10:08:06.881382+00:00",
+    "migrated_at": "2026-08-03T10:08:06.883010+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "11fafdc04bc34d99be49992e66eb2cdeac731f5879b9598b75260eb7380d9433",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2845aad2921e2f5f6799a8fb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:08:06.883253+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2845aad2921e2f5f6799a8fb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

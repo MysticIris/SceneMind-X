@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:328.jpg",
+    "relative_path": "train/328.jpg",
+    "sha256": "a2a8c096c646e23e7f6b8881818e0fe35223595662edda714106071920973468",
+    "split": "train"
+  },
+  "canonical_sha256": "b94802e341455ef93c9b135d64ff3745604b994a4468d9c8b772225aa4b875b4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古堡",
+      "山巅",
+      "秋色",
+      "薄雾",
+      "日落"
+    ],
+    "short_description": "夕阳余晖洒在山巅古堡上，薄雾缭绕山谷，层林尽染，呈现壮丽秋日风光。",
+    "theme": "山巅古堡秋日晨雾"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "薄雾可能在清晨或傍晚时分形成，因温差导致水汽凝结。"
+    ],
+    "direct_observations": [
+      "城堡建筑群位于突出的岩石山峰顶部。",
+      "周围山体覆盖着秋季变色的树木，以橙黄为主色调。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "城堡位于岩石山顶",
+      "树木呈橙黄色调",
+      "天空有红色云彩",
+      "地面有薄雾弥漫"
+    ],
+    "relations": [
+      "城堡坐落在山峰之巅。",
+      "薄雾笼罩山谷及部分山坡。",
+      "城堡被夕阳光照亮。"
+    ],
+    "scene": "山地丘陵地貌，覆盖秋季植被，天空有晚霞",
+    "subjects": [
+      "城堡建筑",
+      "山峦",
+      "树木",
+      "云层",
+      "薄雾"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "薄雾可能在清晨或傍晚时分形成，因温差导致水汽凝结。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "城堡建筑群位于突出的岩石山峰顶部；周围山体覆盖着秋季变色的树木，以橙黄为主色调。",
+    "safe_facts": [
+      "城堡建筑群位于突出的岩石山峰顶部。",
+      "周围山体覆盖着秋季变色的树木，以橙黄为主色调。"
+    ]
+  },
+  "label_id": "cpl_5967357e2eddb03d57d49180",
+  "provenance": {
+    "generated_at": "2026-08-03T10:40:33.237941+00:00",
+    "migrated_at": "2026-08-03T10:40:33.239437+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4c41119894b16434b5350b1a6474191a66382e43a05152694d052d45c5f45694",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c695c6f57ff4f506a9900c38",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:40:33.239705+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c695c6f57ff4f506a9900c38"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

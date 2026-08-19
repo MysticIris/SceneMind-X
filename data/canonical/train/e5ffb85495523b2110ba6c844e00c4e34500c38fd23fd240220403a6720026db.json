@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:679.jpg",
+    "relative_path": "train/679.jpg",
+    "sha256": "e5ffb85495523b2110ba6c844e00c4e34500c38fd23fd240220403a6720026db",
+    "split": "train"
+  },
+  "canonical_sha256": "749c4e94e8324b46c16fcd547e4c7f21bf466b60abdfb8d86a2cd965c0603a38",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪景",
+      "校园",
+      "冬季",
+      "灌木丛"
+    ],
+    "short_description": "雪覆盖的校园景观，树木灌木披上白装，远处建筑与山林相映，一人在雪中行走。",
+    "theme": "雪后校园"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面及植物表面覆盖着积雪。",
+      "背景中有多栋建筑物和山坡上的树木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "被雪覆盖",
+      "灰白色天空",
+      "绿色植被",
+      "灰色路面"
+    ],
+    "relations": [
+      "树木与灌木被雪覆盖。",
+      "行人位于灌木丛旁。"
+    ],
+    "scene": "雪后校园",
+    "subjects": [
+      "树木",
+      "灌木",
+      "建筑物",
+      "行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面及植物表面覆盖着积雪；背景中有多栋建筑物和山坡上的树木。",
+    "safe_facts": [
+      "地面及植物表面覆盖着积雪。",
+      "背景中有多栋建筑物和山坡上的树木。"
+    ]
+  },
+  "label_id": "cpl_63ab3b744e1d59b26083ef19",
+  "provenance": {
+    "generated_at": "2026-08-03T11:58:40.173856+00:00",
+    "migrated_at": "2026-08-03T11:58:40.176731+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b48bbe90a08a6e353cf32c09f9262c098d84da90032635be6aa105f37bc62df1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a7886909e7d27839fbb7872c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:58:40.177067+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a7886909e7d27839fbb7872c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

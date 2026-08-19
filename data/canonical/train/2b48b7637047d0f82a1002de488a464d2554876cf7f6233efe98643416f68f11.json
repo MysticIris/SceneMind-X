@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1896.jpg",
+    "relative_path": "train/1896.jpg",
+    "sha256": "2b48b7637047d0f82a1002de488a464d2554876cf7f6233efe98643416f68f11",
+    "split": "train"
+  },
+  "canonical_sha256": "36d856111f4d14ed7d5abfecf93223966353157c9713bc987848e27e2d9b2861",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古风服饰",
+      "彩色灯笼",
+      "传统建筑"
+    ],
+    "short_description": "一人背对镜头，长发束带，身着浅色衣袍，前方是挂满彩色纸灯笼的传统木结构建筑。",
+    "theme": "古风灯笼庭院"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央人物背对镜头，头发扎起并系有蓝色丝带。",
+      "建筑上方悬挂多个色彩鲜艳的纸灯笼(红、黄、绿、蓝)。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "长发",
+      "蓝色发带",
+      "白色衣袍",
+      "彩色纸灯笼",
+      "深色木柱建筑"
+    ],
+    "relations": [
+      "人位于灯笼下方。",
+      "灯笼悬挂在建筑屋檐下。"
+    ],
+    "scene": "户外庭院",
+    "subjects": [
+      "穿浅色衣袍的人",
+      "背景中站立的两人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央人物背对镜头，头发扎起并系有蓝色丝带；建筑上方悬挂多个色彩鲜艳的纸灯笼(红、黄、绿、蓝)。",
+    "safe_facts": [
+      "画面中央人物背对镜头，头发扎起并系有蓝色丝带。",
+      "建筑上方悬挂多个色彩鲜艳的纸灯笼(红、黄、绿、蓝)。"
+    ]
+  },
+  "label_id": "cpl_c3d95bcc2e54c3ede04436c4",
+  "provenance": {
+    "generated_at": "2026-08-03T15:19:37.791332+00:00",
+    "migrated_at": "2026-08-03T15:19:37.792832+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f3504cdfe8dbea71cd1a98d6bc24237d3aae2d5bbfe80cfc9a7f1c9c48918b28",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9ad6f5a4752126a5b53aeb7a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:19:37.793045+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9ad6f5a4752126a5b53aeb7a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1628.jpg",
+    "relative_path": "train/1628.jpg",
+    "sha256": "dbe7d1a84dd3bd51efe26f5d97929e78d0b7719bd460b491ec7985d675645c5b",
+    "split": "train"
+  },
+  "canonical_sha256": "1734324c1269cbdf8c0d1a6e835c3e35c67b9d29adab32245bfe32761e1baae3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红色展柜",
+      "玻璃罩",
+      "圆柱形展品"
+    ],
+    "short_description": "玻璃展柜内陈列着一个红色六边形底座上的圆柱形物体，背景为展厅环境，有参观者身影。",
+    "theme": "红色展柜中的展品"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "玻璃展柜内有一个红色六边形底座。",
+      "底座上放置一个圆柱形物体，其顶部有红色螺旋状图案。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色",
+      "透明玻璃",
+      "圆形顶部图案"
+    ],
+    "relations": [
+      "展品放置于底座上。",
+      "底座置于展柜内。"
+    ],
+    "scene": "室内展厅",
+    "subjects": [
+      "圆柱形展品",
+      "红色六边形底座",
+      "玻璃展柜",
+      "背景参观者"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "玻璃展柜内有一个红色六边形底座；底座上放置一个圆柱形物体，其顶部有红色螺旋状图案。",
+    "safe_facts": [
+      "玻璃展柜内有一个红色六边形底座。",
+      "底座上放置一个圆柱形物体，其顶部有红色螺旋状图案。"
+    ]
+  },
+  "label_id": "cpl_2e91deb4a3230b58bf17f4e8",
+  "provenance": {
+    "generated_at": "2026-08-03T14:47:07.614999+00:00",
+    "migrated_at": "2026-08-03T14:47:07.618311+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "02742386c3ae60818cbd6ce205857284c0501e16d78766ec3a57bfb281ddc89d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_327bd493c43be77e3ef144fe",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:47:07.618674+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_327bd493c43be77e3ef144fe"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

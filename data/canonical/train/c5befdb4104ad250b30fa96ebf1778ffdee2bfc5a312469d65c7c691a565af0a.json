@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1450.jpg",
+    "relative_path": "train/1450.jpg",
+    "sha256": "c5befdb4104ad250b30fa96ebf1778ffdee2bfc5a312469d65c7c691a565af0a",
+    "split": "train"
+  },
+  "canonical_sha256": "bcb19ee12fcba533a31a6ddf7a51fd28e375913da3e80b398ad112cb3e03dfff",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市景观",
+      "日落云彩",
+      "建筑群",
+      "树木遮挡"
+    ],
+    "short_description": "城市建筑群被绚丽晚霞笼罩，天空呈现粉橙渐变，树木与楼宇交错分布，左侧建筑立面清晰可见。",
+    "theme": "城市黄昏天际线"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自地平线方向，符合日落时段特征。"
+    ],
+    "direct_observations": [
+      "天空呈现从浅蓝到粉橙的渐变色彩。",
+      "画面左侧可见一栋多层建筑的立面和外挂空调机。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空呈粉橙色",
+      "云层有纹理",
+      "建筑多层结构",
+      "树木茂密"
+    ],
+    "relations": [
+      "建筑位于画面左侧。",
+      "树木覆盖前景与中景。",
+      "远处建筑群在地平线上。"
+    ],
+    "scene": "城市郊区或住宅区黄昏景象",
+    "subjects": [
+      "建筑物",
+      "树木",
+      "天空云层"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自地平线方向，符合日落时段特征。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现从浅蓝到粉橙的渐变色彩；画面左侧可见一栋多层建筑的立面和外挂空调机。",
+    "safe_facts": [
+      "天空呈现从浅蓝到粉橙的渐变色彩。",
+      "画面左侧可见一栋多层建筑的立面和外挂空调机。"
+    ]
+  },
+  "label_id": "cpl_f476acd912b5996be3e787c6",
+  "provenance": {
+    "generated_at": "2026-08-03T14:25:30.767488+00:00",
+    "migrated_at": "2026-08-03T14:25:30.774722+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3f1d14d3ac329d65bb64986ceed258b0b5a90fe4c0af8769a785725c515dc168",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_98a28f27361a9064ac93f4a7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:25:30.775083+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_98a28f27361a9064ac93f4a7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

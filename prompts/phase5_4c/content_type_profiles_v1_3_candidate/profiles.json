@@ -1,0 +1,77 @@
+{
+  "candidate_id": "SCENEMINDX_CONTENT_TYPE_PROFILES_V1_3_CANDIDATE",
+  "version": "1.3.0",
+  "status": "candidate_active_phase5_4c",
+  "parent_candidate_id": "SCENEMINDX_CONTENT_TYPE_PROFILES_V1_2_CANDIDATE",
+  "change_hypothesis": "显式目标长度采用80%-120%产品合同，短体裁设置紧上限，并用文体内部素材补长；偏成文类型不再以图片关系分析或通用桥接句补足长度。",
+  "global_rules": {
+    "explicit_target_length": "正文非空白可见字符必须处于目标值的80%-120%",
+    "default_target_length": "未明确字数时使用内容类型自身的默认区间",
+    "meta_language_exception": "仅当用户明确要求逐图、分别或按图说明时，才允许必要的图片顺序表达"
+  },
+  "profiles": {
+    "moments": {
+      "default_length": {"target": 110, "minimum": 80, "maximum": 130},
+      "required_structure": ["以具体细节或当下感受自然开场", "用短句带出真实情绪和分享感", "以一句可直接发布的自然话语收束"],
+      "length_completion_strategy": ["补充一个可见生活细节", "补充当下心情", "补充氛围变化", "用自然短句收束"],
+      "forbidden_filler": ["两幅图", "两张图", "两张图片", "这些图", "这些图片", "这几张图共同", "第一张", "第二张", "画面一", "画面二", "图一", "图二", "画面组合", "两个瞬间彼此独立", "图片之间", "共同呈现", "镜头所及", "观者", "系统要求", "证据边界"],
+      "output_behavior": "只输出短而自然、可直接发布的朋友圈正文；补长只能增加生活细节、心情或氛围，不能分析图片数量、顺序和关系，也不能暴露系统约束。",
+      "explicit_length_contract": "用户明确给出目标长度时按80%-120%验收",
+      "meta_language_exception": "仅用户明确要求逐图说明时允许必要顺序表达"
+    },
+    "creative_story": {
+      "default_length": {"target": 240, "minimum": 160, "maximum": 300},
+      "length_completion_strategy": ["补充人物行动", "补充自然对话", "补充心理变化", "推进转折", "完善结尾"],
+      "forbidden_filler": ["两幅图", "两张图", "两张图片", "这些图", "这些图片", "这几张图共同", "第一张", "第二张", "画面一", "画面二", "图一", "图二", "画面组合", "两个瞬间彼此独立", "图片之间", "共同呈现", "逐图说明", "创作说明", "系统要求"],
+      "output_behavior": "只写具备起因、发展、转折和结尾的故事正文；长度不足时补行动、对话、心理或情节，不得以图片分析、关系说明或抽象套话补长。",
+      "explicit_length_contract": "用户明确给出目标长度时按80%-120%验收",
+      "meta_language_exception": "仅用户明确要求逐图说明时允许必要顺序表达"
+    },
+    "travel_diary": {
+      "default_length": {"target": 300, "minimum": 220, "maximum": 380},
+      "required_structure": ["以第一人称抵达或出发的观察开场", "通过时间或行走推进见闻", "写出环境变化与个人感受", "以旅行心情自然收束"],
+      "length_completion_strategy": ["补充时间推进", "补充沿途见闻", "补充环境变化", "补充个人感受", "补充一个旅途小细节"],
+      "forbidden_filler": ["两幅图", "两张图", "两张图片", "这些图", "这些图片", "这几张图共同", "第一张", "第二张", "画面一", "画面二", "图一", "图二", "一静一动", "画面组合", "两个瞬间彼此独立", "图片关系", "共同展现", "说明文口吻", "系统要求"],
+      "output_behavior": "像真实经历记录一样以第一人称直接成文；补长只能推进见闻、环境和感受，不得改写成多图说明或图片关系分析。",
+      "explicit_length_contract": "用户明确给出目标长度时按80%-120%验收",
+      "meta_language_exception": "仅用户明确要求逐图说明时允许必要顺序表达"
+    },
+    "article": {
+      "default_length": {"target": 300, "minimum": 200, "maximum": 380},
+      "length_completion_strategy": ["补充主题阐释", "补充具体细节", "增加自然过渡", "补充与主题一致的总结"],
+      "forbidden_filler": ["两幅图", "两张图", "两张图片", "这些图", "这些图片", "这几张图共同", "第一张", "第二张", "画面一", "画面二", "图一", "图二", "画面组合", "两个瞬间彼此独立", "图片之间", "共同呈现", "机械逐图列举", "写作说明", "系统要求"],
+      "output_behavior": "直接形成有主题、有展开、有收束的文章；补长只能深化主题或补充相关细节，不写图片关系分析、提纲或创作说明。",
+      "explicit_length_contract": "用户明确给出目标长度时按80%-120%验收",
+      "meta_language_exception": "仅用户明确要求逐图说明时允许必要顺序表达"
+    },
+    "advertisement": {
+      "default_length": {"target": 100, "minimum": 60, "maximum": 120},
+      "required_structure": ["一句聚焦主题且有记忆点的主文案", "一句提炼卖点或使用场景的辅助说明", "必要时加入克制、可兑现的行动邀请"],
+      "length_completion_strategy": ["强化核心卖点", "补充使用场景", "补充体验价值", "增加简短行动邀请"],
+      "forbidden_filler": ["两幅图", "两张图", "两张图片", "这些图", "这些图片", "这几张图共同", "第一张", "第二张", "画面一", "画面二", "图一", "图二", "画面组合", "两个瞬间彼此独立", "图片关系", "共同呈现", "从图片中可以看出", "图片分析", "创作说明", "系统要求"],
+      "output_behavior": "直接输出短小集中的宣传文案，必须体现主题、卖点、场景感和传播性；补长只能强化卖点、体验或行动邀请，不能泛泛抒情或分析图片。",
+      "explicit_length_contract": "用户明确给出目标长度时按80%-120%验收",
+      "meta_language_exception": "仅用户明确要求逐图说明时允许必要顺序表达"
+    },
+    "poster_title": {
+      "default_length": {"target": 24, "minimum": 8, "maximum": 32},
+      "required_structure": ["单个极简主标题", "只有确有必要时增加一行极短副标题"],
+      "length_completion_strategy": ["替换为更准确的核心词", "增强节奏和记忆点", "必要时增加极短副标题"],
+      "forbidden_filler": ["两幅图", "两张图", "两张图片", "这些图", "这些图片", "这几张图共同", "第一张", "第二张", "画面一", "画面二", "图一", "图二", "画面组合", "两个瞬间彼此独立", "共同呈现", "解释标题", "图片关系", "系统要求", "扩写成长段落"],
+      "output_behavior": "只给可直接排版的极简标题或极短主副标题；严格保持短促，不解释、不展开、不分析图片关系。",
+      "explicit_length_contract": "用户明确给出目标长度时按80%-120%验收，同时受32字体裁硬上限约束",
+      "hard_maximum": 32,
+      "meta_language_exception": "仅用户明确要求逐图说明时允许必要顺序表达"
+    },
+    "poem": {
+      "default_length": {"target": 120, "minimum": 60, "maximum": 160},
+      "required_structure": ["以核心意象起笔", "通过诗行节奏推进意象和情绪", "用留白或首尾呼应收束"],
+      "length_completion_strategy": ["增加一处意象变化", "调整诗行节奏", "推进情绪", "增加留白或首尾呼应"],
+      "forbidden_filler": ["两幅图", "两张图", "两张图片", "这些图", "这些图片", "这几张图共同", "第一张", "第二张", "画面一", "画面二", "图一", "图二", "画面组合", "两个瞬间彼此独立", "共同构成一首诗", "图片关系", "解释诗意", "创作说明", "系统要求", "散文式说明"],
+      "output_behavior": "只写短诗正文，以意象、节奏和情绪推进完成融合；保持诗行和留白，不得退化为散文说明或图片分析。",
+      "explicit_length_contract": "用户明确给出目标长度时按80%-120%验收，同时受160字体裁硬上限约束",
+      "hard_maximum": 160,
+      "meta_language_exception": "仅用户明确要求逐图说明时允许必要顺序表达"
+    }
+  }
+}

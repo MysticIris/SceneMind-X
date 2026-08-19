@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1740.jpg",
+    "relative_path": "train/1740.jpg",
+    "sha256": "5963be0f57b0a1d59a24e326ac7209cf4daa8c35a2618b7f3b22b793521c85d0",
+    "split": "train"
+  },
+  "canonical_sha256": "472ce8ccd9ba28eb3dc62f60bd354c5cb8587cc8d3ba933cc15de2fef4dd7aef",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "斑驳墙面",
+      "树影斑驳",
+      "剥落油漆"
+    ],
+    "short_description": "阳光透过树叶，在剥落的红黄墙面上投下斑驳光影，墙面油漆层脱落，呈现岁月痕迹。",
+    "theme": "斑驳墙影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自上方或侧方，形成明暗对比。"
+    ],
+    "direct_observations": [
+      "墙面油漆呈红黄色，部分区域剥落露出底层。",
+      "树影以不规则形状投射在墙面上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "油漆剥落",
+      "色彩斑驳",
+      "光影交错"
+    ],
+    "relations": [
+      "树影投射在墙面上。"
+    ],
+    "scene": "户外墙面",
+    "subjects": [
+      "墙面",
+      "树影"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自上方或侧方，形成明暗对比。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "墙面油漆呈红黄色，部分区域剥落露出底层；树影以不规则形状投射在墙面上。",
+    "safe_facts": [
+      "墙面油漆呈红黄色，部分区域剥落露出底层。",
+      "树影以不规则形状投射在墙面上。"
+    ]
+  },
+  "label_id": "cpl_64f464631c3fb077395dc57c",
+  "provenance": {
+    "generated_at": "2026-08-02T22:03:36.860588+00:00",
+    "migrated_at": "2026-08-03T07:13:41.337083+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "45a7eb2db41ef9b8c0dca443d39d4e116b08b93e1a974b32992fe78f60e1b56a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_278c9a894dd89984564c9a4e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:01:41.818014+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_278c9a894dd89984564c9a4e",
+    "cpl_b8b842e9107e8c96ecda0691"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

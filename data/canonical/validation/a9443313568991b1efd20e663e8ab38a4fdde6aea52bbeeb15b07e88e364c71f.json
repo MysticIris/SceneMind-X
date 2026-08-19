@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2228.jpg",
+    "relative_path": "val/2228.jpg",
+    "sha256": "a9443313568991b1efd20e663e8ab38a4fdde6aea52bbeeb15b07e88e364c71f",
+    "split": "val"
+  },
+  "canonical_sha256": "40f57d2c81df96bc715b103c797cbd69bce48f6e1c9182be8c778f53c59034d7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "玉兰花",
+      "春季",
+      "公园",
+      "树木"
+    ],
+    "short_description": "多株玉兰树在阴天绽放淡黄色花朵，枝干交错，背景为灰白天空与稀疏绿叶。",
+    "theme": "春日玉兰树"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多株树木上开有淡黄色的花苞和盛开的花朵。",
+      "树枝呈深褐色，部分枝条无叶，背景为灰白色天空。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "淡黄色花朵",
+      "光秃枝干",
+      "阴天天空"
+    ],
+    "relations": [],
+    "scene": "户外公园或绿化带",
+    "subjects": [
+      "玉兰树"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多株树木上开有淡黄色的花苞和盛开的花朵；树枝呈深褐色，部分枝条无叶，背景为灰白色天空。",
+    "safe_facts": [
+      "多株树木上开有淡黄色的花苞和盛开的花朵。",
+      "树枝呈深褐色，部分枝条无叶，背景为灰白色天空。"
+    ]
+  },
+  "label_id": "cpl_7da47631dbe2fd4d1d0d051f",
+  "provenance": {
+    "generated_at": "2026-08-03T16:17:05.676737+00:00",
+    "migrated_at": "2026-08-03T16:17:05.678808+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8b225e0e9d7db5a2777d97b4ecf73513adefc059fe2020c7a25f56450966a20c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0fee96d6e2af0df0583bc7dc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:17:05.679179+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0fee96d6e2af0df0583bc7dc"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

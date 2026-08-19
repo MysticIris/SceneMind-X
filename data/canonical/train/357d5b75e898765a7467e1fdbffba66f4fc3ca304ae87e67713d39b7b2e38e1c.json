@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1187.jpg",
+    "relative_path": "train/1187.jpg",
+    "sha256": "357d5b75e898765a7467e1fdbffba66f4fc3ca304ae87e67713d39b7b2e38e1c",
+    "split": "train"
+  },
+  "canonical_sha256": "cf56cfbc03907a5fb50149fdb47631b5232e8f42ab2b89d1f3499bc463d4bc1e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "青铜器",
+      "古代武器",
+      "博物馆展品"
+    ],
+    "short_description": "博物馆展柜内陈列两件青铜器，一件为长矛头，另一件为带护手的刀具，均置于支架上。",
+    "theme": "古代金属武器"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "左侧为一柄青铜矛头，呈尖锐状，表面有锈蚀痕迹。",
+      "右侧为一把青铜刀具，配有护手，刀身轮廓由白色线条勾勒。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "青铜材质",
+      "锈迹斑斑",
+      "有支架支撑"
+    ],
+    "relations": [
+      "两者并列陈列于展柜中。"
+    ],
+    "scene": "博物馆展柜内",
+    "subjects": [
+      "青铜矛头",
+      "青铜刀具"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "左侧为一柄青铜矛头，呈尖锐状，表面有锈蚀痕迹；右侧为一把青铜刀具，配有护手，刀身轮廓由白色线条勾勒。",
+    "safe_facts": [
+      "左侧为一柄青铜矛头，呈尖锐状，表面有锈蚀痕迹。",
+      "右侧为一把青铜刀具，配有护手，刀身轮廓由白色线条勾勒。"
+    ]
+  },
+  "label_id": "cpl_e884b153a65c34fe30a534d2",
+  "provenance": {
+    "generated_at": "2026-08-03T13:52:04.258367+00:00",
+    "migrated_at": "2026-08-03T13:52:04.261338+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2c49068d303c71ed45ef9d58b380ec44586648cd9fe632cb1f56e46d00b16b21",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c3cc89d940f21290b9e5d106",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:52:04.261698+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c3cc89d940f21290b9e5d106"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

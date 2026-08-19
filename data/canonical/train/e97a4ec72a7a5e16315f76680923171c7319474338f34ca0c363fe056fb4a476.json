@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:325.jpg",
+    "relative_path": "train/325.jpg",
+    "sha256": "e97a4ec72a7a5e16315f76680923171c7319474338f34ca0c363fe056fb4a476",
+    "split": "train"
+  },
+  "canonical_sha256": "2eb18d247f03e45b6d51063bb78a72b3abef5de9a1116dc2ef610217c92fe07e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "摩天大楼",
+      "灯火通明",
+      "河流环绕"
+    ],
+    "short_description": "夜幕下灯火辉煌的城市天际线，高楼林立，河流蜿蜒穿城而过，灯光勾勒出密集建筑群的轮廓。",
+    "theme": "城市夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "大量高层建筑在夜间亮灯。",
+      "城市边缘有宽阔水域环绕。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灯火通明",
+      "高密度建筑",
+      "夜色背景"
+    ],
+    "relations": [
+      "建筑群沿河分布。",
+      "灯光照亮街道。"
+    ],
+    "scene": "城市夜景",
+    "subjects": [
+      "高楼建筑群",
+      "河流",
+      "城市街道"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大量高层建筑在夜间亮灯；城市边缘有宽阔水域环绕。",
+    "safe_facts": [
+      "大量高层建筑在夜间亮灯。",
+      "城市边缘有宽阔水域环绕。"
+    ]
+  },
+  "label_id": "cpl_0e55baf34905614615e0a535",
+  "provenance": {
+    "generated_at": "2026-08-03T10:40:05.305366+00:00",
+    "migrated_at": "2026-08-03T10:40:05.306837+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "946260350b52ffcc6d6060bdc3efde04b955979cd6d7df61ba5c0205cf8169d1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_96d555bac9926f85e638e4c5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:40:05.307055+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_96d555bac9926f85e638e4c5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2022.jpg",
+    "relative_path": "val/2022.jpg",
+    "sha256": "b3ad81a6a9eb1a9614e32734e34461705027d47d96b132a0c26d5bda370ca94c",
+    "split": "val"
+  },
+  "canonical_sha256": "871ab13a3fb26430b1e836fed4a6dee3088709de74435f86560f3f859803d5f3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "手机相机",
+      "模糊光斑",
+      "取景框"
+    ],
+    "short_description": "手机拍照界面显示模糊光斑，中央有取景框，底部有快门按钮及模式选项。",
+    "theme": "手机相机界面"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕显示手机相机操作界面。",
+      "画面中心有一个黄色方形取景框。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "界面显示模糊背景",
+      "中央有黄色取景框"
+    ],
+    "relations": [],
+    "scene": "手机相机拍摄界面",
+    "subjects": [],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕显示手机相机操作界面；画面中心有一个黄色方形取景框。",
+    "safe_facts": [
+      "屏幕显示手机相机操作界面。",
+      "画面中心有一个黄色方形取景框。"
+    ]
+  },
+  "label_id": "cpl_b12d611c178a0188a8b5162d",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/val/val_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "e32d3af75c130700fc73cbca19128fe8491843a5f2d834ae73a5bd88abf3c6d1",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T15:49:23.496612+00:00",
+    "migrated_at": "2026-08-03T15:49:23.497990+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9c29a2680f1b07c6ed0a0f7c6963527210608bd69322b60791880ad95125a5a2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1192f52682eb3b1cf3d59277",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:49:23.498176+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_subjects_empty",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "待复核样本保守描述手机相机界面、取景框和曝光光斑。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1192f52682eb3b1cf3d59277"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

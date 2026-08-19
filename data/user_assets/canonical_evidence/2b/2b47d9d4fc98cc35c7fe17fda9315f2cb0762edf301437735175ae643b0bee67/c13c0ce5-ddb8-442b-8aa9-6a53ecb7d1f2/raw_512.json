@@ -1,0 +1,121 @@
+{
+  "asset_id": "2b47d9d4fc98cc35",
+  "asset_sha256": "2b47d9d4fc98cc35c7fe17fda9315f2cb0762edf301437735175ae643b0bee67",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"Q版动漫少女插画\",\n    \"short_description\": \"这是一张Q版风格的动漫少女插画。女孩留着浅粉色双马尾，头戴饰有白色小熊的黄色贝雷帽，身穿浅色上衣和格纹短裙，背着粉色书包。她双手捂嘴，大眼睛闪烁，周围漂浮着粉色气泡，整体色调柔和可爱。\",\n    \"micro_tags\": [\n      \"Q版\",\n      \"双马尾\",\n      \"贝雷帽\",\n      \"小熊装饰\",\n      \"粉色系\",\n      \"动漫插画\",\n      \"可爱\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"illustration\",\n    \"scene\": \"纯白背景\",\n    \"subjects\": [\n      \"动漫少女\"\n    ],\n    \"actions\": [\n      \"双手捂嘴\",\n      \"站立\"\n    ],\n    \"attributes\": [\n      \"浅粉色双马尾\",\n      \"黄色贝雷帽\",\n      \"帽子上的白色小熊装饰\",\n      \"大眼睛\",\n      \"粉色格纹裙\",\n      \"粉色背包\",\n      \"周围有粉色气泡状图形\"\n    ],\n    \"relations\": []\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面主体为一个头部比例较大的Q版女性角色\",\n      \"角色头戴黄色帽子，帽子右侧有一个明显的白色熊头形状装饰物\",\n      \"角色头发为浅粉灰色，扎成两侧低双马尾\",\n      \"角色身穿浅色长袖上衣，下着蓝白或粉白格纹百褶裙\",\n      \"角色左肩背着一个粉色双肩包\",\n      \"角色双手抬起置于嘴部前方\",\n      \"背景中有若干半透明的粉色圆形或云朵状漂浮物\"\n    ],\n    \"cautious_inferences\": [\n      \"角色的表情看起来像是惊讶、害羞或正在保守秘密\",\n      \"画风属于典型的日系萌系插画风格\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的服装品牌或角色出处\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"none\",\n    \"visual_candidates\": []\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张描绘戴黄色熊耳帽、背粉色书包的Q版双马尾少女的插画，背景简洁并伴有粉色装饰元素。\",\n    \"safe_facts\": [\n      \"图像为二维数字绘画作品\",\n      \"主要色彩包括粉色、黄色和白色\",\n      \"人物特征为大眼睛和夸张的头身比\"\n    ]\n  }\n}",
+      "input_tokens": 1867,
+      "output_tokens": 606,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 1867,
+        "output_tokens": 606,
+        "total_tokens": 2473,
+        "estimated_cost_cny": 0.008582,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "Q版动漫少女插画",
+          "short_description": "这是一张Q版风格的动漫少女插画。女孩留着浅粉色双马尾，头戴饰有白色小熊的黄色贝雷帽，身穿浅色上衣和格纹短裙，背着粉色书包。她双手捂嘴，大眼睛闪烁，周围漂浮着粉色气泡，整体色调柔和可爱。",
+          "micro_tags": [
+            "Q版",
+            "双马尾",
+            "贝雷帽",
+            "小熊装饰",
+            "粉色系",
+            "动漫插画",
+            "可爱"
+          ]
+        },
+        "facts": {
+          "visual_medium": "illustration",
+          "scene": "纯白背景",
+          "subjects": [
+            "动漫少女"
+          ],
+          "actions": [
+            "双手捂嘴",
+            "站立"
+          ],
+          "attributes": [
+            "浅粉色双马尾",
+            "黄色贝雷帽",
+            "帽子上的白色小熊装饰",
+            "大眼睛",
+            "粉色格纹裙",
+            "粉色背包",
+            "周围有粉色气泡状图形"
+          ],
+          "relations": []
+        },
+        "evidence": {
+          "direct_observations": [
+            "画面主体为一个头部比例较大的Q版女性角色",
+            "角色头戴黄色帽子，帽子右侧有一个明显的白色熊头形状装饰物",
+            "角色头发为浅粉灰色，扎成两侧低双马尾",
+            "角色身穿浅色长袖上衣，下着蓝白或粉白格纹百褶裙",
+            "角色左肩背着一个粉色双肩包",
+            "角色双手抬起置于嘴部前方",
+            "背景中有若干半透明的粉色圆形或云朵状漂浮物"
+          ],
+          "cautious_inferences": [
+            "角色的表情看起来像是惊讶、害羞或正在保守秘密",
+            "画风属于典型的日系萌系插画风格"
+          ],
+          "uncertainties": [
+            "无法确定具体的服装品牌或角色出处"
+          ]
+        },
+        "text_evidence": {
+          "presence": "none",
+          "visual_candidates": []
+        },
+        "fallback": {
+          "safe_caption": "一张描绘戴黄色熊耳帽、背粉色书包的Q版双马尾少女的插画，背景简洁并伴有粉色装饰元素。",
+          "safe_facts": [
+            "图像为二维数字绘画作品",
+            "主要色彩包括粉色、黄色和白色",
+            "人物特征为大眼睛和夸张的头身比"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 113632,
+        "request_bytes": 82152,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 11.892679399999906,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "4bd7a344fecbfe6bda25216ade0a5993620f24a3a6ab737736b017914fab98da"
+}

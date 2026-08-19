@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1651.jpg",
+    "relative_path": "train/1651.jpg",
+    "sha256": "beac87f7b44c03f6b0dcc6a6308981a17f729a40681e32b319af5134d9abc3a1",
+    "split": "train"
+  },
+  "canonical_sha256": "a7ef7caf1f4fa64ed068766c9eeb9ff1e4c119b9a402506b5ca1216301837184",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "山巅视角",
+      "江河平原",
+      "云层覆盖"
+    ],
+    "short_description": "从山顶俯瞰，远山层叠，江河蜿蜒，平原与村落交织，天空云层密布。",
+    "theme": "山海相望"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "远处可见风力发电机阵列。"
+    ],
+    "direct_observations": [
+      "画面呈现从高处俯瞰的广阔地貌。",
+      "前景有裸露岩石，表面刻有红色汉字。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "多云天气",
+      "远山层叠",
+      "河流宽阔",
+      "植被覆盖"
+    ],
+    "relations": [
+      "岩石位于前景。",
+      "山脉延伸至远方。",
+      "河流穿过平原。",
+      "村落分布于平原。"
+    ],
+    "scene": "山顶俯瞰地貌景观",
+    "subjects": [
+      "岩石",
+      "山脉",
+      "河流",
+      "平原",
+      "村落",
+      "云层"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "远处可见风力发电机阵列。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现从高处俯瞰的广阔地貌；前景有裸露岩石，表面刻有红色汉字。",
+    "safe_facts": [
+      "画面呈现从高处俯瞰的广阔地貌。",
+      "前景有裸露岩石，表面刻有红色汉字。"
+    ]
+  },
+  "label_id": "cpl_194f00bf020741dfb8be4148",
+  "provenance": {
+    "generated_at": "2026-08-03T14:50:16.905920+00:00",
+    "migrated_at": "2026-08-03T14:50:16.911914+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5ef6565684fe1111d771e275c5853215732c25908f06398cd7ecb59e18d1e0b3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b29d9f35279883a43fab35ee",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:50:16.912469+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b29d9f35279883a43fab35ee"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "天地壮觀"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "天地壮觀"
+    ]
+  }
+}

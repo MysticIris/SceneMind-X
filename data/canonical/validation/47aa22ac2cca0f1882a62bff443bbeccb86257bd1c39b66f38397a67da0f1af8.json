@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2255.jpg",
+    "relative_path": "val/2255.jpg",
+    "sha256": "47aa22ac2cca0f1882a62bff443bbeccb86257bd1c39b66f38397a67da0f1af8",
+    "split": "val"
+  },
+  "canonical_sha256": "f77e9ae8c803cd2a3eda13065bb0cdf52310a0fc9abea9e85c422bec288958de",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄金店",
+      "夜景",
+      "红灯笼",
+      "橱窗展示"
+    ],
+    "short_description": "夜晚繁华街道上，一家装饰华丽的店铺灯火通明，门口挂满红灯笼，店内陈列着珠宝首饰，顾客在橱窗前驻足。",
+    "theme": "夜市黄金店"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "店铺入口处铺有红色地毯，两侧摆放着商品展示台。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "装饰华丽",
+      "灯光璀璨",
+      "红色地毯",
+      "传统中式建筑风格"
+    ],
+    "relations": [],
+    "scene": "城市商业街夜间",
+    "subjects": [
+      "店铺",
+      "顾客",
+      "红灯笼",
+      "招牌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "店铺入口处铺有红色地毯，两侧摆放着商品展示台。",
+    "safe_facts": [
+      "店铺入口处铺有红色地毯，两侧摆放着商品展示台。"
+    ]
+  },
+  "label_id": "cpl_a05cc855168c2a2b010b334b",
+  "provenance": {
+    "generated_at": "2026-08-03T16:18:43.869602+00:00",
+    "migrated_at": "2026-08-03T16:18:43.871652+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f2b005e72a6f41ecd0143b433f97d23d4cd4f921ef3cabe677944bfaf640b11d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_863fe3c430d26e8a6780af2d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:18:43.872262+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_863fe3c430d26e8a6780af2d"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "中国黄金",
+      "湖北总店",
+      "I ❤️ 武汉",
+      "盛大开业",
+      "黄金晶牌",
+      "值得信赖"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "中国黄金",
+      "湖北总店",
+      "I ❤️ 武汉",
+      "盛大开业",
+      "黄金晶牌",
+      "值得信赖"
+    ]
+  }
+}

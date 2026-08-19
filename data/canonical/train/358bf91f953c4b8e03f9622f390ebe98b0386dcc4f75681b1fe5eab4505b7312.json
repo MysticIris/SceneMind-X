@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:498.jpg",
+    "relative_path": "train/498.jpg",
+    "sha256": "358bf91f953c4b8e03f9622f390ebe98b0386dcc4f75681b1fe5eab4505b7312",
+    "split": "train"
+  },
+  "canonical_sha256": "90f0d9ccd9029e9adc281c233f819e77e23ab102aedb9b5e59067d36fae8667a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "白色汽车",
+      "商场展厅",
+      "顾客围观"
+    ],
+    "short_description": "画面中有一辆白色汽车，车头部分清晰可见。",
+    "theme": "商场内汽车展示"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一辆白色汽车，车头部分清晰可见。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色汽车",
+      "棕色围栏",
+      "室内照明"
+    ],
+    "relations": [
+      "汽车位于展厅中央。",
+      "顾客站在围栏旁观看汽车。"
+    ],
+    "scene": "室内商场展厅",
+    "subjects": [
+      "白色汽车",
+      "顾客",
+      "棕色围栏"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一辆白色汽车，车头部分清晰可见。",
+    "safe_facts": [
+      "画面中有一辆白色汽车，车头部分清晰可见。"
+    ]
+  },
+  "label_id": "cpl_74e05899c5e860734ac8c6bb",
+  "provenance": {
+    "generated_at": "2026-08-03T11:16:09.849181+00:00",
+    "migrated_at": "2026-08-03T11:16:09.850801+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d87965d45bf7c730cfa33179a196bdcd59536984d10b8bfe44dc9409f7d5d6da",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_35956f6d0a79a765fe3900b7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:16:09.851073+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_35956f6d0a79a765fe3900b7"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Hongkong Land 香港置地"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Hongkong Land 香港置地"
+    ]
+  }
+}

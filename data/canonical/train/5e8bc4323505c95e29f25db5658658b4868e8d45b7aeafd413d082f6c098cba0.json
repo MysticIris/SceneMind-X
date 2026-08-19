@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:311.jpg",
+    "relative_path": "train/311.jpg",
+    "sha256": "5e8bc4323505c95e29f25db5658658b4868e8d45b7aeafd413d082f6c098cba0",
+    "split": "train"
+  },
+  "canonical_sha256": "b03241a5c0224cc69c50c3bdf9d86fe0fa2cfb1a46f76ffdb5737bce86e03850",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "松树林",
+      "城市远景",
+      "湖泊",
+      "自然与城市交融"
+    ],
+    "short_description": "透过松树枝叶眺望远方城市与湖泊，近处绿意盎然，远处建筑群与水域相映成趣。",
+    "theme": "林间俯瞰城市景观"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "拍摄视角较高，可能位于山坡或山顶。"
+    ],
+    "direct_observations": [
+      "画面前景有松树的枝干和叶片。",
+      "中景可见一片宽阔的湖泊及周边农田。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "松树有绿色针叶",
+      "天空多云",
+      "建筑群密集分布",
+      "湖泊呈带状"
+    ],
+    "relations": [
+      "松树位于前景。",
+      "城市与湖泊在中景。",
+      "农田分布在湖泊与城市之间。"
+    ],
+    "scene": "从山林高处俯瞰城市与水体",
+    "subjects": [
+      "松树",
+      "城市建筑群",
+      "湖泊",
+      "农田"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "拍摄视角较高，可能位于山坡或山顶。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景有松树的枝干和叶片；中景可见一片宽阔的湖泊及周边农田。",
+    "safe_facts": [
+      "画面前景有松树的枝干和叶片。",
+      "中景可见一片宽阔的湖泊及周边农田。"
+    ]
+  },
+  "label_id": "cpl_0326fddcb9036ed5c148a921",
+  "provenance": {
+    "generated_at": "2026-08-03T10:37:19.510912+00:00",
+    "migrated_at": "2026-08-03T10:37:19.512727+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a00f1c72660cd1d6e7881f244a4807d6a9102c6937f8a9957061232ba9278594",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_808760dc67453bebe8d91031",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:37:19.513289+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_808760dc67453bebe8d91031"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "10/04/2023 14:24",
+      "Changshu, Suzhou"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "10/04/2023 14:24",
+      "Changshu, Suzhou"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:385.jpg",
+    "relative_path": "train/385.jpg",
+    "sha256": "3edd40e14cfb49b4159fda86ebc3ae3a3f8d8086f8d43d0901618c94a4522978",
+    "split": "train"
+  },
+  "canonical_sha256": "ba75e27ede90da06c40eacd5ec56f2c95b305e4ed8ef001ec129e5e8a3e25920",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "面条",
+      "青菜",
+      "煎蛋",
+      "筷子"
+    ],
+    "short_description": "一碗盛有面条、青菜和煎蛋的碗，配有筷子，背景有饮品杯。",
+    "theme": "一碗面条"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "碗内装有面条、青菜和煎蛋。",
+      "筷子正夹住部分面条。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色瓷碗",
+      "金黄色面条",
+      "绿色青菜",
+      "煎蛋呈圆形",
+      "筷子夹着面条"
+    ],
+    "relations": [
+      "面条在碗中。",
+      "青菜在碗中。",
+      "煎蛋在碗中。",
+      "筷子放在碗上。"
+    ],
+    "scene": "餐桌",
+    "subjects": [
+      "碗",
+      "面条",
+      "青菜",
+      "煎蛋",
+      "筷子",
+      "饮品杯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "碗内装有面条、青菜和煎蛋；筷子正夹住部分面条。",
+    "safe_facts": [
+      "碗内装有面条、青菜和煎蛋。",
+      "筷子正夹住部分面条。"
+    ]
+  },
+  "label_id": "cpl_5b5ce6d8f2b6846a52dc91b1",
+  "provenance": {
+    "generated_at": "2026-08-03T10:52:31.563153+00:00",
+    "migrated_at": "2026-08-03T10:52:31.564836+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a60e6e21cbad6fbd49ec4000992c877f38e97bc7feec808a7278519796a15925",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e63876dcaa4ba126d7fa4ea9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:52:31.565046+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e63876dcaa4ba126d7fa4ea9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_4b1445bea365262267a91725",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_040531594a6970b01c8e77e3"
+  ],
+  "asset": {
+    "asset_id": "af1de86e55abe183",
+    "sha256": "af1de86e55abe183219b63c2a030055f964bbd9b684f52d17f3c7d5c006a9cb0",
+    "split": "user_custom",
+    "relative_path": "user_assets/af/af1de86e55abe183219b63c2a030055f964bbd9b684f52d17f3c7d5c006a9cb0/af1de86e55abe183219b63c2a030055f964bbd9b684f52d17f3c7d5c006a9cb0.png"
+  },
+  "display": {
+    "theme": "手写英文缩写笔记",
+    "short_description": "一张横线纸上的手写笔记，列出了大量英文单词及其对应的缩写形式。内容涵盖校园设施、商业术语及时间单位，字迹清晰工整，采用左右两栏排列。",
+    "micro_tags": [
+      "手写笔记",
+      "英语缩写",
+      "学习笔记",
+      "词汇表",
+      "横线纸"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "平铺的书写纸张特写",
+    "subjects": [
+      "横线笔记本内页"
+    ],
+    "actions": [],
+    "attributes": [
+      "黑色墨水",
+      "手写体",
+      "双栏布局",
+      "列表形式"
+    ],
+    "relations": [
+      "左侧为缩写，右侧为全称的对应关系。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "图片展示了一张带有横线的白色纸张，上面用黑色笔迹手写了多行英文内容。",
+      "内容分为左右两列，每一行通常由一个简短的缩写如LB，SC，apt和其后对应的完整单词如Library，Student Center，apartme。",
+      "可以看到一些特定的符号标记，例如圆圈数字1、方框□以及箭头↑和↓。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "on campus",
+      "off campus",
+      "building",
+      "house",
+      "LB Library",
+      "SC Student Center"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "on campus",
+      "off campus",
+      "building",
+      "house",
+      "LB Library",
+      "SC Student Center"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "图片展示了一张带有横线的白色纸张，上面用黑色笔迹手写了多行英文内容；内容分为左右两列，每一行通常由一个简短的缩写如LB，SC，apt和其后对应的完整单词如Library，Student Center，apartme。",
+    "safe_facts": [
+      "图片展示了一张带有横线的白色纸张，上面用黑色笔迹手写了多行英文内容。",
+      "内容分为左右两列，每一行通常由一个简短的缩写如LB，SC，apt和其后对应的完整单词如Library，Student Center，apartme。",
+      "可以看到一些特定的符号标记，例如圆圈数字1、方框□以及箭头↑和↓。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "needs_review",
+    "schema_valid": true,
+    "warning_codes": [
+      "legacy_contract_safe_facts_empty",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": true,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_71d30b39-7196-4376-ab6d-945a1ee11c55",
+    "generated_at": "2026-08-12T03:28:41.573758+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "212f289d16584acc1d1e4e4ebf8f16f6ce45254db675286332adadedc4633f66",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:28:41.574985+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_040531594a6970b01c8e77e3",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:28:41.575383+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "e3e584afe8525cefd34761265f3078f07bbc96568341922b3d4499d623684cae"
+}

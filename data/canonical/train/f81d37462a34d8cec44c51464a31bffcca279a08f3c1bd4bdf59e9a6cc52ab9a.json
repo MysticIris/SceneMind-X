@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:660.jpg",
+    "relative_path": "train/660.jpg",
+    "sha256": "f81d37462a34d8cec44c51464a31bffcca279a08f3c1bd4bdf59e9a6cc52ab9a",
+    "split": "train"
+  },
+  "canonical_sha256": "cc01d8fa8ebc1dcb7ad9a4f328287c5671e8abb792b143eac0d12305daf44a8d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "电动车",
+      "停车棚",
+      "砖地"
+    ],
+    "short_description": "夜间，多个电动车停放在带顶棚的砖砌停车区域，部分车辆尾灯亮起，环境光线昏暗。",
+    "theme": "夜间电动车停放区"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多辆电动车并排停放在带金属支架的顶棚下。",
+      "地面由方形砖块铺设，部分区域有落叶。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "砖铺地面",
+      "部分车辆尾灯亮着"
+    ],
+    "relations": [
+      "电动车停放在停车棚下。"
+    ],
+    "scene": "夜间户外停车区域",
+    "subjects": [
+      "电动车",
+      "停车棚"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多辆电动车并排停放在带金属支架的顶棚下；地面由方形砖块铺设，部分区域有落叶。",
+    "safe_facts": [
+      "多辆电动车并排停放在带金属支架的顶棚下。",
+      "地面由方形砖块铺设，部分区域有落叶。"
+    ]
+  },
+  "label_id": "cpl_184a76b05f28652ffca6757e",
+  "provenance": {
+    "generated_at": "2026-08-03T11:54:15.617006+00:00",
+    "migrated_at": "2026-08-03T11:54:15.621350+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "114a1f9bc5d8dbd07faae2b3d6071427f302190bea4a2448f468d28704b7787a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e1e0c1e2c08de8d60522fdda",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:54:15.621699+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e1e0c1e2c08de8d60522fdda"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

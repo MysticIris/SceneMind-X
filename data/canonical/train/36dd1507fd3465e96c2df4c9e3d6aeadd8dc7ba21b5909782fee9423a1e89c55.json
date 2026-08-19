@@ -1,0 +1,113 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1581.jpg",
+    "relative_path": "train/1581.jpg",
+    "sha256": "36dd1507fd3465e96c2df4c9e3d6aeadd8dc7ba21b5909782fee9423a1e89c55",
+    "split": "train"
+  },
+  "canonical_sha256": "336b1db8f3dc18eb3b64100e9b9c2c42ac8ed92b56781efba7f2ea1953f41a9d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "自动扶梯",
+      "城市景观"
+    ],
+    "short_description": "一名穿着深色外套的人站在自动扶梯上，背景是绿色灯光装饰的现代建筑和霓虹招牌。",
+    "theme": "夜景人像"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一名身穿深色外套的人物站在自动扶梯上。",
+      "背景有绿色发光条纹装饰的建筑结构。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "穿着深色外套",
+      "站立姿态"
+    ],
+    "relations": [],
+    "scene": "城市夜景",
+    "subjects": [
+      "一个人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一名身穿深色外套的人物站在自动扶梯上；背景有绿色发光条纹装饰的建筑结构。",
+    "safe_facts": [
+      "画面中有一名身穿深色外套的人物站在自动扶梯上。",
+      "背景有绿色发光条纹装饰的建筑结构。"
+    ]
+  },
+  "label_id": "cpl_ce03b6e6f01d15442f771945",
+  "provenance": {
+    "generated_at": "2026-08-03T14:41:05.462585+00:00",
+    "migrated_at": "2026-08-03T14:41:05.465314+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dc6c8c83841e8ff50e642a2a9286ec3445f5e4ae13e4a8dd1bead5e5f7c958d6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_63473343c5f4c20e077890c8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:41:05.466203+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_63473343c5f4c20e077890c8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

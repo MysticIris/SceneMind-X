@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:500.jpg",
+    "relative_path": "train/500.jpg",
+    "sha256": "8f73f215243e68b2cd26ab80d0390f8b5768ed3650f510b082133f58aed3911c",
+    "split": "train"
+  },
+  "canonical_sha256": "f7611677f6185254f176a64de3ac0460cbf05f141d4be846a2f326552ad028bf",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "江景",
+      "城市天际线",
+      "观景台"
+    ],
+    "short_description": "从石砌观景台眺望江面与对岸高楼林立的城市天际线，远处可见桥梁横跨水面。",
+    "theme": "城市江景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空阴沉，光线柔和。"
+    ],
+    "direct_observations": [
+      "画面前景为灰色石质栏杆和平台。",
+      "江面宽阔，水面有轻微波纹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阴天",
+      "灰蒙蒙天空",
+      "水面平静"
+    ],
+    "relations": [
+      "高楼位于江对岸。",
+      "桥梁跨越江面。",
+      "观景台位于前景。"
+    ],
+    "scene": "江边城市景观",
+    "subjects": [
+      "高楼建筑群",
+      "江水",
+      "桥梁",
+      "观景台石栏"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空阴沉，光线柔和。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景为灰色石质栏杆和平台；江面宽阔，水面有轻微波纹。",
+    "safe_facts": [
+      "画面前景为灰色石质栏杆和平台。",
+      "江面宽阔，水面有轻微波纹。"
+    ]
+  },
+  "label_id": "cpl_b88e8e52231a9807e5c69ea8",
+  "provenance": {
+    "generated_at": "2026-08-03T11:16:33.203231+00:00",
+    "migrated_at": "2026-08-03T11:16:33.204788+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "60a6bde1b4cbe05065dc064991fabb9981dafb742608023b0d1c014c8a88f663",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9f40a047555fa03b54ab324d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:16:33.205111+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9f40a047555fa03b54ab324d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

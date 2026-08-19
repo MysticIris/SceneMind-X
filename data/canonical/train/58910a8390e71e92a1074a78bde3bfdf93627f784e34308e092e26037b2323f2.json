@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:742.jpg",
+    "relative_path": "train/742.jpg",
+    "sha256": "58910a8390e71e92a1074a78bde3bfdf93627f784e34308e092e26037b2323f2",
+    "split": "train"
+  },
+  "canonical_sha256": "9064be95dee3932fdd75a365b2cec02c5c08cb12d6db52cb39a4e6bf8a7a2c2b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "动漫手办",
+      "桌面摆件",
+      "粉色头发"
+    ],
+    "short_description": "粉色头发的动漫手办站在黑色底座上，背景是笔记本电脑和带紫色背光的白色键盘。",
+    "theme": "桌面摆件"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "手办有粉色头发和绿色眼睛。",
+      "手办穿着红色上衣和粉色短裤。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "粉色头发",
+      "绿色眼睛",
+      "红色上衣",
+      "粉色短裤",
+      "黑色手套",
+      "黑色底座"
+    ],
+    "relations": [
+      "手办位于桌面中央。",
+      "手办后方有笔记本电脑。",
+      "手办右侧有发光键盘。"
+    ],
+    "scene": "办公桌或桌面环境",
+    "subjects": [
+      "动漫手办"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "手办有粉色头发和绿色眼睛；手办穿着红色上衣和粉色短裤。",
+    "safe_facts": [
+      "手办有粉色头发和绿色眼睛。",
+      "手办穿着红色上衣和粉色短裤。"
+    ]
+  },
+  "label_id": "cpl_1ca767f5681f7e476a670879",
+  "provenance": {
+    "generated_at": "2026-08-03T12:13:25.397468+00:00",
+    "migrated_at": "2026-08-03T12:13:25.400135+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cf9c4321095730dcebc903083bf2cc1084af02fc34be53c811aaf77d1011d16d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_06d69d22adc900f5b01fb476",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:13:25.400447+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_06d69d22adc900f5b01fb476"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

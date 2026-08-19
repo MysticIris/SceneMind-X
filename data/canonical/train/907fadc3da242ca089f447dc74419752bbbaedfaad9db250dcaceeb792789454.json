@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1037.jpg",
+    "relative_path": "train/1037.jpg",
+    "sha256": "907fadc3da242ca089f447dc74419752bbbaedfaad9db250dcaceeb792789454",
+    "split": "train"
+  },
+  "canonical_sha256": "90d73550295e1f330a653cf18ab454bb051fe82407e8c0f3d1ad25c81b59eec5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "水面反光",
+      "树枝剪影",
+      "星芒效果"
+    ],
+    "short_description": "深蓝色水面上，阳光穿过枝叶投下闪烁星芒，树影与波纹交织，营造静谧梦幻氛围。",
+    "theme": "水面星芒"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线可能来自太阳或强人造光源。"
+    ],
+    "direct_observations": [
+      "水面呈现深蓝色调并有波纹。",
+      "多处光源在水面形成放射状星芒。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深蓝色水面",
+      "闪烁星芒",
+      "枯黄树叶",
+      "枝条剪影"
+    ],
+    "relations": [
+      "树枝伸向水面。",
+      "星芒来自水面反射。"
+    ],
+    "scene": "水面与树木交界处",
+    "subjects": [
+      "水面",
+      "树枝",
+      "树叶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线可能来自太阳或强人造光源。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "水面呈现深蓝色调并有波纹；多处光源在水面形成放射状星芒。",
+    "safe_facts": [
+      "水面呈现深蓝色调并有波纹。",
+      "多处光源在水面形成放射状星芒。"
+    ]
+  },
+  "label_id": "cpl_b7c966ac54ff6f7d7cf42e7d",
+  "provenance": {
+    "generated_at": "2026-08-03T13:26:57.857146+00:00",
+    "migrated_at": "2026-08-03T13:26:57.861832+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "998f1d321a906f33d235655823b9d1c74db424ea3c0d2194b1652029e5ced610",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9a456001b48d64d0bb9cef54",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:26:57.862190+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9a456001b48d64d0bb9cef54"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

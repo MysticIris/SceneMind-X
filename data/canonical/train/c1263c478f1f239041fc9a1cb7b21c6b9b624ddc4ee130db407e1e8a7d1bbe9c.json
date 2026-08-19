@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:993.jpg",
+    "relative_path": "train/993.jpg",
+    "sha256": "c1263c478f1f239041fc9a1cb7b21c6b9b624ddc4ee130db407e1e8a7d1bbe9c",
+    "split": "train"
+  },
+  "canonical_sha256": "8408c27f569f427b706f50566b11e938cb577b91a8b32e85ddc70464b01c21e3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "大理石雕像",
+      "古典建筑",
+      "晴朗天空"
+    ],
+    "short_description": "蓝天背景下，一座白色大理石雕像立于装饰华丽的基座上，背景为古典建筑，树枝裸露。",
+    "theme": "白色大理石雕像"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "雕像由白色大理石制成，呈站立姿态。",
+      "基座上有浮雕装饰和黑色缎带状物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色大理石",
+      "古典风格",
+      "晴朗蓝天",
+      "无叶树枝"
+    ],
+    "relations": [
+      "雕像位于基座之上。",
+      "基座位于地面。",
+      "雕像与背景建筑相邻。"
+    ],
+    "scene": "户外广场或街道",
+    "subjects": [
+      "雕像",
+      "基座",
+      "背景建筑",
+      "树枝"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "雕像由白色大理石制成，呈站立姿态；基座上有浮雕装饰和黑色缎带状物。",
+    "safe_facts": [
+      "雕像由白色大理石制成，呈站立姿态。",
+      "基座上有浮雕装饰和黑色缎带状物。"
+    ]
+  },
+  "label_id": "cpl_f2bc8b3dbc33361cdf5fef3b",
+  "provenance": {
+    "generated_at": "2026-08-02T22:33:13.159832+00:00",
+    "migrated_at": "2026-08-03T07:13:41.942849+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8a6f983a7840b5606141730f7afb209d3cb59c79ac6a23d6d0d113b6556d2c86",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2147b219955da01532b8191e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:21:21.780954+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "codex_visual_minor",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "雕像材质写为白色大理石，视觉上支持白色石材但材质粒度偏具体。"
+      ],
+      "status": "minor"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2147b219955da01532b8191e",
+    "cpl_3949d2c8b3aea28b7dc8d9b4"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

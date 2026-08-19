@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1966.jpg",
+    "relative_path": "train/1966.jpg",
+    "sha256": "46957a10575fe765f9a4f4a09016ea85e5df11da31b6e0226ee118752757678f",
+    "split": "train"
+  },
+  "canonical_sha256": "cbe027a98906c55e2db39630aabf3dad6063491d8ebedd296e3701011d6ed5ce",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "月亮",
+      "云层",
+      "夜空",
+      "月光",
+      "天际"
+    ],
+    "short_description": "一轮明月被云层部分遮挡，月光穿透云隙，在深色天空中形成柔和光晕，云朵边缘泛着淡紫与灰白。",
+    "theme": "夜空月影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "云层可能正在移动，遮蔽月光。"
+    ],
+    "direct_observations": [
+      "周围环绕着深色云层，部分区域透出月光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "明亮",
+      "部分被遮挡",
+      "云层呈深色",
+      "月光透出光晕"
+    ],
+    "relations": [
+      "月亮位于云层后方。"
+    ],
+    "scene": "夜空",
+    "subjects": [
+      "月亮",
+      "云朵"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "云层可能正在移动，遮蔽月光。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "周围环绕着深色云层，部分区域透出月光。",
+    "safe_facts": [
+      "周围环绕着深色云层，部分区域透出月光。"
+    ]
+  },
+  "label_id": "cpl_d833118421f4441d91be2334",
+  "provenance": {
+    "generated_at": "2026-08-03T15:29:41.586129+00:00",
+    "migrated_at": "2026-08-03T15:29:41.587755+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2d2834ce107cd3a11adbcbda695de4c3534e23f260c4be385a7501ce2ab305bd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f88be027ebf7d0039c3bf1fa",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:29:41.588074+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f88be027ebf7d0039c3bf1fa"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

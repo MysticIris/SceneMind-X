@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:443.jpg",
+    "relative_path": "train/443.jpg",
+    "sha256": "bcac9f6c203e3aabf9e54b0106a58c2aebf1b5cc72ddf4f8047b2f6529b77696",
+    "split": "train"
+  },
+  "canonical_sha256": "d8223958e1f3854ef2fe70f069feb3e13bf0b7d3402db356d3394eccee63e1a6",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "古城",
+      "灯火",
+      "河流"
+    ],
+    "short_description": "夜幕降临，古城依山傍水，灯火通明，云层密布的天空下，建筑群错落有致，河流蜿蜒流淌。",
+    "theme": "夜幕下的古城"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自人造照明，非自然光源。"
+    ],
+    "direct_observations": [
+      "天空布满深色云层。",
+      "建筑物被灯光照亮，形成密集光点。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灯火通明",
+      "依山傍水",
+      "云层密布"
+    ],
+    "relations": [
+      "建筑群位于山坡上。",
+      "河流环绕建筑群。",
+      "灯光映照水面。"
+    ],
+    "scene": "城市夜景",
+    "subjects": [
+      "建筑群",
+      "河流",
+      "天空",
+      "灯光"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自人造照明，非自然光源。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空布满深色云层；建筑物被灯光照亮，形成密集光点。",
+    "safe_facts": [
+      "天空布满深色云层。",
+      "建筑物被灯光照亮，形成密集光点。"
+    ]
+  },
+  "label_id": "cpl_f9bf90824efb00e83b0c2785",
+  "provenance": {
+    "generated_at": "2026-08-03T11:04:25.839663+00:00",
+    "migrated_at": "2026-08-03T11:04:25.841411+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ca6081a910f59efa9b7cd75503091e703316069d47b2e26c9e061f8cba19b4e8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3e3c2ea161d268725e823f6b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:04:25.841609+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3e3c2ea161d268725e823f6b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1052.jpg",
+    "relative_path": "train/1052.jpg",
+    "sha256": "f73970d24b41b307afdaab3575182aac328ddd09383c2488587f95b5b566b376",
+    "split": "train"
+  },
+  "canonical_sha256": "e12be01373e908c8c1793cd376d8695234996888077f5433648ec4813420eb52",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式庭院",
+      "池塘",
+      "竹栏",
+      "青瓦屋檐"
+    ],
+    "short_description": "青瓦木檐的中式庭院，池水倒映绿树与建筑，竹栏石径环绕，氛围宁静雅致。",
+    "theme": "中式庭院水景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "庭院布局可能用于休憩或观赏。"
+    ],
+    "direct_observations": [
+      "画面中可见青灰色瓦片屋顶。",
+      "池塘水面平静，反射周围景物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "青瓦屋顶",
+      "木质结构",
+      "绿色植物",
+      "水面倒影",
+      "石砌边缘"
+    ],
+    "relations": [
+      "树木生长于池塘边。",
+      "竹栏沿石径设置。",
+      "建筑位于池塘后方。"
+    ],
+    "scene": "中式庭院景观",
+    "subjects": [
+      "池塘",
+      "树木",
+      "建筑",
+      "竹栏",
+      "石径"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "庭院布局可能用于休憩或观赏。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见青灰色瓦片屋顶；池塘水面平静，反射周围景物。",
+    "safe_facts": [
+      "画面中可见青灰色瓦片屋顶。",
+      "池塘水面平静，反射周围景物。"
+    ]
+  },
+  "label_id": "cpl_051ee4ff922f09feef3ec64a",
+  "provenance": {
+    "generated_at": "2026-08-03T13:30:22.254122+00:00",
+    "migrated_at": "2026-08-03T13:30:22.260548+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b62509fabb62da2daaaa71c4edf29dd0e1cdb77848e5abf95169a4dfe95a4618",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_47eeedafd8aa499ee085aaa2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:30:22.261021+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_47eeedafd8aa499ee085aaa2"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

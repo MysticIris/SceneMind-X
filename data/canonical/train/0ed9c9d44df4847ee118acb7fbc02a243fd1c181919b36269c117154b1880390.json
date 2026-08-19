@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1191.jpg",
+    "relative_path": "train/1191.jpg",
+    "sha256": "0ed9c9d44df4847ee118acb7fbc02a243fd1c181919b36269c117154b1880390",
+    "split": "train"
+  },
+  "canonical_sha256": "3b05c867f06f58a3a8622617b778b946b3ced60400b76c18b37b8851f27a64e8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "花海屋顶",
+      "游客聚集",
+      "店铺外观"
+    ],
+    "short_description": "一座被五彩缤纷花卉覆盖屋顶的店铺前，人群聚集，有人拍照，有人驻足观看。",
+    "theme": "花海店铺前的游客"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "店铺屋顶被密集的彩色花卉覆盖。",
+      "多名行人站在店铺前方。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "拍照",
+      "观看"
+    ],
+    "attributes": [
+      "彩色花卉覆盖屋顶",
+      "砖石墙面",
+      "木质门框"
+    ],
+    "relations": [
+      "行人聚集在店铺前。",
+      "花卉装饰覆盖屋顶。"
+    ],
+    "scene": "户外商业街景",
+    "subjects": [
+      "行人",
+      "店铺建筑",
+      "花卉装饰"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "店铺屋顶被密集的彩色花卉覆盖；多名行人站在店铺前方。",
+    "safe_facts": [
+      "店铺屋顶被密集的彩色花卉覆盖。",
+      "多名行人站在店铺前方。"
+    ]
+  },
+  "label_id": "cpl_4715d08efed1ef0c93f3a4d5",
+  "provenance": {
+    "generated_at": "2026-08-03T13:52:50.950700+00:00",
+    "migrated_at": "2026-08-03T13:52:50.953397+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f61f8a3a42bb618a091abc5fa08ef00d84b86f734435bd3f6a88650ad8e1645c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_390928828a4928abc0704c97",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:52:50.953734+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_390928828a4928abc0704c97"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

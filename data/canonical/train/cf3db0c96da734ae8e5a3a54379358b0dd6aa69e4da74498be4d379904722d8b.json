@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:175.jpg",
+    "relative_path": "train/175.jpg",
+    "sha256": "cf3db0c96da734ae8e5a3a54379358b0dd6aa69e4da74498be4d379904722d8b",
+    "split": "train"
+  },
+  "canonical_sha256": "da6f06f86126e22a862b3a163e71ff6199a4d5e79a346cf5b9569741e037eef5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪地",
+      "农田",
+      "桥梁",
+      "阴天"
+    ],
+    "short_description": "雪覆盖的农田与远处桥梁，天空阴沉，地面有田垄痕迹，远处可见建筑轮廓。",
+    "theme": "雪后田野"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能是在冬季拍摄的。",
+      "可能从移动车辆窗口拍摄，因画面有轻微动态模糊。"
+    ],
+    "direct_observations": [
+      "地面覆盖着一层薄雪，可见田垄线条。",
+      "远处有一座横跨田野的桥梁，背景有低矮建筑群。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "被雪覆盖",
+      "阴天",
+      "有田垄痕迹"
+    ],
+    "relations": [
+      "农田位于桥梁前方。",
+      "建筑物位于远方。"
+    ],
+    "scene": "雪后平原景观",
+    "subjects": [
+      "农田",
+      "桥梁",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能是在冬季拍摄的。",
+      "可能从移动车辆窗口拍摄，因画面有轻微动态模糊。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面覆盖着一层薄雪，可见田垄线条；远处有一座横跨田野的桥梁，背景有低矮建筑群。",
+    "safe_facts": [
+      "地面覆盖着一层薄雪，可见田垄线条。",
+      "远处有一座横跨田野的桥梁，背景有低矮建筑群。"
+    ]
+  },
+  "label_id": "cpl_47557adfe1d9faf60fd89e5b",
+  "provenance": {
+    "generated_at": "2026-08-03T10:10:25.470823+00:00",
+    "migrated_at": "2026-08-03T10:10:25.472329+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cecda378ad1807acc06c31eb27a6612d806df4b9a632251e574f6943d2a4c585",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_26f16d6b7c392afcf96ae7ce",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:10:25.472539+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_26f16d6b7c392afcf96ae7ce"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

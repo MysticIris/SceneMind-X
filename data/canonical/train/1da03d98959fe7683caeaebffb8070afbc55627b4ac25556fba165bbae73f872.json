@@ -1,0 +1,142 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:364.jpg",
+    "relative_path": "train/364.jpg",
+    "sha256": "1da03d98959fe7683caeaebffb8070afbc55627b4ac25556fba165bbae73f872",
+    "split": "train"
+  },
+  "canonical_sha256": "cf5dd3a0812efa34bc892c9d2cd3f6325ee925634d389d96fd2aa71a69ee35a3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "讲师",
+      "黑板",
+      "讲台",
+      "电路图"
+    ],
+    "short_description": "一位讲师站在讲台旁，黑板上有手绘电路图，投影幕布显示模糊图像，椅子上搭着外套。",
+    "theme": "课堂讲授场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一位男性讲师站在木质讲台右侧。",
+      "黑板上有手绘的方框图和符号。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "讲师站立",
+      "讲师手持物品"
+    ],
+    "attributes": [
+      "黑板有手绘图",
+      "投影幕布显示图像",
+      "椅子上搭有外套"
+    ],
+    "relations": [
+      "讲师站在讲台旁。",
+      "黑板位于讲师身后。",
+      "投影幕布在黑板左侧。"
+    ],
+    "scene": "教室或报告厅",
+    "subjects": [
+      "讲师",
+      "黑板",
+      "讲台",
+      "椅子",
+      "投影幕布"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一位男性讲师站在木质讲台右侧；黑板上有手绘的方框图和符号。",
+    "safe_facts": [
+      "一位男性讲师站在木质讲台右侧。",
+      "黑板上有手绘的方框图和符号。"
+    ]
+  },
+  "label_id": "cpl_327cd119c56dad82389e7b3d",
+  "provenance": {
+    "generated_at": "2026-08-03T10:48:17.920706+00:00",
+    "migrated_at": "2026-08-03T10:48:17.922351+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d86fb94c263562532ed36b4b95f580689e448db9b947dd3b8af8f0baf0c8cdf4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d23a3875c4565875fe671966",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:48:17.922984+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d23a3875c4565875fe671966"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "IEEE CSS",
+      "r",
+      "e",
+      "c",
+      "p",
+      "F"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "IEEE CSS",
+      "r",
+      "e",
+      "c",
+      "p",
+      "F"
+    ]
+  }
+}

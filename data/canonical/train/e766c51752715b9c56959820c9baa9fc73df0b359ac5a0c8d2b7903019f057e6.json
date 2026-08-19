@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:893.jpg",
+    "relative_path": "train/893.jpg",
+    "sha256": "e766c51752715b9c56959820c9baa9fc73df0b359ac5a0c8d2b7903019f057e6",
+    "split": "train"
+  },
+  "canonical_sha256": "d45a22d73daa79796e64c8705647fa1a04a62dd4acee20c57f77acb9e4b02efc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "大学教育模式",
+      "培养方式对比",
+      "演讲现场"
+    ],
+    "short_description": "一名男性站在讲台旁，手持麦克风，面向观众讲话。",
+    "theme": "一名男性演讲者与投影屏幕"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一名男性站在讲台旁，手持麦克风，面向观众讲话。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "演讲者手持麦克风站立讲解"
+    ],
+    "attributes": [
+      "演讲者穿浅色衬衫和深色裤子",
+      "屏幕显示图文并茂的演示文稿"
+    ],
+    "relations": [
+      "演讲者站在屏幕前进行讲解。"
+    ],
+    "scene": "室内演讲现场",
+    "subjects": [
+      "一名男性演讲者",
+      "投影屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名男性站在讲台旁，手持麦克风，面向观众讲话。",
+    "safe_facts": [
+      "一名男性站在讲台旁，手持麦克风，面向观众讲话。"
+    ]
+  },
+  "label_id": "cpl_37b54d2e798898c885f02942",
+  "provenance": {
+    "generated_at": "2026-08-03T12:45:37.064099+00:00",
+    "migrated_at": "2026-08-03T12:45:37.086208+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6848eca4d25f7c92116e0e25553bfdfc2f46a9ac433954af113a594033ad8248",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_617833c1966f90523b094240",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:45:37.088748+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:direct_observations",
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:display.theme"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_617833c1966f90523b094240"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "清华大学:从“钱班”到“零一学院”",
+      "现有大学培养模式:以“教”为主",
+      "清华钱班培养模式:以“育”为主",
+      "问题引导-老师帮助学生主动学习",
+      "关注未知:发展探索与创新能力",
+      "开放、多学科交叉"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "清华大学:从“钱班”到“零一学院”",
+      "现有大学培养模式:以“教”为主",
+      "清华钱班培养模式:以“育”为主",
+      "问题引导-老师帮助学生主动学习",
+      "关注未知:发展探索与创新能力",
+      "开放、多学科交叉"
+    ]
+  }
+}

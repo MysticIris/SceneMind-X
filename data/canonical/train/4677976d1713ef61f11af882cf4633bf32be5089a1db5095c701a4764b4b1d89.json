@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1997.jpg",
+    "relative_path": "train/1997.jpg",
+    "sha256": "4677976d1713ef61f11af882cf4633bf32be5089a1db5095c701a4764b4b1d89",
+    "split": "train"
+  },
+  "canonical_sha256": "8fab82496890ed8c0a17c2e498cbce7ded915e639fac683b16b04864554eabbf",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "卧室",
+      "投影",
+      "行李箱"
+    ],
+    "short_description": "一间现代风格卧室，墙上投影着房屋画面，床边放着行李箱和手提包。",
+    "theme": "卧室投影观影"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "房间内有床、桌子、椅子和厨房区域。",
+      "墙面上投射出房屋图像。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色床单",
+      "灰色大理石地板",
+      "黑色边框投影墙",
+      "现代简约家具"
+    ],
+    "relations": [
+      "行李箱放在床边。",
+      "投影显示在墙壁上。",
+      "桌子位于房间中央。"
+    ],
+    "scene": "室内卧室环境",
+    "subjects": [
+      "床",
+      "行李箱",
+      "投影屏幕",
+      "桌子",
+      "椅子",
+      "厨房区域"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "房间内有床、桌子、椅子和厨房区域；墙面上投射出房屋图像。",
+    "safe_facts": [
+      "房间内有床、桌子、椅子和厨房区域。",
+      "墙面上投射出房屋图像。"
+    ]
+  },
+  "label_id": "cpl_cc498ac2618e06abb60d97ad",
+  "provenance": {
+    "generated_at": "2026-08-03T15:31:15.309977+00:00",
+    "migrated_at": "2026-08-03T15:31:15.312010+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "455f45e2a32868f4f4851b51458328bfec506ac674e3b4bda0e282ad9bccdd60",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fc1d1f8c2b23e2414c7bf673",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:31:15.312207+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fc1d1f8c2b23e2414c7bf673"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "asset_id": "0f569c11d115d551",
+  "asset_sha256": "0f569c11d115d55128529b9d71c209ef25279d78120e783db2e9434a70f880d5",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"横线纸上的手写笔记\",\n    \"short_description\": \"一张带有绿色横线的白色纸张特写，上面用黑色墨水手写了四行中文诗句或随笔，字迹潦草。页面顶部和左下角边缘可见部分其他文字及数字痕迹，背景右侧露出少许木质纹理。\",\n    \"micro_tags\": [\n      \"手写体\",\n      \"横线纸\",\n      \"笔记\",\n      \"黑色墨水\",\n      \"特写\",\n      \"文字记录\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"室内桌面或书写平面\",\n    \"subjects\": [\n      \"横线笔记本内页\",\n      \"手写中文字迹\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"绿色横线\",\n      \"白色纸面\",\n      \"黑色笔迹\",\n      \"行书风格\"\n    ],\n    \"relations\": [\n      \"文字书写在横线之间\",\n      \"纸张放置在木纹表面上\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面主体为一张印有绿色平行横线的白纸。\",\n      \"纸张中央区域有四行清晰可见的黑色手写汉字。\",\n      \"图片左下角边缘可见类似数学算式的数字片段。\",\n      \"图片右上角边缘显示出浅棕色的木质表面纹理。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据纸张的装订线和横线样式，这可能是一本练习本或日记本的一页。\",\n      \"中间的文字内容看起来像是一首现代诗或情感随笔。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定拍摄的具体时间或地点。\",\n      \"无法确认书写者的身份。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"向正极移动\",\n      \"练字\",\n      \"写下一个天亮\",\n      \"去上次牵手赏花那里散步好吗\",\n      \"有些积雪会自己融化\",\n      \"你的肩膀是我豁达的天堂\",\n      \"= 0.1896\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张印有绿色横线的白纸特写，纸上有多行黑色的手写中文笔记，背景可见部分木纹表面。\",\n    \"safe_facts\": [\n      \"物体为带有绿色横线的白色纸张\",\n      \"表面有黑色墨水书写的痕迹\",\n      \"拍摄角度为近距离俯拍\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 608,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 608,
+        "total_tokens": 3813,
+        "estimated_cost_cny": 0.011274,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "横线纸上的手写笔记",
+          "short_description": "一张带有绿色横线的白色纸张特写，上面用黑色墨水手写了四行中文诗句或随笔，字迹潦草。页面顶部和左下角边缘可见部分其他文字及数字痕迹，背景右侧露出少许木质纹理。",
+          "micro_tags": [
+            "手写体",
+            "横线纸",
+            "笔记",
+            "黑色墨水",
+            "特写",
+            "文字记录"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "室内桌面或书写平面",
+          "subjects": [
+            "横线笔记本内页",
+            "手写中文字迹"
+          ],
+          "actions": [],
+          "attributes": [
+            "绿色横线",
+            "白色纸面",
+            "黑色笔迹",
+            "行书风格"
+          ],
+          "relations": [
+            "文字书写在横线之间",
+            "纸张放置在木纹表面上"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "画面主体为一张印有绿色平行横线的白纸。",
+            "纸张中央区域有四行清晰可见的黑色手写汉字。",
+            "图片左下角边缘可见类似数学算式的数字片段。",
+            "图片右上角边缘显示出浅棕色的木质表面纹理。"
+          ],
+          "cautious_inferences": [
+            "根据纸张的装订线和横线样式，这可能是一本练习本或日记本的一页。",
+            "中间的文字内容看起来像是一首现代诗或情感随笔。"
+          ],
+          "uncertainties": [
+            "无法确定拍摄的具体时间或地点。",
+            "无法确认书写者的身份。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "向正极移动",
+            "练字",
+            "写下一个天亮",
+            "去上次牵手赏花那里散步好吗",
+            "有些积雪会自己融化",
+            "你的肩膀是我豁达的天堂",
+            "= 0.1896"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张印有绿色横线的白纸特写，纸上有多行黑色的手写中文笔记，背景可见部分木纹表面。",
+          "safe_facts": [
+            "物体为带有绿色横线的白色纸张",
+            "表面有黑色墨水书写的痕迹",
+            "拍摄角度为近距离俯拍"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 5983888,
+        "request_bytes": 4484842,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 12.354602100000193,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "4cbbdd6f5ba1dd0b0c6ef1bfdff1f28a24fc3902d89a65bbf3fab3000ceb8d46"
+}

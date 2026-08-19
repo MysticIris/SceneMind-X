@@ -1,0 +1,129 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_2558f6cda108d455648b19b1",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_5a242d7977aba5e280d672f1"
+  ],
+  "asset": {
+    "asset_id": "8ad897fc51909bc1",
+    "sha256": "8ad897fc51909bc15e4beb3efb1c3a31d25e9f39890d30dd47825a693cd73cea",
+    "split": "user_custom",
+    "relative_path": "user_assets/8a/8ad897fc51909bc15e4beb3efb1c3a31d25e9f39890d30dd47825a693cd73cea/8ad897fc51909bc15e4beb3efb1c3a31d25e9f39890d30dd47825a693cd73cea.jpg"
+  },
+  "display": {
+    "theme": "书法字体",
+    "short_description": "画面主体由四行黑色毛笔书法字体组成，内容引用了牛郎织女鹊桥相会的传说，表达了命定之人奔赴而来的浪漫寓意。",
+    "micro_tags": [
+      "书法字体",
+      "七夕",
+      "鹊桥",
+      "情感文案",
+      "极简设计",
+      "黑白配色"
+    ]
+  },
+  "facts": {
+    "visual_medium": "poster_document",
+    "scene": "纯白背景平面",
+    "subjects": [
+      "中文书法文本",
+      "辅助说明小字"
+    ],
+    "actions": [],
+    "attributes": [
+      "黑色墨迹质感",
+      "阶梯式排列",
+      "大小字体对比",
+      "留白充足"
+    ],
+    "relations": [
+      "大字位于上方，小字紧随其下。",
+      "文本块从左上向右下延伸。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "图像背景为纯净的白色，无纹理或渐变。",
+      "文本排列呈现明显的对角线趋势，从左上角开始，逐行向右下方错落排列。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "喜鹊在云上架桥",
+      "命定之人会从桥的那头"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "喜鹊在云上架桥",
+      "命定之人会从桥的那头"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "图像背景为纯净的白色，无纹理或渐变；文本排列呈现明显的对角线趋势，从左上角开始，逐行向右下方错落排列。",
+    "safe_facts": [
+      "图像背景为纯净的白色，无纹理或渐变。",
+      "文本排列呈现明显的对角线趋势，从左上角开始，逐行向右下方错落排列。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "needs_review",
+    "schema_valid": true,
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": true,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_f7bec1cd-3be2-4aee-afa3-e6f1868e69ca",
+    "generated_at": "2026-08-12T03:10:03.739414+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "ce8b2d8b082667b740425d703cddf684ccf39cc490ef9bb0074ff92b78c2e81e",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:10:03.739986+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_5a242d7977aba5e280d672f1",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:10:03.740261+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "48bbdcc25c36e129dfe7eb2e8d1fa0b3123bd977b1273c5bfb041c580ebe9f75"
+}

@@ -1,0 +1,127 @@
+{
+  "asset_id": "6742f44c61053421",
+  "asset_sha256": "6742f44c61053421e847a6008ff7e648d3ebc359a0f7ef08e9b1eff2d3770172",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"高校大厅悬挂国旗\",\n    \"short_description\": \"宽敞明亮的室内大厅，地面铺设光洁的石材地砖。天花板下方悬挂着多排密集的中国国旗。前景设有印有待识别文字的蓝色隔离带，背景可见玻璃大门、立柱及上方标有“A区”的指示牌。\",\n    \"micro_tags\": [\n      \"室内大厅\",\n      \"五星红旗\",\n      \"高校建筑\",\n      \"玻璃门\",\n      \"隔离带\",\n      \"A区标识\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"大型公共建筑内部大厅\",\n    \"subjects\": [\n      \"悬挂的国旗\",\n      \"玻璃大门\",\n      \"蓝色隔离带\",\n      \"信息展示台\",\n      \"电子显示屏框架\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"光线明亮\",\n      \"地面反光\",\n      \"空间开阔\",\n      \"节日装饰氛围\"\n    ],\n    \"relations\": [\n      \"国旗悬挂于大厅上空\",\n      \"隔离带位于画面最前景\",\n      \"玻璃门位于大厅后方出口处\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"大厅顶部横向悬挂着多串红色的中国国旗（五星红旗）。\",\n      \"画面底部有一条蓝色的伸缩隔离带，上面印有白色的校徽图形及中英文字样。\",\n      \"右侧白色立柱上方贴有黑底白字的“A区”方形标识牌。\",\n      \"大厅深处有多扇玻璃自动门，门上方亮着绿色的安全出口指示灯。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据前景隔离带上的文字特征，该地点可能是一所名为“华中科技大学”的高校建筑入口或大厅。\",\n      \"大量悬挂国旗通常意味着正值国庆节或其他重要庆典活动期间。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定拍摄的具体时间（白天或夜晚），虽然室内灯光全开，但门外看起来较暗。\",\n      \"无法确认大厅的具体功能（如图书馆、行政楼或教学楼）。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"HUST\",\n      \"華中科技大學\",\n      \"Huazhong University of Science and Technology\",\n      \"A区\",\n      \"安全警示\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一个宽敞的室内大厅，天花板上悬挂着许多中国国旗，前景有蓝色的排队隔离带，背景是玻璃大门和立柱。\",\n    \"safe_facts\": [\n      \"室内空间高大，地面为抛光石材材质。\",\n      \"顶部装饰有大量红色旗帜。\",\n      \"设有用于引导人流的隔离设施。\",\n      \"背景包含玻璃门禁系统和立柱结构。\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 681,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 681,
+        "total_tokens": 3886,
+        "estimated_cost_cny": 0.011858,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "高校大厅悬挂国旗",
+          "short_description": "宽敞明亮的室内大厅，地面铺设光洁的石材地砖。天花板下方悬挂着多排密集的中国国旗。前景设有印有待识别文字的蓝色隔离带，背景可见玻璃大门、立柱及上方标有“A区”的指示牌。",
+          "micro_tags": [
+            "室内大厅",
+            "五星红旗",
+            "高校建筑",
+            "玻璃门",
+            "隔离带",
+            "A区标识"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "大型公共建筑内部大厅",
+          "subjects": [
+            "悬挂的国旗",
+            "玻璃大门",
+            "蓝色隔离带",
+            "信息展示台",
+            "电子显示屏框架"
+          ],
+          "actions": [],
+          "attributes": [
+            "光线明亮",
+            "地面反光",
+            "空间开阔",
+            "节日装饰氛围"
+          ],
+          "relations": [
+            "国旗悬挂于大厅上空",
+            "隔离带位于画面最前景",
+            "玻璃门位于大厅后方出口处"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "大厅顶部横向悬挂着多串红色的中国国旗（五星红旗）。",
+            "画面底部有一条蓝色的伸缩隔离带，上面印有白色的校徽图形及中英文字样。",
+            "右侧白色立柱上方贴有黑底白字的“A区”方形标识牌。",
+            "大厅深处有多扇玻璃自动门，门上方亮着绿色的安全出口指示灯。"
+          ],
+          "cautious_inferences": [
+            "根据前景隔离带上的文字特征，该地点可能是一所名为“华中科技大学”的高校建筑入口或大厅。",
+            "大量悬挂国旗通常意味着正值国庆节或其他重要庆典活动期间。"
+          ],
+          "uncertainties": [
+            "无法确定拍摄的具体时间（白天或夜晚），虽然室内灯光全开，但门外看起来较暗。",
+            "无法确认大厅的具体功能（如图书馆、行政楼或教学楼）。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "HUST",
+            "華中科技大學",
+            "Huazhong University of Science and Technology",
+            "A区",
+            "安全警示"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一个宽敞的室内大厅，天花板上悬挂着许多中国国旗，前景有蓝色的排队隔离带，背景是玻璃大门和立柱。",
+          "safe_facts": [
+            "室内空间高大，地面为抛光石材材质。",
+            "顶部装饰有大量红色旗帜。",
+            "设有用于引导人流的隔离设施。",
+            "背景包含玻璃门禁系统和立柱结构。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 315648,
+        "request_bytes": 233662,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.067274600005476,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "43daf19ea51dbccae58b7289fd93cd9a5ec43e96c6418e3d8a933dcbb45b11fb"
+}

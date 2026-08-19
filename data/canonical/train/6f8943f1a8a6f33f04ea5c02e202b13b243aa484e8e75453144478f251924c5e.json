@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1278.jpg",
+    "relative_path": "train/1278.jpg",
+    "sha256": "6f8943f1a8a6f33f04ea5c02e202b13b243aa484e8e75453144478f251924c5e",
+    "split": "train"
+  },
+  "canonical_sha256": "b2bafcb75527d8b417a667269ff66cf0f5b0207eb599d810eba1a9b103b57e06",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电动车",
+      "遮阳棚",
+      "住宅楼",
+      "停车区"
+    ],
+    "short_description": "多辆电动车停放在蓝色遮阳棚下，背景为多层住宅楼。",
+    "theme": "电动车停放区"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多辆电动车密集停放于蓝色遮阳棚下。",
+      "背景为一栋有多扇窗户的多层建筑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色遮阳棚",
+      "多层建筑",
+      "窗户",
+      "金属栏杆"
+    ],
+    "relations": [
+      "电动车停放在遮阳棚下。",
+      "遮阳棚位于建筑物前方。"
+    ],
+    "scene": "户外停车场",
+    "subjects": [
+      "电动车",
+      "遮阳棚",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多辆电动车密集停放于蓝色遮阳棚下；背景为一栋有多扇窗户的多层建筑。",
+    "safe_facts": [
+      "多辆电动车密集停放于蓝色遮阳棚下。",
+      "背景为一栋有多扇窗户的多层建筑。"
+    ]
+  },
+  "label_id": "cpl_d0b00ff2cde41cf03567777c",
+  "provenance": {
+    "generated_at": "2026-08-03T14:01:59.881486+00:00",
+    "migrated_at": "2026-08-03T14:01:59.885596+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2864b40eed5a0bce944188451d9aaf13f64506b5d41b543cfa1bcae6bb8f9c42",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_46735a9007f361c1b0538363",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:01:59.887697+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_46735a9007f361c1b0538363"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

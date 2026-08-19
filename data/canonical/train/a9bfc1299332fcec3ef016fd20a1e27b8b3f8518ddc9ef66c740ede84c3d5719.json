@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1894.jpg",
+    "relative_path": "train/1894.jpg",
+    "sha256": "a9bfc1299332fcec3ef016fd20a1e27b8b3f8518ddc9ef66c740ede84c3d5719",
+    "split": "train"
+  },
+  "canonical_sha256": "11f3f62db10c37e393ae9670587a38459056d7e1aa0d667e7217ddcaaa01a68f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "铁丝网",
+      "蒲公英",
+      "草地",
+      "建筑"
+    ],
+    "short_description": "透过菱形铁丝网，几株蒲公英在绿草地上随风摇曳，背景是带窗格的建筑。",
+    "theme": "铁丝网前的蒲公英"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面前景为黑色菱形铁丝网网格。",
+      "草地上有数株蒲公英，部分已结成绒球。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色草地",
+      "白色蒲公英绒球",
+      "黑色铁丝网",
+      "浅色建筑外墙"
+    ],
+    "relations": [
+      "蒲公英生长在草地上。",
+      "铁丝网位于前景并遮挡视线。",
+      "建筑位于背景。"
+    ],
+    "scene": "户外草地与建筑背景",
+    "subjects": [
+      "蒲公英",
+      "铁丝网",
+      "草地",
+      "建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景为黑色菱形铁丝网网格；草地上有数株蒲公英，部分已结成绒球。",
+    "safe_facts": [
+      "画面前景为黑色菱形铁丝网网格。",
+      "草地上有数株蒲公英，部分已结成绒球。"
+    ]
+  },
+  "label_id": "cpl_43b94ffabb375a13caec5b3b",
+  "provenance": {
+    "generated_at": "2026-08-03T15:19:22.361056+00:00",
+    "migrated_at": "2026-08-03T15:19:22.362571+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8d05dc6ef7a811d380f867eceb8b92a31838be5d03b5d3304e5dc0a84aaa79eb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_47375f3a6be1e1889d345c52",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:19:22.362861+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_47375f3a6be1e1889d345c52"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

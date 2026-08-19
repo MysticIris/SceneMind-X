@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1833.jpg",
+    "relative_path": "train/1833.jpg",
+    "sha256": "cc8b2f7c9145a9cdfad41178b7fc84560b1c35851c016cc77025a9b296f4f105",
+    "split": "train"
+  },
+  "canonical_sha256": "d5a8325a7bba0509cb0bf09396b01fd419b000e9954d7db70a94c118b42a2053",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "路牌",
+      "霓虹灯",
+      "高楼"
+    ],
+    "short_description": "城市夜晚街角，多组路牌与霓虹灯招牌交叠，高楼林立，交通标志清晰可见。",
+    "theme": "城市夜景路牌"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现城市夜间景象，路灯与建筑灯光亮起。",
+      "多个路牌悬挂在金属杆上，标示街道名称及方向。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "灯光照明",
+      "现代建筑"
+    ],
+    "relations": [
+      "路牌位于街道交叉口。",
+      "霓虹灯招牌附着于建筑外墙。"
+    ],
+    "scene": "城市街道交叉口",
+    "subjects": [
+      "路牌",
+      "建筑物",
+      "交通标志",
+      "霓虹灯招牌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现城市夜间景象，路灯与建筑灯光亮起；多个路牌悬挂在金属杆上，标示街道名称及方向。",
+    "safe_facts": [
+      "画面呈现城市夜间景象，路灯与建筑灯光亮起。",
+      "多个路牌悬挂在金属杆上，标示街道名称及方向。"
+    ]
+  },
+  "label_id": "cpl_dd8a1896e4804a0bd7d19bb1",
+  "provenance": {
+    "generated_at": "2026-08-02T22:02:05.933051+00:00",
+    "migrated_at": "2026-08-03T07:13:41.280264+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8ceb588a977b262526218657bd180471e56f53ebc4e26dd2d2fc2998861630f4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2e301e14d239adc81734d10c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:11:12.298431+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2e301e14d239adc81734d10c",
+    "cpl_a237ad2a69c24092e5845d99"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

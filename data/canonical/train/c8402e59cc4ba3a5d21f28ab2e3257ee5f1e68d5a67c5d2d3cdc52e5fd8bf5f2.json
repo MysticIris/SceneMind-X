@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1992.jpg",
+    "relative_path": "train/1992.jpg",
+    "sha256": "c8402e59cc4ba3a5d21f28ab2e3257ee5f1e68d5a67c5d2d3cdc52e5fd8bf5f2",
+    "split": "train"
+  },
+  "canonical_sha256": "43162e9729360141db97c034d2af4b435c6a0eb8b2279a75ddaba04531e2e960",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "林荫道",
+      "行人过街",
+      "城市街道"
+    ],
+    "short_description": "阳光下绿树成荫的街道，行人与电动车穿行，一辆蓝色轿车停在斑马线前，远处高楼隐约可见。",
+    "theme": "林荫道行人与车辆"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能为城市公园或校园周边道路。"
+    ],
+    "direct_observations": [
+      "道路两旁种植着高大绿树，树干被涂成蓝色。",
+      "路面有白色斑马线，多名行人正在横穿马路。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "骑行",
+      "停放"
+    ],
+    "attributes": [
+      "绿树成荫",
+      "晴朗天气",
+      "斑马线",
+      "蓝色汽车"
+    ],
+    "relations": [
+      "行人与斑马线相关联。",
+      "树木沿道路两侧排列。",
+      "汽车位于道路中央。"
+    ],
+    "scene": "城市道路",
+    "subjects": [
+      "行人",
+      "电动车",
+      "汽车",
+      "树木",
+      "路灯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能为城市公园或校园周边道路。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "道路两旁种植着高大绿树，树干被涂成蓝色；路面有白色斑马线，多名行人正在横穿马路。",
+    "safe_facts": [
+      "道路两旁种植着高大绿树，树干被涂成蓝色。",
+      "路面有白色斑马线，多名行人正在横穿马路。"
+    ]
+  },
+  "label_id": "cpl_63cfb95130b1bd4ab3f3f587",
+  "provenance": {
+    "generated_at": "2026-08-03T15:32:52.765513+00:00",
+    "migrated_at": "2026-08-03T15:32:52.767095+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c36bef24e61412d0535e2cc874c2a7d83c395b27df964c6cf41b08d5240d75ca",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8ad53516c14080aa75af4873",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:32:52.767309+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8ad53516c14080aa75af4873"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

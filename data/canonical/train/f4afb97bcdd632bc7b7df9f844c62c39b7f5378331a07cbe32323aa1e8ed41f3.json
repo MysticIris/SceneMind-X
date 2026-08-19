@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1219.jpg",
+    "relative_path": "train/1219.jpg",
+    "sha256": "f4afb97bcdd632bc7b7df9f844c62c39b7f5378331a07cbe32323aa1e8ed41f3",
+    "split": "train"
+  },
+  "canonical_sha256": "34bd02ac9f2b96969079724c8cb86958b4a201233876c1fc4093a6f438050bb9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "手",
+      "钥匙",
+      "钥匙扣",
+      "办公隔间"
+    ],
+    "short_description": "一只手拿着一串钥匙，包括一个黑色遥控器形状的钥匙扣和两把金属钥匙，背景是办公隔间。",
+    "theme": "手握钥匙"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一只手正握住一串钥匙。",
+      "钥匙串包含一个黑色椭圆形钥匙扣和两把金属钥匙。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "手持"
+    ],
+    "attributes": [
+      "黑色钥匙扣",
+      "金属钥匙",
+      "银色钥匙环"
+    ],
+    "relations": [
+      "手握着钥匙串。"
+    ],
+    "scene": "办公隔间内",
+    "subjects": [
+      "一只手",
+      "钥匙串",
+      "钥匙扣"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只手正握住一串钥匙；钥匙串包含一个黑色椭圆形钥匙扣和两把金属钥匙。",
+    "safe_facts": [
+      "一只手正握住一串钥匙。",
+      "钥匙串包含一个黑色椭圆形钥匙扣和两把金属钥匙。"
+    ]
+  },
+  "label_id": "cpl_8502c4852d68a9b50ec40220",
+  "provenance": {
+    "generated_at": "2026-08-02T22:05:06.194421+00:00",
+    "migrated_at": "2026-08-03T07:13:41.404248+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "34f41496d553848978e9e9ab59c8f0b87ca46fafe0db535167b759082eebb15c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_82cb3c1f575500804138b76f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:57:05.178264+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_82cb3c1f575500804138b76f",
+    "cpl_01aa81b0e7289bfd67ada9c9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

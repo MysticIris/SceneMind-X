@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1387.jpg",
+    "relative_path": "train/1387.jpg",
+    "sha256": "b06972f5a8ea7d81c02619593cd4c11a4a380492809f8a2d1eeab63337364989",
+    "split": "train"
+  },
+  "canonical_sha256": "10a1f5d4d90bcee3c9876a5e4a6aee3d8a24c3fdd3e0c1e903ef72253e711b75",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "浅蓝色背包",
+      "黑白条纹毛衣",
+      "后视图"
+    ],
+    "short_description": "一位穿着黑白条纹毛衣的人背对镜头，背着一个浅蓝色的小型双肩包，包上有金属扣和绒球装饰。",
+    "theme": "浅蓝色小背包"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一人背对镜头站立，身穿黑白相间条纹毛衣。",
+      "此人背上有一个浅蓝色双肩包，包正面有金属搭扣和绒球装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "浅蓝色",
+      "黑色与白色条纹",
+      "毛绒材质",
+      "带金属扣",
+      "带绒球"
+    ],
+    "relations": [
+      "人背着背包。"
+    ],
+    "scene": "户外铺砖地面，背景有绿植和建筑",
+    "subjects": [
+      "人",
+      "背包"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一人背对镜头站立，身穿黑白相间条纹毛衣；此人背上有一个浅蓝色双肩包，包正面有金属搭扣和绒球装饰。",
+    "safe_facts": [
+      "画面中有一人背对镜头站立，身穿黑白相间条纹毛衣。",
+      "此人背上有一个浅蓝色双肩包，包正面有金属搭扣和绒球装饰。"
+    ]
+  },
+  "label_id": "cpl_3ae4c056c8cd13a3032d7ebb",
+  "provenance": {
+    "generated_at": "2026-08-03T14:17:57.625340+00:00",
+    "migrated_at": "2026-08-03T14:17:57.628264+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3c38522937d1738811319ff5491854103d5814d78cb1463aeb2889bf2a11d17a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e1bd708deb44309025caebd3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:17:57.628662+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e1bd708deb44309025caebd3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

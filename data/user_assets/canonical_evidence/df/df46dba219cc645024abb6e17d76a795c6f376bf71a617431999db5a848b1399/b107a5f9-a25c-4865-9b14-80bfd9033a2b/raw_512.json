@@ -1,0 +1,128 @@
+{
+  "asset_id": "df46dba219cc6450",
+  "asset_sha256": "df46dba219cc645024abb6e17d76a795c6f376bf71a617431999db5a848b1399",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"Python代码编辑界面\",\n    \"short_description\": \"一张计算机屏幕截图，展示了Visual Studio Code编辑器界面。左侧为文件资源管理器，中间显示名为tic_tac_toe.py的Python代码，包含井字棋游戏的状态类定义。右侧有AI辅助编程的对话窗口和终端运行日志。\",\n    \"micro_tags\": [\n      \"VS Code\",\n      \"Python代码\",\n      \"编程开发\",\n      \"井字棋算法\",\n      \"IDE界面\",\n      \"代码编辑\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"软件开发集成环境界面\",\n    \"subjects\": [\n      \"代码编辑器窗口\",\n      \"Python源代码文本\",\n      \"侧边栏文件列表\",\n      \"右侧AI对话面板\",\n      \"底部终端区域\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"深色与浅色混合主题\",\n      \"语法高亮显示\",\n      \"多栏布局\",\n      \"中文界面菜单\"\n    ],\n    \"relations\": [\n      \"代码编辑区位于界面中央\",\n      \"文件树位于左侧边栏\",\n      \"AI助手窗口悬浮于右侧\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"界面顶部菜单栏显示'文件(F)'、'编辑(E)'等中文选项，标签页显示文件名'tic_tac_toe.py'。\",\n      \"代码区域可见'class State:'定义及'import numpy as np'等Python语句，行号显示至37行。\",\n      \"右侧面板包含'CODEX'、'CLAUDE CODE'标签及关于脚本创建和运行的中文对话记录。\",\n      \"底部状态栏显示'Python 3.13.1'及'UTF-8'编码信息。\"\n    ],\n    \"cautious_inferences\": [\n      \"用户可能正在使用AI辅助工具进行井字棋游戏的强化学习或算法开发。\",\n      \"右侧的对话内容表明正在进行代码生成或调试任务。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"tic_tac_toe.py\",\n      \"import numpy as np\",\n      \"class State:\",\n      \"BOARD_ROWS = 4\",\n      \"CODEX\",\n      \"CLAUDE CODE\",\n      \"脚本已创建。下一步我会先做语法检查\",\n      \"python compare_1e4_1e5.py\",\n      \"Python 3.13.1\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张展示编程开发环境的屏幕截图，包含代码编辑窗口、文件目录树以及右侧的辅助工具对话界面。\",\n    \"safe_facts\": [\n      \"图像为软件界面的数字截图\",\n      \"画面包含多列布局的文本编辑器\",\n      \"可见代码行号和语法着色\",\n      \"界面包含侧边栏和底部状态栏\"\n    ]\n  }\n}",
+      "input_tokens": 3246,
+      "output_tokens": 724,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3246,
+        "output_tokens": 724,
+        "total_tokens": 3970,
+        "estimated_cost_cny": 0.012284,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "Python代码编辑界面",
+          "short_description": "一张计算机屏幕截图，展示了Visual Studio Code编辑器界面。左侧为文件资源管理器，中间显示名为tic_tac_toe.py的Python代码，包含井字棋游戏的状态类定义。右侧有AI辅助编程的对话窗口和终端运行日志。",
+          "micro_tags": [
+            "VS Code",
+            "Python代码",
+            "编程开发",
+            "井字棋算法",
+            "IDE界面",
+            "代码编辑"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "软件开发集成环境界面",
+          "subjects": [
+            "代码编辑器窗口",
+            "Python源代码文本",
+            "侧边栏文件列表",
+            "右侧AI对话面板",
+            "底部终端区域"
+          ],
+          "actions": [],
+          "attributes": [
+            "深色与浅色混合主题",
+            "语法高亮显示",
+            "多栏布局",
+            "中文界面菜单"
+          ],
+          "relations": [
+            "代码编辑区位于界面中央",
+            "文件树位于左侧边栏",
+            "AI助手窗口悬浮于右侧"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "界面顶部菜单栏显示'文件(F)'、'编辑(E)'等中文选项，标签页显示文件名'tic_tac_toe.py'。",
+            "代码区域可见'class State:'定义及'import numpy as np'等Python语句，行号显示至37行。",
+            "右侧面板包含'CODEX'、'CLAUDE CODE'标签及关于脚本创建和运行的中文对话记录。",
+            "底部状态栏显示'Python 3.13.1'及'UTF-8'编码信息。"
+          ],
+          "cautious_inferences": [
+            "用户可能正在使用AI辅助工具进行井字棋游戏的强化学习或算法开发。",
+            "右侧的对话内容表明正在进行代码生成或调试任务。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "tic_tac_toe.py",
+            "import numpy as np",
+            "class State:",
+            "BOARD_ROWS = 4",
+            "CODEX",
+            "CLAUDE CODE",
+            "脚本已创建。下一步我会先做语法检查",
+            "python compare_1e4_1e5.py",
+            "Python 3.13.1"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张展示编程开发环境的屏幕截图，包含代码编辑窗口、文件目录树以及右侧的辅助工具对话界面。",
+          "safe_facts": [
+            "图像为软件界面的数字截图",
+            "画面包含多列布局的文本编辑器",
+            "可见代码行号和语法着色",
+            "界面包含侧边栏和底部状态栏"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 253880,
+        "request_bytes": 187338,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.216379000004963,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "32df049a111d0258edcad606b461e4729a05286a24d8120b439da1f598f96f36"
+}

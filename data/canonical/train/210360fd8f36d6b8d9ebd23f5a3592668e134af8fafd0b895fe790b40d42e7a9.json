@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1247.jpg",
+    "relative_path": "train/1247.jpg",
+    "sha256": "210360fd8f36d6b8d9ebd23f5a3592668e134af8fafd0b895fe790b40d42e7a9",
+    "split": "train"
+  },
+  "canonical_sha256": "31a70ff2221a38165d45400b5e05d22c686b1fa5c5170acff5b8218512d66441",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "火车卧铺",
+      "儿童",
+      "床铺",
+      "车厢内"
+    ],
+    "short_description": "儿童在火车卧铺车厢内，伸手触摸上铺床单，旁边有其他乘客和散落的鞋子。",
+    "theme": "卧铺车厢内景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见多排上下铺床位。",
+      "一名儿童正伸出手臂触碰上铺床单。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "伸手触摸"
+    ],
+    "attributes": [
+      "蓝色床单",
+      "白色被褥",
+      "灰色地板",
+      "金属梯子"
+    ],
+    "relations": [
+      "儿童站在床铺旁。",
+      "鞋子放在地板上。"
+    ],
+    "scene": "火车卧铺车厢内部",
+    "subjects": [
+      "儿童",
+      "乘客",
+      "床铺"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见多排上下铺床位；一名儿童正伸出手臂触碰上铺床单。",
+    "safe_facts": [
+      "画面中可见多排上下铺床位。",
+      "一名儿童正伸出手臂触碰上铺床单。"
+    ]
+  },
+  "label_id": "cpl_3b3ee698e9cd4d5875bf6de8",
+  "provenance": {
+    "generated_at": "2026-08-03T14:00:43.672091+00:00",
+    "migrated_at": "2026-08-03T14:00:43.674677+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5548578420aa7a26a20019e3042b3ae816f5c496d39affe05664bbf112336911",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2256e27d254b3660a3292597",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:00:43.675008+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2256e27d254b3660a3292597"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

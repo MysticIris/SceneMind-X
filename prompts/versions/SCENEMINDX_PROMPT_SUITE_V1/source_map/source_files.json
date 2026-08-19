@@ -1,0 +1,65 @@
+{
+  "schema_version": "scenemindx_prompt_suite_v1_source_map_v1",
+  "source_git_head": "9d09e3afca2a2898e1eed9778f565ca258de6546",
+  "files": [
+    {
+      "path": "prompts/gate1/p3_registry.json",
+      "role": "P3 stage order, fields, settings and bundle identity",
+      "raw_sha256": "9cd0bc4ca577283cfe30c8940fef430e50ac3b72059be57f6e8c20caae79610e",
+      "remote_match": true
+    },
+    {
+      "path": "prompts/phase1/registry.json",
+      "role": "Phase 1 task Prompt registry",
+      "raw_sha256": "3f39cc8bf2cb2161768483affb66efee31774e3aec8b2aff90556e92c226ba42",
+      "remote_match": true
+    },
+    {
+      "path": "data/schemas/gate1_d3_semantic_review_payload_p3_v1_1.schema.json",
+      "role": "actual runtime JSON Schema for assembled P3 output",
+      "raw_sha256": "9b114f0d29717d334abd7940d1d120157b2e5899d00a7c264bc055d9e838beb3",
+      "remote_match": true
+    },
+    {
+      "path": "src/scenemindx/services/vlm.py",
+      "role": "Prompt loading, dynamic assembly, model call and parser implementation",
+      "raw_sha256": "63acb43123814dad9f954cfd52f42bddd7b126d7d24265d308ebcef092863a75",
+      "remote_match": true,
+      "extractions": [
+        {
+          "archive_path": "prompts/compare_dynamic_suffix_v1.txt",
+          "function": "PersistentQwen3VLService.compare_images non-ranking branch",
+          "source_lines_at_freeze": "486-494",
+          "status": "canonical_extraction_from_frozen_source",
+          "raw_sha256": "b0f82ab86e9a85e9e34db0b1e489665f45cd783097ff86cbbe29eea524bf1fca"
+        },
+        {
+          "archive_path": "prompts/rank_contract_v1.txt",
+          "function": "PersistentQwen3VLService.compare_images ranking branch",
+          "source_lines_at_freeze": "437-485",
+          "status": "canonical_extraction_from_frozen_source",
+          "raw_sha256": "84f9bac7a21f0011bd55122e03080824b39f20ddec67077c2050a0538c29936a"
+        }
+      ]
+    },
+    {
+      "path": "scripts/phase5_remote_vlm_runtime.py",
+      "role": "private AutoDL runtime adapter used by the frozen release",
+      "raw_sha256": "ae654de521adc11ff7594e1b7f2068c97abcefa46c2905c2f247672c480f5f6d",
+      "remote_match": true
+    }
+  ],
+  "direct_prompt_byte_copy_check": {
+    "checked_count": 12,
+    "matched_count": 12,
+    "result": "PASS",
+    "note": "Eight P3 stages and Description/VQA/Compare/Content archive files are byte-identical to their production source files."
+  },
+  "server_check": {
+    "mode": "read_only",
+    "release": "phase5_1_restore_20260730_142112_wtbytes",
+    "key_hashes_match": true,
+    "server_mutation": false,
+    "sensitive_connection_details_stored": false
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:189.jpg",
+    "relative_path": "train/189.jpg",
+    "sha256": "3fe00bb9f955d50e240d76d58f79735568b0b4e709eb8923b52bbd34111c4424",
+    "split": "train"
+  },
+  "canonical_sha256": "d545a131bfcaef4a23121c1dd483556dd01c73c8be3973323eacae1e61c7ae4a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "博物馆展品",
+      "古兵器",
+      "玻璃展柜"
+    ],
+    "short_description": "玻璃展柜内陈列两件古旧兵器，左侧为带鞘长刀，右侧为无鞘剑，均被聚光灯照射。",
+    "theme": "博物馆兵器展品"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两件兵器被放置在透明玻璃展柜内。",
+      "展柜内有聚光灯从上方照射兵器。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "古旧",
+      "被灯光照射",
+      "置于玻璃展柜内"
+    ],
+    "relations": [
+      "两件兵器并列陈列于同一展柜。"
+    ],
+    "scene": "室内玻璃展柜",
+    "subjects": [
+      "带鞘长刀",
+      "无鞘剑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两件兵器被放置在透明玻璃展柜内；展柜内有聚光灯从上方照射兵器。",
+    "safe_facts": [
+      "两件兵器被放置在透明玻璃展柜内。",
+      "展柜内有聚光灯从上方照射兵器。"
+    ]
+  },
+  "label_id": "cpl_d44c34709f1e356d06c64f7d",
+  "provenance": {
+    "generated_at": "2026-08-03T10:13:01.754246+00:00",
+    "migrated_at": "2026-08-03T10:13:01.756018+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5aa9b89a824c158569fa6ffdf4488669b7fc199ef114ed72883a4f61b1577481",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_39d3d099cdddf9640f32e689",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:13:01.756213+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_39d3d099cdddf9640f32e689"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

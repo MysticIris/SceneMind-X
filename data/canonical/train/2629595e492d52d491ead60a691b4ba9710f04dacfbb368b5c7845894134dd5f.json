@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1358.jpg",
+    "relative_path": "train/1358.jpg",
+    "sha256": "2629595e492d52d491ead60a691b4ba9710f04dacfbb368b5c7845894134dd5f",
+    "split": "train"
+  },
+  "canonical_sha256": "c75427ed11b735322c20dc46a1a2cf254634997c411e03f9f121173d01979f83",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "棒球运动员",
+      "白色球衣",
+      "手持棒球"
+    ],
+    "short_description": "一名留着卷发和胡须的男子身穿白色棒球服，正用右手托着一颗棒球，背景是模糊的观众席。",
+    "theme": "棒球运动员持球"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "男子右手托着一个白色的棒球。",
+      "男子穿着一件带有耐克标志和橙色图案的白色棒球服。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "托着棒球"
+    ],
+    "attributes": [
+      "卷发",
+      "胡须",
+      "白色棒球服",
+      "佩戴项链"
+    ],
+    "relations": [],
+    "scene": "体育场馆内",
+    "subjects": [
+      "一名男子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "男子右手托着一个白色的棒球；男子穿着一件带有耐克标志和橙色图案的白色棒球服。",
+    "safe_facts": [
+      "男子右手托着一个白色的棒球。",
+      "男子穿着一件带有耐克标志和橙色图案的白色棒球服。"
+    ]
+  },
+  "label_id": "cpl_507bb371c37393b2daa84d20",
+  "provenance": {
+    "generated_at": "2026-08-03T14:14:24.548976+00:00",
+    "migrated_at": "2026-08-03T14:14:24.551567+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0f5f38b493e8c1d2ab94df839421c5d3f2ae256b7fd7f5c2da2830791c3155b3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fe0b5a70d308d0b4af9d2e44",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:14:24.552160+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fe0b5a70d308d0b4af9d2e44"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

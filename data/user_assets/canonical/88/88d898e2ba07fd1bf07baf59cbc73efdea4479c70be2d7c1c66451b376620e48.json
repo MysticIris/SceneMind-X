@@ -1,0 +1,141 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_7824386ac5458f18b08b1262",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_95da0383e3141a703fff16fa"
+  ],
+  "asset": {
+    "asset_id": "88d898e2ba07fd1b",
+    "sha256": "88d898e2ba07fd1bf07baf59cbc73efdea4479c70be2d7c1c66451b376620e48",
+    "split": "user_custom",
+    "relative_path": "user_assets/88/88d898e2ba07fd1bf07baf59cbc73efdea4479c70be2d7c1c66451b376620e48/88d898e2ba07fd1bf07baf59cbc73efdea4479c70be2d7c1c66451b376620e48.jpg"
+  },
+  "display": {
+    "theme": "高校选课系统界面",
+    "short_description": "一张拍摄电脑显示器的照片，屏幕上显示着“本科生专业选修课管理”网页。",
+    "micro_tags": [
+      "网页截图",
+      "教务系统",
+      "选课界面",
+      "显示器",
+      "中文UI"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "电脑屏幕显示的网页界面",
+    "subjects": [
+      "浏览器窗口",
+      "导航菜单",
+      "功能按钮",
+      "文本信息"
+    ],
+    "actions": [],
+    "attributes": [
+      "深色侧边栏",
+      "绿色高亮选中状态",
+      "浅灰色内容背景",
+      "蓝色顶部标题栏"
+    ],
+    "relations": [
+      "右侧内容区对应左侧菜单的选择。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "页面标题为“本科生专业选修课管理”。",
+      "右侧主要内容区显示“当前：2025年秋季”及日期“2026年2月25日”。"
+    ],
+    "cautious_inferences": [
+      "用户正在进行或准备进行新学期的选课操作。"
+    ],
+    "uncertainties": [
+      "无法确定拍摄者的具体身份。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "本科生专业选修课管理",
+      "专业选修课",
+      "选课记录",
+      "本科生选课",
+      "当前:2025年秋季"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "本科生专业选修课管理",
+      "专业选修课",
+      "选课记录",
+      "本科生选课",
+      "当前:2025年秋季"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "页面标题为“本科生专业选修课管理”；右侧主要内容区显示“当前：2025年秋季”及日期“2026年2月25日”。",
+    "safe_facts": [
+      "页面标题为“本科生专业选修课管理”。",
+      "右侧主要内容区显示“当前：2025年秋季”及日期“2026年2月25日”。"
+    ],
+    "do_not_assert": [
+      "用户正在进行或准备进行新学期的选课操作。",
+      "无法确定拍摄者的具体身份。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_19bda289-c6a5-4ef6-98b9-dfee150b0591",
+    "generated_at": "2026-08-12T03:15:51.448752+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "ea7cda6d03c3be7a0d5030038386152836847995d09b475cc35686f082b0d347",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:15:51.449581+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_95da0383e3141a703fff16fa",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:15:51.449951+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "eaa2e8475b4703d7409a621f699601c82a25010653188ed9ece66bc0eddaa2e6"
+}

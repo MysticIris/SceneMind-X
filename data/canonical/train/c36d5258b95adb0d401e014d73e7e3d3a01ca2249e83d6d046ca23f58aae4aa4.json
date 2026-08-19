@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1633.jpg",
+    "relative_path": "train/1633.jpg",
+    "sha256": "c36d5258b95adb0d401e014d73e7e3d3a01ca2249e83d6d046ca23f58aae4aa4",
+    "split": "train"
+  },
+  "canonical_sha256": "e78e338a1ca12666ebd904841c1a5b11e495fd998e7c783ee5d44604f0be9891",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "炒青蛙",
+      "火锅菜",
+      "餐桌",
+      "食物"
+    ],
+    "short_description": "桌上摆放着一盘盛在金属锅中的炒青蛙，配以小碗和餐具，背景有人正在用餐。",
+    "theme": "火锅菜品"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "金属锅内装有大量炒制的青蛙肉，表面覆盖酱汁并撒有葱花和红辣椒片。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金属锅有刻字",
+      "菜肴有葱花和辣椒",
+      "桌面为木质纹理"
+    ],
+    "relations": [
+      "炒青蛙在金属锅内。",
+      "金属锅放在桌面上。",
+      "小碗和盘子在锅旁。"
+    ],
+    "scene": "室内餐桌",
+    "subjects": [
+      "炒青蛙",
+      "金属锅",
+      "白色小碗",
+      "红色边盘",
+      "筷子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "金属锅内装有大量炒制的青蛙肉，表面覆盖酱汁并撒有葱花和红辣椒片。",
+    "safe_facts": [
+      "金属锅内装有大量炒制的青蛙肉，表面覆盖酱汁并撒有葱花和红辣椒片。"
+    ]
+  },
+  "label_id": "cpl_a485740fc50c8dc4f9751cd4",
+  "provenance": {
+    "generated_at": "2026-08-03T14:47:49.188277+00:00",
+    "migrated_at": "2026-08-03T14:47:49.191570+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "be58e96c63b615c5187e5488fcdea97bad41fad6b4673220fd6eabbe9b662587",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_462bcff8dcc658145dea03a6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:47:49.192069+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_462bcff8dcc658145dea03a6"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "PANG GELIA"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "PANG GELIA"
+    ]
+  }
+}

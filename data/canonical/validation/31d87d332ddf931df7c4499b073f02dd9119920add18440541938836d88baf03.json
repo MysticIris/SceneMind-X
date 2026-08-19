@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2040.jpg",
+    "relative_path": "val/2040.jpg",
+    "sha256": "31d87d332ddf931df7c4499b073f02dd9119920add18440541938836d88baf03",
+    "split": "val"
+  },
+  "canonical_sha256": "116146bee0a02142e264eb2676636151f03acad7ef6d28c74ff41af6b95781fe",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "写作技巧",
+      "积极句子",
+      "避免否定词"
+    ],
+    "short_description": "一张关于写作技巧的幻灯片，强调使用积极句子以提升表达效果。",
+    "theme": "写作技巧指南"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见蓝色背景框和粉色背景框。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "电脑屏幕显示的写作指导幻灯片",
+    "subjects": [
+      "蓝色背景框",
+      "粉色背景框"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见蓝色背景框和粉色背景框。",
+    "safe_facts": [
+      "画面中可见蓝色背景框和粉色背景框。"
+    ]
+  },
+  "label_id": "cpl_e191a1961b49fe80cee5ac0a",
+  "provenance": {
+    "generated_at": "2026-08-03T15:52:22.170069+00:00",
+    "migrated_at": "2026-08-03T15:52:22.171793+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7529252a79c48620d8e42e02d84e5d3849675443240335aeaef0c9a086e8bb02",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_af796db13dfb2e080222e40d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:52:22.172317+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [
+      "removed_unverified_text:direct_observations"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_safe_facts_empty",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_af796db13dfb2e080222e40d"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "2.1 Eight guidelines for improving your",
+      "2.1.5 Write positive sentences",
+      "Positive sentences lack these works: No,",
+      "Positive sentences are easier to underst"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "2.1 Eight guidelines for improving your",
+      "2.1.5 Write positive sentences",
+      "Positive sentences lack these works: No,",
+      "Positive sentences are easier to underst"
+    ]
+  }
+}

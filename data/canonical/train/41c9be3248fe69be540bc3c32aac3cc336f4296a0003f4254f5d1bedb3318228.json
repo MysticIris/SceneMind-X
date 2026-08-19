@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:652.jpg",
+    "relative_path": "train/652.jpg",
+    "sha256": "41c9be3248fe69be540bc3c32aac3cc336f4296a0003f4254f5d1bedb3318228",
+    "split": "train"
+  },
+  "canonical_sha256": "ee53bc89707ca1d455932cb981abc162cfad64b2d3c25b93c5c76b2334259736",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "厨房",
+      "水槽",
+      "橱柜",
+      "塑料膜"
+    ],
+    "short_description": "白色橱柜旁的不锈钢水槽，旁边有被塑料膜包裹的电器，地面铺有斑点瓷砖。",
+    "theme": "厨房角落"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面右侧有一个带黑色拉手的白色橱柜，上方嵌入不锈钢水槽。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色橱柜",
+      "不锈钢水槽",
+      "塑料膜包裹",
+      "斑点瓷砖地面"
+    ],
+    "relations": [
+      "橱柜位于水槽下方。",
+      "塑料膜包裹的电器在橱柜左侧。"
+    ],
+    "scene": "厨房角落",
+    "subjects": [
+      "橱柜",
+      "水槽",
+      "塑料膜包裹的电器",
+      "瓷砖地面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面右侧有一个带黑色拉手的白色橱柜，上方嵌入不锈钢水槽。",
+    "safe_facts": [
+      "画面右侧有一个带黑色拉手的白色橱柜，上方嵌入不锈钢水槽。"
+    ]
+  },
+  "label_id": "cpl_b442c4f62b38ef701f78bfeb",
+  "provenance": {
+    "generated_at": "2026-08-03T11:52:36.538034+00:00",
+    "migrated_at": "2026-08-03T11:52:36.541797+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9ffc5bcb216bd05cff1248dbd8097c6a701d7f7748a9358018bc7cd4b69f2f80",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b079ad12b807aa95993d9c3c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:52:36.542129+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b079ad12b807aa95993d9c3c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

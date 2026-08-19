@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:600.jpg",
+    "relative_path": "train/600.jpg",
+    "sha256": "d25c8552717828e4c93a9cb1644b1618859263ecbe6a0e7a49bf7bfc83436529",
+    "split": "train"
+  },
+  "canonical_sha256": "357fb9e90084d8fde3ebb68632dc8b309d57407c958450f5ce16e9f86739a311",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "冰球",
+      "玻璃杯",
+      "餐桌",
+      "中式菜肴"
+    ],
+    "short_description": "一张餐桌特写，中央是一个玻璃杯，杯口顶着一个透明冰球，周围摆放着中式菜肴和餐具。",
+    "theme": "餐桌上的冰球"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "玻璃杯内有水，杯口上方有一个透明冰球。",
+      "桌面上有多个中式菜肴和餐具，如小碟、汤碗、盘子。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "透明",
+      "圆形",
+      "晶莹剔透",
+      "盛有液体的容器"
+    ],
+    "relations": [
+      "冰球位于玻璃杯顶部。",
+      "玻璃杯置于桌面。",
+      "餐盘环绕玻璃杯。"
+    ],
+    "scene": "室内用餐环境",
+    "subjects": [
+      "玻璃杯",
+      "冰球",
+      "餐盘",
+      "筷子",
+      "碗碟"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "玻璃杯内有水，杯口上方有一个透明冰球；桌面上有多个中式菜肴和餐具，如小碟、汤碗、盘子。",
+    "safe_facts": [
+      "玻璃杯内有水，杯口上方有一个透明冰球。",
+      "桌面上有多个中式菜肴和餐具，如小碟、汤碗、盘子。"
+    ]
+  },
+  "label_id": "cpl_d9c4e1ef100cd18bc37ceb3f",
+  "provenance": {
+    "generated_at": "2026-08-03T11:42:03.421077+00:00",
+    "migrated_at": "2026-08-03T11:42:03.423011+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "09745a4afc08bc6727a3530a02881f7401b795e7a21660dd20da5c64a0973c74",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_16eae083bdefe9631133953b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:42:03.423359+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_16eae083bdefe9631133953b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1248.jpg",
+    "relative_path": "train/1248.jpg",
+    "sha256": "32e1ce5a0e8025434ea68716e91065212eaaf2055d148775db05636112ff0846",
+    "split": "train"
+  },
+  "canonical_sha256": "c9aeb17d9ea34530b4b9f545e52844b533ac862a99a02f2ed81c0e3282dd99b8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "戴眼镜男子",
+      "多人环绕",
+      "递物动作"
+    ],
+    "short_description": "一名戴眼镜的男子被多人环绕，似乎在教室或办公室环境中，有人递给他物品，他表情专注。",
+    "theme": "人群中的男子"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中心有一名戴眼镜的男性，周围有多人站立或俯身。",
+      "该男子面前有打开的笔记本和纸张。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "递送物品",
+      "围观"
+    ],
+    "attributes": [
+      "戴眼镜",
+      "穿衬衫",
+      "手持文件"
+    ],
+    "relations": [
+      "男子被多人围绕。",
+      "手部有物品传递动作。"
+    ],
+    "scene": "室内多人聚集环境",
+    "subjects": [
+      "戴眼镜的男子",
+      "多名其他人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中心有一名戴眼镜的男性，周围有多人站立或俯身；该男子面前有打开的笔记本和纸张。",
+    "safe_facts": [
+      "画面中心有一名戴眼镜的男性，周围有多人站立或俯身。",
+      "该男子面前有打开的笔记本和纸张。"
+    ]
+  },
+  "label_id": "cpl_c6c17426698679d7e2859813",
+  "provenance": {
+    "generated_at": "2026-08-03T13:58:09.687805+00:00",
+    "migrated_at": "2026-08-03T13:58:09.691699+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d8d1e015613467530564b87f68bc0a3b6ec25dc65a5bcda7e24a38f15b413f88",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_dda01f8c78a637f9074cc237",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:58:09.692049+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_dda01f8c78a637f9074cc237"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

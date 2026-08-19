@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:95.jpg",
+    "relative_path": "train/95.jpg",
+    "sha256": "7ff2dd78df64c64ab7a184df9018428b7c6b7315ec2e787872a453b3b8318fe3",
+    "split": "train"
+  },
+  "canonical_sha256": "a2d722713addee6ff7e192d22a15f5f216465f76641acbf0f13e4817e30ee467",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "户外咖啡座",
+      "现代建筑",
+      "木质步道"
+    ],
+    "short_description": "阳光洒在木质步道上，沿街咖啡馆外摆着桌椅，建筑外墙由砖石与玻璃构成，绿植点缀其间。",
+    "theme": "现代商业街景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面铺设木板，呈现平行条纹纹理。",
+      "建筑外墙由红砖与深色石材拼接构成。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阳光照射",
+      "木质纹理",
+      "玻璃幕墙",
+      "砖墙结构"
+    ],
+    "relations": [
+      "桌椅位于建筑外立面旁。",
+      "植物置于方形花盆中。"
+    ],
+    "scene": "城市商业街区",
+    "subjects": [
+      "建筑",
+      "桌椅",
+      "植物",
+      "步道"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面铺设木板，呈现平行条纹纹理；建筑外墙由红砖与深色石材拼接构成。",
+    "safe_facts": [
+      "地面铺设木板，呈现平行条纹纹理。",
+      "建筑外墙由红砖与深色石材拼接构成。"
+    ]
+  },
+  "label_id": "cpl_e36d9f1b41abc01711dd391c",
+  "provenance": {
+    "generated_at": "2026-08-03T09:24:27.813667+00:00",
+    "migrated_at": "2026-08-03T09:24:27.816138+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c4452e30416e4e09fbe333f18ffafd990bb089d9353c5e83ddfc24262010f5a6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1cc0bd9e555731f10204dd34",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:29.187055+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1cc0bd9e555731f10204dd34",
+    "cpl_4bcc778ba4df45cdee9b9dd8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

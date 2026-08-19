@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1857.jpg",
+    "relative_path": "train/1857.jpg",
+    "sha256": "9a67141d7eeba9bd57094cb0763576a095efa88b36469de80fbcd557aa1440e4",
+    "split": "train"
+  },
+  "canonical_sha256": "4d9fb85dce164e470841e9142b7050d59f082995d348b425a1b4bcb190362daa",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "学术写作",
+      "演示文稿",
+      "屏幕显示"
+    ],
+    "short_description": "一张显示学术写作主题的演示文稿屏幕截图，包含演讲者姓名、机构及联系方式。",
+    "theme": "学术写作介绍"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见显示屏。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "有边框"
+    ],
+    "relations": [],
+    "scene": "室内演示环境",
+    "subjects": [
+      "显示屏"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见显示屏。",
+    "safe_facts": [
+      "画面中可见显示屏。"
+    ]
+  },
+  "label_id": "cpl_b02faecd5fc64564575b7100",
+  "provenance": {
+    "generated_at": "2026-08-03T15:14:01.557172+00:00",
+    "migrated_at": "2026-08-03T15:14:01.558882+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fafcbd064f001477a57ec6f75395cfd741a0ccbcdb1b56bd86ebd2643eafbdcb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d410f6ca9844ae343a88db04",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:14:01.559441+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_direct_observations_insufficient",
+      "legacy_contract_safe_facts_empty",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d410f6ca9844ae343a88db04"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Academic Writing",
+      "Kaihu Huo(霍开富)",
+      "Wuhan National Lab for Optoelectronics",
+      "Huazhong University of Science and Techn",
+      "Wuhan, 430081, China",
+      "E-mail: kfhuo@hust.edu.cn"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Academic Writing",
+      "Kaihu Huo(霍开富)",
+      "Wuhan National Lab for Optoelectronics",
+      "Huazhong University of Science and Techn",
+      "Wuhan, 430081, China",
+      "E-mail: kfhuo@hust.edu.cn"
+    ]
+  }
+}

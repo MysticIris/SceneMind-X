@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:41.jpg",
+    "relative_path": "train/41.jpg",
+    "sha256": "af5e8dd532c13729f8a03000b00e901c3775b6ee1598ddcef6306a53ed4a01c3",
+    "split": "train"
+  },
+  "canonical_sha256": "8d4dd81a884d587312fe4ccf4336a7acf96b348d278d56a343b13089310f3b38",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "烟花",
+      "夜间",
+      "火花",
+      "地面燃放"
+    ],
+    "short_description": "夜间户外，烟花在地面燃放，迸发出金色火花，照亮周围砖石地面，背景模糊。",
+    "theme": "烟花绽放夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "烟花在地面上燃放，喷射出大量金色火花。",
+      "地面由砖石铺成，背景为深色夜空。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "燃放"
+    ],
+    "attributes": [
+      "金色火花",
+      "砖石地面",
+      "黑暗背景"
+    ],
+    "relations": [],
+    "scene": "夜间户外",
+    "subjects": [
+      "烟花"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "烟花在地面上燃放，喷射出大量金色火花；地面由砖石铺成，背景为深色夜空。",
+    "safe_facts": [
+      "烟花在地面上燃放，喷射出大量金色火花。",
+      "地面由砖石铺成，背景为深色夜空。"
+    ]
+  },
+  "label_id": "cpl_716ca16c1ec93edec9c52c8a",
+  "provenance": {
+    "generated_at": "2026-08-03T09:12:33.295662+00:00",
+    "migrated_at": "2026-08-03T09:12:33.297271+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b3f7a5a3112ecd956516aaa5fdde6aeca629c28488706f1550fb06a8272c8167",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_718b9343bf91e79da62b8895",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:26.752582+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_718b9343bf91e79da62b8895",
+    "cpl_2b1f9cff32919bb4743c368e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

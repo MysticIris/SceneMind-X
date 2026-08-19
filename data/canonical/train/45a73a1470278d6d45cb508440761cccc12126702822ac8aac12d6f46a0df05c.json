@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1715.jpg",
+    "relative_path": "train/1715.jpg",
+    "sha256": "45a73a1470278d6d45cb508440761cccc12126702822ac8aac12d6f46a0df05c",
+    "split": "train"
+  },
+  "canonical_sha256": "29aec9747a99238a9774ae04c3bca18ffcb0da35f469000668fd099a52829aed",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "卡通头像",
+      "流泪",
+      "表情包"
+    ],
+    "short_description": "一个卡通风格的圆形头像，双眼流泪，嘴角上扬，呈现夸张的悲伤或无奈表情。",
+    "theme": "哭泣表情包"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像为卡通风格的圆形头像。",
+      "角色双眼有泪痕且向下流淌。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "圆形头部",
+      "大眼睛",
+      "流泪",
+      "微笑嘴型"
+    ],
+    "relations": [],
+    "scene": "无具体场景",
+    "subjects": [
+      "卡通角色头像"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像为卡通风格的圆形头像；角色双眼有泪痕且向下流淌。",
+    "safe_facts": [
+      "图像为卡通风格的圆形头像。",
+      "角色双眼有泪痕且向下流淌。"
+    ]
+  },
+  "label_id": "cpl_e7110dd0f98f2fc53bd08dd3",
+  "provenance": {
+    "generated_at": "2026-08-03T14:56:52.152366+00:00",
+    "migrated_at": "2026-08-03T14:56:52.153946+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "33027eea4d97701297e8e68db9dc67204974289378bbc86f75d879aee00c3a5e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f9411df73ab5a1d95e57fffd",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:56:52.154150+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f9411df73ab5a1d95e57fffd"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

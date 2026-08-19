@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1075.jpg",
+    "relative_path": "train/1075.jpg",
+    "sha256": "4f4ef941467f4d310963fc96cadd886208675ba5e140cffe666519c1bae21f4a",
+    "split": "train"
+  },
+  "canonical_sha256": "d0de8bba420743d2454facf1d1a57afd0ddce083f89038d63ec52169f287e1c7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红玫瑰",
+      "花束",
+      "绿色叶子",
+      "白色墙壁"
+    ],
+    "short_description": "几朵盛开的红色玫瑰，花瓣饱满，绿叶衬托，背景为白色纹理墙面。",
+    "theme": "红玫瑰花束"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有数朵红色玫瑰花，花瓣层叠。",
+      "花朵周围有绿色叶片和茎干。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色",
+      "盛开",
+      "绿色",
+      "多瓣",
+      "带茎"
+    ],
+    "relations": [
+      "玫瑰花与叶片相连。",
+      "玫瑰花位于白色墙面前。"
+    ],
+    "scene": "室内静物",
+    "subjects": [
+      "玫瑰花",
+      "叶片"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有数朵红色玫瑰花，花瓣层叠；花朵周围有绿色叶片和茎干。",
+    "safe_facts": [
+      "画面中有数朵红色玫瑰花，花瓣层叠。",
+      "花朵周围有绿色叶片和茎干。"
+    ]
+  },
+  "label_id": "cpl_b3ae76a27a8ea53546d147ac",
+  "provenance": {
+    "generated_at": "2026-08-03T13:33:31.352262+00:00",
+    "migrated_at": "2026-08-03T13:33:31.359921+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "02c47687527e39964c72561aa805777f92f341b572569723d2e33a7c36a803f3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2d0d3d0a0cedc97fb009c073",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:33:31.360264+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2d0d3d0a0cedc97fb009c073"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

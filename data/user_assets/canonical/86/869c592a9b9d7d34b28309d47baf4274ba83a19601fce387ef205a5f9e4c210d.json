@@ -1,0 +1,134 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_d7a9d5ebdcedee218725b893",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_6eedf685b68d917d197be49e"
+  ],
+  "asset": {
+    "asset_id": "869c592a9b9d7d34",
+    "sha256": "869c592a9b9d7d34b28309d47baf4274ba83a19601fce387ef205a5f9e4c210d",
+    "split": "user_custom",
+    "relative_path": "user_assets/86/869c592a9b9d7d34b28309d47baf4274ba83a19601fce387ef205a5f9e4c210d/869c592a9b9d7d34b28309d47baf4274ba83a19601fce387ef205a5f9e4c210d.png"
+  },
+  "display": {
+    "theme": "平行双目成像视差原理图",
+    "short_description": "这是一张关于平行双目成像中视差计算的几何示意图。图中展示了两个图像平面、光心连线中点坐标系以及空间点W的投影关系，并附带了相关的深度Z计算公式及具体数值算例。",
+    "micro_tags": [
+      "双目视觉",
+      "视差",
+      "几何光学",
+      "深度计算",
+      "数学公式",
+      "教学课件"
+    ]
+  },
+  "facts": {
+    "visual_medium": "illustration",
+    "scene": "教科书或学术文档页面",
+    "subjects": [
+      "几何示意图",
+      "坐标轴",
+      "投影光线",
+      "数学文本"
+    ],
+    "actions": [],
+    "attributes": [
+      "黑白线条",
+      "彩色标注(橙色、蓝色、紫色)",
+      "包含公式推导"
+    ],
+    "relations": [
+      "几何图解位于中间。",
+      "答案与计算结果位于底部。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "图片中央是一个几何线图，包含垂直的X轴和水平的Z轴，原点标记为O。",
+      "图中有两条蓝色的线代表光线，汇聚于右侧的空间点W(-X，Y，Z)。",
+      "底部给出了深度Z的计算公式以及X和Z的具体计算结果。"
+    ],
+    "cautious_inferences": [
+      "图示旨在解释如何通过视差(disparity)来计算物体的深度信息。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "图 5.2.2 平行双目成像中的视差"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "图 5.2.2 平行双目成像中的视差"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "图片中央是一个几何线图，包含垂直的X轴和水平的Z轴，原点标记为O；图中有两条蓝色的线代表光线，汇聚于右侧的空间点W(-X，Y，Z)。",
+    "safe_facts": [
+      "图片中央是一个几何线图，包含垂直的X轴和水平的Z轴，原点标记为O。",
+      "图中有两条蓝色的线代表光线，汇聚于右侧的空间点W(-X，Y，Z)。",
+      "底部给出了深度Z的计算公式以及X和Z的具体计算结果。"
+    ],
+    "do_not_assert": [
+      "图示旨在解释如何通过视差(disparity)来计算物体的深度信息。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_9fb58a98-bc32-4e4c-b363-15d4aec01864",
+    "generated_at": "2026-08-12T03:30:57.678339+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "ac0e3259314ffc4cb22624a350eb841f926505c3f1ba9d566ea69d1e9d47cee5",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:30:57.678999+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_6eedf685b68d917d197be49e",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:30:57.679305+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "07f36ad615dbe938900b928e9cabcf5a30320b49043219252fc68f6178ce2688"
+}

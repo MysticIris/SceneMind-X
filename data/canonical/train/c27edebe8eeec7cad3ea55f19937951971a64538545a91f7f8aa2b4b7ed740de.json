@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1735.jpg",
+    "relative_path": "train/1735.jpg",
+    "sha256": "c27edebe8eeec7cad3ea55f19937951971a64538545a91f7f8aa2b4b7ed740de",
+    "split": "train"
+  },
+  "canonical_sha256": "7e9ac3ea161155e0b95b65492741590074698e077bd78cbb8f8a78bbf762571a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "概念车模型",
+      "未来设计",
+      "展台陈列"
+    ],
+    "short_description": "展台上陈列着两款银灰配色的未来风格概念车模型，造型流线且具科技感，旁边有宣传资料。",
+    "theme": "未来城市交通工具"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两辆造型前卫的概念车模型放置在白色展台上。",
+      "车辆表面有反光，显示材质光滑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "银灰色车身",
+      "流线型设计",
+      "绿色轮毂装饰",
+      "黑色碳纤维部件"
+    ],
+    "relations": [
+      "两辆车并排陈列于白色展台上。"
+    ],
+    "scene": "室内展览台",
+    "subjects": [
+      "银灰色概念车模型",
+      "另一款银灰概念车模型"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两辆造型前卫的概念车模型放置在白色展台上；车辆表面有反光，显示材质光滑。",
+    "safe_facts": [
+      "两辆造型前卫的概念车模型放置在白色展台上。",
+      "车辆表面有反光，显示材质光滑。"
+    ]
+  },
+  "label_id": "cpl_9f48d5feb01e6e64276ef8a8",
+  "provenance": {
+    "generated_at": "2026-08-03T14:59:25.207524+00:00",
+    "migrated_at": "2026-08-03T14:59:25.208993+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "396b5a1eeafd526f10601c3e03186e9d1a16fe24863e48f345abbe228f27f3d2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7c5b82402c1fd8d6178e5852",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:59:25.209191+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7c5b82402c1fd8d6178e5852"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

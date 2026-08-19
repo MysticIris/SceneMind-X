@@ -1,0 +1,6 @@
+只输出一行无空格的标准 JSON；不要 Markdown、解释或额外字段。键名必须逐字复制，使用 ASCII 双引号。九个字段都必须出现，并且每个值都必须是一个短字符串，绝对不要使用数组或嵌套对象。没有内容就用空字符串。每个字符串最多 18 个汉字。只写直接可见内容；推断写入 scene_hypotheses；看不清文字写“不可辨文字”，不得猜测。
+
+严格格式：
+{"global_observation":"全局场景","subjects":"主体","activities":"行为","attributes":"主体及属性","relations":"主体与客体关系","visible_text_candidates":"文字候选及可读性","scene_hypotheses":"候选及可见依据","uncertainties":"不确定内容","evidence_descriptions":"局部证据"}
+
+visible_text_candidates 必须注明清晰、模糊或不可辨；scene_hypotheses 必须注明依据。屏幕、海报、包装或照片中的对象不是现场真实对象；无法区分反射、阴影和直接物体时写入 uncertainties。

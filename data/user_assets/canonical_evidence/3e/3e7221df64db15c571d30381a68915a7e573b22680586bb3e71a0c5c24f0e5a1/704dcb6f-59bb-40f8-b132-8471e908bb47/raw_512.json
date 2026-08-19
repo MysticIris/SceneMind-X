@@ -1,0 +1,66 @@
+{
+  "asset_id": "3e7221df64db15c5",
+  "asset_sha256": "3e7221df64db15c571d30381a68915a7e573b22680586bb3e71a0c5c24f0e5a1",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"在线实习申请表单填写界面\",\n    \"short_description\": \"一张网页表单截图，标题为“基础信息收集”。界面包含学校专业、英语成绩、软件技能等输入框。部分字段已填写如“华中科技大学”，而通勤时长、绩点等必填项显示红色边框及“必填项未填写”的错误提示。\",\n    \"micro_tags\": [\n      \"在线表单\",\n      \"求职申请\",\n      \"信息录入\",\n      \"必填项校验\",\n      \"错误提示\",\n      \"用户界面\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"网页端数据录入界面\",\n    \"subjects\": [\n      \"表单输入框\",\n      \"文本标签\",\n      \"错误提示信息\",\n      \"下拉菜单箭头\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白色背景\",\n      \"灰色占位符文本\",\n      \"红色警告边框\",\n      \"黑色正文文本\",\n      \"双列布局\"\n    ],\n    \"relations\": [\n      \"红色错误提示位于对应输入框的正下方\",\n      \"标签位于输入框的上方或左侧\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"页面顶部有大号标题文字“基础信息收集”。\",\n      \"多个输入框周围有红色细线边框，下方伴有红色圆形叉号图标及文字“必填项未填写”。\",\n      \"左上角第一个输入框内已填入黑色文字“华中科技大学 人工智能 大三”。\",\n      \"右侧第二个输入框内显示灰色文字“目前居住地点至延锋实习通勤方式时长”。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据红色边框和提示文字推断，用户正在尝试提交表单但因缺少必要信息而被系统拦截。\",\n      \"根据已填写的学校和专业信息推断，这可能是一份针对大学生的实习或校园招聘申请表。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"基础信息收集\",\n      \"学校+专业+年级\",\n      \"华中科技大学 人工智能 大三\",\n      \"目前居住地点至延锋实习通勤方式时长\",\n      \"必填项未填写\",\n      \"英语四六级是否通过以及分数\",\n      \"通过 六级539\",\n      \"英语口语水平\",\n      \"可作为工作语言\",\n      \"请罗列目前掌握的软件与熟练度\",\n      \"目前在校成绩绩点or排名情况\",\n      \"是否对延锋有过了解，并简单概况\",\n      \"实习生岗位需填写：最快开始实习日期\",\n      \"请用一句话介绍自己最大的优点以及不足\",\n      \"参加实习的目的\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"这是一张计算机屏幕截图，展示了一个包含多个文本输入框的在线表格。界面采用白底黑字设计，部分字段下方显示红色的错误警告信息，表明这些是必须填写的项目。其中一个字段已经填入了具体的学校和年级信息。\",\n    \"safe_facts\": [\n      \"图像展示了典型的Web表单UI组件，包括标签、输入区域和验证反馈。\",\n      \"视觉元素包括成对出现的文本标签和矩形输入框",
+      "input_tokens": 1610,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 1610,
+        "output_tokens": 768,
+        "total_tokens": 2378,
+        "estimated_cost_cny": 0.009364,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "在线实习申请表单填写界面",
+        "short_description": "一张网页表单截图，标题为“基础信息收集”。界面包含学校专业、英语成绩、软件技能等输入框。部分字段已填写如“华中科技大学”，而通勤时长、绩点等必填项显示红色边框及“必填项未填写”的错误提示。",
+        "micro_tags": [
+          "在线表单",
+          "求职申请",
+          "信息录入",
+          "必填项校验",
+          "错误提示",
+          "用户界面"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 186460,
+        "request_bytes": 136772,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 21.81196519999503,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "7e161e07d69df698ed9ab5f253d552d44afac4cb01c2a24469a65336fbcb4480"
+}

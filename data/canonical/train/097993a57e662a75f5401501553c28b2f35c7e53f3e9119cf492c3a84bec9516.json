@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1698.jpg",
+    "relative_path": "train/1698.jpg",
+    "sha256": "097993a57e662a75f5401501553c28b2f35c7e53f3e9119cf492c3a84bec9516",
+    "split": "train"
+  },
+  "canonical_sha256": "be3905c47984fc19f4bff5ce2ab7dcf9c334bc949cdb6c87c15922ec8a1afa3d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "发光雕塑",
+      "高楼大厦"
+    ],
+    "short_description": "夜晚城市广场中央的螺旋形发光雕塑，背景是高楼大厦，水面倒映灯光。",
+    "theme": "城市夜景雕塑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "雕塑呈螺旋状，表面有灯光照明。",
+      "水面反射雕塑和周围建筑的灯光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "发光",
+      "倒影",
+      "夜景"
+    ],
+    "relations": [
+      "雕塑位于广场中央。",
+      "高楼在雕塑后方。"
+    ],
+    "scene": "城市广场夜景",
+    "subjects": [
+      "螺旋形雕塑",
+      "高楼建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "雕塑呈螺旋状，表面有灯光照明；水面反射雕塑和周围建筑的灯光。",
+    "safe_facts": [
+      "雕塑呈螺旋状，表面有灯光照明。",
+      "水面反射雕塑和周围建筑的灯光。"
+    ]
+  },
+  "label_id": "cpl_9b4fe9b64212bf8b785bcb2b",
+  "provenance": {
+    "generated_at": "2026-08-03T14:55:11.548705+00:00",
+    "migrated_at": "2026-08-03T14:55:11.550181+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "06fbc6a963d885c3cefabaf3deb250eff31d15e063846fe5a64da3868e9350fd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a3409083bbde379412332949",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:55:11.550397+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a3409083bbde379412332949"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

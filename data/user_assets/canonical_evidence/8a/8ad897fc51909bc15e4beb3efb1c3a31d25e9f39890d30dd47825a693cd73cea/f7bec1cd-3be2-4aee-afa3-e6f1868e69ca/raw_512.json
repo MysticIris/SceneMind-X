@@ -1,0 +1,122 @@
+{
+  "asset_id": "8ad897fc51909bc1",
+  "asset_sha256": "8ad897fc51909bc15e4beb3efb1c3a31d25e9f39890d30dd47825a693cd73cea",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"七夕鹊桥相会文字排版\",\n    \"short_description\": \"这是一张以白色为背景的竖排文字设计图。画面主体由四行黑色毛笔书法字体组成，内容引用了牛郎织女鹊桥相会的传说，表达了命定之人奔赴而来的浪漫寓意。每行大字下方均配有对应的细体标注文字，整体构图呈阶梯状分布，风格简约且具有中国风韵味。\",\n    \"micro_tags\": [\n      \"书法字体\",\n      \"七夕\",\n      \"鹊桥\",\n      \"情感文案\",\n      \"极简设计\",\n      \"黑白配色\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"poster_document\",\n    \"scene\": \"纯白背景平面\",\n    \"subjects\": [\n      \"中文书法文本\",\n      \"辅助说明小字\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"黑色墨迹质感\",\n      \"阶梯式排列\",\n      \"大小字体对比\",\n      \"留白充足\"\n    ],\n    \"relations\": [\n      \"大字位于上方，小字紧随其下\",\n      \"文本块从左上向右下延伸\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图像背景为纯净的白色，无纹理或渐变。\",\n      \"画面包含四组主要文本块，采用黑色粗体书法字书写，每组下方有一行较小的灰色或细黑体文字。\",\n      \"文本排列呈现明显的对角线趋势，从左上角开始，逐行向右下方错落排列。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据“喜鹊”、“云上架桥”等词汇，推测该图片可能与七夕节或中国传统爱情神话有关。\",\n      \"字体风格模仿传统水墨书法，可能用于表达深情或古典意境。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"故事说\",\n      \"「 故 事 说 」\",\n      \"喜鹊在云上架桥\",\n      \"「 喜 鹊 在 云 上 架 桥 」\",\n      \"命定之人会从桥的那头\",\n      \"「 命 定 之 人 会 从 桥 的 那 头 」\",\n      \"奔向你\",\n      \"「 奔 向 你 」\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张白底黑字的平面设计图，展示了四行呈阶梯状排列的中文书法文本，每行大字下方配有细小的说明文字，整体风格简洁典雅。\",\n    \"safe_facts\": [\n      \"背景为纯白色\",\n      \"主体为黑色中文书法字体\",\n      \"文字排版呈左上至右下的阶梯状结构\",\n      \"存在大小两种字号的文本层级\"\n    ]\n  }\n}",
+      "input_tokens": 2311,
+      "output_tokens": 696,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 2311,
+        "output_tokens": 696,
+        "total_tokens": 3007,
+        "estimated_cost_cny": 0.01019,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "七夕鹊桥相会文字排版",
+          "short_description": "这是一张以白色为背景的竖排文字设计图。画面主体由四行黑色毛笔书法字体组成，内容引用了牛郎织女鹊桥相会的传说，表达了命定之人奔赴而来的浪漫寓意。每行大字下方均配有对应的细体标注文字，整体构图呈阶梯状分布，风格简约且具有中国风韵味。",
+          "micro_tags": [
+            "书法字体",
+            "七夕",
+            "鹊桥",
+            "情感文案",
+            "极简设计",
+            "黑白配色"
+          ]
+        },
+        "facts": {
+          "visual_medium": "poster_document",
+          "scene": "纯白背景平面",
+          "subjects": [
+            "中文书法文本",
+            "辅助说明小字"
+          ],
+          "actions": [],
+          "attributes": [
+            "黑色墨迹质感",
+            "阶梯式排列",
+            "大小字体对比",
+            "留白充足"
+          ],
+          "relations": [
+            "大字位于上方，小字紧随其下",
+            "文本块从左上向右下延伸"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图像背景为纯净的白色，无纹理或渐变。",
+            "画面包含四组主要文本块，采用黑色粗体书法字书写，每组下方有一行较小的灰色或细黑体文字。",
+            "文本排列呈现明显的对角线趋势，从左上角开始，逐行向右下方错落排列。"
+          ],
+          "cautious_inferences": [
+            "根据“喜鹊”、“云上架桥”等词汇，推测该图片可能与七夕节或中国传统爱情神话有关。",
+            "字体风格模仿传统水墨书法，可能用于表达深情或古典意境。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "故事说",
+            "「 故 事 说 」",
+            "喜鹊在云上架桥",
+            "「 喜 鹊 在 云 上 架 桥 」",
+            "命定之人会从桥的那头",
+            "「 命 定 之 人 会 从 桥 的 那 头 」",
+            "奔向你",
+            "「 奔 向 你 」"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张白底黑字的平面设计图，展示了四行呈阶梯状排列的中文书法文本，每行大字下方配有细小的说明文字，整体风格简洁典雅。",
+          "safe_facts": [
+            "背景为纯白色",
+            "主体为黑色中文书法字体",
+            "文字排版呈左上至右下的阶梯状结构",
+            "存在大小两种字号的文本层级"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 150220,
+        "request_bytes": 109593,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.567780600002152,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "ce8b2d8b082667b740425d703cddf684ccf39cc490ef9bb0074ff92b78c2e81e"
+}

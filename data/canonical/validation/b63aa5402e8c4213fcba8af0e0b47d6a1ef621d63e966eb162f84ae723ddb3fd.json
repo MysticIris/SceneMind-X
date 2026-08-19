@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2011.jpg",
+    "relative_path": "val/2011.jpg",
+    "sha256": "b63aa5402e8c4213fcba8af0e0b47d6a1ef621d63e966eb162f84ae723ddb3fd",
+    "split": "val"
+  },
+  "canonical_sha256": "1c6a5e2ce76fc4917578d65fdafaec2672253cfc6260d88b29bec709bdc899f0",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "樱花树",
+      "城市街道",
+      "晴天",
+      "行人"
+    ],
+    "short_description": "晴朗天空下，盛开的粉色花树沿道路分布，行人与电动车穿行其间，远处可见建筑群与山丘。",
+    "theme": "春日城市公园"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天气晴好，光线充足。"
+    ],
+    "direct_observations": [
+      "天空呈蓝色，有少量云朵。",
+      "多棵树木开着粉白色花朵。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "骑行",
+      "行走",
+      "停放"
+    ],
+    "attributes": [
+      "粉白色花朵",
+      "晴朗蓝天",
+      "铺装路面",
+      "白色护栏"
+    ],
+    "relations": [
+      "花树位于道路旁。",
+      "行人与电动车在道路上移动。",
+      "建筑物位于背景。"
+    ],
+    "scene": "城市公园与道路景观",
+    "subjects": [
+      "花树",
+      "行人",
+      "电动车",
+      "建筑物",
+      "山丘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天气晴好，光线充足。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈蓝色，有少量云朵；多棵树木开着粉白色花朵。",
+    "safe_facts": [
+      "天空呈蓝色，有少量云朵。",
+      "多棵树木开着粉白色花朵。"
+    ]
+  },
+  "label_id": "cpl_fe0a1db50b0005e2b411028e",
+  "provenance": {
+    "generated_at": "2026-08-03T15:45:13.158128+00:00",
+    "migrated_at": "2026-08-03T15:45:13.159578+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "25fc3e9b41c0f52ccab1351c6d6de77b7644a0eae710fca0ef6f4b1beaba06de",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e91c1cac896a70f0492e322f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:45:13.159790+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e91c1cac896a70f0492e322f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

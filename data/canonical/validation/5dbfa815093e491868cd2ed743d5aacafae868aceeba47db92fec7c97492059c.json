@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2290.jpg",
+    "relative_path": "val/2290.jpg",
+    "sha256": "5dbfa815093e491868cd2ed743d5aacafae868aceeba47db92fec7c97492059c",
+    "split": "val"
+  },
+  "canonical_sha256": "a85735cbd60db0992838e47d2ed6fa9a4087040511b7cf7b321f494a02429134",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "乡村小路",
+      "黄色野花",
+      "农田",
+      "电线杆"
+    ],
+    "short_description": "一条乡间小路旁开满黄色野花，远处有农舍和山峦，天空多云。",
+    "theme": "乡村田园风光"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "远处山丘上似乎有炊烟升起。"
+    ],
+    "direct_observations": [
+      "画面左侧有一条由红砖铺成的小径。",
+      "路边草地上密集分布着黄色花朵。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黄色花朵",
+      "绿色草地",
+      "灰色天空",
+      "红砖步道"
+    ],
+    "relations": [
+      "野花生长在路边。",
+      "小路旁有电线杆。",
+      "农舍位于远处山脚下。"
+    ],
+    "scene": "乡村田野",
+    "subjects": [
+      "小路",
+      "野花",
+      "农舍",
+      "山峦",
+      "电线杆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "远处山丘上似乎有炊烟升起。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面左侧有一条由红砖铺成的小径；路边草地上密集分布着黄色花朵。",
+    "safe_facts": [
+      "画面左侧有一条由红砖铺成的小径。",
+      "路边草地上密集分布着黄色花朵。"
+    ]
+  },
+  "label_id": "cpl_6259830384ff6710cc8c1a80",
+  "provenance": {
+    "generated_at": "2026-08-03T16:25:21.896374+00:00",
+    "migrated_at": "2026-08-03T16:25:21.898695+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "beae80b74eef873120b3c428bfe1698f34abddac8938f02399e8196a3418b381",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d5731a1d2c08d7e37715aa9f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:25:21.898986+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d5731a1d2c08d7e37715aa9f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

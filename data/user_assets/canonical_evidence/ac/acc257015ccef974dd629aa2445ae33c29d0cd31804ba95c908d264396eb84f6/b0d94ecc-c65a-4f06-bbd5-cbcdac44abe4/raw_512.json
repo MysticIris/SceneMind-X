@@ -1,0 +1,125 @@
+{
+  "asset_id": "acc257015ccef974",
+  "asset_sha256": "acc257015ccef974dd629aa2445ae33c29d0cd31804ba95c908d264396eb84f6",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"赛车手获胜海报\",\n    \"short_description\": \"这是一张以红色为主色调的竖构图海报。画面中央是一位身穿红色赛车服的男性，服装上印有法拉利跃马标志及多个赞助商标识。底部有巨大的白色英文单词“WINNER”以及关于比赛轮次和地点的文字说明。\",\n    \"micro_tags\": [\n      \"赛车\",\n      \"红色制服\",\n      \"人物肖像\",\n      \"海报设计\",\n      \"胜利\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"poster_document\",\n    \"scene\": \"平面宣传海报\",\n    \"subjects\": [\n      \"男性赛车手\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"红色背景\",\n      \"几何线条装饰\",\n      \"佩戴耳饰\",\n      \"编发发型\",\n      \"多品牌Logo制服\"\n    ],\n    \"relations\": []\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"人物身穿带有黄色盾形徽章（内含黑马图案）的红色立领赛车服。\",\n      \"图片底部有醒目的白色大写英文单词“WINNER”。\",\n      \"右上角有白色的F1官方标志。\",\n      \"背景为深红色，带有斜向的几何条纹设计。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据服装上的标志和文字布局，这可能是一张庆祝某场F1比赛胜利的官方海报。\",\n      \"人物看起来是职业赛车运动员。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"F1\",\n      \"PERONI\",\n      \"IBM\",\n      \"hp\",\n      \"UniCredit\",\n      \"ceva LOGISTICS\",\n      \"Bing\",\n      \"GENESYS\",\n      \"ambipar\",\n      \"WHOO\",\n      \"perplexity\",\n      \"LEWIS HAMILTON\",\n      \"WINNER\",\n      \"ROUND 07 // BARCELONA-CATALUNYA\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张红色调的人物海报，展示了一位身穿印有多处标志的红色赛车服的男性，底部印有巨大的白色胜利字样。\",\n    \"safe_facts\": [\n      \"主体为一名男性，穿着专业的红色连体赛车服。\",\n      \"服装胸前有显著的黄色盾形徽标。\",\n      \"背景采用红色几何图形设计。\",\n      \"画面包含大量清晰可见的品牌标识和英文文本。\"\n    ]\n  }\n}",
+      "input_tokens": 2711,
+      "output_tokens": 628,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 2711,
+        "output_tokens": 628,
+        "total_tokens": 3339,
+        "estimated_cost_cny": 0.010446,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "赛车手获胜海报",
+          "short_description": "这是一张以红色为主色调的竖构图海报。画面中央是一位身穿红色赛车服的男性，服装上印有法拉利跃马标志及多个赞助商标识。底部有巨大的白色英文单词“WINNER”以及关于比赛轮次和地点的文字说明。",
+          "micro_tags": [
+            "赛车",
+            "红色制服",
+            "人物肖像",
+            "海报设计",
+            "胜利"
+          ]
+        },
+        "facts": {
+          "visual_medium": "poster_document",
+          "scene": "平面宣传海报",
+          "subjects": [
+            "男性赛车手"
+          ],
+          "actions": [],
+          "attributes": [
+            "红色背景",
+            "几何线条装饰",
+            "佩戴耳饰",
+            "编发发型",
+            "多品牌Logo制服"
+          ],
+          "relations": []
+        },
+        "evidence": {
+          "direct_observations": [
+            "人物身穿带有黄色盾形徽章（内含黑马图案）的红色立领赛车服。",
+            "图片底部有醒目的白色大写英文单词“WINNER”。",
+            "右上角有白色的F1官方标志。",
+            "背景为深红色，带有斜向的几何条纹设计。"
+          ],
+          "cautious_inferences": [
+            "根据服装上的标志和文字布局，这可能是一张庆祝某场F1比赛胜利的官方海报。",
+            "人物看起来是职业赛车运动员。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "F1",
+            "PERONI",
+            "IBM",
+            "hp",
+            "UniCredit",
+            "ceva LOGISTICS",
+            "Bing",
+            "GENESYS",
+            "ambipar",
+            "WHOO",
+            "perplexity",
+            "LEWIS HAMILTON",
+            "WINNER",
+            "ROUND 07 // BARCELONA-CATALUNYA"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张红色调的人物海报，展示了一位身穿印有多处标志的红色赛车服的男性，底部印有巨大的白色胜利字样。",
+          "safe_facts": [
+            "主体为一名男性，穿着专业的红色连体赛车服。",
+            "服装胸前有显著的黄色盾形徽标。",
+            "背景采用红色几何图形设计。",
+            "画面包含大量清晰可见的品牌标识和英文文本。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 428504,
+        "request_bytes": 318305,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 12.046663799999806,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "077581b4f6bb8e096eadf8b4fb3a597cee99104018b9e5a686e0ae4b29048968"
+}

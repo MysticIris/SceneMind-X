@@ -1,0 +1,12 @@
+Analyze the supplied image as shared visual facts.
+
+Required procedure:
+1. Determine visual_medium from the image's carrier, layout and communication purpose.
+2. Describe depicted_content separately and state whether an internal event is depicted-only, directly observed in the real scene, mixed or uncertain.
+3. List only supported subjects, activities and relationships. Activities require a visible subject and evidence.
+4. Decide text_presence before recording OCR candidates. Mark texture-like false-positive risk and whether text may support scene inference.
+5. Create evidence_items, then claims that reference those evidence IDs. Use claim_type direct_observation, reasonable_inference, uncertain or abstention.
+6. Produce short_caption and dense_caption using only the recorded facts.
+7. Complete self_check.
+
+Return one JSON object in the exact schema and field order supplied below. Use null or an empty list where permitted. Do not add keys.

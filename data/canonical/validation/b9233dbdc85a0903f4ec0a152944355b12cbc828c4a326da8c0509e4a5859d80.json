@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2032.jpg",
+    "relative_path": "val/2032.jpg",
+    "sha256": "b9233dbdc85a0903f4ec0a152944355b12cbc828c4a326da8c0509e4a5859d80",
+    "split": "val"
+  },
+  "canonical_sha256": "3113db0cd0d36d1b4355d89050d6535b64d8e16de285e016d7b913935226df06",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "长角羚羊",
+      "树荫下",
+      "草地",
+      "动物群像"
+    ],
+    "short_description": "三只长角羚羊在树荫下活动，一只低头饮水，另两只站立观望，地面散落粪便。",
+    "theme": "草原动物群像"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "动物可能在进食或饮水后留下粪便。"
+    ],
+    "direct_observations": [
+      "三只长角羚羊分布在画面中，其中一只正低头靠近水槽饮水。",
+      "地面有多个深色粪便团，分布于动物周围及路径上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "低头饮水",
+      "站立",
+      "觅食"
+    ],
+    "attributes": [
+      "白色身体",
+      "黑色尾巴",
+      "长角",
+      "棕色背部"
+    ],
+    "relations": [
+      "动物在树旁。",
+      "动物在草地上。"
+    ],
+    "scene": "户外动物园或保护区围栏内",
+    "subjects": [
+      "长角羚羊",
+      "树干",
+      "草地",
+      "粪便"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "动物可能在进食或饮水后留下粪便。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三只长角羚羊分布在画面中，其中一只正低头靠近水槽饮水；地面有多个深色粪便团，分布于动物周围及路径上。",
+    "safe_facts": [
+      "三只长角羚羊分布在画面中，其中一只正低头靠近水槽饮水。",
+      "地面有多个深色粪便团，分布于动物周围及路径上。"
+    ]
+  },
+  "label_id": "cpl_a4bd9b8d7d71df5f634f50b0",
+  "provenance": {
+    "generated_at": "2026-08-03T15:50:37.743450+00:00",
+    "migrated_at": "2026-08-03T15:50:37.745107+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "52013e6484f3fcb3a5899e50319a9edcad6d77519cf6ec3c1d7eff35ce23d236",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_baf7e341def7d2954b2031c6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:50:37.745339+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_baf7e341def7d2954b2031c6"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

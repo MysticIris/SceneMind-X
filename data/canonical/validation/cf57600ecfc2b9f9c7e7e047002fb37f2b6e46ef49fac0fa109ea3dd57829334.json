@@ -1,0 +1,141 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2269.jpg",
+    "relative_path": "val/2269.jpg",
+    "sha256": "cf57600ecfc2b9f9c7e7e047002fb37f2b6e46ef49fac0fa109ea3dd57829334",
+    "split": "val"
+  },
+  "canonical_sha256": "c1452fe01c4dfdb537302b4e4d6fe7103be237e1467cf0781b1005724b6ffd70",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "演示",
+      "会议"
+    ],
+    "short_description": "一位演讲者在讲台上进行演示，大屏幕上显示着软件界面及答辩PPT，观众席上有人正在聆听。",
+    "theme": "学术答辩现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "演讲者站在木质讲台后，手持麦克风。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "演讲者站立并手持麦克风",
+      "观众坐着观看"
+    ],
+    "attributes": [
+      "屏幕显示PPT",
+      "讲台上有校徽"
+    ],
+    "relations": [
+      "演讲者站在讲台后方。",
+      "观众坐在讲台前方。"
+    ],
+    "scene": "室内会议厅",
+    "subjects": [
+      "演讲者",
+      "观众",
+      "投影屏幕",
+      "讲台"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "演讲者站在木质讲台后，手持麦克风。",
+    "safe_facts": [
+      "演讲者站在木质讲台后，手持麦克风。"
+    ]
+  },
+  "label_id": "cpl_0f5b1c7c1b4f0c1521c60bbf",
+  "provenance": {
+    "generated_at": "2026-08-03T16:20:25.643862+00:00",
+    "migrated_at": "2026-08-03T16:20:25.645675+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cdb01f38f55e7aec38476050357552d7bdd4c7f88b43588979f7b71f285b528d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_685d2cce50701140e9ec92a4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:20:25.646206+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:attributes",
+      "removed_unverified_text:direct_observations",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_685d2cce50701140e9ec92a4"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "WPS Office",
+      "2023年答辩",
+      "厚积薄发,躬行奋进",
+      "华中科技大学",
+      "答辩人:杨焕鑫",
+      "时间:10月7日"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "WPS Office",
+      "2023年答辩",
+      "厚积薄发,躬行奋进",
+      "华中科技大学",
+      "答辩人:杨焕鑫",
+      "时间:10月7日"
+    ]
+  }
+}

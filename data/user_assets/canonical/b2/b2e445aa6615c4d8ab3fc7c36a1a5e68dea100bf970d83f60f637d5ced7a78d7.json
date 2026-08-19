@@ -1,0 +1,140 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_03fa4485aec1bb5bdfd19f7e",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_a78d3ebeb293893a631c4c93"
+  ],
+  "asset": {
+    "asset_id": "b2e445aa6615c4d8",
+    "sha256": "b2e445aa6615c4d8ab3fc7c36a1a5e68dea100bf970d83f60f637d5ced7a78d7",
+    "split": "user_custom",
+    "relative_path": "user_assets/b2/b2e445aa6615c4d8ab3fc7c36a1a5e68dea100bf970d83f60f637d5ced7a78d7/b2e445aa6615c4d8ab3fc7c36a1a5e68dea100bf970d83f60f637d5ced7a78d7.png"
+  },
+  "display": {
+    "theme": "社交软件交友动态截图",
+    "short_description": "这是一张手机社交应用界面的截图。内容显示用户“lucky”发布了一条寻找武汉大学、武汉理工大学或华中科技大学身高180以上男生的交友动态，并带有地理位置标签。下方评论区展示了其他用户的互动留言及作者的回复。",
+    "micro_tags": [
+      "社交APP",
+      "交友动态",
+      "评论区",
+      "校园恋爱",
+      "手机截图",
+      "UI界面"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "移动端社交应用程序界面",
+    "subjects": [
+      "用户头像",
+      "文本内容",
+      "交互按钮",
+      "评论列表"
+    ],
+    "actions": [],
+    "attributes": [
+      "白色背景",
+      "竖屏布局",
+      "包含表情符号",
+      "顶部状态栏显示时间17：38"
+    ],
+    "relations": [
+      "评论内容位于主贴下方。",
+      "作者回复位于特定评论之下。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "屏幕顶部显示时间为17：38，信号为5G，电量33%。",
+      "界面包含用户昵称“lucky”及兔子头像，正文提及“武大”、“武汉理工大学”、“华科”及“180+帅哥”。",
+      "评论区可见用户“草莓熊哥哥”和“Whuer”的留言，以及作者“lucky”的回复“也行”和“不是的勿扰”。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "lucky",
+      "有没有武大或者武汉理工大学的华科180+帅哥",
+      "想谈恋爱了",
+      "武汉大学(工学部)",
+      "草莓熊哥哥",
+      "Whuer"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "lucky",
+      "有没有武大或者武汉理工大学的华科180+帅哥",
+      "想谈恋爱了",
+      "武汉大学(工学部)",
+      "草莓熊哥哥",
+      "Whuer"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "屏幕顶部显示时间为17：38，信号为5G，电量33%；界面包含用户昵称“lucky”及兔子头像，正文提及“武大”、“武汉理工大学”、“华科”及“180+帅哥”。",
+    "safe_facts": [
+      "屏幕顶部显示时间为17：38，信号为5G，电量33%。",
+      "界面包含用户昵称“lucky”及兔子头像，正文提及“武大”、“武汉理工大学”、“华科”及“180+帅哥”。",
+      "评论区可见用户“草莓熊哥哥”和“Whuer”的留言，以及作者“lucky”的回复“也行”和“不是的勿扰”。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_d7740039-4ceb-4b08-bd0b-0b8975b0bd7b",
+    "generated_at": "2026-08-12T03:25:50.646295+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "f0cb2a733f8bbb508ad5e04e88d159b41b203f5e3821619d72e5c57960ab2079",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:25:50.647344+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_a78d3ebeb293893a631c4c93",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:25:50.647733+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "e763f13078b2f0762c504f1363f37809df24d214d58df87d95f01614f6b1485b"
+}

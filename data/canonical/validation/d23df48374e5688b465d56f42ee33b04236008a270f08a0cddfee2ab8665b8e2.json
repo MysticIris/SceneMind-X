@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2234.jpg",
+    "relative_path": "val/2234.jpg",
+    "sha256": "d23df48374e5688b465d56f42ee33b04236008a270f08a0cddfee2ab8665b8e2",
+    "split": "val"
+  },
+  "canonical_sha256": "e3e72c488b88e6040f54708180cf6df5b893e994becd310ee5764adcf36ecfc8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "树干",
+      "绿色包裹物",
+      "木棍支撑",
+      "草地"
+    ],
+    "short_description": "一棵被绿色包裹物覆盖的树干，由三根木棍支撑，周围是茂密的草地和树林。",
+    "theme": "树干保护与支撑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "树干被深绿色材料包裹。",
+      "三根木棍从地面斜向支撑树干。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "树干被绿色包裹物覆盖",
+      "木棍支撑架呈三角形",
+      "地面为泥土与草混合"
+    ],
+    "relations": [
+      "木棍支撑架固定在树干底部。",
+      "绿色包裹物缠绕在树干上。"
+    ],
+    "scene": "户外公园或绿地",
+    "subjects": [
+      "树干",
+      "木棍支撑架",
+      "绿色包裹物",
+      "草地",
+      "背景树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "树干被深绿色材料包裹；三根木棍从地面斜向支撑树干。",
+    "safe_facts": [
+      "树干被深绿色材料包裹。",
+      "三根木棍从地面斜向支撑树干。"
+    ]
+  },
+  "label_id": "cpl_ccfc7e0db18b1893df2ff3cf",
+  "provenance": {
+    "generated_at": "2026-08-03T16:17:50.449134+00:00",
+    "migrated_at": "2026-08-03T16:17:50.450814+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ba9e5b37530ec13389827a6924b0a834e63eb9aad9be24687dbcad421eda815f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_cf76deb0332468326cadf010",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:17:50.451024+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_cf76deb0332468326cadf010"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1855.jpg",
+    "relative_path": "train/1855.jpg",
+    "sha256": "dbe6c51e885acc2dcf74ab1946c80b651a794971588d245bd7fe7a2bf6dee516",
+    "split": "train"
+  },
+  "canonical_sha256": "804c5e2b87adeb6ceaa15253cd9b672dc7a4e14699a93c2c2d68d9eacac642f3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "政治宣传",
+      "党群关系",
+      "民族复兴"
+    ],
+    "short_description": "屏幕显示的是一个文档页面，包含标题和正文内容。",
+    "theme": "屏幕内容"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕显示的是一个文档页面，包含标题和正文内容。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "电脑屏幕显示的文档页面",
+    "subjects": [
+      "屏幕内容"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕显示的是一个文档页面，包含标题和正文内容。",
+    "safe_facts": [
+      "屏幕显示的是一个文档页面，包含标题和正文内容。"
+    ]
+  },
+  "label_id": "cpl_9e3264f4cff63e6d6b8f3664",
+  "provenance": {
+    "generated_at": "2026-08-03T15:13:45.849073+00:00",
+    "migrated_at": "2026-08-03T15:13:45.851219+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e2733156461d56a15f03fc99ea9098e713ed5acfa7e4baf6c61200034688b5c3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f6890d56c9777618bd2a976c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:13:45.851894+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:display.theme"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f6890d56c9777618bd2a976c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "(三)党依靠人民群众开创未来",
+      "过去一百年,党向人民、向历史交出了一份优异的答卷。现在,党团结带领中国人民又踏上",
+      "——《中共中央关于党的百年奋斗重大成就和历史经验的决议》(2021 年 11 月",
+      "中华民族伟大复兴的战略全局",
+      "两个大局”同步交织、相互激荡",
+      "世界百年未有之大变局"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "(三)党依靠人民群众开创未来",
+      "过去一百年,党向人民、向历史交出了一份优异的答卷。现在,党团结带领中国人民又踏上",
+      "——《中共中央关于党的百年奋斗重大成就和历史经验的决议》(2021 年 11 月",
+      "中华民族伟大复兴的战略全局",
+      "两个大局”同步交织、相互激荡",
+      "世界百年未有之大变局"
+    ]
+  }
+}

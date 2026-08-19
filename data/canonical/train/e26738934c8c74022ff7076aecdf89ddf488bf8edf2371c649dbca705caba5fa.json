@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1800.jpg",
+    "relative_path": "train/1800.jpg",
+    "sha256": "e26738934c8c74022ff7076aecdf89ddf488bf8edf2371c649dbca705caba5fa",
+    "split": "train"
+  },
+  "canonical_sha256": "16f30880c8b4869099bb24b654750f0d4dea0ed084a34a5e4d68979840e9d7aa",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "彩灯",
+      "树林",
+      "人群"
+    ],
+    "short_description": "夜晚林间树木被彩色灯光照亮，人群聚集观看舞台表演，氛围梦幻而热闹。",
+    "theme": "夜色光影树林"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多棵树木枝干呈深色剪影，树叶被绿色、紫色、黄色灯光照亮。",
+      "树下聚集一群人，面向远处的舞台区域。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "树木被彩色灯光照射",
+      "观众背对镜头站立",
+      "舞台有灯光设备"
+    ],
+    "relations": [
+      "观众位于树木前方。",
+      "舞台位于树木后方。"
+    ],
+    "scene": "户外夜间公园或广场",
+    "subjects": [
+      "树木",
+      "观众",
+      "舞台"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多棵树木枝干呈深色剪影，树叶被绿色、紫色、黄色灯光照亮；树下聚集一群人，面向远处的舞台区域。",
+    "safe_facts": [
+      "多棵树木枝干呈深色剪影，树叶被绿色、紫色、黄色灯光照亮。",
+      "树下聚集一群人，面向远处的舞台区域。"
+    ]
+  },
+  "label_id": "cpl_3789039fecd7585eec392b27",
+  "provenance": {
+    "generated_at": "2026-08-03T15:09:00.402491+00:00",
+    "migrated_at": "2026-08-03T15:09:00.403953+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9a837c185c8255795deb7e3d61e29506ae15e3849c9e548d2185d50eef7f3c97",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5e9184b76034acc33439fee6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:09:00.404158+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5e9184b76034acc33439fee6"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1470.jpg",
+    "relative_path": "train/1470.jpg",
+    "sha256": "5e5884bca73bee17856197cd2bfe7957686a42767d52d64155dacfcb5ca21a00",
+    "split": "train"
+  },
+  "canonical_sha256": "c2146370d332a042599935ececcb2f429e04700c84786ac698b1f8e6f9d1c6c1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "烤串",
+      "香肠",
+      "烤肉",
+      "铝箔纸"
+    ],
+    "short_description": "铝箔纸上摆放着一根香肠和几串烤肉，表面撒有调料，色泽诱人。",
+    "theme": "烤串美食"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有铝箔纸作为背景。",
+      "香肠呈长条状，表面有红色调料颗粒。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "表面有调料",
+      "颜色红润",
+      "被竹签串起"
+    ],
+    "relations": [
+      "香肠与烤肉串并排放在铝箔纸上。"
+    ],
+    "scene": "铝箔纸上的食物",
+    "subjects": [
+      "香肠",
+      "烤肉串"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有铝箔纸作为背景；香肠呈长条状，表面有红色调料颗粒。",
+    "safe_facts": [
+      "画面中有铝箔纸作为背景。",
+      "香肠呈长条状，表面有红色调料颗粒。"
+    ]
+  },
+  "label_id": "cpl_cf68c01b3e4a15ea2aa1713d",
+  "provenance": {
+    "generated_at": "2026-08-02T22:07:28.246029+00:00",
+    "migrated_at": "2026-08-03T07:13:41.501305+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a41216b266ff394f20a44edbef938dcd72b54714e983772a83296dc971ed525c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9a89c697012c688d30386a7f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:27:28.710781+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9a89c697012c688d30386a7f",
+    "cpl_d079b09dc1f39e39310924ed"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "asset_id": "2bff89403ae7efa9",
+  "asset_sha256": "2bff89403ae7efa976fb7f22167d2c92d5d1192b760a442b7572526cfe6ec549",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"Windows磁盘属性界面\",\n    \"short_description\": \"这是一张Windows操作系统中本地磁盘（C:）属性窗口的截图。界面显示该驱动器名为Windows-SSD，文件系统为NTFS，总容量200GB，已用空间约190GB，可用空间仅剩9.50GB，磁盘使用率极高。\",\n    \"micro_tags\": [\n      \"系统截图\",\n      \"磁盘属性\",\n      \"C盘\",\n      \"存储空间\",\n      \"NTFS\",\n      \"Windows界面\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"计算机操作系统图形用户界面\",\n    \"subjects\": [\n      \"磁盘属性对话框\",\n      \"存储空间统计图表\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白色背景窗口\",\n      \"蓝色环形进度图\",\n      \"中文界面文本\",\n      \"选项卡式布局\"\n    ],\n    \"relations\": [\n      \"环形图直观展示了已用空间与可用空间的比例关系\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"窗口标题栏显示“Windows-SSD (C:) 属性”\",\n      \"界面包含“常规”、“工具”、“硬件”等顶部选项卡\",\n      \"数据显示容量为200 GB，可用空间为9.50 GB\",\n      \"底部有一个蓝色的环形图，绝大部分为蓝色（代表已用），极少部分为灰色（代表可用）\",\n      \"勾选了“除了文件属性外，还允许索引此驱动器上文件的内容”选项\"\n    ],\n    \"cautious_inferences\": [\n      \"根据极少的剩余空间判断，该磁盘可能需要进行清理或扩容\",\n      \"驱动器名称包含SSD字样，推测物理介质为固态硬盘\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"Windows-SSD (C:) 属性\",\n      \"常规\",\n      \"工具\",\n      \"硬件\",\n      \"共享\",\n      \"安全\",\n      \"以前的版本\",\n      \"配额\",\n      \"Windows-SSD\",\n      \"类型: 本地磁盘\",\n      \"文件系统: NTFS\",\n      \"已用空间: 204,543,762,432 字节 190 GB\",\n      \"可用空间: 10,205,646,848 字节 9.50 GB\",\n      \"容量: 214,749,409,280 字节 200 GB\",\n      \"驱动器 C:\",\n      \"详细信息(D)\",\n      \"压缩此驱动器以节约磁盘空间(C)\",\n      \"除了文件属性外，还允许索引此驱动器上文件的内容(I)\",\n      \"确定\",\n      \"取消\",\n      \"应用(A)\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张计算机软件界面的截图，展示了一个存储驱动器的属性详情窗口，包含容量数据的文字列表和一个显示占用比例的环形统计图。\",\n    \"safe_facts\": [\n      \"图像为数字屏幕截图\",\n      \"包含典型的窗口控制按钮（关闭、最小化等）\",\n      \"主要视觉元素是一个占据中心位置的环形图表\",\n      \"界面语言为简体中文\"\n    ]\n  }\n}",
+      "input_tokens": 1355,
+      "output_tokens": 814,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 1355,
+        "output_tokens": 814,
+        "total_tokens": 2169,
+        "estimated_cost_cny": 0.009222,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "Windows磁盘属性界面",
+          "short_description": "这是一张Windows操作系统中本地磁盘（C:）属性窗口的截图。界面显示该驱动器名为Windows-SSD，文件系统为NTFS，总容量200GB，已用空间约190GB，可用空间仅剩9.50GB，磁盘使用率极高。",
+          "micro_tags": [
+            "系统截图",
+            "磁盘属性",
+            "C盘",
+            "存储空间",
+            "NTFS",
+            "Windows界面"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "计算机操作系统图形用户界面",
+          "subjects": [
+            "磁盘属性对话框",
+            "存储空间统计图表"
+          ],
+          "actions": [],
+          "attributes": [
+            "白色背景窗口",
+            "蓝色环形进度图",
+            "中文界面文本",
+            "选项卡式布局"
+          ],
+          "relations": [
+            "环形图直观展示了已用空间与可用空间的比例关系"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "窗口标题栏显示“Windows-SSD (C:) 属性”",
+            "界面包含“常规”、“工具”、“硬件”等顶部选项卡",
+            "数据显示容量为200 GB，可用空间为9.50 GB",
+            "底部有一个蓝色的环形图，绝大部分为蓝色（代表已用），极少部分为灰色（代表可用）",
+            "勾选了“除了文件属性外，还允许索引此驱动器上文件的内容”选项"
+          ],
+          "cautious_inferences": [
+            "根据极少的剩余空间判断，该磁盘可能需要进行清理或扩容",
+            "驱动器名称包含SSD字样，推测物理介质为固态硬盘"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "Windows-SSD (C:) 属性",
+            "常规",
+            "工具",
+            "硬件",
+            "共享",
+            "安全",
+            "以前的版本",
+            "配额",
+            "Windows-SSD",
+            "类型: 本地磁盘",
+            "文件系统: NTFS",
+            "已用空间: 204,543,762,432 字节 190 GB",
+            "可用空间: 10,205,646,848 字节 9.50 GB",
+            "容量: 214,749,409,280 字节 200 GB",
+            "驱动器 C:",
+            "详细信息(D)",
+            "压缩此驱动器以节约磁盘空间(C)",
+            "除了文件属性外，还允许索引此驱动器上文件的内容(I)",
+            "确定",
+            "取消",
+            "应用(A)"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张计算机软件界面的截图，展示了一个存储驱动器的属性详情窗口，包含容量数据的文字列表和一个显示占用比例的环形统计图。",
+          "safe_facts": [
+            "图像为数字屏幕截图",
+            "包含典型的窗口控制按钮（关闭、最小化等）",
+            "主要视觉元素是一个占据中心位置的环形图表",
+            "界面语言为简体中文"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 86168,
+        "request_bytes": 61554,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.714705999998841,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "d56508f4e67c44b15b9b615e8370c90289930dc685ce23b52614dd48e7a73fd7"
+}

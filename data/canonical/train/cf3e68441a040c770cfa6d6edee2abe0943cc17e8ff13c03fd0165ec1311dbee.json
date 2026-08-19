@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1869.jpg",
+    "relative_path": "train/1869.jpg",
+    "sha256": "cf3e68441a040c770cfa6d6edee2abe0943cc17e8ff13c03fd0165ec1311dbee",
+    "split": "train"
+  },
+  "canonical_sha256": "a30b09c297f73a1d4d303d573fad1064bf4c00c68040774bdd0a8994d6c246ff",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "清蒸鱼",
+      "红椒丝",
+      "姜丝",
+      "酱汁",
+      "白瓷盘"
+    ],
+    "short_description": "一盘清蒸鱼，鱼身切段，淋酱汁，撒上红椒丝和姜丝，盛放在白色瓷盘中。",
+    "theme": "清蒸鱼配调料"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "鱼被切成数段，摆放在白色盘子中。",
+      "鱼身上覆盖着红色辣椒丝和白色姜丝，周围有深色酱汁。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "鱼身被切段",
+      "鱼头朝向镜头",
+      "酱汁覆盖鱼身",
+      "红椒丝和姜丝撒在鱼身上"
+    ],
+    "relations": [
+      "鱼位于盘中。",
+      "红椒丝和姜丝覆盖在鱼身上。",
+      "酱汁浸润鱼身。"
+    ],
+    "scene": "木质桌面",
+    "subjects": [
+      "清蒸鱼",
+      "白瓷盘",
+      "红椒丝",
+      "姜丝",
+      "酱汁"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "鱼被切成数段，摆放在白色盘子中；鱼身上覆盖着红色辣椒丝和白色姜丝，周围有深色酱汁。",
+    "safe_facts": [
+      "鱼被切成数段，摆放在白色盘子中。",
+      "鱼身上覆盖着红色辣椒丝和白色姜丝，周围有深色酱汁。"
+    ]
+  },
+  "label_id": "cpl_e28477b01f489f47c33bead0",
+  "provenance": {
+    "generated_at": "2026-08-03T15:15:22.379500+00:00",
+    "migrated_at": "2026-08-03T15:15:22.381403+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "13360e568da996390137e6252b48e42d72556b21fabbb69ace20bf2141d0a09e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ab931c0690f58f979509c307",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:15:22.381615+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ab931c0690f58f979509c307"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

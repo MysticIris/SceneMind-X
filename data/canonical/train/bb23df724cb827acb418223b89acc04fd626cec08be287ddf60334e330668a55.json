@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1053.jpg",
+    "relative_path": "train/1053.jpg",
+    "sha256": "bb23df724cb827acb418223b89acc04fd626cec08be287ddf60334e330668a55",
+    "split": "train"
+  },
+  "canonical_sha256": "91caba17e5747afd19d1ec7854ece0f181e32415f56c262e2e112c107ab2b03c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "玉兰花苞",
+      "冬末春初",
+      "枯枝新芽"
+    ],
+    "short_description": "光秃枝头缀满粉红花苞，背景绿植与灰白天空相映，静待绽放。",
+    "theme": "春日花苞"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能处于早春季节。"
+    ],
+    "direct_observations": [
+      "枝条上分布多个粉红色花苞。",
+      "前景有修剪整齐的绿色灌木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "粉红色花苞",
+      "光秃树枝",
+      "绿色灌木",
+      "灰白色天空"
+    ],
+    "relations": [
+      "花苞生长于树枝上。",
+      "灌木位于前景。"
+    ],
+    "scene": "户外园林",
+    "subjects": [
+      "玉兰树",
+      "灌木丛"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能处于早春季节。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "枝条上分布多个粉红色花苞；前景有修剪整齐的绿色灌木。",
+    "safe_facts": [
+      "枝条上分布多个粉红色花苞。",
+      "前景有修剪整齐的绿色灌木。"
+    ]
+  },
+  "label_id": "cpl_4cdf45e76d5056ea4d575810",
+  "provenance": {
+    "generated_at": "2026-08-03T13:29:10.055865+00:00",
+    "migrated_at": "2026-08-03T13:29:10.074497+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8db8bd16cadae10bfbf149a8c01300000a34791ef82aea0fbdf5cf79c262ad9e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c8fdffcd05f700f71b030e2f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:29:10.074838+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c8fdffcd05f700f71b030e2f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

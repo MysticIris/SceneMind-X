@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1272.jpg",
+    "relative_path": "train/1272.jpg",
+    "sha256": "82be53cf808016e56b31f3e1bf3b5cdae1a33ec23b88bf97d757e08bc1a89056",
+    "split": "train"
+  },
+  "canonical_sha256": "9806439041620b2c16df4889d75bb6f8bf988019a7250648ce0a8b3a4563f072",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "城市街道",
+      "车辆行驶"
+    ],
+    "short_description": "夜晚的城市街道，车辆行驶，路面湿润反光，路灯与车灯交织，远处建筑轮廓清晰。",
+    "theme": "夜间城市街景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能刚下过雨或有雾气。"
+    ],
+    "direct_observations": [
+      "路面有水渍反光。",
+      "交通信号灯显示绿色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行驶",
+      "停放"
+    ],
+    "attributes": [
+      "湿润路面",
+      "灯光照明",
+      "多层建筑"
+    ],
+    "relations": [
+      "车辆在道路上行驶。",
+      "路灯照亮街道。",
+      "交通信号灯显示绿色。"
+    ],
+    "scene": "城市街道夜景",
+    "subjects": [
+      "车辆",
+      "路灯",
+      "建筑物",
+      "交通信号灯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能刚下过雨或有雾气。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "路面有水渍反光；交通信号灯显示绿色。",
+    "safe_facts": [
+      "路面有水渍反光。",
+      "交通信号灯显示绿色。"
+    ]
+  },
+  "label_id": "cpl_f0a5dd766a7a1a15154eae63",
+  "provenance": {
+    "generated_at": "2026-08-03T14:01:03.741481+00:00",
+    "migrated_at": "2026-08-03T14:01:03.745587+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e6f359816f1f2fc67ff6f7455b2b92042a6e858aac6181fd72d21cda5fc789d2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9cb733270316906683e8a4c5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:01:03.745915+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9cb733270316906683e8a4c5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

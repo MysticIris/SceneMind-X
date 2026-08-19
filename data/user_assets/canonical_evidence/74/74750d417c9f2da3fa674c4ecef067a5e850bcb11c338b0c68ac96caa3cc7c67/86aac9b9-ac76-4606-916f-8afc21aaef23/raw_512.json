@@ -1,0 +1,66 @@
+{
+  "asset_id": "74750d417c9f2da3",
+  "asset_sha256": "74750d417c9f2da3fa674c4ecef067a5e850bcb11c338b0c68ac96caa3cc7c67",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"数字电路仿真波形图\",\n    \"short_description\": \"这是一张电子设计自动化（EDA）软件的界面截图，展示了名为 counter74HC161 的数字逻辑电路仿真结果。黑色背景上显示了多个信号（如 cp, cr_n, q[3:0]）随时间变化的绿色波形，左侧列出了信号名称及其当前数值，顶部有以纳秒为单位的时间轴。\",\n    \"micro_tags\": [\n      \"EDA软件\",\n      \"波形仿真\",\n      \"数字逻辑\",\n      \"74HC161\",\n      \"时序图\",\n      \"Verilog\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"计算机屏幕上的工程软件界面\",\n    \"subjects\": [\n      \"信号波形图\",\n      \"变量列表\",\n      \"时间轴刻度\",\n      \"软件工具栏\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"黑底绿线\",\n      \"方波信号\",\n      \"十六进制数值显示\",\n      \"网格线\"\n    ],\n    \"relations\": [\n      \"左侧列表与右侧波形一一对应\",\n      \"波形随顶部时间轴向右延伸\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"界面顶部标签页显示文件名 'counter74HC161_tb.v' 和 'counter74HC161.v'。\",\n      \"左侧变量栏包含 'cep', 'cet', 'pe_n', 'cp', 'cr_n', 'd[3:0]', 'tc', 'q[3:0]' 等信号名。\",\n      \"主视图为黑色背景，绘制了绿色的数字信号波形，呈现高低电平跳变。\",\n      \"顶部横轴标记了从 0 ns 到 900 ns 的时间刻度。\",\n      \"信号 'q[3:0]' 的波形下方标注了 'x', '0', 'c', 'd', 'e', 'f', '0', '1' 等十六进制状态值。\"\n    ],\n    \"cautious_inferences\": [\n      \"这看起来是一个用于验证计数器芯片（74HC161）功能的测试平台（Testbench）仿真结果。\",\n      \"软件可能是 ModelSim、Vivado 或类似的 FPGA/ASIC 仿真工具。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的仿真软件品牌及版本。\",\n      \"无法确认波形背后的具体代码逻辑细节。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"counter74HC161_tb.v\",\n      \"counter74HC161.v\",\n      \"Untitled 2\",\n      \"Name\",\n      \"Value\",\n      \"cep\",\n      \"cet\",\n      \"pe_n\",\n      \"cp\",\n      \"cr_n\",\n      \"d[3:0]\",\n      \"tc\",\n      \"q[3:0]\",\n      \"0 ns\",\n      \"100 ns\",\n      \"200 ns\",\n      \"999.982 ns\",\n      \"x 0",
+      "input_tokens": 2262,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 2262,
+        "output_tokens": 768,
+        "total_tokens": 3030,
+        "estimated_cost_cny": 0.010668,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "数字电路仿真波形图",
+        "short_description": "这是一张电子设计自动化（EDA）软件的界面截图，展示了名为 counter74HC161 的数字逻辑电路仿真结果。黑色背景上显示了多个信号（如 cp, cr_n, q[3:0]）随时间变化的绿色波形，左侧列出了信号名称及其当前数值，顶部有以纳秒为单位的时间轴。",
+        "micro_tags": [
+          "EDA软件",
+          "波形仿真",
+          "数字逻辑",
+          "74HC161",
+          "时序图",
+          "Verilog"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 51624,
+        "request_bytes": 35644,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.10403220000444,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "b36a0fe7f88c2fb0238b3d6e1417e21052e7c8499e1d39e4b294b297f62a2536"
+}

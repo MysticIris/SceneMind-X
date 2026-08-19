@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:683.jpg",
+    "relative_path": "train/683.jpg",
+    "sha256": "5b133f8ee1b04d5cf29103ee27bbed0d209c9517d44c545621624f9760f399c1",
+    "split": "train"
+  },
+  "canonical_sha256": "61bc1b475c8ea39220488a2b39fb32802798756b975a1e4f9b9b5bf8d27ff7ca",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "街道",
+      "运动模糊"
+    ],
+    "short_description": "夜晚城市街道，一辆白色轿车停在路边，背景有灯光招牌和树木，画面因运动模糊而失焦。",
+    "theme": "夜间街景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现明显的横向运动模糊效果。",
+      "前景有一辆白色轿车，车身部分可见。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "运动模糊",
+      "白色",
+      "停放"
+    ],
+    "relations": [
+      "轿车位于街道上。",
+      "树木位于街道旁。"
+    ],
+    "scene": "城市街道夜景",
+    "subjects": [
+      "白色轿车",
+      "树木",
+      "路灯",
+      "店铺招牌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现明显的横向运动模糊效果；前景有一辆白色轿车，车身部分可见。",
+    "safe_facts": [
+      "画面呈现明显的横向运动模糊效果。",
+      "前景有一辆白色轿车，车身部分可见。"
+    ]
+  },
+  "label_id": "cpl_0c94af6e17caf3ac72f8309f",
+  "provenance": {
+    "generated_at": "2026-08-03T11:59:33.328829+00:00",
+    "migrated_at": "2026-08-03T11:59:33.331517+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a1bfb8d950575b53f0c4649353615df215723739063afda35e3cb20cf1632234",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6c0c08f0a5e02531f408856a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:59:33.331853+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6c0c08f0a5e02531f408856a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

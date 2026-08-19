@@ -1,0 +1,219 @@
+{
+  "$defs": {
+    "Rc4TextPresence": {
+      "enum": [
+        "present",
+        "absent",
+        "uncertain"
+      ],
+      "title": "Rc4TextPresence",
+      "type": "string"
+    },
+    "Rc4TextReliability": {
+      "enum": [
+        "verified",
+        "likely",
+        "uncertain",
+        "low",
+        "unreadable",
+        "none"
+      ],
+      "title": "Rc4TextReliability",
+      "type": "string"
+    },
+    "Rc4TextRole": {
+      "enum": [
+        "decision_critical",
+        "contextual",
+        "decorative",
+        "incidental",
+        "mixed",
+        "none",
+        "uncertain"
+      ],
+      "title": "Rc4TextRole",
+      "type": "string"
+    },
+    "Rc4VisualMedium": {
+      "enum": [
+        "real_world_photo",
+        "screenshot",
+        "presentation_slide",
+        "meme_or_reaction_image",
+        "poster_or_advertisement",
+        "document_or_paper",
+        "webpage_or_user_interface",
+        "chat_screenshot",
+        "chart_or_infographic",
+        "illustration_or_comic",
+        "packaging",
+        "photographed_screen_content",
+        "mixed",
+        "uncertain"
+      ],
+      "title": "Rc4VisualMedium",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "description": "The model-owned payload: flat primitives and string arrays only.",
+  "properties": {
+    "visual_medium": {
+      "$ref": "#/$defs/Rc4VisualMedium"
+    },
+    "depicted_content": {
+      "anyOf": [
+        {
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Depicted Content"
+    },
+    "scene_summary": {
+      "maxLength": 256,
+      "minLength": 1,
+      "title": "Scene Summary",
+      "type": "string"
+    },
+    "subjects": {
+      "items": {
+        "maxLength": 96,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 12,
+      "title": "Subjects",
+      "type": "array"
+    },
+    "activities": {
+      "items": {
+        "maxLength": 96,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 8,
+      "title": "Activities",
+      "type": "array"
+    },
+    "relationships": {
+      "items": {
+        "maxLength": 96,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 12,
+      "title": "Relationships",
+      "type": "array"
+    },
+    "text_presence": {
+      "$ref": "#/$defs/Rc4TextPresence"
+    },
+    "text_role": {
+      "$ref": "#/$defs/Rc4TextRole"
+    },
+    "text_reliability": {
+      "$ref": "#/$defs/Rc4TextReliability"
+    },
+    "visible_text_candidates": {
+      "items": {
+        "maxLength": 256,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 8,
+      "title": "Visible Text Candidates",
+      "type": "array"
+    },
+    "selected_text": {
+      "anyOf": [
+        {
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Selected Text"
+    },
+    "text_summary": {
+      "anyOf": [
+        {
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Text Summary"
+    },
+    "text_uncertainty": {
+      "anyOf": [
+        {
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Text Uncertainty"
+    },
+    "observations": {
+      "items": {
+        "maxLength": 256,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 12,
+      "minItems": 1,
+      "title": "Observations",
+      "type": "array"
+    },
+    "inference_candidates": {
+      "items": {
+        "maxLength": 256,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 8,
+      "title": "Inference Candidates",
+      "type": "array"
+    },
+    "uncertainties": {
+      "items": {
+        "maxLength": 256,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 8,
+      "title": "Uncertainties",
+      "type": "array"
+    }
+  },
+  "required": [
+    "visual_medium",
+    "scene_summary",
+    "text_presence",
+    "text_role",
+    "text_reliability",
+    "observations"
+  ],
+  "title": "Rc4ModelPayload",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "phase2a_rc4_flat_model_payload_v1"
+}

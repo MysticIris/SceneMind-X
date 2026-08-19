@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2107.jpg",
+    "relative_path": "val/2107.jpg",
+    "sha256": "41ea8a3211444802d8cbfc8896ec11cbf16fbec1ae3486795499e1a6ad8f9531",
+    "split": "val"
+  },
+  "canonical_sha256": "4560a7a836fc15585e65ec395e6494bce3af7a17ecec756f350b4950f2a77e4b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "写作技巧",
+      "指导清单"
+    ],
+    "short_description": "一张显示写作技巧指导列表的屏幕截图。",
+    "theme": "写作技巧指南"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像为数字屏幕截图。",
+      "画面中包含编号列表。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "浅灰色背景"
+    ],
+    "relations": [],
+    "scene": "屏幕截图",
+    "subjects": [],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像为数字屏幕截图；画面中包含编号列表。",
+    "safe_facts": [
+      "图像为数字屏幕截图。",
+      "画面中包含编号列表。"
+    ]
+  },
+  "label_id": "cpl_310ee8c598f3ee0cb1ab83a3",
+  "provenance": {
+    "generated_at": "2026-08-03T16:00:16.030527+00:00",
+    "migrated_at": "2026-08-03T16:00:16.032817+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "73437e9ef398fd93aac94b8e57b20c9a70c929fef2b0a2d8e1cde077dd89990c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6b09e3fd10f49cb14aa0aec2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:00:16.033462+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_subjects_empty",
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6b09e3fd10f49cb14aa0aec2"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Eight guidelines for improving your writ",
+      "1. Make a plan/outline",
+      "2. Use a clean and legible layout",
+      "3. Use paragraphs",
+      "4. Write simple sentences",
+      "5. Write positive sentences"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Eight guidelines for improving your writ",
+      "1. Make a plan/outline",
+      "2. Use a clean and legible layout",
+      "3. Use paragraphs",
+      "4. Write simple sentences",
+      "5. Write positive sentences"
+    ]
+  }
+}

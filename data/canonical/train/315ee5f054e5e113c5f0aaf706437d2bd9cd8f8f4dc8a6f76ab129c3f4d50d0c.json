@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:288.jpg",
+    "relative_path": "train/288.jpg",
+    "sha256": "315ee5f054e5e113c5f0aaf706437d2bd9cd8f8f4dc8a6f76ab129c3f4d50d0c",
+    "split": "train"
+  },
+  "canonical_sha256": "b3261c3f48338047d6095e3bb6808ccf8740bd1faa470cc8be29528cec348329",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "寺庙",
+      "石狮",
+      "飞檐",
+      "台阶"
+    ],
+    "short_description": "一座传统中式寺庙入口，门前有石狮和台阶，屋檐飞翘，背景现代高楼。",
+    "theme": "古寺门前石狮"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央是一座具有传统中式风格的寺庙建筑，屋顶为多层飞檐结构。",
+      "寺庙门前台阶两侧各有一尊石雕狮子。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "多层飞檐",
+      "木结构",
+      "雕花门窗",
+      "黄色墙体"
+    ],
+    "relations": [
+      "石狮位于台阶两侧。",
+      "寺庙建筑位于现代高楼前方。"
+    ],
+    "scene": "城市中的一座传统寺庙建筑入口",
+    "subjects": [
+      "寺庙建筑",
+      "石狮子",
+      "台阶",
+      "现代高楼"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是一座具有传统中式风格的寺庙建筑，屋顶为多层飞檐结构；寺庙门前台阶两侧各有一尊石雕狮子。",
+    "safe_facts": [
+      "画面中央是一座具有传统中式风格的寺庙建筑，屋顶为多层飞檐结构。",
+      "寺庙门前台阶两侧各有一尊石雕狮子。"
+    ]
+  },
+  "label_id": "cpl_8a68ed8214cea2c7d4fb54d7",
+  "provenance": {
+    "generated_at": "2026-08-03T10:32:43.065016+00:00",
+    "migrated_at": "2026-08-03T10:32:43.067205+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ff5342baa47df727441094f6540a6f4be56dc0ca44ab7dddcbbece7c80286777",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_945f639d8f43b81b7df1624d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:32:43.067423+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_945f639d8f43b81b7df1624d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

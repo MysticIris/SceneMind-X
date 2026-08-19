@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1092.jpg",
+    "relative_path": "train/1092.jpg",
+    "sha256": "38f0a5a9d8e7cd815aad5cedf20a214a46a40612b1389f53a17444078a0addbb",
+    "split": "train"
+  },
+  "canonical_sha256": "8d63d4bc904f63b8f218d310c3b51088e0974b666b2a8059e2a73def7bcbdaf3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "橘猫",
+      "人行道",
+      "自行车",
+      "户外"
+    ],
+    "short_description": "一只橘白相间的猫坐在人行道上，背对镜头，前方有行人和停放的自行车。",
+    "theme": "街边橘猫静坐"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一只橘白相间的猫坐在人行道砖块上，背对镜头。",
+      "人行道左侧停放着多辆自行车，其中一辆黑色自行车车轮有蓝色装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "橘白相间",
+      "坐着",
+      "背对镜头",
+      "砖砌路面"
+    ],
+    "relations": [
+      "猫位于人行道中央。",
+      "行人位于猫前方远处。",
+      "自行车停放在猫左侧。"
+    ],
+    "scene": "铺有砖块的人行道旁",
+    "subjects": [
+      "一只猫",
+      "行人",
+      "自行车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只橘白相间的猫坐在人行道砖块上，背对镜头；人行道左侧停放着多辆自行车，其中一辆黑色自行车车轮有蓝色装饰。",
+    "safe_facts": [
+      "一只橘白相间的猫坐在人行道砖块上，背对镜头。",
+      "人行道左侧停放着多辆自行车，其中一辆黑色自行车车轮有蓝色装饰。"
+    ]
+  },
+  "label_id": "cpl_2a7e71a27dd96b5716950967",
+  "provenance": {
+    "generated_at": "2026-08-03T13:34:39.911308+00:00",
+    "migrated_at": "2026-08-03T13:34:39.915010+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5238ebc89d39fd7dba4d11626f4a91fb50fcd856f3db2bbbb095190c7c3e5209",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ac83454ab7ac6498b4d3ed2b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:34:39.915371+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ac83454ab7ac6498b4d3ed2b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:594.jpg",
+    "relative_path": "train/594.jpg",
+    "sha256": "1dc71a5f09527369d8bb9fd96e53efdb5df936b615da45ebfe286528662a086e",
+    "split": "train"
+  },
+  "canonical_sha256": "ab2796a97db817b73de1a2f5cebfa0436bf87b0c089d3964ee0d6964160e26ca",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古建筑",
+      "游客",
+      "石阶",
+      "阴天"
+    ],
+    "short_description": "阴天背景下，一座多层传统中式楼阁矗立于石阶之上，众多游客在台阶和平台间活动，前景有红色装饰性屏风。",
+    "theme": "古建筑群前游客聚集"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "建筑风格为中国古典样式，可能为寺庙或观景楼。"
+    ],
+    "direct_observations": [
+      "画面中有多层重檐式传统建筑。",
+      "大量人群分布在建筑前的台阶和平台上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "行走",
+      "拍照"
+    ],
+    "attributes": [
+      "多层结构",
+      "红色墙体",
+      "绿色屋檐",
+      "灰色天空"
+    ],
+    "relations": [
+      "游客位于楼阁前方。",
+      "楼阁建于石阶之上。",
+      "屏风置于前景。"
+    ],
+    "scene": "户外旅游景点",
+    "subjects": [
+      "游客",
+      "多层楼阁",
+      "石阶",
+      "装饰屏风"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "建筑风格为中国古典样式，可能为寺庙或观景楼。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多层重檐式传统建筑；大量人群分布在建筑前的台阶和平台上。",
+    "safe_facts": [
+      "画面中有多层重檐式传统建筑。",
+      "大量人群分布在建筑前的台阶和平台上。"
+    ]
+  },
+  "label_id": "cpl_40f8b56bade4e4577cc299ad",
+  "provenance": {
+    "generated_at": "2026-08-03T11:40:42.473319+00:00",
+    "migrated_at": "2026-08-03T11:40:42.475019+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "619a0f512d7dc0b9c405d8e6ac165e49c7b63d33bb6c5d01924bedf63f411fa3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_24dd634d2c6b3720a20f0045",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:40:42.475239+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_24dd634d2c6b3720a20f0045"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

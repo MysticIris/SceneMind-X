@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1084.jpg",
+    "relative_path": "train/1084.jpg",
+    "sha256": "fb7bd28b8bb994d6cac7e4d528e760a3cf6456ffa0c39d77d8897d25c3890c95",
+    "split": "train"
+  },
+  "canonical_sha256": "67f06a4303293c6103f3a8436940abc04feb190d635c3a8c284b3eb67fb2cf2c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "秋日",
+      "石径",
+      "落叶",
+      "栏杆"
+    ],
+    "short_description": "一条铺满落叶的石板小径，两侧是深色栏杆和金黄树木，尽头通向台阶，阳光透过枝叶洒下斑驳光影。",
+    "theme": "秋日石径"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线从树冠间投射，在地面上形成斑驳影子。"
+    ],
+    "direct_observations": [
+      "地面铺满黄色落叶。",
+      "小径两侧设有深色金属栏杆。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "铺满落叶",
+      "金黄色树叶",
+      "深色栏杆",
+      "石阶",
+      "光影斑驳"
+    ],
+    "relations": [
+      "石板路两侧有栏杆。",
+      "落叶覆盖地面。",
+      "树木位于小径上方。"
+    ],
+    "scene": "户外石板小径",
+    "subjects": [
+      "石板路",
+      "落叶",
+      "栏杆",
+      "树木",
+      "台阶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线从树冠间投射，在地面上形成斑驳影子。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面铺满黄色落叶；小径两侧设有深色金属栏杆。",
+    "safe_facts": [
+      "地面铺满黄色落叶。",
+      "小径两侧设有深色金属栏杆。"
+    ]
+  },
+  "label_id": "cpl_2fb60a6f10a8678fc3113b0b",
+  "provenance": {
+    "generated_at": "2026-08-03T13:33:28.820183+00:00",
+    "migrated_at": "2026-08-03T13:33:28.822766+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "096321afb3e3b35e29c0152524e1e3836917481537cca5ec6929a31ab2642b45",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1213d2ef0134e96a189300a7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:33:28.823106+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1213d2ef0134e96a189300a7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

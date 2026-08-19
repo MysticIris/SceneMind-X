@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:421.jpg",
+    "relative_path": "train/421.jpg",
+    "sha256": "5f64e9ee9f03473d7b8432f4ad990a343a8b75327e9620d335f9c02b0ada31ae",
+    "split": "train"
+  },
+  "canonical_sha256": "e75d4b19970147bf370c533abc65ae5b2eb91218b3613e2035a56b0d2839b67b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "室内",
+      "卡座",
+      "绿植",
+      "多人"
+    ],
+    "short_description": "现代风格室内空间，多人坐在棕色沙发卡座上，上方有绿植装饰，背景可见玻璃幕墙和走廊。",
+    "theme": "室内休闲区"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多个座位，部分有人就坐。",
+      "卡座上方有绿色植物悬挂。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "现代设计",
+      "棕色皮质沙发",
+      "白色天花板",
+      "黑色金属框架"
+    ],
+    "relations": [
+      "绿植位于卡座上方。",
+      "卡座位于地面。",
+      "玻璃幕墙在背景。"
+    ],
+    "scene": "室内公共区域",
+    "subjects": [
+      "多人",
+      "绿植",
+      "卡座",
+      "玻璃幕墙"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个座位，部分有人就坐；卡座上方有绿色植物悬挂。",
+    "safe_facts": [
+      "画面中有多个座位，部分有人就坐。",
+      "卡座上方有绿色植物悬挂。"
+    ]
+  },
+  "label_id": "cpl_8c3c2766ae5a0d8ae05c5eeb",
+  "provenance": {
+    "generated_at": "2026-08-03T10:59:52.993509+00:00",
+    "migrated_at": "2026-08-03T10:59:52.994959+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b08bb3040295388b95a48a633b53d880d6fa767f50137d7bb9acf89be6b2d6ec",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2f5b0cce744752b42b352875",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:59:52.995158+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2f5b0cce744752b42b352875"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

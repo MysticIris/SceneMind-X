@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1480.jpg",
+    "relative_path": "train/1480.jpg",
+    "sha256": "0e613f0257df019fcd6c3db489575d19313e993934b365d90d6f72c03ce1de00",
+    "split": "train"
+  },
+  "canonical_sha256": "c2d76474b85240e9799505891e321c2f96a780436ad74e41d96eb63be8752a0c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "樱花",
+      "蓝天",
+      "春日",
+      "花枝"
+    ],
+    "short_description": "蓝天背景下，一枝绽放的淡粉色花朵，花瓣轻盈，枝条舒展，绿叶点缀其间，充满生机。",
+    "theme": "春日花枝"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "花朵可能属于早春开花植物。"
+    ],
+    "direct_observations": [
+      "画面中可见多朵淡粉色五瓣小花。",
+      "枝条呈深褐色，带有少量绿色叶片。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "淡粉色",
+      "盛开",
+      "蓝天背景",
+      "绿色叶片"
+    ],
+    "relations": [
+      "花朵生长于枝条上。",
+      "叶片附着于枝条。"
+    ],
+    "scene": "晴朗天空下的植物枝条",
+    "subjects": [
+      "花枝",
+      "花朵",
+      "叶片"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "花朵可能属于早春开花植物。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见多朵淡粉色五瓣小花；枝条呈深褐色，带有少量绿色叶片。",
+    "safe_facts": [
+      "画面中可见多朵淡粉色五瓣小花。",
+      "枝条呈深褐色，带有少量绿色叶片。"
+    ]
+  },
+  "label_id": "cpl_99ce7f860c6b80b69affec86",
+  "provenance": {
+    "generated_at": "2026-08-03T14:28:45.070805+00:00",
+    "migrated_at": "2026-08-03T14:28:45.076626+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "79274b86546f06bbd580c25ca2966560c52a45cd71d5a39e7efebb22ae903eb0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b14415c4d57cfb4ddb8d1dae",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:28:45.076992+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b14415c4d57cfb4ddb8d1dae"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

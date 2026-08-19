@@ -1,0 +1,136 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_fbc77efa019210c9c21d2b8a",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_64ca615b08344afc05f329ef"
+  ],
+  "asset": {
+    "asset_id": "3aa10f4171d0565d",
+    "sha256": "3aa10f4171d0565d7a110b8bf6c3c68a82dbdc53ca740052b8458879131a1a27",
+    "split": "user_custom",
+    "relative_path": "user_assets/3a/3aa10f4171d0565d7a110b8bf6c3c68a82dbdc53ca740052b8458879131a1a27/3aa10f4171d0565d7a110b8bf6c3c68a82dbdc53ca740052b8458879131a1a27.png"
+  },
+  "display": {
+    "theme": "社交媒体青春随笔截图",
+    "short_description": "这是一张社交媒体平台的帖子详情页截图。",
+    "micro_tags": [
+      "手机截图",
+      "社交动态",
+      "青春回忆",
+      "评论区",
+      "UI界面"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "移动端应用程序界面",
+    "subjects": [
+      "文本段落",
+      "用户头像",
+      "交互图标",
+      "状态栏"
+    ],
+    "actions": [],
+    "attributes": [
+      "白底黑字",
+      "竖屏构图",
+      "列表布局"
+    ],
+    "relations": [
+      "文本位于头像右侧及下方。",
+      "互动数据位于文本底部。",
+      "评论列表位于互动区下方。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "图片顶部显示时间01：51及电池电量87%的状态栏信息。",
+      "主体区域包含大段中文叙事文本，排版整齐。",
+      "文本下方可见心形点赞图标、气泡评论图标及对应的数字统计。",
+      "底部有输入框提示语及发送按钮图标。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "或许十七岁所感受到的一切都具有滞后性",
+      "雨或许是一台时光机",
+      "5103",
+      "1069"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "或许十七岁所感受到的一切都具有滞后性",
+      "雨或许是一台时光机",
+      "5103",
+      "1069"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "图片顶部显示时间01：51及电池电量87%的状态栏信息；主体区域包含大段中文叙事文本，排版整齐。",
+    "safe_facts": [
+      "图片顶部显示时间01：51及电池电量87%的状态栏信息。",
+      "主体区域包含大段中文叙事文本，排版整齐。",
+      "文本下方可见心形点赞图标、气泡评论图标及对应的数字统计。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_744dcc79-810e-4485-8548-e0a5c3d17cc7",
+    "generated_at": "2026-08-12T03:13:12.579269+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "2154dd1cbe4a95ca2f1dea1e257e2ac66b290853b0f13857d1dc0eb494f94b61",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:13:12.580288+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_64ca615b08344afc05f329ef",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:13:12.580637+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "cf1d35e392bf774c11fe13ac29ff2f15cbb5e23ac0ed00d834c00daf704a79e5"
+}

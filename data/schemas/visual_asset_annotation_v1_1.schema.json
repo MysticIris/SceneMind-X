@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scenemind-x.local/schemas/visual-asset-annotation-v1-1.schema.json",
+  "title": "SceneMind-X visual asset annotation v1.1 draft",
+  "description": "Compatible evolution draft for complex real-world scenes. The frozen v1 schema remains unchanged.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "image_id", "source_split", "source_hash", "model",
+    "prompt_version", "generation_config", "created_at", "concise_caption",
+    "detailed_caption", "scene_type", "environment", "main_subjects",
+    "activities", "visual_style", "image_quality", "image_characteristics",
+    "entities", "relationships", "ocr", "evidence", "claims",
+    "scene_hypotheses", "uncertainty", "downstream", "provenance"
+  ],
+  "properties": {
+    "schema_version": {"const": "visual_asset_annotation_v1_1"},
+    "image_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"},
+    "source_split": {"enum": ["train", "val"]},
+    "source_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "model": {"$ref": "#/$defs/model"},
+    "prompt_version": {"type": "string", "pattern": "^P[0-9]+(?:\\.[0-9]+)?$"},
+    "generation_config": {"$ref": "#/$defs/generation_config"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "concise_caption": {"type": "string", "minLength": 1},
+    "detailed_caption": {"type": "string", "minLength": 1},
+    "scene_type": {"type": ["string", "null"]},
+    "environment": {"type": ["string", "null"]},
+    "main_subjects": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "activities": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "visual_style": {"type": ["string", "null"]},
+    "image_quality": {
+      "type": "object", "additionalProperties": false,
+      "required": ["overall", "issues"],
+      "properties": {
+        "overall": {"enum": ["high", "medium", "low", "unknown"]},
+        "issues": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true}
+      }
+    },
+    "image_characteristics": {"$ref": "#/$defs/image_characteristics"},
+    "entities": {"type": "array", "items": {"$ref": "#/$defs/entity"}},
+    "relationships": {"type": "array", "items": {"$ref": "#/$defs/relationship"}},
+    "ocr": {"type": "array", "items": {"$ref": "#/$defs/ocr_item"}},
+    "evidence": {
+      "type": "object", "additionalProperties": false,
+      "required": ["directly_observed", "reasonable_inference", "external_common_knowledge"],
+      "properties": {
+        "directly_observed": {"type": "array", "items": {"$ref": "#/$defs/legacy_claim"}},
+        "reasonable_inference": {"type": "array", "items": {"$ref": "#/$defs/legacy_claim"}},
+        "external_common_knowledge": {"type": "array", "items": {"$ref": "#/$defs/legacy_claim"}}
+      }
+    },
+    "claims": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+    "scene_hypotheses": {"type": "array", "items": {"$ref": "#/$defs/scene_hypothesis"}},
+    "uncertainty": {
+      "type": "object", "additionalProperties": false,
+      "required": ["uncertain_claims", "ambiguity", "missing_information", "abstention_reason"],
+      "properties": {
+        "uncertain_claims": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "ambiguity": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "missing_information": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "abstention_reason": {"type": ["string", "null"]}
+      }
+    },
+    "downstream": {
+      "type": "object", "additionalProperties": false,
+      "required": ["retrieval_tags", "candidate_questions", "candidate_answers", "evidence_refs", "safety_or_privacy_flags"],
+      "properties": {
+        "retrieval_tags": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "candidate_questions": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "candidate_answers": {"type": "array", "items": {"$ref": "#/$defs/candidate_answer"}},
+        "evidence_refs": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "safety_or_privacy_flags": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true}
+      }
+    },
+    "provenance": {
+      "type": "object", "additionalProperties": false,
+      "required": ["assembly_version", "field_sources"],
+      "properties": {
+        "assembly_version": {"type": "string", "minLength": 1},
+        "field_sources": {"type": "object", "additionalProperties": {"type": "string", "minLength": 1}}
+      }
+    }
+  },
+  "$defs": {
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "model": {
+      "type": "object", "additionalProperties": false,
+      "required": ["name", "version", "path", "license"],
+      "properties": {
+        "name": {"type": ["string", "null"]}, "version": {"type": ["string", "null"]},
+        "path": {"type": ["string", "null"]}, "license": {"type": ["string", "null"]}
+      }
+    },
+    "generation_config": {
+      "type": "object", "additionalProperties": false,
+      "required": ["seed", "temperature", "top_p", "max_tokens"],
+      "properties": {
+        "seed": {"type": "integer"}, "temperature": {"type": "number", "minimum": 0},
+        "top_p": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+        "max_tokens": {"type": "integer", "minimum": 1}, "do_sample": {"type": "boolean"}
+      }
+    },
+    "position": {
+      "type": ["object", "null"], "additionalProperties": false,
+      "required": ["description", "bbox"],
+      "properties": {
+        "description": {"type": ["string", "null"]},
+        "bbox": {"type": ["array", "null"], "minItems": 4, "maxItems": 4, "items": {"type": "number", "minimum": 0, "maximum": 1}}
+      }
+    },
+    "image_characteristics": {
+      "type": "object", "additionalProperties": false,
+      "required": ["capture_style", "scene_complexity", "text_density", "object_clutter", "small_object_level", "occlusion_level", "motion_blur", "defocus_blur", "reflection", "glare", "ghosting", "low_light", "compression_artifact"],
+      "properties": {
+        "capture_style": {"enum": ["casual_snapshot", "staged", "screen_capture", "scanned_or_printed", "unknown"]},
+        "scene_complexity": {"enum": ["simple", "moderate", "complex", "unknown"]},
+        "text_density": {"enum": ["none", "low", "medium", "high", "unknown"]},
+        "object_clutter": {"enum": ["none", "low", "medium", "high", "unknown"]},
+        "small_object_level": {"enum": ["none", "low", "medium", "high", "unknown"]},
+        "occlusion_level": {"enum": ["none", "low", "medium", "high", "unknown"]},
+        "motion_blur": {"type": "boolean"}, "defocus_blur": {"type": "boolean"},
+        "reflection": {"type": "boolean"}, "glare": {"type": "boolean"},
+        "ghosting": {"type": "boolean"}, "low_light": {"type": "boolean"},
+        "compression_artifact": {"type": "boolean"}
+      }
+    },
+    "entity": {
+      "type": "object", "additionalProperties": false,
+      "required": ["entity_id", "category", "attributes", "approximate_count", "position", "salience", "confidence", "visual_presence_type", "presence_confidence", "alternative_presence_types", "presence_evidence_refs"],
+      "properties": {
+        "entity_id": {"type": "string", "pattern": "^e[0-9]+$"}, "category": {"type": "string", "minLength": 1},
+        "attributes": {"type": "object", "additionalProperties": {"type": ["string", "number", "boolean", "null", "array"]}},
+        "approximate_count": {"type": ["integer", "null"], "minimum": 0}, "position": {"$ref": "#/$defs/position"},
+        "salience": {"enum": ["high", "medium", "low", "unknown"]}, "confidence": {"$ref": "#/$defs/confidence"},
+        "visual_presence_type": {"enum": ["direct_object", "reflection", "shadow", "motion_ghost", "screen_content", "printed_image", "uncertain"]},
+        "presence_confidence": {"$ref": "#/$defs/confidence"},
+        "alternative_presence_types": {"type": "array", "items": {"enum": ["direct_object", "reflection", "shadow", "motion_ghost", "screen_content", "printed_image", "uncertain"]}, "uniqueItems": true},
+        "presence_evidence_refs": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true}
+      }
+    },
+    "relationship": {
+      "type": "object", "additionalProperties": false,
+      "required": ["subject", "predicate", "object", "spatial_relation", "confidence", "evidence_refs"],
+      "properties": {
+        "subject": {"type": "string", "pattern": "^e[0-9]+$"}, "predicate": {"type": "string", "minLength": 1},
+        "object": {"type": "string", "pattern": "^e[0-9]+$"}, "spatial_relation": {"type": ["string", "null"]},
+        "confidence": {"$ref": "#/$defs/confidence"}, "evidence_refs": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true}
+      }
+    },
+    "ocr_item": {
+      "type": "object", "additionalProperties": false,
+      "required": ["text_region_id", "language", "script_type", "legibility", "ocr_candidates", "selected_text", "confidence", "used_for_scene_inference", "uncertainty_reason", "evidence_region"],
+      "properties": {
+        "text_region_id": {"type": "string", "pattern": "^t[0-9]+$"}, "language": {"type": ["string", "null"]},
+        "script_type": {"enum": ["printed", "handwritten", "artistic", "mixed", "unknown"]},
+        "legibility": {"enum": ["high", "medium", "low", "unreadable"]},
+        "ocr_candidates": {"type": "array", "items": {"type": "string"}}, "selected_text": {"type": ["string", "null"]},
+        "confidence": {"$ref": "#/$defs/confidence"}, "used_for_scene_inference": {"type": "boolean"},
+        "uncertainty_reason": {"type": ["string", "null"]}, "evidence_region": {"$ref": "#/$defs/position"}
+      }
+    },
+    "legacy_claim": {
+      "type": "object", "additionalProperties": false,
+      "required": ["claim", "confidence", "evidence_refs"],
+      "properties": {"claim": {"type": "string", "minLength": 1}, "confidence": {"$ref": "#/$defs/confidence"}, "evidence_refs": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true}}
+    },
+    "claim": {
+      "type": "object", "additionalProperties": false,
+      "required": ["claim_id", "claim", "claim_type", "evidence_refs", "confidence", "conflicts", "status"],
+      "properties": {
+        "claim_id": {"type": "string", "pattern": "^c[0-9]+$"}, "claim": {"type": "string", "minLength": 1},
+        "claim_type": {"enum": ["directly_observed", "reasonable_inference", "external_common_knowledge", "uncertain"]},
+        "evidence_refs": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "confidence": {"$ref": "#/$defs/confidence"}, "conflicts": {"type": "array", "items": {"type": "string"}},
+        "status": {"enum": ["accepted", "uncertain", "rejected", "needs_review"]}
+      }
+    },
+    "scene_hypothesis": {
+      "type": "object", "additionalProperties": false,
+      "required": ["label", "confidence", "evidence_refs", "supporting_modalities", "uncertainty_reason"],
+      "properties": {
+        "label": {"type": "string", "minLength": 1}, "confidence": {"$ref": "#/$defs/confidence"},
+        "evidence_refs": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "supporting_modalities": {"type": "array", "items": {"enum": ["vlm", "ocr", "grounding", "sam", "human_review"]}, "uniqueItems": true},
+        "uncertainty_reason": {"type": ["string", "null"]}
+      }
+    },
+    "candidate_answer": {
+      "type": "object", "additionalProperties": false,
+      "required": ["question_id", "answer", "confidence", "abstained"],
+      "properties": {"question_id": {"type": "string", "minLength": 1}, "answer": {"type": ["string", "null"]}, "confidence": {"$ref": "#/$defs/confidence"}, "abstained": {"type": "boolean"}}
+    }
+  }
+}

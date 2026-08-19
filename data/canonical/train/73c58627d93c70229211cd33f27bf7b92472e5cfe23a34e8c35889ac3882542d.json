@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:61.jpg",
+    "relative_path": "train/61.jpg",
+    "sha256": "73c58627d93c70229211cd33f27bf7b92472e5cfe23a34e8c35889ac3882542d",
+    "split": "train"
+  },
+  "canonical_sha256": "46ff8d0f26d2e815b84d435c0a165e1662ff2d114ee23aaa91de1540e6be28d8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "母子",
+      "户外",
+      "木凳",
+      "绿衣"
+    ],
+    "short_description": "一位穿绿色连衣裙的女士和一个小男孩坐在木凳上，女士将一颗小果子递给男孩，背景是中式窗格和斑驳墙面。",
+    "theme": "母子互动"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "女士可能正在教男孩认识或品尝某种水果。"
+    ],
+    "direct_observations": [
+      "女士身穿绿色格纹长裙，发间别有蓝色发饰。",
+      "男孩穿着浅灰色短袖衬衫和同色短裤。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "女士将果子递向男孩"
+    ],
+    "attributes": [
+      "女士穿绿色格纹连衣裙",
+      "男孩穿浅色衬衫和短裤",
+      "背景有中式窗格"
+    ],
+    "relations": [
+      "女士与男孩并坐于木凳上。"
+    ],
+    "scene": "室外庭院或巷弄",
+    "subjects": [
+      "一位女性",
+      "一名小男孩"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "女士可能正在教男孩认识或品尝某种水果。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "女士身穿绿色格纹长裙，发间别有蓝色发饰；男孩穿着浅灰色短袖衬衫和同色短裤。",
+    "safe_facts": [
+      "女士身穿绿色格纹长裙，发间别有蓝色发饰。",
+      "男孩穿着浅灰色短袖衬衫和同色短裤。"
+    ]
+  },
+  "label_id": "cpl_d236f93d3ac7e256aae147ad",
+  "provenance": {
+    "generated_at": "2026-08-03T09:17:03.540158+00:00",
+    "migrated_at": "2026-08-03T09:17:03.541947+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "237d3f5af5063427d5beda1d83b35764be7a1e33c0b51627b740376edf1fa258",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5d8e2092eef78e9b84facd9c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:27.591467+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5d8e2092eef78e9b84facd9c",
+    "cpl_79f6d8ae717d509ba77925d8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

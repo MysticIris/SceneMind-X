@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:651.jpg",
+    "relative_path": "train/651.jpg",
+    "sha256": "a9e8757efa3d42655fd761d9c5566d3775cf61eb7ad92916d8686f2ab2b9940a",
+    "split": "train"
+  },
+  "canonical_sha256": "b498d1867219019a930705a2fa3ef6557d66a5161db0ad09694198c9b7d86200",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "收纳袋",
+      "深蓝色",
+      "白色提手",
+      "室内地面"
+    ],
+    "short_description": "一个深蓝色带白色提手的收纳袋放在瓷砖地面上，旁边是一扇深色木门。",
+    "theme": "深蓝色大容量收纳袋"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一个深蓝色的布质收纳袋，配有两条白色提手，袋口有黑色拉链。",
+      "袋子放置在浅灰色瓷砖地面上，背景左侧是白色瓷砖墙，右侧是深棕色木门。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深蓝色",
+      "带拉链",
+      "有白色提手",
+      "放置于地面"
+    ],
+    "relations": [
+      "收纳袋位于瓷砖地面。",
+      "收纳袋靠近木门。"
+    ],
+    "scene": "室内地面角落",
+    "subjects": [
+      "收纳袋"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一个深蓝色的布质收纳袋，配有两条白色提手，袋口有黑色拉链；袋子放置在浅灰色瓷砖地面上，背景左侧是白色瓷砖墙，右侧是深棕色木门。",
+    "safe_facts": [
+      "一个深蓝色的布质收纳袋，配有两条白色提手，袋口有黑色拉链。",
+      "袋子放置在浅灰色瓷砖地面上，背景左侧是白色瓷砖墙，右侧是深棕色木门。"
+    ]
+  },
+  "label_id": "cpl_b999d37f5dcecbb7253f07fd",
+  "provenance": {
+    "generated_at": "2026-08-03T11:52:24.280813+00:00",
+    "migrated_at": "2026-08-03T11:52:24.286476+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2987541a5d1b6c8f742dd4a2cf97bb666610610f25ec290bf88740cd4ffd1989",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_54757b75069d2733e3b8584b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:52:24.286855+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_54757b75069d2733e3b8584b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

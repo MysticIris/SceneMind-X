@@ -1,0 +1,121 @@
+{
+  "asset_id": "b501de0d8d7a6fbd",
+  "asset_sha256": "b501de0d8d7a6fbd7778629b6ccacdfb77c5f4e50b0b18b7249ae5bcfe0f240f",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"无人机航迹规划试题\",\n    \"short_description\": \"这是一张包含中文文本和示意图的考试题目图片。内容涉及固定翼无人飞行器在山区低空飞行的航迹规划问题，右侧配有飞行任务场景图和飞行器结构示意图，左侧列出了四个具体的数学建模或工程问题。\",\n    \"micro_tags\": [\n      \"无人机\",\n      \"航迹规划\",\n      \"数学建模\",\n      \"考试题\",\n      \"示意图\",\n      \"固定翼\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"poster_document\",\n    \"scene\": \"包含文字说明和插图的文档页面\",\n    \"subjects\": [\n      \"中文题目文本\",\n      \"山地飞行场景图\",\n      \"飞机结构线条图\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白底黑字\",\n      \"图文混排\",\n      \" numbered list\"\n    ],\n    \"relations\": [\n      \"文字描述位于左侧\",\n      \"插图位于右侧\",\n      \"插图辅助说明文字内容\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图片左侧是大段中文文本，分为题干和四个带编号的小问（(1)至(4)）。\",\n      \"图片右上角是一张展示山脉、雷达和目标点的3D渲染风格示意图，标注有“航迹1”、“航迹2”。\",\n      \"图片右下角是一张固定翼飞机的黑白线条结构示意图，标注有“螺旋桨”、“方向舵”等部件名称。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据文本中的“题一”、“4分”等字样，推测这是一份数学建模竞赛或相关课程的试卷/作业题。\",\n      \"题目内容涉及动力学方程、状态变量等术语，属于工程技术或应用数学领域。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"题一、某型号固定翼无人飞行器在山区、丘陵地带隐蔽执行从 A 点（起始点）到 B 点（目标点）的低空飞行任务。\",\n      \"飞行任务示意图\",\n      \"飞行器结构示意图\",\n      \"(1) 参考右图飞行器结构示意图，分别以运动学方程和动力学方程...作为状态转移方程...\",\n      \"(2) 航迹预规划过程中，如何表达和使用哪些飞行环境数据；\",\n      \"(3) 请建立飞行器航迹优化目标函数，设置约束条件；\",\n      \"(4) 根据前面的工作，推荐合适的航迹规划算法并对算法作简要描述。\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张包含中文题目文本和两张技术示意图的文档图片，主题关于飞行器在复杂地形下的路径规划问题。\",\n    \"safe_facts\": [\n      \"图片由左侧的文字列表和右侧的两幅插图组成。\",\n      \"右上方的插图描绘了起伏的山地地形和飞行路径。\",\n      \"右下方的插图展示了飞机的外部结构轮廓。\"\n    ]\n  }\n}",
+      "input_tokens": 1775,
+      "output_tokens": 733,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 1775,
+        "output_tokens": 733,
+        "total_tokens": 2508,
+        "estimated_cost_cny": 0.009414,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "无人机航迹规划试题",
+          "short_description": "这是一张包含中文文本和示意图的考试题目图片。内容涉及固定翼无人飞行器在山区低空飞行的航迹规划问题，右侧配有飞行任务场景图和飞行器结构示意图，左侧列出了四个具体的数学建模或工程问题。",
+          "micro_tags": [
+            "无人机",
+            "航迹规划",
+            "数学建模",
+            "考试题",
+            "示意图",
+            "固定翼"
+          ]
+        },
+        "facts": {
+          "visual_medium": "poster_document",
+          "scene": "包含文字说明和插图的文档页面",
+          "subjects": [
+            "中文题目文本",
+            "山地飞行场景图",
+            "飞机结构线条图"
+          ],
+          "actions": [],
+          "attributes": [
+            "白底黑字",
+            "图文混排",
+            " numbered list"
+          ],
+          "relations": [
+            "文字描述位于左侧",
+            "插图位于右侧",
+            "插图辅助说明文字内容"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图片左侧是大段中文文本，分为题干和四个带编号的小问（(1)至(4)）。",
+            "图片右上角是一张展示山脉、雷达和目标点的3D渲染风格示意图，标注有“航迹1”、“航迹2”。",
+            "图片右下角是一张固定翼飞机的黑白线条结构示意图，标注有“螺旋桨”、“方向舵”等部件名称。"
+          ],
+          "cautious_inferences": [
+            "根据文本中的“题一”、“4分”等字样，推测这是一份数学建模竞赛或相关课程的试卷/作业题。",
+            "题目内容涉及动力学方程、状态变量等术语，属于工程技术或应用数学领域。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "题一、某型号固定翼无人飞行器在山区、丘陵地带隐蔽执行从 A 点（起始点）到 B 点（目标点）的低空飞行任务。",
+            "飞行任务示意图",
+            "飞行器结构示意图",
+            "(1) 参考右图飞行器结构示意图，分别以运动学方程和动力学方程...作为状态转移方程...",
+            "(2) 航迹预规划过程中，如何表达和使用哪些飞行环境数据；",
+            "(3) 请建立飞行器航迹优化目标函数，设置约束条件；",
+            "(4) 根据前面的工作，推荐合适的航迹规划算法并对算法作简要描述。"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张包含中文题目文本和两张技术示意图的文档图片，主题关于飞行器在复杂地形下的路径规划问题。",
+          "safe_facts": [
+            "图片由左侧的文字列表和右侧的两幅插图组成。",
+            "右上方的插图描绘了起伏的山地地形和飞行路径。",
+            "右下方的插图展示了飞机的外部结构轮廓。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 418088,
+        "request_bytes": 310494,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.916528100002324,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "ea0b24899f7a449314f6adea41799f69d7600be7a6f1cdd6cf6c282bde8a4e77"
+}

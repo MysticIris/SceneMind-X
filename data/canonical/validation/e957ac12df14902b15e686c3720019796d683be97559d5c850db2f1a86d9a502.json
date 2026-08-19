@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2337.jpg",
+    "relative_path": "val/2337.jpg",
+    "sha256": "e957ac12df14902b15e686c3720019796d683be97559d5c850db2f1a86d9a502",
+    "split": "val"
+  },
+  "canonical_sha256": "2849a708132320f83faa02084d20533c87dd643cc40485c9dae5b8a37706b636",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "彩虹",
+      "乡村",
+      "绿植",
+      "石屋"
+    ],
+    "short_description": "雨后山村，一道彩虹横跨天际，村口有装饰彩旗和石屋，绿树环绕，地面湿润。",
+    "theme": "乡村彩虹景象"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "彩虹可能是雨后形成的自然现象。"
+    ],
+    "direct_observations": [
+      "天空中可见一道彩虹。",
+      "地面有水渍，显示刚下过雨。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空有云",
+      "地面湿润",
+      "植被茂盛"
+    ],
+    "relations": [
+      "彩虹出现在天空中。",
+      "房屋位于前景。",
+      "树木环绕房屋。"
+    ],
+    "scene": "乡村户外",
+    "subjects": [
+      "彩虹",
+      "树木",
+      "房屋",
+      "彩旗装饰",
+      "道路"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "彩虹可能是雨后形成的自然现象。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空中可见一道彩虹；地面有水渍，显示刚下过雨。",
+    "safe_facts": [
+      "天空中可见一道彩虹。",
+      "地面有水渍，显示刚下过雨。"
+    ]
+  },
+  "label_id": "cpl_25706b068ae4dad07223ecb0",
+  "provenance": {
+    "generated_at": "2026-08-03T16:28:43.552257+00:00",
+    "migrated_at": "2026-08-03T16:28:43.553765+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fe2475df8d02d75cd303f33ea181676b16621bbe5c173176d6503074d9f28bf6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6d0633671b9d4b7b25d4ed70",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:28:43.553964+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6d0633671b9d4b7b25d4ed70"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

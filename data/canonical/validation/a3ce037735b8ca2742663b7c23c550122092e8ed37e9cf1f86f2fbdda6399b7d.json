@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2037.jpg",
+    "relative_path": "val/2037.jpg",
+    "sha256": "a3ce037735b8ca2742663b7c23c550122092e8ed37e9cf1f86f2fbdda6399b7d",
+    "split": "val"
+  },
+  "canonical_sha256": "ec11fdcfec4157f856e1b13261f2d0e4c50bdcbc16c926e1e153d88680b934da",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "写作策略",
+      "思维导图",
+      "教育图表"
+    ],
+    "short_description": "一张展示写作发展策略的图表，分为描述、解释和说服三大类，每类下有子策略及对应说明。",
+    "theme": "写作策略分类图"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现的是一个教学图表，用于说明写作策略分类。",
+      "图表包含三个主要板块，分别对应不同的写作功能。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "电脑屏幕显示教学图表",
+    "subjects": [
+      "图表"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现的是一个教学图表，用于说明写作策略分类；图表包含三个主要板块，分别对应不同的写作功能。",
+    "safe_facts": [
+      "图像呈现的是一个教学图表，用于说明写作策略分类。",
+      "图表包含三个主要板块，分别对应不同的写作功能。"
+    ]
+  },
+  "label_id": "cpl_83c143a91bf4cf0c487ed1d0",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/val/val_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "e32d3af75c130700fc73cbca19128fe8491843a5f2d834ae73a5bd88abf3c6d1",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T15:50:55.369626+00:00",
+    "migrated_at": "2026-08-03T15:50:55.371544+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5316f1f642f2d600e68c306efb6aa3026a7b2cdf87e58493bc8744690a558204",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3530de02da9647fcf6307b16",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:50:55.372216+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "写作策略图表的层级和结构概括准确。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3530de02da9647fcf6307b16"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "S: Developmental strategies",
+      "Describe",
+      "Explain",
+      "Persuade",
+      "narrative/sequence",
+      "spatial description"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "S: Developmental strategies",
+      "Describe",
+      "Explain",
+      "Persuade",
+      "narrative/sequence",
+      "spatial description"
+    ]
+  }
+}

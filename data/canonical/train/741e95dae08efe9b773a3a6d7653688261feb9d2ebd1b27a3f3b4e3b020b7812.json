@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:474.jpg",
+    "relative_path": "train/474.jpg",
+    "sha256": "741e95dae08efe9b773a3a6d7653688261feb9d2ebd1b27a3f3b4e3b020b7812",
+    "split": "train"
+  },
+  "canonical_sha256": "cf8ed16f15427ef751303a676090d1379a89154faf4980e4fe41dd62bdd6bd0b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式建筑",
+      "门楣",
+      "雕花窗格"
+    ],
+    "short_description": "一座中式传统建筑的门楣，蓝底金字匾额，雕花木窗格，屋檐彩绘装饰。",
+    "theme": "传统中式建筑门楣"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "门楣上方悬挂一块蓝色背景、金色汉字的匾额。",
+      "屋檐下有绿色与金色相间的彩绘图案和圆形装饰物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色匾额",
+      "金色汉字",
+      "红色屋檐",
+      "绿色彩绘装饰",
+      "镂空窗格"
+    ],
+    "relations": [],
+    "scene": "中式传统建筑入口",
+    "subjects": [
+      "门楣",
+      "匾额",
+      "屋檐",
+      "窗格"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "门楣上方悬挂一块蓝色背景、金色汉字的匾额；屋檐下有绿色与金色相间的彩绘图案和圆形装饰物。",
+    "safe_facts": [
+      "门楣上方悬挂一块蓝色背景、金色汉字的匾额。",
+      "屋檐下有绿色与金色相间的彩绘图案和圆形装饰物。"
+    ]
+  },
+  "label_id": "cpl_777b2148d2489f7faf141795",
+  "provenance": {
+    "generated_at": "2026-08-03T11:10:48.199115+00:00",
+    "migrated_at": "2026-08-03T11:10:48.201097+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ef769f6964e6527e523563033f186b36b8c2646cae61a06c27c9d2ebb1e28840",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9ed8c9b75edb2605dc439929",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:10:48.201480+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9ed8c9b75edb2605dc439929"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "来此做甚",
+      "丁亥年游抱一书"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "来此做甚",
+      "丁亥年游抱一书"
+    ]
+  }
+}

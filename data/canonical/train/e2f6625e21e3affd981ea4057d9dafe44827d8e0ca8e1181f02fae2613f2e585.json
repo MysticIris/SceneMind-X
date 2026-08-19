@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:884.jpg",
+    "relative_path": "train/884.jpg",
+    "sha256": "e2f6625e21e3affd981ea4057d9dafe44827d8e0ca8e1181f02fae2613f2e585",
+    "split": "train"
+  },
+  "canonical_sha256": "c3dea3c42a61b8f73420a6f3f1d9e23f2410d82d1fe619403b394a504e976dbc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "山景",
+      "村庄",
+      "远眺",
+      "绿野"
+    ],
+    "short_description": "从山顶俯瞰连绵群山与山谷中的村庄田野，天空阴云密布，前景有游客身影。",
+    "theme": "山野俯瞰"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现多层山峦轮廓。",
+      "前景有草地和树木，右下角可见一人侧影。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阴天",
+      "绿色植被",
+      "远处建筑群"
+    ],
+    "relations": [
+      "人物位于山坡上。",
+      "村庄分布在山谷中。"
+    ],
+    "scene": "山地丘陵地貌",
+    "subjects": [
+      "山脉",
+      "村庄",
+      "树木",
+      "人物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现多层山峦轮廓；前景有草地和树木，右下角可见一人侧影。",
+    "safe_facts": [
+      "画面呈现多层山峦轮廓。",
+      "前景有草地和树木，右下角可见一人侧影。"
+    ]
+  },
+  "label_id": "cpl_9f8c331f3e4c9919394483ec",
+  "provenance": {
+    "generated_at": "2026-08-03T12:43:09.398633+00:00",
+    "migrated_at": "2026-08-03T12:43:09.401367+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ee5e430692103f00ca4f60d66f073531c62cc272da97f88a5a0b344aee641efa",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_bc66968c36ac09997b5a4084",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:43:09.401762+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_bc66968c36ac09997b5a4084"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scenemind-x.local/schemas/gate1-d3-semantic-review-payload-v1-5.schema.json",
+  "title": "Gate 1-D3 fixed-string semantic review payload v1.5",
+  "description": "Nine fixed short strings with an enum-like visible-text field to prevent long screen transcription.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["global_observation", "subjects", "activities", "attributes", "relations", "visible_text_candidates", "scene_hypotheses", "uncertainties", "evidence_descriptions"],
+  "properties": {
+    "global_observation": {"type": "string", "maxLength": 80},
+    "subjects": {"type": "string", "maxLength": 80},
+    "activities": {"type": "string", "maxLength": 80},
+    "attributes": {"type": "string", "maxLength": 80},
+    "relations": {"type": "string", "maxLength": 80},
+    "visible_text_candidates": {"enum": ["无文字", "有文字", "不可辨文字"]},
+    "scene_hypotheses": {"type": "string", "maxLength": 80},
+    "uncertainties": {"type": "string", "maxLength": 80},
+    "evidence_descriptions": {"type": "string", "maxLength": 80}
+  }
+}

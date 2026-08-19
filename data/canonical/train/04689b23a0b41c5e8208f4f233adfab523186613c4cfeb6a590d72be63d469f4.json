@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:890.jpg",
+    "relative_path": "train/890.jpg",
+    "sha256": "04689b23a0b41c5e8208f4f233adfab523186613c4cfeb6a590d72be63d469f4",
+    "split": "train"
+  },
+  "canonical_sha256": "507947549f1cdb7a6f5b22365b793111a875921043a75694508dc82ebecff99b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "图书馆",
+      "喷泉",
+      "现代建筑"
+    ],
+    "short_description": "一座现代风格的图书馆建筑，前方有喷泉和绿化带，几位行人正在广场上活动。",
+    "theme": "现代图书馆建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "广场上有多个喷泉装置正在喷水。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "行走"
+    ],
+    "attributes": [
+      "灰色瓷砖外墙",
+      "多层结构",
+      "阶梯式入口",
+      "水柱喷射"
+    ],
+    "relations": [
+      "喷泉位于建筑前方。",
+      "行人分布在广场和台阶区域。"
+    ],
+    "scene": "图书馆前广场",
+    "subjects": [
+      "建筑",
+      "喷泉",
+      "行人",
+      "绿化植物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "广场上有多个喷泉装置正在喷水。",
+    "safe_facts": [
+      "广场上有多个喷泉装置正在喷水。"
+    ]
+  },
+  "label_id": "cpl_ee73c18c405c012745b038e1",
+  "provenance": {
+    "generated_at": "2026-08-03T12:44:58.039731+00:00",
+    "migrated_at": "2026-08-03T12:44:58.045287+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0faaa2b10fc7905839b9aa6a34ac35a8c78facd686c4fd5ee2d20888650b3478",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0f72c15fa7741c24d85633d3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:44:58.045776+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0f72c15fa7741c24d85633d3"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "圖書館",
+      "新老人民"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "圖書館",
+      "新老人民"
+    ]
+  }
+}

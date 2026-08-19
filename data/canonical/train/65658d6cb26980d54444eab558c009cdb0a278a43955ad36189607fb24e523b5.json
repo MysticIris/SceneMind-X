@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:976.jpg",
+    "relative_path": "train/976.jpg",
+    "sha256": "65658d6cb26980d54444eab558c009cdb0a278a43955ad36189607fb24e523b5",
+    "split": "train"
+  },
+  "canonical_sha256": "fbed85c61f70bd5eef79a994f74ced0eff4f5fe9aec63d485bea943f8faed6ff",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "教堂",
+      "山景",
+      "红瓦屋顶",
+      "石墙建筑"
+    ],
+    "short_description": "山坡上一座红瓦石砌教堂，俯瞰山谷城镇与远山，天空云层密布。",
+    "theme": "山间古教堂"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "教堂由石头砌成，屋顶覆盖红色瓦片。",
+      "教堂坐落在绿色草坡之上，背景是连绵山脉和山谷中的城镇。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红瓦屋顶",
+      "石砌墙体",
+      "绿色草地",
+      "多云天空"
+    ],
+    "relations": [
+      "教堂位于山坡上。",
+      "教堂俯瞰山谷城镇。",
+      "山脉在背景中。"
+    ],
+    "scene": "山坡上的教堂与山谷城镇景观",
+    "subjects": [
+      "教堂",
+      "山脉",
+      "城镇",
+      "草地"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "教堂由石头砌成，屋顶覆盖红色瓦片；教堂坐落在绿色草坡之上，背景是连绵山脉和山谷中的城镇。",
+    "safe_facts": [
+      "教堂由石头砌成，屋顶覆盖红色瓦片。",
+      "教堂坐落在绿色草坡之上，背景是连绵山脉和山谷中的城镇。"
+    ]
+  },
+  "label_id": "cpl_e59f769c900d724465d0b5e1",
+  "provenance": {
+    "generated_at": "2026-08-03T13:08:33.903596+00:00",
+    "migrated_at": "2026-08-03T13:08:33.907456+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fa13aea4b8ba53cf12526c9099ff7e214100b6f4935014a20ea77177ca5b486f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e59f769c900d724465d0b5e1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:17.321748+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_37d2894eda5b361fde59f5a0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

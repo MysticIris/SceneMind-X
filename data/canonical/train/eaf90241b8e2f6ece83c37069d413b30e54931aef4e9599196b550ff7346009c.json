@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1987.jpg",
+    "relative_path": "train/1987.jpg",
+    "sha256": "eaf90241b8e2f6ece83c37069d413b30e54931aef4e9599196b550ff7346009c",
+    "split": "train"
+  },
+  "canonical_sha256": "6b73c469ffd1af060a0fe9c0abe75980ead6571f136f1ded2bea436c13757a7b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "桥梁",
+      "灯光装饰",
+      "城市天际线"
+    ],
+    "short_description": "夜幕下，一座装饰灯光的拱桥横跨水面，桥头塔楼亮着白光，远处城市灯火闪烁，近处树木轮廓清晰。",
+    "theme": "夜景桥梁"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "远处可见城市建筑群的灯光，表明为城市环境。"
+    ],
+    "direct_observations": [
+      "桥梁结构由金属桁架构成并被暖色灯光照亮。",
+      "桥头有一座中式风格塔楼，顶部有白色灯光照明。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "被灯光照亮",
+      "有拱形结构",
+      "有金属桁架"
+    ],
+    "relations": [
+      "桥梁横跨水面。",
+      "塔楼位于桥头。",
+      "树木位于前景。"
+    ],
+    "scene": "夜间城市河岸景观",
+    "subjects": [
+      "桥梁",
+      "塔楼",
+      "树木",
+      "城市灯光"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "远处可见城市建筑群的灯光，表明为城市环境。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "桥梁结构由金属桁架构成并被暖色灯光照亮；桥头有一座中式风格塔楼，顶部有白色灯光照明。",
+    "safe_facts": [
+      "桥梁结构由金属桁架构成并被暖色灯光照亮。",
+      "桥头有一座中式风格塔楼，顶部有白色灯光照明。"
+    ]
+  },
+  "label_id": "cpl_ef4ca73e78f1e241e2221773",
+  "provenance": {
+    "generated_at": "2026-08-03T15:29:59.318212+00:00",
+    "migrated_at": "2026-08-03T15:29:59.319895+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b24ff946a6db5f22f85642a5225ed3a040136cd424f3f5293d066d87d34acc26",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d4d98e6a19a99f2d44f0cb7b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:29:59.320105+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d4d98e6a19a99f2d44f0cb7b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-08-03T16:41:23.466947+08:00",
+  "libraries": [
+    {
+      "active_manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "asset_count": 0,
+      "created_at": "2026-08-03T16:41:23.466947+08:00",
+      "display_name": "训练图片库",
+      "index_manifest_sha256": "8d1977eebe685153134b77d984439db4bc910f3fdbc07079f171dc6c4ead7bc2",
+      "index_version": "e1-product-4f53cda18c2b",
+      "labeled_count": 0,
+      "library_id": "system_train",
+      "library_type": "system_locked",
+      "locked": true,
+      "manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "owner": "system/admin",
+      "split": "train",
+      "updated_at": "2026-08-19T13:59:45.435354+08:00"
+    },
+    {
+      "active_manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "asset_count": 0,
+      "created_at": "2026-08-03T16:41:23.466947+08:00",
+      "display_name": "验证图片库",
+      "index_manifest_sha256": "8d1977eebe685153134b77d984439db4bc910f3fdbc07079f171dc6c4ead7bc2",
+      "index_version": "e1-product-4f53cda18c2b",
+      "labeled_count": 0,
+      "library_id": "system_val",
+      "library_type": "system_locked",
+      "locked": true,
+      "manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "owner": "system/admin",
+      "split": "val",
+      "updated_at": "2026-08-19T13:59:45.435697+08:00"
+    }
+  ],
+  "schema_version": "phase6_1_visual_library_catalog_v1",
+  "test_library_created": false,
+  "updated_at": "2026-08-19T13:59:45.683360+08:00"
+}

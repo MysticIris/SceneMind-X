@@ -1,0 +1,136 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:877.jpg",
+    "relative_path": "train/877.jpg",
+    "sha256": "a6eb91dd71839e2cd8289572b6c2b2f3a0df6e6c7ddcd0919935140c03af285e",
+    "split": "train"
+  },
+  "canonical_sha256": "c50bc6bb87af75fd3b384dd5c5ba9cff3a48f7b7939c048a83b503b8d6f1f8c4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "学术讲座",
+      "大学讲堂",
+      "课程介绍"
+    ],
+    "short_description": "一位演讲者在讲台上讲解的课程体系与培养目标，背景屏幕显示详细内容。",
+    "theme": "学术讲座现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一名穿着浅色衬衫的人站在讲台后方进行演讲。",
+      "观众席上有多人头部可见。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "演讲者正在讲解",
+      "观众在听讲"
+    ],
+    "attributes": [
+      "讲台有校徽"
+    ],
+    "relations": [
+      "演讲者站在讲台前。",
+      "观众坐在演讲者前方。"
+    ],
+    "scene": "室内讲堂",
+    "subjects": [
+      "演讲者",
+      "观众",
+      "投影屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名穿着浅色衬衫的人站在讲台后方进行演讲；观众席上有多人头部可见。",
+    "safe_facts": [
+      "一名穿着浅色衬衫的人站在讲台后方进行演讲。",
+      "观众席上有多人头部可见。"
+    ]
+  },
+  "label_id": "cpl_680981757061e4f521716157",
+  "provenance": {
+    "generated_at": "2026-08-03T12:41:42.942916+00:00",
+    "migrated_at": "2026-08-03T12:41:42.947582+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5ba0258c3226cbfea9e0ef349c8a1af3f8490a2445feb859cee18e2a5b63ce59",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8a398ba79838beb73e9681f5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:41:42.948773+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8a398ba79838beb73e9681f5"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "华中科大未来技术学院",
+      "正在讲述",
+      "愿景与目标",
+      "强基础、宽口径",
+      "模块化、学分制",
+      "导师选修"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "华中科大未来技术学院",
+      "正在讲述",
+      "愿景与目标",
+      "强基础、宽口径",
+      "模块化、学分制",
+      "导师选修"
+    ]
+  }
+}

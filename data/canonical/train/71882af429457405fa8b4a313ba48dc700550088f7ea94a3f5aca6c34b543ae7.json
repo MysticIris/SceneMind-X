@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:331.jpg",
+    "relative_path": "train/331.jpg",
+    "sha256": "71882af429457405fa8b4a313ba48dc700550088f7ea94a3f5aca6c34b543ae7",
+    "split": "train"
+  },
+  "canonical_sha256": "06ef60aff4f868abfd0e4f31411ebe6a73dfae65f189df86e19e771fa6c7f2c6",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "北极熊",
+      "幼崽",
+      "雪地",
+      "冬季"
+    ],
+    "short_description": "一只成年北极熊背着两只幼崽在雪地里，背景是稀疏的松树。",
+    "theme": "北极熊母子"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有三只北极熊，一只成年，两只幼年。",
+      "地面覆盖着白雪，背景有几棵松树。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色皮毛",
+      "雪地环境",
+      "松树"
+    ],
+    "relations": [
+      "成年北极熊背负幼崽。",
+      "幼崽依偎在成年北极熊身上。"
+    ],
+    "scene": "雪地",
+    "subjects": [
+      "成年北极熊",
+      "幼年北极熊"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有三只北极熊，一只成年，两只幼年；地面覆盖着白雪，背景有几棵松树。",
+    "safe_facts": [
+      "画面中有三只北极熊，一只成年，两只幼年。",
+      "地面覆盖着白雪，背景有几棵松树。"
+    ]
+  },
+  "label_id": "cpl_9a9a91cc1a3406e137e4b2c6",
+  "provenance": {
+    "generated_at": "2026-08-03T10:41:11.880377+00:00",
+    "migrated_at": "2026-08-03T10:41:11.883082+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "941cc2867df5f7a96b0efe0d6f6c5c03685a1f5dd110e1a4cfddabd8b4db173c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_cec0b35518f6260d8b5e221e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:41:11.883397+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_cec0b35518f6260d8b5e221e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

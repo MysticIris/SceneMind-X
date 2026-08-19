@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1497.jpg",
+    "relative_path": "train/1497.jpg",
+    "sha256": "ea1ffd4dc0d1b45af4f2aad2481546bdbdbbbbf2102aebf91c0ef2d70c1f0c09",
+    "split": "train"
+  },
+  "canonical_sha256": "226d65c606653535e2bec45007c24c0a4d1a120b6604d0023d9d4e4bcc9bca47",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "多人合影",
+      "跑鞋广告",
+      "商场中庭"
+    ],
+    "short_description": "六人站在大型广告屏前合影，背景为跑鞋宣传海报，环境为多层商场中庭。",
+    "theme": "品牌活动现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "六个人站在光滑反光的地面上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "比赞"
+    ],
+    "attributes": [
+      "穿着运动装",
+      "背景有大型屏幕"
+    ],
+    "relations": [
+      "六人并排站立于广告屏前。"
+    ],
+    "scene": "室内多层商场中庭",
+    "subjects": [
+      "六位站立的人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "六个人站在光滑反光的地面上。",
+    "safe_facts": [
+      "六个人站在光滑反光的地面上。"
+    ]
+  },
+  "label_id": "cpl_d37e2312f45327f0270efdae",
+  "provenance": {
+    "generated_at": "2026-08-03T14:30:22.781303+00:00",
+    "migrated_at": "2026-08-03T14:30:22.787688+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8e2144e1881c40a6861f1a3066958174865a527df9010d05fbe2c5006cafd59e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_02236a4c7b4e0064066229a9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:30:22.790799+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_02236a4c7b4e0064066229a9"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "X 特步",
+      "屡获全球跑鞋大奖",
+      "360X 国民碳板跑鞋",
+      "碳板助力 轻松开跑",
+      "天猫超级品牌日",
+      "XTPE ACE 科技更舒适"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "X 特步",
+      "屡获全球跑鞋大奖",
+      "360X 国民碳板跑鞋",
+      "碳板助力 轻松开跑",
+      "天猫超级品牌日",
+      "XTPE ACE 科技更舒适"
+    ]
+  }
+}

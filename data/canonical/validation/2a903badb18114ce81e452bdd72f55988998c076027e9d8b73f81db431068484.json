@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2191.jpg",
+    "relative_path": "val/2191.jpg",
+    "sha256": "2a903badb18114ce81e452bdd72f55988998c076027e9d8b73f81db431068484",
+    "split": "val"
+  },
+  "canonical_sha256": "edb317bfe9800f12d7159cedb7c49a89486eaa4ac7d555500c396e9d1477eb60",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "猫头鹰",
+      "幼鸟",
+      "叠罗汉",
+      "大眼睛"
+    ],
+    "short_description": "四只小猫头鹰叠在一起，眼睛圆睁，表情呆萌，背景模糊呈暖色调。",
+    "theme": "猫头鹰群像"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "它们可能处于休息或观察状态。"
+    ],
+    "direct_observations": [
+      "画面中有四只猫头鹰，身体部分重叠。",
+      "猫头鹰眼睛为明亮的绿色，瞳孔圆而大。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "棕色羽毛",
+      "绿色眼睛",
+      "绒毛状"
+    ],
+    "relations": [
+      "一只猫头鹰位于另一只上方。"
+    ],
+    "scene": "户外土坡",
+    "subjects": [
+      "猫头鹰"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "它们可能处于休息或观察状态。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有四只猫头鹰，身体部分重叠；猫头鹰眼睛为明亮的绿色，瞳孔圆而大。",
+    "safe_facts": [
+      "画面中有四只猫头鹰，身体部分重叠。",
+      "猫头鹰眼睛为明亮的绿色，瞳孔圆而大。"
+    ]
+  },
+  "label_id": "cpl_7713e1a7045a9508739af8a7",
+  "provenance": {
+    "generated_at": "2026-08-03T16:10:30.703730+00:00",
+    "migrated_at": "2026-08-03T16:10:30.705644+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "da57ccd781ed8d74b47884169eca9a4fe5c7b7ba64654e68553ea05e4e7f04ef",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_73d2732d7609e2ce01126d1f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:10:30.705966+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_73d2732d7609e2ce01126d1f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

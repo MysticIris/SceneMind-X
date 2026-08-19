@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1370.jpg",
+    "relative_path": "train/1370.jpg",
+    "sha256": "3018a6924fd1bc04c53e526c58303387d6fd61d1ce1ae42d22a332204eb22723",
+    "split": "train"
+  },
+  "canonical_sha256": "50e8ee5802253343432dd8be4029d95758aa8c1e2f54d95ba5c4fab64b348821",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "山景",
+      "红绸带",
+      "城市远景"
+    ],
+    "short_description": "山顶俯瞰城市全景，红绸带系于栏杆，远山与蓝天相接。",
+    "theme": "山巅观景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面前景有红色布条系在金属栏杆上。",
+      "远处可见城市建筑群和连绵山脉。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晴朗天空",
+      "茂密树林",
+      "金属链条"
+    ],
+    "relations": [
+      "红绸带系于栏杆。",
+      "栏杆位于山巅。",
+      "城市位于山谷下方。"
+    ],
+    "scene": "山巅观景台",
+    "subjects": [
+      "红绸带",
+      "栏杆",
+      "山脉",
+      "城市景观"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景有红色布条系在金属栏杆上；远处可见城市建筑群和连绵山脉。",
+    "safe_facts": [
+      "画面前景有红色布条系在金属栏杆上。",
+      "远处可见城市建筑群和连绵山脉。"
+    ]
+  },
+  "label_id": "cpl_428328cc72f15bc75a176ec5",
+  "provenance": {
+    "generated_at": "2026-08-03T14:15:49.905056+00:00",
+    "migrated_at": "2026-08-03T14:15:49.908119+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3224c5cc19c057f77faba70ca128cccabe192c177ad6dd30342dfb5eeced4df1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2c90afc5147ca307743e7dd7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:15:49.908452+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2c90afc5147ca307743e7dd7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

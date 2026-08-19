@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:284.jpg",
+    "relative_path": "train/284.jpg",
+    "sha256": "4f7936af2e7c0c98565dbd2eace62592445fc66743f80d231c16fb82db8f1fcc",
+    "split": "train"
+  },
+  "canonical_sha256": "3b8173181b4d9b58b30873ace330300eae93ed9902eaaab4f40a9dcec4da4d7d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "油菜花田",
+      "观景塔",
+      "游客聚集",
+      "水边栈道"
+    ],
+    "short_description": "一座木质观景塔矗立于金黄油菜花田旁，游客聚集在塔下栈道与水上平台，远处田野延伸至天际。",
+    "theme": "油菜花田观景塔"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "塔下栈道延伸至水面，可能用于水上活动或观光。"
+    ],
+    "direct_observations": [
+      "画面中央有一座多层木质观景塔，塔身有围栏和楼梯。",
+      "塔周围及栈道上有大量人群聚集，部分人撑伞。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立观看",
+      "聚集",
+      "行走"
+    ],
+    "attributes": [
+      "木质结构",
+      "多层设计",
+      "黄色花海",
+      "水面倒影",
+      "人群密集"
+    ],
+    "relations": [
+      "观景塔位于花田边缘。",
+      "游客聚集在栈道与平台。",
+      "栈道连接观景塔与水面。"
+    ],
+    "scene": "开阔田野中的观景设施",
+    "subjects": [
+      "木质多层观景塔",
+      "游客群体",
+      "油菜花田",
+      "水面及栈道"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "塔下栈道延伸至水面，可能用于水上活动或观光。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一座多层木质观景塔，塔身有围栏和楼梯；塔周围及栈道上有大量人群聚集，部分人撑伞。",
+    "safe_facts": [
+      "画面中央有一座多层木质观景塔，塔身有围栏和楼梯。",
+      "塔周围及栈道上有大量人群聚集，部分人撑伞。"
+    ]
+  },
+  "label_id": "cpl_80575dea68e445f02296335d",
+  "provenance": {
+    "generated_at": "2026-08-03T10:31:54.412729+00:00",
+    "migrated_at": "2026-08-03T10:31:54.414701+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2723dfcef8766e7964076dd9c15a6ff0dd4803a73e5dc35eb6a4199a365b8284",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_32a8c4ffad68d1e80c4ab5ae",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:31:54.414922+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_32a8c4ffad68d1e80c4ab5ae"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

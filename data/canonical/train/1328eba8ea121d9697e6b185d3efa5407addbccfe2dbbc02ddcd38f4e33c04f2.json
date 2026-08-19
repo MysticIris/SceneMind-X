@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:207.jpg",
+    "relative_path": "train/207.jpg",
+    "sha256": "1328eba8ea121d9697e6b185d3efa5407addbccfe2dbbc02ddcd38f4e33c04f2",
+    "split": "train"
+  },
+  "canonical_sha256": "7c1acf0e1fc6257ccdd9acbd0116a47f1c5987a674e7f5559e7aefc429d225d1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石桥",
+      "河道",
+      "古建筑",
+      "绿树"
+    ],
+    "short_description": "古朴石桥横跨碧绿河道，两岸老屋与繁茂枝叶相映成趣，水面倒影清晰。",
+    "theme": "水乡石桥绿荫"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "树木枝干伸展至桥面和建筑上方，形成遮蔽效果。"
+    ],
+    "direct_observations": [
+      "画面中有一座由石块砌成的桥梁横跨水面。",
+      "水面呈绿色，倒映着岸边树木和建筑轮廓。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "青苔斑驳的墙面",
+      "绿色水面",
+      "枝叶繁茂"
+    ],
+    "relations": [
+      "树木生长在桥边。",
+      "建筑临水而建。",
+      "水面倒映树木与建筑。"
+    ],
+    "scene": "水道旁的石砌桥梁与沿岸建筑",
+    "subjects": [
+      "石桥",
+      "河道",
+      "树木",
+      "老式建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "树木枝干伸展至桥面和建筑上方，形成遮蔽效果。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一座由石块砌成的桥梁横跨水面；水面呈绿色，倒映着岸边树木和建筑轮廓。",
+    "safe_facts": [
+      "画面中有一座由石块砌成的桥梁横跨水面。",
+      "水面呈绿色，倒映着岸边树木和建筑轮廓。"
+    ]
+  },
+  "label_id": "cpl_4cfea3fa96a1a641d92d5f38",
+  "provenance": {
+    "generated_at": "2026-08-03T10:16:53.772088+00:00",
+    "migrated_at": "2026-08-03T10:16:53.773844+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4df4adf51bf0d58eda115dd539d45e8a7ec669e2c26b2b31a024667e626d7261",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9f2cc45bb0fa45236d821f95",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:16:53.774060+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9f2cc45bb0fa45236d821f95"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

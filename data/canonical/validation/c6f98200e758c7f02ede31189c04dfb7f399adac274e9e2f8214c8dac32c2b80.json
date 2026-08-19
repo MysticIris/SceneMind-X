@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2210.jpg",
+    "relative_path": "val/2210.jpg",
+    "sha256": "c6f98200e758c7f02ede31189c04dfb7f399adac274e9e2f8214c8dac32c2b80",
+    "split": "val"
+  },
+  "canonical_sha256": "4ee2f4e81be2b6e94867df1cdd904d51a8fb88af3150650dc140a0f85d783d25",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "河流",
+      "桥梁",
+      "灯光",
+      "游船"
+    ],
+    "short_description": "夜幕下城市沿河两岸灯火辉煌，桥梁横跨水面，几艘游船在河上航行，高楼林立，道路车流如织。",
+    "theme": "夜景城市河岸"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能为大型城市中心区域，因建筑密度高且灯光集中。"
+    ],
+    "direct_observations": [
+      "画面呈现城市夜间景象，大量建筑物亮着灯光。",
+      "河流上有数艘船只，水面反射灯光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "发光",
+      "航行",
+      "延伸"
+    ],
+    "attributes": [
+      "灯火通明",
+      "多桥相连",
+      "水面反光",
+      "建筑密集"
+    ],
+    "relations": [
+      "桥梁跨越河流。",
+      "游船在河面行驶。",
+      "高楼沿河岸分布。",
+      "道路与桥梁相连。"
+    ],
+    "scene": "城市夜景",
+    "subjects": [
+      "河流",
+      "桥梁",
+      "高楼",
+      "游船",
+      "道路"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能为大型城市中心区域，因建筑密度高且灯光集中。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现城市夜间景象，大量建筑物亮着灯光；河流上有数艘船只，水面反射灯光。",
+    "safe_facts": [
+      "画面呈现城市夜间景象，大量建筑物亮着灯光。",
+      "河流上有数艘船只，水面反射灯光。"
+    ]
+  },
+  "label_id": "cpl_c85cf4f0a74c87ad7f39bad4",
+  "provenance": {
+    "generated_at": "2026-08-03T16:14:15.715288+00:00",
+    "migrated_at": "2026-08-03T16:14:15.716994+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0a819f6031963a390323e6b89d7e4faf75dedc7c8f0b7b5d076e2ddb1f251bb4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4259f5d46357874272546795",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:14:15.717212+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4259f5d46357874272546795"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

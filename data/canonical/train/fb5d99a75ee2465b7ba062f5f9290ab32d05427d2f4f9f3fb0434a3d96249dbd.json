@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1972.jpg",
+    "relative_path": "train/1972.jpg",
+    "sha256": "fb5d99a75ee2465b7ba062f5f9290ab32d05427d2f4f9f3fb0434a3d96249dbd",
+    "split": "train"
+  },
+  "canonical_sha256": "58ebc739c1a8e471b41488936d5db0012576f01cc241bc5e3e5f52cdec9d8b15",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "观光舱",
+      "城市灯光",
+      "摩天轮"
+    ],
+    "short_description": "夜幕下城市灯火辉煌，红色球形观光舱悬于轨道上，内有游客，远处高楼林立，天空云层密布。",
+    "theme": "夜景摩天轮舱"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现夜间城市景观，建筑物亮着灯光。",
+      "前景有一个红色球形观光舱，舱内有人。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色",
+      "透明窗",
+      "发光轨道",
+      "城市灯光",
+      "云层覆盖天空"
+    ],
+    "relations": [
+      "观光舱位于城市上方。",
+      "游客在观光舱内。",
+      "城市建筑群在背景中。"
+    ],
+    "scene": "城市夜景",
+    "subjects": [
+      "红色球形观光舱",
+      "游客",
+      "城市建筑群",
+      "天空云层"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现夜间城市景观，建筑物亮着灯光；前景有一个红色球形观光舱，舱内有人。",
+    "safe_facts": [
+      "画面呈现夜间城市景观，建筑物亮着灯光。",
+      "前景有一个红色球形观光舱，舱内有人。"
+    ]
+  },
+  "label_id": "cpl_2e2734c54885113d6fc04b1c",
+  "provenance": {
+    "generated_at": "2026-08-03T15:30:25.838214+00:00",
+    "migrated_at": "2026-08-03T15:30:25.839735+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "97d2105998f5aeed6203921b6af497444ea1a91e8136cbd6f9fa3932be35756c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_151226a43f7f6b072daa3d6b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:30:25.839944+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_151226a43f7f6b072daa3d6b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

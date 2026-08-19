@@ -1,0 +1,111 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:870.jpg",
+    "relative_path": "train/870.jpg",
+    "sha256": "481d01d2bbc13c70ee9adb1acf367a6de117bc32c783309ed9dc48d50d7a02e8",
+    "split": "train"
+  },
+  "canonical_sha256": "0b18b79c57fcbc51d9eba28727d43a9b06fa197eb3201ec48b4b6e789553fe33",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "男孩",
+      "街道",
+      "商铺",
+      "树木"
+    ],
+    "short_description": "一名男孩站在街边，背景是商铺和树木，街道上空有电线。",
+    "theme": "街巷日常"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面左侧有一名男孩站立，穿着白色T恤和黑色裤子。",
+      "街道两旁有建筑物，底层开设商铺，上方有窗户和防盗网。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "城市街道",
+    "subjects": [
+      "男孩"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面左侧有一名男孩站立，穿着白色T恤和黑色裤子；街道两旁有建筑物，底层开设商铺，上方有窗户和防盗网。",
+    "safe_facts": [
+      "画面左侧有一名男孩站立，穿着白色T恤和黑色裤子。",
+      "街道两旁有建筑物，底层开设商铺，上方有窗户和防盗网。"
+    ]
+  },
+  "label_id": "cpl_68de36cbb10ac31b52a230b9",
+  "provenance": {
+    "generated_at": "2026-08-03T12:40:17.833158+00:00",
+    "migrated_at": "2026-08-03T12:40:17.836491+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c3b21430654c005326b18f64e094164d0eebd3e45ddb0793d87ba9751cdd7ecf",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_752cf32150de9a667823180e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:40:17.836827+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_752cf32150de9a667823180e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

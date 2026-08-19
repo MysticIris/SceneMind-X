@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:273.jpg",
+    "relative_path": "train/273.jpg",
+    "sha256": "8fa3e15bbbf198b71b47c01716d7c0cd4fb62c4fb315eaae830bd51778dd8a78",
+    "split": "train"
+  },
+  "canonical_sha256": "d63dbe9f034810c8a699d5a73a2e29e8ada740fe071d3fee697e5269daa4fd58",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "野马",
+      "草原",
+      "对视",
+      "黄昏"
+    ],
+    "short_description": "两只棕褐色野马在草地上相对而立，背景是多云天空，毛发蓬松，姿态警觉。",
+    "theme": "草原上的野马"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能处于黄昏或黎明时段，因天空呈现粉紫色调。"
+    ],
+    "direct_observations": [
+      "两只动物均为棕褐色，带有黑色鬃毛和尾部。",
+      "地面覆盖着干枯的黄色草丛。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "棕褐色皮毛",
+      "黑色鬃毛",
+      "白色鼻梁",
+      "站立姿态"
+    ],
+    "relations": [
+      "两只野马面对面站立。"
+    ],
+    "scene": "开阔草地",
+    "subjects": [
+      "野马"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能处于黄昏或黎明时段，因天空呈现粉紫色调。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两只动物均为棕褐色，带有黑色鬃毛和尾部；地面覆盖着干枯的黄色草丛。",
+    "safe_facts": [
+      "两只动物均为棕褐色，带有黑色鬃毛和尾部。",
+      "地面覆盖着干枯的黄色草丛。"
+    ]
+  },
+  "label_id": "cpl_6ba671a26dc620adf7c06640",
+  "provenance": {
+    "generated_at": "2026-08-03T10:29:36.740740+00:00",
+    "migrated_at": "2026-08-03T10:29:36.743006+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5ac15115f8aa4bf58528d8d79e6a0b568f4ad464af09b958691938ccce9412d9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_abb317fb0104173cb21c949a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:29:36.743214+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_abb317fb0104173cb21c949a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

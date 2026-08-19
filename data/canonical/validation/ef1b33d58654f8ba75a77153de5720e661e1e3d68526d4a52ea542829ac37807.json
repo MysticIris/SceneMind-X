@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2245.jpg",
+    "relative_path": "val/2245.jpg",
+    "sha256": "ef1b33d58654f8ba75a77153de5720e661e1e3d68526d4a52ea542829ac37807",
+    "split": "val"
+  },
+  "canonical_sha256": "0095b41249c9da43964004dff56b5ebc5eee90191e174149ad50c1b1b14cada2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "林荫道",
+      "砖石步道",
+      "绿树成荫"
+    ],
+    "short_description": "一条铺砖小路蜿蜒穿过茂密树林，旁边是红色跑道，阳光透过树叶洒下斑驳光影。",
+    "theme": "林荫小径"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "步道与路面之间由低矮灌木丛分隔。"
+    ],
+    "direct_observations": [
+      "画面左侧为铺设整齐的灰色砖石步道。",
+      "画面右侧为红色沥青路面，边缘有黄色标线。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色树叶",
+      "灰色砖块",
+      "红色路面"
+    ],
+    "relations": [
+      "树木环绕步道。",
+      "灌木丛位于步道旁。"
+    ],
+    "scene": "林间小径",
+    "subjects": [
+      "树木",
+      "步道",
+      "灌木丛"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "步道与路面之间由低矮灌木丛分隔。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面左侧为铺设整齐的灰色砖石步道；画面右侧为红色沥青路面，边缘有黄色标线。",
+    "safe_facts": [
+      "画面左侧为铺设整齐的灰色砖石步道。",
+      "画面右侧为红色沥青路面，边缘有黄色标线。"
+    ]
+  },
+  "label_id": "cpl_cef216c26f049d1e2f6b01cc",
+  "provenance": {
+    "generated_at": "2026-08-03T16:17:28.156311+00:00",
+    "migrated_at": "2026-08-03T16:17:28.158020+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1355741f3a7e6aa9907d951652842b908786758f5f90b9c40c7a3ae58740d149",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2b3b083c96a9750a7764a05f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:17:28.158263+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2b3b083c96a9750a7764a05f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:749.jpg",
+    "relative_path": "train/749.jpg",
+    "sha256": "020e3090c70edaf48b3fbdc04887ba86f5b08869b5f73b92185c3ba75c81ec7d",
+    "split": "train"
+  },
+  "canonical_sha256": "343743655061289065ffb694073d81caba9df0b687fe56c4aee6dd0b7abe76a3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "毛绒玩具",
+      "抓娃娃机",
+      "棕色小狗"
+    ],
+    "short_description": "一只手拿着一只棕白相间的毛绒小狗，背景是装满同类玩偶的抓娃娃机。",
+    "theme": "抓娃娃机前的毛绒玩具"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "前景中有一只棕白相间的毛绒小狗被手持着。",
+      "背景是一个装满类似玩偶的机器，具有多层货架结构。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "棕白相间",
+      "柔软材质",
+      "黑色鼻子",
+      "粉色爪垫"
+    ],
+    "relations": [
+      "手持有毛绒小狗。"
+    ],
+    "scene": "抓娃娃机前",
+    "subjects": [
+      "毛绒小狗",
+      "手"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "前景中有一只棕白相间的毛绒小狗被手持着；背景是一个装满类似玩偶的机器，具有多层货架结构。",
+    "safe_facts": [
+      "前景中有一只棕白相间的毛绒小狗被手持着。",
+      "背景是一个装满类似玩偶的机器，具有多层货架结构。"
+    ]
+  },
+  "label_id": "cpl_74c58602bf1313c4b0a1284f",
+  "provenance": {
+    "generated_at": "2026-08-03T12:14:58.884243+00:00",
+    "migrated_at": "2026-08-03T12:14:58.887200+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e5612f3ee16faf92676a35f1d076cfd0f6adab6c26e88428f52e91f26dd5bceb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8f8242037b6a7b192cd4a6f8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:14:58.887540+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8f8242037b6a7b192cd4a6f8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

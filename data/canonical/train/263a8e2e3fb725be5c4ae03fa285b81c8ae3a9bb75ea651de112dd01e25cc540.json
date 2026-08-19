@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1694.jpg",
+    "relative_path": "train/1694.jpg",
+    "sha256": "263a8e2e3fb725be5c4ae03fa285b81c8ae3a9bb75ea651de112dd01e25cc540",
+    "split": "train"
+  },
+  "canonical_sha256": "2a56a3925a35db8ab73900b154d89eeaa56143a3c8795fa2f69b177843569bbf",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石碑",
+      "红色题字",
+      "户外景观"
+    ],
+    "short_description": "一块刻有红色汉字的巨石立于绿植丛中，周围环境自然，石面粗糙，背景有树木和部分游乐设施结构。",
+    "theme": "石碑题字"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一块大型灰色岩石上刻有红色汉字。",
+      "岩石周围环绕着绿色灌木和草本植物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "石碑表面粗糙",
+      "题字为红色",
+      "周围有绿色植被"
+    ],
+    "relations": [
+      "石碑位于植物之间。"
+    ],
+    "scene": "户外园林或公园",
+    "subjects": [
+      "石碑",
+      "植物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一块大型灰色岩石上刻有红色汉字；岩石周围环绕着绿色灌木和草本植物。",
+    "safe_facts": [
+      "一块大型灰色岩石上刻有红色汉字。",
+      "岩石周围环绕着绿色灌木和草本植物。"
+    ]
+  },
+  "label_id": "cpl_a423a23311f3f72d7231617e",
+  "provenance": {
+    "generated_at": "2026-08-03T14:54:57.855441+00:00",
+    "migrated_at": "2026-08-03T14:54:57.856987+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "91ff5d598ca455b52ff335770c43afa8338140ec5cb8ccbee341f0fa819c6308",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fa98e990ca60c94cc6cd0ef5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:54:57.857205+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fa98e990ca60c94cc6cd0ef5"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "朱碑亭",
+      "郭沫若"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "朱碑亭",
+      "郭沫若"
+    ]
+  }
+}

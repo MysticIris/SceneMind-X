@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:549.jpg",
+    "relative_path": "train/549.jpg",
+    "sha256": "4aa5010046c7d6bccc49e5da965bcb51e84f05c1cb78d577b28e5b60fef14e95",
+    "split": "train"
+  },
+  "canonical_sha256": "1e81d27cefe6fc490382d2eab494c0f7bcf9402bf189c9c6233abb12efe032f4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市街道",
+      "建筑入口",
+      "施工围挡",
+      "电动车"
+    ],
+    "short_description": "城市街道旁一栋建筑入口处有施工围挡，行人和电动车穿行，路边停有多辆汽车。",
+    "theme": "城市街景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见多辆汽车和电动车在街道上行驶或停放。",
+      "建筑入口处设有蓝色施工围挡和绿色防护网。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "骑行",
+      "站立",
+      "停放"
+    ],
+    "attributes": [
+      "多层建筑",
+      "蓝色围挡",
+      "限高标志",
+      "单行道禁入标志"
+    ],
+    "relations": [
+      "行人与电动车在道路上移动。",
+      "汽车停放在路边。",
+      "建筑位于街道一侧。"
+    ],
+    "scene": "城市街道",
+    "subjects": [
+      "行人",
+      "电动车",
+      "汽车",
+      "建筑",
+      "施工围挡"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见多辆汽车和电动车在街道上行驶或停放；建筑入口处设有蓝色施工围挡和绿色防护网。",
+    "safe_facts": [
+      "画面中可见多辆汽车和电动车在街道上行驶或停放。",
+      "建筑入口处设有蓝色施工围挡和绿色防护网。"
+    ]
+  },
+  "label_id": "cpl_a64515840a483501cd3c5906",
+  "provenance": {
+    "generated_at": "2026-08-03T11:30:42.021076+00:00",
+    "migrated_at": "2026-08-03T11:30:42.023589+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "908738bfed18a392c1b9c1795404c28fe0095ad6a04601e80e69a6bd60cfa76a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e100ad7a7991e2a80dce2c1b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:30:42.023824+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e100ad7a7991e2a80dce2c1b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

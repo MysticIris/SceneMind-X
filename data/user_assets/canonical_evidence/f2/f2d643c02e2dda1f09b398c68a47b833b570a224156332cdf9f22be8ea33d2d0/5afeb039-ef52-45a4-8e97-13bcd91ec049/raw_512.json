@@ -1,0 +1,129 @@
+{
+  "asset_id": "f2d643c02e2dda1f",
+  "asset_sha256": "f2d643c02e2dda1f09b398c68a47b833b570a224156332cdf9f22be8ea33d2d0",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"深度学习网络架构图\",\n    \"short_description\": \"这是一张展示复杂神经网络模型架构的技术示意图。图中包含编码器、掩码解码器、复数解码器以及TS-Conformer模块的详细结构，使用了不同颜色的方块代表卷积、归一化等层，并通过箭头表示数据流向。\",\n    \"micro_tags\": [\n      \"神经网络\",\n      \"架构图\",\n      \"深度学习\",\n      \"Conformer\",\n      \"信号处理\",\n      \"技术图表\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"illustration\",\n    \"scene\": \"技术文档或论文插图\",\n    \"subjects\": [\n      \"网络结构框图\",\n      \"数学符号与公式\",\n      \"图例说明\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"彩色编码\",\n      \"模块化设计\",\n      \"流程导向\",\n      \"多层级结构\"\n    ],\n    \"relations\": [\n      \"顶部图例定义了不同颜色方块代表的操作类型（如Conv, Layer Norm）\",\n      \"左侧展示了从Encoder到Mask Decoder再到Complex Decoder的数据处理流程\",\n      \"右侧详细展开了TS-Conformer内部子模块（如FFNN, MHSA）的结构\",\n      \"右下角展示了Metric discriminator的评分机制\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图像顶部有一排图例，用橙色、粉色、蓝色、棕色等色块分别代表Conv、Instance Norm、Dilated Conv等组件。\",\n      \"左侧主图分为Encoder、Mask Decoder和Complex Decoder三个主要部分，内部包含堆叠的立方体结构。\",\n      \"右侧上方有一个标有'TS-Conformer'的黄色框，内部包含Conformer-Time和Conformer-Freq模块。\",\n      \"图中广泛使用箭头连接各个模块，表示信号的传递方向。\"\n    ],\n    \"cautious_inferences\": [\n      \"该图可能出自一篇关于语音增强、音频分离或相关信号处理领域的学术论文。\",\n      \"图中的'BxTxFxC'等符号可能代表批大小、时间、频率和通道数等张量维度。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"Encoder\",\n      \"Mask Decoder\",\n      \"Complex Decoder\",\n      \"TS-Conformer\",\n      \"Dilated DenseNet\",\n      \"Conformer-Time\",\n      \"Conformer-Freq\",\n      \"Metric discriminator\",\n      \"ISTFT\",\n      \"Conv.\",\n      \"Layer Norm.\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张详细的计算机科学领域神经网络架构流程图，展示了多个处理模块及其内部组件的连接关系。\",\n    \"safe_facts\": [\n      \"图像由多个几何形状（主要是长方体）组成，代表不同的计算层。\",\n      \"不同颜色的形状区分了不同的功能单元。\",\n      \"线条和箭头指示了信息流动的路径。\",\n      \"图像布局分为左右两大部分，左侧为宏观流程，右侧为微观模块细节。\"\n    ]\n  }\n}",
+      "input_tokens": 1872,
+      "output_tokens": 743,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 1872,
+        "output_tokens": 743,
+        "total_tokens": 2615,
+        "estimated_cost_cny": 0.009688,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "深度学习网络架构图",
+          "short_description": "这是一张展示复杂神经网络模型架构的技术示意图。图中包含编码器、掩码解码器、复数解码器以及TS-Conformer模块的详细结构，使用了不同颜色的方块代表卷积、归一化等层，并通过箭头表示数据流向。",
+          "micro_tags": [
+            "神经网络",
+            "架构图",
+            "深度学习",
+            "Conformer",
+            "信号处理",
+            "技术图表"
+          ]
+        },
+        "facts": {
+          "visual_medium": "illustration",
+          "scene": "技术文档或论文插图",
+          "subjects": [
+            "网络结构框图",
+            "数学符号与公式",
+            "图例说明"
+          ],
+          "actions": [],
+          "attributes": [
+            "彩色编码",
+            "模块化设计",
+            "流程导向",
+            "多层级结构"
+          ],
+          "relations": [
+            "顶部图例定义了不同颜色方块代表的操作类型（如Conv, Layer Norm）",
+            "左侧展示了从Encoder到Mask Decoder再到Complex Decoder的数据处理流程",
+            "右侧详细展开了TS-Conformer内部子模块（如FFNN, MHSA）的结构",
+            "右下角展示了Metric discriminator的评分机制"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图像顶部有一排图例，用橙色、粉色、蓝色、棕色等色块分别代表Conv、Instance Norm、Dilated Conv等组件。",
+            "左侧主图分为Encoder、Mask Decoder和Complex Decoder三个主要部分，内部包含堆叠的立方体结构。",
+            "右侧上方有一个标有'TS-Conformer'的黄色框，内部包含Conformer-Time和Conformer-Freq模块。",
+            "图中广泛使用箭头连接各个模块，表示信号的传递方向。"
+          ],
+          "cautious_inferences": [
+            "该图可能出自一篇关于语音增强、音频分离或相关信号处理领域的学术论文。",
+            "图中的'BxTxFxC'等符号可能代表批大小、时间、频率和通道数等张量维度。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "Encoder",
+            "Mask Decoder",
+            "Complex Decoder",
+            "TS-Conformer",
+            "Dilated DenseNet",
+            "Conformer-Time",
+            "Conformer-Freq",
+            "Metric discriminator",
+            "ISTFT",
+            "Conv.",
+            "Layer Norm."
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张详细的计算机科学领域神经网络架构流程图，展示了多个处理模块及其内部组件的连接关系。",
+          "safe_facts": [
+            "图像由多个几何形状（主要是长方体）组成，代表不同的计算层。",
+            "不同颜色的形状区分了不同的功能单元。",
+            "线条和箭头指示了信息流动的路径。",
+            "图像布局分为左右两大部分，左侧为宏观流程，右侧为微观模块细节。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 486284,
+        "request_bytes": 361639,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.922007300003315,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "2461619a27d99b53e5167b94bb1d0aada5696a024bcd7847774505f302b14897"
+}

@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:205.jpg",
+    "relative_path": "train/205.jpg",
+    "sha256": "026e020a5202d4a3d4253e430940630a51dc80bb307df16e3c998e7ede88d44d",
+    "split": "train"
+  },
+  "canonical_sha256": "a1b5b07f11c7503f4b2dabd1cbdc81b55033d4df1718e13ca6f142b00cdc2eaf",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "现代建筑",
+      "弧形玻璃窗",
+      "灌木丛"
+    ],
+    "short_description": "一座现代风格建筑，外墙为浅灰色面板，顶部有弧形玻璃窗，前方有铺装道路和修剪整齐的灌木丛。",
+    "theme": "现代建筑外观"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑物外墙由浅灰色矩形面板构成。",
+      "建筑物顶部有弧形玻璃窗结构。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "浅灰色外墙",
+      "弧形玻璃窗",
+      "修剪整齐的灌木",
+      "铺装路面"
+    ],
+    "relations": [
+      "灌木丛位于建筑物前方。",
+      "树木位于建筑物左侧。"
+    ],
+    "scene": "户外建筑前的铺装路径",
+    "subjects": [
+      "建筑物",
+      "灌木丛",
+      "树木",
+      "人行道"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑物外墙由浅灰色矩形面板构成；建筑物顶部有弧形玻璃窗结构。",
+    "safe_facts": [
+      "建筑物外墙由浅灰色矩形面板构成。",
+      "建筑物顶部有弧形玻璃窗结构。"
+    ]
+  },
+  "label_id": "cpl_0de152ea02514a3e5f4664b0",
+  "provenance": {
+    "generated_at": "2026-08-03T10:16:27.950457+00:00",
+    "migrated_at": "2026-08-03T10:16:27.952494+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "89d64ccfe3296b7e947e74042372f63860cbeae81807d4b4ecab50b386dc5dec",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_395f23fc37f30ba2f3c64e7d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:16:27.952700+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_395f23fc37f30ba2f3c64e7d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

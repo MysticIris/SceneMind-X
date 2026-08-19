@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:482.jpg",
+    "relative_path": "train/482.jpg",
+    "sha256": "12b4b9224448722cdbb91d48b82cc4dd9363bac29e764418cd703e3eb2e800e6",
+    "split": "train"
+  },
+  "canonical_sha256": "3fc2b7c739fbba2ebaf618079b28322855d43669b122571c5d2a07d9af9321c8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "彩色小鸟",
+      "栖息树枝",
+      "森林环境"
+    ],
+    "short_description": "一只色彩鲜艳的小鸟栖息在细枝上，头部翠绿，喉部鲜红，身体呈粉白相间，背景为模糊的绿色植物。",
+    "theme": "绿背小鸟栖枝"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "小鸟头部覆盖翠绿色羽毛。",
+      "小鸟腹部羽毛呈粉白色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "头部翠绿色",
+      "喉部红色",
+      "身体粉白色",
+      "尾羽深色"
+    ],
+    "relations": [
+      "小鸟栖息在树枝上。"
+    ],
+    "scene": "自然林地",
+    "subjects": [
+      "一只小鸟"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "小鸟头部覆盖翠绿色羽毛；小鸟腹部羽毛呈粉白色。",
+    "safe_facts": [
+      "小鸟头部覆盖翠绿色羽毛。",
+      "小鸟腹部羽毛呈粉白色。"
+    ]
+  },
+  "label_id": "cpl_3ee75a0aa6960d420aa85ce4",
+  "provenance": {
+    "generated_at": "2026-08-03T11:12:38.269620+00:00",
+    "migrated_at": "2026-08-03T11:12:38.271560+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "33be78ecc02b7db2d151c87db062120dd08de102491f94392e863d5c07625bb6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c43ac8a63e549aeb223a723b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:12:38.271749+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c43ac8a63e549aeb223a723b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

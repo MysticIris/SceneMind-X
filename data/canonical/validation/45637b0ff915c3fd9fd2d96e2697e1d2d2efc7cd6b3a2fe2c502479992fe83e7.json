@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2053.jpg",
+    "relative_path": "val/2053.jpg",
+    "sha256": "45637b0ff915c3fd9fd2d96e2697e1d2d2efc7cd6b3a2fe2c502479992fe83e7",
+    "split": "val"
+  },
+  "canonical_sha256": "1b858aa61e5071f04619bbc4b38c88fc894c2802b0b1ec3044af39031be642a3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "羊驼",
+      "棕色",
+      "街道",
+      "被牵着"
+    ],
+    "short_description": "一只棕色羊驼站在人行道上，被绳子牵着，背景是商店和行人。",
+    "theme": "街边毛茸茸动物"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "羊驼站立在铺砌的人行道上。",
+      "羊驼身上系有一条黑白相间的绳子。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "棕色毛发",
+      "被绳子牵着"
+    ],
+    "relations": [
+      "羊驼位于人行道上。"
+    ],
+    "scene": "城市人行道",
+    "subjects": [
+      "一只羊驼"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "羊驼站立在铺砌的人行道上；羊驼身上系有一条黑白相间的绳子。",
+    "safe_facts": [
+      "羊驼站立在铺砌的人行道上。",
+      "羊驼身上系有一条黑白相间的绳子。"
+    ]
+  },
+  "label_id": "cpl_2ad9d7eb7bfe77eb2e014170",
+  "provenance": {
+    "generated_at": "2026-08-03T15:52:54.093946+00:00",
+    "migrated_at": "2026-08-03T15:52:54.095679+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b3782e82ad312c7e28553c6c8c7ed2bfde4b008dd385cc4cc5c69e7237a42ba5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_98d3895188b724f276a4522d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:52:54.095867+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_98d3895188b724f276a4522d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

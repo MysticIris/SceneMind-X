@@ -1,0 +1,128 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_e4cdb97529ecaad2a94b0da9",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_ae9b05d3984b5d487e5e7ae7"
+  ],
+  "asset": {
+    "asset_id": "fc4042119b352e3c",
+    "sha256": "fc4042119b352e3c76e5283e3e69f992b4b6cc0283c884ade0908904921e67eb",
+    "split": "user_custom",
+    "relative_path": "user_assets/fc/fc4042119b352e3c76e5283e3e69f992b4b6cc0283c884ade0908904921e67eb/fc4042119b352e3c76e5283e3e69f992b4b6cc0283c884ade0908904921e67eb.jpg"
+  },
+  "display": {
+    "theme": "课堂投影课后作业",
+    "short_description": "这是一张拍摄于教室环境的投影屏幕照片。屏幕上显示着“课后作业”的标题，包含两道关于心理词典和ChatGPT训练流程的问答题，以及提交PDF电子版的具体要求、邮箱地址和截止日期。",
+    "micro_tags": [
+      "课后作业",
+      "投影屏幕",
+      "教学课件",
+      "ChatGPT",
+      "心理词典",
+      "中文文本"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "教室或讲座现场",
+    "subjects": [
+      "投影幕布",
+      "演示文稿幻灯片"
+    ],
+    "actions": [],
+    "attributes": [
+      "白底黑字",
+      "右上角有校徽标志",
+      "包含编号列表"
+    ],
+    "relations": []
+  },
+  "evidence": {
+    "direct_observations": [
+      "屏幕左上角可见标题“课后作业”，右上角有一个圆形的机构徽章图案。",
+      "正文分为两个主要问题部分，分别标有(1)和(2)，涉及学术概念。"
+    ],
+    "cautious_inferences": [
+      "拍摄角度略微仰视，符合学生在座位拍摄前方屏幕的特征。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "课后作业",
+      "要求: (1) PDF电子版(封面附手写的电子签名)以班级为单位提交至27191"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "课后作业",
+      "要求: (1) PDF电子版(封面附手写的电子签名)以班级为单位提交至27191"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "屏幕左上角可见标题“课后作业”，右上角有一个圆形的机构徽章图案；正文分为两个主要问题部分，分别标有(1)和(2)，涉及学术概念。",
+    "safe_facts": [
+      "屏幕左上角可见标题“课后作业”，右上角有一个圆形的机构徽章图案。",
+      "正文分为两个主要问题部分，分别标有(1)和(2)，涉及学术概念。"
+    ],
+    "do_not_assert": [
+      "拍摄角度略微仰视，符合学生在座位拍摄前方屏幕的特征。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_e80adca4-7d2a-4c62-b228-46c6a234dfb3",
+    "generated_at": "2026-08-12T03:06:38.996043+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "1e86222e858857d3a98ba42c82730201f353384b5cef8c1c5d857cb261a49ce7",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:06:38.996711+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_ae9b05d3984b5d487e5e7ae7",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:06:38.997039+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "42125ba324c22a53005a22917dc716c9e5798afc4b399783679c117814514192"
+}

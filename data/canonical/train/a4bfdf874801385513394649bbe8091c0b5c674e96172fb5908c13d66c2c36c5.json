@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:258.jpg",
+    "relative_path": "train/258.jpg",
+    "sha256": "a4bfdf874801385513394649bbe8091c0b5c674e96172fb5908c13d66c2c36c5",
+    "split": "train"
+  },
+  "canonical_sha256": "7f110c9be30d59f44415f5a01b6de0fab7471246b0f0e72a4a46795408772f33",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "机场大厅",
+      "服务柜台",
+      "旅客排队"
+    ],
+    "short_description": "扬州泰州机场航站楼内，多个服务柜台排列整齐，上方悬挂标牌，地面光洁反光，有旅客在排队等候。",
+    "theme": "机场大厅柜台区"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天花板呈菱形网格状结构。",
+      "地面为光亮瓷砖并反射出上方物体。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "光滑反光地面",
+      "几何图案天花板",
+      "红色装饰布幔"
+    ],
+    "relations": [],
+    "scene": "机场航站楼大厅",
+    "subjects": [
+      "旅客",
+      "服务柜台",
+      "天花板结构",
+      "电子显示屏"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天花板呈菱形网格状结构；地面为光亮瓷砖并反射出上方物体。",
+    "safe_facts": [
+      "天花板呈菱形网格状结构。",
+      "地面为光亮瓷砖并反射出上方物体。"
+    ]
+  },
+  "label_id": "cpl_3741225db942c003404c1d7f",
+  "provenance": {
+    "generated_at": "2026-08-03T10:26:31.693430+00:00",
+    "migrated_at": "2026-08-03T10:26:31.695172+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "966cf81207885ba3ae832662f7eb23da1c98c941ba294d775f5dbb6a6781804d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f9dceca965d6a96d22e3001b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:26:31.695385+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f9dceca965d6a96d22e3001b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

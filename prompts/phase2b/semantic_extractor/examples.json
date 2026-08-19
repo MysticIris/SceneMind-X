@@ -1,0 +1,36 @@
+[
+  {
+    "image_id": "1984.jpg",
+    "split": "train",
+    "sha256": "8199fa2e75b576d035124cd087d7db5a2b2305a9a9a8ccea4877c69e8094e53b",
+    "visual_medium": "presentation_slide",
+    "output": {
+      "depicted_content": "英文课件总结空气污染、疾病与历史烟雾事件。",
+      "scene_summary": "一页带英文标题和正文的课堂幻灯片。",
+      "subjects": ["课件标题", "英文正文"],
+      "activities": [],
+      "relationships": ["标题位于正文上方"],
+      "visible_text_candidates": ["Improved summary 2", "air pollution"],
+      "observations": ["画面具有标题栏和正文区的幻灯片版式。", "正文为多行英文，局部有反光。"],
+      "inference_candidates": ["这可能是一页课堂课件。"],
+      "uncertainties": ["部分英文段落无法可靠逐字转写。"]
+    }
+  },
+  {
+    "image_id": "1631.jpg",
+    "split": "train",
+    "sha256": "00121a1ec7bb1a0a947bfed3189e0b6a798bce33a7745bacbd218c1ebcebaebb",
+    "visual_medium": "real_world_photo",
+    "output": {
+      "depicted_content": "透明卡套内有黑底白色动物图案。",
+      "scene_summary": "双手拿着一张带图案和模糊文字的卡片。",
+      "subjects": ["双手", "透明卡套", "黑底白色图案"],
+      "activities": ["双手拿着卡片"],
+      "relationships": ["黑底白色图案位于卡片中央"],
+      "visible_text_candidates": [],
+      "observations": ["双手拿着透明卡套。", "卡片中央有黑底白色动物图案。", "卡片文字区域模糊并有反光。"],
+      "inference_candidates": [],
+      "uncertainties": ["无法确认卡片文字内容。"]
+    }
+  }
+]

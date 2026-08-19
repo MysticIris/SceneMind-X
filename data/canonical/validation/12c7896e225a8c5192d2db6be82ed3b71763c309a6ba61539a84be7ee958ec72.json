@@ -1,0 +1,114 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2121.jpg",
+    "relative_path": "val/2121.jpg",
+    "sha256": "12c7896e225a8c5192d2db6be82ed3b71763c309a6ba61539a84be7ee958ec72",
+    "split": "val"
+  },
+  "canonical_sha256": "ecf2bd7213aa5ffa057bae1d830f19324fc5afb51b7cf2c84ff6d58d1cc26479",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "水母",
+      "深蓝背景",
+      "透明生物"
+    ],
+    "short_description": "深蓝色水域中多只透明水母缓慢游动，形态各异，光影柔和。",
+    "theme": "水母漂浮"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多个半透明水母状生物悬浮于深蓝色液体中。",
+      "部分水母呈现圆形或椭圆形轮廓，内部有隐约结构。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "透明",
+      "发光",
+      "漂浮"
+    ],
+    "relations": [],
+    "scene": "深蓝色水体环境",
+    "subjects": [
+      "水母"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个半透明水母状生物悬浮于深蓝色液体中；部分水母呈现圆形或椭圆形轮廓，内部有隐约结构。",
+    "safe_facts": [
+      "画面中有多个半透明水母状生物悬浮于深蓝色液体中。",
+      "部分水母呈现圆形或椭圆形轮廓，内部有隐约结构。"
+    ]
+  },
+  "label_id": "cpl_de72b6ff7cce2c0304f5d82a",
+  "provenance": {
+    "generated_at": "2026-08-03T16:01:56.410480+00:00",
+    "migrated_at": "2026-08-03T16:01:56.411948+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dda767fca865f0f5fd234a5c984b9103ae4b7ba20fc0d117ff310d8131b34070",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0a031d24a9cc5c6afcec0efe",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:01:56.412146+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0a031d24a9cc5c6afcec0efe"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

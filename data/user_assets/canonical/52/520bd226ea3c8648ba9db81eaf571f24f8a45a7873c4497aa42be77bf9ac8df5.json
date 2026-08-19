@@ -1,0 +1,144 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_8ccaea9a2cba66358618dedd",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_5ed9d5db1b0ee3d46f9d1fee"
+  ],
+  "asset": {
+    "asset_id": "520bd226ea3c8648",
+    "sha256": "520bd226ea3c8648ba9db81eaf571f24f8a45a7873c4497aa42be77bf9ac8df5",
+    "split": "user_custom",
+    "relative_path": "user_assets/52/520bd226ea3c8648ba9db81eaf571f24f8a45a7873c4497aa42be77bf9ac8df5/520bd226ea3c8648ba9db81eaf571f24f8a45a7873c4497aa42be77bf9ac8df5.jpg"
+  },
+  "display": {
+    "theme": "课堂投影作业说明",
+    "short_description": "教室内投影幕布显示一份摄影作业要求，列出了拍摄五张不同照片的具体标准，右侧配有一张人物示例图，底部可见大学校名标识。",
+    "micro_tags": [
+      "投影幕布",
+      "作业要求",
+      "教室场景",
+      "摄影课程",
+      "幻灯片"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "教室或 lecture hall",
+    "subjects": [
+      "投影幕布",
+      "幻灯片内容",
+      "左下角的人物头部"
+    ],
+    "actions": [
+      "展示",
+      "投影"
+    ],
+    "attributes": [
+      "白底黑字",
+      "列表格式",
+      "包含示例图片",
+      "顶部有投影仪设备"
+    ],
+    "relations": [
+      "幕布悬挂于黑板前方。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "幻灯片左侧列出了多条关于拍摄照片的要求文本。",
+      "幻灯片右侧展示了一张垂直构图的人物照片作为示例。",
+      "幕布上方天花板悬挂着黑色的投影仪设备。",
+      "画面左下角可见一名男子的部分头部和肩部。"
+    ],
+    "cautious_inferences": [
+      "屏幕上的内容是老师布置给学生的课后练习。"
+    ],
+    "uncertainties": [
+      "无法确定拍摄该照片的具体日期和时间。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "要有明确的前景和背景(不能只有景色)",
+      "背景或前景本身有深度变化",
+      "前景和背景之间有明显深度差异",
+      "运用至少一种构图规则"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "要有明确的前景和背景(不能只有景色)",
+      "背景或前景本身有深度变化",
+      "前景和背景之间有明显深度差异",
+      "运用至少一种构图规则"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "幻灯片左侧列出了多条关于拍摄照片的要求文本；幻灯片右侧展示了一张垂直构图的人物照片作为示例。",
+    "safe_facts": [
+      "幻灯片左侧列出了多条关于拍摄照片的要求文本。",
+      "幻灯片右侧展示了一张垂直构图的人物照片作为示例。",
+      "幕布上方天花板悬挂着黑色的投影仪设备。"
+    ],
+    "do_not_assert": [
+      "屏幕上的内容是老师布置给学生的课后练习。",
+      "无法确定拍摄该照片的具体日期和时间。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_5c198262-68b6-462f-8ef3-6bc23b0b1012",
+    "generated_at": "2026-08-12T03:01:24.611700+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "92e43fb8ab345e2d748168a373e5b54e842481b3e3b1bae1722db97554a64206",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:01:24.612712+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_5ed9d5db1b0ee3d46f9d1fee",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:01:24.613271+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "eed66af8367556729b74fb80769d3667180d8424cd0e8e2f0eb8f8dc6abfb53a"
+}

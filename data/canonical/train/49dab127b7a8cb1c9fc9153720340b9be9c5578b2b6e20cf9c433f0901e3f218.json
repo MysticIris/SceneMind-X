@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:2.jpg",
+    "relative_path": "train/2.jpg",
+    "sha256": "49dab127b7a8cb1c9fc9153720340b9be9c5578b2b6e20cf9c433f0901e3f218",
+    "split": "train"
+  },
+  "canonical_sha256": "0a2e78f0ace48142918e26b22f5a9e3e92937ddbd594e8d1fb0f283ee10a9ca8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "打蛋",
+      "生菜",
+      "街头小吃"
+    ],
+    "short_description": "厨师正在热锅上打鸡蛋，旁边放着生菜和肉末，蒸汽弥漫，呈现街头美食制作场景。",
+    "theme": "街头小吃制作"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一只手正用勺子将鸡蛋打入热锅中。",
+      "托盘上有未凝固的蛋液和蛋黄。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "打鸡蛋",
+      "准备食材"
+    ],
+    "attributes": [
+      "蒸汽弥漫",
+      "手套",
+      "金属托盘"
+    ],
+    "relations": [
+      "手正在打鸡蛋。",
+      "鸡蛋在托盘上。",
+      "生菜在滤篮中。",
+      "肉末在容器内。"
+    ],
+    "scene": "厨房操作台",
+    "subjects": [
+      "厨师的手",
+      "鸡蛋",
+      "生菜",
+      "肉末",
+      "蒸气"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只手正用勺子将鸡蛋打入热锅中；托盘上有未凝固的蛋液和蛋黄。",
+    "safe_facts": [
+      "一只手正用勺子将鸡蛋打入热锅中。",
+      "托盘上有未凝固的蛋液和蛋黄。"
+    ]
+  },
+  "label_id": "cpl_86e4170fcc47b9b02e0c2788",
+  "provenance": {
+    "generated_at": "2026-08-03T09:01:50.326971+00:00",
+    "migrated_at": "2026-08-03T09:01:50.329202+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f82aae4416afe36f4f0c93d983dfca73e06165d3b185f2a88d8bb374a27eaa11",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_308b079b8434a5c44c2608f7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:25.276974+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_308b079b8434a5c44c2608f7",
+    "cpl_36bd7775b39bcd9f35a7c98a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

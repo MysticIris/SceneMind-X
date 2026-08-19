@@ -1,0 +1,66 @@
+{
+  "asset_id": "c5510081c933b70e",
+  "asset_sha256": "c5510081c933b70e28ef290af43c846e43c6433f9071fe2be95b57d6a9303b73",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"留学申请方案列表\",\n    \"short_description\": \"这是一张手机应用截图，展示了名为“指南者留学”的界面。页面列出了宾夕法尼亚大学、约翰霍普金斯大学、哥伦比亚大学等多所名校的硕士项目详情，包含QS排名、学费及入学时间，底部设有咨询顾问联系方式。\",\n    \"micro_tags\": [\n      \"留学申请\",\n      \"硕士项目\",\n      \"大学排名\",\n      \"学费信息\",\n      \"手机截图\",\n      \"教育咨询\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端应用程序界面\",\n    \"subjects\": [\n      \"留学方案列表\",\n      \"大学校徽\",\n      \"项目信息文本\",\n      \"底部操作栏\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白底蓝头设计\",\n      \"列表式布局\",\n      \"包含QS排名标签\",\n      \"显示美元金额\",\n      \"底部有橙色和蓝色按钮\"\n    ],\n    \"relations\": [\n      \"每个列表项左侧为校徽，右侧为学校名称及专业信息\",\n      \"底部悬浮栏包含顾问头像及联系按钮\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕顶部标题显示为“指南者留学”，下方有两个选项卡“方案详情”和“专业对比”。\",\n      \"列表中包含宾夕法尼亚大学（QS第15名）、约翰霍普金斯大学（QS第24名）、哥伦比亚大学（QS第38名）等条目。\",\n      \"部分条目显示了具体学费，如“75,420美元”、“60,480美元”或按学分/学期计费。\",\n      \"底部有一个圆形女性头像，旁边写着“单如雪 金牌咨询顾问老师”，以及“加微信”和“打电话”按钮。\"\n    ],\n    \"cautious_inferences\": [\n      \"这是一个用于查询和对比海外研究生项目的工具类应用界面。\",\n      \"用户可能正在查看或规划2027年秋季入学的留学方案。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"指南者留学\",\n      \"方案详情\",\n      \"专业对比\",\n      \"宾夕法尼亚大学\",\n      \"机器人学硕士\",\n      \"QS第15名\",\n      \"项目学费 75,420美元\",\n      \"2027秋\",\n      \"约翰霍普金斯大学\",\n      \"QS第24名\",\n      \"哥伦比亚大学\",\n      \"人工智能硕士\",\n      \"杜克大学\",\n      \"南加州大学\",\n      \"单如雪\",\n      \"金牌咨询顾问老师\",\n      \"加微信\",\n      \"打电话\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张展示多所大学硕士项目信息的手机应用列表界面截图，包含学校标志、排名标签、费用数据及底部的咨询联系入口。\",\n    \"safe_facts\": [\n      \"界面采用垂直列表布局展示多个条目\",\n      \"每个条目包含图标、标题文本和辅助数据\",",
+      "input_tokens": 3227,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 768,
+        "total_tokens": 3995,
+        "estimated_cost_cny": 0.012598,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "留学申请方案列表",
+        "short_description": "这是一张手机应用截图，展示了名为“指南者留学”的界面。页面列出了宾夕法尼亚大学、约翰霍普金斯大学、哥伦比亚大学等多所名校的硕士项目详情，包含QS排名、学费及入学时间，底部设有咨询顾问联系方式。",
+        "micro_tags": [
+          "留学申请",
+          "硕士项目",
+          "大学排名",
+          "学费信息",
+          "手机截图",
+          "教育咨询"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 966312,
+        "request_bytes": 721660,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.489537099994777,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "2f83ed971a4c7d255c5ab41fa9c6f56768c25630edf62b8a034e512036a3aa13"
+}

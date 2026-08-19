@@ -1,0 +1,148 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_e5531c1b8d5c746063063678",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_3f043a731c1396f926dcfb9e"
+  ],
+  "asset": {
+    "asset_id": "6fd19e182ff3802d",
+    "sha256": "6fd19e182ff3802d989d077eca57dce17525ffac2f04f9898fea2c14a4b68c1d",
+    "split": "user_custom",
+    "relative_path": "user_assets/6f/6fd19e182ff3802d989d077eca57dce17525ffac2f04f9898fea2c14a4b68c1d/6fd19e182ff3802d989d077eca57dce17525ffac2f04f9898fea2c14a4b68c1d.png"
+  },
+  "display": {
+    "theme": "游戏排行榜界面截图",
+    "short_description": "这是一张手机游戏的活动界面截图，展示了“吉星排行榜”的实时地区排名。画面左侧有粉衣女性角色和Q版精灵形象，右侧列表显示了前几名玩家的头像、昵称及积分，底部高亮显示了当前用户的排名与分数。",
+    "micro_tags": [
+      "游戏UI",
+      "排行榜",
+      "二次元角色",
+      "积分排名",
+      "手机截图"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "手机游戏活动界面",
+    "subjects": [
+      "粉发女性3D角色",
+      "Q版绿色头发精灵",
+      "排行榜列表",
+      "玩家头像"
+    ],
+    "actions": [
+      "角色摆出舞蹈或展示姿势",
+      "界面展示排名数据"
+    ],
+    "attributes": [
+      "暖色调背景",
+      "光效粒子",
+      "UI布局清晰",
+      "包含数字与图标"
+    ],
+    "relations": [
+      "角色位于界面左侧前景。",
+      "排行榜位于界面右侧。",
+      "当前用户信息位于列表底部高亮框内。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "界面顶部显示标题文字及日期范围02.14-02.21。",
+      "右侧列表包含带有数字1至4的排名徽章及对应的玩家头像和数值。",
+      "底部有一个高亮显示的条目，标注了排名1749和数值19138。",
+      "左侧站立着一个穿着粉色服装的女性角色和一个漂浮的Q版小精灵。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法确定具体的游戏名称。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "吉星排行榜",
+      "02.14-02.21",
+      "神秘玩家",
+      "最喜欢小兴啦",
+      "19138",
+      "1749"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "吉星排行榜",
+      "02.14-02.21",
+      "神秘玩家",
+      "最喜欢小兴啦",
+      "19138",
+      "1749"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "界面顶部显示标题文字及日期范围02.14-02.21；右侧列表包含带有数字1至4的排名徽章及对应的玩家头像和数值。",
+    "safe_facts": [
+      "界面顶部显示标题文字及日期范围02.14-02.21。",
+      "右侧列表包含带有数字1至4的排名徽章及对应的玩家头像和数值。",
+      "底部有一个高亮显示的条目，标注了排名1749和数值19138。"
+    ],
+    "do_not_assert": [
+      "无法确定具体的游戏名称。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_3a3886ca-6ea6-4349-9054-4866a08badb9",
+    "generated_at": "2026-08-12T03:09:35.307803+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "31ba27725b81b17f1b42c66daaa5568f896d01b63627752d00a9af5b8adf0ebc",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:09:35.309153+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_3f043a731c1396f926dcfb9e",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:09:35.309536+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "9d63587e36fca13e272095ab8c0612d241d808c1bbcf1d8b34527d9984ec0da8"
+}

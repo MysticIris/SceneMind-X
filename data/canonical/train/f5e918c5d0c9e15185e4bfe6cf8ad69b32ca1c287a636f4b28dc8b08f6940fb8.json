@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:895.jpg",
+    "relative_path": "train/895.jpg",
+    "sha256": "f5e918c5d0c9e15185e4bfe6cf8ad69b32ca1c287a636f4b28dc8b08f6940fb8",
+    "split": "train"
+  },
+  "canonical_sha256": "af37965663a8e7bd9c9ec81277440eee9cb612617f031a6f95df8a19aafea8e5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "手持饮品",
+      "夜市街景",
+      "塑料杯盖"
+    ],
+    "short_description": "一只手拿着一杯带盖的纸杯饮料，背景是灯光璀璨、人来人往的夜市街道。",
+    "theme": "街头饮品特写"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面前景是一只手握着一个白色纸杯。",
+      "纸杯上覆盖着一个透明塑料杯盖，盖子部分打开。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "纸杯",
+      "塑料杯盖",
+      "手部握持"
+    ],
+    "relations": [
+      "手握着纸杯。",
+      "纸杯上有杯盖。"
+    ],
+    "scene": "夜间户外步行街",
+    "subjects": [
+      "一只手",
+      "一个纸杯",
+      "一个塑料杯盖"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景是一只手握着一个白色纸杯；纸杯上覆盖着一个透明塑料杯盖，盖子部分打开。",
+    "safe_facts": [
+      "画面前景是一只手握着一个白色纸杯。",
+      "纸杯上覆盖着一个透明塑料杯盖，盖子部分打开。"
+    ]
+  },
+  "label_id": "cpl_508e4d8a028d6baa46f1defa",
+  "provenance": {
+    "generated_at": "2026-08-03T12:45:49.433916+00:00",
+    "migrated_at": "2026-08-03T12:45:49.439910+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "29f3a2bb1e80770a4f1cf56f69e4283dee0f1d5b3fe6edcdab24c11afc1ee974",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d459c0d62a5434731a5a5203",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:45:49.440341+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d459c0d62a5434731a5a5203"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

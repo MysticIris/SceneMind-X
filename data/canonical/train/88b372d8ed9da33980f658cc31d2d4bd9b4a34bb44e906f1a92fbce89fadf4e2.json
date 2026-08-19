@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1158.jpg",
+    "relative_path": "train/1158.jpg",
+    "sha256": "88b372d8ed9da33980f658cc31d2d4bd9b4a34bb44e906f1a92fbce89fadf4e2",
+    "split": "train"
+  },
+  "canonical_sha256": "6b0dd5f7570e55dcb7151fe4bde58fa83311b2c0c2e7df3fec68f55ab4d5d99c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "青铜器",
+      "博物馆展品",
+      "古文物"
+    ],
+    "short_description": "博物馆展柜中陈列的一件青铜器，器身饰有复杂纹样，顶部有兽首造型，置于透明底座上。",
+    "theme": "青铜器展品"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "青铜器表面有雕刻纹路。",
+      "器物顶部有类似兽首的装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "青铜材质",
+      "装饰性纹样",
+      "兽首造型",
+      "透明展台"
+    ],
+    "relations": [
+      "青铜器位于展柜内。"
+    ],
+    "scene": "室内展览环境",
+    "subjects": [
+      "青铜器"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "青铜器表面有雕刻纹路；器物顶部有类似兽首的装饰。",
+    "safe_facts": [
+      "青铜器表面有雕刻纹路。",
+      "器物顶部有类似兽首的装饰。"
+    ]
+  },
+  "label_id": "cpl_87c116b28ff5d61596d1f962",
+  "provenance": {
+    "generated_at": "2026-08-03T13:45:26.089060+00:00",
+    "migrated_at": "2026-08-03T13:45:26.095902+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fe512768390260c81f34b9d203ac10a6312d34833abc2451a14ca2677a7c71e8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a37437a9b21e5cc31a809d7e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:45:26.096239+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a37437a9b21e5cc31a809d7e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

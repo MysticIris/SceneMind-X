@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1767.jpg",
+    "relative_path": "train/1767.jpg",
+    "sha256": "41bda018d43dbea482a8c85a5803540863ddc5e01c9d22eda70520fc8998f121",
+    "split": "train"
+  },
+  "canonical_sha256": "0ade181c16824153edecbe0c7510b8354da3c11ec03b91d4f2c724cff5fc1ce8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "公路自行车",
+      "碳纤维车架",
+      "红色渐变",
+      "展台展示"
+    ],
+    "short_description": "一辆红黑渐变涂装的公路自行车，停放在展台支架上，背景有参观者和展板。",
+    "theme": "红色碳纤维公路自行车"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "自行车车架呈现从红色到黑色的渐变色。",
+      "自行车安装在黑色金属支架上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红黑渐变车架",
+      "碟刹系统",
+      "流线型设计",
+      "黑色车轮"
+    ],
+    "relations": [
+      "自行车被支架支撑。",
+      "自行车位于展台前方。"
+    ],
+    "scene": "室内展览环境",
+    "subjects": [
+      "自行车",
+      "参观者"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "自行车车架呈现从红色到黑色的渐变色；自行车安装在黑色金属支架上。",
+    "safe_facts": [
+      "自行车车架呈现从红色到黑色的渐变色。",
+      "自行车安装在黑色金属支架上。"
+    ]
+  },
+  "label_id": "cpl_ad60d26c5e67b387ccf36473",
+  "provenance": {
+    "generated_at": "2026-08-03T15:03:28.419243+00:00",
+    "migrated_at": "2026-08-03T15:03:28.420980+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dcdea11a3befeed01b6e88a1d75be3ee4b9b9e7c25b79d6429c357a95f61dc61",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2242ec308dfd569a882404eb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:03:28.421284+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2242ec308dfd569a882404eb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

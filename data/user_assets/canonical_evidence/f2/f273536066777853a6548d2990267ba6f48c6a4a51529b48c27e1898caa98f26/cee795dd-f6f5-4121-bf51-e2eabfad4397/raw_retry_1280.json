@@ -1,0 +1,158 @@
+{
+  "asset_id": "f273536066777853",
+  "asset_sha256": "f273536066777853a6548d2990267ba6f48c6a4a51529b48c27e1898caa98f26",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"热门新车推荐列表\",\n    \"short_description\": \"这是一张手机应用界面的截图，展示了“你可能感兴趣的热门新车”推荐模块。列表中垂直排列了三款豪华汽车卡片，分别包含车辆图片、名称（如Gemera、迈巴赫S级、保时捷911）、在售车型数量、热度数值以及红色的最低报价和“询底价”按钮。界面底部设有导航栏和“上滑继续看视频”的提示。\",\n    \"micro_tags\": [\n      \"汽车资讯\",\n      \"手机截图\",\n      \"豪车推荐\",\n      \"购车比价\",\n      \"UI界面\",\n      \"懂车帝\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端应用程序的信息流或推荐页面\",\n    \"subjects\": [\n      \"Gemera跑车\",\n      \"迈巴赫S级轿车\",\n      \"保时捷911跑车\",\n      \"应用界面元素\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"橙黄色渐变背景\",\n      \"白色圆角卡片布局\",\n      \"红色价格字体\",\n      \"底部黑色导航栏\",\n      \"顶部状态栏显示时间01:32\"\n    ],\n    \"relations\": [\n      \"三辆汽车以列表形式垂直排列\",\n      \"每辆车对应独立的信息卡片\",\n      \"价格位于车辆图片右侧下方\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕顶部显示时间为01:32，信号为5G，电量49%。\",\n      \"页面标题为“你可能感兴趣的热门新车”，副标题提及“懂车帝·小程序”。\",\n      \"第一张卡片展示深灰色跑车Gemera，标价1980.00万。\",\n      \"第二张卡片展示蓝色轿车迈巴赫S级，标价141.80万，并有直降5.00万标签。\",\n      \"第三张卡片展示蓝色跑车保时捷911，标价137.60万。\",\n      \"底部导航栏包含“首页”、“商城”、“+”、“消息”（带红点2）、“我”五个图标。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局和“询底价”按钮推测，这是一个汽车导购或资讯类APP。\",\n      \"根据“上滑继续看视频”提示，该页面可能位于短视频流或信息流中。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"01:32\",\n      \"5G\",\n      \"49\",\n      \"热点\",\n      \"朋友\",\n      \"团购\",\n      \"直播\",\n      \"鞍山\",\n      \"关注\",\n      \"推荐\",\n      \"你可能感兴趣的\",\n      \"热门新车\",\n      \"懂车帝·小程序 | 汽车国补官方指定平台\",\n      \"Gemera\",\n      \"现有1款车型在售\",\n      \"热度52万\",\n      \"1980.00万\",\n      \"最低报价\",\n      \"询底价\",\n      \"迈巴赫S级\",\n      \"现有9款车型在售\",\n      \"热度74万\",\n      \"141.80万\",\n      \"直降5.00万\",\n      \"保时捷911\",\n      \"现有24款车型在售\",\n      \"热度78万\",\n      \"137.60万\",\n      \"不感兴趣\",\n      \"查看更多\",\n      \"上滑继续看视频\",\n      \"首页\",\n      \"商城\",\n      \"消息\",\n      \"2\",\n      \"我\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张展示豪华汽车列表的手机应用截图，包含三款不同颜色的跑车和轿车及其价格信息。\",\n    \"safe_facts\": [\n      \"图片为竖屏手机界面截图\",\n      \"背景呈暖色调渐变\",\n      \"包含三个主要的白色内容卡片\",\n      \"每个卡片左侧有汽车图片，右侧有文字和数字信息\",\n      \"底部有黑色的操作导航栏\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 995,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 995,
+        "total_tokens": 4222,
+        "estimated_cost_cny": 0.014414,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "热门新车推荐列表",
+          "short_description": "这是一张手机应用界面的截图，展示了“你可能感兴趣的热门新车”推荐模块。列表中垂直排列了三款豪华汽车卡片，分别包含车辆图片、名称（如Gemera、迈巴赫S级、保时捷911）、在售车型数量、热度数值以及红色的最低报价和“询底价”按钮。界面底部设有导航栏和“上滑继续看视频”的提示。",
+          "micro_tags": [
+            "汽车资讯",
+            "手机截图",
+            "豪车推荐",
+            "购车比价",
+            "UI界面",
+            "懂车帝"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "移动端应用程序的信息流或推荐页面",
+          "subjects": [
+            "Gemera跑车",
+            "迈巴赫S级轿车",
+            "保时捷911跑车",
+            "应用界面元素"
+          ],
+          "actions": [],
+          "attributes": [
+            "橙黄色渐变背景",
+            "白色圆角卡片布局",
+            "红色价格字体",
+            "底部黑色导航栏",
+            "顶部状态栏显示时间01:32"
+          ],
+          "relations": [
+            "三辆汽车以列表形式垂直排列",
+            "每辆车对应独立的信息卡片",
+            "价格位于车辆图片右侧下方"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "屏幕顶部显示时间为01:32，信号为5G，电量49%。",
+            "页面标题为“你可能感兴趣的热门新车”，副标题提及“懂车帝·小程序”。",
+            "第一张卡片展示深灰色跑车Gemera，标价1980.00万。",
+            "第二张卡片展示蓝色轿车迈巴赫S级，标价141.80万，并有直降5.00万标签。",
+            "第三张卡片展示蓝色跑车保时捷911，标价137.60万。",
+            "底部导航栏包含“首页”、“商城”、“+”、“消息”（带红点2）、“我”五个图标。"
+          ],
+          "cautious_inferences": [
+            "根据界面布局和“询底价”按钮推测，这是一个汽车导购或资讯类APP。",
+            "根据“上滑继续看视频”提示，该页面可能位于短视频流或信息流中。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "01:32",
+            "5G",
+            "49",
+            "热点",
+            "朋友",
+            "团购",
+            "直播",
+            "鞍山",
+            "关注",
+            "推荐",
+            "你可能感兴趣的",
+            "热门新车",
+            "懂车帝·小程序 | 汽车国补官方指定平台",
+            "Gemera",
+            "现有1款车型在售",
+            "热度52万",
+            "1980.00万",
+            "最低报价",
+            "询底价",
+            "迈巴赫S级",
+            "现有9款车型在售",
+            "热度74万",
+            "141.80万",
+            "直降5.00万",
+            "保时捷911",
+            "现有24款车型在售",
+            "热度78万",
+            "137.60万",
+            "不感兴趣",
+            "查看更多",
+            "上滑继续看视频",
+            "首页",
+            "商城",
+            "消息",
+            "2",
+            "我"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张展示豪华汽车列表的手机应用截图，包含三款不同颜色的跑车和轿车及其价格信息。",
+          "safe_facts": [
+            "图片为竖屏手机界面截图",
+            "背景呈暖色调渐变",
+            "包含三个主要的白色内容卡片",
+            "每个卡片左侧有汽车图片，右侧有文字和数字信息",
+            "底部有黑色的操作导航栏"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 2405620,
+        "request_bytes": 1801141,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 18.302523199999996,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "f3b862bd5a0a0a9c32fff2adf219c56c9c7a96b2a1aaa078c88edb189c64687e"
+}

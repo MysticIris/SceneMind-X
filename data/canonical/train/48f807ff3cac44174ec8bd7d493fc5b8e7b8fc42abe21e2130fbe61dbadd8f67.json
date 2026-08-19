@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:150.jpg",
+    "relative_path": "train/150.jpg",
+    "sha256": "48f807ff3cac44174ec8bd7d493fc5b8e7b8fc42abe21e2130fbe61dbadd8f67",
+    "split": "train"
+  },
+  "canonical_sha256": "06ea2e9c3c012c9f6c254c976f48a670f3653150511f7f9eb0307572a669d230",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "桥梁",
+      "城市天际线",
+      "水边步道"
+    ],
+    "short_description": "布鲁克林大桥横跨水面，背景是摩天大楼群，岸边有石堤和步道，天空晴朗。",
+    "theme": "城市天际线与桥梁"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面左侧可见布鲁克林大桥的石砌塔楼和钢缆结构。",
+      "远处可见多座高层建筑构成城市天际线轮廓。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晴朗天空",
+      "水面波光",
+      "绿树"
+    ],
+    "relations": [
+      "桥梁跨越水面。",
+      "大楼群位于远处。",
+      "石堤沿水岸延伸。"
+    ],
+    "scene": "城市滨水区",
+    "subjects": [
+      "布鲁克林大桥",
+      "摩天大楼群",
+      "石堤",
+      "步道"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面左侧可见布鲁克林大桥的石砌塔楼和钢缆结构；远处可见多座高层建筑构成城市天际线轮廓。",
+    "safe_facts": [
+      "画面左侧可见布鲁克林大桥的石砌塔楼和钢缆结构。",
+      "远处可见多座高层建筑构成城市天际线轮廓。"
+    ]
+  },
+  "label_id": "cpl_7cde0bdd389c2080694df471",
+  "provenance": {
+    "generated_at": "2026-08-03T09:38:19.299972+00:00",
+    "migrated_at": "2026-08-03T09:38:19.301634+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fdd888498430a4c39768a92b06a5ebaa43e7ab21fa0f8ec65cfe5e0ba1b1eeba",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_62c36a0e3f10181f96382c3a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:42.005140+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_62c36a0e3f10181f96382c3a",
+    "cpl_3412bdd332378dbf763ef392"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

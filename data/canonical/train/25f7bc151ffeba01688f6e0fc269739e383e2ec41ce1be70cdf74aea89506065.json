@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1476.jpg",
+    "relative_path": "train/1476.jpg",
+    "sha256": "25f7bc151ffeba01688f6e0fc269739e383e2ec41ce1be70cdf74aea89506065",
+    "split": "train"
+  },
+  "canonical_sha256": "2e5f53c1a7c72f5152a126b390bc968a1971f30acc176fd5000994f0faa167e6",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "毛绒口罩",
+      "小熊图案",
+      "儿童用品"
+    ],
+    "short_description": "浅棕色毛绒材质的儿童口罩，正面绣有可爱小熊脸，配有白色耳带，放置于浅色木纹背景上。",
+    "theme": "毛绒小熊口罩"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "口罩主体为浅棕色毛绒材料。",
+      "口罩正面有刺绣的小熊眼睛、鼻子和脸颊螺旋图案。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "浅棕色",
+      "毛绒质地",
+      "刺绣图案",
+      "白色耳带"
+    ],
+    "relations": [],
+    "scene": "平铺于浅色木纹表面",
+    "subjects": [
+      "毛绒口罩"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "口罩主体为浅棕色毛绒材料；口罩正面有刺绣的小熊眼睛、鼻子和脸颊螺旋图案。",
+    "safe_facts": [
+      "口罩主体为浅棕色毛绒材料。",
+      "口罩正面有刺绣的小熊眼睛、鼻子和脸颊螺旋图案。"
+    ]
+  },
+  "label_id": "cpl_e22b3aea900c82daeabadcc1",
+  "provenance": {
+    "generated_at": "2026-08-03T14:28:15.302132+00:00",
+    "migrated_at": "2026-08-03T14:28:15.307553+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4cd84ec2bec5e478a86f207f17ef50637c76a58cc1bc65083e1e5d3115dc0427",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0401142f4c7d771ca97964c3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:28:15.307931+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0401142f4c7d771ca97964c3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

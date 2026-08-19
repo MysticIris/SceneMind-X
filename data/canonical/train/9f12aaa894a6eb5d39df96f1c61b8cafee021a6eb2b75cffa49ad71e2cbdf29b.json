@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1750.jpg",
+    "relative_path": "train/1750.jpg",
+    "sha256": "9f12aaa894a6eb5d39df96f1c61b8cafee021a6eb2b75cffa49ad71e2cbdf29b",
+    "split": "train"
+  },
+  "canonical_sha256": "c1cbd8774895614b2836bf1ff1edd2648950a5821589e13a80824e09c1bac7bf",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红灯笼",
+      "公园小径",
+      "观光车"
+    ],
+    "short_description": "树上悬挂着多串红色灯笼，一条铺砌小路旁有木屋和观光车，背景是落叶树木。",
+    "theme": "红灯笼装饰的公园小径"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多串红色灯笼垂挂于树枝之间。",
+      "小路旁有一座木质结构的小屋。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色灯笼悬挂于树枝",
+      "树木枝干裸露",
+      "木屋有瓦片屋顶",
+      "观光车停在路边"
+    ],
+    "relations": [
+      "灯笼悬挂在树上。",
+      "木屋位于小路一侧。",
+      "观光车位于小路右侧。"
+    ],
+    "scene": "户外公园路径",
+    "subjects": [
+      "红色灯笼",
+      "树木",
+      "木屋",
+      "观光车",
+      "行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多串红色灯笼垂挂于树枝之间；小路旁有一座木质结构的小屋。",
+    "safe_facts": [
+      "多串红色灯笼垂挂于树枝之间。",
+      "小路旁有一座木质结构的小屋。"
+    ]
+  },
+  "label_id": "cpl_4af4f0e784e86f954be35e29",
+  "provenance": {
+    "generated_at": "2026-08-03T15:02:41.181564+00:00",
+    "migrated_at": "2026-08-03T15:02:41.183104+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "acd3db1786230116d2987b598c934de1f23fed76fe2ebdd7a7677d1a68f7d16b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7955b09e6b687b4b039ee765",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:02:41.183304+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7955b09e6b687b4b039ee765"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

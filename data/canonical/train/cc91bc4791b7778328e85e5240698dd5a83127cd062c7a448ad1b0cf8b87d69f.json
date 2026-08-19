@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1170.jpg",
+    "relative_path": "train/1170.jpg",
+    "sha256": "cc91bc4791b7778328e85e5240698dd5a83127cd062c7a448ad1b0cf8b87d69f",
+    "split": "train"
+  },
+  "canonical_sha256": "6a8454fc1db40ae681c6b5994b637258309eb6811726bf156280a100fe36ff4d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石器",
+      "新石器时代",
+      "博物馆展柜"
+    ],
+    "short_description": "博物馆展柜内陈列多件新石器时代石器，包括石刀、石钺、石铲等，材质为石质，部分带孔洞。",
+    "theme": "石器时代文物展陈"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "展柜内有多件石质工具，形状各异，部分带有圆形孔洞。",
+      "展品被金属支架支撑，置于深灰色展台。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "石质",
+      "带孔洞",
+      "陈列于展柜中"
+    ],
+    "relations": [
+      "石器被放置在黑色展台上。"
+    ],
+    "scene": "博物馆展柜内部",
+    "subjects": [
+      "石刀",
+      "石钺",
+      "石铲",
+      "石网坠",
+      "石片"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "展柜内有多件石质工具，形状各异，部分带有圆形孔洞；展品被金属支架支撑，置于深灰色展台。",
+    "safe_facts": [
+      "展柜内有多件石质工具，形状各异，部分带有圆形孔洞。",
+      "展品被金属支架支撑，置于深灰色展台。"
+    ]
+  },
+  "label_id": "cpl_27b2d29fb615dba80dbf0353",
+  "provenance": {
+    "generated_at": "2026-08-03T13:47:29.113344+00:00",
+    "migrated_at": "2026-08-03T13:47:29.117024+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c42fe9062111d2cc3e9045f0fa5e30b70e2aebe1a420570dfa2b1d1e980dc3bb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b7abaa8ea15bf77381eead5d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:47:29.117385+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b7abaa8ea15bf77381eead5d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

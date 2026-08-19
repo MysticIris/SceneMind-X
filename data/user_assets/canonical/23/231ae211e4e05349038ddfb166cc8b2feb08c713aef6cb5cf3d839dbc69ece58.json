@@ -1,0 +1,149 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_a0f29baa4509945aebcfcfa6",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_c0d957677bcf6ab86502db30"
+  ],
+  "asset": {
+    "asset_id": "231ae211e4e05349",
+    "sha256": "231ae211e4e05349038ddfb166cc8b2feb08c713aef6cb5cf3d839dbc69ece58",
+    "split": "user_custom",
+    "relative_path": "user_assets/23/231ae211e4e05349038ddfb166cc8b2feb08c713aef6cb5cf3d839dbc69ece58/231ae211e4e05349038ddfb166cc8b2feb08c713aef6cb5cf3d839dbc69ece58.jpg"
+  },
+  "display": {
+    "theme": "食堂英语词汇教学课件",
+    "short_description": "这是一张电脑屏幕的实拍照片，显示正在进行的在线英语教学会议。顶部可见多位参会者的头像窗口，左侧排列着各类桌面应用程序图标。",
+    "micro_tags": [
+      "在线课堂",
+      "英语教学",
+      "食堂词汇",
+      "PPT课件",
+      "视频会议",
+      "电脑桌面"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "电脑显示器屏幕界面",
+    "subjects": [
+      "教学幻灯片",
+      "视频会议软件界面",
+      "桌面图标"
+    ],
+    "actions": [],
+    "attributes": [
+      "青绿色表头",
+      "三列式表格布局",
+      "中英文对照标题",
+      "右侧配有食物图片"
+    ],
+    "relations": [
+      "幻灯片位于屏幕中央主要区域。",
+      "参会者头像位于屏幕顶部边缘。",
+      "应用图标位于屏幕左侧边缘。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "屏幕中央显示标题为“Cafeteria (食堂)”的演示文稿，包含zone、description、useful phrases三列内容的表格。",
+      "屏幕顶部横向排列着四个视频窗口，分别显示用户头像或名称(如Elsie、房峻熙等)。",
+      "屏幕左侧垂直排列着多行应用程序快捷方式图标，包括浏览器、社交软件和游戏图标。",
+      "屏幕底部可见Windows系统的任务栏，包含搜索框、天气显示(15°C)及多个应用图标。"
+    ],
+    "cautious_inferences": [
+      "左侧图标显示该电脑安装了多种娱乐和办公软件，属于个人使用的设备。"
+    ],
+    "uncertainties": [
+      "无法确定具体的授课时间或课程所属机构。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "zone",
+      "description",
+      "useful phrases",
+      "hot food station",
+      "cold food station",
+      "beverage station"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "zone",
+      "description",
+      "useful phrases",
+      "hot food station",
+      "cold food station",
+      "beverage station"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "屏幕中央显示标题为“Cafeteria (食堂)”的演示文稿，包含zone、description、useful phrases三列内容的表格；屏幕顶部横向排列着四个视频窗口，分别显示用户头像或名称(如Elsie、房峻熙等)。",
+    "safe_facts": [
+      "屏幕中央显示标题为“Cafeteria (食堂)”的演示文稿，包含zone、description、useful phrases三列内容的表格。",
+      "屏幕顶部横向排列着四个视频窗口，分别显示用户头像或名称(如Elsie、房峻熙等)。",
+      "屏幕左侧垂直排列着多行应用程序快捷方式图标，包括浏览器、社交软件和游戏图标。"
+    ],
+    "do_not_assert": [
+      "左侧图标显示该电脑安装了多种娱乐和办公软件，属于个人使用的设备。",
+      "无法确定具体的授课时间或课程所属机构。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_b683d957-159d-4473-ae56-37ec2b36fb86",
+    "generated_at": "2026-08-12T02:58:34.039317+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "e654ba49016cb4ee114710305bb2ebbd2ea30ceb6e904668a4242dd4761ac24e",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T02:58:34.040809+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_c0d957677bcf6ab86502db30",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T02:58:34.041270+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "57cfe33b65ced3beab2c7882b94868abf1597532fddfc1e94c7c3201fd2a5d58"
+}

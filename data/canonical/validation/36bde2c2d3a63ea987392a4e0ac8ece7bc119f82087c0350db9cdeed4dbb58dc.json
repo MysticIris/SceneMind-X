@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2194.jpg",
+    "relative_path": "val/2194.jpg",
+    "sha256": "36bde2c2d3a63ea987392a4e0ac8ece7bc119f82087c0350db9cdeed4dbb58dc",
+    "split": "val"
+  },
+  "canonical_sha256": "c6abd6428b123c6d914fdc41a2fb306ad20feb0fa13c5544d392d35dccccdb20",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "火锅",
+      "炸物",
+      "心形馒头"
+    ],
+    "short_description": "桌上摆满热气腾腾的火锅、炸物和心形馒头，配以餐具和饮品，呈现丰盛聚餐场景。",
+    "theme": "火锅宴席"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "中央有一锅红汤火锅，内含虾、蔬菜和肉类。",
+      "桌上有炸物、心形馒头、碗碟和杯子。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "热气腾腾",
+      "丰盛",
+      "多盘菜式"
+    ],
+    "relations": [],
+    "scene": "餐桌聚餐",
+    "subjects": [
+      "火锅",
+      "炸物",
+      "心形馒头",
+      "餐具",
+      "饮品"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "中央有一锅红汤火锅，内含虾、蔬菜和肉类；桌上有炸物、心形馒头、碗碟和杯子。",
+    "safe_facts": [
+      "中央有一锅红汤火锅，内含虾、蔬菜和肉类。",
+      "桌上有炸物、心形馒头、碗碟和杯子。"
+    ]
+  },
+  "label_id": "cpl_fb5e935dda987dbffcfc9732",
+  "provenance": {
+    "generated_at": "2026-08-03T16:12:12.407958+00:00",
+    "migrated_at": "2026-08-03T16:12:12.410027+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6615c440517ec586804b2497102f445265764b9a5f4b7e27052968e510dd52dd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c4802945365ce1e0dec0e2a5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:12:12.410348+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c4802945365ce1e0dec0e2a5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

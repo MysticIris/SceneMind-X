@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2366.jpg",
+    "relative_path": "val/2366.jpg",
+    "sha256": "5f30e43cf559c3cf378d8ad1339325fe3f4c788116542ce4ea4fb47ab280576b",
+    "split": "val"
+  },
+  "canonical_sha256": "8993336b6285bfc2ef0043606d927147b7e1d6ac73b2ecf04e9f22b3a642e422",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古炮",
+      "石基座",
+      "历史文物"
+    ],
+    "short_description": "锈迹斑斑的古炮置于石基座上，旁有标识，背景为砖墙与石砌建筑。",
+    "theme": "古炮陈列"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "古炮表面覆盖大量铁锈。",
+      "石基座上有黑色矩形警示牌。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "锈蚀",
+      "石质基座",
+      "黑色警示牌",
+      "红砖墙"
+    ],
+    "relations": [
+      "古炮放置于石基座上。",
+      "警示牌位于基座前方。"
+    ],
+    "scene": "户外陈列区",
+    "subjects": [
+      "古炮",
+      "石基座",
+      "警示牌",
+      "背景砖墙"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "古炮表面覆盖大量铁锈；石基座上有黑色矩形警示牌。",
+    "safe_facts": [
+      "古炮表面覆盖大量铁锈。",
+      "石基座上有黑色矩形警示牌。"
+    ]
+  },
+  "label_id": "cpl_193536ccbead3867d51b4c71",
+  "provenance": {
+    "generated_at": "2026-08-03T16:34:17.749852+00:00",
+    "migrated_at": "2026-08-03T16:34:17.751497+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cb191cf9951858a7abaa33c5718eec1bc3f9c75dde7d1f24fcd505f2aea0c7b4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a7255536a2b55939339358a8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:34:17.751845+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a7255536a2b55939339358a8"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "禁止攀爬",
+      "天后神坛...民國...1924年..."
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "禁止攀爬",
+      "天后神坛...民國...1924年..."
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:812.jpg",
+    "relative_path": "train/812.jpg",
+    "sha256": "40425b22b2f12b48a979318496ca9315abf954348ea1101bfd23aff80a2a5e16",
+    "split": "train"
+  },
+  "canonical_sha256": "b84373e60c3d875fb36d0431b32c811371b1267544b4ac0c997fdbde2e509de0",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "门",
+      "春联",
+      "福字",
+      "红色装饰"
+    ],
+    "short_description": "一扇深色木门，门上贴有红色对联和福字装饰。",
+    "theme": "门上贴着春联"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "门上装饰物可能用于节庆场合。"
+    ],
+    "direct_observations": [
+      "门呈深棕色，表面光滑。",
+      "门框两侧各有一张竖向红色对联。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深棕色",
+      "木质",
+      "红色装饰",
+      "金属门把手",
+      "圆形门铃"
+    ],
+    "relations": [
+      "对联贴在门两侧。",
+      "福字贴在门中央。",
+      "横批位于门正上方。"
+    ],
+    "scene": "室内门面",
+    "subjects": [
+      "门",
+      "对联",
+      "福字",
+      "门把手",
+      "门锁"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "门上装饰物可能用于节庆场合。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "门呈深棕色，表面光滑；门框两侧各有一张竖向红色对联。",
+    "safe_facts": [
+      "门呈深棕色，表面光滑。",
+      "门框两侧各有一张竖向红色对联。"
+    ]
+  },
+  "label_id": "cpl_a30111bd13bb8010b80a0b40",
+  "provenance": {
+    "generated_at": "2026-08-03T12:28:20.093064+00:00",
+    "migrated_at": "2026-08-03T12:28:20.097865+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dd62ce3fa17c4eead01ad8166f9d6f207ee10623d4369c6f9abde33a3b12ee47",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0d149151d830bf7e61b977bf",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:28:20.099173+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0d149151d830bf7e61b977bf"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "家和萬事興",
+      "昌泰豐年諸事安安順順",
+      "瑞福祥虎合家喜喜歡歡",
+      "福"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "家和萬事興",
+      "昌泰豐年諸事安安順順",
+      "瑞福祥虎合家喜喜歡歡",
+      "福"
+    ]
+  }
+}

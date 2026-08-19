@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1504.jpg",
+    "relative_path": "train/1504.jpg",
+    "sha256": "9ab82286dcf62a5afcc1361b28b6eaeb0e47a5813171366ec9fe05aa1d510a9e",
+    "split": "train"
+  },
+  "canonical_sha256": "ea3145423a189ea85457834136629194a8156113f9eee361d52527b9129bac7c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "老虎",
+      "轮胎",
+      "悬挂",
+      "树木"
+    ],
+    "short_description": "一只老虎用前爪抓着轮胎悬挂在树上。",
+    "theme": "老虎吊着轮胎"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "老虎用前爪抓住一个黑色轮胎。",
+      "老虎身体倒挂，头部朝下。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "抓握",
+      "悬挂"
+    ],
+    "attributes": [
+      "橙色带黑色条纹皮毛",
+      "前爪抓着轮胎"
+    ],
+    "relations": [
+      "老虎抓着轮胎。",
+      "轮胎悬挂在树上。"
+    ],
+    "scene": "户外树林环境",
+    "subjects": [
+      "老虎"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "老虎用前爪抓住一个黑色轮胎；老虎身体倒挂，头部朝下。",
+    "safe_facts": [
+      "老虎用前爪抓住一个黑色轮胎。",
+      "老虎身体倒挂，头部朝下。"
+    ]
+  },
+  "label_id": "cpl_56ad167a9d26eda0bfcc44ab",
+  "provenance": {
+    "generated_at": "2026-08-03T14:31:35.775635+00:00",
+    "migrated_at": "2026-08-03T14:31:35.783885+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6b78b93a73f3581d9d56ad44ca1d7ba1c7af40830ec9f259b9a3b834440c23bb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ced6b940f37736013fc55159",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:31:35.784517+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ced6b940f37736013fc55159"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "上吊"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "上吊"
+    ]
+  }
+}

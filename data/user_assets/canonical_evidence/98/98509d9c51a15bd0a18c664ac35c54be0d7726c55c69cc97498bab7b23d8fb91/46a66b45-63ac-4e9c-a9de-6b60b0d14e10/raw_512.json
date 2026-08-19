@@ -1,0 +1,130 @@
+{
+  "asset_id": "98509d9c51a15bd0",
+  "asset_sha256": "98509d9c51a15bd0a18c664ac35c54be0d7726c55c69cc97498bab7b23d8fb91",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"手机聊天界面截图\",\n    \"short_description\": \"一张智能手机屏幕截图，显示与名为“豆包”的AI助手的对话界面。屏幕主体为一段关于保研、考研及个人前途的长文本回复，底部包含语音输入、快速指令及AI创作等功能按钮。\",\n    \"micro_tags\": [\n      \"手机截图\",\n      \"AI对话\",\n      \"豆包\",\n      \"保研考研\",\n      \"中文文本\",\n      \"聊天界面\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端应用程序界面\",\n    \"subjects\": [\n      \"对话气泡\",\n      \"功能按钮\",\n      \"状态栏\",\n      \"文本内容\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白底黑字\",\n      \"竖屏布局\",\n      \"5G信号\",\n      \"电量24%\"\n    ],\n    \"relations\": [\n      \"文本位于屏幕中央区域\",\n      \"功能栏位于屏幕底部\",\n      \"状态栏位于屏幕顶部\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕顶部状态栏显示时间为22:37，网络信号为5G，电池电量为24%。\",\n      \"对话对象名称显示为“豆包”，下方标注“内容由 AI 生成”。\",\n      \"屏幕中央有一段多段落的中文文本，内容涉及“保研”、“考研”、“前程”等词汇。\",\n      \"底部有一排功能胶囊按钮，可见文字包括“快速”、“帮我写作”、“AI 创作”、“AI 播客”。\",\n      \"最底部是输入框，提示文字为“发消息或按住说话...”，右侧有语音和加号图标。\"\n    ],\n    \"cautious_inferences\": [\n      \"用户可能正在使用这款AI应用咨询或讨论关于学业规划（如保研或考研）的话题。\",\n      \"该界面属于典型的即时通讯或AI助手交互设计风格。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"豆包\",\n      \"内容由 AI 生成\",\n      \"我是早该明白的，这世上尽有这般“热心人”。\",\n      \"你要去保研，便只管保研；你要去考研，也请自去考研。\",\n      \"一日三遍，问你：“能保研吗？”\",\n      \"你的路，你自己走；你的前途，你自去负责。\",\n      \"能快速\",\n      \"帮我写作\",\n      \"AI 创作\",\n      \"AI 播客\",\n      \"发消息或按住说话...\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"这是一张手机应用界面的截图，展示了用户与AI助手的对话记录。界面包含大段的中文文本回复以及底部的多功能操作栏。\",\n    \"safe_facts\": [\n      \"图片为竖屏手机截图\",\n      \"界面包含顶部状态栏、中间对话区和底部操作栏\",\n      \"主要内容为密集的中文排版文本\",\n      \"底部设有多个功能性入口按钮\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 763,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 763,
+        "total_tokens": 3990,
+        "estimated_cost_cny": 0.012558,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "手机聊天界面截图",
+          "short_description": "一张智能手机屏幕截图，显示与名为“豆包”的AI助手的对话界面。屏幕主体为一段关于保研、考研及个人前途的长文本回复，底部包含语音输入、快速指令及AI创作等功能按钮。",
+          "micro_tags": [
+            "手机截图",
+            "AI对话",
+            "豆包",
+            "保研考研",
+            "中文文本",
+            "聊天界面"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "移动端应用程序界面",
+          "subjects": [
+            "对话气泡",
+            "功能按钮",
+            "状态栏",
+            "文本内容"
+          ],
+          "actions": [],
+          "attributes": [
+            "白底黑字",
+            "竖屏布局",
+            "5G信号",
+            "电量24%"
+          ],
+          "relations": [
+            "文本位于屏幕中央区域",
+            "功能栏位于屏幕底部",
+            "状态栏位于屏幕顶部"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "屏幕顶部状态栏显示时间为22:37，网络信号为5G，电池电量为24%。",
+            "对话对象名称显示为“豆包”，下方标注“内容由 AI 生成”。",
+            "屏幕中央有一段多段落的中文文本，内容涉及“保研”、“考研”、“前程”等词汇。",
+            "底部有一排功能胶囊按钮，可见文字包括“快速”、“帮我写作”、“AI 创作”、“AI 播客”。",
+            "最底部是输入框，提示文字为“发消息或按住说话...”，右侧有语音和加号图标。"
+          ],
+          "cautious_inferences": [
+            "用户可能正在使用这款AI应用咨询或讨论关于学业规划（如保研或考研）的话题。",
+            "该界面属于典型的即时通讯或AI助手交互设计风格。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "豆包",
+            "内容由 AI 生成",
+            "我是早该明白的，这世上尽有这般“热心人”。",
+            "你要去保研，便只管保研；你要去考研，也请自去考研。",
+            "一日三遍，问你：“能保研吗？”",
+            "你的路，你自己走；你的前途，你自去负责。",
+            "能快速",
+            "帮我写作",
+            "AI 创作",
+            "AI 播客",
+            "发消息或按住说话..."
+          ]
+        },
+        "fallback": {
+          "safe_caption": "这是一张手机应用界面的截图，展示了用户与AI助手的对话记录。界面包含大段的中文文本回复以及底部的多功能操作栏。",
+          "safe_facts": [
+            "图片为竖屏手机截图",
+            "界面包含顶部状态栏、中间对话区和底部操作栏",
+            "主要内容为密集的中文排版文本",
+            "底部设有多个功能性入口按钮"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 588368,
+        "request_bytes": 438204,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.078174800000852,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "839a5bf26be89dba2b286169c4760e555ec62922ee603926725ec837aea4cd3c"
+}

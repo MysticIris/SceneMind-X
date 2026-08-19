@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1061.jpg",
+    "relative_path": "train/1061.jpg",
+    "sha256": "7a4ed33a94f99b0bd001307bd2d36889933bf0d0ab0e1242635b57735b8b3933",
+    "split": "train"
+  },
+  "canonical_sha256": "923b23b04f373c905ea812fbc7311f81f0dd8b88f159dbac6a515c4657890e5f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "木屋",
+      "森林",
+      "绿植",
+      "自然风光"
+    ],
+    "short_description": "绿树环绕的木质小屋，屋顶呈斜坡状，窗户透出蓝色玻璃，周围植被茂密。",
+    "theme": "森林木屋"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见一座木质结构的小屋，屋顶为灰色瓦片，有两扇带蓝色窗框的窗户。",
+      "房屋周围被茂密的绿色树木和灌木丛包围。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质结构",
+      "斜屋顶",
+      "蓝色窗框",
+      "绿色植被"
+    ],
+    "relations": [
+      "木屋被树木和灌木环绕。"
+    ],
+    "scene": "林间木屋",
+    "subjects": [
+      "木屋",
+      "树木",
+      "灌木丛"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见一座木质结构的小屋，屋顶为灰色瓦片，有两扇带蓝色窗框的窗户；房屋周围被茂密的绿色树木和灌木丛包围。",
+    "safe_facts": [
+      "画面中可见一座木质结构的小屋，屋顶为灰色瓦片，有两扇带蓝色窗框的窗户。",
+      "房屋周围被茂密的绿色树木和灌木丛包围。"
+    ]
+  },
+  "label_id": "cpl_b4eb1e5e5cbd8e4eb99a7f5e",
+  "provenance": {
+    "generated_at": "2026-08-03T13:31:37.390583+00:00",
+    "migrated_at": "2026-08-03T13:31:37.393468+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "28879e3293c6b87dfaeb84543b7cc70a81d4d4a810964d0e95f292701768c080",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_57cdf5752206207b421ccbdd",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:31:37.393831+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_57cdf5752206207b421ccbdd"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1121.jpg",
+    "relative_path": "train/1121.jpg",
+    "sha256": "01786f235ee5b2583657b702560b5e03a47690153fa58c6fc04c963b3628c4ee",
+    "split": "train"
+  },
+  "canonical_sha256": "aee478bfb3e49fe8a40179797b52157eeef6e7c225ce201016221e303babf842",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "绘画",
+      "艺术工作室",
+      "蓝色装饰"
+    ],
+    "short_description": "室内艺术工作室，墙上挂满画作，多人正在绘画，蓝色装饰元素突出。",
+    "theme": "艺术工作室"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "墙上挂有多幅装裱好的画作。",
+      "有人正手持画笔在画板上作画。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "绘画"
+    ],
+    "attributes": [
+      "墙壁挂满画框",
+      "蓝色窗帘",
+      "蓝色画架"
+    ],
+    "relations": [
+      "人站在画架前作画。",
+      "画作挂在墙上。"
+    ],
+    "scene": "室内艺术工作室",
+    "subjects": [
+      "人",
+      "画作",
+      "画架",
+      "画板"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "墙上挂有多幅装裱好的画作；有人正手持画笔在画板上作画。",
+    "safe_facts": [
+      "墙上挂有多幅装裱好的画作。",
+      "有人正手持画笔在画板上作画。"
+    ]
+  },
+  "label_id": "cpl_d18b8bf44377cb78592c28f5",
+  "provenance": {
+    "generated_at": "2026-08-03T13:41:11.459282+00:00",
+    "migrated_at": "2026-08-03T13:41:11.471357+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "60ef823782a9113224617029dbe010ab9b2246526a6a27d50b5e2a6a73e123d4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8dcbd30c53347673ad5f7efc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:41:11.471716+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8dcbd30c53347673ad5f7efc"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

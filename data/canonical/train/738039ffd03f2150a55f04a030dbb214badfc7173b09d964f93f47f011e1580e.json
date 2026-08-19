@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:992.jpg",
+    "relative_path": "train/992.jpg",
+    "sha256": "738039ffd03f2150a55f04a030dbb214badfc7173b09d964f93f47f011e1580e",
+    "split": "train"
+  },
+  "canonical_sha256": "982f2da85d58695a04ab42740b2438f5caed31744c2fda8161121b29242ba16a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "湖边",
+      "摄影师",
+      "自然风光",
+      "绿色草地",
+      "相机"
+    ],
+    "short_description": "一位摄影师在绿草如茵的湖边，手持相机对准远方山景，阳光透过树叶洒落，画面宁静而富有诗意。",
+    "theme": "湖畔摄影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线从上方照射，可能为日出或日落时分。"
+    ],
+    "direct_observations": [
+      "画面中有一人双手持相机对准前方。",
+      "前景有绿色草丛，背景有平静水面和远山。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "持相机拍摄"
+    ],
+    "attributes": [
+      "穿着深色上衣",
+      "戴着发带",
+      "背景有山脉"
+    ],
+    "relations": [
+      "人站在草地上。",
+      "人面对湖泊。"
+    ],
+    "scene": "湖边草地",
+    "subjects": [
+      "人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线从上方照射，可能为日出或日落时分。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一人双手持相机对准前方；前景有绿色草丛，背景有平静水面和远山。",
+    "safe_facts": [
+      "画面中有一人双手持相机对准前方。",
+      "前景有绿色草丛，背景有平静水面和远山。"
+    ]
+  },
+  "label_id": "cpl_5596f1bf88944b373279a634",
+  "provenance": {
+    "generated_at": "2026-08-03T13:12:21.741869+00:00",
+    "migrated_at": "2026-08-03T13:12:21.745038+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "890e0cccfcbacb425e0c1c431ff22c0b61ba0cca9a36fa02f4a97b7c51cf94b6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5596f1bf88944b373279a634",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:17.937556+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0689de2716d5a0ff86f790ac"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

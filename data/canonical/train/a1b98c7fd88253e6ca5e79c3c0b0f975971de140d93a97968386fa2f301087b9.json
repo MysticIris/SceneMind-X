@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:806.jpg",
+    "relative_path": "train/806.jpg",
+    "sha256": "a1b98c7fd88253e6ca5e79c3c0b0f975971de140d93a97968386fa2f301087b9",
+    "split": "train"
+  },
+  "canonical_sha256": "fdc1992f6fc1a06c9fd36dd99971e3c05255eaee2e0f3d9260b476d4dcb523a2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红色雕塑",
+      "城市夜景",
+      "卡通形象"
+    ],
+    "short_description": "夜晚城市街道上，一个红色卡通动物雕塑戴着墨镜和领结，背景有发光立柱和旗帜。",
+    "theme": "夜景街头雕塑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "雕塑主体为红色，表面光滑反光。",
+      "雕塑佩戴黑色墨镜和红色波点领结。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色",
+      "戴墨镜",
+      "带领结",
+      "发光立柱",
+      "旗帜"
+    ],
+    "relations": [
+      "雕塑位于街道中央。",
+      "立柱在雕塑后方。",
+      "旗帜悬挂在街道两侧。"
+    ],
+    "scene": "城市街道夜景",
+    "subjects": [
+      "红色卡通动物雕塑",
+      "发光立柱",
+      "旗帜"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "雕塑主体为红色，表面光滑反光；雕塑佩戴黑色墨镜和红色波点领结。",
+    "safe_facts": [
+      "雕塑主体为红色，表面光滑反光。",
+      "雕塑佩戴黑色墨镜和红色波点领结。"
+    ]
+  },
+  "label_id": "cpl_f5567f1da4495eb034452cb9",
+  "provenance": {
+    "generated_at": "2026-08-03T12:27:15.371260+00:00",
+    "migrated_at": "2026-08-03T12:27:15.374273+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8fe89472ff11b92b22842c2e185c261924eba41aebfaf543f60320eba34b9efe",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_96d596c3461a3478b0781c08",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:27:15.374626+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_96d596c3461a3478b0781c08"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

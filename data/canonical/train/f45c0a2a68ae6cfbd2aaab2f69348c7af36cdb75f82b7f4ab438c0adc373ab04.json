@@ -1,0 +1,140 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:537.jpg",
+    "relative_path": "train/537.jpg",
+    "sha256": "f45c0a2a68ae6cfbd2aaab2f69348c7af36cdb75f82b7f4ab438c0adc373ab04",
+    "split": "train"
+  },
+  "canonical_sha256": "4bc09cd2698a2516c85c1a55649e7291b8d6fb913924a657423d29ced134d861",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "演讲",
+      "培训"
+    ],
+    "short_description": "一名演讲者在讲台上讲解大模型训练流程，背景屏幕显示GPT助手训练管道的四个阶段。",
+    "theme": "大模型训练流程"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一名男性演讲者手持麦克风站立并指向屏幕。",
+      "多名听众坐在前排，背对镜头。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "演讲者讲解",
+      "听众聆听"
+    ],
+    "attributes": [
+      "投影屏幕显示图表",
+      "听众背对镜头"
+    ],
+    "relations": [
+      "演讲者站在屏幕前。",
+      "听众面向屏幕。"
+    ],
+    "scene": "室内会议厅",
+    "subjects": [
+      "演讲者",
+      "听众",
+      "投影屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名男性演讲者手持麦克风站立并指向屏幕；多名听众坐在前排，背对镜头。",
+    "safe_facts": [
+      "一名男性演讲者手持麦克风站立并指向屏幕。",
+      "多名听众坐在前排，背对镜头。"
+    ]
+  },
+  "label_id": "cpl_e1c50e30cfb8a6442daea643",
+  "provenance": {
+    "generated_at": "2026-08-03T11:25:02.594482+00:00",
+    "migrated_at": "2026-08-03T11:25:02.596767+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5eb4daf05755eed579a1a751119d0b98a35162840e5568da3cd95d2aa939cf01",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_93906e7ce401c4a7cf0838ad",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:25:02.597470+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_93906e7ce401c4a7cf0838ad"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "大模型流程",
+      "GPT Assistant training pipeline",
+      "From Karpathy, \"State of GPT\"",
+      "Stage",
+      "Pretraining",
+      "Supervised Finetuning"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "大模型流程",
+      "GPT Assistant training pipeline",
+      "From Karpathy, \"State of GPT\"",
+      "Stage",
+      "Pretraining",
+      "Supervised Finetuning"
+    ]
+  }
+}

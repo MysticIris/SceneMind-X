@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:983.jpg",
+    "relative_path": "train/983.jpg",
+    "sha256": "952662ebb1fa2eeaf99fa38bd9b336446432f895142543a3b5d8bd392873632d",
+    "split": "train"
+  },
+  "canonical_sha256": "857784d58a1add3a3cd98e648cae4f75aa213716074704a6c69c7c1d3ec8fbd9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "海浪",
+      "沙滩",
+      "泡沫",
+      "海岸线"
+    ],
+    "short_description": "海浪温柔地冲刷着金色沙滩，留下细腻泡沫与湿润痕迹，光影交错间展现自然静谧之美。",
+    "theme": "海浪轻抚沙滩"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见海水与沙滩交界处的白色泡沫。",
+      "沙滩表面呈现湿润且颜色偏金黄的质感。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "冲刷",
+      "退去"
+    ],
+    "attributes": [
+      "金色",
+      "湿润",
+      "泡沫状"
+    ],
+    "relations": [
+      "海浪作用于沙滩。"
+    ],
+    "scene": "海滩",
+    "subjects": [
+      "海浪",
+      "沙滩"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见海水与沙滩交界处的白色泡沫；沙滩表面呈现湿润且颜色偏金黄的质感。",
+    "safe_facts": [
+      "画面中可见海水与沙滩交界处的白色泡沫。",
+      "沙滩表面呈现湿润且颜色偏金黄的质感。"
+    ]
+  },
+  "label_id": "cpl_6a6a07432343802b6f6d2682",
+  "provenance": {
+    "generated_at": "2026-08-03T13:10:14.116062+00:00",
+    "migrated_at": "2026-08-03T13:10:14.119472+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2e051f4ccb5bdb2796a1b0414185545e3d9a14cfaede20f4138791de7cc35e3c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6a6a07432343802b6f6d2682",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:21:21.230119+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_105aeff84e4f97bc76cd23df"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

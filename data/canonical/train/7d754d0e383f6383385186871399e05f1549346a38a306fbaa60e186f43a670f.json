@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:416.jpg",
+    "relative_path": "train/416.jpg",
+    "sha256": "7d754d0e383f6383385186871399e05f1549346a38a306fbaa60e186f43a670f",
+    "split": "train"
+  },
+  "canonical_sha256": "7415aebbb907b8c50364c2373b4dc0fbac0c92aeadcb564e4f042e82bc8e2ec4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "书架",
+      "书籍",
+      "教材",
+      "学习资料"
+    ],
+    "short_description": "木质书架上摆满各类教材和参考书，涵盖数学、计算机科学等多个学科，部分书籍封面颜色鲜明。",
+    "theme": "书架上的书籍"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见一个木质多层书架。",
+      "书架上摆放着大量书籍，部分书脊朝外。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质",
+      "多层",
+      "排列整齐"
+    ],
+    "relations": [
+      "书籍放置于书架上。"
+    ],
+    "scene": "室内书架",
+    "subjects": [
+      "书架",
+      "书籍"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见一个木质多层书架；书架上摆放着大量书籍，部分书脊朝外。",
+    "safe_facts": [
+      "画面中可见一个木质多层书架。",
+      "书架上摆放着大量书籍，部分书脊朝外。"
+    ]
+  },
+  "label_id": "cpl_c3efcb65f2352de014eba478",
+  "provenance": {
+    "generated_at": "2026-08-03T10:58:51.656609+00:00",
+    "migrated_at": "2026-08-03T10:58:51.657991+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6c511a69ad3b5bff5cb4af7c90e82e4831157c07d34228a59149a0f509ae4d1d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ad4152436d301aa957b9a062",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:58:51.658181+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ad4152436d301aa957b9a062"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

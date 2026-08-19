@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:836.jpg",
+    "relative_path": "train/836.jpg",
+    "sha256": "f7d96c47ae474b894cac692efa765f376d23edcc8994859732347f1fef0948ca",
+    "split": "train"
+  },
+  "canonical_sha256": "90ffd91e9e4cdf0c24c59b17557be07e45092efac8bdee989913dce50e830702",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "学生",
+      "学习",
+      "室内",
+      "多人"
+    ],
+    "short_description": "几名青少年围坐桌前，桌上堆满书本和文具，有人看手机，有人专注阅读，背景有黄色柱子和镜子。",
+    "theme": "学生学习场景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能正在学习或复习功课。"
+    ],
+    "direct_observations": [
+      "桌上散落大量纸张和书籍。",
+      "一名男孩手持手机并注视屏幕。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "看手机",
+      "阅读",
+      "站立观看",
+      "低头专注"
+    ],
+    "attributes": [
+      "桌上堆满纸张",
+      "有塑料杯",
+      "有口罩",
+      "有镜子反射人影"
+    ],
+    "relations": [
+      "多人围坐一张桌子。",
+      "男孩在看手机。",
+      "女孩在低头看书。"
+    ],
+    "scene": "室内学习环境",
+    "subjects": [
+      "穿红色T恤的男孩",
+      "穿灰色T恤戴眼镜的男孩",
+      "穿白色T恤的男孩",
+      "穿蓝色上衣的女孩",
+      "穿浅色上衣的女性"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能正在学习或复习功课。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "桌上散落大量纸张和书籍；一名男孩手持手机并注视屏幕。",
+    "safe_facts": [
+      "桌上散落大量纸张和书籍。",
+      "一名男孩手持手机并注视屏幕。"
+    ]
+  },
+  "label_id": "cpl_7650866f8b616cc37d7dd845",
+  "provenance": {
+    "generated_at": "2026-08-03T12:33:23.964901+00:00",
+    "migrated_at": "2026-08-03T12:33:23.968175+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "237f81b628bab3f33404ec54bed9eed216b56022f04e8e55e39c1dd6fceb3def",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a22b09db595561a5cad7c8ce",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:33:23.968524+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a22b09db595561a5cad7c8ce"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

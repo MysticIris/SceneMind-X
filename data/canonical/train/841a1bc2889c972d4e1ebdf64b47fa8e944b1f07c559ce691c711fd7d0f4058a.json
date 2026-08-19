@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:178.jpg",
+    "relative_path": "train/178.jpg",
+    "sha256": "841a1bc2889c972d4e1ebdf64b47fa8e944b1f07c559ce691c711fd7d0f4058a",
+    "split": "train"
+  },
+  "canonical_sha256": "5577b2eabcb4f5acbca1d9c6510c4021ff3b1b7c7e8ff490b54a42caf9fee4d9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "枯树",
+      "山景",
+      "湖泊",
+      "停车场"
+    ],
+    "short_description": "枯树掩映下，山峦环抱湖泊，路边停着多辆汽车，远处可见道路与建筑。",
+    "theme": "山林观景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能为冬季或早春季节。"
+    ],
+    "direct_observations": [
+      "画面中有数棵无叶的高大树木。",
+      "远处可见蜿蜒的湖泊和层叠的山丘。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "光秃的树枝",
+      "远山连绵",
+      "水面平静",
+      "车辆静止"
+    ],
+    "relations": [
+      "树木位于前景。",
+      "山脉环绕湖泊。",
+      "车辆停放在路边。"
+    ],
+    "scene": "山间观景台或公路旁",
+    "subjects": [
+      "树木",
+      "山脉",
+      "湖泊",
+      "车辆",
+      "行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能为冬季或早春季节。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有数棵无叶的高大树木；远处可见蜿蜒的湖泊和层叠的山丘。",
+    "safe_facts": [
+      "画面中有数棵无叶的高大树木。",
+      "远处可见蜿蜒的湖泊和层叠的山丘。"
+    ]
+  },
+  "label_id": "cpl_5327467687f4c1ab781e132c",
+  "provenance": {
+    "generated_at": "2026-08-03T10:10:50.961593+00:00",
+    "migrated_at": "2026-08-03T10:10:50.963633+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dcf3113e665b23679dc10a8cf00f995fa5c54b9b8fc8aedfef80f8e35f2d0376",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e31808171a27aaccebca4284",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:10:50.963846+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e31808171a27aaccebca4284"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

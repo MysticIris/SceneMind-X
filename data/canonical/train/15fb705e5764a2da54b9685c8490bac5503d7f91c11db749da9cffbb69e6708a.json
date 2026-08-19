@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1637.jpg",
+    "relative_path": "train/1637.jpg",
+    "sha256": "15fb705e5764a2da54b9685c8490bac5503d7f91c11db749da9cffbb69e6708a",
+    "split": "train"
+  },
+  "canonical_sha256": "bd605e2c75ffb19b34c1413e537173fbc0785f864ce89596c06b8a7e7b8c78d8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄昏",
+      "城市天际线",
+      "云彩",
+      "水面倒影"
+    ],
+    "short_description": "夕阳西下，金色云层映照城市剪影，水面倒影粼粼，天空与建筑轮廓分明。",
+    "theme": "黄昏城市天际线"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "太阳可能位于地平线附近，光线从地平线方向照射。"
+    ],
+    "direct_observations": [
+      "天空呈现蓝与金黄渐变色调。",
+      "水面有建筑和云层的倒影。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空呈蓝色与金黄色",
+      "云层被阳光染色",
+      "水面平静有倒影"
+    ],
+    "relations": [
+      "建筑群位于水岸线上。",
+      "云层覆盖天空。",
+      "水面反射天空与建筑。"
+    ],
+    "scene": "城市沿水岸的黄昏景象",
+    "subjects": [
+      "城市建筑群",
+      "天空云层",
+      "水面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "太阳可能位于地平线附近，光线从地平线方向照射。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现蓝与金黄渐变色调；水面有建筑和云层的倒影。",
+    "safe_facts": [
+      "天空呈现蓝与金黄渐变色调。",
+      "水面有建筑和云层的倒影。"
+    ]
+  },
+  "label_id": "cpl_71a4a7b63c424659e119e930",
+  "provenance": {
+    "generated_at": "2026-08-03T14:48:23.267894+00:00",
+    "migrated_at": "2026-08-03T14:48:23.270857+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0d2c0cf1154e62a2e568a65b06088ea467c5bd1af4de001114a5c0e100df6179",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b13e5483d1354420387b39d1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:48:23.271200+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b13e5483d1354420387b39d1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

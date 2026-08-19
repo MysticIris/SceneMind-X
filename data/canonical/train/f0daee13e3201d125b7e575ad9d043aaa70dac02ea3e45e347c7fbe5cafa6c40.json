@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:590.jpg",
+    "relative_path": "train/590.jpg",
+    "sha256": "f0daee13e3201d125b7e575ad9d043aaa70dac02ea3e45e347c7fbe5cafa6c40",
+    "split": "train"
+  },
+  "canonical_sha256": "7c9bcce6dc7d7ddd740599e4f6f2a63daad6d7c98f47430d60e79fec38cf09f8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "古建筑",
+      "灯笼",
+      "庭院"
+    ],
+    "short_description": "夜间传统中式建筑庭院，悬挂灯笼，石板路旁有木栏与绿植。",
+    "theme": "夜色古建庭院"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面为夜间拍摄，天空深黑。",
+      "建筑具有传统中式飞檐和木质立柱。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质结构",
+      "瓦片屋顶",
+      "悬挂灯笼",
+      "地面铺石板",
+      "有绿植"
+    ],
+    "relations": [
+      "灯笼悬挂在建筑上方。",
+      "木栏围绕绿植。",
+      "建筑位于庭院中央。"
+    ],
+    "scene": "夜间庭院",
+    "subjects": [
+      "建筑",
+      "灯笼",
+      "树木",
+      "石板路",
+      "木栏"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面为夜间拍摄，天空深黑；建筑具有传统中式飞檐和木质立柱。",
+    "safe_facts": [
+      "画面为夜间拍摄，天空深黑。",
+      "建筑具有传统中式飞檐和木质立柱。"
+    ]
+  },
+  "label_id": "cpl_98425ae993d60b4eeb09f358",
+  "provenance": {
+    "generated_at": "2026-08-03T11:39:42.195611+00:00",
+    "migrated_at": "2026-08-03T11:39:42.197626+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7016e4a595d19f163415e3a728572e02f0bc2e90831b66cdfa800d73c6e7028c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8d2e95ba0b17e4938ccd7655",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:39:42.197855+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8d2e95ba0b17e4938ccd7655"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

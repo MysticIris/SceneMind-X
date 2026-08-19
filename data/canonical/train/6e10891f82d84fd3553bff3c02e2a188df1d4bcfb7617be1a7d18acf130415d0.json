@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1816.jpg",
+    "relative_path": "train/1816.jpg",
+    "sha256": "6e10891f82d84fd3553bff3c02e2a188df1d4bcfb7617be1a7d18acf130415d0",
+    "split": "train"
+  },
+  "canonical_sha256": "097cbe1bcc6c5b7d5276a86a6ab2b0d7217cdf1f5535487b6cd19e545a854744",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "紫色灯光",
+      "大型体育场",
+      "观众席",
+      "发光棒"
+    ],
+    "short_description": "体育场内观众席上数以万计的人群手持发光棒，形成一片紫色光海，舞台区域有工作人员站立，前景有人群仰望。",
+    "theme": "紫色灯光海洋"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "大量观众手持发光物体，形成紫色光点阵列。",
+      "体育场顶部结构呈网格状，被紫色灯光照亮。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "紫色灯光",
+      "密集人群",
+      "手持发光物"
+    ],
+    "relations": [
+      "观众位于观众席。",
+      "观众面向舞台方向。"
+    ],
+    "scene": "室内大型体育场",
+    "subjects": [
+      "观众",
+      "舞台设备",
+      "观众席"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大量观众手持发光物体，形成紫色光点阵列；体育场顶部结构呈网格状，被紫色灯光照亮。",
+    "safe_facts": [
+      "大量观众手持发光物体，形成紫色光点阵列。",
+      "体育场顶部结构呈网格状，被紫色灯光照亮。"
+    ]
+  },
+  "label_id": "cpl_a9d9bd6175f82c24faa5f814",
+  "provenance": {
+    "generated_at": "2026-08-03T15:10:58.250509+00:00",
+    "migrated_at": "2026-08-03T15:10:58.252294+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cdc9a1027d34ac821fc461a12cf1b5b4a095c14c7a26239c18d3c9a656690084",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_70a666606b06f7aa1db6ca73",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:10:58.252503+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_70a666606b06f7aa1db6ca73"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

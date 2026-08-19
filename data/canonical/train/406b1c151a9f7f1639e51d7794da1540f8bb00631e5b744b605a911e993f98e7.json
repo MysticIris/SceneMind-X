@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1595.jpg",
+    "relative_path": "train/1595.jpg",
+    "sha256": "406b1c151a9f7f1639e51d7794da1540f8bb00631e5b744b605a911e993f98e7",
+    "split": "train"
+  },
+  "canonical_sha256": "0bc9a80cc59a7c7c2bbeed8673bd6cc562d0eaecfdbe8db5369407e94795e39e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "灯光装置",
+      "行人聚集"
+    ],
+    "short_description": "夜晚城市广场，大型橙色球形灯饰悬于建筑前，人群在灯光下行走。",
+    "theme": "城市夜景灯光秀"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一个巨大的橙色球形发光装置。",
+      "地面铺设着方形地砖，有多人站立或行走。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "灯光照明",
+      "地面铺装"
+    ],
+    "relations": [
+      "球形灯饰位于建筑物前方。",
+      "行人分布在广场区域。"
+    ],
+    "scene": "城市广场夜景",
+    "subjects": [
+      "行人",
+      "大型球形灯饰",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一个巨大的橙色球形发光装置；地面铺设着方形地砖，有多人站立或行走。",
+    "safe_facts": [
+      "画面中有一个巨大的橙色球形发光装置。",
+      "地面铺设着方形地砖，有多人站立或行走。"
+    ]
+  },
+  "label_id": "cpl_65684b7781381a1d1673bdde",
+  "provenance": {
+    "generated_at": "2026-08-03T14:43:09.669610+00:00",
+    "migrated_at": "2026-08-03T14:43:09.672346+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "093d584d17a9b24bd035a6cf9f09e552574a93bcc7cd680d0efd9d4e1e8780af",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_dcd2a2fa0cacfd2767a70a06",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:43:09.672701+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_dcd2a2fa0cacfd2767a70a06"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

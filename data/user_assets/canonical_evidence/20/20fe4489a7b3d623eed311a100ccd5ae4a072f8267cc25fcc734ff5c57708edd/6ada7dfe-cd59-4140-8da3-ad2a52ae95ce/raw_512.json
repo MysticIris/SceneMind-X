@@ -1,0 +1,66 @@
+{
+  "asset_id": "20fe4489a7b3d623",
+  "asset_sha256": "20fe4489a7b3d623eed311a100ccd5ae4a072f8267cc25fcc734ff5c57708edd",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"电子维修工作台\",\n    \"short_description\": \"一张俯拍视角的电子维修工作台照片。桌面上杂乱摆放着各种工具和耗材，包括一把金属游标卡尺、散落的微小螺丝与金属支架、一瓶黄色的防静电清洁剂、两支胶水、一个白色镂空塑料容器以及一个横放的透明玻璃瓶。右侧可见蓝色的零件收纳盒、白色数据线和电路板组件，呈现出典型的精密仪器拆解或组装场景。\",\n    \"micro_tags\": [\n      \"维修工具\",\n      \"游标卡尺\",\n      \"电子元件\",\n      \"桌面杂物\",\n      \"防静电液\",\n      \"精密组装\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"室内电子维修或组装工作台面\",\n    \"subjects\": [\n      \"游标卡尺\",\n      \"黄色瓶装液体\",\n      \"玻璃瓶\",\n      \"螺丝与金属件\",\n      \"蓝色零件盒\",\n      \"胶水\",\n      \"数据线\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"杂乱\",\n      \"俯视角度\",\n      \"金属质感\",\n      \"透明材质\",\n      \"工业风格\"\n    ],\n    \"relations\": [\n      \"工具与零件散落在深色垫板上\",\n      \"瓶子与容器放置在绿色桌垫区域\",\n      \"蓝色零件盒位于画面右侧边缘\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面左侧有一把银色的金属游标卡尺平放在黑色表面上\",\n      \"中央有一个带有黑色尖嘴盖的黄色塑料瓶，瓶身印有三角形标志\",\n      \"前景横放着一个带有浅蓝色瓶盖的透明玻璃瓶，瓶身贴有包含条形码的标签\",\n      \"右侧有蓝色的塑料模块化零件盒，旁边缠绕着白色的USB数据线\",\n      \"桌面上散布着大量细小的银色螺丝、L型金属支架和垫片\"\n    ],\n    \"cautious_inferences\": [\n      \"根据散落的精密金属件和专用工具推断，这可能是一个手机或小型电子设备的维修现场\",\n      \"黄色瓶子上的标志看起来像防静电（ESD）安全标识\",\n      \"玻璃瓶内的液体看起来已接近用完或含有残留物\"\n    ],\n    \"uncertainties\": [\n      \"无法确认玻璃瓶内原本装的是什么饮料或液体\",\n      \"无法确切识别蓝色零件盒上模压的具体文字内容\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"ESD SAFE\",\n      \"100ML\",\n      \"AB\",\n      \"Parts box\",\n      \"工具区\",\n      \"零件盒 C\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"俯拍视角下的维修工作台，桌面上摆放着游标卡尺、黄色清洁剂瓶、透明玻璃瓶、胶水、白色数据线以及散落的螺丝和金属零件，右侧有蓝色的零件收纳盒。\",\n    \"safe_facts\": [\n      \"图中包含多种维修工具和电子配件\",\n      \"存在一个明显的黄色瓶子和一个横放的玻璃瓶\",\n      \"背景中有黑色的操作垫和绿色的桌面区域\",\n      \"物体摆放较为密集且无序\"\n    ]\n  }\n",
+      "input_tokens": 3205,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 768,
+        "total_tokens": 3973,
+        "estimated_cost_cny": 0.012554,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "电子维修工作台",
+        "short_description": "一张俯拍视角的电子维修工作台照片。桌面上杂乱摆放着各种工具和耗材，包括一把金属游标卡尺、散落的微小螺丝与金属支架、一瓶黄色的防静电清洁剂、两支胶水、一个白色镂空塑料容器以及一个横放的透明玻璃瓶。右侧可见蓝色的零件收纳盒、白色数据线和电路板组件，呈现出典型的精密仪器拆解或组装场景。",
+        "micro_tags": [
+          "维修工具",
+          "游标卡尺",
+          "电子元件",
+          "桌面杂物",
+          "防静电液",
+          "精密组装"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 2759680,
+        "request_bytes": 2066687,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.1092478999999,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "7334f2d4abbe747e5afd9065bc966569c5a331ea664cc54f24c6e71401df7051"
+}

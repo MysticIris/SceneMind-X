@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1131.jpg",
+    "relative_path": "train/1131.jpg",
+    "sha256": "a9cb42955b1a65b3b1b9b6a2c8a0c84aacda7979cfa866d602b31308932451f2",
+    "split": "train"
+  },
+  "canonical_sha256": "332b64299dcb0d9ce5bc3fd3f0af4bc20b55d1e4798ef7d48153644871e928bb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "青铜剑",
+      "古剑",
+      "菱形纹饰"
+    ],
+    "short_description": "一把悬挂于展柜中的古代青铜剑，剑身布满菱形纹饰，在灯光下泛着金属光泽。",
+    "theme": "古剑特写"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "剑身呈青铜色，表面有规则菱形图案。",
+      "剑被固定在白色支架上，背景为深色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "悬挂",
+      "带菱形纹饰",
+      "金属光泽"
+    ],
+    "relations": [
+      "剑悬挂在展柜支架上。"
+    ],
+    "scene": "博物馆展柜内",
+    "subjects": [
+      "青铜剑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "剑身呈青铜色，表面有规则菱形图案；剑被固定在白色支架上，背景为深色。",
+    "safe_facts": [
+      "剑身呈青铜色，表面有规则菱形图案。",
+      "剑被固定在白色支架上，背景为深色。"
+    ]
+  },
+  "label_id": "cpl_c6ce53bcc87345a2efb42c34",
+  "provenance": {
+    "generated_at": "2026-08-03T13:42:50.432054+00:00",
+    "migrated_at": "2026-08-03T13:42:50.437302+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "90a491072cf2e57a17a3a82eda94cebe6f1f6627f497cffc6c80a2b10eb33d7e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_77354b3c3ebf757a9c76c314",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:42:50.437659+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_77354b3c3ebf757a9c76c314"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

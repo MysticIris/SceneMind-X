@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1102.jpg",
+    "relative_path": "train/1102.jpg",
+    "sha256": "26b365ee88dec0eb9ac62a663286167d5ac1e2323a9e7ce707095c6cad955390",
+    "split": "train"
+  },
+  "canonical_sha256": "c2af24a35967545e748090876ccd44dd28302a044718e4e9c854cbb03fbce6d2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "山丘",
+      "梯田",
+      "绿植",
+      "云朵"
+    ],
+    "short_description": "蓝天白云下，连绵起伏的绿色山丘与梯田交织，植被茂密，层次丰富。",
+    "theme": "山野绿意"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见连绵的绿色山丘和梯田状地貌。",
+      "天空呈现蓝色并布满白色云层。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色",
+      "多云",
+      "开阔"
+    ],
+    "relations": [
+      "山丘覆盖植被。",
+      "云朵漂浮于天空。"
+    ],
+    "scene": "山地景观",
+    "subjects": [
+      "山丘",
+      "植被",
+      "天空",
+      "云朵"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见连绵的绿色山丘和梯田状地貌；天空呈现蓝色并布满白色云层。",
+    "safe_facts": [
+      "画面中可见连绵的绿色山丘和梯田状地貌。",
+      "天空呈现蓝色并布满白色云层。"
+    ]
+  },
+  "label_id": "cpl_311f912bd496b0747544529c",
+  "provenance": {
+    "generated_at": "2026-08-03T13:36:30.382795+00:00",
+    "migrated_at": "2026-08-03T13:36:30.386314+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9a521f5b6702047bce218d077b9eaa1c08e5260dc66b8be3d97ed17205f3bbd5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2b38780818fc439b45ff8490",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:36:30.386724+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2b38780818fc439b45ff8490"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

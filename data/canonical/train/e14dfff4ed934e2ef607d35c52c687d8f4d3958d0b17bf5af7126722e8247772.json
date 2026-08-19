@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:997.jpg",
+    "relative_path": "train/997.jpg",
+    "sha256": "e14dfff4ed934e2ef607d35c52c687d8f4d3958d0b17bf5af7126722e8247772",
+    "split": "train"
+  },
+  "canonical_sha256": "02153e6ad35ec5c94b6f12f4d3d6c4838ee9559956698041a1f1a4aeea859536",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "大象",
+      "丛林",
+      "草地",
+      "开阔地"
+    ],
+    "short_description": "一只棕色大象站在草地上，耳朵张开，背景是茂密的绿色树木和多云天空。",
+    "theme": "丛林中的大象"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "大象站立在覆盖着干草的土堆上。",
+      "背景中有大量绿色植被和部分蓝天白云。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "棕色皮肤",
+      "大耳朵",
+      "长鼻子",
+      "小牙"
+    ],
+    "relations": [
+      "大象位于草地上。",
+      "大象后方有树木。"
+    ],
+    "scene": "户外自然环境",
+    "subjects": [
+      "大象"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大象站立在覆盖着干草的土堆上；背景中有大量绿色植被和部分蓝天白云。",
+    "safe_facts": [
+      "大象站立在覆盖着干草的土堆上。",
+      "背景中有大量绿色植被和部分蓝天白云。"
+    ]
+  },
+  "label_id": "cpl_5ce9169c869b8401c8b813d4",
+  "provenance": {
+    "generated_at": "2026-08-03T13:21:47.527700+00:00",
+    "migrated_at": "2026-08-03T13:21:47.534181+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3d96c13925f033b0ec6b9858d90a1e5be78c13ba2dd331cb2f46da5f73ed4432",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ccc70570c6c026b48cb6a2b3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:21:47.534525+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ccc70570c6c026b48cb6a2b3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

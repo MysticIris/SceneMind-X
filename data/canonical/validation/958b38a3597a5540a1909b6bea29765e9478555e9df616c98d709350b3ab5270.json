@@ -1,0 +1,138 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2168.jpg",
+    "relative_path": "val/2168.jpg",
+    "sha256": "958b38a3597a5540a1909b6bea29765e9478555e9df616c98d709350b3ab5270",
+    "split": "val"
+  },
+  "canonical_sha256": "a9ebae9a6e50f0743d500fbe826623e3b3b28ac3ac922fb2d062468a8069649e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "国内外对比",
+      "建设性vs对抗性"
+    ],
+    "short_description": "屏幕显示中文标题和列表内容；屏幕顶部有黑色投影仪支架。",
+    "theme": "投影屏幕与PPT幻灯片内容"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕显示中文标题和列表内容。",
+      "屏幕顶部有黑色投影仪支架。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色边框",
+      "左上角徽章",
+      "底部红旗图案"
+    ],
+    "relations": [
+      "幻灯片内容投射在屏幕上。"
+    ],
+    "scene": "室内会议或课堂环境",
+    "subjects": [
+      "投影屏幕",
+      "PPT幻灯片内容"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕显示中文标题和列表内容；屏幕顶部有黑色投影仪支架。",
+    "safe_facts": [
+      "屏幕显示中文标题和列表内容。",
+      "屏幕顶部有黑色投影仪支架。"
+    ]
+  },
+  "label_id": "cpl_f8c29c888529829c59228e0d",
+  "provenance": {
+    "generated_at": "2026-08-03T16:09:04.491718+00:00",
+    "migrated_at": "2026-08-03T16:09:04.494193+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "112ca0be51e045cec98724919bedc82ff023dea41fc1dd26ef271e78d334cb66",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_95fd740ed3f46cfdaad6a08d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:09:04.495131+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_95fd740ed3f46cfdaad6a08d"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "比较国(境)外与国内近期青年运动:",
+      "——国外:对抗性、破坏性;国内:建设性。",
+      "——国外:自发性;国内:组织性。",
+      "——国外:生活困境、对社会不满引发;国内:社会主义事业建设需要引发。",
+      "国外青年运动多停留在对抗和破坏性形式(常见街头运动)。——负能量(对抗破坏格局)",
+      "国内青年运动,总体上发展到以形式多样的建设性、创新性、嵌入式青年活动为主。——正"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "比较国(境)外与国内近期青年运动:",
+      "——国外:对抗性、破坏性;国内:建设性。",
+      "——国外:自发性;国内:组织性。",
+      "——国外:生活困境、对社会不满引发;国内:社会主义事业建设需要引发。",
+      "国外青年运动多停留在对抗和破坏性形式(常见街头运动)。——负能量(对抗破坏格局)",
+      "国内青年运动,总体上发展到以形式多样的建设性、创新性、嵌入式青年活动为主。——正"
+    ]
+  }
+}

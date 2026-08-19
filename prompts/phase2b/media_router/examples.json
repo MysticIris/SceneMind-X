@@ -1,0 +1,14 @@
+[
+  {
+    "image_id": "1984.jpg",
+    "split": "train",
+    "sha256": "8199fa2e75b576d035124cd087d7db5a2b2305a9a9a8ccea4877c69e8094e53b",
+    "output": {"visual_medium": "presentation_slide", "confidence": "high"}
+  },
+  {
+    "image_id": "1631.jpg",
+    "split": "train",
+    "sha256": "00121a1ec7bb1a0a947bfed3189e0b6a798bce33a7745bacbd218c1ebcebaebb",
+    "output": {"visual_medium": "real_world_photo", "confidence": "high"}
+  }
+]

@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:59.jpg",
+    "relative_path": "train/59.jpg",
+    "sha256": "dc54897912246420a768603a84c24ea605ea3eb1250b286c81ba59070a450951",
+    "split": "train"
+  },
+  "canonical_sha256": "c23fb319deeec92aa97398f6a2fe9ad5020558333d8e0a179ab057a435b6cc57",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "儿童",
+      "手工活动",
+      "拼贴材料"
+    ],
+    "short_description": "三名幼儿围坐桌前，专注进行拼贴或绘画类手工活动，桌上摆放着彩色材料和工具。",
+    "theme": "儿童手工活动"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "三名儿童坐在木制桌旁进行手工操作。",
+      "桌上散落着彩色几何图形、小瓶装颜料及纸张。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "操作材料",
+      "专注凝视"
+    ],
+    "attributes": [
+      "扎马尾",
+      "戴发饰",
+      "手持工具"
+    ],
+    "relations": [
+      "三人围坐一张桌子。",
+      "桌上放置多个白色塑料篮子。"
+    ],
+    "scene": "室内木质地板环境",
+    "subjects": [
+      "一名穿黑色上衣的女孩",
+      "一名穿黄色上衣的女孩",
+      "一名穿黄色上衣的男孩"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三名儿童坐在木制桌旁进行手工操作；桌上散落着彩色几何图形、小瓶装颜料及纸张。",
+    "safe_facts": [
+      "三名儿童坐在木制桌旁进行手工操作。",
+      "桌上散落着彩色几何图形、小瓶装颜料及纸张。"
+    ]
+  },
+  "label_id": "cpl_18e9ae77a22e418188d6d396",
+  "provenance": {
+    "generated_at": "2026-08-03T09:16:36.639596+00:00",
+    "migrated_at": "2026-08-03T09:16:36.641522+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5a0b672d9bd1710bee0486337f8c87ec81e9d7006c1554115a52234c0092d7e2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_df63acd4f0950a66509f8c4c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:27.516099+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_df63acd4f0950a66509f8c4c",
+    "cpl_09bf3357e30c51c825eadfc9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

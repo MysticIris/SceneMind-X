@@ -1,0 +1,137 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_4695a5b669eba32e66b7d844",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_26eec6abb274174d56de2e09"
+  ],
+  "asset": {
+    "asset_id": "2b47d9d4fc98cc35",
+    "sha256": "2b47d9d4fc98cc35c7fe17fda9315f2cb0762edf301437735175ae643b0bee67",
+    "split": "user_custom",
+    "relative_path": "user_assets/2b/2b47d9d4fc98cc35c7fe17fda9315f2cb0762edf301437735175ae643b0bee67/2b47d9d4fc98cc35c7fe17fda9315f2cb0762edf301437735175ae643b0bee67.jpg"
+  },
+  "display": {
+    "theme": "Q版动漫少女插画",
+    "short_description": "这是一张Q版风格的动漫少女插画。女孩留着浅粉色双马尾，头戴饰有白色小熊的黄色贝雷帽，身穿浅色上衣和格纹短裙，背着粉色书包。她双手捂嘴，大眼睛闪烁，周围漂浮着粉色气泡，整体色调柔和可爱。",
+    "micro_tags": [
+      "Q版",
+      "双马尾",
+      "贝雷帽",
+      "小熊装饰",
+      "粉色系",
+      "动漫插画",
+      "可爱"
+    ]
+  },
+  "facts": {
+    "visual_medium": "illustration",
+    "scene": "纯白背景",
+    "subjects": [
+      "动漫少女"
+    ],
+    "actions": [
+      "双手捂嘴",
+      "站立"
+    ],
+    "attributes": [
+      "浅粉色双马尾",
+      "黄色贝雷帽",
+      "帽子上的白色小熊装饰",
+      "大眼睛",
+      "粉色格纹裙",
+      "粉色背包"
+    ],
+    "relations": []
+  },
+  "evidence": {
+    "direct_observations": [
+      "画面主体为一个头部比例较大的Q版女性角色。",
+      "角色头戴黄色帽子，帽子右侧有一个明显的白色熊头形状装饰物。",
+      "角色头发为浅粉灰色，扎成两侧低双马尾。",
+      "角色身穿浅色长袖上衣，下着蓝白或粉白格纹百褶裙。",
+      "角色左肩背着一个粉色双肩包。",
+      "角色双手抬起置于嘴部前方。",
+      "背景中有若干半透明的粉色圆形或云朵状漂浮物。"
+    ],
+    "cautious_inferences": [
+      "画风属于典型的日系萌系插画风格。"
+    ],
+    "uncertainties": [
+      "无法确定具体的服装品牌或角色出处。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "none",
+    "visual_candidates": [],
+    "ocr_candidates": [],
+    "candidate_text": [],
+    "confidence": null,
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "画面主体为一个头部比例较大的Q版女性角色；角色头戴黄色帽子，帽子右侧有一个明显的白色熊头形状装饰物。",
+    "safe_facts": [
+      "画面主体为一个头部比例较大的Q版女性角色。",
+      "角色头戴黄色帽子，帽子右侧有一个明显的白色熊头形状装饰物。",
+      "角色头发为浅粉灰色，扎成两侧低双马尾。"
+    ],
+    "do_not_assert": [
+      "画风属于典型的日系萌系插画风格。",
+      "无法确定具体的服装品牌或角色出处。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_c13c0ce5-ddb8-442b-8aa9-6a53ecb7d1f2",
+    "generated_at": "2026-08-12T03:04:31.349410+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "4bd7a344fecbfe6bda25216ade0a5993620f24a3a6ab737736b017914fab98da",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:04:31.350022+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_26eec6abb274174d56de2e09",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:04:31.350377+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "2bbacfd49409b740065b2e5cae2346dec40c95d16891ca8d82f7edc8959975ee"
+}

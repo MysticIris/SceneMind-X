@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:290.jpg",
+    "relative_path": "train/290.jpg",
+    "sha256": "5bbcaf322f79d823f94da3fbcc52c64d07df469a50ff1168d0e66b5b93d64524",
+    "split": "train"
+  },
+  "canonical_sha256": "2ba2ad2ea87d6d4841b56764bf3e6733554e0fa4dc1fa4beeaa4ef7d8d2f173a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "滨江广场",
+      "行人",
+      "斜拉桥",
+      "塔吊"
+    ],
+    "short_description": "阴天下的滨江广场，人们在铺砖步道上行走，背景有斜拉桥和施工塔吊。",
+    "theme": "城市滨江广场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面由灰色方形地砖铺设成弧形图案。",
+      "远处可见一座红色钢索斜拉桥。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "站立"
+    ],
+    "attributes": [
+      "阴天",
+      "灰色铺砖地面",
+      "多云天空"
+    ],
+    "relations": [
+      "行人位于广场上。",
+      "桥梁位于背景。",
+      "塔吊位于右侧。"
+    ],
+    "scene": "城市滨江公共区域",
+    "subjects": [
+      "行人",
+      "桥梁结构",
+      "塔吊"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面由灰色方形地砖铺设成弧形图案；远处可见一座红色钢索斜拉桥。",
+    "safe_facts": [
+      "地面由灰色方形地砖铺设成弧形图案。",
+      "远处可见一座红色钢索斜拉桥。"
+    ]
+  },
+  "label_id": "cpl_4760954a102246dfb356ac64",
+  "provenance": {
+    "generated_at": "2026-08-03T10:33:06.012240+00:00",
+    "migrated_at": "2026-08-03T10:33:06.014229+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b5d0c1734255e6d2ecc4fcb7f12e2e7a0c3320592ffc786da7979b27b6bfb8c6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6bdc8d61c96a6e71e8f528f7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:33:06.014430+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6bdc8d61c96a6e71e8f528f7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

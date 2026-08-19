@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2261.jpg",
+    "relative_path": "val/2261.jpg",
+    "sha256": "4006d5d39216871808f7c84aa09afd76d0a931484fc6a61365350ff27f4f4ae8",
+    "split": "val"
+  },
+  "canonical_sha256": "ac515e0bb0fd49c26d68bfb3743e0497daf02f03d41d89cf275d1442944e0574",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "室内",
+      "女性",
+      "对话",
+      "货架"
+    ],
+    "short_description": "三名女性在货架旁交谈，前景年轻女子表情惊讶，中间女子低头，背景老妇侧脸凝视。",
+    "theme": "商店内三人对话"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有三名女性，位于商店货架前。",
+      "前景年轻女性张嘴似在说话，表情惊讶。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "老年女性穿红衣",
+      "年轻女性穿格子衬衫",
+      "中年女性穿花色上衣"
+    ],
+    "relations": [],
+    "scene": "商店内部",
+    "subjects": [
+      "老年女性",
+      "中年女性",
+      "年轻女性"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有三名女性，位于商店货架前；前景年轻女性张嘴似在说话，表情惊讶。",
+    "safe_facts": [
+      "画面中有三名女性，位于商店货架前。",
+      "前景年轻女性张嘴似在说话，表情惊讶。"
+    ]
+  },
+  "label_id": "cpl_e0e26a515e03ef86ea02ba71",
+  "provenance": {
+    "generated_at": "2026-08-03T16:19:25.232388+00:00",
+    "migrated_at": "2026-08-03T16:19:25.234221+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8d27e4a73dfcc923adc5693f6fba339a978f08ea160605242aca31d07c70e2a2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c8fabd2b131999f13e2038e9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:19:25.234507+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c8fabd2b131999f13e2038e9"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "那她这点儿睡了"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "那她这点儿睡了"
+    ]
+  }
+}

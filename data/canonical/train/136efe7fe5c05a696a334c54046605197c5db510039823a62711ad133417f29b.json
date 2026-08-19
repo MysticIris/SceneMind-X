@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:169.jpg",
+    "relative_path": "train/169.jpg",
+    "sha256": "136efe7fe5c05a696a334c54046605197c5db510039823a62711ad133417f29b",
+    "split": "train"
+  },
+  "canonical_sha256": "62c2489641440e2f430f6b631e3b8dfcef24ad6cac04cf5d3cd934bf3d0d799a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "岩层",
+      "海岸",
+      "潮汐痕迹",
+      "层状岩石"
+    ],
+    "short_description": "阳光照射下，海岸岩石层理分明，潮水退去后形成蜿蜒水道，远处山崖耸立，天空湛蓝。",
+    "theme": "海岸岩层地貌"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线从一侧照射，产生明暗对比。"
+    ],
+    "direct_observations": [
+      "岩石表面呈现明显层状纹理。",
+      "部分区域有积水形成小水道。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "层状结构",
+      "湿润表面",
+      "阳光照射"
+    ],
+    "relations": [
+      "岩石位于海岸。",
+      "水面存在于岩石间。"
+    ],
+    "scene": "海岸",
+    "subjects": [
+      "岩石",
+      "海崖",
+      "水面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线从一侧照射，产生明暗对比。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "岩石表面呈现明显层状纹理；部分区域有积水形成小水道。",
+    "safe_facts": [
+      "岩石表面呈现明显层状纹理。",
+      "部分区域有积水形成小水道。"
+    ]
+  },
+  "label_id": "cpl_5a4b8deee917a5c75ca939d3",
+  "provenance": {
+    "generated_at": "2026-08-03T10:09:10.581208+00:00",
+    "migrated_at": "2026-08-03T10:09:10.582705+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7c04cbc964fa05af4c4ff46a88dae8007c9b2316959283f9c27bee51d8346f64",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_52bbc66afe9dea70e605902a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:09:10.582907+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_52bbc66afe9dea70e605902a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

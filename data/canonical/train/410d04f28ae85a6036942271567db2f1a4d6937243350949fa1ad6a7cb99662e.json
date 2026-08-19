@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:730.jpg",
+    "relative_path": "train/730.jpg",
+    "sha256": "410d04f28ae85a6036942271567db2f1a4d6937243350949fa1ad6a7cb99662e",
+    "split": "train"
+  },
+  "canonical_sha256": "95f182e0546ea7069c5263c10c243bf4cea4feff56843274d7df4b054a7ce69d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "虾",
+      "玉米",
+      "生食",
+      "餐桌"
+    ],
+    "short_description": "一盘生虾和玉米粒摆放在白色盘子上，旁边有竹筒和叠放的餐盘。",
+    "theme": "海鲜食材拼盘"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "盘中盛有数只灰色带壳的虾。",
+      "盘中配有三段切开的玉米棒。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "生的",
+      "白色盘子",
+      "黄色玉米粒",
+      "竹筒状容器"
+    ],
+    "relations": [
+      "虾和玉米放在同一个盘子里。",
+      "竹筒位于盘子前方。"
+    ],
+    "scene": "餐桌",
+    "subjects": [
+      "虾",
+      "玉米",
+      "竹筒",
+      "餐盘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "盘中盛有数只灰色带壳的虾；盘中配有三段切开的玉米棒。",
+    "safe_facts": [
+      "盘中盛有数只灰色带壳的虾。",
+      "盘中配有三段切开的玉米棒。"
+    ]
+  },
+  "label_id": "cpl_407ba615d271406458fa9dad",
+  "provenance": {
+    "generated_at": "2026-08-03T12:10:34.374163+00:00",
+    "migrated_at": "2026-08-03T12:10:34.380418+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "31565d9d22dbce4b68699000c473123488231cff7d9d73316068c080aea5d348",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9ed2f2ffb9ef783763bdd046",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:10:34.380768+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9ed2f2ffb9ef783763bdd046"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

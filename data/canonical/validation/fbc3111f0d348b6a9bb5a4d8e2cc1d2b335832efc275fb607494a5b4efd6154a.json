@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2111.jpg",
+    "relative_path": "val/2111.jpg",
+    "sha256": "fbc3111f0d348b6a9bb5a4d8e2cc1d2b335832efc275fb607494a5b4efd6154a",
+    "split": "val"
+  },
+  "canonical_sha256": "6123c0a5b0b8f24c96bd48e0c1cbb9c668bb67b15ab11cef3b33ade6e9ac47e1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "物理笔记",
+      "静电学",
+      "手写公式"
+    ],
+    "short_description": "手写物理笔记，涵盖、、、等内容。",
+    "theme": "静电学笔记"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见物理公式。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色标记",
+      "蓝色墨水",
+      "数学符号"
+    ],
+    "relations": [],
+    "scene": "一张纸张上的手写笔记",
+    "subjects": [
+      "物理公式"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见物理公式。",
+    "safe_facts": [
+      "画面中可见物理公式。"
+    ]
+  },
+  "label_id": "cpl_fc19ebe2850d6f38af38f076",
+  "provenance": {
+    "generated_at": "2026-08-03T16:00:44.513956+00:00",
+    "migrated_at": "2026-08-03T16:00:44.515813+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "70b0c1541cedb76d70762deadc4948a1ff72657218e0ed5607aa19993ae19019",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_926c366ce4fcf420a110e841",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:00:44.516731+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_direct_observations_insufficient",
+      "legacy_contract_safe_facts_empty",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_926c366ce4fcf420a110e841"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "库仑定律",
+      "电场强度",
+      "电偶极子",
+      "静电场环路定理",
+      "电势差、电势",
+      "导体达静电平衡时"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "库仑定律",
+      "电场强度",
+      "电偶极子",
+      "静电场环路定理",
+      "电势差、电势",
+      "导体达静电平衡时"
+    ]
+  }
+}

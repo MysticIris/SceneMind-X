@@ -1,0 +1,141 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_e7390d50b180f5d9f1d24f79",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_b1b1753596f7cc251655427e"
+  ],
+  "asset": {
+    "asset_id": "6ff4eef903c6aeb6",
+    "sha256": "6ff4eef903c6aeb64a3d9f43eec8c912390b21c015b5b504871ef8abdd982572",
+    "split": "user_custom",
+    "relative_path": "user_assets/6f/6ff4eef903c6aeb64a3d9f43eec8c912390b21c015b5b504871ef8abdd982572/6ff4eef903c6aeb64a3d9f43eec8c912390b21c015b5b504871ef8abdd982572.png"
+  },
+  "display": {
+    "theme": "机器人竞赛获奖证书",
+    "short_description": "这是一张2024中国机器人大赛暨RoboCup机器人世界杯中国赛的获奖证书。证书显示华中科技大学AirHust团队在无人机挑战赛中获得三等奖，右下角盖有中国自动化学会的红色印章。",
+    "micro_tags": [
+      "获奖证书",
+      "机器人比赛",
+      "无人机",
+      "华中科技大学",
+      "三等奖",
+      "官方文件"
+    ]
+  },
+  "facts": {
+    "visual_medium": "poster_document",
+    "scene": "白色背景的正式证书版面",
+    "subjects": [
+      "证书文本",
+      "卡通龙插图",
+      "防伪底纹",
+      "红色印章",
+      "顶部Logo"
+    ],
+    "actions": [],
+    "attributes": [
+      "竖版构图",
+      "白底黑字",
+      "红色强调色",
+      "正式排版"
+    ],
+    "relations": [
+      "左侧配有彩色卡通龙图案。",
+      "右下角覆盖红色圆形公章。",
+      "背景铺满浅色几何防伪纹路。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "图片顶部居中印有巨大的黑色宋体字“获奖证书”。",
+      "右下角有一个红色的圆形印章，中心有五角星图案。",
+      "左侧边缘有一个彩色的卡通龙形象插图。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "2024中国机器人大赛暨RoboCup机器人世界杯中国赛",
+      "获奖证书",
+      "Y2409T70507",
+      "华中科技大学",
+      "AirHust"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "2024中国机器人大赛暨RoboCup机器人世界杯中国赛",
+      "获奖证书",
+      "Y2409T70507",
+      "华中科技大学",
+      "AirHust"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "图片顶部居中印有巨大的黑色宋体字“获奖证书”；右下角有一个红色的圆形印章，中心有五角星图案。",
+    "safe_facts": [
+      "图片顶部居中印有巨大的黑色宋体字“获奖证书”。",
+      "右下角有一个红色的圆形印章，中心有五角星图案。",
+      "左侧边缘有一个彩色的卡通龙形象插图。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_abb63d3e-04b7-46ec-87ae-c176b0d13a99",
+    "generated_at": "2026-08-12T03:28:26.683736+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "bc698d610be28270f7844bfe21e4e443be91cf495008fa5c1001b83fbfe07488",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:28:26.684677+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_b1b1753596f7cc251655427e",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:28:26.685042+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "37b6a1b3e100f2fc5b448485789edc6d87ed9c3ea75a65423f1396253b29aeb8"
+}

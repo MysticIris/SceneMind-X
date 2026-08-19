@@ -1,0 +1,37 @@
+{
+  "candidate_id": "SCENEMINDX_CONTENT_TYPE_PROFILES_V1_1_CANDIDATE",
+  "version": "1.1.0",
+  "status": "accepted_product_active",
+  "parent_candidate_id": "SCENEMINDX_CONTENT_TYPE_PROFILES_V1_CANDIDATE",
+  "scope": "moments_profile_only",
+  "profile_file": "prompts/phase5_4a/moments_profile_v1_1_candidate/profile.json",
+  "profile_sha256": "d85ae97945707e162287eb03bb740b518df541f0a50af28d57e2d00a7c1de556",
+  "composed_registry_sha256": "0c1ddd839839bc5b2769eee7502df555212588d3674dca3497a117693a5af3a4",
+  "frozen_parent_registry_sha256": "a57b20dab77b458471b351f4d235096ef2bedf37b90f8d997fb048f0db993bd4",
+  "accepted_by": "phase5_4a_product_acceptance",
+  "accepted_at": "2026-08-01T16:30:00+08:00",
+  "evidence": {
+    "split": "existing_previously_viewed_train_only_product_16",
+    "browser_acceptance": "25/25 passed",
+    "browser_console_errors": 0,
+    "browser_failed_responses": 0,
+    "full_regression": "493/493 passed",
+    "observed_default_visible_lengths": [
+      83,
+      102,
+      109
+    ],
+    "observed_explicit_approx_160_visible_length": 172
+  },
+  "boundaries": {
+    "p3_changed": false,
+    "description_prompt_changed": false,
+    "vqa_prompt_changed": false,
+    "story_prompt_changed": false,
+    "model_or_revision_changed": false,
+    "val_read": false,
+    "test_read": false,
+    "blind_read": false,
+    "training": false
+  }
+}

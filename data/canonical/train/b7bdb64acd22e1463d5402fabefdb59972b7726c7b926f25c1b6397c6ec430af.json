@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1347.jpg",
+    "relative_path": "train/1347.jpg",
+    "sha256": "b7bdb64acd22e1463d5402fabefdb59972b7726c7b926f25c1b6397c6ec430af",
+    "split": "train"
+  },
+  "canonical_sha256": "a9e7fd3f399d72e2793f1d7da608ecbdd09cf9d52701ee07b465db73fab78999",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "骑行少年",
+      "光影对比",
+      "落叶地面"
+    ],
+    "short_description": "一个戴头盔的孩子骑着自行车，阳光在墙上投下巨大动物影子，地面散落落叶，一只鸟在飞。",
+    "theme": "光影下的骑行少年"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "影子看起来像某种动物形态。"
+    ],
+    "direct_observations": [
+      "画面呈现卡通风格插画。",
+      "孩子戴着黄色头盔并骑着一辆自行车。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "孩子骑车",
+      "鸟飞翔"
+    ],
+    "attributes": [
+      "黄色头盔",
+      "白色上衣",
+      "黑色短裤"
+    ],
+    "relations": [
+      "孩子骑在自行车上。",
+      "影子投射在墙上。",
+      "鸟在空中飞行。"
+    ],
+    "scene": "户外街道角落",
+    "subjects": [
+      "戴头盔的孩子",
+      "自行车",
+      "墙上的影子",
+      "飞鸟",
+      "落叶"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "影子看起来像某种动物形态。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现卡通风格插画；孩子戴着黄色头盔并骑着一辆自行车。",
+    "safe_facts": [
+      "画面呈现卡通风格插画。",
+      "孩子戴着黄色头盔并骑着一辆自行车。"
+    ]
+  },
+  "label_id": "cpl_7a81704996cb79c63c27f1ab",
+  "provenance": {
+    "generated_at": "2026-08-03T14:13:15.322038+00:00",
+    "migrated_at": "2026-08-03T14:13:15.324952+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9c594bbe9f3a40828fcb873ab95e1d57ec3b8023be13c2aa6da4fafe1e81cd48",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_14a930f0c06ec4e4da11961d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:13:15.325301+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_14a930f0c06ec4e4da11961d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

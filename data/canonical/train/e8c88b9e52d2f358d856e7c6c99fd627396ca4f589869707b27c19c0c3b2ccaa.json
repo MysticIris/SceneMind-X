@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1548.jpg",
+    "relative_path": "train/1548.jpg",
+    "sha256": "e8c88b9e52d2f358d856e7c6c99fd627396ca4f589869707b27c19c0c3b2ccaa",
+    "split": "train"
+  },
+  "canonical_sha256": "c623204679068da87463be4aeaa7a97edc8733bb41abf8aec309425d89261d7a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄昏",
+      "桥梁",
+      "河流",
+      "山脉",
+      "云彩"
+    ],
+    "short_description": "黄昏时分，桥梁横跨水面，远山与云霞交相辉映，天空呈现粉紫橙色渐变，左侧立有通信塔。",
+    "theme": "黄昏河景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自地平线方向，表明是日落或日出时段。"
+    ],
+    "direct_observations": [
+      "天空呈现从深蓝到粉紫再到橙黄的色彩过渡。",
+      "桥梁横跨水面，桥墩部分浸入水中。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空呈粉紫色渐变",
+      "水面有倒影",
+      "桥梁为混凝土结构",
+      "山脉呈剪影状"
+    ],
+    "relations": [
+      "桥梁横跨河流。",
+      "山脉位于桥梁后方。",
+      "通信塔位于画面左侧。"
+    ],
+    "scene": "河流与桥梁景观",
+    "subjects": [
+      "桥梁",
+      "河流",
+      "山脉",
+      "天空",
+      "通信塔"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自地平线方向，表明是日落或日出时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现从深蓝到粉紫再到橙黄的色彩过渡；桥梁横跨水面，桥墩部分浸入水中。",
+    "safe_facts": [
+      "天空呈现从深蓝到粉紫再到橙黄的色彩过渡。",
+      "桥梁横跨水面，桥墩部分浸入水中。"
+    ]
+  },
+  "label_id": "cpl_f4633e3eb53dc7e356223414",
+  "provenance": {
+    "generated_at": "2026-08-03T14:36:36.201631+00:00",
+    "migrated_at": "2026-08-03T14:36:36.204703+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a68c588a672c58dcedb754cbf4e1cfaaaeeda99dc23d124b4e0f0ae04b62c392",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_65625b81b8fa74e29986ce60",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:36:36.205064+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_65625b81b8fa74e29986ce60"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

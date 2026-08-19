@@ -1,0 +1,140 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_3ce3446e45bd4ad8900bc6b1",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_7a8f9abcd0b22d3ce15b3b44"
+  ],
+  "asset": {
+    "asset_id": "74750d417c9f2da3",
+    "sha256": "74750d417c9f2da3fa674c4ecef067a5e850bcb11c338b0c68ac96caa3cc7c67",
+    "split": "user_custom",
+    "relative_path": "user_assets/74/74750d417c9f2da3fa674c4ecef067a5e850bcb11c338b0c68ac96caa3cc7c67/74750d417c9f2da3fa674c4ecef067a5e850bcb11c338b0c68ac96caa3cc7c67.png"
+  },
+  "display": {
+    "theme": "数字电路仿真波形图",
+    "short_description": "这是一张电子设计自动化软件的截图，展示了名为counter74HC161的数字计数器模块的仿真波形。界面包含左侧的信号名称与数值列表，以及右侧黑底绿线的时序图，显示了时钟脉冲及数据信号随时间的变化状态。",
+    "micro_tags": [
+      "EDA软件",
+      "波形仿真",
+      "数字逻辑",
+      "计数器",
+      "时序图",
+      "工程调试"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "计算机屏幕上的工程软件界面",
+    "subjects": [
+      "信号列表面板",
+      "波形显示区域",
+      "工具栏"
+    ],
+    "actions": [],
+    "attributes": [
+      "深色背景",
+      "绿色信号线",
+      "网格刻度",
+      "十六进制数值"
+    ],
+    "relations": [
+      "左侧列表对应右侧波形信号。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "界面顶部显示多个文件标签页，如'counter74HC161_tb.v'。",
+      "左侧面板列出了cep，cet，pe_n，cp等信号名称及其当前数值(如0，1，c，6)。",
+      "右侧主区域为黑色背景的时序图，横轴标有0 ns至900 ns的时间刻度。",
+      "波形主要由绿色的水平线和垂直跳变组成，代表数字信号的高低电平。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "counter74HC161_tb.v",
+      "counter74HC161.v",
+      "Untitled 2",
+      "Name",
+      "Value",
+      "cep"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "counter74HC161_tb.v",
+      "counter74HC161.v",
+      "Untitled 2",
+      "Name",
+      "Value",
+      "cep"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "界面顶部显示多个文件标签页，如'counter74HC161_tb.v'；左侧面板列出了cep，cet，pe_n，cp等信号名称及其当前数值(如0，1，c，6)。",
+    "safe_facts": [
+      "界面顶部显示多个文件标签页，如'counter74HC161_tb.v'。",
+      "左侧面板列出了cep，cet，pe_n，cp等信号名称及其当前数值(如0，1，c，6)。",
+      "右侧主区域为黑色背景的时序图，横轴标有0 ns至900 ns的时间刻度。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_e3a0ab55-e226-4647-a952-40379d36fd89",
+    "generated_at": "2026-08-12T03:30:12.362453+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "75ed511a842400c6391175d55d5b5967710e5a05f290502d71a361f244929948",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:30:12.363402+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_7a8f9abcd0b22d3ce15b3b44",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:30:12.364078+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "6723458bc920316a89057ef5854de1dcb722ee284d8d0928dcdb74945f6cc3e5"
+}

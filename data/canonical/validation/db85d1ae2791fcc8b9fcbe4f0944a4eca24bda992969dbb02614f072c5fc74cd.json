@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2014.jpg",
+    "relative_path": "val/2014.jpg",
+    "sha256": "db85d1ae2791fcc8b9fcbe4f0944a4eca24bda992969dbb02614f072c5fc74cd",
+    "split": "val"
+  },
+  "canonical_sha256": "f589ea4d0328b8d4ce92bb29cd9d14e24874e60fbe2fe6e0c5055dd34cd985cd",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "屏幕截图",
+      "物理试题",
+      "电子设备"
+    ],
+    "short_description": "屏幕显示的是中文排版的多道物理计算题。",
+    "theme": "电子屏幕显示题目"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕显示的是中文排版的多道物理计算题。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "电脑显示器屏幕",
+    "subjects": [],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕显示的是中文排版的多道物理计算题。",
+    "safe_facts": [
+      "屏幕显示的是中文排版的多道物理计算题。"
+    ]
+  },
+  "label_id": "cpl_c06c558d1366c9c56be06b50",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/val/val_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "e32d3af75c130700fc73cbca19128fe8491843a5f2d834ae73a5bd88abf3c6d1",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T15:48:31.374253+00:00",
+    "migrated_at": "2026-08-03T15:48:31.377394+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "23a549abc6815b7197dc72a01b1955d1490954511fae43a65cd389967321007a",
+    "recovered_at_tokens": 768,
+    "source_label_id": "cpl_d9d673e2bc24e7f6caa6e21f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:48:31.378107+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_subjects_empty",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_768_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "电子屏幕上的中文物理题页面概括准确。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d9d673e2bc24e7f6caa6e21f"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "(3)列出3-5章中具有增益的器件,并比较(至少列出2个比较点)。",
+      "(4)试求一个温度为T的黑体点源到距离l0处的探测器(直径为D)面上的辐射通量。",
+      "(5)设测试带宽为Δf,推导温度为T、发射率为ε、面积为A的探测器的NEP。",
+      "(6)PMT的阴极光照灵敏度为60μA/lm,阴极面的有效直径为15mm,倍增级",
+      "1)长期使用时,阴极面的极限入射光通量为多少?",
+      "2)设阳极电阻为75kΩ,问输出电压由背景光为0.1mV变化到0.25mV情况下"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "(3)列出3-5章中具有增益的器件,并比较(至少列出2个比较点)。",
+      "(4)试求一个温度为T的黑体点源到距离l0处的探测器(直径为D)面上的辐射通量。",
+      "(5)设测试带宽为Δf,推导温度为T、发射率为ε、面积为A的探测器的NEP。",
+      "(6)PMT的阴极光照灵敏度为60μA/lm,阴极面的有效直径为15mm,倍增级",
+      "1)长期使用时,阴极面的极限入射光通量为多少?",
+      "2)设阳极电阻为75kΩ,问输出电压由背景光为0.1mV变化到0.25mV情况下"
+    ]
+  }
+}

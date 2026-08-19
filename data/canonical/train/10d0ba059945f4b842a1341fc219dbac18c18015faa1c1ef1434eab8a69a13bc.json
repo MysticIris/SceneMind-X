@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1341.jpg",
+    "relative_path": "train/1341.jpg",
+    "sha256": "10d0ba059945f4b842a1341fc219dbac18c18015faa1c1ef1434eab8a69a13bc",
+    "split": "train"
+  },
+  "canonical_sha256": "366d941d17804f69bb0a069d0e920308a8fef681d74dbc90b0d669fcace2f4d4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "彩色烟雾",
+      "户外活动",
+      "人群聚集"
+    ],
+    "short_description": "晴朗天空下，大量彩色粉末向上喷射形成绚丽彩虹状烟柱，地面聚集人群，背景有树木和红色围栏。",
+    "theme": "彩色烟雾升空"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "人群可能在观看或参与该活动。"
+    ],
+    "direct_observations": [
+      "天空呈蓝色，无云或云量极少。",
+      "彩色粉末从地面垂直向上喷射，形成多色烟柱。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "彩色粉末喷射上升"
+    ],
+    "attributes": [
+      "晴朗蓝天",
+      "多色烟雾",
+      "迷彩头盔"
+    ],
+    "relations": [
+      "人群位于烟雾下方。",
+      "树木位于围栏后方。"
+    ],
+    "scene": "户外开阔场地",
+    "subjects": [
+      "彩色粉末",
+      "人群",
+      "树木",
+      "红色围栏"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "人群可能在观看或参与该活动。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈蓝色，无云或云量极少；彩色粉末从地面垂直向上喷射，形成多色烟柱。",
+    "safe_facts": [
+      "天空呈蓝色，无云或云量极少。",
+      "彩色粉末从地面垂直向上喷射，形成多色烟柱。"
+    ]
+  },
+  "label_id": "cpl_b5bc46ddb9ab9556a972f7dc",
+  "provenance": {
+    "generated_at": "2026-08-03T14:12:31.199005+00:00",
+    "migrated_at": "2026-08-03T14:12:31.201945+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0d66dfe7355574180bef388a8ea4ca47727f01a33fe860ff5b74f42ec167315b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_156997707ef68ae2684ef201",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:12:31.202307+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_156997707ef68ae2684ef201"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

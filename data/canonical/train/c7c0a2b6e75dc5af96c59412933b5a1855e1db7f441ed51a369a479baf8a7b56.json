@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1281.jpg",
+    "relative_path": "train/1281.jpg",
+    "sha256": "c7c0a2b6e75dc5af96c59412933b5a1855e1db7f441ed51a369a479baf8a7b56",
+    "split": "train"
+  },
+  "canonical_sha256": "8f6556c7a4739ece8b3cc596b1a7cf9b2f3cdd066ff940fc1de2edb899fb1e09",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "柴犬",
+      "特写",
+      "仰视"
+    ],
+    "short_description": "一只浅棕色柴犬趴在蓝色物体上，仰头望向镜头，眼神专注，毛发蓬松，爪子搭在边缘。",
+    "theme": "柴犬特写"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "狗的面部朝向镜头，眼睛睁大。",
+      "狗趴在蓝色条状物上，前爪搭在边缘。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "浅棕色毛发",
+      "黑色鼻子",
+      "大眼睛",
+      "白色胡须",
+      "爪子搭在物体边缘"
+    ],
+    "relations": [],
+    "scene": "室内",
+    "subjects": [
+      "柴犬"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "狗的面部朝向镜头，眼睛睁大；狗趴在蓝色条状物上，前爪搭在边缘。",
+    "safe_facts": [
+      "狗的面部朝向镜头，眼睛睁大。",
+      "狗趴在蓝色条状物上，前爪搭在边缘。"
+    ]
+  },
+  "label_id": "cpl_374301dc9773414526c6518e",
+  "provenance": {
+    "generated_at": "2026-08-03T14:02:12.310481+00:00",
+    "migrated_at": "2026-08-03T14:02:12.314817+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c91a1a2d463ccc26de5a9ba81190aaaf1652dc86c2c9d374cc45667b55517337",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e3fedd9f096b4232d3655b0f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:02:12.315173+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e3fedd9f096b4232d3655b0f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

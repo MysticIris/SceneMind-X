@@ -1,0 +1,152 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_6fdce87cf2bc0cecf1138f6b",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_dc13c472606c9ad6285bb338"
+  ],
+  "asset": {
+    "asset_id": "7ffe37af41b93a16",
+    "sha256": "7ffe37af41b93a16ce8e379c3d7ddd99d3d2a258aeb2dd01170c11c2e4f19039",
+    "split": "user_custom",
+    "relative_path": "user_assets/7f/7ffe37af41b93a16ce8e379c3d7ddd99d3d2a258aeb2dd01170c11c2e4f19039/7ffe37af41b93a16ce8e379c3d7ddd99d3d2a258aeb2dd01170c11c2e4f19039.png"
+  },
+  "display": {
+    "theme": "游戏个人主页界面",
+    "short_description": "这是一张手机游戏的个人主页截图。界面右侧展示了一位身穿粉白配色古风服饰、拥有白色长发的女性3D角色模型，背景为梦幻的亭台楼阁场景。左侧排列着玩家头像、昵称、段位徽章、亲密度数值及各类功能菜单入口，整体呈现典型的MOBA类游戏UI风格。",
+    "micro_tags": [
+      "游戏界面",
+      "女性角色",
+      "古风皮肤",
+      "个人主页",
+      "UI设计",
+      "3D建模"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "手机游戏用户界面，包含左侧导航栏、中部信息面板和右侧角色展示区",
+    "subjects": [
+      "女性游戏角色",
+      "UI图标与文本",
+      "背景风景"
+    ],
+    "actions": [
+      "角色站立展示",
+      "界面元素平铺排列"
+    ],
+    "attributes": [
+      "粉白色调服饰",
+      "白色长发",
+      "金色装饰",
+      "深蓝色背景底色",
+      "发光特效"
+    ],
+    "relations": [
+      "角色位于界面右侧前景。",
+      "数据面板位于界面左侧及中部。",
+      "导航菜单位于最左侧边缘。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "画面右侧有一个穿着粉色与白色相间汉服风格裙装的女性3D角色，身边伴有白色兔子状悬浮物。",
+      "画面左侧包含垂直排列的菜单栏(如主页、战绩、英雄等)以及中间的玩家数据统计区域(包含头像、徽章、数字)。",
+      "背景呈现出带有拱桥和塔楼的奇幻风格建筑剪影，色调偏蓝紫。"
+    ],
+    "cautious_inferences": [
+      "角色脚下的圆形平台和周围的粒子特效表明这是一个用于展示皮肤或角色的特定场景。"
+    ],
+    "uncertainties": [
+      "部分小字号文本的具体内容因分辨率原因难以完全辨认。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "个人主页",
+      "电竞空间",
+      "我的名片",
+      "6416",
+      "3213",
+      "22106"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "个人主页",
+      "电竞空间",
+      "我的名片",
+      "6416",
+      "3213",
+      "22106"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "画面右侧有一个穿着粉色与白色相间汉服风格裙装的女性3D角色，身边伴有白色兔子状悬浮物；画面左侧包含垂直排列的菜单栏(如主页、战绩、英雄等)以及中间的玩家数据统计区域(包含头像、徽章、数字)。",
+    "safe_facts": [
+      "画面右侧有一个穿着粉色与白色相间汉服风格裙装的女性3D角色，身边伴有白色兔子状悬浮物。",
+      "画面左侧包含垂直排列的菜单栏(如主页、战绩、英雄等)以及中间的玩家数据统计区域(包含头像、徽章、数字)。",
+      "背景呈现出带有拱桥和塔楼的奇幻风格建筑剪影，色调偏蓝紫。"
+    ],
+    "do_not_assert": [
+      "角色脚下的圆形平台和周围的粒子特效表明这是一个用于展示皮肤或角色的特定场景。",
+      "部分小字号文本的具体内容因分辨率原因难以完全辨认。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_0561d47f-2013-41bb-9f7b-84e1c259d21c",
+    "generated_at": "2026-08-12T03:04:04.461910+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "af9785304aa709af7dc0fea1bf2b4d055e2e81a23d7333285bbc9811bacfaa15",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:04:04.463065+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_dc13c472606c9ad6285bb338",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:04:04.463587+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "b7c09a6a2d70547a36d6cd5dc278c6975cda6fe1615bcd499a4d90e3eac17fab"
+}

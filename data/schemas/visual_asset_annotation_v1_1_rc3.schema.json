@@ -1,0 +1,432 @@
+{
+  "$defs": {
+    "Confidence": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "title": "Confidence",
+      "type": "string"
+    },
+    "Legibility": {
+      "enum": [
+        "none",
+        "low",
+        "partial",
+        "high",
+        "mixed"
+      ],
+      "title": "Legibility",
+      "type": "string"
+    },
+    "Rc3AnnotationMeta": {
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "visual_asset_annotation_v1_1_rc3",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "prompt_version": {
+          "const": "p3_shared_fact_v1_4_rc3",
+          "title": "Prompt Version",
+          "type": "string"
+        },
+        "run_id": {
+          "pattern": "^run_[0-9]{8}_[0-9]{6}$",
+          "title": "Run Id",
+          "type": "string"
+        },
+        "image_id": {
+          "pattern": "^[^/\\\\]+\\.[A-Za-z0-9]+$",
+          "title": "Image Id",
+          "type": "string"
+        },
+        "source_split": {
+          "const": "train",
+          "title": "Source Split",
+          "type": "string"
+        },
+        "source_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Source Sha256",
+          "type": "string"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "title": "Generated At",
+          "type": "string"
+        },
+        "model_name": {
+          "maxLength": 128,
+          "minLength": 1,
+          "title": "Model Name",
+          "type": "string"
+        },
+        "model_revision": {
+          "pattern": "^[0-9a-f]{40}$",
+          "title": "Model Revision",
+          "type": "string"
+        },
+        "max_new_tokens": {
+          "maximum": 768,
+          "minimum": 1,
+          "title": "Max New Tokens",
+          "type": "integer"
+        },
+        "constrained_decoding": {
+          "enum": [
+            "none",
+            "xgrammar",
+            "outlines",
+            "guidance",
+            "native"
+          ],
+          "title": "Constrained Decoding",
+          "type": "string"
+        }
+      },
+      "required": [
+        "schema_version",
+        "prompt_version",
+        "run_id",
+        "image_id",
+        "source_split",
+        "source_sha256",
+        "generated_at",
+        "model_name",
+        "model_revision",
+        "max_new_tokens",
+        "constrained_decoding"
+      ],
+      "title": "Rc3AnnotationMeta",
+      "type": "object"
+    },
+    "Rc3CanonicalActivity": {
+      "additionalProperties": false,
+      "properties": {
+        "activity_id": {
+          "pattern": "^act_[0-9]{3}$",
+          "title": "Activity Id",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 48,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "activity_id",
+        "text"
+      ],
+      "title": "Rc3CanonicalActivity",
+      "type": "object"
+    },
+    "Rc3CanonicalRelationship": {
+      "additionalProperties": false,
+      "properties": {
+        "relationship_id": {
+          "pattern": "^rel_[0-9]{3}$",
+          "title": "Relationship Id",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 48,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "relationship_id",
+        "text"
+      ],
+      "title": "Rc3CanonicalRelationship",
+      "type": "object"
+    },
+    "Rc3CanonicalSubject": {
+      "additionalProperties": false,
+      "properties": {
+        "subject_id": {
+          "pattern": "^sub_[0-9]{3}$",
+          "title": "Subject Id",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 48,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "subject_id",
+        "text"
+      ],
+      "title": "Rc3CanonicalSubject",
+      "type": "object"
+    },
+    "Rc3Claim": {
+      "additionalProperties": false,
+      "properties": {
+        "claim_id": {
+          "pattern": "^cl_[0-9]{3}$",
+          "title": "Claim Id",
+          "type": "string"
+        },
+        "claim_type": {
+          "const": "reasonable_inference",
+          "title": "Claim Type",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 96,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "evidence_refs": {
+          "items": {
+            "pattern": "^ev_[0-9]{3}$",
+            "type": "string"
+          },
+          "maxItems": 3,
+          "minItems": 1,
+          "title": "Evidence Refs",
+          "type": "array"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        }
+      },
+      "required": [
+        "claim_id",
+        "claim_type",
+        "text",
+        "evidence_refs",
+        "confidence"
+      ],
+      "title": "Rc3Claim",
+      "type": "object"
+    },
+    "Rc3EvidenceItem": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence_id": {
+          "pattern": "^ev_[0-9]{3}$",
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "source_type": {
+          "const": "visual_observation",
+          "title": "Source Type",
+          "type": "string"
+        },
+        "content": {
+          "maxLength": 96,
+          "minLength": 1,
+          "title": "Content",
+          "type": "string"
+        }
+      },
+      "required": [
+        "evidence_id",
+        "source_type",
+        "content"
+      ],
+      "title": "Rc3EvidenceItem",
+      "type": "object"
+    },
+    "Rc3TextAssessment": {
+      "additionalProperties": false,
+      "properties": {
+        "presence": {
+          "$ref": "#/$defs/TextPresence"
+        },
+        "legibility": {
+          "$ref": "#/$defs/Legibility"
+        },
+        "selected_text": {
+          "anyOf": [
+            {
+              "items": {
+                "maxLength": 64,
+                "minLength": 1,
+                "type": "string"
+              },
+              "maxItems": 4,
+              "minItems": 1,
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Selected Text"
+        },
+        "summary": {
+          "anyOf": [
+            {
+              "maxLength": 96,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Summary"
+        },
+        "uncertainty": {
+          "anyOf": [
+            {
+              "maxLength": 80,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Uncertainty"
+        }
+      },
+      "required": [
+        "presence",
+        "legibility",
+        "selected_text",
+        "summary",
+        "uncertainty"
+      ],
+      "title": "Rc3TextAssessment",
+      "type": "object"
+    },
+    "TextPresence": {
+      "enum": [
+        "none",
+        "possible",
+        "present"
+      ],
+      "title": "TextPresence",
+      "type": "string"
+    },
+    "VisualMedium": {
+      "enum": [
+        "real_world_photo",
+        "screenshot",
+        "presentation_slide",
+        "meme_or_reaction_image",
+        "poster_or_advertisement",
+        "document_or_paper",
+        "webpage_or_user_interface",
+        "chat_screenshot",
+        "chart_or_infographic",
+        "illustration_or_comic",
+        "packaging",
+        "photographed_screen_content",
+        "mixed",
+        "uncertain"
+      ],
+      "title": "VisualMedium",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "annotation_meta": {
+      "$ref": "#/$defs/Rc3AnnotationMeta"
+    },
+    "visual_medium": {
+      "$ref": "#/$defs/VisualMedium"
+    },
+    "depicted_content": {
+      "anyOf": [
+        {
+          "maxLength": 96,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Depicted Content"
+    },
+    "scene_summary": {
+      "anyOf": [
+        {
+          "maxLength": 96,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Scene Summary"
+    },
+    "subjects": {
+      "items": {
+        "$ref": "#/$defs/Rc3CanonicalSubject"
+      },
+      "maxItems": 6,
+      "title": "Subjects",
+      "type": "array"
+    },
+    "activities": {
+      "items": {
+        "$ref": "#/$defs/Rc3CanonicalActivity"
+      },
+      "maxItems": 4,
+      "title": "Activities",
+      "type": "array"
+    },
+    "relationships": {
+      "items": {
+        "$ref": "#/$defs/Rc3CanonicalRelationship"
+      },
+      "maxItems": 4,
+      "title": "Relationships",
+      "type": "array"
+    },
+    "text_assessment": {
+      "$ref": "#/$defs/Rc3TextAssessment"
+    },
+    "evidence_items": {
+      "items": {
+        "$ref": "#/$defs/Rc3EvidenceItem"
+      },
+      "maxItems": 6,
+      "minItems": 1,
+      "title": "Evidence Items",
+      "type": "array"
+    },
+    "claims": {
+      "items": {
+        "$ref": "#/$defs/Rc3Claim"
+      },
+      "maxItems": 4,
+      "title": "Claims",
+      "type": "array"
+    }
+  },
+  "required": [
+    "annotation_meta",
+    "visual_medium",
+    "depicted_content",
+    "scene_summary",
+    "subjects",
+    "activities",
+    "relationships",
+    "text_assessment",
+    "evidence_items",
+    "claims"
+  ],
+  "title": "Rc3CanonicalAnnotation",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "visual_asset_annotation_v1_1_rc3"
+}

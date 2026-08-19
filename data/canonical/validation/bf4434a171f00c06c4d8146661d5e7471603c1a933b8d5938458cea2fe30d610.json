@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2045.jpg",
+    "relative_path": "val/2045.jpg",
+    "sha256": "bf4434a171f00c06c4d8146661d5e7471603c1a933b8d5938458cea2fe30d610",
+    "split": "val"
+  },
+  "canonical_sha256": "d1e7a4b9194a2077446f4ea0c7f1b836d5f4b549a86686bcd8ef4ef0f65cd41b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红色饮品",
+      "薄荷装饰",
+      "木质桌面"
+    ],
+    "short_description": "一杯红色饮品置于木质桌面上，饰有橙片、柠檬片和薄荷叶，背景为模糊餐厅环境。",
+    "theme": "饮品特写"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "玻璃杯内装有红色液体并含冰块。",
+      "杯口边缘有橙片、柠檬片和薄荷叶装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "透明玻璃杯",
+      "红色液体",
+      "冰块",
+      "装饰性水果",
+      "绿色薄荷叶"
+    ],
+    "relations": [
+      "饮品盛放在玻璃杯中。",
+      "水果装饰在饮品表面。",
+      "杯子放置在木桌上。"
+    ],
+    "scene": "室内餐厅或咖啡馆",
+    "subjects": [
+      "红色饮品",
+      "玻璃杯",
+      "橙子切片",
+      "柠檬切片",
+      "薄荷叶",
+      "木质桌面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "玻璃杯内装有红色液体并含冰块；杯口边缘有橙片、柠檬片和薄荷叶装饰。",
+    "safe_facts": [
+      "玻璃杯内装有红色液体并含冰块。",
+      "杯口边缘有橙片、柠檬片和薄荷叶装饰。"
+    ]
+  },
+  "label_id": "cpl_7108397412c832c3f94e9afd",
+  "provenance": {
+    "generated_at": "2026-08-03T15:51:59.106577+00:00",
+    "migrated_at": "2026-08-03T15:51:59.108062+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "550d3552c7ac165c3db41b74ae961e3c8f35e46184c7dd3b248fdcf39eb8a065",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ad748ce3a6e43148c71d5131",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:51:59.108265+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ad748ce3a6e43148c71d5131"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

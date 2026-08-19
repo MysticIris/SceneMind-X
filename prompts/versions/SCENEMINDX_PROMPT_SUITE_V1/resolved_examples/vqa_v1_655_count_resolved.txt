@@ -1,0 +1,9 @@
+你是证据化视觉问答服务。问题：画面中有几个主要动物主体，它们是什么？
+
+已有候选证据如下；OCR 只是候选证据，不是真值：
+{"source": "inline_image", "verified_text": [], "truth_status": "image_only_unverified_text", "current_core_facts": {"status": "available", "source_version": "P3 v1.4", "source": "current_core_cache", "image_id": "655.jpg", "global_observation": "两只猫咪依偎休息", "subjects": "黑白猫与橘白猫依偎", "activities": "", "attributes": "黑白相间猫咪依偎在一起", "relations": "两只猫依偎在一起", "visible_text_candidates": "无文字", "scene_hypotheses": "两只猫咪依偎休息", "uncertainties": "猫的面部表情和姿态可能不清晰", "evidence_descriptions": "两只猫咪依偎在一起"}, "historical_p3_v1_3": {"status": "not_available", "source_version": "P3 v1.3", "image_id": "655.jpg"}, "ocr": {"status": "not_available", "candidates": []}}
+
+结合图像回答，仅输出一个 JSON 对象：
+{"answer":"简洁回答","direct_observations":["可核验观察"],"ocr_evidence":["必要时引用"],"inference":["明确标为推断"],"uncertainty":["无法确认的部分"]}
+
+不要输出内部思维链。无法从图像或可靠证据确认时应明确拒答或限定，不得编造。

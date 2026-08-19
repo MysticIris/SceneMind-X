@@ -1,0 +1,30 @@
+<current_state>
+{{CURRENT_STATE}}
+</current_state>
+
+<selected_image_context>
+{{SELECTED_ASSET_CONTEXT}}
+</selected_image_context>
+
+<current_task>
+raw_question: {{RAW_QUESTION}}
+resolved_question: {{RESOLVED_QUESTION}}
+required_images: {{REQUIRED_IMAGES}}
+</current_task>
+
+完成 current_task，不要继续未被当前消息明确激活的 previous_goal。
+
+只输出以下 JSON 对象：
+{
+  "public_answer": "给用户看的自然中文回答",
+  "intent": "当前意图",
+  "action_completed": true,
+  "recommended_images": ["仅选择任务填写 IMG_n，否则为空"],
+  "ranking": [{"image_label": "仅排序任务填写 IMG_n", "rank": 1, "reason": "简短依据"}],
+  "image_references": ["回答实际依据的 IMG_n"],
+  "evidence": ["简短可见依据，不写内部状态"],
+  "uncertainty": ["必要的不确定性，否则为空"],
+  "needs_clarification": false
+}
+
+选择任务必须给出一个 recommended_images；完整排序任务必须覆盖 required_images。

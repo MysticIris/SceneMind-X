@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2018.jpg",
+    "relative_path": "val/2018.jpg",
+    "sha256": "6d7ca83bd8ce086ee49012f69204fb4479aad3df7a027c7a08ae1152757335a9",
+    "split": "val"
+  },
+  "canonical_sha256": "f89578af65d033ee1e2d793e02fbea58796e9ae32bb0ac54f2a7d8ca490f0ad0",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "政治文献",
+      "书籍目录",
+      "中国共产党"
+    ],
+    "short_description": "一本打开的书籍，显示政治文献目录页。",
+    "theme": "政治文献目录页"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像显示一本打开的书籍，左右两页均为印刷的目录内容。",
+      "左手食指部分遮挡左侧页面底部区域。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "一本打开的书籍的内页",
+    "subjects": [
+      "书本",
+      "手指"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像显示一本打开的书籍，左右两页均为印刷的目录内容；左手食指部分遮挡左侧页面底部区域。",
+    "safe_facts": [
+      "图像显示一本打开的书籍，左右两页均为印刷的目录内容。",
+      "左手食指部分遮挡左侧页面底部区域。"
+    ]
+  },
+  "label_id": "cpl_02cb23e7b0cb0217b099a996",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/val/val_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "e32d3af75c130700fc73cbca19128fe8491843a5f2d834ae73a5bd88abf3c6d1",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T15:48:58.920945+00:00",
+    "migrated_at": "2026-08-03T15:48:58.922560+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7827477aaa2e73e01f625b5477493ff2ed7c21b373aa35571f336b50dbad6361",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8cc01e75c0c1b17459ee1727",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:48:58.923095+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "打开书籍的目录页与文字密集特征描述准确。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8cc01e75c0c1b17459ee1727"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "第十一章 四个全面战略布局 / 254",
+      "坚持总体国家安全观 / 279",
+      "坚持和加强党的领导 / 313",
+      "后记 / 329"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "第十一章 四个全面战略布局 / 254",
+      "坚持总体国家安全观 / 279",
+      "坚持和加强党的领导 / 313",
+      "后记 / 329"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+请只输出一个 JSON 对象，不要输出 Markdown、代码围栏或额外解释。只记录图中可直接观察到的内容；推断必须放入 scene_hypotheses，并写明依据和不确定性。不可辨认的文字不得猜测，使用空 text 和 unreadable。所有字符串保持简短，每个数组最多 8 项。
+
+JSON 必须严格包含以下九个字段：
+{
+  "global_observation": "一句简短的全局观察",
+  "subjects": ["主体1", "主体2"],
+  "activities": ["可见行为"],
+  "attributes": [{"subject": "主体", "attribute": "可见属性"}],
+  "relations": [{"subject": "主体", "relation": "空间或语义关系", "object": "客体"}],
+  "visible_text_candidates": [{"text": "可见文字或空字符串", "legibility": "clear|uncertain|unreadable", "used_for_scene_inference": false}],
+  "scene_hypotheses": [{"hypothesis": "场景候选", "basis": "直接可见依据", "confidence": "low|medium|high"}],
+  "uncertainties": ["无法可靠判断的内容"],
+  "evidence_descriptions": ["支持上述观察的局部视觉证据"]
+}
+
+即使某类内容不存在，也保留字段并使用空数组。不要把屏幕、海报、包装或照片中的对象写成现场真实对象；无法区分反射、阴影和直接物体时写入 uncertainties。

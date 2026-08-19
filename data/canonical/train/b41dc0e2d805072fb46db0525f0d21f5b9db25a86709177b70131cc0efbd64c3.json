@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:735.jpg",
+    "relative_path": "train/735.jpg",
+    "sha256": "b41dc0e2d805072fb46db0525f0d21f5b9db25a86709177b70131cc0efbd64c3",
+    "split": "train"
+  },
+  "canonical_sha256": "f6f5c77b25419c25e55cd7bba766c74f610a31f7a79d938d8b0193b957ac4a2e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石碑",
+      "喷雾水池",
+      "主题公园",
+      "游客"
+    ],
+    "short_description": "晴朗天空下，一座装饰华丽的石碑矗立在喷雾水池中央，周围有游客和热带风格建筑。",
+    "theme": "主题公园入口景观"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天空湛蓝无云。",
+      "石碑顶部有金色雕饰，底部有火焰状装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晴朗蓝天",
+      "金色装饰",
+      "石质基座",
+      "雾气弥漫"
+    ],
+    "relations": [
+      "石碑位于喷雾水池中央。",
+      "游客在石碑周边活动。",
+      "茅草亭在左侧背景。"
+    ],
+    "scene": "户外主题公园入口区域",
+    "subjects": [
+      "石碑",
+      "游客",
+      "树木",
+      "茅草亭",
+      "喷雾水池"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空湛蓝无云；石碑顶部有金色雕饰，底部有火焰状装饰。",
+    "safe_facts": [
+      "天空湛蓝无云。",
+      "石碑顶部有金色雕饰，底部有火焰状装饰。"
+    ]
+  },
+  "label_id": "cpl_7ec3b71496a55f53ee883398",
+  "provenance": {
+    "generated_at": "2026-08-03T12:11:46.573063+00:00",
+    "migrated_at": "2026-08-03T12:11:46.577416+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f26a6409d7a8f20434e8921a3008a100b083bcf7c190eddf169133ce7cbb4738",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9b94dba5572317bf5e2d335b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:11:46.577785+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9b94dba5572317bf5e2d335b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

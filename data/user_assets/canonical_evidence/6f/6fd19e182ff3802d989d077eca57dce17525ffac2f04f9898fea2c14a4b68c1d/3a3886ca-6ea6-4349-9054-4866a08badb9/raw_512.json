@@ -1,0 +1,136 @@
+{
+  "asset_id": "6fd19e182ff3802d",
+  "asset_sha256": "6fd19e182ff3802d989d077eca57dce17525ffac2f04f9898fea2c14a4b68c1d",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"游戏排行榜界面截图\",\n    \"short_description\": \"这是一张手机游戏的活动界面截图，展示了“吉星排行榜”的实时地区排名。画面左侧有粉衣女性角色和Q版精灵形象，右侧列表显示了前几名玩家的头像、昵称及积分，底部高亮显示了当前用户的排名与分数。\",\n    \"micro_tags\": [\n      \"游戏UI\",\n      \"排行榜\",\n      \"二次元角色\",\n      \"积分排名\",\n      \"手机截图\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"手机游戏活动界面\",\n    \"subjects\": [\n      \"粉发女性3D角色\",\n      \"Q版绿色头发精灵\",\n      \"排行榜列表\",\n      \"玩家头像\"\n    ],\n    \"actions\": [\n      \"角色摆出舞蹈或展示姿势\",\n      \"界面展示排名数据\"\n    ],\n    \"attributes\": [\n      \"暖色调背景\",\n      \"光效粒子\",\n      \"UI布局清晰\",\n      \"包含数字与图标\"\n    ],\n    \"relations\": [\n      \"角色位于界面左侧前景\",\n      \"排行榜位于界面右侧\",\n      \"当前用户信息位于列表底部高亮框内\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"界面顶部显示标题文字及日期范围02.14-02.21\",\n      \"右侧列表包含带有数字1至4的排名徽章及对应的玩家头像和数值\",\n      \"底部有一个高亮显示的条目，标注了排名1749和数值19138\",\n      \"左侧站立着一个穿着粉色服装的女性角色和一个漂浮的Q版小精灵\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局推测这是一款移动端网络游戏的消费或活跃度排行活动\",\n      \"数值可能代表积分或货币数量\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的游戏名称\",\n      \"无法确认列表中玩家头像的真实身份\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"吉星排行榜\",\n      \"02.14-02.21\",\n      \"地区榜\",\n      \"好友榜\",\n      \"辽宁\",\n      \"神秘玩家\",\n      \"柯陌k\",\n      \"最喜欢小兴啦\",\n      \"哈基米曼波\",\n      \"冬夜限定晚安\",\n      \"19138\",\n      \"1749\",\n      \"我的排名\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张包含角色立绘和数据列表的游戏界面截图，展示了带有排名的榜单信息。\",\n    \"safe_facts\": [\n      \"图片为横向构图的数字界面截图\",\n      \"画面包含三维渲染的人物模型和二维UI元素\",\n      \"右侧有垂直排列的列表项，每项包含圆形头像和数字\",\n      \"背景呈现红橙色的渐变光效\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 729,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 729,
+        "total_tokens": 3956,
+        "estimated_cost_cny": 0.012286,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "游戏排行榜界面截图",
+          "short_description": "这是一张手机游戏的活动界面截图，展示了“吉星排行榜”的实时地区排名。画面左侧有粉衣女性角色和Q版精灵形象，右侧列表显示了前几名玩家的头像、昵称及积分，底部高亮显示了当前用户的排名与分数。",
+          "micro_tags": [
+            "游戏UI",
+            "排行榜",
+            "二次元角色",
+            "积分排名",
+            "手机截图"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "手机游戏活动界面",
+          "subjects": [
+            "粉发女性3D角色",
+            "Q版绿色头发精灵",
+            "排行榜列表",
+            "玩家头像"
+          ],
+          "actions": [
+            "角色摆出舞蹈或展示姿势",
+            "界面展示排名数据"
+          ],
+          "attributes": [
+            "暖色调背景",
+            "光效粒子",
+            "UI布局清晰",
+            "包含数字与图标"
+          ],
+          "relations": [
+            "角色位于界面左侧前景",
+            "排行榜位于界面右侧",
+            "当前用户信息位于列表底部高亮框内"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "界面顶部显示标题文字及日期范围02.14-02.21",
+            "右侧列表包含带有数字1至4的排名徽章及对应的玩家头像和数值",
+            "底部有一个高亮显示的条目，标注了排名1749和数值19138",
+            "左侧站立着一个穿着粉色服装的女性角色和一个漂浮的Q版小精灵"
+          ],
+          "cautious_inferences": [
+            "根据界面布局推测这是一款移动端网络游戏的消费或活跃度排行活动",
+            "数值可能代表积分或货币数量"
+          ],
+          "uncertainties": [
+            "无法确定具体的游戏名称",
+            "无法确认列表中玩家头像的真实身份"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "吉星排行榜",
+            "02.14-02.21",
+            "地区榜",
+            "好友榜",
+            "辽宁",
+            "神秘玩家",
+            "柯陌k",
+            "最喜欢小兴啦",
+            "哈基米曼波",
+            "冬夜限定晚安",
+            "19138",
+            "1749",
+            "我的排名"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张包含角色立绘和数据列表的游戏界面截图，展示了带有排名的榜单信息。",
+          "safe_facts": [
+            "图片为横向构图的数字界面截图",
+            "画面包含三维渲染的人物模型和二维UI元素",
+            "右侧有垂直排列的列表项，每项包含圆形头像和数字",
+            "背景呈现红橙色的渐变光效"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 4314072,
+        "request_bytes": 3232481,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.269852499994158,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "31ba27725b81b17f1b42c66daaa5568f896d01b63627752d00a9af5b8adf0ebc"
+}

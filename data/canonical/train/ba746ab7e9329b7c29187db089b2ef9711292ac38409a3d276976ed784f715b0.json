@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1111.jpg",
+    "relative_path": "train/1111.jpg",
+    "sha256": "ba746ab7e9329b7c29187db089b2ef9711292ac38409a3d276976ed784f715b0",
+    "split": "train"
+  },
+  "canonical_sha256": "dbb2b59db6179ed8ef3aa23adf703454f52ab1a038f284decddb3ad51d40731e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蓝色主题",
+      "蝴蝶装饰",
+      "标本陈列"
+    ],
+    "short_description": "室内蓝色调装饰，拱形窗框贴满蝴蝶，墙上挂满蝴蝶标本，左侧有世界地图墙绘。",
+    "theme": "蓝色蝴蝶主题空间"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "窗户呈拱形，窗框为深蓝色，窗格内透出蓝色光。",
+      "墙面悬挂多幅装裱好的蝴蝶标本，排列成网格状。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色调",
+      "玻璃窗",
+      "框架装饰",
+      "标本装裱"
+    ],
+    "relations": [
+      "蝴蝶装饰贴于窗户。",
+      "标本陈列于墙面。"
+    ],
+    "scene": "室内展示空间",
+    "subjects": [
+      "拱形窗户",
+      "蝴蝶装饰",
+      "蝴蝶标本",
+      "墙面装饰"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "窗户呈拱形，窗框为深蓝色，窗格内透出蓝色光；墙面悬挂多幅装裱好的蝴蝶标本，排列成网格状。",
+    "safe_facts": [
+      "窗户呈拱形，窗框为深蓝色，窗格内透出蓝色光。",
+      "墙面悬挂多幅装裱好的蝴蝶标本，排列成网格状。"
+    ]
+  },
+  "label_id": "cpl_09378fef4b0055aadff101d4",
+  "provenance": {
+    "generated_at": "2026-08-03T13:39:35.073951+00:00",
+    "migrated_at": "2026-08-03T13:39:35.076715+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b215a758eb588599c22524a78904cb37f8f012e3da6c581e4234279ceeeb3d14",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b8067de3db3c65df2c4be40c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:39:35.077074+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b8067de3db3c65df2c4be40c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

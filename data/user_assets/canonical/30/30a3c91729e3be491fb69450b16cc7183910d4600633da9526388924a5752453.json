@@ -1,0 +1,130 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_1f6be2b71adcea1751a084d4",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_670f56186e31bd0629a73f13"
+  ],
+  "asset": {
+    "asset_id": "30a3c91729e3be49",
+    "sha256": "30a3c91729e3be491fb69450b16cc7183910d4600633da9526388924a5752453",
+    "split": "user_custom",
+    "relative_path": "user_assets/30/30a3c91729e3be491fb69450b16cc7183910d4600633da9526388924a5752453/30a3c91729e3be491fb69450b16cc7183910d4600633da9526388924a5752453.jpg"
+  },
+  "display": {
+    "theme": "白发红眼动漫角色大笑",
+    "short_description": "这是一张二次元风格的人物特写插画。画面主体为一位拥有白色波浪长发和红色瞳孔的女性角色，她正仰头开怀大笑，表情生动且带有几分疯狂感。其面部脸颊、颈部及肩部可见明显的红色擦伤或血迹，身穿深红色衣物，佩戴金色耳环。",
+    "micro_tags": [
+      "动漫插画",
+      "白发",
+      "红瞳",
+      "大笑",
+      "战损",
+      "女性角色"
+    ]
+  },
+  "facts": {
+    "visual_medium": "illustration",
+    "scene": "纯色或模糊背景的人物特写",
+    "subjects": [
+      "白发红眼女性角色"
+    ],
+    "actions": [
+      "张嘴大笑",
+      "仰头"
+    ],
+    "attributes": [
+      "白色长卷发",
+      "红色眼睛",
+      "面部有红色伤痕/血迹",
+      "佩戴金色圆环耳饰",
+      "深色衣领"
+    ],
+    "relations": []
+  },
+  "evidence": {
+    "direct_observations": [
+      "人物拥有白色的波浪状长发和红色的虹膜。",
+      "角色嘴巴大张露出牙齿，呈现大笑或狂笑的表情。",
+      "耳朵上佩戴着金色的圆形耳环。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法确定具体的作品来源或角色名称。",
+      "背景过于模糊，无法判断具体环境。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_unreadable",
+    "visual_candidates": [],
+    "ocr_candidates": [],
+    "candidate_text": [],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "人物拥有白色的波浪状长发和红色的虹膜；角色嘴巴大张露出牙齿，呈现大笑或狂笑的表情。",
+    "safe_facts": [
+      "人物拥有白色的波浪状长发和红色的虹膜。",
+      "角色嘴巴大张露出牙齿，呈现大笑或狂笑的表情。",
+      "耳朵上佩戴着金色的圆形耳环。"
+    ],
+    "do_not_assert": [
+      "无法确定具体的作品来源或角色名称。",
+      "背景过于模糊，无法判断具体环境。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_73384cd6-0705-4146-8e34-ec604b123cef",
+    "generated_at": "2026-08-12T02:59:02.251471+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "33867f702218db98cb10e9315c041906f1d0d9c7a1cac92c4d1a58ca966dc37b",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T02:59:02.252182+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_670f56186e31bd0629a73f13",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T02:59:02.252481+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "a0dd1ed4ff7ba0d783200a68284bf5c04a750854fa22b0ed58e25e2470bb546e"
+}

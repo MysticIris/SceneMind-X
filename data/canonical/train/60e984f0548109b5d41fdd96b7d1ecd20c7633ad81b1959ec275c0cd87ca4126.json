@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1574.jpg",
+    "relative_path": "train/1574.jpg",
+    "sha256": "60e984f0548109b5d41fdd96b7d1ecd20c7633ad81b1959ec275c0cd87ca4126",
+    "split": "train"
+  },
+  "canonical_sha256": "efb822def380f75601cf293cf3b0ec8cdfe7623cfceaf5e887db99017492c6b8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "斜拉桥",
+      "塔柱",
+      "钢索",
+      "蓝天"
+    ],
+    "short_description": "仰拍视角下，一座米黄色斜拉桥的塔柱与红色钢索在蓝天白云背景下构成对称构图。",
+    "theme": "斜拉桥结构"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现桥塔与多条红色钢索的结构。",
+      "背景为蓝色天空并分布白色云朵。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "米黄色",
+      "红色钢索",
+      "蓝天",
+      "白云"
+    ],
+    "relations": [
+      "钢索连接桥塔。",
+      "桥塔支撑钢索。"
+    ],
+    "scene": "户外桥梁结构",
+    "subjects": [
+      "桥塔",
+      "钢索"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现桥塔与多条红色钢索的结构；背景为蓝色天空并分布白色云朵。",
+    "safe_facts": [
+      "画面呈现桥塔与多条红色钢索的结构。",
+      "背景为蓝色天空并分布白色云朵。"
+    ]
+  },
+  "label_id": "cpl_cfafcba191569833963c7988",
+  "provenance": {
+    "generated_at": "2026-08-03T14:39:36.683606+00:00",
+    "migrated_at": "2026-08-03T14:39:36.687541+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cd8d85fd5fe793b7d52440985a5949a76e70a02837c2eb1658a599fb040b87e1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_dd91d8ec170d9d0696f28a0d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:39:36.687880+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_dd91d8ec170d9d0696f28a0d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

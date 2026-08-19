@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:429.jpg",
+    "relative_path": "train/429.jpg",
+    "sha256": "0cbf69790272bbe37f6b01375a9420a9010eceab48e72ebd2a5464b35e042ffc",
+    "split": "train"
+  },
+  "canonical_sha256": "81b3234433db2b489c5fdabbed6e065a291d70248892d4c70839b13d0ebe142f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "大熊猫",
+      "母子",
+      "草地",
+      "树荫"
+    ],
+    "short_description": "一只成年大熊猫抱着幼崽在草地上休息，周围有树木和竹叶。",
+    "theme": "熊猫母子"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两只大熊猫，体型一较大一较小。",
+      "地面覆盖绿色植被和落叶，背景有粗壮树干。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑白毛色",
+      "毛茸茸",
+      "草地覆盖"
+    ],
+    "relations": [
+      "成年大熊猫抱着幼年大熊猫。"
+    ],
+    "scene": "户外草地环境",
+    "subjects": [
+      "成年大熊猫",
+      "幼年大熊猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两只大熊猫，体型一较大一较小；地面覆盖绿色植被和落叶，背景有粗壮树干。",
+    "safe_facts": [
+      "画面中有两只大熊猫，体型一较大一较小。",
+      "地面覆盖绿色植被和落叶，背景有粗壮树干。"
+    ]
+  },
+  "label_id": "cpl_dee68a750a0e8a696c3b4f84",
+  "provenance": {
+    "generated_at": "2026-08-03T11:01:44.618220+00:00",
+    "migrated_at": "2026-08-03T11:01:44.619758+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d12503f31edc697b50eb0c440d5ecfe5a7d08eeaa0ef7992a97005807d229ad8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_31e65f2327a034bfc51f427e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:01:44.620071+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_31e65f2327a034bfc51f427e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

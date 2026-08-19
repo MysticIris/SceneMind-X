@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:759.jpg",
+    "relative_path": "train/759.jpg",
+    "sha256": "fdeb9e684c3c812e818b4909581a886ef386f476a6d6be5d152dabf12af1390c",
+    "split": "train"
+  },
+  "canonical_sha256": "df6b999066af8510973ca9a94fc620df9a3a8796b1c81e4fc22f75ce737c3f27",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "缆车",
+      "树林",
+      "钢索",
+      "户外",
+      "天空"
+    ],
+    "short_description": "多辆彩色缆车悬挂在钢索上，穿梭于茂密的绿色树林上方，天空晴朗无云。",
+    "theme": "缆车穿越树林"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多辆彩色缆车沿钢索分布。",
+      "背景为茂密绿色树林，天空呈浅蓝色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "彩色",
+      "悬挂",
+      "晴朗天空",
+      "茂密树林"
+    ],
+    "relations": [
+      "缆车悬挂在钢索上。",
+      "钢索连接支撑塔。",
+      "树木位于缆车下方。"
+    ],
+    "scene": "山林间缆车系统",
+    "subjects": [
+      "缆车",
+      "支撑塔",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多辆彩色缆车沿钢索分布；背景为茂密绿色树林，天空呈浅蓝色。",
+    "safe_facts": [
+      "多辆彩色缆车沿钢索分布。",
+      "背景为茂密绿色树林，天空呈浅蓝色。"
+    ]
+  },
+  "label_id": "cpl_b930b60ea67f9a87f07df8be",
+  "provenance": {
+    "generated_at": "2026-08-03T12:17:19.261352+00:00",
+    "migrated_at": "2026-08-03T12:17:19.263889+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "229aac645f662025bd012a1924d0eea23c7182d44e6eace930c8d370a4690d82",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_32f84b9c04a85281f9cb7f11",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:17:19.264259+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_32f84b9c04a85281f9cb7f11"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

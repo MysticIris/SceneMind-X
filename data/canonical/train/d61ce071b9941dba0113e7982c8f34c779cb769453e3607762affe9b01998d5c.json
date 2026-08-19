@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:131.jpg",
+    "relative_path": "train/131.jpg",
+    "sha256": "d61ce071b9941dba0113e7982c8f34c779cb769453e3607762affe9b01998d5c",
+    "split": "train"
+  },
+  "canonical_sha256": "4f9123d29e1f1c0a3de17fa9135bd7f7cbc9717fb7bacbb55fc388e053391153",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "金色器物",
+      "博物馆展柜",
+      "古董"
+    ],
+    "short_description": "展柜内陈列两件金色器物，一为带盖罐，一为带柄杯，表面饰有花纹。",
+    "theme": "金器展品"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两件器物均呈金色，表面有雕刻纹饰。",
+      "器物放置于白色展台上，背景为玻璃展柜。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金色",
+      "金属材质",
+      "装饰花纹",
+      "置于白色展台"
+    ],
+    "relations": [
+      "两件器物并列摆放于同一展台上。"
+    ],
+    "scene": "博物馆展柜内",
+    "subjects": [
+      "带盖金罐",
+      "金耳杯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两件器物均呈金色，表面有雕刻纹饰；器物放置于白色展台上，背景为玻璃展柜。",
+    "safe_facts": [
+      "两件器物均呈金色，表面有雕刻纹饰。",
+      "器物放置于白色展台上，背景为玻璃展柜。"
+    ]
+  },
+  "label_id": "cpl_97f064d9fb3d9223c15ea07b",
+  "provenance": {
+    "generated_at": "2026-08-03T09:34:20.328067+00:00",
+    "migrated_at": "2026-08-03T09:34:20.329633+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "87ffd1725fb8254b01dd866a7e722f134580e76962a7cb6d9bbb52ebe0e1239f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_dbf20b650d5710b1a543caef",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:40.744127+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_dbf20b650d5710b1a543caef",
+    "cpl_225c81f4ad6aab723dde928c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

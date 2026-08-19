@@ -1,0 +1,114 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1910.jpg",
+    "relative_path": "train/1910.jpg",
+    "sha256": "3fabac276b2502ad0a8aff866a2dc4f75de391175881d083a94bdb723a91d9fc",
+    "split": "train"
+  },
+  "canonical_sha256": "a9e7da1e3cd489755c884b3d0c9dc5802b3b2ca96b5fb362283f69aa114f2453",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "瓶装饮料",
+      "冷藏架",
+      "超市货架"
+    ],
+    "short_description": "冰箱冷藏架上摆放着多种瓶装饮料，包括绿色柠檬味、红色冰红茶、紫色海之言等。",
+    "theme": "饮料货架陈列"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多个瓶装饮料整齐排列在金属网格货架上。",
+      "饮料瓶颜色多样，包括绿色、红色、紫色、黄色等。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "透明塑料瓶",
+      "彩色瓶身",
+      "多层货架"
+    ],
+    "relations": [],
+    "scene": "冰箱冷藏架",
+    "subjects": [
+      "瓶装饮料"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多个瓶装饮料整齐排列在金属网格货架上；饮料瓶颜色多样，包括绿色、红色、紫色、黄色等。",
+    "safe_facts": [
+      "多个瓶装饮料整齐排列在金属网格货架上。",
+      "饮料瓶颜色多样，包括绿色、红色、紫色、黄色等。"
+    ]
+  },
+  "label_id": "cpl_971ae7e93c9646cdb8d38a13",
+  "provenance": {
+    "generated_at": "2026-08-03T15:21:49.251941+00:00",
+    "migrated_at": "2026-08-03T15:21:49.253404+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cde2a9518ad78b217d8d1b555d38bf3015a8bf1231d3ef3cbf9552231a827c1b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5baadee4abcaa6a9003fc643",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:21:49.253595+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5baadee4abcaa6a9003fc643"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

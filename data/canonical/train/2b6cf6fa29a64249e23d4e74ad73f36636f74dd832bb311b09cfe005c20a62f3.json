@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:422.jpg",
+    "relative_path": "train/422.jpg",
+    "sha256": "2b6cf6fa29a64249e23d4e74ad73f36636f74dd832bb311b09cfe005c20a62f3",
+    "split": "train"
+  },
+  "canonical_sha256": "aae7ef7d60788eb65210aee4f63d22617a504a2a736d1ec5929e15b493ef9a88",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市街道",
+      "黑色轿车",
+      "SUV",
+      "行人",
+      "棕榈树"
+    ],
+    "short_description": "城市街道上，一辆黑色轿车停在斑马线旁，后方有另一辆黑色SUV，周围有行人和摩托车，背景是高楼与绿植。",
+    "theme": "城市街景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一辆黑色轿车停在斑马线上。",
+      "画面中有一辆黑色SUV，其后门处于打开状态。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "轿车停在斑马线上",
+      "SUV车门打开",
+      "行人站立",
+      "骑摩托车的人骑行"
+    ],
+    "attributes": [
+      "黑色轿车",
+      "SUV",
+      "斑马线",
+      "高层建筑",
+      "绿色植物"
+    ],
+    "relations": [
+      "轿车位于SUV前方。",
+      "行人站在路边。",
+      "摩托车在轿车左侧。"
+    ],
+    "scene": "城市街道",
+    "subjects": [
+      "黑色轿车",
+      "黑色SUV",
+      "行人",
+      "骑摩托车的人",
+      "棕榈树",
+      "高层建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一辆黑色轿车停在斑马线上；画面中有一辆黑色SUV，其后门处于打开状态。",
+    "safe_facts": [
+      "画面中有一辆黑色轿车停在斑马线上。",
+      "画面中有一辆黑色SUV，其后门处于打开状态。"
+    ]
+  },
+  "label_id": "cpl_9b3429a28d0ab5e421d5436d",
+  "provenance": {
+    "generated_at": "2026-08-03T11:00:08.569428+00:00",
+    "migrated_at": "2026-08-03T11:00:08.571095+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3730f9fbe0aa9c72d26667e1e3689afced9cd265af4ffa8884adfa3ce5239b53",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a322f993746e799c2eb77379",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:00:08.571320+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a322f993746e799c2eb77379"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:925.jpg",
+    "relative_path": "train/925.jpg",
+    "sha256": "1df852711ba71dd648126394f01c22f83032444bdb68f67eff521c79472b62cc",
+    "split": "train"
+  },
+  "canonical_sha256": "e2e494562c34f46163810124e5865da82ac7474b1ddc2c68e935059f8b8c7a38",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "城市天际线",
+      "江面",
+      "码头设施"
+    ],
+    "short_description": "夜幕下江面波光粼粼，远处城市天际线灯火辉煌，桥梁与塔楼轮廓清晰，近处码头设有防撞柱与护栏。",
+    "theme": "夜景城市河岸"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "远处建筑群灯光密集，可能为商业或住宅区。"
+    ],
+    "direct_observations": [
+      "画面呈现夜晚环境，天空呈暗灰色调。",
+      "江面有明显波纹，反射部分灯光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "灯光照明",
+      "水面有波纹",
+      "建筑物有灯光装饰"
+    ],
+    "relations": [
+      "江水位于前景。",
+      "城市建筑群位于背景。",
+      "桥梁横跨江面。",
+      "码头设施位于画面前景。"
+    ],
+    "scene": "城市江边夜景",
+    "subjects": [
+      "江水",
+      "城市建筑群",
+      "桥梁",
+      "塔楼",
+      "码头设施"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "远处建筑群灯光密集，可能为商业或住宅区。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现夜晚环境，天空呈暗灰色调；江面有明显波纹，反射部分灯光。",
+    "safe_facts": [
+      "画面呈现夜晚环境，天空呈暗灰色调。",
+      "江面有明显波纹，反射部分灯光。"
+    ]
+  },
+  "label_id": "cpl_e63d1b1cbc847dd5bad0804b",
+  "provenance": {
+    "generated_at": "2026-08-03T12:51:51.264455+00:00",
+    "migrated_at": "2026-08-03T12:51:51.267197+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "680d25e56ed38f0d725f1d6520bab949b459b2f10dc6d7d68d9e08620acc2c3c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fec6d8c005fb364316f780b7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:51:51.267601+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fec6d8c005fb364316f780b7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

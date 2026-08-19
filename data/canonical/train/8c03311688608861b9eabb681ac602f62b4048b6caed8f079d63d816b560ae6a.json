@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1969.jpg",
+    "relative_path": "train/1969.jpg",
+    "sha256": "8c03311688608861b9eabb681ac602f62b4048b6caed8f079d63d816b560ae6a",
+    "split": "train"
+  },
+  "canonical_sha256": "db08d4650b574bf96955791fba0b06926bfa07b7bb7e850abb3d5f78f792a53a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "棕熊",
+      "儿童",
+      "丛林",
+      "水池"
+    ],
+    "short_description": "一名儿童背对镜头观看丛林中几只棕熊，其中一只在树干上，另一只在水中嬉戏。",
+    "theme": "丛林熊群"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "儿童可能正在拍照或录像。"
+    ],
+    "direct_observations": [
+      "一名儿童背对镜头站立，双手举至头部附近。",
+      "至少三只棕熊出现在画面中，一只在树干上，一只在水中，一只在岸边。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "儿童观看",
+      "熊攀爬",
+      "熊在水中活动"
+    ],
+    "attributes": [
+      "棕熊毛发浓密",
+      "儿童穿红白相间上衣"
+    ],
+    "relations": [
+      "儿童位于熊群前方。",
+      "熊在树干和水池附近。"
+    ],
+    "scene": "丛林环境中的动物展区",
+    "subjects": [
+      "儿童",
+      "棕熊",
+      "树干",
+      "水池"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "儿童可能正在拍照或录像。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名儿童背对镜头站立，双手举至头部附近；至少三只棕熊出现在画面中，一只在树干上，一只在水中，一只在岸边。",
+    "safe_facts": [
+      "一名儿童背对镜头站立，双手举至头部附近。",
+      "至少三只棕熊出现在画面中，一只在树干上，一只在水中，一只在岸边。"
+    ]
+  },
+  "label_id": "cpl_b23aeeb80270ecce9395b944",
+  "provenance": {
+    "generated_at": "2026-08-03T15:28:09.601689+00:00",
+    "migrated_at": "2026-08-03T15:28:09.603664+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fe3eedf492a0cb7b690e398f2f5a57ff7097a9465ad6178675087ef7cb625386",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3166cd38500229d2425f9b5a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:28:09.603979+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3166cd38500229d2425f9b5a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

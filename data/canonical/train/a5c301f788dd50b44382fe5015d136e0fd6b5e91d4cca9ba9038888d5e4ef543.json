@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:891.jpg",
+    "relative_path": "train/891.jpg",
+    "sha256": "a5c301f788dd50b44382fe5015d136e0fd6b5e91d4cca9ba9038888d5e4ef543",
+    "split": "train"
+  },
+  "canonical_sha256": "e319027b7a90d5e0190cb91ee918855e3e4398d00229c04c7252d25f989f39ab",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "喷泉",
+      "雕像",
+      "建筑工地",
+      "绿树"
+    ],
+    "short_description": "城市广场中央的石质喷泉，顶部立有雕像，背景是正在施工的高楼和绿树。",
+    "theme": "城市广场喷泉"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "喷泉由多层石质结构组成，中心有水流出。",
+      "雕像站立于喷泉顶部，身着制服。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "石质喷泉",
+      "青铜色雕像",
+      "绿色脚手架",
+      "黄色起重机"
+    ],
+    "relations": [
+      "雕像位于喷泉顶部。",
+      "喷泉周围有树木。",
+      "高楼在喷泉后方。",
+      "起重机在高楼旁。"
+    ],
+    "scene": "城市广场",
+    "subjects": [
+      "喷泉",
+      "雕像",
+      "高楼",
+      "树木",
+      "起重机"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "喷泉由多层石质结构组成，中心有水流出；雕像站立于喷泉顶部，身着制服。",
+    "safe_facts": [
+      "喷泉由多层石质结构组成，中心有水流出。",
+      "雕像站立于喷泉顶部，身着制服。"
+    ]
+  },
+  "label_id": "cpl_f8907bfa5460dc1819dcebf0",
+  "provenance": {
+    "generated_at": "2026-08-03T12:45:10.652470+00:00",
+    "migrated_at": "2026-08-03T12:45:10.654999+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "97563e07f3f1cd954bfc9373f0c7904f2105183206f2878fb5b7f7dc52512d65",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4ec67daa9cdc5658373d8e16",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:45:10.655649+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4ec67daa9cdc5658373d8e16"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

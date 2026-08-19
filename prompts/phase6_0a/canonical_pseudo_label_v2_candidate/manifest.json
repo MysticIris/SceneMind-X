@@ -1,0 +1,28 @@
+{
+  "candidate_id": "SCENEMINDX_CANONICAL_PSEUDO_LABEL_V2_CANDIDATE",
+  "status": "frozen_pilot_accepted_inactive",
+  "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+  "prompt_version": "Phase 6.0-A v1",
+  "prompt_file": "prompts/phase6_0a/canonical_pseudo_label_v2_candidate/prompt.txt",
+  "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+  "model_payload_schema": "data/schemas/phase6_0a_model_payload_v1.schema.json",
+  "model_payload_schema_sha256": "abe4c07c6c78982ddb56c48bd37105d097c676cdb4f4142c495d92280c1ed21e",
+  "canonical_schema": "data/schemas/scenemindx_canonical_pseudo_label_v2_candidate.schema.json",
+  "canonical_schema_sha256": "9019d361c183c0227d625b2c56e61e64e9aa6ab6ebf9876df016ccc85f7d42e1",
+  "normalizer": "phase6_0a_lossless_normalizer_v1",
+  "validator": "phase6_0a_canonical_validator_v1",
+  "model": "Qwen/Qwen3-VL-4B-Instruct",
+  "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+  "generation": {
+    "max_new_tokens": 512,
+    "temperature": 0,
+    "retry_limit": 1
+  },
+  "data_boundary": {
+    "allowed": ["Train pilot manifest only"],
+    "forbidden": ["Val", "Test", "Blind", "full Train-2000"]
+  },
+  "production_enabled": false,
+  "default_route": false,
+  "p3_v1_4_unchanged": true
+}

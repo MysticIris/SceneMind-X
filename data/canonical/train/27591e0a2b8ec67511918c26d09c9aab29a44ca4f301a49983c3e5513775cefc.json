@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1998.jpg",
+    "relative_path": "train/1998.jpg",
+    "sha256": "27591e0a2b8ec67511918c26d09c9aab29a44ca4f301a49983c3e5513775cefc",
+    "split": "train"
+  },
+  "canonical_sha256": "be014337b979962c72d77e6d0f69016f04576b2891decd8255c69e44699a935b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石阶",
+      "丛林",
+      "绿植",
+      "自然路径"
+    ],
+    "short_description": "绿意盎然的林间，一条深色石阶向上延伸，两侧植物茂盛，阳光透过树叶洒下斑驳光影。",
+    "theme": "林间石阶"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线从树冠间隙照射下来，在地面形成光斑。"
+    ],
+    "direct_observations": [
+      "画面中央是一条由深色石材铺成的阶梯。",
+      "阶梯两侧及上方布满绿色植物，包括阔叶树和灌木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深色石阶",
+      "茂密植被",
+      "阳光斑驳"
+    ],
+    "relations": [
+      "石阶被植物环绕。",
+      "植物遮蔽部分天空。"
+    ],
+    "scene": "林间小径",
+    "subjects": [
+      "石阶",
+      "树木",
+      "灌木",
+      "叶片"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线从树冠间隙照射下来，在地面形成光斑。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是一条由深色石材铺成的阶梯；阶梯两侧及上方布满绿色植物，包括阔叶树和灌木。",
+    "safe_facts": [
+      "画面中央是一条由深色石材铺成的阶梯。",
+      "阶梯两侧及上方布满绿色植物，包括阔叶树和灌木。"
+    ]
+  },
+  "label_id": "cpl_fd690465579f9f7a6bd5f56b",
+  "provenance": {
+    "generated_at": "2026-08-03T15:33:31.451467+00:00",
+    "migrated_at": "2026-08-03T15:33:31.453249+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "15368a8a10dc6b2977a4924adb258cc18e4977c76658440f5f7ef8a0c063a4bd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_92ca822403f28454912b6338",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:33:31.453616+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_92ca822403f28454912b6338"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

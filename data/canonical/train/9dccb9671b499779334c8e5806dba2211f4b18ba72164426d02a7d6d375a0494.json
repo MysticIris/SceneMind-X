@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:141.jpg",
+    "relative_path": "train/141.jpg",
+    "sha256": "9dccb9671b499779334c8e5806dba2211f4b18ba72164426d02a7d6d375a0494",
+    "split": "train"
+  },
+  "canonical_sha256": "cbbbe52c098a9d1c9644fe5e72c54d6c3e206ce119fb908c4b0e37bdef22be04",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "控制面板",
+      "显示屏"
+    ],
+    "short_description": "显示系统的监控屏幕，含三维模型与操作状态列表。",
+    "theme": "界面"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见显示屏和机械臂模型。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色标题牌",
+      "多屏显示",
+      "数字时间戳"
+    ],
+    "relations": [
+      "显示屏位于控制台上方。"
+    ],
+    "scene": "室内控制台",
+    "subjects": [
+      "显示屏",
+      "机械臂模型",
+      "控制面板"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见显示屏和机械臂模型。",
+    "safe_facts": [
+      "画面中可见显示屏和机械臂模型。"
+    ]
+  },
+  "label_id": "cpl_c2976f7a3058089ffac2a699",
+  "provenance": {
+    "generated_at": "2026-08-03T09:36:23.337904+00:00",
+    "migrated_at": "2026-08-03T09:36:23.339680+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "500725352104fdf42fb69f25970d09ca7ea13f4342afd97058decfdbe77a820f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5815ad4005c9eac83fb85c58",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:41.346120+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:direct_observations",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5815ad4005c9eac83fb85c58",
+    "cpl_dd8404d08d9a910617b1f5f6"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "机械臂及飞行控制",
+      "飞行控制系统",
+      "北京时间 2023年08月11日",
+      "星期五 11:15:38",
+      "自主控制",
+      "寻的攻击"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "机械臂及飞行控制",
+      "飞行控制系统",
+      "北京时间 2023年08月11日",
+      "星期五 11:15:38",
+      "自主控制",
+      "寻的攻击"
+    ]
+  }
+}

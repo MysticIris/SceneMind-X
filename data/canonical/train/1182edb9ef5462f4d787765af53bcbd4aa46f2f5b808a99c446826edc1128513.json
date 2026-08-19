@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1700.jpg",
+    "relative_path": "train/1700.jpg",
+    "sha256": "1182edb9ef5462f4d787765af53bcbd4aa46f2f5b808a99c446826edc1128513",
+    "split": "train"
+  },
+  "canonical_sha256": "ffc7a10655b34708f6ddf849006cbd84e18718a99128a0a7b8c5b1afd76ce8e3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "摩天轮",
+      "紫藤花",
+      "游乐园",
+      "仰拍视角"
+    ],
+    "short_description": "从低角度仰拍的摩天轮，背景是多云天空，右侧有紫色藤蔓垂挂，整体画面充满游乐园氛围。",
+    "theme": "摩天轮与紫藤花"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见大型摩天轮的金属骨架和多个吊舱。",
+      "画面右侧有大量紫色藤蔓垂挂。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色金属结构",
+      "红色吊舱",
+      "紫色垂挂藤蔓",
+      "多云天空"
+    ],
+    "relations": [
+      "摩天轮位于画面左侧。",
+      "紫藤花位于画面右侧。"
+    ],
+    "scene": "户外游乐园",
+    "subjects": [
+      "摩天轮",
+      "紫藤花"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见大型摩天轮的金属骨架和多个吊舱；画面右侧有大量紫色藤蔓垂挂。",
+    "safe_facts": [
+      "画面中可见大型摩天轮的金属骨架和多个吊舱。",
+      "画面右侧有大量紫色藤蔓垂挂。"
+    ]
+  },
+  "label_id": "cpl_f9da0c0c2cfd9e1c72c68c19",
+  "provenance": {
+    "generated_at": "2026-08-03T14:55:27.227054+00:00",
+    "migrated_at": "2026-08-03T14:55:27.228831+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1cf48ff187607cd8fcd719c55b2227c58f9d7203647304ca950d3bce1a79207d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_99426e4fc1544ba9eb96faa5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:55:27.229033+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_99426e4fc1544ba9eb96faa5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1854.jpg",
+    "relative_path": "train/1854.jpg",
+    "sha256": "c810412ab6f6855f0e2e89891787654b27569e2d0eaf71f1ef845b26d3f73b12",
+    "split": "train"
+  },
+  "canonical_sha256": "9b72200a94fd008db6603862c76c31e3af32b5a15e21d8644655e4fd54b8ad32",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电子白板",
+      "手写笔记",
+      "教学工具"
+    ],
+    "short_description": "屏幕底部有功能按钮栏，包含笔、橡皮擦等图标。",
+    "theme": "电子白板教学场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕底部有功能按钮栏，包含笔、橡皮擦等图标。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "带操作按钮栏"
+    ],
+    "relations": [],
+    "scene": "室内电子白板界面",
+    "subjects": [
+      "电子白板屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕底部有功能按钮栏，包含笔、橡皮擦等图标。",
+    "safe_facts": [
+      "屏幕底部有功能按钮栏，包含笔、橡皮擦等图标。"
+    ]
+  },
+  "label_id": "cpl_9f7a3843c529a16372f38853",
+  "provenance": {
+    "generated_at": "2026-08-03T15:14:47.826499+00:00",
+    "migrated_at": "2026-08-03T15:14:47.828201+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e6215368f5b6b15da443266444e4a00fe04ad6f4dd84945456704cf0e591dd63",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_754740e047d01c40709514f5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:14:47.828673+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_754740e047d01c40709514f5"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Structure.",
+      "Language.",
+      "Feature.",
+      "Stand out.",
+      "Striking."
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Structure.",
+      "Language.",
+      "Feature.",
+      "Stand out.",
+      "Striking."
+    ]
+  }
+}

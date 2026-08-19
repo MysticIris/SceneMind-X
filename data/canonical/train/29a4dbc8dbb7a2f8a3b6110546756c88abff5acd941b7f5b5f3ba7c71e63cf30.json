@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:156.jpg",
+    "relative_path": "train/156.jpg",
+    "sha256": "29a4dbc8dbb7a2f8a3b6110546756c88abff5acd941b7f5b5f3ba7c71e63cf30",
+    "split": "train"
+  },
+  "canonical_sha256": "fcee559914c986808ff45d556f0a7c09917926d3e7a66d23b78aa03ff58985c1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "发光汉字",
+      "蓝色灯光",
+      "城市夜景"
+    ],
+    "short_description": "夜景中巨大的发光汉字装置，背景有蓝色屏幕和店铺招牌，整体氛围现代而科技感十足。",
+    "theme": "蓝色灯光下的大型汉字"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有巨大发光的汉字结构。",
+      "背景中有蓝色发光屏幕和店铺标识。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "发光",
+      "蓝色调",
+      "大型",
+      "现代建筑"
+    ],
+    "relations": [
+      "汉字装置位于前景。",
+      "电子屏幕位于上方。"
+    ],
+    "scene": "城市商业区夜间",
+    "subjects": [
+      "发光汉字装置",
+      "蓝色电子屏幕",
+      "店铺招牌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有巨大发光的汉字结构；背景中有蓝色发光屏幕和店铺标识。",
+    "safe_facts": [
+      "画面中央有巨大发光的汉字结构。",
+      "背景中有蓝色发光屏幕和店铺标识。"
+    ]
+  },
+  "label_id": "cpl_c0ae8288acb7815e8940b250",
+  "provenance": {
+    "generated_at": "2026-08-03T10:06:27.153137+00:00",
+    "migrated_at": "2026-08-03T10:06:27.155295+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c4e9c0e29f6b2d362883e51c568c4af0f64fb75e377bbfd37d1d3a3a58efc704",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5227ab12754bedab7d51cc8d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:06:27.155496+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5227ab12754bedab7d51cc8d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

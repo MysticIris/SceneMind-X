@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1343.jpg",
+    "relative_path": "train/1343.jpg",
+    "sha256": "5e4fd285e7a1b3e5ed83349ac8c187a3aee57a4b0162902b4492a23386962954",
+    "split": "train"
+  },
+  "canonical_sha256": "8f43e2caef782d8dfd32e83d341716e51f35c0f5235574b071a802da97e1dd69",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "日落",
+      "工业建筑",
+      "剪影",
+      "橙色天空"
+    ],
+    "short_description": "夕阳西下，橙黄色光芒穿透工业建筑剪影，金属结构与烟囱轮廓在暖光中形成强烈对比。",
+    "theme": "工业日落"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "空气中可能存在雾或尘埃，导致光线散射并模糊边缘。"
+    ],
+    "direct_observations": [
+      "太阳位于画面中央偏下位置，发出明亮橙黄色光芒。",
+      "建筑物呈现深色剪影，轮廓清晰可见。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "橙黄色天空",
+      "剪影效果",
+      "雾气弥漫"
+    ],
+    "relations": [
+      "太阳位于建筑物后方。",
+      "金属结构附着于建筑物。"
+    ],
+    "scene": "工业区日落景象",
+    "subjects": [
+      "建筑物",
+      "太阳",
+      "金属结构"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "空气中可能存在雾或尘埃，导致光线散射并模糊边缘。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "太阳位于画面中央偏下位置，发出明亮橙黄色光芒；建筑物呈现深色剪影，轮廓清晰可见。",
+    "safe_facts": [
+      "太阳位于画面中央偏下位置，发出明亮橙黄色光芒。",
+      "建筑物呈现深色剪影，轮廓清晰可见。"
+    ]
+  },
+  "label_id": "cpl_69401167352ec697c4e36b51",
+  "provenance": {
+    "generated_at": "2026-08-03T14:12:45.953789+00:00",
+    "migrated_at": "2026-08-03T14:12:45.956474+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "65313d74c1747d80ee57e497351ac5de158f096dae004345b54e3afba7c2f387",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1b0d769c22de9b6168e54640",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:12:45.956836+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1b0d769c22de9b6168e54640"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

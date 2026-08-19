@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2134.jpg",
+    "relative_path": "val/2134.jpg",
+    "sha256": "de1e0a1232af4e119b092cb86b6ed85be28065e2ce5ef2e8a76501d53b169a36",
+    "split": "val"
+  },
+  "canonical_sha256": "bdf4de83976d61cc7aee314097548ac9a776627fd2d4ebf9df5fa42e2a98fbfd",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "牛杂汤面",
+      "白米饭",
+      "中式快餐"
+    ],
+    "short_description": "一碗牛杂汤面配白米饭，盛放在带花纹的碗碟上，置于棕色餐盘中。",
+    "theme": "中式餐食"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两个碗碟，一个盛有牛杂汤面，另一个盛有白米饭。",
+      "碗碟边缘有黄色边框和红色装饰性图案。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色汤底",
+      "撒有葱花和芝麻",
+      "米粒分明",
+      "碗沿有装饰性图案"
+    ],
+    "relations": [
+      "牛杂汤面与白米饭并置在餐盘上。"
+    ],
+    "scene": "餐桌",
+    "subjects": [
+      "牛杂汤面",
+      "白米饭",
+      "碗碟",
+      "餐盘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两个碗碟，一个盛有牛杂汤面，另一个盛有白米饭；碗碟边缘有黄色边框和红色装饰性图案。",
+    "safe_facts": [
+      "画面中有两个碗碟，一个盛有牛杂汤面，另一个盛有白米饭。",
+      "碗碟边缘有黄色边框和红色装饰性图案。"
+    ]
+  },
+  "label_id": "cpl_af1651a70f05afc193c8e52c",
+  "provenance": {
+    "generated_at": "2026-08-03T16:04:26.186665+00:00",
+    "migrated_at": "2026-08-03T16:04:26.188132+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3fd1cf2128c205041fa8208864e0f78469e3853087cc28789fcf42881d4343a8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ab1d98ae1e4e017703a87867",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:04:26.188340+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ab1d98ae1e4e017703a87867"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:257.jpg",
+    "relative_path": "train/257.jpg",
+    "sha256": "95a22cbafc4a59b2ca5582df106d11622c06983486f029c5da9dd94126af2e5f",
+    "split": "train"
+  },
+  "canonical_sha256": "8881c0d78ca5c11afdf293629c4813c6259b0da25685f198e4541a6457a9e52f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红色展板",
+      "历史展览",
+      "参观者"
+    ],
+    "short_description": "人们正在参观一个以红色为主色调的历史展览。",
+    "theme": "红色历史展览"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "展板为红色背景，配有图文信息。",
+      "参观者背对镜头，正注视展板。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "观看"
+    ],
+    "attributes": [
+      "红色背景",
+      "玻璃展柜"
+    ],
+    "relations": [
+      "参观者面对展板。"
+    ],
+    "scene": "室内展览空间",
+    "subjects": [
+      "参观者",
+      "展板"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "展板为红色背景，配有图文信息；参观者背对镜头，正注视展板。",
+    "safe_facts": [
+      "展板为红色背景，配有图文信息。",
+      "参观者背对镜头，正注视展板。"
+    ]
+  },
+  "label_id": "cpl_f98699bbe6103494a7830a5b",
+  "provenance": {
+    "generated_at": "2026-08-03T10:26:20.186872+00:00",
+    "migrated_at": "2026-08-03T10:26:20.189337+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "091159bb47355ad3ccb59888c34c4d884ef35283949119b2356c8aed1f6712c0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c546fa57c406501aaa70948c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:26:20.190063+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c546fa57c406501aaa70948c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "初心之地·上海",
+      "日出东方",
+      "革命红",
+      "引言"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "初心之地·上海",
+      "日出东方",
+      "革命红",
+      "引言"
+    ]
+  }
+}

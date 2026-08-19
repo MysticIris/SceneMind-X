@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1328.jpg",
+    "relative_path": "train/1328.jpg",
+    "sha256": "fc226fd4fba979db310ecc7e7e13313f148d2ba43cf34ff3448a4bfb6df5c68b",
+    "split": "train"
+  },
+  "canonical_sha256": "fcda964247e99295c7c83e9091306458edafbf329d4b65a7a0b86ce77042aaa0",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "直播带货",
+      "短视频主播",
+      "电商推广"
+    ],
+    "short_description": "两位女性在直播场景中，一人手持产品，另一人操作手机支架，背景有货架和宣传板。",
+    "theme": "中国短视频直播"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两位女性，一位手持黄色包装袋，另一位手持纸张并操作手机支架。",
+      "背景有货架和宣传板，显示商品陈列。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "手持产品",
+      "操作手机支架"
+    ],
+    "attributes": [
+      "佩戴挂绳",
+      "手持文件",
+      "环形补光灯"
+    ],
+    "relations": [
+      "两人并肩站立。",
+      "手机架设于环形灯内。"
+    ],
+    "scene": "室内直播环境",
+    "subjects": [
+      "女性主播",
+      "女性助手"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两位女性，一位手持黄色包装袋，另一位手持纸张并操作手机支架；背景有货架和宣传板，显示商品陈列。",
+    "safe_facts": [
+      "画面中有两位女性，一位手持黄色包装袋，另一位手持纸张并操作手机支架。",
+      "背景有货架和宣传板，显示商品陈列。"
+    ]
+  },
+  "label_id": "cpl_ea2debd82680e201ea19019d",
+  "provenance": {
+    "generated_at": "2026-08-03T14:10:57.414219+00:00",
+    "migrated_at": "2026-08-03T14:10:57.419528+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "20d11e84e1c063b41decb7c96f85614be850059ef07028a027940f71d9c8c8e1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_bf1099aee1d336b814816350",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:10:57.421165+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_bf1099aee1d336b814816350"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "CHINA",
+      "Tech Trends",
+      "China's short video and live streaming s",
+      "Topic | China technology",
+      "Xinmei Shen",
+      "Published: 6:00am, 28 Mar, 2024"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "CHINA",
+      "Tech Trends",
+      "China's short video and live streaming s",
+      "Topic | China technology",
+      "Xinmei Shen",
+      "Published: 6:00am, 28 Mar, 2024"
+    ]
+  }
+}

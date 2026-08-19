@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:715.jpg",
+    "relative_path": "train/715.jpg",
+    "sha256": "3017e5c574aa531e4edf63bb1228bf9710e721349b9070278b6d90e2d9ec3113",
+    "split": "train"
+  },
+  "canonical_sha256": "24e9f6e3412e307e12dc944b3f0da333c149e38e69d872fd0170a04b61ab5cef",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "空碗",
+      "餐具",
+      "水杯",
+      "餐厅桌"
+    ],
+    "short_description": "一张餐桌上的空碗、刀叉和水杯，旁边有收据碎片，背景是餐厅座椅。",
+    "theme": "餐后残局"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "白色碗内残留食物碎屑。",
+      "玻璃杯中盛有清水。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "碗内有食物残渣",
+      "玻璃杯装有水",
+      "桌面为黑色带孔设计"
+    ],
+    "relations": [
+      "碗放在桌面上。",
+      "刀叉放在碗里。",
+      "玻璃杯在碗右侧。"
+    ],
+    "scene": "餐厅餐桌",
+    "subjects": [
+      "白色碗",
+      "刀",
+      "叉",
+      "玻璃杯",
+      "收据碎片"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "白色碗内残留食物碎屑；玻璃杯中盛有清水。",
+    "safe_facts": [
+      "白色碗内残留食物碎屑。",
+      "玻璃杯中盛有清水。"
+    ]
+  },
+  "label_id": "cpl_2f4323f4d5b92cd1128884c8",
+  "provenance": {
+    "generated_at": "2026-08-03T12:06:58.087051+00:00",
+    "migrated_at": "2026-08-03T12:06:58.089645+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5887c587e6ceb822d9ea037988c1a02935657998c9096c3556fc308689686dd9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e91f60eb7027c3c57b55aedb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:06:58.089982+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e91f60eb7027c3c57b55aedb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

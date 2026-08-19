@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:362.jpg",
+    "relative_path": "train/362.jpg",
+    "sha256": "e8dcf19fb2dc1870fab421a84529a159b74af1e62c07294bdfbd3b4914d627ed",
+    "split": "train"
+  },
+  "canonical_sha256": "4b03524d2e7d263dba1c0441a7b7b34e3c8eeee97b4438ef15b9b289f06f271e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "小孩",
+      "睡觉",
+      "粉色睡衣",
+      "床上"
+    ],
+    "short_description": "一个穿着粉色睡衣的小孩趴在粉色床单上睡觉，周围有枕头和被褥。",
+    "theme": "儿童睡眠场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "小孩闭着眼睛，身体呈睡眠姿势。",
+      "小孩身穿粉色带图案的长袖睡衣，下穿深色裤子和紫色袜子。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "睡觉"
+    ],
+    "attributes": [
+      "穿着粉色睡衣",
+      "黑色头发",
+      "紫色袜子",
+      "灰色裤子"
+    ],
+    "relations": [
+      "小孩躺在床铺上。",
+      "小孩头枕在手臂上。"
+    ],
+    "scene": "室内卧室",
+    "subjects": [
+      "小孩"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "小孩闭着眼睛，身体呈睡眠姿势；小孩身穿粉色带图案的长袖睡衣，下穿深色裤子和紫色袜子。",
+    "safe_facts": [
+      "小孩闭着眼睛，身体呈睡眠姿势。",
+      "小孩身穿粉色带图案的长袖睡衣，下穿深色裤子和紫色袜子。"
+    ]
+  },
+  "label_id": "cpl_3b6d8f33972a8049300203ce",
+  "provenance": {
+    "generated_at": "2026-08-03T10:47:52.048627+00:00",
+    "migrated_at": "2026-08-03T10:47:52.050482+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7fe7a56a670104a8b95fc138799f543ab40c704f48de38621eaada03d3a674ef",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_997c9a6f5dfc5b1b16cfcaf3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:47:52.050775+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_997c9a6f5dfc5b1b16cfcaf3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

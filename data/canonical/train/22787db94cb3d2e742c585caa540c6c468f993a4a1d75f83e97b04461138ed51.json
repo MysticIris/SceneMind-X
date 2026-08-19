@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1232.jpg",
+    "relative_path": "train/1232.jpg",
+    "sha256": "22787db94cb3d2e742c585caa540c6c468f993a4a1d75f83e97b04461138ed51",
+    "split": "train"
+  },
+  "canonical_sha256": "34b0e12b7c9133c384f81aa35c8f2c198a5eedae86b5f0b88c69c3c3ed9dec8e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "毛绒熊",
+      "玩偶",
+      "户外",
+      "微笑",
+      "树下"
+    ],
+    "short_description": "两只毛绒熊玩偶在户外树下亲密相依，一只戴小帽穿蓝衣，另一只系红领结，表情可爱温馨。",
+    "theme": "毛绒玩具合影"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "背景中有绿色树木和蓝天。",
+      "两只玩偶面部均有黑色简笔笑脸。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "毛绒材质",
+      "简化笑脸图案",
+      "戴帽子",
+      "系领结"
+    ],
+    "relations": [
+      "两只熊并排站立。",
+      "头部靠近。"
+    ],
+    "scene": "户外树林背景",
+    "subjects": [
+      "白色毛绒熊",
+      "黄色毛绒熊"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "背景中有绿色树木和蓝天；两只玩偶面部均有黑色简笔笑脸。",
+    "safe_facts": [
+      "背景中有绿色树木和蓝天。",
+      "两只玩偶面部均有黑色简笔笑脸。"
+    ]
+  },
+  "label_id": "cpl_2eb6dfa9c0ca4023a2b98780",
+  "provenance": {
+    "generated_at": "2026-08-03T13:56:26.672883+00:00",
+    "migrated_at": "2026-08-03T13:56:26.675523+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "39535713ee2a1bad3c16a1c8dea6f85871cee52cf117c2fb6bd55a4a53654369",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0b6064c6d6f049bbab4b832b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:56:26.675844+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0b6064c6d6f049bbab4b832b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

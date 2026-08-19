@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2323.jpg",
+    "relative_path": "val/2323.jpg",
+    "sha256": "e4a7d8f0c9b29db9dba5951ceb977b261d7f955a7dddb36525ddea1ceca8b27d",
+    "split": "val"
+  },
+  "canonical_sha256": "39e5dd0074ac0a82ec281f4fb73c12cf4e8c08587bb6c78fcc27ba9c239c7e32",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "白猫",
+      "树根",
+      "小雕像",
+      "户外",
+      "静坐"
+    ],
+    "short_description": "一只白色猫咪坐在树根旁，低头靠近一个色彩鲜艳的小型神像雕塑，背景有绿叶和粗壮树干。",
+    "theme": "白猫与树根旁小雕像"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "雕像可能具有传统风格，如中式神兽造型。"
+    ],
+    "direct_observations": [
+      "猫全身毛色为白色，佩戴红色项圈。",
+      "猫正低头靠近一个色彩丰富的小型雕像。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "坐着",
+      "低头靠近雕像"
+    ],
+    "attributes": [
+      "白色毛发",
+      "红色项圈",
+      "雕像有彩绘装饰"
+    ],
+    "relations": [
+      "猫位于雕像旁边。",
+      "猫与雕像相邻。"
+    ],
+    "scene": "户外自然环境",
+    "subjects": [
+      "一只白猫",
+      "一个小型彩色雕像"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "雕像可能具有传统风格，如中式神兽造型。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "猫全身毛色为白色，佩戴红色项圈；猫正低头靠近一个色彩丰富的小型雕像。",
+    "safe_facts": [
+      "猫全身毛色为白色，佩戴红色项圈。",
+      "猫正低头靠近一个色彩丰富的小型雕像。"
+    ]
+  },
+  "label_id": "cpl_3d5428a55a061de50ea34e84",
+  "provenance": {
+    "generated_at": "2026-08-03T16:26:58.059429+00:00",
+    "migrated_at": "2026-08-03T16:26:58.061645+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "41e5e815c310808fdc0e0a53d7a3063289e93a1d3718c4ffb14945a58dd5ad78",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c701cb289ee174c9078b6ee3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:26:58.061880+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c701cb289ee174c9078b6ee3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

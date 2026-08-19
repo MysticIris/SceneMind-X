@@ -1,0 +1,144 @@
+{
+  "asset_id": "af1de86e55abe183",
+  "asset_sha256": "af1de86e55abe183219b63c2a030055f964bbd9b684f52d17f3c7d5c006a9cb0",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"手写英文缩写笔记\",\n    \"short_description\": \"一张横线纸上的手写笔记，列出了大量英文单词及其对应的缩写形式。内容涵盖校园设施、商业术语及时间单位，字迹清晰工整，采用左右两栏排列。\",\n    \"micro_tags\": [\n      \"手写笔记\",\n      \"英语缩写\",\n      \"学习笔记\",\n      \"词汇表\",\n      \"横线纸\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"平铺的书写纸张特写\",\n    \"subjects\": [\n      \"手写文字\",\n      \"横线笔记本内页\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"黑色墨水\",\n      \"手写体\",\n      \"双栏布局\",\n      \"列表形式\"\n    ],\n    \"relations\": [\n      \"左侧为缩写，右侧为全称的对应关系\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图片展示了一张带有横线的白色纸张，上面用黑色笔迹手写了多行英文内容。\",\n      \"内容分为左右两列，每一行通常由一个简短的缩写（如LB, SC, apt）和其后对应的完整单词（如Library, Student Center, apartment）组成。\",\n      \"可以看到一些特定的符号标记，例如圆圈数字①、方框□以及箭头↑和↓。\"\n    ],\n    \"cautious_inferences\": [\n      \"这看起来像是一份为了快速记录（如听写或会议记录）而整理的英文缩写对照表或速记练习。\",\n      \"根据出现的词汇（如campus, library, professor），推测这可能与学生生活或学术场景相关。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"on campus\",\n      \"off campus\",\n      \"building\",\n      \"house\",\n      \"LB Library\",\n      \"SC Student Center\",\n      \"CC Computer Center\",\n      \"DH Dining Hall\",\n      \"apt apartment\",\n      \"Co. company\",\n      \"info information\",\n      \"PJ project\",\n      \"pg program\",\n      \"PP paper\",\n      \"edu education\",\n      \"dev development\",\n      \"parking lot\",\n      \"Q Question\",\n      \"B Business\",\n      \"eg example\",\n      \"Bo Businessman\",\n      \"Pro professor\",\n      \"fr friend\",\n      \"many people\",\n      \"in the past\",\n      \"in the future\",\n      \"mkt market\",\n      \"ad advertisement\",\n      \"D: Day\",\n      \"W: Week\",\n      \"Y: Year\",\n      \"intro introduction\",\n      \"grt government\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张写满英文手写笔记的横线纸，内容为单词缩写与全称的对照列表。\",\n    \"safe_facts\": [\n      \"图片主体为一张印有横线的白纸。\",\n      \"纸面上布满了黑色的手写英文字符。\",\n      \"文字排列整齐，呈现出明显的列表结构。\"\n    ]\n  }\n}",
+      "input_tokens": 1610,
+      "output_tokens": 758,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 1610,
+        "output_tokens": 758,
+        "total_tokens": 2368,
+        "estimated_cost_cny": 0.009284,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "手写英文缩写笔记",
+          "short_description": "一张横线纸上的手写笔记，列出了大量英文单词及其对应的缩写形式。内容涵盖校园设施、商业术语及时间单位，字迹清晰工整，采用左右两栏排列。",
+          "micro_tags": [
+            "手写笔记",
+            "英语缩写",
+            "学习笔记",
+            "词汇表",
+            "横线纸"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "平铺的书写纸张特写",
+          "subjects": [
+            "手写文字",
+            "横线笔记本内页"
+          ],
+          "actions": [],
+          "attributes": [
+            "黑色墨水",
+            "手写体",
+            "双栏布局",
+            "列表形式"
+          ],
+          "relations": [
+            "左侧为缩写，右侧为全称的对应关系"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图片展示了一张带有横线的白色纸张，上面用黑色笔迹手写了多行英文内容。",
+            "内容分为左右两列，每一行通常由一个简短的缩写（如LB, SC, apt）和其后对应的完整单词（如Library, Student Center, apartment）组成。",
+            "可以看到一些特定的符号标记，例如圆圈数字①、方框□以及箭头↑和↓。"
+          ],
+          "cautious_inferences": [
+            "这看起来像是一份为了快速记录（如听写或会议记录）而整理的英文缩写对照表或速记练习。",
+            "根据出现的词汇（如campus, library, professor），推测这可能与学生生活或学术场景相关。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "on campus",
+            "off campus",
+            "building",
+            "house",
+            "LB Library",
+            "SC Student Center",
+            "CC Computer Center",
+            "DH Dining Hall",
+            "apt apartment",
+            "Co. company",
+            "info information",
+            "PJ project",
+            "pg program",
+            "PP paper",
+            "edu education",
+            "dev development",
+            "parking lot",
+            "Q Question",
+            "B Business",
+            "eg example",
+            "Bo Businessman",
+            "Pro professor",
+            "fr friend",
+            "many people",
+            "in the past",
+            "in the future",
+            "mkt market",
+            "ad advertisement",
+            "D: Day",
+            "W: Week",
+            "Y: Year",
+            "intro introduction",
+            "grt government"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张写满英文手写笔记的横线纸，内容为单词缩写与全称的对照列表。",
+          "safe_facts": [
+            "图片主体为一张印有横线的白纸。",
+            "纸面上布满了黑色的手写英文字符。",
+            "文字排列整齐，呈现出明显的列表结构。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 960904,
+        "request_bytes": 717604,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.243670500000007,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "212f289d16584acc1d1e4e4ebf8f16f6ce45254db675286332adadedc4633f66"
+}

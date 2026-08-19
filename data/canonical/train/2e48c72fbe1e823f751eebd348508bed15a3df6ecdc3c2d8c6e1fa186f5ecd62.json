@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:10.jpg",
+    "relative_path": "train/10.jpg",
+    "sha256": "2e48c72fbe1e823f751eebd348508bed15a3df6ecdc3c2d8c6e1fa186f5ecd62",
+    "split": "train"
+  },
+  "canonical_sha256": "1cc4627837e29bca1ffd46b5dc7743e9978f67a69f20160fa893e7c4fcfb8caf",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "海滩",
+      "浅水区",
+      "戴帽子"
+    ],
+    "short_description": "一位女士戴着帽子和太阳镜，在海边浅水区嬉戏，笑容灿烂，穿着轻便服装。",
+    "theme": "海边漫步"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "女士站在浅水区，脚踩在海浪泡沫中。",
+      "女士面带笑容，头部微仰，右手抬起。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立在水中"
+    ],
+    "attributes": [
+      "戴帽子",
+      "戴太阳镜",
+      "穿白色外套",
+      "穿深色裤子",
+      "提包"
+    ],
+    "relations": [
+      "女士站在海浪中。"
+    ],
+    "scene": "海边",
+    "subjects": [
+      "一位女士"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "女士站在浅水区，脚踩在海浪泡沫中；女士面带笑容，头部微仰，右手抬起。",
+    "safe_facts": [
+      "女士站在浅水区，脚踩在海浪泡沫中。",
+      "女士面带笑容，头部微仰，右手抬起。"
+    ]
+  },
+  "label_id": "cpl_78bb390491d389cc4f90833b",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/train/train_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "170dc34eb8269f1babe6835cdb58f23286285057aea88fcd9025beb9e0166c19",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T09:05:47.537791+00:00",
+    "migrated_at": "2026-08-03T09:05:47.539219+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8910ebbb3e9789108bea9bce89d9c976f7b6b4b1c50d179e3847767a4a18fb1f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d7bbdcea62c794022392196b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:25.557522+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "人物与海边环境描述准确，无明显幻觉。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d7bbdcea62c794022392196b",
+    "cpl_f8ca3c09fbf866db0995f1be"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

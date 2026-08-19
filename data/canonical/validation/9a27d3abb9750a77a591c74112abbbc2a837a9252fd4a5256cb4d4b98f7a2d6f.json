@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2137.jpg",
+    "relative_path": "val/2137.jpg",
+    "sha256": "9a27d3abb9750a77a591c74112abbbc2a837a9252fd4a5256cb4d4b98f7a2d6f",
+    "split": "val"
+  },
+  "canonical_sha256": "cee3e0ea076851d8de74df1ffc581b336cb1b9f1d4d844c9ef093cc38173a7e8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "烤红薯",
+      "棉花糖",
+      "户外烧烤",
+      "木盒水果"
+    ],
+    "short_description": "一人手持竹签烤红薯、棉花糖和橘子，旁边有木盒装水果和一杯黑咖啡，场景休闲。",
+    "theme": "户外烧烤小食"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一只手正用竹签夹着食物放在烤架上。",
+      "烤架上有红薯、棉花糖和橘子正在被烤制。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "烤制",
+      "手持竹签"
+    ],
+    "attributes": [
+      "陶土烤炉",
+      "金属网架",
+      "黑色桌面",
+      "木质分格盒子"
+    ],
+    "relations": [
+      "手与竹签相连。",
+      "竹签与食物接触。",
+      "食物置于烤架上。",
+      "木盒与桌面相邻。",
+      "咖啡杯与桌面相邻。"
+    ],
+    "scene": "户外桌边烧烤场景",
+    "subjects": [
+      "手",
+      "烤架",
+      "食物",
+      "木盒",
+      "咖啡杯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只手正用竹签夹着食物放在烤架上；烤架上有红薯、棉花糖和橘子正在被烤制。",
+    "safe_facts": [
+      "一只手正用竹签夹着食物放在烤架上。",
+      "烤架上有红薯、棉花糖和橘子正在被烤制。"
+    ]
+  },
+  "label_id": "cpl_c72f959b4bac4922bb65d00b",
+  "provenance": {
+    "generated_at": "2026-08-03T16:03:55.383754+00:00",
+    "migrated_at": "2026-08-03T16:03:55.385211+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4bb5cc095ed8e3b4c5f4bfa8e5eefe175a310242bfd36e1879f69a051715de44",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e53287fcbc25b50299cf40ac",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:03:55.385417+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e53287fcbc25b50299cf40ac"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

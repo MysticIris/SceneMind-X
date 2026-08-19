@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1329.jpg",
+    "relative_path": "train/1329.jpg",
+    "sha256": "fee4e7c3f5e71cb4b1154cd7d788463ada6478a617716994613a63180b9d2aa7",
+    "split": "train"
+  },
+  "canonical_sha256": "0855d867c8aba8dbb2ad6f52b5de7bdd6d4b89b9f608ea6c292faf7a78d650a7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古塔",
+      "夜景",
+      "游客",
+      "灯光照明"
+    ],
+    "short_description": "夜晚灯光照亮一座多层中式古塔，塔前广场上有游客驻足观看，背景是深色天空和城市街道。",
+    "theme": "夜景古塔"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "游客可能在观赏或拍照古塔。"
+    ],
+    "direct_observations": [
+      "一座多层中式古塔在夜间被黄色灯光照亮。",
+      "塔前广场上有数名游客站立或行走。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立观看",
+      "拍照"
+    ],
+    "attributes": [
+      "多层结构",
+      "黄色灯光照明",
+      "砖石基座",
+      "现代路灯"
+    ],
+    "relations": [
+      "游客位于古塔前方。",
+      "古塔被灯光照亮。"
+    ],
+    "scene": "城市广场夜景",
+    "subjects": [
+      "古塔",
+      "游客群体"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "游客可能在观赏或拍照古塔。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一座多层中式古塔在夜间被黄色灯光照亮；塔前广场上有数名游客站立或行走。",
+    "safe_facts": [
+      "一座多层中式古塔在夜间被黄色灯光照亮。",
+      "塔前广场上有数名游客站立或行走。"
+    ]
+  },
+  "label_id": "cpl_15b885e5f3020361b60b90d1",
+  "provenance": {
+    "generated_at": "2026-08-03T14:08:57.906309+00:00",
+    "migrated_at": "2026-08-03T14:08:57.914559+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "92c3d12b09d8f9559cd61888a0c0045278db88722cffb27331a665cb934be3f1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1a2b02601a21a65285c69354",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:08:57.914934+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1a2b02601a21a65285c69354"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

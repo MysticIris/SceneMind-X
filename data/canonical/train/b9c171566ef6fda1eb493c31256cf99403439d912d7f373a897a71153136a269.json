@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:232.jpg",
+    "relative_path": "train/232.jpg",
+    "sha256": "b9c171566ef6fda1eb493c31256cf99403439d912d7f373a897a71153136a269",
+    "split": "train"
+  },
+  "canonical_sha256": "82cc51ea84002e11970a2689e0a09ecf6f303056ff3c9410c7dca63ee323d7e8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "地铁站台",
+      "列车驶入",
+      "城市建筑"
+    ],
+    "short_description": "城市地铁站台，一列列车正驶入站台，上方有弧形顶棚，背景是高楼建筑。",
+    "theme": "地铁站台"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一列银色地铁列车正沿轨道驶向站台。",
+      "站台设有金属栏杆和弧形顶棚结构。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "列车驶入站台"
+    ],
+    "attributes": [
+      "金属结构顶棚",
+      "玻璃护栏",
+      "灰色地面"
+    ],
+    "relations": [
+      "列车位于轨道上。",
+      "站台位于列车下方。",
+      "顶棚覆盖站台区域。"
+    ],
+    "scene": "城市地铁站台",
+    "subjects": [
+      "列车",
+      "站台",
+      "顶棚结构",
+      "背景建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一列银色地铁列车正沿轨道驶向站台；站台设有金属栏杆和弧形顶棚结构。",
+    "safe_facts": [
+      "一列银色地铁列车正沿轨道驶向站台。",
+      "站台设有金属栏杆和弧形顶棚结构。"
+    ]
+  },
+  "label_id": "cpl_83d7f1460f73f161b4657abd",
+  "provenance": {
+    "generated_at": "2026-08-03T10:21:22.457799+00:00",
+    "migrated_at": "2026-08-03T10:21:22.460054+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ecdd3b79c18b60bdc4d09f15a22aeda25122663df41bebd914e0cefb7b5cfe37",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a29148d226c386d74fc690dc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:21:22.460425+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a29148d226c386d74fc690dc"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

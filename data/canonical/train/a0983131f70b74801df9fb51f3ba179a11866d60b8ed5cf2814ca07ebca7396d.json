@@ -1,0 +1,138 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:26.jpg",
+    "relative_path": "train/26.jpg",
+    "sha256": "a0983131f70b74801df9fb51f3ba179a11866d60b8ed5cf2814ca07ebca7396d",
+    "split": "train"
+  },
+  "canonical_sha256": "a33487c32ba8e106955e5840f263252b7256dc873158244fa9d08b0bf40ac80e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "服装店",
+      "冬季服饰",
+      "顾客选衣"
+    ],
+    "short_description": "一名顾客在服装店内挑选羽绒服，周围挂满冬装，上方有指向的蓝色指示牌。",
+    "theme": "服装店区域"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "顾客背对镜头，穿着黑色长款羽绒服，正在伸手接触货架上的衣物。",
+      "货架上陈列着多件不同颜色和款式的羽绒服及毛绒外套。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "顾客正在查看衣物"
+    ],
+    "attributes": [
+      "黑色长款羽绒服",
+      "灰色系羽绒服",
+      "白色毛绒外套",
+      "深色裤子",
+      "黑色运动鞋"
+    ],
+    "relations": [
+      "顾客站在衣物货架前。",
+      "指示牌位于天花板下方。"
+    ],
+    "scene": "室内服装零售空间",
+    "subjects": [
+      "穿黑色长款羽绒服的女性顾客",
+      "货架上悬挂的多件外套"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "顾客背对镜头，穿着黑色长款羽绒服，正在伸手接触货架上的衣物；货架上陈列着多件不同颜色和款式的羽绒服及毛绒外套。",
+    "safe_facts": [
+      "顾客背对镜头，穿着黑色长款羽绒服，正在伸手接触货架上的衣物。",
+      "货架上陈列着多件不同颜色和款式的羽绒服及毛绒外套。"
+    ]
+  },
+  "label_id": "cpl_95f30aa56f659fd62a069073",
+  "provenance": {
+    "generated_at": "2026-08-03T09:09:20.999014+00:00",
+    "migrated_at": "2026-08-03T09:09:21.001055+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0b7500b5ba6cefbea513d11aa80360121dcf3bb9097f3156aec474e5d96f0c1a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2ad207f4aff405b03945b8bc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:26.126785+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2ad207f4aff405b03945b8bc",
+    "cpl_53bceb22426c65388a000e7a"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "试衣间",
+      "Fitting Room",
+      "2折起",
+      "5折"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "试衣间",
+      "Fitting Room",
+      "2折起",
+      "5折"
+    ]
+  }
+}

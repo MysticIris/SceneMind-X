@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:944.jpg",
+    "relative_path": "train/944.jpg",
+    "sha256": "0b06ea9d1082526d7efda3160cf81b1b3cb6f5d472a9d07798fe338a8a5b9c95",
+    "split": "train"
+  },
+  "canonical_sha256": "eea8a9cfa3964555274863aa8db44ec371d1255cc0460a17b07a8d5e82538296",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "复活节蛋糕",
+      "彩蛋装饰",
+      "鲜花环绕"
+    ],
+    "short_description": "一张俯拍照片，展示一个装饰有彩蛋和小花的环形面包，周围环绕着鲜花、草莓和彩蛋，摆放在蕾丝桌布上。",
+    "theme": "复活节主题甜点"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中心是一个环形面包，表面呈金黄色，顶部装饰有多个彩蛋和白色碎屑。",
+      "面包周围摆放着多种颜色的鲜花，包括紫色、红色和黄色，以及一盘草莓。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金黄色面包",
+      "撒有白色碎屑",
+      "彩色鸡蛋",
+      "红色花瓣装饰",
+      "草莓盛于碗中"
+    ],
+    "relations": [
+      "面包位于中央盘子上。",
+      "彩蛋置于面包中心。",
+      "鲜花分布在画面四周。"
+    ],
+    "scene": "白色蕾丝桌布上的桌面布置",
+    "subjects": [
+      "环形面包",
+      "彩蛋",
+      "草莓",
+      "鲜花"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中心是一个环形面包，表面呈金黄色，顶部装饰有多个彩蛋和白色碎屑；面包周围摆放着多种颜色的鲜花，包括紫色、红色和黄色，以及一盘草莓。",
+    "safe_facts": [
+      "画面中心是一个环形面包，表面呈金黄色，顶部装饰有多个彩蛋和白色碎屑。",
+      "面包周围摆放着多种颜色的鲜花，包括紫色、红色和黄色，以及一盘草莓。"
+    ]
+  },
+  "label_id": "cpl_074554d09f2ade42364062b3",
+  "provenance": {
+    "generated_at": "2026-08-03T13:05:47.279215+00:00",
+    "migrated_at": "2026-08-03T13:05:47.281910+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2f5b77d215678cf265a18a061528f75c3d79ad831fd28438ddca4a9112aeb0f5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_074554d09f2ade42364062b3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:16.321718+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_dc1046a27e82b00d87b9aa51"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

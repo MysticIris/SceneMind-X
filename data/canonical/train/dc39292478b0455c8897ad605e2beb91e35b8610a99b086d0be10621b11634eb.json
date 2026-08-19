@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:996.jpg",
+    "relative_path": "train/996.jpg",
+    "sha256": "dc39292478b0455c8897ad605e2beb91e35b8610a99b086d0be10621b11634eb",
+    "split": "train"
+  },
+  "canonical_sha256": "b5dbb1150b280158300295b2b2b1442c8e117a559a6b4634b5280d2740719885",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "柠檬",
+      "竹篮",
+      "绿叶",
+      "黄色水果"
+    ],
+    "short_description": "一篮新鲜柠檬带叶，色泽金黄，置于深色背景前，呈现自然质朴的田园感。",
+    "theme": "柠檬篮子"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一篮装满黄色柠檬的编织篮。",
+      "柠檬表面有自然纹理，部分带绿色叶片。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金黄色",
+      "带叶",
+      "编织篮"
+    ],
+    "relations": [
+      "柠檬在篮子里。",
+      "绿叶附着在柠檬枝上。"
+    ],
+    "scene": "深色背景前的篮子",
+    "subjects": [
+      "柠檬",
+      "竹篮",
+      "绿叶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一篮装满黄色柠檬的编织篮；柠檬表面有自然纹理，部分带绿色叶片。",
+    "safe_facts": [
+      "画面中有一篮装满黄色柠檬的编织篮。",
+      "柠檬表面有自然纹理，部分带绿色叶片。"
+    ]
+  },
+  "label_id": "cpl_d9c22623231dc984de26f57d",
+  "provenance": {
+    "generated_at": "2026-08-03T13:22:46.537341+00:00",
+    "migrated_at": "2026-08-03T13:22:46.541186+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0789b01a2a6cf20044a6d4de894ad54819fc42e25d70d44ff03ca93ed4e0a4bf",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_afef27519a155495effa23ad",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:46.541532+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_afef27519a155495effa23ad"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

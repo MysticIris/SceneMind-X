@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:940.jpg",
+    "relative_path": "train/940.jpg",
+    "sha256": "926d98e60606f251227ebcd3315409c9ab0a047e73c8ae0b3b60c30aceb46ed5",
+    "split": "train"
+  },
+  "canonical_sha256": "a9c596d0779409194eb4afe4213b5a582e37a5eea26ca6149b593d1b4cb01195",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑白照片",
+      "石板路",
+      "老式建筑"
+    ],
+    "short_description": "一条蜿蜒的石板路穿过两侧高大建筑，行人稀疏，氛围静谧。",
+    "theme": "黑白城市街景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面为黑白影像。",
+      "街道由石板铺成，呈弯曲状。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走"
+    ],
+    "attributes": [
+      "黑白",
+      "石板路面",
+      "多层建筑"
+    ],
+    "relations": [
+      "行人位于街道上。",
+      "建筑沿街道两侧分布。"
+    ],
+    "scene": "城市街道",
+    "subjects": [
+      "行人",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面为黑白影像；街道由石板铺成，呈弯曲状。",
+    "safe_facts": [
+      "画面为黑白影像。",
+      "街道由石板铺成，呈弯曲状。"
+    ]
+  },
+  "label_id": "cpl_3dbef99e975089bbc524958b",
+  "provenance": {
+    "generated_at": "2026-08-03T13:04:54.812559+00:00",
+    "migrated_at": "2026-08-03T13:04:54.815194+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "54e53baec95621d151e73625d5c2a84bed4d5918ddeeac2da924cafafe6a4908",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3dbef99e975089bbc524958b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:16.108890+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f0cd14b634688758bd0e9eb3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

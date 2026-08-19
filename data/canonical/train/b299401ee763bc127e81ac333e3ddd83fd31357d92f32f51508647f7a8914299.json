@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:960.jpg",
+    "relative_path": "train/960.jpg",
+    "sha256": "b299401ee763bc127e81ac333e3ddd83fd31357d92f32f51508647f7a8914299",
+    "split": "train"
+  },
+  "canonical_sha256": "888bb024cff1eb5e4cc25bf8ab722c123c49618da5eb4c314059b7cb101a13ff",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "干花",
+      "蜡烛",
+      "草药",
+      "研钵",
+      "木板"
+    ],
+    "short_description": "木板上摆放着干花、研钵、蜡烛与装有草药的玻璃瓶，营造出宁静的自然疗愈氛围。",
+    "theme": "草本香氛仪式"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "场景可能用于草本制作或冥想放松。"
+    ],
+    "direct_observations": [
+      "三支蜡烛正在燃烧，火焰明亮。",
+      "木板上有散落的干花和一把盛有草药的金属勺。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "点燃的蜡烛",
+      "木质纹理",
+      "干枯植物",
+      "玻璃瓶带软木塞"
+    ],
+    "relations": [
+      "蜡烛放置于木板旁。",
+      "干花散落在木板上。",
+      "玻璃瓶内含草药。"
+    ],
+    "scene": "室内桌面布置",
+    "subjects": [
+      "干花",
+      "研钵",
+      "玻璃瓶",
+      "蜡烛",
+      "木板",
+      "小碗"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "场景可能用于草本制作或冥想放松。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三支蜡烛正在燃烧，火焰明亮；木板上有散落的干花和一把盛有草药的金属勺。",
+    "safe_facts": [
+      "三支蜡烛正在燃烧，火焰明亮。",
+      "木板上有散落的干花和一把盛有草药的金属勺。"
+    ]
+  },
+  "label_id": "cpl_0bd64452f69c7ca3da911c6f",
+  "provenance": {
+    "generated_at": "2026-08-03T13:09:34.942107+00:00",
+    "migrated_at": "2026-08-03T13:09:34.946046+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "75146e66905038d91b27cfc4ac5b2264f0bfabb436cf499b9b8e5341566ef645",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0bd64452f69c7ca3da911c6f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:21:20.251106+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_44fa2329b9e1cbb7ddebd359"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

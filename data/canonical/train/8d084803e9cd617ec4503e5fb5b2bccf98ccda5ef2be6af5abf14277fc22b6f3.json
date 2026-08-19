@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:425.jpg",
+    "relative_path": "train/425.jpg",
+    "sha256": "8d084803e9cd617ec4503e5fb5b2bccf98ccda5ef2be6af5abf14277fc22b6f3",
+    "split": "train"
+  },
+  "canonical_sha256": "7d63e094983575ea094b7b88212a459c0f6e1bd27cea560b60872d7f8419753a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "水乡",
+      "游船",
+      "白墙黛瓦"
+    ],
+    "short_description": "白墙黛瓦的江南水乡建筑旁，一艘小船载着游客缓缓行驶在青绿色的河道上，石阶与倒影构成宁静画面。",
+    "theme": "水乡河道与游船"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "河水颜色偏绿，可能因藻类或水质原因。"
+    ],
+    "direct_observations": [
+      "画面中有一艘小船漂浮在绿色的水面上。",
+      "岸边有白墙黑瓦的中式传统建筑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "航行"
+    ],
+    "attributes": [
+      "青绿色河水",
+      "白墙黛瓦建筑",
+      "石阶"
+    ],
+    "relations": [
+      "游船在河道中行驶。",
+      "建筑沿河而建。",
+      "石阶连接河岸与水面。"
+    ],
+    "scene": "江南水乡河道",
+    "subjects": [
+      "游船",
+      "建筑",
+      "游客"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "河水颜色偏绿，可能因藻类或水质原因。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一艘小船漂浮在绿色的水面上；岸边有白墙黑瓦的中式传统建筑。",
+    "safe_facts": [
+      "画面中有一艘小船漂浮在绿色的水面上。",
+      "岸边有白墙黑瓦的中式传统建筑。"
+    ]
+  },
+  "label_id": "cpl_59241a7109bdbf201fc35458",
+  "provenance": {
+    "generated_at": "2026-08-03T11:01:00.471490+00:00",
+    "migrated_at": "2026-08-03T11:01:00.473220+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "80b72c00aa4475a8c1c19d9e3da7a65cd1044d8c57fa5062e0c25c82d7f52318",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2e559f78527f26c9b5a36967",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:01:00.473457+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2e559f78527f26c9b5a36967"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:397.jpg",
+    "relative_path": "train/397.jpg",
+    "sha256": "e402e6b5cb86d4764d15e48d4f31d54ba30acd79462ea355c9e5c4d23a2d42bc",
+    "split": "train"
+  },
+  "canonical_sha256": "b1b36fc974338b543c91e17c594261f508632342342ed1d38dc04abe6f41d42d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "湖泊",
+      "远山",
+      "芦苇",
+      "树影"
+    ],
+    "short_description": "平静湖面倒映远山，岸边芦苇丛生，树影轻拂，远处山峦层叠，天空灰白。",
+    "theme": "湖畔静谧风光"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "画面顶部树枝遮挡部分视野，暗示拍摄位置靠近树下。"
+    ],
+    "direct_observations": [
+      "湖面平静，反射天空与山影。",
+      "前景有枯萎的芦苇丛，部分漂浮于水面。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "平静水面",
+      "灰白色天空",
+      "枯黄芦苇"
+    ],
+    "relations": [
+      "湖水倒映远山。",
+      "芦苇生长于湖岸。"
+    ],
+    "scene": "湖边自然景观",
+    "subjects": [
+      "湖水",
+      "远山",
+      "芦苇",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "画面顶部树枝遮挡部分视野，暗示拍摄位置靠近树下。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "湖面平静，反射天空与山影；前景有枯萎的芦苇丛，部分漂浮于水面。",
+    "safe_facts": [
+      "湖面平静，反射天空与山影。",
+      "前景有枯萎的芦苇丛，部分漂浮于水面。"
+    ]
+  },
+  "label_id": "cpl_ce1bc6e4bfb04e2def54a0aa",
+  "provenance": {
+    "generated_at": "2026-08-03T10:54:37.765929+00:00",
+    "migrated_at": "2026-08-03T10:54:37.767581+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "76d3723cb95d2b4971b455de766e7c5c0a50a9ce1038aeea117f8cb0c05e79d9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e13dd9f1efe48583d549e163",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:54:37.767780+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e13dd9f1efe48583d549e163"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

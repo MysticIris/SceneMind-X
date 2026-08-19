@@ -1,0 +1,138 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:534.jpg",
+    "relative_path": "train/534.jpg",
+    "sha256": "28d7d240dabd1b068cc0484a96a5922658ffb2209dfbc12494fa6862fd411390",
+    "split": "train"
+  },
+  "canonical_sha256": "6558100a88eafb9be7f91d4d657d0e1975a1a500a18379689f38b0fc7cc67321",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红色宣传墙",
+      "城市广场",
+      "高楼林立"
+    ],
+    "short_description": "红色宣传墙立于广场中央，背景是现代高层建筑群，前方有花坛和交通锥。",
+    "theme": "校园活动宣传墙"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "背景中有多栋高层住宅楼和一座玻璃幕墙建筑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色",
+      "现代建筑",
+      "铺装地面",
+      "花卉装饰"
+    ],
+    "relations": [
+      "宣传墙位于广场中央。",
+      "高楼在宣传墙后方。",
+      "旗杆立于宣传墙前方。",
+      "花坛环绕旗杆基座。"
+    ],
+    "scene": "城市广场",
+    "subjects": [
+      "红色宣传墙",
+      "高楼建筑",
+      "旗杆",
+      "花坛",
+      "交通锥"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "背景中有多栋高层住宅楼和一座玻璃幕墙建筑。",
+    "safe_facts": [
+      "背景中有多栋高层住宅楼和一座玻璃幕墙建筑。"
+    ]
+  },
+  "label_id": "cpl_187eef9f2886f45db87344f7",
+  "provenance": {
+    "generated_at": "2026-08-03T11:24:24.872097+00:00",
+    "migrated_at": "2026-08-03T11:24:24.875364+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4db31721215fc5693b9783231960265c8876000107ed9e6b766bc9898a0af545",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b50856d863fe8652eb165593",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:24:24.876047+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b50856d863fe8652eb165593"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "喜迎二十大",
+      "永远跟党走",
+      "踔厉奋发启新程 七秩春秋谱华章",
+      "奋进新征程",
+      "建功新时代",
+      "华中科技大学"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "喜迎二十大",
+      "永远跟党走",
+      "踔厉奋发启新程 七秩春秋谱华章",
+      "奋进新征程",
+      "建功新时代",
+      "华中科技大学"
+    ]
+  }
+}

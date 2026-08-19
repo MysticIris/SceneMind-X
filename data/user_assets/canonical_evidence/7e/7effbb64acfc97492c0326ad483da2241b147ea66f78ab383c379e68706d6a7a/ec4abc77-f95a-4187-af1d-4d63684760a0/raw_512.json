@@ -1,0 +1,134 @@
+{
+  "asset_id": "7effbb64acfc9749",
+  "asset_sha256": "7effbb64acfc97492c0326ad483da2241b147ea66f78ab383c379e68706d6a7a",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"耳机控制器应用界面\",\n    \"short_description\": \"一张安卓手机模拟器的截图，显示名为“Headphone Controller”的应用界面。屏幕包含录音控制按钮、状态显示卡片以及已保存的音频文件列表，每个文件下配有播放和删除选项。\",\n    \"micro_tags\": [\n      \"安卓模拟器\",\n      \"应用界面\",\n      \"录音工具\",\n      \"文件管理\",\n      \"UI设计\",\n      \"紫色主题\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端应用程序的用户界面\",\n    \"subjects\": [\n      \"手机屏幕\",\n      \"应用窗口\",\n      \"控制按钮\",\n      \"列表项\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"紫色标题栏\",\n      \"白色背景\",\n      \"圆角卡片\",\n      \"开关控件\",\n      \"矩形按钮\"\n    ],\n    \"relations\": [\n      \"按钮位于状态卡片下方\",\n      \"文件列表位于页面下半部分\",\n      \"操作按钮依附于列表项\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"顶部紫色横幅显示文字“Headphone Controller”。\",\n      \"界面中部有三个并排的大按钮，左侧为紫色“START RECORDING”，右侧两个为灰色禁用状态。\",\n      \"下方列表展示了多个以“.wav”或“.m4a”结尾的文件名及日期大小信息。\",\n      \"每个文件条目下方都有“PLAY”、“PLAY ENHANCED”和“DELETE”三个紫色小按钮。\"\n    ],\n    \"cautious_inferences\": [\n      \"这是一个用于测试或管理耳机录音功能的开发中应用界面。\",\n      \"灰色按钮表示当前不可用的操作（如停止录音）。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"Headphone Controller\",\n      \"Current state\",\n      \"Idle\",\n      \"Status details\",\n      \"Deleted: pcm_20260316_041921.wav\",\n      \"START RECORDING\",\n      \"STOP RECORDING\",\n      \"STOP PLAYBACK\",\n      \"Enhance after recording\",\n      \"Saved recordings\",\n      \"pcm_20260316_041823.wav\",\n      \"2026-03-16 04:18:28 | 160.0 KB\",\n      \"PLAY\",\n      \"PLAY ENHANCED\",\n      \"DELETE\",\n      \"Future headset integration\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"移动设备上的应用程序界面截图，采用紫色和白色配色方案。界面包含顶部的标题栏、中间的状态显示区域、一排控制按钮以及底部的滚动列表，列表中每一项都包含文本信息和一组操作按钮。\",\n    \"safe_facts\": [\n      \"图像展示了典型的移动应用布局结构。\",\n      \"界面使用了高对比度的紫色作为主色调强调交互元素。\",\n      \"列表视图采用了卡片式设计风格。\"\n    ]\n  }\n}",
+      "input_tokens": 2103,
+      "output_tokens": 758,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 2103,
+        "output_tokens": 758,
+        "total_tokens": 2861,
+        "estimated_cost_cny": 0.01027,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "耳机控制器应用界面",
+          "short_description": "一张安卓手机模拟器的截图，显示名为“Headphone Controller”的应用界面。屏幕包含录音控制按钮、状态显示卡片以及已保存的音频文件列表，每个文件下配有播放和删除选项。",
+          "micro_tags": [
+            "安卓模拟器",
+            "应用界面",
+            "录音工具",
+            "文件管理",
+            "UI设计",
+            "紫色主题"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "移动端应用程序的用户界面",
+          "subjects": [
+            "手机屏幕",
+            "应用窗口",
+            "控制按钮",
+            "列表项"
+          ],
+          "actions": [],
+          "attributes": [
+            "紫色标题栏",
+            "白色背景",
+            "圆角卡片",
+            "开关控件",
+            "矩形按钮"
+          ],
+          "relations": [
+            "按钮位于状态卡片下方",
+            "文件列表位于页面下半部分",
+            "操作按钮依附于列表项"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "顶部紫色横幅显示文字“Headphone Controller”。",
+            "界面中部有三个并排的大按钮，左侧为紫色“START RECORDING”，右侧两个为灰色禁用状态。",
+            "下方列表展示了多个以“.wav”或“.m4a”结尾的文件名及日期大小信息。",
+            "每个文件条目下方都有“PLAY”、“PLAY ENHANCED”和“DELETE”三个紫色小按钮。"
+          ],
+          "cautious_inferences": [
+            "这是一个用于测试或管理耳机录音功能的开发中应用界面。",
+            "灰色按钮表示当前不可用的操作（如停止录音）。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "Headphone Controller",
+            "Current state",
+            "Idle",
+            "Status details",
+            "Deleted: pcm_20260316_041921.wav",
+            "START RECORDING",
+            "STOP RECORDING",
+            "STOP PLAYBACK",
+            "Enhance after recording",
+            "Saved recordings",
+            "pcm_20260316_041823.wav",
+            "2026-03-16 04:18:28 | 160.0 KB",
+            "PLAY",
+            "PLAY ENHANCED",
+            "DELETE",
+            "Future headset integration"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "移动设备上的应用程序界面截图，采用紫色和白色配色方案。界面包含顶部的标题栏、中间的状态显示区域、一排控制按钮以及底部的滚动列表，列表中每一项都包含文本信息和一组操作按钮。",
+          "safe_facts": [
+            "图像展示了典型的移动应用布局结构。",
+            "界面使用了高对比度的紫色作为主色调强调交互元素。",
+            "列表视图采用了卡片式设计风格。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 393476,
+        "request_bytes": 292034,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.028326399995422,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "610e16e526a5482c6b1ba07628d71aff31406dca361b9968b124e45d15186b7e"
+}

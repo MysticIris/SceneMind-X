@@ -1,0 +1,125 @@
+{
+  "asset_id": "43ef89579c81c124",
+  "asset_sha256": "43ef89579c81c124ae12be11801503ccaa6d3d2826df795c3c9a5e8b9a30c184",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"手机短信通知截图\",\n    \"short_description\": \"一张深色模式下的手机短信界面截图，显示来自淘宝闪购的两条通知消息。内容涉及用户在“夏威驿西餐厅”的订单取消失败及退款申请被拒绝，并提示可在24小时内申请客服介入。\",\n    \"micro_tags\": [\n      \"短信截图\",\n      \"淘宝闪购\",\n      \"退款失败\",\n      \"订单通知\",\n      \"深色模式\",\n      \"iOS界面\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"智能手机短信应用程序界面\",\n    \"subjects\": [\n      \"短信对话列表\",\n      \"系统通知文本\",\n      \"状态栏信息\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"深色背景\",\n      \"白色文字\",\n      \"气泡式布局\",\n      \"顶部状态栏显示时间15:09\",\n      \"电池电量49%\"\n    ],\n    \"relations\": [\n      \"两条消息属于同一发送者\",\n      \"第二条消息是对第一条消息内容的补充说明\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕顶部显示时间为15:09，电池电量为49%且正在充电。\",\n      \"界面包含两个深灰色气泡，分别显示关于订单取消失败和退款申请被拒绝的通知文本。\",\n      \"发送者号码显示为一长串数字，头像为默认灰色人影图标。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局（如顶部的灵动岛形状和底部输入框样式），这看起来像是较新款iPhone的iOS系统短信应用。\",\n      \"用户可能刚刚经历了一次不愉快的网购或外卖退款纠纷。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"15:09\",\n      \"49%\",\n      \"832\",\n      \"10685764302203449...\",\n      \"信息 · 短信\",\n      \"今天 14:52\",\n      \"【淘宝闪购】您在「夏威驿西餐厅 (华科店)」下的订单申请取消失败，给您带来不便，敬请谅解！\",\n      \"【淘宝闪购】「夏威驿西餐厅 (华科店)」拒绝了您的退款申请，24小时内在对应订单详情页可申请客服介入。给您带来不便，敬请谅解！\",\n      \"信息 · RCS\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"智能手机短信应用的深色模式截图，显示了包含两段长文本的通知对话气泡，顶部有状态栏，底部有输入框。\",\n    \"safe_facts\": [\n      \"图片展示了移动设备的短信聊天界面。\",\n      \"界面采用深色主题设计。\",\n      \"屏幕上可见两个主要的消息气泡。\",\n      \"顶部状态栏包含时间和电池图标。\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 725,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 725,
+        "total_tokens": 3952,
+        "estimated_cost_cny": 0.012254,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "手机短信通知截图",
+          "short_description": "一张深色模式下的手机短信界面截图，显示来自淘宝闪购的两条通知消息。内容涉及用户在“夏威驿西餐厅”的订单取消失败及退款申请被拒绝，并提示可在24小时内申请客服介入。",
+          "micro_tags": [
+            "短信截图",
+            "淘宝闪购",
+            "退款失败",
+            "订单通知",
+            "深色模式",
+            "iOS界面"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "智能手机短信应用程序界面",
+          "subjects": [
+            "短信对话列表",
+            "系统通知文本",
+            "状态栏信息"
+          ],
+          "actions": [],
+          "attributes": [
+            "深色背景",
+            "白色文字",
+            "气泡式布局",
+            "顶部状态栏显示时间15:09",
+            "电池电量49%"
+          ],
+          "relations": [
+            "两条消息属于同一发送者",
+            "第二条消息是对第一条消息内容的补充说明"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "屏幕顶部显示时间为15:09，电池电量为49%且正在充电。",
+            "界面包含两个深灰色气泡，分别显示关于订单取消失败和退款申请被拒绝的通知文本。",
+            "发送者号码显示为一长串数字，头像为默认灰色人影图标。"
+          ],
+          "cautious_inferences": [
+            "根据界面布局（如顶部的灵动岛形状和底部输入框样式），这看起来像是较新款iPhone的iOS系统短信应用。",
+            "用户可能刚刚经历了一次不愉快的网购或外卖退款纠纷。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "15:09",
+            "49%",
+            "832",
+            "10685764302203449...",
+            "信息 · 短信",
+            "今天 14:52",
+            "【淘宝闪购】您在「夏威驿西餐厅 (华科店)」下的订单申请取消失败，给您带来不便，敬请谅解！",
+            "【淘宝闪购】「夏威驿西餐厅 (华科店)」拒绝了您的退款申请，24小时内在对应订单详情页可申请客服介入。给您带来不便，敬请谅解！",
+            "信息 · RCS"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "智能手机短信应用的深色模式截图，显示了包含两段长文本的通知对话气泡，顶部有状态栏，底部有输入框。",
+          "safe_facts": [
+            "图片展示了移动设备的短信聊天界面。",
+            "界面采用深色主题设计。",
+            "屏幕上可见两个主要的消息气泡。",
+            "顶部状态栏包含时间和电池图标。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 342752,
+        "request_bytes": 253991,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.615944500001206,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "f80030e18ae194e0af8cdc747d9288aa0b04d5d0c983f2bd83205611f4e11303"
+}

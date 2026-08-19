@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2113.jpg",
+    "relative_path": "val/2113.jpg",
+    "sha256": "65a78746429d4c9d79f180250b631c28ba8bad354c8a027833027cbee3251ffa",
+    "split": "val"
+  },
+  "canonical_sha256": "fb497589b32af7aa0468ad08ad8e68e1ca7f401f700f7bf9fe1859325e0ec649",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "共青团百年",
+      "青年运动",
+      "历史经验"
+    ],
+    "short_description": "一张展示共青团成立百年相关讲话内容的宣传板，包含金句、历史经验与青年作用等要点。",
+    "theme": "宣传板"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现的是一个用于展示信息的平面载体。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "室内展示板",
+    "subjects": [
+      "宣传板"
+    ],
+    "visual_medium": "poster_document"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现的是一个用于展示信息的平面载体。",
+    "safe_facts": [
+      "图像呈现的是一个用于展示信息的平面载体。"
+    ]
+  },
+  "label_id": "cpl_0bbbd063f94a46123fdbd162",
+  "provenance": {
+    "generated_at": "2026-08-03T16:00:59.296875+00:00",
+    "migrated_at": "2026-08-03T16:00:59.298416+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bb7c07ed854dcde80255788d6f9864623117dda4909e607a7e9e00b735159e8e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0b942548a2ce2135b450903e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:00:59.298774+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.theme"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0b942548a2ce2135b450903e"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "以《在庆祝中国共产主义青年团成立100周年大会上的讲话》为例看创新创造:",
+      "金句开篇:青春孕育无限希望,青年创造美好明天。一个民族只有寄望青春、永葆青春,才"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "以《在庆祝中国共产主义青年团成立100周年大会上的讲话》为例看创新创造:",
+      "金句开篇:青春孕育无限希望,青年创造美好明天。一个民族只有寄望青春、永葆青春,才"
+    ]
+  }
+}

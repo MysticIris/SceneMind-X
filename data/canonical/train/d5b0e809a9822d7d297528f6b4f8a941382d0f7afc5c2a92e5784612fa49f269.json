@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:586.jpg",
+    "relative_path": "train/586.jpg",
+    "sha256": "d5b0e809a9822d7d297528f6b4f8a941382d0f7afc5c2a92e5784612fa49f269",
+    "split": "train"
+  },
+  "canonical_sha256": "f7ae95530d4914f4cebfb7ef5cea898953df9eb678d8440942cdb003d2897820",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "紫色花朵",
+      "绿色植物",
+      "户外花园"
+    ],
+    "short_description": "俯拍视角下，紫色小花簇拥在绿叶间，前景有脚部和木制栏杆，背景虚化。",
+    "theme": "紫色花丛"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能是在公园或花园拍摄。"
+    ],
+    "direct_observations": [
+      "画面中有成簇的紫色小花。",
+      "地面有木制栏杆和人穿着的鞋子。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "紫色",
+      "细长花茎",
+      "绿色叶片",
+      "木制栏杆",
+      "运动鞋"
+    ],
+    "relations": [
+      "花朵生长于草地上。",
+      "人站在栏杆旁。"
+    ],
+    "scene": "户外草地",
+    "subjects": [
+      "紫色花朵",
+      "绿色植物",
+      "人脚部"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能是在公园或花园拍摄。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有成簇的紫色小花；地面有木制栏杆和人穿着的鞋子。",
+    "safe_facts": [
+      "画面中有成簇的紫色小花。",
+      "地面有木制栏杆和人穿着的鞋子。"
+    ]
+  },
+  "label_id": "cpl_d67c4874bccc80ca8d64251a",
+  "provenance": {
+    "generated_at": "2026-08-03T11:38:42.456863+00:00",
+    "migrated_at": "2026-08-03T11:38:42.458323+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "84c536926c58c5262377a9ae338d9da8a0084d6dfa1dda1867d33eb2dd884ffb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f098fb8ca099a3e8c99b4f8b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:38:42.458521+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f098fb8ca099a3e8c99b4f8b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

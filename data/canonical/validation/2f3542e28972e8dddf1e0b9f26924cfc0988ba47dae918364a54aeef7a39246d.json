@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2338.jpg",
+    "relative_path": "val/2338.jpg",
+    "sha256": "2f3542e28972e8dddf1e0b9f26924cfc0988ba47dae918364a54aeef7a39246d",
+    "split": "val"
+  },
+  "canonical_sha256": "72746e8211c0f1173fcbd916e64dbfb5befb65547175737dd81f25058127380c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "商业街",
+      "行人",
+      "阴天",
+      "店铺"
+    ],
+    "short_description": "阴天下的商业步行街，两侧店铺林立，行人悠闲漫步，路面有红白标线。",
+    "theme": "街景人行道"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天空布满云层，光线均匀。",
+      "街道两侧有商铺，地面铺设有红白标线。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "站立",
+      "浏览"
+    ],
+    "attributes": [
+      "阴天",
+      "红白路标",
+      "多层建筑",
+      "彩色招牌"
+    ],
+    "relations": [
+      "行人位于街道上。",
+      "店铺位于街道两侧。",
+      "道路分隔行人与车辆区域。"
+    ],
+    "scene": "城市商业步行街",
+    "subjects": [
+      "行人",
+      "建筑物",
+      "店铺招牌",
+      "道路"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空布满云层，光线均匀；街道两侧有商铺，地面铺设有红白标线。",
+    "safe_facts": [
+      "天空布满云层，光线均匀。",
+      "街道两侧有商铺，地面铺设有红白标线。"
+    ]
+  },
+  "label_id": "cpl_5f0566296f6f9ddd734c85d5",
+  "provenance": {
+    "generated_at": "2026-08-03T16:31:10.443233+00:00",
+    "migrated_at": "2026-08-03T16:31:10.444704+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1b217762dc91757d4cf86064baec904fa9e84a5fab9f25009e578571d942599e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_df9ee15a7813c2fe8e5a78ac",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:31:10.444907+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_df9ee15a7813c2fe8e5a78ac"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

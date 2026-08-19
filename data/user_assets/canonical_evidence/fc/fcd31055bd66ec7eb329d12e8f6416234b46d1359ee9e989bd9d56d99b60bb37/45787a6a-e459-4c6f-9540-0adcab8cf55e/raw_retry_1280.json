@@ -1,0 +1,127 @@
+{
+  "asset_id": "fcd31055bd66ec7e",
+  "asset_sha256": "fcd31055bd66ec7eb329d12e8f6416234b46d1359ee9e989bd9d56d99b60bb37",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"美发服务团购列表\",\n    \"short_description\": \"这是一张手机应用界面的截图，展示了美发沙龙的团购服务列表。页面包含多个带有模特发型照片的服务卡片，列出了烫染、剪发等项目的名称、折扣价格及购买按钮，底部设有预约功能栏。\",\n    \"micro_tags\": [\n      \"手机截图\",\n      \"美发团购\",\n      \"烫染服务\",\n      \"价格列表\",\n      \"发型展示\",\n      \"APP界面\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端应用程序的用户界面\",\n    \"subjects\": [\n      \"服务列表卡片\",\n      \"发型模特照片\",\n      \"价格标签\",\n      \"导航图标\",\n      \"底部操作栏\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"垂直排列\",\n      \"橙色强调色\",\n      \"图文混排\",\n      \"包含数字与货币符号\"\n    ],\n    \"relations\": [\n      \"左侧为发型缩略图，右侧为服务详情与价格\",\n      \"每个条目右侧均有橙色的圆形购买按钮\",\n      \"顶部有搜索框与分类标签\",\n      \"底部固定有功能导航栏\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕显示垂直滚动的列表，每项包含一张展示女性或男性发型的图片。\",\n      \"每个列表项右侧都有显眼的橙色圆形按钮，内部文字清晰可见。\",\n      \"价格信息以红色大字体显示，旁边伴有灰色的原价划线标注。\",\n      \"界面顶部有搜索栏和‘烫染’、‘洗剪吹’等分类筛选胶囊按钮。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局推测这是一个提供本地生活服务预订的移动应用。\",\n      \"红色的价格数字可能代表当前的优惠促销价。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"男士剪发\",\n      \"团购\",\n      \"烫染\",\n      \"学生专享\",\n      \"抢购\",\n      \"立即预约\",\n      \"神券价\",\n      \"含剪发\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张展示多项美发服务套餐的手机应用截图，界面包含发型示例图、详细的价格信息及醒目的橙色操作按钮。\",\n    \"safe_facts\": [\n      \"界面采用白底黑字为主，辅以橙色作为强调色。\",\n      \"内容以卡片形式垂直排列，每张卡片包含图片和文本描述。\",\n      \"底部有一个深色的长条形按钮横跨屏幕宽度。\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 662,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 662,
+        "total_tokens": 3889,
+        "estimated_cost_cny": 0.01175,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "美发服务团购列表",
+          "short_description": "这是一张手机应用界面的截图，展示了美发沙龙的团购服务列表。页面包含多个带有模特发型照片的服务卡片，列出了烫染、剪发等项目的名称、折扣价格及购买按钮，底部设有预约功能栏。",
+          "micro_tags": [
+            "手机截图",
+            "美发团购",
+            "烫染服务",
+            "价格列表",
+            "发型展示",
+            "APP界面"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "移动端应用程序的用户界面",
+          "subjects": [
+            "服务列表卡片",
+            "发型模特照片",
+            "价格标签",
+            "导航图标",
+            "底部操作栏"
+          ],
+          "actions": [],
+          "attributes": [
+            "垂直排列",
+            "橙色强调色",
+            "图文混排",
+            "包含数字与货币符号"
+          ],
+          "relations": [
+            "左侧为发型缩略图，右侧为服务详情与价格",
+            "每个条目右侧均有橙色的圆形购买按钮",
+            "顶部有搜索框与分类标签",
+            "底部固定有功能导航栏"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "屏幕显示垂直滚动的列表，每项包含一张展示女性或男性发型的图片。",
+            "每个列表项右侧都有显眼的橙色圆形按钮，内部文字清晰可见。",
+            "价格信息以红色大字体显示，旁边伴有灰色的原价划线标注。",
+            "界面顶部有搜索栏和‘烫染’、‘洗剪吹’等分类筛选胶囊按钮。"
+          ],
+          "cautious_inferences": [
+            "根据界面布局推测这是一个提供本地生活服务预订的移动应用。",
+            "红色的价格数字可能代表当前的优惠促销价。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "男士剪发",
+            "团购",
+            "烫染",
+            "学生专享",
+            "抢购",
+            "立即预约",
+            "神券价",
+            "含剪发"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张展示多项美发服务套餐的手机应用截图，界面包含发型示例图、详细的价格信息及醒目的橙色操作按钮。",
+          "safe_facts": [
+            "界面采用白底黑字为主，辅以橙色作为强调色。",
+            "内容以卡片形式垂直排列，每张卡片包含图片和文本描述。",
+            "底部有一个深色的长条形按钮横跨屏幕宽度。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 1694908,
+        "request_bytes": 1268108,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 12.474290899997868,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "e0453abcab9786a386955285aa048109ab4cecf474b9dfe9392920390498b722"
+}

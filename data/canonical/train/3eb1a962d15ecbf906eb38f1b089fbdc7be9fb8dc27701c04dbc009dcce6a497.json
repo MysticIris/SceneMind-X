@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:420.jpg",
+    "relative_path": "train/420.jpg",
+    "sha256": "3eb1a962d15ecbf906eb38f1b089fbdc7be9fb8dc27701c04dbc009dcce6a497",
+    "split": "train"
+  },
+  "canonical_sha256": "5d828fa2838b26f20653c517d5810a8433e00144421d691569d741bb2fe40065",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "儿童",
+      "奖状",
+      "红地毯",
+      "户外活动"
+    ],
+    "short_description": "一群穿着红色外套的小孩站在红地毯上，每人手持一张奖状，背景有装饰物和绿植。",
+    "theme": "儿童颁奖典礼"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多名儿童站在红色地毯上。",
+      "儿童们手中持有橙色边框的奖状。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "手持奖状"
+    ],
+    "attributes": [
+      "穿红色外套",
+      "戴眼镜",
+      "穿黑色裤子"
+    ],
+    "relations": [
+      "儿童们排成一排。",
+      "儿童手持奖状。"
+    ],
+    "scene": "户外活动场地",
+    "subjects": [
+      "多名儿童"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多名儿童站在红色地毯上；儿童们手中持有橙色边框的奖状。",
+    "safe_facts": [
+      "多名儿童站在红色地毯上。",
+      "儿童们手中持有橙色边框的奖状。"
+    ]
+  },
+  "label_id": "cpl_50e3adf6fbf3bf231b5f62d3",
+  "provenance": {
+    "generated_at": "2026-08-03T10:59:40.528788+00:00",
+    "migrated_at": "2026-08-03T10:59:40.530403+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d00ccd88641300287319ac2d3a07d7c5e20e048ccd4b318b13b21945e08f641d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_33aab10ae484231ed3a15cc6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:59:40.530593+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_33aab10ae484231ed3a15cc6"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

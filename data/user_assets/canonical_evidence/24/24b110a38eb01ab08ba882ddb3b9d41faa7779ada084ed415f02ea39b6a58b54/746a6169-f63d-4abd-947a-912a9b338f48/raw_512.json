@@ -1,0 +1,136 @@
+{
+  "asset_id": "24b110a38eb01ab0",
+  "asset_sha256": "24b110a38eb01ab08ba882ddb3b9d41faa7779ada084ed415f02ea39b6a58b54",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"高速公路行车视角\",\n    \"short_description\": \"这是一张从车内向外拍摄的高速公路行车视角的照片。画面展示了多车道沥青路面，前方有多辆汽车正在同向行驶，右侧近处有一辆灰色SUV。道路上方横跨着大型绿色交通指示牌龙门架，指示牌下方悬挂着一条写有祝福语的红色横幅。天空呈现灰白色，能见度一般，远处景物略显朦胧。\",\n    \"micro_tags\": [\n      \"高速公路\",\n      \"行车记录\",\n      \"交通指示牌\",\n      \"多车道\",\n      \"灰色SUV\",\n      \"节日横幅\",\n      \"日间出行\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"高速公路路段\",\n    \"subjects\": [\n      \"行驶中的车辆\",\n      \"交通指示龙门架\",\n      \"沥青路面\",\n      \"路边护栏\"\n    ],\n    \"actions\": [\n      \"车辆行驶\",\n      \"跨越道路\"\n    ],\n    \"attributes\": [\n      \"多车道\",\n      \"灰蒙天气\",\n      \"绿色指示牌\",\n      \"红色横幅\"\n    ],\n    \"relations\": [\n      \"指示牌位于道路上方\",\n      \"车辆分布在不同的车道上\",\n      \"拍摄者位于后方车辆内\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面显示一条宽阔的多车道高速公路，地面有清晰的白色虚线车道分隔线。\",\n      \"道路上方横跨着金属结构的龙门架，上面安装有绿底白字的交通指示牌。\",\n      \"指示牌下方悬挂着一条红底黄字的长条横幅。\",\n      \"右侧车道前方有一辆灰色的SUV，车尾朝向镜头。\",\n      \"远处天空呈灰白色，背景中的树木和设施轮廓较为模糊。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据横幅内容和光线判断，可能是在春节前后或节日期间拍摄。\",\n      \"空气看起来有些雾霾或灰尘，导致远景清晰度下降。\",\n      \"车流密度适中，车辆都在有序行驶。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的地理位置或城市名称。\",\n      \"无法确认拍摄者的具体车型或身份。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"G2512\",\n      \"义县\",\n      \"阜新\",\n      \"锦州湾机场\",\n      \"前方200m\",\n      \"辽宁交投祝八方宾朋新春快乐\",\n      \"出口476\",\n      \"辽G·SE177\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张白天在高速公路上行驶的照片，前方有多辆汽车，头顶有绿色的交通指示牌和红色的宣传横幅，天气看起来有些阴沉或有雾。\",\n    \"safe_facts\": [\n      \"场景为多车道高速公路\",\n      \"可见多辆机动车正在行驶\",\n      \"道路上方设有交通指示设施\",\n      \"悬挂有红色横幅\",\n      \"天气状况为阴天或有霾\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 753,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 753,
+        "total_tokens": 3958,
+        "estimated_cost_cny": 0.012434,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "高速公路行车视角",
+          "short_description": "这是一张从车内向外拍摄的高速公路行车视角的照片。画面展示了多车道沥青路面，前方有多辆汽车正在同向行驶，右侧近处有一辆灰色SUV。道路上方横跨着大型绿色交通指示牌龙门架，指示牌下方悬挂着一条写有祝福语的红色横幅。天空呈现灰白色，能见度一般，远处景物略显朦胧。",
+          "micro_tags": [
+            "高速公路",
+            "行车记录",
+            "交通指示牌",
+            "多车道",
+            "灰色SUV",
+            "节日横幅",
+            "日间出行"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "高速公路路段",
+          "subjects": [
+            "行驶中的车辆",
+            "交通指示龙门架",
+            "沥青路面",
+            "路边护栏"
+          ],
+          "actions": [
+            "车辆行驶",
+            "跨越道路"
+          ],
+          "attributes": [
+            "多车道",
+            "灰蒙天气",
+            "绿色指示牌",
+            "红色横幅"
+          ],
+          "relations": [
+            "指示牌位于道路上方",
+            "车辆分布在不同的车道上",
+            "拍摄者位于后方车辆内"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "画面显示一条宽阔的多车道高速公路，地面有清晰的白色虚线车道分隔线。",
+            "道路上方横跨着金属结构的龙门架，上面安装有绿底白字的交通指示牌。",
+            "指示牌下方悬挂着一条红底黄字的长条横幅。",
+            "右侧车道前方有一辆灰色的SUV，车尾朝向镜头。",
+            "远处天空呈灰白色，背景中的树木和设施轮廓较为模糊。"
+          ],
+          "cautious_inferences": [
+            "根据横幅内容和光线判断，可能是在春节前后或节日期间拍摄。",
+            "空气看起来有些雾霾或灰尘，导致远景清晰度下降。",
+            "车流密度适中，车辆都在有序行驶。"
+          ],
+          "uncertainties": [
+            "无法确定具体的地理位置或城市名称。",
+            "无法确认拍摄者的具体车型或身份。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "G2512",
+            "义县",
+            "阜新",
+            "锦州湾机场",
+            "前方200m",
+            "辽宁交投祝八方宾朋新春快乐",
+            "出口476",
+            "辽G·SE177"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张白天在高速公路上行驶的照片，前方有多辆汽车，头顶有绿色的交通指示牌和红色的宣传横幅，天气看起来有些阴沉或有雾。",
+          "safe_facts": [
+            "场景为多车道高速公路",
+            "可见多辆机动车正在行驶",
+            "道路上方设有交通指示设施",
+            "悬挂有红色横幅",
+            "天气状况为阴天或有霾"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 1331212,
+        "request_bytes": 995337,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.335736000000907,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "ef341e5df3d6280024182d21761f24d934d8b5e52bf0b6752a60e7bf1919ec75"
+}

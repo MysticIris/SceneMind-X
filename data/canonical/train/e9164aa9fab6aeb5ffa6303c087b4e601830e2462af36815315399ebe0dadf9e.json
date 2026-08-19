@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:165.jpg",
+    "relative_path": "train/165.jpg",
+    "sha256": "e9164aa9fab6aeb5ffa6303c087b4e601830e2462af36815315399ebe0dadf9e",
+    "split": "train"
+  },
+  "canonical_sha256": "d1389370891d0ae9a3084f482747520365f751fe993513af1add212d145a85a0",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "滑板公园",
+      "棕榈树",
+      "日落",
+      "混凝土结构"
+    ],
+    "short_description": "夕阳下的海滨滑板公园，棕榈树成排，混凝土坡道蜿蜒，天空渐变橙蓝，几只鸟飞过。",
+    "theme": "海滨滑板公园黄昏"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空颜色从地平线附近的橙色过渡到上方的蓝色，表明是日落时段。"
+    ],
+    "direct_observations": [
+      "画面中可见多个混凝土制成的滑板坡道结构。",
+      "背景中有成排的棕榈树剪影。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "混凝土材质",
+      "黄昏光线",
+      "渐变天空"
+    ],
+    "relations": [
+      "棕榈树位于滑板公园后方。",
+      "飞鸟在天空中飞行。"
+    ],
+    "scene": "海滨滑板公园",
+    "subjects": [
+      "滑板坡道",
+      "棕榈树",
+      "天空",
+      "飞鸟"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空颜色从地平线附近的橙色过渡到上方的蓝色，表明是日落时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见多个混凝土制成的滑板坡道结构；背景中有成排的棕榈树剪影。",
+    "safe_facts": [
+      "画面中可见多个混凝土制成的滑板坡道结构。",
+      "背景中有成排的棕榈树剪影。"
+    ]
+  },
+  "label_id": "cpl_6d01c3c5b923dc3e566dde93",
+  "provenance": {
+    "generated_at": "2026-08-03T10:08:20.239516+00:00",
+    "migrated_at": "2026-08-03T10:08:20.241777+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "65ed2d16a06304f1c564fb5cca70953ac9ddf3c8e5c8a452ee59d46bea826e79",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2aa9c3aa586153303f8eb756",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:08:20.241994+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2aa9c3aa586153303f8eb756"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

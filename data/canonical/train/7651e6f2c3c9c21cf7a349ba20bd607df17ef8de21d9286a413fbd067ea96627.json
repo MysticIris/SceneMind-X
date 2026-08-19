@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1266.jpg",
+    "relative_path": "train/1266.jpg",
+    "sha256": "7651e6f2c3c9c21cf7a349ba20bd607df17ef8de21d9286a413fbd067ea96627",
+    "split": "train"
+  },
+  "canonical_sha256": "94937751de058ef35cfd051f8410e61644af298426534910cd57dbf2301828bc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电影院",
+      "大屏幕",
+      "海边日落"
+    ],
+    "short_description": "电影院内，大屏幕正在播放海边日落的画面，观众席处于黑暗中。",
+    "theme": "电影开场画面"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "银幕上显示海滩日落景象，有一个人影站在水边。",
+      "天花板上有嵌入式照明设备和方形开口。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "昏暗环境",
+      "屏幕显示画面",
+      "窗帘半透明"
+    ],
+    "relations": [
+      "屏幕位于观众席前方。"
+    ],
+    "scene": "电影院放映厅",
+    "subjects": [
+      "大屏幕",
+      "观众席",
+      "窗帘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "银幕上显示海滩日落景象，有一个人影站在水边；天花板上有嵌入式照明设备和方形开口。",
+    "safe_facts": [
+      "银幕上显示海滩日落景象，有一个人影站在水边。",
+      "天花板上有嵌入式照明设备和方形开口。"
+    ]
+  },
+  "label_id": "cpl_bc4d9022c89c1e380cc8cfc6",
+  "provenance": {
+    "generated_at": "2026-08-03T14:00:18.712751+00:00",
+    "migrated_at": "2026-08-03T14:00:18.716272+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ff3f14613ad06087e783eb4d1f4a3e18fde7d236acc53b0f048c94907a64d0d3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_35bbcaff117173bf8ec43e47",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:00:18.716665+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_35bbcaff117173bf8ec43e47"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

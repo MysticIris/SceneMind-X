@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2297.jpg",
+    "relative_path": "val/2297.jpg",
+    "sha256": "8de1c87de6ba2d139aa39abc212b04c0d1a94a41bc0c0c0c0c26be541ecee2f8",
+    "split": "val"
+  },
+  "canonical_sha256": "cc2d68951589d57ff4bb14dde3b8a213d0c4e44f8f89265af354e20b905c47f2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "地铁车厢",
+      "乘客",
+      "低头看手机"
+    ],
+    "short_description": "地铁车厢内，一名戴眼镜男子低头看手机，旁边坐着一位穿红衣的老年女性，前景有人手持手机拍摄。",
+    "theme": "地铁车厢内景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见地铁车厢内部环境，包括座椅、扶手杆和地板。",
+      "一名戴眼镜的男子正低头操作手机，身穿白色外套和黑色裤子。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "看手机",
+      "坐着",
+      "拍摄"
+    ],
+    "attributes": [
+      "戴眼镜",
+      "穿白色外套",
+      "穿黑色裤子",
+      "穿白色运动鞋",
+      "穿红色上衣",
+      "银色扶手杆"
+    ],
+    "relations": [
+      "男子坐在座位上。",
+      "女子坐在男子旁边。",
+      "前景人物在拍摄。"
+    ],
+    "scene": "地铁车厢内部",
+    "subjects": [
+      "戴眼镜的年轻男性",
+      "穿红色上衣的老年女性",
+      "前景中的人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见地铁车厢内部环境，包括座椅、扶手杆和地板；一名戴眼镜的男子正低头操作手机，身穿白色外套和黑色裤子。",
+    "safe_facts": [
+      "画面中可见地铁车厢内部环境，包括座椅、扶手杆和地板。",
+      "一名戴眼镜的男子正低头操作手机，身穿白色外套和黑色裤子。"
+    ]
+  },
+  "label_id": "cpl_d3e2820210fabb48409f75fe",
+  "provenance": {
+    "generated_at": "2026-08-03T16:23:54.831353+00:00",
+    "migrated_at": "2026-08-03T16:23:54.833636+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f9c94b951f069be1930fff074f26b3d0f3d9e5d18e485b4bc6face742dba524d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_55beac05eb6d9fec236b7188",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:23:54.833872+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_55beac05eb6d9fec236b7188"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

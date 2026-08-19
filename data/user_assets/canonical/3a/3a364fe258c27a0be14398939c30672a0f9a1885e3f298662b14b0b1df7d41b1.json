@@ -1,0 +1,150 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_e6a68973fc505dbc0febfc23",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_7f2dae77575063bfe3ba0969"
+  ],
+  "asset": {
+    "asset_id": "3a364fe258c27a0b",
+    "sha256": "3a364fe258c27a0be14398939c30672a0f9a1885e3f298662b14b0b1df7d41b1",
+    "split": "user_custom",
+    "relative_path": "user_assets/3a/3a364fe258c27a0be14398939c30672a0f9a1885e3f298662b14b0b1df7d41b1/3a364fe258c27a0be14398939c30672a0f9a1885e3f298662b14b0b1df7d41b1.jpg"
+  },
+  "display": {
+    "theme": "雨夜城市街道",
+    "short_description": "这是一张夜间城市街道的摄影照片。路面潮湿反光，空气中弥漫着雾气，路灯在雾中形成光晕。画面左侧人行道上密集停放着大量电动车，远处有车辆行驶，红色尾灯在湿滑路面上投下倒影。",
+    "micro_tags": [
+      "雨夜",
+      "街道",
+      "电动车",
+      "路灯",
+      "雾气",
+      "湿滑路面",
+      "夜景"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "夜间城市道路及人行道",
+    "subjects": [
+      "停放的电动车",
+      "路灯",
+      "行驶的车辆",
+      "行人",
+      "建筑物",
+      "树木"
+    ],
+    "actions": [
+      "车辆行驶",
+      "灯光照射",
+      "路面反光"
+    ],
+    "attributes": [
+      "潮湿",
+      "有雾",
+      "夜间",
+      "人工照明"
+    ],
+    "relations": [
+      "电动车排列在人行道边缘。",
+      "路灯沿道路延伸。",
+      "车灯倒影映在路面上。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "沥青路面呈现明显的湿润状态，反射着红色的车尾灯光和黄色的路灯光芒。",
+      "画面左侧前景区域停放着数十辆电动两轮车，排列较为紧凑。",
+      "远处的光源周围有明显的光晕扩散现象，表明空气中有雾气或水汽。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法辨认远处行人的具体身份或动作细节。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "24(h)报警",
+      "求助电话",
+      "87541110",
+      "87543564",
+      "派出所"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "24(h)报警",
+      "求助电话",
+      "87541110",
+      "87543564",
+      "派出所"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "沥青路面呈现明显的湿润状态，反射着红色的车尾灯光和黄色的路灯光芒；画面左侧前景区域停放着数十辆电动两轮车，排列较为紧凑。",
+    "safe_facts": [
+      "沥青路面呈现明显的湿润状态，反射着红色的车尾灯光和黄色的路灯光芒。",
+      "画面左侧前景区域停放着数十辆电动两轮车，排列较为紧凑。",
+      "远处的光源周围有明显的光晕扩散现象，表明空气中有雾气或水汽。"
+    ],
+    "do_not_assert": [
+      "无法辨认远处行人的具体身份或动作细节。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_ea16e827-c4f3-4544-ab4a-3ec52e678a1e",
+    "generated_at": "2026-08-12T02:58:00.844051+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "58f67e702573aa88d052b373a1a337fc673fe2a038ab0663c6fe93b48ac6de87",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T02:58:00.845146+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_7f2dae77575063bfe3ba0969",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T02:58:00.845532+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "db92f7b70b610ca3d11b44c882b2af9edda3ed0e4edc0c11f9d7f30be75db2f6"
+}

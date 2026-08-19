@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1612.jpg",
+    "relative_path": "train/1612.jpg",
+    "sha256": "b89a59b0f688a28227b2c4e149229fbf4074c502353b060413a12bdba8252764",
+    "split": "train"
+  },
+  "canonical_sha256": "378dd385b69a615b66aa1c27a0f5112170386269cef1c188432b5febe0a30079",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "山顶",
+      "红旗",
+      "人群",
+      "观景台"
+    ],
+    "short_description": "山顶观景台上人群聚集，两面红旗迎风飘扬，远处群山层叠，天空云雾缭绕。",
+    "theme": "山巅观景人群"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "人群可能在欣赏风景或拍照。"
+    ],
+    "direct_observations": [
+      "画面中有两面红色旗帜在风中飘扬。",
+      "观景台上聚集了大量人群。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "观看",
+      "挥舞(旗帜)"
+    ],
+    "attributes": [
+      "红色旗帜",
+      "绿色松树",
+      "多云天空",
+      "金属围栏"
+    ],
+    "relations": [
+      "人群位于观景台。",
+      "旗帜立于观景台。",
+      "松树位于前景。",
+      "远山位于背景。"
+    ],
+    "scene": "山顶观景平台",
+    "subjects": [
+      "人群",
+      "旗帜",
+      "松树",
+      "远山"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "人群可能在欣赏风景或拍照。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两面红色旗帜在风中飘扬；观景台上聚集了大量人群。",
+    "safe_facts": [
+      "画面中有两面红色旗帜在风中飘扬。",
+      "观景台上聚集了大量人群。"
+    ]
+  },
+  "label_id": "cpl_3e589d67c95175ff30001d9f",
+  "provenance": {
+    "generated_at": "2026-08-03T14:44:00.811671+00:00",
+    "migrated_at": "2026-08-03T14:44:00.820523+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e6bfaaa91f3e6d30997ce6f1dd1b52f0e7dcaf1b854cef7bdc22c2c7205a9acc",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_823e09e5d2fad2335a9ac26c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:44:00.820906+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_823e09e5d2fad2335a9ac26c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

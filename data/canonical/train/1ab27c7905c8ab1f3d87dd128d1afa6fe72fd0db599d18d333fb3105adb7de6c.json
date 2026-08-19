@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:454.jpg",
+    "relative_path": "train/454.jpg",
+    "sha256": "1ab27c7905c8ab1f3d87dd128d1afa6fe72fd0db599d18d333fb3105adb7de6c",
+    "split": "train"
+  },
+  "canonical_sha256": "1fa29230ce7b7e5a95593e29e48712485aeed12f3a498ea3c04d3e3c1ff0c834",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "小笼包",
+      "蒸笼",
+      "中式点心"
+    ],
+    "short_description": "竹制蒸笼内盛放六个白色小笼包，顶部有黄色馅料，置于餐桌上。",
+    "theme": "蒸笼小笼包"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "六个小笼包呈圆形排列在蒸笼中。",
+      "每个小笼包顶部有黄色馅料露出。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色面皮",
+      "黄色馅料",
+      "竹制蒸笼",
+      "纸质衬垫"
+    ],
+    "relations": [
+      "小笼包位于蒸笼内。"
+    ],
+    "scene": "餐桌上的蒸笼",
+    "subjects": [
+      "小笼包",
+      "蒸笼"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "六个小笼包呈圆形排列在蒸笼中；每个小笼包顶部有黄色馅料露出。",
+    "safe_facts": [
+      "六个小笼包呈圆形排列在蒸笼中。",
+      "每个小笼包顶部有黄色馅料露出。"
+    ]
+  },
+  "label_id": "cpl_62fbd7f43b5984eead7dc2ae",
+  "provenance": {
+    "generated_at": "2026-08-03T11:06:45.292578+00:00",
+    "migrated_at": "2026-08-03T11:06:45.294338+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "35dea1dd554c259a526b3ae1b6010d5ad5f6e5013dff80128c415c7616e2892e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fec30ac4a4787ef6373a6024",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:06:45.294533+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fec30ac4a4787ef6373a6024"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "asset_id": "5842fad05168dcc0",
+  "asset_sha256": "5842fad05168dcc08f69d3b74497555f1700789d38e445ea460cc5bf0651b0d4",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"电子电路原理图\",\n    \"short_description\": \"这是一张电子工程设计软件生成的电路原理图截图。图中展示了两个主要芯片元件及其引脚连接，包含地址线、数据线和控制信号的走线网络。底部标题栏显示项目名称为“电子技术课设原理图”，并标注了日期和版本号。\",\n    \"micro_tags\": [\n      \"电路原理图\",\n      \"EDA设计\",\n      \"FPGA\",\n      \"FSMC接口\",\n      \"电子工程\",\n      \"课程设计\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"电子设计自动化软件界面\",\n    \"subjects\": [\n      \"电路原理图\",\n      \"芯片符号\",\n      \"电气连接线\",\n      \"标题栏信息\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白底网格背景\",\n      \"红色边框\",\n      \"蓝色网络标签\",\n      \"黑色元件符号\",\n      \"A4图纸尺寸\"\n    ],\n    \"relations\": [\n      \"左侧芯片通过总线与右侧芯片相连\",\n      \"元件引脚连接到标有FPGA或FSMC前缀的网络标签\",\n      \"标题栏位于图纸右下角区域\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图像显示了两列主要的矩形元件符号，分别标记为U16和U15，周围环绕着密集的引脚连线。\",\n      \"图纸右下角有一个标准的工程标题栏，包含‘原理图’、‘电子技术课设原理图’、‘嘉立创EDA’等文字及表格线。\",\n      \"连接线旁标注有大量以‘FPGA_’和‘FSMC_’开头的蓝色文本标签，如FPGA_A0、FSMC_D0等。\",\n      \"背景铺设有浅灰色的正方形网格，用于辅助对齐元件。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据‘FPGA’和‘FSMC’标签推测，该电路可能涉及现场可编程门阵列与存储控制器接口的连接设计。\",\n      \"‘电子技术课设’字样表明这可能是一份学生课程设计的作业或项目文档。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"U16\",\n      \"U15\",\n      \"FPGA_A0\",\n      \"FSMC_D0\",\n      \"IS61WV102416BLL\",\n      \"XC7A35T-1FTG256C\",\n      \"电子技术课设原理图\",\n      \"嘉立创EDA\",\n      \"2024-12-27\",\n      \"V1.0\",\n      \"A4\",\n      \"页 3 共 6\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张带有网格背景的电子电路原理图，包含两个主要芯片组件和复杂的连线网络，右下角附有包含项目信息的标准工程标题栏。\",\n    \"safe_facts\": [\n      \"图像为数字化的工程技术图纸\",\n      \"包含矩形元件符号和表示电气连接的线条\",\n      \"画面中有大量细小的文本标注分布在连线旁\",\n      \"右下角有结构化的表格区域用于填写元数据\"\n    ]\n  }\n}",
+      "input_tokens": 2763,
+      "output_tokens": 792,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 2763,
+        "output_tokens": 792,
+        "total_tokens": 3555,
+        "estimated_cost_cny": 0.011862,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "电子电路原理图",
+          "short_description": "这是一张电子工程设计软件生成的电路原理图截图。图中展示了两个主要芯片元件及其引脚连接，包含地址线、数据线和控制信号的走线网络。底部标题栏显示项目名称为“电子技术课设原理图”，并标注了日期和版本号。",
+          "micro_tags": [
+            "电路原理图",
+            "EDA设计",
+            "FPGA",
+            "FSMC接口",
+            "电子工程",
+            "课程设计"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "电子设计自动化软件界面",
+          "subjects": [
+            "电路原理图",
+            "芯片符号",
+            "电气连接线",
+            "标题栏信息"
+          ],
+          "actions": [],
+          "attributes": [
+            "白底网格背景",
+            "红色边框",
+            "蓝色网络标签",
+            "黑色元件符号",
+            "A4图纸尺寸"
+          ],
+          "relations": [
+            "左侧芯片通过总线与右侧芯片相连",
+            "元件引脚连接到标有FPGA或FSMC前缀的网络标签",
+            "标题栏位于图纸右下角区域"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图像显示了两列主要的矩形元件符号，分别标记为U16和U15，周围环绕着密集的引脚连线。",
+            "图纸右下角有一个标准的工程标题栏，包含‘原理图’、‘电子技术课设原理图’、‘嘉立创EDA’等文字及表格线。",
+            "连接线旁标注有大量以‘FPGA_’和‘FSMC_’开头的蓝色文本标签，如FPGA_A0、FSMC_D0等。",
+            "背景铺设有浅灰色的正方形网格，用于辅助对齐元件。"
+          ],
+          "cautious_inferences": [
+            "根据‘FPGA’和‘FSMC’标签推测，该电路可能涉及现场可编程门阵列与存储控制器接口的连接设计。",
+            "‘电子技术课设’字样表明这可能是一份学生课程设计的作业或项目文档。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "U16",
+            "U15",
+            "FPGA_A0",
+            "FSMC_D0",
+            "IS61WV102416BLL",
+            "XC7A35T-1FTG256C",
+            "电子技术课设原理图",
+            "嘉立创EDA",
+            "2024-12-27",
+            "V1.0",
+            "A4",
+            "页 3 共 6"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张带有网格背景的电子电路原理图，包含两个主要芯片组件和复杂的连线网络，右下角附有包含项目信息的标准工程标题栏。",
+          "safe_facts": [
+            "图像为数字化的工程技术图纸",
+            "包含矩形元件符号和表示电气连接的线条",
+            "画面中有大量细小的文本标注分布在连线旁",
+            "右下角有结构化的表格区域用于填写元数据"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 720548,
+        "request_bytes": 537337,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.795839200000046,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "00b28aa6f389b513c7e8dadef330eb79ed1ac4e719fb8544c7abc2e7ca3c8ef1"
+}

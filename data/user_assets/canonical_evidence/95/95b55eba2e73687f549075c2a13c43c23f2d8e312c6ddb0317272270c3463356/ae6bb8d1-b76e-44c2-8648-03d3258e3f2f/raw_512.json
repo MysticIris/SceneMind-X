@@ -1,0 +1,127 @@
+{
+  "asset_id": "95b55eba2e73687f",
+  "asset_sha256": "95b55eba2e73687f549075c2a13c43c23f2d8e312c6ddb0317272270c3463356",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"手机锁屏界面与系统警告\",\n    \"short_description\": \"这是一张智能手机锁屏界面的截图。壁纸为水墨风格插画，描绘了夜色山峦间漂浮的粉色灯笼及水中伫立的人影。屏幕下方叠加了黄色的“检测到液体”系统警告弹窗，提示无法充电，底部还有社交应用的消息通知横幅。\",\n    \"micro_tags\": [\n      \"手机截图\",\n      \"系统警告\",\n      \"液体检测\",\n      \"水墨风壁纸\",\n      \"孔明灯\",\n      \"锁屏界面\",\n      \"消息通知\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"智能手机操作系统锁屏界面\",\n    \"subjects\": [\n      \"系统警告弹窗\",\n      \"背景壁纸插画\",\n      \"消息通知横幅\",\n      \"状态栏信息\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"黄色三角形警告图标\",\n      \"粉色发光灯笼\",\n      \"深色山水背景\",\n      \"白色数字时间显示\",\n      \"半透明通知卡片\"\n    ],\n    \"relations\": [\n      \"警告弹窗覆盖在壁纸下半部分\",\n      \"通知横幅位于警告弹窗下方\",\n      \"时间和日期位于屏幕上方中央\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕中央显示巨大的白色数字时间'17:42'及日期信息。\",\n      \"屏幕下方有一个带有黄色水滴三角形图标的弹窗，标题为'检测到液体'。\",\n      \"背景是一幅竖构图插画，画面中有黑色山崖剪影、水面倒影以及许多升空的粉色灯笼。\",\n      \"底部有两个圆形的快捷功能图标（手电筒和相机）。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据'检测到液体'的提示，推测用户可能刚将手机接触过水或处于潮湿环境。\",\n      \"壁纸风格看起来具有东方奇幻或古风色彩。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"中国电信\",\n      \"7月3日周四 · 乙巳年六月初九\",\n      \"17:42\",\n      \"检测到液体\",\n      \"无法充电，因为闪电接口检测到液体。请断开连接以晾干接口。\",\n      \"同事 对我什么意思[疑惑]\",\n      \"Souler 您有一条消息\",\n      \"4分钟前\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张手机锁屏截图，背景为夜色中漂浮着粉色灯笼的山水插画。屏幕下方显示一个关于接口检测到液体的黄色系统警告，以及两条应用程序的通知消息。\",\n    \"safe_facts\": [\n      \"图像包含大面积的深色背景插画，其中有发光的粉色物体漂浮在空中。\",\n      \"界面上有明显的黄色警告标志和多行文本提示。\",\n      \"屏幕顶部显示有信号强度、电池电量和时间信息。\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 723,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 723,
+        "total_tokens": 3950,
+        "estimated_cost_cny": 0.012238,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "手机锁屏界面与系统警告",
+          "short_description": "这是一张智能手机锁屏界面的截图。壁纸为水墨风格插画，描绘了夜色山峦间漂浮的粉色灯笼及水中伫立的人影。屏幕下方叠加了黄色的“检测到液体”系统警告弹窗，提示无法充电，底部还有社交应用的消息通知横幅。",
+          "micro_tags": [
+            "手机截图",
+            "系统警告",
+            "液体检测",
+            "水墨风壁纸",
+            "孔明灯",
+            "锁屏界面",
+            "消息通知"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "智能手机操作系统锁屏界面",
+          "subjects": [
+            "系统警告弹窗",
+            "背景壁纸插画",
+            "消息通知横幅",
+            "状态栏信息"
+          ],
+          "actions": [],
+          "attributes": [
+            "黄色三角形警告图标",
+            "粉色发光灯笼",
+            "深色山水背景",
+            "白色数字时间显示",
+            "半透明通知卡片"
+          ],
+          "relations": [
+            "警告弹窗覆盖在壁纸下半部分",
+            "通知横幅位于警告弹窗下方",
+            "时间和日期位于屏幕上方中央"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "屏幕中央显示巨大的白色数字时间'17:42'及日期信息。",
+            "屏幕下方有一个带有黄色水滴三角形图标的弹窗，标题为'检测到液体'。",
+            "背景是一幅竖构图插画，画面中有黑色山崖剪影、水面倒影以及许多升空的粉色灯笼。",
+            "底部有两个圆形的快捷功能图标（手电筒和相机）。"
+          ],
+          "cautious_inferences": [
+            "根据'检测到液体'的提示，推测用户可能刚将手机接触过水或处于潮湿环境。",
+            "壁纸风格看起来具有东方奇幻或古风色彩。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "中国电信",
+            "7月3日周四 · 乙巳年六月初九",
+            "17:42",
+            "检测到液体",
+            "无法充电，因为闪电接口检测到液体。请断开连接以晾干接口。",
+            "同事 对我什么意思[疑惑]",
+            "Souler 您有一条消息",
+            "4分钟前"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张手机锁屏截图，背景为夜色中漂浮着粉色灯笼的山水插画。屏幕下方显示一个关于接口检测到液体的黄色系统警告，以及两条应用程序的通知消息。",
+          "safe_facts": [
+            "图像包含大面积的深色背景插画，其中有发光的粉色物体漂浮在空中。",
+            "界面上有明显的黄色警告标志和多行文本提示。",
+            "屏幕顶部显示有信号强度、电池电量和时间信息。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": true,
+        "profiles": [
+          "oversized_image_downscale_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 1092832,
+        "request_bytes": 816550,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.165258599998197,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "5f84221e050a13f43bd3f3322f3919b5f1f1f1907f58a1ae400bab2e2e570063"
+}

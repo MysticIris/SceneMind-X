@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2221.jpg",
+    "relative_path": "val/2221.jpg",
+    "sha256": "95df497bf214aa63c4754411a9d0770712eea8300880e91eefbdf6197df2a88e",
+    "split": "val"
+  },
+  "canonical_sha256": "1fbbd4d87a362569cb1a293ba954fee545a311cb6484b3581b06deb4612ccdd5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "科学写作",
+      "正式英语",
+      "学术规范"
+    ],
+    "short_description": "一张演示文稿幻灯片，讲解科学写作中应避免模糊、夸张和绝对化表达的规则。",
+    "theme": "科学正式英语规范"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现的是一个电子屏幕上的演示文稿页面。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色背景区域含多行英文及中文注释"
+    ],
+    "relations": [],
+    "scene": "电脑屏幕显示的演示文稿页面",
+    "subjects": [
+      "幻灯片标题"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现的是一个电子屏幕上的演示文稿页面。",
+    "safe_facts": [
+      "图像呈现的是一个电子屏幕上的演示文稿页面。"
+    ]
+  },
+  "label_id": "cpl_42eb27dd8699c73f8ae5d7a7",
+  "provenance": {
+    "generated_at": "2026-08-03T16:14:29.082519+00:00",
+    "migrated_at": "2026-08-03T16:14:29.084439+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "16ed012267f1c239ca6b32979c9091bb35a7b5437e762422ade4a7f88cdbf734",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_70dd2af1508c6b9af97d428b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:14:29.085451+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_70dd2af1508c6b9af97d428b"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "3.1.2 Formal English, the language of sc",
+      "Avoid vagueness(模糊), sensationalism(哗众取宠",
+      "Eliminate words such as “a lot”, “a bit”",
+      "Avoiding adjectives such as “amazing, in",
+      "No absolute statements (e.g., “This hypo"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "3.1.2 Formal English, the language of sc",
+      "Avoid vagueness(模糊), sensationalism(哗众取宠",
+      "Eliminate words such as “a lot”, “a bit”",
+      "Avoiding adjectives such as “amazing, in",
+      "No absolute statements (e.g., “This hypo"
+    ]
+  }
+}

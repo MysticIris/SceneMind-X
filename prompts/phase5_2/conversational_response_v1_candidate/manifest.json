@@ -1,0 +1,65 @@
+{
+  "candidate_id": "SCENEMINDX_CONVERSATION_POLICY_V1_CANDIDATE",
+  "chat_candidate_id": "SCENEMINDX_MULTITURN_CHAT_V3_CANDIDATE",
+  "compare_rank_candidate_id": "SCENEMINDX_COMPARE_RANK_V2_CANDIDATE",
+  "phase": "PHASE 5.2-C CONVERSATIONAL RESPONSE POLICY AND TASK-PRESERVING FALLBACK",
+  "status": "production_accepted",
+  "iteration": 2,
+  "model": "Qwen/Qwen3-VL-4B-Instruct",
+  "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+  "files": {
+    "conversation_policy": {
+      "file": "prompts/phase5_2/conversational_response_v1_candidate/conversation_policy_v1.txt",
+      "raw_sha256": "0a5f0bb75b3d72a811d73bad63c0f9eb5e8330f2fb1e045cfa5a85381a07fc31"
+    },
+    "multiturn_chat": {
+      "prompt_id": "phase5_2c_multiturn_chat_v3",
+      "file": "prompts/phase5_2/conversational_response_v1_candidate/multiturn_chat_v3.txt",
+      "raw_sha256": "2ee0c70c0fe2a77388eb50dc4e372789854a0824852bcfb59aa467859b42443d"
+    },
+    "compare_rank": {
+      "prompt_id": "phase5_2c_compare_rank_v2",
+      "file": "prompts/phase5_2/conversational_response_v1_candidate/compare_rank_v2.txt",
+      "raw_sha256": "1f31c42ab2efcdec40c275609b5b276c52266b2fd9625e2f7503e02ac904918d"
+    },
+    "contract_repair": {
+      "prompt_id": "phase5_2c_contract_repair_v1",
+      "file": "prompts/phase5_2/conversational_response_v1_candidate/contract_repair_v1.txt",
+      "raw_sha256": "8e4de495e8e3d2e6c130f766cc6686333296229baaf483f31b176a0ccf24693d"
+    },
+    "task_retry": {
+      "prompt_id": "phase5_2c_task_retry_v1",
+      "file": "prompts/phase5_2/conversational_response_v1_candidate/task_retry_v1.txt",
+      "raw_sha256": "1210b6c361f294ad0e7fc2a9ce61c8745a806dc48db480b3f1dab775e1f56de4"
+    },
+    "examples": {
+      "file": "prompts/phase5_2/conversational_response_v1_candidate/examples_v1.md",
+      "raw_sha256": "50a7f13aa9ba763a9eaa78a6a9111c6bc5c3e6111174b259920032523e006e10"
+    }
+  },
+  "generation": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "repetition_penalty": 1.05,
+    "no_repeat_ngram_size": {
+      "chat": 0,
+      "compare_rank": 6,
+      "text_repair": 0,
+      "chat_retry": 0,
+      "rank_retry": 6
+    },
+    "thinking_mode_change": false,
+    "chat_max_new_tokens": 512,
+    "compare_rank_max_new_tokens": 512,
+    "repair_max_new_tokens": 384,
+    "retry_max_new_tokens": 512
+  },
+  "data_boundary": {
+    "development": "frozen Train-only 27-scenario product regression set",
+    "blind": "none",
+    "val_test_blind_read": false,
+    "training": false
+  }
+}

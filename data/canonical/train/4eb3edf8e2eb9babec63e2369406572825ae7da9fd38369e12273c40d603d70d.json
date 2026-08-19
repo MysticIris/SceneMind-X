@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:127.jpg",
+    "relative_path": "train/127.jpg",
+    "sha256": "4eb3edf8e2eb9babec63e2369406572825ae7da9fd38369e12273c40d603d70d",
+    "split": "train"
+  },
+  "canonical_sha256": "552a3d1cd3cbee05a10aa7a083b994c7e7f8386f1a42ba711a17e617f6c60145",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑白肖像",
+      "装裱相框",
+      "展览墙"
+    ],
+    "short_description": "一幅装裱好的黑白椭圆形人物肖像，下方配有说明牌，置于展厅墙壁上。",
+    "theme": "历史人物肖像展陈"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像为黑白照片，呈椭圆形裁剪。",
+      "相框为木质材质，边缘有装饰性纹路。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑白照片",
+      "椭圆形构图",
+      "木质相框",
+      "悬挂于墙面"
+    ],
+    "relations": [
+      "相框内含人物肖像。",
+      "相框下方有说明牌。"
+    ],
+    "scene": "室内展览环境",
+    "subjects": [
+      "一位留长须的男性人物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像为黑白照片，呈椭圆形裁剪；相框为木质材质，边缘有装饰性纹路。",
+    "safe_facts": [
+      "图像为黑白照片，呈椭圆形裁剪。",
+      "相框为木质材质，边缘有装饰性纹路。"
+    ]
+  },
+  "label_id": "cpl_aad00f60925a5fc5f0900e6a",
+  "provenance": {
+    "generated_at": "2026-08-03T09:33:33.652073+00:00",
+    "migrated_at": "2026-08-03T09:33:33.654414+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5dfd8437e2276d8ef517d26fc2a2ee7cb8b701c13a67e9aa195a6ba1476e805c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_720cce0c93ed6dc67b3b614d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:30.848031+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_720cce0c93ed6dc67b3b614d",
+    "cpl_c7eab4550cc55526b87dbe87"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

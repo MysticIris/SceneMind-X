@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1961.jpg",
+    "relative_path": "train/1961.jpg",
+    "sha256": "7ad6976c1b03ede41af6acd7dc1e9604f92ee561498dff48cc0f810c3c296701",
+    "split": "train"
+  },
+  "canonical_sha256": "609a83d5ea13ab12c0e64cb7e1135d7880a76ed2b28914b74f16c1c55c1ac0b0",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "讲座",
+      "演示文稿",
+      "学术报告"
+    ],
+    "short_description": "室内讲座现场，观众正观看大屏幕上的演示文稿。",
+    "theme": "学术讲座现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面前景有一位戴帽子的观众背影。",
+      "背景大屏幕上显示蓝色标题栏及白色内容区域。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天花板装有照明设备"
+    ],
+    "relations": [
+      "观众位于屏幕前方。"
+    ],
+    "scene": "室内讲座厅",
+    "subjects": [
+      "观众",
+      "投影屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景有一位戴帽子的观众背影；背景大屏幕上显示蓝色标题栏及白色内容区域。",
+    "safe_facts": [
+      "画面前景有一位戴帽子的观众背影。",
+      "背景大屏幕上显示蓝色标题栏及白色内容区域。"
+    ]
+  },
+  "label_id": "cpl_ea2ea6ad65ddc8c01d238f53",
+  "provenance": {
+    "generated_at": "2026-08-03T15:27:05.116776+00:00",
+    "migrated_at": "2026-08-03T15:27:05.118792+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "99ba2d6e63cbcda7c189fe33eaf59bad6a870b4bfff491da13822441e5a35957",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9a6bc66b8accccbc0de75771",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:27:05.119305+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9a6bc66b8accccbc0de75771"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "多模态机器学习初探",
+      "胡清华",
+      "天津大学",
+      "huqinghua@tju.edu.cn",
+      "2023.11.26"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "多模态机器学习初探",
+      "胡清华",
+      "天津大学",
+      "huqinghua@tju.edu.cn",
+      "2023.11.26"
+    ]
+  }
+}

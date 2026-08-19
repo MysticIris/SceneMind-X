@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:280.jpg",
+    "relative_path": "train/280.jpg",
+    "sha256": "ec44b118d22df0561166dddc4f200dfc5c955555bc74f434d88fe97abddc66c4",
+    "split": "train"
+  },
+  "canonical_sha256": "77d15035a7aface575df6ad8c5b7254b8444c567a160de151b72718001839fa5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "南瓜灯",
+      "万圣节装饰",
+      "发光",
+      "鬼形"
+    ],
+    "short_description": "多个发光南瓜灯和鬼形装饰摆放在户外，营造节日氛围。",
+    "theme": "万圣节装饰"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多个南瓜灯和鬼形装饰呈发光状态。",
+      "背景中有绿色仙人掌植物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "发光",
+      "彩色",
+      "卡通风格"
+    ],
+    "relations": [
+      "南瓜灯与鬼形装饰相邻摆放。"
+    ],
+    "scene": "户外地面",
+    "subjects": [
+      "南瓜灯",
+      "鬼形装饰",
+      "仙人掌"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多个南瓜灯和鬼形装饰呈发光状态；背景中有绿色仙人掌植物。",
+    "safe_facts": [
+      "多个南瓜灯和鬼形装饰呈发光状态。",
+      "背景中有绿色仙人掌植物。"
+    ]
+  },
+  "label_id": "cpl_592375fbfa2f5c0309f250b1",
+  "provenance": {
+    "generated_at": "2026-08-03T10:31:03.493744+00:00",
+    "migrated_at": "2026-08-03T10:31:03.495666+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6e0d223ac2d7acaafe8d8c9865d418bc2d54e108ee533198605efb2d1d64222f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7bd7519ebbbfba03ea649b38",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:31:03.496033+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7bd7519ebbbfba03ea649b38"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

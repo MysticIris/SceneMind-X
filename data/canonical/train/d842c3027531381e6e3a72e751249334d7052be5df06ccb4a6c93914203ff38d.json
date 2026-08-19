@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:235.jpg",
+    "relative_path": "train/235.jpg",
+    "sha256": "d842c3027531381e6e3a72e751249334d7052be5df06ccb4a6c93914203ff38d",
+    "split": "train"
+  },
+  "canonical_sha256": "ef31bfcc0cd6059de8a3a4cfe3ca7c755b8efef76087c87535ccecc1017e41df",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄昏",
+      "电线杆",
+      "天空",
+      "剪影"
+    ],
+    "short_description": "夕阳西下，橙黄色天空下电线杆与电线构成剪影，远处有建筑轮廓，前景是茂密植被。",
+    "theme": "黄昏电线杆剪影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "太阳正沉入地平线，处于日落阶段。"
+    ],
+    "direct_observations": [
+      "天空呈现从橙黄到淡灰的渐变色。",
+      "多根电线横跨画面，连接多个电线杆。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空呈橙黄色",
+      "电线杆为黑色剪影",
+      "植被茂密"
+    ],
+    "relations": [
+      "电线连接电线杆。",
+      "太阳位于地平线附近。",
+      "建筑物在树后。"
+    ],
+    "scene": "户外乡村或郊区黄昏景象",
+    "subjects": [
+      "电线杆",
+      "电线",
+      "太阳",
+      "树木",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "太阳正沉入地平线，处于日落阶段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现从橙黄到淡灰的渐变色；多根电线横跨画面，连接多个电线杆。",
+    "safe_facts": [
+      "天空呈现从橙黄到淡灰的渐变色。",
+      "多根电线横跨画面，连接多个电线杆。"
+    ]
+  },
+  "label_id": "cpl_2ee9a0b43b16a13ac43d4c52",
+  "provenance": {
+    "generated_at": "2026-08-03T10:21:58.972392+00:00",
+    "migrated_at": "2026-08-03T10:21:58.974113+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7e8626e3ebdbe14594d60779b431e908e631b7f4aa761f79728a524e78b559bd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_140f293608ee90a509be47a5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:21:58.974327+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_140f293608ee90a509be47a5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

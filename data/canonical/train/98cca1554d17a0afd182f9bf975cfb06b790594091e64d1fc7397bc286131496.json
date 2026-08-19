@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:100.jpg",
+    "relative_path": "train/100.jpg",
+    "sha256": "98cca1554d17a0afd182f9bf975cfb06b790594091e64d1fc7397bc286131496",
+    "split": "train"
+  },
+  "canonical_sha256": "255740914dff8718f32cb7905c4a7816876ab9db5b3c9434d240fbf0e12f645e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "彩色岩层",
+      "层状地貌",
+      "荒漠景观"
+    ],
+    "short_description": "层层叠叠的彩色岩层在阳光下呈现出黄、红、棕等丰富色调，背景是连绵起伏的山峦。",
+    "theme": "彩色岩层地貌"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "岩层可能是沉积岩，因风化作用形成波浪状轮廓。"
+    ],
+    "direct_observations": [
+      "岩层呈现黄色、红色和棕色的水平条纹。",
+      "远处山脉覆盖植被，天空呈浅蓝色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "色彩丰富",
+      "层状结构",
+      "干燥环境"
+    ],
+    "relations": [
+      "岩层位于前景，山脉位于背景。"
+    ],
+    "scene": "干旱地区地貌",
+    "subjects": [
+      "岩层",
+      "山脉"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "岩层可能是沉积岩，因风化作用形成波浪状轮廓。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "岩层呈现黄色、红色和棕色的水平条纹；远处山脉覆盖植被，天空呈浅蓝色。",
+    "safe_facts": [
+      "岩层呈现黄色、红色和棕色的水平条纹。",
+      "远处山脉覆盖植被，天空呈浅蓝色。"
+    ]
+  },
+  "label_id": "cpl_f72a0f6ee4ec15689b3e5de0",
+  "provenance": {
+    "generated_at": "2026-08-03T09:25:26.336048+00:00",
+    "migrated_at": "2026-08-03T09:25:26.337840+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "961e341e9e37e5fa9bd13a80aa014d57d9d2a6749b28fdac0eca2261e6582d37",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2f465132005b4986ea15d189",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:29.424853+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2f465132005b4986ea15d189",
+    "cpl_79a431adc78f005c723745f1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

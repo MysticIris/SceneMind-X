@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:338.jpg",
+    "relative_path": "train/338.jpg",
+    "sha256": "c846377f65d44ef0915fba5a92c02dd4a60022b2eea4b70c9703ca50c756df4f",
+    "split": "train"
+  },
+  "canonical_sha256": "3d8c90f40781406ef18c92620dd0aed2e3bd9343d5ea436c489dc60fcdc49024",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "霓虹灯",
+      "桥梁",
+      "河岸"
+    ],
+    "short_description": "夜幕下城市河岸灯火辉煌，桥梁与建筑霓虹闪烁，前景有人影持手机拍摄。",
+    "theme": "夜景城市灯光"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现城市夜景，天空为黑色，建筑物和桥梁被灯光照亮。",
+      "前景中有至少一人手持设备正在拍摄。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "拍摄"
+    ],
+    "attributes": [
+      "夜间",
+      "灯光璀璨",
+      "多层建筑",
+      "斜拉桥结构"
+    ],
+    "relations": [
+      "桥梁横跨河流。",
+      "建筑位于河岸。"
+    ],
+    "scene": "城市夜景",
+    "subjects": [
+      "桥梁",
+      "建筑",
+      "河流",
+      "人影"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现城市夜景，天空为黑色，建筑物和桥梁被灯光照亮；前景中有至少一人手持设备正在拍摄。",
+    "safe_facts": [
+      "画面呈现城市夜景，天空为黑色，建筑物和桥梁被灯光照亮。",
+      "前景中有至少一人手持设备正在拍摄。"
+    ]
+  },
+  "label_id": "cpl_48021a1b3ff57a060eb30783",
+  "provenance": {
+    "generated_at": "2026-08-03T10:42:43.230132+00:00",
+    "migrated_at": "2026-08-03T10:42:43.231950+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9c1105e8bdbb15aa30186f23fea6950a53e48d1dc4e9e60879fcfbb7e2d42918",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_948fe017b53d53e5918eead0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:42:43.232160+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_948fe017b53d53e5918eead0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

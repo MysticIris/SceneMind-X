@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2120.jpg",
+    "relative_path": "val/2120.jpg",
+    "sha256": "72287805f4cedde0cc6dc6a872bdfe4226c0ff7e386f05bb76ea025c3e8eea92",
+    "split": "val"
+  },
+  "canonical_sha256": "8326659a1448e8d490bff9ab73f15812e493861659b7ce8b21faeb7120f75769",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "豹纹蛙",
+      "玻璃缸",
+      "橙黄色花纹"
+    ],
+    "short_description": "一只橙黄相间花纹的豹纹蛙静卧于透明玻璃缸底部，背景为浅色地面与另一玻璃容器。",
+    "theme": "玻璃缸中的豹纹蛙"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一只豹纹蛙趴在玻璃缸底部，皮肤呈橙黄色并带有环状斑纹。",
+      "玻璃缸为透明材质，底部有反光，背景可见另一玻璃容器。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "橙黄色花纹",
+      "静止状态",
+      "玻璃缸内"
+    ],
+    "relations": [
+      "豹纹蛙位于玻璃缸底部。"
+    ],
+    "scene": "室内玻璃容器环境",
+    "subjects": [
+      "豹纹蛙"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只豹纹蛙趴在玻璃缸底部，皮肤呈橙黄色并带有环状斑纹；玻璃缸为透明材质，底部有反光，背景可见另一玻璃容器。",
+    "safe_facts": [
+      "一只豹纹蛙趴在玻璃缸底部，皮肤呈橙黄色并带有环状斑纹。",
+      "玻璃缸为透明材质，底部有反光，背景可见另一玻璃容器。"
+    ]
+  },
+  "label_id": "cpl_d0feaefa68e8944ef5d0639a",
+  "provenance": {
+    "generated_at": "2026-08-03T16:02:43.770958+00:00",
+    "migrated_at": "2026-08-03T16:02:43.772581+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4f3218cd58e9fa5bc663debe78c33105fba256e1f1da5dd5917caab044eb0143",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_37a502f6cc7d5349dfc40d82",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:02:43.772798+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_37a502f6cc7d5349dfc40d82"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

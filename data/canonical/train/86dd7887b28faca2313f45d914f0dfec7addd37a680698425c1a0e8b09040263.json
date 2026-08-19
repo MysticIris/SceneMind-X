@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1011.jpg",
+    "relative_path": "train/1011.jpg",
+    "sha256": "86dd7887b28faca2313f45d914f0dfec7addd37a680698425c1a0e8b09040263",
+    "split": "train"
+  },
+  "canonical_sha256": "0da9da9a65d05a7a388fe7465c4d60bd68e6ca67b8976b07aa23131c40d1db93",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蛋羹",
+      "木勺",
+      "铁盘",
+      "焦糖"
+    ],
+    "short_description": "六把木勺摆放在铁盘上的焦糖蛋羹，盛于木质托盘，背景有茶杯和小碗。",
+    "theme": "热腾腾的蛋羹"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "六把木勺整齐排列在椭圆形铁盘上的蛋羹表面。",
+      "蛋羹表面呈焦糖色，边缘有轻微焦化痕迹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "焦糖色表面",
+      "木质纹理",
+      "椭圆形铁盘",
+      "深色边缘"
+    ],
+    "relations": [
+      "木勺放置在蛋羹上。",
+      "铁盘置于木质托盘上。",
+      "茶杯位于画面左上方。"
+    ],
+    "scene": "餐桌",
+    "subjects": [
+      "蛋羹",
+      "木勺",
+      "铁盘",
+      "木质托盘",
+      "茶杯",
+      "小碗"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "六把木勺整齐排列在椭圆形铁盘上的蛋羹表面；蛋羹表面呈焦糖色，边缘有轻微焦化痕迹。",
+    "safe_facts": [
+      "六把木勺整齐排列在椭圆形铁盘上的蛋羹表面。",
+      "蛋羹表面呈焦糖色，边缘有轻微焦化痕迹。"
+    ]
+  },
+  "label_id": "cpl_5dccbce54e3c56c6f7cdbf3a",
+  "provenance": {
+    "generated_at": "2026-08-03T13:23:13.271859+00:00",
+    "migrated_at": "2026-08-03T13:23:13.276575+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9f98eb8ca99816fc9985a5bdaebcdf3ca0d3313c5ea5933869d10233759aaa87",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e59fa104a426f9887d4c2340",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:23:13.276937+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e59fa104a426f9887d4c2340"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

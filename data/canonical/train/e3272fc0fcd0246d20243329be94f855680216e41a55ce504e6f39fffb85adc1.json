@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1827.jpg",
+    "relative_path": "train/1827.jpg",
+    "sha256": "e3272fc0fcd0246d20243329be94f855680216e41a55ce504e6f39fffb85adc1",
+    "split": "train"
+  },
+  "canonical_sha256": "a6961c6dceb6ff607e82caccd44acbd18991c5ed8665caab8361e8f15b0f0100",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "樱花",
+      "城市公园",
+      "行人",
+      "道路"
+    ],
+    "short_description": "城市公园内盛开的粉色花树下，人们散步、骑行，远处是建筑群和道路。",
+    "theme": "春日城市公园"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能为春季季节。"
+    ],
+    "direct_observations": [
+      "大量树木开满粉白色花朵。",
+      "道路上有行人和车辆。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "散步",
+      "骑行",
+      "行驶"
+    ],
+    "attributes": [
+      "粉白色花朵",
+      "灰色路面",
+      "多层建筑"
+    ],
+    "relations": [
+      "树木位于公园区域。",
+      "行人沿道路行走。",
+      "车辆在道路上行驶。"
+    ],
+    "scene": "城市公园及周边道路",
+    "subjects": [
+      "开花树木",
+      "行人",
+      "车辆",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能为春季季节。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大量树木开满粉白色花朵；道路上有行人和车辆。",
+    "safe_facts": [
+      "大量树木开满粉白色花朵。",
+      "道路上有行人和车辆。"
+    ]
+  },
+  "label_id": "cpl_c39b7df5cc626011b6552f76",
+  "provenance": {
+    "generated_at": "2026-08-03T15:10:44.424703+00:00",
+    "migrated_at": "2026-08-03T15:10:44.426420+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3a644534c81b6b94041478e4745f803f5f4a56820b8375cbbb088bdf0b455514",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_de7a579c359f62e1695d023e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:10:44.426627+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_de7a579c359f62e1695d023e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

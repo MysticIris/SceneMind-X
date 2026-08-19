@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2318.jpg",
+    "relative_path": "val/2318.jpg",
+    "sha256": "e5011bf5118a312a113190358051112e9276b6c387929423e8bc679d273bf017",
+    "split": "val"
+  },
+  "canonical_sha256": "3380a12a25980359f2849926930915ea649503db1d0e1d6cede4d60941ef9673",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "湖景",
+      "城市雕塑",
+      "阴天",
+      "公园"
+    ],
+    "short_description": "湖畔大型雕塑矗立于绿树丛中，背景是高楼林立的城市天际线，天空阴云密布。",
+    "theme": "城市公园景观"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "雕塑可能象征某种神话生物或文化符号。"
+    ],
+    "direct_observations": [
+      "湖面上有轻微波纹。",
+      "雕塑由金属制成，造型复杂。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "雕塑呈深色",
+      "湖面平静",
+      "树木茂盛",
+      "天空灰暗"
+    ],
+    "relations": [
+      "雕塑位于湖岸。",
+      "树木环绕雕塑。",
+      "建筑群在雕塑后方。"
+    ],
+    "scene": "城市公园湖边",
+    "subjects": [
+      "大型金属雕塑",
+      "湖水",
+      "树木",
+      "建筑群",
+      "拱桥"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "雕塑可能象征某种神话生物或文化符号。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "湖面上有轻微波纹；雕塑由金属制成，造型复杂。",
+    "safe_facts": [
+      "湖面上有轻微波纹。",
+      "雕塑由金属制成，造型复杂。"
+    ]
+  },
+  "label_id": "cpl_6dbe81cdb02866579a926b22",
+  "provenance": {
+    "generated_at": "2026-08-03T16:28:49.422129+00:00",
+    "migrated_at": "2026-08-03T16:28:49.424341+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d897fd2dc838f8c2a0e23cc77f86da2bb49042d6f3eaff9e98d78b66b6d4057a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_eefd43192c3ef87c9dfc6353",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:28:49.424682+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_eefd43192c3ef87c9dfc6353"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

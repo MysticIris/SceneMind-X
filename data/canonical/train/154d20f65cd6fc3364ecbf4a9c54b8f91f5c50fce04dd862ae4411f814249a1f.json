@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:950.jpg",
+    "relative_path": "train/950.jpg",
+    "sha256": "154d20f65cd6fc3364ecbf4a9c54b8f91f5c50fce04dd862ae4411f814249a1f",
+    "split": "train"
+  },
+  "canonical_sha256": "f8cc724929303a3ef080195608a2e76cf41d5f234788122d61c6bde978360038",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "棕榈树",
+      "飞机",
+      "海洋",
+      "晴天"
+    ],
+    "short_description": "棕榈叶下，一架蓝绿色飞机飞越海面，天空晴朗，远处有小船。",
+    "theme": "热带海滨飞行"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面前景有棕榈树枝干和叶片。",
+      "画面中有一架正在飞行的客机。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "棕榈叶呈绿色",
+      "飞机机身带蓝色涂装",
+      "海面平静"
+    ],
+    "relations": [
+      "棕榈树位于画面前景。",
+      "飞机在空中飞行。",
+      "飞机在海面上方。"
+    ],
+    "scene": "海边",
+    "subjects": [
+      "棕榈树",
+      "飞机",
+      "海面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景有棕榈树枝干和叶片；画面中有一架正在飞行的客机。",
+    "safe_facts": [
+      "画面前景有棕榈树枝干和叶片。",
+      "画面中有一架正在飞行的客机。"
+    ]
+  },
+  "label_id": "cpl_6d9cfa488db4ec42f02a66a6",
+  "provenance": {
+    "generated_at": "2026-08-03T13:06:57.064557+00:00",
+    "migrated_at": "2026-08-03T13:06:57.068011+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "af6d5d3528d895c0dfd7340a1d7928a30dbc9d35591dcf17ae04bbf5b43f76ba",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6d9cfa488db4ec42f02a66a6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:16.514708+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6056dccfaed9a8a97b1cc813"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

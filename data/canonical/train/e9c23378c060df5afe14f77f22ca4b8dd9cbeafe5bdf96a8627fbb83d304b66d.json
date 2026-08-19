@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1814.jpg",
+    "relative_path": "train/1814.jpg",
+    "sha256": "e9c23378c060df5afe14f77f22ca4b8dd9cbeafe5bdf96a8627fbb83d304b66d",
+    "split": "train"
+  },
+  "canonical_sha256": "8edce854799efb30a58e10e5a154ffd40c29174742d8f500555c7feb42d9332d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市景观",
+      "高层建筑",
+      "现代都市"
+    ],
+    "short_description": "城市高楼林立，远处山峦隐约，前景有绿叶枝条，建筑群密集且风格现代。",
+    "theme": "城市天际线"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多栋高层建筑，部分建筑外立面有玻璃幕墙。",
+      "画面右下角有绿色植物枝叶遮挡部分视野。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "多栋高层建筑",
+      "天空呈灰蓝色",
+      "前景有绿色植物"
+    ],
+    "relations": [
+      "建筑物群位于画面中央偏右。",
+      "树木枝叶位于画面右下角前景。"
+    ],
+    "scene": "城市建筑群远景",
+    "subjects": [
+      "高楼大厦",
+      "树木枝叶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多栋高层建筑，部分建筑外立面有玻璃幕墙；画面右下角有绿色植物枝叶遮挡部分视野。",
+    "safe_facts": [
+      "画面中有多栋高层建筑，部分建筑外立面有玻璃幕墙。",
+      "画面右下角有绿色植物枝叶遮挡部分视野。"
+    ]
+  },
+  "label_id": "cpl_a81b55279db21c36260d823d",
+  "provenance": {
+    "generated_at": "2026-08-03T15:10:43.525967+00:00",
+    "migrated_at": "2026-08-03T15:10:43.527850+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1b8fa0a6f78748fd9736d2c584d29d44f24a6dafc92b18477c50be9e31b681bd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a3cb2f087bc2e8c994cb8afc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:10:43.528192+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a3cb2f087bc2e8c994cb8afc"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2274.jpg",
+    "relative_path": "val/2274.jpg",
+    "sha256": "563a49729a59ca94f4d8df1103158b8918e317fca883cb0a30d25aa8f6bc72df",
+    "split": "val"
+  },
+  "canonical_sha256": "4758e1682e66f165b182e0f0d950604422db82d7edbaef1decea4dc1453a94de",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "汽车",
+      "古建筑",
+      "道路",
+      "城市景观"
+    ],
+    "short_description": "多辆汽车在古建筑前道路上行驶，建筑有飞檐和红色木质结构，天空呈灰白色。",
+    "theme": "传统建筑与现代交通"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有数辆不同颜色的轿车停在或行驶于柏油路上。",
+      "背景是一座具有传统中式风格的两层建筑，屋顶为深棕色瓦片，屋檐翘起。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "多辆汽车",
+      "红棕色屋顶",
+      "红色木质结构",
+      "灰白色天空"
+    ],
+    "relations": [
+      "汽车位于建筑前方。",
+      "建筑位于道路后方。"
+    ],
+    "scene": "城市街道",
+    "subjects": [
+      "汽车",
+      "建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有数辆不同颜色的轿车停在或行驶于柏油路上；背景是一座具有传统中式风格的两层建筑，屋顶为深棕色瓦片，屋檐翘起。",
+    "safe_facts": [
+      "画面中有数辆不同颜色的轿车停在或行驶于柏油路上。",
+      "背景是一座具有传统中式风格的两层建筑，屋顶为深棕色瓦片，屋檐翘起。"
+    ]
+  },
+  "label_id": "cpl_500e4f3b7d34f300a48379d5",
+  "provenance": {
+    "generated_at": "2026-08-03T16:23:20.873846+00:00",
+    "migrated_at": "2026-08-03T16:23:20.875484+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0351a8816790b37d2f906dc79ef0e6de555214f3b2d652ef81a42e4fa9d49111",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f43a9717261a530a4ab47546",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:23:20.875698+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f43a9717261a530a4ab47546"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

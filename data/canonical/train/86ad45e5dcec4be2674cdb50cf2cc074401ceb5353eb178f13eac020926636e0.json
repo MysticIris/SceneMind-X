@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:955.jpg",
+    "relative_path": "train/955.jpg",
+    "sha256": "86ad45e5dcec4be2674cdb50cf2cc074401ceb5353eb178f13eac020926636e0",
+    "split": "train"
+  },
+  "canonical_sha256": "23178d9df0ebd22834204009a5c83b03d9c2ca80d02532a383be3ae91994c183",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "海浪",
+      "沙滩",
+      "礁石",
+      "碧蓝海水"
+    ],
+    "short_description": "碧蓝海水拍打沙滩，浪花翻涌，礁石隐现于泡沫之中，画面宁静而富有动感。",
+    "theme": "海浪拍岸"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "礁石被海浪包围，可能处于水下或半淹没状态。"
+    ],
+    "direct_observations": [
+      "画面呈现从空中俯瞰的海岸景象。",
+      "海水呈青绿色，表面有大量白色泡沫。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "拍打",
+      "翻涌"
+    ],
+    "attributes": [
+      "碧蓝色",
+      "白色泡沫",
+      "浅色沙滩",
+      "深色礁石"
+    ],
+    "relations": [
+      "海浪拍打沙滩。",
+      "礁石位于海浪中。"
+    ],
+    "scene": "海岸线",
+    "subjects": [
+      "海浪",
+      "沙滩",
+      "礁石"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "礁石被海浪包围，可能处于水下或半淹没状态。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现从空中俯瞰的海岸景象；海水呈青绿色，表面有大量白色泡沫。",
+    "safe_facts": [
+      "画面呈现从空中俯瞰的海岸景象。",
+      "海水呈青绿色，表面有大量白色泡沫。"
+    ]
+  },
+  "label_id": "cpl_8e65d44e221395f2c2b503e7",
+  "provenance": {
+    "generated_at": "2026-08-03T13:08:21.108453+00:00",
+    "migrated_at": "2026-08-03T13:08:21.115703+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ec5080b8cfd896971b94fa683c09688ffe29be1bb12537205c9e6123b9fdce6e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8e65d44e221395f2c2b503e7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:16.635033+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7266ee326ec84a2e4030a1ad"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

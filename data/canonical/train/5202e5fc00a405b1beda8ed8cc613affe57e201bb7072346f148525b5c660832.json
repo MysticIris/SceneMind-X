@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:125.jpg",
+    "relative_path": "train/125.jpg",
+    "sha256": "5202e5fc00a405b1beda8ed8cc613affe57e201bb7072346f148525b5c660832",
+    "split": "train"
+  },
+  "canonical_sha256": "dec072387e723396765570a17321aa7be2d592cb583e771b3cdf33647f16ab01",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑白照片",
+      "多人合影",
+      "历史场景"
+    ],
+    "short_description": "一张黑白历史合影，多人分坐分立于户外，背景有植物，上方悬挂装饰性横幅。",
+    "theme": "历史人物合影"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "照片为黑白影像，呈现多人分坐分立姿态。",
+      "背景可见树木或灌木丛。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑白影像",
+      "分坐分立姿势",
+      "背景有植物"
+    ],
+    "relations": [],
+    "scene": "户外合影场景",
+    "subjects": [
+      "多位男性人物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "照片为黑白影像，呈现多人分坐分立姿态；背景可见树木或灌木丛。",
+    "safe_facts": [
+      "照片为黑白影像，呈现多人分坐分立姿态。",
+      "背景可见树木或灌木丛。"
+    ]
+  },
+  "label_id": "cpl_8c4e5db69eb4e5b8af1b0016",
+  "provenance": {
+    "generated_at": "2026-08-03T09:33:12.071086+00:00",
+    "migrated_at": "2026-08-03T09:33:12.073371+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2dfd6d3258d67477a193d12bf15c72c0039c19e0dadc43fae6458cc1e03f0bc3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3d5f30d59456b0c655872932",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:30.741179+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3d5f30d59456b0c655872932",
+    "cpl_813bb17fe3f5b2b325c8734a"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "此代雄之始",
+      "初日",
+      "临时大总统孙中山颁给林义顺的旌状(复制件)",
+      "1906年孙中山与同盟会新加坡分会成员摄于晚晴园(复制件)"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "此代雄之始",
+      "初日",
+      "临时大总统孙中山颁给林义顺的旌状(复制件)",
+      "1906年孙中山与同盟会新加坡分会成员摄于晚晴园(复制件)"
+    ]
+  }
+}

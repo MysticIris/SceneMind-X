@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2198.jpg",
+    "relative_path": "val/2198.jpg",
+    "sha256": "6bc25e0c76a8b84b86d5257052b800e69942e0483715e69990e55aee24529239",
+    "split": "val"
+  },
+  "canonical_sha256": "968b676d8cabd4d5b7b0d8c7553c2de2c962a0b8b43d4d897a25a0e26cfd83c7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "示波器",
+      "波形",
+      "电子测量"
+    ],
+    "short_description": "屏幕上显示两个不同颜色的波形曲线。",
+    "theme": "示波器屏幕显示波形"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕上显示两个不同颜色的波形曲线。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "显示黄色脉冲波形",
+      "显示蓝色正弦波形",
+      "屏幕上有参数数值"
+    ],
+    "relations": [],
+    "scene": "电子测量设备显示屏",
+    "subjects": [
+      "示波器屏幕",
+      "波形图形"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕上显示两个不同颜色的波形曲线。",
+    "safe_facts": [
+      "屏幕上显示两个不同颜色的波形曲线。"
+    ]
+  },
+  "label_id": "cpl_ddd1aa9c9cd7b8db903c289a",
+  "provenance": {
+    "generated_at": "2026-08-03T16:12:43.306158+00:00",
+    "migrated_at": "2026-08-03T16:12:43.308029+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0a095ae47a4de3d96e34037b3cf434ff9f7cb52314c07a7b5ca9f76c5a7508ff",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_94d48911c4b8a43f56e0e9fe",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:12:43.308582+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_94d48911c4b8a43f56e0e9fe"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "RIGOL MSO5354 DIGITAL OSCILLOSCOPE",
+      "光标 AX: -5.86ms",
+      "触发光类型 边沿触发",
+      "CH2",
+      "16ns",
+      "20:05"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "RIGOL MSO5354 DIGITAL OSCILLOSCOPE",
+      "光标 AX: -5.86ms",
+      "触发光类型 边沿触发",
+      "CH2",
+      "16ns",
+      "20:05"
+    ]
+  }
+}

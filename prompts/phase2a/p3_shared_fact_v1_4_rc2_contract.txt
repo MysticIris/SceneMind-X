@@ -1,0 +1,19 @@
+RC2 输出合同：
+
+- 顶层键必须严格按以下顺序出现：visual_medium、depicted_content、scene_summary、subjects、activities、relationships、text_assessment、evidence_items、claims。
+- 九个顶层键全部必需；允许的空值只能是 Schema 明确允许的 null 或空数组。不得用自由文本替代整个结构。
+- visual_medium.secondary_types 最多 2 项；subjects/activities/relationships 最多 6/4/4 项；selected_text/evidence_items/claims 最多 4/6/4 项。
+- depicted_content.summary 与 scene_summary 各最多 80 字；主体名 32 字；行为 40 字；关系 24 字；object_text 40 字；属性键/值 24/48 字；selected_text 48 字；evidence 48 字；claim 64 字；uncertainty_reason 80 字。
+- visual_medium 和 depicted_content 必须通过 evidence_refs 引用 evidence_items。高置信主体、行为、关系也必须有证据。
+- evidence_id 使用 ev1、ev2……；subject_id 使用 s1、s2……；claim_id 使用 cl1、cl2……。ID 唯一且所有引用必须存在。
+- evidence 只写短而具体的可见依据；claim 只写结论。不得逐字重复 scene_summary，也不得让 claim 复制 evidence。
+- activity 必须绑定可见 subject_ref；relationship 必须且只能使用 object_ref 或 object_text 之一。
+- selected_text.text 保留图中原文，不翻译、不静默改字；其他说明、evidence、claim 和 uncertainty 原则上使用简体中文。
+- 完整 OCR 转写不属于本载荷。只保留最多 4 条与媒介、场景或拒答判断有关的短文字。
+- visual_medium.primary_type 允许 real_world_photo、screenshot、presentation_slide、meme_or_reaction_image、poster_or_advertisement、document_or_paper、webpage_or_user_interface、chat_screenshot、chart_or_infographic、illustration_or_comic、packaging、photographed_screen_content、mixed、uncertain。
+- claim_type 只能是 direct_observation、reasonable_inference、uncertain、abstention。
+- 原始模型输出中的 evidence source_type 只能是 visual_global、visual_region、model_text_assessment，tool_ref 必须为 null。本轮不得声称调用 OCR 或其他工具。
+- 不确定事实不得伪装成高置信直接观察。缺失信息使用 null、unknown、uncertain 或 abstention。
+- 只输出标准 JSON。允许外围 ```json 代码围栏被确定性移除，但这会被单独记录为语法兼容，不视为原始完全通过。
+
+严格使用下面提供的 JSON skeleton，不增删键。

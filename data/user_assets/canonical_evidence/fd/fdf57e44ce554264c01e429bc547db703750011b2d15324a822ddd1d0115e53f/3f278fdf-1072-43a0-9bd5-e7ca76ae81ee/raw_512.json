@@ -1,0 +1,118 @@
+{
+  "asset_id": "fdf57e44ce554264",
+  "asset_sha256": "fdf57e44ce554264c01e429bc547db703750011b2d15324a822ddd1d0115e53f",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"USB数据线接口特写\",\n    \"short_description\": \"图片展示了两根黑色数据线的连接头特写。上方为带有蓝色内芯的USB Type-A公头，下方为金属触点的Micro-USB公头，两者外壳均为黑色磨砂材质并印有浮雕图标，背景为纯白色。\",\n    \"micro_tags\": [\n      \"USB接口\",\n      \"Micro-USB\",\n      \"数据线\",\n      \"电子配件\",\n      \"蓝色内芯\",\n      \"特写\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"白色背景下的产品静物拍摄\",\n    \"subjects\": [\n      \"USB Type-A 连接头\",\n      \"Micro-USB 连接头\",\n      \"黑色线缆\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"黑色外壳\",\n      \"银色金属插头\",\n      \"蓝色塑料内芯\",\n      \"磨砂质感\",\n      \"浮雕图案\"\n    ],\n    \"relations\": [\n      \"两个连接头呈对角线排列\",\n      \"USB-A头位于左上方\",\n      \"Micro-USB头位于右下方\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"左上方的连接器具有矩形金属外壳，内部可见明显的蓝色塑料片，这是USB 3.0 Type-A接口的典型特征。\",\n      \"右下方的连接器具有梯形的银色金属外壳和暴露的金属触点，符合Micro-USB接口的物理形态。\",\n      \"两个连接头的黑色塑料外壳上均压印有相同的三叉戟状符号（USB标志）。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据蓝色内芯推断，该USB-A端可能支持USB 3.0高速传输标准。\",\n      \"这看起来是一根用于连接电脑与旧式安卓设备或小型电子产品的充电/数据传输线。\"\n    ],\n    \"uncertainties\": [\n      \"无法确认线缆的具体品牌或制造商。\",\n      \"无法确定线缆的实际长度或另一端（未显示部分）的接口类型。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"none\",\n    \"visual_candidates\": []\n  },\n  \"fallback\": {\n    \"safe_caption\": \"白色背景下展示的两个黑色电子设备连接线接头，分别为标准的USB接口和Micro-USB接口，金属部分呈现银色光泽。\",\n    \"safe_facts\": [\n      \"图中有两个黑色的线缆连接头。\",\n      \"一个连接头内部有蓝色部件，另一个连接头呈梯形金属状。\",\n      \"连接头外壳上有凸起的符号纹理。\"\n    ]\n  }\n}",
+      "input_tokens": 1085,
+      "output_tokens": 639,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 1085,
+        "output_tokens": 639,
+        "total_tokens": 1724,
+        "estimated_cost_cny": 0.007282,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "USB数据线接口特写",
+          "short_description": "图片展示了两根黑色数据线的连接头特写。上方为带有蓝色内芯的USB Type-A公头，下方为金属触点的Micro-USB公头，两者外壳均为黑色磨砂材质并印有浮雕图标，背景为纯白色。",
+          "micro_tags": [
+            "USB接口",
+            "Micro-USB",
+            "数据线",
+            "电子配件",
+            "蓝色内芯",
+            "特写"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "白色背景下的产品静物拍摄",
+          "subjects": [
+            "USB Type-A 连接头",
+            "Micro-USB 连接头",
+            "黑色线缆"
+          ],
+          "actions": [],
+          "attributes": [
+            "黑色外壳",
+            "银色金属插头",
+            "蓝色塑料内芯",
+            "磨砂质感",
+            "浮雕图案"
+          ],
+          "relations": [
+            "两个连接头呈对角线排列",
+            "USB-A头位于左上方",
+            "Micro-USB头位于右下方"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "左上方的连接器具有矩形金属外壳，内部可见明显的蓝色塑料片，这是USB 3.0 Type-A接口的典型特征。",
+            "右下方的连接器具有梯形的银色金属外壳和暴露的金属触点，符合Micro-USB接口的物理形态。",
+            "两个连接头的黑色塑料外壳上均压印有相同的三叉戟状符号（USB标志）。"
+          ],
+          "cautious_inferences": [
+            "根据蓝色内芯推断，该USB-A端可能支持USB 3.0高速传输标准。",
+            "这看起来是一根用于连接电脑与旧式安卓设备或小型电子产品的充电/数据传输线。"
+          ],
+          "uncertainties": [
+            "无法确认线缆的具体品牌或制造商。",
+            "无法确定线缆的实际长度或另一端（未显示部分）的接口类型。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "none",
+          "visual_candidates": []
+        },
+        "fallback": {
+          "safe_caption": "白色背景下展示的两个黑色电子设备连接线接头，分别为标准的USB接口和Micro-USB接口，金属部分呈现银色光泽。",
+          "safe_facts": [
+            "图中有两个黑色的线缆连接头。",
+            "一个连接头内部有蓝色部件，另一个连接头呈梯形金属状。",
+            "连接头外壳上有凸起的符号纹理。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 90260,
+        "request_bytes": 64623,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 11.758338899999217,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "d256fa956c63be34d33c052034e8c74b0b93a004f65a9b89aec010b23c6b38ad"
+}

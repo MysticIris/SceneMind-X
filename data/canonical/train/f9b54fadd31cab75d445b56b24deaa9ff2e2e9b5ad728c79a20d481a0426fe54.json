@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:130.jpg",
+    "relative_path": "train/130.jpg",
+    "sha256": "f9b54fadd31cab75d445b56b24deaa9ff2e2e9b5ad728c79a20d481a0426fe54",
+    "split": "train"
+  },
+  "canonical_sha256": "7658eca9451fef9953557bb9386f9ed32e9751846e81309f11ebde4e4b56088e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "游客",
+      "古建筑",
+      "红墙",
+      "屋檐雕花",
+      "撑伞"
+    ],
+    "short_description": "游客在红墙古建筑前聚集，有人撑伞遮阳，建筑屋檐雕花精美，门楣有蓝色牌匾。",
+    "theme": "传统建筑门前游客"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑外墙为红色，配有格子窗。",
+      "屋顶有传统中式瓦片和装饰性翘角。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "撑伞"
+    ],
+    "attributes": [
+      "红色墙壁",
+      "雕花屋檐",
+      "蓝色牌匾",
+      "树荫"
+    ],
+    "relations": [
+      "游客位于建筑前方。",
+      "伞遮挡阳光。"
+    ],
+    "scene": "户外古建筑入口前",
+    "subjects": [
+      "游客",
+      "建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑外墙为红色，配有格子窗；屋顶有传统中式瓦片和装饰性翘角。",
+    "safe_facts": [
+      "建筑外墙为红色，配有格子窗。",
+      "屋顶有传统中式瓦片和装饰性翘角。"
+    ]
+  },
+  "label_id": "cpl_27d6451e7daaac754747c821",
+  "provenance": {
+    "generated_at": "2026-08-03T09:34:08.891224+00:00",
+    "migrated_at": "2026-08-03T09:34:08.893551+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "492025a14800f656975bad5b232016992754695cb66eab143af5b56f593807fc",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e4309cc4b92cfaa7e4591387",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:40.678392+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e4309cc4b92cfaa7e4591387",
+    "cpl_a60d08240b95471578492e86"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "雍和宫开光室"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "雍和宫开光室"
+    ]
+  }
+}

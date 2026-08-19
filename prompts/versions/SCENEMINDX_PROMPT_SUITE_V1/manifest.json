@@ -1,0 +1,116 @@
+{
+  "schema_version": "scenemindx_prompt_suite_manifest_v1",
+  "prompt_suite_id": "SCENEMINDX_PROMPT_SUITE_V1",
+  "display_name": "SceneMind-X Prompt Suite V1",
+  "status": "production_baseline_frozen",
+  "product_phase": "Phase 5.1",
+  "created_at": "2026-07-30T17:07:37+08:00",
+  "source_git_head": "9d09e3afca2a2898e1eed9778f565ca258de6546",
+  "working_tree_patch_state": {
+    "description": "source_git_head plus exactly three deployed but uncommitted product-chain fixes; the repository also contained pre-existing unrelated dirty governance/report/artifact work which is not part of the runtime patch identity",
+    "canonical_utf8_lf_git_diff_sha256": "5c3ba96f9402cc9b0bb3a36ab77db3d90d98a652d62e145d150676e3dd01e2ab",
+    "fixes": [
+      {
+        "file": "apps/web/studio.js",
+        "purpose": "display full asset SHA-256 and serialize Compare summary objects in the UI",
+        "working_file_raw_sha256": "6b03f3084e83a74e8e25a2209ee640f63250fdc41d059e640c1882c763d4a4e4"
+      },
+      {
+        "file": "scripts/start_phase5_local_demo.ps1",
+        "purpose": "accept an explicit RunRoot so restored runtime evidence remains isolated",
+        "working_file_raw_sha256": "df4c945084b918328be69f018fbc4bfa0146917ec3f064856c3baf9f8502826e"
+      },
+      {
+        "file": "src/scenemindx/phase1/api.py",
+        "purpose": "rebuild retrieval vectors during startup when embeddings are enabled and vectors are absent",
+        "working_file_raw_sha256": "8f1c6046acb97cdb22d01ba928368c46a3152da5227a26bc0a796e98ffdd2e2e"
+      }
+    ]
+  },
+  "model": "Qwen/Qwen3-VL-4B-Instruct",
+  "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+  "schema": {
+    "requested_identity": "P3 v1.4",
+    "clarification": "P3 v1.4 is the core Prompt identity. The actual runtime JSON Schema is gate1_d3_semantic_review_payload_p3_v1_1.",
+    "archive_path": "schemas/gate1_d3_semantic_review_payload_p3_v1_1.schema.json",
+    "raw_sha256": "9b114f0d29717d334abd7940d1d120157b2e5899d00a7c264bc055d9e838beb3"
+  },
+  "prompt_families": ["P3", "Description", "VQA", "Compare", "Rank", "Content"],
+  "source_files": [
+    "prompts/gate1/p3_registry.json",
+    "prompts/gate1/p3/*.txt",
+    "prompts/gate1/p3_v1_4/visible_text.txt",
+    "prompts/phase1/registry.json",
+    "prompts/phase1/natural_chinese_detailed_description_v1.txt",
+    "prompts/phase1/vqa_v1.txt",
+    "prompts/phase1/compare_v1.txt",
+    "prompts/phase1/content_v1.txt",
+    "data/schemas/gate1_d3_semantic_review_payload_p3_v1_1.schema.json",
+    "src/scenemindx/services/vlm.py",
+    "src/scenemindx/phase1/api.py",
+    "scripts/phase5_remote_vlm_runtime.py"
+  ],
+  "raw_sha256": {
+    "p3_bundle": "34cfdf01f958ce07421591569213695c2e30e500128ddd859d7e64b23a84c64c",
+    "description_v1": "d6c61f6c5569cc6ad233e1993eaa39b8edf55e133642f2e71d68e7d6b7af421d",
+    "vqa_v1": "bbbd0a2782ddd72a653bb05454d84e4ec9b79cee42f799a3257a2530cb3407d1",
+    "compare_v1": "0b5a6411b9ca5d4d9c8693985a7c840ab3c6681da0b9dc19801012fedc10cf21",
+    "compare_dynamic_suffix_v1": "b0f82ab86e9a85e9e34db0b1e489665f45cd783097ff86cbbe29eea524bf1fca",
+    "rank_contract_v1": "84f9bac7a21f0011bd55122e03080824b39f20ddec67077c2050a0538c29936a",
+    "content_v1": "33bb4b23cfd50f9c1c9bbc4a2e6852f16051830529d99883f78baaa4cf7c5145"
+  },
+  "canonical_text_sha256": {
+    "p3_stage_files": "identical to the per-stage raw_sha256 values in prompt_suite_v1.json because all sources were already UTF-8 LF",
+    "description_v1": "d6c61f6c5569cc6ad233e1993eaa39b8edf55e133642f2e71d68e7d6b7af421d",
+    "vqa_v1": "bbbd0a2782ddd72a653bb05454d84e4ec9b79cee42f799a3257a2530cb3407d1",
+    "compare_v1": "0b5a6411b9ca5d4d9c8693985a7c840ab3c6681da0b9dc19801012fedc10cf21",
+    "compare_dynamic_suffix_v1": "b0f82ab86e9a85e9e34db0b1e489665f45cd783097ff86cbbe29eea524bf1fca",
+    "rank_contract_v1": "84f9bac7a21f0011bd55122e03080824b39f20ddec67077c2050a0538c29936a",
+    "content_v1": "33bb4b23cfd50f9c1c9bbc4a2e6852f16051830529d99883f78baaa4cf7c5145"
+  },
+  "generation_settings": {
+    "archive_path": "generation_settings/generation_settings.json",
+    "changed_for_archive": false
+  },
+  "evaluation_sources": [
+    "docs/status/phase5_1_snapshot.json",
+    "docs/experiments/phase5_1_product_usability_recovery_report.md",
+    "artifacts/phase5_1_private/live_restore_20260730_142112/live_demo_results.json",
+    "artifacts/phase5_1_private/live_restore_20260730_142112/runtime/traces/",
+    "artifacts/phase5_1_private/live_restore_20260730_142112/runtime/outputs/"
+  ],
+  "representative_success_cases": [
+    "representative_cases/success_cases.md#655jpgp3-v14--两轮-vqa",
+    "representative_cases/success_cases.md#1058jpgp3-v14--事实型-content"
+  ],
+  "representative_failure_cases": [
+    "representative_cases/failure_cases.md#114jpg中文描述生成未验证文字",
+    "representative_cases/failure_cases.md#114jpgvqa-位置回答不完整"
+  ],
+  "known_limitations": [
+    "P3 stage outputs can require raw_text_fallback even when the assembled payload passes the JSON Schema.",
+    "Description V1 has no independent verified-text guard and can invent specific signage despite P3 saying text is unreadable.",
+    "VQA manual semantic/evidence pass is 14/24; known weak slices include position, quantity, text and evidence completeness.",
+    "Compare manual semantic pass is 2/4.",
+    "Rank is a Prompt ordering baseline with deterministic P3-derived reasons, not a trained Reranker.",
+    "Content execution completion is not equivalent to semantic correctness; no complete human semantic denominator exists.",
+    "Retrieval baselines are excluded from the Prompt Suite score.",
+    "No aggregate score is defined because evidence scales, times and denominators differ."
+  ],
+  "server_release_consistency": {
+    "release_name": "phase5_1_restore_20260730_142112_wtbytes",
+    "verified_at": "2026-07-30T16:58:00+08:00",
+    "mode": "read_only_hash_check",
+    "result": "key production Prompt, registry, Schema and runtime hashes matched local files",
+    "service_restart_or_mutation": false,
+    "sensitive_endpoint_details_archived": false
+  },
+  "split_boundaries": {
+    "evaluation_split": "Train only",
+    "val_read": false,
+    "test_read": false,
+    "blind_read": false,
+    "new_model_calls": 0
+  },
+  "production_behavior_changed": false
+}

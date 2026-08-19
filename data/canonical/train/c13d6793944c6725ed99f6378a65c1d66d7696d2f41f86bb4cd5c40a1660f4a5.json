@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:478.jpg",
+    "relative_path": "train/478.jpg",
+    "sha256": "c13d6793944c6725ed99f6378a65c1d66d7696d2f41f86bb4cd5c40a1660f4a5",
+    "split": "train"
+  },
+  "canonical_sha256": "31204cfc1c015f49152666e0d82503319c31a0fd7d574cf618382d8c7efdeebc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "白色瓷砖建筑",
+      "多层楼房",
+      "茂密树林",
+      "阴天"
+    ],
+    "short_description": "一栋白色瓷砖外墙的多层建筑旁，生长着茂密的树木，天空阴云密布。",
+    "theme": "白色瓷砖建筑与绿树"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "建筑物可能为住宅或公共机构。"
+    ],
+    "direct_observations": [
+      "建筑物外墙由白色小方砖铺成。",
+      "建筑物有多层窗户和门。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色瓷砖外墙",
+      "多层结构",
+      "绿色树叶",
+      "阴天天空"
+    ],
+    "relations": [
+      "建筑物位于树木旁边。",
+      "树木环绕建筑物底部。"
+    ],
+    "scene": "城市或校园建筑与自然植被并存的户外场景",
+    "subjects": [
+      "建筑物",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "建筑物可能为住宅或公共机构。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑物外墙由白色小方砖铺成；建筑物有多层窗户和门。",
+    "safe_facts": [
+      "建筑物外墙由白色小方砖铺成。",
+      "建筑物有多层窗户和门。"
+    ]
+  },
+  "label_id": "cpl_7c60024daeb9b3d3304d92db",
+  "provenance": {
+    "generated_at": "2026-08-03T11:11:48.458304+00:00",
+    "migrated_at": "2026-08-03T11:11:48.460571+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3e4bbf31f9fe9d7ea6ea041d2654a00d3baa4255ea2453cdfacb46a4942a7403",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_300e57db73f4eca0d107593c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:11:48.460767+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_300e57db73f4eca0d107593c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

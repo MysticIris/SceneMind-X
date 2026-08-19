@@ -1,0 +1,34 @@
+{
+  "schema_version": "scenemindx_prompt_suite_v1_task_output_contracts_v1",
+  "p3_v1_4": {
+    "validator": "jsonschema.Draft202012Validator",
+    "schema_file": "gate1_d3_semantic_review_payload_p3_v1_1.schema.json",
+    "schema_failure_behavior": "record schema_valid=false and schema_errors; top-level ServiceResult remains success"
+  },
+  "description_v1": {
+    "output_type": "plain_text",
+    "trace_schema_label": "natural_chinese_detailed_description_response_v1",
+    "runtime_json_schema_validator": false
+  },
+  "vqa_v1": {
+    "output_type": "json_object",
+    "trace_schema_label": "phase1_mvp_vqa_v1",
+    "runtime_json_schema_validator": false
+  },
+  "compare_v1": {
+    "output_type": "json_object",
+    "trace_schema_label": "phase5_comparison_v2",
+    "runtime_json_schema_validator": false
+  },
+  "rank_contract_v1": {
+    "output_type": "ordered_image_position_sequence",
+    "trace_schema_label": "phase5_ranking_v2",
+    "runtime_validator": "_parse_rank_positions plus API asset/rank set validation"
+  },
+  "content_v1": {
+    "output_type": "json_object",
+    "trace_schema_label": "phase1_mvp_content_v1",
+    "runtime_json_schema_validator": false,
+    "fact_guard_note": "fact_guard is model-authored and is not an independent runtime guard"
+  }
+}

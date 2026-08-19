@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1784.jpg",
+    "relative_path": "train/1784.jpg",
+    "sha256": "4ecd64e458ccbd916c97e429fee7a65fbca17e686217112e78da5c6316ee21e3",
+    "split": "train"
+  },
+  "canonical_sha256": "353f79d43f1c8c15ffc4afe2d7a979d9f0c593541389c1e053f43dfc52c5eb76",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "提要构建",
+      "学术写作",
+      "中英对照"
+    ],
+    "short_description": "幻灯片分为左右两栏，左栏为英文内容，右栏为对应中文翻译，均以带方框的项目符号开头。",
+    "theme": "学术写作指导"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "幻灯片分为左右两栏，左栏为英文内容，右栏为对应中文翻译，均以带方框的项目符号开头。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "电脑屏幕显示的演示文稿页面",
+    "subjects": [
+      "幻灯片标题",
+      "左侧英文内容框",
+      "右侧中文内容框"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "幻灯片分为左右两栏，左栏为英文内容，右栏为对应中文翻译，均以带方框的项目符号开头。",
+    "safe_facts": [
+      "幻灯片分为左右两栏，左栏为英文内容，右栏为对应中文翻译，均以带方框的项目符号开头。"
+    ]
+  },
+  "label_id": "cpl_0af05c5fc88599001886b237",
+  "provenance": {
+    "generated_at": "2026-08-03T15:07:11.629873+00:00",
+    "migrated_at": "2026-08-03T15:07:11.631930+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d6c6a2f68d06414bc9215984644e57f29e776c19eeacd28c8e26056f7d802550",
+    "recovered_at_tokens": 768,
+    "source_label_id": "cpl_a84931bb2806f4dd0fdbe598",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:07:11.632517+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_768_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a84931bb2806f4dd0fdbe598"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "How should you construct an outline? 你应该",
+      "Ask yourself the obvious questions: “Why",
+      "自问一些显而易见的问题:为什么我要做这项工作?它意味着什么?我要验证哪些假设?我"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "How should you construct an outline? 你应该",
+      "Ask yourself the obvious questions: “Why",
+      "自问一些显而易见的问题:为什么我要做这项工作?它意味着什么?我要验证哪些假设?我"
+    ]
+  }
+}

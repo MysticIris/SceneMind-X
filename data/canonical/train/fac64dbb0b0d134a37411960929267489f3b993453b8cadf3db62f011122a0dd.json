@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1867.jpg",
+    "relative_path": "train/1867.jpg",
+    "sha256": "fac64dbb0b0d134a37411960929267489f3b993453b8cadf3db62f011122a0dd",
+    "split": "train"
+  },
+  "canonical_sha256": "c91ef42bf24a790be9f79dfc84cb0adc5803c0a0bcce31b3b742977067bca7a3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "理论框架",
+      "思维导图"
+    ],
+    "short_description": "一张投影屏幕显示关于的理论框架图，包含、及三部分结构。",
+    "theme": "框架图"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕上显示一张结构化图表，包含红色标题和橙色竖条框。",
+      "图表下方有红色旗帜图案，旗上有黄色五角星。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "室内投影屏幕",
+    "subjects": [
+      "投影屏幕"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕上显示一张结构化图表，包含红色标题和橙色竖条框；图表下方有红色旗帜图案，旗上有黄色五角星。",
+    "safe_facts": [
+      "屏幕上显示一张结构化图表，包含红色标题和橙色竖条框。",
+      "图表下方有红色旗帜图案，旗上有黄色五角星。"
+    ]
+  },
+  "label_id": "cpl_ad7fd111dc98533d5cbe594b",
+  "provenance": {
+    "generated_at": "2026-08-03T15:15:05.553372+00:00",
+    "migrated_at": "2026-08-03T15:15:05.555140+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "15e2bb68aa44bfdbb6f3d94608f7eb4edd33ce36a29a80f5dde666f2699748e7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8740c21631c4589364bc2cbb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:15:05.555775+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8740c21631c4589364bc2cbb"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "习近平总书记关于党的青年工作的重要论述主体框架(马克思主义青年观集大成者)",
+      "党管青年",
+      "青年工作",
+      "青年组织",
+      "特点地位使命成长",
+      "地位职责使命方法"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "习近平总书记关于党的青年工作的重要论述主体框架(马克思主义青年观集大成者)",
+      "党管青年",
+      "青年工作",
+      "青年组织",
+      "特点地位使命成长",
+      "地位职责使命方法"
+    ]
+  }
+}

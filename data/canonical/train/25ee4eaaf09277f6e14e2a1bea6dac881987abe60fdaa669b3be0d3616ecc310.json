@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1058.jpg",
+    "relative_path": "train/1058.jpg",
+    "sha256": "25ee4eaaf09277f6e14e2a1bea6dac881987abe60fdaa669b3be0d3616ecc310",
+    "split": "train"
+  },
+  "canonical_sha256": "2391c6a38326042d8705aff6f3998d693ba375d2503445c439d6e2b7e4263817",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪山",
+      "湖泊",
+      "日落",
+      "高原",
+      "自然风光"
+    ],
+    "short_description": "雪山倒映在深蓝湖水中，夕阳余晖染红山体，天空湛蓝无云。",
+    "theme": "雪山湖泊"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自低角度，可能是日出或日落时分。"
+    ],
+    "direct_observations": [
+      "画面中可见连绵雪山，山顶及部分山坡被白雪覆盖。",
+      "前景为大面积深蓝色水面，表面有细小波纹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "雪山覆盖积雪",
+      "湖水呈深蓝色",
+      "天空晴朗"
+    ],
+    "relations": [
+      "雪山位于湖泊后方。"
+    ],
+    "scene": "高山湖泊景观",
+    "subjects": [
+      "雪山",
+      "湖泊"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自低角度，可能是日出或日落时分。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见连绵雪山，山顶及部分山坡被白雪覆盖；前景为大面积深蓝色水面，表面有细小波纹。",
+    "safe_facts": [
+      "画面中可见连绵雪山，山顶及部分山坡被白雪覆盖。",
+      "前景为大面积深蓝色水面，表面有细小波纹。"
+    ]
+  },
+  "label_id": "cpl_311dd6154f21a9b98763716f",
+  "provenance": {
+    "generated_at": "2026-08-03T13:29:42.888611+00:00",
+    "migrated_at": "2026-08-03T13:29:42.895565+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7486e1e4e3275baaad261968727d7d3a82b99ab3279ec3799c20321ec1b73594",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3d959ded81d98ccd75539503",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:29:42.895961+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3d959ded81d98ccd75539503"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

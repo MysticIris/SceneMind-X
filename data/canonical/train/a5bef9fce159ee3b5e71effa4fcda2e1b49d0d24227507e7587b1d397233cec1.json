@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:277.jpg",
+    "relative_path": "train/277.jpg",
+    "sha256": "a5bef9fce159ee3b5e71effa4fcda2e1b49d0d24227507e7587b1d397233cec1",
+    "split": "train"
+  },
+  "canonical_sha256": "d8487918da10da9318ec98a7b29e28ba522cef81017ef316475c6c31372d2c07",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "企鹅",
+      "冰山",
+      "海洋",
+      "极地",
+      "浮冰"
+    ],
+    "short_description": "一群企鹅栖息在浮冰与岩石间，背景是巨大冰山与湛蓝海水。",
+    "theme": "冰川企鹅群"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多个黑白相间的企鹅聚集在一块岩石上。",
+      "背景和前景均有大小不一的冰山和浮冰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑白羽毛",
+      "蓝色冰层",
+      "深蓝色海水"
+    ],
+    "relations": [
+      "企鹅站在岩石上。",
+      "企鹅靠近浮冰。",
+      "冰山漂浮在海水中。"
+    ],
+    "scene": "极地水域",
+    "subjects": [
+      "企鹅",
+      "冰山",
+      "浮冰",
+      "岩石"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个黑白相间的企鹅聚集在一块岩石上；背景和前景均有大小不一的冰山和浮冰。",
+    "safe_facts": [
+      "画面中有多个黑白相间的企鹅聚集在一块岩石上。",
+      "背景和前景均有大小不一的冰山和浮冰。"
+    ]
+  },
+  "label_id": "cpl_274430b42b8072d533e958ff",
+  "provenance": {
+    "generated_at": "2026-08-03T10:30:26.873304+00:00",
+    "migrated_at": "2026-08-03T10:30:26.875712+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e5a6b1a3a5dd8d0debea1049746f1a4d91215e59124a965627fb730dce703509",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_17a223f95c35a4ff4478d28a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:30:26.876016+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_17a223f95c35a4ff4478d28a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

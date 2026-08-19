@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2005.jpg",
+    "relative_path": "val/2005.jpg",
+    "sha256": "3a210973f0fa0a122270f7471309547f1e7fa830cfe7c375667dc6247a0ce542",
+    "split": "val"
+  },
+  "canonical_sha256": "18ab62d944a7e024b5837e83014d2a15af790bf8c81ad56e25fe90828febe333",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄昏",
+      "高楼",
+      "城市天际线",
+      "紫色天空"
+    ],
+    "short_description": "暮色中三栋高层建筑轮廓分明，天空呈现紫粉渐变，部分窗户亮着灯，前景有树木剪影。",
+    "theme": "黄昏城市剪影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "建筑物可能处于城市住宅区。"
+    ],
+    "direct_observations": [
+      "天空呈现从上至下由浅紫到粉红的渐变色调。",
+      "三栋高层建筑以深色剪影形式出现在画面中。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空呈紫粉色渐变",
+      "建筑轮廓清晰",
+      "部分窗户亮灯"
+    ],
+    "relations": [
+      "建筑位于天空下方。",
+      "树木位于建筑前方。"
+    ],
+    "scene": "城市黄昏",
+    "subjects": [
+      "高层建筑",
+      "天空",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "建筑物可能处于城市住宅区。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现从上至下由浅紫到粉红的渐变色调；三栋高层建筑以深色剪影形式出现在画面中。",
+    "safe_facts": [
+      "天空呈现从上至下由浅紫到粉红的渐变色调。",
+      "三栋高层建筑以深色剪影形式出现在画面中。"
+    ]
+  },
+  "label_id": "cpl_293219ba1a441001627306ca",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/val/val_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "e32d3af75c130700fc73cbca19128fe8491843a5f2d834ae73a5bd88abf3c6d1",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T15:44:26.961853+00:00",
+    "migrated_at": "2026-08-03T15:44:26.963344+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "79f6eacb0843fbc153182e92b8bf09fd01f282396759d4720952f5c68ee16733",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b5e3baeb2569cbfa58b1d72b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:44:26.963547+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "暮色城市高层建筑场景描述准确。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b5e3baeb2569cbfa58b1d72b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

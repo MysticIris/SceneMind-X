@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1099.jpg",
+    "relative_path": "train/1099.jpg",
+    "sha256": "c191ffcdda2bed7440c27572a2bc885fa5a0162fe89ea384563a079502307fa9",
+    "split": "train"
+  },
+  "canonical_sha256": "f05e493652ed4353791db8f25030c05e23f1726071b2be6abd78bc1a8cf0aec2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "青果",
+      "树枝",
+      "自然",
+      "绿叶"
+    ],
+    "short_description": "几颗青绿色的果实挂在细枝上，背景是模糊的绿叶，阳光透过树叶洒下斑驳光影。",
+    "theme": "青色果实枝头"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "果实可能尚未成熟。"
+    ],
+    "direct_observations": [
+      "画面中有数颗青绿色的椭圆形果实。",
+      "果实附着于灰褐色的细树枝上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "青绿色",
+      "椭圆形",
+      "表面光滑"
+    ],
+    "relations": [
+      "果实生长在树枝上。"
+    ],
+    "scene": "户外植物枝条",
+    "subjects": [
+      "青色果实",
+      "树枝"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "果实可能尚未成熟。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有数颗青绿色的椭圆形果实；果实附着于灰褐色的细树枝上。",
+    "safe_facts": [
+      "画面中有数颗青绿色的椭圆形果实。",
+      "果实附着于灰褐色的细树枝上。"
+    ]
+  },
+  "label_id": "cpl_ef3a9fde26935f982765ba13",
+  "provenance": {
+    "generated_at": "2026-08-03T13:37:11.079266+00:00",
+    "migrated_at": "2026-08-03T13:37:11.083371+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "74e5f31ccf8d5347b9e8af6c17a7c34f4724420e0b7fd9e3c17962891aa2b291",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a73f0aadfacfadb38597852d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:37:11.083747+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a73f0aadfacfadb38597852d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

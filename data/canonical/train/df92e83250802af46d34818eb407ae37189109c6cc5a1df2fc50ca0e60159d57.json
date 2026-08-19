@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1608.jpg",
+    "relative_path": "train/1608.jpg",
+    "sha256": "df92e83250802af46d34818eb407ae37189109c6cc5a1df2fc50ca0e60159d57",
+    "split": "train"
+  },
+  "canonical_sha256": "2c9b34a0dc549741a1f2f60b7d3b0d43287876a0cdffbe18b780ff3f49178de4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑猫",
+      "卡通表情",
+      "困惑脸"
+    ],
+    "short_description": "一只黑色卡通猫头，眼睛圆睁，嘴巴下撇，表情显得困惑或不满。",
+    "theme": "黑色卡通猫头"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "表情可能传达困惑或不满情绪。"
+    ],
+    "direct_observations": [
+      "主体为黑色卡通猫头轮廓。",
+      "眼睛呈圆形且向上看。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色",
+      "大眼睛",
+      "下撇嘴"
+    ],
+    "relations": [],
+    "scene": "",
+    "subjects": [
+      "卡通猫头"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "表情可能传达困惑或不满情绪。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "主体为黑色卡通猫头轮廓；眼睛呈圆形且向上看。",
+    "safe_facts": [
+      "主体为黑色卡通猫头轮廓。",
+      "眼睛呈圆形且向上看。"
+    ]
+  },
+  "label_id": "cpl_91c367d594859a4a5200c135",
+  "provenance": {
+    "generated_at": "2026-08-03T14:43:27.103681+00:00",
+    "migrated_at": "2026-08-03T14:43:27.106201+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "540e96214c67716e0d157debd070ef16b36879e9bbfac9420e652cc577f92a32",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f80c4a83a573d4029dd4a9aa",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:43:27.106541+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f80c4a83a573d4029dd4a9aa"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

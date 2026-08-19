@@ -1,0 +1,66 @@
+{
+  "asset_id": "5842fad05168dcc0",
+  "asset_sha256": "5842fad05168dcc08f69d3b74497555f1700789d38e445ea460cc5bf0651b0d4",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"电子电路原理图\",\n    \"short_description\": \"这是一张电子工程设计软件生成的电路原理图截图。图中展示了两个主要芯片元件（U16和U15）及其引脚连接，包含地址线、数据线和控制信号的走线。底部有标准的工程图纸标题栏，标注了项目名称、日期及版本号等信息。\",\n    \"micro_tags\": [\n      \"电路原理图\",\n      \"EDA设计\",\n      \"FPGA\",\n      \"SRAM\",\n      \"电子工程\",\n      \"技术文档\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"电子设计自动化软件界面\",\n    \"subjects\": [\n      \"电路原理图\",\n      \"集成电路符号\",\n      \"电气连接线\",\n      \"标题栏表格\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白底黑线\",\n      \"网格背景\",\n      \"红色边框\",\n      \"蓝色网络标签\",\n      \"工程制图风格\"\n    ],\n    \"relations\": [\n      \"左侧芯片与右侧芯片通过中间的网络标签相连\",\n      \"标题栏位于图纸右下角\",\n      \"去耦电容连接在芯片电源引脚附近\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图像显示了两组主要的矩形集成电路符号，分别标记为U16和U15，周围环绕着密集的引脚编号和网络名称。\",\n      \"图纸右下角包含一个结构化的标题栏表格，其中有‘原理图’、‘电子技术课设原理图’、‘嘉立创EDA’等文字区域。\",\n      \"可以看到具体的元件型号标识，如‘IS61WV102416BLL’和‘XC7A35T-1FTG256C’。\",\n      \"电路中包含标有‘0.1uF’的电容符号以及‘+3.3V’的电源网络标签。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据元件型号推断，这可能是一个基于FPGA和SRAM存储器的嵌入式系统硬件设计。\",\n      \"图中的‘FSMC’前缀暗示该设计可能涉及STM32系列微控制器的外部存储器接口。\"\n    ],\n    \"uncertainties\": []\n    },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"U16\",\n      \"U15\",\n      \"FPGA_A0\",\n      \"FSMC_D0\",\n      \"IS61WV102416BLL\",\n      \"XC7A35T-1FTG256C\",\n      \"原理图\",\n      \"电子技术课设原理图\",\n      \"嘉立创EDA\",\n      \"2024-12-27\",\n      \"V1.0\",\n      \"P3\",\n      \"共 6\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张包含复杂连线、元件符号和表格信息的工程技术图纸截图，背景带有辅助网格。\",\n    \"safe_facts\": [\n      \"图像展示了典型的电子电路 schematic 布局。\",\n      \"画面主要由矩形框代表的芯片组件和",
+      "input_tokens": 2763,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 2763,
+        "output_tokens": 768,
+        "total_tokens": 3531,
+        "estimated_cost_cny": 0.01167,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "电子电路原理图",
+        "short_description": "这是一张电子工程设计软件生成的电路原理图截图。图中展示了两个主要芯片元件（U16和U15）及其引脚连接，包含地址线、数据线和控制信号的走线。底部有标准的工程图纸标题栏，标注了项目名称、日期及版本号等信息。",
+        "micro_tags": [
+          "电路原理图",
+          "EDA设计",
+          "FPGA",
+          "SRAM",
+          "电子工程",
+          "技术文档"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 720548,
+        "request_bytes": 537337,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.68089719999989,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "b4db8a2abcc897b2bdd946910730f6eb45170f202206a985a16080b6b4161c3a"
+}

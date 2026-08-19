@@ -1,0 +1,130 @@
+{
+  "asset_id": "1720dcbffdf56ba0",
+  "asset_sha256": "1720dcbffdf56ba00f825b3a72f0ee287378b32e504f83d144ba0925307fa46c",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"科研项目详情页面\",\n    \"short_description\": \"这是一张网页界面的截图，展示了一个关于利用人工智能进行交通管理的学术研究课题。页面包含项目标题、所属院系、先决条件、详细的项目描述文本以及项目状态和可用时间等信息字段。\",\n    \"micro_tags\": [\n      \"网页截图\",\n      \"科研项目\",\n      \"人工智能\",\n      \"交通管理\",\n      \"表单界面\",\n      \"北卡罗来纳州立大学\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"数字用户界面\",\n    \"subjects\": [\n      \"研究课题详情页\",\n      \"文本信息块\",\n      \"输入框与标签\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白底黑字\",\n      \"结构化布局\",\n      \"左侧标签右侧内容\",\n      \"包含长段落文本\"\n    ],\n    \"relations\": [\n      \"标题位于顶部\",\n      \"描述文本占据主要篇幅\",\n      \"底部显示状态与时间信息\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"页面顶部显示大标题“利用人工智能实现预测性交通管理和智能出行解决方案”。\",\n      \"中间部分有一个大的文本框，详细描述了研究项目的目标和方法。\",\n      \"底部可见“项目状态”为“打开”，“可用性”标注为“2026年夏季”。\",\n      \"主办大学一栏显示为“北卡罗来纳州立大学”。\"\n    ],\n    \"cautious_inferences\": [\n      \"这看起来是一个学术机构或研究管理系统的后台或前台展示页面。\",\n      \"界面设计简洁，主要用于信息展示而非交互操作。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"研究课题\",\n      \"利用人工智能实现预测性交通管理和智能出行解决方案\",\n      \"大学系\",\n      \"GTI\",\n      \"先决条件\",\n      \"人工智能、交通工程、城市规划、数据科学和公共政策等领域的学生。\",\n      \"可开展的研究项目\",\n      \"这项名为“利用人工智能实现预测性交通管理和智能出行解决方案”的研究项目旨在应对日益复杂的城市交通系统...\",\n      \"项目状态\",\n      \"打开\",\n      \"可用性\",\n      \"2026年夏季（6月至8月，共4-8周）\",\n      \"主办大学\",\n      \"北卡罗来纳州立大学\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张包含大量中文文本的网页截图，展示了一个研究项目的详细信息，包括标题、描述段落和底部的状态标签。\",\n    \"safe_facts\": [\n      \"图像为垂直滚动的网页界面截图\",\n      \"包含结构化的键值对信息展示\",\n      \"主要内容由黑色文字和白色背景组成\"\n    ]\n  }\n}",
+      "input_tokens": 2117,
+      "output_tokens": 704,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 2117,
+        "output_tokens": 704,
+        "total_tokens": 2821,
+        "estimated_cost_cny": 0.009866,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "科研项目详情页面",
+          "short_description": "这是一张网页界面的截图，展示了一个关于利用人工智能进行交通管理的学术研究课题。页面包含项目标题、所属院系、先决条件、详细的项目描述文本以及项目状态和可用时间等信息字段。",
+          "micro_tags": [
+            "网页截图",
+            "科研项目",
+            "人工智能",
+            "交通管理",
+            "表单界面",
+            "北卡罗来纳州立大学"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "数字用户界面",
+          "subjects": [
+            "研究课题详情页",
+            "文本信息块",
+            "输入框与标签"
+          ],
+          "actions": [],
+          "attributes": [
+            "白底黑字",
+            "结构化布局",
+            "左侧标签右侧内容",
+            "包含长段落文本"
+          ],
+          "relations": [
+            "标题位于顶部",
+            "描述文本占据主要篇幅",
+            "底部显示状态与时间信息"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "页面顶部显示大标题“利用人工智能实现预测性交通管理和智能出行解决方案”。",
+            "中间部分有一个大的文本框，详细描述了研究项目的目标和方法。",
+            "底部可见“项目状态”为“打开”，“可用性”标注为“2026年夏季”。",
+            "主办大学一栏显示为“北卡罗来纳州立大学”。"
+          ],
+          "cautious_inferences": [
+            "这看起来是一个学术机构或研究管理系统的后台或前台展示页面。",
+            "界面设计简洁，主要用于信息展示而非交互操作。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "研究课题",
+            "利用人工智能实现预测性交通管理和智能出行解决方案",
+            "大学系",
+            "GTI",
+            "先决条件",
+            "人工智能、交通工程、城市规划、数据科学和公共政策等领域的学生。",
+            "可开展的研究项目",
+            "这项名为“利用人工智能实现预测性交通管理和智能出行解决方案”的研究项目旨在应对日益复杂的城市交通系统...",
+            "项目状态",
+            "打开",
+            "可用性",
+            "2026年夏季（6月至8月，共4-8周）",
+            "主办大学",
+            "北卡罗来纳州立大学"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张包含大量中文文本的网页截图，展示了一个研究项目的详细信息，包括标题、描述段落和底部的状态标签。",
+          "safe_facts": [
+            "图像为垂直滚动的网页界面截图",
+            "包含结构化的键值对信息展示",
+            "主要内容由黑色文字和白色背景组成"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 250672,
+        "request_bytes": 184932,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.692381900000328,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "8c1bd1d37b0ebc19dd2f9eac7e58d321453fa6c5e363b1d2de36d0c32b98dd3b"
+}

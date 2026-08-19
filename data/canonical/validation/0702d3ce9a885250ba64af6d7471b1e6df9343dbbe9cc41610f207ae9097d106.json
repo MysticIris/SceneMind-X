@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2145.jpg",
+    "relative_path": "val/2145.jpg",
+    "sha256": "0702d3ce9a885250ba64af6d7471b1e6df9343dbbe9cc41610f207ae9097d106",
+    "split": "val"
+  },
+  "canonical_sha256": "11b34d34fb0a0bfed301fa33ba94409d1fb52d586da8ab126cf76e45d6370cfe",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "室内",
+      "观看电视",
+      "多人",
+      "长桌"
+    ],
+    "short_description": "三名青年围坐在长桌旁，专注观看电视屏幕上的女性主持人画面。",
+    "theme": "室内会议观看电视"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "三名男性坐在一张长条形木纹桌子旁。",
+      "电视屏幕显示一位女性主持人图像。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "观看",
+      "坐着"
+    ],
+    "attributes": [
+      "木质长桌",
+      "浅色窗帘",
+      "木制柜子"
+    ],
+    "relations": [
+      "三名男性围绕长桌。",
+      "电视屏幕位于房间右侧。"
+    ],
+    "scene": "室内会议室或办公室",
+    "subjects": [
+      "三名男性",
+      "电视屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三名男性坐在一张长条形木纹桌子旁；电视屏幕显示一位女性主持人图像。",
+    "safe_facts": [
+      "三名男性坐在一张长条形木纹桌子旁。",
+      "电视屏幕显示一位女性主持人图像。"
+    ]
+  },
+  "label_id": "cpl_a0699089a8d34711faa2f845",
+  "provenance": {
+    "generated_at": "2026-08-03T16:04:52.895683+00:00",
+    "migrated_at": "2026-08-03T16:04:52.897756+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "944a782dd58ef7276178c99838e1be6a1d81fad54cc3a9c914efed5400b8a5bc",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_723e8c81e8b4753b0f918755",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:04:52.898098+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_723e8c81e8b4753b0f918755"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

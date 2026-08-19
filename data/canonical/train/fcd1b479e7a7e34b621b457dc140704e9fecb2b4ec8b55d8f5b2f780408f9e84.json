@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:727.jpg",
+    "relative_path": "train/727.jpg",
+    "sha256": "fcd1b479e7a7e34b621b457dc140704e9fecb2b4ec8b55d8f5b2f780408f9e84",
+    "split": "train"
+  },
+  "canonical_sha256": "7314a53d235265ad6020cd4c76637678082fe00519038cd908051315c8994b91",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电动车",
+      "夜间",
+      "湿地面",
+      "红色包裹"
+    ],
+    "short_description": "夜间湿滑路面上，一辆银色电动车旁有人穿着深色裤子和白色鞋子，车后载有红色带图案的包裹。",
+    "theme": "夜间街边电动车"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一辆银色电动车，车头朝向镜头。",
+      "电动车后部挂有红色带图案的包裹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "银色车身",
+      "红色带图案包裹",
+      "湿滑地面",
+      "白色运动鞋",
+      "深色裤子"
+    ],
+    "relations": [
+      "人站在电动车旁。",
+      "包裹挂在电动车后部。"
+    ],
+    "scene": "夜间户外街道",
+    "subjects": [
+      "电动车",
+      "人",
+      "包裹"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一辆银色电动车，车头朝向镜头；电动车后部挂有红色带图案的包裹。",
+    "safe_facts": [
+      "画面中有一辆银色电动车，车头朝向镜头。",
+      "电动车后部挂有红色带图案的包裹。"
+    ]
+  },
+  "label_id": "cpl_3b24280f492cfe98190ea0d3",
+  "provenance": {
+    "generated_at": "2026-08-03T12:09:56.774493+00:00",
+    "migrated_at": "2026-08-03T12:09:56.777652+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7dba9731add579ae11e6b4c6e91cb7baa4dccd2c6c8a95cfbf137a2af0fa37c3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4a9195132070d61d200ecd44",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:09:56.778010+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4a9195132070d61d200ecd44"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

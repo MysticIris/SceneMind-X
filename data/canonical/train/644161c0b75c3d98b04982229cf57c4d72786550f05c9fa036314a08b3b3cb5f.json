@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:44.jpg",
+    "relative_path": "train/44.jpg",
+    "sha256": "644161c0b75c3d98b04982229cf57c4d72786550f05c9fa036314a08b3b3cb5f",
+    "split": "train"
+  },
+  "canonical_sha256": "2ffe8e546887ec2c164dc0cd8d48615391a4ec028fad82a9c71e683536be793b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "鱼摊",
+      "街边",
+      "悬挂鱼",
+      "顾客"
+    ],
+    "short_description": "街边店铺门前挂满鱼，顾客坐在椅子上，旁边停着一辆银色轿车。",
+    "theme": "街边鱼摊"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "店铺门前悬挂一排鱼。",
+      "一名顾客背对镜头坐在黑色办公椅上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "鱼呈橙红色",
+      "招牌上有红色汉字",
+      "轿车停在路边",
+      "椅子有蓝色坐垫"
+    ],
+    "relations": [
+      "鱼悬挂在横杆上。",
+      "顾客坐在椅子上。",
+      "轿车停在店铺前方。"
+    ],
+    "scene": "街边店铺门口",
+    "subjects": [
+      "悬挂的鱼",
+      "顾客",
+      "店铺招牌",
+      "银色轿车",
+      "椅子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "店铺门前悬挂一排鱼；一名顾客背对镜头坐在黑色办公椅上。",
+    "safe_facts": [
+      "店铺门前悬挂一排鱼。",
+      "一名顾客背对镜头坐在黑色办公椅上。"
+    ]
+  },
+  "label_id": "cpl_d47101189764c9c0c8d8020d",
+  "provenance": {
+    "generated_at": "2026-08-03T09:13:14.279007+00:00",
+    "migrated_at": "2026-08-03T09:13:14.280966+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a6444fb833dfef10d13c478ae15a4b081bbef273fcd6a6d8721265972006b1e5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f6746682d277890aa265566e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:26.884512+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f6746682d277890aa265566e",
+    "cpl_b82376d3fd0f76743ef09a30"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "湖水湖鱼"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "湖水湖鱼"
+    ]
+  }
+}

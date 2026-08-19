@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2085.jpg",
+    "relative_path": "val/2085.jpg",
+    "sha256": "c1ea4bb750df96ad52dffeece30e8e247d0272e9807e8142b29612cc6606f3aa",
+    "split": "val"
+  },
+  "canonical_sha256": "4d20599286cef058fff9f2d88951b872de8dd754c0188edc9e873e19c4101829",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "赛事横幅",
+      "户外宣传",
+      "校园活动"
+    ],
+    "short_description": "户外大型活动宣传横幅，展示赛事名称、口号及赞助商信息，背景为绿树。",
+    "theme": "宣传横幅与树木"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "背景可见绿色树木和部分围栏。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色与红色为主色调",
+      "带有白色书法字体"
+    ],
+    "relations": [],
+    "scene": "户外活动现场",
+    "subjects": [
+      "宣传横幅",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "背景可见绿色树木和部分围栏。",
+    "safe_facts": [
+      "背景可见绿色树木和部分围栏。"
+    ]
+  },
+  "label_id": "cpl_02e8b683a4e27859fa602a18",
+  "provenance": {
+    "generated_at": "2026-08-03T15:57:28.616776+00:00",
+    "migrated_at": "2026-08-03T15:57:28.618773+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "672428aad12b773cc6f19c39a2aeb33ff60f91ca3036f6d5538b552523eae745",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_02979785d2f570c7c31c3b1b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:57:28.619312+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.theme"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_02979785d2f570c7c31c3b1b"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "2023高校百英里接力赛(第八届)",
+      "武汉站",
+      "风华正茂 接力中国",
+      "Season 2023",
+      "LTD 高校百英里接力",
+      "MOVE 一骑当先"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "2023高校百英里接力赛(第八届)",
+      "武汉站",
+      "风华正茂 接力中国",
+      "Season 2023",
+      "LTD 高校百英里接力",
+      "MOVE 一骑当先"
+    ]
+  }
+}

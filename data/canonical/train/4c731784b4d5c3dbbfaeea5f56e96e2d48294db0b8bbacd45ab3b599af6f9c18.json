@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1636.jpg",
+    "relative_path": "train/1636.jpg",
+    "sha256": "4c731784b4d5c3dbbfaeea5f56e96e2d48294db0b8bbacd45ab3b599af6f9c18",
+    "split": "train"
+  },
+  "canonical_sha256": "6cf37de1e33940c7d56b7124e5f4e186f5bf7c6229f9020ca8fc3d8e8bd76b03",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "棕色马",
+      "吃草",
+      "草地",
+      "绿色盆"
+    ],
+    "short_description": "一匹棕色马在草地上低头吃草，旁边有一个绿色塑料盆，背景是树木和阴天天空。",
+    "theme": "草地上的马"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "马低头靠近地面吃草。",
+      "马身体呈棕色，尾部和鬃毛为黑色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "吃草"
+    ],
+    "attributes": [
+      "棕色",
+      "有黑色鬃毛",
+      "戴缰绳",
+      "有白色斑点"
+    ],
+    "relations": [
+      "马在草地上。",
+      "马旁边有绿色盆。"
+    ],
+    "scene": "户外草地",
+    "subjects": [
+      "马"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "马低头靠近地面吃草；马身体呈棕色，尾部和鬃毛为黑色。",
+    "safe_facts": [
+      "马低头靠近地面吃草。",
+      "马身体呈棕色，尾部和鬃毛为黑色。"
+    ]
+  },
+  "label_id": "cpl_48f10a0ed2c4c71ddf3e86c6",
+  "provenance": {
+    "generated_at": "2026-08-03T14:47:57.015722+00:00",
+    "migrated_at": "2026-08-03T14:47:57.018324+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d93753cdd2b7f3383e917d4fd532afb696fd081b7d0fb168836cd59d12a3c38f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a1aee8b6130ae091606ee5b0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:47:57.018657+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a1aee8b6130ae091606ee5b0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

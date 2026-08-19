@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1198.jpg",
+    "relative_path": "train/1198.jpg",
+    "sha256": "12fd3980e8fae43444656978d94811bbb5dec16865ba2a555a7a098e66d9b5fa",
+    "split": "train"
+  },
+  "canonical_sha256": "c91ee2f82d894f8675fae9f0f319fbae9c709af5ec442c249a9750e28c7ad40c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "博物馆展柜"
+    ],
+    "short_description": "一件展品，置于展柜内，配有说明牌和照明设备。",
+    "theme": "博物馆展柜"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "展柜内有照明灯和温度计。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "说明牌为白色背景",
+      "展柜有灰色织物衬底"
+    ],
+    "relations": [],
+    "scene": "博物馆展柜内景",
+    "subjects": [
+      "说明牌",
+      "照明装置"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "展柜内有照明灯和温度计。",
+    "safe_facts": [
+      "展柜内有照明灯和温度计。"
+    ]
+  },
+  "label_id": "cpl_7ad9a38a03e8b488d12c7bfb",
+  "provenance": {
+    "generated_at": "2026-08-03T13:52:00.885488+00:00",
+    "migrated_at": "2026-08-03T13:52:00.889000+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "42ac4e05d157a0fb93f434086dda0e24f43941881ddf4803d64331a1d082fc1d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_bc9f353e55ac981472195d46",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:52:00.889705+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:attributes",
+      "removed_unverified_text:direct_observations",
+      "removed_unverified_text:relations"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_bc9f353e55ac981472195d46"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "陶器",
+      "新石器时代",
+      "1955年天门石家河三房湾遗址出土",
+      "Pottery / incised",
+      "50%"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "陶器",
+      "新石器时代",
+      "1955年天门石家河三房湾遗址出土",
+      "Pottery / incised",
+      "50%"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "profile_version": "phase6_7_provider_capability_profiles_v1",
+  "status": "experimental_inactive_not_wired_to_formal_8765",
+  "task_semantics_changed": false,
+  "canonical_schema_changed": false,
+  "profiles": {
+    "local_qwen3_vl_4b": {
+      "model_id": "Qwen/Qwen3-VL-4B-Instruct",
+      "positioning": "local_private_offline",
+      "generation_policy": "keep_frozen_phase6_6_per_scenario_caps",
+      "prompt_suffix": null
+    },
+    "bailian_qwen3_6_flash": {
+      "model_id": "qwen3.6-flash",
+      "positioning": "cloud_standard_economic",
+      "generation_policy": "keep_phase6_6_standard_per_scenario_caps",
+      "target_length_guidance": {
+        "detailed_description_chinese_characters": "300-500",
+        "story_or_travel_chinese_characters": "600-1000"
+      },
+      "prompt_suffix_template": "请在约{max_chinese_characters}字以内完成，优先保证内容完整、逻辑连贯，不要重复信息。"
+    },
+    "bailian_qwen3_7_plus": {
+      "model_id": "qwen3.7-plus",
+      "positioning": "cloud_high_quality",
+      "generation_policy": "task_bounded_high_quality_caps",
+      "target_length_guidance": {
+        "detailed_description_chinese_characters": "400-700",
+        "story_or_travel_chinese_characters": "800-1400"
+      },
+      "canonical_validation_caps": [
+        768,
+        896
+      ],
+      "prompt_suffix_template": "请在约{max_chinese_characters}字以内完成，优先保证内容完整、逻辑连贯，不要重复信息。"
+    },
+    "bailian_qwen3_vl_plus": {
+      "model_id": "qwen3-vl-plus",
+      "positioning": "compatibility_only_not_default_visible_preset",
+      "generation_policy": "no_new_product_profile_in_phase6_7",
+      "prompt_suffix": null
+    },
+    "bailian_qwen3_vl_embedding": {
+      "model_id": "qwen3-vl-embedding",
+      "positioning": "experimental_cloud_embedding",
+      "dimension": 1024,
+      "index_identity_rule": "must_use_an_independent_matching_cloud_embedding_index",
+      "formal_e1_overwrite": false
+    }
+  }
+}

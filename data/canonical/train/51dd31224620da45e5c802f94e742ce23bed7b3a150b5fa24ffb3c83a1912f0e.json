@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:230.jpg",
+    "relative_path": "train/230.jpg",
+    "sha256": "51dd31224620da45e5c802f94e742ce23bed7b3a150b5fa24ffb3c83a1912f0e",
+    "split": "train"
+  },
+  "canonical_sha256": "5681fd6f412c63b1598199842f717b06df7f97a563983cb0ac5c2026f7184f10",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "卡通人物",
+      "白发",
+      "黑色眼罩",
+      "高领服装"
+    ],
+    "short_description": "黑白线条风格的卡通人物，白发，戴黑色眼罩，穿黑色高领服装，背景纯白。",
+    "theme": "卡通角色插画"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "人物为卡通风格，由黑色线条勾勒轮廓。",
+      "人物头发为白色，眼罩覆盖右眼，身穿黑色高领衣物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白发",
+      "黑色眼罩",
+      "黑色高领服装"
+    ],
+    "relations": [],
+    "scene": "纯白色背景",
+    "subjects": [
+      "卡通人物"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "人物为卡通风格，由黑色线条勾勒轮廓；人物头发为白色，眼罩覆盖右眼，身穿黑色高领衣物。",
+    "safe_facts": [
+      "人物为卡通风格，由黑色线条勾勒轮廓。",
+      "人物头发为白色，眼罩覆盖右眼，身穿黑色高领衣物。"
+    ]
+  },
+  "label_id": "cpl_74299b11e5bef3a9f27bce1e",
+  "provenance": {
+    "generated_at": "2026-08-03T10:20:59.266660+00:00",
+    "migrated_at": "2026-08-03T10:20:59.269016+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "afc32770ca34da48bcc290ab8af41a3bcaf83c928a697d1e1ed273878ecde2b1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f2597a1fac368a545416cc70",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:20:59.269295+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f2597a1fac368a545416cc70"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

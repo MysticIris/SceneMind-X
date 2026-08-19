@@ -1,0 +1,138 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:447.jpg",
+    "relative_path": "train/447.jpg",
+    "sha256": "09b14f6c842f65b0aa5b99ce0ad6ca1b3fac59cb51c67884478fbcdf78e6cdd4",
+    "split": "train"
+  },
+  "canonical_sha256": "8fd391680dde6904a35d9cbf154f3b2fa0521476965fb42247312b51b41f57b8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "校门",
+      "行人",
+      "车辆"
+    ],
+    "short_description": "晴朗天气下，一所高校的校门入口，两侧立柱刻有校名，前方有行人与车辆通行。",
+    "theme": "大学校门入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天空呈蓝色并有少量云朵。",
+      "校门两侧立柱上刻有金色汉字。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "驾驶",
+      "站立"
+    ],
+    "attributes": [
+      "晴朗天空",
+      "多云",
+      "现代建筑",
+      "金属立柱",
+      "白色护栏"
+    ],
+    "relations": [
+      "行人靠近校门。",
+      "车辆停靠在校门旁。",
+      "立柱支撑校门结构。"
+    ],
+    "scene": "高校校门入口区域",
+    "subjects": [
+      "行人",
+      "车辆",
+      "建筑物",
+      "立柱"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈蓝色并有少量云朵；校门两侧立柱上刻有金色汉字。",
+    "safe_facts": [
+      "天空呈蓝色并有少量云朵。",
+      "校门两侧立柱上刻有金色汉字。"
+    ]
+  },
+  "label_id": "cpl_2078448e9e4967b6547036f8",
+  "provenance": {
+    "generated_at": "2026-08-03T11:05:18.176469+00:00",
+    "migrated_at": "2026-08-03T11:05:18.178553+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ca893d53bf007c4781117a2dbd344248578f449e2cf4cc95f32b3e54933ea28b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_756094314b4a72daeca34079",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:05:18.178945+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_756094314b4a72daeca34079"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "同济医学院",
+      "华中科技大学"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "同济医学院",
+      "华中科技大学"
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1362.jpg",
+    "relative_path": "train/1362.jpg",
+    "sha256": "718976f525fbb9643adebca0f5beafee1205a036f65757a80c233f9a8a25625f",
+    "split": "train"
+  },
+  "canonical_sha256": "7d6cb89e7d21b4301369e45e4b7f7c1192629c8076112964ab86e3934fb76355",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "公交拥堵",
+      "交通事故",
+      "城市街道"
+    ],
+    "short_description": "俯拍视角下，多辆公交车与私家车在交叉路口发生严重交通堵塞，车辆密集堆叠，路面标线清晰可见。",
+    "theme": "公交拥堵事故"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多辆公交车和私家车密集停放在交叉路口。",
+      "路面有白色斑马线和车道分隔线。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "多辆公交车",
+      "多辆私家车",
+      "湿滑路面",
+      "交叉路口"
+    ],
+    "relations": [
+      "公交车与私家车混杂停放。",
+      "车辆密集堆叠。"
+    ],
+    "scene": "城市交叉路口",
+    "subjects": [
+      "公交车",
+      "私家车",
+      "道路标线"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多辆公交车和私家车密集停放在交叉路口；路面有白色斑马线和车道分隔线。",
+    "safe_facts": [
+      "画面中有多辆公交车和私家车密集停放在交叉路口。",
+      "路面有白色斑马线和车道分隔线。"
+    ]
+  },
+  "label_id": "cpl_b36b631132068fc53b024581",
+  "provenance": {
+    "generated_at": "2026-08-03T14:14:55.375438+00:00",
+    "migrated_at": "2026-08-03T14:14:55.380092+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3726fbbf453bb1ad1979bf6b90690bb6e2c547a5619900a1cb009b880dac39e9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fdcb7327530f411297b25645",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:14:55.380670+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fdcb7327530f411297b25645"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "坐公交上班咯"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "坐公交上班咯"
+    ]
+  }
+}

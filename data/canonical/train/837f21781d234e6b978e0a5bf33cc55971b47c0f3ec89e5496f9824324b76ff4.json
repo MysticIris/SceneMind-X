@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1377.jpg",
+    "relative_path": "train/1377.jpg",
+    "sha256": "837f21781d234e6b978e0a5bf33cc55971b47c0f3ec89e5496f9824324b76ff4",
+    "split": "train"
+  },
+  "canonical_sha256": "e4a0e6eb760b0c33d64b665c4c438645aaeb8147400e629314483b18862d0abc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "火锅",
+      "涮肉",
+      "餐桌",
+      "食材",
+      "餐具"
+    ],
+    "short_description": "一张火锅餐桌俯拍图，中央是分格锅具，周围摆满食材和调料，餐具齐全，氛围热闹。",
+    "theme": "火锅聚餐"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "桌上有一个方形金属火锅锅，内部分为多个隔间，其中一格盛有红色汤底，另一格有黑色酱料。",
+      "桌面上摆放着多份切片肉卷、绿色蔬菜、芝麻酱碗、西瓜块及玻璃杯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金属锅具",
+      "分格设计",
+      "红色汤底",
+      "白色瓷盘",
+      "木质筷子"
+    ],
+    "relations": [
+      "锅具位于餐桌中央。",
+      "食材围绕锅具摆放。",
+      "餐具分布在桌面各处。"
+    ],
+    "scene": "室内用餐环境",
+    "subjects": [
+      "火锅锅具",
+      "食材",
+      "餐具",
+      "杯子",
+      "纸巾盒"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "桌上有一个方形金属火锅锅，内部分为多个隔间，其中一格盛有红色汤底，另一格有黑色酱料；桌面上摆放着多份切片肉卷、绿色蔬菜、芝麻酱碗、西瓜块及玻璃杯。",
+    "safe_facts": [
+      "桌上有一个方形金属火锅锅，内部分为多个隔间，其中一格盛有红色汤底，另一格有黑色酱料。",
+      "桌面上摆放着多份切片肉卷、绿色蔬菜、芝麻酱碗、西瓜块及玻璃杯。"
+    ]
+  },
+  "label_id": "cpl_666fee234f39edbab35478aa",
+  "provenance": {
+    "generated_at": "2026-08-03T14:16:36.295988+00:00",
+    "migrated_at": "2026-08-03T14:16:36.298724+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "576863b82b959973bb03f1862412ca402d304e505ab726b38b0d151cb90bf77b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_111ebae697d36bdabbf5179d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:16:36.299135+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_111ebae697d36bdabbf5179d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

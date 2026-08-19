@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:979.jpg",
+    "relative_path": "train/979.jpg",
+    "sha256": "ad7f2a760aed9c49b3cf449b6e58a3e653d3a32d33fa82a2d449597410a59924",
+    "split": "train"
+  },
+  "canonical_sha256": "249eb2795b3e0cd2bbdb029100539a532d521a83e6804e7764bbe8c24b56df94",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "灯塔",
+      "海岸",
+      "悬崖",
+      "云层"
+    ],
+    "short_description": "海边悬崖上一座红白相间的灯塔，旁边有石板路和木栏杆，天空云层密布。",
+    "theme": "海岸灯塔"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "灯塔主体为红白相间条纹。",
+      "前景有石板铺成的道路和木质栏杆。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红白相间",
+      "石板路面",
+      "木质栏杆",
+      "多云天空"
+    ],
+    "relations": [
+      "灯塔位于悬崖边缘。",
+      "道路沿悬崖延伸。",
+      "栏杆沿道路设置。"
+    ],
+    "scene": "海边悬崖",
+    "subjects": [
+      "灯塔",
+      "道路",
+      "栏杆",
+      "岩石",
+      "海洋"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "灯塔主体为红白相间条纹；前景有石板铺成的道路和木质栏杆。",
+    "safe_facts": [
+      "灯塔主体为红白相间条纹。",
+      "前景有石板铺成的道路和木质栏杆。"
+    ]
+  },
+  "label_id": "cpl_78717dcf409385e3499972d3",
+  "provenance": {
+    "generated_at": "2026-08-03T13:09:16.666286+00:00",
+    "migrated_at": "2026-08-03T13:09:16.672054+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "59b57108592e156707ab3bbf28b9869fc04fc8f78b844b1014618d4de8ee90c9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_78717dcf409385e3499972d3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:21:20.985628+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1550571d02642a7de8e956c8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1705.jpg",
+    "relative_path": "train/1705.jpg",
+    "sha256": "2caf059000bcdfe8e941b68c61c2c1046d9aec4b905b799ecf2e2276340d6a5e",
+    "split": "train"
+  },
+  "canonical_sha256": "2ebd3f0e50ddf31ffec80e0cb17f9d173903ffb2a08fe4d6194ba21cf36e1b25",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "白色小狗",
+      "毛茸茸",
+      "坐着"
+    ],
+    "short_description": "一只白色毛茸茸的小狗坐在木板上，表情看起来不开心。",
+    "theme": "毛茸茸的小动物"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "小狗的表情看起来不开心，可能因环境或情绪导致。"
+    ],
+    "direct_observations": [
+      "画面中有一只白色毛茸茸的小狗。",
+      "小狗位于木板地面上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "毛茸茸",
+      "白色",
+      "坐着"
+    ],
+    "relations": [],
+    "scene": "户外木板地面",
+    "subjects": [
+      "一只白色小狗"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "小狗的表情看起来不开心，可能因环境或情绪导致。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一只白色毛茸茸的小狗；小狗位于木板地面上。",
+    "safe_facts": [
+      "画面中有一只白色毛茸茸的小狗。",
+      "小狗位于木板地面上。"
+    ]
+  },
+  "label_id": "cpl_3475421cfbc5e4df4e73eb87",
+  "provenance": {
+    "generated_at": "2026-08-03T14:57:39.813636+00:00",
+    "migrated_at": "2026-08-03T14:57:39.815317+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "13cfb9c2d8c710130a969e0217fd5724dab1b08350a759b5cabab0550d994a3a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_42a85617ec96b6c724c912f1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:57:39.815548+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_42a85617ec96b6c724c912f1"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "不乐"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "不乐"
+    ]
+  }
+}

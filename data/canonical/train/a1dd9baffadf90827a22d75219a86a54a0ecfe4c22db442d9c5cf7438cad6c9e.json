@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:766.jpg",
+    "relative_path": "train/766.jpg",
+    "sha256": "a1dd9baffadf90827a22d75219a86a54a0ecfe4c22db442d9c5cf7438cad6c9e",
+    "split": "train"
+  },
+  "canonical_sha256": "8d3b1b949cb7f3d1821f5347c08261e764ce6b16390623c20b64e8f6c24577f5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "钟楼",
+      "花坛",
+      "游客"
+    ],
+    "short_description": "天空呈蓝色，有白色云朵；建筑顶部有钟面，周围有装饰性尖塔。",
+    "theme": "钟楼建筑与游客"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天空呈蓝色，有白色云朵。",
+      "建筑顶部有钟面，周围有装饰性尖塔。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝天",
+      "白云",
+      "装饰性建筑",
+      "彩色花卉"
+    ],
+    "relations": [
+      "游客位于花坛前方。",
+      "钟楼建筑位于画面中央。"
+    ],
+    "scene": "上海迪士尼乐园入口区域",
+    "subjects": [
+      "钟楼建筑",
+      "游客",
+      "花坛",
+      "路灯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈蓝色，有白色云朵；建筑顶部有钟面，周围有装饰性尖塔。",
+    "safe_facts": [
+      "天空呈蓝色，有白色云朵。",
+      "建筑顶部有钟面，周围有装饰性尖塔。"
+    ]
+  },
+  "label_id": "cpl_33c36e8dc3350a6e855b9027",
+  "provenance": {
+    "generated_at": "2026-08-03T12:18:53.822017+00:00",
+    "migrated_at": "2026-08-03T12:18:53.825100+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8bcf5c873d54a8b76744cb88339e52c476e899ad1a24f8f38051135b10a07405",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_48daf20beabce0bb735a660c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:18:53.827134+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_48daf20beabce0bb735a660c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "SHANGHAI DISNEYLAND",
+      "上海迪士尼乐园"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "SHANGHAI DISNEYLAND",
+      "上海迪士尼乐园"
+    ]
+  }
+}

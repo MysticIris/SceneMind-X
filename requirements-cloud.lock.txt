@@ -1,0 +1,15 @@
+# Phase 7.7-A cloud/self-hosted product runtime layer.
+# Audited interpreter: CPython 3.13.9 on Windows 11 x64.
+# This is an auditable snapshot of the current formal Windows environment.
+# It is not an installer and Phase 7.7-A does not rebuild the existing venv.
+fastapi==0.138.1
+uvicorn==0.49.0
+httpx==0.28.1
+numpy==2.3.5
+Pillow==12.2.0
+faiss-cpu==1.14.3
+pydantic==2.13.4
+psutil==7.2.2
+jsonschema==4.26.0
+jieba==0.42.1
+opencc-python-reimplemented==0.1.7

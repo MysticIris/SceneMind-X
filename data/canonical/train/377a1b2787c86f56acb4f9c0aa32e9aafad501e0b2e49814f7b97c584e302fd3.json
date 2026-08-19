@@ -1,0 +1,142 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:145.jpg",
+    "relative_path": "train/145.jpg",
+    "sha256": "377a1b2787c86f56acb4f9c0aa32e9aafad501e0b2e49814f7b97c584e302fd3",
+    "split": "train"
+  },
+  "canonical_sha256": "6edb0ffd763e22e50687108d9cd9276d0a7700a3e412584c0178300083c55a28",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "粉花树",
+      "城市公园",
+      "步道",
+      "行人"
+    ],
+    "short_description": "城市公园内粉红色花树成片绽放，行人与电动车穿梭于蜿蜒步道，远处建筑群与山丘相映成趣。",
+    "theme": "城市公园春景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该场景可能处于春季。",
+      "树木部分枝干未长叶，可能为早春。"
+    ],
+    "direct_observations": [
+      "大量粉红色花朵盛开在树木上。",
+      "多条铺装步道上有行人和电动车通行。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "骑行",
+      "停放"
+    ],
+    "attributes": [
+      "粉红色花朵",
+      "灰色步道",
+      "多层建筑",
+      "光秃树枝"
+    ],
+    "relations": [
+      "花树位于步道旁。",
+      "行人与电动车在步道上移动。",
+      "建筑群位于背景。"
+    ],
+    "scene": "城市公园及周边区域",
+    "subjects": [
+      "粉花树",
+      "行人",
+      "电动车",
+      "建筑物",
+      "山丘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该场景可能处于春季。",
+      "树木部分枝干未长叶，可能为早春。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大量粉红色花朵盛开在树木上；多条铺装步道上有行人和电动车通行。",
+    "safe_facts": [
+      "大量粉红色花朵盛开在树木上。",
+      "多条铺装步道上有行人和电动车通行。"
+    ]
+  },
+  "label_id": "cpl_15a93a12d1c1c0e4c0782375",
+  "provenance": {
+    "generated_at": "2026-08-03T09:37:17.381277+00:00",
+    "migrated_at": "2026-08-03T09:37:17.383188+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8fa51427934b3b253b4a326ae59c78e67399ecaa70cb199d19e0c8cfdb333517",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9a94180a919bea70228255f6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:41.636204+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9a94180a919bea70228255f6",
+    "cpl_3144a36b1c4263db4b8e3578"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "03/11/2024 17:59",
+      "Hongshan, Wuhan"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "03/11/2024 17:59",
+      "Hongshan, Wuhan"
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1851.jpg",
+    "relative_path": "train/1851.jpg",
+    "sha256": "2d6dc6e6f34b28457ca48413511c598cafcd5985d198a4accc6159a6f7ef46dc",
+    "split": "train"
+  },
+  "canonical_sha256": "d27fa755a12ebe89c290cbf1d7fda939d57276863fa39dde56db047bf0a391bc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雾天",
+      "桥梁",
+      "海面",
+      "栏杆"
+    ],
+    "short_description": "雾气弥漫的海面上，一座长桥横跨水面，前景是石质栏杆，整体色调灰蒙。",
+    "theme": "雾中大桥"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "水面因雾气显得模糊不清，远处桥梁轮廓被雾气部分遮挡。"
+    ],
+    "direct_observations": [
+      "画面中可见一座横跨水面的长桥，桥上有两个明显的拱形塔架。",
+      "前景有深色石质栏杆，表面有纹理。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "雾气弥漫",
+      "灰色调",
+      "石质栏杆"
+    ],
+    "relations": [
+      "桥梁横跨水面。",
+      "栏杆位于前景。"
+    ],
+    "scene": "海边雾天",
+    "subjects": [
+      "桥梁",
+      "栏杆",
+      "水面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "水面因雾气显得模糊不清，远处桥梁轮廓被雾气部分遮挡。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见一座横跨水面的长桥，桥上有两个明显的拱形塔架；前景有深色石质栏杆，表面有纹理。",
+    "safe_facts": [
+      "画面中可见一座横跨水面的长桥，桥上有两个明显的拱形塔架。",
+      "前景有深色石质栏杆，表面有纹理。"
+    ]
+  },
+  "label_id": "cpl_84d9b1c86f2aa2323f23cf6b",
+  "provenance": {
+    "generated_at": "2026-08-03T15:13:12.101242+00:00",
+    "migrated_at": "2026-08-03T15:13:12.102945+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2edc358793b88c5eabcad6a6adde49cc5516f3d150e7a5683344f0e96acd72e0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_334be02b499e63887f52a093",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:13:12.103156+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_334be02b499e63887f52a093"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:508.jpg",
+    "relative_path": "train/508.jpg",
+    "sha256": "9c662cefc6e337597c3bcc98027c96ce992b557be19b71605d5400fe886475f1",
+    "split": "train"
+  },
+  "canonical_sha256": "42a8cf16724102828dee0a8434e353d1947b8d378076b76ae54c62f66812ea21",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄色寺庙",
+      "游客聚集",
+      "传统建筑"
+    ],
+    "short_description": "晴朗天气下，游客聚集在一座黄色寺庙建筑前，背景有传统飞檐屋顶和光秃树木。",
+    "theme": "黄色寺庙建筑群"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空晴朗，阳光充足。"
+    ],
+    "direct_observations": [
+      "建筑物外墙呈鲜明黄色。",
+      "屋顶为深灰色瓦片，具有中式飞檐结构。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "行走",
+      "参观"
+    ],
+    "attributes": [
+      "黄色墙壁",
+      "深色瓦片屋顶",
+      "光秃树枝",
+      "晴朗蓝天"
+    ],
+    "relations": [
+      "游客位于寺庙前方台阶上。",
+      "寺庙建筑依山而建。"
+    ],
+    "scene": "户外寺庙庭院",
+    "subjects": [
+      "游客",
+      "寺庙建筑",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空晴朗，阳光充足。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑物外墙呈鲜明黄色；屋顶为深灰色瓦片，具有中式飞檐结构。",
+    "safe_facts": [
+      "建筑物外墙呈鲜明黄色。",
+      "屋顶为深灰色瓦片，具有中式飞檐结构。"
+    ]
+  },
+  "label_id": "cpl_4ee8fd6ad98f9ac1da2433ae",
+  "provenance": {
+    "generated_at": "2026-08-03T11:18:09.595899+00:00",
+    "migrated_at": "2026-08-03T11:18:09.598225+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "32c55c8b3689326092740e912cc98dbf9b902537fb8bfd4dcc91ce65c4c888fc",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4ecd9442e7452b7114c8b771",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:18:09.598608+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4ecd9442e7452b7114c8b771"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

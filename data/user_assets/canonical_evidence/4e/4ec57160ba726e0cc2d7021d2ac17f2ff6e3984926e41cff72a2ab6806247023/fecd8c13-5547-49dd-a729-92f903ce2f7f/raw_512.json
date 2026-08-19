@@ -1,0 +1,128 @@
+{
+  "asset_id": "4ec57160ba726e0c",
+  "asset_sha256": "4ec57160ba726e0cc2d7021d2ac17f2ff6e3984926e41cff72a2ab6806247023",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"雪后停放的电动车\",\n    \"short_description\": \"这是一张雪天场景的照片，画面中密集停放着大量电动自行车和自行车。车辆的车座、车把及前置车篮上均覆盖着厚厚的积雪，显示出降雪量较大。背景是一栋贴有灰色瓷砖的建筑物，窗户装有金属防盗网，地面潮湿且散落着残雪。\",\n    \"micro_tags\": [\n      \"雪景\",\n      \"电动车\",\n      \"积雪\",\n      \"停车区\",\n      \"冬季\",\n      \"建筑物\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"室外建筑物旁的非机动车停放区域\",\n    \"subjects\": [\n      \"电动自行车\",\n      \"自行车\",\n      \"积雪\",\n      \"建筑物外墙\",\n      \"窗户\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"被雪覆盖\",\n      \"密集排列\",\n      \"潮湿\",\n      \"灰色瓷砖墙面\",\n      \"金属防盗窗\"\n    ],\n    \"relations\": [\n      \"车辆停放在建筑物旁\",\n      \"积雪覆盖在车辆部件上\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"大量两轮车辆（电动车和自行车）紧密并排停放。\",\n      \"车辆的黑色车座、把手和网状车篮上堆积着明显的白色雪层。\",\n      \"背景建筑外墙由浅灰色方形瓷砖铺设，窗户安装有竖向金属栏杆。\",\n      \"地面呈现深色湿润状态，局部可见未融化的积雪。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据积雪厚度和分布，可能刚下过一场大雪或正在下雪。\",\n      \"车辆长时间未移动，导致积雪完整保留在水平表面上。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的地理位置或城市。\",\n      \"无法确认拍摄的具体时间。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"武汉\",\n      \"ZV957\",\n      \"爱玛\",\n      \"绿能\",\n      \"自行车便民服务\",\n      \"800289578\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"雪后的室外场景中，许多电动自行车和自行车整齐地停放在一栋灰色瓷砖建筑旁，车身关键部位覆盖着厚厚的白雪。\",\n    \"safe_facts\": [\n      \"画面主体为大量停放的二轮车辆。\",\n      \"车辆表面有明显积雪覆盖。\",\n      \"背景为带有防盗窗的建筑物。\",\n      \"地面潮湿且有雪迹。\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 651,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 651,
+        "total_tokens": 3856,
+        "estimated_cost_cny": 0.011618,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "雪后停放的电动车",
+          "short_description": "这是一张雪天场景的照片，画面中密集停放着大量电动自行车和自行车。车辆的车座、车把及前置车篮上均覆盖着厚厚的积雪，显示出降雪量较大。背景是一栋贴有灰色瓷砖的建筑物，窗户装有金属防盗网，地面潮湿且散落着残雪。",
+          "micro_tags": [
+            "雪景",
+            "电动车",
+            "积雪",
+            "停车区",
+            "冬季",
+            "建筑物"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "室外建筑物旁的非机动车停放区域",
+          "subjects": [
+            "电动自行车",
+            "自行车",
+            "积雪",
+            "建筑物外墙",
+            "窗户"
+          ],
+          "actions": [],
+          "attributes": [
+            "被雪覆盖",
+            "密集排列",
+            "潮湿",
+            "灰色瓷砖墙面",
+            "金属防盗窗"
+          ],
+          "relations": [
+            "车辆停放在建筑物旁",
+            "积雪覆盖在车辆部件上"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "大量两轮车辆（电动车和自行车）紧密并排停放。",
+            "车辆的黑色车座、把手和网状车篮上堆积着明显的白色雪层。",
+            "背景建筑外墙由浅灰色方形瓷砖铺设，窗户安装有竖向金属栏杆。",
+            "地面呈现深色湿润状态，局部可见未融化的积雪。"
+          ],
+          "cautious_inferences": [
+            "根据积雪厚度和分布，可能刚下过一场大雪或正在下雪。",
+            "车辆长时间未移动，导致积雪完整保留在水平表面上。"
+          ],
+          "uncertainties": [
+            "无法确定具体的地理位置或城市。",
+            "无法确认拍摄的具体时间。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "武汉",
+            "ZV957",
+            "爱玛",
+            "绿能",
+            "自行车便民服务",
+            "800289578"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "雪后的室外场景中，许多电动自行车和自行车整齐地停放在一栋灰色瓷砖建筑旁，车身关键部位覆盖着厚厚的白雪。",
+          "safe_facts": [
+            "画面主体为大量停放的二轮车辆。",
+            "车辆表面有明显积雪覆盖。",
+            "背景为带有防盗窗的建筑物。",
+            "地面潮湿且有雪迹。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 8722964,
+        "request_bytes": 6539149,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.877158799994504,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "8be1c4de972767e5b00f645306a555c886a372bdc5c35c7c720598c35530d620"
+}

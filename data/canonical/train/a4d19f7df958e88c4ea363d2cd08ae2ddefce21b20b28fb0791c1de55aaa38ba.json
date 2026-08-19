@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1006.jpg",
+    "relative_path": "train/1006.jpg",
+    "sha256": "a4d19f7df958e88c4ea363d2cd08ae2ddefce21b20b28fb0791c1de55aaa38ba",
+    "split": "train"
+  },
+  "canonical_sha256": "0275ad4c0e98c62d6b29038aa03321d2d0069fe55bd6feb1edda76780bd67ddc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "面包",
+      "麦穗",
+      "编织篮",
+      "烘焙食品"
+    ],
+    "short_description": "多个不同种类的面包摆放在编织篮中，旁边有麦穗和布料，呈现温馨的烘焙氛围。",
+    "theme": "面包与麦穗"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多个不同形状和大小的面包。",
+      "面包表面呈金黄色，部分有裂纹或籽粒装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金黄色表皮",
+      "裂纹面包",
+      "长条形面包",
+      "圆形面包",
+      "撒有籽粒",
+      "带花纹切口"
+    ],
+    "relations": [
+      "面包放置于编织篮内。",
+      "麦穗位于面包旁。",
+      "布料覆盖部分面包。"
+    ],
+    "scene": "桌面或铺垫上的静物组合",
+    "subjects": [
+      "面包",
+      "麦穗",
+      "编织篮",
+      "布料"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个不同形状和大小的面包；面包表面呈金黄色，部分有裂纹或籽粒装饰。",
+    "safe_facts": [
+      "画面中有多个不同形状和大小的面包。",
+      "面包表面呈金黄色，部分有裂纹或籽粒装饰。"
+    ]
+  },
+  "label_id": "cpl_02d3313a57098f75d49c97b0",
+  "provenance": {
+    "generated_at": "2026-08-03T13:23:57.290197+00:00",
+    "migrated_at": "2026-08-03T13:23:57.293180+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2f04da0e3f55d744404207cfcd255fec0547ef5a33901f0cbbba35dc9e7055af",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8cc91285b9d047d3104d8666",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:23:57.293563+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8cc91285b9d047d3104d8666"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

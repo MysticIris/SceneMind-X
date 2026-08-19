@@ -1,0 +1,128 @@
+{
+  "asset_id": "d54a75d91f7d73e3",
+  "asset_sha256": "d54a75d91f7d73e36f374a667cf647b559040bb32237ad33bff050219e0e93d7",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"考研励志相框商品展示\",\n    \"short_description\": \"这是一张电商平台的商品详情页截图。画面主体为一个放置在桌面上的木质相框，内嵌一张印有穿西装年轻男子肖像及“考研必胜”字样的海报。界面包含红色促销横幅、价格信息及底部导航栏。\",\n    \"micro_tags\": [\n      \"电商截图\",\n      \"考研周边\",\n      \"木质相框\",\n      \"人物肖像\",\n      \"励志标语\",\n      \"桌面摆件\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"电商平台商品详情页界面\",\n    \"subjects\": [\n      \"木质相框\",\n      \"穿西装的年轻男子肖像\",\n      \"促销信息横幅\",\n      \"底部操作栏\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"浅木色边框\",\n      \"蓝色背景海报\",\n      \"红色促销底色\",\n      \"白色文字\",\n      \"竖屏构图\"\n    ],\n    \"relations\": [\n      \"相框位于画面中央\",\n      \"促销横幅位于相框下方\",\n      \"操作栏位于屏幕最底部\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面中心展示一个浅色木纹相框，内部海报背景为蓝色，印有一位身穿深色西装、系条纹领带的年轻男子正面肖像。\",\n      \"界面下方有显眼的红色横条区域，显示数字价格“8.6”及“超级立减”等营销文案。\",\n      \"屏幕顶部状态栏显示时间“09:23”及电池电量图标。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局推测，这可能是一个移动端购物应用的截图。\",\n      \"相框内的文字和图像设计看起来是为了激励备考学生。\"\n    ],\n    \"uncertainties\": [\n      \"无法确认相框内人物的真实身份。\",\n      \"无法确认具体的拍摄环境光线来源。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"考研必胜\",\n      \"考研助力官·少羽\",\n      \"自从在书桌前摆了这个“考研必胜”相框\",\n      \"超级立减\",\n      \"平台加补后 ¥8.6起\",\n      \"必定上岸\",\n      \"实物无水印\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张移动端应用截图，展示了一款带有年轻男性肖像的木质相框商品，界面包含红色的价格促销信息和底部功能按钮。\",\n    \"safe_facts\": [\n      \"图片为竖屏手机界面截图\",\n      \"主体是一个放置在平面上的矩形相框\",\n      \"相框内包含人物头像和排版文字\",\n      \"界面下半部分有大面积红色色块和数字信息\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 693,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 693,
+        "total_tokens": 3920,
+        "estimated_cost_cny": 0.011998,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "考研励志相框商品展示",
+          "short_description": "这是一张电商平台的商品详情页截图。画面主体为一个放置在桌面上的木质相框，内嵌一张印有穿西装年轻男子肖像及“考研必胜”字样的海报。界面包含红色促销横幅、价格信息及底部导航栏。",
+          "micro_tags": [
+            "电商截图",
+            "考研周边",
+            "木质相框",
+            "人物肖像",
+            "励志标语",
+            "桌面摆件"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "电商平台商品详情页界面",
+          "subjects": [
+            "木质相框",
+            "穿西装的年轻男子肖像",
+            "促销信息横幅",
+            "底部操作栏"
+          ],
+          "actions": [],
+          "attributes": [
+            "浅木色边框",
+            "蓝色背景海报",
+            "红色促销底色",
+            "白色文字",
+            "竖屏构图"
+          ],
+          "relations": [
+            "相框位于画面中央",
+            "促销横幅位于相框下方",
+            "操作栏位于屏幕最底部"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "画面中心展示一个浅色木纹相框，内部海报背景为蓝色，印有一位身穿深色西装、系条纹领带的年轻男子正面肖像。",
+            "界面下方有显眼的红色横条区域，显示数字价格“8.6”及“超级立减”等营销文案。",
+            "屏幕顶部状态栏显示时间“09:23”及电池电量图标。"
+          ],
+          "cautious_inferences": [
+            "根据界面布局推测，这可能是一个移动端购物应用的截图。",
+            "相框内的文字和图像设计看起来是为了激励备考学生。"
+          ],
+          "uncertainties": [
+            "无法确认相框内人物的真实身份。",
+            "无法确认具体的拍摄环境光线来源。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "考研必胜",
+            "考研助力官·少羽",
+            "自从在书桌前摆了这个“考研必胜”相框",
+            "超级立减",
+            "平台加补后 ¥8.6起",
+            "必定上岸",
+            "实物无水印"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张移动端应用截图，展示了一款带有年轻男性肖像的木质相框商品，界面包含红色的价格促销信息和底部功能按钮。",
+          "safe_facts": [
+            "图片为竖屏手机界面截图",
+            "主体是一个放置在平面上的矩形相框",
+            "相框内包含人物头像和排版文字",
+            "界面下半部分有大面积红色色块和数字信息"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 9411804,
+        "request_bytes": 7055781,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.59123169999657,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "d0dfbac9b0d9bf4e08c320f7bb8b9b5340b53b8b27c1da5c4e90ce49828ccd16"
+}

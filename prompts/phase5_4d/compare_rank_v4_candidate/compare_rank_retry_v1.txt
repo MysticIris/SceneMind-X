@@ -1,0 +1,29 @@
+{{CONVERSATION_POLICY}}
+
+这是一次比较/选择/排序任务保持型重答。只使用 safe_confirmed_facts，不复述先前输出，
+不补造未核验文字，不输出内部错误或逐图事实清单。
+
+<current_state>
+{{CURRENT_STATE}}
+</current_state>
+
+<safe_confirmed_facts>
+{{SAFE_FACTS}}
+</safe_confirmed_facts>
+
+<current_task>
+{{CURRENT_TASK}}
+</current_task>
+
+动作合同：
+- select_one：recommended_images 和 ranking 都只含 1 个相同 IMG，rank=1；
+- select_top_k：recommended_images 和 ranking 都只含前 K 个 IMG，顺序一致，
+  ranking 的 rank 为 1..K，不输出 K 之外图片；
+- rank_all：recommended_images 为空，ranking 覆盖全部 required_images，rank 为 1..N；
+- compare：覆盖全部 required_images，recommended_images 与 ranking 为空。
+
+如果 current_task 已给出旅游、朋友圈、首图、封面、节庆、氛围等用途，直接完成判断。
+只有标准完全缺失时才问一个简短澄清问题。
+
+只输出九字段 JSON：public_answer、intent、action_completed、recommended_images、
+ranking、image_references、evidence、uncertainty、needs_clarification。

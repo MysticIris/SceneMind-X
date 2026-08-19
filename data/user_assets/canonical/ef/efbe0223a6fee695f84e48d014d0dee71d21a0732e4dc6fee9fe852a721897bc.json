@@ -1,0 +1,142 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_43a0a46a984d9da95d814229",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_e647c5a7c4f017c435842490"
+  ],
+  "asset": {
+    "asset_id": "efbe0223a6fee695",
+    "sha256": "efbe0223a6fee695f84e48d014d0dee71d21a0732e4dc6fee9fe852a721897bc",
+    "split": "user_custom",
+    "relative_path": "user_assets/ef/efbe0223a6fee695f84e48d014d0dee71d21a0732e4dc6fee9fe852a721897bc/efbe0223a6fee695f84e48d014d0dee71d21a0732e4dc6fee9fe852a721897bc.png"
+  },
+  "display": {
+    "theme": "DOSBox校园出入管理界面",
+    "short_description": "这是一张DOSBox模拟器的运行截图，显示了一个名为“出入校园管理”的复古风格软件界面。屏幕中央包含日期显示、八个蓝色地点选择按钮(如南大门、东大门等)以及状态切换选项，底部设有确定按钮，整体呈现典型的命令行图形用户界面特征。",
+    "micro_tags": [
+      "DOSBox",
+      "校园管理",
+      "复古UI",
+      "软件截图",
+      "蓝色按钮",
+      "出入登记"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "计算机模拟器软件运行界面",
+    "subjects": [
+      "出入校园管理软件窗口",
+      "DOSBox标题栏",
+      "功能选择按钮组"
+    ],
+    "actions": [],
+    "attributes": [
+      "黑底白字背景",
+      "蓝色圆角矩形按钮",
+      "像素化字体",
+      "窗口化显示"
+    ],
+    "relations": [
+      "标题位于界面顶部居中。",
+      "地点按钮排列在界面中部。",
+      "状态选项位于按钮组下方。",
+      "确定按钮位于右下角。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "窗口顶部标题栏显示文本“DOSBox 0.72，Cpu Cycles：max，Frameskip 0，Program：BC”。",
+      "界面主标题为“出入校园管理”，下方有“AIA>>HUST”及“出入校园登记”字样。"
+    ],
+    "cautious_inferences": [
+      "界面设计风格模仿了早期的DOS操作系统图形界面。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "DOSBox 0.72",
+      "出入校园管理",
+      "出入校园登记",
+      "时间:2025年4月25日",
+      "选择出入校园地点"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "DOSBox 0.72",
+      "出入校园管理",
+      "出入校园登记",
+      "时间:2025年4月25日",
+      "选择出入校园地点"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "窗口顶部标题栏显示文本“DOSBox 0.72，Cpu Cycles：max，Frameskip 0，Program：BC”；界面主标题为“出入校园管理”，下方有“AIA>>HUST”及“出入校园登记”字样。",
+    "safe_facts": [
+      "窗口顶部标题栏显示文本“DOSBox 0.72，Cpu Cycles：max，Frameskip 0，Program：BC”。",
+      "界面主标题为“出入校园管理”，下方有“AIA>>HUST”及“出入校园登记”字样。"
+    ],
+    "do_not_assert": [
+      "界面设计风格模仿了早期的DOS操作系统图形界面。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_24e76f27-3fcc-4e6d-b9b7-8081a5533636",
+    "generated_at": "2026-08-12T03:27:57.889242+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "5cf9ad3a7fa82aeec76de1b4b79b43e71e6fd07616a8195422635398bba7367b",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:27:57.890180+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_e647c5a7c4f017c435842490",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:27:57.890620+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "0a2881b728cc68c1a0b1c994454198c7773db24131cc96140b3c6731bb522e21"
+}

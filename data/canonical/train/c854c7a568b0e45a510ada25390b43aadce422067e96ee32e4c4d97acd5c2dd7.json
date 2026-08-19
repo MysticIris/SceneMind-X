@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1479.jpg",
+    "relative_path": "train/1479.jpg",
+    "sha256": "c854c7a568b0e45a510ada25390b43aadce422067e96ee32e4c4d97acd5c2dd7",
+    "split": "train"
+  },
+  "canonical_sha256": "fbfe62b7cedee1211c7e77e098b035eec68bb75d9d91c529235f72a48a78629e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石墙",
+      "电动车",
+      "白猫",
+      "户外",
+      "绿化"
+    ],
+    "short_description": "石墙边停放着一辆蓝色电动车，旁边有一只白色小猫躺在地上，环境绿植环绕。",
+    "theme": "石墙旁的电动车与白猫"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一辆蓝色电动车停在石墙边。",
+      "地面上有一只白色小猫躺着。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色电动车",
+      "白色小猫",
+      "石墙",
+      "水泥地面",
+      "绿色植物"
+    ],
+    "relations": [
+      "电动车停放在石墙旁。",
+      "白猫位于电动车前方地面。"
+    ],
+    "scene": "户外水泥地面与石墙旁",
+    "subjects": [
+      "电动车",
+      "白猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一辆蓝色电动车停在石墙边；地面上有一只白色小猫躺着。",
+    "safe_facts": [
+      "画面中有一辆蓝色电动车停在石墙边。",
+      "地面上有一只白色小猫躺着。"
+    ]
+  },
+  "label_id": "cpl_b73c3fbbb46ae08ffdb727ac",
+  "provenance": {
+    "generated_at": "2026-08-03T14:28:12.152227+00:00",
+    "migrated_at": "2026-08-03T14:28:12.155751+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2429eb2534abdd7c562740e44f00ca9e9cbc0dae49c7e1fe0f84affe59c0500c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_febe189a5c287f552de1e4ac",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:28:12.156425+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_febe189a5c287f552de1e4ac"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

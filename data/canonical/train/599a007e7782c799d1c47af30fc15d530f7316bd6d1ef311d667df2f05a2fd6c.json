@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:23.jpg",
+    "relative_path": "train/23.jpg",
+    "sha256": "599a007e7782c799d1c47af30fc15d530f7316bd6d1ef311d667df2f05a2fd6c",
+    "split": "train"
+  },
+  "canonical_sha256": "1424284ac20e0075f70cf9922cf8f7c4458f959f434e22d19055cec1ef672fc5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雨滴",
+      "车窗",
+      "夜景",
+      "光斑"
+    ],
+    "short_description": "雨滴覆盖车窗，模糊的暖黄色灯光在暗色背景中闪烁，营造出朦胧而宁静的夜间氛围。",
+    "theme": "雨夜街景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "画面可能拍摄于车辆内部，透过前挡风玻璃。"
+    ],
+    "direct_observations": [
+      "玻璃表面布满水珠和水痕。",
+      "背景中有多个圆形光斑，颜色偏黄。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "湿润",
+      "模糊",
+      "暖黄色",
+      "暗色背景"
+    ],
+    "relations": [],
+    "scene": "夜晚户外",
+    "subjects": [
+      "雨滴",
+      "车窗",
+      "灯光"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "画面可能拍摄于车辆内部，透过前挡风玻璃。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "玻璃表面布满水珠和水痕；背景中有多个圆形光斑，颜色偏黄。",
+    "safe_facts": [
+      "玻璃表面布满水珠和水痕。",
+      "背景中有多个圆形光斑，颜色偏黄。"
+    ]
+  },
+  "label_id": "cpl_af82a859c655b8012c263b41",
+  "provenance": {
+    "generated_at": "2026-08-03T09:08:40.367930+00:00",
+    "migrated_at": "2026-08-03T09:08:40.369356+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "99532f8360c001c0859aeca60f69ccdca64a2c4f404ded36153624fba3e47a9c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c9fa58f0a76accfe27206258",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:26.022385+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c9fa58f0a76accfe27206258",
+    "cpl_bb9db5a6bedaae86cd5e807f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

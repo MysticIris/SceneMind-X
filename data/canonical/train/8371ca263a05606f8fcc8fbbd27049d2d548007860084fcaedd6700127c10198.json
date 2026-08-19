@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:622.jpg",
+    "relative_path": "train/622.jpg",
+    "sha256": "8371ca263a05606f8fcc8fbbd27049d2d548007860084fcaedd6700127c10198",
+    "split": "train"
+  },
+  "canonical_sha256": "7f5e1441b278500480d9f690c80affa1965d18e13d9ddbef435ba31f4d33eb48",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "广场",
+      "教学楼",
+      "绿树",
+      "电动车"
+    ],
+    "short_description": "晴朗天气下，宽阔广场上有人骑电动车经过，背景是教学楼和绿树，两侧立有红色宣传标语牌。",
+    "theme": "校园广场日景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一人骑着电动车在广场中央行驶。",
+      "背景是一座多层建筑，前方有雕像基座。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "骑行"
+    ],
+    "attributes": [
+      "晴朗天空",
+      "铺装地面",
+      "红色标语牌"
+    ],
+    "relations": [
+      "人骑电动车在广场上移动。",
+      "教学楼位于广场后方。",
+      "树木分布在广场两侧。"
+    ],
+    "scene": "户外广场",
+    "subjects": [
+      "骑电动车的人",
+      "教学楼",
+      "树木",
+      "宣传标语牌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一人骑着电动车在广场中央行驶；背景是一座多层建筑，前方有雕像基座。",
+    "safe_facts": [
+      "画面中有一人骑着电动车在广场中央行驶。",
+      "背景是一座多层建筑，前方有雕像基座。"
+    ]
+  },
+  "label_id": "cpl_fab851fe1597f7076f0e01e8",
+  "provenance": {
+    "generated_at": "2026-08-02T22:30:23.415351+00:00",
+    "migrated_at": "2026-08-03T07:13:41.819148+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a4e983abaa959bcc7daa59651df1a988ad35dcdc3e95fad3209d16960f4fc222",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_213235e8cddc2b4d66e07c89",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:46:31.146917+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_213235e8cddc2b4d66e07c89",
+    "cpl_5f29a3e6a498963c32586df0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1295.jpg",
+    "relative_path": "train/1295.jpg",
+    "sha256": "cc039337e2850720463552d8182960f07147764b9bddb058ed0ee0a62ea94e1d",
+    "split": "train"
+  },
+  "canonical_sha256": "78761a663289ad813eb396aa249a10d713dbf9c5fcaf9e93e05dde52490c892c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "纹身",
+      "篮球",
+      "背影",
+      "黑色背景"
+    ],
+    "short_description": "一名满身纹身的男性背对镜头，双臂张开持球，背景纯黑，造型极具视觉冲击力。",
+    "theme": "纹身篮球运动员背影"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "人物背部及四肢布满纹身图案。",
+      "左手持一个橙色篮球。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "持球",
+      "双臂张开"
+    ],
+    "attributes": [
+      "满身纹身",
+      "光线下轮廓清晰"
+    ],
+    "relations": [],
+    "scene": "纯黑色背景",
+    "subjects": [
+      "一名男性"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "人物背部及四肢布满纹身图案；左手持一个橙色篮球。",
+    "safe_facts": [
+      "人物背部及四肢布满纹身图案。",
+      "左手持一个橙色篮球。"
+    ]
+  },
+  "label_id": "cpl_72a3e6b563328f8d307680e3",
+  "provenance": {
+    "generated_at": "2026-08-02T22:30:56.084648+00:00",
+    "migrated_at": "2026-08-03T07:13:41.842124+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "22fb0ba5b88d031f2730299787301993d2dcf70ffb9ca8622acfe4c2f4313aa5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7424c40236ec7d96158dc265",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:04:08.495903+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7424c40236ec7d96158dc265",
+    "cpl_8a2f1fcbe3a5d4dc3ee98cb8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1458.jpg",
+    "relative_path": "train/1458.jpg",
+    "sha256": "455ce45b0d5fad4495121a988d13fbc6c1aa5049e93be116691f2318e69c7d5b",
+    "split": "train"
+  },
+  "canonical_sha256": "f4785350573b79ca0e5df45716a9c6efff2bfca993ffc6419ed4c422fea1f9c8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "渐变色汽车",
+      "雨天街道",
+      "城市停车"
+    ],
+    "short_description": "一辆蓝粉渐变色轿车停在雨天街道旁，车身光滑反光，背景有建筑和杂物堆。",
+    "theme": "渐变色轿车"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "车辆车身呈现从蓝色到粉色的渐变涂装。",
+      "地面湿润，有雨水痕迹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝粉渐变车身",
+      "黑色车窗",
+      "银色轮毂",
+      "雨天环境"
+    ],
+    "relations": [
+      "轿车停在路边。",
+      "行人站在远处。"
+    ],
+    "scene": "城市街道旁的湿滑地面",
+    "subjects": [
+      "一辆轿车",
+      "一名撑伞行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "车辆车身呈现从蓝色到粉色的渐变涂装；地面湿润，有雨水痕迹。",
+    "safe_facts": [
+      "车辆车身呈现从蓝色到粉色的渐变涂装。",
+      "地面湿润，有雨水痕迹。"
+    ]
+  },
+  "label_id": "cpl_04d3bf79631a553b92566f8a",
+  "provenance": {
+    "generated_at": "2026-08-02T22:33:02.922141+00:00",
+    "migrated_at": "2026-08-03T07:13:41.934319+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d467edb9c409849c87ad1fe3e40ffa93ac1f787faf155211811e0c78c257b28e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3d7073f67479fdf2fc3c3418",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:26:15.615526+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3d7073f67479fdf2fc3c3418",
+    "cpl_6dd205c1e8fecf7667c3e941"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1779.jpg",
+    "relative_path": "train/1779.jpg",
+    "sha256": "8113443ae87b2133e59cec8d7ea58cb08f133aaa4d768ba092fa37b85091c350",
+    "split": "train"
+  },
+  "canonical_sha256": "79715ecce26e4b055dbdc22cf436d01e05a4334e3b3c5bb42176b3bb40c7c4d2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "孔雀",
+      "开屏",
+      "热带植物",
+      "森林"
+    ],
+    "short_description": "一只蓝绿色孔雀在绿植环绕的林间张开尾羽，羽毛上点缀着蓝色圆斑，姿态优雅。",
+    "theme": "孔雀开屏"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "孔雀尾羽完全展开，呈扇形。",
+      "孔雀身体为蓝绿色，站立于绿色人造草地上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "开屏"
+    ],
+    "attributes": [
+      "蓝绿色羽毛",
+      "尾羽展开",
+      "绿色地面",
+      "茂密植被"
+    ],
+    "relations": [
+      "孔雀位于植被之间。"
+    ],
+    "scene": "林间草地",
+    "subjects": [
+      "孔雀"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "孔雀尾羽完全展开，呈扇形；孔雀身体为蓝绿色，站立于绿色人造草地上。",
+    "safe_facts": [
+      "孔雀尾羽完全展开，呈扇形。",
+      "孔雀身体为蓝绿色，站立于绿色人造草地上。"
+    ]
+  },
+  "label_id": "cpl_8180b2b75ae49ed6f0957bb7",
+  "provenance": {
+    "generated_at": "2026-08-03T15:04:41.613652+00:00",
+    "migrated_at": "2026-08-03T15:04:41.615293+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2178c26186f06323493a79afd8fba3aeea337197665292313e25d5ae35e9e4af",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_24ed86bef21d65a42c4a8d4f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:04:41.615499+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_24ed86bef21d65a42c4a8d4f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

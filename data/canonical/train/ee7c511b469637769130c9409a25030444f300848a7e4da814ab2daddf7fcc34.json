@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1467.jpg",
+    "relative_path": "train/1467.jpg",
+    "sha256": "ee7c511b469637769130c9409a25030444f300848a7e4da814ab2daddf7fcc34",
+    "split": "train"
+  },
+  "canonical_sha256": "970ecc69a2709d2e0868626df0f9cbc3b0a56b2f3511b81b6b18a024ca8adad2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "绿道地图",
+      "景点导览",
+      "徒步路线"
+    ],
+    "short_description": "景点分布图，标注主要景点与游览路线，提供徒步与骑行参考。",
+    "theme": "导览图"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地图上用黄色线条标示游览路径，红色圆点标示景点位置。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质背景",
+      "彩色路线标记",
+      "日光照射"
+    ],
+    "relations": [],
+    "scene": "户外木制导览牌",
+    "subjects": [
+      "导览图",
+      "景点名称",
+      "路线标识"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地图上用黄色线条标示游览路径，红色圆点标示景点位置。",
+    "safe_facts": [
+      "地图上用黄色线条标示游览路径，红色圆点标示景点位置。"
+    ]
+  },
+  "label_id": "cpl_f850345eae76a3915410e2eb",
+  "provenance": {
+    "generated_at": "2026-08-03T14:26:38.548160+00:00",
+    "migrated_at": "2026-08-03T14:26:38.552332+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "feed3f19ec02a94430cb246e291484380c719688ca1bb27e03ae320dee92a99a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3e0088d91f6195bc702a512b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:26:38.554200+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3e0088d91f6195bc702a512b"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "东湖绿道",
+      "武汉绿道",
+      "湖光序曲",
+      "梅园踏雪",
+      "落霞归雁",
+      "图例"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "东湖绿道",
+      "武汉绿道",
+      "湖光序曲",
+      "梅园踏雪",
+      "落霞归雁",
+      "图例"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:755.jpg",
+    "relative_path": "train/755.jpg",
+    "sha256": "33827df567a49f9b28237bc46742f94a17c3677f19ac819a7e1a2918d5e91586",
+    "split": "train"
+  },
+  "canonical_sha256": "914f6af7421caed1326a0d52cec034e4956fd94809ac52f6dd110e5b1dd44864",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蟑螂",
+      "白色表面",
+      "昆虫",
+      "触角",
+      "腿"
+    ],
+    "short_description": "一只深色蟑螂趴在白色光滑表面上，身体呈椭圆形，触角细长，腿部伸展，背景有模糊污渍。",
+    "theme": "蟑螂在白色容器内"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像中有一只蟑螂，其身体呈深色，具有明显的触角和六条腿。",
+      "蟑螂位于一个白色、光滑的曲面容器内，容器边缘有轻微污渍痕迹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深色身体",
+      "椭圆形",
+      "细长触角",
+      "多条腿"
+    ],
+    "relations": [],
+    "scene": "白色光滑容器内部",
+    "subjects": [
+      "蟑螂"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像中有一只蟑螂，其身体呈深色，具有明显的触角和六条腿；蟑螂位于一个白色、光滑的曲面容器内，容器边缘有轻微污渍痕迹。",
+    "safe_facts": [
+      "图像中有一只蟑螂，其身体呈深色，具有明显的触角和六条腿。",
+      "蟑螂位于一个白色、光滑的曲面容器内，容器边缘有轻微污渍痕迹。"
+    ]
+  },
+  "label_id": "cpl_a980dde840dcc7aa6003b600",
+  "provenance": {
+    "generated_at": "2026-08-03T12:16:25.435704+00:00",
+    "migrated_at": "2026-08-03T12:16:25.438514+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "65269779f38bc8eca35a50857b46bafbd25316f650f5153545df153efaba46ff",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f5c3b5e6efa8b3c7dc395206",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:16:25.438879+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f5c3b5e6efa8b3c7dc395206"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_88380746b5f95a2bab013fb3",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_a28b2ad9848eef37d2dce20f"
+  ],
+  "asset": {
+    "asset_id": "734f05ed2e09157d",
+    "sha256": "734f05ed2e09157d5172b6c1944bc44afb21fe8480efd55c01cb422a30a1c769",
+    "split": "user_custom",
+    "relative_path": "user_assets/73/734f05ed2e09157d5172b6c1944bc44afb21fe8480efd55c01cb422a30a1c769/734f05ed2e09157d5172b6c1944bc44afb21fe8480efd55c01cb422a30a1c769.jpg"
+  },
+  "display": {
+    "theme": "城市夜景人像",
+    "short_description": "夜晚的城市街头，一位长发女性站在天桥或高处的玻璃护栏旁。面部被一个黄色的大笑表情符号遮挡，双手举起靠近头部。背景可见高楼大厦、路灯及街道上的车辆。",
+    "micro_tags": [
+      "夜景",
+      "街拍",
+      "白色T恤",
+      "牛仔裤",
+      "表情包遮挡",
+      "城市建筑"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "夜晚的城市街道高处视角",
+    "subjects": [
+      "长发女性"
+    ],
+    "actions": [
+      "站立",
+      "双手举至头部附近",
+      "面对镜头"
+    ],
+    "attributes": [
+      "黑色长发",
+      "白色印花短袖上衣",
+      "蓝色直筒牛仔裤",
+      "米色菱格纹单肩包",
+      "面部被黄色大笑Emoji遮挡"
+    ],
+    "relations": [
+      "人物位于玻璃护栏内侧。",
+      "人物位于街道上方。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "人物面部完全被一个黄色的、张嘴大笑的表情符号(Emoji)贴图覆盖。",
+      "背景为夜间城市景观，包含多栋亮灯的高层建筑、路灯以及下方道路上的白色轿车和电动车。",
+      "人物左肩背着一个米白色的绗缝纹理单肩包。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "FOCUS",
+      "ONE THE",
+      "RESENT",
+      "Soul APP",
+      "都汇酒店"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "FOCUS",
+      "ONE THE",
+      "RESENT",
+      "Soul APP",
+      "都汇酒店"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "人物面部完全被一个黄色的、张嘴大笑的表情符号(Emoji)贴图覆盖；背景为夜间城市景观，包含多栋亮灯的高层建筑、路灯以及下方道路上的白色轿车和电动车。",
+    "safe_facts": [
+      "人物面部完全被一个黄色的、张嘴大笑的表情符号(Emoji)贴图覆盖。",
+      "背景为夜间城市景观，包含多栋亮灯的高层建筑、路灯以及下方道路上的白色轿车和电动车。",
+      "人物左肩背着一个米白色的绗缝纹理单肩包。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_218f04e1-6bf4-44e7-8ca7-4f29902f5efd",
+    "generated_at": "2026-08-12T03:05:49.753603+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "49e10a7077afc8274e8c5bc97a7b2ce47d1a44fea316374b5c705dbd80fdfa45",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:05:49.754695+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_a28b2ad9848eef37d2dce20f",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:05:49.755144+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "7f0d757d72bfc2d9299a0693e596847cfac9de8c696552a6a3a60ca309678d88"
+}

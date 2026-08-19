@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:829.jpg",
+    "relative_path": "train/829.jpg",
+    "sha256": "bbc27d420bba252624b9b81f23939e008636c039e6faf1e9d4b535070d650aac",
+    "split": "train"
+  },
+  "canonical_sha256": "a8e05fc9fbde4fabd3e2b2e5586c8c7375e9febbdb806a7230cd290608b738f4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "树莓派",
+      "产品包装",
+      "透明盒子"
+    ],
+    "short_description": "一只手拿着装有树莓派3B+的透明塑料包装盒。",
+    "theme": "树莓派产品包装"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "盒盖上可见树莓派的红色果实标志。",
+      "盒盖上有彩色抽象线条图案。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "透明塑料材质",
+      "盒盖上有彩色抽象图案"
+    ],
+    "relations": [
+      "手握着塑料盒。"
+    ],
+    "scene": "窗边室内环境",
+    "subjects": [
+      "透明塑料盒",
+      "树莓派3B+包装盒",
+      "手"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "盒盖上可见树莓派的红色果实标志；盒盖上有彩色抽象线条图案。",
+    "safe_facts": [
+      "盒盖上可见树莓派的红色果实标志。",
+      "盒盖上有彩色抽象线条图案。"
+    ]
+  },
+  "label_id": "cpl_517953fd66bbb4d2dbe942e2",
+  "provenance": {
+    "generated_at": "2026-08-03T12:31:53.089222+00:00",
+    "migrated_at": "2026-08-03T12:31:53.092677+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cced02634fb679a4d849bbb8c88993c01e585e7e5c98fbf458e880c63dac8f3f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d39cc309115ab9507d34a514",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:31:53.093175+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d39cc309115ab9507d34a514"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Raspberry Pi 3 B+"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Raspberry Pi 3 B+"
+    ]
+  }
+}

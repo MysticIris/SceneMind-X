@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1954.jpg",
+    "relative_path": "train/1954.jpg",
+    "sha256": "4af8951af2bdcffb9904060fed499695aad2a5b1f61982474c0f2b58f1500738",
+    "split": "train"
+  },
+  "canonical_sha256": "526908f9fcdb33a95f957d9c2883c1edf1463f11fe3b64c341854c437bc1ca85",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "紫玉兰",
+      "开花",
+      "春天",
+      "树木"
+    ],
+    "short_description": "紫玉兰花树繁茂，花朵密集绽放于枝头，背景为多云天空，呈现春日生机。",
+    "theme": "紫玉兰盛开"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "花朵可能处于盛花期。"
+    ],
+    "direct_observations": [
+      "树上布满大量紫红色花朵。",
+      "背景为灰白色多云天空。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "花朵呈紫红色",
+      "枝干裸露无叶",
+      "花朵密集覆盖枝头"
+    ],
+    "relations": [],
+    "scene": "户外，多云天气",
+    "subjects": [
+      "紫玉兰树"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "花朵可能处于盛花期。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "树上布满大量紫红色花朵；背景为灰白色多云天空。",
+    "safe_facts": [
+      "树上布满大量紫红色花朵。",
+      "背景为灰白色多云天空。"
+    ]
+  },
+  "label_id": "cpl_92bf3ac4124c28131a8e6536",
+  "provenance": {
+    "generated_at": "2026-08-03T15:28:09.066115+00:00",
+    "migrated_at": "2026-08-03T15:28:09.067782+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "856c1c8906e722f7c7b59a076c93b04496cdfa2498ab8d5f3945e45f923eeb26",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_36b26477cfd3e93579c316e5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:28:09.067976+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_36b26477cfd3e93579c316e5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

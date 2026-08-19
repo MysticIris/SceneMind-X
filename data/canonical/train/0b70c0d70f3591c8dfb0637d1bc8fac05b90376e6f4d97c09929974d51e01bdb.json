@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:278.jpg",
+    "relative_path": "train/278.jpg",
+    "sha256": "0b70c0d70f3591c8dfb0637d1bc8fac05b90376e6f4d97c09929974d51e01bdb",
+    "split": "train"
+  },
+  "canonical_sha256": "2cf292c9c88787ccf42c0e540b56be5d43259a649c729477df110e8840180620",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "棕熊",
+      "瀑布",
+      "河流",
+      "涉水"
+    ],
+    "short_description": "四只棕熊在湍急河流瀑布边涉水，专注寻找鱼群，水流激荡，岩石裸露。",
+    "theme": "棕熊捕鱼"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "棕熊可能在捕食鱼类，因它们聚集在水流处。"
+    ],
+    "direct_observations": [
+      "四只棕熊分布在瀑布水流中，部分站立于岩石上。",
+      "水流湍急，形成白色浪花和小型瀑布。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "涉水",
+      "站立",
+      "观察"
+    ],
+    "attributes": [
+      "毛发湿润",
+      "体型庞大",
+      "颜色棕褐"
+    ],
+    "relations": [
+      "棕熊在水中活动。",
+      "棕熊靠近瀑布边缘。"
+    ],
+    "scene": "河流瀑布区域",
+    "subjects": [
+      "棕熊"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "棕熊可能在捕食鱼类，因它们聚集在水流处。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "四只棕熊分布在瀑布水流中，部分站立于岩石上；水流湍急，形成白色浪花和小型瀑布。",
+    "safe_facts": [
+      "四只棕熊分布在瀑布水流中，部分站立于岩石上。",
+      "水流湍急，形成白色浪花和小型瀑布。"
+    ]
+  },
+  "label_id": "cpl_abd7a70faa01abd4e3ab03d1",
+  "provenance": {
+    "generated_at": "2026-08-03T10:30:39.885644+00:00",
+    "migrated_at": "2026-08-03T10:30:39.887630+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3e2d920223162e121377d220ae40a13b9f71e8b2dc2ad73caaacbe3fe19d1532",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b89c69a1a74214612baf8815",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:30:39.887846+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b89c69a1a74214612baf8815"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

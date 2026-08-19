@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:915.jpg",
+    "relative_path": "train/915.jpg",
+    "sha256": "6b70661237130f61ede120f2ac520fd88a110c29cb987575fdbe01beb1f2ae9a",
+    "split": "train"
+  },
+  "canonical_sha256": "1e79e6af962cc81747f422eea0582a97a03f3ce8518ae7e658d2117150b5420a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "日落",
+      "茶园",
+      "山景",
+      "孤树"
+    ],
+    "short_description": "夕阳西下，山峦轮廓在橙色天幕下若隐若现，前景是层层叠叠的绿色茶田，一棵孤树伫立其间。",
+    "theme": "日落茶园"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "远处山脉轮廓被夕阳染成暗色，表明太阳位置在地平线附近。"
+    ],
+    "direct_observations": [
+      "画面呈现日落时分的天空颜色为橙黄色。",
+      "前景为成片种植的绿色灌木状植物，符合茶田特征。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色植被",
+      "橙色天空",
+      "远山轮廓"
+    ],
+    "relations": [
+      "茶树位于山坡上。",
+      "树木独立于茶田中。",
+      "太阳位于山脉后方。"
+    ],
+    "scene": "山坡茶园日落景观",
+    "subjects": [
+      "茶树",
+      "树木",
+      "山脉",
+      "太阳"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "远处山脉轮廓被夕阳染成暗色，表明太阳位置在地平线附近。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现日落时分的天空颜色为橙黄色；前景为成片种植的绿色灌木状植物，符合茶田特征。",
+    "safe_facts": [
+      "画面呈现日落时分的天空颜色为橙黄色。",
+      "前景为成片种植的绿色灌木状植物，符合茶田特征。"
+    ]
+  },
+  "label_id": "cpl_73057b309aa47db1fc7c67d6",
+  "provenance": {
+    "generated_at": "2026-08-03T12:49:47.665155+00:00",
+    "migrated_at": "2026-08-03T12:49:47.671519+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "faf400a512cee7e345121a48ea0ce53672ab173aed67dc7594a72438228a00b8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2f54020ea9f2d0170f40cfc3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:49:47.671890+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2f54020ea9f2d0170f40cfc3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

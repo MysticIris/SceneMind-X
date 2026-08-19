@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:858.jpg",
+    "relative_path": "train/858.jpg",
+    "sha256": "092071e1753c92d52a536004abeafd71eb5803fb2f192709844c840c13806a18",
+    "split": "train"
+  },
+  "canonical_sha256": "802337586963cde4f276b8bb6c2ee978a68abfa1db995a22b53986a8a2e47aaa",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "烟花",
+      "夜空",
+      "庆祝",
+      "光效"
+    ],
+    "short_description": "夜空中绽放的绚丽烟花，绿色与白色光芒交织，伴有烟雾升腾，下方可见屋顶轮廓。",
+    "theme": "夜空烟花绽放"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "烟花可能用于庆祝活动或节日。"
+    ],
+    "direct_observations": [
+      "天空中有多组烟花正在绽放，呈现绿色、白色及红色光点。",
+      "烟花爆炸后产生大量白色烟雾向上扩散。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "绽放",
+      "升腾"
+    ],
+    "attributes": [
+      "多彩",
+      "明亮",
+      "烟雾弥漫"
+    ],
+    "relations": [
+      "烟花在夜空中绽放。",
+      "烟雾从烟花处升起。",
+      "屋顶位于画面下方。"
+    ],
+    "scene": "夜间户外",
+    "subjects": [
+      "烟花",
+      "烟雾",
+      "屋顶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "烟花可能用于庆祝活动或节日。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空中有多组烟花正在绽放，呈现绿色、白色及红色光点；烟花爆炸后产生大量白色烟雾向上扩散。",
+    "safe_facts": [
+      "天空中有多组烟花正在绽放，呈现绿色、白色及红色光点。",
+      "烟花爆炸后产生大量白色烟雾向上扩散。"
+    ]
+  },
+  "label_id": "cpl_4dc610dbf6bb1a763e4cfb7e",
+  "provenance": {
+    "generated_at": "2026-08-03T12:37:47.551801+00:00",
+    "migrated_at": "2026-08-03T12:37:47.554528+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0d1cef5f7d0d4f43473f156cd6f16eb5b77aad8a6d1be4fb029439ce82cfb2a5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0806e93debe37393350bbd92",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:37:47.559164+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0806e93debe37393350bbd92"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

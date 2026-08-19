@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:718.jpg",
+    "relative_path": "train/718.jpg",
+    "sha256": "7d565b52d98c475fbfbc37b410c3a5654821732eacf5beb9b13ced48ae53646c",
+    "split": "train"
+  },
+  "canonical_sha256": "1905ca137d665b06fa0ccad0203f6f5ebe41419b0f6b8e61410af33f4e1bbb50",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "地铁车厢",
+      "电子显示屏",
+      "武汉地铁"
+    ],
+    "short_description": "地铁车厢内显示线路信息和车门编号。",
+    "theme": "地铁车厢内景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "车厢内顶部安装有长条形电子显示屏。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "紫色背景的电子显示屏",
+      "白色数字标识车门"
+    ],
+    "relations": [
+      "电子显示屏位于车厢顶部。",
+      "乘客头部出现在画面左下角。"
+    ],
+    "scene": "地铁车厢内部",
+    "subjects": [
+      "电子显示屏",
+      "乘客头部"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "车厢内顶部安装有长条形电子显示屏。",
+    "safe_facts": [
+      "车厢内顶部安装有长条形电子显示屏。"
+    ]
+  },
+  "label_id": "cpl_b93cd18d3c7695c5fb0471a8",
+  "provenance": {
+    "generated_at": "2026-08-03T12:07:40.929044+00:00",
+    "migrated_at": "2026-08-03T12:07:40.932424+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4b2d7d7dc6e22eb3f1ade64f9a4f5480870030a40563dcadb20e9ae4a6c3fb72",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_578b7a211fe6f9aeeb4fe2a9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:07:40.933441+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_578b7a211fe6f9aeeb4fe2a9"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "武汉轨道交通2号线",
+      "列车开往——佛祖岭",
+      "当前站:当湖街",
+      "6车5门"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "武汉轨道交通2号线",
+      "列车开往——佛祖岭",
+      "当前站:当湖街",
+      "6车5门"
+    ]
+  }
+}

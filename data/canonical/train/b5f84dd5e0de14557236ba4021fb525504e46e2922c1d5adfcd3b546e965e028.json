@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:2001.jpg",
+    "relative_path": "train/2001.jpg",
+    "sha256": "b5f84dd5e0de14557236ba4021fb525504e46e2922c1d5adfcd3b546e965e028",
+    "split": "train"
+  },
+  "canonical_sha256": "1354096dbaf9fb079b2246a91be08b991016f4ac246f00109be174f74ba3e832",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红色灯光",
+      "演唱者",
+      "舞台表演"
+    ],
+    "short_description": "一位女性歌手在红色灯光下演唱，手扶额头，身着华丽服饰，背景有模糊纹理。",
+    "theme": "红色灯光下的演唱者"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面整体被红色灯光笼罩。",
+      "歌手正对着麦克风唱歌。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "演唱"
+    ],
+    "attributes": [
+      "穿着华丽服装",
+      "手持麦克风",
+      "红色灯光照射"
+    ],
+    "relations": [
+      "歌手站在麦克风前。"
+    ],
+    "scene": "舞台表演环境",
+    "subjects": [
+      "女性歌手"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面整体被红色灯光笼罩；歌手正对着麦克风唱歌。",
+    "safe_facts": [
+      "画面整体被红色灯光笼罩。",
+      "歌手正对着麦克风唱歌。"
+    ]
+  },
+  "label_id": "cpl_54a8a25dc89d70c3bc94684b",
+  "provenance": {
+    "generated_at": "2026-08-03T15:31:42.783125+00:00",
+    "migrated_at": "2026-08-03T15:31:42.784541+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1b1f520e02c27844437b44d86c03818db557988a94a1b049b66d9e82f1545293",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_933a408d0a144fa05b911c80",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:31:42.784727+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_933a408d0a144fa05b911c80"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

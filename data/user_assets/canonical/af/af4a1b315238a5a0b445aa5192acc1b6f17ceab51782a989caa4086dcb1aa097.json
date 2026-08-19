@@ -1,0 +1,141 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_8aba918db16e773650407465",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_3e9c6c070094db45125966f0"
+  ],
+  "asset": {
+    "asset_id": "af4a1b315238a5a0",
+    "sha256": "af4a1b315238a5a0b445aa5192acc1b6f17ceab51782a989caa4086dcb1aa097",
+    "split": "user_custom",
+    "relative_path": "user_assets/af/af4a1b315238a5a0b445aa5192acc1b6f17ceab51782a989caa4086dcb1aa097/af4a1b315238a5a0b445aa5192acc1b6f17ceab51782a989caa4086dcb1aa097.jpg"
+  },
+  "display": {
+    "theme": "游戏角色表情包",
+    "short_description": "一张以游戏角色头像为核心的网络迷因图。画面中央是一个粉紫色头发、面带夸张笑容的卡通女性角色头部，周围环绕着三个圆形的游戏技能图标。背景为模糊的黑白书法字体，底部配有两行黑色中文标语，整体呈现出幽默调侃的风格。",
+    "micro_tags": [
+      "游戏表情包",
+      "卡通头像",
+      "技能图标",
+      "网络迷因"
+    ]
+  },
+  "facts": {
+    "visual_medium": "mixed",
+    "scene": "白色背景上的图文合成设计",
+    "subjects": [
+      "粉发卡通角色头像",
+      "圆形技能图标",
+      "中文文本",
+      "模糊背景字"
+    ],
+    "actions": [],
+    "attributes": [
+      "彩色",
+      "二维平面",
+      "拼贴风格",
+      "高饱和度"
+    ],
+    "relations": [
+      "角色头像位于画面中上部。",
+      "技能图标分布在角色周围。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "画面中心是一个拥有粉紫色蓬松头发、蓝色眼睛和露齿笑容的3D卡通女性角色头部。",
+      "角色周围悬浮着三个带有金色边框的圆形图标，分别包含奔跑人形、火焰猫头和加速小人的图案。",
+      "背景中有巨大的、经过高斯模糊处理的黑色汉字笔画。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法确定该角色的具体官方名称或所属游戏的确切版本。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "闪现",
+      "伤害",
+      "加速",
+      "你抓不住我",
+      "我是中路灵活的小见猫"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "闪现",
+      "伤害",
+      "加速",
+      "你抓不住我",
+      "我是中路灵活的小见猫"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "画面中心是一个拥有粉紫色蓬松头发、蓝色眼睛和露齿笑容的3D卡通女性角色头部；角色周围悬浮着三个带有金色边框的圆形图标，分别包含奔跑人形、火焰猫头和加速小人的图案。",
+    "safe_facts": [
+      "画面中心是一个拥有粉紫色蓬松头发、蓝色眼睛和露齿笑容的3D卡通女性角色头部。",
+      "角色周围悬浮着三个带有金色边框的圆形图标，分别包含奔跑人形、火焰猫头和加速小人的图案。",
+      "背景中有巨大的、经过高斯模糊处理的黑色汉字笔画。"
+    ],
+    "do_not_assert": [
+      "无法确定该角色的具体官方名称或所属游戏的确切版本。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "needs_review",
+    "schema_valid": true,
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": true,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_692022bf-d7ea-4a46-a2ba-504ebb391692",
+    "generated_at": "2026-08-12T03:07:43.883832+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "5ff90e4c882b1d526943563bdcc62467399cdcba6808f94255abb85b4b37f2d7",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:07:43.884650+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_3e9c6c070094db45125966f0",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:07:43.885201+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "aa0a0ea8a2a6a90345f2812c0d00d0ec909c28c16c97e9fb7ea341aa64e2d611"
+}

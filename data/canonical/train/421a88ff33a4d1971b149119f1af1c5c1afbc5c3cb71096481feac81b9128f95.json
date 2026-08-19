@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1883.jpg",
+    "relative_path": "train/1883.jpg",
+    "sha256": "421a88ff33a4d1971b149119f1af1c5c1afbc5c3cb71096481feac81b9128f95",
+    "split": "train"
+  },
+  "canonical_sha256": "32a7d7170c189435b7ce16117b4dbdfebeff31ac76b299fb4a5b32836f42cbc7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑猫",
+      "夜间",
+      "瓷砖墙",
+      "窗栏"
+    ],
+    "short_description": "一只黑猫蹲坐在瓷砖矮墙上，背景是带铁栏的窗户，光线从上方斜射下来，形成明暗对比。",
+    "theme": "夜色中的黑猫"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "猫可能正在观察周围环境。"
+    ],
+    "direct_observations": [
+      "一只黑色猫蹲坐在由方形瓷砖铺成的矮墙上。",
+      "背景中有带金属栏杆的窗户，光线从上方斜射入。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色",
+      "蹲坐",
+      "毛发浓密",
+      "眼睛发光"
+    ],
+    "relations": [
+      "猫位于瓷砖墙顶部。",
+      "猫在建筑物窗户下方。"
+    ],
+    "scene": "室外建筑旁的矮墙",
+    "subjects": [
+      "一只黑猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "猫可能正在观察周围环境。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只黑色猫蹲坐在由方形瓷砖铺成的矮墙上；背景中有带金属栏杆的窗户，光线从上方斜射入。",
+    "safe_facts": [
+      "一只黑色猫蹲坐在由方形瓷砖铺成的矮墙上。",
+      "背景中有带金属栏杆的窗户，光线从上方斜射入。"
+    ]
+  },
+  "label_id": "cpl_3096d3a5ee24cb90801f5503",
+  "provenance": {
+    "generated_at": "2026-08-03T15:16:54.414718+00:00",
+    "migrated_at": "2026-08-03T15:16:54.416145+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "df932e472faa900cbbf954efb8765536f36cf2e74ba181d3297315518bd02b95",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b99d05a247468507e8436805",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:16:54.416344+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b99d05a247468507e8436805"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

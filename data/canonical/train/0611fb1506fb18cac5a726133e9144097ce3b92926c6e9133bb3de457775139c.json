@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:159.jpg",
+    "relative_path": "train/159.jpg",
+    "sha256": "0611fb1506fb18cac5a726133e9144097ce3b92926c6e9133bb3de457775139c",
+    "split": "train"
+  },
+  "canonical_sha256": "1d93a4997f5199157ae052e307c309c6469c183b28bf201d0d3b94d67d56674a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "林荫道",
+      "落叶",
+      "停放车辆"
+    ],
+    "short_description": "一条被高大树木遮蔽的道路旁停放着车辆，落叶散落在路面上，树干粗壮，枝叶繁茂。",
+    "theme": "林荫道停车"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "树木可能为行道树，形成林荫通道。"
+    ],
+    "direct_observations": [
+      "画面中有多棵高大树木，树干粗壮，枝叶密集形成树冠。",
+      "路面右侧停放着一辆白色轿车，车轮和车身部分可见。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "树干呈灰白色",
+      "树叶呈绿色",
+      "路面有落叶"
+    ],
+    "relations": [
+      "树木沿道路两侧排列。",
+      "汽车停放在路边。"
+    ],
+    "scene": "城市道路旁的树林",
+    "subjects": [
+      "树木",
+      "汽车",
+      "落叶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "树木可能为行道树，形成林荫通道。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多棵高大树木，树干粗壮，枝叶密集形成树冠；路面右侧停放着一辆白色轿车，车轮和车身部分可见。",
+    "safe_facts": [
+      "画面中有多棵高大树木，树干粗壮，枝叶密集形成树冠。",
+      "路面右侧停放着一辆白色轿车，车轮和车身部分可见。"
+    ]
+  },
+  "label_id": "cpl_0e60e5987aca5c50ab42a661",
+  "provenance": {
+    "generated_at": "2026-08-03T10:07:04.271051+00:00",
+    "migrated_at": "2026-08-03T10:07:04.272872+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "46d873fe0880f07a4eead17fbcd591fcff7738843dfc128152d4a0d8e88331ad",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fc863ffed5234204a28a8e0c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:07:04.273088+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fc863ffed5234204a28a8e0c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

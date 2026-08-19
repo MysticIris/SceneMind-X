@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1778.jpg",
+    "relative_path": "train/1778.jpg",
+    "sha256": "a9124dc19e8a987b58031820d7cda43f5043d636f9bb5b8e6c05610609d80edc",
+    "split": "train"
+  },
+  "canonical_sha256": "02533d5651047e9153139d16f382ccc1afae6b2ede8bb2d416ffb1717b6c694a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "恐龙模型",
+      "室内展览",
+      "绿色植被"
+    ],
+    "short_description": "一只大型恐龙模型张开巨口，置身于绿色植被环绕的室内展览空间，背景有投影的热带植物。",
+    "theme": "恐龙主题沉浸式场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "恐龙模型位于画面中央，头部朝向左上方，嘴巴张开露出牙齿。",
+      "背景墙面投射有绿色植物图案，地面和前景有大量仿真绿植。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色皮肤",
+      "张开的嘴",
+      "尖锐牙齿",
+      "周围有植物"
+    ],
+    "relations": [],
+    "scene": "室内展览环境",
+    "subjects": [
+      "恐龙模型"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "恐龙模型位于画面中央，头部朝向左上方，嘴巴张开露出牙齿；背景墙面投射有绿色植物图案，地面和前景有大量仿真绿植。",
+    "safe_facts": [
+      "恐龙模型位于画面中央，头部朝向左上方，嘴巴张开露出牙齿。",
+      "背景墙面投射有绿色植物图案，地面和前景有大量仿真绿植。"
+    ]
+  },
+  "label_id": "cpl_150d76200e5b142d670781da",
+  "provenance": {
+    "generated_at": "2026-08-03T15:06:02.069743+00:00",
+    "migrated_at": "2026-08-03T15:06:02.072067+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "aed08985f6cfba4d0323737470a31973ecad3569b611f0feb265f50cb2ce7bc3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9d01c88e7e60a7b8a50cff10",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:06:02.072590+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9d01c88e7e60a7b8a50cff10"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

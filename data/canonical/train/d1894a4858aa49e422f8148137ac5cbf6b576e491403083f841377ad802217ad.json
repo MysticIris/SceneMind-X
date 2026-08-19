@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:391.jpg",
+    "relative_path": "train/391.jpg",
+    "sha256": "d1894a4858aa49e422f8148137ac5cbf6b576e491403083f841377ad802217ad",
+    "split": "train"
+  },
+  "canonical_sha256": "7f5ac2bc0685bc62501c7ad16054bebad9f5ac25d6089bd9c0cc44ec2f3fdd5b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雨夜",
+      "街道",
+      "积水",
+      "路灯",
+      "斑马线"
+    ],
+    "short_description": "夜间暴雨中，湿漉漉的街道上雨水倾泻，路灯照亮积水路面，斑马线与箭头标线清晰可见，两旁树木与护栏静立。",
+    "theme": "雨夜街道"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "街道上无行人或车辆通行，显得空旷。"
+    ],
+    "direct_observations": [
+      "大量雨滴从空中垂直下落，形成密集雨幕。",
+      "路面因雨水而反光，呈现水渍光泽。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "下雨",
+      "湿润",
+      "反光",
+      "空旷"
+    ],
+    "relations": [
+      "雨水落在路面上。",
+      "路灯照亮街道。",
+      "斑马线位于道路中央。",
+      "树木沿街分布。",
+      "护栏沿路边设置。"
+    ],
+    "scene": "城市街道夜间",
+    "subjects": [
+      "雨水",
+      "路灯",
+      "斑马线",
+      "树木",
+      "交通信号灯",
+      "护栏"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "街道上无行人或车辆通行，显得空旷。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大量雨滴从空中垂直下落，形成密集雨幕；路面因雨水而反光，呈现水渍光泽。",
+    "safe_facts": [
+      "大量雨滴从空中垂直下落，形成密集雨幕。",
+      "路面因雨水而反光，呈现水渍光泽。"
+    ]
+  },
+  "label_id": "cpl_43321256e585c2924a30202c",
+  "provenance": {
+    "generated_at": "2026-08-02T22:02:51.900943+00:00",
+    "migrated_at": "2026-08-03T07:13:41.309490+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "28dd243d9a14532e3b5eae168c12cdb94c4be3f70e18f76be49670ba29ac827e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_094e016a693ab53de70f04ca",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:53:35.983976+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_094e016a693ab53de70f04ca",
+    "cpl_5f54cf75c7fe111c7cdbe02e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

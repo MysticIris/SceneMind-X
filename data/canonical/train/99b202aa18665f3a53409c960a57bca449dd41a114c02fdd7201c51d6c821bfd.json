@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:446.jpg",
+    "relative_path": "train/446.jpg",
+    "sha256": "99b202aa18665f3a53409c960a57bca449dd41a114c02fdd7201c51d6c821bfd",
+    "split": "train"
+  },
+  "canonical_sha256": "36b1de61dc74153798b2bffcf61acdbb176d8116b744dc188ba688400abcfcb3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "化学课",
+      "投影屏幕",
+      "黑板",
+      "学生"
+    ],
+    "short_description": "教室里投影仪显示化学方程式，黑板上有手写公式，一名学生背对镜头听课。",
+    "theme": "化学课堂讲授"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "黑板上有手写的化学公式。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "教室",
+    "subjects": [
+      "投影屏幕",
+      "黑板",
+      "学生"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "黑板上有手写的化学公式。",
+    "safe_facts": [
+      "黑板上有手写的化学公式。"
+    ]
+  },
+  "label_id": "cpl_acd6bb7cc92aaa73c7c915ba",
+  "provenance": {
+    "generated_at": "2026-08-03T11:05:04.272785+00:00",
+    "migrated_at": "2026-08-03T11:05:04.275024+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "631bdee85edfc79604b842477e03e2512fffe3cf747c10f21a8d80b02f1cc7ad",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_26e626f875ecc91ec13c191b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:05:04.275441+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_26e626f875ecc91ec13c191b"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "成酯反应",
+      "CH3COOH + CH3CH2OH → CH3COOCH2CH3 + H2O",
+      "浓H2SO4",
+      "亲核加成-消除机理"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "成酯反应",
+      "CH3COOH + CH3CH2OH → CH3COOCH2CH3 + H2O",
+      "浓H2SO4",
+      "亲核加成-消除机理"
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1090.jpg",
+    "relative_path": "train/1090.jpg",
+    "sha256": "85528bfc73165b22fe9b86e34a584957b7624ea4317ac2128392719b8eae7dcb",
+    "split": "train"
+  },
+  "canonical_sha256": "439505de67be3cbe70c14798b37f5852cc03f81c9358070bfb7c6795b591d223",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "长毛猫",
+      "灰色毛发",
+      "室内地面",
+      "办公椅"
+    ],
+    "short_description": "一只灰白长毛猫躺在地上，眼神慵懒，旁边有办公椅腿和一个人的脚。",
+    "theme": "毛茸茸的猫"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "猫可能处于休息状态。"
+    ],
+    "direct_observations": [
+      "猫全身覆盖浓密长毛，颜色为灰白相间。",
+      "猫的眼睛半睁，表情平静，前爪收拢在身侧。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "长毛",
+      "灰白色",
+      "慵懒眼神",
+      "躺着"
+    ],
+    "relations": [
+      "猫位于地面。",
+      "猫靠近办公椅腿。",
+      "人的脚在猫后方。"
+    ],
+    "scene": "室内地面",
+    "subjects": [
+      "一只猫",
+      "一个人的脚"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "猫可能处于休息状态。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "猫全身覆盖浓密长毛，颜色为灰白相间；猫的眼睛半睁，表情平静，前爪收拢在身侧。",
+    "safe_facts": [
+      "猫全身覆盖浓密长毛，颜色为灰白相间。",
+      "猫的眼睛半睁，表情平静，前爪收拢在身侧。"
+    ]
+  },
+  "label_id": "cpl_a16974c4d6400a2611ec1f8c",
+  "provenance": {
+    "generated_at": "2026-08-03T13:34:20.855785+00:00",
+    "migrated_at": "2026-08-03T13:34:20.857547+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "148bb22b4dba3494724076910e64af3099117a50f453562eaf03c7b35089991c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_cbaf0cccdd149aded82ad5e2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:34:20.857772+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_cbaf0cccdd149aded82ad5e2"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

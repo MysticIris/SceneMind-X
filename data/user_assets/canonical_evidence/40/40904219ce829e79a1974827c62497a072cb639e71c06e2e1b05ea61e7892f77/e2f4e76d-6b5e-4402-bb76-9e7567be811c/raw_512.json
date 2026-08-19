@@ -1,0 +1,127 @@
+{
+  "asset_id": "40904219ce829e79",
+  "asset_sha256": "40904219ce829e79a1974827c62497a072cb639e71c06e2e1b05ea61e7892f77",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"iKF耳机产品说明书\",\n    \"short_description\": \"一张iKF品牌头戴式耳机的中文快速入门指南，详细列出了开关机、媒体控制、降噪模式切换及通话操作等按键说明，并配有耳机结构图解和APP下载二维码。\",\n    \"micro_tags\": [\n      \"耳机说明书\",\n      \"iKF\",\n      \"操作指南\",\n      \"降噪耳机\",\n      \"产品文档\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"poster_document\",\n    \"scene\": \"室内平铺拍摄\",\n    \"subjects\": [\n      \"纸质说明书\",\n      \"耳机结构示意图\",\n      \"二维码\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白底黑字\",\n      \"图文混排\",\n      \"简体中文\",\n      \"折叠痕迹\"\n    ],\n    \"relations\": [\n      \"文字说明对应右侧耳机图示\",\n      \"底部包含两个二维码区域\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图片展示了一份印有密集中文文本的纸张，分为左右两栏布局。\",\n      \"右上角有一个圆形的耳机侧面线条图，标注了电源键、ANC键等位置。\",\n      \"底部有两个明显的方形二维码，左侧二维码旁有'Google Play'和'App Store'图标。\",\n      \"文本内容包含'耳机开关机'、'媒体操作'、'游戏模式'、'降噪模式'等标题。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据底部的应用商店图标和'扫一扫[iKF-APP]'字样，推测这是iKF品牌耳机的配套说明书。\",\n      \"纸张放置在类似织物或地毯的纹理表面上。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"耳机开关机\",\n      \"媒体操作\",\n      \"游戏模式\",\n      \"音频线接口\",\n      \"外置麦克风接口\",\n      \"降噪模式\",\n      \"通话操作\",\n      \"重新配对\",\n      \"扫一扫 [iKF-APP]\",\n      \"享受更多个性化功能\",\n      \"请扫描二维码 关注官方公众号\",\n      \"GET IT ON Google Play\",\n      \"Download on the App Store\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张印有中文操作说明和耳机结构图的纸质文档，底部带有应用程序下载二维码。\",\n    \"safe_facts\": [\n      \"文档包含多段分栏排列的中文文本。\",\n      \"右上方绘有电子设备的线条示意图。\",\n      \"底部并排印有两个二维码图案。\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 654,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 654,
+        "total_tokens": 3859,
+        "estimated_cost_cny": 0.011642,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "iKF耳机产品说明书",
+          "short_description": "一张iKF品牌头戴式耳机的中文快速入门指南，详细列出了开关机、媒体控制、降噪模式切换及通话操作等按键说明，并配有耳机结构图解和APP下载二维码。",
+          "micro_tags": [
+            "耳机说明书",
+            "iKF",
+            "操作指南",
+            "降噪耳机",
+            "产品文档"
+          ]
+        },
+        "facts": {
+          "visual_medium": "poster_document",
+          "scene": "室内平铺拍摄",
+          "subjects": [
+            "纸质说明书",
+            "耳机结构示意图",
+            "二维码"
+          ],
+          "actions": [],
+          "attributes": [
+            "白底黑字",
+            "图文混排",
+            "简体中文",
+            "折叠痕迹"
+          ],
+          "relations": [
+            "文字说明对应右侧耳机图示",
+            "底部包含两个二维码区域"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图片展示了一份印有密集中文文本的纸张，分为左右两栏布局。",
+            "右上角有一个圆形的耳机侧面线条图，标注了电源键、ANC键等位置。",
+            "底部有两个明显的方形二维码，左侧二维码旁有'Google Play'和'App Store'图标。",
+            "文本内容包含'耳机开关机'、'媒体操作'、'游戏模式'、'降噪模式'等标题。"
+          ],
+          "cautious_inferences": [
+            "根据底部的应用商店图标和'扫一扫[iKF-APP]'字样，推测这是iKF品牌耳机的配套说明书。",
+            "纸张放置在类似织物或地毯的纹理表面上。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "耳机开关机",
+            "媒体操作",
+            "游戏模式",
+            "音频线接口",
+            "外置麦克风接口",
+            "降噪模式",
+            "通话操作",
+            "重新配对",
+            "扫一扫 [iKF-APP]",
+            "享受更多个性化功能",
+            "请扫描二维码 关注官方公众号",
+            "GET IT ON Google Play",
+            "Download on the App Store"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张印有中文操作说明和耳机结构图的纸质文档，底部带有应用程序下载二维码。",
+          "safe_facts": [
+            "文档包含多段分栏排列的中文文本。",
+            "右上方绘有电子设备的线条示意图。",
+            "底部并排印有两个二维码图案。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 6412108,
+        "request_bytes": 4806008,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.170271299997694,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "4b1f1eea04a60fe35539ea6ca111755e7369f9858123092516e96ba1df541bf7"
+}

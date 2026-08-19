@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:343.jpg",
+    "relative_path": "train/343.jpg",
+    "sha256": "c8499bfacdd475d535de08ac4ee012289bdd03fa01e4b103db163ca79e72c06d",
+    "split": "train"
+  },
+  "canonical_sha256": "bbef28882b6c8a799f4d186035b5c7c465f78732db279b1349e6c1c5de2bb90c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古典建筑",
+      "盛开的花树",
+      "游客漫步"
+    ],
+    "short_description": "游客在古建筑前漫步，粉红花树与枯枝相映，庭院内人来人往，氛围宁静而生动。",
+    "theme": "古典园林春景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能是春季，因有开花树木。"
+    ],
+    "direct_observations": [
+      "画面中央是一座具有传统飞檐的中式门楼。",
+      "右侧有一棵开满粉红色花朵的树。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "站立",
+      "观赏"
+    ],
+    "attributes": [
+      "红色柱子",
+      "黑色瓦片屋顶",
+      "粉色花朵",
+      "光秃树枝",
+      "石质地面"
+    ],
+    "relations": [
+      "游客在建筑前活动。",
+      "花树位于建筑旁。",
+      "松树在前景左侧。"
+    ],
+    "scene": "中式园林入口",
+    "subjects": [
+      "游客",
+      "古建筑",
+      "花树",
+      "松树"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能是春季，因有开花树木。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是一座具有传统飞檐的中式门楼；右侧有一棵开满粉红色花朵的树。",
+    "safe_facts": [
+      "画面中央是一座具有传统飞檐的中式门楼。",
+      "右侧有一棵开满粉红色花朵的树。"
+    ]
+  },
+  "label_id": "cpl_3e30c3b744ce39b21e6226ea",
+  "provenance": {
+    "generated_at": "2026-08-03T10:43:49.226617+00:00",
+    "migrated_at": "2026-08-03T10:43:49.228320+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "90afb05ca3ba3963b048e0fe7a8d380f506bac18576f5256dbafc4c630bde00a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3717a62ec6cb29ad33d962cc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:43:49.228563+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3717a62ec6cb29ad33d962cc"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

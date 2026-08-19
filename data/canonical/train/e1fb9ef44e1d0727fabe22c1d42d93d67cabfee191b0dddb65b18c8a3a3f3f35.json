@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:472.jpg",
+    "relative_path": "train/472.jpg",
+    "sha256": "e1fb9ef44e1d0727fabe22c1d42d93d67cabfee191b0dddb65b18c8a3a3f3f35",
+    "split": "train"
+  },
+  "canonical_sha256": "fa900b4f5b0649aa77afb3cdfba0dcfc58c8330c4e2658ffbdd107d1850217a2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "高楼",
+      "棕榈树",
+      "城市街道",
+      "晴天"
+    ],
+    "short_description": "晴朗天空下，高楼大厦与棕榈树交织的城市街景，右侧有古典风格建筑，前景有行人与车辆。",
+    "theme": "城市棕榈树与现代建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有高耸的玻璃幕墙建筑。",
+      "多棵棕榈树排列在街道旁。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晴朗天空",
+      "云朵",
+      "玻璃幕墙",
+      "米色外墙"
+    ],
+    "relations": [
+      "高楼位于画面左侧。",
+      "棕榈树分布在前景与中景。",
+      "古典建筑位于画面右侧。"
+    ],
+    "scene": "城市广场或街道",
+    "subjects": [
+      "高楼",
+      "棕榈树",
+      "古典建筑",
+      "行人",
+      "汽车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有高耸的玻璃幕墙建筑；多棵棕榈树排列在街道旁。",
+    "safe_facts": [
+      "画面中有高耸的玻璃幕墙建筑。",
+      "多棵棕榈树排列在街道旁。"
+    ]
+  },
+  "label_id": "cpl_98f5fac4ac9545bfba74ae5a",
+  "provenance": {
+    "generated_at": "2026-08-03T11:10:22.922498+00:00",
+    "migrated_at": "2026-08-03T11:10:22.924017+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4eae49d6990a9cfaa6887b0bdd315554d3a6b3ad8fbf87b03898a1df02742997",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d9be1291bbcab5a2f630d808",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:10:22.924219+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d9be1291bbcab5a2f630d808"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

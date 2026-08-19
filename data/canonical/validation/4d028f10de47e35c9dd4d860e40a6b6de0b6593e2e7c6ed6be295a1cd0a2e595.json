@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2084.jpg",
+    "relative_path": "val/2084.jpg",
+    "sha256": "4d028f10de47e35c9dd4d860e40a6b6de0b6593e2e7c6ed6be295a1cd0a2e595",
+    "split": "val"
+  },
+  "canonical_sha256": "e99a03fb1a52a332f93b89bae00b98bb31601e73ca9884793883eadce156280c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑板",
+      "物理公式",
+      "教师授课"
+    ],
+    "short_description": "一位老师在黑板前讲解量子力学公式，黑板上写满数学推导，学生头部可见。",
+    "theme": "课堂讲授量子力学"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "黑板上有手写的数学公式和符号。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "讲解",
+      "书写"
+    ],
+    "attributes": [
+      "绿色黑板",
+      "白色粉笔字",
+      "蓝色衬衫"
+    ],
+    "relations": [
+      "老师站在黑板旁。",
+      "学生在老师前方。"
+    ],
+    "scene": "教室",
+    "subjects": [
+      "老师",
+      "黑板",
+      "学生"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "黑板上有手写的数学公式和符号。",
+    "safe_facts": [
+      "黑板上有手写的数学公式和符号。"
+    ]
+  },
+  "label_id": "cpl_cb77d324e0ecdb9bdb722217",
+  "provenance": {
+    "generated_at": "2026-08-03T15:57:38.265098+00:00",
+    "migrated_at": "2026-08-03T15:57:38.266801+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8b3fbd33339870095cb78f2e06b74200ff08350a5f2aefb2bbf20fdea8e97f68",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_200d877a9aa171cb43a10b47",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:57:38.267156+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_200d877a9aa171cb43a10b47"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "i\\hbar\\frac{d}{dt}\\langle t\\rangle = i\\h",
+      "U(t)=e^{-iHt/\\hbar}"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "i\\hbar\\frac{d}{dt}\\langle t\\rangle = i\\h",
+      "U(t)=e^{-iHt/\\hbar}"
+    ]
+  }
+}

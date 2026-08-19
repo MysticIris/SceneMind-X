@@ -1,0 +1,1 @@
+只输出一行标准 JSON：{"global_observation":"不超过18字的全局场景","subjects":"不超过18字的主要主体"}。必须使用 ASCII 双引号，不要数组、Markdown 或额外字段；屏幕或海报内容不是现场主体。

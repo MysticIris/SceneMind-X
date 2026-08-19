@@ -1,0 +1,126 @@
+{
+  "asset_id": "869c592a9b9d7d34",
+  "asset_sha256": "869c592a9b9d7d34b28309d47baf4274ba83a19601fce387ef205a5f9e4c210d",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"平行双目成像视差原理图\",\n    \"short_description\": \"这是一张关于平行双目成像中视差计算的几何示意图。图中展示了两个图像平面、光心连线中点坐标系以及空间点W的投影关系，并附带了相关的深度Z计算公式及具体数值算例。\",\n    \"micro_tags\": [\n      \"双目视觉\",\n      \"视差\",\n      \"几何光学\",\n      \"深度计算\",\n      \"数学公式\",\n      \"教学课件\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"illustration\",\n    \"scene\": \"教科书或学术文档页面\",\n    \"subjects\": [\n      \"几何示意图\",\n      \"坐标轴\",\n      \"投影光线\",\n      \"数学文本\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"黑白线条\",\n      \"彩色标注（橙色、蓝色、紫色）\",\n      \"包含公式推导\"\n    ],\n    \"relations\": [\n      \"文字题目位于图片上方\",\n      \"几何图解位于中间\",\n      \"答案与计算结果位于底部\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图片中央是一个几何线图，包含垂直的X轴和水平的Z轴，原点标记为O。\",\n      \"图中有两条蓝色的线代表光线，汇聚于右侧的空间点W(-X, Y, Z)。\",\n      \"左侧有两个橙色的竖条代表图像平面，分别标记为'图像1'和'图像2'。\",\n      \"顶部文字包含题目编号'9.3'及参数'λ=0.05m, B=0.4m'等。\",\n      \"底部给出了深度Z的计算公式以及X和Z的具体计算结果。\"\n    ],\n    \"cautious_inferences\": [\n      \"这看起来像是计算机视觉或摄影测量学课程的教学材料。\",\n      \"图示旨在解释如何通过视差（disparity）来计算物体的深度信息。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"9.3 在右图中，如设坐标原点在量光心连线的中点处，试给出深度 Z 的计算公式。\",\n      \"如 λ =0.05m，B=0.4m，x1=0.02m，x2=-0.03m，算出 X 和 Z 的坐标。\",\n      \"图 5.2.2 平行双目成像中的视差\",\n      \"答：Z = λ B/d\",\n      \"（坐标系如图所示情况下）X=0.16m Z=0.45m\",\n      \"W(-X, Y, Z)\",\n      \"(x1, y1)\",\n      \"(x2, y2)\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张包含几何图解和数学公式的教育类插图，展示了带有坐标轴、投影线和标记点的科学原理示意图，周围环绕着中文题目描述和计算结果。\",\n    \"safe_facts\": [\n      \"图片主体为白底黑字的文档页面。\",\n      \"中心有一个由直线、箭头和点组成的几何图表。\",\n      \"图表中包含英文字母变量标记如X, Z, O, W等。\",\n      \"上下方分布着多行中文文本和数学算式。\"\n    ]\n  }\n}",
+      "input_tokens": 1935,
+      "output_tokens": 814,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 1935,
+        "output_tokens": 814,
+        "total_tokens": 2749,
+        "estimated_cost_cny": 0.010382,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "平行双目成像视差原理图",
+          "short_description": "这是一张关于平行双目成像中视差计算的几何示意图。图中展示了两个图像平面、光心连线中点坐标系以及空间点W的投影关系，并附带了相关的深度Z计算公式及具体数值算例。",
+          "micro_tags": [
+            "双目视觉",
+            "视差",
+            "几何光学",
+            "深度计算",
+            "数学公式",
+            "教学课件"
+          ]
+        },
+        "facts": {
+          "visual_medium": "illustration",
+          "scene": "教科书或学术文档页面",
+          "subjects": [
+            "几何示意图",
+            "坐标轴",
+            "投影光线",
+            "数学文本"
+          ],
+          "actions": [],
+          "attributes": [
+            "黑白线条",
+            "彩色标注（橙色、蓝色、紫色）",
+            "包含公式推导"
+          ],
+          "relations": [
+            "文字题目位于图片上方",
+            "几何图解位于中间",
+            "答案与计算结果位于底部"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图片中央是一个几何线图，包含垂直的X轴和水平的Z轴，原点标记为O。",
+            "图中有两条蓝色的线代表光线，汇聚于右侧的空间点W(-X, Y, Z)。",
+            "左侧有两个橙色的竖条代表图像平面，分别标记为'图像1'和'图像2'。",
+            "顶部文字包含题目编号'9.3'及参数'λ=0.05m, B=0.4m'等。",
+            "底部给出了深度Z的计算公式以及X和Z的具体计算结果。"
+          ],
+          "cautious_inferences": [
+            "这看起来像是计算机视觉或摄影测量学课程的教学材料。",
+            "图示旨在解释如何通过视差（disparity）来计算物体的深度信息。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "9.3 在右图中，如设坐标原点在量光心连线的中点处，试给出深度 Z 的计算公式。",
+            "如 λ =0.05m，B=0.4m，x1=0.02m，x2=-0.03m，算出 X 和 Z 的坐标。",
+            "图 5.2.2 平行双目成像中的视差",
+            "答：Z = λ B/d",
+            "（坐标系如图所示情况下）X=0.16m Z=0.45m",
+            "W(-X, Y, Z)",
+            "(x1, y1)",
+            "(x2, y2)"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张包含几何图解和数学公式的教育类插图，展示了带有坐标轴、投影线和标记点的科学原理示意图，周围环绕着中文题目描述和计算结果。",
+          "safe_facts": [
+            "图片主体为白底黑字的文档页面。",
+            "中心有一个由直线、箭头和点组成的几何图表。",
+            "图表中包含英文字母变量标记如X, Z, O, W等。",
+            "上下方分布着多行中文文本和数学算式。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 166548,
+        "request_bytes": 121838,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 19.06150749999506,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "ac0e3259314ffc4cb22624a350eb841f926505c3f1ba9d566ea69d1e9d47cee5"
+}

@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:626.jpg",
+    "relative_path": "train/626.jpg",
+    "sha256": "220e98a693289d5f70d2d9c105591b4311552a6ab03d6bfd595767e33762281e",
+    "split": "train"
+  },
+  "canonical_sha256": "29c77c823a48120bf19659ad8de6dd1ea0ba064b2ee32e11c63065c09a42b821",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "绣球花",
+      "石板路",
+      "林荫道",
+      "傍晚光线"
+    ],
+    "short_description": "石板小径蜿蜒穿过蓝紫色绣球花丛，两侧绿树成荫，远处灯光微亮，营造静谧自然氛围。",
+    "theme": "林间石径花影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "路径右侧有木质护栏，可能是为了引导行人或防止跌落。"
+    ],
+    "direct_observations": [
+      "石板路由灰色方形石砖铺成，延伸至画面深处。",
+      "左侧有大量蓝紫色绣球花丛，叶片呈深绿色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色花朵",
+      "绿色叶片",
+      "灰色石板",
+      "木质栏杆"
+    ],
+    "relations": [
+      "绣球花沿石板路一侧生长。",
+      "树木环绕石板路两侧。"
+    ],
+    "scene": "公园或园林小径",
+    "subjects": [
+      "绣球花",
+      "石板路",
+      "树木",
+      "路灯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "路径右侧有木质护栏，可能是为了引导行人或防止跌落。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "石板路由灰色方形石砖铺成，延伸至画面深处；左侧有大量蓝紫色绣球花丛，叶片呈深绿色。",
+    "safe_facts": [
+      "石板路由灰色方形石砖铺成，延伸至画面深处。",
+      "左侧有大量蓝紫色绣球花丛，叶片呈深绿色。"
+    ]
+  },
+  "label_id": "cpl_7da22417d91132fe9c1e0ca1",
+  "provenance": {
+    "generated_at": "2026-08-02T22:31:49.188796+00:00",
+    "migrated_at": "2026-08-03T07:13:41.880655+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "caf6dd11a7fd706f79a64294797948fbb0e5de97bb81bb737af02b276bba98da",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ef7613ec6854532cb8a86697",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:47:01.332303+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ef7613ec6854532cb8a86697",
+    "cpl_41c3c4ad030a5c596547f1f5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

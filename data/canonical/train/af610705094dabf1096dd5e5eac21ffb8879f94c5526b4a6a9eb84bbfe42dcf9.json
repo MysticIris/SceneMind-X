@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1171.jpg",
+    "relative_path": "train/1171.jpg",
+    "sha256": "af610705094dabf1096dd5e5eac21ffb8879f94c5526b4a6a9eb84bbfe42dcf9",
+    "split": "train"
+  },
+  "canonical_sha256": "15321644dd1e31485887bd249cc0007d12c318f4d12b8117c6f16da0851b4337",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蝴蝶标本",
+      "蓝色背景",
+      "玻璃框"
+    ],
+    "short_description": "墙上展示着多组装裱好的蝴蝶标本，上方配有装饰画框。",
+    "theme": "蓝色背景蝴蝶展"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多个蝴蝶标本被装在透明玻璃框内，整齐排列在蓝色背景墙上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色背景",
+      "玻璃框装裱",
+      "多排陈列"
+    ],
+    "relations": [
+      "蝴蝶标本被装裱在玻璃框内并挂在墙上。"
+    ],
+    "scene": "室内展示墙",
+    "subjects": [
+      "蝴蝶标本",
+      "装饰画框"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多个蝴蝶标本被装在透明玻璃框内，整齐排列在蓝色背景墙上。",
+    "safe_facts": [
+      "多个蝴蝶标本被装在透明玻璃框内，整齐排列在蓝色背景墙上。"
+    ]
+  },
+  "label_id": "cpl_9f4653714efe373e455584c5",
+  "provenance": {
+    "generated_at": "2026-08-03T13:49:36.893361+00:00",
+    "migrated_at": "2026-08-03T13:49:36.899250+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "da7b7e00ef9b44b08a5b0ef8855270276efc9108616296c20ff6376c76544d56",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9135141d0b843833733dd54e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:49:36.899594+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9135141d0b843833733dd54e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:409.jpg",
+    "relative_path": "train/409.jpg",
+    "sha256": "a284f97881720b449653cd2c5424635e440f7ee65d1cfaaa22b28874ab378baf",
+    "split": "train"
+  },
+  "canonical_sha256": "3d99667ad43e34b09ced0769e2125d308faab59e78c5264bd7a523f7730baf25",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "建筑",
+      "宣传牌",
+      "二进制图案",
+      "绿植"
+    ],
+    "short_description": "现代螺旋形建筑前立着一个大型金属宣传牌，上面有红色汉字和二进制图案，周围环绕绿植。",
+    "theme": "科技建筑前的宣传装置"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一个大型金属结构的宣传牌，其表面有红色汉字和蓝色二进制数字图案。",
+      "背景是一座具有螺旋状白色金属框架的现代建筑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金属材质",
+      "红色汉字",
+      "蓝色二进制图案",
+      "绿色植物"
+    ],
+    "relations": [
+      "宣传牌位于建筑前方。",
+      "树木和灌木丛围绕宣传牌。"
+    ],
+    "scene": "城市户外建筑前",
+    "subjects": [
+      "螺旋形建筑",
+      "宣传牌",
+      "树木",
+      "灌木丛"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一个大型金属结构的宣传牌，其表面有红色汉字和蓝色二进制数字图案；背景是一座具有螺旋状白色金属框架的现代建筑。",
+    "safe_facts": [
+      "画面中有一个大型金属结构的宣传牌，其表面有红色汉字和蓝色二进制数字图案。",
+      "背景是一座具有螺旋状白色金属框架的现代建筑。"
+    ]
+  },
+  "label_id": "cpl_65f52f401c46f1f8e19a2803",
+  "provenance": {
+    "generated_at": "2026-08-03T10:57:34.897728+00:00",
+    "migrated_at": "2026-08-03T10:57:34.899433+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7f45c18bec1e79046378a8befb7f10b07a012936f51340b1425ece1c249a5eef",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4d580308751ac3b63badcc96",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:57:34.899851+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4d580308751ac3b63badcc96"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "加快发展",
+      "新一代人工智能",
+      "水工"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "加快发展",
+      "新一代人工智能",
+      "水工"
+    ]
+  }
+}

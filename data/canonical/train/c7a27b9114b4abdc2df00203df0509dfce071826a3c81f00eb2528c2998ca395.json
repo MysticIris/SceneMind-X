@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:84.jpg",
+    "relative_path": "train/84.jpg",
+    "sha256": "c7a27b9114b4abdc2df00203df0509dfce071826a3c81f00eb2528c2998ca395",
+    "split": "train"
+  },
+  "canonical_sha256": "f2fe846d8d2c8a1b3ddca4ce320d5a852706a31ad71061ea5d827ca5fed51c7a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪夜",
+      "路灯",
+      "街道",
+      "雪花"
+    ],
+    "short_description": "雪夜中街道两旁的路灯亮着，雪花纷飞，树木光秃，路面有车辙痕迹。",
+    "theme": "雪夜街景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "地面覆盖薄雪，有车轮痕迹。"
+    ],
+    "direct_observations": [
+      "路灯发出明亮光芒。",
+      "空中可见大量雪花飘落。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "路灯发光",
+      "树木无叶",
+      "路面有积雪",
+      "雪花飘落"
+    ],
+    "relations": [
+      "路灯位于街道两侧。",
+      "树木沿路排列。",
+      "车辆停在路边。"
+    ],
+    "scene": "城市街道",
+    "subjects": [
+      "路灯",
+      "树木",
+      "雪花",
+      "车辆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "地面覆盖薄雪，有车轮痕迹。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "路灯发出明亮光芒；空中可见大量雪花飘落。",
+    "safe_facts": [
+      "路灯发出明亮光芒。",
+      "空中可见大量雪花飘落。"
+    ]
+  },
+  "label_id": "cpl_0c5b07469a5d1d1a8097aa38",
+  "provenance": {
+    "generated_at": "2026-08-03T09:22:13.609646+00:00",
+    "migrated_at": "2026-08-03T09:22:13.611571+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dca91853279836f97e702fa8e5fb112d84c366745f7fd694fa78a4f9aaeb54e8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a5af53627e3fee3e1765c8e0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:28.602762+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a5af53627e3fee3e1765c8e0",
+    "cpl_9ae256eb4c80e88694a79913"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

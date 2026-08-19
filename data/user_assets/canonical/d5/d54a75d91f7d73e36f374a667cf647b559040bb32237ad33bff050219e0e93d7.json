@@ -1,0 +1,132 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_4567f0191a72ffa2741fa93b",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_b68e1048b0206e616cf821f0"
+  ],
+  "asset": {
+    "asset_id": "d54a75d91f7d73e3",
+    "sha256": "d54a75d91f7d73e36f374a667cf647b559040bb32237ad33bff050219e0e93d7",
+    "split": "user_custom",
+    "relative_path": "user_assets/d5/d54a75d91f7d73e36f374a667cf647b559040bb32237ad33bff050219e0e93d7/d54a75d91f7d73e36f374a667cf647b559040bb32237ad33bff050219e0e93d7.png"
+  },
+  "display": {
+    "theme": "考研励志相框商品展示",
+    "short_description": "这是一张电商平台的商品详情页截图。画面主体为一个放置在桌面上的木质相框，内嵌一张印有穿西装年轻男子肖像及“考研必胜”字样的海报。界面包含红色促销横幅、价格信息及底部导航栏。",
+    "micro_tags": [
+      "电商截图",
+      "考研周边",
+      "木质相框",
+      "人物肖像",
+      "励志标语",
+      "桌面摆件"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "电商平台商品详情页界面",
+    "subjects": [
+      "木质相框",
+      "穿西装的年轻男子肖像",
+      "促销信息横幅",
+      "底部操作栏"
+    ],
+    "actions": [],
+    "attributes": [
+      "浅木色边框",
+      "蓝色背景海报",
+      "红色促销底色",
+      "竖屏构图"
+    ],
+    "relations": [
+      "相框位于画面中央。",
+      "促销横幅位于相框下方。",
+      "操作栏位于屏幕最底部。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "界面下方有显眼的红色横条区域，显示数字价格“8.6”及“超级立减”等营销文案。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "考研必胜",
+      "超级立减",
+      "必定上岸"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "考研必胜",
+      "超级立减",
+      "必定上岸"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "界面下方有显眼的红色横条区域，显示数字价格“8.6”及“超级立减”等营销文案。",
+    "safe_facts": [
+      "界面下方有显眼的红色横条区域，显示数字价格“8.6”及“超级立减”等营销文案。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_17e3f072-02f7-4bf9-9341-15a8d0d4266d",
+    "generated_at": "2026-08-12T03:00:23.360510+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "d0dfbac9b0d9bf4e08c320f7bb8b9b5340b53b8b27c1da5c4e90ce49828ccd16",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:00:23.361190+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_b68e1048b0206e616cf821f0",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:00:23.361507+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "fe90d383fc9e540c78506bccf1abde1bb5a02dfd24ed4e561a2cdc23e990217a"
+}

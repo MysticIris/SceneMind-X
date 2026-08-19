@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2125.jpg",
+    "relative_path": "val/2125.jpg",
+    "sha256": "62fc73e4c081c2558b31b17be2b6a63c168854a60332ff60fb795d81886dfc83",
+    "split": "val"
+  },
+  "canonical_sha256": "ba53a6850b640981eeb741ca92c41dc71cb1b9c379d04a1835b36fd85dc27c5b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "火锅",
+      "鸳鸯锅",
+      "涮肉",
+      "聚餐"
+    ],
+    "short_description": "一张火锅餐桌俯拍图，中央是鸳鸯锅，周围摆满生肉片、蔬菜和菌菇，配筷子和饮料。",
+    "theme": "火锅聚餐"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "火锅锅体被分为红汤区和白汤区。",
+      "桌面上摆放多个装有生肉片的盘子。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "鸳鸯锅",
+      "分格锅体",
+      "生肉片",
+      "新鲜蔬菜",
+      "菌菇",
+      "玻璃杯装饮料"
+    ],
+    "relations": [
+      "肉片放置于黑色盘子上。",
+      "蔬菜置于白色碗中。",
+      "菌菇置于黑色容器内。"
+    ],
+    "scene": "室内餐厅餐桌",
+    "subjects": [
+      "火锅锅具",
+      "肉片",
+      "蔬菜",
+      "菌菇",
+      "筷子",
+      "饮料杯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "火锅锅体被分为红汤区和白汤区；桌面上摆放多个装有生肉片的盘子。",
+    "safe_facts": [
+      "火锅锅体被分为红汤区和白汤区。",
+      "桌面上摆放多个装有生肉片的盘子。"
+    ]
+  },
+  "label_id": "cpl_b37371a0365cb9e21818282e",
+  "provenance": {
+    "generated_at": "2026-08-03T16:02:27.363168+00:00",
+    "migrated_at": "2026-08-03T16:02:27.365290+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5a2acbaf217461babb3a7b469d8ab64311013e94878b56c6dd4b37f26c336410",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1f20bd07ce1778c54b0400db",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:02:27.365505+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1f20bd07ce1778c54b0400db"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

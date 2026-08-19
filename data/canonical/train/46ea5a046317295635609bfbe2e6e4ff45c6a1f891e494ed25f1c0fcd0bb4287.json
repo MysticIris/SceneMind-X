@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1881.jpg",
+    "relative_path": "train/1881.jpg",
+    "sha256": "46ea5a046317295635609bfbe2e6e4ff45c6a1f891e494ed25f1c0fcd0bb4287",
+    "split": "train"
+  },
+  "canonical_sha256": "cfaf479deeb3f56bb9ffae12a339ed9a48139812c7c19f5d9417fa13575f7b52",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "舞台演出",
+      "蓝色巨蛇",
+      "乐队表演"
+    ],
+    "short_description": "舞台上蓝色巨蛇投影与乐队表演，背景岩石状布景，观众席视角。",
+    "theme": "舞台灯光秀"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "舞台中央有乐队成员和鼓组。",
+      "背景屏幕显示蓝色蛇形图案。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色发光蛇形投影",
+      "岩石状背景",
+      "舞台灯光设备"
+    ],
+    "relations": [],
+    "scene": "室内舞台表演现场",
+    "subjects": [
+      "乐队成员",
+      "舞台投影",
+      "舞台设备"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "舞台中央有乐队成员和鼓组；背景屏幕显示蓝色蛇形图案。",
+    "safe_facts": [
+      "舞台中央有乐队成员和鼓组。",
+      "背景屏幕显示蓝色蛇形图案。"
+    ]
+  },
+  "label_id": "cpl_1309147a74b556526eef362c",
+  "provenance": {
+    "generated_at": "2026-08-03T15:16:39.898413+00:00",
+    "migrated_at": "2026-08-03T15:16:39.900657+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2c33906e776a7b710bd44dd670b0bfdd73310e7c3aa4262773f6a07d2fc77026",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1244e98079a59ff4428728f8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:16:39.901088+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1244e98079a59ff4428728f8"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "直到蛇在身边玩 平果让你咬"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "直到蛇在身边玩 平果让你咬"
+    ]
+  }
+}

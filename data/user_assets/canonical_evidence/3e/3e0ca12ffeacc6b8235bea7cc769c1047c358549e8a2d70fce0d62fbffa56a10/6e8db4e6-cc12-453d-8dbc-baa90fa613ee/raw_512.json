@@ -1,0 +1,122 @@
+{
+  "asset_id": "3e0ca12ffeacc6b8",
+  "asset_sha256": "3e0ca12ffeacc6b8235bea7cc769c1047c358549e8a2d70fce0d62fbffa56a10",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"城市运动场雪景\",\n    \"short_description\": \"阴天下的城市运动场场景，前景为带有白色隔离护栏的沥青路面，中景是覆盖着薄雪的绿色草坪和红色跑道，背景可见高层住宅楼与树木。\",\n    \"micro_tags\": [\n      \"运动场\",\n      \"积雪\",\n      \"白色护栏\",\n      \"高层建筑\",\n      \"阴天\",\n      \"城市景观\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"户外运动场及周边道路\",\n    \"subjects\": [\n      \"白色金属隔离护栏\",\n      \"运动场草坪\",\n      \"红色塑胶跑道\",\n      \"高层住宅楼\",\n      \"树木\",\n      \"照明灯杆\",\n      \"蓝色指示牌\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"阴天\",\n      \"地面有残雪\",\n      \"草坪呈绿色\",\n      \"护栏为白色拱形\",\n      \"建筑密集\"\n    ],\n    \"relations\": [\n      \"白色护栏位于画面前景道路边缘\",\n      \"运动场位于护栏后方\",\n      \"高楼位于树木后方背景处\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"前景道路上设置有两排白色的拱形金属隔离护栏，底座为黄色或混凝土色。\",\n      \"中景的运动场草坪上覆盖着不均匀的白色积雪，周围环绕着红色跑道和黑色围网。\",\n      \"背景远处矗立着多栋米色或灰色的高层住宅楼，天空呈现灰白色。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据地面的积雪和阴沉的天空，推测此时可能为冬季或初春寒冷天气。\",\n      \"场地内空旷无人，可能处于非开放时段或因天气原因暂停使用。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的地理位置或学校名称。\",\n      \"无法确认蓝色标牌上的具体文字内容。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_unreadable\",\n    \"visual_candidates\": []\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张展示城市运动场的照片，前景有白色交通护栏，运动场草坪上有积雪，背景是高楼大厦。\",\n    \"safe_facts\": [\n      \"画面包含白色金属护栏、运动场、跑道和高层建筑。\",\n      \"地面和草坪上可见白色积雪痕迹。\",\n      \"天气看起来是阴天。\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 614,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 614,
+        "total_tokens": 3819,
+        "estimated_cost_cny": 0.011322,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "城市运动场雪景",
+          "short_description": "阴天下的城市运动场场景，前景为带有白色隔离护栏的沥青路面，中景是覆盖着薄雪的绿色草坪和红色跑道，背景可见高层住宅楼与树木。",
+          "micro_tags": [
+            "运动场",
+            "积雪",
+            "白色护栏",
+            "高层建筑",
+            "阴天",
+            "城市景观"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "户外运动场及周边道路",
+          "subjects": [
+            "白色金属隔离护栏",
+            "运动场草坪",
+            "红色塑胶跑道",
+            "高层住宅楼",
+            "树木",
+            "照明灯杆",
+            "蓝色指示牌"
+          ],
+          "actions": [],
+          "attributes": [
+            "阴天",
+            "地面有残雪",
+            "草坪呈绿色",
+            "护栏为白色拱形",
+            "建筑密集"
+          ],
+          "relations": [
+            "白色护栏位于画面前景道路边缘",
+            "运动场位于护栏后方",
+            "高楼位于树木后方背景处"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "前景道路上设置有两排白色的拱形金属隔离护栏，底座为黄色或混凝土色。",
+            "中景的运动场草坪上覆盖着不均匀的白色积雪，周围环绕着红色跑道和黑色围网。",
+            "背景远处矗立着多栋米色或灰色的高层住宅楼，天空呈现灰白色。"
+          ],
+          "cautious_inferences": [
+            "根据地面的积雪和阴沉的天空，推测此时可能为冬季或初春寒冷天气。",
+            "场地内空旷无人，可能处于非开放时段或因天气原因暂停使用。"
+          ],
+          "uncertainties": [
+            "无法确定具体的地理位置或学校名称。",
+            "无法确认蓝色标牌上的具体文字内容。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_unreadable",
+          "visual_candidates": []
+        },
+        "fallback": {
+          "safe_caption": "一张展示城市运动场的照片，前景有白色交通护栏，运动场草坪上有积雪，背景是高楼大厦。",
+          "safe_facts": [
+            "画面包含白色金属护栏、运动场、跑道和高层建筑。",
+            "地面和草坪上可见白色积雪痕迹。",
+            "天气看起来是阴天。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 8073084,
+        "request_bytes": 6051740,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 12.806622299998708,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "18ecd9b3927d66a0129921a9541951bcd31045e39eb4f237c480113a53a65c5e"
+}

@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:226.jpg",
+    "relative_path": "train/226.jpg",
+    "sha256": "65208c818880cf9280ce0deefb67997fe6c1e1243095030c244ccb479d098b78",
+    "split": "train"
+  },
+  "canonical_sha256": "2fe98ed2a9d8e8ca78186ae9895d559104e7bb3463d119ac12b5ec2ac214e082",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "管道",
+      "小角色",
+      "工业环境",
+      "动画场景"
+    ],
+    "short_description": "两个小角色在大型工业管道上攀爬，背景为暖色调工业环境。",
+    "theme": "工业管道场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两个小型角色分别位于两条粗大波纹状管道上。",
+      "背景呈现木质板条结构和暖橙色光线。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "攀爬"
+    ],
+    "attributes": [
+      "金属管道",
+      "暖色背景光",
+      "卡通风格"
+    ],
+    "relations": [
+      "角色位于管道上方。"
+    ],
+    "scene": "大型工业设备内部或外部",
+    "subjects": [
+      "两个小型角色"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两个小型角色分别位于两条粗大波纹状管道上；背景呈现木质板条结构和暖橙色光线。",
+    "safe_facts": [
+      "画面中有两个小型角色分别位于两条粗大波纹状管道上。",
+      "背景呈现木质板条结构和暖橙色光线。"
+    ]
+  },
+  "label_id": "cpl_938ee83519771701a77cbdba",
+  "provenance": {
+    "generated_at": "2026-08-03T10:19:59.472164+00:00",
+    "migrated_at": "2026-08-03T10:19:59.474003+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dbc92b7abc2b9c629e4aead9b3a2b7bb5d713fe5d3401a62803837c5b60d6ecb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_aff2e084e71f5c0209a42ee0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:19:59.474382+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_aff2e084e71f5c0209a42ee0"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "(爆炸轰隆声)",
+      "(科迪和小梅尖叫)"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "(爆炸轰隆声)",
+      "(科迪和小梅尖叫)"
+    ]
+  }
+}

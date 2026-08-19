@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:525.jpg",
+    "relative_path": "train/525.jpg",
+    "sha256": "ce73b750cdba15e421d1c00e1490053233e01b92819cef64155e814001a1bf25",
+    "split": "train"
+  },
+  "canonical_sha256": "56ce29f4f0702315c0db1ae8d2e2a3f464fcae4f8b5b7fe544b64e14cb59732f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "大学建筑",
+      "入口台阶",
+      "立柱标语"
+    ],
+    "short_description": "一栋现代风格建筑的正门，门前有台阶，两侧立柱上挂有白色竖幅，门上方有徽章。",
+    "theme": "大学建筑入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑正面有宽阔的台阶通向入口。",
+      "入口两侧立柱上悬挂着白色竖幅。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "现代风格",
+      "红棕色木门",
+      "白色墙面",
+      "灰色石阶"
+    ],
+    "relations": [
+      "台阶位于建筑前方。",
+      "立柱支撑门廊。",
+      "横幅悬挂在立柱上。"
+    ],
+    "scene": "建筑物正面入口",
+    "subjects": [
+      "建筑",
+      "台阶",
+      "立柱",
+      "门",
+      "横幅"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑正面有宽阔的台阶通向入口；入口两侧立柱上悬挂着白色竖幅。",
+    "safe_facts": [
+      "建筑正面有宽阔的台阶通向入口。",
+      "入口两侧立柱上悬挂着白色竖幅。"
+    ]
+  },
+  "label_id": "cpl_6090095c1a535540e271a11b",
+  "provenance": {
+    "generated_at": "2026-08-03T11:22:24.125728+00:00",
+    "migrated_at": "2026-08-03T11:22:24.128468+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "76fdbfcfa431f4222c2a7013574b0d344fb8e2fc0d31d82ad51f856cb6977fc9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_218536cc5b4854a0e74e4243",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:22:24.128692+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_218536cc5b4854a0e74e4243"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

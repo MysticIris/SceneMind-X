@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1042.jpg",
+    "relative_path": "train/1042.jpg",
+    "sha256": "d204192d34bb0489b06b2e76d7ff695861f2062dfde7d91e6d77d3a67aa8d872",
+    "split": "train"
+  },
+  "canonical_sha256": "4e29f5d5e45378338047376781c3a0faa261f229a1a5bf7fb50015cd7999269f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "彩色玻璃窗",
+      "教堂内部",
+      "木质长椅",
+      "装饰花环"
+    ],
+    "short_description": "教堂内景，彩色玻璃窗透入粉紫色光，木质长椅排列整齐，墙壁上有装饰花环。",
+    "theme": "教堂彩色玻璃窗"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "彩色玻璃窗呈现紫色和粉色光晕。",
+      "木质长椅呈深棕色，表面有绿色小标记。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "彩色玻璃窗有图案",
+      "长椅为木质",
+      "花环悬挂在墙上"
+    ],
+    "relations": [
+      "彩色玻璃窗位于墙壁上。",
+      "长椅排列在地面。",
+      "花环挂在墙边。"
+    ],
+    "scene": "教堂内部",
+    "subjects": [
+      "彩色玻璃窗",
+      "木质长椅",
+      "装饰花环"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "彩色玻璃窗呈现紫色和粉色光晕；木质长椅呈深棕色，表面有绿色小标记。",
+    "safe_facts": [
+      "彩色玻璃窗呈现紫色和粉色光晕。",
+      "木质长椅呈深棕色，表面有绿色小标记。"
+    ]
+  },
+  "label_id": "cpl_6051a4385b4c061605b0e252",
+  "provenance": {
+    "generated_at": "2026-08-03T13:28:50.425249+00:00",
+    "migrated_at": "2026-08-03T13:28:50.429925+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b0d68d0d4a36c719c7bbefd919f0cdb15126c5a54490d9b8bbb08feda5cda9ba",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ee53f47082e76a1bf483b8e6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:28:50.430315+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ee53f47082e76a1bf483b8e6"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_a45ba3ec4c4e9fa6c6aaba23",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_f49b9eb095ab496568bc4f3a"
+  ],
+  "asset": {
+    "asset_id": "43ef89579c81c124",
+    "sha256": "43ef89579c81c124ae12be11801503ccaa6d3d2826df795c3c9a5e8b9a30c184",
+    "split": "user_custom",
+    "relative_path": "user_assets/43/43ef89579c81c124ae12be11801503ccaa6d3d2826df795c3c9a5e8b9a30c184/43ef89579c81c124ae12be11801503ccaa6d3d2826df795c3c9a5e8b9a30c184.png"
+  },
+  "display": {
+    "theme": "手机短信通知截图",
+    "short_description": "一张深色模式下的手机短信界面截图，显示来自淘宝闪购的两条通知消息。",
+    "micro_tags": [
+      "短信截图",
+      "淘宝闪购",
+      "退款失败",
+      "订单通知",
+      "深色模式",
+      "iOS界面"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "智能手机短信应用程序界面",
+    "subjects": [
+      "短信对话列表",
+      "系统通知文本",
+      "状态栏信息"
+    ],
+    "actions": [],
+    "attributes": [
+      "深色背景",
+      "气泡式布局",
+      "顶部状态栏显示时间15：09",
+      "电池电量49%"
+    ],
+    "relations": [
+      "两条消息属于同一发送者。",
+      "第二条消息是对第一条消息内容的补充说明。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "屏幕顶部显示时间为15：09，电池电量为49%且正在充电。",
+      "界面包含两个深灰色气泡，分别显示关于订单取消失败和退款申请被拒绝的通知文本。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "15:09",
+      "832",
+      "10685764302203449...",
+      "今天 14:52"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "15:09",
+      "832",
+      "10685764302203449...",
+      "今天 14:52"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "屏幕顶部显示时间为15：09，电池电量为49%且正在充电；界面包含两个深灰色气泡，分别显示关于订单取消失败和退款申请被拒绝的通知文本。",
+    "safe_facts": [
+      "屏幕顶部显示时间为15：09，电池电量为49%且正在充电。",
+      "界面包含两个深灰色气泡，分别显示关于订单取消失败和退款申请被拒绝的通知文本。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_0406ccac-a325-4340-b9b8-1a709a6ca7fe",
+    "generated_at": "2026-08-12T02:57:45.011704+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "f80030e18ae194e0af8cdc747d9288aa0b04d5d0c983f2bd83205611f4e11303",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T02:57:45.012440+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_f49b9eb095ab496568bc4f3a",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T02:57:45.012758+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "aac789baa88ae45bf9a873a144c30e4b0cae1a646bd0d80af94a3b02a3ecf838"
+}

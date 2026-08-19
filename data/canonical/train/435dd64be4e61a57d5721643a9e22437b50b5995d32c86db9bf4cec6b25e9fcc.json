@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:692.jpg",
+    "relative_path": "train/692.jpg",
+    "sha256": "435dd64be4e61a57d5721643a9e22437b50b5995d32c86db9bf4cec6b25e9fcc",
+    "split": "train"
+  },
+  "canonical_sha256": "2e8bf79705a3788eb138733af8e9f584c1789d08f1808dc86e8481338690aed9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "米饭",
+      "炖肉",
+      "汤碗",
+      "餐盘"
+    ],
+    "short_description": "棕色托盘上摆放着一碗白米饭、一碗炖肉、一碗汤和一把勺子，背景有菜单立牌。",
+    "theme": "餐食组合"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "托盘上有三碗食物和一把勺子。",
+      "食物包括白米饭、炖肉和汤。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色米饭",
+      "褐色汤",
+      "褐色炖肉",
+      "陶瓷碗",
+      "塑料托盘"
+    ],
+    "relations": [
+      "米饭在托盘上。",
+      "汤在托盘上。",
+      "炖肉在托盘上。",
+      "勺子在托盘上。"
+    ],
+    "scene": "餐厅餐桌",
+    "subjects": [
+      "米饭",
+      "炖肉",
+      "汤",
+      "勺子",
+      "托盘",
+      "菜单立牌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "托盘上有三碗食物和一把勺子；食物包括白米饭、炖肉和汤。",
+    "safe_facts": [
+      "托盘上有三碗食物和一把勺子。",
+      "食物包括白米饭、炖肉和汤。"
+    ]
+  },
+  "label_id": "cpl_00c745319f8e84634c62b687",
+  "provenance": {
+    "generated_at": "2026-08-03T12:01:54.777317+00:00",
+    "migrated_at": "2026-08-03T12:01:54.780097+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "602fb9c5bc62f8ac20705c6e0404aae0e8c60f0357e2675a02534e77c9ce4788",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_745c842a7cd2ec231411bf77",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:01:54.780442+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_745c842a7cd2ec231411bf77"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

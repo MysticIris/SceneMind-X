@@ -1,0 +1,138 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_b5b1747201c367fdaf63af2f",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_697b316d6a588200fa0fb99f"
+  ],
+  "asset": {
+    "asset_id": "9fc5e3932e5a8cfe",
+    "sha256": "9fc5e3932e5a8cfe8a23ab6bd640be0de5c22362a54000e0a5cd10700a1a554c",
+    "split": "user_custom",
+    "relative_path": "user_assets/9f/9fc5e3932e5a8cfe8a23ab6bd640be0de5c22362a54000e0a5cd10700a1a554c/9fc5e3932e5a8cfe8a23ab6bd640be0de5c22362a54000e0a5cd10700a1a554c.jpg"
+  },
+  "display": {
+    "theme": "城市路口交通执勤",
+    "short_description": "晴朗天气下的城市十字路口，一名身穿荧光黄反光背心的人员站在路边石球旁。路面有斑马线，背景可见行驶的白色SUV、红色公交车及远处的现代建筑与山峦。",
+    "micro_tags": [
+      "交通指挥",
+      "城市街景",
+      "斑马线",
+      "石球路障",
+      "反光背心",
+      "晴天"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "城市道路交叉口及人行道区域",
+    "subjects": [
+      "穿荧光色背心的人员",
+      "白色SUV",
+      "红色公交车",
+      "球形石墩",
+      "斑马线",
+      "远处建筑"
+    ],
+    "actions": [
+      "站立",
+      "行驶",
+      "等待"
+    ],
+    "attributes": [
+      "晴朗",
+      "光照充足",
+      "影子清晰",
+      "冬季植被(树木无叶)"
+    ],
+    "relations": [
+      "人员位于人行道边缘石球内侧。",
+      "车辆位于机动车道内。",
+      "石球沿人行道边缘排列。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "画面左侧前景有一名身穿荧光黄绿色反光上衣和深色裤子的人员背对镜头站立。",
+      "人行道边缘排列着多个灰白色球形石质隔离墩。",
+      "路口有一辆白色SUV正在通过，后方跟随一辆红白相间的公交车。",
+      "天空呈湛蓝色，地面投射出清晰的长影，表明阳光强烈且角度较低。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法准确判断具体的地理位置或城市名称。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_unreadable",
+    "visual_candidates": [],
+    "ocr_candidates": [],
+    "candidate_text": [],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "画面左侧前景有一名身穿荧光黄绿色反光上衣和深色裤子的人员背对镜头站立；人行道边缘排列着多个灰白色球形石质隔离墩。",
+    "safe_facts": [
+      "画面左侧前景有一名身穿荧光黄绿色反光上衣和深色裤子的人员背对镜头站立。",
+      "人行道边缘排列着多个灰白色球形石质隔离墩。",
+      "路口有一辆白色SUV正在通过，后方跟随一辆红白相间的公交车。"
+    ],
+    "do_not_assert": [
+      "无法准确判断具体的地理位置或城市名称。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_a273285c-d12d-4eb5-b28f-021f7168e6c8",
+    "generated_at": "2026-08-12T03:05:17.780281+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "ce55dfff6db39c12c6d790129f7605af4a226b62bfbec209466035934ddcdd9f",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:05:17.780827+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_697b316d6a588200fa0fb99f",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:05:17.781212+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "9c9dfe4b758dfe4286d34635309176c50f8290057e699b342e4bfb57169c08a3"
+}

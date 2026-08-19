@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1950.jpg",
+    "relative_path": "train/1950.jpg",
+    "sha256": "c5ccd239dac35823e19e5a6370440cb2214a0b6ade88792938e8568ee8b3899b",
+    "split": "train"
+  },
+  "canonical_sha256": "76a0e3c535c122479620e9e941a79b1299a3a9dd14ef991713f9bbf4dade53a7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "枯树",
+      "黄昏天空",
+      "城市剪影"
+    ],
+    "short_description": "光秃的树枝在暮色天空下形成剪影，几片残叶点缀其间，远处建筑轮廓隐约可见。",
+    "theme": "枯枝剪影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "树木处于冬季或深秋季节。"
+    ],
+    "direct_observations": [
+      "画面主体为多根交错的枯树枝干。",
+      "天空呈现紫灰与淡橙色渐变，有少量云层。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "光秃的树枝",
+      "残留的枯叶",
+      "淡紫色天空",
+      "云层稀薄"
+    ],
+    "relations": [
+      "枯树位于前景，天空为背景。",
+      "建筑物在画面底部边缘可见。"
+    ],
+    "scene": "城市户外黄昏场景",
+    "subjects": [
+      "枯树",
+      "天空",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "树木处于冬季或深秋季节。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面主体为多根交错的枯树枝干；天空呈现紫灰与淡橙色渐变，有少量云层。",
+    "safe_facts": [
+      "画面主体为多根交错的枯树枝干。",
+      "天空呈现紫灰与淡橙色渐变，有少量云层。"
+    ]
+  },
+  "label_id": "cpl_a201b5de3897dc6bf67cc771",
+  "provenance": {
+    "generated_at": "2026-08-03T15:27:54.949813+00:00",
+    "migrated_at": "2026-08-03T15:27:54.951294+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cf902f9e6783564ee61d5c5427f09e8f9f75bcf09e8535529251d8cd500bef12",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ba72dc613bd9ddd945b0746a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:27:54.951508+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ba72dc613bd9ddd945b0746a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

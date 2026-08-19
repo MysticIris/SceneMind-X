@@ -1,0 +1,129 @@
+{
+  "asset_id": "5842fad05168dcc0",
+  "asset_sha256": "5842fad05168dcc08f69d3b74497555f1700789d38e445ea460cc5bf0651b0d4",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"电子电路原理图\",\n    \"short_description\": \"这是一张电子工程设计软件生成的电路原理图截图。图中展示了两个主要芯片元件（U16和U15）及其引脚连接，包含地址线、数据线和控制信号的走线。底部有标准的工程图纸标题栏，标注了项目名称、日期及版本号等信息。\",\n    \"micro_tags\": [\n      \"电路原理图\",\n      \"EDA设计\",\n      \"FPGA\",\n      \"SRAM\",\n      \"电子工程\",\n      \"技术文档\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"电子设计自动化软件界面\",\n    \"subjects\": [\n      \"电路原理图\",\n      \"集成电路符号\",\n      \"电气连接线\",\n      \"标题栏表格\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白底黑线\",\n      \"网格背景\",\n      \"红色边框\",\n      \"蓝色网络标签\",\n      \"黑色元件标识\"\n    ],\n    \"relations\": [\n      \"左侧元件U16与右侧元件U15通过中间的网络标签相连\",\n      \"标题栏位于图纸右下角区域\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图像显示了两列垂直排列的矩形集成电路符号，分别标记为U16和U15。\",\n      \"元件引脚旁标有A0-A19、D0-D15等字母数字组合，并通过线条连接到对应的网络名称。\",\n      \"图纸右下角有一个包含多行多列的表格区域，即标题栏。\",\n      \"左下角可见一个云朵形状的图标及文字标识。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据元件型号IS61WV102416BLL推断，这可能是一个SRAM存储器的电路设计。\",\n      \"根据标题栏中的XC7A35T推断，该设计可能涉及Xilinx Artix-7系列FPGA。\",\n      \"图片看起来是使用嘉立创EDA软件绘制或导出的。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"U16\",\n      \"U15\",\n      \"IS61WV102416BLL\",\n      \"FPGA_A0\",\n      \"FSMC_D0\",\n      \"XC7A35T-1FTG256C\",\n      \"电子技术课设原理图\",\n      \"嘉立创EDA\",\n      \"2024-12-27\",\n      \"V1.0\",\n      \"P3\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张包含两个主要芯片组件及其复杂连线关系的电子电路原理图，底部带有标准的工程信息表格。\",\n    \"safe_facts\": [\n      \"图像展示了典型的电子 schematic 布局，包含元件符号和信号连线。\",\n      \"画面中有明显的网格背景辅助对齐。\",\n      \"右下角包含结构化的文本信息区域。\"\n    ]\n  }\n}",
+      "input_tokens": 2763,
+      "output_tokens": 753,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 2763,
+        "output_tokens": 753,
+        "total_tokens": 3516,
+        "estimated_cost_cny": 0.01155,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "电子电路原理图",
+          "short_description": "这是一张电子工程设计软件生成的电路原理图截图。图中展示了两个主要芯片元件（U16和U15）及其引脚连接，包含地址线、数据线和控制信号的走线。底部有标准的工程图纸标题栏，标注了项目名称、日期及版本号等信息。",
+          "micro_tags": [
+            "电路原理图",
+            "EDA设计",
+            "FPGA",
+            "SRAM",
+            "电子工程",
+            "技术文档"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "电子设计自动化软件界面",
+          "subjects": [
+            "电路原理图",
+            "集成电路符号",
+            "电气连接线",
+            "标题栏表格"
+          ],
+          "actions": [],
+          "attributes": [
+            "白底黑线",
+            "网格背景",
+            "红色边框",
+            "蓝色网络标签",
+            "黑色元件标识"
+          ],
+          "relations": [
+            "左侧元件U16与右侧元件U15通过中间的网络标签相连",
+            "标题栏位于图纸右下角区域"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图像显示了两列垂直排列的矩形集成电路符号，分别标记为U16和U15。",
+            "元件引脚旁标有A0-A19、D0-D15等字母数字组合，并通过线条连接到对应的网络名称。",
+            "图纸右下角有一个包含多行多列的表格区域，即标题栏。",
+            "左下角可见一个云朵形状的图标及文字标识。"
+          ],
+          "cautious_inferences": [
+            "根据元件型号IS61WV102416BLL推断，这可能是一个SRAM存储器的电路设计。",
+            "根据标题栏中的XC7A35T推断，该设计可能涉及Xilinx Artix-7系列FPGA。",
+            "图片看起来是使用嘉立创EDA软件绘制或导出的。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "U16",
+            "U15",
+            "IS61WV102416BLL",
+            "FPGA_A0",
+            "FSMC_D0",
+            "XC7A35T-1FTG256C",
+            "电子技术课设原理图",
+            "嘉立创EDA",
+            "2024-12-27",
+            "V1.0",
+            "P3"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张包含两个主要芯片组件及其复杂连线关系的电子电路原理图，底部带有标准的工程信息表格。",
+          "safe_facts": [
+            "图像展示了典型的电子 schematic 布局，包含元件符号和信号连线。",
+            "画面中有明显的网格背景辅助对齐。",
+            "右下角包含结构化的文本信息区域。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 720548,
+        "request_bytes": 537337,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.230036400003883,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "12f937c786ad2ef495609608ec68cda761a3c9214e74802bbe6cbf26c945e7ae"
+}

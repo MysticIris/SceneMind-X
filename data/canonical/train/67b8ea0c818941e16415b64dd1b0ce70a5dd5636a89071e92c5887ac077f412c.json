@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1196.jpg",
+    "relative_path": "train/1196.jpg",
+    "sha256": "67b8ea0c818941e16415b64dd1b0ce70a5dd5636a89071e92c5887ac077f412c",
+    "split": "train"
+  },
+  "canonical_sha256": "49a909d5aee55b89925cb80526d96a2cd7759d20e84b117ef938e22fba3e4495",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "建筑",
+      "灯光装饰"
+    ],
+    "short_description": "夜晚的建筑外墙，装饰灯带和标识牌在夜色中亮起，前景有铁艺围栏和枯枝。",
+    "theme": "夜间建筑照明"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "建筑可能是教育机构或医疗机构。"
+    ],
+    "direct_observations": [
+      "建筑外墙装有暖黄色LED灯带。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "被灯光照亮",
+      "有装饰性灯带",
+      "有标识牌",
+      "有围栏"
+    ],
+    "relations": [
+      "标识牌位于建筑外墙。",
+      "路灯安装在杆子上。",
+      "围栏围绕建筑入口区域。"
+    ],
+    "scene": "建筑物外立面夜间景象",
+    "subjects": [
+      "建筑外墙",
+      "标识牌",
+      "路灯",
+      "铁艺围栏",
+      "枯枝"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "建筑可能是教育机构或医疗机构。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑外墙装有暖黄色LED灯带。",
+    "safe_facts": [
+      "建筑外墙装有暖黄色LED灯带。"
+    ]
+  },
+  "label_id": "cpl_7a459b517c3aebb7818f8c8a",
+  "provenance": {
+    "generated_at": "2026-08-03T13:51:37.920843+00:00",
+    "migrated_at": "2026-08-03T13:51:37.927076+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8ef33c15c0887df61ba1f60c2efcf7db17fa8d724042bb53c26dd27f1c72d8fb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_325827dcdc89f7ec25ad4512",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:51:37.927791+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_325827dcdc89f7ec25ad4512"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Tongji Medical College",
+      "同济医学院"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Tongji Medical College",
+      "同济医学院"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:530.jpg",
+    "relative_path": "train/530.jpg",
+    "sha256": "2870688ac14e3e9b2101d2dcc3dbf7e8012545a33420e9a4b1357d808be1dc97",
+    "split": "train"
+  },
+  "canonical_sha256": "f13f5c51b8b6707877c66340c5018e9750dfd7c816a44ea5ccc2722e32d82ac0",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式园林",
+      "亭台楼阁",
+      "荷塘",
+      "游客"
+    ],
+    "short_description": "古典中式园林，亭台楼阁掩映于绿树荷塘之间，游人漫步其间，石桥流水，景色雅致。",
+    "theme": "中式园林景观"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "亭子和建筑可能是园林的一部分，用于休憩或观赏。"
+    ],
+    "direct_observations": [
+      "画面中有中式风格的亭子和建筑。",
+      "池塘中生长着荷叶，周围有树木和岩石。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "行走",
+      "观赏"
+    ],
+    "attributes": [
+      "黑色瓦顶",
+      "白色墙体",
+      "绿色荷叶",
+      "灰色岩石"
+    ],
+    "relations": [
+      "亭子位于池塘边。",
+      "建筑被树木环绕。",
+      "游客在亭子附近活动。"
+    ],
+    "scene": "中式园林",
+    "subjects": [
+      "亭子",
+      "建筑",
+      "树木",
+      "池塘",
+      "游客"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "亭子和建筑可能是园林的一部分，用于休憩或观赏。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有中式风格的亭子和建筑；池塘中生长着荷叶，周围有树木和岩石。",
+    "safe_facts": [
+      "画面中有中式风格的亭子和建筑。",
+      "池塘中生长着荷叶，周围有树木和岩石。"
+    ]
+  },
+  "label_id": "cpl_d3def1c81f6a6bf02a83b370",
+  "provenance": {
+    "generated_at": "2026-08-03T11:23:28.715084+00:00",
+    "migrated_at": "2026-08-03T11:23:28.717071+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1a66a759199d82f9a5f5a02d96e289a0c2b085be6406b6810931fd1d9f0fea0a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_736215ad3a2e9dc2ea1b50f2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:23:28.717274+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_736215ad3a2e9dc2ea1b50f2"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

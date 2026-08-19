@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1021.jpg",
+    "relative_path": "train/1021.jpg",
+    "sha256": "69b5d76c2321b0253dbf5cac7a3894867bcba0dd589a453db4678f778e5a0373",
+    "split": "train"
+  },
+  "canonical_sha256": "c1445976b353bc8e4cf51df45304ad46f08eaf7bbe7fbc4de0602a18f34fbe6f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄昏",
+      "云彩",
+      "城市天际线"
+    ],
+    "short_description": "天空呈现蓝紫渐变，云层被夕阳染成粉橙色，地平线处有建筑剪影与树木轮廓。",
+    "theme": "黄昏云霞"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自地平线方向，推测为日落时刻。"
+    ],
+    "direct_observations": [
+      "天空从上至下由深蓝过渡到浅蓝，再至橙黄色。",
+      "云层边缘带有明显的粉红色和橙色光晕。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空呈蓝紫色渐变",
+      "云朵被染成粉橙色",
+      "建筑与树木呈剪影状"
+    ],
+    "relations": [],
+    "scene": "城市黄昏天空",
+    "subjects": [
+      "云朵",
+      "天空",
+      "树木",
+      "建筑剪影"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自地平线方向，推测为日落时刻。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空从上至下由深蓝过渡到浅蓝，再至橙黄色；云层边缘带有明显的粉红色和橙色光晕。",
+    "safe_facts": [
+      "天空从上至下由深蓝过渡到浅蓝，再至橙黄色。",
+      "云层边缘带有明显的粉红色和橙色光晕。"
+    ]
+  },
+  "label_id": "cpl_0d15f4971b73aae6218cac03",
+  "provenance": {
+    "generated_at": "2026-08-02T22:19:39.568983+00:00",
+    "migrated_at": "2026-08-03T07:13:41.595732+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "75d9ec5abac6b0995094b73d2fe2e3f556be8988d03a1b3fec6ee394eaa690a5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ec8c8d525b461cdebba93431",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:24:30.201996+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ec8c8d525b461cdebba93431",
+    "cpl_06960b83cd83e8aace98d72d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

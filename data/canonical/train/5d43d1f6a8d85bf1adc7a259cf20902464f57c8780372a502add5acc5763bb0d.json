@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:386.jpg",
+    "relative_path": "train/386.jpg",
+    "sha256": "5d43d1f6a8d85bf1adc7a259cf20902464f57c8780372a502add5acc5763bb0d",
+    "split": "train"
+  },
+  "canonical_sha256": "50f6bac4c0e50eeda5b50d0e67917182d31529cd2dab088fdb8ec28f7824ab3b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "烧烤",
+      "篝火",
+      "多人聚餐",
+      "夜景"
+    ],
+    "short_description": "多人围聚在篝火旁烤肉串，火焰明亮，食物冒着热气，氛围热闹温馨。",
+    "theme": "户外烧烤聚会"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能是在户外进行的集体烧烤活动。"
+    ],
+    "direct_observations": [
+      "画面中心有燃烧的火焰，照亮周围区域。",
+      "多双手持长柄工具翻动或放置食物于烤架上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "烤制",
+      "翻动食物",
+      "手持工具"
+    ],
+    "attributes": [
+      "火焰明亮",
+      "食物正在烹饪",
+      "多人参与"
+    ],
+    "relations": [
+      "人手操作烤架。",
+      "肉串在火焰上烤制。",
+      "青椒放在金属网篮中。"
+    ],
+    "scene": "夜间户外烧烤场景",
+    "subjects": [
+      "人手",
+      "烤架",
+      "肉串",
+      "青椒",
+      "火焰"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能是在户外进行的集体烧烤活动。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中心有燃烧的火焰，照亮周围区域；多双手持长柄工具翻动或放置食物于烤架上。",
+    "safe_facts": [
+      "画面中心有燃烧的火焰，照亮周围区域。",
+      "多双手持长柄工具翻动或放置食物于烤架上。"
+    ]
+  },
+  "label_id": "cpl_4f37b979815e8c7f42ddc870",
+  "provenance": {
+    "generated_at": "2026-08-03T10:52:44.413581+00:00",
+    "migrated_at": "2026-08-03T10:52:44.415069+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "16985e9f2c01270480ae9005ca82dc23510fc591c66d743a3af1f31f713871ca",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d8b7d333bca02e088ad6f1a8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:52:44.415520+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d8b7d333bca02e088ad6f1a8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

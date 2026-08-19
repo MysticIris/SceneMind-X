@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:811.jpg",
+    "relative_path": "train/811.jpg",
+    "sha256": "901fab4f12bc3d5592ddadefa279b8c70d3b1fed6a576c65b1eb23557ad342a0",
+    "split": "train"
+  },
+  "canonical_sha256": "7d11eb6c67eee450647e8fdb53f2f468ae8f5e7729434e807d2f8d6737020ea4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "废弃汽车",
+      "锈蚀",
+      "户外",
+      "杂草"
+    ],
+    "short_description": "一辆白色旧车停在树林旁，车身锈迹斑斑，前保险杠破损，周围杂草丛生。",
+    "theme": "废弃白色轿车"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "车辆车身多处生锈，前保险杠断裂。",
+      "车轮周围及地面有杂草和落叶。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色",
+      "锈迹斑斑",
+      "破损",
+      "覆盖泥土",
+      "前挡风玻璃有污渍"
+    ],
+    "relations": [
+      "轿车位于树林边缘。"
+    ],
+    "scene": "户外树林边",
+    "subjects": [
+      "白色轿车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "车辆车身多处生锈，前保险杠断裂；车轮周围及地面有杂草和落叶。",
+    "safe_facts": [
+      "车辆车身多处生锈，前保险杠断裂。",
+      "车轮周围及地面有杂草和落叶。"
+    ]
+  },
+  "label_id": "cpl_d0a19ce72d196f5ff2e0cac3",
+  "provenance": {
+    "generated_at": "2026-08-03T12:28:05.369063+00:00",
+    "migrated_at": "2026-08-03T12:28:05.372581+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ee2ba3a4e5d0f866827f27a1a0dc1c2a26b5c061324d7f56fafd49b7370257ff",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6e0e3bbf69aa33a8e6a14648",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:28:05.372917+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6e0e3bbf69aa33a8e6a14648"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

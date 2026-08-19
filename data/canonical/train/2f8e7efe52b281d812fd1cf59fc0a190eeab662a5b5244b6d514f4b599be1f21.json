@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:850.jpg",
+    "relative_path": "train/850.jpg",
+    "sha256": "2f8e7efe52b281d812fd1cf59fc0a190eeab662a5b5244b6d514f4b599be1f21",
+    "split": "train"
+  },
+  "canonical_sha256": "d598b9052c14cf10ead0394e7aa599a4a9d92e478577592fcf1e2edcd3e6c46e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "树荫",
+      "运动场",
+      "骑行者",
+      "行人"
+    ],
+    "short_description": "树荫下，有人骑电动车经过，另有人行走，背景是围栏内的运动场地。",
+    "theme": "树荫下的运动场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两棵粗壮的大树，树干底部被涂成白色。",
+      "前景有一个人骑着电动车，后方有另一个人在行走。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "骑行",
+      "行走"
+    ],
+    "attributes": [
+      "树干粗壮",
+      "树皮斑驳",
+      "围栏环绕",
+      "地面铺砖"
+    ],
+    "relations": [
+      "人与树相邻。",
+      "人与运动场隔着围栏。"
+    ],
+    "scene": "户外运动场周边",
+    "subjects": [
+      "骑电动车的人",
+      "步行的人",
+      "大树"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两棵粗壮的大树，树干底部被涂成白色；前景有一个人骑着电动车，后方有另一个人在行走。",
+    "safe_facts": [
+      "画面中有两棵粗壮的大树，树干底部被涂成白色。",
+      "前景有一个人骑着电动车，后方有另一个人在行走。"
+    ]
+  },
+  "label_id": "cpl_d86b68c1127311531ef59c40",
+  "provenance": {
+    "generated_at": "2026-08-03T12:36:08.571335+00:00",
+    "migrated_at": "2026-08-03T12:36:08.573864+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e872a450772694fec3ac5f9bdeffc3fd5fc0ce17f65e380d24b0018a2467838e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ce2bed74f21f38b5db35e5c9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:36:08.574221+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ce2bed74f21f38b5db35e5c9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

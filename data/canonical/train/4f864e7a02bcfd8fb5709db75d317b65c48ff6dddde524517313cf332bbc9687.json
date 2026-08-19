@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1529.jpg",
+    "relative_path": "train/1529.jpg",
+    "sha256": "4f864e7a02bcfd8fb5709db75d317b65c48ff6dddde524517313cf332bbc9687",
+    "split": "train"
+  },
+  "canonical_sha256": "4fb909a568672a185600651373f21c0d652507315a333ac54e948e5156715eaa",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "熊猫造型建筑",
+      "游客排队",
+      "晴天户外"
+    ],
+    "short_description": "入口处，游客排队等候，建筑造型独特，背景绿树成荫，天空晴朗。",
+    "theme": "熊猫主题建筑入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑呈白色拱形，顶部有熊猫头轮廓设计。",
+      "大量游客在建筑前方排成一列队伍。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "排队",
+      "站立"
+    ],
+    "attributes": [
+      "白色建筑",
+      "拱形结构",
+      "绿色树木",
+      "蓝色天空"
+    ],
+    "relations": [
+      "游客在建筑前排队。",
+      "建筑位于广场中央。"
+    ],
+    "scene": "成都大熊猫繁育研究基地入口广场",
+    "subjects": [
+      "游客",
+      "建筑",
+      "树木",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑呈白色拱形，顶部有熊猫头轮廓设计；大量游客在建筑前方排成一列队伍。",
+    "safe_facts": [
+      "建筑呈白色拱形，顶部有熊猫头轮廓设计。",
+      "大量游客在建筑前方排成一列队伍。"
+    ]
+  },
+  "label_id": "cpl_0eb271e6f3630e798a267085",
+  "provenance": {
+    "generated_at": "2026-08-03T14:34:06.826012+00:00",
+    "migrated_at": "2026-08-03T14:34:06.831821+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "de93bceb9c5d64fd277c45d496418664094afaa33bc416d630f0a882939dd540",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_98ecf0c45fe9189df5cc7663",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:34:06.837666+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_98ecf0c45fe9189df5cc7663"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "成都大熊猫繁育研究基地",
+      "CHENGDU RESEARCH BASE OF GIANT PANDA BRE",
+      "EXIT"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "成都大熊猫繁育研究基地",
+      "CHENGDU RESEARCH BASE OF GIANT PANDA BRE",
+      "EXIT"
+    ]
+  }
+}

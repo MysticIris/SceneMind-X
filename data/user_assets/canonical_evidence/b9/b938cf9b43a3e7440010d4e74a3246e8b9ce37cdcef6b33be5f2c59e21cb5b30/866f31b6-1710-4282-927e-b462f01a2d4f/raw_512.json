@@ -1,0 +1,127 @@
+{
+  "asset_id": "b938cf9b43a3e744",
+  "asset_sha256": "b938cf9b43a3e7440010d4e74a3246e8b9ce37cdcef6b33be5f2c59e21cb5b30",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"iPhone电池设置界面\",\n    \"short_description\": \"这是一张智能手机屏幕截图，显示了深色模式下的电池设置页面。界面包含电池百分比开关、低电量模式选项以及自动锁定建议。下方展示了过去24小时的电池电量变化曲线和使用活动柱状图，当前显示正在充电且电量为21%。\",\n    \"micro_tags\": [\n      \"手机设置\",\n      \"电池健康\",\n      \"电量图表\",\n      \"深色模式\",\n      \"系统界面\",\n      \"iOS风格\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"智能手机操作系统设置菜单\",\n    \"subjects\": [\n      \"电池设置列表\",\n      \"电量统计图表\",\n      \"状态栏信息\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"深色背景\",\n      \"绿色 toggle 开关\",\n      \"蓝色与绿色数据图表\",\n      \"中文文本界面\"\n    ],\n    \"relations\": [\n      \"图表位于设置选项下方\",\n      \"状态栏位于屏幕顶部\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕顶部状态栏显示时间为02:02，网络信号为5G，电池图标旁显示数字22并带有闪电符号。\",\n      \"界面中部有一个标题为'自动锁定'的选项，右侧显示值为'永不'，下方有灰色提示文字建议启用以节省电量。\",\n      \"底部图表区域分为上下两部分，上方为绿色的电池电量折线/柱状混合图，下方为蓝色的活动时长柱状图。\",\n      \"图表上方显示文字'正在充电：21%'及'现在'。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局、字体渲染及图标风格，这看起来像是苹果iOS系统的设置界面。\",\n      \"顶部的闪电符号和'正在充电'文字表明设备在截图时连接了电源。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"设置\",\n      \"电池\",\n      \"电池百分比\",\n      \"低电量模式\",\n      \"自动锁定\",\n      \"永不\",\n      \"电池健康与充电\",\n      \"过去24小时\",\n      \"过去10天\",\n      \"正在充电：21%\",\n      \"7月9日\",\n      \"7月10日\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张深色模式的手机系统设置截图，主要展示了电池相关的配置选项以及过去一天的电量消耗与使用频率统计图表。\",\n    \"safe_facts\": [\n      \"图片为竖屏手机界面截图\",\n      \"包含开关控件和数据统计可视化图表\",\n      \"界面语言为简体中文\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 689,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 689,
+        "total_tokens": 3916,
+        "estimated_cost_cny": 0.011966,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "iPhone电池设置界面",
+          "short_description": "这是一张智能手机屏幕截图，显示了深色模式下的电池设置页面。界面包含电池百分比开关、低电量模式选项以及自动锁定建议。下方展示了过去24小时的电池电量变化曲线和使用活动柱状图，当前显示正在充电且电量为21%。",
+          "micro_tags": [
+            "手机设置",
+            "电池健康",
+            "电量图表",
+            "深色模式",
+            "系统界面",
+            "iOS风格"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "智能手机操作系统设置菜单",
+          "subjects": [
+            "电池设置列表",
+            "电量统计图表",
+            "状态栏信息"
+          ],
+          "actions": [],
+          "attributes": [
+            "深色背景",
+            "绿色 toggle 开关",
+            "蓝色与绿色数据图表",
+            "中文文本界面"
+          ],
+          "relations": [
+            "图表位于设置选项下方",
+            "状态栏位于屏幕顶部"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "屏幕顶部状态栏显示时间为02:02，网络信号为5G，电池图标旁显示数字22并带有闪电符号。",
+            "界面中部有一个标题为'自动锁定'的选项，右侧显示值为'永不'，下方有灰色提示文字建议启用以节省电量。",
+            "底部图表区域分为上下两部分，上方为绿色的电池电量折线/柱状混合图，下方为蓝色的活动时长柱状图。",
+            "图表上方显示文字'正在充电：21%'及'现在'。"
+          ],
+          "cautious_inferences": [
+            "根据界面布局、字体渲染及图标风格，这看起来像是苹果iOS系统的设置界面。",
+            "顶部的闪电符号和'正在充电'文字表明设备在截图时连接了电源。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "设置",
+            "电池",
+            "电池百分比",
+            "低电量模式",
+            "自动锁定",
+            "永不",
+            "电池健康与充电",
+            "过去24小时",
+            "过去10天",
+            "正在充电：21%",
+            "7月9日",
+            "7月10日"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张深色模式的手机系统设置截图，主要展示了电池相关的配置选项以及过去一天的电量消耗与使用频率统计图表。",
+          "safe_facts": [
+            "图片为竖屏手机界面截图",
+            "包含开关控件和数据统计可视化图表",
+            "界面语言为简体中文"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 338044,
+        "request_bytes": 250460,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.3737054000012,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "bb9a645937b87649f57408c3c4a11564512bf1637174b9a682523162794cf418"
+}

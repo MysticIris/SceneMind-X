@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1227.jpg",
+    "relative_path": "train/1227.jpg",
+    "sha256": "6eb795ea2c540e8dc81f95aa6402c57d5e4a7862e1a3d71b8cb5e9e34174342e",
+    "split": "train"
+  },
+  "canonical_sha256": "93ddd0a729a30b28caa13b0d1d9b2b4e8a8bc91637ac3868f71635acabce4cba",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "林荫道",
+      "落叶树",
+      "树干涂白",
+      "停车棚"
+    ],
+    "short_description": "一条两旁种满落叶树的空旷道路，树干被涂白，路边有停车棚和自行车。",
+    "theme": "林荫道"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "树木可能处于秋季或冬季，因枝叶稀疏。"
+    ],
+    "direct_observations": [
+      "道路两侧种植着高大树木，树干下半部分被白色涂料覆盖。",
+      "道路左侧设有带绿色顶棚的停车棚，棚下停放着自行车。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "树干被涂白",
+      "树叶稀疏",
+      "路面空旷",
+      "砖砌人行道"
+    ],
+    "relations": [
+      "树木沿道路两侧排列。",
+      "停车棚位于道路左侧。"
+    ],
+    "scene": "户外林荫道",
+    "subjects": [
+      "树木",
+      "道路",
+      "停车棚",
+      "自行车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "树木可能处于秋季或冬季，因枝叶稀疏。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "道路两侧种植着高大树木，树干下半部分被白色涂料覆盖；道路左侧设有带绿色顶棚的停车棚，棚下停放着自行车。",
+    "safe_facts": [
+      "道路两侧种植着高大树木，树干下半部分被白色涂料覆盖。",
+      "道路左侧设有带绿色顶棚的停车棚，棚下停放着自行车。"
+    ]
+  },
+  "label_id": "cpl_fa847320c9e5376ea75141c4",
+  "provenance": {
+    "generated_at": "2026-08-03T13:58:03.231634+00:00",
+    "migrated_at": "2026-08-03T13:58:03.234422+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "73de1a215eddce944781d0f1df823c68e726ac21dbf26e738abcea6e7ad0141c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2cb86dfa9042528e46902f4f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:58:03.234809+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2cb86dfa9042528e46902f4f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

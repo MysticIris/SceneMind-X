@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1375.jpg",
+    "relative_path": "train/1375.jpg",
+    "sha256": "a605f65acbde81c4d0506ca70a9a28f430d69c4b8a648ef786fa863dcf03228c",
+    "split": "train"
+  },
+  "canonical_sha256": "f2ff48a55b3c038878ec7a513b00deaa54864512242769f3ce5579bc1c649495",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "商场",
+      "人群",
+      "挥手"
+    ],
+    "short_description": "一名男子在商场中庭向观众挥手致意，周围人群举着手机拍照。",
+    "theme": "商场内活动"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "男子站在光滑地面上，穿着白色上衣和黑色裤子。",
+      "背景有多层观众，多数人举着手机。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "挥手"
+    ],
+    "attributes": [
+      "白色上衣",
+      "黑色裤子",
+      "白色运动鞋"
+    ],
+    "relations": [
+      "男子面对观众。"
+    ],
+    "scene": "室内多层商场中庭",
+    "subjects": [
+      "一名男子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "男子站在光滑地面上，穿着白色上衣和黑色裤子；背景有多层观众，多数人举着手机。",
+    "safe_facts": [
+      "男子站在光滑地面上，穿着白色上衣和黑色裤子。",
+      "背景有多层观众，多数人举着手机。"
+    ]
+  },
+  "label_id": "cpl_6ce96a810004502726ad1fb3",
+  "provenance": {
+    "generated_at": "2026-08-03T14:14:26.230779+00:00",
+    "migrated_at": "2026-08-03T14:14:26.234402+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "16df3f03219e33c4a23d7d66a43de77c131fbdee038ee0f55088a03f1a812c21",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fd2f098c8c69ec41631f9212",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:14:26.234745+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fd2f098c8c69ec41631f9212"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

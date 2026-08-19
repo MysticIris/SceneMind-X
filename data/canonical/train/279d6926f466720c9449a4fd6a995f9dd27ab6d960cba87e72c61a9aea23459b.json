@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1919.jpg",
+    "relative_path": "train/1919.jpg",
+    "sha256": "279d6926f466720c9449a4fd6a995f9dd27ab6d960cba87e72c61a9aea23459b",
+    "split": "train"
+  },
+  "canonical_sha256": "ba271b1fa80c3a6f17472a3c6b1bbf1d15a50edb82ef0098d9ee9c50e2998386",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "戴眼镜年轻人",
+      "喝饮料",
+      "室内餐桌",
+      "多人聚集"
+    ],
+    "short_description": "一名戴眼镜的年轻人在教室或会议室里低头喝饮料，桌上放着食物和塑料袋，背景有多人就座。",
+    "theme": "室内用餐场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一名戴眼镜的年轻人正低头从透明塑料杯中饮用液体。",
+      "桌面上放置有装食物的透明塑料袋和白色耳机。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "喝饮料",
+      "坐着"
+    ],
+    "attributes": [
+      "浅色长桌",
+      "格子天花板",
+      "透明塑料杯",
+      "塑料袋装食物"
+    ],
+    "relations": [
+      "年轻人坐在桌子旁。",
+      "其他人位于背景中。"
+    ],
+    "scene": "室内集体用餐环境",
+    "subjects": [
+      "戴眼镜的年轻人",
+      "其他多人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名戴眼镜的年轻人正低头从透明塑料杯中饮用液体；桌面上放置有装食物的透明塑料袋和白色耳机。",
+    "safe_facts": [
+      "一名戴眼镜的年轻人正低头从透明塑料杯中饮用液体。",
+      "桌面上放置有装食物的透明塑料袋和白色耳机。"
+    ]
+  },
+  "label_id": "cpl_22ad4b2e811f6000f794c04c",
+  "provenance": {
+    "generated_at": "2026-08-03T15:21:54.775931+00:00",
+    "migrated_at": "2026-08-03T15:21:54.777916+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "79bdd45422b2f7eeb5a6d16bdf500f6d4605e15490f0c456c2d20a54489bd47f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4eaf0e5997151224ce12434a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:21:54.778171+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4eaf0e5997151224ce12434a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

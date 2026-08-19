@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1190.jpg",
+    "relative_path": "train/1190.jpg",
+    "sha256": "64274a17dd5a91cfddceb435da4a02cd2eec6ae550b301d82d8fd9973754b601",
+    "split": "train"
+  },
+  "canonical_sha256": "32b7b89a17ad2bbe0e8a1201d129b22895988110af8c13619a0bda7fcddbfcc3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "白羽禽鸟",
+      "蓝色栏杆",
+      "塑料杯背景"
+    ],
+    "short_description": "一只白色羽毛的禽鸟蜷缩在蓝色金属栏杆上，背景是密集排列的蓝色塑料杯。",
+    "theme": "白羽禽鸟栖息"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一只全身覆盖白色羽毛的禽鸟蜷缩在蓝色金属管状物上。",
+      "背景中可见大量蓝色塑料杯整齐排列。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色羽毛",
+      "蜷缩姿态",
+      "蓝色栏杆",
+      "蓝色塑料杯"
+    ],
+    "relations": [
+      "禽鸟栖息于栏杆上。",
+      "禽鸟位于塑料杯后方。"
+    ],
+    "scene": "笼舍内",
+    "subjects": [
+      "一只白色禽鸟"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只全身覆盖白色羽毛的禽鸟蜷缩在蓝色金属管状物上；背景中可见大量蓝色塑料杯整齐排列。",
+    "safe_facts": [
+      "一只全身覆盖白色羽毛的禽鸟蜷缩在蓝色金属管状物上。",
+      "背景中可见大量蓝色塑料杯整齐排列。"
+    ]
+  },
+  "label_id": "cpl_b9168dc7dd60748f62ccd6a7",
+  "provenance": {
+    "generated_at": "2026-08-03T13:50:42.073655+00:00",
+    "migrated_at": "2026-08-03T13:50:42.077283+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e38b7b3a9f868fb31ebca168b33f1ee69d6688fb43cb8834f66b719335a2f635",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_309148bd64878c4f911e0c03",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:50:42.077624+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_309148bd64878c4f911e0c03"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

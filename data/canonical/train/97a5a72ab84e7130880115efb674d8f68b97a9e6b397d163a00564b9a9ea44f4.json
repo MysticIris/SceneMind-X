@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:191.jpg",
+    "relative_path": "train/191.jpg",
+    "sha256": "97a5a72ab84e7130880115efb674d8f68b97a9e6b397d163a00564b9a9ea44f4",
+    "split": "train"
+  },
+  "canonical_sha256": "e07ac09a54ffcf157cae3e18301314a2d3d6c4f3064d58c59605e5fdca05e56f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石雕头像",
+      "校园景观",
+      "松树",
+      "行人"
+    ],
+    "short_description": "户外石雕头像立于红褐色基座，背景有建筑、松树与行人，前景有自行车车把。",
+    "theme": "爱因斯坦雕像"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像中可见一尊石质头像雕塑。",
+      "雕塑后方有现代建筑和常绿树木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "石雕头像有蓬乱头发",
+      "基座为红褐色",
+      "行人戴口罩"
+    ],
+    "relations": [
+      "石雕位于基座上。",
+      "行人位于雕像右侧。",
+      "自行车位于前景。"
+    ],
+    "scene": "户外公共空间",
+    "subjects": [
+      "石雕头像",
+      "行人",
+      "建筑物",
+      "树木",
+      "自行车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像中可见一尊石质头像雕塑；雕塑后方有现代建筑和常绿树木。",
+    "safe_facts": [
+      "图像中可见一尊石质头像雕塑。",
+      "雕塑后方有现代建筑和常绿树木。"
+    ]
+  },
+  "label_id": "cpl_b89b9a0caeeba2c0877862f3",
+  "provenance": {
+    "generated_at": "2026-08-03T10:13:26.672250+00:00",
+    "migrated_at": "2026-08-03T10:13:26.676161+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5486d16c1f694fdc55962ed2234b55087b746278e74edd4a61adcb40efe6abcd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7f695deedf52ef1db3c12a29",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:13:26.676702+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7f695deedf52ef1db3c12a29"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:492.jpg",
+    "relative_path": "train/492.jpg",
+    "sha256": "afa7d45f4922c003be21402acf1b4464cb031f80bc2b6b0d6a99963706e9761f",
+    "split": "train"
+  },
+  "canonical_sha256": "92b77ca5e0db174b8d1492a52d45eddd7b7c452026934a63b2c3664337b1ebfc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪景",
+      "天鹅",
+      "湖泊",
+      "冬季",
+      "雾气"
+    ],
+    "short_description": "雪中湖面雾气缭绕，数只白鹅悠游，背景是覆雪树木与山丘，雪花飘落，画面宁静唯美。",
+    "theme": "冬日湖上天鹅"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "水面有薄雾，可能是寒冷天气导致的水汽凝结。"
+    ],
+    "direct_observations": [
+      "多只白色天鹅在蓝色水面上游动。",
+      "背景树木枝干覆盖着白雪，远处有雪地山丘。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "游动",
+      "飘落"
+    ],
+    "attributes": [
+      "白色",
+      "覆雪",
+      "雾气弥漫",
+      "蓝色水面"
+    ],
+    "relations": [
+      "天鹅在水面上游动。",
+      "树木被雪覆盖。",
+      "山丘位于背景。"
+    ],
+    "scene": "冬季湖泊",
+    "subjects": [
+      "天鹅",
+      "树木",
+      "山丘",
+      "水面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "水面有薄雾，可能是寒冷天气导致的水汽凝结。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多只白色天鹅在蓝色水面上游动；背景树木枝干覆盖着白雪，远处有雪地山丘。",
+    "safe_facts": [
+      "多只白色天鹅在蓝色水面上游动。",
+      "背景树木枝干覆盖着白雪，远处有雪地山丘。"
+    ]
+  },
+  "label_id": "cpl_2546a0535b41f2ec2ebd8a51",
+  "provenance": {
+    "generated_at": "2026-08-03T11:14:32.851650+00:00",
+    "migrated_at": "2026-08-03T11:14:32.853041+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "72b0980494c602915dbaeb8c03865df004f7038b41f12b3c0cd4113ec858ebe7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1f6024e5a3c0664e2d400044",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:14:32.853257+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1f6024e5a3c0664e2d400044"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

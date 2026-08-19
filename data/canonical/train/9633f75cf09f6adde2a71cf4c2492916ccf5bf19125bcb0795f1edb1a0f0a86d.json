@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1312.jpg",
+    "relative_path": "train/1312.jpg",
+    "sha256": "9633f75cf09f6adde2a71cf4c2492916ccf5bf19125bcb0795f1edb1a0f0a86d",
+    "split": "train"
+  },
+  "canonical_sha256": "74987428f2a9793f09c88e1986f22ad2a033c9b023f350bdfefb46e301afa9c3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "白色百合",
+      "粉色包装",
+      "红色浆果",
+      "绿色叶片"
+    ],
+    "short_description": "粉色包装纸包裹的白色百合花束，点缀绿色叶片与红色浆果，系有红色丝带。",
+    "theme": "白色百合花束"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现一束以白色百合为主花材的花束。",
+      "花束外层包裹粉色纸质材料并系有红色丝带。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色",
+      "绿色",
+      "红色",
+      "粉色",
+      "包裹状",
+      "系带"
+    ],
+    "relations": [
+      "花束由百合花、绿叶、红色浆果组成。",
+      "包装纸包裹花束。",
+      "丝带系于包装纸底部。"
+    ],
+    "scene": "纯色背景前的静物摄影",
+    "subjects": [
+      "花束",
+      "百合花",
+      "绿叶",
+      "红色浆果",
+      "包装纸",
+      "丝带"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现一束以白色百合为主花材的花束；花束外层包裹粉色纸质材料并系有红色丝带。",
+    "safe_facts": [
+      "图像呈现一束以白色百合为主花材的花束。",
+      "花束外层包裹粉色纸质材料并系有红色丝带。"
+    ]
+  },
+  "label_id": "cpl_aa6ff16c9d5327561d2c7b6e",
+  "provenance": {
+    "generated_at": "2026-08-02T22:34:42.614682+00:00",
+    "migrated_at": "2026-08-03T07:13:42.015141+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "391fa15f97f8586b593a72a291a5c4b4b9fccc46c818473015a199ad4707e96d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_71b77cd3b4f4374e7159d382",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:08:28.742966+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_71b77cd3b4f4374e7159d382",
+    "cpl_c65a950b9499bc5c28a37c74"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1168.jpg",
+    "relative_path": "train/1168.jpg",
+    "sha256": "5e4442999d7b53d2f7ec6a964aa9cccd6f18fe3acc8bf56da7e10c825cf5ded1",
+    "split": "train"
+  },
+  "canonical_sha256": "4311e24f5f1871346b3cbe078465c2b04c416fa5f3cdaaa14edcd0cef233d44d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "高楼",
+      "夜景",
+      "树木",
+      "城市"
+    ],
+    "short_description": "夜晚城市中一栋高层建筑被灯光照亮，树影交错，街道上有车辆行驶。",
+    "theme": "城市夜景高楼"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑物顶部有发光标识。",
+      "树木枝干无叶，呈深色轮廓。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灯光照明",
+      "枝干裸露",
+      "车流移动"
+    ],
+    "relations": [
+      "高楼位于画面中央。",
+      "树木分布在前景。"
+    ],
+    "scene": "城市夜间街景",
+    "subjects": [
+      "高楼",
+      "树木",
+      "车辆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑物顶部有发光标识；树木枝干无叶，呈深色轮廓。",
+    "safe_facts": [
+      "建筑物顶部有发光标识。",
+      "树木枝干无叶，呈深色轮廓。"
+    ]
+  },
+  "label_id": "cpl_2b7a0f0a19a6fd2f04e0f6d0",
+  "provenance": {
+    "generated_at": "2026-08-03T13:47:08.667619+00:00",
+    "migrated_at": "2026-08-03T13:47:08.670486+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a8c9512da6169d3beedc9240211d06223cd5b2d4d6f7f8acdb96fc75d5448a3a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f759f936da695d9f0dc28764",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:47:08.670819+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f759f936da695d9f0dc28764"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

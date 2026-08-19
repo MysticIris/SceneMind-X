@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:767.jpg",
+    "relative_path": "train/767.jpg",
+    "sha256": "92abd4e04b7826458c9c0557508774a1a4493298ef7cc4e328bdbad181439658",
+    "split": "train"
+  },
+  "canonical_sha256": "4d6f8ab868974c1395e67e415bddca015e92ecfd40722ad1abe017a0118f763e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "示波器",
+      "正弦波",
+      "绿色荧光屏"
+    ],
+    "short_description": "一台示波器屏幕上显示着绿色的正弦波形，带有网格线和数值标注，设备外壳上有品牌标识。",
+    "theme": "示波器波形显示"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕上显示一条连续的正弦波形曲线。",
+      "屏幕背景为网格状，波形呈亮绿色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色荧光显示",
+      "网格背景",
+      "数值标注"
+    ],
+    "relations": [],
+    "scene": "电子测量仪器操作界面",
+    "subjects": [
+      "示波器屏幕",
+      "正弦波形"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕上显示一条连续的正弦波形曲线；屏幕背景为网格状，波形呈亮绿色。",
+    "safe_facts": [
+      "屏幕上显示一条连续的正弦波形曲线。",
+      "屏幕背景为网格状，波形呈亮绿色。"
+    ]
+  },
+  "label_id": "cpl_51ae5716a8ed31add82ef48b",
+  "provenance": {
+    "generated_at": "2026-08-03T12:19:08.775531+00:00",
+    "migrated_at": "2026-08-03T12:19:08.779067+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c4e12669d943d369b3d9df72f982a6ea1f94f1b26b71de6f554d2dd2fcc1c787",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f61cd12f18d158dc6f2ca19e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:19:08.780604+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f61cd12f18d158dc6f2ca19e"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "IWATSU OSCILLOSCOPE",
+      "CH2 +DC",
+      "V=145.4mV",
+      "t=1.0ms",
+      "AUTO",
+      "FUNCTION"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "IWATSU OSCILLOSCOPE",
+      "CH2 +DC",
+      "V=145.4mV",
+      "t=1.0ms",
+      "AUTO",
+      "FUNCTION"
+    ]
+  }
+}

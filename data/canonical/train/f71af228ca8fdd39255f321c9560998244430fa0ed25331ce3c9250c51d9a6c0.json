@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:345.jpg",
+    "relative_path": "train/345.jpg",
+    "sha256": "f71af228ca8fdd39255f321c9560998244430fa0ed25331ce3c9250c51d9a6c0",
+    "split": "train"
+  },
+  "canonical_sha256": "ab995a55d3f7257cc6d728714f1da6936b424f8101fddbb8c33a1e06d16c63d2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古代刀剑",
+      "博物馆展品",
+      "金属兵器"
+    ],
+    "short_description": "三件古代刀剑类武器陈列于展柜内，包括长柄刀、弯刀及带鞘刀具，表面有锈迹与磨损痕迹。",
+    "theme": "古代兵器陈列"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "三件物品水平放置于白色展台上。",
+      "物品表面呈现金属氧化和使用痕迹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "有锈迹",
+      "有磨损",
+      "呈深色"
+    ],
+    "relations": [],
+    "scene": "室内展柜陈列",
+    "subjects": [
+      "古代刀剑",
+      "带鞘刀具"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三件物品水平放置于白色展台上；物品表面呈现金属氧化和使用痕迹。",
+    "safe_facts": [
+      "三件物品水平放置于白色展台上。",
+      "物品表面呈现金属氧化和使用痕迹。"
+    ]
+  },
+  "label_id": "cpl_33994ae47d354236c9d70ba6",
+  "provenance": {
+    "generated_at": "2026-08-03T10:44:11.313612+00:00",
+    "migrated_at": "2026-08-03T10:44:11.315291+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c770547da1bf5f3968d9db74eaa280b0b6c333454cf2f04d44fbb6eef6b9d9ba",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_79ec16ef376bc1b39738364c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:44:11.315504+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_79ec16ef376bc1b39738364c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

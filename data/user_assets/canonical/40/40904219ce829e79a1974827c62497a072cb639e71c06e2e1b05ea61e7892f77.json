@@ -1,0 +1,136 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_b76ad589bc4eca06015aec8f",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_083726f6684c049633cf81e4"
+  ],
+  "asset": {
+    "asset_id": "40904219ce829e79",
+    "sha256": "40904219ce829e79a1974827c62497a072cb639e71c06e2e1b05ea61e7892f77",
+    "split": "user_custom",
+    "relative_path": "user_assets/40/40904219ce829e79a1974827c62497a072cb639e71c06e2e1b05ea61e7892f77/40904219ce829e79a1974827c62497a072cb639e71c06e2e1b05ea61e7892f77.jpg"
+  },
+  "display": {
+    "theme": "iKF耳机产品说明书",
+    "short_description": "一张iKF品牌头戴式耳机的中文快速入门指南，详细列出了开关机、媒体控制、降噪模式切换及通话操作等按键说明，并配有耳机结构图解和APP下载二维码。",
+    "micro_tags": [
+      "耳机说明书",
+      "iKF",
+      "操作指南",
+      "降噪耳机",
+      "产品文档"
+    ]
+  },
+  "facts": {
+    "visual_medium": "poster_document",
+    "scene": "室内平铺拍摄",
+    "subjects": [
+      "纸质说明书",
+      "耳机结构示意图",
+      "二维码"
+    ],
+    "actions": [],
+    "attributes": [
+      "白底黑字",
+      "图文混排",
+      "简体中文",
+      "折叠痕迹"
+    ],
+    "relations": [
+      "底部包含两个二维码区域。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "右上角有一个圆形的耳机侧面线条图，标注了电源键、ANC键等位置。",
+      "文本内容包含'耳机开关机'、'媒体操作'、'游戏模式'、'降噪模式'等标题。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "耳机开关机",
+      "媒体操作",
+      "游戏模式",
+      "音频线接口",
+      "GET IT ON Google Play",
+      "Download on the App Store"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "耳机开关机",
+      "媒体操作",
+      "游戏模式",
+      "音频线接口",
+      "GET IT ON Google Play",
+      "Download on the App Store"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "右上角有一个圆形的耳机侧面线条图，标注了电源键、ANC键等位置；文本内容包含'耳机开关机'、'媒体操作'、'游戏模式'、'降噪模式'等标题。",
+    "safe_facts": [
+      "右上角有一个圆形的耳机侧面线条图，标注了电源键、ANC键等位置。",
+      "文本内容包含'耳机开关机'、'媒体操作'、'游戏模式'、'降噪模式'等标题。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "needs_review",
+    "schema_valid": true,
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": true,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_e2f4e76d-6b5e-4402-bb76-9e7567be811c",
+    "generated_at": "2026-08-12T03:09:49.363565+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "4b1f1eea04a60fe35539ea6ca111755e7369f9858123092516e96ba1df541bf7",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:09:49.364818+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_083726f6684c049633cf81e4",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:09:49.365244+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "1b7de4ce808fc759c24e4341c0e657dda16cfa8320845bbeeb1f01453df116ad"
+}

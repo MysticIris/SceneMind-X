@@ -1,0 +1,135 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_3f4bc38f582ed5a786c0ee2a",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_c1f85e928a55217eb699de9c"
+  ],
+  "asset": {
+    "asset_id": "535678a7b1a2cf48",
+    "sha256": "535678a7b1a2cf489e2139ffc41266851017c714b418bea6943521e75ee04b9b",
+    "split": "user_custom",
+    "relative_path": "user_assets/53/535678a7b1a2cf489e2139ffc41266851017c714b418bea6943521e75ee04b9b/535678a7b1a2cf489e2139ffc41266851017c714b418bea6943521e75ee04b9b.jpg"
+  },
+  "display": {
+    "theme": "人物演讲与社交媒体图文",
+    "short_description": "这是一张社交媒体帖子的截图。",
+    "micro_tags": [
+      "男子演讲",
+      "手持麦克风",
+      "白色衬衫",
+      "社交媒体截图",
+      "指向手势",
+      "中文配文"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "室内演讲或讲座现场(基于背景模糊度判断)",
+    "subjects": [
+      "短发男子",
+      "麦克风"
+    ],
+    "actions": [
+      "手持麦克风",
+      "伸手指向",
+      "张口说话"
+    ],
+    "attributes": [
+      "白色短袖衬衫",
+      "黑色背景",
+      "深色界面背景"
+    ],
+    "relations": [
+      "男子位于画面中央。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "图中男子身穿白色衬衫，右手握持麦克风，左臂向前伸出并指 pointing。"
+    ],
+    "cautious_inferences": [
+      "界面布局特征表明这来源于某个新闻资讯或社交分享类应用程序。"
+    ],
+    "uncertainties": [
+      "背景过于昏暗且模糊，无法辨认具体的环境细节。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "社学",
+      "1小时前"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "社学",
+      "1小时前"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "图中男子身穿白色衬衫，右手握持麦克风，左臂向前伸出并指 pointing。",
+    "safe_facts": [
+      "图中男子身穿白色衬衫，右手握持麦克风，左臂向前伸出并指 pointing。"
+    ],
+    "do_not_assert": [
+      "界面布局特征表明这来源于某个新闻资讯或社交分享类应用程序。",
+      "背景过于昏暗且模糊，无法辨认具体的环境细节。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_0f73cebb-c0e1-4b69-8edb-8bbbf37d77a0",
+    "generated_at": "2026-08-12T03:01:10.013198+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "8e11220229a71f8f787c5eb3c481db46653667cfa6e85edd67e1e62fc73a1fe2",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:01:10.013691+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_c1f85e928a55217eb699de9c",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:01:10.013936+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "5bbb8a6865d8c670dc2cfd38e4966fd31fcb57d3a6d2bf4e6ad819178a58d980"
+}

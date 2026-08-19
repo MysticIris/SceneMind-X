@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:35.jpg",
+    "relative_path": "train/35.jpg",
+    "sha256": "04e96ba933fa6db38d9404779d4539a71bd321f45965976dbfe08453f57e55d8",
+    "split": "train"
+  },
+  "canonical_sha256": "800aae1165594bee0207eab3efc245de292fb9790468f92f9c6be363cfc5cc92",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中国国旗",
+      "飘扬",
+      "云天"
+    ],
+    "short_description": "一面中国国旗在多云天空下随风飘扬，旗杆笔直矗立，背景是蓝白相间的云层。",
+    "theme": "红旗飘扬"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "旗帜因风力作用而飘动。"
+    ],
+    "direct_observations": [
+      "画面中央有一面红色旗帜，上面有黄色五角星图案。",
+      "旗帜在风中呈波浪状展开，旗杆垂直于地面。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "飘扬"
+    ],
+    "attributes": [
+      "红色",
+      "五角星",
+      "金属旗杆",
+      "多云天空"
+    ],
+    "relations": [
+      "国旗悬挂在旗杆上。"
+    ],
+    "scene": "户外天空场景",
+    "subjects": [
+      "中国国旗",
+      "旗杆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "旗帜因风力作用而飘动。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一面红色旗帜，上面有黄色五角星图案；旗帜在风中呈波浪状展开，旗杆垂直于地面。",
+    "safe_facts": [
+      "画面中央有一面红色旗帜，上面有黄色五角星图案。",
+      "旗帜在风中呈波浪状展开，旗杆垂直于地面。"
+    ]
+  },
+  "label_id": "cpl_0b97a641c9b951c13760f885",
+  "provenance": {
+    "generated_at": "2026-08-03T09:11:18.308381+00:00",
+    "migrated_at": "2026-08-03T09:11:18.310456+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ea23725e35893d60e4a6495f17027995205d5a0642df68efa718dbff512ccc5d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ed085aa696ad606b687050ed",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:26.476041+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ed085aa696ad606b687050ed",
+    "cpl_c3f5471538e29b36d4d0674b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

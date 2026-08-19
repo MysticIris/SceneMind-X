@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:612.jpg",
+    "relative_path": "train/612.jpg",
+    "sha256": "5f8117be4bd8c26ee78abb3fdebf73b0e78f3a3433eb626479978b7f709675f4",
+    "split": "train"
+  },
+  "canonical_sha256": "019eadf365c681ece38c2a5295362c4ae2a9c3c4a067269caeaa6eea5e641311",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "紫色花海",
+      "日落",
+      "石阶小径",
+      "游客"
+    ],
+    "short_description": "夕阳下，一条石阶小径穿过紫色花田，游客漫步其中，天空云彩柔和。",
+    "theme": "紫色花海日落"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "花田中种植的是紫色花卉，可能是薰衣草或类似品种。"
+    ],
+    "direct_observations": [
+      "天空中有太阳，呈现橙黄色光晕。",
+      "地面铺设有石阶小径，两侧有竹制围栏。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夕阳",
+      "云彩",
+      "竹制围栏"
+    ],
+    "relations": [
+      "游客在石阶小径上行走。",
+      "石阶小径穿过紫色花田。"
+    ],
+    "scene": "户外花田景观",
+    "subjects": [
+      "游客",
+      "紫色花朵",
+      "石阶小径",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "花田中种植的是紫色花卉，可能是薰衣草或类似品种。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空中有太阳，呈现橙黄色光晕；地面铺设有石阶小径，两侧有竹制围栏。",
+    "safe_facts": [
+      "天空中有太阳，呈现橙黄色光晕。",
+      "地面铺设有石阶小径，两侧有竹制围栏。"
+    ]
+  },
+  "label_id": "cpl_db66bb6643efbb35c4f127a9",
+  "provenance": {
+    "generated_at": "2026-08-03T11:44:35.981613+00:00",
+    "migrated_at": "2026-08-03T11:44:35.983786+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fa733f31df3051744c12e78bbac03c2e0ce82baeb803af0acd53bf84cdcaa219",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c408f78798b6c4540ce46aa0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:44:35.983992+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c408f78798b6c4540ce46aa0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1804.jpg",
+    "relative_path": "train/1804.jpg",
+    "sha256": "2f309d0b2595c1ecbe170fc5fc898db2159e2d7c04e40a526dddf61bb1635904",
+    "split": "train"
+  },
+  "canonical_sha256": "42e7191db6c564156b0630248159cf70aafa9235c5b41a1fc0bd4063e3d652c9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "手",
+      "冷冻室",
+      "零食",
+      "包装袋"
+    ],
+    "short_description": "一只手从冰箱冷冻室取出一包零食，旁边堆放着多种包装食品。",
+    "theme": "冷冻食品收纳"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一只手正拿取一包透明包装的物品。",
+      "冷冻室内部可见多个不同颜色的食品包装袋。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "取出"
+    ],
+    "attributes": [
+      "白色塑料袋",
+      "彩色包装袋",
+      "冷藏环境"
+    ],
+    "relations": [
+      "手与包装袋接触。",
+      "包装袋位于冷冻室内。"
+    ],
+    "scene": "冰箱冷冻室内部",
+    "subjects": [
+      "手",
+      "零食包装",
+      "塑料袋"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一只手正拿取一包透明包装的物品；冷冻室内部可见多个不同颜色的食品包装袋。",
+    "safe_facts": [
+      "画面中有一只手正拿取一包透明包装的物品。",
+      "冷冻室内部可见多个不同颜色的食品包装袋。"
+    ]
+  },
+  "label_id": "cpl_0fd389974c26b9be9deb934d",
+  "provenance": {
+    "generated_at": "2026-08-03T15:09:31.182136+00:00",
+    "migrated_at": "2026-08-03T15:09:31.183765+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f8c7360512c031cdce9b51ccf870ea251bd99682753ea089df739f5c7baa1c0d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_43693a6a309dc636a71b2e9f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:09:31.183963+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_43693a6a309dc636a71b2e9f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

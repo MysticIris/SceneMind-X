@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2219.jpg",
+    "relative_path": "val/2219.jpg",
+    "sha256": "0bed8ef427c803f26e749c4bb05fc992601f35a0ec729b28182bce0a8c6f3c8c",
+    "split": "val"
+  },
+  "canonical_sha256": "57ba76a6f16ea522b6fcb2a3589f22dbc15c059ae3f3c3f73e692c1b7368fc68",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "写作技巧",
+      "科学写作",
+      "删减冗余"
+    ],
+    "short_description": "一张幻灯片展示科学写作改进指南，强调删减冗余词汇以简化论文。",
+    "theme": "写作技巧指南"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见幻灯片内容。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色背景框",
+      "粉色背景框"
+    ],
+    "relations": [],
+    "scene": "投影屏幕显示教学幻灯片",
+    "subjects": [
+      "幻灯片内容"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见幻灯片内容。",
+    "safe_facts": [
+      "画面中可见幻灯片内容。"
+    ]
+  },
+  "label_id": "cpl_f97fa2944ba68efd54aa5eba",
+  "provenance": {
+    "generated_at": "2026-08-03T16:14:10.090257+00:00",
+    "migrated_at": "2026-08-03T16:14:10.092578+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "87ad4c7831eeac5e65984a30945a188a95eaacd6da288e737bcef61027cdab25",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_22cc4e7aedfd1c1961afb0a0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:14:10.093181+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:direct_observations"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_22cc4e7aedfd1c1961afb0a0"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "2.1 Eight guidelines for improving your",
+      "2.1.7 Omit needless words",
+      "Do high-class scientific writing require",
+      "Omit needless words, remove unnecessary",
+      "Make your paper simpler"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "2.1 Eight guidelines for improving your",
+      "2.1.7 Omit needless words",
+      "Do high-class scientific writing require",
+      "Omit needless words, remove unnecessary",
+      "Make your paper simpler"
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:521.jpg",
+    "relative_path": "train/521.jpg",
+    "sha256": "5d5f4cf47a3621a7963c96a256485c00ce637705b748247ce6e8492422470dc1",
+    "split": "train"
+  },
+  "canonical_sha256": "78ad1627a0f3aeac73a420ec23bb6be2ef762457988184fc9c64eab99a771c5a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "书籍",
+      "人物介绍牌"
+    ],
+    "short_description": "书架前放置两个带金属支架的人物介绍牌。",
+    "theme": "书籍与人物介绍牌"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "书架前放置两个带金属支架的人物介绍牌。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深色木质书架",
+      "红色封面书籍",
+      "白色封面书籍",
+      "金属支架介绍牌"
+    ],
+    "relations": [
+      "书籍放置于书架上。",
+      "介绍牌位于书籍前方。"
+    ],
+    "scene": "室内书架",
+    "subjects": [
+      "书籍",
+      "人物介绍牌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "书架前放置两个带金属支架的人物介绍牌。",
+    "safe_facts": [
+      "书架前放置两个带金属支架的人物介绍牌。"
+    ]
+  },
+  "label_id": "cpl_a555b120f89078ec177e4c15",
+  "provenance": {
+    "generated_at": "2026-08-03T11:21:35.676857+00:00",
+    "migrated_at": "2026-08-03T11:21:35.679089+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d34bd02feeebdfb1eadc834d63ffc3bb675040bb47b0eb9c97367f7f89856634",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_cd59a699b3f8a58365dd77d6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:21:35.679623+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_cd59a699b3f8a58365dd77d6"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "雷军",
+      "野蛮CEO 雷军",
+      "新编深入DOS编程",
+      "武汉大学",
+      "刘先林 (1939-)",
+      "雷军 (1969-)"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "雷军",
+      "野蛮CEO 雷军",
+      "新编深入DOS编程",
+      "武汉大学",
+      "刘先林 (1939-)",
+      "雷军 (1969-)"
+    ]
+  }
+}

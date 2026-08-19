@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2024.jpg",
+    "relative_path": "val/2024.jpg",
+    "sha256": "9555fb4b10234b1a97d3bfe35d807577faebb36da9bbdd661a041dfab43d160e",
+    "split": "val"
+  },
+  "canonical_sha256": "1015a0e0bdcec60e82b8b8e94f51ea48287bbed93cc02cbbd29033b9bce21817",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "地面标识",
+      "广场"
+    ],
+    "short_description": "夜间广场地面设有红色指示牌，指引不同学院方向，背景有行人和路灯。",
+    "theme": "夜间广场引导标识"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面铺设灰色地砖，边缘有红色长条形标识牌。",
+      "远处有路灯照明，背景中有数人站立或行走。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "地面铺装",
+      "红色标识"
+    ],
+    "relations": [],
+    "scene": "户外广场",
+    "subjects": [
+      "行人",
+      "地面标识牌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面铺设灰色地砖，边缘有红色长条形标识牌；远处有路灯照明，背景中有数人站立或行走。",
+    "safe_facts": [
+      "地面铺设灰色地砖，边缘有红色长条形标识牌。",
+      "远处有路灯照明，背景中有数人站立或行走。"
+    ]
+  },
+  "label_id": "cpl_a8435b7b3f930509b20810f9",
+  "provenance": {
+    "generated_at": "2026-08-03T15:49:36.185976+00:00",
+    "migrated_at": "2026-08-03T15:49:36.187495+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5ec86479453048eded68a0697af319cf15c1787a61515ea8b309ed06c9c079ec",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d45f9f040a46ecf5cbc545d1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:49:36.187769+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d45f9f040a46ecf5cbc545d1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:929.jpg",
+    "relative_path": "train/929.jpg",
+    "sha256": "7ba0bd2dc56fead42c83a97545b9e2f7366dbcfb0b5e7b2849cb282e1eb5b7d3",
+    "split": "train"
+  },
+  "canonical_sha256": "db35a3409cc3d7ebcf07bcab4bb10e410fa066863018e3264801f9e27ff1369a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "建筑工地",
+      "废墟",
+      "多层建筑",
+      "阴天"
+    ],
+    "short_description": "阴天下的城市建筑工地，前景是碎石和砖块堆，背景有多栋未完工或废弃的楼房及远山。",
+    "theme": "城市建筑工地"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该区域可能正在拆除或尚未施工完成。"
+    ],
+    "direct_observations": [
+      "地面上散落大量红砖和碎石。",
+      "左侧和右侧各有一栋多层建筑，部分楼层未封顶或墙体裸露。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阴天",
+      "土黄色地面",
+      "混凝土结构",
+      "窗户破损或缺失"
+    ],
+    "relations": [
+      "碎石堆位于前景。",
+      "楼房位于背景。",
+      "山脉位于更远背景。"
+    ],
+    "scene": "城市建筑工地",
+    "subjects": [
+      "碎石堆",
+      "未完工楼房",
+      "废弃建筑",
+      "远处山脉"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该区域可能正在拆除或尚未施工完成。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面上散落大量红砖和碎石；左侧和右侧各有一栋多层建筑，部分楼层未封顶或墙体裸露。",
+    "safe_facts": [
+      "地面上散落大量红砖和碎石。",
+      "左侧和右侧各有一栋多层建筑，部分楼层未封顶或墙体裸露。"
+    ]
+  },
+  "label_id": "cpl_23b4ad8a8f5c65286e60fa09",
+  "provenance": {
+    "generated_at": "2026-08-03T12:52:42.942944+00:00",
+    "migrated_at": "2026-08-03T12:52:42.946435+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "85212bc493ea2f13d95f16562f164d8bcac00886a045dbf7529c0e065f9d2616",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e02266ea5500b4618e478787",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:52:42.946809+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e02266ea5500b4618e478787"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

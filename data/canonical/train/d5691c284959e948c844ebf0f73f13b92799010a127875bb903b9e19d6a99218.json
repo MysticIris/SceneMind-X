@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:782.jpg",
+    "relative_path": "train/782.jpg",
+    "sha256": "d5691c284959e948c844ebf0f73f13b92799010a127875bb903b9e19d6a99218",
+    "split": "train"
+  },
+  "canonical_sha256": "510708bd1ddad4e1e78c0c04ef75b571cc2bcfef6b7efd1399ef6005301f809b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "金发",
+      "手办",
+      "动漫角色",
+      "侧脸"
+    ],
+    "short_description": "金发少女手办侧脸特写，身着深蓝外套配白裙，发辫垂落，背景为蓝色条纹。",
+    "theme": "动漫角色手办特写"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "角色为金发，发型为编发并有垂落发丝。",
+      "角色穿着深蓝色外套搭配白色裙子，裙摆有黑色镶边。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金色长发",
+      "编发",
+      "深蓝色外套",
+      "白色裙子",
+      "红色领巾",
+      "黑色手套"
+    ],
+    "relations": [],
+    "scene": "室内展示背景",
+    "subjects": [
+      "金发少女手办"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "角色为金发，发型为编发并有垂落发丝；角色穿着深蓝色外套搭配白色裙子，裙摆有黑色镶边。",
+    "safe_facts": [
+      "角色为金发，发型为编发并有垂落发丝。",
+      "角色穿着深蓝色外套搭配白色裙子，裙摆有黑色镶边。"
+    ]
+  },
+  "label_id": "cpl_3ae595f83b9e34f845a25ca7",
+  "provenance": {
+    "generated_at": "2026-08-03T12:22:16.053689+00:00",
+    "migrated_at": "2026-08-03T12:22:16.056659+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ed4a9032117f589376f73d26ae85b70765ee573416f3a571199d2099c83430d2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ac4a0c81b596dfc0ad6f8b3f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:22:16.057015+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ac4a0c81b596dfc0ad6f8b3f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

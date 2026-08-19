@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1185.jpg",
+    "relative_path": "train/1185.jpg",
+    "sha256": "c8764246f846af7a6231601c4be14549fc5a36ea4b76eb43bd39cc69729737db",
+    "split": "train"
+  },
+  "canonical_sha256": "092a4244a5c69d4758ce638ddff7145504516f638a4b4846300d52f9a560476d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蓝色星球",
+      "蝴蝶装饰",
+      "室内展览"
+    ],
+    "short_description": "室内空间悬挂巨大蓝色星球模型，周围装饰蝴蝶图案，人群聚集参观。",
+    "theme": "蓝色幻想空间"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天花板悬挂一个大型蓝色球体，表面有凹凸纹理。",
+      "墙壁上贴有多幅蝴蝶图案装饰画。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色星球模型",
+      "发光蝴蝶装饰",
+      "人群聚集"
+    ],
+    "relations": [
+      "蓝色球体悬挂在天花板。",
+      "蝴蝶装饰贴于墙面。"
+    ],
+    "scene": "室内展览空间",
+    "subjects": [
+      "悬挂的蓝色球体",
+      "装饰性蝴蝶",
+      "参观人群"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天花板悬挂一个大型蓝色球体，表面有凹凸纹理；墙壁上贴有多幅蝴蝶图案装饰画。",
+    "safe_facts": [
+      "天花板悬挂一个大型蓝色球体，表面有凹凸纹理。",
+      "墙壁上贴有多幅蝴蝶图案装饰画。"
+    ]
+  },
+  "label_id": "cpl_6a09fa86e1a35cccf55f1e23",
+  "provenance": {
+    "generated_at": "2026-08-03T13:51:44.592655+00:00",
+    "migrated_at": "2026-08-03T13:51:44.596916+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7d67ab7fa5f34aa74683edb3215c7a0405ef119f6271efe47ad329c508df169c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9ee42b4dadadc63e2bba1bb9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:51:44.597275+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9ee42b4dadadc63e2bba1bb9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

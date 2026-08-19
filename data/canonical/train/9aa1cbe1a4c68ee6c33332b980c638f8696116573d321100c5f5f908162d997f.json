@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1871.jpg",
+    "relative_path": "train/1871.jpg",
+    "sha256": "9aa1cbe1a4c68ee6c33332b980c638f8696116573d321100c5f5f908162d997f",
+    "split": "train"
+  },
+  "canonical_sha256": "1392324917f1334913bf1ffff3167f486dda0c8e8d623769a3a6c84bf7c595b7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "江上大桥",
+      "摩天大楼",
+      "河岸灯光"
+    ],
+    "short_description": "夜幕下江面倒映着桥梁与高楼灯光，岸边绿树成荫，人群聚集，船只静泊水面。",
+    "theme": "夜景城市天际线"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "江边有人群聚集，可能在散步或观景。"
+    ],
+    "direct_observations": [
+      "江面上有桥梁灯光反射。",
+      "对岸有多栋高层建筑亮灯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "灯火通明",
+      "水面反光",
+      "绿化带",
+      "城市天际线"
+    ],
+    "relations": [
+      "桥梁横跨江面。",
+      "高楼位于江对岸。",
+      "树木沿江岸分布。",
+      "人群聚集在江边步道。"
+    ],
+    "scene": "城市江畔夜景",
+    "subjects": [
+      "桥梁",
+      "高楼建筑群",
+      "江面",
+      "树木",
+      "人群",
+      "船只"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "江边有人群聚集，可能在散步或观景。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "江面上有桥梁灯光反射；对岸有多栋高层建筑亮灯。",
+    "safe_facts": [
+      "江面上有桥梁灯光反射。",
+      "对岸有多栋高层建筑亮灯。"
+    ]
+  },
+  "label_id": "cpl_4e060cf0a2f355e156f77502",
+  "provenance": {
+    "generated_at": "2026-08-03T15:15:39.342699+00:00",
+    "migrated_at": "2026-08-03T15:15:39.344296+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ba6e4e87aa88e10414b069d1bc3a4e8bc99eaa721b22e9b8c9abca15481bbdd1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a9e348a4b524fd4e9d391e21",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:15:39.344659+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a9e348a4b524fd4e9d391e21"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

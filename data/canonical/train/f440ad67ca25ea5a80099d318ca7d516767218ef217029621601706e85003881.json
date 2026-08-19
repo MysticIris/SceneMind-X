@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:246.jpg",
+    "relative_path": "train/246.jpg",
+    "sha256": "f440ad67ca25ea5a80099d318ca7d516767218ef217029621601706e85003881",
+    "split": "train"
+  },
+  "canonical_sha256": "c84dcbbc78362df571ea9634401fee43e163c5ad75184c294240d907b740541c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式古建筑",
+      "多层楼阁",
+      "飞檐翘角"
+    ],
+    "short_description": "一座多层中式传统楼阁，红柱飞檐，石阶绿植环绕，天空阴云密布。",
+    "theme": "古建筑楼阁"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑具有多层重叠的屋檐结构。",
+      "建筑前方有石砌台阶和白色栏杆。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色柱子",
+      "深色屋檐",
+      "石质栏杆",
+      "绿色灌木"
+    ],
+    "relations": [
+      "楼阁位于石阶后方。",
+      "灌木位于前景。"
+    ],
+    "scene": "户外古建筑",
+    "subjects": [
+      "楼阁建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑具有多层重叠的屋檐结构；建筑前方有石砌台阶和白色栏杆。",
+    "safe_facts": [
+      "建筑具有多层重叠的屋檐结构。",
+      "建筑前方有石砌台阶和白色栏杆。"
+    ]
+  },
+  "label_id": "cpl_7d2ebf5f63eca4e3458a1416",
+  "provenance": {
+    "generated_at": "2026-08-03T10:24:01.980468+00:00",
+    "migrated_at": "2026-08-03T10:24:01.982524+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "81aec8d98c5255439a5730e5b0226c7cb9d9f160714b3bd695973c722d6fc2c0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b81af3c42f518e6b0b48e6e9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:24:01.982716+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b81af3c42f518e6b0b48e6e9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

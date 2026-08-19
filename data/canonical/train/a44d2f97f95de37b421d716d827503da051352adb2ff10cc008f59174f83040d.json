@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1809.jpg",
+    "relative_path": "train/1809.jpg",
+    "sha256": "a44d2f97f95de37b421d716d827503da051352adb2ff10cc008f59174f83040d",
+    "split": "train"
+  },
+  "canonical_sha256": "3fba98105e88e164a390fb0054dad26a2ec5b962f00d04bcc63bbf8ce4f79ded",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "药品",
+      "药盒",
+      "货架"
+    ],
+    "short_description": "药柜上摆放着多种不同包装的药品盒，包括抗病毒口服液、感冒片、软胶囊等。",
+    "theme": "药品陈列"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多个药品包装盒堆叠在灰色带圆点的货架上。",
+      "部分包装盒上有清晰可辨的品牌名称和产品名称。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色包装",
+      "白色包装",
+      "带条形码"
+    ],
+    "relations": [
+      "药品盒放置于货架上。"
+    ],
+    "scene": "药店或药柜货架",
+    "subjects": [
+      "药品包装盒"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多个药品包装盒堆叠在灰色带圆点的货架上；部分包装盒上有清晰可辨的品牌名称和产品名称。",
+    "safe_facts": [
+      "多个药品包装盒堆叠在灰色带圆点的货架上。",
+      "部分包装盒上有清晰可辨的品牌名称和产品名称。"
+    ]
+  },
+  "label_id": "cpl_18297162c043b86f8273a862",
+  "provenance": {
+    "generated_at": "2026-08-03T15:08:36.571650+00:00",
+    "migrated_at": "2026-08-03T15:08:36.573509+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "979fbac5cf2e881fd7329b4a6e7b10990038b28463a0dc4395fc642395f4ce51",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c1914560adcf855775c0dcdd",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:08:36.573964+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c1914560adcf855775c0dcdd"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "999",
+      "OTC",
+      "四季感冒片",
+      "藿香正气软胶囊",
+      "咽炎片",
+      "银黄滴丸"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "999",
+      "OTC",
+      "四季感冒片",
+      "藿香正气软胶囊",
+      "咽炎片",
+      "银黄滴丸"
+    ]
+  }
+}

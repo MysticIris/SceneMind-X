@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:333.jpg",
+    "relative_path": "train/333.jpg",
+    "sha256": "ede270e321dc627102ba0eddc91c36c3464be4de8cbd2ba6e02ef757f403b7fa",
+    "split": "train"
+  },
+  "canonical_sha256": "f6568ff565d393a048a305a6e8480c68bb6fbef2c51b6137bd62cd2c8d4d7aa8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪山",
+      "秋叶",
+      "湖泊",
+      "倒影",
+      "自然风光"
+    ],
+    "short_description": "湛蓝天空下，雪山与金黄秋林倒映在平静湖面，芦苇丛生，自然风光宁静壮美。",
+    "theme": "秋日山景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "秋季特征明显，树叶呈现金黄色调。"
+    ],
+    "direct_observations": [
+      "天空呈深蓝色，无云或仅有薄云层。",
+      "湖面平静，清晰反射雪山与树木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晴朗天空",
+      "金黄色树叶",
+      "雪峰",
+      "平静水面"
+    ],
+    "relations": [
+      "树木环绕湖泊。",
+      "雪山倒映在水中。",
+      "芦苇生长于水边。"
+    ],
+    "scene": "山地湖泊景观",
+    "subjects": [
+      "雪山",
+      "秋树",
+      "湖泊",
+      "芦苇"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "秋季特征明显，树叶呈现金黄色调。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈深蓝色，无云或仅有薄云层；湖面平静，清晰反射雪山与树木。",
+    "safe_facts": [
+      "天空呈深蓝色，无云或仅有薄云层。",
+      "湖面平静，清晰反射雪山与树木。"
+    ]
+  },
+  "label_id": "cpl_673d67c040a4ceacb2bf75c8",
+  "provenance": {
+    "generated_at": "2026-08-03T10:41:37.533794+00:00",
+    "migrated_at": "2026-08-03T10:41:37.535865+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6c70eae3f6eadfde6be5500ec86731ce98df809e282349e2bda12b6e9309b847",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d710934388571d5ea8e73ed4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:41:37.536235+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d710934388571d5ea8e73ed4"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:404.jpg",
+    "relative_path": "train/404.jpg",
+    "sha256": "7bc81d6392d81691ce4afe8734531ebd8dcdeeb0dd518f8bcc6068b44b69a516",
+    "split": "train"
+  },
+  "canonical_sha256": "62a193769a4dbdfc276824f21607406617beb25f3766802b44035460ac04d502",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "店铺招牌",
+      "行人",
+      "城市街道"
+    ],
+    "short_description": "城市步行街入口处，行人穿行，店铺招牌林立，有戴口罩者在街边活动。",
+    "theme": "城市步行街入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "有行人站立或行走，部分佩戴口罩。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "有遮阳棚",
+      "有通风口",
+      "有石质柱体"
+    ],
+    "relations": [],
+    "scene": "城市商业步行街入口",
+    "subjects": [
+      "行人",
+      "店铺招牌",
+      "建筑立面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "有行人站立或行走，部分佩戴口罩。",
+    "safe_facts": [
+      "有行人站立或行走，部分佩戴口罩。"
+    ]
+  },
+  "label_id": "cpl_2cd542d97d59e4d4ebe8ff1c",
+  "provenance": {
+    "generated_at": "2026-08-03T10:56:06.173913+00:00",
+    "migrated_at": "2026-08-03T10:56:06.175651+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3f4c484927af9eb7fe832000a9cbf4119cdc22fa8e45c93646d2820123b83493",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_79a6f51f351ed76f9a1903e7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:56:06.176110+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_79a6f51f351ed76f9a1903e7"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "世界城光谷步行街",
+      "猪小小粉面铺",
+      "味辣爪爪",
+      "周黑鸭",
+      "子",
+      "13792002005"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "世界城光谷步行街",
+      "猪小小粉面铺",
+      "味辣爪爪",
+      "周黑鸭",
+      "子",
+      "13792002005"
+    ]
+  }
+}

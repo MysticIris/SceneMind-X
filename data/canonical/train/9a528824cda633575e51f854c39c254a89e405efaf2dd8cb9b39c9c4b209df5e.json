@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:852.jpg",
+    "relative_path": "train/852.jpg",
+    "sha256": "9a528824cda633575e51f854c39c254a89e405efaf2dd8cb9b39c9c4b209df5e",
+    "split": "train"
+  },
+  "canonical_sha256": "230059cbf86973ebc9c00a9f6518a1b5f393add73be0eb03888f84d084ae4437",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电路设计",
+      "DRC规则",
+      "Cadence软件"
+    ],
+    "short_description": "Cadence 软件中显示电路布局，弹窗提示选择 DRC 规则文件。",
+    "theme": "电路设计软件界面"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见电路布局图和DRC规则文件选择对话框。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "电子设计自动化软件操作界面",
+    "subjects": [
+      "电路布局图",
+      "DRC规则文件选择对话框"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见电路布局图和DRC规则文件选择对话框。",
+    "safe_facts": [
+      "画面中可见电路布局图和DRC规则文件选择对话框。"
+    ]
+  },
+  "label_id": "cpl_79d9d2ed6a708d117f41e074",
+  "provenance": {
+    "generated_at": "2026-08-03T12:36:35.328940+00:00",
+    "migrated_at": "2026-08-03T12:36:35.332669+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5ed79d54438175fa5e82bc3d28a140b11dda481e7027b79c5c021b214b5381f0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d9823aa86d0d55312a3cfee4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:36:35.333925+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:direct_observations"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d9823aa86d0d55312a3cfee4"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Calibre Interactive - nmDRC v2019.3.25.1",
+      "Choose DRC rules file (Dirs.3)",
+      "Look in: /home/1-040/.../aa.cdt_20",
+      "File name:",
+      "File type: All Files (*)"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Calibre Interactive - nmDRC v2019.3.25.1",
+      "Choose DRC rules file (Dirs.3)",
+      "Look in: /home/1-040/.../aa.cdt_20",
+      "File name:",
+      "File type: All Files (*)"
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1691.jpg",
+    "relative_path": "train/1691.jpg",
+    "sha256": "564ceeacae70290c6039b841d99058c9a9a7d0311c40543fc69b561ea073fad6",
+    "split": "train"
+  },
+  "canonical_sha256": "4f97a01c731bba3b220313faf6678472ad57d5dc080a340246cf47ab57c0c93d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "测量仪器",
+      "工业设备",
+      "控制手柄"
+    ],
+    "short_description": "一台黑色精密测量仪器置于白色工作台上，配有电脑、键盘、鼠标及控制手柄，背景为透明隔间。",
+    "theme": "精密测量设备"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一台黑色精密测量仪器放置在白色工作台上。",
+      "工作台旁有电脑显示器、键盘、鼠标和控制手柄。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色机身",
+      "白色工作台",
+      "透明隔间背景"
+    ],
+    "relations": [
+      "测量仪器位于工作台上。",
+      "电脑显示器与键盘、鼠标相邻。"
+    ],
+    "scene": "室内工作台环境",
+    "subjects": [
+      "测量仪器",
+      "电脑显示器",
+      "键盘",
+      "鼠标",
+      "控制手柄"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一台黑色精密测量仪器放置在白色工作台上；工作台旁有电脑显示器、键盘、鼠标和控制手柄。",
+    "safe_facts": [
+      "一台黑色精密测量仪器放置在白色工作台上。",
+      "工作台旁有电脑显示器、键盘、鼠标和控制手柄。"
+    ]
+  },
+  "label_id": "cpl_d83496dfeb04b2c9e285445c",
+  "provenance": {
+    "generated_at": "2026-08-03T14:55:05.516642+00:00",
+    "migrated_at": "2026-08-03T14:55:05.518102+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ccd8caf65d45f6f9178295b734887fa62390367bc60d1e3dae3d811eb6bfb5fa",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_70fab038213834e8aafd713c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:55:05.518304+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_70fab038213834e8aafd713c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

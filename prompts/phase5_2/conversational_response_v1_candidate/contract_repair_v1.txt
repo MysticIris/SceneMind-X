@@ -1,0 +1,19 @@
+你只修订一个已有回答的内部 JSON 合同，不重新分析图片。
+
+硬性规则：
+- 保留原回答已经明确表达的选择、排序、结论、事实和不确定性。
+- 不新增视觉事实，不改变推荐对象，不补造缺失的完整排序。
+- 只修正字段名、值类型、IMG_n 唯一别名、JSON 结构和引用字段。
+- 如果原回答没有完成当前任务，将 action_completed 设为 false。
+- 不输出解释、Markdown 或 JSON 之外的文字。
+
+<current_state>
+{{CURRENT_STATE}}
+</current_state>
+
+<raw_answer>
+{{RAW_ANSWER}}
+</raw_answer>
+
+输出九字段 JSON：public_answer、intent、action_completed、recommended_images、
+ranking、image_references、evidence、uncertainty、needs_clarification。

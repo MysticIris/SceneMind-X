@@ -1,0 +1,122 @@
+{
+  "asset_id": "e03b78392e026849",
+  "asset_sha256": "e03b78392e0268490623578afb7fa990e5a1c8d7965278f04dd8d3223233a104",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"课堂教学安排投影\",\n    \"short_description\": \"教室场景下的投影幕布特写，画面显示关于教学安排的文字内容，包含教学方式与考核方式的比例说明，前景可见听课人员的黑色头发顶部。\",\n    \"micro_tags\": [\n      \"投影幕布\",\n      \"教学安排\",\n      \"课堂\",\n      \"文字演示\",\n      \"前排视角\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"室内教室或讲座现场\",\n    \"subjects\": [\n      \"投影幕布\",\n      \"演示文稿\",\n      \"听众头部\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白底黑字\",\n      \"列表格式\",\n      \"包含百分比数值\"\n    ],\n    \"relations\": [\n      \"幕布位于背景\",\n      \"头发位于前景底部\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"白色投影幕布上显示有层级结构的中文文本列表\",\n      \"文本内容涉及‘教学安排’、‘平时作业 (30%)’及‘笔试考试 (70%)’等字样\",\n      \"图片底部边缘可见数个黑色的头顶发旋，表明拍摄者位于观众席\"\n    ],\n    \"cautious_inferences\": [\n      \"这可能是一堂大学课程或培训讲座的开场介绍环节\",\n      \"拍摄角度为仰视，符合坐在教室中后排观众的视角\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的课程名称或所属机构\",\n      \"左上角图标的具体含义因模糊而无法辨认\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"教学安排\",\n      \"教学方式\",\n      \"课堂教学\",\n      \"考核方式\",\n      \"平时作业 (30%)\",\n      \"每周一 交前一周作业\",\n      \"笔试考试 (70%)\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张在教室内拍摄的照片，主要展示了前方投影幕布上的演示文稿，前景有观众的头顶遮挡部分视线。\",\n    \"safe_facts\": [\n      \"画面主体为一块发光的白色投影屏幕\",\n      \"屏幕上排列着多行深色文字\",\n      \"照片底部有黑色的人体头发特征\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 583,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 583,
+        "total_tokens": 3788,
+        "estimated_cost_cny": 0.011074,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "课堂教学安排投影",
+          "short_description": "教室场景下的投影幕布特写，画面显示关于教学安排的文字内容，包含教学方式与考核方式的比例说明，前景可见听课人员的黑色头发顶部。",
+          "micro_tags": [
+            "投影幕布",
+            "教学安排",
+            "课堂",
+            "文字演示",
+            "前排视角"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "室内教室或讲座现场",
+          "subjects": [
+            "投影幕布",
+            "演示文稿",
+            "听众头部"
+          ],
+          "actions": [],
+          "attributes": [
+            "白底黑字",
+            "列表格式",
+            "包含百分比数值"
+          ],
+          "relations": [
+            "幕布位于背景",
+            "头发位于前景底部"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "白色投影幕布上显示有层级结构的中文文本列表",
+            "文本内容涉及‘教学安排’、‘平时作业 (30%)’及‘笔试考试 (70%)’等字样",
+            "图片底部边缘可见数个黑色的头顶发旋，表明拍摄者位于观众席"
+          ],
+          "cautious_inferences": [
+            "这可能是一堂大学课程或培训讲座的开场介绍环节",
+            "拍摄角度为仰视，符合坐在教室中后排观众的视角"
+          ],
+          "uncertainties": [
+            "无法确定具体的课程名称或所属机构",
+            "左上角图标的具体含义因模糊而无法辨认"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "教学安排",
+            "教学方式",
+            "课堂教学",
+            "考核方式",
+            "平时作业 (30%)",
+            "每周一 交前一周作业",
+            "笔试考试 (70%)"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张在教室内拍摄的照片，主要展示了前方投影幕布上的演示文稿，前景有观众的头顶遮挡部分视线。",
+          "safe_facts": [
+            "画面主体为一块发光的白色投影屏幕",
+            "屏幕上排列着多行深色文字",
+            "照片底部有黑色的人体头发特征"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 3402828,
+        "request_bytes": 2549049,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 11.679495299998962,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "d0a678d4f8f8b440b0849dd0d20ca81540f346dfef0d46098a2422e1e09ddbd0"
+}

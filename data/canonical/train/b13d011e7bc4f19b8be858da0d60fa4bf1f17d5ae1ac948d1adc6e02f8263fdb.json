@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1256.jpg",
+    "relative_path": "train/1256.jpg",
+    "sha256": "b13d011e7bc4f19b8be858da0d60fa4bf1f17d5ae1ac948d1adc6e02f8263fdb",
+    "split": "train"
+  },
+  "canonical_sha256": "6e62d07dc21f71c4570b8edd466485732099fc18f63f81cbe6dfb1a6df6548ef",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市黄昏",
+      "街道人群",
+      "电动车停放",
+      "高楼建筑"
+    ],
+    "short_description": "夕阳西下，城市街道上行人与车辆穿梭，路边停放着多辆电动车和摩托车，远处高楼林立，天空呈现温暖橙黄色调。",
+    "theme": "城市黄昏街景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自低角度，可能是日落时分。"
+    ],
+    "direct_observations": [
+      "天空呈橙黄色，太阳位于地平线附近。",
+      "街道上有多个行人和骑行者，路边停放着多辆电动车和摩托车。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "骑行",
+      "停放",
+      "等待"
+    ],
+    "attributes": [
+      "夕阳",
+      "橙黄色天空",
+      "砖石路面",
+      "高架路灯"
+    ],
+    "relations": [
+      "行人与街道。",
+      "电动车与地面。",
+      "高楼与天空。"
+    ],
+    "scene": "城市街道",
+    "subjects": [
+      "行人",
+      "骑自行车的人",
+      "电动车",
+      "摩托车",
+      "路灯",
+      "高楼"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自低角度，可能是日落时分。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈橙黄色，太阳位于地平线附近；街道上有多个行人和骑行者，路边停放着多辆电动车和摩托车。",
+    "safe_facts": [
+      "天空呈橙黄色，太阳位于地平线附近。",
+      "街道上有多个行人和骑行者，路边停放着多辆电动车和摩托车。"
+    ]
+  },
+  "label_id": "cpl_adea6f6d34ab2659a19c4169",
+  "provenance": {
+    "generated_at": "2026-08-03T13:59:14.209920+00:00",
+    "migrated_at": "2026-08-03T13:59:14.212938+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "58fb1d0c373ef5b94113b21a9bdccb41e78274bd293c3fc85faeacb2b481dc0a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_826aee5dea34847e88d2270a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:59:14.213337+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_826aee5dea34847e88d2270a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

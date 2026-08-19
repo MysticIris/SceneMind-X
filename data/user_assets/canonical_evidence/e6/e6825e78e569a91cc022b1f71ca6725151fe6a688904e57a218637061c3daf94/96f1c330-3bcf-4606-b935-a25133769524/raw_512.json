@@ -1,0 +1,66 @@
+{
+  "asset_id": "e6825e78e569a91c",
+  "asset_sha256": "e6825e78e569a91cc022b1f71ca6725151fe6a688904e57a218637061c3daf94",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"游戏战绩结算列表\",\n    \"short_description\": \"这是一张手机游戏界面的截图，展示了英雄“大乔”的近期排位赛详细战绩。列表按时间倒序排列，包含多场五排、三排及双排对局记录。每条记录显示了胜负结果、KDA数据、对局标签（如MVP、金牌中路）以及具体的比赛时间。\",\n    \"micro_tags\": [\n      \"王者荣耀\",\n      \"大乔\",\n      \"战绩查询\",\n      \"排位赛\",\n      \"MVP\",\n      \"游戏截图\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端游戏应用内的个人战绩详情页面\",\n    \"subjects\": [\n      \"游戏角色头像（大乔）\",\n      \"对局结果列表\",\n      \"状态标签图标\",\n      \"顶部导航栏\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"垂直列表布局\",\n      \"白色背景\",\n      \"红色表示失败\",\n      \"蓝色表示胜利\",\n      \"金色与银色徽章\"\n    ],\n    \"relations\": [\n      \"左侧为角色头像与对局类型\",\n      \"中间为胜负状态与KDA数据\",\n      \"右侧为荣誉标签与时间戳\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕顶部标题显示为“我的大乔详情”。\",\n      \"列表第一项显示红色的“失败”字样，KDA为1/3/5，右侧有紫色的“MVP”标签。\",\n      \"列表第二项显示蓝色的“胜利”字样，KDA为5/1/15，右侧有“金牌中路”和“MVP”标签。\",\n      \"每一行左侧都有相同的女性角色头像，手持法杖。\",\n      \"右侧时间戳显示日期主要集中在01-14和01-13。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面UI风格、字体及特有的“金牌/银牌”评价体系，推测这是《王者荣耀》游戏的战绩界面。\",\n      \"列表中的“五排”、“三排”、“双排”字样表明这些是多人组队进行的排位模式对局。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"我的大乔详情\",\n      \"失败 排位赛 五排 1/3/5 MVP\",\n      \"胜利 排位赛 五排 5/1/15 金牌中路 MVP\",\n      \"胜利 排位赛 五排 6/2/16 金牌中路 MVP\",\n      \"胜利 排位赛 五排 2/2/13\",\n      \"胜利 排位赛 五排 2/0/16 金牌中路 MVP\",\n      \"失败 排位赛 五排 1/3/1\",\n      \"失败 排位赛 三排 3/2/9 铜牌中路\",\n      \"胜利 排位赛 三排 3/0/10 银牌中路 MVP\",\n      \"胜利 排位赛 三排 3/0/9 金牌中路 MVP\",\n      \"",
+      "input_tokens": 3227,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 768,
+        "total_tokens": 3995,
+        "estimated_cost_cny": 0.012598,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "游戏战绩结算列表",
+        "short_description": "这是一张手机游戏界面的截图，展示了英雄“大乔”的近期排位赛详细战绩。列表按时间倒序排列，包含多场五排、三排及双排对局记录。每条记录显示了胜负结果、KDA数据、对局标签（如MVP、金牌中路）以及具体的比赛时间。",
+        "micro_tags": [
+          "王者荣耀",
+          "大乔",
+          "战绩查询",
+          "排位赛",
+          "MVP",
+          "游戏截图"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 1484676,
+        "request_bytes": 1110435,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.84532250000484,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "5c345849d109c3e9ee719a46bd5a92b20ac2b73640c52790b5b6a8be0ddc47c8"
+}

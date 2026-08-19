@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:923.jpg",
+    "relative_path": "train/923.jpg",
+    "sha256": "cae083ae6c8134f26f2d78ab142313880c549584fd5c33e2c954b0c8ce365c63",
+    "split": "train"
+  },
+  "canonical_sha256": "56822554b13254960c9630f19868c9c0909aa14c1f15d51ea5d5b430ba3fc21d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "士兵",
+      "迷彩服",
+      "烟雾",
+      "训练场"
+    ],
+    "short_description": "多名身着迷彩服的士兵在烟雾弥漫的草地上进行战术演练，前方观众席上坐满同样着装的人员。",
+    "theme": "军事训练现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多名士兵在草地上奔跑，周围有白色烟雾。",
+      "前景中大量士兵背对镜头坐着观看。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "奔跑",
+      "观看"
+    ],
+    "attributes": [
+      "迷彩服",
+      "烟雾",
+      "绿色草地",
+      "树木背景"
+    ],
+    "relations": [
+      "士兵在训练场上活动。",
+      "观众席士兵观看训练。"
+    ],
+    "scene": "户外草地训练场",
+    "subjects": [
+      "穿着迷彩服的士兵",
+      "观众席上的士兵"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多名士兵在草地上奔跑，周围有白色烟雾；前景中大量士兵背对镜头坐着观看。",
+    "safe_facts": [
+      "多名士兵在草地上奔跑，周围有白色烟雾。",
+      "前景中大量士兵背对镜头坐着观看。"
+    ]
+  },
+  "label_id": "cpl_849e7e332a07e78d434f64d7",
+  "provenance": {
+    "generated_at": "2026-08-03T12:51:23.119598+00:00",
+    "migrated_at": "2026-08-03T12:51:23.122105+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d8929b5d3bb898ee5ef7a96a9e2ab400427644d2721215032093f431e8549e2d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5ea5eb8894dfb36fbc24c758",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:51:23.122456+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5ea5eb8894dfb36fbc24c758"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

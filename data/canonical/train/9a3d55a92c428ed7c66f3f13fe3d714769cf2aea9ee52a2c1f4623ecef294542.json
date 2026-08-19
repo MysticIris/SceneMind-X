@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:948.jpg",
+    "relative_path": "train/948.jpg",
+    "sha256": "9a3d55a92c428ed7c66f3f13fe3d714769cf2aea9ee52a2c1f4623ecef294542",
+    "split": "train"
+  },
+  "canonical_sha256": "d49d48b48f801315b017ebbf2c92a5e54faf8ce056f0da32e7c2a7cb6fcc1966",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄色踏板车",
+      "石拱门",
+      "城市街道"
+    ],
+    "short_description": "黄色踏板车载两人穿行于装饰华丽的石拱门下，背景有出租车与行人。",
+    "theme": "城市街景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "前景有一辆黄色踏板车，载有两人。",
+      "背景是一座大型石质拱门，带有雕刻装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "骑行",
+      "穿行"
+    ],
+    "attributes": [
+      "黄色",
+      "装饰华丽",
+      "头盔"
+    ],
+    "relations": [
+      "踏板车在街道上行驶。",
+      "石拱门位于背景。"
+    ],
+    "scene": "城市街道",
+    "subjects": [
+      "骑踏板车的人",
+      "背景石拱门",
+      "黄色出租车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "前景有一辆黄色踏板车，载有两人；背景是一座大型石质拱门，带有雕刻装饰。",
+    "safe_facts": [
+      "前景有一辆黄色踏板车，载有两人。",
+      "背景是一座大型石质拱门，带有雕刻装饰。"
+    ]
+  },
+  "label_id": "cpl_0a9471ccfb7bd3abc4b84a69",
+  "provenance": {
+    "generated_at": "2026-08-03T13:06:34.992645+00:00",
+    "migrated_at": "2026-08-03T13:06:34.995399+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9b0324e8d786d4b4e318cb892dd09e72c07ea943721a3812dc16bd57eed60e0b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0a9471ccfb7bd3abc4b84a69",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:16.448996+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5850f215dade0aed98796f91"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

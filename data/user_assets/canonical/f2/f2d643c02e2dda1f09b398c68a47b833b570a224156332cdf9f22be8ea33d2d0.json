@@ -1,0 +1,142 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_d0a1724f4724318f473f9bfd",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_34c5f7fea1110879e8d55da3"
+  ],
+  "asset": {
+    "asset_id": "f2d643c02e2dda1f",
+    "sha256": "f2d643c02e2dda1f09b398c68a47b833b570a224156332cdf9f22be8ea33d2d0",
+    "split": "user_custom",
+    "relative_path": "user_assets/f2/f2d643c02e2dda1f09b398c68a47b833b570a224156332cdf9f22be8ea33d2d0/f2d643c02e2dda1f09b398c68a47b833b570a224156332cdf9f22be8ea33d2d0.png"
+  },
+  "display": {
+    "theme": "深度学习网络架构图",
+    "short_description": "这是一张展示复杂神经网络模型架构的技术示意图。图中包含编码器、掩码解码器、复数解码器以及TS-Conformer模块的详细结构，使用了不同颜色的方块代表卷积、归一化等层，并通过箭头表示数据流向。",
+    "micro_tags": [
+      "神经网络",
+      "架构图",
+      "深度学习",
+      "Conformer",
+      "信号处理",
+      "技术图表"
+    ]
+  },
+  "facts": {
+    "visual_medium": "illustration",
+    "scene": "技术文档或论文插图",
+    "subjects": [
+      "网络结构框图",
+      "数学符号与公式",
+      "图例说明"
+    ],
+    "actions": [],
+    "attributes": [
+      "彩色编码",
+      "模块化设计",
+      "流程导向",
+      "多层级结构"
+    ],
+    "relations": [
+      "顶部图例定义了不同颜色方块代表的操作类型(如Conv，Layer Norm)。",
+      "左侧展示了从Encoder到Mask Decoder再到Complex Decoder的数据处理流程。",
+      "右侧详细展开了TS-Conformer内部子模块(如FFNN，MHSA)的结构。",
+      "右下角展示了Metric discriminator的评分机制。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "图像顶部有一排图例，用橙色、粉色、蓝色、棕色等色块分别代表Conv、Instance Norm、Dilated Conv等组件。",
+      "左侧主图分为Encoder、Mask Decoder和Complex Decoder三个主要部分，内部包含堆叠的立方体结构。",
+      "右侧上方有一个标有'TS-Conformer'的黄色框，内部包含Conformer-Time和Conformer-Freq模块。",
+      "图中广泛使用箭头连接各个模块，表示信号的传递方向。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "Encoder",
+      "Mask Decoder",
+      "Complex Decoder",
+      "TS-Conformer",
+      "Dilated DenseNet",
+      "Conformer-Time"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "Encoder",
+      "Mask Decoder",
+      "Complex Decoder",
+      "TS-Conformer",
+      "Dilated DenseNet",
+      "Conformer-Time"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "图像顶部有一排图例，用橙色、粉色、蓝色、棕色等色块分别代表Conv、Instance Norm、Dilated Conv等组件；左侧主图分为Encoder、Mask Decoder和Complex Decoder三个主要部分，内部包含堆叠的立方体结构。",
+    "safe_facts": [
+      "图像顶部有一排图例，用橙色、粉色、蓝色、棕色等色块分别代表Conv、Instance Norm、Dilated Conv等组件。",
+      "左侧主图分为Encoder、Mask Decoder和Complex Decoder三个主要部分，内部包含堆叠的立方体结构。",
+      "右侧上方有一个标有'TS-Conformer'的黄色框，内部包含Conformer-Time和Conformer-Freq模块。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_5afeb039-ef52-45a4-8e97-13bcd91ec049",
+    "generated_at": "2026-08-12T03:30:23.590023+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "2461619a27d99b53e5167b94bb1d0aada5696a024bcd7847774505f302b14897",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:30:23.591689+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_34c5f7fea1110879e8d55da3",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:30:23.592299+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "5d7439a0d81264e7d9c5c3224806efb0ff519827de841c27578be5a2b9f539c5"
+}

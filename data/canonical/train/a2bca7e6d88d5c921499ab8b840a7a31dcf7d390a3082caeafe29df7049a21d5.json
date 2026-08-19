@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1734.jpg",
+    "relative_path": "train/1734.jpg",
+    "sha256": "a2bca7e6d88d5c921499ab8b840a7a31dcf7d390a3082caeafe29df7049a21d5",
+    "split": "train"
+  },
+  "canonical_sha256": "da4d1c61dab0d6b6f4d5cd6344b9a1bb858256609ec7b24cd21ed4fce00b3cb8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "布艺玩偶",
+      "蓝白花纹",
+      "手工制品"
+    ],
+    "short_description": "多个蓝白花纹布艺玩偶摆放在红色桌布上，背景有更多手工艺品。",
+    "theme": "蓝白图案布艺玩偶"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多个布艺玩偶呈动物造型，如大象、长颈鹿、兔子等。",
+      "玩偶表面有蓝白相间的传统纹样，部分带红色点缀。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色底色",
+      "白色图案",
+      "缝制纹理",
+      "毛绒材质"
+    ],
+    "relations": [
+      "玩偶放置于桌布上。",
+      "玩偶位于背景手工艺品前方。"
+    ],
+    "scene": "室内展示台",
+    "subjects": [
+      "布艺玩偶",
+      "红色桌布",
+      "背景手工艺品"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多个布艺玩偶呈动物造型，如大象、长颈鹿、兔子等；玩偶表面有蓝白相间的传统纹样，部分带红色点缀。",
+    "safe_facts": [
+      "多个布艺玩偶呈动物造型，如大象、长颈鹿、兔子等。",
+      "玩偶表面有蓝白相间的传统纹样，部分带红色点缀。"
+    ]
+  },
+  "label_id": "cpl_d4bfd4c8ab046f4f3d7785d1",
+  "provenance": {
+    "generated_at": "2026-08-03T15:01:10.457284+00:00",
+    "migrated_at": "2026-08-03T15:01:10.459133+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ed8973499199ead1b6341eefedcecd251849adaddd14f60e8c1dfb02dbefb492",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2373e0c36f550494ebead736",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:01:10.459351+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2373e0c36f550494ebead736"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

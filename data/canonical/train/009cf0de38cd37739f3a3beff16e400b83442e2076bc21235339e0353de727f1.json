@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:490.jpg",
+    "relative_path": "train/490.jpg",
+    "sha256": "009cf0de38cd37739f3a3beff16e400b83442e2076bc21235339e0353de727f1",
+    "split": "train"
+  },
+  "canonical_sha256": "06d17edf143d9b89d31bb59e24a3303cae46ec7a6436ed721869082f3be782eb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "盐湖",
+      "日落",
+      "结晶地貌",
+      "荒漠景观"
+    ],
+    "short_description": "夕阳下盐湖表面呈现结晶纹理，远处山脉轮廓分明，天空色彩斑斓。",
+    "theme": "盐湖日落"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "盐结晶可能是蒸发后形成的矿物沉积。"
+    ],
+    "direct_observations": [
+      "地表覆盖着白色结晶物质。",
+      "天空呈现橙色与紫色渐变。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "结晶状表面",
+      "多彩天空",
+      "干燥地貌"
+    ],
+    "relations": [
+      "盐结晶覆盖地面。",
+      "远山位于背景。"
+    ],
+    "scene": "盐湖平原",
+    "subjects": [
+      "盐结晶",
+      "远山",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "盐结晶可能是蒸发后形成的矿物沉积。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地表覆盖着白色结晶物质；天空呈现橙色与紫色渐变。",
+    "safe_facts": [
+      "地表覆盖着白色结晶物质。",
+      "天空呈现橙色与紫色渐变。"
+    ]
+  },
+  "label_id": "cpl_5306f1c057d3a69318ed97c7",
+  "provenance": {
+    "generated_at": "2026-08-03T11:14:06.406428+00:00",
+    "migrated_at": "2026-08-03T11:14:06.408259+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1343726e06eb9c38ef6e3389d474aed9fed29eaa320cc6a2878b6b74018b1be8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_bb1d590ac30d911899b02fe7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:14:06.408527+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_bb1d590ac30d911899b02fe7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

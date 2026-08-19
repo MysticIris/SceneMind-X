@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:798.jpg",
+    "relative_path": "train/798.jpg",
+    "sha256": "8178cc2010f3e02cb3e640e069a3b0b3fbdd96bec69a4bdcbe431c1bdd8194f8",
+    "split": "train"
+  },
+  "canonical_sha256": "92d771d0bd648a8983f8e6e14901ed29f40c34b6001b7b9d36744c6b9f2b8cd1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "商场",
+      "夜景",
+      "现代建筑"
+    ],
+    "short_description": "夜晚灯光照亮的现代化商场建筑外观，具有波浪形金属格栅结构和玻璃幕墙，入口处有行人活动。",
+    "theme": "现代商业建筑夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑外墙由多层水平金属格栅构成并发出暖黄色光。",
+      "建筑底层有透明玻璃门廊，可见内部空间及少量行人。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "发光的建筑立面",
+      "玻璃幕墙",
+      "金属格栅结构"
+    ],
+    "relations": [],
+    "scene": "城市商业建筑外部夜景",
+    "subjects": [
+      "建筑",
+      "行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑外墙由多层水平金属格栅构成并发出暖黄色光；建筑底层有透明玻璃门廊，可见内部空间及少量行人。",
+    "safe_facts": [
+      "建筑外墙由多层水平金属格栅构成并发出暖黄色光。",
+      "建筑底层有透明玻璃门廊，可见内部空间及少量行人。"
+    ]
+  },
+  "label_id": "cpl_3a2948c04193f7afff2e4d91",
+  "provenance": {
+    "generated_at": "2026-08-03T12:25:31.434324+00:00",
+    "migrated_at": "2026-08-03T12:25:31.440350+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "36b322d753c319b2fc01aa928dc4cb05109cb3fd88b714435d7eb3eb511465a0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e1ddd068d1c4147e7a922aaf",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:25:31.440713+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e1ddd068d1c4147e7a922aaf"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

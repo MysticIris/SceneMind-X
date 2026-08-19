@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1468.jpg",
+    "relative_path": "train/1468.jpg",
+    "sha256": "df0925623811789097db8be0ca9c0e855056cecfa67d8b74a933b8bb4eefae52",
+    "split": "train"
+  },
+  "canonical_sha256": "d28165a1c6c966e30e4717471275c7597be81006df0a9cbd18d7efbe9dca7dba",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "卡通老虎",
+      "胖虎",
+      "张开双臂",
+      "闭眼"
+    ],
+    "short_description": "一只胖乎乎的卡通老虎张开双臂，闭着眼睛仰望天空，背景是蓝色天空和几片飘落的叶子。",
+    "theme": "卡通老虎"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "老虎可能处于放松或享受的状态。"
+    ],
+    "direct_observations": [
+      "老虎身体圆润，四肢伸展，呈拥抱姿态。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "张开双臂",
+      "闭眼"
+    ],
+    "attributes": [
+      "胖乎乎",
+      "橙白相间条纹",
+      "粉色鼻子",
+      "爪子上有黑色脚垫"
+    ],
+    "relations": [],
+    "scene": "蓝天背景",
+    "subjects": [
+      "卡通老虎"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "老虎可能处于放松或享受的状态。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "老虎身体圆润，四肢伸展，呈拥抱姿态。",
+    "safe_facts": [
+      "老虎身体圆润，四肢伸展，呈拥抱姿态。"
+    ]
+  },
+  "label_id": "cpl_f3736b3206fa352d53d1fb7e",
+  "provenance": {
+    "generated_at": "2026-08-03T14:27:27.396778+00:00",
+    "migrated_at": "2026-08-03T14:27:27.400759+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a2cfc5731d8ac6c8dd73fecda41b69b682ac106490df6b5e68b925194ebd4008",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_57bb343672e99355f8fecb68",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:27:27.401150+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_57bb343672e99355f8fecb68"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

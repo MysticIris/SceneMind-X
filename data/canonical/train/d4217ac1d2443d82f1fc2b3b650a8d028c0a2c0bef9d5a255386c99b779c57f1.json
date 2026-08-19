@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1443.jpg",
+    "relative_path": "train/1443.jpg",
+    "sha256": "d4217ac1d2443d82f1fc2b3b650a8d028c0a2c0bef9d5a255386c99b779c57f1",
+    "split": "train"
+  },
+  "canonical_sha256": "1636ac1ac857117682b1f8a4b9b8d395c485511625cff97c8f0ac652e503683a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "安保人员",
+      "观众席",
+      "大型场馆"
+    ],
+    "short_description": "一名安保人员站在体育场看台前，背景是密集的观众席，部分观众穿着特色服饰。",
+    "theme": "场馆内观众区"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一名身穿黑色制服、佩戴反光背心的安保人员站立在场边。",
+      "观众席上有多人聚集，部分人穿着浅色或彩色服装。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "安保人员穿反光背心",
+      "观众席有金属护栏"
+    ],
+    "relations": [
+      "安保人员位于观众席前方。"
+    ],
+    "scene": "室内体育场馆或演出场地",
+    "subjects": [
+      "安保人员",
+      "观众"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名身穿黑色制服、佩戴反光背心的安保人员站立在场边；观众席上有多人聚集，部分人穿着浅色或彩色服装。",
+    "safe_facts": [
+      "一名身穿黑色制服、佩戴反光背心的安保人员站立在场边。",
+      "观众席上有多人聚集，部分人穿着浅色或彩色服装。"
+    ]
+  },
+  "label_id": "cpl_824e187176ed494c8678403b",
+  "provenance": {
+    "generated_at": "2026-08-03T14:23:59.551500+00:00",
+    "migrated_at": "2026-08-03T14:23:59.555054+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d7e8366e9c41cc7ebe038d404d9d182d440a2abd0e6a509f190de20f77800461",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_415c7d7978ab9f4835220665",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:23:59.562683+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_unsafe_text_candidates_for_presence",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_415c7d7978ab9f4835220665"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "小红书",
+      "姑苏城外",
+      "OPPO K9 5G"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_unreadable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "小红书",
+      "姑苏城外",
+      "OPPO K9 5G"
+    ]
+  }
+}

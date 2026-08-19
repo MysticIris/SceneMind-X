@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1840.jpg",
+    "relative_path": "train/1840.jpg",
+    "sha256": "51a9e469de692a99c543ce4b271c06883e91a3fc05221edcacba51a471cc013e",
+    "split": "train"
+  },
+  "canonical_sha256": "0b145a3b25c406044c185b87f509db0bef046c066275c595b6eb359af2b5157f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电路板",
+      "示波器",
+      "实验设备"
+    ],
+    "short_description": "绿色电路板连接红黑导线，旁边有示波器和电源设备，显示实验室测试场景。",
+    "theme": "电子实验设备"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "绿色电路板上有多个接线端子和连接的红黑导线。",
+      "右侧有示波器，屏幕上显示波形曲线。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色电路板",
+      "红色和黑色导线",
+      "示波器屏幕显示波形"
+    ],
+    "relations": [
+      "导线连接电路板与示波器。"
+    ],
+    "scene": "实验室桌面",
+    "subjects": [
+      "绿色电路板",
+      "示波器",
+      "电源设备"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "绿色电路板上有多个接线端子和连接的红黑导线；右侧有示波器，屏幕上显示波形曲线。",
+    "safe_facts": [
+      "绿色电路板上有多个接线端子和连接的红黑导线。",
+      "右侧有示波器，屏幕上显示波形曲线。"
+    ]
+  },
+  "label_id": "cpl_344fb5b3803e229735619d1b",
+  "provenance": {
+    "generated_at": "2026-08-03T15:13:20.502030+00:00",
+    "migrated_at": "2026-08-03T15:13:20.503751+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "871665f7114b9e1dab2f3cad7da9589c787e8fd22042d6482c802cc42caf0a60",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ec5b6c9784df164a5b79c6a9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:13:20.503953+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ec5b6c9784df164a5b79c6a9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

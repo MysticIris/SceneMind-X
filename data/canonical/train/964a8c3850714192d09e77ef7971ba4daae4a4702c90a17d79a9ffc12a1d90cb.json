@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1870.jpg",
+    "relative_path": "train/1870.jpg",
+    "sha256": "964a8c3850714192d09e77ef7971ba4daae4a4702c90a17d79a9ffc12a1d90cb",
+    "split": "train"
+  },
+  "canonical_sha256": "a4c61714c299558659269258e85471eecdaf38c48fb649e56f8544d16660c166",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蓝天",
+      "白云",
+      "天空",
+      "云朵"
+    ],
+    "short_description": "蓝天上漂浮着蓬松的白色云朵，分布疏密不均，右下角隐约可见建筑一角。",
+    "theme": "云层天空"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "云朵可能处于中高层大气，因形态蓬松且分散。"
+    ],
+    "direct_observations": [
+      "天空呈蓝色，布满白色云团。",
+      "画面右下角可见建筑物的局部轮廓。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色天空",
+      "白色云朵",
+      "蓬松形态",
+      "部分遮蔽"
+    ],
+    "relations": [
+      "云朵位于天空中。",
+      "建筑位于画面右下角。"
+    ],
+    "scene": "户外天空",
+    "subjects": [
+      "云朵",
+      "天空",
+      "建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "云朵可能处于中高层大气，因形态蓬松且分散。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈蓝色，布满白色云团；画面右下角可见建筑物的局部轮廓。",
+    "safe_facts": [
+      "天空呈蓝色，布满白色云团。",
+      "画面右下角可见建筑物的局部轮廓。"
+    ]
+  },
+  "label_id": "cpl_b70cb17b4fd20323560d9e0f",
+  "provenance": {
+    "generated_at": "2026-08-03T15:16:43.508609+00:00",
+    "migrated_at": "2026-08-03T15:16:43.510122+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "eaa6996f775e4982cce116055c5ad1ff51feec5059a173e316a6bf56fedae81e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6093fd3921631ec4906bb5d5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:16:43.510499+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6093fd3921631ec4906bb5d5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

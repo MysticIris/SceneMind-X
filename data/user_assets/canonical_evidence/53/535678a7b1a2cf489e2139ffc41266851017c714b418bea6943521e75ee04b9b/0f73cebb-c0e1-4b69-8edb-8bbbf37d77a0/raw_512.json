@@ -1,0 +1,122 @@
+{
+  "asset_id": "535678a7b1a2cf48",
+  "asset_sha256": "535678a7b1a2cf489e2139ffc41266851017c714b418bea6943521e75ee04b9b",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"人物演讲与社交媒体图文\",\n    \"short_description\": \"这是一张社交媒体帖子的截图。画面主体为一名身穿白衬衫的男子，手持麦克风并伸出右手指向前方，似乎正在进行演讲或授课。图片下方配有一段关于就业话题的中文文字说明，顶部可见发布者名称及时间标识。\",\n    \"micro_tags\": [\n      \"男子演讲\",\n      \"手持麦克风\",\n      \"白色衬衫\",\n      \"社交媒体截图\",\n      \"指向手势\",\n      \"中文配文\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"室内演讲或讲座现场（基于背景模糊度判断）\",\n    \"subjects\": [\n      \"短发男子\",\n      \"麦克风\"\n    ],\n    \"actions\": [\n      \"手持麦克风\",\n      \"伸手指向\",\n      \"张口说话\"\n    ],\n    \"attributes\": [\n      \"白色短袖衬衫\",\n      \"黑色背景\",\n      \"深色界面背景\"\n    ],\n    \"relations\": [\n      \"男子位于画面中央\",\n      \"文字位于图片下方\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图中男子身穿白色衬衫，右手握持麦克风，左臂向前伸出并指 pointing。\",\n      \"图片呈现为移动端应用界面截图，包含顶部的用户头像、名称区域以及底部的长段文字描述。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据男子的姿态和手中的设备，他可能正在进行公开演讲、授课或录制视频节目。\",\n      \"界面布局特征表明这来源于某个新闻资讯或社交分享类应用程序。\"\n    ],\n    \"uncertainties\": [\n      \"无法确认男子的具体身份或其演讲的具体场合。\",\n      \"背景过于昏暗且模糊，无法辨认具体的环境细节。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"社学\",\n      \"1小时前\",\n      \"张雪峰：今年最难找工作的，不是农民工，也不是大专生，更不是985、211毕业生，而是这群人\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张社交媒体截图，显示一名穿白衬衫的男子手持麦克风正在演讲并做出指向手势，下方附有中文文本内容。\",\n    \"safe_facts\": [\n      \"画面包含一名男性主体\",\n      \"主体手持扩音设备\",\n      \"图像带有典型的社交软件UI元素\",\n      \"底部存在多行排列整齐的文本块\"\n    ]\n  }\n}",
+      "input_tokens": 1831,
+      "output_tokens": 622,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 1831,
+        "output_tokens": 622,
+        "total_tokens": 2453,
+        "estimated_cost_cny": 0.008638,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "人物演讲与社交媒体图文",
+          "short_description": "这是一张社交媒体帖子的截图。画面主体为一名身穿白衬衫的男子，手持麦克风并伸出右手指向前方，似乎正在进行演讲或授课。图片下方配有一段关于就业话题的中文文字说明，顶部可见发布者名称及时间标识。",
+          "micro_tags": [
+            "男子演讲",
+            "手持麦克风",
+            "白色衬衫",
+            "社交媒体截图",
+            "指向手势",
+            "中文配文"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "室内演讲或讲座现场（基于背景模糊度判断）",
+          "subjects": [
+            "短发男子",
+            "麦克风"
+          ],
+          "actions": [
+            "手持麦克风",
+            "伸手指向",
+            "张口说话"
+          ],
+          "attributes": [
+            "白色短袖衬衫",
+            "黑色背景",
+            "深色界面背景"
+          ],
+          "relations": [
+            "男子位于画面中央",
+            "文字位于图片下方"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图中男子身穿白色衬衫，右手握持麦克风，左臂向前伸出并指 pointing。",
+            "图片呈现为移动端应用界面截图，包含顶部的用户头像、名称区域以及底部的长段文字描述。"
+          ],
+          "cautious_inferences": [
+            "根据男子的姿态和手中的设备，他可能正在进行公开演讲、授课或录制视频节目。",
+            "界面布局特征表明这来源于某个新闻资讯或社交分享类应用程序。"
+          ],
+          "uncertainties": [
+            "无法确认男子的具体身份或其演讲的具体场合。",
+            "背景过于昏暗且模糊，无法辨认具体的环境细节。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "社学",
+            "1小时前",
+            "张雪峰：今年最难找工作的，不是农民工，也不是大专生，更不是985、211毕业生，而是这群人"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张社交媒体截图，显示一名穿白衬衫的男子手持麦克风正在演讲并做出指向手势，下方附有中文文本内容。",
+          "safe_facts": [
+            "画面包含一名男性主体",
+            "主体手持扩音设备",
+            "图像带有典型的社交软件UI元素",
+            "底部存在多行排列整齐的文本块"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 140320,
+        "request_bytes": 102168,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 11.789162699998997,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "8e11220229a71f8f787c5eb3c481db46653667cfa6e85edd67e1e62fc73a1fe2"
+}

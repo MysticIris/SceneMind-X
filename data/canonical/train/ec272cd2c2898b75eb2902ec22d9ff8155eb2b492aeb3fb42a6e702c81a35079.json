@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:139.jpg",
+    "relative_path": "train/139.jpg",
+    "sha256": "ec272cd2c2898b75eb2902ec22d9ff8155eb2b492aeb3fb42a6e702c81a35079",
+    "split": "train"
+  },
+  "canonical_sha256": "4579380305f569b364ebd954fba645e8b0967082c54f8b3725ce4ac887e4a326",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市模型",
+      "建筑群",
+      "绿地景观"
+    ],
+    "short_description": "绿色草坪上摆放着城市建筑模型，配有道路和河流，背景屏幕显示地理信息。",
+    "theme": "城市规划沙盘模型"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央是城市建筑模型，周围环绕绿色草坪。",
+      "背景有一块大型电子屏幕，显示地图样式。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色草坪",
+      "多栋建筑",
+      "蓝色河流",
+      "红色边框屏幕"
+    ],
+    "relations": [
+      "建筑模型位于草坪上。",
+      "道路连接建筑与绿地。",
+      "河流环绕部分区域。"
+    ],
+    "scene": "室内展示的城市规划沙盘模型",
+    "subjects": [
+      "建筑模型",
+      "绿地",
+      "道路",
+      "河流",
+      "电子屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是城市建筑模型，周围环绕绿色草坪；背景有一块大型电子屏幕，显示地图样式。",
+    "safe_facts": [
+      "画面中央是城市建筑模型，周围环绕绿色草坪。",
+      "背景有一块大型电子屏幕，显示地图样式。"
+    ]
+  },
+  "label_id": "cpl_b86acce547ca665a084013e5",
+  "provenance": {
+    "generated_at": "2026-08-03T09:35:56.483647+00:00",
+    "migrated_at": "2026-08-03T09:35:56.485225+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a12ef00765b601a5a4f4652063cab12a2f47f1688ee6cd06a155d0ea9ab8bf4c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9a4e6eafc038dea0c88a51ee",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:41.223356+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9a4e6eafc038dea0c88a51ee",
+    "cpl_30e40000333bc440036efaeb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

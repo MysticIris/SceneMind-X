@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:211.jpg",
+    "relative_path": "train/211.jpg",
+    "sha256": "9cec2316e5a231eaea76a4d41395edd27eea8f675ebe2f413555e1f4870eaa6a",
+    "split": "train"
+  },
+  "canonical_sha256": "66b5e8fe94c9bb7960287ee26039c8b0114eefe1c13ba739045b92c46e18572f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "海港",
+      "灯塔",
+      "古城墙",
+      "黄昏",
+      "灯火"
+    ],
+    "short_description": "夕阳余晖映照海港，灯火初上，船只停泊，古城墙与建筑群沿水岸分布，灯塔矗立岸边。",
+    "theme": "海滨小镇黄昏"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天空呈现橙红色至深紫色渐变。",
+      "水面反射灯光和建筑轮廓。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灯火通明",
+      "水面倒影",
+      "天空渐变色"
+    ],
+    "relations": [
+      "灯塔位于码头边缘。",
+      "船只停泊于港湾内。",
+      "城墙环绕城镇上部。"
+    ],
+    "scene": "海滨港口城镇",
+    "subjects": [
+      "建筑物",
+      "船只",
+      "灯塔",
+      "城墙",
+      "水面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现橙红色至深紫色渐变；水面反射灯光和建筑轮廓。",
+    "safe_facts": [
+      "天空呈现橙红色至深紫色渐变。",
+      "水面反射灯光和建筑轮廓。"
+    ]
+  },
+  "label_id": "cpl_0d3ae102cf9c4c0868786c58",
+  "provenance": {
+    "generated_at": "2026-08-03T10:17:42.416876+00:00",
+    "migrated_at": "2026-08-03T10:17:42.419215+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9da807aaee0403af71b21317c9d921fa1a13f06df762b98916db46e376eee910",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c97d25b47e7f242a5e2fe76f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:17:42.419428+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c97d25b47e7f242a5e2fe76f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

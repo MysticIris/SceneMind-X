@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:774.jpg",
+    "relative_path": "train/774.jpg",
+    "sha256": "ddf86ce46149158d9cee16c77b6297a6f848bbdf898319ff52ab0c21fad2d271",
+    "split": "train"
+  },
+  "canonical_sha256": "896724da6e489b6cccca5ee8f1f415c58c4797113edb57432a210d444ca963ec",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "粉红色花朵",
+      "中式亭子",
+      "自然景致"
+    ],
+    "short_description": "前景一朵鲜艳粉红色的花，背景模糊的传统中式亭子，绿树环绕，画面宁静雅致。",
+    "theme": "红花与亭台"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "前景有一朵盛开的粉红色花朵，花瓣细长且向外伸展。",
+      "背景中可见一座具有传统中式屋顶结构的亭子，轮廓模糊。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "粉红色",
+      "细长花丝",
+      "绿色茎干",
+      "模糊背景"
+    ],
+    "relations": [
+      "花朵位于亭子前方。"
+    ],
+    "scene": "户外园林",
+    "subjects": [
+      "粉红色花朵",
+      "中式亭子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "前景有一朵盛开的粉红色花朵，花瓣细长且向外伸展；背景中可见一座具有传统中式屋顶结构的亭子，轮廓模糊。",
+    "safe_facts": [
+      "前景有一朵盛开的粉红色花朵，花瓣细长且向外伸展。",
+      "背景中可见一座具有传统中式屋顶结构的亭子，轮廓模糊。"
+    ]
+  },
+  "label_id": "cpl_4d34f190c3be79f3aa83a95e",
+  "provenance": {
+    "generated_at": "2026-08-03T12:20:34.867421+00:00",
+    "migrated_at": "2026-08-03T12:20:34.871143+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "594e3e1d97538a7739fd43853873fc46bbaa518bbb796ac9f4389885f462694c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_19b46ec9a06538a3254a6ff8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:20:34.871557+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_19b46ec9a06538a3254a6ff8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

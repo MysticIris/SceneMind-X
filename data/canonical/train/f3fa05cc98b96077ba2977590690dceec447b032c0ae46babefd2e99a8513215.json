@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:475.jpg",
+    "relative_path": "train/475.jpg",
+    "sha256": "f3fa05cc98b96077ba2977590690dceec447b032c0ae46babefd2e99a8513215",
+    "split": "train"
+  },
+  "canonical_sha256": "87cc47b497f175c434337625cf64a522eb40626a1631c7db96f9c4f8c944ad20",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "校门",
+      "行人",
+      "晴天",
+      "校园"
+    ],
+    "short_description": "晴朗天气下，中国海洋大学校门入口处，行人与车辆通行，两侧有石柱和绿化带。",
+    "theme": "大学校门入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两个石柱式门楼，顶部有藤蔓覆盖。",
+      "地面有白色条纹斑马线和红白相间的路障。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "站立",
+      "等待"
+    ],
+    "attributes": [
+      "晴朗天空",
+      "红砖建筑",
+      "白色花朵",
+      "蓝色天空"
+    ],
+    "relations": [
+      "行人与校门相邻。",
+      "车辆停在校门附近。",
+      "石柱支撑门牌。"
+    ],
+    "scene": "大学校门入口区域",
+    "subjects": [
+      "行人",
+      "车辆",
+      "石柱",
+      "树木",
+      "交通锥"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两个石柱式门楼，顶部有藤蔓覆盖；地面有白色条纹斑马线和红白相间的路障。",
+    "safe_facts": [
+      "画面中有两个石柱式门楼，顶部有藤蔓覆盖。",
+      "地面有白色条纹斑马线和红白相间的路障。"
+    ]
+  },
+  "label_id": "cpl_fdbd6c66723fdbf18f2342b0",
+  "provenance": {
+    "generated_at": "2026-08-03T11:11:02.029501+00:00",
+    "migrated_at": "2026-08-03T11:11:02.031458+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c8d8ae4959f7369fd8882214cc4a5c8ad30a55a69a1a913e5e9934128d58d271",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b72477464eb94cf8dcf6462a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:11:02.031747+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b72477464eb94cf8dcf6462a"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "中國海洋大學"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "中國海洋大學"
+    ]
+  }
+}

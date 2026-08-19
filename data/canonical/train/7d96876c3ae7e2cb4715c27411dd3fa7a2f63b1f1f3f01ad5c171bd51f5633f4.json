@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:192.jpg",
+    "relative_path": "train/192.jpg",
+    "sha256": "7d96876c3ae7e2cb4715c27411dd3fa7a2f63b1f1f3f01ad5c171bd51f5633f4",
+    "split": "train"
+  },
+  "canonical_sha256": "d0f6be9e53753d9d0dd3f837093fcb9b1e4588a6a470f9ace288b9d2f0ffddf7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "展厅",
+      "投影屏幕",
+      "历史影像"
+    ],
+    "short_description": "室内展览厅，墙上挂有校名标识，下方投影播放历史影像。",
+    "theme": "展览馆内场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "投影屏幕上显示人群聚集的画面。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色立体字",
+      "投影画面",
+      "浅色墙面"
+    ],
+    "relations": [
+      "标牌位于投影屏幕上方。",
+      "小凳放置于地面。"
+    ],
+    "scene": "室内展览空间",
+    "subjects": [
+      "墙面标牌",
+      "投影屏幕",
+      "木质小凳"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "投影屏幕上显示人群聚集的画面。",
+    "safe_facts": [
+      "投影屏幕上显示人群聚集的画面。"
+    ]
+  },
+  "label_id": "cpl_819923719f60044e1d75fa64",
+  "provenance": {
+    "generated_at": "2026-08-03T10:13:38.582419+00:00",
+    "migrated_at": "2026-08-03T10:13:38.585154+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "30c524ffbed1740fc9df08d24d0139719df407f1cea98d4b4687477ae71f356d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1938c20093c1bc554f38fcb4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:13:38.585615+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1938c20093c1bc554f38fcb4"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "华中工学院"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "华中工学院"
+    ]
+  }
+}

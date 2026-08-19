@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1994.jpg",
+    "relative_path": "train/1994.jpg",
+    "sha256": "0087732072134ef392c4d4ac95071021073dd64e8dd06e761671674a3579b2e7",
+    "split": "train"
+  },
+  "canonical_sha256": "bc89710ee990aab225d8e44834676bf81952e672c578b6b2ebb5b2a8abc796e2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "银杏树",
+      "红色建筑",
+      "秋季校园"
+    ],
+    "short_description": "金黄银杏叶覆盖草地，红色建筑与树木相映成趣，呈现宁静校园秋景。",
+    "theme": "秋日校园建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多棵银杏树叶片呈金黄色。",
+      "建筑物外墙为红色，带有装饰性格栅结构。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金黄色树叶",
+      "红色外墙",
+      "落叶覆盖地面"
+    ],
+    "relations": [
+      "银杏树位于建筑物前方。",
+      "灌木丛排列在建筑基座前。"
+    ],
+    "scene": "户外校园庭院",
+    "subjects": [
+      "银杏树",
+      "建筑物",
+      "灌木丛"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多棵银杏树叶片呈金黄色；建筑物外墙为红色，带有装饰性格栅结构。",
+    "safe_facts": [
+      "多棵银杏树叶片呈金黄色。",
+      "建筑物外墙为红色，带有装饰性格栅结构。"
+    ]
+  },
+  "label_id": "cpl_5c3ab8c394296cf18d86aacf",
+  "provenance": {
+    "generated_at": "2026-08-03T15:33:05.342446+00:00",
+    "migrated_at": "2026-08-03T15:33:05.344051+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ae9fceb0c8bcae3e75f5be9153af304d8f25930378592430a726fb358b736c10",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ddbd0a886bde8e1074db6859",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:33:05.344388+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ddbd0a886bde8e1074db6859"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

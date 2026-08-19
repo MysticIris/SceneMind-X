@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:470.jpg",
+    "relative_path": "train/470.jpg",
+    "sha256": "eb9b0a6f56002b7759e011d424b735a103c4b3642f14b3ab0d8253ece3a7b7f8",
+    "split": "train"
+  },
+  "canonical_sha256": "cf7a0eb8b633aa1aa9ffc3b7f7d30ba41c32222b4fcc0e455977657044f2316d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "建筑规划",
+      "用地红线",
+      "城市设计"
+    ],
+    "short_description": "一张城市建筑用地规划图，显示多栋建筑布局及周边道路、绿地与水系。",
+    "theme": "建筑用地规划图"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图中标注了多栋建筑及其楼层高度。",
+      "图中用红色虚线标示用地红线。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "标有建筑编号",
+      "标有高度信息",
+      "标有出入口位置"
+    ],
+    "relations": [
+      "建筑群沿水体分布。",
+      "建筑与道路相接。",
+      "建筑与绿地相邻。"
+    ],
+    "scene": "城市建筑用地规划示意图",
+    "subjects": [
+      "建筑物",
+      "道路",
+      "绿地",
+      "水体"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图中标注了多栋建筑及其楼层高度；图中用红色虚线标示用地红线。",
+    "safe_facts": [
+      "图中标注了多栋建筑及其楼层高度。",
+      "图中用红色虚线标示用地红线。"
+    ]
+  },
+  "label_id": "cpl_66bb2c109c321b9cb81d7027",
+  "provenance": {
+    "generated_at": "2026-08-03T11:09:58.043299+00:00",
+    "migrated_at": "2026-08-03T11:09:58.045054+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0e2446298759646fa2377c5beeb6d2e65ac5232a8bff00926db5c102332afa43",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8f4b94f186b284d1f0e76c53",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:09:58.045253+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8f4b94f186b284d1f0e76c53"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:295.jpg",
+    "relative_path": "train/295.jpg",
+    "sha256": "a06e62d47ff6208de823eee64a82c80c60bf0ca9df31bdaefef9575e63131de4",
+    "split": "train"
+  },
+  "canonical_sha256": "33e41cf8c0415898ecab7684c0aaa8378acd4e916f90b79bfa94ae80cd663a6e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "梅花",
+      "粉色",
+      "春天",
+      "花枝"
+    ],
+    "short_description": "粉红色梅花在枝头盛开，背景虚化中有人影与绿草，春日气息扑面而来。",
+    "theme": "粉梅绽放"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能处于春季，因梅花常见于此季节开放。"
+    ],
+    "direct_observations": [
+      "画面前景为多朵粉红色梅花，花瓣层叠，花蕊呈黄色。",
+      "背景中可见模糊的人形轮廓和绿色草地。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "粉红色",
+      "盛开",
+      "枝条",
+      "模糊背景"
+    ],
+    "relations": [
+      "梅花生长于枝条上。",
+      "人影位于背景中。"
+    ],
+    "scene": "户外花园或公园",
+    "subjects": [
+      "梅花",
+      "人影"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能处于春季，因梅花常见于此季节开放。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景为多朵粉红色梅花，花瓣层叠，花蕊呈黄色；背景中可见模糊的人形轮廓和绿色草地。",
+    "safe_facts": [
+      "画面前景为多朵粉红色梅花，花瓣层叠，花蕊呈黄色。",
+      "背景中可见模糊的人形轮廓和绿色草地。"
+    ]
+  },
+  "label_id": "cpl_16c25bb80c7b9f43148d7696",
+  "provenance": {
+    "generated_at": "2026-08-03T10:34:04.395484+00:00",
+    "migrated_at": "2026-08-03T10:34:04.397700+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6d3bc8ad6ed02099c84dbf6753115229ea62d6bfc6f10dd0e0c04d689b8867bb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_171d994f880b1ce8e771ef33",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:34:04.397945+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_171d994f880b1ce8e771ef33"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

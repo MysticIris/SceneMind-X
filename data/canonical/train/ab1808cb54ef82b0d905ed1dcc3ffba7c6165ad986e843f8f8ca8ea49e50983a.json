@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1398.jpg",
+    "relative_path": "train/1398.jpg",
+    "sha256": "ab1808cb54ef82b0d905ed1dcc3ffba7c6165ad986e843f8f8ca8ea49e50983a",
+    "split": "train"
+  },
+  "canonical_sha256": "8a02ef88c4dc0a247bdc7227ab693fc15d78b1ef4969de53d16d4b4876d99e1f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "木门",
+      "碎石",
+      "墙角",
+      "地面"
+    ],
+    "short_description": "一扇木门与灰墙交界处，地面角落有一块破碎的水泥块。",
+    "theme": "门角碎石"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面右侧为棕色木纹门板。",
+      "地面为灰色带白色斑点的水磨石地砖。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木门呈棕色",
+      "碎石块呈灰褐色",
+      "地面为水磨石材质"
+    ],
+    "relations": [
+      "碎石块位于木门与墙壁交界处的地面。"
+    ],
+    "scene": "室内门角区域",
+    "subjects": [
+      "木门",
+      "碎石块",
+      "墙壁",
+      "地面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面右侧为棕色木纹门板；地面为灰色带白色斑点的水磨石地砖。",
+    "safe_facts": [
+      "画面右侧为棕色木纹门板。",
+      "地面为灰色带白色斑点的水磨石地砖。"
+    ]
+  },
+  "label_id": "cpl_251d6d742b3d8647b2317388",
+  "provenance": {
+    "generated_at": "2026-08-03T14:17:55.330431+00:00",
+    "migrated_at": "2026-08-03T14:17:55.332986+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "31672501ce878f0c9560381696535a73485458b2e7173221374da652ba49e7a1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_cf3797825de3156e42cf0594",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:17:55.333313+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_cf3797825de3156e42cf0594"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

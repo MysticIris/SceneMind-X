@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:860.jpg",
+    "relative_path": "train/860.jpg",
+    "sha256": "d75e483a4277973730c9639635699aab745097e02e9e8e54070d1eb4efd4d823",
+    "split": "train"
+  },
+  "canonical_sha256": "b11ac1629361775f2238eea2deeecd26e4078e755fb9761743c6783c16a114b5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蓝天",
+      "云朵",
+      "屋檐"
+    ],
+    "short_description": "湛蓝天空中飘浮着如羽毛般纤细的白色云丝，左下角露出屋檐一角，构图简洁宁静。",
+    "theme": "天空云纹"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天空呈蓝色，分布有白色云状物。",
+      "画面左下角可见深色屋檐边缘。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色天空",
+      "白色云丝",
+      "屋檐黑色轮廓"
+    ],
+    "relations": [
+      "云位于天空中。",
+      "屋檐位于画面左下角。"
+    ],
+    "scene": "户外天空",
+    "subjects": [
+      "云",
+      "屋檐"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈蓝色，分布有白色云状物；画面左下角可见深色屋檐边缘。",
+    "safe_facts": [
+      "天空呈蓝色，分布有白色云状物。",
+      "画面左下角可见深色屋檐边缘。"
+    ]
+  },
+  "label_id": "cpl_12d2024847a8cab323a968dd",
+  "provenance": {
+    "generated_at": "2026-08-03T12:38:11.748935+00:00",
+    "migrated_at": "2026-08-03T12:38:11.752865+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e1716e64d23dbf8f0d44c14f63ba84b0002e827990b85c7247d37f321342e96f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_47417dadc2380ccb6a702537",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:38:11.753326+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_47417dadc2380ccb6a702537"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1081.jpg",
+    "relative_path": "train/1081.jpg",
+    "sha256": "595b5c8b26cabd63b8505f28fc5b172ce13426d9eef887d87390e08d41c522be",
+    "split": "train"
+  },
+  "canonical_sha256": "04ab109f9aa2e468a9af3f67387c8a4122175e4399ae2226f184170106bba1bb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪天",
+      "高速公路",
+      "车灯",
+      "积雪"
+    ],
+    "short_description": "雪天高速公路行驶视角，车灯照亮湿滑路面，两侧护栏积雪，前方车辆灯光闪烁。",
+    "theme": "雪天高速行车"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "前方车辆正在开启前照灯以照明。"
+    ],
+    "direct_observations": [
+      "道路表面有水渍反光，显示路面湿润。",
+      "道路两侧护栏及路边植被覆盖积雪。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "路面湿润",
+      "天空阴沉",
+      "道路两侧有积雪",
+      "车辆开启前照灯"
+    ],
+    "relations": [
+      "车辆位于道路中央。",
+      "护栏沿道路两侧设置。",
+      "树木位于道路两侧。"
+    ],
+    "scene": "雪天高速公路",
+    "subjects": [
+      "车辆",
+      "道路",
+      "护栏",
+      "树木",
+      "交通标志架"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "前方车辆正在开启前照灯以照明。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "道路表面有水渍反光，显示路面湿润；道路两侧护栏及路边植被覆盖积雪。",
+    "safe_facts": [
+      "道路表面有水渍反光，显示路面湿润。",
+      "道路两侧护栏及路边植被覆盖积雪。"
+    ]
+  },
+  "label_id": "cpl_da487a4f9357d0be5408edee",
+  "provenance": {
+    "generated_at": "2026-08-03T13:34:41.483951+00:00",
+    "migrated_at": "2026-08-03T13:34:41.490709+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bf378227e5173f7f01383d64aa2eb42e38dd94a2ac577ec856a20979a9cffa87",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1e0087108d75f8105a82e692",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:34:41.491132+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1e0087108d75f8105a82e692"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

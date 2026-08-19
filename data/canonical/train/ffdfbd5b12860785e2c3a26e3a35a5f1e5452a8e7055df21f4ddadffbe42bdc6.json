@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1303.jpg",
+    "relative_path": "train/1303.jpg",
+    "sha256": "ffdfbd5b12860785e2c3a26e3a35a5f1e5452a8e7055df21f4ddadffbe42bdc6",
+    "split": "train"
+  },
+  "canonical_sha256": "65d6f583aef21b0f6a6391dca6a144b04b1a2230d1d02324c8143f8423f2743f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "土拨鼠",
+      "吃胡萝卜",
+      "干裂土地"
+    ],
+    "short_description": "两只土拨鼠在干裂土地上各自啃食胡萝卜条，毛色棕黄，姿态专注。",
+    "theme": "土拨鼠吃胡萝卜"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两只动物身体呈棕黄色，站立在干燥裂纹土壤上。",
+      "每只动物都用前爪捧着一根橙色胡萝卜条正在咀嚼。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "啃食胡萝卜",
+      "站立进食"
+    ],
+    "attributes": [
+      "棕黄色毛发",
+      "前爪捧着胡萝卜"
+    ],
+    "relations": [
+      "两只土拨鼠并排站立。"
+    ],
+    "scene": "干燥的泥土地面",
+    "subjects": [
+      "一只土拨鼠",
+      "另一只土拨鼠"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两只动物身体呈棕黄色，站立在干燥裂纹土壤上；每只动物都用前爪捧着一根橙色胡萝卜条正在咀嚼。",
+    "safe_facts": [
+      "两只动物身体呈棕黄色，站立在干燥裂纹土壤上。",
+      "每只动物都用前爪捧着一根橙色胡萝卜条正在咀嚼。"
+    ]
+  },
+  "label_id": "cpl_6692d23f9a3aa7227b94ca59",
+  "provenance": {
+    "generated_at": "2026-08-03T14:05:08.026542+00:00",
+    "migrated_at": "2026-08-03T14:05:08.030165+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d0347ba69d8e2ee4866e05b0c9d442137ef97c7c3a119941734a4d8786e95459",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6e5f75fb7c734935e742f346",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:05:08.030551+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6e5f75fb7c734935e742f346"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

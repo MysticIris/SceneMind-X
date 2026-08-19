@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1877.jpg",
+    "relative_path": "train/1877.jpg",
+    "sha256": "375d88e35e965e53dd65f47d68e0e444d2982002e6d39ef0cbaf7cf579a82825",
+    "split": "train"
+  },
+  "canonical_sha256": "ee759f76f0022de237c0b67915f9f3ea6aa11f0f7bf75dd1d234e5ba162d23ed",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "窗户视角",
+      "云层",
+      "建筑群"
+    ],
+    "short_description": "从窗户向外看，夜幕下城市建筑群与云层交叠，左侧建筑轮廓清晰，右侧窗框反射天空。",
+    "theme": "城市夜景窗边视角"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能拍摄于居民楼或办公室窗户内侧。"
+    ],
+    "direct_observations": [
+      "画面呈现夜晚的城市天际线，远处有多栋亮着灯光的高层建筑。",
+      "天空中有白色絮状云层，云层边缘较明亮。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜色",
+      "部分建筑亮灯",
+      "云层呈絮状"
+    ],
+    "relations": [
+      "窗户框架位于前景。",
+      "云层位于天空中。",
+      "建筑群位于远处。"
+    ],
+    "scene": "城市夜间景观",
+    "subjects": [
+      "建筑物",
+      "云层",
+      "窗户框架"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能拍摄于居民楼或办公室窗户内侧。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现夜晚的城市天际线，远处有多栋亮着灯光的高层建筑；天空中有白色絮状云层，云层边缘较明亮。",
+    "safe_facts": [
+      "画面呈现夜晚的城市天际线，远处有多栋亮着灯光的高层建筑。",
+      "天空中有白色絮状云层，云层边缘较明亮。"
+    ]
+  },
+  "label_id": "cpl_7a522c15942b79741e9706a5",
+  "provenance": {
+    "generated_at": "2026-08-03T15:16:26.643852+00:00",
+    "migrated_at": "2026-08-03T15:16:26.645977+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e89a58a2463b45f865ab77f805f5e69bbe6fac678de8a0594163ad94ca53d553",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b8403ec4835cf4e5d0953902",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:16:26.646381+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b8403ec4835cf4e5d0953902"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

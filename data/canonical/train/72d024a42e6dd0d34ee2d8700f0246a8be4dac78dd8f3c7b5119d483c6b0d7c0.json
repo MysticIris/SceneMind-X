@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:636.jpg",
+    "relative_path": "train/636.jpg",
+    "sha256": "72d024a42e6dd0d34ee2d8700f0246a8be4dac78dd8f3c7b5119d483c6b0d7c0",
+    "split": "train"
+  },
+  "canonical_sha256": "ee37ed854814e1c76e7388a6e255ed1984b31558c7ea8efdf5464d8fa5e1bab2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "卡通鱼雕塑",
+      "儿童游乐设施",
+      "户外公园"
+    ],
+    "short_description": "蓝色卡通鱼造型的游乐设施，位于户外儿童乐园，旁边有介绍牌。",
+    "theme": "儿童游乐场主题"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有一个大型蓝色卡通鱼雕塑，具有夸张的眼睛和嘴巴。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色身体",
+      "大眼睛",
+      "红色嘴巴",
+      "绿色鳍状物",
+      "地面铺装"
+    ],
+    "relations": [
+      "卡通鱼雕塑位于信息指示牌旁。"
+    ],
+    "scene": "户外儿童游乐区",
+    "subjects": [
+      "卡通鱼雕塑",
+      "信息指示牌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一个大型蓝色卡通鱼雕塑，具有夸张的眼睛和嘴巴。",
+    "safe_facts": [
+      "画面中央有一个大型蓝色卡通鱼雕塑，具有夸张的眼睛和嘴巴。"
+    ]
+  },
+  "label_id": "cpl_512f00a514f1672025952cfa",
+  "provenance": {
+    "generated_at": "2026-08-03T11:49:07.949889+00:00",
+    "migrated_at": "2026-08-03T11:49:07.954304+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "23a06c07fc669210a3a8b64451b3f3b3916c8e43d2112a0e14a7bfe5755cc438",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4a0d53addfac89c5b4058562",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:49:07.955792+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4a0d53addfac89c5b4058562"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "福鱼传信",
+      "Message of Blessing Fish —— 阿基米德水世",
+      "航海地图游戏桌",
+      "水风车",
+      "取水器",
+      "转水轮"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "福鱼传信",
+      "Message of Blessing Fish —— 阿基米德水世",
+      "航海地图游戏桌",
+      "水风车",
+      "取水器",
+      "转水轮"
+    ]
+  }
+}

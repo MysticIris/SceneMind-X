@@ -1,0 +1,138 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:878.jpg",
+    "relative_path": "train/878.jpg",
+    "sha256": "7087ffb4b566d06d69e6c10f5d2e5ff49a02a28805aa3bcde7f5664eed765c43",
+    "split": "train"
+  },
+  "canonical_sha256": "4f29a385bcf1d7791986cf54740464659a9f417358f0c57dfcd0b14ab335873f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "课程学分",
+      "教学大纲",
+      "学术讲座"
+    ],
+    "short_description": "一名男性讲师手持麦克风站立在讲台旁。",
+    "theme": "课程学分"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一名男性讲师手持麦克风站立在讲台旁。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "讲解",
+      "观看"
+    ],
+    "attributes": [
+      "屏幕显示表格数据",
+      "讲师穿白衬衫"
+    ],
+    "relations": [
+      "讲师站在讲台前。",
+      "观众坐在前方。"
+    ],
+    "scene": "室内讲座现场",
+    "subjects": [
+      "讲师",
+      "观众",
+      "投影屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名男性讲师手持麦克风站立在讲台旁。",
+    "safe_facts": [
+      "一名男性讲师手持麦克风站立在讲台旁。"
+    ]
+  },
+  "label_id": "cpl_a3b73d6a7511bea5b8d9a021",
+  "provenance": {
+    "generated_at": "2026-08-03T12:41:56.964628+00:00",
+    "migrated_at": "2026-08-03T12:41:56.970025+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "39236f385df933e905c1302286af97692a4e83359f5eca24a46b4a1b95facc7c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2a143514f2c0694429672911",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:41:56.971621+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2a143514f2c0694429672911"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "课内学分设置环节",
+      "课程类别",
+      "学时/学分",
+      "占课程体系学分比例(%)",
+      "通识教育基础",
+      "学科大类"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "课内学分设置环节",
+      "课程类别",
+      "学时/学分",
+      "占课程体系学分比例(%)",
+      "通识教育基础",
+      "学科大类"
+    ]
+  }
+}

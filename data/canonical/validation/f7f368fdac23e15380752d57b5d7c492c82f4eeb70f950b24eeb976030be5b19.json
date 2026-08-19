@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2295.jpg",
+    "relative_path": "val/2295.jpg",
+    "sha256": "f7f368fdac23e15380752d57b5d7c492c82f4eeb70f950b24eeb976030be5b19",
+    "split": "val"
+  },
+  "canonical_sha256": "9d9d0e5c0c124d8aa94de4f9b8bb877a354aec9e0995b31df11085f998958189",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "湖泊",
+      "城市公园",
+      "阴天",
+      "树木",
+      "高楼"
+    ],
+    "short_description": "阴天下的城市公园湖泊，水面倒映着绿树与高楼，岸边有步道和休闲设施。",
+    "theme": "城市公园湖景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空灰暗，可能是阴雨天气。"
+    ],
+    "direct_observations": [
+      "湖面平静，反射出周围树木和建筑物的影像。",
+      "岸边有绿化带、步道及少量行人活动。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阴天",
+      "水面平静",
+      "绿树成荫",
+      "现代建筑"
+    ],
+    "relations": [
+      "树木倒映在湖水中。",
+      "高楼位于公园后方。",
+      "步道沿湖岸延伸。"
+    ],
+    "scene": "城市公园湖泊景观",
+    "subjects": [
+      "湖水",
+      "树木",
+      "高楼",
+      "步道",
+      "行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空灰暗，可能是阴雨天气。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "湖面平静，反射出周围树木和建筑物的影像；岸边有绿化带、步道及少量行人活动。",
+    "safe_facts": [
+      "湖面平静，反射出周围树木和建筑物的影像。",
+      "岸边有绿化带、步道及少量行人活动。"
+    ]
+  },
+  "label_id": "cpl_deea7dc8a317746b1160ee74",
+  "provenance": {
+    "generated_at": "2026-08-03T16:23:38.337765+00:00",
+    "migrated_at": "2026-08-03T16:23:38.339493+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "819e3c55ff381a01be84c2d965e2ffb8b60331637e77e2ca7279e23dee222586",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6a82773c1605851a33d81095",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:23:38.339799+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6a82773c1605851a33d81095"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

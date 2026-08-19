@@ -1,0 +1,66 @@
+{
+  "asset_id": "2bff89403ae7efa9",
+  "asset_sha256": "2bff89403ae7efa976fb7f22167d2c92d5d1192b760a442b7572526cfe6ec549",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"Windows磁盘属性界面\",\n    \"short_description\": \"这是一张Windows操作系统中本地磁盘（C:）属性窗口的截图。界面显示该驱动器名为Windows-SSD，文件系统为NTFS，总容量200GB，已用空间约190GB，可用空间仅剩9.50GB。底部包含压缩驱动器和索引内容的选项复选框。\",\n    \"micro_tags\": [\n      \"系统截图\",\n      \"磁盘管理\",\n      \"C盘属性\",\n      \"存储空间\",\n      \"NTFS\",\n      \"Windows界面\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"计算机操作系统图形用户界面\",\n    \"subjects\": [\n      \"磁盘属性对话框\",\n      \"存储空间统计图表\",\n      \"文本标签与数值\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白色背景窗口\",\n      \"蓝色环形进度图\",\n      \"中文界面语言\",\n      \"复选框控件\"\n    ],\n    \"relations\": [\n      \"环形图直观展示了已用空间与总容量的比例关系\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"窗口标题栏显示文字“Windows-SSD (C:) 属性”\",\n      \"界面中部有一个蓝色的环形图，显示大部分区域被填充，代表高占用率\",\n      \"数据区域明确列出“已用空间: 190 GB”和“可用空间: 9.50 GB”\",\n      \"底部有两个复选框，第二个处于勾选状态\"\n    ],\n    \"cautious_inferences\": [\n      \"根据剩余空间极少（9.50GB）推断，该磁盘可能面临存储不足的情况\",\n      \"驱动器名称包含“SSD”，暗示物理硬件可能为固态硬盘\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"Windows-SSD (C:) 属性\",\n      \"常规\",\n      \"工具\",\n      \"硬件\",\n      \"共享\",\n      \"安全\",\n      \"以前的版本\",\n      \"配额\",\n      \"Windows-SSD\",\n      \"类型: 本地磁盘\",\n      \"文件系统: NTFS\",\n      \"已用空间: 204,543,762,432 字节 190 GB\",\n      \"可用空间: 10,205,646,848 字节 9.50 GB\",\n      \"容量: 214,749,409,280 字节 200 GB\",\n      \"驱动器 C:\",\n      \"详细信息(D)\",\n      \"压缩此驱动器以节约磁盘空间(C)\",\n      \"除了文件属性外，还允许索引此驱动器上文件的内容(I)\",\n      \"确定\",\n      \"取消\",\n      \"应用(A)\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张计算机软件界面的截图，展示了一个存储设备的属性详情窗口，包含容量统计环形图和多个设置选项。\",\n    \"safe_facts\": [\n      \"图像为数字屏幕截图\",\n     ",
+      "input_tokens": 1355,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 1355,
+        "output_tokens": 768,
+        "total_tokens": 2123,
+        "estimated_cost_cny": 0.008854,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "Windows磁盘属性界面",
+        "short_description": "这是一张Windows操作系统中本地磁盘（C:）属性窗口的截图。界面显示该驱动器名为Windows-SSD，文件系统为NTFS，总容量200GB，已用空间约190GB，可用空间仅剩9.50GB。底部包含压缩驱动器和索引内容的选项复选框。",
+        "micro_tags": [
+          "系统截图",
+          "磁盘管理",
+          "C盘属性",
+          "存储空间",
+          "NTFS",
+          "Windows界面"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 86168,
+        "request_bytes": 61554,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.54303169999912,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "8f8c5f5a12bd2bc08000a03a8ad46eae3cd7b69f953984749dfa8586f98daaeb"
+}

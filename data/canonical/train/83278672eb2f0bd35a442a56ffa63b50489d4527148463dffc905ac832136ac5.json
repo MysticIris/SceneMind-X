@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:274.jpg",
+    "relative_path": "train/274.jpg",
+    "sha256": "83278672eb2f0bd35a442a56ffa63b50489d4527148463dffc905ac832136ac5",
+    "split": "train"
+  },
+  "canonical_sha256": "e9b96428a09490a565c3c573488db489db915e37eab6505225bb1984fc1359d2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "山路",
+      "光轨",
+      "山脉",
+      "夜景"
+    ],
+    "short_description": "暮色山峦间蜿蜒的车灯轨迹，在星空下勾勒出蜿蜒的光带，展现自然与人造光的交融。",
+    "theme": "山间夜路光轨"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光轨可能是长时间曝光摄影效果，记录了移动光源的轨迹。"
+    ],
+    "direct_observations": [
+      "画面呈现山地地形，有明显起伏的山脊和山谷。",
+      "多条红色光轨呈曲线状分布在山坡上，显示车辆行驶路径。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "星空",
+      "紫色天幕",
+      "光轨轨迹"
+    ],
+    "relations": [
+      "光轨沿山路延伸。",
+      "山路位于山体上。"
+    ],
+    "scene": "山地夜间景观",
+    "subjects": [
+      "蜿蜒山路",
+      "山峰",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光轨可能是长时间曝光摄影效果，记录了移动光源的轨迹。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现山地地形，有明显起伏的山脊和山谷；多条红色光轨呈曲线状分布在山坡上，显示车辆行驶路径。",
+    "safe_facts": [
+      "画面呈现山地地形，有明显起伏的山脊和山谷。",
+      "多条红色光轨呈曲线状分布在山坡上，显示车辆行驶路径。"
+    ]
+  },
+  "label_id": "cpl_908b3607fd9ae26a96653e1b",
+  "provenance": {
+    "generated_at": "2026-08-03T10:29:49.751524+00:00",
+    "migrated_at": "2026-08-03T10:29:49.753629+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "29b2225be2dd7449b7cc059149bbdd1329922ad289ae5fd1fc0f731ef1e59f60",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f19690d65e2cdc6c993f6c46",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:29:49.753840+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f19690d65e2cdc6c993f6c46"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

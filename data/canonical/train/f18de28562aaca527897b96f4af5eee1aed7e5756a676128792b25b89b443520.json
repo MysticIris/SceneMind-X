@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1215.jpg",
+    "relative_path": "train/1215.jpg",
+    "sha256": "f18de28562aaca527897b96f4af5eee1aed7e5756a676128792b25b89b443520",
+    "split": "train"
+  },
+  "canonical_sha256": "91c1c54ab7139bfa76eb5c0622f7178d1fefc7d3e9bca23c324df7f1611a3fa1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "湖泊",
+      "树木",
+      "水鸟",
+      "公园"
+    ],
+    "short_description": "平静湖面倒映着岸边茂密树木，几只水鸟悠然游弋，远处隐约可见行人与设施。",
+    "theme": "湖畔绿意"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "水鸟可能在觅食或休息。"
+    ],
+    "direct_observations": [
+      "水面有轻微波纹，反射天空与树木轮廓。",
+      "岸边生长着高大树木和芦苇状植物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "游弋"
+    ],
+    "attributes": [
+      "平静水面",
+      "茂密树丛",
+      "灰蓝色天空"
+    ],
+    "relations": [
+      "树木沿湖岸分布。",
+      "水鸟在水面活动。"
+    ],
+    "scene": "湖边公园景观",
+    "subjects": [
+      "水面",
+      "树木",
+      "水鸟"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "水鸟可能在觅食或休息。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "水面有轻微波纹，反射天空与树木轮廓；岸边生长着高大树木和芦苇状植物。",
+    "safe_facts": [
+      "水面有轻微波纹，反射天空与树木轮廓。",
+      "岸边生长着高大树木和芦苇状植物。"
+    ]
+  },
+  "label_id": "cpl_38420c089d872a8e9c2805a4",
+  "provenance": {
+    "generated_at": "2026-08-03T13:56:50.634545+00:00",
+    "migrated_at": "2026-08-03T13:56:50.641047+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5120e7b044cd56dfb023cca81f77de6189bd3f005db0d7ae6b6810a46156d772",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f96c03f9c75912877866a710",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:56:50.641437+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f96c03f9c75912877866a710"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

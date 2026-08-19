@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1818.jpg",
+    "relative_path": "train/1818.jpg",
+    "sha256": "47918af7ba755c370a0bd52e471fdfbd804e49442d6300a0611536b7ed21a721",
+    "split": "train"
+  },
+  "canonical_sha256": "8966d05a6c273d2694ac3f1cad5f3c841607d7ac4b3e8ad83ffd76aac84aadf8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红色外套",
+      "手持麦克风",
+      "舞台表演"
+    ],
+    "short_description": "一位身穿红色毛绒外套的女性手持金色麦克风，背景有雪花特效，画面呈现舞台表演氛围。",
+    "theme": "红衣演唱者特写"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "背景中的白色斑点可能代表雪花效果。"
+    ],
+    "direct_observations": [
+      "女性穿着一件鲜艳的红色毛绒外套。",
+      "女性右手握着一个金色麦克风。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "手持麦克风"
+    ],
+    "attributes": [
+      "红色毛绒外套",
+      "金色麦克风",
+      "雪花特效"
+    ],
+    "relations": [],
+    "scene": "舞台表演场景",
+    "subjects": [
+      "女性"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "背景中的白色斑点可能代表雪花效果。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "女性穿着一件鲜艳的红色毛绒外套；女性右手握着一个金色麦克风。",
+    "safe_facts": [
+      "女性穿着一件鲜艳的红色毛绒外套。",
+      "女性右手握着一个金色麦克风。"
+    ]
+  },
+  "label_id": "cpl_de681e9d1f05d450e56be9c3",
+  "provenance": {
+    "generated_at": "2026-08-03T15:11:11.800574+00:00",
+    "migrated_at": "2026-08-03T15:11:11.802420+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f41a856efcb05acaa9b94564562920fdd86604c78227aa567c08d9b2579ecad5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4b653337ba87530bd0c5e0df",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:11:11.802624+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4b653337ba87530bd0c5e0df"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

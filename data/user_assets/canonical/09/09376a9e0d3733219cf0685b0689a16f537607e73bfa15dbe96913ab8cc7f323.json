@@ -1,0 +1,138 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_46a24c46b2bf99cee74c9826",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_4e2ce8aa80a0367245a63d21"
+  ],
+  "asset": {
+    "asset_id": "09376a9e0d373321",
+    "sha256": "09376a9e0d3733219cf0685b0689a16f537607e73bfa15dbe96913ab8cc7f323",
+    "split": "user_custom",
+    "relative_path": "user_assets/09/09376a9e0d3733219cf0685b0689a16f537607e73bfa15dbe96913ab8cc7f323/09376a9e0d3733219cf0685b0689a16f537607e73bfa15dbe96913ab8cc7f323.png"
+  },
+  "display": {
+    "theme": "游戏荣耀称号结算界面",
+    "short_description": "画面中央横向排列着六张竖版卡片，包含多位动漫风格的游戏角色立绘(如粉发女性、白发男性等)以及一个抽象图标。每张卡片上方标有蓝色地域排名标签，下方有数字徽章。",
+    "micro_tags": [
+      "游戏截图",
+      "荣誉结算",
+      "角色立绘",
+      "排行榜",
+      "UI界面",
+      "王者荣耀"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "电子游戏内的结算或展示界面",
+    "subjects": [
+      "六张竖向排列的荣誉卡片",
+      "游戏角色立绘",
+      "抽象几何图标",
+      "底部功能按钮",
+      "统计数据文本"
+    ],
+    "actions": [],
+    "attributes": [
+      "深蓝色背景",
+      "发光特效",
+      "金色与蓝色配色的UI元素",
+      "卡片式布局"
+    ],
+    "relations": [
+      "卡片水平并列排布。",
+      "按钮位于界面最底部。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "界面顶部显示大标题“恭喜您获得本周荣耀称号”及副标题。",
+      "每张卡片顶部都有蓝底白字的标签，底部有带数字的盾形徽章。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "恭喜您获得本周荣耀称号",
+      "仅展示级别最高的6个荣耀称号",
+      "广东省五十强",
+      "海珠区五十强",
+      "海珠区一百强"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "恭喜您获得本周荣耀称号",
+      "仅展示级别最高的6个荣耀称号",
+      "广东省五十强",
+      "海珠区五十强",
+      "海珠区一百强"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "界面顶部显示大标题“恭喜您获得本周荣耀称号”及副标题；每张卡片顶部都有蓝底白字的标签，底部有带数字的盾形徽章。",
+    "safe_facts": [
+      "界面顶部显示大标题“恭喜您获得本周荣耀称号”及副标题。",
+      "每张卡片顶部都有蓝底白字的标签，底部有带数字的盾形徽章。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_cdba31db-5fb2-4819-83aa-aaf55fe1f632",
+    "generated_at": "2026-08-12T03:00:57.488358+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "477f1d6afa12c54187b840cfa4beb6334e2351802c09dcca6f6237145ae9ee6d",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:00:57.489464+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_4e2ce8aa80a0367245a63d21",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:00:57.489828+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "e38a9ea1878498953184240f2e14caf3425fb3ae5914f8ce4cc9554f6e257546"
+}

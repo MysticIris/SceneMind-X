@@ -1,0 +1,136 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1623.jpg",
+    "relative_path": "train/1623.jpg",
+    "sha256": "1d0f8214efdc57586d499e8e4cfba2f80f38e2d1ade4c211e8e63321b65de461",
+    "split": "train"
+  },
+  "canonical_sha256": "39b1a6852d356e53736501df578a60fe599934ecbb19704294b5ebae982a4767",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式建筑",
+      "屋檐",
+      "彩绘斗拱"
+    ],
+    "short_description": "仰拍视角下的中国传统建筑屋檐，彩绘斗拱与牌匾清晰可见，背景为多云天空与树木。",
+    "theme": "传统中式建筑屋檐"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "建筑风格具有中国传统宫殿式特征。"
+    ],
+    "direct_observations": [
+      "屋檐覆盖着深灰色瓦片。",
+      "屋檐下有红色立柱支撑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "彩绘装饰",
+      "瓦片屋顶",
+      "红色柱子",
+      "蓝色牌匾"
+    ],
+    "relations": [
+      "牌匾悬挂在屋檐下。",
+      "灯笼挂于柱子旁。"
+    ],
+    "scene": "户外古建局部",
+    "subjects": [
+      "屋檐",
+      "斗拱",
+      "牌匾",
+      "柱子",
+      "灯笼"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "建筑风格具有中国传统宫殿式特征。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屋檐覆盖着深灰色瓦片；屋檐下有红色立柱支撑。",
+    "safe_facts": [
+      "屋檐覆盖着深灰色瓦片。",
+      "屋檐下有红色立柱支撑。"
+    ]
+  },
+  "label_id": "cpl_476e9c56f224b216a7090aba",
+  "provenance": {
+    "generated_at": "2026-08-02T22:21:50.971530+00:00",
+    "migrated_at": "2026-08-03T07:13:41.694798+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7f6a11377a12373b8e70abd7c4fe570af24b0b0273d4f473260cae32a2b97524",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a981d51f0c08754ab4995d19",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:46:22.916789+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a981d51f0c08754ab4995d19",
+    "cpl_c48a50029827c6a1054960f6"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "北京大学",
+      "HUAWEI Mate 10 Pro",
+      "NEW LEICA DUAL CAMERA"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "北京大学",
+      "HUAWEI Mate 10 Pro",
+      "NEW LEICA DUAL CAMERA"
+    ]
+  }
+}

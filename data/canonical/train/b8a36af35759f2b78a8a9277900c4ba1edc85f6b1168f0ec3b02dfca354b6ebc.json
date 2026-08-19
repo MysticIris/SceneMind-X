@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:731.jpg",
+    "relative_path": "train/731.jpg",
+    "sha256": "b8a36af35759f2b78a8a9277900c4ba1edc85f6b1168f0ec3b02dfca354b6ebc",
+    "split": "train"
+  },
+  "canonical_sha256": "410a6cdf3c4102bed19ff582ddace53a9b3afbe186d056b07d0918800e470975",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古装人物",
+      "对峙场景"
+    ],
+    "short_description": "古装男子在室内场景中，表情严肃，周围有模糊人物轮廓。",
+    "theme": "古装人物对峙"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央是一名灰发、留胡须的男性角色，身着深色古装服饰。",
+      "画面背景较暗，右侧有另一人部分身影。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灰发",
+      "胡须",
+      "古装服饰"
+    ],
+    "relations": [],
+    "scene": "室内对峙场景",
+    "subjects": [
+      "一名灰发男子"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是一名灰发、留胡须的男性角色，身着深色古装服饰；画面背景较暗，右侧有另一人部分身影。",
+    "safe_facts": [
+      "画面中央是一名灰发、留胡须的男性角色，身着深色古装服饰。",
+      "画面背景较暗，右侧有另一人部分身影。"
+    ]
+  },
+  "label_id": "cpl_cf184ed96105ea3a303c92f3",
+  "provenance": {
+    "generated_at": "2026-08-03T12:10:49.283034+00:00",
+    "migrated_at": "2026-08-03T12:10:49.288005+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "83ade9d3f26f886bd40e32bde416d72d67a5218757451e5a86b86b5064f6f458",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_db1bed7b48c23b35fef8d5b5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:10:49.289390+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_db1bed7b48c23b35fef8d5b5"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "这里有个隐藏,深闺梦里人作色,赵王都不清楚的我摊牌啦却很了解",
+      "我要梭哈!",
+      "我方畅通无阻",
+      "把握最大的底牌掀开",
+      "帝国の绝凶虎,秦国腰胆,大秦武安君,万人敌白起",
+      "我摊牌了"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "这里有个隐藏,深闺梦里人作色,赵王都不清楚的我摊牌啦却很了解",
+      "我要梭哈!",
+      "我方畅通无阻",
+      "把握最大的底牌掀开",
+      "帝国の绝凶虎,秦国腰胆,大秦武安君,万人敌白起",
+      "我摊牌了"
+    ]
+  }
+}

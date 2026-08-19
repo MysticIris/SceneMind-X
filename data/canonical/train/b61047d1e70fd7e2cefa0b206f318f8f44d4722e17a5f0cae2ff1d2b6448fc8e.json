@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1285.jpg",
+    "relative_path": "train/1285.jpg",
+    "sha256": "b61047d1e70fd7e2cefa0b206f318f8f44d4722e17a5f0cae2ff1d2b6448fc8e",
+    "split": "train"
+  },
+  "canonical_sha256": "ecf027e521c0a471eb3ce8b81238bc59ff9a2cad62f08cf87217911e0ca488b6",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "篮球",
+      "纸箱",
+      "室内地面"
+    ],
+    "short_description": "一个橙色篮球放在打开的纸箱里，旁边有黑色设备和白色地板。",
+    "theme": "纸箱内篮球"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一个橙色篮球被装在纸箱里。",
+      "地面是白色瓷砖，有污渍和划痕。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "篮球呈橙色",
+      "纸箱为棕色",
+      "地面为白色瓷砖"
+    ],
+    "relations": [
+      "篮球位于纸箱内。",
+      "纸箱放置于地面。"
+    ],
+    "scene": "室内地面",
+    "subjects": [
+      "篮球",
+      "纸箱",
+      "黑色设备"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一个橙色篮球被装在纸箱里；地面是白色瓷砖，有污渍和划痕。",
+    "safe_facts": [
+      "画面中有一个橙色篮球被装在纸箱里。",
+      "地面是白色瓷砖，有污渍和划痕。"
+    ]
+  },
+  "label_id": "cpl_864f6697c1cc6b40994c9c7f",
+  "provenance": {
+    "generated_at": "2026-08-03T14:02:56.926222+00:00",
+    "migrated_at": "2026-08-03T14:02:56.929391+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e6bf9b1db3695d891a8ca37afaee16442e73b3176088a33ca91ee3e0ee7d2bc0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_878e4f5541892c53f4e7be52",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:02:56.929778+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_878e4f5541892c53f4e7be52"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

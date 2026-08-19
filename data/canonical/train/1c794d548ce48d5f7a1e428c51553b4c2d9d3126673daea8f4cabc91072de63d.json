@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:582.jpg",
+    "relative_path": "train/582.jpg",
+    "sha256": "1c794d548ce48d5f7a1e428c51553b4c2d9d3126673daea8f4cabc91072de63d",
+    "split": "train"
+  },
+  "canonical_sha256": "08f896f245bd320e9275e05d44d91a5d34799fe92e958f83af6fbabf447de0d2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "三文鱼刺身",
+      "冰镇拼盘",
+      "寿司卷"
+    ],
+    "short_description": "冰镇盘中摆放着三文鱼刺身、金枪鱼刺身及寿司卷，配以紫苏叶和小花装饰，背景可见火锅与餐桌。",
+    "theme": "生鱼片拼盘"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "盘中盛有冰块，上面摆放着切片生鱼和寿司卷。",
+      "生鱼片旁有绿色紫苏叶和黄色小花作为装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "冰镇",
+      "装饰有小花",
+      "盛放在陶瓷盘中"
+    ],
+    "relations": [
+      "生鱼片拼盘放置于冰块上。",
+      "寿司卷位于拼盘右侧。"
+    ],
+    "scene": "餐厅餐桌",
+    "subjects": [
+      "生鱼片拼盘",
+      "寿司卷",
+      "紫苏叶",
+      "冰块",
+      "餐桌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "盘中盛有冰块，上面摆放着切片生鱼和寿司卷；生鱼片旁有绿色紫苏叶和黄色小花作为装饰。",
+    "safe_facts": [
+      "盘中盛有冰块，上面摆放着切片生鱼和寿司卷。",
+      "生鱼片旁有绿色紫苏叶和黄色小花作为装饰。"
+    ]
+  },
+  "label_id": "cpl_0d389acccc1892d7a661469b",
+  "provenance": {
+    "generated_at": "2026-08-02T22:18:10.789782+00:00",
+    "migrated_at": "2026-08-03T07:13:41.522809+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1ddb5b664d5be35e9f08395f866a0153ac20d807e8431d95865088fd9bcaf58f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0ce87a510c50ec9613adc617",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:37:49.905374+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0ce87a510c50ec9613adc617",
+    "cpl_07738b893ac4af600ae59e71"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

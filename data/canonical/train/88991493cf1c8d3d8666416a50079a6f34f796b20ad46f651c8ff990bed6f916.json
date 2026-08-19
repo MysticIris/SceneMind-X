@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:856.jpg",
+    "relative_path": "train/856.jpg",
+    "sha256": "88991493cf1c8d3d8666416a50079a6f34f796b20ad46f651c8ff990bed6f916",
+    "split": "train"
+  },
+  "canonical_sha256": "f437da0fb4b98ce149ec425c0c7100a585c6815bc80291abbad680264eca9b5e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "教室",
+      "学生",
+      "课桌",
+      "书本"
+    ],
+    "short_description": "一间光线明亮的教室里，多名学生围聚在课桌旁，有的坐着学习，有的站着互动，桌上堆满书本和文具。",
+    "theme": "教室里的学生"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多名学生聚集在教室内的课桌周围。",
+      "课桌上堆放着书籍和文具。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "坐着",
+      "站着",
+      "聚集",
+      "学习"
+    ],
+    "attributes": [
+      "木质课桌",
+      "窗帘",
+      "空调",
+      "木地板"
+    ],
+    "relations": [
+      "学生围绕课桌。",
+      "课桌上有书本。"
+    ],
+    "scene": "室内教室环境",
+    "subjects": [
+      "多名学生"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多名学生聚集在教室内的课桌周围；课桌上堆放着书籍和文具。",
+    "safe_facts": [
+      "多名学生聚集在教室内的课桌周围。",
+      "课桌上堆放着书籍和文具。"
+    ]
+  },
+  "label_id": "cpl_36824d652affe51d928bb48c",
+  "provenance": {
+    "generated_at": "2026-08-03T12:37:23.504249+00:00",
+    "migrated_at": "2026-08-03T12:37:23.509290+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8a4c4862b7b19362eda29f1f80ade68e311516fb35d18c5367c6853f4843908c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_885523af157b8fd386436a8e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:37:23.509625+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_885523af157b8fd386436a8e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

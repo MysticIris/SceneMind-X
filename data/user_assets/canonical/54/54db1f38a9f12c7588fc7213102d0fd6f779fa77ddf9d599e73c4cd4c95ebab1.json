@@ -1,0 +1,145 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_c389d36803a60a5b608d53e9",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_d2460e08d2e3591ccef76b3d"
+  ],
+  "asset": {
+    "asset_id": "54db1f38a9f12c75",
+    "sha256": "54db1f38a9f12c7588fc7213102d0fd6f779fa77ddf9d599e73c4cd4c95ebab1",
+    "split": "user_custom",
+    "relative_path": "user_assets/54/54db1f38a9f12c7588fc7213102d0fd6f779fa77ddf9d599e73c4cd4c95ebab1/54db1f38a9f12c7588fc7213102d0fd6f779fa77ddf9d599e73c4cd4c95ebab1.png"
+  },
+  "display": {
+    "theme": "腾讯欢乐麻将游戏截图",
+    "short_description": "这是一张手机麻将游戏的对局截图。画面展示了绿色的虚拟牌桌，底部玩家手持条子牌并处于听牌状态，右侧弹出包含倍数和胡牌概率的结算预测面板，四周分布着其他玩家的头像与积分信息。",
+    "micro_tags": [
+      "麻将",
+      "手游",
+      "游戏界面",
+      "听牌",
+      "策略",
+      "休闲"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "数字麻将游戏对局界面",
+    "subjects": [
+      "麻将牌",
+      "游戏UI面板",
+      "玩家头像",
+      "虚拟牌桌"
+    ],
+    "actions": [
+      "展示手牌",
+      "显示听牌提示",
+      "呈现对局数据"
+    ],
+    "attributes": [
+      "绿色背景",
+      "卡通风格头像",
+      "半透明信息浮窗",
+      "竖排手牌布局"
+    ],
+    "relations": [
+      "手牌位于屏幕底部中央。",
+      "数据统计面板悬浮于右侧。",
+      "对手信息环绕牌桌边缘。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "牌桌中心有倒计时数字显示，周围有四个方位的玩家头像及分数标识。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法确定具体的游戏规则变种(如血流成河或血战到底的具体细节)。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "红中血流",
+      "预收益 7.04万",
+      "总倍数 352倍",
+      "胡牌数 10张",
+      "自动摸打/胡牌",
+      "腾讯欢乐麻将"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "红中血流",
+      "预收益 7.04万",
+      "总倍数 352倍",
+      "胡牌数 10张",
+      "自动摸打/胡牌",
+      "腾讯欢乐麻将"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "牌桌中心有倒计时数字显示，周围有四个方位的玩家头像及分数标识。",
+    "safe_facts": [
+      "牌桌中心有倒计时数字显示，周围有四个方位的玩家头像及分数标识。"
+    ],
+    "do_not_assert": [
+      "无法确定具体的游戏规则变种(如血流成河或血战到底的具体细节)。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_4e9dfffa-b5cd-4e56-b165-139abe6fa38e",
+    "generated_at": "2026-08-12T03:16:17.177633+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "8138ffca4e26e086710dcf1d07209616e3aae2e04fc7b3a1410778747993e99c",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:16:17.178812+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_d2460e08d2e3591ccef76b3d",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:16:17.179129+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "e4dfc4617fb1f61e37251f4c5d7b1cff016c082f936f680cd63fdad152daeb8c"
+}

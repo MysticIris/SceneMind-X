@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2364.jpg",
+    "relative_path": "val/2364.jpg",
+    "sha256": "817143506d45460e791aea5262a6ff29152cd2b70bb69a056f66eb7c42c43126",
+    "split": "val"
+  },
+  "canonical_sha256": "a955f5a4bba710372843d784fdcc6edc117a070e7ffd249c8311554052f25fca",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石桥",
+      "海岸线",
+      "海景",
+      "礁石"
+    ],
+    "short_description": "晴朗天气下，海边石砌栏杆延伸入海，远处山峦与船只隐约可见，水面有礁石。",
+    "theme": "海滨石桥"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "远处山峦轮廓因大气透视效果显得模糊。"
+    ],
+    "direct_observations": [
+      "画面左侧为石砌栏杆结构，沿岸延伸。",
+      "海水中有一块深色礁石，部分被水淹没。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晴朗天空",
+      "浅蓝色海水",
+      "灰色石质栏杆",
+      "部分遮挡的岩石地形"
+    ],
+    "relations": [
+      "石桥延伸至海面。",
+      "礁石位于水面上。",
+      "行人站在桥上。"
+    ],
+    "scene": "海边石桥景观",
+    "subjects": [
+      "石桥",
+      "海水",
+      "礁石",
+      "远处山峦",
+      "行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "远处山峦轮廓因大气透视效果显得模糊。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面左侧为石砌栏杆结构，沿岸延伸；海水中有一块深色礁石，部分被水淹没。",
+    "safe_facts": [
+      "画面左侧为石砌栏杆结构，沿岸延伸。",
+      "海水中有一块深色礁石，部分被水淹没。"
+    ]
+  },
+  "label_id": "cpl_65be80c4ca896650b9d62431",
+  "provenance": {
+    "generated_at": "2026-08-03T16:34:04.432010+00:00",
+    "migrated_at": "2026-08-03T16:34:04.433688+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dbbfe47a438668024c83ee6c4cae3393aada12af4e03016d80f18c139a7f48bb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d4d6d6cf863764fab11da13c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:34:04.433904+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d4d6d6cf863764fab11da13c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

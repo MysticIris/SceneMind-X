@@ -1,0 +1,122 @@
+{
+  "asset_id": "ca8c5d15b2de19db",
+  "asset_sha256": "ca8c5d15b2de19db7d738659ad173a840fde1d52dc78db6af8d94945c6570cc8",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"清晨小区停车道\",\n    \"short_description\": \"一条位于居民区内的道路，两侧整齐停放着大量电动车和自行车。左侧是茂密的树木，右侧是多层住宅楼。远处路灯发出强光，在空气中形成明显的光束，地面看起来有些潮湿。\",\n    \"micro_tags\": [\n      \"电动车\",\n      \"居民区\",\n      \"路灯\",\n      \"丁达尔效应\",\n      \"清晨\",\n      \"林荫道\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"室外居民区道路\",\n    \"subjects\": [\n      \"电动车\",\n      \"自行车\",\n      \"树木\",\n      \"住宅楼\",\n      \"路灯\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"排列整齐\",\n      \"光线朦胧\",\n      \"路面湿润\",\n      \"植被茂密\"\n    ],\n    \"relations\": [\n      \"车辆沿道路两侧停放\",\n      \"树木位于道路左侧\",\n      \"楼房位于道路右侧\",\n      \"路灯照亮前方道路\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"道路两侧停满了两轮交通工具，左侧主要是电动踏板车，右侧混杂了自行车和电动车。\",\n      \"画面远处有明亮的路灯光源，光线穿过树梢和空气形成清晰可见的光束（丁达尔效应）。\",\n      \"右侧是一栋白色的多层建筑，窗户上安装有金属防盗网或护栏。\",\n      \"左侧种植着高大的树木，枝叶繁茂，遮蔽了部分天空。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据光线的角度和色温，推测拍摄时间可能为清晨或傍晚。\",\n      \"路面有反光且空气中有雾气感，可能刚下过雨或早晨湿度较大。\",\n      \"如此密集的非机动车停放，表明该区域可能是大型居住社区或学校附近。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的地理位置或城市。\",\n      \"无法确认车辆的具体品牌型号。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_unreadable\",\n    \"visual_candidates\": []\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张展示居民区内部道路的照片，路两旁停满了密集的电动车和自行车，远处路灯的光芒穿透晨雾或树荫照射过来。\",\n    \"safe_facts\": [\n      \"图中包含大量停放的二轮车辆。\",\n      \"场景位于户外，一侧有高楼，一侧有树木。\",\n      \"画面中有明显的人造光源照明。\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 635,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 635,
+        "total_tokens": 3840,
+        "estimated_cost_cny": 0.01149,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "清晨小区停车道",
+          "short_description": "一条位于居民区内的道路，两侧整齐停放着大量电动车和自行车。左侧是茂密的树木，右侧是多层住宅楼。远处路灯发出强光，在空气中形成明显的光束，地面看起来有些潮湿。",
+          "micro_tags": [
+            "电动车",
+            "居民区",
+            "路灯",
+            "丁达尔效应",
+            "清晨",
+            "林荫道"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "室外居民区道路",
+          "subjects": [
+            "电动车",
+            "自行车",
+            "树木",
+            "住宅楼",
+            "路灯"
+          ],
+          "actions": [],
+          "attributes": [
+            "排列整齐",
+            "光线朦胧",
+            "路面湿润",
+            "植被茂密"
+          ],
+          "relations": [
+            "车辆沿道路两侧停放",
+            "树木位于道路左侧",
+            "楼房位于道路右侧",
+            "路灯照亮前方道路"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "道路两侧停满了两轮交通工具，左侧主要是电动踏板车，右侧混杂了自行车和电动车。",
+            "画面远处有明亮的路灯光源，光线穿过树梢和空气形成清晰可见的光束（丁达尔效应）。",
+            "右侧是一栋白色的多层建筑，窗户上安装有金属防盗网或护栏。",
+            "左侧种植着高大的树木，枝叶繁茂，遮蔽了部分天空。"
+          ],
+          "cautious_inferences": [
+            "根据光线的角度和色温，推测拍摄时间可能为清晨或傍晚。",
+            "路面有反光且空气中有雾气感，可能刚下过雨或早晨湿度较大。",
+            "如此密集的非机动车停放，表明该区域可能是大型居住社区或学校附近。"
+          ],
+          "uncertainties": [
+            "无法确定具体的地理位置或城市。",
+            "无法确认车辆的具体品牌型号。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_unreadable",
+          "visual_candidates": []
+        },
+        "fallback": {
+          "safe_caption": "一张展示居民区内部道路的照片，路两旁停满了密集的电动车和自行车，远处路灯的光芒穿透晨雾或树荫照射过来。",
+          "safe_facts": [
+            "图中包含大量停放的二轮车辆。",
+            "场景位于户外，一侧有高楼，一侧有树木。",
+            "画面中有明显的人造光源照明。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 7621584,
+        "request_bytes": 5713114,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.076144399994519,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "4ec23de2deb6376f173f81ff4d58847dd1a8606288462356cd4efb2417159826"
+}

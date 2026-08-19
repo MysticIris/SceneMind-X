@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1388.jpg",
+    "relative_path": "train/1388.jpg",
+    "sha256": "06f0dab68efceb29cd303a8b7864fb8c082980aeac465f67665c1c1f68f06de6",
+    "split": "train"
+  },
+  "canonical_sha256": "d5e1bff3727516c5044e09ae6b56a27a19e0eff89999b52345460e747521cd97",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "卡通人物",
+      "床上"
+    ],
+    "short_description": "卡通风格插画，描绘两个人物在床边，一人躺卧，一人站立。",
+    "theme": "卡通人物"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两个卡通人物，一个躺在床上，一个站在床边。",
+      "床铺上有绿色被子覆盖部分身体。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "躺着",
+      "站立"
+    ],
+    "attributes": [
+      "绿色被子",
+      "黄色圆形头",
+      "简单线条绘制"
+    ],
+    "relations": [
+      "人物在床边。",
+      "人物在床铺上。"
+    ],
+    "scene": "室内床铺场景",
+    "subjects": [
+      "卡通人物"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两个卡通人物，一个躺在床上，一个站在床边；床铺上有绿色被子覆盖部分身体。",
+    "safe_facts": [
+      "画面中有两个卡通人物，一个躺在床上，一个站在床边。",
+      "床铺上有绿色被子覆盖部分身体。"
+    ]
+  },
+  "label_id": "cpl_9d74ec3822e7dbfc2e2d73dc",
+  "provenance": {
+    "generated_at": "2026-08-03T14:16:14.099781+00:00",
+    "migrated_at": "2026-08-03T14:16:14.102636+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a0aad5972867204c434c8caa649fb9ca0ae5f35d0222d3ac74f72a420246d796",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_75c393644b985482535c34d4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:16:14.103145+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_75c393644b985482535c34d4"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "起床学高数了"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "起床学高数了"
+    ]
+  }
+}

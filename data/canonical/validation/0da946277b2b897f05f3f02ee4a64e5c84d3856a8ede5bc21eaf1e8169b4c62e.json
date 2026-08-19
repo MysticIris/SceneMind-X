@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2189.jpg",
+    "relative_path": "val/2189.jpg",
+    "sha256": "0da946277b2b897f05f3f02ee4a64e5c84d3856a8ede5bc21eaf1e8169b4c62e",
+    "split": "val"
+  },
+  "canonical_sha256": "7327f5e6e3a2d7c61b550f34649411476c299575595465790fa2763ee21df3e4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市公园",
+      "网球场",
+      "高楼大厦"
+    ],
+    "short_description": "一棵树干前景下，网球场上有几个人在活动，背景是高楼林立的城市天际线。",
+    "theme": "城市公园运动场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面左侧有一棵粗壮的树，树干部分剥落。",
+      "网球场地面为绿色，有红色线条，周围有铁丝网围栏。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "在运动场上活动"
+    ],
+    "attributes": [
+      "树皮剥落",
+      "绿色灌木丛",
+      "灰色天空"
+    ],
+    "relations": [
+      "树位于前景。",
+      "网球场被围栏包围。",
+      "高楼在背景。"
+    ],
+    "scene": "城市公园网球场",
+    "subjects": [
+      "人",
+      "树",
+      "高楼"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面左侧有一棵粗壮的树，树干部分剥落；网球场地面为绿色，有红色线条，周围有铁丝网围栏。",
+    "safe_facts": [
+      "画面左侧有一棵粗壮的树，树干部分剥落。",
+      "网球场地面为绿色，有红色线条，周围有铁丝网围栏。"
+    ]
+  },
+  "label_id": "cpl_8a3ed7e85ef5290bbf158b86",
+  "provenance": {
+    "generated_at": "2026-08-03T16:10:16.896183+00:00",
+    "migrated_at": "2026-08-03T16:10:16.897857+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0627093665892e28742cd0c8eca0f7c0b6f1374e5bb7bd1df634121b1d3ccad5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_01c5452df1f761f509d331b5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:10:16.898263+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_01c5452df1f761f509d331b5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

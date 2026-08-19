@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:58.jpg",
+    "relative_path": "train/58.jpg",
+    "sha256": "0060852f152d0b2f340a3baba047d87883080695fd9b34ddf37010b55dc750ef",
+    "split": "train"
+  },
+  "canonical_sha256": "05f14027265e79c36c7a4606c1543d61e88a079d1ca572dbecfdd9e053ca25eb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "铅笔素描",
+      "卡通人物",
+      "笔记本页面"
+    ],
+    "short_description": "一本打开的笔记本上，有一幅戴针织帽和眼镜的卡通人物素描，旁边放着一支木质铅笔。",
+    "theme": "铅笔素描插画"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "笔记本页面上有手绘的卡通人物图像。",
+      "图像旁放置一支木质铅笔。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "戴针织帽",
+      "戴眼镜",
+      "有胡须",
+      "穿带三角形纽扣的衣服"
+    ],
+    "relations": [
+      "铅笔放在笔记本页面上。"
+    ],
+    "scene": "笔记本页面",
+    "subjects": [
+      "卡通人物",
+      "铅笔"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "笔记本页面上有手绘的卡通人物图像；图像旁放置一支木质铅笔。",
+    "safe_facts": [
+      "笔记本页面上有手绘的卡通人物图像。",
+      "图像旁放置一支木质铅笔。"
+    ]
+  },
+  "label_id": "cpl_c26cb2a6ff8289ed114a1c5f",
+  "provenance": {
+    "generated_at": "2026-08-03T09:16:23.805708+00:00",
+    "migrated_at": "2026-08-03T09:16:23.808166+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5723f9d29e73da3f7ceac2c5f2b2b83b60fb3e36282da5d9b5bf5460d61b9a55",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6d63f4c67e281d8bd6c9f702",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:27.474974+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6d63f4c67e281d8bd6c9f702",
+    "cpl_62c721f4370d875731f9f1e9"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Memo No.",
+      "Date",
+      "Mo Tu We Th Fr",
+      "23.07.04",
+      "12:47"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Memo No.",
+      "Date",
+      "Mo Tu We Th Fr",
+      "23.07.04",
+      "12:47"
+    ]
+  }
+}

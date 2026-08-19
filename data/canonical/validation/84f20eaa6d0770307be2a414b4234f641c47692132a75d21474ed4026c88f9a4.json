@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2360.jpg",
+    "relative_path": "val/2360.jpg",
+    "sha256": "84f20eaa6d0770307be2a414b4234f641c47692132a75d21474ed4026c88f9a4",
+    "split": "val"
+  },
+  "canonical_sha256": "e129e789b1f54a00292e7f308797c7ea028d67e5eb0320d8553edb15d749c464",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "人群聚集",
+      "现代建筑"
+    ],
+    "short_description": "夜晚城市广场，多人在现代玻璃建筑前散步或坐于长椅，树影斑驳，灯光柔和。",
+    "theme": "城市夜景休闲区"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能有人在交谈或休息。"
+    ],
+    "direct_observations": [
+      "画面呈现夜间环境，背景为多层玻璃幕墙建筑。",
+      "前景有多人站立或坐在弯曲长椅上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "坐着",
+      "交谈"
+    ],
+    "attributes": [
+      "夜间",
+      "灯光照明",
+      "树影",
+      "建筑玻璃幕墙"
+    ],
+    "relations": [
+      "行人位于建筑前方。",
+      "行人与长椅相邻。"
+    ],
+    "scene": "城市户外公共空间",
+    "subjects": [
+      "多名行人",
+      "现代玻璃幕墙建筑",
+      "树木",
+      "长椅"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能有人在交谈或休息。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现夜间环境，背景为多层玻璃幕墙建筑；前景有多人站立或坐在弯曲长椅上。",
+    "safe_facts": [
+      "画面呈现夜间环境，背景为多层玻璃幕墙建筑。",
+      "前景有多人站立或坐在弯曲长椅上。"
+    ]
+  },
+  "label_id": "cpl_a3f892694d4092211322ca33",
+  "provenance": {
+    "generated_at": "2026-08-03T16:33:38.916991+00:00",
+    "migrated_at": "2026-08-03T16:33:38.918894+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d46bf8ea444dfad4ca8b4269ada1e5b66f0b91728b5a742c6e15a004309610a0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2905fddcccdb1bedac72f10d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:33:38.919101+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2905fddcccdb1bedac72f10d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

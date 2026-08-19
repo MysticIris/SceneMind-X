@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:511.jpg",
+    "relative_path": "train/511.jpg",
+    "sha256": "36f2872439131d2e86444b469ce49dc0a512c8358e908f5ff0cf33ed91edc2d6",
+    "split": "train"
+  },
+  "canonical_sha256": "03ae2c1cec642cc35ee179d7693eeebc38096639bb2e26e2bd557d115509f4fe",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "粉红花朵",
+      "多瓣花",
+      "绿叶衬托"
+    ],
+    "short_description": "一株盛开的粉红色花朵，花瓣层层叠叠，周围环绕着深绿色叶片，背景模糊。",
+    "theme": "粉红花朵特写"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中心有一朵盛开的粉红色花朵，花瓣边缘略卷曲。",
+      "花朵周围分布着深绿色、边缘带紫红色的叶片。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "花瓣呈粉红色",
+      "叶片呈深绿色"
+    ],
+    "relations": [
+      "花朵位于叶片上方。"
+    ],
+    "scene": "户外盆栽植物",
+    "subjects": [
+      "粉红色花朵",
+      "绿色叶片"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中心有一朵盛开的粉红色花朵，花瓣边缘略卷曲；花朵周围分布着深绿色、边缘带紫红色的叶片。",
+    "safe_facts": [
+      "画面中心有一朵盛开的粉红色花朵，花瓣边缘略卷曲。",
+      "花朵周围分布着深绿色、边缘带紫红色的叶片。"
+    ]
+  },
+  "label_id": "cpl_fd74e39fe2358ca1a9364ad7",
+  "provenance": {
+    "generated_at": "2026-08-03T11:18:44.778467+00:00",
+    "migrated_at": "2026-08-03T11:18:44.779951+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5ee50e1cb8fa8c7402985f43a37d37f3c0829a5b59046e752c7b11c3fa78a7f3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f08a8e6fb713b9c46522fdb8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:18:44.780161+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f08a8e6fb713b9c46522fdb8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

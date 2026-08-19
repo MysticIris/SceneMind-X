@@ -1,0 +1,140 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1960.jpg",
+    "relative_path": "train/1960.jpg",
+    "sha256": "eddda20ae46d66398a8b8336b2540219cf95ae4758fcd812cf20ba42d449f906",
+    "split": "train"
+  },
+  "canonical_sha256": "f3ba5bbda72e14cd49130bfc6cae1aa54f517c9ac266a217cb19066eb0ddc0b6",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "大学建筑",
+      "校庆横幅",
+      "阶梯花坛"
+    ],
+    "short_description": "武汉大学标志性建筑前，红色横幅标示周年校庆，两侧阶梯装饰花卉，天空晴朗。",
+    "theme": "大学建筑庆典"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑正面有中式飞檐和多排窗户。",
+      "台阶两侧有石栏杆和黑色路灯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灰色混凝土外墙",
+      "中式飞檐屋顶",
+      "多扇玻璃窗",
+      "红色横幅",
+      "黑色台阶",
+      "盆栽花卉"
+    ],
+    "relations": [
+      "横幅位于建筑前方台阶中央。",
+      "花卉装饰在台阶两侧及横幅底部。"
+    ],
+    "scene": "大学校园建筑前广场",
+    "subjects": [
+      "建筑",
+      "红色横幅",
+      "阶梯",
+      "路灯",
+      "花卉装饰"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑正面有中式飞檐和多排窗户；台阶两侧有石栏杆和黑色路灯。",
+    "safe_facts": [
+      "建筑正面有中式飞檐和多排窗户。",
+      "台阶两侧有石栏杆和黑色路灯。"
+    ]
+  },
+  "label_id": "cpl_d9a308a9e1a5239dfd1aa1c5",
+  "provenance": {
+    "generated_at": "2026-08-03T15:28:55.500743+00:00",
+    "migrated_at": "2026-08-03T15:28:55.503548+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9493bf2dca5ec7b785356723eb5db52b523e864164b3a1c8a31622621ed03644",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ec76405da9d2925ef92203ae",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:28:55.504336+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ec76405da9d2925ef92203ae"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "武漢大學",
+      "130",
+      "1893-2023",
+      "武漢大學 130週年校慶",
+      "130th ANNIVERSARY",
+      "WUHAN UNIVERSITY"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "武漢大學",
+      "130",
+      "1893-2023",
+      "武漢大學 130週年校慶",
+      "130th ANNIVERSARY",
+      "WUHAN UNIVERSITY"
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2292.jpg",
+    "relative_path": "val/2292.jpg",
+    "sha256": "25cd3f498be2aa70b1d4c2af7b7b1d4e2ed30f3bb4185067a12d1f27eb1aaf2a",
+    "split": "val"
+  },
+  "canonical_sha256": "112e9a0f92a0a512a4ab3e00a31909d4273d16a0f34fca90fbd61c540a1f3832",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雕像",
+      "棕榈树",
+      "公园",
+      "儿童"
+    ],
+    "short_description": "棕榈树环绕的广场上，一座人物雕像矗立，周围有大人小孩休闲活动。",
+    "theme": "公园雕像与棕榈树"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "雕像可能具有纪念意义。"
+    ],
+    "direct_observations": [
+      "雕像基座上有汉字铭文。",
+      "背景中有高层建筑和水体。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "坐着",
+      "蹲着",
+      "站立",
+      "玩耍"
+    ],
+    "attributes": [
+      "石质基座",
+      "青铜雕像",
+      "绿色草坪",
+      "多云天空"
+    ],
+    "relations": [
+      "雕像位于广场中央。",
+      "儿童在雕像附近活动。",
+      "成人坐在雕像旁。"
+    ],
+    "scene": "户外公共广场",
+    "subjects": [
+      "人物雕像",
+      "棕榈树",
+      "成人",
+      "儿童"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "雕像可能具有纪念意义。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "雕像基座上有汉字铭文；背景中有高层建筑和水体。",
+    "safe_facts": [
+      "雕像基座上有汉字铭文。",
+      "背景中有高层建筑和水体。"
+    ]
+  },
+  "label_id": "cpl_398192f88936996e5230610c",
+  "provenance": {
+    "generated_at": "2026-08-03T16:25:37.071967+00:00",
+    "migrated_at": "2026-08-03T16:25:37.074140+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "827c06b4ad2a8e0ff717dca470414dc3baad7d9b11555af3cb64311ef4451d1d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_de78566fe7f8dcc3f100121e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:25:37.074526+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_de78566fe7f8dcc3f100121e"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "孙中山先生"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "孙中山先生"
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1503.jpg",
+    "relative_path": "train/1503.jpg",
+    "sha256": "3fb22363b11b895bf425796de77ecb65764a0baa06289d37374ff3310ee698a2",
+    "split": "train"
+  },
+  "canonical_sha256": "b8649c1f6b14b9d5ef01ccf7dea7da36116c55a8a1d59e43f517546b6c731797",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "哥特式建筑",
+      "拱形结构",
+      "圆形花窗"
+    ],
+    "short_description": "深色石墙与拱形结构构成的教堂内部，圆形花窗透入微光，营造庄严静谧氛围。",
+    "theme": "哥特式建筑内部"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "整体空间具有宗教建筑特征，可能为教堂或修道院内部。"
+    ],
+    "direct_observations": [
+      "画面呈现石砌墙体与连续拱形结构。",
+      "中央位置有一扇圆形花窗，透入外部光线。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深色石质墙体",
+      "拱形结构",
+      "圆形花窗",
+      "光线从窗户透入"
+    ],
+    "relations": [
+      "拱门连接不同空间。",
+      "花窗位于拱门上方。"
+    ],
+    "scene": "室内建筑空间",
+    "subjects": [
+      "石墙",
+      "拱门",
+      "圆形花窗"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "整体空间具有宗教建筑特征，可能为教堂或修道院内部。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现石砌墙体与连续拱形结构；中央位置有一扇圆形花窗，透入外部光线。",
+    "safe_facts": [
+      "画面呈现石砌墙体与连续拱形结构。",
+      "中央位置有一扇圆形花窗，透入外部光线。"
+    ]
+  },
+  "label_id": "cpl_f8cd7872a2b21ccf101aa51a",
+  "provenance": {
+    "generated_at": "2026-08-03T14:31:06.553042+00:00",
+    "migrated_at": "2026-08-03T14:31:06.555663+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "253d9f5680bf125e4ebbae28a512b6f0a735a225a5ed665a6fb191d59e9ba036",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_020c0956a3239108d327f37f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:31:06.558233+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_020c0956a3239108d327f37f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

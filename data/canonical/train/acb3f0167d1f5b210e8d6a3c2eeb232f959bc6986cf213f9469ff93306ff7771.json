@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1541.jpg",
+    "relative_path": "train/1541.jpg",
+    "sha256": "acb3f0167d1f5b210e8d6a3c2eeb232f959bc6986cf213f9469ff93306ff7771",
+    "split": "train"
+  },
+  "canonical_sha256": "7ed6bec4795e1512831f527c077d92ef4d2ebbc749edfeb67c4fed64e753988a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "毛绒玩具",
+      "狐狸",
+      "闭眼",
+      "柔软材质"
+    ],
+    "short_description": "一只橙色毛绒狐狸玩偶，眼睛闭合，表情似在睡觉或疲惫，耳朵和脸颊有白色绒毛。",
+    "theme": "毛绒玩具狐狸"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "主体为橙色与白色相间的毛绒玩具。",
+      "眼睛闭合，鼻头黑色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "橙色",
+      "白色绒毛",
+      "闭眼",
+      "柔软"
+    ],
+    "relations": [],
+    "scene": "",
+    "subjects": [
+      "毛绒狐狸玩偶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "主体为橙色与白色相间的毛绒玩具；眼睛闭合，鼻头黑色。",
+    "safe_facts": [
+      "主体为橙色与白色相间的毛绒玩具。",
+      "眼睛闭合，鼻头黑色。"
+    ]
+  },
+  "label_id": "cpl_303d48ee2e900bd0344e6a4a",
+  "provenance": {
+    "generated_at": "2026-08-03T14:35:37.694199+00:00",
+    "migrated_at": "2026-08-03T14:35:37.697609+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ff06ed1ccb91d5a44d615bbf83b5a151797b3c5189bfc4c13ea237082d596386",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5f08b668f06f960906af334d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:35:37.698014+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5f08b668f06f960906af334d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

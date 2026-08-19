@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1632.jpg",
+    "relative_path": "train/1632.jpg",
+    "sha256": "6cdf59780f4b1dc2553d27d054eb6d56b48ac442cd02f6fee83f5c622de43789",
+    "split": "train"
+  },
+  "canonical_sha256": "1f9d7cecae7244a18810d9901c3e243f59365e836c5a0d1f24e8d7f0bdce96bc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "猫咪",
+      "猫抓板",
+      "毛绒玩具",
+      "室内"
+    ],
+    "short_description": "一只长毛猫站在地毯上，正注视着一个绿色猫抓板，抓板顶端有一个粉色毛绒玩具。",
+    "theme": "室内猫咪玩耍"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一只浅色长毛猫站立在深色地毯上。",
+      "猫抓板呈绿色，顶部附着一个粉色毛绒玩具。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "猫注视着猫抓板"
+    ],
+    "attributes": [
+      "猫是长毛的",
+      "猫抓板是绿色的",
+      "毛绒玩具是粉色的"
+    ],
+    "relations": [
+      "猫位于猫抓板旁边。",
+      "毛绒玩具固定在猫抓板顶部。"
+    ],
+    "scene": "室内房间角落",
+    "subjects": [
+      "一只猫",
+      "一个猫抓板",
+      "一个粉色毛绒玩具"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一只浅色长毛猫站立在深色地毯上；猫抓板呈绿色，顶部附着一个粉色毛绒玩具。",
+    "safe_facts": [
+      "画面中有一只浅色长毛猫站立在深色地毯上。",
+      "猫抓板呈绿色，顶部附着一个粉色毛绒玩具。"
+    ]
+  },
+  "label_id": "cpl_ffe3fa1b1209944f0df76696",
+  "provenance": {
+    "generated_at": "2026-08-02T22:05:37.815171+00:00",
+    "migrated_at": "2026-08-03T07:13:41.424167+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "060506cde1fa49cedca1e4ba00d12f3c78d039fdc7547c7989a25f3936878689",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_bb84a25eaece941098001775",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:47:25.865100+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_bb84a25eaece941098001775",
+    "cpl_b4da3e9b6967d2d001900ed8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

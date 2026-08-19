@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:763.jpg",
+    "relative_path": "train/763.jpg",
+    "sha256": "3dfdce88faddc41d3054466138ec9e7cbc8d1aa0438f8330deac7c8a71f14a53",
+    "split": "train"
+  },
+  "canonical_sha256": "2ad789913440d2bf90fd693170a446f0ef4149068a33dcd6b8e5271e1a2f5abb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "男子",
+      "水边",
+      "木栈道",
+      "背影"
+    ],
+    "short_description": "一名男子背对镜头站在岸边，双手交握持物，远处有木栈道和另一人。",
+    "theme": "水边静思"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "男子可能正在凝视水面或思考。"
+    ],
+    "direct_observations": [
+      "一名男子背对镜头站立于水岸边缘。",
+      "男子身穿黑色上衣和黑色长裤，双手交握持一物体。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "手持物品"
+    ],
+    "attributes": [
+      "黑色上衣",
+      "黑色裤子",
+      "短发",
+      "深色水面"
+    ],
+    "relations": [
+      "男子站在岸边。",
+      "男子面对水面。",
+      "远处有人在栈道上。"
+    ],
+    "scene": "水边",
+    "subjects": [
+      "一名男子",
+      "远处一人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "男子可能正在凝视水面或思考。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名男子背对镜头站立于水岸边缘；男子身穿黑色上衣和黑色长裤，双手交握持一物体。",
+    "safe_facts": [
+      "一名男子背对镜头站立于水岸边缘。",
+      "男子身穿黑色上衣和黑色长裤，双手交握持一物体。"
+    ]
+  },
+  "label_id": "cpl_6eac13bab7c2b1a296e816c6",
+  "provenance": {
+    "generated_at": "2026-08-03T12:18:11.569176+00:00",
+    "migrated_at": "2026-08-03T12:18:11.571816+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "36aa357a2da947fe833db4a248cf0d4b4a576640672dc400fd708291c600a820",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4557b3cf34acfc7bfbd95937",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:18:11.572159+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4557b3cf34acfc7bfbd95937"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

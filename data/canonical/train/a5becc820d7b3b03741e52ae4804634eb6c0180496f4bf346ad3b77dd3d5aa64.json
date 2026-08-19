@@ -1,0 +1,136 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1990.jpg",
+    "relative_path": "train/1990.jpg",
+    "sha256": "a5becc820d7b3b03741e52ae4804634eb6c0180496f4bf346ad3b77dd3d5aa64",
+    "split": "train"
+  },
+  "canonical_sha256": "94c193f0fa58f3e92115498b6770a7dc188d64adc54f025d7aca02c0d62d9c61",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蛋糕模型",
+      "甜点"
+    ],
+    "short_description": "一个以大耳狗为主题的蛋糕模型，装饰有奶油、饼干和螺旋棒棒糖，置于白色展台上。",
+    "theme": "甜点展示"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "蛋糕模型上有一个大耳狗玩偶作为中心装饰。",
+      "蛋糕周围有多个奶油尖峰和饼干片装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "浅蓝色条纹底座",
+      "白色展台",
+      "透明玻璃罩"
+    ],
+    "relations": [
+      "大耳狗玩偶位于蛋糕顶部中央。",
+      "奶油装饰环绕蛋糕底部。"
+    ],
+    "scene": "室内展示柜",
+    "subjects": [
+      "蛋糕模型",
+      "大耳狗玩偶",
+      "螺旋棒棒糖",
+      "奶油装饰",
+      "饼干装饰"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "蛋糕模型上有一个大耳狗玩偶作为中心装饰；蛋糕周围有多个奶油尖峰和饼干片装饰。",
+    "safe_facts": [
+      "蛋糕模型上有一个大耳狗玩偶作为中心装饰。",
+      "蛋糕周围有多个奶油尖峰和饼干片装饰。"
+    ]
+  },
+  "label_id": "cpl_d3fa5aac97ccf66eb78bb8b6",
+  "provenance": {
+    "generated_at": "2026-08-03T15:32:38.041824+00:00",
+    "migrated_at": "2026-08-03T15:32:38.043995+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "75ccbde9524a1024dda0eb02e6bc6ca0f1e17e2bdb6b88298c26722f4eca2aa7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_804dc5429b51cdb480adbf94",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:32:38.044605+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_804dc5429b51cdb480adbf94"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Cinnamoroll",
+      "Holliland 好利来",
+      "大耳狗天空茶会",
+      "CINNAMOROLL DRY TEA MUFFIN"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Cinnamoroll",
+      "Holliland 好利来",
+      "大耳狗天空茶会",
+      "CINNAMOROLL DRY TEA MUFFIN"
+    ]
+  }
+}

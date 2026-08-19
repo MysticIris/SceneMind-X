@@ -1,0 +1,144 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_2584b3a3619cd55655bcbb49",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_7c6562493213354182de5638"
+  ],
+  "asset": {
+    "asset_id": "fcd31055bd66ec7e",
+    "sha256": "fcd31055bd66ec7eb329d12e8f6416234b46d1359ee9e989bd9d56d99b60bb37",
+    "split": "user_custom",
+    "relative_path": "user_assets/fc/fcd31055bd66ec7eb329d12e8f6416234b46d1359ee9e989bd9d56d99b60bb37/fcd31055bd66ec7eb329d12e8f6416234b46d1359ee9e989bd9d56d99b60bb37.png"
+  },
+  "display": {
+    "theme": "美发服务团购列表",
+    "short_description": "这是一张手机应用界面的截图，展示了美发沙龙的团购服务列表。页面包含多个带有模特发型照片的服务卡片，列出了烫染、剪发等项目的名称、折扣价格及购买按钮，底部设有预约功能栏。",
+    "micro_tags": [
+      "手机截图",
+      "美发团购",
+      "烫染服务",
+      "价格列表",
+      "发型展示",
+      "APP界面"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "移动端应用程序的用户界面",
+    "subjects": [
+      "服务列表卡片",
+      "发型模特照片",
+      "价格标签",
+      "导航图标",
+      "底部操作栏"
+    ],
+    "actions": [],
+    "attributes": [
+      "垂直排列",
+      "橙色强调色",
+      "图文混排",
+      "包含数字与货币符号"
+    ],
+    "relations": [
+      "左侧为发型缩略图，右侧为服务详情与价格。",
+      "每个条目右侧均有橙色的圆形购买按钮。",
+      "顶部有搜索框与分类标签。",
+      "底部固定有功能导航栏。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "屏幕显示垂直滚动的列表，每项包含一张展示女性或男性发型的图片。",
+      "价格信息以红色大字体显示，旁边伴有灰色的原价划线标注。",
+      "界面顶部有搜索栏和‘烫染’、‘洗剪吹’等分类筛选胶囊按钮。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "男士剪发",
+      "团购",
+      "烫染",
+      "学生专享",
+      "抢购",
+      "立即预约"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "男士剪发",
+      "团购",
+      "烫染",
+      "学生专享",
+      "抢购",
+      "立即预约"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "屏幕显示垂直滚动的列表，每项包含一张展示女性或男性发型的图片；价格信息以红色大字体显示，旁边伴有灰色的原价划线标注。",
+    "safe_facts": [
+      "屏幕显示垂直滚动的列表，每项包含一张展示女性或男性发型的图片。",
+      "价格信息以红色大字体显示，旁边伴有灰色的原价划线标注。",
+      "界面顶部有搜索栏和‘烫染’、‘洗剪吹’等分类筛选胶囊按钮。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_45787a6a-e459-4c6f-9540-0adcab8cf55e",
+    "generated_at": "2026-08-12T03:15:35.532897+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "e0453abcab9786a386955285aa048109ab4cecf474b9dfe9392920390498b722",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:15:35.534047+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_7c6562493213354182de5638",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:15:35.534438+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "5b1c84620625e89e186c05957a920f2c513aab873bf8a901c2165dd59d620669"
+}

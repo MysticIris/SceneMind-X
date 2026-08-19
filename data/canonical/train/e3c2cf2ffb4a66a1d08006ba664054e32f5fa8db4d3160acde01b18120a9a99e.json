@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1680.jpg",
+    "relative_path": "train/1680.jpg",
+    "sha256": "e3c2cf2ffb4a66a1d08006ba664054e32f5fa8db4d3160acde01b18120a9a99e",
+    "split": "train"
+  },
+  "canonical_sha256": "a6e783a0aa7124f11e1fdd14329e2c11baf7528841c2e7e1136fc8bc185ad670",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "荷花",
+      "城市天际线",
+      "湖泊",
+      "绿植"
+    ],
+    "short_description": "前景是盛开的荷花与荷叶，中景是宽阔水面，远景是城市建筑群轮廓，天空晴朗。",
+    "theme": "湖畔城市天际线"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "水面可能用于水产养殖或生态调节，因可见网状设施。"
+    ],
+    "direct_observations": [
+      "画面前景布满绿色荷叶和粉红色荷花。",
+      "水面延伸至远方，对岸可见城市建筑轮廓。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "粉红色花朵",
+      "绿色宽大叶片",
+      "晴朗天空",
+      "远处建筑群"
+    ],
+    "relations": [
+      "荷花生长于水面。",
+      "荷叶覆盖水面。",
+      "城市建筑群位于水岸对岸。"
+    ],
+    "scene": "湖泊与城市景观",
+    "subjects": [
+      "荷花",
+      "荷叶",
+      "水面",
+      "城市建筑群"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "水面可能用于水产养殖或生态调节，因可见网状设施。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景布满绿色荷叶和粉红色荷花；水面延伸至远方，对岸可见城市建筑轮廓。",
+    "safe_facts": [
+      "画面前景布满绿色荷叶和粉红色荷花。",
+      "水面延伸至远方，对岸可见城市建筑轮廓。"
+    ]
+  },
+  "label_id": "cpl_0a6b1e4f28c9f6807033f4c6",
+  "provenance": {
+    "generated_at": "2026-08-03T14:53:23.790613+00:00",
+    "migrated_at": "2026-08-03T14:53:23.794072+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bc41bf718d32d6a8ec2917ef1c9c231f7697b538d5bedc5273987c131db42e8b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_14b587f003a9542f1a74346c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:53:23.794445+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_14b587f003a9542f1a74346c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

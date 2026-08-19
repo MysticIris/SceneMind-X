@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1611.jpg",
+    "relative_path": "train/1611.jpg",
+    "sha256": "d330e0620c84c932576db0cb074fbdb200edf533c6e9abb9ca439753b3ccded5",
+    "split": "train"
+  },
+  "canonical_sha256": "b804ba3b4ddf7a653202a22a4d038dfc07e5e10860685e5bc273316f0cd83f60",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中国国旗",
+      "山崖",
+      "砖房",
+      "旗帜飘扬"
+    ],
+    "short_description": "一面中国国旗在岩石峭壁旁的建筑屋顶飘扬，背景是陡峭的岩壁和少量植被。",
+    "theme": "山崖边的红旗"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一面红色旗帜带有黄色五角星图案，悬挂在一根杆子上。",
+      "建筑墙体由灰色砖块砌成，屋檐有传统瓦片装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色旗面",
+      "黄色五角星",
+      "灰色砖墙",
+      "瓦片屋檐"
+    ],
+    "relations": [
+      "国旗悬挂在建筑屋檐上方。",
+      "建筑依附于岩壁。"
+    ],
+    "scene": "山崖旁的建筑物",
+    "subjects": [
+      "中国国旗",
+      "岩石峭壁",
+      "砖砌建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一面红色旗帜带有黄色五角星图案，悬挂在一根杆子上；建筑墙体由灰色砖块砌成，屋檐有传统瓦片装饰。",
+    "safe_facts": [
+      "一面红色旗帜带有黄色五角星图案，悬挂在一根杆子上。",
+      "建筑墙体由灰色砖块砌成，屋檐有传统瓦片装饰。"
+    ]
+  },
+  "label_id": "cpl_b5f8d39850419ecd59006ff0",
+  "provenance": {
+    "generated_at": "2026-08-03T14:45:10.745362+00:00",
+    "migrated_at": "2026-08-03T14:45:10.749196+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "62b008137269cf734e9a0c76db8caeac3bade321bed3697a9666d13b412c6fbb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f94081d229d007fdf25f6d2c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:45:10.749566+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f94081d229d007fdf25f6d2c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:548.jpg",
+    "relative_path": "train/548.jpg",
+    "sha256": "135f0b50dc28bc7ede8d787b7a6d441b8ed8fb18a43cbaede32cf2611305a05d",
+    "split": "train"
+  },
+  "canonical_sha256": "821dbf1429db5e90bd98131e9484f48dd626555fc05b5654c0d928aa407c6ea9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "喷泉",
+      "夜景",
+      "灯光秀",
+      "水雾",
+      "湖面"
+    ],
+    "short_description": "夜晚湖面中央的喷泉被蓝紫红灯光照亮，水柱飞溅，周围建筑与植物在光影中若隐若现，有人正用手机拍摄。",
+    "theme": "夜景喷泉秀"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "喷泉表演可能为人工设计的灯光水舞秀。"
+    ],
+    "direct_observations": [
+      "喷泉正在喷水并被彩色灯光照射。",
+      "前景有被蓝色灯光照亮的草丛。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "喷水",
+      "发光",
+      "拍摄"
+    ],
+    "attributes": [
+      "彩色灯光",
+      "水雾弥漫",
+      "倒影",
+      "植被照明"
+    ],
+    "relations": [
+      "喷泉位于湖中央。",
+      "手机在前景拍摄。",
+      "建筑环绕喷泉。"
+    ],
+    "scene": "夜间户外水域",
+    "subjects": [
+      "喷泉装置",
+      "水面",
+      "树木",
+      "建筑物",
+      "手机"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "喷泉表演可能为人工设计的灯光水舞秀。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "喷泉正在喷水并被彩色灯光照射；前景有被蓝色灯光照亮的草丛。",
+    "safe_facts": [
+      "喷泉正在喷水并被彩色灯光照射。",
+      "前景有被蓝色灯光照亮的草丛。"
+    ]
+  },
+  "label_id": "cpl_469440f7d27d918ea456e353",
+  "provenance": {
+    "generated_at": "2026-08-03T11:30:27.720236+00:00",
+    "migrated_at": "2026-08-03T11:30:27.723626+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "37e22301d02bc0afcc00659b384690f3d07097b0b26d5f2326075caa00591ecb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_baf4abe956bd211b1fc43dbb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:30:27.724076+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_baf4abe956bd211b1fc43dbb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

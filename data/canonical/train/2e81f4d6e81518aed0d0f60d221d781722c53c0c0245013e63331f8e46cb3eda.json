@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1178.jpg",
+    "relative_path": "train/1178.jpg",
+    "sha256": "2e81f4d6e81518aed0d0f60d221d781722c53c0c0245013e63331f8e46cb3eda",
+    "split": "train"
+  },
+  "canonical_sha256": "81df53f4d7020e7c708509f41ad3f67add868defa6f2f4a7edfcc51b2fbe6986",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "青铜雕塑",
+      "古代马车",
+      "博物馆展品"
+    ],
+    "short_description": "一组青铜材质的六匹拉车马雕塑，呈动态奔跑姿态，陈列于展厅内，背景有古代车马示意图。",
+    "theme": "青铜马车雕塑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "雕塑呈现六匹马并排前进的姿态。",
+      "马匹表面具有金属光泽和铸造痕迹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "青铜材质",
+      "动态姿势",
+      "多匹马并排"
+    ],
+    "relations": [
+      "马匹牵引车架。"
+    ],
+    "scene": "室内展厅",
+    "subjects": [
+      "青铜马雕塑",
+      "马车结构"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "雕塑呈现六匹马并排前进的姿态；马匹表面具有金属光泽和铸造痕迹。",
+    "safe_facts": [
+      "雕塑呈现六匹马并排前进的姿态。",
+      "马匹表面具有金属光泽和铸造痕迹。"
+    ]
+  },
+  "label_id": "cpl_0d36be946ec63acce79a4153",
+  "provenance": {
+    "generated_at": "2026-08-03T13:48:39.185176+00:00",
+    "migrated_at": "2026-08-03T13:48:39.189490+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "89cc7f6681bd32a50d36e90e6fe0514d085b1ff16f7ec108e1e7c6013f9c3348",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c1d97df05315b81774bad7a5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:48:39.189811+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c1d97df05315b81774bad7a5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

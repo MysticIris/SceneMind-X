@@ -1,0 +1,140 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2017.jpg",
+    "relative_path": "val/2017.jpg",
+    "sha256": "40c889f45b571624a839f0e5e9ca7c524abe1eceb940afb9b872992347889b68",
+    "split": "val"
+  },
+  "canonical_sha256": "a6874cc0facd21847f62d0d87298c6df495ddc26cc7ebc2463b03bc8fbce312e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "车内",
+      "儿童",
+      "对话",
+      "卡通字幕"
+    ],
+    "short_description": "三人在车内，儿童与成人互动，女孩仰头喝水，男孩含着棒棒糖，画面带节目字幕。",
+    "theme": "车内对话瞬间"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "三个人坐在汽车座椅上。",
+      "男孩嘴里含着一根棒棒糖。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "男孩含着棒棒糖",
+      "女孩仰头喝水",
+      "男孩与女孩对话"
+    ],
+    "attributes": [
+      "穿着粉色背心",
+      "系着安全带",
+      "有卡通字幕"
+    ],
+    "relations": [
+      "男孩坐在成年男性旁边。",
+      "女孩坐在男孩旁边。"
+    ],
+    "scene": "车内",
+    "subjects": [
+      "一名成年男性",
+      "一名七岁男孩",
+      "一名小女孩"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三个人坐在汽车座椅上；男孩嘴里含着一根棒棒糖。",
+    "safe_facts": [
+      "三个人坐在汽车座椅上。",
+      "男孩嘴里含着一根棒棒糖。"
+    ]
+  },
+  "label_id": "cpl_d4a7621ed6975a862eb3f357",
+  "provenance": {
+    "generated_at": "2026-08-03T15:48:21.801335+00:00",
+    "migrated_at": "2026-08-03T15:48:21.803079+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "76d7cabce2652187fbee3c3980b67d5a8e2c16d0deeddba46560acf11fb40aaa",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0cb5743b900bfa8e9af29b58",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:48:21.803489+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0cb5743b900bfa8e9af29b58"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "夺冠!",
+      "好奇",
+      "果果 (7岁)",
+      "刘翔",
+      "你到底几岁",
+      "21(岁)"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "夺冠!",
+      "好奇",
+      "果果 (7岁)",
+      "刘翔",
+      "你到底几岁",
+      "21(岁)"
+    ]
+  }
+}

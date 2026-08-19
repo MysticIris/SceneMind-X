@@ -1,0 +1,126 @@
+{
+  "asset_id": "8df80aea56e06253",
+  "asset_sha256": "8df80aea56e062531de456545dddfd13f801bfcd5e7bdd76874e50b9ff7f3701",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"电子电路原理图\",\n    \"short_description\": \"这是一张详细的电子工程电路原理图，展示了基于FPGA芯片的硬件设计。图中包含JTAG调试接口、USB通信模块、音频编解码器、以太网接口以及SD卡槽等子电路，右下角标有嘉立创EDA标志及版本信息。\",\n    \"micro_tags\": [\n      \"电路原理图\",\n      \"FPGA设计\",\n      \"EDA软件\",\n      \"硬件开发\",\n      \"电子工程\",\n      \"PCB设计\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"illustration\",\n    \"scene\": \"电子设计自动化软件界面或导出的图纸\",\n    \"subjects\": [\n      \"电路原理图\",\n      \"电子元器件符号\",\n      \"连接导线\",\n      \"标题栏\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白底黑线\",\n      \"红色网格背景\",\n      \"多模块布局\",\n      \"技术文档风格\"\n    ],\n    \"relations\": [\n      \"各功能模块通过导线逻辑连接\",\n      \"标题栏位于图纸右下角\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图像展示了标准的电气原理图符号，如电阻、电容、芯片引脚和连接器。\",\n      \"图纸被划分为多个功能区域，包括左上角的JTAG接口、中间的USB芯片电路、右侧的ADC/DAC模块以及底部的以太网和SD卡接口。\",\n      \"右下角有一个明显的蓝色云朵图标和文字标识，以及包含日期和版本的表格。\",\n      \"背景带有红色的坐标网格线。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据图中的芯片型号（如XC7A35T）和接口类型，这可能是一个用于教学或开发的FPGA核心板设计图。\",\n      \"红色网格和布局风格表明这是使用特定的EDA工具（如嘉立创EDA）绘制生成的。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"XC7A35T-1FTG256C\",\n      \"嘉立创EDA\",\n      \"电子技术课设原理图\",\n      \"2024-12-27\",\n      \"JTAG\",\n      \"USB\",\n      \"ADC\",\n      \"MicroSD\",\n      \"ETHERNET\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张包含多个电子模块连接关系的工程技术图纸，背景有红色网格，右下角有信息栏。\",\n    \"safe_facts\": [\n      \"图像为二维平面技术图纸\",\n      \"包含大量标准化的电子元件符号\",\n      \"元件之间通过线条表示电气连接\",\n      \"右下角包含结构化的信息表格区域\"\n    ]\n  }\n}",
+      "input_tokens": 2763,
+      "output_tokens": 685,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 2763,
+        "output_tokens": 685,
+        "total_tokens": 3448,
+        "estimated_cost_cny": 0.011006,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "电子电路原理图",
+          "short_description": "这是一张详细的电子工程电路原理图，展示了基于FPGA芯片的硬件设计。图中包含JTAG调试接口、USB通信模块、音频编解码器、以太网接口以及SD卡槽等子电路，右下角标有嘉立创EDA标志及版本信息。",
+          "micro_tags": [
+            "电路原理图",
+            "FPGA设计",
+            "EDA软件",
+            "硬件开发",
+            "电子工程",
+            "PCB设计"
+          ]
+        },
+        "facts": {
+          "visual_medium": "illustration",
+          "scene": "电子设计自动化软件界面或导出的图纸",
+          "subjects": [
+            "电路原理图",
+            "电子元器件符号",
+            "连接导线",
+            "标题栏"
+          ],
+          "actions": [],
+          "attributes": [
+            "白底黑线",
+            "红色网格背景",
+            "多模块布局",
+            "技术文档风格"
+          ],
+          "relations": [
+            "各功能模块通过导线逻辑连接",
+            "标题栏位于图纸右下角"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图像展示了标准的电气原理图符号，如电阻、电容、芯片引脚和连接器。",
+            "图纸被划分为多个功能区域，包括左上角的JTAG接口、中间的USB芯片电路、右侧的ADC/DAC模块以及底部的以太网和SD卡接口。",
+            "右下角有一个明显的蓝色云朵图标和文字标识，以及包含日期和版本的表格。",
+            "背景带有红色的坐标网格线。"
+          ],
+          "cautious_inferences": [
+            "根据图中的芯片型号（如XC7A35T）和接口类型，这可能是一个用于教学或开发的FPGA核心板设计图。",
+            "红色网格和布局风格表明这是使用特定的EDA工具（如嘉立创EDA）绘制生成的。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "XC7A35T-1FTG256C",
+            "嘉立创EDA",
+            "电子技术课设原理图",
+            "2024-12-27",
+            "JTAG",
+            "USB",
+            "ADC",
+            "MicroSD",
+            "ETHERNET"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张包含多个电子模块连接关系的工程技术图纸，背景有红色网格，右下角有信息栏。",
+          "safe_facts": [
+            "图像为二维平面技术图纸",
+            "包含大量标准化的电子元件符号",
+            "元件之间通过线条表示电气连接",
+            "右下角包含结构化的信息表格区域"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 843756,
+        "request_bytes": 629745,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 12.846630499996536,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "0c0c9740d753b1c358f087f50d087aec8c5dbca44b0fd3afcf669d58406b0667"
+}

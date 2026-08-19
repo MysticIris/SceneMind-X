@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:546.jpg",
+    "relative_path": "train/546.jpg",
+    "sha256": "cc606492b0f04b9f8bd9f21732056ec6dc39be229767d31c0aa625a7b5478e1c",
+    "split": "train"
+  },
+  "canonical_sha256": "dbfb83e1eae002cd4fd01a3a74293b6ffb490c464a1e3333eccdff7e8703d098",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "紫色花海",
+      "自然风光",
+      "田野花卉"
+    ],
+    "short_description": "一片紫色花田在阳光下绽放，远处山峦叠翠，近处花朵细节清晰，茎叶挺拔。",
+    "theme": "紫色花海"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空晴朗，光线充足。"
+    ],
+    "direct_observations": [
+      "画面中可见大量紫色小花组成花田。",
+      "前景有几株花茎挺立，花朵簇生。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "紫色",
+      "绿色",
+      "盛开",
+      "密集"
+    ],
+    "relations": [
+      "花朵生长于田野。",
+      "花朵位于前景与背景之间。"
+    ],
+    "scene": "户外田野",
+    "subjects": [
+      "紫色花朵",
+      "绿色茎叶",
+      "远山"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空晴朗，光线充足。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见大量紫色小花组成花田；前景有几株花茎挺立，花朵簇生。",
+    "safe_facts": [
+      "画面中可见大量紫色小花组成花田。",
+      "前景有几株花茎挺立，花朵簇生。"
+    ]
+  },
+  "label_id": "cpl_e22762607194eaf0898419f1",
+  "provenance": {
+    "generated_at": "2026-08-03T11:30:01.354473+00:00",
+    "migrated_at": "2026-08-03T11:30:01.356589+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9e26521b182a70d6dbc6af3395c28bb9eb3ae367f6408618251d5a7fad93427f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_974c95f41c56fbf2b4071b1f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:30:01.356967+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_974c95f41c56fbf2b4071b1f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

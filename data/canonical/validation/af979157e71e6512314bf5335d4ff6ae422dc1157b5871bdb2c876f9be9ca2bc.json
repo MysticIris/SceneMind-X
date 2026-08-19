@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2193.jpg",
+    "relative_path": "val/2193.jpg",
+    "sha256": "af979157e71e6512314bf5335d4ff6ae422dc1157b5871bdb2c876f9be9ca2bc",
+    "split": "val"
+  },
+  "canonical_sha256": "48623b97d0ea559996db96701e50ea34a2ce254a742b411077be1631696a273c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "寺庙",
+      "香火",
+      "焚烧",
+      "金色柱子"
+    ],
+    "short_description": "一名男子在寺庙外焚烧香烛，旁边有金色柱子和红色雕花窗格，背景可见部分建筑结构。",
+    "theme": "寺庙香火场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一名男子手持香烛正在焚烧。",
+      "香炉中有火焰和燃烧物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "焚烧香烛"
+    ],
+    "attributes": [
+      "男子穿黑色外套",
+      "香炉有火焰",
+      "柱子涂金漆",
+      "窗格有雕刻"
+    ],
+    "relations": [
+      "男子在香炉旁操作。",
+      "香炉位于柱子附近。"
+    ],
+    "scene": "寺庙外部区域",
+    "subjects": [
+      "一名男子",
+      "香炉",
+      "金色柱子",
+      "红色雕花窗格"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名男子手持香烛正在焚烧；香炉中有火焰和燃烧物。",
+    "safe_facts": [
+      "一名男子手持香烛正在焚烧。",
+      "香炉中有火焰和燃烧物。"
+    ]
+  },
+  "label_id": "cpl_a01185b02da52ab0577cf62e",
+  "provenance": {
+    "generated_at": "2026-08-03T16:10:46.109452+00:00",
+    "migrated_at": "2026-08-03T16:10:46.111247+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "97ed09cbc582365d4007054d3d4969ccfad1c3c864f0fee9177d5fb78ad83be2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_bf7abfe5cfcd3d9398f60ccb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:10:46.111555+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_bf7abfe5cfcd3d9398f60ccb"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "人生莫以为戏眼前法戒当感规"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "人生莫以为戏眼前法戒当感规"
+    ]
+  }
+}

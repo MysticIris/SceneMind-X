@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2119.jpg",
+    "relative_path": "val/2119.jpg",
+    "sha256": "9ed26ea2a6b113140bacdbf64d3d1cdd9a39a0c2d3b22c5edfee464d8ca11a5b",
+    "split": "val"
+  },
+  "canonical_sha256": "51fd50ba3f1d1341b23b46ec4bfabdcc9ba103ef142723e70436a5db0835b0b9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市建筑",
+      "云层",
+      "空调外机",
+      "窗户框架"
+    ],
+    "short_description": "从窗边视角望向城市建筑群，天空中有一朵被阳光照亮的云，左侧建筑外墙装有多台空调外机。",
+    "theme": "城市天际线与云层"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "云层可能处于日落或日出时段，因边缘被照亮。"
+    ],
+    "direct_observations": [
+      "画面左侧可见一栋多层建筑，外墙安装多个空调外机。",
+      "天空中有大片云层，顶部边缘呈亮白色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灰色外墙",
+      "多台空调外机",
+      "被阳光照亮的云",
+      "蓝色天空"
+    ],
+    "relations": [
+      "建筑物位于画面左侧。",
+      "云位于天空中央偏上。",
+      "窗户框架位于画面右侧。"
+    ],
+    "scene": "城市建筑群与天空",
+    "subjects": [
+      "建筑物",
+      "云",
+      "空调外机",
+      "窗户框架"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "云层可能处于日落或日出时段，因边缘被照亮。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面左侧可见一栋多层建筑，外墙安装多个空调外机；天空中有大片云层，顶部边缘呈亮白色。",
+    "safe_facts": [
+      "画面左侧可见一栋多层建筑，外墙安装多个空调外机。",
+      "天空中有大片云层，顶部边缘呈亮白色。"
+    ]
+  },
+  "label_id": "cpl_0ce201382622ec899c0fce0b",
+  "provenance": {
+    "generated_at": "2026-08-03T16:01:43.606587+00:00",
+    "migrated_at": "2026-08-03T16:01:43.608490+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4bd599891e62d524666256779710b567695cd2406eb3296e9b2dda4b2cc44a7e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f168a345003d66508674ebc1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:01:43.608726+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f168a345003d66508674ebc1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

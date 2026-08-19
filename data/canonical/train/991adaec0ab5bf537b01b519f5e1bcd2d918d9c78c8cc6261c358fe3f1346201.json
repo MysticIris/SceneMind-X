@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:103.jpg",
+    "relative_path": "train/103.jpg",
+    "sha256": "991adaec0ab5bf537b01b519f5e1bcd2d918d9c78c8cc6261c358fe3f1346201",
+    "split": "train"
+  },
+  "canonical_sha256": "cac5e241e36e107bfc34180bc7fc8fbfe7955b5d82b1db8b16fbc300b0d8f467",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "面包板",
+      "电子元件",
+      "数码显示屏",
+      "导线"
+    ],
+    "short_description": "绿色边框的面包板上布满彩色导线和电子元件，中央有一个红色数码显示屏显示数字。",
+    "theme": "电路实验板"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "面包板上有多个集成电路芯片和电阻等元件。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色边框",
+      "红色数码显示",
+      "多色导线缠绕"
+    ],
+    "relations": [
+      "导线连接面包板上的元件。",
+      "数码显示屏位于面包板中央。"
+    ],
+    "scene": "木质桌面上的电子实验装置",
+    "subjects": [
+      "面包板",
+      "导线",
+      "数码显示屏",
+      "集成电路芯片"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "面包板上有多个集成电路芯片和电阻等元件。",
+    "safe_facts": [
+      "面包板上有多个集成电路芯片和电阻等元件。"
+    ]
+  },
+  "label_id": "cpl_28cfa3a0a351b9536b8856ee",
+  "provenance": {
+    "generated_at": "2026-08-03T09:26:04.435625+00:00",
+    "migrated_at": "2026-08-03T09:26:04.437213+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a5e54e1753273e68505938aa8452834b36e8a7c24cfa418c0c45e03a16198ed8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8612dcd3e94aaf133cee9b56",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:29.570312+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:direct_observations"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8612dcd3e94aaf133cee9b56",
+    "cpl_6da58806d9b921696d43cab5"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "0.8"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "0.8"
+    ]
+  }
+}

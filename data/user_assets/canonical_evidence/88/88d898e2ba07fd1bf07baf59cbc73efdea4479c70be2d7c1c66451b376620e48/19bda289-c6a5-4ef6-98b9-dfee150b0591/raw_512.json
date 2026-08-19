@@ -1,0 +1,130 @@
+{
+  "asset_id": "88d898e2ba07fd1b",
+  "asset_sha256": "88d898e2ba07fd1bf07baf59cbc73efdea4479c70be2d7c1c66451b376620e48",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"高校选课系统界面\",\n    \"short_description\": \"一张拍摄电脑显示器的照片，屏幕上显示着“本科生专业选修课管理”网页。左侧为深色导航栏，包含“学生”、“选课”等菜单；右侧主区域显示“2025年秋季”学期信息及“按课程选课”的绿色按钮。\",\n    \"micro_tags\": [\n      \"网页截图\",\n      \"教务系统\",\n      \"选课界面\",\n      \"显示器\",\n      \"中文UI\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"电脑屏幕显示的网页界面\",\n    \"subjects\": [\n      \"浏览器窗口\",\n      \"导航菜单\",\n      \"功能按钮\",\n      \"文本信息\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"深色侧边栏\",\n      \"绿色高亮选中状态\",\n      \"浅灰色内容背景\",\n      \"蓝色顶部标题栏\"\n    ],\n    \"relations\": [\n      \"鼠标光标悬停在左侧“选课”菜单项上\",\n      \"右侧内容区对应左侧菜单的选择\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕顶部地址栏显示网址包含 'wsxk.hust.edu.cn'\",\n      \"页面标题为“本科生专业选修课管理”\",\n      \"左侧菜单栏中“选课”项被绿色背景高亮显示\",\n      \"右侧主要内容区显示“当前：2025年秋季”及日期“2026年2月25日”\",\n      \"有一个绿色的长方形按钮，文字为“按课程选课”\"\n    ],\n    \"cautious_inferences\": [\n      \"根据网址后缀推测这是华中科技大学的教务系统\",\n      \"用户正在进行或准备进行新学期的选课操作\"\n    ],\n    \"uncertainties\": [\n      \"无法确定拍摄者的具体身份\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"本科生专业选修课管理\",\n      \"专业选修课\",\n      \"学生\",\n      \"选课\",\n      \"选课记录\",\n      \"本科生选课\",\n      \"当前：2025年秋季\",\n      \"2026年2月25日，星期三\",\n      \"选课时间范围之内,您可在早7点-晚10点间进行选课操作!!\",\n      \"立即选课\",\n      \"按课程选课\",\n      \"系统通知\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"电脑屏幕上显示的一个中文网页管理系统界面，包含左侧导航栏和右侧操作面板，有一个显眼的绿色按钮。\",\n    \"safe_facts\": [\n      \"图像展示了计算机显示器的局部画面\",\n      \"界面采用左右分栏布局，左侧为深色菜单，右侧为浅色内容区\",\n      \"界面上包含多个中文文本标签和一个绿色操作按钮\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 705,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 705,
+        "total_tokens": 3910,
+        "estimated_cost_cny": 0.01205,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "高校选课系统界面",
+          "short_description": "一张拍摄电脑显示器的照片，屏幕上显示着“本科生专业选修课管理”网页。左侧为深色导航栏，包含“学生”、“选课”等菜单；右侧主区域显示“2025年秋季”学期信息及“按课程选课”的绿色按钮。",
+          "micro_tags": [
+            "网页截图",
+            "教务系统",
+            "选课界面",
+            "显示器",
+            "中文UI"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "电脑屏幕显示的网页界面",
+          "subjects": [
+            "浏览器窗口",
+            "导航菜单",
+            "功能按钮",
+            "文本信息"
+          ],
+          "actions": [],
+          "attributes": [
+            "深色侧边栏",
+            "绿色高亮选中状态",
+            "浅灰色内容背景",
+            "蓝色顶部标题栏"
+          ],
+          "relations": [
+            "鼠标光标悬停在左侧“选课”菜单项上",
+            "右侧内容区对应左侧菜单的选择"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "屏幕顶部地址栏显示网址包含 'wsxk.hust.edu.cn'",
+            "页面标题为“本科生专业选修课管理”",
+            "左侧菜单栏中“选课”项被绿色背景高亮显示",
+            "右侧主要内容区显示“当前：2025年秋季”及日期“2026年2月25日”",
+            "有一个绿色的长方形按钮，文字为“按课程选课”"
+          ],
+          "cautious_inferences": [
+            "根据网址后缀推测这是华中科技大学的教务系统",
+            "用户正在进行或准备进行新学期的选课操作"
+          ],
+          "uncertainties": [
+            "无法确定拍摄者的具体身份"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "本科生专业选修课管理",
+            "专业选修课",
+            "学生",
+            "选课",
+            "选课记录",
+            "本科生选课",
+            "当前：2025年秋季",
+            "2026年2月25日，星期三",
+            "选课时间范围之内,您可在早7点-晚10点间进行选课操作!!",
+            "立即选课",
+            "按课程选课",
+            "系统通知"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "电脑屏幕上显示的一个中文网页管理系统界面，包含左侧导航栏和右侧操作面板，有一个显眼的绿色按钮。",
+          "safe_facts": [
+            "图像展示了计算机显示器的局部画面",
+            "界面采用左右分栏布局，左侧为深色菜单，右侧为浅色内容区",
+            "界面上包含多个中文文本标签和一个绿色操作按钮"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 5889796,
+        "request_bytes": 4414274,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.345382300001802,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "ea7cda6d03c3be7a0d5030038386152836847995d09b475cc35686f082b0d347"
+}

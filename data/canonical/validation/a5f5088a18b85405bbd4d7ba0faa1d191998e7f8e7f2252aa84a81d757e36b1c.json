@@ -1,0 +1,135 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2200.jpg",
+    "relative_path": "val/2200.jpg",
+    "sha256": "a5f5088a18b85405bbd4d7ba0faa1d191998e7f8e7f2252aa84a81d757e36b1c",
+    "split": "val"
+  },
+  "canonical_sha256": "19150cf3ff3ac4f84d62c0638115b62df2d63669347d2254d7ca175429e5e084",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "禁停标志",
+      "路边堆放物"
+    ],
+    "short_description": "蓝色警示牌上有禁止停车符号；锥形桶放置在路缘石边沿。",
+    "theme": "锥形交通桶与纸箱堆"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "蓝色警示牌上有禁止停车符号。",
+      "锥形桶放置在路缘石边沿。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "警示牌有禁止停车符号",
+      "锥形桶有黄黑条纹",
+      "纸箱堆放在路缘石上"
+    ],
+    "relations": [
+      "警示牌立于路缘石旁。",
+      "锥形桶位于警示牌附近。",
+      "纸箱堆靠近警示牌。"
+    ],
+    "scene": "室外街道旁人行道",
+    "subjects": [
+      "锥形交通桶",
+      "纸箱堆",
+      "电动车",
+      "行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "蓝色警示牌上有禁止停车符号；锥形桶放置在路缘石边沿。",
+    "safe_facts": [
+      "蓝色警示牌上有禁止停车符号。",
+      "锥形桶放置在路缘石边沿。"
+    ]
+  },
+  "label_id": "cpl_49e6f5d02c1b2f3cd58fd9bf",
+  "provenance": {
+    "generated_at": "2026-08-03T16:12:59.110829+00:00",
+    "migrated_at": "2026-08-03T16:12:59.112819+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "059f0c498eae9f64f163bdbc0417547fb0103fb44554878253d99adb170c2882",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fd4f7b97755f6ee60b7b708f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:12:59.113458+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fd4f7b97755f6ee60b7b708f"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "消防通道 请勿停车",
+      "请勿泊车"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "消防通道 请勿停车",
+      "请勿泊车"
+    ]
+  }
+}

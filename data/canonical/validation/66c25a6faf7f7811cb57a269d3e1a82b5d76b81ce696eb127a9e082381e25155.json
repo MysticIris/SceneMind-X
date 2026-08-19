@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2028.jpg",
+    "relative_path": "val/2028.jpg",
+    "sha256": "66c25a6faf7f7811cb57a269d3e1a82b5d76b81ce696eb127a9e082381e25155",
+    "split": "val"
+  },
+  "canonical_sha256": "2aa3309cd4004f9cc758ee1498d392f3400fc5cb7fb4df7a91d4e1914afcd381",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "分层甜品",
+      "玻璃杯",
+      "吸管",
+      "桌面"
+    ],
+    "short_description": "一杯装在玻璃杯中的分层甜品，顶部有碎屑和吸管，底部有绿色液体，置于木质桌面上。",
+    "theme": "分层甜品饮品"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "饮品可能含有冰块或冷冻成分，因杯壁有冷凝水珠。"
+    ],
+    "direct_observations": [
+      "玻璃杯内有明显分层结构，从上到下颜色和质地不同。",
+      "杯中插有白色吸管和金属勺子。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "分层结构",
+      "顶部有碎屑",
+      "杯壁有水珠",
+      "杯内有多种颜色层次"
+    ],
+    "relations": [
+      "甜品饮品在玻璃杯中。",
+      "吸管插在饮品中。",
+      "金属勺子插在饮品中。",
+      "饮品放在桌面上。"
+    ],
+    "scene": "室内餐桌环境",
+    "subjects": [
+      "玻璃杯",
+      "甜品饮品",
+      "吸管",
+      "金属勺子",
+      "桌面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "饮品可能含有冰块或冷冻成分，因杯壁有冷凝水珠。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "玻璃杯内有明显分层结构，从上到下颜色和质地不同；杯中插有白色吸管和金属勺子。",
+    "safe_facts": [
+      "玻璃杯内有明显分层结构，从上到下颜色和质地不同。",
+      "杯中插有白色吸管和金属勺子。"
+    ]
+  },
+  "label_id": "cpl_9875fcd42d6f8a4672c2e515",
+  "provenance": {
+    "generated_at": "2026-08-03T15:50:05.498508+00:00",
+    "migrated_at": "2026-08-03T15:50:05.500030+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "874a38df091874ee8c876fc3f4baabd7420f0bae82545c86b787aa46b4224a4b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2ff68171359dacd32643335c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:50:05.500236+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2ff68171359dacd32643335c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2304.jpg",
+    "relative_path": "val/2304.jpg",
+    "sha256": "cec09d8789ba3eea3c39046f522f5bb7fa5c80e7e40d1263bf7791faa280a97f",
+    "split": "val"
+  },
+  "canonical_sha256": "3ae05f3b936c509aecd9dd837d7271bcd4a6ede10c50c065fa020fcd793110c9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "河流",
+      "绿植",
+      "桥梁",
+      "山丘"
+    ],
+    "short_description": "晴朗天气下，河流蜿蜒穿过绿树成荫的河岸，远处山丘覆盖植被，一座桥梁横跨水面，左侧有现代建筑。",
+    "theme": "河畔绿意"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "河岸两侧生长茂密的草本植物和树木。"
+    ],
+    "direct_observations": [
+      "天空呈蓝色并有云层。",
+      "河流水体较浅且可见底部。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晴朗天空",
+      "绿色植被",
+      "浅色河水",
+      "混凝土桥"
+    ],
+    "relations": [
+      "河流流经河岸。",
+      "桥梁跨越河流。",
+      "树木沿河岸分布。",
+      "山丘位于桥梁后方。"
+    ],
+    "scene": "城市河岸景观",
+    "subjects": [
+      "河流",
+      "树木",
+      "桥梁",
+      "山丘",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "河岸两侧生长茂密的草本植物和树木。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈蓝色并有云层；河流水体较浅且可见底部。",
+    "safe_facts": [
+      "天空呈蓝色并有云层。",
+      "河流水体较浅且可见底部。"
+    ]
+  },
+  "label_id": "cpl_20f28cf08eefee28ad168c0e",
+  "provenance": {
+    "generated_at": "2026-08-03T16:27:09.392453+00:00",
+    "migrated_at": "2026-08-03T16:27:09.394077+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "678c89527e1c1b39854c0f5c63c76d4285f5de89ab354db10abbebfdaa52ae36",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e305313f2e8e6ea61efbe754",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:27:09.394290+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e305313f2e8e6ea61efbe754"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1924.jpg",
+    "relative_path": "train/1924.jpg",
+    "sha256": "a600cfda2746903e819f0f5316fd7a6dcebb91e000ee74457bfbe6bef675197a",
+    "split": "train"
+  },
+  "canonical_sha256": "b5769466ffc4a189182b05762a9715f36d7e7e32112208f9b6c7bd1bcd368265",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "棕熊",
+      "树干",
+      "丛林",
+      "绿植"
+    ],
+    "short_description": "一只棕熊栖息在粗壮树干上，周围绿植繁茂，前景是开满小黄花的草地。",
+    "theme": "丛林熊景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一只棕熊趴在横卧的粗大树干上。",
+      "前景是一片密集的绿色植物，夹杂着黄色小花。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "栖息"
+    ],
+    "attributes": [
+      "棕色皮毛",
+      "绿色树叶",
+      "黄色小花",
+      "粗壮树干"
+    ],
+    "relations": [
+      "熊在树干上。",
+      "树干横跨画面。",
+      "植物环绕熊。"
+    ],
+    "scene": "森林或动物园围栏内",
+    "subjects": [
+      "棕熊",
+      "树干",
+      "植物",
+      "地面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只棕熊趴在横卧的粗大树干上；前景是一片密集的绿色植物，夹杂着黄色小花。",
+    "safe_facts": [
+      "一只棕熊趴在横卧的粗大树干上。",
+      "前景是一片密集的绿色植物，夹杂着黄色小花。"
+    ]
+  },
+  "label_id": "cpl_e5dcc577c04b388007d3c05f",
+  "provenance": {
+    "generated_at": "2026-08-02T22:18:44.536511+00:00",
+    "migrated_at": "2026-08-03T07:13:41.549424+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "68d89a12f796207463a1290d3e186b11e672727f44295fae612f7d87990e952b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_475ea788349b219476b83fa1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:23:18.958663+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_475ea788349b219476b83fa1",
+    "cpl_f732feaa168805f242d6277b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1152.jpg",
+    "relative_path": "train/1152.jpg",
+    "sha256": "e7abd5a7f743bedd115b9e04293c6eaba48e3c4632d7a310e98018bbb66b970b",
+    "split": "train"
+  },
+  "canonical_sha256": "79b043f4da3db48454170e1a91fb24ebd27327d32f16188bd11d4205084e6a99",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "博物馆展品",
+      "复制品"
+    ],
+    "short_description": "博物馆展柜中陈列的金色金属杯，置于灰色基座上，背景有参观者身影。",
+    "theme": "展品"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见展柜。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金色",
+      "带耳",
+      "圆形盖子",
+      "置于基座上"
+    ],
+    "relations": [],
+    "scene": "室内展览环境",
+    "subjects": [
+      "展柜"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见展柜。",
+    "safe_facts": [
+      "画面中可见展柜。"
+    ]
+  },
+  "label_id": "cpl_99dd8101ef0155221ddca981",
+  "provenance": {
+    "generated_at": "2026-08-02T22:06:10.422726+00:00",
+    "migrated_at": "2026-08-03T07:13:41.450273+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0a0533b53e09a5789cfbacfed8c47f4a97a9c4f2e45d77a5387cb1f978bfa15b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_afa7010b7a8a0c5e863728f4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:44:28.092891+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:direct_observations",
+      "removed_unverified_text:relations"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_afa7010b7a8a0c5e863728f4",
+    "cpl_e7ed3df947c81efa05c19daf"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "金杯",
+      "Gold cup",
+      "本件重 788.83 克",
+      "此文物在外展出",
+      "本件为复制件"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "金杯",
+      "Gold cup",
+      "本件重 788.83 克",
+      "此文物在外展出",
+      "本件为复制件"
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1103.jpg",
+    "relative_path": "train/1103.jpg",
+    "sha256": "9c8a12a48042be291adcca9cbfa33ab7f796a0a0430c57d5ae74cc54b43d7bc3",
+    "split": "train"
+  },
+  "canonical_sha256": "743fbab5b72f7e672be333c4b29cef46a7bbfafc60ea9b9651ab22542ca77b5c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "游船",
+      "峡谷",
+      "绿水",
+      "岩壁",
+      "浮标"
+    ],
+    "short_description": "绿水中一艘木质游船正驶过陡峭岩壁，两岸植被茂密，水面漂浮着黄色浮标。",
+    "theme": "峡谷漂流"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有一艘木质结构的游船漂浮在绿色水面上。",
+      "背景是高耸的岩壁，表面覆盖着浓密的绿色植物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质结构",
+      "绿色水面",
+      "茂密植被",
+      "黄色浮标"
+    ],
+    "relations": [
+      "游船在水面上。",
+      "岩壁环绕水域。",
+      "植被覆盖岩壁。"
+    ],
+    "scene": "峡谷河流",
+    "subjects": [
+      "游船",
+      "岩壁",
+      "水面",
+      "植被"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一艘木质结构的游船漂浮在绿色水面上；背景是高耸的岩壁，表面覆盖着浓密的绿色植物。",
+    "safe_facts": [
+      "画面中央有一艘木质结构的游船漂浮在绿色水面上。",
+      "背景是高耸的岩壁，表面覆盖着浓密的绿色植物。"
+    ]
+  },
+  "label_id": "cpl_4d0ee11cd97b34671d0dfc71",
+  "provenance": {
+    "generated_at": "2026-08-03T13:37:47.843080+00:00",
+    "migrated_at": "2026-08-03T13:37:47.847844+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dc41e399d3819b9c74d872b6c8853e2e7efe5a4fd44f1a25c63b2b0125f0d611",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4ff67858a93a73fc92cf4806",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:37:47.848226+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4ff67858a93a73fc92cf4806"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

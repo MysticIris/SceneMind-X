@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1686.jpg",
+    "relative_path": "train/1686.jpg",
+    "sha256": "d7cf81b7d1473571eaff66c58b0954182b3610676ee4f3f32f505282ecfabc05",
+    "split": "train"
+  },
+  "canonical_sha256": "7bb8c0d33704ca1a64035d0c5b526137403f6968368090b1ee40c84197608b20",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石碑",
+      "校徽",
+      "浮雕"
+    ],
+    "short_description": "灰色石砌基座上嵌有圆形校徽，上方有浮雕图案，背景为绿树。",
+    "theme": "石质校徽标识"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像主体为由灰色石块堆砌而成的垂直结构。",
+      "结构中央嵌入一个圆形浮雕式徽章。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灰色石材",
+      "圆形设计",
+      "浮雕装饰"
+    ],
+    "relations": [
+      "校徽镶嵌于石基座中央。"
+    ],
+    "scene": "户外石质结构",
+    "subjects": [
+      "石砌基座",
+      "圆形校徽",
+      "浮雕图案"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像主体为由灰色石块堆砌而成的垂直结构；结构中央嵌入一个圆形浮雕式徽章。",
+    "safe_facts": [
+      "图像主体为由灰色石块堆砌而成的垂直结构。",
+      "结构中央嵌入一个圆形浮雕式徽章。"
+    ]
+  },
+  "label_id": "cpl_195c7e534b7d24133fccb863",
+  "provenance": {
+    "generated_at": "2026-08-03T14:54:10.898193+00:00",
+    "migrated_at": "2026-08-03T14:54:10.900664+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "53997821453a35155670c53b2cf16198990d5aed8c9d21b3c60f4e7a38b4e1d3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b7a09ffe23363262788811a1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:54:10.900986+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b7a09ffe23363262788811a1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:75.jpg",
+    "relative_path": "train/75.jpg",
+    "sha256": "78f5fba3310c8ebdc4a4e47706ab1434ca4a237056cb3ac769518a02ec0700cd",
+    "split": "train"
+  },
+  "canonical_sha256": "c97e6bdb543a68c06a9593ceef700a20deb8b5063712cfd91bf00d3511fb46c2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "毛绒熊",
+      "格子领结",
+      "暖光",
+      "阴影"
+    ],
+    "short_description": "一只米色毛绒熊戴着格子领结，在暖光下投射出柔和阴影，表情温和可爱。",
+    "theme": "毛绒玩具熊"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线从右侧照射，使熊的左侧形成明显阴影。"
+    ],
+    "direct_observations": [
+      "毛绒熊身体呈米色，表面为柔软绒毛材质。",
+      "毛绒熊佩戴着黑白格子图案的领结。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "米色",
+      "毛绒材质",
+      "黑色眼睛",
+      "黑色鼻子",
+      "微笑表情",
+      "格子领结"
+    ],
+    "relations": [
+      "毛绒熊位于画面中央。"
+    ],
+    "scene": "室内静物",
+    "subjects": [
+      "毛绒熊"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线从右侧照射，使熊的左侧形成明显阴影。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "毛绒熊身体呈米色，表面为柔软绒毛材质；毛绒熊佩戴着黑白格子图案的领结。",
+    "safe_facts": [
+      "毛绒熊身体呈米色，表面为柔软绒毛材质。",
+      "毛绒熊佩戴着黑白格子图案的领结。"
+    ]
+  },
+  "label_id": "cpl_782d2c8a27895d6fb9eacf4b",
+  "provenance": {
+    "generated_at": "2026-08-03T09:20:13.244238+00:00",
+    "migrated_at": "2026-08-03T09:20:13.246288+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7f60b55089216d174a1b34241e17706985190f9f998ba5b3b220fb207ace4bf1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_25315914080daea1878ce1b2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:28.207461+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_25315914080daea1878ce1b2",
+    "cpl_49b717f72b8dd6b3e2df14af"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

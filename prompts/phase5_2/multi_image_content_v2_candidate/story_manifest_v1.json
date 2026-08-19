@@ -1,0 +1,44 @@
+{
+  "schema_version": "scenemindx_multi_image_story_v1_candidate_manifest_v1",
+  "candidate_id": "SCENEMINDX_MULTI_IMAGE_CONTENT_V3_CANDIDATE",
+  "prompt_id": "phase5_2d_multi_image_story_v1",
+  "status": "production_accepted_for_creative_story",
+  "created_at": "2026-08-01T03:00:00+08:00",
+  "model": "Qwen/Qwen3-VL-4B-Instruct",
+  "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+  "prompt_file": "prompts/phase5_2/multi_image_content_v2_candidate/story_prompt_v1.txt",
+  "prompt_sha256": "58bff4a44b52c9a5447a351bc33b507ead45c1f529ff90ac0536f22c24b511cb",
+  "output_schema": "data/schemas/phase5_2b_multi_image_content_v2.schema.json",
+  "output_schema_sha256": "a2761cc6dcb6a01eb09e8713b03947db4dcfd7296ca55c5e642ef67e654a13c5",
+  "content_type": "creative_story",
+  "length_contract": {
+    "unit": "non_whitespace_visible_unicode_characters",
+    "minimum_ratio": 0.9,
+    "maximum_ratio": 1.1,
+    "completion_priority": [
+      "character_action",
+      "dialogue",
+      "event_development",
+      "psychological_change",
+      "turn",
+      "ending"
+    ]
+  },
+  "evaluation_scope": {
+    "split": "Train only",
+    "development_assets": "existing previously viewed product library",
+    "fixed_cases": 12,
+    "independent_blind_claim": false,
+    "population_quality_claim": false,
+    "val_read": false,
+    "test_read": false,
+    "blind_read": false,
+    "train_2000_read": false,
+    "training": false
+  },
+  "preserved_baseline": {
+    "candidate_id": "SCENEMINDX_MULTI_IMAGE_CONTENT_V2_CANDIDATE",
+    "prompt_id": "phase5_2_multi_image_content_v2",
+    "prompt_sha256": "7dcbed683675c2b4393227b2a1ea8b4984092f881f7c3c315a443d7a7cd1d887"
+  }
+}

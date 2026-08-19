@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:336.jpg",
+    "relative_path": "train/336.jpg",
+    "sha256": "866e23fbb296810531a8f5ae4a3ddb4ef05307c13949a038cf8876f320fe6234",
+    "split": "train"
+  },
+  "canonical_sha256": "1c6e4595963ece7672e9fd44c210122ae4423d64423f94a5c662833ede8eeed8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "山顶平台",
+      "红旗飘扬",
+      "游客聚集"
+    ],
+    "short_description": "山顶平台上有游客和一面红旗，远处是城市与山脉，天空多云。",
+    "theme": "山间观景平台"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "平台可能用于观光或登山休息。"
+    ],
+    "direct_observations": [
+      "画面中心有一面红色旗帜竖立在旗杆上。",
+      "平台由石板铺成，两侧设有金属护栏。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "游客行走",
+      "游客站立"
+    ],
+    "attributes": [
+      "多云天空",
+      "光秃树枝",
+      "石质地面",
+      "金属栏杆"
+    ],
+    "relations": [
+      "游客在石阶上活动。",
+      "红旗位于平台中央。",
+      "树木环绕平台。"
+    ],
+    "scene": "山顶观景平台",
+    "subjects": [
+      "游客",
+      "红旗",
+      "石阶",
+      "树木",
+      "远处城市与山脉"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "平台可能用于观光或登山休息。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中心有一面红色旗帜竖立在旗杆上；平台由石板铺成，两侧设有金属护栏。",
+    "safe_facts": [
+      "画面中心有一面红色旗帜竖立在旗杆上。",
+      "平台由石板铺成，两侧设有金属护栏。"
+    ]
+  },
+  "label_id": "cpl_50aa3574849be6e3cb339aab",
+  "provenance": {
+    "generated_at": "2026-08-03T10:42:17.246924+00:00",
+    "migrated_at": "2026-08-03T10:42:17.248880+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "eed9154140bfb86e5579eec9d48fe3bffdeb090c54f05a8e74df00c28d4c4de1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_902714c5deaaab3c617ab7da",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:42:17.249134+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_902714c5deaaab3c617ab7da"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

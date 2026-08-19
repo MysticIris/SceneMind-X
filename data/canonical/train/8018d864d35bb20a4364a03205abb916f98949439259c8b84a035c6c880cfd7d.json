@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1419.jpg",
+    "relative_path": "train/1419.jpg",
+    "sha256": "8018d864d35bb20a4364a03205abb916f98949439259c8b84a035c6c880cfd7d",
+    "split": "train"
+  },
+  "canonical_sha256": "7c2196fe4c72bbcef10fd6921a4e0eace5b9cde312c9eb9a0d6ad95508e87bd0",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红色旗帜",
+      "人群列队",
+      "烟雾弥漫"
+    ],
+    "short_description": "一群身着深色制服的人在红色场地上列队，一人高举红旗，背景有烟雾和红色标语。",
+    "theme": "红色旗帜与人群"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "现场可能存在烟雾或喷雾效果，因背景模糊且有朦胧感。"
+    ],
+    "direct_observations": [
+      "画面中有大量穿着深色服装的人群，部分人手持长枪状物体。",
+      "一名人员高举红色旗帜，旗帜在空中飘扬。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "举旗",
+      "持枪站立",
+      "围观"
+    ],
+    "attributes": [
+      "红色地面",
+      "深色制服",
+      "浓密烟雾"
+    ],
+    "relations": [
+      "举旗者位于人群前方。",
+      "持枪者面向前方。"
+    ],
+    "scene": "户外红色场地",
+    "subjects": [
+      "持枪人员",
+      "举旗者",
+      "观众"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "现场可能存在烟雾或喷雾效果，因背景模糊且有朦胧感。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有大量穿着深色服装的人群，部分人手持长枪状物体；一名人员高举红色旗帜，旗帜在空中飘扬。",
+    "safe_facts": [
+      "画面中有大量穿着深色服装的人群，部分人手持长枪状物体。",
+      "一名人员高举红色旗帜，旗帜在空中飘扬。"
+    ]
+  },
+  "label_id": "cpl_ff00db372bd1a2cf95262de6",
+  "provenance": {
+    "generated_at": "2026-08-03T14:21:56.579609+00:00",
+    "migrated_at": "2026-08-03T14:21:56.583192+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "aedfe23a40284de423906c7ca030d2360c6dc92543fe81d6afb0214e1ad09fc9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1dade46281a43d12dfe040d4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:21:56.583570+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1dade46281a43d12dfe040d4"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

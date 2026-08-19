@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:761.jpg",
+    "relative_path": "train/761.jpg",
+    "sha256": "9f65a7873df9dde68abbc0a5bbff0c1ee7069b76aaafe31b01d4b5badd1ea27e",
+    "split": "train"
+  },
+  "canonical_sha256": "30ff74bc978085ef0ea26852da3c40a713bd03e7b32b4a320f4a0e5286a25405",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "公园",
+      "小径",
+      "黄昏",
+      "树木",
+      "草地"
+    ],
+    "short_description": "一条蜿蜒石板路穿过绿草坪和树木，远处天际线泛着淡光，一人独行其上。",
+    "theme": "公园小径黄昏"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自地平线方向，可能为日落或日出时段。"
+    ],
+    "direct_observations": [
+      "画面中有铺设整齐的石板路向远方延伸。",
+      "草坪覆盖大面积地面，树木分布其间。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "石板路蜿蜒",
+      "草坪绿色",
+      "树木茂密",
+      "天空呈淡色"
+    ],
+    "relations": [
+      "石板路穿过草坪。",
+      "树木分布在草坪两侧。"
+    ],
+    "scene": "户外公园绿地",
+    "subjects": [
+      "行人",
+      "树木",
+      "草坪",
+      "石板路"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自地平线方向，可能为日落或日出时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有铺设整齐的石板路向远方延伸；草坪覆盖大面积地面，树木分布其间。",
+    "safe_facts": [
+      "画面中有铺设整齐的石板路向远方延伸。",
+      "草坪覆盖大面积地面，树木分布其间。"
+    ]
+  },
+  "label_id": "cpl_7b6bd1b2a3b8914b7f746326",
+  "provenance": {
+    "generated_at": "2026-08-03T12:17:45.162550+00:00",
+    "migrated_at": "2026-08-03T12:17:45.165152+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4fd8a47d5f2d7cbd3853078323a8187fd5a6c63d48e607d69a0860ed4f6cfda0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9f349635d87b912684f075c0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:17:45.171337+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9f349635d87b912684f075c0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

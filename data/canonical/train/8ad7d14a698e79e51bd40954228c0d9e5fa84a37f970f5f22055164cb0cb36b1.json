@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:228.jpg",
+    "relative_path": "train/228.jpg",
+    "sha256": "8ad7d14a698e79e51bd40954228c0d9e5fa84a37f970f5f22055164cb0cb36b1",
+    "split": "train"
+  },
+  "canonical_sha256": "8da7351f8dc2182c5f219f602a16927ec8879d9ace3e68812a7667f04593367b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "艺术字",
+      "城市剪影",
+      "宣传海报"
+    ],
+    "short_description": "带有艺术字和城市建筑剪影的宣传画作。",
+    "theme": "艺术字"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "背景为多座建筑剪影，包括钟楼和塔状结构。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "淡彩色背景",
+      "模糊建筑轮廓"
+    ],
+    "relations": [],
+    "scene": "室内大型显示屏或墙面展示",
+    "subjects": [
+      "艺术字",
+      "城市建筑剪影"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "背景为多座建筑剪影，包括钟楼和塔状结构。",
+    "safe_facts": [
+      "背景为多座建筑剪影，包括钟楼和塔状结构。"
+    ]
+  },
+  "label_id": "cpl_6f71eb77c46c980e4ee290a9",
+  "provenance": {
+    "generated_at": "2026-08-03T10:20:36.504496+00:00",
+    "migrated_at": "2026-08-03T10:20:36.506629+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e2f05c0da9ee3b6e61fdce7f64f3a4ffd168f924879d2dd5f6169a0a813c02cf",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ea832115b15d8561d0df174e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:20:36.506868+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ea832115b15d8561d0df174e"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "博物馆之恋"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "博物馆之恋"
+    ]
+  }
+}

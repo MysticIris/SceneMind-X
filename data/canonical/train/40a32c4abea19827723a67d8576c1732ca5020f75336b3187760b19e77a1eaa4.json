@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1594.jpg",
+    "relative_path": "train/1594.jpg",
+    "sha256": "40a32c4abea19827723a67d8576c1732ca5020f75336b3187760b19e77a1eaa4",
+    "split": "train"
+  },
+  "canonical_sha256": "1805aae2da23adf695f56b2a34c71bb9f16c148c3da85ea46ce8318c2245ba2a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "露台",
+      "可乐瓶",
+      "木桌",
+      "夜间"
+    ],
+    "short_description": "夜晚露台上一张木桌，桌上放着一瓶可乐，背景是多层建筑和栏杆。",
+    "theme": "户外露台夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "桌上有一瓶带红色瓶盖的透明塑料瓶，内含深色液体。",
+      "桌子由横向木条拼接构成，表面有木纹纹理。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜晚",
+      "木纹桌面",
+      "红色瓶盖",
+      "部分剩余饮料"
+    ],
+    "relations": [
+      "可乐瓶放置于木桌上。",
+      "椅子位于桌子后方。",
+      "建筑位于背景。"
+    ],
+    "scene": "户外露台",
+    "subjects": [
+      "可乐瓶",
+      "木桌",
+      "椅子",
+      "建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "桌上有一瓶带红色瓶盖的透明塑料瓶，内含深色液体；桌子由横向木条拼接构成，表面有木纹纹理。",
+    "safe_facts": [
+      "桌上有一瓶带红色瓶盖的透明塑料瓶，内含深色液体。",
+      "桌子由横向木条拼接构成，表面有木纹纹理。"
+    ]
+  },
+  "label_id": "cpl_a2fcaf42b4b62255f2598efe",
+  "provenance": {
+    "generated_at": "2026-08-03T14:42:20.095872+00:00",
+    "migrated_at": "2026-08-03T14:42:20.099595+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d64e67eceb3a8f6bebc208b6b645880d6883321e9de486bc1be5b1cd0247f737",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5efc5277f2ddde7c704a8a51",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:42:20.099995+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5efc5277f2ddde7c704a8a51"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

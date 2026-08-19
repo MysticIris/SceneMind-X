@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1652.jpg",
+    "relative_path": "train/1652.jpg",
+    "sha256": "67c763d9a045a6c207e1498b660621afeab13246f9eb53266aa5cc594d0726a2",
+    "split": "train"
+  },
+  "canonical_sha256": "f4c28e5bff558959b3d5cd60f5c212a22c579474f35c5484fdf8afa45730bbf4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "动漫手办",
+      "货架陈列",
+      "角色模型"
+    ],
+    "short_description": "商店货架上展示多款动漫角色手办，背景为绿色植物图案，配有价格标签。",
+    "theme": "动漫手办陈列"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "货架上摆放着多个不同造型的动漫角色手办。",
+      "手办下方有圆形底座，部分带有价格标签。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "彩色服装",
+      "站立姿态",
+      "塑料材质"
+    ],
+    "relations": [
+      "手办陈列于货架上。",
+      "价格标签附着于手办旁。"
+    ],
+    "scene": "室内商店货架",
+    "subjects": [
+      "多个动漫角色手办",
+      "价格标签",
+      "透明展示罩"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "货架上摆放着多个不同造型的动漫角色手办；手办下方有圆形底座，部分带有价格标签。",
+    "safe_facts": [
+      "货架上摆放着多个不同造型的动漫角色手办。",
+      "手办下方有圆形底座，部分带有价格标签。"
+    ]
+  },
+  "label_id": "cpl_a1b14f0eda2e46ed26ea75b1",
+  "provenance": {
+    "generated_at": "2026-08-03T14:49:58.531236+00:00",
+    "migrated_at": "2026-08-03T14:49:58.535039+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "25495ed30246fe1022cc481f9030740f9f134c26bbc33c994987a608757b8d60",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6574caf7d822509909b159a3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:49:58.538015+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6574caf7d822509909b159a3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

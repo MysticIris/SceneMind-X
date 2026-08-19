@@ -1,0 +1,126 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_d9bd7e06425884b280f930c7",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_0da2e625ee5ef089c1832c04"
+  ],
+  "asset": {
+    "asset_id": "20caf5a0a0943b5b",
+    "sha256": "20caf5a0a0943b5b24b9925d5cddb919c5c2c544a1b226defad0a5a2f22f64bd",
+    "split": "user_custom",
+    "relative_path": "user_assets/20/20caf5a0a0943b5b24b9925d5cddb919c5c2c544a1b226defad0a5a2f22f64bd/20caf5a0a0943b5b24b9925d5cddb919c5c2c544a1b226defad0a5a2f22f64bd.jpg"
+  },
+  "display": {
+    "theme": "女子怀抱小猫",
+    "short_description": "一名留着棕色长发的女子身穿黑红相间图案的上衣，怀中抱着一只灰色虎斑猫。猫咪头部探出，眼神向上看，背景为铺有瓷砖的室内墙面。",
+    "micro_tags": [
+      "抱猫",
+      "灰猫",
+      "长发女子",
+      "室内",
+      "宠物"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "室内走廊或房间角落",
+    "subjects": [
+      "女子",
+      "猫"
+    ],
+    "actions": [
+      "拥抱",
+      "注视"
+    ],
+    "attributes": [
+      "长发",
+      "黑色上衣",
+      "红色线条图案",
+      "灰色虎斑纹",
+      "瓷砖地面"
+    ],
+    "relations": [
+      "女子抱着猫。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "画面主体为一名背侧视角的长发女子，身穿带有红色网状或线条图案的黑色连帽衫。",
+      "女子双手环抱一只灰色条纹的小猫，猫脸清晰可见，正看向右上方。",
+      "背景墙面由浅灰色方形瓷砖拼接而成，墙上贴有带红字的标识牌。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_unreadable",
+    "visual_candidates": [],
+    "ocr_candidates": [],
+    "candidate_text": [],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "画面主体为一名背侧视角的长发女子，身穿带有红色网状或线条图案的黑色连帽衫；女子双手环抱一只灰色条纹的小猫，猫脸清晰可见，正看向右上方。",
+    "safe_facts": [
+      "画面主体为一名背侧视角的长发女子，身穿带有红色网状或线条图案的黑色连帽衫。",
+      "女子双手环抱一只灰色条纹的小猫，猫脸清晰可见，正看向右上方。",
+      "背景墙面由浅灰色方形瓷砖拼接而成，墙上贴有带红字的标识牌。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_ea3176bf-3a8d-4208-aa9e-5b0b449805a9",
+    "generated_at": "2026-08-12T03:16:02.424286+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "b72595cee06724c427364bf47197a845387d4df39cc8b28279689c6637660f3f",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:16:02.424720+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_0da2e625ee5ef089c1832c04",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:16:02.425019+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "559b6aa1e21970bc0decb59066a4ff354935c84b00bb9f036e3c8ec67aa670d1"
+}

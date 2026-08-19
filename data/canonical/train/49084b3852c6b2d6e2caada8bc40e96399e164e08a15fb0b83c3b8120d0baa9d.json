@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:431.jpg",
+    "relative_path": "train/431.jpg",
+    "sha256": "49084b3852c6b2d6e2caada8bc40e96399e164e08a15fb0b83c3b8120d0baa9d",
+    "split": "train"
+  },
+  "canonical_sha256": "136a7dc655971289b9aef25146d263c78c3db7a2792d7287de07fbc96ff0f2cd",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "寺庙",
+      "石阶",
+      "红柱",
+      "绿树"
+    ],
+    "short_description": "绿树掩映下的中式寺庙大门，石阶通向朱红门廊，门前有游客驻足。",
+    "theme": "传统中式寺庙入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央是一座中式风格的寺庙大门，配有红色立柱和彩绘屋檐。",
+      "台阶两侧有石栏杆，台阶上站着两名游客。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "行走"
+    ],
+    "attributes": [
+      "红色柱子",
+      "彩绘屋檐",
+      "石质台阶",
+      "绿色树木"
+    ],
+    "relations": [
+      "游客位于台阶前方。",
+      "树木环绕建筑。"
+    ],
+    "scene": "中式寺庙建筑前的台阶区域",
+    "subjects": [
+      "游客",
+      "寺庙建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是一座中式风格的寺庙大门，配有红色立柱和彩绘屋檐；台阶两侧有石栏杆，台阶上站着两名游客。",
+    "safe_facts": [
+      "画面中央是一座中式风格的寺庙大门，配有红色立柱和彩绘屋檐。",
+      "台阶两侧有石栏杆，台阶上站着两名游客。"
+    ]
+  },
+  "label_id": "cpl_86a6fa85fbb21efbe3c8bc3c",
+  "provenance": {
+    "generated_at": "2026-08-03T11:02:11.007163+00:00",
+    "migrated_at": "2026-08-03T11:02:11.008758+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e0b424e126c8acb5d868df4f906905a37c9fac80cf80996020e1fc9cdae931fa",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9d30b72a690e38e40a5f3f4e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:02:11.008964+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9d30b72a690e38e40a5f3f4e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

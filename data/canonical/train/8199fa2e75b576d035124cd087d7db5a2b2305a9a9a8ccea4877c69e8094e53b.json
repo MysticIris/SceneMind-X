@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1984.jpg",
+    "relative_path": "train/1984.jpg",
+    "sha256": "8199fa2e75b576d035124cd087d7db5a2b2305a9a9a8ccea4877c69e8094e53b",
+    "split": "train"
+  },
+  "canonical_sha256": "1e0d9723b9478d3c6750740229dafbc3c9934c1595056a6c18fe9c6fa45bd9d8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "空气污染",
+      "历史事件",
+      "健康影响"
+    ],
+    "short_description": "一张展示关于空气污染和健康影响信息的屏幕截图。",
+    "theme": "空气污染问题摘要"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现文本内容，背景为紫色，顶部有黄色标题栏。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "紫色背景",
+      "黄色标题栏"
+    ],
+    "relations": [],
+    "scene": "一张显示文本内容的屏幕截图",
+    "subjects": [],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现文本内容，背景为紫色，顶部有黄色标题栏。",
+    "safe_facts": [
+      "图像呈现文本内容，背景为紫色，顶部有黄色标题栏。"
+    ]
+  },
+  "label_id": "cpl_7d8969bb391fb48b7a43e1f0",
+  "provenance": {
+    "generated_at": "2026-08-03T15:31:59.059265+00:00",
+    "migrated_at": "2026-08-03T15:31:59.061300+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "58e4841b9ad8afbaedf40ece8bed1bac16d445eb3311062908e6cd48c5360d32",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_85074c0aef6121f0946f0c0e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:31:59.062040+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_subjects_empty",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_85074c0aef6121f0946f0c0e"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Improved summary 2",
+      "Dr Mark Porter writes in \"Fighting for b",
+      "In 1952, the Great Fog, caused by a comb",
+      "The greatest single source of pollution",
+      "Even the introduction of the catalytic c",
+      "Environmental pollution is a factor in d"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Improved summary 2",
+      "Dr Mark Porter writes in \"Fighting for b",
+      "In 1952, the Great Fog, caused by a comb",
+      "The greatest single source of pollution",
+      "Even the introduction of the catalytic c",
+      "Environmental pollution is a factor in d"
+    ]
+  }
+}

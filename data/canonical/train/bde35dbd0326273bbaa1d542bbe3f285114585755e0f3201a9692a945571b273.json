@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1322.jpg",
+    "relative_path": "train/1322.jpg",
+    "sha256": "bde35dbd0326273bbaa1d542bbe3f285114585755e0f3201a9692a945571b273",
+    "split": "train"
+  },
+  "canonical_sha256": "d7f8ccbd9b658f9a2c9c789cafaee06605813f86d570fefedcc9c1f9a8b677af",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "建筑",
+      "树木",
+      "窗户"
+    ],
+    "short_description": "从高处俯瞰，一栋建筑外墙旁生长着茂密的绿色树木，部分窗户透出暖黄色灯光。",
+    "theme": "夜间建筑与树木"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面左侧可见建筑外墙及多扇窗户，部分窗内有光源。",
+      "画面右侧为密集的绿色树冠，树干和枝叶清晰可见。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "建筑外墙",
+      "窗户透光",
+      "树木茂盛",
+      "夜间环境"
+    ],
+    "relations": [
+      "树木位于建筑旁。"
+    ],
+    "scene": "建筑物与树木相邻的户外区域",
+    "subjects": [
+      "建筑",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面左侧可见建筑外墙及多扇窗户，部分窗内有光源；画面右侧为密集的绿色树冠，树干和枝叶清晰可见。",
+    "safe_facts": [
+      "画面左侧可见建筑外墙及多扇窗户，部分窗内有光源。",
+      "画面右侧为密集的绿色树冠，树干和枝叶清晰可见。"
+    ]
+  },
+  "label_id": "cpl_8d3b9237392da1d76759204b",
+  "provenance": {
+    "generated_at": "2026-08-03T14:09:46.757080+00:00",
+    "migrated_at": "2026-08-03T14:09:46.764890+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "38f1ae4ac27691490c29dec94a04262b23e92c40be249cbd599ea217a173dcd4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_62e1136c9509e8ff853319eb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:09:46.765305+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_62e1136c9509e8ff853319eb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

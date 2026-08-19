@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2333.jpg",
+    "relative_path": "val/2333.jpg",
+    "sha256": "346c1dc0ec72e5ab4abd57676df72228ba8ec1f26bd52135185f364d108baca7",
+    "split": "val"
+  },
+  "canonical_sha256": "f9e84762feb62ed7714da41a1f1baeae2f84877be4ffd506a21d73c5f73bc69b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "街市",
+      "小吃摊",
+      "行人",
+      "傍晚"
+    ],
+    "short_description": "傍晚街头小吃摊林立，行人穿梭其间，摊位招牌色彩鲜艳，天空云层密布。",
+    "theme": "街边小吃摊"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天空呈现灰蓝色，云层较厚。",
+      "多个摊位设有红色或黄色招牌。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "驻足"
+    ],
+    "attributes": [
+      "天空多云",
+      "摊位有招牌",
+      "地面为水泥路"
+    ],
+    "relations": [
+      "行人与摊位相邻。"
+    ],
+    "scene": "户外街市小吃摊",
+    "subjects": [
+      "行人",
+      "小吃摊位"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现灰蓝色，云层较厚；多个摊位设有红色或黄色招牌。",
+    "safe_facts": [
+      "天空呈现灰蓝色，云层较厚。",
+      "多个摊位设有红色或黄色招牌。"
+    ]
+  },
+  "label_id": "cpl_a12f082eb8431c00b934fb13",
+  "provenance": {
+    "generated_at": "2026-08-03T16:28:11.233755+00:00",
+    "migrated_at": "2026-08-03T16:28:11.235497+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bacd086f977932ca71b0313882ce5979228cdefa04be41b24e7fa6a76fe7c5ba",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4b9c3776aa9d4ed3acafc972",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:28:11.235720+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4b9c3776aa9d4ed3acafc972"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

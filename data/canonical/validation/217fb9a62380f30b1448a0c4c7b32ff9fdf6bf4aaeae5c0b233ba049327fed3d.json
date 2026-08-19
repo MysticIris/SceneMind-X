@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2251.jpg",
+    "relative_path": "val/2251.jpg",
+    "sha256": "217fb9a62380f30b1448a0c4c7b32ff9fdf6bf4aaeae5c0b233ba049327fed3d",
+    "split": "val"
+  },
+  "canonical_sha256": "a68e7fc4ec1c903d7da4c9c7cd3de479bd8fe90f52f3de1b026f4ee5818dfc56",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "辣椒炒菜",
+      "热菜",
+      "陶瓷锅",
+      "餐桌"
+    ],
+    "short_description": "一盘红油辣椒炒菜盛放在带底座的白色陶瓷锅中，配筷子和小碗，置于玻璃转盘桌上。",
+    "theme": "热菜盛于保温锅"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "菜肴可能为辣味炒菜，因大量辣椒和油亮酱汁。"
+    ],
+    "direct_observations": [
+      "白色陶瓷锅内盛有红绿相间的炒菜。",
+      "锅底有镂空设计，用于加热或保温。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色辣椒",
+      "绿色芹菜",
+      "油亮酱汁",
+      "白色陶瓷",
+      "圆形底座"
+    ],
+    "relations": [
+      "辣椒炒菜在陶瓷锅内。",
+      "陶瓷锅置于玻璃转盘桌上。",
+      "筷子放在小碗旁。"
+    ],
+    "scene": "餐厅餐桌",
+    "subjects": [
+      "辣椒炒菜",
+      "陶瓷锅",
+      "筷子",
+      "小碗",
+      "玻璃转盘桌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "菜肴可能为辣味炒菜，因大量辣椒和油亮酱汁。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "白色陶瓷锅内盛有红绿相间的炒菜；锅底有镂空设计，用于加热或保温。",
+    "safe_facts": [
+      "白色陶瓷锅内盛有红绿相间的炒菜。",
+      "锅底有镂空设计，用于加热或保温。"
+    ]
+  },
+  "label_id": "cpl_4df48d98b4fa2452a695c908",
+  "provenance": {
+    "generated_at": "2026-08-03T16:18:15.992093+00:00",
+    "migrated_at": "2026-08-03T16:18:15.994173+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1df3736ef68f5cb336457fc4241c7f61e9e0e54bfa55f809c59c46a037b624b5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5181ea7e444c60b2df610af0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:18:15.994611+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5181ea7e444c60b2df610af0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

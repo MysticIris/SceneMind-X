@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:458.jpg",
+    "relative_path": "train/458.jpg",
+    "sha256": "48871834a88db2db747d798fdb687450a9755367bbfcb9deb1518dec32737b08",
+    "split": "train"
+  },
+  "canonical_sha256": "426bc75b07ccae55ff40a7721cac05b9aae0e6f4514dd6ff9019721c6b4922a8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "游客"
+    ],
+    "short_description": "，含景点分布、路径及游客身影。",
+    "theme": "游客"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "导览图上有多个景点名称和路线标记。",
+      "有人站在导览图前拍照。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "户外景区信息牌前",
+    "subjects": [
+      "游客"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "导览图上有多个景点名称和路线标记；有人站在导览图前拍照。",
+    "safe_facts": [
+      "导览图上有多个景点名称和路线标记。",
+      "有人站在导览图前拍照。"
+    ]
+  },
+  "label_id": "cpl_898e904a6bba5c415ecfa608",
+  "provenance": {
+    "generated_at": "2026-08-03T11:07:31.903787+00:00",
+    "migrated_at": "2026-08-03T11:07:31.905269+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "415a4e31f32e56367ce1c825a0e7972542323b31eb5fccb11e8c8d7429c89897",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7eceba5cb003b36346eec9e7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:07:31.905577+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7eceba5cb003b36346eec9e7"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "天台景区导览图",
+      "北",
+      "公交站乘车处",
+      "山峰",
+      "酒店",
+      "医院"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "天台景区导览图",
+      "北",
+      "公交站乘车处",
+      "山峰",
+      "酒店",
+      "医院"
+    ]
+  }
+}

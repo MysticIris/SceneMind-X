@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1342.jpg",
+    "relative_path": "train/1342.jpg",
+    "sha256": "572ce734ebbc1182baf1be24d391b1d0543b0e026a858bd70d51c8a7532aef0b",
+    "split": "train"
+  },
+  "canonical_sha256": "2891e751773f60e712f230feefd4e40c22dcc398099ad6811e525469bbf2950f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "婴儿车",
+      "遮阳篷",
+      "户外",
+      "灌木丛"
+    ],
+    "short_description": "一辆黑色婴儿车停在铺装路面上，配有米色遮阳篷，背景是绿色灌木丛。",
+    "theme": "婴儿车户外场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一辆婴儿车，车架为黑色，遮阳篷为米色。",
+      "婴儿车后方有修剪整齐的绿色灌木丛。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色框架",
+      "米色遮阳篷",
+      "带轮子",
+      "有婴儿用品"
+    ],
+    "relations": [
+      "婴儿车位于铺装路面上。",
+      "婴儿车靠近绿色灌木丛。"
+    ],
+    "scene": "户外铺装路面旁的绿化带",
+    "subjects": [
+      "婴儿车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一辆婴儿车，车架为黑色，遮阳篷为米色；婴儿车后方有修剪整齐的绿色灌木丛。",
+    "safe_facts": [
+      "画面中有一辆婴儿车，车架为黑色，遮阳篷为米色。",
+      "婴儿车后方有修剪整齐的绿色灌木丛。"
+    ]
+  },
+  "label_id": "cpl_9a68323239a5d9d333dfec84",
+  "provenance": {
+    "generated_at": "2026-08-03T14:10:18.534222+00:00",
+    "migrated_at": "2026-08-03T14:10:18.538926+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9eaea69ab45261ba776509c9d28a2038c83d060d1229361a37d346383f498c81",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1fa922b2f7c2efcf0c256b94",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:10:18.539281+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1fa922b2f7c2efcf0c256b94"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_2b465dce47ce93d7d426cdbf",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_54a584548065e45b655366cd"
+  ],
+  "asset": {
+    "asset_id": "9e41d13c011e92ef",
+    "sha256": "9e41d13c011e92effea849c9f62b081ac52e9867d70d15ed2efdea745f510e57",
+    "split": "user_custom",
+    "relative_path": "user_assets/9e/9e41d13c011e92effea849c9f62b081ac52e9867d70d15ed2efdea745f510e57/9e41d13c011e92effea849c9f62b081ac52e9867d70d15ed2efdea745f510e57.png"
+  },
+  "display": {
+    "theme": "Android应用开发界面",
+    "short_description": "一张展示Android Studio集成开发环境的屏幕截图。左侧为项目文件目录树，中间显示Kotlin代码编辑窗口，右侧模拟器中运行着一个名为“Headphone Controller”的紫色主题应用程序，包含录音列表和控制按钮。",
+    "micro_tags": [
+      "Android Studio",
+      "Kotlin代码",
+      "移动应用开发",
+      "UI设计",
+      "软件开发",
+      "IDE界面"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "计算机屏幕上的软件开发环境界面",
+    "subjects": [
+      "代码编辑器",
+      "项目文件树",
+      "手机模拟器窗口",
+      "应用程序界面"
+    ],
+    "actions": [],
+    "attributes": [
+      "深色模式主题",
+      "分栏布局",
+      "语法高亮显示",
+      "紫色应用标题栏"
+    ],
+    "relations": [
+      "代码编辑器位于文件树右侧。",
+      "模拟器窗口位于代码编辑器右侧。",
+      "模拟器显示正在运行的应用程序预览。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "界面分为左中右三个主要区域，分别显示文件结构、代码文本和图形化预览。",
+      "右侧模拟器窗口顶部有紫色标题栏，下方包含白色卡片式布局和紫色操作按钮。",
+      "中间区域显示带有行号的编程代码，关键词呈现橙色和蓝色高亮。"
+    ],
+    "cautious_inferences": [
+      "这看起来是一个正在开发中的Android音频控制类应用程序。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "MainActivity.kt",
+      "Headphone Controller",
+      "START RECORDING",
+      "STOP RECORDING",
+      "PLAY",
+      "DELETE"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "MainActivity.kt",
+      "Headphone Controller",
+      "START RECORDING",
+      "STOP RECORDING",
+      "PLAY",
+      "DELETE"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "界面分为左中右三个主要区域，分别显示文件结构、代码文本和图形化预览；右侧模拟器窗口顶部有紫色标题栏，下方包含白色卡片式布局和紫色操作按钮。",
+    "safe_facts": [
+      "界面分为左中右三个主要区域，分别显示文件结构、代码文本和图形化预览。",
+      "右侧模拟器窗口顶部有紫色标题栏，下方包含白色卡片式布局和紫色操作按钮。",
+      "中间区域显示带有行号的编程代码，关键词呈现橙色和蓝色高亮。"
+    ],
+    "do_not_assert": [
+      "这看起来是一个正在开发中的Android音频控制类应用程序。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_4144d251-949d-485e-9079-aacbf79b934d",
+    "generated_at": "2026-08-12T03:28:54.664743+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "753aaac90e87f6b8a4d2f7cdc11c332f8ba3ac4081b4daba11431dda712cd731",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:28:54.666077+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_54a584548065e45b655366cd",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:28:54.666519+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "587b28934ec9376f3c17f2ecf5f0ee450585bba345c84e7e41dbd269bb49ccb4"
+}

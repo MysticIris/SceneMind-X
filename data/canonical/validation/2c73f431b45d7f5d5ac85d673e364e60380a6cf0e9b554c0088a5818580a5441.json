@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2055.jpg",
+    "relative_path": "val/2055.jpg",
+    "sha256": "2c73f431b45d7f5d5ac85d673e364e60380a6cf0e9b554c0088a5818580a5441",
+    "split": "val"
+  },
+  "canonical_sha256": "29024388deb1e4506871ff662a5c9081f8d7995c6ca631bb92079363d9d4efb2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "橘白猫",
+      "蜷缩睡觉",
+      "泡沫箱",
+      "瓷砖地面"
+    ],
+    "short_description": "一只橘白相间的猫蜷缩在白色泡沫箱上睡觉，旁边放着纸箱和白色袋子，地面是灰色瓷砖。",
+    "theme": "猫咪蜷缩休息"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一只橘白相间的猫蜷缩在白色泡沫箱上。",
+      "地面铺有灰色瓷砖，旁边有棕色纸箱和白色袋子。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "睡觉"
+    ],
+    "attributes": [
+      "橘白相间",
+      "蜷缩",
+      "白色泡沫箱",
+      "棕色纸箱",
+      "灰色瓷砖地面"
+    ],
+    "relations": [
+      "猫位于泡沫箱上。",
+      "纸箱和白色袋子在猫旁。"
+    ],
+    "scene": "室内角落",
+    "subjects": [
+      "猫",
+      "泡沫箱",
+      "纸箱",
+      "白色袋子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只橘白相间的猫蜷缩在白色泡沫箱上；地面铺有灰色瓷砖，旁边有棕色纸箱和白色袋子。",
+    "safe_facts": [
+      "一只橘白相间的猫蜷缩在白色泡沫箱上。",
+      "地面铺有灰色瓷砖，旁边有棕色纸箱和白色袋子。"
+    ]
+  },
+  "label_id": "cpl_e35f10680114219c3a5d5afe",
+  "provenance": {
+    "generated_at": "2026-08-03T15:53:09.312574+00:00",
+    "migrated_at": "2026-08-03T15:53:09.314581+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "402ca9bbdabbcd7596a75a13dc1fcf3fcb14729d3910f6c198c09f2a6ecce28e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_89637cfd4f575e1d27707b7c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:53:09.314794+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_89637cfd4f575e1d27707b7c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "asset_id": "cc05cbddbc902f2b",
+  "asset_sha256": "cc05cbddbc902f2b27cc4df2d7a935111495344740ca036746a6ddb3af921d37",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"游戏战绩列表界面\",\n    \"short_description\": \"一张深蓝色调的手机游戏战绩查询界面截图。左侧为功能导航栏，右侧主体区域垂直排列着多场5v5排位赛的对战记录卡片。每条记录包含英雄头像、胜负结果、KDA数据、装备图标及比赛时间，部分条目显示有MVP或金牌中路等荣誉标识。\",\n    \"micro_tags\": [\n      \"游戏截图\",\n      \"战绩查询\",\n      \"MOBA\",\n      \"排位赛\",\n      \"UI界面\",\n      \"数据列表\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"手机游戏应用程序内的战绩详情页面\",\n    \"subjects\": [\n      \"左侧垂直导航菜单\",\n      \"右侧对战记录列表\",\n      \"英雄头像图标\",\n      \"装备道具图标\",\n      \"胜负状态标识\",\n      \"数值统计数据\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"深蓝色背景\",\n      \"列表式布局\",\n      \"高亮显示的MVP标签\",\n      \"红色与绿色的胜负文字颜色区分\",\n      \"圆形图标排列\"\n    ],\n    \"relations\": [\n      \"导航栏位于界面左侧\",\n      \"战绩卡片按时间顺序垂直堆叠\",\n      \"每行记录对应一场具体的对局数据\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"界面左侧可见‘主页’、‘战绩’、‘英雄’等纵向排列的菜单选项，其中‘战绩’处于高亮选中状态。\",\n      \"右侧列表展示了多行对局信息，每行包含左侧的英雄头像、中间的KDA数字（如7/5/17）以及右侧的一排圆形装备图标。\",\n      \"部分记录条目的左上角标有橙色的‘MVP’字样，旁边伴有‘金牌中路’或‘银牌中路’的徽章。\",\n      \"每行记录的右侧边缘标有‘5v5排位’字样及具体的时间点（如22:59）。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局和图标风格，这很可能是一款多人在线战术竞技类（MOBA）手游的结算或历史战绩界面。\",\n      \"红色的‘失败’和蓝色的‘胜利’文字颜色通常用于直观区分对局结果。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的游戏名称，尽管视觉元素具有高度特征性。\",\n      \"具体的段位等级（如王者、钻石等）在截图中未直接显示。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"战绩\",\n      \"订阅战报\",\n      \"分享\",\n      \"对战\",\n      \"娱乐\",\n      \"主页\",\n      \"英雄\",\n      \"图鉴\",\n      \"荣誉\",\n      \"护卫队\",\n      \"游戏\",\n      \"社交\",\n      \"MVP\",\n      \"金牌中路\",\n      \"银牌中路\",\n      \"铜牌中路\",\n      \"胜利\",\n      \"失败\",\n      \"+200\",\n      \"-88\",\n      \"7 / 5 / 17\",\n     ",
+      "input_tokens": 3227,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 768,
+        "total_tokens": 3995,
+        "estimated_cost_cny": 0.012598,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "游戏战绩列表界面",
+        "short_description": "一张深蓝色调的手机游戏战绩查询界面截图。左侧为功能导航栏，右侧主体区域垂直排列着多场5v5排位赛的对战记录卡片。每条记录包含英雄头像、胜负结果、KDA数据、装备图标及比赛时间，部分条目显示有MVP或金牌中路等荣誉标识。",
+        "micro_tags": [
+          "游戏截图",
+          "战绩查询",
+          "MOBA",
+          "排位赛",
+          "UI界面",
+          "数据列表"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 3967568,
+        "request_bytes": 2972604,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.80941359999997,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "998f023009cebf7b2114db5e6c94b9ad4ac97a98ab3e3daff699a9bda59ef358"
+}

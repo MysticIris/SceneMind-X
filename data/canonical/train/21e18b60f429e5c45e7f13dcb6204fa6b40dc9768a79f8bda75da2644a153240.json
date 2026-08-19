@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:224.jpg",
+    "relative_path": "train/224.jpg",
+    "sha256": "21e18b60f429e5c45e7f13dcb6204fa6b40dc9768a79f8bda75da2644a153240",
+    "split": "train"
+  },
+  "canonical_sha256": "c57b28b9833298bd42d6b0da0a908f5c179b5958d79ae9d4d916a0daefb2071e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "模糊图像",
+      "卡通玩偶",
+      "表情包"
+    ],
+    "short_description": "模糊的卡通玩偶脸部特写。",
+    "theme": "模糊卡通表情包"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像整体呈现模糊状态。",
+      "玩偶头部有蓝色耳朵和黑色圆形眼睛图案。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "模糊",
+      "白色身体",
+      "蓝色耳朵",
+      "黑色眼睛图案"
+    ],
+    "relations": [],
+    "scene": "",
+    "subjects": [
+      "卡通玩偶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像整体呈现模糊状态；玩偶头部有蓝色耳朵和黑色圆形眼睛图案。",
+    "safe_facts": [
+      "图像整体呈现模糊状态。",
+      "玩偶头部有蓝色耳朵和黑色圆形眼睛图案。"
+    ]
+  },
+  "label_id": "cpl_1333d1b91f152ec84f0cf556",
+  "provenance": {
+    "generated_at": "2026-08-02T22:04:54.920539+00:00",
+    "migrated_at": "2026-08-03T07:13:41.396303+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6f50a53287ec1a0f86ef336d215de3b1ca53f1d01b4b9000cd5571aa48ba152e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_cab4f0fd3ad1fc1b24044329",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:19:36.558152+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_cab4f0fd3ad1fc1b24044329",
+    "cpl_05c8dd9dd91b7293431d4b1c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "你知道我要说什么"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "你知道我要说什么"
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1486.jpg",
+    "relative_path": "train/1486.jpg",
+    "sha256": "535dfc9fc887c4cef8fee428844e04df8bae99bf7d9030c9111a0120cf9245ba",
+    "split": "train"
+  },
+  "canonical_sha256": "71881ff16a62a518e4c8a15900ae85a00c7e85d561434c44354d9233faf9acea",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "办公桌",
+      "笔记本电脑",
+      "背包",
+      "电线"
+    ],
+    "short_description": "一张灰色办公桌，上面有电脑、笔记本、文件和背包，周围布满电线。",
+    "theme": "办公桌区域"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "桌上有一台打开的黑色笔记本电脑。",
+      "桌下有一个黑色背包。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灰色桌面",
+      "黑色椅子",
+      "杂乱电线"
+    ],
+    "relations": [
+      "笔记本电脑放在桌上。",
+      "背包放在桌子下。"
+    ],
+    "scene": "室内办公环境",
+    "subjects": [
+      "办公桌",
+      "笔记本电脑",
+      "显示器",
+      "背包",
+      "椅子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "桌上有一台打开的黑色笔记本电脑；桌下有一个黑色背包。",
+    "safe_facts": [
+      "桌上有一台打开的黑色笔记本电脑。",
+      "桌下有一个黑色背包。"
+    ]
+  },
+  "label_id": "cpl_4fb25a3b77e1b37df8333598",
+  "provenance": {
+    "generated_at": "2026-08-03T14:29:27.237584+00:00",
+    "migrated_at": "2026-08-03T14:29:27.240246+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a1c41d916ed43254c0c5067e3377ee62ad23b49ded586b8b17b008d5bc65870f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6fe08215186e32ddad1fffae",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:29:27.240586+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6fe08215186e32ddad1fffae"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

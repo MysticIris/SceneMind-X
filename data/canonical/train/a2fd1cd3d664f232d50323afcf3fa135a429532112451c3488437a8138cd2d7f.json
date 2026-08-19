@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:506.jpg",
+    "relative_path": "train/506.jpg",
+    "sha256": "a2fd1cd3d664f232d50323afcf3fa135a429532112451c3488437a8138cd2d7f",
+    "split": "train"
+  },
+  "canonical_sha256": "8910e4b5f4e5f7a4271eb49cba11d75bd49335d81eeb4b845194ab9a0532d18c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式建筑",
+      "绿瓦屋顶",
+      "石柱廊道"
+    ],
+    "short_description": "一座具有传统中式屋顶和柱廊的宏伟建筑，绿瓦飞檐，在晴朗天空下显得庄重典雅。",
+    "theme": "中式古典建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑拥有绿色琉璃瓦屋顶和向上翘起的屋檐。",
+      "建筑正面有多根粗壮的石质立柱支撑门廊。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色琉璃瓦",
+      "多根石柱",
+      "飞檐翘角",
+      "浅色墙体"
+    ],
+    "relations": [],
+    "scene": "户外晴天",
+    "subjects": [
+      "建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑拥有绿色琉璃瓦屋顶和向上翘起的屋檐；建筑正面有多根粗壮的石质立柱支撑门廊。",
+    "safe_facts": [
+      "建筑拥有绿色琉璃瓦屋顶和向上翘起的屋檐。",
+      "建筑正面有多根粗壮的石质立柱支撑门廊。"
+    ]
+  },
+  "label_id": "cpl_3d954c64ad1b7f27deaa5499",
+  "provenance": {
+    "generated_at": "2026-08-03T11:17:45.698466+00:00",
+    "migrated_at": "2026-08-03T11:17:45.700429+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2d9b972346c203695d8dfdb4c9ab25c0d7cc1a01f79f4a5beac7217c352362b2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_dd85a9838a296181ee37c2b1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:17:45.700648+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_dd85a9838a296181ee37c2b1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

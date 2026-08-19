@@ -1,0 +1,137 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_f7bd932b06ad1d27af2310f9",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_bf409edc1551c5e2d7f86554"
+  ],
+  "asset": {
+    "asset_id": "98509d9c51a15bd0",
+    "sha256": "98509d9c51a15bd0a18c664ac35c54be0d7726c55c69cc97498bab7b23d8fb91",
+    "split": "user_custom",
+    "relative_path": "user_assets/98/98509d9c51a15bd0a18c664ac35c54be0d7726c55c69cc97498bab7b23d8fb91/98509d9c51a15bd0a18c664ac35c54be0d7726c55c69cc97498bab7b23d8fb91.png"
+  },
+  "display": {
+    "theme": "手机聊天界面截图",
+    "short_description": "屏幕主体为一段关于保研、考研及个人前途的长文本回复，底部包含语音输入、快速指令及AI创作等功能按钮。",
+    "micro_tags": [
+      "手机截图",
+      "AI对话",
+      "豆包",
+      "保研考研",
+      "中文文本",
+      "聊天界面"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "移动端应用程序界面",
+    "subjects": [
+      "对话气泡",
+      "功能按钮",
+      "状态栏",
+      "文本内容"
+    ],
+    "actions": [],
+    "attributes": [
+      "白底黑字",
+      "竖屏布局",
+      "5G信号",
+      "电量24%"
+    ],
+    "relations": [
+      "文本位于屏幕中央区域。",
+      "功能栏位于屏幕底部。",
+      "状态栏位于屏幕顶部。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "屏幕顶部状态栏显示时间为22：37，网络信号为5G，电池电量为24%。",
+      "对话对象名称显示为“豆包”，下方标注“内容由 AI 生成”。",
+      "底部有一排功能胶囊按钮，可见文字包括“快速”、“帮我写作”、“AI 创作”、“AI 播客”。"
+    ],
+    "cautious_inferences": [
+      "该界面属于典型的即时通讯或AI助手交互设计风格。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "内容由 AI 生成",
+      "帮我写作"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "内容由 AI 生成",
+      "帮我写作"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "屏幕顶部状态栏显示时间为22：37，网络信号为5G，电池电量为24%；对话对象名称显示为“豆包”，下方标注“内容由 AI 生成”。",
+    "safe_facts": [
+      "屏幕顶部状态栏显示时间为22：37，网络信号为5G，电池电量为24%。",
+      "对话对象名称显示为“豆包”，下方标注“内容由 AI 生成”。",
+      "底部有一排功能胶囊按钮，可见文字包括“快速”、“帮我写作”、“AI 创作”、“AI 播客”。"
+    ],
+    "do_not_assert": [
+      "该界面属于典型的即时通讯或AI助手交互设计风格。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_46a66b45-63ac-4e9c-a9de-6b60b0d14e10",
+    "generated_at": "2026-08-12T03:11:41.438847+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "839a5bf26be89dba2b286169c4760e555ec62922ee603926725ec837aea4cd3c",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:11:41.439706+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_bf409edc1551c5e2d7f86554",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:11:41.440132+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "ea11555c052f1bc8cbdb75c9eaafcb8a5a59bdc6011b768884eabe4aecbbe2fa"
+}

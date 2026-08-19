@@ -1,0 +1,132 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_f2e3e90fe0cb78763b4a1d55",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_779ef1372aec69f0166b05c6"
+  ],
+  "asset": {
+    "asset_id": "fdf57e44ce554264",
+    "sha256": "fdf57e44ce554264c01e429bc547db703750011b2d15324a822ddd1d0115e53f",
+    "split": "user_custom",
+    "relative_path": "user_assets/fd/fdf57e44ce554264c01e429bc547db703750011b2d15324a822ddd1d0115e53f/fdf57e44ce554264c01e429bc547db703750011b2d15324a822ddd1d0115e53f.jpg"
+  },
+  "display": {
+    "theme": "USB数据线接口特写",
+    "short_description": "图片展示了两根黑色数据线的连接头特写。",
+    "micro_tags": [
+      "USB接口",
+      "Micro-USB",
+      "数据线",
+      "电子配件",
+      "蓝色内芯",
+      "特写"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "白色背景下的产品静物拍摄",
+    "subjects": [
+      "USB Type-A 连接头",
+      "Micro-USB 连接头",
+      "黑色线缆"
+    ],
+    "actions": [],
+    "attributes": [
+      "黑色外壳",
+      "银色金属插头",
+      "蓝色塑料内芯",
+      "磨砂质感",
+      "浮雕图案"
+    ],
+    "relations": [
+      "两个连接头呈对角线排列。",
+      "USB-A头位于左上方。",
+      "Micro-USB头位于右下方。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "左上方的连接器具有矩形金属外壳，内部可见明显的蓝色塑料片，这是USB 3.0 Type-A接口的典型特征。",
+      "右下方的连接器具有梯形的银色金属外壳和暴露的金属触点，符合Micro-USB接口的物理形态。"
+    ],
+    "cautious_inferences": [
+      "这看起来是一根用于连接电脑与旧式安卓设备或小型电子产品的充电/数据传输线。"
+    ],
+    "uncertainties": [
+      "无法确定线缆的实际长度或另一端(未显示部分)的接口类型。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "none",
+    "visual_candidates": [],
+    "ocr_candidates": [],
+    "candidate_text": [],
+    "confidence": null,
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "左上方的连接器具有矩形金属外壳，内部可见明显的蓝色塑料片，这是USB 3.0 Type-A接口的典型特征；右下方的连接器具有梯形的银色金属外壳和暴露的金属触点，符合Micro-USB接口的物理形态。",
+    "safe_facts": [
+      "左上方的连接器具有矩形金属外壳，内部可见明显的蓝色塑料片，这是USB 3.0 Type-A接口的典型特征。",
+      "右下方的连接器具有梯形的银色金属外壳和暴露的金属触点，符合Micro-USB接口的物理形态。"
+    ],
+    "do_not_assert": [
+      "这看起来是一根用于连接电脑与旧式安卓设备或小型电子产品的充电/数据传输线。",
+      "无法确定线缆的实际长度或另一端(未显示部分)的接口类型。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_3f278fdf-1072-43a0-9bd5-e7ca76ae81ee",
+    "generated_at": "2026-08-12T03:16:54.934997+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "d256fa956c63be34d33c052034e8c74b0b93a004f65a9b89aec010b23c6b38ad",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:16:54.935632+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_779ef1372aec69f0166b05c6",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:16:54.936047+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "f4808f5661675e764f8691696e934517ada1d65f637f85b1375c0d6ad04aa4c2"
+}

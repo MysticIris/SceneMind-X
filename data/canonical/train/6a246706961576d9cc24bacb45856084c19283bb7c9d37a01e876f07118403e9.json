@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:301.jpg",
+    "relative_path": "train/301.jpg",
+    "sha256": "6a246706961576d9cc24bacb45856084c19283bb7c9d37a01e876f07118403e9",
+    "split": "train"
+  },
+  "canonical_sha256": "99720f7f4cee634a7760cd1b73b04d8c26991c34834d15625163397673dcac67",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄色小花",
+      "花簇",
+      "自然植物"
+    ],
+    "short_description": "一簇盛开的黄色小花，花瓣细长，花心密集，背景是模糊的绿植与碎石地面。",
+    "theme": "黄色小花丛"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "花朵可能处于自然生长状态，未被人工干预。"
+    ],
+    "direct_observations": [
+      "画面中心有多朵黄色花朵，花瓣呈放射状排列。",
+      "背景呈现模糊效果，可见绿色植物与灰白色碎石。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黄色",
+      "多瓣",
+      "花心密集",
+      "绿色叶片"
+    ],
+    "relations": [
+      "花朵生长于地面。"
+    ],
+    "scene": "户外自然环境",
+    "subjects": [
+      "黄色花朵"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "花朵可能处于自然生长状态，未被人工干预。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中心有多朵黄色花朵，花瓣呈放射状排列；背景呈现模糊效果，可见绿色植物与灰白色碎石。",
+    "safe_facts": [
+      "画面中心有多朵黄色花朵，花瓣呈放射状排列。",
+      "背景呈现模糊效果，可见绿色植物与灰白色碎石。"
+    ]
+  },
+  "label_id": "cpl_882d63400fed9d0d7698c74d",
+  "provenance": {
+    "generated_at": "2026-08-03T10:35:13.479434+00:00",
+    "migrated_at": "2026-08-03T10:35:13.481559+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2dabc2eef87ebe0fbeb4e7241637d798b0bd4d56e033e4935cbac724cb4d153b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_75d0b77075a32a24452db07a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:35:13.481972+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_75d0b77075a32a24452db07a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

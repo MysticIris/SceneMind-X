@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:212.jpg",
+    "relative_path": "train/212.jpg",
+    "sha256": "33f4dcf92f2dfdfc83afd87cf32193f0e20388a052520222c7150e800585cc33",
+    "split": "train"
+  },
+  "canonical_sha256": "0e3d43a42a93feb84d1b7558ad1f264bcc916e53a80ed1814a2dfdee3dc9b6e2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "秋日",
+      "森林",
+      "阳光",
+      "落叶"
+    ],
+    "short_description": "阳光穿透金黄树叶，林间小径蜿蜒，落叶铺满地面，树干挺拔，色彩斑斓。",
+    "theme": "秋日森林"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线从画面右上方射入，形成明亮光斑。"
+    ],
+    "direct_observations": [
+      "树木枝叶呈现鲜明的金黄色调。",
+      "地面覆盖着大量枯黄落叶。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金黄色树叶",
+      "棕色树干",
+      "落叶覆盖地面"
+    ],
+    "relations": [
+      "阳光从树冠上方照射下来。",
+      "落叶散落在林地表面。"
+    ],
+    "scene": "秋季树林",
+    "subjects": [
+      "树木",
+      "落叶",
+      "阳光"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线从画面右上方射入，形成明亮光斑。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "树木枝叶呈现鲜明的金黄色调；地面覆盖着大量枯黄落叶。",
+    "safe_facts": [
+      "树木枝叶呈现鲜明的金黄色调。",
+      "地面覆盖着大量枯黄落叶。"
+    ]
+  },
+  "label_id": "cpl_6bbbfcd1a4bb7fc8854a3cd2",
+  "provenance": {
+    "generated_at": "2026-08-03T10:17:54.477419+00:00",
+    "migrated_at": "2026-08-03T10:17:54.479256+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "04eb74a6ac323c1cec566fd67be699ae626ddac6f8835cace8243f3e2c4719ca",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4a57998fa5c34c027a831ee8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:17:54.479455+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4a57998fa5c34c027a831ee8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

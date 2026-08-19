@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:450.jpg",
+    "relative_path": "train/450.jpg",
+    "sha256": "3f02ce2b7d12431550258f12ab10c1ca9520d403f8de0293d557461217489c6b",
+    "split": "train"
+  },
+  "canonical_sha256": "d1c3a03b5b9fbd9c31566b94505b7a17bfa7d3585ad342640b176c6218bc68f3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "山巅",
+      "木质标牌",
+      "枯枝",
+      "户外小径"
+    ],
+    "short_description": "一名游客站在山间小径旁，前方立着一块棕色木质标牌，背景是光秃的树枝和淡蓝色天空。",
+    "theme": "山巅标识牌"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一块棕色木质标牌，立于小径旁。",
+      "标牌周围有大量光秃的树枝，地面覆盖枯草和泥土。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "棕色木质标牌",
+      "光秃树枝",
+      "土路小径",
+      "浅蓝色天空"
+    ],
+    "relations": [
+      "游客位于标牌左侧。",
+      "标牌立于小径旁。"
+    ],
+    "scene": "山间小径旁",
+    "subjects": [
+      "游客",
+      "木质标牌",
+      "枯树"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一块棕色木质标牌，立于小径旁；标牌周围有大量光秃的树枝，地面覆盖枯草和泥土。",
+    "safe_facts": [
+      "画面中有一块棕色木质标牌，立于小径旁。",
+      "标牌周围有大量光秃的树枝，地面覆盖枯草和泥土。"
+    ]
+  },
+  "label_id": "cpl_bf780feb74f7d5c41662e5db",
+  "provenance": {
+    "generated_at": "2026-08-03T11:05:56.370774+00:00",
+    "migrated_at": "2026-08-03T11:05:56.372623+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "676c6b8ccb9d20cc61b428a7f59f07fc7f53634c7b2dc3c5bb1050c3373486ad",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_068cea6568403af4069e2317",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:05:56.373264+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_068cea6568403af4069e2317"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "后龙山顶",
+      "Back Dragon Mountain Top",
+      "恭喜您成功登顶",
+      "Congratulations for Summiting the Top"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "后龙山顶",
+      "Back Dragon Mountain Top",
+      "恭喜您成功登顶",
+      "Congratulations for Summiting the Top"
+    ]
+  }
+}

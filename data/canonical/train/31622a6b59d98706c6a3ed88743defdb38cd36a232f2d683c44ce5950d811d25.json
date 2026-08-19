@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1991.jpg",
+    "relative_path": "train/1991.jpg",
+    "sha256": "31622a6b59d98706c6a3ed88743defdb38cd36a232f2d683c44ce5950d811d25",
+    "split": "train"
+  },
+  "canonical_sha256": "02ca80d66e3a74c0a2c5cc064bf34f2a8568b1f5a93a0f100b0eecb1a0c9824d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "窗户",
+      "建筑",
+      "树木",
+      "黄昏",
+      "阴天"
+    ],
+    "short_description": "从窗户望出去，阴云密布的天空下，一栋多层建筑与茂密绿树相映，窗框斑驳，透出静谧氛围。",
+    "theme": "城市黄昏窗景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空颜色暗示可能是黄昏或黎明时段。"
+    ],
+    "direct_observations": [
+      "画面左侧可见一扇带黑色窗框的窗户，窗框油漆剥落。",
+      "远处有一栋多层建筑，外墙挂有多个空调外机。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阴云密布的天空",
+      "斑驳的窗框",
+      "茂密的绿叶"
+    ],
+    "relations": [
+      "窗户位于前景。",
+      "建筑在中景。",
+      "树木部分遮挡视野。"
+    ],
+    "scene": "城市街景",
+    "subjects": [
+      "窗户",
+      "建筑",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空颜色暗示可能是黄昏或黎明时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面左侧可见一扇带黑色窗框的窗户，窗框油漆剥落；远处有一栋多层建筑，外墙挂有多个空调外机。",
+    "safe_facts": [
+      "画面左侧可见一扇带黑色窗框的窗户，窗框油漆剥落。",
+      "远处有一栋多层建筑，外墙挂有多个空调外机。"
+    ]
+  },
+  "label_id": "cpl_87e113191fc5cf17a07e4990",
+  "provenance": {
+    "generated_at": "2026-08-03T15:30:31.312411+00:00",
+    "migrated_at": "2026-08-03T15:30:31.314198+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "859cd63915ec77c37077e29667264278dde5f0eb00c145bad632a26e784ff33f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f1c6ae86ac23d9d1cefe41df",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:30:31.314408+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f1c6ae86ac23d9d1cefe41df"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

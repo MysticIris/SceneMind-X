@@ -1,0 +1,126 @@
+{
+  "asset_id": "5842fad05168dcc0",
+  "asset_sha256": "5842fad05168dcc08f69d3b74497555f1700789d38e445ea460cc5bf0651b0d4",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"电子电路原理图\",\n    \"short_description\": \"这是一张使用嘉立创EDA绘制的电子技术课设原理图。图中展示了FPGA芯片与SRAM存储器的连接电路，包含详细的引脚定义、网络标号及电源去耦电容，底部有标准工程标题栏。\",\n    \"micro_tags\": [\n      \"原理图\",\n      \"FPGA\",\n      \"SRAM\",\n      \"嘉立创EDA\",\n      \"电路设计\",\n      \"电子技术\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"illustration\",\n    \"scene\": \"电子工程设计软件界面\",\n    \"subjects\": [\n      \"电路原理图\",\n      \"集成电路符号\",\n      \"标题栏\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白底黑线\",\n      \"网格背景\",\n      \"红色边框\",\n      \"技术图纸\"\n    ],\n    \"relations\": [\n      \"左侧芯片通过导线连接至中间网络标签\",\n      \"右侧芯片连接至外部总线信号\",\n      \"标题栏位于图纸右下角\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图片展示了两颗主要芯片U16和U15的电路符号及其引脚连线\",\n      \"图纸右下角包含‘嘉立创EDA’标志及‘电子技术课设原理图’文字\",\n      \"可见大量以FPGA_和FSMC_开头的蓝色网络标号\",\n      \"芯片旁标注有0.1uF电容符号及+3.3V电源标识\"\n    ],\n    \"cautious_inferences\": [\n      \"根据芯片型号IS61WV102416BLL推断这是SRAM存储器电路\",\n      \"根据FSMC前缀推断该电路可能用于STM32等微控制器的外部存储器接口\",\n      \"图纸版本显示为V1.0，日期为2024年\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"XC7A35T-1FTG256C\",\n      \"IS61WV102416BLL\",\n      \"嘉立创EDA\",\n      \"电子技术课设原理图\",\n      \"FPGA_A0\",\n      \"FSMC_D0\",\n      \"+3.3V_RAM\",\n      \"2024-12-27\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张包含多个集成电路元件、连线和网络标号的电子电路原理图，右下角带有工程信息表格。\",\n    \"safe_facts\": [\n      \"图像为白底的技术图纸\",\n      \"包含矩形芯片符号和圆形引脚节点\",\n      \"存在红色的图框边界线\",\n      \"右下角有结构化的文本信息区域\"\n    ]\n  }\n}",
+      "input_tokens": 2763,
+      "output_tokens": 700,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 2763,
+        "output_tokens": 700,
+        "total_tokens": 3463,
+        "estimated_cost_cny": 0.011126,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "电子电路原理图",
+          "short_description": "这是一张使用嘉立创EDA绘制的电子技术课设原理图。图中展示了FPGA芯片与SRAM存储器的连接电路，包含详细的引脚定义、网络标号及电源去耦电容，底部有标准工程标题栏。",
+          "micro_tags": [
+            "原理图",
+            "FPGA",
+            "SRAM",
+            "嘉立创EDA",
+            "电路设计",
+            "电子技术"
+          ]
+        },
+        "facts": {
+          "visual_medium": "illustration",
+          "scene": "电子工程设计软件界面",
+          "subjects": [
+            "电路原理图",
+            "集成电路符号",
+            "标题栏"
+          ],
+          "actions": [],
+          "attributes": [
+            "白底黑线",
+            "网格背景",
+            "红色边框",
+            "技术图纸"
+          ],
+          "relations": [
+            "左侧芯片通过导线连接至中间网络标签",
+            "右侧芯片连接至外部总线信号",
+            "标题栏位于图纸右下角"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图片展示了两颗主要芯片U16和U15的电路符号及其引脚连线",
+            "图纸右下角包含‘嘉立创EDA’标志及‘电子技术课设原理图’文字",
+            "可见大量以FPGA_和FSMC_开头的蓝色网络标号",
+            "芯片旁标注有0.1uF电容符号及+3.3V电源标识"
+          ],
+          "cautious_inferences": [
+            "根据芯片型号IS61WV102416BLL推断这是SRAM存储器电路",
+            "根据FSMC前缀推断该电路可能用于STM32等微控制器的外部存储器接口",
+            "图纸版本显示为V1.0，日期为2024年"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "XC7A35T-1FTG256C",
+            "IS61WV102416BLL",
+            "嘉立创EDA",
+            "电子技术课设原理图",
+            "FPGA_A0",
+            "FSMC_D0",
+            "+3.3V_RAM",
+            "2024-12-27"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张包含多个集成电路元件、连线和网络标号的电子电路原理图，右下角带有工程信息表格。",
+          "safe_facts": [
+            "图像为白底的技术图纸",
+            "包含矩形芯片符号和圆形引脚节点",
+            "存在红色的图框边界线",
+            "右下角有结构化的文本信息区域"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 720548,
+        "request_bytes": 537337,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.181045699995593,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "dd6176c722add716d80d462b6386c4c3c910f4e81d581b09012176cf52687503"
+}

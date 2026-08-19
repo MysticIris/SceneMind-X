@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:368.jpg",
+    "relative_path": "train/368.jpg",
+    "sha256": "76bf47378da75e679b8ea350b05d2bf1601dd3cf50853d857a634b407b52a040",
+    "split": "train"
+  },
+  "canonical_sha256": "6ef1016846b083c5d7d0c6c8550fb405c30b2e5034a946fa5189387d8b584630",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "鹿",
+      "休息",
+      "围栏",
+      "水泥地"
+    ],
+    "short_description": "一只长角鹿卧在水泥地上，背景有围栏和其他动物，环境似动物园或养殖场。",
+    "theme": "鹿场休憩"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一只长角鹿侧卧在灰色水泥地面上。",
+      "背景中有木质围栏和至少两只其他动物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "卧着"
+    ],
+    "attributes": [
+      "棕色皮毛",
+      "大角",
+      "水泥地面"
+    ],
+    "relations": [
+      "鹿位于围栏内。",
+      "鹿靠近地面。"
+    ],
+    "scene": "户外围栏区域",
+    "subjects": [
+      "一只带角的鹿",
+      "其他动物",
+      "围栏"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只长角鹿侧卧在灰色水泥地面上；背景中有木质围栏和至少两只其他动物。",
+    "safe_facts": [
+      "一只长角鹿侧卧在灰色水泥地面上。",
+      "背景中有木质围栏和至少两只其他动物。"
+    ]
+  },
+  "label_id": "cpl_d9ba4073b34f0d49633ad1cd",
+  "provenance": {
+    "generated_at": "2026-08-03T10:49:04.343956+00:00",
+    "migrated_at": "2026-08-03T10:49:04.345816+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "211b43edb35cf051757e93bc403257bbcc249161d5b8f5bda510aeec9def0284",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_48a484efcc18b2f320d1d8a5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:49:04.346014+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_48a484efcc18b2f320d1d8a5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

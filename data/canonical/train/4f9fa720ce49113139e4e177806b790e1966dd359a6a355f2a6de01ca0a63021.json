@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1982.jpg",
+    "relative_path": "train/1982.jpg",
+    "sha256": "4f9fa720ce49113139e4e177806b790e1966dd359a6a355f2a6de01ca0a63021",
+    "split": "train"
+  },
+  "canonical_sha256": "b84eb70f6c63388d76a89eeba60cfe666a8d7a12fa459e6146d5d31be71f8d78",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "科研指南",
+      "学术出版",
+      "研究评估"
+    ],
+    "short_description": "一张幻灯片列出发表研究前需自问的七个问题，引导科研人员判断是否具备发表条件。",
+    "theme": "学术出版指导"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕右侧边缘可见数字“4”的导航按钮。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "投影屏幕显示的演示文稿页面",
+    "subjects": [],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕右侧边缘可见数字“4”的导航按钮。",
+    "safe_facts": [
+      "屏幕右侧边缘可见数字“4”的导航按钮。"
+    ]
+  },
+  "label_id": "cpl_f09b3b9b130907dc5aa3fe5b",
+  "provenance": {
+    "generated_at": "2026-08-03T15:31:44.251475+00:00",
+    "migrated_at": "2026-08-03T15:31:44.253533+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d9dd51c422e27602b3dfbc0aed844b366b49ff12d8ced28c0864a1eeaf737c30",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2c7af1d1cebfbd0da0bdaee9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:31:44.254131+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_subjects_empty",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2c7af1d1cebfbd0da0bdaee9"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Can I publish this?",
+      "Have you done something new and interest",
+      "Have you checked the latest results in t",
+      "Have the findings been verified?",
+      "Have the appropriate controls been perfo",
+      "Do your findings tell a nice story or is"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Can I publish this?",
+      "Have you done something new and interest",
+      "Have you checked the latest results in t",
+      "Have the findings been verified?",
+      "Have the appropriate controls been perfo",
+      "Do your findings tell a nice story or is"
+    ]
+  }
+}

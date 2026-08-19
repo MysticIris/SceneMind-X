@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1405.jpg",
+    "relative_path": "train/1405.jpg",
+    "sha256": "8d58b71b7f2cbe4712d30a4011a2e948458d2ac4c921c783b5bd303f6963333d",
+    "split": "train"
+  },
+  "canonical_sha256": "c0f02f7033f6f875c5ba27dc6729df9c8358d2876e901b51cf7911bc9aeef2c2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "秋日",
+      "园林",
+      "俯视",
+      "池塘",
+      "树木"
+    ],
+    "short_description": "俯拍视角下，秋色斑斓的树林环绕着两个池塘，池中点缀着小亭，道路蜿蜒其间，绿植与红黄叶交织成自然画卷。",
+    "theme": "秋日园林俯瞰"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "池塘表面可能漂浮着落叶。"
+    ],
+    "direct_observations": [
+      "画面呈现从上往下俯瞰的视角。",
+      "树木呈现出绿色、黄色和橙色等多种秋季色彩。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "秋季色彩",
+      "落叶覆盖水面",
+      "绿色植被",
+      "红色与黄色树叶"
+    ],
+    "relations": [
+      "树木环绕池塘。",
+      "小亭位于池塘中央。",
+      "道路连接不同区域。"
+    ],
+    "scene": "公园或校园绿地",
+    "subjects": [
+      "树木",
+      "池塘",
+      "小亭",
+      "道路",
+      "建筑屋顶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "池塘表面可能漂浮着落叶。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现从上往下俯瞰的视角；树木呈现出绿色、黄色和橙色等多种秋季色彩。",
+    "safe_facts": [
+      "画面呈现从上往下俯瞰的视角。",
+      "树木呈现出绿色、黄色和橙色等多种秋季色彩。"
+    ]
+  },
+  "label_id": "cpl_2444989eaeee2bf41287fd3a",
+  "provenance": {
+    "generated_at": "2026-08-03T14:20:30.721363+00:00",
+    "migrated_at": "2026-08-03T14:20:30.725182+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fe7a4d2db3bdcf5faa0827877140c3d8b27183c5035a3e63b0596c8bb0c0bbf7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e1cb5c74777be3761f8402c7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:20:30.725746+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e1cb5c74777be3761f8402c7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "asset_id": "7ffe37af41b93a16",
+  "asset_sha256": "7ffe37af41b93a16ce8e379c3d7ddd99d3d2a258aeb2dd01170c11c2e4f19039",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"游戏个人主页界面\",\n    \"short_description\": \"这是一张手机游戏的个人主页截图。界面右侧展示了一位身穿粉白配色古风服饰、拥有白色长发的女性3D角色模型，背景为梦幻的亭台楼阁场景。左侧排列着玩家头像、昵称、段位徽章、亲密度数值及各类功能菜单图标，整体呈现典型的MOBA类游戏UI风格。\",\n    \"micro_tags\": [\n      \"游戏界面\",\n      \"女性角色\",\n      \"古风皮肤\",\n      \"个人主页\",\n      \"UI设计\",\n      \"3D建模\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"手机游戏用户界面，包含左侧信息栏与右侧3D角色展示区\",\n    \"subjects\": [\n      \"女性游戏角色\",\n      \"UI图标与文本\",\n      \"玩家头像\"\n    ],\n    \"actions\": [\n      \"角色站立展示\",\n      \"界面元素平铺排列\"\n    ],\n    \"attributes\": [\n      \"粉白色调服饰\",\n      \"白色长发\",\n      \"深蓝色背景\",\n      \"金色徽章装饰\",\n      \"半透明UI面板\"\n    ],\n    \"relations\": [\n      \"角色位于画面右侧前景\",\n      \"数据面板位于画面左侧\",\n      \"背景为虚化的游戏场景\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面右侧有一个穿着粉白相间汉服风格短裙、长着白色长发和兽耳特征的女性3D角色。\",\n      \"画面左侧垂直排列着多个功能入口（如主页、战绩、英雄），并显示有圆形的玩家头像和多行数据统计。\",\n      \"背景呈现出带有拱桥和亭台的蓝紫色调奇幻场景，伴有飘落的花瓣特效。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局（左侧菜单、右侧模型、底部社交图标）推测这是一款多人在线战术竞技类（MOBA）手游的个人资料页。\",\n      \"角色脚下的圆形平台和周围的特效表明这是游戏内的角色展示或换装界面。\"\n    ],\n    \"uncertainties\": [\n      \"具体的游戏名称无法仅通过视觉确认（虽然UI风格高度疑似王者荣耀）。\",\n      \"左侧小字的具体数值和文本内容因分辨率原因难以完全精确辨认。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"个人主页\",\n      \"电竞空间\",\n      \"设置\",\n      \"婉婉泪清\",\n      \"我的名片\",\n      \"荣耀·绝世无双\",\n      \"广东省第四十五嫦娥\",\n      \"42级资深收藏家\",\n      \"5v5赛季\",\n      \"5v5历史\",\n      \"王者印记\",\n      \"巅峰中路\",\n      \"我的英雄\",\n      \"对战场次\",\n      \"对战被赞\",\n      \"信誉等级\",\n      \"图鉴等级\",\n      \"皮肤\",\n      \"亲昵度\",\n      \"知己\",\n      \"最近访客\",\n      \"海报\",\n      \"换英雄\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张电子游戏的个人主页界面截图，右侧展示了一位身着粉色古风",
+      "input_tokens": 3227,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 768,
+        "total_tokens": 3995,
+        "estimated_cost_cny": 0.012598,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "游戏个人主页界面",
+        "short_description": "这是一张手机游戏的个人主页截图。界面右侧展示了一位身穿粉白配色古风服饰、拥有白色长发的女性3D角色模型，背景为梦幻的亭台楼阁场景。左侧排列着玩家头像、昵称、段位徽章、亲密度数值及各类功能菜单图标，整体呈现典型的MOBA类游戏UI风格。",
+        "micro_tags": [
+          "游戏界面",
+          "女性角色",
+          "古风皮肤",
+          "个人主页",
+          "UI设计",
+          "3D建模"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 5832932,
+        "request_bytes": 4371626,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.026857299999392,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "0669d95ccea6027e7723183423b48d914649b39cc219c1f17a03ebf342a042a0"
+}

@@ -1,0 +1,12 @@
+从以下 visual_medium 枚举中选择一个值：
+real_world_photo, screenshot, presentation_slide, meme_or_reaction_image,
+poster_or_advertisement, document_or_paper, webpage_or_user_interface,
+chat_screenshot, chart_or_infographic, illustration_or_comic, packaging,
+photographed_screen_content, mixed, uncertain。
+
+判断整张图像的媒介，不要被照片中的包装、屏幕、海报或插画内容替代。
+现实中拍摄的包装盒仍是 real_world_photo；幻灯片截图是 presentation_slide；
+带有典型叠字和反应语境的图片是 meme_or_reaction_image。
+
+精确输出：
+{"visual_medium":"<枚举>","confidence":"<low|medium|high>"}

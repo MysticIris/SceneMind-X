@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1909.jpg",
+    "relative_path": "train/1909.jpg",
+    "sha256": "3824afa2a8cb4c5b0befa62b1e3b3c27c5171f276d3a7c58dd5c3b214c3e4951",
+    "split": "train"
+  },
+  "canonical_sha256": "cd4ceed261ad483fa63b241d163fff5c2e29e91e1d44fe154f0477fc7cdad172",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "跑步者",
+      "观众",
+      "红色跑道",
+      "户外运动"
+    ],
+    "short_description": "电视屏幕上显示一群人在红色跑道上奔跑，一名观众坐在木栏杆旁观看。",
+    "theme": "田径比赛现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有四名跑步者正在红色跑道上奔跑。",
+      "一名观众背对镜头坐在木制栏杆上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "奔跑",
+      "观看"
+    ],
+    "attributes": [
+      "红色跑道",
+      "绿色草地",
+      "木制栏杆"
+    ],
+    "relations": [
+      "跑步者在跑道上奔跑。",
+      "观众坐在栏杆旁观看跑步者。"
+    ],
+    "scene": "户外田径场地",
+    "subjects": [
+      "多名跑步者",
+      "一名观众"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有四名跑步者正在红色跑道上奔跑；一名观众背对镜头坐在木制栏杆上。",
+    "safe_facts": [
+      "画面中有四名跑步者正在红色跑道上奔跑。",
+      "一名观众背对镜头坐在木制栏杆上。"
+    ]
+  },
+  "label_id": "cpl_2d70928ce704c6f5d4dab90a",
+  "provenance": {
+    "generated_at": "2026-08-03T15:19:40.484538+00:00",
+    "migrated_at": "2026-08-03T15:19:40.487045+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "97b4f3c094815e2d5f94e8ac3a1dbe3f40489c15f1433db7389f4b33c758d0e6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0f9f20fdd261a29696b759c3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:19:40.487560+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0f9f20fdd261a29696b759c3"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "在取得了帕特里克·莱的青睐后",
+      "大李不王 bilibili",
+      "OLYMPIC CHANNEL"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "在取得了帕特里克·莱的青睐后",
+      "大李不王 bilibili",
+      "OLYMPIC CHANNEL"
+    ]
+  }
+}

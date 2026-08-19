@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:321.jpg",
+    "relative_path": "train/321.jpg",
+    "sha256": "f8fb6dae3d42e4d440e8e5fff527684247d1f29c0ab98f07ea7390f3a26ce8ec",
+    "split": "train"
+  },
+  "canonical_sha256": "540db559d09f8e8b3e9a7cc630087f8a92b37424abf054c4ead5f4edf1f699fb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古建筑",
+      "店铺",
+      "服装陈列"
+    ],
+    "short_description": "古色古香的街道旁，一家店铺门口挂着红色招牌，店内陈列着各式服装，旁边有绿植点缀。",
+    "theme": "古街店铺"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "店铺门面为传统木结构，有深色木质门窗。",
+      "店铺门口悬挂红色竖幅招牌，地面铺有石板路。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质结构",
+      "石板路",
+      "红色招牌",
+      "悬挂衣物"
+    ],
+    "relations": [
+      "店铺位于街道旁。",
+      "绿植在店铺门前。"
+    ],
+    "scene": "古街店铺入口",
+    "subjects": [
+      "店铺",
+      "服装",
+      "招牌",
+      "绿植"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "店铺门面为传统木结构，有深色木质门窗；店铺门口悬挂红色竖幅招牌，地面铺有石板路。",
+    "safe_facts": [
+      "店铺门面为传统木结构，有深色木质门窗。",
+      "店铺门口悬挂红色竖幅招牌，地面铺有石板路。"
+    ]
+  },
+  "label_id": "cpl_8b6d87eca13749aada62b702",
+  "provenance": {
+    "generated_at": "2026-08-03T10:39:19.279488+00:00",
+    "migrated_at": "2026-08-03T10:39:19.281060+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3c152f32cbe83ee0dd10ae9760b6d7004f784d78bfa8d93ef8df741ede58f646",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_525afc3fb45116077a0b55ca",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:39:19.281270+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_525afc3fb45116077a0b55ca"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

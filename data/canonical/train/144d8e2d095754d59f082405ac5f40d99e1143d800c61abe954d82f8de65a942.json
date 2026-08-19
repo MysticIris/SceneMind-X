@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:580.jpg",
+    "relative_path": "train/580.jpg",
+    "sha256": "144d8e2d095754d59f082405ac5f40d99e1143d800c61abe954d82f8de65a942",
+    "split": "train"
+  },
+  "canonical_sha256": "a4b81399808a180f0c6727dba682c33da3f8afe8de25d5c1cab8a7085f92d34a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜市",
+      "行人",
+      "树木",
+      "灯光装饰"
+    ],
+    "short_description": "夜晚灯光璀璨的石板街道，两旁绿树成荫，行人熙攘穿梭，充满生活气息。",
+    "theme": "夜市街景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "街道两侧有商铺或摊位，但具体商品不可辨识。"
+    ],
+    "direct_observations": [
+      "街道由深色石砖铺成，地面有反光。",
+      "多棵大树枝干粗壮，树冠茂密，部分树干缠绕藤蔓。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "站立",
+      "拍照"
+    ],
+    "attributes": [
+      "石板路",
+      "绿色树叶",
+      "暖黄色灯光",
+      "传统建筑风格"
+    ],
+    "relations": [
+      "行人沿街道行走。",
+      "树木沿街道排列。",
+      "灯光装饰挂在树枝上。"
+    ],
+    "scene": "城市夜间步行街",
+    "subjects": [
+      "行人",
+      "树木",
+      "路灯",
+      "装饰灯串"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "街道两侧有商铺或摊位，但具体商品不可辨识。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "街道由深色石砖铺成，地面有反光；多棵大树枝干粗壮，树冠茂密，部分树干缠绕藤蔓。",
+    "safe_facts": [
+      "街道由深色石砖铺成，地面有反光。",
+      "多棵大树枝干粗壮，树冠茂密，部分树干缠绕藤蔓。"
+    ]
+  },
+  "label_id": "cpl_5d95323a0d478151555b0508",
+  "provenance": {
+    "generated_at": "2026-08-03T11:37:36.683510+00:00",
+    "migrated_at": "2026-08-03T11:37:36.685410+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bd8f48e65fb8c832523f83712821f194ca5e082a26e80a07788fc826291d0e33",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a2e112487e95fd7db4eee125",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:37:36.685661+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a2e112487e95fd7db4eee125"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

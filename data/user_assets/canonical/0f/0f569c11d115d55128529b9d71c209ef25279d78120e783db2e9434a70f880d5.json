@@ -1,0 +1,136 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_ba43054d9c043d055d7e7b26",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_318caa6de8f4031eaaa6f70c"
+  ],
+  "asset": {
+    "asset_id": "0f569c11d115d551",
+    "sha256": "0f569c11d115d55128529b9d71c209ef25279d78120e783db2e9434a70f880d5",
+    "split": "user_custom",
+    "relative_path": "user_assets/0f/0f569c11d115d55128529b9d71c209ef25279d78120e783db2e9434a70f880d5/0f569c11d115d55128529b9d71c209ef25279d78120e783db2e9434a70f880d5.jpg"
+  },
+  "display": {
+    "theme": "横线纸上的手写笔记",
+    "short_description": "一张带有绿色横线的白色纸张特写，上面用黑色墨水手写了四行中文诗句或随笔，字迹潦草。",
+    "micro_tags": [
+      "手写体",
+      "横线纸",
+      "笔记",
+      "黑色墨水",
+      "特写"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "室内桌面或书写平面",
+    "subjects": [
+      "横线笔记本内页"
+    ],
+    "actions": [],
+    "attributes": [
+      "绿色横线",
+      "白色纸面",
+      "黑色笔迹",
+      "行书风格"
+    ],
+    "relations": [
+      "纸张放置在木纹表面上。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "纸张中央区域有四行清晰可见的黑色手写汉字。",
+      "图片右上角边缘显示出浅棕色的木质表面纹理。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法确定拍摄的具体时间或地点。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "向正极移动",
+      "写下一个天亮",
+      "去上次牵手赏花那里散步好吗",
+      "有些积雪会自己融化",
+      "你的肩膀是我豁达的天堂"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "向正极移动",
+      "写下一个天亮",
+      "去上次牵手赏花那里散步好吗",
+      "有些积雪会自己融化",
+      "你的肩膀是我豁达的天堂"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "纸张中央区域有四行清晰可见的黑色手写汉字；图片右上角边缘显示出浅棕色的木质表面纹理。",
+    "safe_facts": [
+      "纸张中央区域有四行清晰可见的黑色手写汉字。",
+      "图片右上角边缘显示出浅棕色的木质表面纹理。"
+    ],
+    "do_not_assert": [
+      "无法确定拍摄的具体时间或地点。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "needs_review",
+    "schema_valid": true,
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": true,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_2ad3ef70-9f61-49cc-9a3e-6f1f032430a9",
+    "generated_at": "2026-08-12T03:15:07.920749+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "4cbbdd6f5ba1dd0b0c6ef1bfdff1f28a24fc3902d89a65bbf3fab3000ceb8d46",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:15:07.921433+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_318caa6de8f4031eaaa6f70c",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:15:07.921906+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "6277dfb51edde902481fc40ef202140993a99978442f10c90dfc54c5b5714bc5"
+}

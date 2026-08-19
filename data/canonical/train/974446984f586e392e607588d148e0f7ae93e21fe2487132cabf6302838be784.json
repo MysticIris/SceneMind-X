@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1666.jpg",
+    "relative_path": "train/1666.jpg",
+    "sha256": "974446984f586e392e607588d148e0f7ae93e21fe2487132cabf6302838be784",
+    "split": "train"
+  },
+  "canonical_sha256": "08a407458276cd814e39a894c6ba94c672a95eb49f7770b130da48741bf848eb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "长毛猫",
+      "卧室",
+      "花卉床单"
+    ],
+    "short_description": "一只长毛猫蜷缩在花卉图案床单上，背景是书桌和电竞椅，环境居家温馨。",
+    "theme": "毛茸茸猫咪静卧"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "猫身体呈蜷缩状，毛发蓬松。",
+      "床单上有紫色和绿色的花卉图案。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "长毛",
+      "浅色皮毛",
+      "白色面部",
+      "深色耳朵和眼睛周围",
+      "蜷缩姿势"
+    ],
+    "relations": [
+      "猫位于床单上。",
+      "床单上有紫色花朵图案。",
+      "背景有书桌和电竞椅。"
+    ],
+    "scene": "室内卧室环境",
+    "subjects": [
+      "一只猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "猫身体呈蜷缩状，毛发蓬松；床单上有紫色和绿色的花卉图案。",
+    "safe_facts": [
+      "猫身体呈蜷缩状，毛发蓬松。",
+      "床单上有紫色和绿色的花卉图案。"
+    ]
+  },
+  "label_id": "cpl_cda2e08096052aa073a04730",
+  "provenance": {
+    "generated_at": "2026-08-02T22:06:44.760600+00:00",
+    "migrated_at": "2026-08-03T07:13:41.472450+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7590194d605f1c8e327e9587c02c852dd0258f2c8a95042aab59999a40a1525f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b9b4ab33e59ab4a16ed610e4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:51:52.200956+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b9b4ab33e59ab4a16ed610e4",
+    "cpl_b3e69f5e858dbff6205c60b5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

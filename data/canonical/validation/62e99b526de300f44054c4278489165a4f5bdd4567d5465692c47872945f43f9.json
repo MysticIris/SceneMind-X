@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2034.jpg",
+    "relative_path": "val/2034.jpg",
+    "sha256": "62e99b526de300f44054c4278489165a4f5bdd4567d5465692c47872945f43f9",
+    "split": "val"
+  },
+  "canonical_sha256": "a445bad8922e8251c9096330fb94dbd1e17640e3d2f90b29d373d71a3017ef39",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "示波器",
+      "绿色线条",
+      "模糊人影"
+    ],
+    "short_description": "示波器显示绿色斜线，背景有模糊人影。",
+    "theme": "保守"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "示wave器屏幕显示绿色斜线。",
+      "示波器上有多个旋钮和按钮。",
+      "背景中有人影。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "",
+    "subjects": [],
+    "visual_medium": "uncertain"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "示wave器屏幕显示绿色斜线；示波器上有多个旋钮和按钮。",
+    "safe_facts": [
+      "示wave器屏幕显示绿色斜线。",
+      "示波器上有多个旋钮和按钮。",
+      "背景中有人影。"
+    ]
+  },
+  "label_id": "cpl_01afb17731657b553cc87ff4",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/val/val_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "e32d3af75c130700fc73cbca19128fe8491843a5f2d834ae73a5bd88abf3c6d1",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T15:51:33.180769+00:00",
+    "migrated_at": "2026-08-03T15:51:33.182215+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "a1b9e02b68561075c20a39e92cf25e495d05a8017f7ff3050b6f68f5012a9bfb",
+    "raw_output_sha256": "3da339919041dbfb380544c38610c16882bc5ea9c1d001d5058f691550d54821",
+    "recovered_at_tokens": 384,
+    "source_label_id": "cpl_1a2e37307bac69fbbe29a3a9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:51:33.182410+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_subjects_empty",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_with_minimal_contract",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "精简恢复标签正确识别示波器与绿色斜线。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1a2e37307bac69fbbe29a3a9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

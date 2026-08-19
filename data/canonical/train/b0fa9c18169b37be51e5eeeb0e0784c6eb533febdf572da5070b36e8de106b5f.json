@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:541.jpg",
+    "relative_path": "train/541.jpg",
+    "sha256": "b0fa9c18169b37be51e5eeeb0e0784c6eb533febdf572da5070b36e8de106b5f",
+    "split": "train"
+  },
+  "canonical_sha256": "0fd4910b1bb28ca2d2e8c4e481f416ab2b6b4108262a2c6914dd7a44437d9437",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雾天",
+      "城市街道",
+      "高层建筑"
+    ],
+    "short_description": "浓雾笼罩城市高楼，街道上有行人与车辆，部分建筑被雾气遮挡，交通信号灯亮起。",
+    "theme": "雾中城市街景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "雾气可能影响视线和交通通行效率。"
+    ],
+    "direct_observations": [
+      "天空和建筑物被浓雾覆盖，能见度低。",
+      "街道上有行人、电动车和汽车在移动。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "骑行",
+      "行驶"
+    ],
+    "attributes": [
+      "浓雾",
+      "多层建筑",
+      "交通信号灯",
+      "蓝色路障"
+    ],
+    "relations": [
+      "行人与街道。",
+      "骑手与电动车。",
+      "汽车与道路。"
+    ],
+    "scene": "城市街道交叉口",
+    "subjects": [
+      "行人",
+      "骑手",
+      "汽车",
+      "电动车",
+      "高楼"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "雾气可能影响视线和交通通行效率。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空和建筑物被浓雾覆盖，能见度低；街道上有行人、电动车和汽车在移动。",
+    "safe_facts": [
+      "天空和建筑物被浓雾覆盖，能见度低。",
+      "街道上有行人、电动车和汽车在移动。"
+    ]
+  },
+  "label_id": "cpl_a498a42728699f3d3078615e",
+  "provenance": {
+    "generated_at": "2026-08-03T11:25:59.405417+00:00",
+    "migrated_at": "2026-08-03T11:25:59.407391+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d53fcb8a904825cdb25c1c31eda1a97af1b727104d54fcad0e49479d4ffa21d7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_19859c64aa8b2703ae4be0c7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:25:59.407602+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_19859c64aa8b2703ae4be0c7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:544.jpg",
+    "relative_path": "train/544.jpg",
+    "sha256": "67f93fa56fda515893418b9f24083a3aa778d0a171cf48176f600069382ec926",
+    "split": "train"
+  },
+  "canonical_sha256": "b2505a54a7fc14e3bec1be8dc36c5c0270ca4a5ad69f567dd9e1c231545e3188",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "瀑布",
+      "池塘",
+      "园林景观",
+      "松树",
+      "红叶树"
+    ],
+    "short_description": "绿树环绕的石砌瀑布池塘，水流从多层岩石倾泻而下，水面倒映着树木与天空。",
+    "theme": "日式庭院水景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "池塘周围植被茂密，包括针叶树和阔叶树，可能为人工布置的园林景观。"
+    ],
+    "direct_observations": [
+      "画面中央有由岩石构成的多级瀑布，水流从上至下倾泻入池塘。",
+      "池塘水面呈灰绿色，有波纹和倒影，岸边有绿色植物和部分粉色花朵。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "水流下落",
+      "水面波动"
+    ],
+    "attributes": [
+      "绿色植物",
+      "红色树叶",
+      "灰色岩石",
+      "清澈水面"
+    ],
+    "relations": [
+      "瀑布位于池塘后方。",
+      "树木环绕池塘。"
+    ],
+    "scene": "户外园林水景",
+    "subjects": [
+      "瀑布",
+      "池塘",
+      "岩石",
+      "树木",
+      "花草"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "池塘周围植被茂密，包括针叶树和阔叶树，可能为人工布置的园林景观。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有由岩石构成的多级瀑布，水流从上至下倾泻入池塘；池塘水面呈灰绿色，有波纹和倒影，岸边有绿色植物和部分粉色花朵。",
+    "safe_facts": [
+      "画面中央有由岩石构成的多级瀑布，水流从上至下倾泻入池塘。",
+      "池塘水面呈灰绿色，有波纹和倒影，岸边有绿色植物和部分粉色花朵。"
+    ]
+  },
+  "label_id": "cpl_57b32be1251918772672b1a8",
+  "provenance": {
+    "generated_at": "2026-08-03T11:29:36.036763+00:00",
+    "migrated_at": "2026-08-03T11:29:36.038841+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7c8415b4bc54b6cb22b6ff18868237c2739e2c25925d3096c100e38243cdc69b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_140713c8f4e574fa58e917df",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:29:36.039074+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_140713c8f4e574fa58e917df"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

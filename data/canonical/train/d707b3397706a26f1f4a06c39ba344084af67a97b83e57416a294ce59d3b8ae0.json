@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:627.jpg",
+    "relative_path": "train/627.jpg",
+    "sha256": "d707b3397706a26f1f4a06c39ba344084af67a97b83e57416a294ce59d3b8ae0",
+    "split": "train"
+  },
+  "canonical_sha256": "cd51c7418f9f846f5edeba2b08cc102dd2963475e387791a9fa9444f290c989f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "日式建筑",
+      "庭院灯光",
+      "夜间景观"
+    ],
+    "short_description": "树木环绕的日式建筑在暖光灯下静谧，围墙与灌木丛被灯光照亮，营造出宁静雅致的氛围。",
+    "theme": "日式庭院夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "灯光从建筑和围墙内侧投射，营造出温暖氛围。"
+    ],
+    "direct_observations": [
+      "建筑具有传统日式屋檐和木质框架。",
+      "围墙上有横向条纹瓦片，墙身被灯光照亮。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质结构",
+      "暖黄色灯光",
+      "深绿色植被",
+      "浅色墙面"
+    ],
+    "relations": [
+      "建筑位于树木后方。",
+      "灯光照亮围墙与灌木丛。",
+      "树木环绕建筑。"
+    ],
+    "scene": "户外庭院",
+    "subjects": [
+      "建筑",
+      "树木",
+      "围墙",
+      "灌木丛",
+      "灯具"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "灯光从建筑和围墙内侧投射，营造出温暖氛围。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑具有传统日式屋檐和木质框架；围墙上有横向条纹瓦片，墙身被灯光照亮。",
+    "safe_facts": [
+      "建筑具有传统日式屋檐和木质框架。",
+      "围墙上有横向条纹瓦片，墙身被灯光照亮。"
+    ]
+  },
+  "label_id": "cpl_2e5167e0cb76698417cf68bb",
+  "provenance": {
+    "generated_at": "2026-08-03T11:47:17.034342+00:00",
+    "migrated_at": "2026-08-03T11:47:17.036211+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "71da2afd78fc3e0527263cdddfa1b5826a5e1fc8cc562b6b686beea2db868553",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2bb7e8620a5a7fc6985483ec",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:47:17.037237+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2bb7e8620a5a7fc6985483ec"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

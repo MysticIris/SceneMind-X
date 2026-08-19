@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:962.jpg",
+    "relative_path": "train/962.jpg",
+    "sha256": "4c350d8bd78a199eb15e7ea24280d14d589587ab1cd8af85b56e872eb5dd288a",
+    "split": "train"
+  },
+  "canonical_sha256": "303fddf20c34c493255e1fab6fc9f5ada293d0d552790bac85ff6df0068fbfc8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "枯树",
+      "黑白摄影",
+      "仰视角度"
+    ],
+    "short_description": "黑白照片中一棵光秃秃的树从低角度仰拍，树干粗壮，枝桠向天空伸展，背景是灰白天空。",
+    "theme": "枯树仰视"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "树冠部分无叶片，可能处于冬季或旱季。"
+    ],
+    "direct_observations": [
+      "画面为黑白图像，无色彩信息。",
+      "树干呈锥形，表面有明显纵向纹理。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "无叶",
+      "树干粗大",
+      "枝桠繁复",
+      "黑白影像"
+    ],
+    "relations": [],
+    "scene": "户外天空背景",
+    "subjects": [
+      "一棵树"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "树冠部分无叶片，可能处于冬季或旱季。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面为黑白图像，无色彩信息；树干呈锥形，表面有明显纵向纹理。",
+    "safe_facts": [
+      "画面为黑白图像，无色彩信息。",
+      "树干呈锥形，表面有明显纵向纹理。"
+    ]
+  },
+  "label_id": "cpl_94d62cbfb9aab2c3419b14d4",
+  "provenance": {
+    "generated_at": "2026-08-03T13:10:02.275265+00:00",
+    "migrated_at": "2026-08-03T13:10:02.278397+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "60493a3d638f275d831c5317ab9efe9c9a214218a257c6a56318aa0dcf7e049c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_94d62cbfb9aab2c3419b14d4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:21:20.324056+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_94642582c6d419af933438de"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

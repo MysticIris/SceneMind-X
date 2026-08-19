@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1614.jpg",
+    "relative_path": "train/1614.jpg",
+    "sha256": "352ee6d2d41782045f326d94e69ebe847744640238907a2a0ab3f227343f1f7e",
+    "split": "train"
+  },
+  "canonical_sha256": "071070a7504510ec76c8aa6aed04bd63a4433e37d786f10f3619df9a3c4b19c1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "湖景",
+      "城市天际线",
+      "儿童涂鸦"
+    ],
+    "short_description": "湖边步道护栏上绘有童趣涂鸦，远处是城市建筑群与连绵山峦，天空晴朗。",
+    "theme": "湖畔城市风光"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面前景为带有彩色涂鸦的护栏。",
+      "背景为城市建筑群与远山，中间隔着一片水域。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晴朗天空",
+      "彩色涂鸦",
+      "灰色地砖"
+    ],
+    "relations": [
+      "涂鸦位于护栏上。",
+      "建筑群位于湖对岸。",
+      "山峦位于建筑后方。"
+    ],
+    "scene": "湖边步道",
+    "subjects": [
+      "护栏涂鸦",
+      "城市建筑",
+      "远山"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景为带有彩色涂鸦的护栏；背景为城市建筑群与远山，中间隔着一片水域。",
+    "safe_facts": [
+      "画面前景为带有彩色涂鸦的护栏。",
+      "背景为城市建筑群与远山，中间隔着一片水域。"
+    ]
+  },
+  "label_id": "cpl_1bb946ad61beda52728e8249",
+  "provenance": {
+    "generated_at": "2026-08-03T14:44:16.090909+00:00",
+    "migrated_at": "2026-08-03T14:44:16.096781+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "222043b3e242042b7667cf3737e4d4f5480822ab55adfb3a41a15f252acab4d8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_cd94183e76b38cc76bb8c926",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:44:16.097732+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_cd94183e76b38cc76bb8c926"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

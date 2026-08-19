@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2196.jpg",
+    "relative_path": "val/2196.jpg",
+    "sha256": "95a39b0dd21156592aa8fe1414c6e2bffc04beef182ecae6a0908e2548999eb5",
+    "split": "val"
+  },
+  "canonical_sha256": "ddb22e59e4e830fa45fe076040fe02ad28e7b2194fb97ba2615fbd9258d4e73e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "麻辣火锅",
+      "红油汤底",
+      "花椒辣椒",
+      "金属锅具"
+    ],
+    "short_description": "金色锅具盛着红油麻辣火锅汤底，漂浮大量花椒和辣椒碎，锅内有金属勺。",
+    "theme": "麻辣火锅"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "锅内液体呈深红色，表面漂浮大量黄色花椒粒和红色辣椒碎。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色汤底",
+      "金黄色锅具",
+      "漂浮花椒和辣椒碎"
+    ],
+    "relations": [],
+    "scene": "餐桌上的火锅",
+    "subjects": [
+      "火锅锅具",
+      "火锅汤底",
+      "金属勺"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "锅内液体呈深红色，表面漂浮大量黄色花椒粒和红色辣椒碎。",
+    "safe_facts": [
+      "锅内液体呈深红色，表面漂浮大量黄色花椒粒和红色辣椒碎。"
+    ]
+  },
+  "label_id": "cpl_36ad99fe774aaa2a702c80ce",
+  "provenance": {
+    "generated_at": "2026-08-03T16:12:27.061741+00:00",
+    "migrated_at": "2026-08-03T16:12:27.063477+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f4073cdd6d56b7e53b580f2a7aa526010c4327bd88c99056c5b165e7c3380d5c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fb31fe141c903ca45af5cb95",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:12:27.063681+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fb31fe141c903ca45af5cb95"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "渝格格"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "渝格格"
+    ]
+  }
+}

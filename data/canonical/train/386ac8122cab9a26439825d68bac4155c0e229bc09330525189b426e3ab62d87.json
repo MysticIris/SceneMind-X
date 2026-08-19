@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1999.jpg",
+    "relative_path": "train/1999.jpg",
+    "sha256": "386ac8122cab9a26439825d68bac4155c0e229bc09330525189b426e3ab62d87",
+    "split": "train"
+  },
+  "canonical_sha256": "fecddf76e25bdc2aae910ec8131df3913fb44952af24d42dd966948a6dbca520",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市景观",
+      "高楼大厦",
+      "蓝天白云",
+      "绿树前景"
+    ],
+    "short_description": "从高处俯瞰城市，蓝天白云下高楼林立，前景有绿树点缀。",
+    "theme": "城市天际线"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "画面可能拍摄于城市山丘或高处。"
+    ],
+    "direct_observations": [
+      "天空呈蓝色，布满白色云层。",
+      "远处可见密集的高层建筑群。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晴朗天气",
+      "现代建筑群",
+      "绿色植被"
+    ],
+    "relations": [
+      "建筑物位于天空下方。",
+      "树木位于前景。"
+    ],
+    "scene": "城市全景",
+    "subjects": [
+      "建筑物",
+      "天空",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "画面可能拍摄于城市山丘或高处。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈蓝色，布满白色云层；远处可见密集的高层建筑群。",
+    "safe_facts": [
+      "天空呈蓝色，布满白色云层。",
+      "远处可见密集的高层建筑群。"
+    ]
+  },
+  "label_id": "cpl_073743feebd06065fe87364c",
+  "provenance": {
+    "generated_at": "2026-08-03T15:31:29.661127+00:00",
+    "migrated_at": "2026-08-03T15:31:29.662882+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ca616dfe17e597b4cb7e8cf2f1eced95400c0f0a75ef72049af8456da4e3fc42",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_dbe17028e7afe8f4781bce76",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:31:29.663141+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_dbe17028e7afe8f4781bce76"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

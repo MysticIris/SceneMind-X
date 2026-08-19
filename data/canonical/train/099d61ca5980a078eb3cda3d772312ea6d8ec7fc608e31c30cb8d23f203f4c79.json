@@ -1,0 +1,139 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1384.jpg",
+    "relative_path": "train/1384.jpg",
+    "sha256": "099d61ca5980a078eb3cda3d772312ea6d8ec7fc608e31c30cb8d23f203f4c79",
+    "split": "train"
+  },
+  "canonical_sha256": "74d8586ab09346cef441c815927d8adea449a9a2c7ec3255241b7662493881fc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "景区地图",
+      "导览标识",
+      "木质标牌"
+    ],
+    "short_description": "标识牌为木质材料；标牌上绘制了景区内路径和设施布局。",
+    "theme": "景区导览图"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "标识牌为木质材料。",
+      "标牌上绘制了景区内路径和设施布局。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深棕色木纹表面",
+      "白色线条绘制路径",
+      "黄色路径线",
+      "北向箭头"
+    ],
+    "relations": [
+      "标牌立于石基座上。",
+      "标牌后方有绿色植物。"
+    ],
+    "scene": "户外景区导览标识牌",
+    "subjects": [
+      "木制标牌",
+      "地图图案",
+      "植被背景"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "标识牌为木质材料；标牌上绘制了景区内路径和设施布局。",
+    "safe_facts": [
+      "标识牌为木质材料。",
+      "标牌上绘制了景区内路径和设施布局。"
+    ]
+  },
+  "label_id": "cpl_7a9e6c3a8ad6f2eee5df9123",
+  "provenance": {
+    "generated_at": "2026-08-03T14:15:46.054230+00:00",
+    "migrated_at": "2026-08-03T14:15:46.063855+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "45c6facb942f8914feddf653028baad24cd0aed309d1b6d93551c3539217d93d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c30e676b8d2dfa78411d36bf",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:15:46.065339+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c30e676b8d2dfa78411d36bf"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "落霞归雁景点图",
+      "Luo Xia Gui Yan Scenic Spot Map",
+      "落霞归雁观光スポット図",
+      "武汉绿道",
+      "入口广场",
+      "花道"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "落霞归雁景点图",
+      "Luo Xia Gui Yan Scenic Spot Map",
+      "落霞归雁观光スポット図",
+      "武汉绿道",
+      "入口广场",
+      "花道"
+    ]
+  }
+}

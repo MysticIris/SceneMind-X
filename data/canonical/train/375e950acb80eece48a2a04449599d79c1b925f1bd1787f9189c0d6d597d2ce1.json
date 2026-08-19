@@ -1,0 +1,140 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:649.jpg",
+    "relative_path": "train/649.jpg",
+    "sha256": "375e950acb80eece48a2a04449599d79c1b925f1bd1787f9189c0d6d597d2ce1",
+    "split": "train"
+  },
+  "canonical_sha256": "4a603c5e743eb258344bc15688f1fc218c4be103f3e518dcae010785d1a7a635",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "王者荣耀",
+      "比赛直播"
+    ],
+    "short_description": "王者荣耀赛事直播界面，显示两支队伍正在备战，比分0：0，AI解说提示经典搭档。",
+    "theme": "王者荣耀比赛界面"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现电子竞技比赛直播场景。",
+      "屏幕上有队伍信息和比赛状态提示。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "等待开赛"
+    ],
+    "attributes": [
+      "比分0：0",
+      "AI解说",
+      "7人观看"
+    ],
+    "relations": [
+      "两支队伍对战。",
+      "AI解说关联比赛。"
+    ],
+    "scene": "手机屏幕截图，显示游戏内赛事直播页面",
+    "subjects": [
+      "两支电竞战队",
+      "比赛计分板",
+      "玩家头像"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现电子竞技比赛直播场景；屏幕上有队伍信息和比赛状态提示。",
+    "safe_facts": [
+      "画面呈现电子竞技比赛直播场景。",
+      "屏幕上有队伍信息和比赛状态提示。"
+    ]
+  },
+  "label_id": "cpl_1f9c88d4d8b49418c9d94cf9",
+  "provenance": {
+    "generated_at": "2026-08-03T11:51:59.546278+00:00",
+    "migrated_at": "2026-08-03T11:51:59.553788+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "068172acb051d5d95ea578464d0cff3fdaeccd5555772de679efe14f2c170fae",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a90658033af6bd2040e6cf9d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:51:59.554788+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:actions"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a90658033af6bd2040e6cf9d"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "王者赛宝",
+      "订阅",
+      "胜者组第1轮 1/1",
+      "VS",
+      "备战中",
+      "进入游戏准备开战"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "王者赛宝",
+      "订阅",
+      "胜者组第1轮 1/1",
+      "VS",
+      "备战中",
+      "进入游戏准备开战"
+    ]
+  }
+}

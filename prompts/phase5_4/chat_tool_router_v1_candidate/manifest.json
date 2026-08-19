@@ -1,0 +1,16 @@
+{
+  "candidate_id": "SCENEMINDX_CHAT_TOOL_ROUTER_V1_CANDIDATE",
+  "prompt_id": "phase5_4_chat_tool_router_v1",
+  "status": "engineering_candidate_active_for_phase5_4",
+  "iteration": 1,
+  "business_tool_whitelist": [
+    "generate_content_from_images",
+    "search_images",
+    "compare_or_rank_images"
+  ],
+  "max_business_steps": 2,
+  "prompt": {
+    "file": "prompts/phase5_4/chat_tool_router_v1_candidate/router_v1.txt",
+    "raw_sha256": "e0f7ee7bceda05a0cc877d15b2ef6f088ade6427bce060f4246e6edbae1200c6"
+  }
+}

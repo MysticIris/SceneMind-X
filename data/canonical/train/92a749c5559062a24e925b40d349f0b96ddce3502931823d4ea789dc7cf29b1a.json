@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:583.jpg",
+    "relative_path": "train/583.jpg",
+    "sha256": "92a749c5559062a24e925b40d349f0b96ddce3502931823d4ea789dc7cf29b1a",
+    "split": "train"
+  },
+  "canonical_sha256": "12a88f30a79715036700d30fb8795aba5b0395effbd46c7fe13d6fa81b97c736",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪地",
+      "住宅楼",
+      "路障",
+      "长椅"
+    ],
+    "short_description": "雪覆盖的住宅楼群前，一条小径蜿蜒穿过，路边设有球形路障和长椅，建筑外墙呈棕白相间。",
+    "theme": "雪后住宅区"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面被白雪覆盖，中间有一条被踩踏过的深色路径。",
+      "建筑外墙由棕色和白色构成，窗户排列整齐。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "积雪覆盖",
+      "棕白相间外墙",
+      "灰色球形路障",
+      "黑色路灯杆"
+    ],
+    "relations": [
+      "路障位于雪地上。",
+      "长椅位于雪地边缘。",
+      "建筑环绕道路。"
+    ],
+    "scene": "住宅区户外雪景",
+    "subjects": [
+      "高层建筑",
+      "积雪地面",
+      "球形路障",
+      "路灯",
+      "长椅"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面被白雪覆盖，中间有一条被踩踏过的深色路径；建筑外墙由棕色和白色构成，窗户排列整齐。",
+    "safe_facts": [
+      "地面被白雪覆盖，中间有一条被踩踏过的深色路径。",
+      "建筑外墙由棕色和白色构成，窗户排列整齐。"
+    ]
+  },
+  "label_id": "cpl_abd55d906883a10f93477c53",
+  "provenance": {
+    "generated_at": "2026-08-03T11:38:02.770604+00:00",
+    "migrated_at": "2026-08-03T11:38:02.773295+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4483c5e316f9a835d5d87e788495984b78d658b313f16d526bd5a6515c84be05",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7bf03e6ab70bae95a7392fc8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:38:02.773670+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7bf03e6ab70bae95a7392fc8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_0b47a99bf9ae7d3bd080472a",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_54852643e79686cbce476eaf"
+  ],
+  "asset": {
+    "asset_id": "1720dcbffdf56ba0",
+    "sha256": "1720dcbffdf56ba00f825b3a72f0ee287378b32e504f83d144ba0925307fa46c",
+    "split": "user_custom",
+    "relative_path": "user_assets/17/1720dcbffdf56ba00f825b3a72f0ee287378b32e504f83d144ba0925307fa46c/1720dcbffdf56ba00f825b3a72f0ee287378b32e504f83d144ba0925307fa46c.png"
+  },
+  "display": {
+    "theme": "科研项目详情页面",
+    "short_description": "这是一张网页界面的截图，展示了一个关于利用人工智能进行交通管理的学术研究课题。页面包含项目标题、所属院系、先决条件、详细的项目描述文本以及项目状态和可用时间等信息字段。",
+    "micro_tags": [
+      "网页截图",
+      "科研项目",
+      "人工智能",
+      "交通管理",
+      "表单界面",
+      "北卡罗来纳州立大学"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "数字用户界面",
+    "subjects": [
+      "研究课题详情页",
+      "文本信息块",
+      "输入框与标签"
+    ],
+    "actions": [],
+    "attributes": [
+      "白底黑字",
+      "结构化布局",
+      "左侧标签右侧内容",
+      "包含长段落文本"
+    ],
+    "relations": [
+      "标题位于顶部。",
+      "描述文本占据主要篇幅。",
+      "底部显示状态与时间信息。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "页面顶部显示大标题“利用人工智能实现预测性交通管理和智能出行解决方案”。",
+      "中间部分有一个大的文本框，详细描述了研究项目的目标和方法。"
+    ],
+    "cautious_inferences": [
+      "这看起来是一个学术机构或研究管理系统的后台或前台展示页面。",
+      "界面设计简洁，主要用于信息展示而非交互操作。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "研究课题",
+      "利用人工智能实现预测性交通管理和智能出行解决方案",
+      "GTI",
+      "先决条件",
+      "可开展的研究项目"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "研究课题",
+      "利用人工智能实现预测性交通管理和智能出行解决方案",
+      "GTI",
+      "先决条件",
+      "可开展的研究项目"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "页面顶部显示大标题“利用人工智能实现预测性交通管理和智能出行解决方案”；中间部分有一个大的文本框，详细描述了研究项目的目标和方法。",
+    "safe_facts": [
+      "页面顶部显示大标题“利用人工智能实现预测性交通管理和智能出行解决方案”。",
+      "中间部分有一个大的文本框，详细描述了研究项目的目标和方法。"
+    ],
+    "do_not_assert": [
+      "这看起来是一个学术机构或研究管理系统的后台或前台展示页面。",
+      "界面设计简洁，主要用于信息展示而非交互操作。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_96500060-7b2c-4f06-813c-7e7b584363e1",
+    "generated_at": "2026-08-12T03:32:17.693460+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "8c1bd1d37b0ebc19dd2f9eac7e58d321453fa6c5e363b1d2de36d0c32b98dd3b",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:32:17.694311+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_54852643e79686cbce476eaf",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:32:17.694665+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "7ce2601560994087099bcbb97aff09bd5c71f83baed71d686b4a16e7d7f91f27"
+}

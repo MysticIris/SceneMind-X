@@ -1,0 +1,127 @@
+{
+  "asset_id": "5a5fc0a3b259edc5",
+  "asset_sha256": "5a5fc0a3b259edc5d66fb045bbc63cd04eab31a7aef1d7e80157b1f2cefe8189",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"独立包装的月饼\",\n    \"short_description\": \"浅色木纹桌面上散乱堆放着十余个独立透明塑料包装的圆形月饼。包装袋带有金色封边，透过包装可见月饼表面印有清晰的浮雕汉字图案，整体呈现出传统中式糕点的特征。\",\n    \"micro_tags\": [\n      \"月饼\",\n      \"独立包装\",\n      \"传统糕点\",\n      \"桌面静物\",\n      \"食品\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"室内浅色木纹桌面\",\n    \"subjects\": [\n      \"独立包装的月饼\",\n      \"塑料包装袋\",\n      \"木质桌面\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"圆形\",\n      \"金黄色\",\n      \"透明包装\",\n      \"表面有浮雕文字\",\n      \"堆叠放置\"\n    ],\n    \"relations\": [\n      \"月饼被封装在透明塑料袋中\",\n      \"多个包装散落在桌面上\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面主体为多个独立包装的圆形烘焙食品，放置在浅色木纹表面上。\",\n      \"每个食品都被密封在透明塑料托盒或袋中，包装边缘有金色锯齿状封口。\",\n      \"食品表面呈现金黄色泽，中心位置有明显的模具压印汉字纹理。\",\n      \"包装正面贴有或印有黄底黑字的标签区域。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据外观特征和包装上的汉字纹理，这些食品极可能是中国传统节日食品月饼。\",\n      \"包装上的文字布局暗示了品牌名称和产品类型（如‘东北老式’等字样依稀可见）。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的馅料口味（如五仁、豆沙等）。\",\n      \"无法确认具体的生产日期或保质期信息。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"莱朵\",\n      \"东北老式\",\n      \"月餅\",\n      \"净含量:100克\",\n      \"2025年09月24日\",\n      \"匠心\",\n      \"家乡味道\",\n      \"秉承传统\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"浅色木桌上散落着多个独立透明包装的圆形金黄色糕点，包装带有金色封边，糕点表面有清晰的压印纹理。\",\n    \"safe_facts\": [\n      \"物体为圆形烘焙类食品\",\n      \"采用透明塑料独立包装\",\n      \"放置在木质纹理平面上\",\n      \"食品表面有模具压印图案\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 656,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 656,
+        "total_tokens": 3861,
+        "estimated_cost_cny": 0.011658,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "独立包装的月饼",
+          "short_description": "浅色木纹桌面上散乱堆放着十余个独立透明塑料包装的圆形月饼。包装袋带有金色封边，透过包装可见月饼表面印有清晰的浮雕汉字图案，整体呈现出传统中式糕点的特征。",
+          "micro_tags": [
+            "月饼",
+            "独立包装",
+            "传统糕点",
+            "桌面静物",
+            "食品"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "室内浅色木纹桌面",
+          "subjects": [
+            "独立包装的月饼",
+            "塑料包装袋",
+            "木质桌面"
+          ],
+          "actions": [],
+          "attributes": [
+            "圆形",
+            "金黄色",
+            "透明包装",
+            "表面有浮雕文字",
+            "堆叠放置"
+          ],
+          "relations": [
+            "月饼被封装在透明塑料袋中",
+            "多个包装散落在桌面上"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "画面主体为多个独立包装的圆形烘焙食品，放置在浅色木纹表面上。",
+            "每个食品都被密封在透明塑料托盒或袋中，包装边缘有金色锯齿状封口。",
+            "食品表面呈现金黄色泽，中心位置有明显的模具压印汉字纹理。",
+            "包装正面贴有或印有黄底黑字的标签区域。"
+          ],
+          "cautious_inferences": [
+            "根据外观特征和包装上的汉字纹理，这些食品极可能是中国传统节日食品月饼。",
+            "包装上的文字布局暗示了品牌名称和产品类型（如‘东北老式’等字样依稀可见）。"
+          ],
+          "uncertainties": [
+            "无法确定具体的馅料口味（如五仁、豆沙等）。",
+            "无法确认具体的生产日期或保质期信息。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "莱朵",
+            "东北老式",
+            "月餅",
+            "净含量:100克",
+            "2025年09月24日",
+            "匠心",
+            "家乡味道",
+            "秉承传统"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "浅色木桌上散落着多个独立透明包装的圆形金黄色糕点，包装带有金色封边，糕点表面有清晰的压印纹理。",
+          "safe_facts": [
+            "物体为圆形烘焙类食品",
+            "采用透明塑料独立包装",
+            "放置在木质纹理平面上",
+            "食品表面有模具压印图案"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 7524520,
+        "request_bytes": 5640318,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.202277700002014,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "e21f1ec206e8f38ed69f1c745798061e8dd8abd9beca716dbcca657ff606fdb5"
+}

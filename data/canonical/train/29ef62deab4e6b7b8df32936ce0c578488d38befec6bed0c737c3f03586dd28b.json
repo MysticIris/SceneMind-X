@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1226.jpg",
+    "relative_path": "train/1226.jpg",
+    "sha256": "29ef62deab4e6b7b8df32936ce0c578488d38befec6bed0c737c3f03586dd28b",
+    "split": "train"
+  },
+  "canonical_sha256": "0beb81628c94e715154fc979846fb8e0addcb5e1c44ff775d159134187c92dab",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "办公桌",
+      "显示器",
+      "键盘",
+      "笔记本电脑"
+    ],
+    "short_description": "一张办公桌上摆放着显示器、键盘、笔记本电脑、书籍和水杯，电线杂乱，右侧有塑料袋。",
+    "theme": "办公桌一角杂物"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "桌面上有黑色键盘和黑色笔记本电脑。",
+      "显示器屏幕显示时间11：58。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色键盘",
+      "绿色水杯",
+      "紫色隔板"
+    ],
+    "relations": [
+      "显示器位于键盘上方。",
+      "笔记本电脑位于左侧。",
+      "书籍堆叠在显示器下方。"
+    ],
+    "scene": "办公桌桌面",
+    "subjects": [
+      "显示器",
+      "键盘",
+      "笔记本电脑",
+      "书籍",
+      "水杯",
+      "塑料袋"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "桌面上有黑色键盘和黑色笔记本电脑；显示器屏幕显示时间11：58。",
+    "safe_facts": [
+      "桌面上有黑色键盘和黑色笔记本电脑。",
+      "显示器屏幕显示时间11：58。"
+    ]
+  },
+  "label_id": "cpl_471046bfc0ee2652c2b21df1",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/train/train_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "170dc34eb8269f1babe6835cdb58f23286285057aea88fcd9025beb9e0166c19",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-02T22:05:16.587422+00:00",
+    "migrated_at": "2026-08-03T07:13:41.411139+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e4ee30d0e2bb7e5c7d8eb532a390f6433043f10271a7481c9c4d7dff63eb7b54",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f0b9c19fd3cd9c2784d8a20c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:55:41.826131+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "桌面设备和杂物描述准确；切片类别不影响标签语义。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f0b9c19fd3cd9c2784d8a20c",
+    "cpl_3353691b6ae31454c4f4950c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

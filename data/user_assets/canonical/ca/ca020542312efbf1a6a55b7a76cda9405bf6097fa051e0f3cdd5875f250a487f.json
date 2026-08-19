@@ -1,0 +1,146 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_d1fab933cfe9d6137f7de6c0",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_403134933dbf58970a6cfed0"
+  ],
+  "asset": {
+    "asset_id": "ca020542312efbf1",
+    "sha256": "ca020542312efbf1a6a55b7a76cda9405bf6097fa051e0f3cdd5875f250a487f",
+    "split": "user_custom",
+    "relative_path": "user_assets/ca/ca020542312efbf1a6a55b7a76cda9405bf6097fa051e0f3cdd5875f250a487f/ca020542312efbf1a6a55b7a76cda9405bf6097fa051e0f3cdd5875f250a487f.jpg"
+  },
+  "display": {
+    "theme": "餐桌上的啤酒瓶",
+    "short_description": "灰色桌布上并排摆放着两个绿色玻璃啤酒瓶，瓶身贴有包含“DRAFT”和“纯生”字样的标签。旁边可见白色无线耳机盒、纸巾及卷起的湿毛巾，背景有模糊的人物手臂和餐具。",
+    "micro_tags": [
+      "啤酒瓶",
+      "绿色玻璃",
+      "餐桌",
+      "DRAFT",
+      "纯生",
+      "生活场景"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "室内餐桌环境",
+    "subjects": [
+      "绿色玻璃瓶",
+      "产品标签",
+      "白色耳机盒",
+      "纸巾",
+      "毛巾",
+      "人物手臂"
+    ],
+    "actions": [],
+    "attributes": [
+      "绿色透明材质",
+      "圆柱形瓶身",
+      "银色反光标签",
+      "黑色与红色印刷字体",
+      "条形码"
+    ],
+    "relations": [
+      "两个瓶子并排直立放置。",
+      "耳机盒位于左侧瓶子旁。",
+      "毛巾位于右侧瓶子旁。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "画面主体为两个直立的绿色玻璃瓶，瓶身贴有白底银边的标签。",
+      "左侧瓶身标签清晰可见英文单词“DRAFT”及中文“纯生”字样。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法确定瓶内是否还有剩余液体。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "REFRESH YOUR LIFE",
+      "青岛啤酒",
+      "DRAFT",
+      "纯生",
+      "青岛纯生 鲜活人生",
+      "6 901035 609319"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "REFRESH YOUR LIFE",
+      "青岛啤酒",
+      "DRAFT",
+      "纯生",
+      "青岛纯生 鲜活人生",
+      "6 901035 609319"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "画面主体为两个直立的绿色玻璃瓶，瓶身贴有白底银边的标签；左侧瓶身标签清晰可见英文单词“DRAFT”及中文“纯生”字样。",
+    "safe_facts": [
+      "画面主体为两个直立的绿色玻璃瓶，瓶身贴有白底银边的标签。",
+      "左侧瓶身标签清晰可见英文单词“DRAFT”及中文“纯生”字样。"
+    ],
+    "do_not_assert": [
+      "无法确定瓶内是否还有剩余液体。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_1d322612-b29d-4a93-a529-dcc782f0d2fb",
+    "generated_at": "2026-08-12T03:14:54.981696+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "28e4d33740bc745e12fc96a734873492522bfb5f630ace69e9fec2e63bb80203",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:14:54.982698+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_403134933dbf58970a6cfed0",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:14:54.983293+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "b3fc18538f8aae88bee28e04eb9576766c289969ed0d014ac6473e490a1e72e8"
+}

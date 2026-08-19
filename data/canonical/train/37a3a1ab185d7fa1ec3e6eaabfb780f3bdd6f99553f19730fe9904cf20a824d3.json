@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:222.jpg",
+    "relative_path": "train/222.jpg",
+    "sha256": "37a3a1ab185d7fa1ec3e6eaabfb780f3bdd6f99553f19730fe9904cf20a824d3",
+    "split": "train"
+  },
+  "canonical_sha256": "f92724ee031886434d403bc285be9f662c8960fc83b31bbf5f1e361a179f7ccd",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "篮球比赛",
+      "电子记分牌",
+      "CUBAL"
+    ],
+    "short_description": "屏幕显示两支队伍名称及球员名单。",
+    "theme": "篮球比赛计分板"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕显示两支队伍名称及球员名单。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色背景",
+      "白色数字",
+      "红色暂停标志"
+    ],
+    "relations": [],
+    "scene": "室内体育场馆",
+    "subjects": [
+      "电子记分牌",
+      "比赛队伍名单",
+      "比分",
+      "暂停状态"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕显示两支队伍名称及球员名单。",
+    "safe_facts": [
+      "屏幕显示两支队伍名称及球员名单。"
+    ]
+  },
+  "label_id": "cpl_a37a7d9ec6144a8284f5c1ad",
+  "provenance": {
+    "generated_at": "2026-08-03T10:19:24.750679+00:00",
+    "migrated_at": "2026-08-03T10:19:24.752922+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "86668604867c5187a0d8a5cf15505d77684ee2fed98d25fa8de02c043906ab1f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ddb371747727f94c7ca8484e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:19:24.753493+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ddb371747727f94c7ca8484e"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "华中科技大学",
+      "贵州大学",
+      "第26届中国大学生篮球联赛",
+      "西南赛区",
+      "第4节",
+      "85 : 62"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "华中科技大学",
+      "贵州大学",
+      "第26届中国大学生篮球联赛",
+      "西南赛区",
+      "第4节",
+      "85 : 62"
+    ]
+  }
+}

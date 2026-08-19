@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:773.jpg",
+    "relative_path": "train/773.jpg",
+    "sha256": "b974c6e8c005a2f3af0b00888b7255395a580e28e2ad077a0e072fd994715f3e",
+    "split": "train"
+  },
+  "canonical_sha256": "3a2f94eea27a7217a2196e4dfa50b5ded0f9420539504fe2b759adf2bac3d75c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "影院座椅",
+      "皮革",
+      "杯托"
+    ],
+    "short_description": "棕色皮革影院座椅，带杯托和编号，排列整齐，地面为浅色地毯。",
+    "theme": "影院豪华座椅"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "座椅表面为棕色皮革材质。",
+      "座椅扶手处设有圆形杯托。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "棕色皮革",
+      "带杯托",
+      "编号标识",
+      "排列整齐"
+    ],
+    "relations": [],
+    "scene": "影院座位区",
+    "subjects": [
+      "座椅"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "座椅表面为棕色皮革材质；座椅扶手处设有圆形杯托。",
+    "safe_facts": [
+      "座椅表面为棕色皮革材质。",
+      "座椅扶手处设有圆形杯托。"
+    ]
+  },
+  "label_id": "cpl_be31efcd06ecd24d0c5b5f77",
+  "provenance": {
+    "generated_at": "2026-08-03T12:20:22.531891+00:00",
+    "migrated_at": "2026-08-03T12:20:22.534397+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cd09049313a2b1d14c1c0792bd3d9bd968171cc66eb759c79361bbceddf74454",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a63db689801a16eb497b692f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:20:22.535611+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a63db689801a16eb497b692f"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "IMAX",
+      "12",
+      "11",
+      "13"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "IMAX",
+      "12",
+      "11",
+      "13"
+    ]
+  }
+}

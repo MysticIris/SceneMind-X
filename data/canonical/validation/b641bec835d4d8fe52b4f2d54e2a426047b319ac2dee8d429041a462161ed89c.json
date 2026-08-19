@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2093.jpg",
+    "relative_path": "val/2093.jpg",
+    "sha256": "b641bec835d4d8fe52b4f2d54e2a426047b319ac2dee8d429041a462161ed89c",
+    "split": "val"
+  },
+  "canonical_sha256": "43f805d0307374b91391f2c7912b529497ff7ae251c6504fa0432221a2430f50",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "草原动物",
+      "群聚",
+      "自然栖息地"
+    ],
+    "short_description": "一群大型草食性动物在绿草地与土路交界处聚集，背景有树木和简易棚屋。",
+    "theme": "草原动物群聚"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多只大型草食性动物聚集在草地与土路交界处。",
+      "背景中有茂密树木和一座木制棚屋。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "棕色皮毛",
+      "长角",
+      "站立姿态"
+    ],
+    "relations": [
+      "动物群聚于地面。",
+      "动物靠近棚屋。"
+    ],
+    "scene": "户外草地与林地交界处",
+    "subjects": [
+      "大型草食性动物",
+      "树木",
+      "简易棚屋",
+      "车辆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多只大型草食性动物聚集在草地与土路交界处；背景中有茂密树木和一座木制棚屋。",
+    "safe_facts": [
+      "多只大型草食性动物聚集在草地与土路交界处。",
+      "背景中有茂密树木和一座木制棚屋。"
+    ]
+  },
+  "label_id": "cpl_8ec8775be13de35f2bda388a",
+  "provenance": {
+    "generated_at": "2026-08-03T15:58:27.797923+00:00",
+    "migrated_at": "2026-08-03T15:58:27.799718+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e6434b4e9480fec15944b0d7d2842e64c7ba752abb4b2494470b1e3113d38500",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c5e3b76665a5f06836899eec",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:58:27.799918+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c5e3b76665a5f06836899eec"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

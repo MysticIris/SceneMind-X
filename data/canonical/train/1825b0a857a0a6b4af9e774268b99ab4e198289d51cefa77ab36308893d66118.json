@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1243.jpg",
+    "relative_path": "train/1243.jpg",
+    "sha256": "1825b0a857a0a6b4af9e774268b99ab4e198289d51cefa77ab36308893d66118",
+    "split": "train"
+  },
+  "canonical_sha256": "5b53fbb37199585051efbc36e5b75d9a51739756ffc0446413e32c36435785ed",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "米饭",
+      "汤品",
+      "学习笔记",
+      "食物",
+      "纸张"
+    ],
+    "short_description": "桌上放着一碗白米饭和一碗带冰块的红色汤，旁边有一张写满公式的纸。",
+    "theme": "餐食与学习材料"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两个容器，一个装白米饭，一个装红色汤品并覆盖保鲜膜。",
+      "纸张上可见手写的数学公式和符号。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "米饭呈白色颗粒状",
+      "汤品含冰块和红色汤汁",
+      "纸张上有手写公式"
+    ],
+    "relations": [
+      "米饭与汤品并排摆放。",
+      "纸张位于汤品和米饭下方。"
+    ],
+    "scene": "木质桌面上的餐食与纸张",
+    "subjects": [
+      "米饭",
+      "汤品",
+      "纸张"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两个容器，一个装白米饭，一个装红色汤品并覆盖保鲜膜；纸张上可见手写的数学公式和符号。",
+    "safe_facts": [
+      "画面中有两个容器，一个装白米饭，一个装红色汤品并覆盖保鲜膜。",
+      "纸张上可见手写的数学公式和符号。"
+    ]
+  },
+  "label_id": "cpl_5ab5c99c6c59465b138fab05",
+  "provenance": {
+    "generated_at": "2026-08-03T14:00:03.873191+00:00",
+    "migrated_at": "2026-08-03T14:00:03.877958+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6741c971ee47f30a58306e621a429d97502ddba7a94ef288e5e0fda78897464b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8e955e3fa26023763b13e762",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:00:03.879609+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8e955e3fa26023763b13e762"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "n = a * k * n / (a * k * n)",
+      "R = R * U / (U * H * K)",
+      "u = 1 - u"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "n = a * k * n / (a * k * n)",
+      "R = R * U / (U * H * K)",
+      "u = 1 - u"
+    ]
+  }
+}

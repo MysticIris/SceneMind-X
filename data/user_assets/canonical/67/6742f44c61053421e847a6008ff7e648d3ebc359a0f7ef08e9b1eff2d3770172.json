@@ -1,0 +1,147 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_56eab9420171d7e6fb2a0ad4",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_cd83ba1b90d58ab8d3f85e2e"
+  ],
+  "asset": {
+    "asset_id": "6742f44c61053421",
+    "sha256": "6742f44c61053421e847a6008ff7e648d3ebc359a0f7ef08e9b1eff2d3770172",
+    "split": "user_custom",
+    "relative_path": "user_assets/67/6742f44c61053421e847a6008ff7e648d3ebc359a0f7ef08e9b1eff2d3770172/6742f44c61053421e847a6008ff7e648d3ebc359a0f7ef08e9b1eff2d3770172.jpg"
+  },
+  "display": {
+    "theme": "高校大厅悬挂国旗",
+    "short_description": "宽敞明亮的室内大厅，地面铺设光洁的石材地砖。天花板下方悬挂着多排密集的中国国旗。前景设有印有待识别文字的蓝色隔离带，背景可见玻璃大门、立柱及上方标有“A区”的指示牌。",
+    "micro_tags": [
+      "室内大厅",
+      "五星红旗",
+      "高校建筑",
+      "玻璃门",
+      "隔离带",
+      "A区标识"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "大型公共建筑内部大厅",
+    "subjects": [
+      "悬挂的国旗",
+      "玻璃大门",
+      "蓝色隔离带",
+      "信息展示台",
+      "电子显示屏框架"
+    ],
+    "actions": [],
+    "attributes": [
+      "光线明亮",
+      "地面反光",
+      "空间开阔",
+      "节日装饰氛围"
+    ],
+    "relations": [
+      "国旗悬挂于大厅上空。",
+      "隔离带位于画面最前景。",
+      "玻璃门位于大厅后方出口处。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "大厅顶部横向悬挂着多串红色的中国国旗(五星红旗)。",
+      "右侧白色立柱上方贴有黑底白字的“A区”方形标识牌。",
+      "大厅深处有多扇玻璃自动门，门上方亮着绿色的安全出口指示灯。"
+    ],
+    "cautious_inferences": [
+      "大量悬挂国旗通常意味着正值国庆节或其他重要庆典活动期间。"
+    ],
+    "uncertainties": [
+      "无法确定拍摄的具体时间(白天或夜晚)，虽然室内灯光全开，但门外看起来较暗。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "HUST",
+      "華中科技大學",
+      "Huazhong University of Science and Techn",
+      "A区",
+      "安全警示"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "HUST",
+      "華中科技大學",
+      "Huazhong University of Science and Techn",
+      "A区",
+      "安全警示"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "大厅顶部横向悬挂着多串红色的中国国旗(五星红旗)；右侧白色立柱上方贴有黑底白字的“A区”方形标识牌。",
+    "safe_facts": [
+      "大厅顶部横向悬挂着多串红色的中国国旗(五星红旗)。",
+      "右侧白色立柱上方贴有黑底白字的“A区”方形标识牌。",
+      "大厅深处有多扇玻璃自动门，门上方亮着绿色的安全出口指示灯。"
+    ],
+    "do_not_assert": [
+      "大量悬挂国旗通常意味着正值国庆节或其他重要庆典活动期间。",
+      "无法确定拍摄的具体时间(白天或夜晚)，虽然室内灯光全开，但门外看起来较暗。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_ff199ed0-6ee9-4ca3-b856-01cfb0805cfb",
+    "generated_at": "2026-08-12T03:03:03.539230+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "43daf19ea51dbccae58b7289fd93cd9a5ec43e96c6418e3d8a933dcbb45b11fb",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:03:03.540388+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_cd83ba1b90d58ab8d3f85e2e",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:03:03.541004+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "6e62d522103d88e0c61ded9e906a9f3253dea11f0f60d8d22367efc1372d30f4"
+}

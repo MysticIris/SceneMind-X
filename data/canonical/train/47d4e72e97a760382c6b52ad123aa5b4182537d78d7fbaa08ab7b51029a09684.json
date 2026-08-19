@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:903.jpg",
+    "relative_path": "train/903.jpg",
+    "sha256": "47d4e72e97a760382c6b52ad123aa5b4182537d78d7fbaa08ab7b51029a09684",
+    "split": "train"
+  },
+  "canonical_sha256": "222973bbe91029a91ea677ca7d3f93e896c01bd89024b4a5eaba1d2341082aa1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "月亮",
+      "夜空",
+      "黑暗背景"
+    ],
+    "short_description": "深黑色夜空中，一轮灰白色月亮独自悬于中央，表面纹理隐约可见。",
+    "theme": "夜空中的月亮"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该天体可能是月亮，因其外观符合月相特征。"
+    ],
+    "direct_observations": [
+      "画面整体为纯黑色背景。",
+      "画面中央有一轮圆形天体。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灰白色",
+      "圆形",
+      "表面有纹理"
+    ],
+    "relations": [],
+    "scene": "夜空",
+    "subjects": [
+      "月亮"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该天体可能是月亮，因其外观符合月相特征。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面整体为纯黑色背景；画面中央有一轮圆形天体。",
+    "safe_facts": [
+      "画面整体为纯黑色背景。",
+      "画面中央有一轮圆形天体。"
+    ]
+  },
+  "label_id": "cpl_3e6ec98bc0826b77dfe03e0f",
+  "provenance": {
+    "generated_at": "2026-08-02T22:31:04.933748+00:00",
+    "migrated_at": "2026-08-03T07:13:41.849340+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "741f90ec60fdfe79f2f49d93f12e7dd62a9e4b75b7fd2beb39beba83814870c3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6d07837f74db7ffdaa728f36",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:47:24.316588+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6d07837f74db7ffdaa728f36",
+    "cpl_f519977fa69f5a4043f6e245"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

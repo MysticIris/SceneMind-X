@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2002.jpg",
+    "relative_path": "val/2002.jpg",
+    "sha256": "da67ee4e141d27fc899b5200c9ddeea752df9aa9556020719c15154efaf6fe84",
+    "split": "val"
+  },
+  "canonical_sha256": "2808b180ab2c2a16ca46b664f3ec391582cd03bfcd2e53e13ebb2f5cfa4716a1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "火鸡",
+      "铁丝网",
+      "树",
+      "干草"
+    ],
+    "short_description": "透过铁丝网看到两只火鸡站在树旁的干草地上，一只抬头，另一只低头。",
+    "theme": "围栏内的火鸡"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两只火鸡，身体覆盖黑色羽毛，头部有红色皮肤。",
+      "背景中有树干和干草，前景有菱形铁丝网。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色羽毛",
+      "红色头部皮肤",
+      "干草地面"
+    ],
+    "relations": [
+      "火鸡位于铁丝网后方。",
+      "火鸡靠近树干。"
+    ],
+    "scene": "户外围栏区域",
+    "subjects": [
+      "火鸡",
+      "树"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两只火鸡，身体覆盖黑色羽毛，头部有红色皮肤；背景中有树干和干草，前景有菱形铁丝网。",
+    "safe_facts": [
+      "画面中有两只火鸡，身体覆盖黑色羽毛，头部有红色皮肤。",
+      "背景中有树干和干草，前景有菱形铁丝网。"
+    ]
+  },
+  "label_id": "cpl_c1c2a974154fb2268fa5006b",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/val/val_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "e32d3af75c130700fc73cbca19128fe8491843a5f2d834ae73a5bd88abf3c6d1",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T15:44:11.468646+00:00",
+    "migrated_at": "2026-08-03T15:44:11.470827+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1f8bdedf5e726c978fc730fbb2436c90a624aeb7af7213791801d1df1388c643",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ba99a53963117ef8f3a837eb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:44:11.471045+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "两只火鸡、围栏与树干关系描述准确。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ba99a53963117ef8f3a837eb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

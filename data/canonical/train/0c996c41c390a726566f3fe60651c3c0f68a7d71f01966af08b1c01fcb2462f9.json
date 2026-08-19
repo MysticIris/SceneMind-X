@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1613.jpg",
+    "relative_path": "train/1613.jpg",
+    "sha256": "0c996c41c390a726566f3fe60651c3c0f68a7d71f01966af08b1c01fcb2462f9",
+    "split": "train"
+  },
+  "canonical_sha256": "103d3c6d1525855d77d31988561693b8448a4fcf252b69c8ab5bb458ac88d3c1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "卡通动物",
+      "白色毛绒",
+      "脸颊泛红",
+      "圆眼睛"
+    ],
+    "short_description": "一只白色卡通小熊头部，脸颊泛红，眼睛圆睁，表情略带委屈或困惑，线条简洁风格。",
+    "theme": "可爱卡通动物头像"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "主体为卡通风格的小熊头部轮廓。",
+      "面部两侧有粉红色腮红区域。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色",
+      "圆脸",
+      "脸颊泛红",
+      "大眼睛"
+    ],
+    "relations": [],
+    "scene": "无具体场景",
+    "subjects": [
+      "卡通小熊头部"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "主体为卡通风格的小熊头部轮廓；面部两侧有粉红色腮红区域。",
+    "safe_facts": [
+      "主体为卡通风格的小熊头部轮廓。",
+      "面部两侧有粉红色腮红区域。"
+    ]
+  },
+  "label_id": "cpl_7b25d35d3d34894cb789e1a7",
+  "provenance": {
+    "generated_at": "2026-08-02T22:04:27.686867+00:00",
+    "migrated_at": "2026-08-03T07:13:41.373508+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "35c902fcb9733ded71548094c468203fa26ccb1f25b23b7d4138f9ee4ab90d70",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d9f64a2c3fe3d6f862b81086",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:45:11.949462+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d9f64a2c3fe3d6f862b81086",
+    "cpl_62329a4811ea8a38343740d4"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

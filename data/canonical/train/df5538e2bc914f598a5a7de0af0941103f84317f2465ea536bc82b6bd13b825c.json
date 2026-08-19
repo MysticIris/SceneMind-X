@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1690.jpg",
+    "relative_path": "train/1690.jpg",
+    "sha256": "df5538e2bc914f598a5a7de0af0941103f84317f2465ea536bc82b6bd13b825c",
+    "split": "train"
+  },
+  "canonical_sha256": "a44870a7476adb28e69f772fe4d37e1ad7ca7440523f074b3c13fef1268ec2ad",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "白色拱门",
+      "古典建筑",
+      "石砌柱子"
+    ],
+    "short_description": "一座白色的古典风格拱门，上方刻有汉字，两侧立柱支撑，背景是天空和树木。",
+    "theme": "白色拱门建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "拱门主体为白色，具有古典装饰线条。",
+      "拱门两侧有白色圆柱，柱身部分为灰色砖砌。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色",
+      "石砌"
+    ],
+    "relations": [
+      "拱门由柱子支撑。",
+      "旗杆位于拱门顶部。"
+    ],
+    "scene": "户外建筑入口",
+    "subjects": [
+      "拱门",
+      "柱子",
+      "旗杆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "拱门主体为白色，具有古典装饰线条；拱门两侧有白色圆柱，柱身部分为灰色砖砌。",
+    "safe_facts": [
+      "拱门主体为白色，具有古典装饰线条。",
+      "拱门两侧有白色圆柱，柱身部分为灰色砖砌。"
+    ]
+  },
+  "label_id": "cpl_0ce4ac3afafe87cf42d9fd03",
+  "provenance": {
+    "generated_at": "2026-08-03T14:54:25.818958+00:00",
+    "migrated_at": "2026-08-03T14:54:25.821032+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "79b31fa9e3faf174206bb7610e20d9de9bb47945fd6d213ee771d954979d294e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b31c26c105964f7c8c1a721c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:54:25.821343+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b31c26c105964f7c8c1a721c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

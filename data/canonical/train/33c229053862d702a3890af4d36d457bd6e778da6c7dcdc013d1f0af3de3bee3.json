@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:101.jpg",
+    "relative_path": "train/101.jpg",
+    "sha256": "33c229053862d702a3890af4d36d457bd6e778da6c7dcdc013d1f0af3de3bee3",
+    "split": "train"
+  },
+  "canonical_sha256": "1a3eeadf67bf89acf81f1ac20425ee0a79d60b152ce95e5ce07eeafb2ea2cd79",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "悬崖",
+      "海边小镇",
+      "日落",
+      "海浪"
+    ],
+    "short_description": "悬崖边的白色建筑群在日落余晖下泛着暖光，海浪拍打着岩壁，天空呈现粉橙渐变。",
+    "theme": "悬崖海岸小镇"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见多栋白色或浅色外墙的建筑紧贴悬崖建造。",
+      "海面有波浪拍打岩石，天空呈现粉橙色渐变。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色外墙",
+      "暖色灯光",
+      "粉橙色天空",
+      "蓝色海水"
+    ],
+    "relations": [
+      "建筑物依附于悬崖。",
+      "悬崖临海。",
+      "天空位于建筑物上方。"
+    ],
+    "scene": "沿海悬崖上的建筑群",
+    "subjects": [
+      "建筑物",
+      "悬崖",
+      "海洋",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见多栋白色或浅色外墙的建筑紧贴悬崖建造；海面有波浪拍打岩石，天空呈现粉橙色渐变。",
+    "safe_facts": [
+      "画面中可见多栋白色或浅色外墙的建筑紧贴悬崖建造。",
+      "海面有波浪拍打岩石，天空呈现粉橙色渐变。"
+    ]
+  },
+  "label_id": "cpl_dec47d1a00aae416d756f89b",
+  "provenance": {
+    "generated_at": "2026-08-03T09:25:38.925195+00:00",
+    "migrated_at": "2026-08-03T09:25:38.926685+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3ad00c33922e655873e2c0df67a363e1c6fd539ea0360811e85d3582e2d492ea",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8d716dc20a5e888f6d581144",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:29.470710+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8d716dc20a5e888f6d581144",
+    "cpl_f49f0fd86d4407c5ace9d31c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

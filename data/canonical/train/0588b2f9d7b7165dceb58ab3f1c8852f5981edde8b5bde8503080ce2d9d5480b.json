@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:270.jpg",
+    "relative_path": "train/270.jpg",
+    "sha256": "0588b2f9d7b7165dceb58ab3f1c8852f5981edde8b5bde8503080ce2d9d5480b",
+    "split": "train"
+  },
+  "canonical_sha256": "26f20b317ff82b6d4f9e97eb86e579d3d170f1756426c0b0b35725f2c0a6b5ab",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式牌楼",
+      "红色灯笼",
+      "人群聚集"
+    ],
+    "short_description": "一座装饰着红色灯笼和彩带的传统中式牌楼，周围聚集人群，背景有树木和建筑。",
+    "theme": "中式牌楼"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "牌楼具有典型的中式飞檐设计。",
+      "牌楼两侧悬挂多盏红色灯笼。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质结构",
+      "飞檐翘角",
+      "悬挂红灯笼",
+      "装饰彩带"
+    ],
+    "relations": [
+      "牌楼位于人群前方。",
+      "灯笼悬挂在牌楼两侧。"
+    ],
+    "scene": "户外传统建筑入口",
+    "subjects": [
+      "牌楼",
+      "灯笼",
+      "人群",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "牌楼具有典型的中式飞檐设计；牌楼两侧悬挂多盏红色灯笼。",
+    "safe_facts": [
+      "牌楼具有典型的中式飞檐设计。",
+      "牌楼两侧悬挂多盏红色灯笼。"
+    ]
+  },
+  "label_id": "cpl_f298657afda7489117759c71",
+  "provenance": {
+    "generated_at": "2026-08-03T10:29:00.928964+00:00",
+    "migrated_at": "2026-08-03T10:29:00.932408+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9ee3283f965109167354c8eee20f7e942ab522ada7873285c19aca292d21c1b1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_097a765b596d7fcab7a55a05",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:29:00.932844+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_097a765b596d7fcab7a55a05"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

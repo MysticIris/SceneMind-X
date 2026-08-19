@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1314.jpg",
+    "relative_path": "train/1314.jpg",
+    "sha256": "91fdb082b6163d6b455396e9aa918a70855c7559e2df4b56f89c7caf34a354b9",
+    "split": "train"
+  },
+  "canonical_sha256": "3caccb3cfcf8ffdddebc9a74976b665eee1437681683ebc526a7a3f0af318529",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "白色耳机",
+      "有线",
+      "塑料袋包装",
+      "木质桌面"
+    ],
+    "short_description": "一副白色有线耳机被透明塑料袋封装，整齐盘绕放置于木质纹理桌面上。",
+    "theme": "白色耳机套装"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像中可见一副白色有线耳机，包括耳塞和连接线。",
+      "耳机被装入透明塑料袋并密封，袋口有红色封条。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色",
+      "有线",
+      "透明塑料袋",
+      "木质纹理"
+    ],
+    "relations": [
+      "耳机被塑料袋包裹。",
+      "塑料袋放置在木质桌面上。"
+    ],
+    "scene": "木质桌面",
+    "subjects": [
+      "耳机",
+      "塑料袋"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像中可见一副白色有线耳机，包括耳塞和连接线；耳机被装入透明塑料袋并密封，袋口有红色封条。",
+    "safe_facts": [
+      "图像中可见一副白色有线耳机，包括耳塞和连接线。",
+      "耳机被装入透明塑料袋并密封，袋口有红色封条。"
+    ]
+  },
+  "label_id": "cpl_2918546ca176097a5bc515da",
+  "provenance": {
+    "generated_at": "2026-08-03T14:08:43.569698+00:00",
+    "migrated_at": "2026-08-03T14:08:43.572393+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4e8e86fd0a6ccc91d57761d97cee9d0e8f36c92c317dbeb2e68bea9ee81f6dcf",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_39730f395722e1c56b893bb5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:08:43.572749+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_39730f395722e1c56b893bb5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

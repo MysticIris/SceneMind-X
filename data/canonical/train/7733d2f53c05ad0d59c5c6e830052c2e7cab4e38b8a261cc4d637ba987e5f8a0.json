@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1336.jpg",
+    "relative_path": "train/1336.jpg",
+    "sha256": "7733d2f53c05ad0d59c5c6e830052c2e7cab4e38b8a261cc4d637ba987e5f8a0",
+    "split": "train"
+  },
+  "canonical_sha256": "7e935c4704161cf2aba738e4f9e4200ea6b17b2b60949ee2971d78f970ede54f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "奥特曼",
+      "演出海报",
+      "角色群像"
+    ],
+    "short_description": "画面中央有多个奥特曼角色站立；背景为深蓝色星空图案。",
+    "theme": "奥特曼主题演出海报"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有多个奥特曼角色站立。",
+      "背景为深蓝色星空图案。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "角色穿着战斗服",
+      "角色有发光特效"
+    ],
+    "relations": [],
+    "scene": "宣传海报背景为星空宇宙",
+    "subjects": [
+      "多个奥特曼角色",
+      "一个牛头造型的角色"
+    ],
+    "visual_medium": "poster_document"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有多个奥特曼角色站立；背景为深蓝色星空图案。",
+    "safe_facts": [
+      "画面中央有多个奥特曼角色站立。",
+      "背景为深蓝色星空图案。"
+    ]
+  },
+  "label_id": "cpl_eb74c0cea45091e6f594e262",
+  "provenance": {
+    "generated_at": "2026-08-03T14:12:00.230744+00:00",
+    "migrated_at": "2026-08-03T14:12:00.234822+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d2349623b4af58ca7e430a6414ef2caa7c2e6201b47bf9fbda7e431987d93f3d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_bf29d123e0bf06c1a837e1b5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:12:00.236260+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_bf29d123e0bf06c1a837e1b5"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "《奥特英雄银河格斗一命运的对决》",
+      "演出团体:天津宝艺文化传播有限公司",
+      "演出时间:8月19-20日(周末)10:30 / 13:30 / 16:30",
+      "演出时长:约80分钟",
+      "演出地点:武汉人艺中南大剧场"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "《奥特英雄银河格斗一命运的对决》",
+      "演出团体:天津宝艺文化传播有限公司",
+      "演出时间:8月19-20日(周末)10:30 / 13:30 / 16:30",
+      "演出时长:约80分钟",
+      "演出地点:武汉人艺中南大剧场"
+    ]
+  }
+}

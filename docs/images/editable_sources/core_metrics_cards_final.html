@@ -1,0 +1,10 @@
+<!doctype html><html style="--h:1080px"><head><meta charset="utf-8"><link rel="stylesheet" href="v2_asset_style.css"><style>
+.metric-compare{width:100%;display:grid;grid-template-columns:1fr 42px 1fr;align-items:center;gap:4px;margin:22px 0 16px}.metric-end{min-width:0}.metric-end-value{font:800 46px/1.05 Arial,"Microsoft YaHei",sans-serif;color:#215F9A;white-space:nowrap}.metric-end-label{margin-top:12px;font-size:22px;line-height:1.35;color:#62717D;font-weight:700}.metric-compare .arrow-inline{font-size:34px}.metric-sample{font-size:21px;color:#76848F;margin-top:8px}.metric-row .metric:first-child{padding-left:24px;padding-right:24px}
+</style></head><body><div class="canvas">
+<div class="topline"><span class="tag">实验结果</span><span class="title">核心结果指标</span></div>
+<div class="metric-row">
+  <div class="metric"><div class="metric-name">检索主实验 Recall@5</div><div class="metric-compare"><div class="metric-end"><div class="metric-end-value">0.7188</div><div class="metric-end-label">启发式基线</div></div><div class="arrow-inline">→</div><div class="metric-end"><div class="metric-end-value">0.9688</div><div class="metric-end-label">2048D Qwen3-VL<br>Embedding</div></div></div><div class="metric-sample">144 图 / 32 query</div></div>
+  <div class="metric"><div class="metric-name">External Retrieval nDCG@5</div><div class="metric-value">0.8995</div><div class="metric-note">外部测试集 Top-5 排序质量</div></div>
+  <div class="metric"><div class="metric-name">5 分案例数</div><div class="metric-value">31 / 32</div><div class="metric-note">生成与交互案例</div></div>
+  <div class="metric"><div class="metric-name">平均总体可用性</div><div class="metric-value">4.88 / 5</div><div class="metric-note">32 个生成与交互案例</div></div>
+</div></div></body></html>

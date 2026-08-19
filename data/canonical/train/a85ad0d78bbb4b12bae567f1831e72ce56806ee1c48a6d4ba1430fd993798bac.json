@@ -1,0 +1,135 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1964.jpg",
+    "relative_path": "train/1964.jpg",
+    "sha256": "a85ad0d78bbb4b12bae567f1831e72ce56806ee1c48a6d4ba1430fd993798bac",
+    "split": "train"
+  },
+  "canonical_sha256": "59b23f2143351987812a5076b093b3e191888687bab49d0c7bf28ddbfd962555",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "领奖台",
+      "奖牌",
+      "花束",
+      "运动员"
+    ],
+    "short_description": "四名男子站在领奖台上，手持花束和奖牌，背景为紫色宣传板，显示字样。",
+    "theme": "颁奖典礼"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "四名男性并排站立于白色领奖台。",
+      "其中两人佩戴奖牌，一人手持花束。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "手持花束",
+      "佩戴奖牌"
+    ],
+    "attributes": [
+      "穿着运动服",
+      "戴有奖牌",
+      "手持花束"
+    ],
+    "relations": [
+      "四人站于领奖台。",
+      "摄影师在台下拍摄。"
+    ],
+    "scene": "户外颁奖仪式",
+    "subjects": [
+      "四名男性",
+      "摄影师"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "四名男性并排站立于白色领奖台；其中两人佩戴奖牌，一人手持花束。",
+    "safe_facts": [
+      "四名男性并排站立于白色领奖台。",
+      "其中两人佩戴奖牌，一人手持花束。"
+    ]
+  },
+  "label_id": "cpl_81a8f16bff449737c5816a28",
+  "provenance": {
+    "generated_at": "2026-08-03T15:29:26.511337+00:00",
+    "migrated_at": "2026-08-03T15:29:26.513485+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "875ab15d0959e5f5d2051bded6ba07734f1f3ff36cfe28c05467706347115691",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7f2d57c2c6efe56ba06eab0f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:29:26.513924+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7f2d57c2c6efe56ba06eab0f"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "清华大学",
+      "Tsinghua University",
+      "健康始于足下",
+      "赤足运"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "清华大学",
+      "Tsinghua University",
+      "健康始于足下",
+      "赤足运"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:308.jpg",
+    "relative_path": "train/308.jpg",
+    "sha256": "defd644a9d7f869623315eb556c572b4bb502b8510880d392a17a56b72e2291f",
+    "split": "train"
+  },
+  "canonical_sha256": "3fd946458528b12756aa31ce4f19097c278462277cc5f75a04ae1d7ee5dfc1cf",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "金箔人形",
+      "博物馆展品",
+      "玻璃展柜"
+    ],
+    "short_description": "一件由金色鳞片状材料拼接而成的人形文物，被红色绳带固定，陈列于博物馆展柜内，玻璃反射出参观者身影。",
+    "theme": "金箔人形文物"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "文物表面覆盖金色鳞片状材料。",
+      "文物被红色绳带捆绑固定。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "由金色鳞片状材料拼接",
+      "被红色绳带固定",
+      "陈列于展柜内"
+    ],
+    "relations": [
+      "文物位于展柜中。",
+      "玻璃反射参观者。"
+    ],
+    "scene": "博物馆展柜内",
+    "subjects": [
+      "金箔人形文物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "文物表面覆盖金色鳞片状材料；文物被红色绳带捆绑固定。",
+    "safe_facts": [
+      "文物表面覆盖金色鳞片状材料。",
+      "文物被红色绳带捆绑固定。"
+    ]
+  },
+  "label_id": "cpl_ed56f7d7dc8be4d7345e5cf9",
+  "provenance": {
+    "generated_at": "2026-08-03T10:36:39.936425+00:00",
+    "migrated_at": "2026-08-03T10:36:39.938695+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4afdb0563f80b84f253dac06bda295bd7a01e2bdb485bdba0ccc1830de625037",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_334c4bd947fa9b91d7a6dff0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:36:39.938889+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_334c4bd947fa9b91d7a6dff0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

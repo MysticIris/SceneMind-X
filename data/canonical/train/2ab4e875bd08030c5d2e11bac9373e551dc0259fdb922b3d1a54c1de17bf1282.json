@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:412.jpg",
+    "relative_path": "train/412.jpg",
+    "sha256": "2ab4e875bd08030c5d2e11bac9373e551dc0259fdb922b3d1a54c1de17bf1282",
+    "split": "train"
+  },
+  "canonical_sha256": "726c7b3934c6855b70d898b9beb06ad7d28ba2bcd246d6f1af142f4c53aebea7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石碑",
+      "雕塑",
+      "户外",
+      "树木"
+    ],
+    "short_description": "户外石碑上刻有金色汉字，顶部为人物头像雕塑，背景是光秃树木与阴天。",
+    "theme": "石碑雕塑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "石碑由灰色方形石板拼接而成，表面有明显裂纹。",
+      "雕塑为人物头部造型，面部有胡须，材质呈深色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "石碑表面有裂纹",
+      "雕塑为深色金属材质",
+      "树木枝干裸露"
+    ],
+    "relations": [
+      "雕塑位于石碑顶部。",
+      "石碑置于地面平台之上。"
+    ],
+    "scene": "户外公园或纪念地",
+    "subjects": [
+      "石碑",
+      "人物头像雕塑",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "石碑由灰色方形石板拼接而成，表面有明显裂纹；雕塑为人物头部造型，面部有胡须，材质呈深色。",
+    "safe_facts": [
+      "石碑由灰色方形石板拼接而成，表面有明显裂纹。",
+      "雕塑为人物头部造型，面部有胡须，材质呈深色。"
+    ]
+  },
+  "label_id": "cpl_d6f8c863002832212844147a",
+  "provenance": {
+    "generated_at": "2026-08-03T10:58:15.901444+00:00",
+    "migrated_at": "2026-08-03T10:58:15.903288+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "37c0eaf3be233103581163cdd13bdf3f3492393c47d408155f8f3309ba287e48",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9aaa2716d2ba6e77c03f2a13",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:58:15.903492+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9aaa2716d2ba6e77c03f2a13"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

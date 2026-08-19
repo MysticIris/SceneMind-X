@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:578.jpg",
+    "relative_path": "train/578.jpg",
+    "sha256": "1aab383b48ed35a3d36c05f709800149a8c3ef674dbe681ee52b91a73d5dd2fa",
+    "split": "train"
+  },
+  "canonical_sha256": "e2c9d3e9c7e72bee74ad9cf2d71805a31e6be1ed3839eaca9f550527be0cc898",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "向日葵",
+      "田野",
+      "黄色花朵",
+      "绿叶"
+    ],
+    "short_description": "一片向日葵田中，几朵盛开的黄色向日葵在绿叶衬托下迎风摇曳，背景是淡蓝色天空与远处树木。",
+    "theme": "向日葵田"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有数朵盛开的向日葵，花瓣呈明亮黄色，中心为密集的黄色花盘。",
+      "向日葵周围环绕着宽大的绿色叶子，背景可见淡蓝色天空和远处树木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黄色花瓣",
+      "密集花盘",
+      "绿色叶片"
+    ],
+    "relations": [
+      "向日葵生长于绿叶之间。",
+      "向日葵位于天空和树木前方。"
+    ],
+    "scene": "户外向日葵田",
+    "subjects": [
+      "向日葵",
+      "绿叶",
+      "天空",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有数朵盛开的向日葵，花瓣呈明亮黄色，中心为密集的黄色花盘；向日葵周围环绕着宽大的绿色叶子，背景可见淡蓝色天空和远处树木。",
+    "safe_facts": [
+      "画面中有数朵盛开的向日葵，花瓣呈明亮黄色，中心为密集的黄色花盘。",
+      "向日葵周围环绕着宽大的绿色叶子，背景可见淡蓝色天空和远处树木。"
+    ]
+  },
+  "label_id": "cpl_f61bc634f601d55b8f2f50ac",
+  "provenance": {
+    "generated_at": "2026-08-03T11:37:22.530392+00:00",
+    "migrated_at": "2026-08-03T11:37:22.533127+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8556396d55588511b9a70e887d27e7642b2d5ab76eef51ac9f4dbba0ab85b471",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fa72a3d1aefc9ecc5ccff7f6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:37:22.533553+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fa72a3d1aefc9ecc5ccff7f6"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

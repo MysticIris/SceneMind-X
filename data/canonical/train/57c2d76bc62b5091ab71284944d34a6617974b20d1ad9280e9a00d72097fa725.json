@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1718.jpg",
+    "relative_path": "train/1718.jpg",
+    "sha256": "57c2d76bc62b5091ab71284944d34a6617974b20d1ad9280e9a00d72097fa725",
+    "split": "train"
+  },
+  "canonical_sha256": "cbfef46b0a78610564ff6d91ba1bf5cff1985076326b7803503e67fc7c4e6711",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "瀑布",
+      "森林",
+      "水流",
+      "岩石",
+      "护栏"
+    ],
+    "short_description": "瀑布从岩壁倾泻而下，水花飞溅，周围绿树环绕，前景有木质护栏。",
+    "theme": "瀑布林间"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "瀑布周围植被茂密，可能为雨季或湿润环境。"
+    ],
+    "direct_observations": [
+      "瀑布从多层岩壁上落下，形成白色水幕。",
+      "瀑布底部有激荡的水花和浅绿色水面。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "水流下落"
+    ],
+    "attributes": [
+      "白色水花",
+      "绿色植被",
+      "深色岩石",
+      "木质结构"
+    ],
+    "relations": [
+      "瀑布流经岩石。",
+      "树木环绕瀑布。",
+      "护栏位于前景。"
+    ],
+    "scene": "山林中的瀑布景观",
+    "subjects": [
+      "瀑布",
+      "树木",
+      "岩石",
+      "护栏"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "瀑布周围植被茂密，可能为雨季或湿润环境。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "瀑布从多层岩壁上落下，形成白色水幕；瀑布底部有激荡的水花和浅绿色水面。",
+    "safe_facts": [
+      "瀑布从多层岩壁上落下，形成白色水幕。",
+      "瀑布底部有激荡的水花和浅绿色水面。"
+    ]
+  },
+  "label_id": "cpl_44a1a252b7224488dcdfda9d",
+  "provenance": {
+    "generated_at": "2026-08-03T14:59:07.177086+00:00",
+    "migrated_at": "2026-08-03T14:59:07.178665+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c83711d963f551e1b0524e34acf7325aada6bdc7b2a498a2b0caf9bd911ada4e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_11673dc6bbc9903eb3fecb62",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:59:07.178876+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_11673dc6bbc9903eb3fecb62"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1007.jpg",
+    "relative_path": "train/1007.jpg",
+    "sha256": "aa4bb365bc6d3bfe7b165c33898c2c93c8d3b7b43dfcaea21fcad1f83b049f5b",
+    "split": "train"
+  },
+  "canonical_sha256": "da7717ef0e4b7669ff99996ea8400a317e3b3862ed2f8eb006ff4c9b032b5973",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "白色建筑",
+      "尖塔",
+      "深色屋顶",
+      "红色窗框"
+    ],
+    "short_description": "蓝天背景下，一座白色建筑的尖塔与深色屋顶形成鲜明对比，窗户带红色边框。",
+    "theme": "白色建筑与尖塔"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑主体为白色，屋顶覆盖深色瓦片。",
+      "窗户边缘有红色装饰线条。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色外墙",
+      "深色瓦片屋顶",
+      "红色窗框",
+      "尖顶塔楼"
+    ],
+    "relations": [
+      "尖塔位于建筑上方。"
+    ],
+    "scene": "建筑庭院视角",
+    "subjects": [
+      "建筑",
+      "尖塔"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑主体为白色，屋顶覆盖深色瓦片；窗户边缘有红色装饰线条。",
+    "safe_facts": [
+      "建筑主体为白色，屋顶覆盖深色瓦片。",
+      "窗户边缘有红色装饰线条。"
+    ]
+  },
+  "label_id": "cpl_d88fb1b522f1afc8247abafb",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/train/train_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "170dc34eb8269f1babe6835cdb58f23286285057aea88fcd9025beb9e0166c19",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T13:22:41.384187+00:00",
+    "migrated_at": "2026-08-03T13:22:41.388557+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f95f2483ef7f209aef3c0a61e832da193cb9dd970d47d5b697b3cd9e4d6f0489",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_57d54269f713e26e6de134cc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:41.388964+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "建筑主体、颜色和构图描述与原图一致。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_57d54269f713e26e6de134cc"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

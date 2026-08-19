@@ -1,0 +1,105 @@
+{
+  "additionalProperties": false,
+  "description": "Stage B model-owned payload: nine flat semantic fields only.",
+  "properties": {
+    "depicted_content": {
+      "anyOf": [
+        {
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Depicted Content"
+    },
+    "scene_summary": {
+      "maxLength": 256,
+      "minLength": 1,
+      "title": "Scene Summary",
+      "type": "string"
+    },
+    "subjects": {
+      "items": {
+        "maxLength": 96,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 12,
+      "title": "Subjects",
+      "type": "array"
+    },
+    "activities": {
+      "items": {
+        "maxLength": 96,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 8,
+      "title": "Activities",
+      "type": "array"
+    },
+    "relationships": {
+      "items": {
+        "maxLength": 96,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 12,
+      "title": "Relationships",
+      "type": "array"
+    },
+    "visible_text_candidates": {
+      "items": {
+        "maxLength": 256,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 8,
+      "title": "Visible Text Candidates",
+      "type": "array"
+    },
+    "observations": {
+      "items": {
+        "maxLength": 256,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 12,
+      "minItems": 1,
+      "title": "Observations",
+      "type": "array"
+    },
+    "inference_candidates": {
+      "items": {
+        "maxLength": 256,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 8,
+      "title": "Inference Candidates",
+      "type": "array"
+    },
+    "uncertainties": {
+      "items": {
+        "maxLength": 256,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 8,
+      "title": "Uncertainties",
+      "type": "array"
+    }
+  },
+  "required": [
+    "scene_summary",
+    "observations"
+  ],
+  "title": "SemanticPayload",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "phase2b_semantic_payload_v1"
+}

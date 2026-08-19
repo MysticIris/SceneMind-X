@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:68.jpg",
+    "relative_path": "train/68.jpg",
+    "sha256": "3b3b2bef7c1b9cdad68564ae17b569a33cd3be72ecf807a1893c8123dd77e519",
+    "split": "train"
+  },
+  "canonical_sha256": "14a977ff4eb6050f804307fe2fbfc61830360fa873884c9369c3b5f370585172",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "老街",
+      "中式招牌",
+      "行人骑行"
+    ],
+    "short_description": "一条两侧建筑林立的老街，悬挂着中式招牌，行人与骑车者穿行其间，远处可见塔楼轮廓。",
+    "theme": "老街巷景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "街道两旁有多栋建筑，部分带有阳台和卷帘门。",
+      "有数人骑自行车或步行在街道上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "骑行",
+      "行走"
+    ],
+    "attributes": [
+      "多层建筑",
+      "悬挂招牌",
+      "道路标线"
+    ],
+    "relations": [
+      "行人与骑车者在街道上移动。",
+      "招牌悬挂在建筑外立面。"
+    ],
+    "scene": "城市街道",
+    "subjects": [
+      "行人",
+      "骑车者",
+      "建筑",
+      "招牌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "街道两旁有多栋建筑，部分带有阳台和卷帘门；有数人骑自行车或步行在街道上。",
+    "safe_facts": [
+      "街道两旁有多栋建筑，部分带有阳台和卷帘门。",
+      "有数人骑自行车或步行在街道上。"
+    ]
+  },
+  "label_id": "cpl_7cb6ef89253d2352dcdb390d",
+  "provenance": {
+    "generated_at": "2026-08-03T09:18:38.710148+00:00",
+    "migrated_at": "2026-08-03T09:18:38.712061+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ca2e61e3d334e2d8755f503155299cf9781eb034919bb15f1b3295c6b31aa80b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_df01c875444d67a174d26a7c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:27.884807+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_df01c875444d67a174d26a7c",
+    "cpl_05a3f65c999c4eebdb42c89c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

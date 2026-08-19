@@ -1,0 +1,138 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:221.jpg",
+    "relative_path": "train/221.jpg",
+    "sha256": "57ccf957da0332266e970d6d23e80fdc58e59520f8d1826d242fcac802b88e7c",
+    "split": "train"
+  },
+  "canonical_sha256": "a2cc26d0a62ad30a9bb7734d687150ad3b225599038d85699debcba61aa37004",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "导航地图",
+      "驾车路线",
+      "施工提醒"
+    ],
+    "short_description": "地图上有一条红色路线从当前位置延伸至目的地，中间有施工标志。",
+    "theme": "驾车导航界面"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地图上有一条红色路线从当前位置延伸至目的地，中间有施工标志。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "显示高速公路",
+      "显示施工提示",
+      "显示预计到达时间"
+    ],
+    "relations": [
+      "用户位置在地图上标记。",
+      "目的地在地图上标记。",
+      "路线连接用户位置与目的地。"
+    ],
+    "scene": "手机导航应用界面",
+    "subjects": [
+      "地图",
+      "导航路线",
+      "用户位置标记",
+      "目的地标记"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地图上有一条红色路线从当前位置延伸至目的地，中间有施工标志。",
+    "safe_facts": [
+      "地图上有一条红色路线从当前位置延伸至目的地，中间有施工标志。"
+    ]
+  },
+  "label_id": "cpl_8f18170fe61058c8753a6e8b",
+  "provenance": {
+    "generated_at": "2026-08-03T10:19:11.533037+00:00",
+    "migrated_at": "2026-08-03T10:19:11.535006+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bd88f6db8f8689988569ab4f77f732311ceb66a847d1b87119970cdec7ea7dc5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f3526069528d28ab3ac11731",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:19:11.535818+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f3526069528d28ab3ac11731"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "我的位置",
+      "苏州北广场汽...",
+      "1小时28分钟",
+      "占道施工",
+      "免费",
+      "预计18:24到达"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "我的位置",
+      "苏州北广场汽...",
+      "1小时28分钟",
+      "占道施工",
+      "免费",
+      "预计18:24到达"
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2090.jpg",
+    "relative_path": "val/2090.jpg",
+    "sha256": "bc071d08ab32494220d75f25a9712202cdb68901fc08aa5b6003e62a890ec603",
+    "split": "val"
+  },
+  "canonical_sha256": "9ca58881a926a2e5f6fdec5afa3333ef534ed5daf320522b339d7d97eeae45be",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "热汤",
+      "金属锅",
+      "加热底座"
+    ],
+    "short_description": "一锅橙黄色的汤品盛放在金属锅中，配有勺子，置于加热底座上，旁边有餐具和食物。",
+    "theme": "热汤锅具"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "汤锅内盛有橙黄色液体，表面漂浮绿色香草和切片蔬菜。",
+      "汤锅带有两个金属把手，底部置于一个圆形加热底座上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "橙黄色汤汁",
+      "带把手的金属锅",
+      "加热底座",
+      "汤中有蔬菜和香草"
+    ],
+    "relations": [
+      "汤锅放置在加热底座上。",
+      "勺子插在汤中。",
+      "餐具位于汤锅旁。"
+    ],
+    "scene": "餐桌环境",
+    "subjects": [
+      "汤锅",
+      "汤",
+      "勺子",
+      "加热底座",
+      "餐具"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "汤锅内盛有橙黄色液体，表面漂浮绿色香草和切片蔬菜；汤锅带有两个金属把手，底部置于一个圆形加热底座上。",
+    "safe_facts": [
+      "汤锅内盛有橙黄色液体，表面漂浮绿色香草和切片蔬菜。",
+      "汤锅带有两个金属把手，底部置于一个圆形加热底座上。"
+    ]
+  },
+  "label_id": "cpl_4c6651ca130c25629ceb5d7f",
+  "provenance": {
+    "generated_at": "2026-08-03T15:58:24.110913+00:00",
+    "migrated_at": "2026-08-03T15:58:24.112371+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6d837cc0074ebf26592721e367d14842ad96dfa3df65af97e2c4de6ed9933451",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5af4495aa6f2e18de693d4af",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:58:24.112626+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5af4495aa6f2e18de693d4af"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

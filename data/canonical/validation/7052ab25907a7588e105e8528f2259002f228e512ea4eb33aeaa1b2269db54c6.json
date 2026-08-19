@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2205.jpg",
+    "relative_path": "val/2205.jpg",
+    "sha256": "7052ab25907a7588e105e8528f2259002f228e512ea4eb33aeaa1b2269db54c6",
+    "split": "val"
+  },
+  "canonical_sha256": "3435214790568d3f0ec44bddd7f675dc1ad1370fb8e8df105599434d4ff2c578",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "炸物",
+      "竹编盘",
+      "蘸料",
+      "芒果丝"
+    ],
+    "short_description": "竹编盘中盛放金黄炸物、芒果丝与蘸料，搭配蔬菜点缀，置于深色餐桌。",
+    "theme": "炸物配菜"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "盘中食物包括数块炸制食品、黄色条状物(芒果丝)、白色蔬菜片及绿色香菜叶。",
+      "食物盛放在棕色纸张覆盖的圆形竹编盘内，盘边有编织纹路。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金黄色",
+      "油渍斑点",
+      "竹编纹理",
+      "透明蘸料",
+      "绿色香菜叶"
+    ],
+    "relations": [
+      "炸物放在竹编盘上。",
+      "蘸料碗在炸物旁。",
+      "芒果丝与蔬菜并列摆放。"
+    ],
+    "scene": "餐桌",
+    "subjects": [
+      "炸物",
+      "竹编盘",
+      "蘸料碗",
+      "芒果丝",
+      "蔬菜",
+      "餐盘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "盘中食物包括数块炸制食品、黄色条状物(芒果丝)、白色蔬菜片及绿色香菜叶；食物盛放在棕色纸张覆盖的圆形竹编盘内，盘边有编织纹路。",
+    "safe_facts": [
+      "盘中食物包括数块炸制食品、黄色条状物(芒果丝)、白色蔬菜片及绿色香菜叶。",
+      "食物盛放在棕色纸张覆盖的圆形竹编盘内，盘边有编织纹路。"
+    ]
+  },
+  "label_id": "cpl_fbd8459bb43c9331d791ebc7",
+  "provenance": {
+    "generated_at": "2026-08-03T16:12:15.877919+00:00",
+    "migrated_at": "2026-08-03T16:12:15.879714+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "80dbea6d8e8ff6362ec0d54c32f42b7b8e335a3fb74d3436a5b9b78e04b05d25",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_74f746021b809af442d56d91",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:12:15.879952+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_74f746021b809af442d56d91"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

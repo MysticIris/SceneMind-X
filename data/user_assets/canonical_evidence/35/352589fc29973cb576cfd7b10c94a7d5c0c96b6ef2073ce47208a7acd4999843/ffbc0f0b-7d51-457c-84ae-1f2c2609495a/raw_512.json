@@ -1,0 +1,66 @@
+{
+  "asset_id": "352589fc29973cb5",
+  "asset_sha256": "352589fc29973cb576cfd7b10c94a7d5c0c96b6ef2073ce47208a7acd4999843",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"社交软件聊天界面截图\",\n    \"short_description\": \"一张手机社交应用Soul的聊天界面截图。画面展示了用户与昵称为“芝芝”的在线好友之间的对话记录，包含青色和白色的气泡消息、卡通头像以及底部的快捷回复选项栏。\",\n    \"micro_tags\": [\n      \"Soul\",\n      \"聊天记录\",\n      \"即时通讯\",\n      \"手机截图\",\n      \"UI界面\",\n      \"社交网络\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端应用程序聊天窗口\",\n    \"subjects\": [\n      \"聊天界面UI\",\n      \"对话气泡\",\n      \"用户头像\",\n      \"状态栏信息\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"竖屏构图\",\n      \"白色背景\",\n      \"青色发送方气泡\",\n      \"白色接收方气泡\",\n      \"顶部显示时间与信号图标\",\n      \"底部有功能按钮栏\"\n    ],\n    \"relations\": [\n      \"消息气泡按时间顺序垂直排列\",\n      \"头像位于对应消息气泡的外侧\",\n      \"文字内容填充在气泡内部\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕顶部状态栏显示时间为11:17，应用名称为Soul，电量为90%。\",\n      \"聊天对象昵称显示为“芝芝（我18叔叔们别私我了。）”，状态标记为“在线”。\",\n      \"右侧发送方使用棕色短发男性卡通头像，左侧接收方使用白发蓝眼女性卡通头像。\",\n      \"底部输入框上方有一排快捷短语按钮，可见“甜甜圈”、“中午好”、“桌球”等标签。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局推测这是一款主打陌生人社交或兴趣交友的移动应用。\",\n      \"对话内容涉及学习进度与分数讨论，可能发生在学生群体之间。\"\n    ],\n    \"uncertainties\": [\n      \"无法确认截图者的真实身份及具体地理位置。\",\n      \"无法确定对话发生的具体日期。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"Soul\",\n      \"11:17\",\n      \"芝芝（我18叔叔们别私我了。）\",\n      \"在线\",\n      \"关注\",\n      \"我还以为你们高中生\",\n      \"都在晚上活动\",\n      \"呆着看网课\",\n      \"基础差\",\n      \"啥水平呀\",\n      \"现在\",\n      \"400\",\n      \"多\",\n      \"聪明但没学\",\n      \"得找人帮一把\",\n      \"嗯嗯\",\n      \"甜甜圈\",\n      \"中午好\",\n      \"桌球\",\n      \"礼物\",\n      \"文明聊天，友善交友~\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"这是一张智能手机社交应用的聊天界面截图，展示了两个用户之间的文本交流过程，界面包含典型的消息气泡、头像及底部操作栏。\",\n    \"safe_facts\": [\n      \"图片为竖屏手机屏幕截图\",\n      \"界面",
+      "input_tokens": 3227,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 768,
+        "total_tokens": 3995,
+        "estimated_cost_cny": 0.012598,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "社交软件聊天界面截图",
+        "short_description": "一张手机社交应用Soul的聊天界面截图。画面展示了用户与昵称为“芝芝”的在线好友之间的对话记录，包含青色和白色的气泡消息、卡通头像以及底部的快捷回复选项栏。",
+        "micro_tags": [
+          "Soul",
+          "聊天记录",
+          "即时通讯",
+          "手机截图",
+          "UI界面",
+          "社交网络"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 576616,
+        "request_bytes": 429390,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.512941499997396,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "0cfcec012e8027d2006fc32d34d3f77bfd20b9d564ca216cc06fabd370b5e76e"
+}

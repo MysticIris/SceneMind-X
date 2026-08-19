@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:310.jpg",
+    "relative_path": "train/310.jpg",
+    "sha256": "6999747f7a90020c0f85900378b03c17d975df8b3c01087717c500f97c41f29f",
+    "split": "train"
+  },
+  "canonical_sha256": "4583b80449b57da8b0011b2deadf8422146c8bc44c72c14a36315f3e94038443",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "河道",
+      "城市景观",
+      "行人",
+      "绿树"
+    ],
+    "short_description": "阴天下的城市河道旁，行人漫步于石阶与步道，两岸绿树成荫，建筑错落有致。",
+    "theme": "水岸城市街景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现一条贯穿画面的河道，水面平静，倒映岸边景物。",
+      "河道两侧分布有行人步道、绿化带及建筑物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阴天",
+      "石砌河岸",
+      "现代与传统建筑混合"
+    ],
+    "relations": [
+      "行人位于步道上。",
+      "树木沿河道生长。",
+      "建筑临水而建。"
+    ],
+    "scene": "城市河道沿岸",
+    "subjects": [
+      "行人",
+      "树木",
+      "建筑",
+      "河道"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现一条贯穿画面的河道，水面平静，倒映岸边景物；河道两侧分布有行人步道、绿化带及建筑物。",
+    "safe_facts": [
+      "画面呈现一条贯穿画面的河道，水面平静，倒映岸边景物。",
+      "河道两侧分布有行人步道、绿化带及建筑物。"
+    ]
+  },
+  "label_id": "cpl_fc9d529bf33d01073b52ba98",
+  "provenance": {
+    "generated_at": "2026-08-03T10:37:05.368190+00:00",
+    "migrated_at": "2026-08-03T10:37:05.369714+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f9b940a67c8069411e5de78a07bd241db22ef241d20329622cb3c982aa7584f4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f9c49321ca906be57b8cfaae",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:37:05.369944+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f9c49321ca906be57b8cfaae"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

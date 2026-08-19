@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:138.jpg",
+    "relative_path": "train/138.jpg",
+    "sha256": "a72c2a41d25cb9f424b7733eb680afd81f9565e1ee3456c3ee4ff52491e14719",
+    "split": "train"
+  },
+  "canonical_sha256": "4ed9e9ae8834cc95f279106b60ef997157952f1050dc09f6e05018db53b62b15",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "猫",
+      "门",
+      "站立",
+      "红色地垫"
+    ],
+    "short_description": "一只毛茸茸的猫站在门前红色地垫上，前爪搭在金属门框，旁边站着一个人。",
+    "theme": "门边站立的猫"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "猫用前爪搭在金属门框上，后腿站立在红色地垫上。",
+      "门为金属材质，带有网格玻璃窗和装饰性花纹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "搭在门框上"
+    ],
+    "attributes": [
+      "毛茸茸",
+      "白色与棕色相间",
+      "金属门",
+      "红色地垫",
+      "瓷砖地面"
+    ],
+    "relations": [
+      "猫位于门旁。",
+      "人与猫相邻站立。"
+    ],
+    "scene": "室内门口区域",
+    "subjects": [
+      "猫",
+      "人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "猫用前爪搭在金属门框上，后腿站立在红色地垫上；门为金属材质，带有网格玻璃窗和装饰性花纹。",
+    "safe_facts": [
+      "猫用前爪搭在金属门框上，后腿站立在红色地垫上。",
+      "门为金属材质，带有网格玻璃窗和装饰性花纹。"
+    ]
+  },
+  "label_id": "cpl_001fed36e572f3c2ae1ab833",
+  "provenance": {
+    "generated_at": "2026-08-03T09:35:44.205146+00:00",
+    "migrated_at": "2026-08-03T09:35:44.207449+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "56ae0bf016e031568b1c52820134f0a6e1c9c20614f228bd7bbabddaa6123eb2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_060f5653c95ba45e9a128f85",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:41.162943+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_060f5653c95ba45e9a128f85",
+    "cpl_2c36cdeda5ddb54837cb4731"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

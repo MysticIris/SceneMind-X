@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1365.jpg",
+    "relative_path": "train/1365.jpg",
+    "sha256": "a6d56ede60e154a16741ff9cbb17a6f03381752dac1c2749f764fa2c9af69b8a",
+    "split": "train"
+  },
+  "canonical_sha256": "504ee0898d2951cc07a1786c37a60ea87d3a483b34b46e3751c6362a2d47bbbb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "地铁站牌",
+      "站名标识",
+      "立体字",
+      "黄色装饰"
+    ],
+    "short_description": "地铁站的站名牌，白色立体字配黄色三角形装饰，背景为玻璃材质。",
+    "theme": "地铁站标识"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像显示的是地铁站的站名牌。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色立体字",
+      "黄色三角形图案",
+      "透明玻璃背景"
+    ],
+    "relations": [],
+    "scene": "地铁站内",
+    "subjects": [
+      "站名牌",
+      "玻璃面板"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像显示的是地铁站的站名牌。",
+    "safe_facts": [
+      "图像显示的是地铁站的站名牌。"
+    ]
+  },
+  "label_id": "cpl_b92e2213b2505e7f7c5035da",
+  "provenance": {
+    "generated_at": "2026-08-03T14:13:14.053902+00:00",
+    "migrated_at": "2026-08-03T14:13:14.057901+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c48e7fa38fbdd9611e00cfe57f811ba5cbf1ce70aec2b0e087dcef68c886b670",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3e73b6ed5c6954f9e4ebda4c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:13:14.059348+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3e73b6ed5c6954f9e4ebda4c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "光谷四路",
+      "Guanggu 4th Road"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "光谷四路",
+      "Guanggu 4th Road"
+    ]
+  }
+}

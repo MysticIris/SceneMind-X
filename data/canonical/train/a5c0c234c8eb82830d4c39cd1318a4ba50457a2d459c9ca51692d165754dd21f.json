@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1220.jpg",
+    "relative_path": "train/1220.jpg",
+    "sha256": "a5c0c234c8eb82830d4c39cd1318a4ba50457a2d459c9ca51692d165754dd21f",
+    "split": "train"
+  },
+  "canonical_sha256": "9fe4c51b19d53d09d19c1b459f4ce3ee875f314f4ca8d94ce7bb14216b65b629",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "走廊",
+      "瓷砖地面",
+      "石栏杆",
+      "墙贴海报"
+    ],
+    "short_description": "一条室内走廊，地面铺有水磨石瓷砖，左侧有石质栏杆，右侧墙上挂有多张海报。",
+    "theme": "走廊通道"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面铺设灰色水磨石瓷砖。",
+      "右侧墙壁上悬挂多张矩形海报。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灰色水磨石地面",
+      "白色墙壁",
+      "木质门框",
+      "嵌入式照明"
+    ],
+    "relations": [
+      "石栏杆位于走廊左侧。",
+      "海报张贴于右侧墙壁。",
+      "灯具安装于天花板。"
+    ],
+    "scene": "室内走廊",
+    "subjects": [
+      "走廊",
+      "石质栏杆",
+      "墙面海报",
+      "天花板灯具"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面铺设灰色水磨石瓷砖；右侧墙壁上悬挂多张矩形海报。",
+    "safe_facts": [
+      "地面铺设灰色水磨石瓷砖。",
+      "右侧墙壁上悬挂多张矩形海报。"
+    ]
+  },
+  "label_id": "cpl_e315d7565e284ae57de379cc",
+  "provenance": {
+    "generated_at": "2026-08-03T13:55:13.341081+00:00",
+    "migrated_at": "2026-08-03T13:55:13.344985+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6ef80b9f17ce80235c15a693a2af5aa98f746c790b3247b557e747144a89aeb2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f060e90f171859506a0921c6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:55:13.345507+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f060e90f171859506a0921c6"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

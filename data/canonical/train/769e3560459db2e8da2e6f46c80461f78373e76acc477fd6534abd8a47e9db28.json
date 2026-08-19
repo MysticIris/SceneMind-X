@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1736.jpg",
+    "relative_path": "train/1736.jpg",
+    "sha256": "769e3560459db2e8da2e6f46c80461f78373e76acc477fd6534abd8a47e9db28",
+    "split": "train"
+  },
+  "canonical_sha256": "4679aad3a77c0a09619c2baec667c89ce308c5effa93ff1d360d65a7a71ddb99",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "书法",
+      "毛笔字",
+      "卷轴"
+    ],
+    "short_description": "一幅竖幅书法作品，以黑色墨迹书写汉字，悬挂在浅色墙壁上，底部有卷轴轴头。",
+    "theme": "书法作品"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央是一幅竖向悬挂的书法作品。",
+      "作品下方可见卷轴的轴头部分。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色墨迹",
+      "竖幅",
+      "卷轴形式"
+    ],
+    "relations": [
+      "书法作品悬挂在墙上。"
+    ],
+    "scene": "室内墙面悬挂的书法作品",
+    "subjects": [
+      "书法作品"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是一幅竖向悬挂的书法作品；作品下方可见卷轴的轴头部分。",
+    "safe_facts": [
+      "画面中央是一幅竖向悬挂的书法作品。",
+      "作品下方可见卷轴的轴头部分。"
+    ]
+  },
+  "label_id": "cpl_7ef27bbca9f5e8643e0e70e8",
+  "provenance": {
+    "generated_at": "2026-08-03T15:01:24.937331+00:00",
+    "migrated_at": "2026-08-03T15:01:24.939210+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0711f1b09b6f10e8385794ee91f0c478ceb0fca9f8d6cb33f0d8a2a62dca660c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_cffcedd860b9006d741a6f7e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:01:24.939599+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_cffcedd860b9006d741a6f7e"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "民國之門",
+      "孫治強題",
+      "一九九二年七月二十日"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "民國之門",
+      "孫治強題",
+      "一九九二年七月二十日"
+    ]
+  }
+}

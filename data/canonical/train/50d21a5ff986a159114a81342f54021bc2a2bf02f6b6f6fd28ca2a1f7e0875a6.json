@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:37.jpg",
+    "relative_path": "train/37.jpg",
+    "sha256": "50d21a5ff986a159114a81342f54021bc2a2bf02f6b6f6fd28ca2a1f7e0875a6",
+    "split": "train"
+  },
+  "canonical_sha256": "fead3839ff2e60165fff3b07be6519788c09cd870de3fa71db692ec5b522ffdb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "锦鲤",
+      "池塘",
+      "水生动物",
+      "游动"
+    ],
+    "short_description": "清澈池水中游动着大量红白相间的锦鲤，水面泛起涟漪，左下角可见木质平台边缘。",
+    "theme": "池塘锦鲤"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多个红白相间的锦鲤在水中游动。",
+      "水面呈现绿色调并有明显波纹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "游动"
+    ],
+    "attributes": [
+      "红色",
+      "白色",
+      "透明水体",
+      "水面有波纹"
+    ],
+    "relations": [
+      "锦鲤在水中游动。",
+      "锦鲤位于木质平台旁。"
+    ],
+    "scene": "户外池塘水面",
+    "subjects": [
+      "锦鲤"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个红白相间的锦鲤在水中游动；水面呈现绿色调并有明显波纹。",
+    "safe_facts": [
+      "画面中有多个红白相间的锦鲤在水中游动。",
+      "水面呈现绿色调并有明显波纹。"
+    ]
+  },
+  "label_id": "cpl_aaf5a346414164b1c4b3eb93",
+  "provenance": {
+    "generated_at": "2026-08-03T09:11:42.707158+00:00",
+    "migrated_at": "2026-08-03T09:11:42.709864+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2b6fe79c6956dfb3a9cafedc69a27bcbffecebf1fa0bf58b2834e92efb20d825",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d5b12f86d122e88f3df61cb4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:26.578780+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d5b12f86d122e88f3df61cb4",
+    "cpl_3611813463783b41e4bfbbb1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

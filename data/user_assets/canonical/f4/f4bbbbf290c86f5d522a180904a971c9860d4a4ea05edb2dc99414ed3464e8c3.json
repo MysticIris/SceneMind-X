@@ -1,0 +1,144 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_75871cc9344dece8c34cdf9c",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_9d703c49bf0c8bea68db204b"
+  ],
+  "asset": {
+    "asset_id": "f4bbbbf290c86f5d",
+    "sha256": "f4bbbbf290c86f5d522a180904a971c9860d4a4ea05edb2dc99414ed3464e8c3",
+    "split": "user_custom",
+    "relative_path": "user_assets/f4/f4bbbbf290c86f5d522a180904a971c9860d4a4ea05edb2dc99414ed3464e8c3/f4bbbbf290c86f5d522a180904a971c9860d4a4ea05edb2dc99414ed3464e8c3.jpg"
+  },
+  "display": {
+    "theme": "夜间城市街道与交通标志",
+    "short_description": "这是一张夜间拍摄的城市街道照片。画面左侧显著位置立有交通标志杆，包含限速30的圆形标志和提示前方学校减速慢行的蓝色方形指示牌。路面湿润反光，远处可见车辆尾灯和高楼灯光，右侧为人行道及金属护栏。",
+    "micro_tags": [
+      "夜间街景",
+      "交通标志",
+      "限速30",
+      "学校路段",
+      "城市夜景",
+      "湿滑路面"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "夜间城市道路",
+    "subjects": [
+      "交通标志牌",
+      "路灯",
+      "机动车",
+      "高层建筑",
+      "人行道护栏"
+    ],
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "人工照明",
+      "路面反光",
+      "红白配色标志",
+      "蓝底白字标志"
+    ],
+    "relations": [
+      "标志牌位于道路左侧。",
+      "车辆位于道路远端。",
+      "护栏分隔人行道与车行道。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "画面左侧有一根金属杆，上方悬挂红圈白底黑字的圆形限速标志，下方为蓝底白字的矩形指示牌及黄色三角形警告标志。",
+      "沥青路面呈现潮湿状态，反射着路灯和远处车辆的红色尾灯光芒。",
+      "背景中有数栋高层建筑，窗户透出灯光，天空呈深灰色。",
+      "右侧人行道边缘设有黑色金属隔离护栏。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法确定具体的拍摄时间和地理位置。",
+      "远处车辆的具体型号和数量因距离和光线原因难以辨认。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "30",
+      "前方学校",
+      "减速慢行"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "30",
+      "前方学校",
+      "减速慢行"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "画面左侧有一根金属杆，上方悬挂红圈白底黑字的圆形限速标志，下方为蓝底白字的矩形指示牌及黄色三角形警告标志；沥青路面呈现潮湿状态，反射着路灯和远处车辆的红色尾灯光芒。",
+    "safe_facts": [
+      "画面左侧有一根金属杆，上方悬挂红圈白底黑字的圆形限速标志，下方为蓝底白字的矩形指示牌及黄色三角形警告标志。",
+      "沥青路面呈现潮湿状态，反射着路灯和远处车辆的红色尾灯光芒。",
+      "背景中有数栋高层建筑，窗户透出灯光，天空呈深灰色。"
+    ],
+    "do_not_assert": [
+      "无法确定具体的拍摄时间和地理位置。",
+      "远处车辆的具体型号和数量因距离和光线原因难以辨认。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_ee51ff6b-04ce-4399-9a87-aea628069cc5",
+    "generated_at": "2026-08-12T03:01:40.373363+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "0b5957bb5f2e2f2f454d06b51be7d4f6c296c861a74a7b513b59c490d77c1d8d",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:01:40.374139+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_9d703c49bf0c8bea68db204b",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:01:40.374494+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "fe1baa9d3fbc5df4f2fa81ee37b5f3890ca3e64857e5836452d7225bba6bca15"
+}

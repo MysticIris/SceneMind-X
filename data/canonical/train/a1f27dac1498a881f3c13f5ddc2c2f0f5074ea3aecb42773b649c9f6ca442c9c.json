@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:676.jpg",
+    "relative_path": "train/676.jpg",
+    "sha256": "a1f27dac1498a881f3c13f5ddc2c2f0f5074ea3aecb42773b649c9f6ca442c9c",
+    "split": "train"
+  },
+  "canonical_sha256": "030faf1ecff7e0dbe58a9768f50ed9ca5cc8c98e0f00236ec0d4944890df32a9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电子白板",
+      "移动白板",
+      "红木门",
+      "教室"
+    ],
+    "short_description": "一间教室内的大型电子白板，旁边有移动白板和一扇红木门，地面铺有灰色地毯。",
+    "theme": "教室电子白板"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面左侧有一块大型黑色边框电子白板。",
+      "画面右侧有一块白色移动白板，带轮子。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "电子白板为黑色边框",
+      "移动白板为白色板面",
+      "门为红棕色木质",
+      "地面为灰色地毯"
+    ],
+    "relations": [
+      "电子白板安装在墙面上。",
+      "移动白板位于电子白板右侧。",
+      "门位于房间右侧。"
+    ],
+    "scene": "室内教室环境",
+    "subjects": [
+      "电子白板",
+      "移动白板",
+      "门"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面左侧有一块大型黑色边框电子白板；画面右侧有一块白色移动白板，带轮子。",
+    "safe_facts": [
+      "画面左侧有一块大型黑色边框电子白板。",
+      "画面右侧有一块白色移动白板，带轮子。"
+    ]
+  },
+  "label_id": "cpl_715c161e3a2c09510c8d27fb",
+  "provenance": {
+    "generated_at": "2026-08-03T11:58:02.122860+00:00",
+    "migrated_at": "2026-08-03T11:58:02.126321+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c64b9045acd2c2013f258d03f12ac330939f2a791c7ef753c845c3b0981f8477",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_29d56367fd6a4523f3e7d89a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:58:02.126673+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_29d56367fd6a4523f3e7d89a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

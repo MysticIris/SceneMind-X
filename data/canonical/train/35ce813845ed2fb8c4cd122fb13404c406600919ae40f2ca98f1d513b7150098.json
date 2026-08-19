@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:83.jpg",
+    "relative_path": "train/83.jpg",
+    "sha256": "35ce813845ed2fb8c4cd122fb13404c406600919ae40f2ca98f1d513b7150098",
+    "split": "train"
+  },
+  "canonical_sha256": "a69b4a9df8341372a91f9c44f014cf0290ec23a97ef93919e16c5e86a17ec344",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "小兔子",
+      "浅棕色",
+      "笼子",
+      "耳朵竖起"
+    ],
+    "short_description": "一只浅棕色的小兔子坐在黑色容器里，头顶上方有一个圆形透明盖子，背景有绿色植物图案。",
+    "theme": "小兔子在笼内"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "兔子身体呈浅棕色，耳朵向上竖起。",
+      "兔子位于黑色容器内，容器顶部有圆形透明盖子。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "浅棕色毛发",
+      "耳朵竖立",
+      "前爪可见"
+    ],
+    "relations": [
+      "小兔子位于容器内。"
+    ],
+    "scene": "室内容器环境",
+    "subjects": [
+      "一只小兔子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "兔子身体呈浅棕色，耳朵向上竖起；兔子位于黑色容器内，容器顶部有圆形透明盖子。",
+    "safe_facts": [
+      "兔子身体呈浅棕色，耳朵向上竖起。",
+      "兔子位于黑色容器内，容器顶部有圆形透明盖子。"
+    ]
+  },
+  "label_id": "cpl_c693e5810c94df2a161aa459",
+  "provenance": {
+    "generated_at": "2026-08-03T09:22:01.303663+00:00",
+    "migrated_at": "2026-08-03T09:22:01.305456+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2486ec96ffad7386e70bdb8843deaf666e92da353099cc6678b03b872a63e586",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_45d6be2247e2c073f12ef5bb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:28.560481+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_45d6be2247e2c073f12ef5bb",
+    "cpl_ad98f637ccdb37797a3a871c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

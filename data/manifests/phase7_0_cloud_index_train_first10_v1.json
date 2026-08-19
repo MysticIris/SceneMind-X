@@ -1,0 +1,30 @@
+{
+  "assets": [],
+  "blind_count": 0,
+  "dimension": 2560,
+  "failure": null,
+  "frozen_first10_count": 0,
+  "index": {
+    "base_items": 0,
+    "index_path": "data/indexes/cloud/bailian_qwen3_vl_embedding_2560/faiss/index.faiss",
+    "index_version": "e1-product-b9ed0cb10580",
+    "items": 88,
+    "status": "public_assets_only",
+    "user_items": 88
+  },
+  "index_identity_sha256": "ced4bef755179dfdea5d56e73bd51021f96c4ccfcdd56a7ded36a515cb630626",
+  "index_schema_version": "v1",
+  "metric": "inner_product",
+  "model_id": "qwen3-vl-embedding",
+  "normalization": "l2",
+  "preprocess_version": "scenemindx_cloud_image_v1",
+  "provider": "bailian",
+  "region": "cn-beijing",
+  "requested_base_count": 0,
+  "schema_version": "phase7_0_cloud_index_train_first10_v1",
+  "test_count": 0,
+  "train_count": 0,
+  "updated_at": "2026-08-19T13:59:45.428863+08:00",
+  "val_count": 0,
+  "vector_mode": "independent"
+}

@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2223.jpg",
+    "relative_path": "val/2223.jpg",
+    "sha256": "b1296dc66a876abe488ce5051d239c5df337715388f5d9215d07590eec29ca3f",
+    "split": "val"
+  },
+  "canonical_sha256": "36d3aaf5c48f4605883e602f7ec957711ca66eb486ab80ea8221fdef43e3d3b8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "大学课堂",
+      "幽默角色"
+    ],
+    "short_description": "屏幕右侧有两幅彩色插画，描绘古代人物场景。",
+    "theme": "中国古典文学讨论"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕右侧有两幅彩色插画，描绘古代人物场景。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "教室内的投影屏幕",
+    "subjects": [
+      "屏幕右侧的插画"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕右侧有两幅彩色插画，描绘古代人物场景。",
+    "safe_facts": [
+      "屏幕右侧有两幅彩色插画，描绘古代人物场景。"
+    ]
+  },
+  "label_id": "cpl_febb39a2a00526d9e6e51cb9",
+  "provenance": {
+    "generated_at": "2026-08-03T16:14:44.138818+00:00",
+    "migrated_at": "2026-08-03T16:14:44.140410+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e3e11194f1791e23e5ca3bf593cca18dc26f9c9c5a8d7f11bc18c390a0dd94d5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_616b50e0f085e891afc20b2b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:14:44.140829+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_616b50e0f085e891afc20b2b"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "12、谈谈中国古代“四大名著”之一中的逻辑与幽默。试评选:梁山好汉、唐僧师徒、三",
+      "华中科技大学",
+      "逻辑与幽默",
+      "ThreeStars"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "12、谈谈中国古代“四大名著”之一中的逻辑与幽默。试评选:梁山好汉、唐僧师徒、三",
+      "华中科技大学",
+      "逻辑与幽默",
+      "ThreeStars"
+    ]
+  }
+}

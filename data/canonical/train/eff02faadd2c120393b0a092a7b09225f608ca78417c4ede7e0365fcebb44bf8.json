@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1114.jpg",
+    "relative_path": "train/1114.jpg",
+    "sha256": "eff02faadd2c120393b0a092a7b09225f608ca78417c4ede7e0365fcebb44bf8",
+    "split": "train"
+  },
+  "canonical_sha256": "feafd2d514163fc6968c435a1aba442251f345fe0a76e46607946c7c9e8fe251",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红色鼓",
+      "博物馆展品"
+    ],
+    "short_description": "博物馆展柜中陈列的红色鼓形复制品，两侧有黑色铆钉装饰，底部带悬挂结构。",
+    "theme": "红色鼓形文物"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "物体呈圆柱形，主体为红色，两端为黑色并带有铆钉状凸起。",
+      "物体被白色支架支撑，置于白色展台之上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色",
+      "黑色铆钉",
+      "悬挂结构",
+      "玻璃展柜"
+    ],
+    "relations": [
+      "文物被放置于展柜内。"
+    ],
+    "scene": "室内展览环境",
+    "subjects": [
+      "鼓形文物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "物体呈圆柱形，主体为红色，两端为黑色并带有铆钉状凸起；物体被白色支架支撑，置于白色展台之上。",
+    "safe_facts": [
+      "物体呈圆柱形，主体为红色，两端为黑色并带有铆钉状凸起。",
+      "物体被白色支架支撑，置于白色展台之上。"
+    ]
+  },
+  "label_id": "cpl_323e85feb9a73780dddc88a9",
+  "provenance": {
+    "generated_at": "2026-08-03T13:38:32.752055+00:00",
+    "migrated_at": "2026-08-03T13:38:32.759208+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "66c1963272349c73283978e5817c9dd470817f2e2fd05f82261a510c3c64669f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f6d818022ca5791828061c42",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:38:32.759975+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f6d818022ca5791828061c42"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "有柄鼓(复制品)",
+      "Handled drum (replica)"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "有柄鼓(复制品)",
+      "Handled drum (replica)"
+    ]
+  }
+}

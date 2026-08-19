@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1005.jpg",
+    "relative_path": "train/1005.jpg",
+    "sha256": "aef9678b085f12d84844af5e20ba5742e61d6b80874fa554c33b4afcad5449ca",
+    "split": "train"
+  },
+  "canonical_sha256": "04d9d61f5ad5bb15649cc84b8836c6ce7d6ccc5ffa9afd57f43a32f67038ba3a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红砖墙",
+      "砖缝",
+      "灰浆",
+      "风化"
+    ],
+    "short_description": "一面由红砖砌成的旧墙，砖缝间填充着灰白色砂浆，部分砖块表面有风化痕迹。",
+    "theme": "红砖墙纹理"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "墙面可能经过多次修补或老化。"
+    ],
+    "direct_observations": [
+      "砖块呈红褐色，大小和形状基本一致。",
+      "砖块之间填充着灰白色的砂浆。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红褐色",
+      "灰白色砂浆",
+      "风化痕迹",
+      "规则排列"
+    ],
+    "relations": [
+      "砖块通过砂浆连接。"
+    ],
+    "scene": "砖墙",
+    "subjects": [
+      "砖块",
+      "砂浆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "墙面可能经过多次修补或老化。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "砖块呈红褐色，大小和形状基本一致；砖块之间填充着灰白色的砂浆。",
+    "safe_facts": [
+      "砖块呈红褐色，大小和形状基本一致。",
+      "砖块之间填充着灰白色的砂浆。"
+    ]
+  },
+  "label_id": "cpl_5fef061af5e097298b852788",
+  "provenance": {
+    "generated_at": "2026-08-03T13:22:29.060161+00:00",
+    "migrated_at": "2026-08-03T13:22:29.062955+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bac2911eaa4e19f5809818cb28f5650ece5ac1395d4b8a636c5634cc6002773a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6fbbd09ed5156e1bbdb6875c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:29.063319+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6fbbd09ed5156e1bbdb6875c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

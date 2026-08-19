@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1957.jpg",
+    "relative_path": "train/1957.jpg",
+    "sha256": "9c9adaf7b477bec7757a7525d2b078ecf0cde6449ec52ffdde56fb4259ac396e",
+    "split": "train"
+  },
+  "canonical_sha256": "e10f56608df0145c617c15f9d16a061d2e18bd9fbb5f1dba0f7e9a5fbd6ed2f3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市天际线",
+      "飞机航迹",
+      "混凝土护栏"
+    ],
+    "short_description": "灰蒙天空下，城市高楼林立，桥梁横跨远方，空中划过两道飞机航迹。",
+    "theme": "城市天际线与航迹"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "航迹可能是飞机飞行留下的水汽凝结痕迹。"
+    ],
+    "direct_observations": [
+      "天空中有两条明显的白色航迹。",
+      "前景为带有拱形开口的灰色混凝土护栏。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灰白色天空",
+      "多云",
+      "现代建筑",
+      "红色桥塔"
+    ],
+    "relations": [
+      "高楼位于桥梁后方。",
+      "护栏在前景。",
+      "航迹贯穿天空。"
+    ],
+    "scene": "城市远景",
+    "subjects": [
+      "高楼建筑群",
+      "桥梁",
+      "混凝土护栏",
+      "飞机航迹"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "航迹可能是飞机飞行留下的水汽凝结痕迹。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空中有两条明显的白色航迹；前景为带有拱形开口的灰色混凝土护栏。",
+    "safe_facts": [
+      "天空中有两条明显的白色航迹。",
+      "前景为带有拱形开口的灰色混凝土护栏。"
+    ]
+  },
+  "label_id": "cpl_7b838ad6220a04483a350aba",
+  "provenance": {
+    "generated_at": "2026-08-03T15:26:37.182033+00:00",
+    "migrated_at": "2026-08-03T15:26:37.183480+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "abd556883aaf4ab40e668576fd2728b2a132813d9ece88401d71e037acd4beb1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3f6f902d7732c122da3384f7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:26:37.183682+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3f6f902d7732c122da3384f7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

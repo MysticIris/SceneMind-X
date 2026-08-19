@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1386.jpg",
+    "relative_path": "train/1386.jpg",
+    "sha256": "536b95b2a31275202f9e2d1e67b6b324da8b940972c5cf5f176cf7d76cef0b0f",
+    "split": "train"
+  },
+  "canonical_sha256": "682c4f1ca03ba2dd04406f3b7b839def884aab682fbeeb40b250ec10d0bdde3b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑白猫",
+      "困惑表情",
+      "室内场景"
+    ],
+    "short_description": "一只黑白猫正注视着镜头，表情显得困惑。",
+    "theme": "黑白猫疑惑表情"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "猫的毛发以白色为主，头部有黑色斑块。",
+      "猫的眼睛圆睁，嘴巴微张，呈现惊讶或困惑姿态。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑白毛色",
+      "睁大眼睛",
+      "直视前方"
+    ],
+    "relations": [],
+    "scene": "室内环境",
+    "subjects": [
+      "一只猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "猫的毛发以白色为主，头部有黑色斑块；猫的眼睛圆睁，嘴巴微张，呈现惊讶或困惑姿态。",
+    "safe_facts": [
+      "猫的毛发以白色为主，头部有黑色斑块。",
+      "猫的眼睛圆睁，嘴巴微张，呈现惊讶或困惑姿态。"
+    ]
+  },
+  "label_id": "cpl_34a9f6b325cdcbc0cb19c334",
+  "provenance": {
+    "generated_at": "2026-08-03T14:15:59.770474+00:00",
+    "migrated_at": "2026-08-03T14:15:59.774549+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "de784ed0e66a070a188d1fff04d5b8f13c1655cafea884e3225ed87913329b6a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_95af3c8f0e7f5cae39d888b5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:15:59.774933+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_95af3c8f0e7f5cae39d888b5"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "啊?"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "啊?"
+    ]
+  }
+}

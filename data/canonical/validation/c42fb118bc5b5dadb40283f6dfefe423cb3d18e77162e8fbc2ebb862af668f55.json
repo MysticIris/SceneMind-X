@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2161.jpg",
+    "relative_path": "val/2161.jpg",
+    "sha256": "c42fb118bc5b5dadb40283f6dfefe423cb3d18e77162e8fbc2ebb862af668f55",
+    "split": "val"
+  },
+  "canonical_sha256": "5453ab78e4ac17600276bfb7460c0806faedf04375fb50accb23610edc83982f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "示波器",
+      "波形曲线",
+      "电子测量设备"
+    ],
+    "short_description": "一台示波器显示两条绿色波形曲线，背景为蓝色网格，设备上有多个旋钮和按钮。",
+    "theme": "示波器测量曲线"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "示波器屏幕上显示两条绿色曲线。",
+      "设备正面有多个旋钮和按钮，部分指示灯亮起。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "屏幕显示波形",
+      "设备有多个控制旋钮",
+      "屏幕亮着"
+    ],
+    "relations": [],
+    "scene": "实验室或工作台环境",
+    "subjects": [
+      "示波器",
+      "两个人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "示波器屏幕上显示两条绿色曲线；设备正面有多个旋钮和按钮，部分指示灯亮起。",
+    "safe_facts": [
+      "示波器屏幕上显示两条绿色曲线。",
+      "设备正面有多个旋钮和按钮，部分指示灯亮起。"
+    ]
+  },
+  "label_id": "cpl_2c231355f90783c341b6f73e",
+  "provenance": {
+    "generated_at": "2026-08-03T16:06:49.797758+00:00",
+    "migrated_at": "2026-08-03T16:06:49.799806+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "99c8d479046e663c13d1062efad6fc37eebb5087bf007b86391ae7b2d57a90e3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_038e3859b56e95ba71e08d05",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:06:49.800387+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_038e3859b56e95ba71e08d05"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "SG4320A",
+      "20MHz",
+      "OSCILLOSCOPE",
+      "HORIZONTAL",
+      "TRIGGER",
+      "CH1"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "SG4320A",
+      "20MHz",
+      "OSCILLOSCOPE",
+      "HORIZONTAL",
+      "TRIGGER",
+      "CH1"
+    ]
+  }
+}

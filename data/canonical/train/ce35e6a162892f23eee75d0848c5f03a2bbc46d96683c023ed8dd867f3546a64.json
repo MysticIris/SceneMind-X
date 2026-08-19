@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1273.jpg",
+    "relative_path": "train/1273.jpg",
+    "sha256": "ce35e6a162892f23eee75d0848c5f03a2bbc46d96683c023ed8dd867f3546a64",
+    "split": "train"
+  },
+  "canonical_sha256": "54654364bc600aef3b2457ac1649def6a11d25836c4861804380e262cd8917a1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "建筑群",
+      "夜间照明",
+      "自行车停放区"
+    ],
+    "short_description": "黄昏时分，一栋多层建筑灯火通明，前方广场停放着大量自行车，道路旁路灯亮起。",
+    "theme": "校园夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑物有多层窗户且内部灯光亮起。",
+      "广场区域密集停放着大量自行车。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "多层",
+      "灯光亮起",
+      "广场开阔"
+    ],
+    "relations": [
+      "自行车停放在广场上。",
+      "路灯位于道路旁。"
+    ],
+    "scene": "校园或机构建筑群前广场",
+    "subjects": [
+      "建筑物",
+      "自行车",
+      "路灯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑物有多层窗户且内部灯光亮起；广场区域密集停放着大量自行车。",
+    "safe_facts": [
+      "建筑物有多层窗户且内部灯光亮起。",
+      "广场区域密集停放着大量自行车。"
+    ]
+  },
+  "label_id": "cpl_bec1dc7d5339d406a43fc129",
+  "provenance": {
+    "generated_at": "2026-08-03T14:04:08.505279+00:00",
+    "migrated_at": "2026-08-03T14:04:08.513488+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b675922f981bb3a2f3333816d9cdfa44b47a6ec6db3df7c31c4163180589978e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4e0e0748e5b97d3650de9997",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:04:08.516882+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4e0e0748e5b97d3650de9997"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

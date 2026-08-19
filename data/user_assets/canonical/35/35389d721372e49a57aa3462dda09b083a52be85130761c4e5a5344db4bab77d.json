@@ -1,0 +1,140 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_27f2d3b87eec776fbf923cb2",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_d7ff7d7d59b521a417edf10b"
+  ],
+  "asset": {
+    "asset_id": "35389d721372e49a",
+    "sha256": "35389d721372e49a57aa3462dda09b083a52be85130761c4e5a5344db4bab77d",
+    "split": "user_custom",
+    "relative_path": "user_assets/35/35389d721372e49a57aa3462dda09b083a52be85130761c4e5a5344db4bab77d/35389d721372e49a57aa3462dda09b083a52be85130761c4e5a5344db4bab77d.jpg"
+  },
+  "display": {
+    "theme": "手持瓶装果冻饮料",
+    "short_description": "一只手在室内木质桌面上方握着一瓶透明塑料包装的饮料。",
+    "micro_tags": [
+      "手持饮料",
+      "瓶装果冻",
+      "冰红茶味",
+      "夏日饮品",
+      "零食特写"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "室内桌面环境",
+    "subjects": [
+      "人手",
+      "塑料瓶装饮料"
+    ],
+    "actions": [
+      "手握持瓶身"
+    ],
+    "attributes": [
+      "黄色瓶盖",
+      "透明瓶身",
+      "彩色标签",
+      "橙红色底部内容物"
+    ],
+    "relations": [
+      "手位于瓶子左侧及后方。",
+      "瓶子位于画面中心前景。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "一只左手握住一个透明塑料瓶的中上部。",
+      "瓶内底部填充有橙红色的半透明胶状物质。",
+      "瓶身贴有包含蓝色、黄色和橙色几何图形的标签。",
+      "背景为浅棕色木纹桌面及模糊的白色物体。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "康师傅",
+      "冰红茶",
+      "冻冻茶",
+      "痛快Dong起来",
+      "冰红茶味果冻",
+      "净含量:450g"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "康师傅",
+      "冰红茶",
+      "冻冻茶",
+      "痛快Dong起来",
+      "冰红茶味果冻",
+      "净含量:450g"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "一只左手握住一个透明塑料瓶的中上部；瓶内底部填充有橙红色的半透明胶状物质。",
+    "safe_facts": [
+      "一只左手握住一个透明塑料瓶的中上部。",
+      "瓶内底部填充有橙红色的半透明胶状物质。",
+      "瓶身贴有包含蓝色、黄色和橙色几何图形的标签。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_24a077c2-3979-4583-8b4b-9f89278a4093",
+    "generated_at": "2026-08-12T03:12:26.048158+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "0b2c3f6f72a8211a990d28f0bf863dd3982aa01a843cd4f140f9b5f62756b08a",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:12:26.048880+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_d7ff7d7d59b521a417edf10b",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:12:26.049167+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "569b3fa861500f288966455acdfca3f90f64539a13b66725137692d5663e8316"
+}

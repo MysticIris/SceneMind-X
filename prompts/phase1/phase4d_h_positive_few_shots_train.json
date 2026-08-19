@@ -1,0 +1,116 @@
+{
+  "schema_version": "phase4d_h_positive_few_shots_train_v1",
+  "review_label": "machine_provisional",
+  "review_method": "codex_manual_visual_review",
+  "human_confirmed": false,
+  "split": "train",
+  "fixed32_overlap": 0,
+  "selection_rule": "Train Prompt-dev only; selected and visually reviewed before fixed-32 candidate generation; positive examples only",
+  "examples": [
+    {
+      "image_id": "course_v1:train:1524.jpg",
+      "image_sha256": "a0a14fe3dfb239f958cb999ed0020212472ea52e621468f8ee5e2afd0468147b",
+      "selection_slice": "ordinary_real_photo",
+      "route": "photo",
+      "review_basis": "近景粉色花朵、枝条、花苞与公园草地均清晰可见；不猜测拍摄地点或花木品种",
+      "example_input": {
+        "positive_core_facts": ["粉色花朵近景", "多根枝条上同时分布开放花朵和花苞", "背景为虚化的树木与草地"],
+        "verified_text": [],
+        "length_tier": "compact"
+      },
+      "example_output": "近景中的深色枝条上开满粉色花朵，成簇花瓣与浅黄色花蕊清晰可见，周围还分布着许多尚未开放的花苞。枝条从不同方向穿过画面，前后花朵因景深形成清楚的层次。背景是略微虚化的树木、围栏和绿色草地，使主体更加突出。阳光照亮部分花瓣，呈现明快自然的春日景象。"
+    },
+    {
+      "image_id": "course_v1:train:1831.jpg",
+      "image_sha256": "511c9e071756f11ff23eb5b37e04c09afb0f3d9d8790ecb6717a8e8048cc660c",
+      "selection_slice": "people_and_activity",
+      "route": "photo",
+      "review_basis": "户外服装展销、帐篷摊位、服装架、游客与大屏关系可见；不展开无法可靠转录的展牌文字",
+      "example_input": {
+        "positive_core_facts": ["户外服装展销活动", "多名游客在帐篷摊位间浏览", "两侧摆放服装架和模特", "中央上方设有活动大屏"],
+        "verified_text": [],
+        "length_tier": "standard"
+      },
+      "example_output": "户外场地里搭起多排白色帐篷，形成一处服装展销区域。两侧摊位摆放着成排服装和穿着传统服饰的模特，几名游客站在通道与展台前浏览交流。中央摊位上方架设大型屏幕，正在播放活动画面，周围还有展板、绿植和小型陈列台。开阔的通道把各个摊位连接起来，呈现出有组织的临时市集或展会场景。"
+    },
+    {
+      "image_id": "course_v1:train:1523.jpg",
+      "image_sha256": "7cdd7bd55e68a3ad495b31e26dcc73043d302165b86cb2a7a4ebe9bcc2b1236e",
+      "selection_slice": "complex_scene",
+      "route": "photo",
+      "review_basis": "玻璃展柜内积木式中式楼阁、平台、人物与树木构成复杂展示；载体与模型内部内容严格区分",
+      "example_input": {
+        "positive_core_facts": ["玻璃展柜中的积木建筑模型", "多层中式楼阁位于后方中央", "前方平台分布树木、小人和圆形庭院", "玻璃表面可见环境反射"],
+        "verified_text": [],
+        "length_tier": "rich"
+      },
+      "example_output": "玻璃展柜中陈列着一组大型积木建筑模型，后方中央是一座红褐色多层中式楼阁，层层飞檐和屋顶结构十分醒目。楼阁前方铺设宽阔平台，中央圆形区域布置绿色植物和深色雕塑，四周分散着许多积木小人。平台两侧还有小型亭阁与树木，台阶和栏杆把前后空间连接起来。展柜玻璃映出周围顾客与商店陈设，说明这是一件室内展示品，而非现实建筑现场。"
+    },
+    {
+      "image_id": "course_v1:train:1854.jpg",
+      "image_sha256": "c810412ab6f6855f0e2e89891787654b27569e2d0eaf71f1ef845b26d3f73b12",
+      "selection_slice": "presentation_or_courseware",
+      "route": "text_rich",
+      "review_basis": "电子白板载体、手写分区与四个英文词可见；仅转录清晰主词，不解释课程外部背景",
+      "example_input": {
+        "positive_core_facts": ["教室电子白板", "白板上有手写分区和连线", "底部显示书写工具栏"],
+        "verified_text": [{"text": "structure", "evidence_id": "fs1854-t1"}, {"text": "language", "evidence_id": "fs1854-t2"}, {"text": "feature", "evidence_id": "fs1854-t3"}, {"text": "stand out", "evidence_id": "fs1854-t4"}],
+        "length_tier": "rich"
+      },
+      "example_output": "画面主体是一块教室电子白板，深色书写区域上用白色笔迹画出分区和连线。左侧依次写有“structure”“language”和“feature”，其中“language”被横线强调，“feature”下方还带有指向标记；右侧写着“stand out”。白板底部保留了画笔、橡皮、撤销等操作工具，右下角显示当前为第三页。整张图记录的是课堂板书或概念梳理过程，文字与图形共同表达几个要点之间的层级关系。"
+    },
+    {
+      "image_id": "course_v1:train:1353.jpg",
+      "image_sha256": "3d2307dac836e56b47a9b426777cef4edb34c7f266f943bc471356c90554e330",
+      "selection_slice": "product_or_packaging",
+      "route": "text_rich",
+      "review_basis": "绿色益达口香糖包装位于盒面，品牌、口味、品类、片数和净含量清晰；忽略模糊小字与编号",
+      "example_input": {
+        "positive_core_facts": ["绿色口香糖包装盒放在白色纸盒上", "包装正面有薄荷叶图案", "背景是电脑键盘"],
+        "verified_text": [{"text": "益达", "evidence_id": "fs1353-t1"}, {"text": "沁凉薄荷味", "evidence_id": "fs1353-t2"}, {"text": "无糖口香糖", "evidence_id": "fs1353-t3"}, {"text": "12片装", "evidence_id": "fs1353-t4"}, {"text": "净含量32克", "evidence_id": "fs1353-t5"}],
+        "length_tier": "rich"
+      },
+      "example_output": "画面中央是一盒绿色益达口香糖，包装放在白色纸盒上，后方可见虚化的电脑键盘。正面以“益达”品牌字样和薄荷叶图案为视觉中心，右下标注“沁凉薄荷味”“无糖口香糖”，左下写有“12片装”和“净含量32克”。绿色主色与薄荷图案共同突出清凉口味，包装的品牌、品类和规格信息层次清楚。画面重点是桌面上的商品包装，而不是包装图案中的现实场景。"
+    },
+    {
+      "image_id": "course_v1:train:360.jpg",
+      "image_sha256": "f7ac5811a270740de644af41ae8ad2fc8429aef29088cbf5a35d6e7aca4f0c8b",
+      "selection_slice": "chart_or_infographic",
+      "route": "text_rich",
+      "review_basis": "课程体系图以多色方框和连线展示先后关系；抽取主要课程组和学期轴，不机械转录全部节点",
+      "example_input": {
+        "positive_core_facts": ["课程体系结构图", "多色课程方框由连线连接", "底部以六个学期标示时间顺序"],
+        "verified_text": [{"text": "线性代数", "evidence_id": "fs360-t1"}, {"text": "微积分（一）", "evidence_id": "fs360-t2"}, {"text": "概率论与数理统计", "evidence_id": "fs360-t3"}, {"text": "机器学习导论", "evidence_id": "fs360-t4"}, {"text": "自然语言处理", "evidence_id": "fs360-t5"}, {"text": "第一学期至第六学期", "evidence_id": "fs360-t6"}],
+        "length_tier": "rich"
+      },
+      "example_output": "这是一张课程体系结构图，不同颜色的方框按层级排列，并用细线表示课程之间的前置或关联关系。上方从“线性代数”“微积分（一）”等基础课程开始，中部连接“概率论与数理统计”“机器学习导论”等核心内容，下方进一步延伸到“自然语言处理”等方向课程。底部以第一学期至第六学期标出学习进度，使课程类别、依赖关系和时间安排能够同时被查看。图表强调的是培养方案的整体路径，而非单一课程说明。"
+    },
+    {
+      "image_id": "course_v1:train:1705.jpg",
+      "image_sha256": "2caf059000bcdfe8e941b68c61c2c1046d9aec4b905b799ecf2e2276340d6a5e",
+      "selection_slice": "meme_or_reaction",
+      "route": "meme_screenshot",
+      "review_basis": "低分辨率白色小狗头像与“不乐”两字清晰，图文共同表达不高兴情绪",
+      "example_input": {
+        "positive_core_facts": ["白色小狗的近距离头像", "画面分辨率较低"],
+        "verified_text": [{"text": "不乐", "evidence_id": "fs1705-t1"}],
+        "length_tier": "compact"
+      },
+      "example_output": "画面是一张低分辨率的白色小狗表情图，小狗的脸占据主体，五官因模糊而显得简化。中间叠加白色文字“不乐”，直接点明不开心或提不起兴致的情绪。小狗略显呆滞的神态与简短文字相互配合，形成直白、轻松的反应式表达。"
+    },
+    {
+      "image_id": "course_v1:train:452.jpg",
+      "image_sha256": "eee03efaf6c04f132af3f16e989f6c6d61ac5fdfe0f0cd1db5340484134bd5f0",
+      "selection_slice": "complex_scene",
+      "route": "meme_screenshot",
+      "review_basis": "动漫视频截图中女孩正面特写、夜景背景和底部字幕清晰；只描述画面内表达，不推测剧情与人物外部身份",
+      "example_input": {
+        "positive_core_facts": ["动漫视频截图", "黑发女孩正面微笑", "背景为夜晚的蓝色天空与栏杆"],
+        "verified_text": [{"text": "比企谷同学 我喜欢你", "evidence_id": "fs452-t1"}],
+        "length_tier": "standard"
+      },
+      "example_output": "这是一帧动漫视频截图，一名黑发女孩以正面近景出现在画面中央，脸颊微红并带着轻微笑意。她身后是深蓝色夜空和横向栏杆，冷色背景使人物表情更加突出。底部字幕写着“比企谷同学 我喜欢你”，与女孩的神态共同表达直接告白的情绪。画面只呈现这一瞬间的角色反应与台词，没有提供更完整的剧情背景。"
+    }
+  ]
+}
+

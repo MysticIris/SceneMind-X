@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:252.jpg",
+    "relative_path": "train/252.jpg",
+    "sha256": "c23d76a078bce1f237feaa88abc31bf2be73ac883fafc2f53d7d02d0d4339af2",
+    "split": "train"
+  },
+  "canonical_sha256": "9bdc54c60710ee4d10ecd55cde93f62e49ca91ebb0727e39ad5507f0d8e7a27d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "购物中心",
+      "自动扶梯",
+      "霓虹灯牌"
+    ],
+    "short_description": "夜晚城市购物中心外立面，多层楼体灯光璀璨，广告牌林立，前景有自动扶梯。",
+    "theme": "城市夜景购物中心"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现多层商业建筑，外墙布满发光广告牌。",
+      "前景有金属扶手的自动扶梯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间照明",
+      "多层结构",
+      "玻璃幕墙"
+    ],
+    "relations": [
+      "自动扶梯位于商场前方。",
+      "广告牌附着于建筑外墙。"
+    ],
+    "scene": "城市商业建筑外部夜景",
+    "subjects": [
+      "商场建筑",
+      "自动扶梯",
+      "广告牌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现多层商业建筑，外墙布满发光广告牌；前景有金属扶手的自动扶梯。",
+    "safe_facts": [
+      "画面呈现多层商业建筑，外墙布满发光广告牌。",
+      "前景有金属扶手的自动扶梯。"
+    ]
+  },
+  "label_id": "cpl_beba0375f66023eb3a1ac8ef",
+  "provenance": {
+    "generated_at": "2026-08-03T10:25:19.906066+00:00",
+    "migrated_at": "2026-08-03T10:25:19.908807+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a90ddbf46a14340bca5785131ee6854df1328cbaa13e0ce9968463c79ae5bd25",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_34a09f34761492058339d3d6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:25:19.909052+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_34a09f34761492058339d3d6"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

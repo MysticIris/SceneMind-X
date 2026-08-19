@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1078.jpg",
+    "relative_path": "train/1078.jpg",
+    "sha256": "2610edf077fa9bac237b68aaf25d0eb76ebf74d9611e33180864e327193d64de",
+    "split": "train"
+  },
+  "canonical_sha256": "46e5c716b7f48de42b807198378811de1f9f69c443efae1a1246b82afa99c6f8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "公园",
+      "树影",
+      "步道"
+    ],
+    "short_description": "夜晚公园里，树木被灯光照亮，小径蜿蜒穿过绿植，远处有模糊的人影和建筑轮廓。",
+    "theme": "夜景公园小径"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "远处建筑轮廓模糊，可能为城市高楼。"
+    ],
+    "direct_observations": [
+      "多棵高大树木枝叶繁茂，树干粗壮，部分树干被灯光照射呈亮黄色。",
+      "步道由红褐色材料铺成，两侧有低矮灌木丛，地面有嵌入式照明灯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "被灯光照亮",
+      "绿色树叶",
+      "红色步道",
+      "低矮灌木"
+    ],
+    "relations": [
+      "树木位于步道两侧。",
+      "灌木丛沿步道分布。",
+      "路灯照亮树木和步道。"
+    ],
+    "scene": "城市公园夜间景观",
+    "subjects": [
+      "树木",
+      "灌木丛",
+      "步道",
+      "路灯",
+      "远处建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "远处建筑轮廓模糊，可能为城市高楼。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多棵高大树木枝叶繁茂，树干粗壮，部分树干被灯光照射呈亮黄色；步道由红褐色材料铺成，两侧有低矮灌木丛，地面有嵌入式照明灯。",
+    "safe_facts": [
+      "多棵高大树木枝叶繁茂，树干粗壮，部分树干被灯光照射呈亮黄色。",
+      "步道由红褐色材料铺成，两侧有低矮灌木丛，地面有嵌入式照明灯。"
+    ]
+  },
+  "label_id": "cpl_a1d06143869562b5df7249c6",
+  "provenance": {
+    "generated_at": "2026-08-03T13:32:36.925385+00:00",
+    "migrated_at": "2026-08-03T13:32:36.933027+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a9a5820bc05edfaa670cad07dc9299acf83e5a64c78401c4f25d8bbb7b286b6e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8aab7131e458ccd09eed0d74",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:32:36.933431+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8aab7131e458ccd09eed0d74"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

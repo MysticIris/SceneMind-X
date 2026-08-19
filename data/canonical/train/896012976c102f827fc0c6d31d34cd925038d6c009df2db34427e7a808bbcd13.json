@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:637.jpg",
+    "relative_path": "train/637.jpg",
+    "sha256": "896012976c102f827fc0c6d31d34cd925038d6c009df2db34427e7a808bbcd13",
+    "split": "train"
+  },
+  "canonical_sha256": "4c117dc54d7eeb9087565ada86cfc68ff224b05860198f7fa7adf2a66dec7101",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "鸳鸯火锅",
+      "麻辣汤底",
+      "清汤锅",
+      "餐桌残局"
+    ],
+    "short_description": "桌上摆放着一锅鸳鸯火锅，汤底分隔成麻辣红汤与清汤两部分，旁边有吃剩的虾和小碟调料。",
+    "theme": "火锅用餐场景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "锅内可能正在加热，因汤面有气泡和蒸汽。"
+    ],
+    "direct_observations": [
+      "锅内汤水呈分隔状态，一侧颜色深红，另一侧颜色较浅。",
+      "锅旁有吃剩的虾壳和辣椒碎屑，表明用餐已进行。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金属锅具",
+      "分隔式锅体",
+      "沸腾汤底",
+      "食物残渣"
+    ],
+    "relations": [
+      "火锅置于桌面中央。",
+      "盘子位于火锅左侧。",
+      "筷子搭在盘子边缘。"
+    ],
+    "scene": "餐桌用餐环境",
+    "subjects": [
+      "火锅",
+      "盘子",
+      "筷子",
+      "汤勺",
+      "调料碟"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "锅内可能正在加热，因汤面有气泡和蒸汽。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "锅内汤水呈分隔状态，一侧颜色深红，另一侧颜色较浅；锅旁有吃剩的虾壳和辣椒碎屑，表明用餐已进行。",
+    "safe_facts": [
+      "锅内汤水呈分隔状态，一侧颜色深红，另一侧颜色较浅。",
+      "锅旁有吃剩的虾壳和辣椒碎屑，表明用餐已进行。"
+    ]
+  },
+  "label_id": "cpl_a19a046106b20d0ce4a98ba1",
+  "provenance": {
+    "generated_at": "2026-08-03T11:49:21.918966+00:00",
+    "migrated_at": "2026-08-03T11:49:21.923362+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0f4e0417d1fd088bff94b2add570b5a054f1ae252adff502389974e4eafdda18",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e426c48be02ddeed4f6c94d5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:49:21.923738+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e426c48be02ddeed4f6c94d5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1656.jpg",
+    "relative_path": "train/1656.jpg",
+    "sha256": "811d7e76d9823e9084a408a26995f35be15b0868b7a67a2b9487c9bfa67b3bd8",
+    "split": "train"
+  },
+  "canonical_sha256": "fcf8e345a79e11e90f0e80958903d76c40f94e13c32c101c7dded0154b2c6d1c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石雕",
+      "华表",
+      "龙纹",
+      "石狮",
+      "红墙"
+    ],
+    "short_description": "蓝天白云下，一座高大的石雕华表矗立，柱身刻有龙纹，顶部饰有瑞兽，基座旁有石狮，背景为红墙与绿树。",
+    "theme": "石雕华表"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "华表可能用于地标或仪式性场所。"
+    ],
+    "direct_observations": [
+      "画面中心是一座高大石雕华表，表面有龙形浮雕图案。",
+      "华表顶部有瑞兽雕塑，底部基座两侧各有一尊石狮。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色石质",
+      "雕刻精细",
+      "顶部有瑞兽",
+      "基座有石狮",
+      "背景有旗帜"
+    ],
+    "relations": [
+      "石雕华表位于前景中央。",
+      "石狮位于华表基座两侧。",
+      "红墙建筑位于背景。"
+    ],
+    "scene": "户外广场",
+    "subjects": [
+      "石雕华表",
+      "石狮",
+      "红墙建筑",
+      "树木",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "华表可能用于地标或仪式性场所。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中心是一座高大石雕华表，表面有龙形浮雕图案；华表顶部有瑞兽雕塑，底部基座两侧各有一尊石狮。",
+    "safe_facts": [
+      "画面中心是一座高大石雕华表，表面有龙形浮雕图案。",
+      "华表顶部有瑞兽雕塑，底部基座两侧各有一尊石狮。"
+    ]
+  },
+  "label_id": "cpl_684d40cbf86198251fe5d645",
+  "provenance": {
+    "generated_at": "2026-08-03T14:50:36.180226+00:00",
+    "migrated_at": "2026-08-03T14:50:36.185815+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "53f7681fb687e15a95f495f9d5a24eae6f8e035efc4d71370d37c8505b586460",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6e7d6ca1eccf79fa9b950fde",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:50:36.186204+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6e7d6ca1eccf79fa9b950fde"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

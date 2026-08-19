@@ -1,0 +1,126 @@
+{
+  "asset_id": "8ebe77e9d547efdb",
+  "asset_sha256": "8ebe77e9d547efdbd4cf794e22bfe6eec8d9ef7ce118bc544621361988c62d55",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"腾讯校招宣讲会邀请\",\n    \"short_description\": \"这是一张手机邮件客户端的截图，展示了腾讯2026实习生招聘的宣讲会报名邀请。页面包含带有卡通企鹅形象的黄色宣传横幅、具体的活动时间地点信息以及报名链接，整体为深色模式界面。\",\n    \"micro_tags\": [\n      \"腾讯招聘\",\n      \"校园宣讲\",\n      \"邮件截图\",\n      \"实习生\",\n      \"深色模式\",\n      \"活动海报\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端电子邮件应用界面\",\n    \"subjects\": [\n      \"邮件详情页面\",\n      \"招聘宣传横幅\",\n      \"文本信息块\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"深色背景\",\n      \"黄色主色调横幅\",\n      \"蓝色按钮样式\",\n      \"卡通吉祥物形象\"\n    ],\n    \"relations\": [\n      \"横幅位于邮件正文顶部\",\n      \"文本详情位于横幅下方\",\n      \"状态栏位于屏幕最顶端\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕顶部状态栏显示时间为10:12，信号为4G，电量35%\",\n      \"发件人显示为'campus(腾讯校招)'，邮件标题包含'2026实习生招聘'字样\",\n      \"正文包含一张黄色背景的宽幅图片，右侧有一个戴眼镜的卡通企鹅角色\",\n      \"图片中有蓝色按钮图形，上书'进校宣讲会报名'\",\n      \"正文下列出了时间（3月20日）、地址（华中科技大学）及网址链接\"\n    ],\n    \"cautious_inferences\": [\n      \"这可能是一封发送给高校学生的校园招聘通知邮件\",\n      \"界面处于手机的深色/夜间模式下\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"腾讯2026实习生招聘\",\n      \"让世界看到你的影响力\",\n      \"进校宣讲会报名\",\n      \"时间：3月20日 18:30\",\n      \"地址：华中科技大学-大学生活动中心B305\",\n      \"惊喜大奖\",\n      \"鹅厂周边\",\n      \"Tencent 腾讯招聘\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张手机屏幕截图，显示了一封包含黄色宣传图和详细文字信息的电子邮件，内容涉及某公司的校园招聘活动。\",\n    \"safe_facts\": [\n      \"图像为竖屏手机界面截图\",\n      \"包含顶部的系统状态栏和邮件导航栏\",\n      \"邮件内容包含一幅横向的彩色插画横幅\",\n      \"横幅下方排列着多行列表式文本信息\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 671,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 671,
+        "total_tokens": 3898,
+        "estimated_cost_cny": 0.011822,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "腾讯校招宣讲会邀请",
+          "short_description": "这是一张手机邮件客户端的截图，展示了腾讯2026实习生招聘的宣讲会报名邀请。页面包含带有卡通企鹅形象的黄色宣传横幅、具体的活动时间地点信息以及报名链接，整体为深色模式界面。",
+          "micro_tags": [
+            "腾讯招聘",
+            "校园宣讲",
+            "邮件截图",
+            "实习生",
+            "深色模式",
+            "活动海报"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "移动端电子邮件应用界面",
+          "subjects": [
+            "邮件详情页面",
+            "招聘宣传横幅",
+            "文本信息块"
+          ],
+          "actions": [],
+          "attributes": [
+            "深色背景",
+            "黄色主色调横幅",
+            "蓝色按钮样式",
+            "卡通吉祥物形象"
+          ],
+          "relations": [
+            "横幅位于邮件正文顶部",
+            "文本详情位于横幅下方",
+            "状态栏位于屏幕最顶端"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "屏幕顶部状态栏显示时间为10:12，信号为4G，电量35%",
+            "发件人显示为'campus(腾讯校招)'，邮件标题包含'2026实习生招聘'字样",
+            "正文包含一张黄色背景的宽幅图片，右侧有一个戴眼镜的卡通企鹅角色",
+            "图片中有蓝色按钮图形，上书'进校宣讲会报名'",
+            "正文下列出了时间（3月20日）、地址（华中科技大学）及网址链接"
+          ],
+          "cautious_inferences": [
+            "这可能是一封发送给高校学生的校园招聘通知邮件",
+            "界面处于手机的深色/夜间模式下"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "腾讯2026实习生招聘",
+            "让世界看到你的影响力",
+            "进校宣讲会报名",
+            "时间：3月20日 18:30",
+            "地址：华中科技大学-大学生活动中心B305",
+            "惊喜大奖",
+            "鹅厂周边",
+            "Tencent 腾讯招聘"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张手机屏幕截图，显示了一封包含黄色宣传图和详细文字信息的电子邮件，内容涉及某公司的校园招聘活动。",
+          "safe_facts": [
+            "图像为竖屏手机界面截图",
+            "包含顶部的系统状态栏和邮件导航栏",
+            "邮件内容包含一幅横向的彩色插画横幅",
+            "横幅下方排列着多行列表式文本信息"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 2535824,
+        "request_bytes": 1898795,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.090123500005575,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "b8bbc3dbf1b55bce05ed0529a033574f1459e55c3045c158a54d472c06baabe8"
+}

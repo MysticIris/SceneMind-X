@@ -1,0 +1,134 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_7004b5165eac2db76db21233",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_c854ed5f270b1ed8d7193b8e"
+  ],
+  "asset": {
+    "asset_id": "3e0ca12ffeacc6b8",
+    "sha256": "3e0ca12ffeacc6b8235bea7cc769c1047c358549e8a2d70fce0d62fbffa56a10",
+    "split": "user_custom",
+    "relative_path": "user_assets/3e/3e0ca12ffeacc6b8235bea7cc769c1047c358549e8a2d70fce0d62fbffa56a10/3e0ca12ffeacc6b8235bea7cc769c1047c358549e8a2d70fce0d62fbffa56a10.jpg"
+  },
+  "display": {
+    "theme": "城市运动场雪景",
+    "short_description": "阴天下的城市运动场，草坪上覆盖着薄雪并散布着许多白色雪人。前景是带有白色隔离护栏的沥青路面，背景可见高层住宅楼、树木及红色跑道。",
+    "micro_tags": [
+      "运动场",
+      "雪人",
+      "积雪",
+      "城市建筑",
+      "白色护栏",
+      "阴天"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "户外运动场及周边街道",
+    "subjects": [
+      "运动场草坪",
+      "雪人",
+      "白色交通护栏",
+      "高层住宅楼",
+      "树木",
+      "路灯杆"
+    ],
+    "actions": [],
+    "attributes": [
+      "阴天",
+      "地面有残雪",
+      "草坪被绿色围网包围",
+      "护栏底座为黄色",
+      "远处有红色看台座椅"
+    ],
+    "relations": [
+      "白色护栏位于画面前景。",
+      "运动场位于护栏后方。",
+      "高层建筑位于树木后方作为背景。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "画面前景有两排白色的拱形金属交通护栏，部分底座旁有少量积雪。",
+      "中景是一个被绿色铁丝网围住的运动场，草坪上覆盖着白雪，并排列着数十个大小不一的雪人。",
+      "背景矗立着多栋米色或灰色的高层住宅楼，天空呈现灰白色。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法确定具体的拍摄地点或时间。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_unreadable",
+    "visual_candidates": [],
+    "ocr_candidates": [],
+    "candidate_text": [],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "画面前景有两排白色的拱形金属交通护栏，部分底座旁有少量积雪；中景是一个被绿色铁丝网围住的运动场，草坪上覆盖着白雪，并排列着数十个大小不一的雪人。",
+    "safe_facts": [
+      "画面前景有两排白色的拱形金属交通护栏，部分底座旁有少量积雪。",
+      "中景是一个被绿色铁丝网围住的运动场，草坪上覆盖着白雪，并排列着数十个大小不一的雪人。",
+      "背景矗立着多栋米色或灰色的高层住宅楼，天空呈现灰白色。"
+    ],
+    "do_not_assert": [
+      "无法确定具体的拍摄地点或时间。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_47f332f4-d85b-41ff-b0b1-0a403f141f58",
+    "generated_at": "2026-08-12T03:26:53.282559+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "9e135e8c365472b26f196208c12be9ed37a954d82ba8551fc4403ef822a3363d",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:26:53.283033+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_c854ed5f270b1ed8d7193b8e",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:26:53.283341+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "07d0cdc50d088856980cb22edd23907244abf82234672761c245ab25f367e8c6"
+}

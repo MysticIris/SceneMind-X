@@ -1,0 +1,145 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_42d1186b9c132b2dd50c11c5",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_7aa770b8148ac26b229c2444"
+  ],
+  "asset": {
+    "asset_id": "3e7221df64db15c5",
+    "sha256": "3e7221df64db15c571d30381a68915a7e573b22680586bb3e71a0c5c24f0e5a1",
+    "split": "user_custom",
+    "relative_path": "user_assets/3e/3e7221df64db15c571d30381a68915a7e573b22680586bb3e71a0c5c24f0e5a1/3e7221df64db15c571d30381a68915a7e573b22680586bb3e71a0c5c24f0e5a1.png"
+  },
+  "display": {
+    "theme": "在线实习申请表单填写界面",
+    "short_description": "一张网页表单截图，标题为“基础信息收集”。界面包含学校专业、英语成绩、软件技能等输入框。部分字段已填写如“华中科技大学”，而通勤时长、绩点等必填项显示红色边框及“必填项未填写”的报错提示。",
+    "micro_tags": [
+      "在线表单",
+      "求职申请",
+      "信息录入",
+      "必填项报错",
+      "用户界面",
+      "实习生招聘"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "网页端信息收集表单页面",
+    "subjects": [
+      "表单输入框",
+      "下拉菜单",
+      "错误提示文本"
+    ],
+    "actions": [],
+    "attributes": [
+      "白色背景",
+      "双列布局",
+      "红色警告色",
+      "灰色占位符文本"
+    ],
+    "relations": [
+      "错误提示位于对应的输入框下方。",
+      "标签位于输入框上方。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "页面顶部有大号标题“基础信息收集”。",
+      "多个输入框周围有红色边框，下方伴有红色叉号图标和文字“必填项未填写”。",
+      "左上角第一个输入框内已填入黑色文字“华中科技大学 人工智能 大三”。",
+      "右侧第一行输入框内显示灰色提示文字“目前居住地点至延锋实习通勤方式时长”。"
+    ],
+    "cautious_inferences": [
+      "根据红色边框和提示语推断，用户正在尝试提交表单但因缺少必要信息而被系统拦截。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "基础信息收集",
+      "学校+专业+年级",
+      "华中科技大学 人工智能 大三",
+      "目前居住地点至延锋实习通勤方式时长",
+      "必填项未填写",
+      "英语四六级是否通过以及分数"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "基础信息收集",
+      "学校+专业+年级",
+      "华中科技大学 人工智能 大三",
+      "目前居住地点至延锋实习通勤方式时长",
+      "必填项未填写",
+      "英语四六级是否通过以及分数"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "页面顶部有大号标题“基础信息收集”；多个输入框周围有红色边框，下方伴有红色叉号图标和文字“必填项未填写”。",
+    "safe_facts": [
+      "页面顶部有大号标题“基础信息收集”。",
+      "多个输入框周围有红色边框，下方伴有红色叉号图标和文字“必填项未填写”。",
+      "左上角第一个输入框内已填入黑色文字“华中科技大学 人工智能 大三”。"
+    ],
+    "do_not_assert": [
+      "根据红色边框和提示语推断，用户正在尝试提交表单但因缺少必要信息而被系统拦截。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_704dcb6f-59bb-40f8-b132-8471e908bb47",
+    "generated_at": "2026-08-12T03:31:33.821546+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "8f21fa7dd527c2de2142a684ba5ce6a21b95b61685b45aa712040f98355a487e",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:31:33.822703+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_7aa770b8148ac26b229c2444",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:31:33.823341+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "8a83a1963ca4a3a3db6a410cc74741c6ee0ee899dc76dad3d9fee5840382e560"
+}

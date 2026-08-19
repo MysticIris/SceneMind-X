@@ -1,0 +1,141 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1472.jpg",
+    "relative_path": "train/1472.jpg",
+    "sha256": "b10dc9c018acc2f3182608449a72f591561a041596c067b1293710e99513a86d",
+    "split": "train"
+  },
+  "canonical_sha256": "d1f16ca6d536957aa7c1d9126e4be113f6ddd82ba573e29df5424aed9db5817d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "火车站",
+      "旅客",
+      "电子显示屏",
+      "宣传海报"
+    ],
+    "short_description": "火车站号闸机旁，旅客排队等候，电子屏显示车次信息，旁边立有宣传海报。",
+    "theme": "火车站检票口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "闸机旁有旅客站立或蹲坐。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "旅客站立等待",
+      "旅客蹲下喝水"
+    ],
+    "attributes": [
+      "闸机标有数字5",
+      "海报背景为红色和黄色渐变",
+      "地面为灰色瓷砖"
+    ],
+    "relations": [
+      "旅客位于检票闸机前方。",
+      "宣传海报贴于闸机侧面。"
+    ],
+    "scene": "火车站候车大厅",
+    "subjects": [
+      "旅客",
+      "检票闸机",
+      "电子显示屏",
+      "宣传海报"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "闸机旁有旅客站立或蹲坐。",
+    "safe_facts": [
+      "闸机旁有旅客站立或蹲坐。"
+    ]
+  },
+  "label_id": "cpl_8520152a4d1ac512470aba1e",
+  "provenance": {
+    "generated_at": "2026-08-03T14:27:46.257330+00:00",
+    "migrated_at": "2026-08-03T14:27:46.261978+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ec5bdccee1c632f8a8516a6c33344c7b74b22e4db81e25ec42b29916088679d4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0604eef3fbc3496c26f96c69",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:27:46.263279+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0604eef3fbc3496c26f96c69"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "检票口5",
+      "Ticket Check",
+      "车次 Z207 D5795 T289",
+      "社会主义核心价值观",
+      "富强 民主 文明",
+      "和谐 自由 平等"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "检票口5",
+      "Ticket Check",
+      "车次 Z207 D5795 T289",
+      "社会主义核心价值观",
+      "富强 民主 文明",
+      "和谐 自由 平等"
+    ]
+  }
+}

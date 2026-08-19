@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1693.jpg",
+    "relative_path": "train/1693.jpg",
+    "sha256": "9a2ad7fff0fdd626da8f3a4cf73add3d705b62788c392ca7e5b2068ae269b025",
+    "split": "train"
+  },
+  "canonical_sha256": "35897527169486085a122ff7005b7b29bac1871c808785102710dfddc2686cfc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "青铜雕塑",
+      "石基座",
+      "中式建筑",
+      "户外雕塑"
+    ],
+    "short_description": "一座多人物青铜雕塑矗立于石基座上，背景为中式建筑与树木，天空阴云密布。",
+    "theme": "雕塑群像"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "雕塑由多个站立或劳作的人物组成，材质呈深灰色金属质感。",
+      "雕塑基座为多层石砌结构，表面粗糙。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "青铜材质",
+      "灰黑色调",
+      "石质基座"
+    ],
+    "relations": [
+      "雕塑位于基座之上。",
+      "雕塑背景为建筑与树木。"
+    ],
+    "scene": "户外广场",
+    "subjects": [
+      "多个人物雕塑",
+      "石基座",
+      "背景建筑",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "雕塑由多个站立或劳作的人物组成，材质呈深灰色金属质感；雕塑基座为多层石砌结构，表面粗糙。",
+    "safe_facts": [
+      "雕塑由多个站立或劳作的人物组成，材质呈深灰色金属质感。",
+      "雕塑基座为多层石砌结构，表面粗糙。"
+    ]
+  },
+  "label_id": "cpl_9762436dcbfef87db747e5de",
+  "provenance": {
+    "generated_at": "2026-08-03T14:55:21.106665+00:00",
+    "migrated_at": "2026-08-03T14:55:21.108333+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e036a16a65767a231c51a8cd0a5f861d143117c44c36018e4ed47857d35b044b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_51bb0b16bb1047eb77c6e3d4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:55:21.108545+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_51bb0b16bb1047eb77c6e3d4"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

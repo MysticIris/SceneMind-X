@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2128.jpg",
+    "relative_path": "val/2128.jpg",
+    "sha256": "89abc98dff68a2b3e92b132fa229e2cbdc83d8884ff48d3d8868ab31b28ba440",
+    "split": "val"
+  },
+  "canonical_sha256": "76df04ff4dee1e07cc0e7012a95f73ed7b7c4f00ab8708c2fc39a165f4bf321d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "机场",
+      "飞机",
+      "夜景",
+      "停机坪"
+    ],
+    "short_description": "夜间机场停机坪，一架客机停靠登机桥，前景可见机翼，远处有航站楼灯光。",
+    "theme": "机场停机坪夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一架大型客机停在停机坪上。",
+      "背景有现代化航站楼建筑，顶部有照明灯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "有灯光",
+      "地面有标线"
+    ],
+    "relations": [
+      "客机停靠在登机桥旁。"
+    ],
+    "scene": "机场停机坪",
+    "subjects": [
+      "客机",
+      "航站楼",
+      "登机桥"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一架大型客机停在停机坪上；背景有现代化航站楼建筑，顶部有照明灯。",
+    "safe_facts": [
+      "画面中有一架大型客机停在停机坪上。",
+      "背景有现代化航站楼建筑，顶部有照明灯。"
+    ]
+  },
+  "label_id": "cpl_fabe3ce9421c049b536e687e",
+  "provenance": {
+    "generated_at": "2026-08-03T16:03:40.108199+00:00",
+    "migrated_at": "2026-08-03T16:03:40.109782+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7fed01ffa87e99dff6522b29729731095b8067fd7f9bdcbd22a6f9a66f729205",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_577653238885f8f697a685ca",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:03:40.109990+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_577653238885f8f697a685ca"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

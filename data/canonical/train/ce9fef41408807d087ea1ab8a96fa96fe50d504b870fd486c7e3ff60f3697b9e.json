@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1161.jpg",
+    "relative_path": "train/1161.jpg",
+    "sha256": "ce9fef41408807d087ea1ab8a96fa96fe50d504b870fd486c7e3ff60f3697b9e",
+    "split": "train"
+  },
+  "canonical_sha256": "3ae0c25ad6202734e4dbf2e1c0405c757c80159d0c2f93e74f3fb463cabc9b5e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "漆木棺椁",
+      "红色纹饰",
+      "博物馆展品"
+    ],
+    "short_description": "博物馆展柜中陈列着一件漆木棺椁，表面饰有红色云纹图案，周围有参观者。",
+    "theme": "漆木棺椁"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "棺椁表面覆盖有红色卷草纹样。",
+      "棺椁置于浅色展台上，四周有玻璃围栏。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色漆面",
+      "红色装饰图案",
+      "长方形箱体",
+      "玻璃展柜"
+    ],
+    "relations": [
+      "漆木棺椁被放置在展柜中。",
+      "参观者站在棺椁后方。"
+    ],
+    "scene": "室内展览空间",
+    "subjects": [
+      "漆木棺椁",
+      "参观者"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "棺椁表面覆盖有红色卷草纹样；棺椁置于浅色展台上，四周有玻璃围栏。",
+    "safe_facts": [
+      "棺椁表面覆盖有红色卷草纹样。",
+      "棺椁置于浅色展台上，四周有玻璃围栏。"
+    ]
+  },
+  "label_id": "cpl_67de21b783d3f37917c8db4c",
+  "provenance": {
+    "generated_at": "2026-08-03T13:47:43.642153+00:00",
+    "migrated_at": "2026-08-03T13:47:43.648544+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "090a08975a36e51cba14b33f46d7166d0b944cfc0d13b7490a0a1282a39a5d06",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_33bed8282242b37f33471e60",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:47:43.648914+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_33bed8282242b37f33471e60"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

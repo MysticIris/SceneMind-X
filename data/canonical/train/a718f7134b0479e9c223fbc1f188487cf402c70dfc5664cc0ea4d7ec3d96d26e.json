@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1459.jpg",
+    "relative_path": "train/1459.jpg",
+    "sha256": "a718f7134b0479e9c223fbc1f188487cf402c70dfc5664cc0ea4d7ec3d96d26e",
+    "split": "train"
+  },
+  "canonical_sha256": "db51dfdae1e027bd8a38e12d0a8b47b18c9fd0b82f697cf69660482d5847b05b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "山峰",
+      "日落",
+      "剪影",
+      "天空渐变"
+    ],
+    "short_description": "山脊轮廓在渐变天际线下呈现剪影，远处地平线泛着橙色余晖，植被与岩石细节模糊。",
+    "theme": "山巅日落剪影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自地平线方向，表明是日落时刻。"
+    ],
+    "direct_observations": [
+      "天空从上至下由蓝色过渡到橙黄色。",
+      "山脊轮廓呈深色剪影，覆盖植被与岩石。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "剪影",
+      "渐变色彩",
+      "朦胧感"
+    ],
+    "relations": [
+      "山脊位于前景，天空在背景。"
+    ],
+    "scene": "山地日落景观",
+    "subjects": [
+      "山脊",
+      "植被",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自地平线方向，表明是日落时刻。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空从上至下由蓝色过渡到橙黄色；山脊轮廓呈深色剪影，覆盖植被与岩石。",
+    "safe_facts": [
+      "天空从上至下由蓝色过渡到橙黄色。",
+      "山脊轮廓呈深色剪影，覆盖植被与岩石。"
+    ]
+  },
+  "label_id": "cpl_04f869764eeb67ff452be9d7",
+  "provenance": {
+    "generated_at": "2026-08-03T14:25:39.437545+00:00",
+    "migrated_at": "2026-08-03T14:25:39.441965+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dc7826c07d1e5ec7acfa35af68bc5289b00c842646126939b6b57164e87655a7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f553d163792c030909faa0b1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:25:39.442322+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f553d163792c030909faa0b1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

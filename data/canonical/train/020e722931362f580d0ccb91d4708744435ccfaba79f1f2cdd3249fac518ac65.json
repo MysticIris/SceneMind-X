@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1241.jpg",
+    "relative_path": "train/1241.jpg",
+    "sha256": "020e722931362f580d0ccb91d4708744435ccfaba79f1f2cdd3249fac518ac65",
+    "split": "train"
+  },
+  "canonical_sha256": "b72d92ff791c11857636f4bf3c2b0e62e68ffbfbab31b0c8f5b0c303debf8b29",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "台阶",
+      "纹理",
+      "磨损",
+      "阴影"
+    ],
+    "short_description": "一组深色台阶，表面粗糙，有明显磨损痕迹，光线从上方投射形成阴影。",
+    "theme": "楼梯纹理"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "台阶呈水平排列，有明显的阶梯状结构。",
+      "台阶表面有颗粒感和不均匀的磨损痕迹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深色",
+      "粗糙表面",
+      "有磨损",
+      "有阴影"
+    ],
+    "relations": [],
+    "scene": "室内或室外楼梯",
+    "subjects": [
+      "台阶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "台阶呈水平排列，有明显的阶梯状结构；台阶表面有颗粒感和不均匀的磨损痕迹。",
+    "safe_facts": [
+      "台阶呈水平排列，有明显的阶梯状结构。",
+      "台阶表面有颗粒感和不均匀的磨损痕迹。"
+    ]
+  },
+  "label_id": "cpl_37ea2122e83a1743204a1b9f",
+  "provenance": {
+    "generated_at": "2026-08-03T13:59:31.503567+00:00",
+    "migrated_at": "2026-08-03T13:59:31.505114+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f85ff3eec1f0cc8c5516ac469f692d24b37cf4be1fca5262e7679a14bae3ded1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8f6f8a8707dc304aaa74ed5d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:59:31.505443+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8f6f8a8707dc304aaa74ed5d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

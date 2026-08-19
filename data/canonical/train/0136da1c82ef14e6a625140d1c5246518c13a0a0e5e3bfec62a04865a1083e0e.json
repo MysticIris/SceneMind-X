@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:988.jpg",
+    "relative_path": "train/988.jpg",
+    "sha256": "0136da1c82ef14e6a625140d1c5246518c13a0a0e5e3bfec62a04865a1083e0e",
+    "split": "train"
+  },
+  "canonical_sha256": "9b73658c15226f1a7c9c1ae7d241307abcdaa369ac682b579ee5148c640240ba",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "果树",
+      "遮阳网",
+      "果园",
+      "草地",
+      "阳光"
+    ],
+    "short_description": "两排果树间覆盖着白色遮阳网，阳光透过网孔在草地上投下斑驳光影，形成纵深感。",
+    "theme": "果园遮阳网"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "网状物可能用于遮挡强光或防虫。"
+    ],
+    "direct_observations": [
+      "画面中有两排整齐排列的树木。",
+      "树木上方覆盖着大面积白色网状物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色树叶",
+      "白色遮阳网",
+      "草地",
+      "阳光照射"
+    ],
+    "relations": [
+      "遮阳网覆盖在果树上方。",
+      "果树排列成行。"
+    ],
+    "scene": "果园种植区",
+    "subjects": [
+      "果树",
+      "遮阳网"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "网状物可能用于遮挡强光或防虫。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两排整齐排列的树木；树木上方覆盖着大面积白色网状物。",
+    "safe_facts": [
+      "画面中有两排整齐排列的树木。",
+      "树木上方覆盖着大面积白色网状物。"
+    ]
+  },
+  "label_id": "cpl_7079e7ac0f632e6fc2311208",
+  "provenance": {
+    "generated_at": "2026-08-03T13:11:24.907850+00:00",
+    "migrated_at": "2026-08-03T13:11:24.913164+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1bd07785011d10937a23880b16e223da7af03a6f389a6a27dd93c65f16482193",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7079e7ac0f632e6fc2311208",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:17.793676+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1e8624ea9166e9dbb2522f0c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1156.jpg",
+    "relative_path": "train/1156.jpg",
+    "sha256": "a765c109be4fd6f00435cad4816129488ea13820380a1d3c187cdb2f70d893a5",
+    "split": "train"
+  },
+  "canonical_sha256": "e788af17709c1a5eaceca6935b1321e9db6ddc87c6ee0171a14fe0d91586a193",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "卡通角色",
+      "餐垫",
+      "动漫周边"
+    ],
+    "short_description": "两张卡通角色餐垫并排置于沙发上。",
+    "theme": "卡通餐垫"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两张餐垫并排摆放。",
+      "餐垫上有卡通人物图案。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "粉色背景",
+      "绿色边框",
+      "卡通风格"
+    ],
+    "relations": [
+      "餐垫放置于沙发前。"
+    ],
+    "scene": "室内沙发区域",
+    "subjects": [
+      "卡通角色餐垫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两张餐垫并排摆放；餐垫上有卡通人物图案。",
+    "safe_facts": [
+      "两张餐垫并排摆放。",
+      "餐垫上有卡通人物图案。"
+    ]
+  },
+  "label_id": "cpl_a07c74c22919119d7c865f76",
+  "provenance": {
+    "generated_at": "2026-08-03T13:45:07.689720+00:00",
+    "migrated_at": "2026-08-03T13:45:07.692875+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3ac25d442347c184257a60cbb204bac8c29254f821b67152f72e12152e3411e2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4d7ce258465ef75b495157ac",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:45:07.693269+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4d7ce258465ef75b495157ac"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

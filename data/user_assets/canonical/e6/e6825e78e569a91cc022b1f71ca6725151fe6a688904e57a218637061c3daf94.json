@@ -1,0 +1,145 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_d61e4012fb7e1edb5641b4ea",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_2b1264d5f95bd3ab0bd29a1a"
+  ],
+  "asset": {
+    "asset_id": "e6825e78e569a91c",
+    "sha256": "e6825e78e569a91cc022b1f71ca6725151fe6a688904e57a218637061c3daf94",
+    "split": "user_custom",
+    "relative_path": "user_assets/e6/e6825e78e569a91cc022b1f71ca6725151fe6a688904e57a218637061c3daf94/e6825e78e569a91cc022b1f71ca6725151fe6a688904e57a218637061c3daf94.png"
+  },
+  "display": {
+    "theme": "游戏战绩列表截图",
+    "short_description": "界面以垂直列表形式排列了多场对局记录，包含胜负结果、KDA数据、组队模式(如五排、三排)以及MVP或金牌中路等荣誉标识。",
+    "micro_tags": [
+      "手机游戏",
+      "战绩查询",
+      "大乔",
+      "排位赛",
+      "MVP",
+      "UI界面"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "移动端应用程序界面",
+    "subjects": [
+      "游戏战绩列表",
+      "英雄头像",
+      "状态标签",
+      "数据文本"
+    ],
+    "actions": [],
+    "attributes": [
+      "竖向排列",
+      "白底黑字",
+      "彩色图标",
+      "信息密集"
+    ],
+    "relations": [
+      "每一行代表一场独立的比赛记录。",
+      "左侧为角色头像，右侧为详细数据与评价。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "屏幕顶部显示标题文字“我的大乔详情”。",
+      "列表项中包含红色的“失败”和蓝色的“胜利”字样，以及具体的数字比分(如1/3/5)。",
+      "部分条目右侧带有“MVP”、“金牌中路”或“银牌中路”的徽章图标。",
+      "每条记录右侧边缘均有向右的箭头符号。"
+    ],
+    "cautious_inferences": [
+      "时间戳显示这些对局集中在凌晨时段(如01：14，02：21)。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "我的大乔详情",
+      "1/3/5",
+      "5/1/15",
+      "MVP",
+      "01-14 02:21",
+      "19:48"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "我的大乔详情",
+      "1/3/5",
+      "5/1/15",
+      "MVP",
+      "01-14 02:21",
+      "19:48"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "屏幕顶部显示标题文字“我的大乔详情”；列表项中包含红色的“失败”和蓝色的“胜利”字样，以及具体的数字比分(如1/3/5)。",
+    "safe_facts": [
+      "屏幕顶部显示标题文字“我的大乔详情”。",
+      "列表项中包含红色的“失败”和蓝色的“胜利”字样，以及具体的数字比分(如1/3/5)。",
+      "部分条目右侧带有“MVP”、“金牌中路”或“银牌中路”的徽章图标。"
+    ],
+    "do_not_assert": [
+      "时间戳显示这些对局集中在凌晨时段(如01：14，02：21)。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_fca0780e-605e-4c8c-bacd-71825f166d14",
+    "generated_at": "2026-08-12T03:28:13.812516+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "04b642a69347dc14b6fbcac71fbf02aa3b69f9726e3527215788a6915e842b4a",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:28:13.813498+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_2b1264d5f95bd3ab0bd29a1a",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:28:13.813913+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "738e5920038793dc8dd2c9531a4c6eb6ff84f9f6a09e047f64b472adacd2a484"
+}

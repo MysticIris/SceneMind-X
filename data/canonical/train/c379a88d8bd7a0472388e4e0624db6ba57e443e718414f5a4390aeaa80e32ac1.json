@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1345.jpg",
+    "relative_path": "train/1345.jpg",
+    "sha256": "c379a88d8bd7a0472388e4e0624db6ba57e443e718414f5a4390aeaa80e32ac1",
+    "split": "train"
+  },
+  "canonical_sha256": "42a015e4dfa7fc2ac7eb194890b9fc2ca36d1c26964bd79d154c13d9d999c59d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "汽车内饰",
+      "数字仪表盘",
+      "无框方向盘"
+    ],
+    "short_description": "现代汽车内饰，配备超大曲面显示屏和无框方向盘，整体设计简洁科技。",
+    "theme": "未来感汽车内饰"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "中控区域有一块大型横向显示屏。",
+      "方向盘为黑色，中央有方形徽标。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色内饰",
+      "银色装饰条",
+      "浅灰色座椅"
+    ],
+    "relations": [
+      "方向盘位于中控屏幕前方。",
+      "座椅位于方向盘后方。"
+    ],
+    "scene": "汽车驾驶舱内部",
+    "subjects": [
+      "方向盘",
+      "中控屏幕",
+      "座椅",
+      "车门内侧"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "中控区域有一块大型横向显示屏；方向盘为黑色，中央有方形徽标。",
+    "safe_facts": [
+      "中控区域有一块大型横向显示屏。",
+      "方向盘为黑色，中央有方形徽标。"
+    ]
+  },
+  "label_id": "cpl_5d8b46a82ee25a9f09338a45",
+  "provenance": {
+    "generated_at": "2026-08-03T14:12:59.430265+00:00",
+    "migrated_at": "2026-08-03T14:12:59.432848+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "42b9b4a90c397fecfa0eb12e56dcb8a4b2e181cbf412a6ecf15657d224c7b883",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2068e851e91633164a25406a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:12:59.433183+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2068e851e91633164a25406a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

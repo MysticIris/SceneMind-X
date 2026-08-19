@@ -1,0 +1,113 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:737.jpg",
+    "relative_path": "train/737.jpg",
+    "sha256": "8a448ce61915d250adae35fde244492bf1b0191fab25bfaac568745e166e2c4d",
+    "split": "train"
+  },
+  "canonical_sha256": "2326c276949ef409f4df42a0611b1ff511b6e82d65531fcc49ce1f9bfbe3817a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "PlayStation",
+      "游戏展台",
+      "电子设备"
+    ],
+    "short_description": "PlayStation 品牌展位内景，有游戏机、货架和顾客，顶部有发光标志。",
+    "theme": "PlayStation 展区"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "顶部有发光的 PlayStation 标志。",
+      "展位内有陈列架和游戏机。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "室内展览摊位",
+    "subjects": [
+      "PlayStation 标志",
+      "顾客",
+      "游戏机",
+      "货架"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "顶部有发光的 PlayStation 标志；展位内有陈列架和游戏机。",
+    "safe_facts": [
+      "顶部有发光的 PlayStation 标志。",
+      "展位内有陈列架和游戏机。"
+    ]
+  },
+  "label_id": "cpl_b188e3bcd52b3028d8d8370b",
+  "provenance": {
+    "generated_at": "2026-08-03T12:12:14.823992+00:00",
+    "migrated_at": "2026-08-03T12:12:14.825790+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "08495bb8acf0ab202204cc245d98697b98577e892e097f0da9586465b4ffeef6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_310d63fc4f88ade19ce08604",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:12:14.826114+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_310d63fc4f88ade19ce08604"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

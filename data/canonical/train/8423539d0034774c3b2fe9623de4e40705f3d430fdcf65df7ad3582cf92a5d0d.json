@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:225.jpg",
+    "relative_path": "train/225.jpg",
+    "sha256": "8423539d0034774c3b2fe9623de4e40705f3d430fdcf65df7ad3582cf92a5d0d",
+    "split": "train"
+  },
+  "canonical_sha256": "5ef1d1b15d676374d9203ef7bdaf04c731743cf1078cca90dd8251c58dfe786b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "钟楼",
+      "城市广场",
+      "现代建筑",
+      "行人"
+    ],
+    "short_description": "阴天下的城市广场，一座古典钟楼矗立于现代高楼之间，前景有行人与花坛。",
+    "theme": "城市广场钟楼"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有一座带钟面的塔式建筑。",
+      "前景有数人正在步行，周围有种植着黄色和紫色花朵的花坛。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走"
+    ],
+    "attributes": [
+      "阴天",
+      "古典风格钟楼",
+      "现代玻璃幕墙建筑",
+      "黄色花坛",
+      "紫色花卉"
+    ],
+    "relations": [
+      "钟楼位于高楼前方。",
+      "行人走在花坛旁的人行道上。"
+    ],
+    "scene": "城市广场",
+    "subjects": [
+      "钟楼",
+      "行人",
+      "高楼",
+      "花坛"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一座带钟面的塔式建筑；前景有数人正在步行，周围有种植着黄色和紫色花朵的花坛。",
+    "safe_facts": [
+      "画面中央有一座带钟面的塔式建筑。",
+      "前景有数人正在步行，周围有种植着黄色和紫色花朵的花坛。"
+    ]
+  },
+  "label_id": "cpl_2b2627daac7157610fb3da23",
+  "provenance": {
+    "generated_at": "2026-08-03T10:19:47.547824+00:00",
+    "migrated_at": "2026-08-03T10:19:47.549492+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "89521be6e2bd7c0c41024c8f44858d41643dbc218307f105d778e06eafd76a54",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4899ec9f88c98338c71f0b09",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:19:47.549724+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4899ec9f88c98338c71f0b09"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

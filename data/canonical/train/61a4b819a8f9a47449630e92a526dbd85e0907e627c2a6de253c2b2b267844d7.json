@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1856.jpg",
+    "relative_path": "train/1856.jpg",
+    "sha256": "61a4b819a8f9a47449630e92a526dbd85e0907e627c2a6de253c2b2b267844d7",
+    "split": "train"
+  },
+  "canonical_sha256": "a6676ebe3f1a0aef0c00586493013023451cbe36ca126c555e921ca7742ee668",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "党徽",
+      "红旗"
+    ],
+    "short_description": "画面呈现的是电子设备屏幕截图；屏幕上有红色背景和党徽图案。",
+    "theme": "幻灯片内容与党徽图案"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现的是电子设备屏幕截图。",
+      "屏幕上有红色背景和党徽图案。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "电脑屏幕显示的演示文稿页面",
+    "subjects": [
+      "幻灯片内容",
+      "党徽图案",
+      "红旗图案"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现的是电子设备屏幕截图；屏幕上有红色背景和党徽图案。",
+    "safe_facts": [
+      "画面呈现的是电子设备屏幕截图。",
+      "屏幕上有红色背景和党徽图案。"
+    ]
+  },
+  "label_id": "cpl_4842e3954f854a21915383c0",
+  "provenance": {
+    "generated_at": "2026-08-03T15:15:05.862941+00:00",
+    "migrated_at": "2026-08-03T15:15:05.865591+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fe4e61668a4a408cc8435d406713ac809f7560e4341ea12c1fef0b19154c4e7e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b9bd6462cbe5f85d4bcd3e53",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:15:05.866391+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b9bd6462cbe5f85d4bcd3e53"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "(三)党依靠人民群众开创未来",
+      "第一阶段",
+      "规划建议60条",
+      "中共中央关于制定国民经济和社会发展第十四五个五年规划和二〇三五年远景目标的建议",
+      "我们党依靠人民,继续谦虚谨慎、艰苦奋斗,调动一切可以调动的积极因素,团结一切可以",
+      "我们党依靠人民,以史为鉴、开创未来,在全面建设社会主义现代化国家新征程上继续担当"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "(三)党依靠人民群众开创未来",
+      "第一阶段",
+      "规划建议60条",
+      "中共中央关于制定国民经济和社会发展第十四五个五年规划和二〇三五年远景目标的建议",
+      "我们党依靠人民,继续谦虚谨慎、艰苦奋斗,调动一切可以调动的积极因素,团结一切可以",
+      "我们党依靠人民,以史为鉴、开创未来,在全面建设社会主义现代化国家新征程上继续担当"
+    ]
+  }
+}

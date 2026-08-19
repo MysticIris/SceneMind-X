@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2256.jpg",
+    "relative_path": "val/2256.jpg",
+    "sha256": "a3536bbb380e4f2c0df9213dedf53ba5a9e724afe0b45d2e016318e781afb264",
+    "split": "val"
+  },
+  "canonical_sha256": "64fc10f61446b0b1cdbf95c74a8d27751d7eae9a33683723a9d6d5da5936b715",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "奶油甜品",
+      "吸管",
+      "笔记本电脑",
+      "桌面"
+    ],
+    "short_description": "一杯装在纸杯中的白色奶油状甜品，插着吸管，置于桌面上，背景是一台打开的笔记本电脑。",
+    "theme": "奶油甜品与笔记本电脑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有一杯盛有白色奶油状物质的纸杯，杯中插有一根塑料吸管。",
+      "背景中可见一台打开的笔记本电脑，其屏幕处于点亮状态。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色奶油状",
+      "插有吸管",
+      "纸质包装",
+      "屏幕亮着"
+    ],
+    "relations": [
+      "甜品放在纸杯中。",
+      "纸杯放在纸质包装上。",
+      "甜品位于笔记本电脑前方。"
+    ],
+    "scene": "室内桌面环境",
+    "subjects": [
+      "白色奶油状甜品",
+      "塑料吸管",
+      "纸杯",
+      "笔记本电脑",
+      "桌面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一杯盛有白色奶油状物质的纸杯，杯中插有一根塑料吸管；背景中可见一台打开的笔记本电脑，其屏幕处于点亮状态。",
+    "safe_facts": [
+      "画面中央有一杯盛有白色奶油状物质的纸杯，杯中插有一根塑料吸管。",
+      "背景中可见一台打开的笔记本电脑，其屏幕处于点亮状态。"
+    ]
+  },
+  "label_id": "cpl_c3493199970b60817fc501dc",
+  "provenance": {
+    "generated_at": "2026-08-03T16:20:36.330318+00:00",
+    "migrated_at": "2026-08-03T16:20:36.331921+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e8d5924fe68809d30cdd125a32d597d29b8a676caa00aa29ee65adf569c97b47",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_38fbad7cf0c946425513f8a5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:20:36.332136+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_38fbad7cf0c946425513f8a5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1675.jpg",
+    "relative_path": "train/1675.jpg",
+    "sha256": "8e264d4175a694603d41068c9df60b5c6a16e4393cfac4031a9919b41ad8fdd1",
+    "split": "train"
+  },
+  "canonical_sha256": "aa9729b08ec1a884528572a4fd9a5b22fdf8aafc0f0da6df1baf6c901408f63e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "金色屋顶",
+      "中国国旗",
+      "山巅建筑"
+    ],
+    "short_description": "山顶金色寺庙建筑，悬挂多面红旗，游客聚集于台阶与平台，背景为多云天空。",
+    "theme": "金色寺庙建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑主体为金色琉璃瓦屋顶，有多层飞檐。",
+      "建筑前方及台阶上悬挂多面红色旗帜，旗上有黄色五角星。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金色屋顶",
+      "红色旗帜",
+      "石阶",
+      "多云天空"
+    ],
+    "relations": [
+      "旗帜悬挂在建筑外侧。",
+      "游客位于台阶与平台区域。"
+    ],
+    "scene": "山顶寺庙建筑群",
+    "subjects": [
+      "寺庙建筑",
+      "游客",
+      "旗帜"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑主体为金色琉璃瓦屋顶，有多层飞檐；建筑前方及台阶上悬挂多面红色旗帜，旗上有黄色五角星。",
+    "safe_facts": [
+      "建筑主体为金色琉璃瓦屋顶，有多层飞檐。",
+      "建筑前方及台阶上悬挂多面红色旗帜，旗上有黄色五角星。"
+    ]
+  },
+  "label_id": "cpl_ad74a304edb2cc9634a70394",
+  "provenance": {
+    "generated_at": "2026-08-03T14:52:59.005267+00:00",
+    "migrated_at": "2026-08-03T14:52:59.009428+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f678f60c2d70bddb17f799ca13ba30bb5197089057c11bb51613207ad67f9b8c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c9dcf9c67684fee18a8cf5d7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:52:59.009801+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c9dcf9c67684fee18a8cf5d7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

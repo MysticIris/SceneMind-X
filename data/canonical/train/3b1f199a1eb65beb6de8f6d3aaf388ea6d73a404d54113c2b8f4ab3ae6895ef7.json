@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1421.jpg",
+    "relative_path": "train/1421.jpg",
+    "sha256": "3b1f199a1eb65beb6de8f6d3aaf388ea6d73a404d54113c2b8f4ab3ae6895ef7",
+    "split": "train"
+  },
+  "canonical_sha256": "b006dfcacfe74a9e416628ae7d734fcda926f76b8ba2b00f9c370be7589841ba",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电视屏幕",
+      "动画角色",
+      "蓝色背景"
+    ],
+    "short_description": "一台电视机正播放着一位身穿华丽服饰、头戴装饰性头盔的动画角色，背景为蓝色调的奇幻场景。",
+    "theme": "电视屏幕显示动画角色"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "电视屏幕显示一个动画角色的特写画面。",
+      "电视放置在白色柜子上，周围有电线和设备。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "电视屏幕正在播放动画",
+      "角色有长须和头盔",
+      "背景呈蓝色调"
+    ],
+    "relations": [
+      "动画角色位于电视屏幕中央。"
+    ],
+    "scene": "室内客厅环境",
+    "subjects": [
+      "电视屏幕",
+      "动画角色"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "电视屏幕显示一个动画角色的特写画面；电视放置在白色柜子上，周围有电线和设备。",
+    "safe_facts": [
+      "电视屏幕显示一个动画角色的特写画面。",
+      "电视放置在白色柜子上，周围有电线和设备。"
+    ]
+  },
+  "label_id": "cpl_9b7a262d30a7aff3e652c015",
+  "provenance": {
+    "generated_at": "2026-08-03T14:22:10.164513+00:00",
+    "migrated_at": "2026-08-03T14:22:10.168497+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b53e3bce271a5f0ff725d9503e1ebe2935ee9bd84cc0154ac2a0361fd706fe79",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7920f1a3ec7cecf4d65c7506",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:22:10.168996+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7920f1a3ec7cecf4d65c7506"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

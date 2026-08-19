@@ -1,0 +1,135 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1216.jpg",
+    "relative_path": "train/1216.jpg",
+    "sha256": "c11e64fcc2bb2f5030581362dd5cddff8eac07ca41bf1615f6460bf7a3c6d98c",
+    "split": "train"
+  },
+  "canonical_sha256": "a98e7f701cb12a79acb9ddf14f8ce0f660cb4d9c6ed79bf1dd2ec3df46354b0d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中秋节",
+      "校园文创",
+      "插画包装"
+    ],
+    "short_description": "中秋主题包装盒，绘有亭台楼阁、玉兔与荷花，背景为明月与松树。",
+    "theme": "中秋节"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "包装盒上绘制有中国传统风格的亭台楼阁。",
+      "画面中有两只兔子站在亭台栏杆上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色背景",
+      "卡通风格",
+      "中式建筑"
+    ],
+    "relations": [
+      "玉兔位于亭台内。",
+      "荷花在水面上。"
+    ],
+    "scene": "包装盒正面设计",
+    "subjects": [
+      "明月",
+      "亭台楼阁",
+      "玉兔",
+      "荷花",
+      "松树"
+    ],
+    "visual_medium": "product_packaging"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "包装盒上绘制有中国传统风格的亭台楼阁；画面中有两只兔子站在亭台栏杆上。",
+    "safe_facts": [
+      "包装盒上绘制有中国传统风格的亭台楼阁。",
+      "画面中有两只兔子站在亭台栏杆上。"
+    ]
+  },
+  "label_id": "cpl_a11561a1e6ea46a612c13a30",
+  "provenance": {
+    "generated_at": "2026-08-03T13:54:38.860112+00:00",
+    "migrated_at": "2026-08-03T13:54:38.865295+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "24a5bac37b242cc7eaefaa9fc8eea31abdf9e8a304013ea3693dc598ddd5d07a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0e55165e9f20096a1f9ea367",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:54:38.866447+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0e55165e9f20096a1f9ea367"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "华中科技大学",
+      "Huazhong University of Science and Techn",
+      "中秋佳节",
+      "Mid Autumn Festival",
+      "亭晚醉"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "华中科技大学",
+      "Huazhong University of Science and Techn",
+      "中秋佳节",
+      "Mid Autumn Festival",
+      "亭晚醉"
+    ]
+  }
+}

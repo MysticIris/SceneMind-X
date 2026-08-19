@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2199.jpg",
+    "relative_path": "val/2199.jpg",
+    "sha256": "782231172a89888ef4570a28cf3004d15ff3361ed7697cab9f841abd6a7cde9c",
+    "split": "val"
+  },
+  "canonical_sha256": "ea7628a741fbbde398297eef47970a9ee76cd8078366e0268ecf25148dbfa1e0",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雨天",
+      "交通事故",
+      "交警现场",
+      "湿滑路面"
+    ],
+    "short_description": "雨天城市道路上，一辆黑色SUV与摩托车发生碰撞，两名交警在现场处理，路面湿滑，车辆停靠路边。",
+    "theme": "雨天道路交通事故现场"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "事故可能发生在湿滑路面上。",
+      "现场有交警介入处理，表明事故已引起官方关注。"
+    ],
+    "direct_observations": [
+      "地面有明显水渍，反射光线，显示正在下雨或刚下过雨。",
+      "黑色SUV车门打开，旁边有一辆倒地的摩托车，周围有人员聚集。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "交警站立指挥",
+      "人员蹲在摩托车旁",
+      "摩托车倒在地上"
+    ],
+    "attributes": [
+      "路面湿润",
+      "有白色护栏",
+      "有高架桥结构"
+    ],
+    "relations": [
+      "交警在事故车辆附近。",
+      "摩托车倒在黑色SUV旁。",
+      "多辆车停在道路两侧。"
+    ],
+    "scene": "城市道路交叉口",
+    "subjects": [
+      "两名交警",
+      "一名穿蓝色上衣的人",
+      "一辆黑色SUV",
+      "一辆倒地的摩托车",
+      "多辆停放或行驶的汽车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "事故可能发生在湿滑路面上。",
+      "现场有交警介入处理，表明事故已引起官方关注。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面有明显水渍，反射光线，显示正在下雨或刚下过雨；黑色SUV车门打开，旁边有一辆倒地的摩托车，周围有人员聚集。",
+    "safe_facts": [
+      "地面有明显水渍，反射光线，显示正在下雨或刚下过雨。",
+      "黑色SUV车门打开，旁边有一辆倒地的摩托车，周围有人员聚集。"
+    ]
+  },
+  "label_id": "cpl_7fd34a3e7e3e3be2654db6d4",
+  "provenance": {
+    "generated_at": "2026-08-03T16:11:31.362491+00:00",
+    "migrated_at": "2026-08-03T16:11:31.364436+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "46032b3c52ff0c8a2101d93b2a6e3bb61036ac7947378c94b7dcf6f3efaa3153",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f2bb29d65e4a1e47006eec92",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:11:31.364763+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f2bb29d65e4a1e47006eec92"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

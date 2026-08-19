@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1824.jpg",
+    "relative_path": "train/1824.jpg",
+    "sha256": "32cd3179296d13ac83494d53dbc02c4a241641a8e605e46aaf8d4cd90834de35",
+    "split": "train"
+  },
+  "canonical_sha256": "f0fa83907c1816d39e54a2af22e1404a6123d4fd993f3c898401dc77944e8557",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "烟花",
+      "火花",
+      "夜间",
+      "户外"
+    ],
+    "short_description": "夜间户外，一簇烟花在地面炸开，橙红色火花四溅，照亮了黑暗的地面和远处的栏杆。",
+    "theme": "夜空下的火花绽放"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "火花轨迹呈放射状扩散，表明爆炸点位于中心位置。"
+    ],
+    "direct_observations": [
+      "画面中心有一簇正在爆炸的烟花，发出大量橙红色火花。",
+      "火花散落在深色地面上，部分反射在湿润的地砖上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "爆炸",
+      "飞溅"
+    ],
+    "attributes": [
+      "橙红色",
+      "明亮",
+      "动态"
+    ],
+    "relations": [
+      "烟花装置位于地面。",
+      "火花飞向空中。"
+    ],
+    "scene": "夜间户外广场或步道",
+    "subjects": [
+      "烟花装置"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "火花轨迹呈放射状扩散，表明爆炸点位于中心位置。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中心有一簇正在爆炸的烟花，发出大量橙红色火花；火花散落在深色地面上，部分反射在湿润的地砖上。",
+    "safe_facts": [
+      "画面中心有一簇正在爆炸的烟花，发出大量橙红色火花。",
+      "火花散落在深色地面上，部分反射在湿润的地砖上。"
+    ]
+  },
+  "label_id": "cpl_7f316cdb20a032cb220dd981",
+  "provenance": {
+    "generated_at": "2026-08-03T15:11:39.943627+00:00",
+    "migrated_at": "2026-08-03T15:11:39.945298+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fb7d539a81abfe8e6c95c077aba49af9671387833e4ad3b5f275ffbbd0051023",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f92418bb673eab62dde78719",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:11:39.945506+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f92418bb673eab62dde78719"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

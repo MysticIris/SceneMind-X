@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1768.jpg",
+    "relative_path": "train/1768.jpg",
+    "sha256": "9da982d01108ea7123923fc350d3e07c2a6ccca9caaa2a0a95ba30a36c9c39d5",
+    "split": "train"
+  },
+  "canonical_sha256": "7800558f182b8bcb8272ecf380d1b298b46f451ef697cc9c163e5c16df0a58e1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "耳饰",
+      "礼盒",
+      "白色展台"
+    ],
+    "short_description": "五组白色耳饰陈列于白色展台上，每件均置于独立黑色衬垫的方形礼盒内，设计简约优雅。",
+    "theme": "白色礼盒陈列"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "五个独立的方形礼盒整齐排列在白色平面上。",
+      "每个礼盒内含一对耳饰，耳饰材质和造型各异。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色",
+      "黑色衬垫",
+      "方形礼盒"
+    ],
+    "relations": [
+      "耳饰位于礼盒内。"
+    ],
+    "scene": "室内展示台",
+    "subjects": [
+      "耳饰",
+      "礼盒"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "五个独立的方形礼盒整齐排列在白色平面上；每个礼盒内含一对耳饰，耳饰材质和造型各异。",
+    "safe_facts": [
+      "五个独立的方形礼盒整齐排列在白色平面上。",
+      "每个礼盒内含一对耳饰，耳饰材质和造型各异。"
+    ]
+  },
+  "label_id": "cpl_6404be1cae4d543950ebb755",
+  "provenance": {
+    "generated_at": "2026-08-03T15:04:47.549476+00:00",
+    "migrated_at": "2026-08-03T15:04:47.550971+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d0e46d183dc54d7973ac704fd69ce4c983014f0c02e974c52e60bf98744b1024",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_43953459d0f66bb420774163",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:04:47.551266+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_43953459d0f66bb420774163"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

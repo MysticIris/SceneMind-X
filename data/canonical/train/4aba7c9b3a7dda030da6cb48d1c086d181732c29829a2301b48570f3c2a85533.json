@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:180.jpg",
+    "relative_path": "train/180.jpg",
+    "sha256": "4aba7c9b3a7dda030da6cb48d1c086d181732c29829a2301b48570f3c2a85533",
+    "split": "train"
+  },
+  "canonical_sha256": "05cf38e97209f90eb5f335cae38c3fae98de4ad291a56bb93ea7fca588a45c4b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "吉他指弹",
+      "乐谱"
+    ],
+    "short_description": "一张《》歌曲的吉他指弹乐谱，包含标准调音、节拍和演奏标记。",
+    "theme": "吉他指弹谱"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "页面包含多行六线谱及演奏标记。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "一张乐谱纸张",
+    "subjects": [
+      "吉他指弹谱",
+      "音乐符号"
+    ],
+    "visual_medium": "poster_document"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "页面包含多行六线谱及演奏标记。",
+    "safe_facts": [
+      "页面包含多行六线谱及演奏标记。"
+    ]
+  },
+  "label_id": "cpl_fd2c5517622884609ecf35b0",
+  "provenance": {
+    "generated_at": "2026-08-03T10:11:16.338922+00:00",
+    "migrated_at": "2026-08-03T10:11:16.341096+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1d64eb8cea2500920e9ecdcabf2148c599457f0601eab19b0eb1a9a1c1c8cf3d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f2c1f06971fa71fada2be7ca",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:11:16.341855+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f2c1f06971fa71fada2be7ca"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "后来",
+      "指弹改编",
+      "Standard tuning",
+      "Capo fret 2",
+      "J = 62",
+      "你都如何回忆我..."
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "后来",
+      "指弹改编",
+      "Standard tuning",
+      "Capo fret 2",
+      "J = 62",
+      "你都如何回忆我..."
+    ]
+  }
+}

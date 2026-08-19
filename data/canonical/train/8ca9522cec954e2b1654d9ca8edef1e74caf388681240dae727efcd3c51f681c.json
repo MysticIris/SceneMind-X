@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:117.jpg",
+    "relative_path": "train/117.jpg",
+    "sha256": "8ca9522cec954e2b1654d9ca8edef1e74caf388681240dae727efcd3c51f681c",
+    "split": "train"
+  },
+  "canonical_sha256": "177602fe125b477f16aa5f13339d6115df2584aa12ca43733b6d6036461c0b72",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "广场",
+      "雕塑",
+      "霓虹灯"
+    ],
+    "short_description": "夜晚城市广场，中央矗立黑色雕塑，背景商场灯光璀璨，空中有黄色光带装饰。",
+    "theme": "夜景广场雕塑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现夜间环境，天空深黑。",
+      "广场地面为铺设砖块，有反光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "灯光照明",
+      "地面铺装"
+    ],
+    "relations": [
+      "雕塑位于广场中央。",
+      "商场建筑在雕塑后方。"
+    ],
+    "scene": "城市广场夜景",
+    "subjects": [
+      "雕塑",
+      "商场建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现夜间环境，天空深黑；广场地面为铺设砖块，有反光。",
+    "safe_facts": [
+      "画面呈现夜间环境，天空深黑。",
+      "广场地面为铺设砖块，有反光。"
+    ]
+  },
+  "label_id": "cpl_45eed8bc6690381beeaab99d",
+  "provenance": {
+    "generated_at": "2026-08-03T09:31:41.183545+00:00",
+    "migrated_at": "2026-08-03T09:31:41.185650+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "73cfe6548a4e3cb3b8153322d7069f1d40321aca32343863d4a45ff03e2151c8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2267fb7166d44351c7e26a47",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:30.289492+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2267fb7166d44351c7e26a47",
+    "cpl_22958149338d490458d2f880"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

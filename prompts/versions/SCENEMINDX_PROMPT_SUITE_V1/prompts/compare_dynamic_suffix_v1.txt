@@ -1,0 +1,3 @@
+输入映射：{mapping}
+用户的比较或排序要求：{instruction}
+必须逐张引用上述 asset 文件名，不得遗漏任何图片。若要求排序，JSON 还必须包含 ranking 数组，每项含 asset_id、rank、reason。

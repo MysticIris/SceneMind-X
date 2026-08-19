@@ -1,0 +1,146 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_1cc1d71d8fb2ac258251884b",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_feb89dca80128ff31d5a2a7a"
+  ],
+  "asset": {
+    "asset_id": "095307ff60499add",
+    "sha256": "095307ff60499add3c2edb86fc8387af9def25a1e556234db005e8c313382d83",
+    "split": "user_custom",
+    "relative_path": "user_assets/09/095307ff60499add3c2edb86fc8387af9def25a1e556234db005e8c313382d83/095307ff60499add3c2edb86fc8387af9def25a1e556234db005e8c313382d83.jpg"
+  },
+  "display": {
+    "theme": "湖畔公园休闲景观",
+    "short_description": "这是一张从高处俯瞰的户外风景照。画面展示了一个宁静的湖泊公园，湖心有一片枯黄的草坪，上面搭建着白色帐篷，许多游客正在草地上休息或活动。湖水倒映着岸边的树木和天空，远处是密集的城市建筑群和朦胧的山峦，整体色调偏向冬日的灰黄与冷蓝。",
+    "micro_tags": [
+      "湖泊",
+      "公园",
+      "草地",
+      "帐篷",
+      "城市远景",
+      "冬季",
+      "俯瞰视角"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "城市边缘的湖泊公园或湿地景区",
+    "subjects": [
+      "湖泊",
+      "半岛/小岛",
+      "人群",
+      "白色帐篷",
+      "树木",
+      "远处的楼房"
+    ],
+    "actions": [
+      "人们坐在草地上",
+      "人们在岸边行走",
+      "水面倒映景物"
+    ],
+    "attributes": [
+      "阴天",
+      "能见度一般",
+      "草地枯黄",
+      "树木落叶",
+      "水面平静",
+      "建筑密集"
+    ],
+    "relations": [
+      "人群聚集在湖心草地上。",
+      "帐篷位于草地中央。",
+      "湖泊环绕着草地。",
+      "建筑群位于湖泊后方。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "画面中心是一个被水包围的半岛状草地，草色呈枯黄色。",
+      "草地上有一个白色的星形天幕帐篷，周围散布着数十个坐着或站着的人。",
+      "前景是大面积平静的深色水面，右侧有一个长满树木的小岛。",
+      "背景远处有多栋米黄色和白色的多层建筑，以及连绵起伏的山脉轮廓。",
+      "左侧有一条沿湖的柏油马路，路边有路灯和光秃的树木。"
+    ],
+    "cautious_inferences": [
+      "天气看起来有雾霾或阴天，导致远处景物对比度较低。"
+    ],
+    "uncertainties": [
+      "无法确定具体的地理位置或公园名称。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "none",
+    "visual_candidates": [],
+    "ocr_candidates": [],
+    "candidate_text": [],
+    "confidence": null,
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "画面中心是一个被水包围的半岛状草地，草色呈枯黄色；草地上有一个白色的星形天幕帐篷，周围散布着数十个坐着或站着的人。",
+    "safe_facts": [
+      "画面中心是一个被水包围的半岛状草地，草色呈枯黄色。",
+      "草地上有一个白色的星形天幕帐篷，周围散布着数十个坐着或站着的人。",
+      "前景是大面积平静的深色水面，右侧有一个长满树木的小岛。"
+    ],
+    "do_not_assert": [
+      "天气看起来有雾霾或阴天，导致远处景物对比度较低。",
+      "无法确定具体的地理位置或公园名称。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_18060e2b-6d09-458a-8de5-6d28bc8c7b5d",
+    "generated_at": "2026-08-12T03:13:27.722933+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "9da7683dc46df6f0cdddb36fdb10c0772286c78e7d1ff606f41a31be4900eb4d",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:13:27.723589+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_feb89dca80128ff31d5a2a7a",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:13:27.723940+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "dda621386367bd1a5565b7d5569fbc87e516150061539991a3ef6b1e493f27ed"
+}

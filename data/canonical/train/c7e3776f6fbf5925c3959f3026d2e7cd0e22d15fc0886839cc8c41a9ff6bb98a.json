@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:670.jpg",
+    "relative_path": "train/670.jpg",
+    "sha256": "c7e3776f6fbf5925c3959f3026d2e7cd0e22d15fc0886839cc8c41a9ff6bb98a",
+    "split": "train"
+  },
+  "canonical_sha256": "72dc1fb2a41c5625b381016faf71f08be294c0014c37aa8424b4e868791ecf17",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑色机箱",
+      "瓷砖地面",
+      "桌腿",
+      "电线"
+    ],
+    "short_description": "一台黑色电脑主机箱放置在瓷砖地面上，周围有桌腿和电线，背景为白色墙壁。",
+    "theme": "黑色机箱静置地面"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一台黑色的电脑主机箱立于地面。",
+      "地面铺有浅色瓷砖，边缘有破损。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色",
+      "长方体形状",
+      "顶部有通风口"
+    ],
+    "relations": [
+      "机箱位于地面。",
+      "机箱旁有桌腿。",
+      "机箱周围有电线。"
+    ],
+    "scene": "室内地面场景",
+    "subjects": [
+      "黑色电脑主机箱"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一台黑色的电脑主机箱立于地面；地面铺有浅色瓷砖，边缘有破损。",
+    "safe_facts": [
+      "一台黑色的电脑主机箱立于地面。",
+      "地面铺有浅色瓷砖，边缘有破损。"
+    ]
+  },
+  "label_id": "cpl_481221068ae1ddde34fd9f4f",
+  "provenance": {
+    "generated_at": "2026-08-03T11:56:43.786956+00:00",
+    "migrated_at": "2026-08-03T11:56:43.790477+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bb32fa5927d001aea9b91b5e4611180aba0096a751c3c51cae24d92d5b854949",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_77d04eb828ce2df7d385e8cd",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:56:43.790816+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_77d04eb828ce2df7d385e8cd"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

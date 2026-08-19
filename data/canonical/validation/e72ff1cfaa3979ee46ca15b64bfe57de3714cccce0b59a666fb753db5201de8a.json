@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2259.jpg",
+    "relative_path": "val/2259.jpg",
+    "sha256": "e72ff1cfaa3979ee46ca15b64bfe57de3714cccce0b59a666fb753db5201de8a",
+    "split": "val"
+  },
+  "canonical_sha256": "49f2deed228e2b94644af433b9fd9ea8990556770b712213b32244467bf5da98",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "会议室",
+      "多人",
+      "鼓掌",
+      "长桌"
+    ],
+    "short_description": "一间会议室里，多人坐在长桌旁，面向前方，似乎在聆听演讲或参与培训，部分人鼓掌。",
+    "theme": "会议室内多人听讲"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多排长桌并列摆放，桌上放置水瓶和姓名牌。",
+      "天花板上安装有投影仪和照明灯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "鼓掌",
+      "坐着"
+    ],
+    "attributes": [
+      "木质桌面",
+      "灰色座椅",
+      "天花板嵌入式灯具"
+    ],
+    "relations": [
+      "参与者坐在桌子旁。",
+      "桌子朝向投影屏幕。"
+    ],
+    "scene": "室内会议厅",
+    "subjects": [
+      "多名参与者",
+      "长条形桌子",
+      "投影屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多排长桌并列摆放，桌上放置水瓶和姓名牌；天花板上安装有投影仪和照明灯。",
+    "safe_facts": [
+      "多排长桌并列摆放，桌上放置水瓶和姓名牌。",
+      "天花板上安装有投影仪和照明灯。"
+    ]
+  },
+  "label_id": "cpl_eed96022b914e061c9bdcf02",
+  "provenance": {
+    "generated_at": "2026-08-03T16:19:11.359002+00:00",
+    "migrated_at": "2026-08-03T16:19:11.360534+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5fa6b9f505be73684fdbd3d95e67fdc2bc7005a3aff7f53b1a253ebb68004819",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c82f9bd2c0163076ef6a85e3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:19:11.360762+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c82f9bd2c0163076ef6a85e3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

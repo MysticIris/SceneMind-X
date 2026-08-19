@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1937.jpg",
+    "relative_path": "train/1937.jpg",
+    "sha256": "c490beb0b5887d214eda96837fd700eb9797245e21caccd6c72db539aa3baf63",
+    "split": "train"
+  },
+  "canonical_sha256": "0bfae6bc9062c80b5033fa51f5fb459515ccbeb79875d8b66a183607fe4983ab",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "大学作业",
+      "幽默创作"
+    ],
+    "short_description": "画面呈现教学场景。",
+    "theme": "大学作业题目"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现教学场景。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色标题栏",
+      "手绘插图"
+    ],
+    "relations": [],
+    "scene": "教室投影屏幕显示教学内容",
+    "subjects": [
+      "投影屏幕"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现教学场景。",
+    "safe_facts": [
+      "画面呈现教学场景。"
+    ]
+  },
+  "label_id": "cpl_08a7ddf3c916eff50f96521e",
+  "provenance": {
+    "generated_at": "2026-08-03T15:24:02.159790+00:00",
+    "migrated_at": "2026-08-03T15:24:02.162314+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e3c03a236ae6f6c3e563f5bd716a0af9ef39207c7846e72fe9d07a33ab91bb4f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_865731a5459e33a73b251ebc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:24:02.162981+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_865731a5459e33a73b251ebc"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "华中科技大学",
+      "二、必做题:(20分)",
+      "创作三则有关“大学生生活中的幽默”,并说明其创作中的逻辑方法。",
+      "(字数不限)",
+      "地球是运动的,一个人不会永远在倒霉的位置"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "华中科技大学",
+      "二、必做题:(20分)",
+      "创作三则有关“大学生生活中的幽默”,并说明其创作中的逻辑方法。",
+      "(字数不限)",
+      "地球是运动的,一个人不会永远在倒霉的位置"
+    ]
+  }
+}

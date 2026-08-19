@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:804.jpg",
+    "relative_path": "train/804.jpg",
+    "sha256": "ac3a327e2238092c70b4e17a98976ad88fef8318070f42f13847d5f25751af2a",
+    "split": "train"
+  },
+  "canonical_sha256": "0f1c9d41088471b0fcea09d7564cf11b77afefbf7a53a58acd11302aae3a4630",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "校门",
+      "国旗",
+      "草坪",
+      "花坛"
+    ],
+    "short_description": "华中科技大学校门前草坪上立着刻有校名的石碑，背景是教学楼和飘扬的国旗，两侧绿树成荫，花坛色彩鲜艳。",
+    "theme": "大学校门景观"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有一块刻有汉字的深色石碑。",
+      "石碑后方是一栋多层建筑，顶部有旗杆悬挂红旗。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色草坪",
+      "红色旗帜",
+      "茂密绿树",
+      "彩色花卉"
+    ],
+    "relations": [
+      "石碑位于草坪前方。",
+      "旗杆在教学楼前。",
+      "花坛环绕石碑。"
+    ],
+    "scene": "大学校园入口广场",
+    "subjects": [
+      "校门石碑",
+      "教学楼",
+      "旗杆",
+      "树木",
+      "花坛",
+      "行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一块刻有汉字的深色石碑；石碑后方是一栋多层建筑，顶部有旗杆悬挂红旗。",
+    "safe_facts": [
+      "画面中央有一块刻有汉字的深色石碑。",
+      "石碑后方是一栋多层建筑，顶部有旗杆悬挂红旗。"
+    ]
+  },
+  "label_id": "cpl_1cbd4dd1d522b67c6935cea1",
+  "provenance": {
+    "generated_at": "2026-08-03T12:26:49.665810+00:00",
+    "migrated_at": "2026-08-03T12:26:49.669585+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6f20c970b1cb9fed57b39c5a4332641f9ba956634fb4623969ac2876ee9f1190",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_486bc30fc21707f8802f9fca",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:26:49.670119+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_486bc30fc21707f8802f9fca"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

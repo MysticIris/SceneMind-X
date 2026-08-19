@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1100.jpg",
+    "relative_path": "train/1100.jpg",
+    "sha256": "1ad7bc965da7696ab69a3ef2700dbb1d9042ebca9b43522a68a14a1dccbb3f7e",
+    "split": "train"
+  },
+  "canonical_sha256": "cae8e01922a8f60931c02fc924e87258dd2a5ffbf0938e7d657d5dc0abf605c2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "紫色光效",
+      "冰晶结构",
+      "湿润反光"
+    ],
+    "short_description": "紫色灯光下冰晶与碎块交织，表面湿润反光，呈现梦幻冷色调质感。",
+    "theme": "紫色光效冰晶"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "物体可能由冰或类似凝固液体构成。"
+    ],
+    "direct_observations": [
+      "画面整体被紫色和蓝色灯光笼罩。",
+      "物体表面有明显光泽和水珠痕迹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "紫色光效",
+      "湿润表面",
+      "反光质感"
+    ],
+    "relations": [],
+    "scene": "室内灯光照射下的冰晶或类似物质",
+    "subjects": [
+      "冰晶状物体",
+      "碎块状物体"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "物体可能由冰或类似凝固液体构成。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面整体被紫色和蓝色灯光笼罩；物体表面有明显光泽和水珠痕迹。",
+    "safe_facts": [
+      "画面整体被紫色和蓝色灯光笼罩。",
+      "物体表面有明显光泽和水珠痕迹。"
+    ]
+  },
+  "label_id": "cpl_b7943d45d5462317e74f049c",
+  "provenance": {
+    "generated_at": "2026-08-03T13:36:14.817008+00:00",
+    "migrated_at": "2026-08-03T13:36:14.819519+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3615d18bc78d8a73264b3eae30557f4292b9717c6a612a8bcf33f2385dda9a05",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_398ca2768bd2378a9a96748b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:36:14.819839+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_398ca2768bd2378a9a96748b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

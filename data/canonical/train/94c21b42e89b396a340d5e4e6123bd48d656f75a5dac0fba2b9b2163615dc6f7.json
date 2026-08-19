@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:383.jpg",
+    "relative_path": "train/383.jpg",
+    "sha256": "94c21b42e89b396a340d5e4e6123bd48d656f75a5dac0fba2b9b2163615dc6f7",
+    "split": "train"
+  },
+  "canonical_sha256": "6be3071de671795fd775da319642c9e5a18ff4336f8321baededf06b70f91830",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "高楼大厦",
+      "霓虹灯光"
+    ],
+    "short_description": "城市夜景中的高楼大厦和灯光装饰。",
+    "theme": "城市夜景灯光秀"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多栋高层建筑在夜间被灯光照亮。",
+      "前景中有树木和路灯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "灯光照明",
+      "现代建筑"
+    ],
+    "relations": [
+      "树木位于前景。",
+      "建筑群位于背景。"
+    ],
+    "scene": "城市夜景",
+    "subjects": [
+      "高楼建筑",
+      "树木",
+      "街灯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多栋高层建筑在夜间被灯光照亮；前景中有树木和路灯。",
+    "safe_facts": [
+      "多栋高层建筑在夜间被灯光照亮。",
+      "前景中有树木和路灯。"
+    ]
+  },
+  "label_id": "cpl_2146f3098cbd3b6f43e2005c",
+  "provenance": {
+    "generated_at": "2026-08-03T10:52:08.225500+00:00",
+    "migrated_at": "2026-08-03T10:52:08.226917+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ba7670cae53a0a8e6dbd233fc437aead88e4390da08374a76883b10c65991bee",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_175b43310743612d547a49a9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:52:08.227104+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_175b43310743612d547a49a9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

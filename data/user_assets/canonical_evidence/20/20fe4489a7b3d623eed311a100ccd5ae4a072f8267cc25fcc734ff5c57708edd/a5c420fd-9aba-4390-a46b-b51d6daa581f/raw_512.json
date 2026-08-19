@@ -1,0 +1,131 @@
+{
+  "asset_id": "20fe4489a7b3d623",
+  "asset_sha256": "20fe4489a7b3d623eed311a100ccd5ae4a072f8267cc25fcc734ff5c57708edd",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"电子维修工作台\",\n    \"short_description\": \"一张俯拍的电子维修或组装工作台，桌面上杂乱摆放着各种工具和零件。可见蓝色零件盒、黄色防静电瓶、透明塑料瓶、白色镂空容器、螺丝刀、镊子以及散落的金属支架和螺丝。\",\n    \"micro_tags\": [\n      \"维修工具\",\n      \"电子元件\",\n      \"工作台\",\n      \"零件盒\",\n      \"螺丝\",\n      \"防静电\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"室内工作台面\",\n    \"subjects\": [\n      \"蓝色塑料零件收纳盒\",\n      \"黄色挤压瓶\",\n      \"透明塑料饮料瓶\",\n      \"白色镂空圆柱形容器\",\n      \"金属螺丝与支架\",\n      \"螺丝刀\",\n      \"镊子\",\n      \"白色数据线\",\n      \"管状胶水\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"杂乱的\",\n      \"俯拍视角\",\n      \"工业风格\",\n      \"多材质混合\"\n    ],\n    \"relations\": [\n      \"物品散落在绿色防静电垫上\",\n      \"蓝色零件盒位于画面右侧\",\n      \"透明瓶子横躺在画面下方\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面右侧有一个蓝色的多格塑料盒，盒体上印有'Parts box'字样。\",\n      \"画面中央有一个黄色的瓶子，瓶身印有'ESD SAFE'标志和三角形警告符号。\",\n      \"左下方横放着一个透明的塑料瓶，瓶盖为浅蓝色，瓶身贴有包含条形码的标签。\",\n      \"桌面上散落着大量银色的金属小零件，包括L型支架、螺丝和垫片。\",\n      \"右上角有一把绿色手柄的螺丝刀和一卷白色的USB数据线。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据ESD瓶和零件盒判断，这可能是一个电子产品维修或组装的工作区域。\",\n      \"散落的金属件看起来像是某种电子设备（如硬盘或机箱）的内部结构件。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定透明瓶内液体的具体成分。\",\n      \"无法确认散落金属零件的具体所属设备型号。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"ESD SAFE\",\n      \"Parts box\",\n      \"零件盒 C\",\n      \"AB胶\",\n      \"条形码数字\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"俯拍视角下的工作台，上面摆放着蓝色零件盒、黄色瓶子、透明塑料瓶以及散落的金属螺丝和工具。\",\n    \"safe_facts\": [\n      \"场景中包含多种颜色的容器，包括蓝色、黄色、白色和透明色。\",\n      \"桌面上分布着许多细小的金属物体。\",\n      \"可以看到螺丝刀和数据线等工具。\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 715,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 715,
+        "total_tokens": 3920,
+        "estimated_cost_cny": 0.01213,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "电子维修工作台",
+          "short_description": "一张俯拍的电子维修或组装工作台，桌面上杂乱摆放着各种工具和零件。可见蓝色零件盒、黄色防静电瓶、透明塑料瓶、白色镂空容器、螺丝刀、镊子以及散落的金属支架和螺丝。",
+          "micro_tags": [
+            "维修工具",
+            "电子元件",
+            "工作台",
+            "零件盒",
+            "螺丝",
+            "防静电"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "室内工作台面",
+          "subjects": [
+            "蓝色塑料零件收纳盒",
+            "黄色挤压瓶",
+            "透明塑料饮料瓶",
+            "白色镂空圆柱形容器",
+            "金属螺丝与支架",
+            "螺丝刀",
+            "镊子",
+            "白色数据线",
+            "管状胶水"
+          ],
+          "actions": [],
+          "attributes": [
+            "杂乱的",
+            "俯拍视角",
+            "工业风格",
+            "多材质混合"
+          ],
+          "relations": [
+            "物品散落在绿色防静电垫上",
+            "蓝色零件盒位于画面右侧",
+            "透明瓶子横躺在画面下方"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "画面右侧有一个蓝色的多格塑料盒，盒体上印有'Parts box'字样。",
+            "画面中央有一个黄色的瓶子，瓶身印有'ESD SAFE'标志和三角形警告符号。",
+            "左下方横放着一个透明的塑料瓶，瓶盖为浅蓝色，瓶身贴有包含条形码的标签。",
+            "桌面上散落着大量银色的金属小零件，包括L型支架、螺丝和垫片。",
+            "右上角有一把绿色手柄的螺丝刀和一卷白色的USB数据线。"
+          ],
+          "cautious_inferences": [
+            "根据ESD瓶和零件盒判断，这可能是一个电子产品维修或组装的工作区域。",
+            "散落的金属件看起来像是某种电子设备（如硬盘或机箱）的内部结构件。"
+          ],
+          "uncertainties": [
+            "无法确定透明瓶内液体的具体成分。",
+            "无法确认散落金属零件的具体所属设备型号。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "ESD SAFE",
+            "Parts box",
+            "零件盒 C",
+            "AB胶",
+            "条形码数字"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "俯拍视角下的工作台，上面摆放着蓝色零件盒、黄色瓶子、透明塑料瓶以及散落的金属螺丝和工具。",
+          "safe_facts": [
+            "场景中包含多种颜色的容器，包括蓝色、黄色、白色和透明色。",
+            "桌面上分布着许多细小的金属物体。",
+            "可以看到螺丝刀和数据线等工具。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 2759680,
+        "request_bytes": 2066687,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.9536431000015,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "39fc3db97428e939334536bb9346ecd2f5b78575d68665056ceeb705658e833e"
+}

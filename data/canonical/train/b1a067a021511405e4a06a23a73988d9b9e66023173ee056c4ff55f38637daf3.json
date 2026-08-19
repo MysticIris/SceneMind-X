@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:907.jpg",
+    "relative_path": "train/907.jpg",
+    "sha256": "b1a067a021511405e4a06a23a73988d9b9e66023173ee056c4ff55f38637daf3",
+    "split": "train"
+  },
+  "canonical_sha256": "bd140cc1246e9107ae7a9f90d2cb9472dcadd1b8ac02d48a91ff1ff5b5a9850e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "学术报告",
+      "大学讲座",
+      "演讲者"
+    ],
+    "short_description": "一位男士在讲台上演讲，背景大屏幕显示的介绍内容。",
+    "theme": "学术报告现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "演讲者手持麦克风，正对着观众讲话。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "演讲者穿着浅色衬衫和深色裤子",
+      "屏幕显示机构名称和图文信息"
+    ],
+    "relations": [
+      "演讲者站在屏幕前。"
+    ],
+    "scene": "室内讲堂或会议厅",
+    "subjects": [
+      "一名男性演讲者",
+      "大型投影屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "演讲者手持麦克风，正对着观众讲话。",
+    "safe_facts": [
+      "演讲者手持麦克风，正对着观众讲话。"
+    ]
+  },
+  "label_id": "cpl_200b8d2ebecd189b4b881de0",
+  "provenance": {
+    "generated_at": "2026-08-03T12:48:03.109009+00:00",
+    "migrated_at": "2026-08-03T12:48:03.113102+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5fdebd0c4370a17ef76f33d7337d54157d2d6eb5da643422d1b74f3b04f69c00",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_eeec6189c0d6e2d29697d1fd",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:48:03.114176+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:actions"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_eeec6189c0d6e2d29697d1fd"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "北京航空航天大学未来空天技术学院",
+      "正在讲话: 娄波不被扛",
+      "2021年7月13日",
+      "理工结合",
+      "项目制",
+      "导师制"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "北京航空航天大学未来空天技术学院",
+      "正在讲话: 娄波不被扛",
+      "2021年7月13日",
+      "理工结合",
+      "项目制",
+      "导师制"
+    ]
+  }
+}

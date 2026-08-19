@@ -1,0 +1,1 @@
+depicted_content、scene_summary、subjects、activities、relationships、text_summary、text_uncertainty、observations、inference_candidates 和 uncertainties 原则上使用简体中文。图片中原有的品牌、型号、公式、代码、专有名词或外语可见文字可原样保留在 visible_text_candidates；避免整段英文说明和“礼box”式异常混写。

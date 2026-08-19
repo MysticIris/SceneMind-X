@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:121.jpg",
+    "relative_path": "train/121.jpg",
+    "sha256": "d87cd0c859ed963a66565861962cbc4d0635dce824dd45b204c4bc684ce8a8c1",
+    "split": "train"
+  },
+  "canonical_sha256": "2e30305e13be5c9828dafd1288273b4380ffff8f736b17a880d7194a8041ec3d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石雕牌坊",
+      "传统建筑",
+      "游客聚集"
+    ],
+    "short_description": "一座大型石质牌坊矗立于晴朗蓝天之下，顶部有传统屋檐装饰，两侧有石狮，前方有游客通行。",
+    "theme": "石雕牌坊"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "牌坊由石材建造，有多层飞檐和雕刻纹饰。",
+      "牌坊前有游客正在行走或站立。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "石质",
+      "多层结构",
+      "雕刻装饰",
+      "晴朗天气"
+    ],
+    "relations": [
+      "游客位于牌坊前方。"
+    ],
+    "scene": "户外寺庙或文化景点入口",
+    "subjects": [
+      "石牌坊",
+      "游客"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "牌坊由石材建造，有多层飞檐和雕刻纹饰；牌坊前有游客正在行走或站立。",
+    "safe_facts": [
+      "牌坊由石材建造，有多层飞檐和雕刻纹饰。",
+      "牌坊前有游客正在行走或站立。"
+    ]
+  },
+  "label_id": "cpl_263b64fa3e2c3ed351a2cf98",
+  "provenance": {
+    "generated_at": "2026-08-03T09:32:27.213055+00:00",
+    "migrated_at": "2026-08-03T09:32:27.215150+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1c991f1ec624bc6595a19103f534e5e135c3231f33da682892bc1cb0929de911",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ade120842f99db4675d18102",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:30.526071+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ade120842f99db4675d18102",
+    "cpl_b09eaca47523c8a7f0096d06"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

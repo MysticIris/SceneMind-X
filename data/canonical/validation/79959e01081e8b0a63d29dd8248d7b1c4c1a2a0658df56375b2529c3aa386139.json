@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2081.jpg",
+    "relative_path": "val/2081.jpg",
+    "sha256": "79959e01081e8b0a63d29dd8248d7b1c4c1a2a0658df56375b2529c3aa386139",
+    "split": "val"
+  },
+  "canonical_sha256": "0442b64c978d7b5bdc504ae1945fc96032a99fe40dcb7bfa441fe37283e3acae",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "示波器",
+      "方波",
+      "电子测试设备"
+    ],
+    "short_description": "屏幕上显示蓝色方波波形。",
+    "theme": "示波器波形显示"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕上显示蓝色方波波形。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色机身",
+      "彩色显示屏",
+      "数字刻度网格"
+    ],
+    "relations": [],
+    "scene": "实验室或工作台环境",
+    "subjects": [
+      "示波器"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕上显示蓝色方波波形。",
+    "safe_facts": [
+      "屏幕上显示蓝色方波波形。"
+    ]
+  },
+  "label_id": "cpl_b79c14674b66ada9e147ef5f",
+  "provenance": {
+    "generated_at": "2026-08-03T15:56:53.681893+00:00",
+    "migrated_at": "2026-08-03T15:56:53.683591+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4ad37ca8babdcf264af22afd6567c42fc1d9ba752959c715dafe02b5b0cce913",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2bce840e33f1f7c6ba088fec",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:56:53.684129+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2bce840e33f1f7c6ba088fec"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "RIGOL MSO5354",
+      "DIGITAL OSCILLOSCOPE",
+      "UltraVision",
+      "4 Channel",
+      "350MHz 8GSa/s",
+      "2.00ms"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "RIGOL MSO5354",
+      "DIGITAL OSCILLOSCOPE",
+      "UltraVision",
+      "4 Channel",
+      "350MHz 8GSa/s",
+      "2.00ms"
+    ]
+  }
+}

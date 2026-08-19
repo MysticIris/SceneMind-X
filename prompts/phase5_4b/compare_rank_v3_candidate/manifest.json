@@ -1,0 +1,11 @@
+{
+  "candidate_id": "SCENEMINDX_COMPARE_RANK_V3_CANDIDATE",
+  "parent_candidate_id": "SCENEMINDX_COMPARE_RANK_V2_CANDIDATE",
+  "status": "candidate_active_phase5_4b",
+  "iteration": 3,
+  "prompt": {
+    "prompt_id": "phase5_4b_compare_rank_v3",
+    "file": "prompts/phase5_4b/compare_rank_v3_candidate/compare_rank_v3.txt",
+    "raw_sha256": "25a0511d4849f4059086168dc94499c2b9105993ff7abe96827ff3b4fd7e2992"
+  }
+}

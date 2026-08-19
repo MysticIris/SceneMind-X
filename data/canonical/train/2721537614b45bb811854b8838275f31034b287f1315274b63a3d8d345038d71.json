@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1382.jpg",
+    "relative_path": "train/1382.jpg",
+    "sha256": "2721537614b45bb811854b8838275f31034b287f1315274b63a3d8d345038d71",
+    "split": "train"
+  },
+  "canonical_sha256": "24cc9918e73a0db301a52f55791f010c20298b70e3b5c88b8eb295470b93aef6",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "抗议活动",
+      "户外场景",
+      "横幅标语"
+    ],
+    "short_description": "数人手持横幅站在特斯拉门店前，背景有树木和车辆，横幅上有中文标语。",
+    "theme": "户外抗议场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有数人站立并手持横幅。",
+      "背景建筑上有红色特斯拉标志。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "手持横幅"
+    ],
+    "attributes": [
+      "横幅为白色底黑色字",
+      "建筑有红色特斯拉标志",
+      "部分人员戴口罩"
+    ],
+    "relations": [
+      "人员站在横幅前方。",
+      "横幅位于建筑前方。",
+      "车辆停放在路边。"
+    ],
+    "scene": "室外停车场或道路旁",
+    "subjects": [
+      "多人",
+      "横幅",
+      "特斯拉门店建筑",
+      "树木",
+      "停放车辆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有数人站立并手持横幅；背景建筑上有红色特斯拉标志。",
+    "safe_facts": [
+      "画面中有数人站立并手持横幅。",
+      "背景建筑上有红色特斯拉标志。"
+    ]
+  },
+  "label_id": "cpl_e95adbbc2a9e098f906e6fb0",
+  "provenance": {
+    "generated_at": "2026-08-03T14:15:12.646476+00:00",
+    "migrated_at": "2026-08-03T14:15:12.652424+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "eccba337a6775d0b4cf72a9e563db7868c9052036dfee2b0ebbe4c01cd909ed9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d8e24b3514eb13bb475148ce",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:15:12.653224+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d8e24b3514eb13bb475148ce"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "特斯拉无耻,昨日提车今日降价!",
+      "来吧特斯拉别耍赖!"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "特斯拉无耻,昨日提车今日降价!",
+      "来吧特斯拉别耍赖!"
+    ]
+  }
+}

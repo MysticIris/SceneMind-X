@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:529.jpg",
+    "relative_path": "train/529.jpg",
+    "sha256": "d7215087aaead40271813986cc28dc42eabfd69c1aa10f7dd6b1ae64fdb26f8d",
+    "split": "train"
+  },
+  "canonical_sha256": "d395b8ebac784b4737df82daa0c2779b1130974984e1d35740146fbbb4f3a442",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古典建筑",
+      "草坪",
+      "柱廊",
+      "晴天"
+    ],
+    "short_description": "晴朗天空下，一座宏伟的古典风格建筑矗立在宽阔草坪前，建筑立面有高大柱廊和浮雕铭文，周围绿树成荫。",
+    "theme": "古典建筑前草坪"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑为浅色石材建造，具有古典柱式结构。",
+      "前景为大片修剪整齐的绿色草坪。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "石质外墙",
+      "多根立柱",
+      "绿色草坪",
+      "蓝天白云"
+    ],
+    "relations": [
+      "建筑位于草坪后方。",
+      "树木环绕建筑基座。"
+    ],
+    "scene": "户外校园或公共广场",
+    "subjects": [
+      "建筑",
+      "草坪",
+      "树木",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑为浅色石材建造，具有古典柱式结构；前景为大片修剪整齐的绿色草坪。",
+    "safe_facts": [
+      "建筑为浅色石材建造，具有古典柱式结构。",
+      "前景为大片修剪整齐的绿色草坪。"
+    ]
+  },
+  "label_id": "cpl_a60201a2585587b2dcd5d523",
+  "provenance": {
+    "generated_at": "2026-08-03T11:23:14.153609+00:00",
+    "migrated_at": "2026-08-03T11:23:14.155872+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ce303cead131abf9ffef3f28600420674e78402a65c69bb0c23108ffe170c678",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7c1108e71abd4b23e3d2424e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:23:14.156218+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7c1108e71abd4b23e3d2424e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

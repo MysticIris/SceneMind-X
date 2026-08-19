@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:605.jpg",
+    "relative_path": "train/605.jpg",
+    "sha256": "dee2e908a1a6b877b1bed3e14aa27fb4153ad822a3caf6cb7a8cd009c6ed8acf",
+    "split": "train"
+  },
+  "canonical_sha256": "19b6aea4860b21350c4449bd25045c3a42f5d4dc6ac0310e88d69bfb6f21bd2a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "海鲜拼盘",
+      "冰镇",
+      "多人聚餐",
+      "日式料理"
+    ],
+    "short_description": "圆形餐桌摆满多款冰镇海鲜拼盘，配以酱料和汤锅，多人聚餐场景。",
+    "theme": "海鲜冰镇拼盘"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多个装有冰块的白色或彩色碗中盛放着不同种类的生海鲜。",
+      "桌上摆放着多个小碗装的蘸料和几口金属汤锅。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "冰镇",
+      "多盘拼盘",
+      "圆形转盘"
+    ],
+    "relations": [
+      "拼盘放置于转盘上。",
+      "拼盘周围有酱料碗和汤锅。"
+    ],
+    "scene": "室内餐厅餐桌",
+    "subjects": [
+      "海鲜拼盘",
+      "餐具",
+      "汤锅",
+      "用餐者"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多个装有冰块的白色或彩色碗中盛放着不同种类的生海鲜；桌上摆放着多个小碗装的蘸料和几口金属汤锅。",
+    "safe_facts": [
+      "多个装有冰块的白色或彩色碗中盛放着不同种类的生海鲜。",
+      "桌上摆放着多个小碗装的蘸料和几口金属汤锅。"
+    ]
+  },
+  "label_id": "cpl_dd322583792fe9a12f3c8ae5",
+  "provenance": {
+    "generated_at": "2026-08-03T11:43:08.841351+00:00",
+    "migrated_at": "2026-08-03T11:43:08.843552+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "84fb00156859a787efeed3ae79d27a959d06ed7f623fbbfb89aa06a19c5c7361",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_83d9cbe27de0ac8e7201990b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:43:08.843763+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_83d9cbe27de0ac8e7201990b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

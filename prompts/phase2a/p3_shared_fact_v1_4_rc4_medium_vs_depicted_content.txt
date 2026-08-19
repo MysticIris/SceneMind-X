@@ -1,0 +1,1 @@
+先判断图片本身的媒介。包装、屏幕、幻灯片、海报和表情包内部呈现的内容写入 depicted_content，不把内部插画或画面当成现实现场。visual_medium=packaging 只用于包装作为主要媒介；手持包装照片可用 real_world_photo，并明确包装与内部插画的层次。

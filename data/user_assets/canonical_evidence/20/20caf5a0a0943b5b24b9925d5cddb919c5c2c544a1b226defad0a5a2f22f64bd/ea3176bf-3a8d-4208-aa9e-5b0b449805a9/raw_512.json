@@ -1,0 +1,117 @@
+{
+  "asset_id": "20caf5a0a0943b5b",
+  "asset_sha256": "20caf5a0a0943b5b24b9925d5cddb919c5c2c544a1b226defad0a5a2f22f64bd",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"女子怀抱小猫\",\n    \"short_description\": \"一名留着棕色长发的女子身穿黑红相间图案的上衣，怀中抱着一只灰色虎斑猫。猫咪头部探出，眼神向上看，背景为铺有瓷砖的室内墙面。\",\n    \"micro_tags\": [\n      \"抱猫\",\n      \"灰猫\",\n      \"长发女子\",\n      \"室内\",\n      \"宠物\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"室内走廊或房间角落\",\n    \"subjects\": [\n      \"女子\",\n      \"猫\"\n    ],\n    \"actions\": [\n      \"拥抱\",\n      \"注视\"\n    ],\n    \"attributes\": [\n      \"长发\",\n      \"黑色上衣\",\n      \"红色线条图案\",\n      \"灰色虎斑纹\",\n      \"瓷砖地面\"\n    ],\n    \"relations\": [\n      \"女子抱着猫\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面主体为一名背侧视角的长发女子，身穿带有红色网状或线条图案的黑色连帽衫。\",\n      \"女子双手环抱一只灰色条纹的小猫，猫脸清晰可见，正看向右上方。\",\n      \"背景墙面由浅灰色方形瓷砖拼接而成，墙上贴有带红字的标识牌。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据墙上的标识牌样式，该地点可能为公共建筑内部或公寓楼道。\",\n      \"女子的服装风格看起来像是休闲卫衣或某种角色扮演服饰。\"\n    ],\n    \"uncertainties\": [\n      \"无法确认女子的具体面部特征，因为头发遮挡且未正对镜头。\",\n      \"背景标识牌上的具体文字因模糊无法完全辨认。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_unreadable\",\n    \"visual_candidates\": []\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一名长发女子在室内环境中怀抱一只灰色小猫，背景可见瓷砖墙壁。\",\n    \"safe_facts\": [\n      \"图中包含一名人类和一只猫。\",\n      \"人物穿着深色带红色花纹的上衣。\",\n      \"环境具有明显的瓷砖纹理特征。\"\n    ]\n  }\n}",
+      "input_tokens": 2080,
+      "output_tokens": 554,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 2080,
+        "output_tokens": 554,
+        "total_tokens": 2634,
+        "estimated_cost_cny": 0.008592,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "女子怀抱小猫",
+          "short_description": "一名留着棕色长发的女子身穿黑红相间图案的上衣，怀中抱着一只灰色虎斑猫。猫咪头部探出，眼神向上看，背景为铺有瓷砖的室内墙面。",
+          "micro_tags": [
+            "抱猫",
+            "灰猫",
+            "长发女子",
+            "室内",
+            "宠物"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "室内走廊或房间角落",
+          "subjects": [
+            "女子",
+            "猫"
+          ],
+          "actions": [
+            "拥抱",
+            "注视"
+          ],
+          "attributes": [
+            "长发",
+            "黑色上衣",
+            "红色线条图案",
+            "灰色虎斑纹",
+            "瓷砖地面"
+          ],
+          "relations": [
+            "女子抱着猫"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "画面主体为一名背侧视角的长发女子，身穿带有红色网状或线条图案的黑色连帽衫。",
+            "女子双手环抱一只灰色条纹的小猫，猫脸清晰可见，正看向右上方。",
+            "背景墙面由浅灰色方形瓷砖拼接而成，墙上贴有带红字的标识牌。"
+          ],
+          "cautious_inferences": [
+            "根据墙上的标识牌样式，该地点可能为公共建筑内部或公寓楼道。",
+            "女子的服装风格看起来像是休闲卫衣或某种角色扮演服饰。"
+          ],
+          "uncertainties": [
+            "无法确认女子的具体面部特征，因为头发遮挡且未正对镜头。",
+            "背景标识牌上的具体文字因模糊无法完全辨认。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_unreadable",
+          "visual_candidates": []
+        },
+        "fallback": {
+          "safe_caption": "一名长发女子在室内环境中怀抱一只灰色小猫，背景可见瓷砖墙壁。",
+          "safe_facts": [
+            "图中包含一名人类和一只猫。",
+            "人物穿着深色带红色花纹的上衣。",
+            "环境具有明显的瓷砖纹理特征。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 161032,
+        "request_bytes": 117700,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 10.464071900001727,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "b72595cee06724c427364bf47197a845387d4df39cc8b28279689c6637660f3f"
+}

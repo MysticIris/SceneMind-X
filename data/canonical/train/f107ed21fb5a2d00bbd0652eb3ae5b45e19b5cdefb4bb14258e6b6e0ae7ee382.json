@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:824.jpg",
+    "relative_path": "train/824.jpg",
+    "sha256": "f107ed21fb5a2d00bbd0652eb3ae5b45e19b5cdefb4bb14258e6b6e0ae7ee382",
+    "split": "train"
+  },
+  "canonical_sha256": "712330956dea0097e80c4bc6880f1f9c2bf5536d67b50934d8488dc81be24b6f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "皮卡丘",
+      "闪电",
+      "精灵球",
+      "卡通图案"
+    ],
+    "short_description": "黑色背景上，橙色皮卡丘手持精灵球，周围环绕黄色与白色闪电图案，风格简洁醒目。",
+    "theme": "皮卡丘闪电主题"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "闪电图案围绕皮卡丘分布，可能象征其电系特性。"
+    ],
+    "direct_observations": [
+      "皮卡丘呈橙色，有黑色眼睛和耳朵轮廓。",
+      "皮卡丘双手握着一个精灵球。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "手持精灵球"
+    ],
+    "attributes": [
+      "橙色",
+      "黑色背景",
+      "闪电图案"
+    ],
+    "relations": [
+      "皮卡丘位于画面中央。"
+    ],
+    "scene": "平面印刷图案",
+    "subjects": [
+      "皮卡丘"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "闪电图案围绕皮卡丘分布，可能象征其电系特性。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "皮卡丘呈橙色，有黑色眼睛和耳朵轮廓；皮卡丘双手握着一个精灵球。",
+    "safe_facts": [
+      "皮卡丘呈橙色，有黑色眼睛和耳朵轮廓。",
+      "皮卡丘双手握着一个精灵球。"
+    ]
+  },
+  "label_id": "cpl_f2e93f6a4754ef331311b3ac",
+  "provenance": {
+    "generated_at": "2026-08-03T12:30:47.338019+00:00",
+    "migrated_at": "2026-08-03T12:30:47.341733+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cadcf4bb99242aec6d48cae80fdac8ce3e29436f2a1dc7405f6825d81f99240d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_752c7c6235e203f5aa4bded9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:30:47.342076+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_752c7c6235e203f5aa4bded9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

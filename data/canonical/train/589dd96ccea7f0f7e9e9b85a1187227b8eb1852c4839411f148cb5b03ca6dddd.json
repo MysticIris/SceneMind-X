@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1777.jpg",
+    "relative_path": "train/1777.jpg",
+    "sha256": "589dd96ccea7f0f7e9e9b85a1187227b8eb1852c4839411f148cb5b03ca6dddd",
+    "split": "train"
+  },
+  "canonical_sha256": "c336bf77a11d89e7048cc6635c4c5d36e669e9ab0de07722377864dfcd678df4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "恐龙模型",
+      "丛林环境",
+      "仿真动物"
+    ],
+    "short_description": "一只棕色条纹恐龙模型站在茂密的绿色植物丛中，周围环绕着蕨类和棕榈叶。",
+    "theme": "丛林恐龙模型"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "恐龙模型位于画面中央，身体呈棕色并带有深色纵向条纹。",
+      "周围环绕大量绿色叶片和低矮植物，包括宽叶植物和细长叶植物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "棕色身体",
+      "深色条纹",
+      "张开的嘴",
+      "四足站立"
+    ],
+    "relations": [],
+    "scene": "茂密的绿色植被区域",
+    "subjects": [
+      "恐龙模型"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "恐龙模型位于画面中央，身体呈棕色并带有深色纵向条纹；周围环绕大量绿色叶片和低矮植物，包括宽叶植物和细长叶植物。",
+    "safe_facts": [
+      "恐龙模型位于画面中央，身体呈棕色并带有深色纵向条纹。",
+      "周围环绕大量绿色叶片和低矮植物，包括宽叶植物和细长叶植物。"
+    ]
+  },
+  "label_id": "cpl_6f4db4d547e78f581a1825f2",
+  "provenance": {
+    "generated_at": "2026-08-03T15:04:27.869602+00:00",
+    "migrated_at": "2026-08-03T15:04:27.871621+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "96042bfe8da15694a42535864b0c1f53470084438f2f02ae6166fdb8cf69525c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_52593740759005bbead1c23c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:04:27.871965+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_52593740759005bbead1c23c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:113.jpg",
+    "relative_path": "train/113.jpg",
+    "sha256": "67c801fbbe4dac88af451998627fb5cce1a282b826bda34103756cbe908d3ac2",
+    "split": "train"
+  },
+  "canonical_sha256": "7a66b09c1b34af5d64f7be5730175a3f37dd45d1ada4556929b007283cc08f9c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "室内花园",
+      "悬空步道",
+      "玻璃幕墙"
+    ],
+    "short_description": "多层玻璃建筑内，悬挂式绿植与木质步道交织，人群在其中穿行，营造出自然与现代融合的沉浸式空间。",
+    "theme": "室内垂直森林"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多个大型树木被固定在空中位置。",
+      "多条木质步道环绕并贯穿建筑各层。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "多层结构",
+      "绿色植物",
+      "木质装饰",
+      "透明玻璃"
+    ],
+    "relations": [
+      "树木悬挂在步道上方。",
+      "步道连接不同楼层。"
+    ],
+    "scene": "大型室内多层空间",
+    "subjects": [
+      "行人",
+      "树木",
+      "步道",
+      "玻璃幕墙"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多个大型树木被固定在空中位置；多条木质步道环绕并贯穿建筑各层。",
+    "safe_facts": [
+      "多个大型树木被固定在空中位置。",
+      "多条木质步道环绕并贯穿建筑各层。"
+    ]
+  },
+  "label_id": "cpl_36a7d69d262b860de07197e4",
+  "provenance": {
+    "generated_at": "2026-08-03T09:31:07.463822+00:00",
+    "migrated_at": "2026-08-03T09:31:07.465329+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "131b4a31b5ef7439ef8a90cb0c4fd073cf8c644a38f9161217abeecac48244ba",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c5faf183af637d648a961b88",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:30.070837+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c5faf183af637d648a961b88",
+    "cpl_bb4cbb2ae0ad1d97c17b405b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

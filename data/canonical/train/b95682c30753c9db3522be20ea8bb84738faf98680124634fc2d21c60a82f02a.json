@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:398.jpg",
+    "relative_path": "train/398.jpg",
+    "sha256": "b95682c30753c9db3522be20ea8bb84738faf98680124634fc2d21c60a82f02a",
+    "split": "train"
+  },
+  "canonical_sha256": "f629749d42a2c859452c00fc13abd9ef061dad3093cec70086f467d7eccc6d95",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "春日",
+      "公园",
+      "野餐",
+      "赏花"
+    ],
+    "short_description": "晴朗天气下，众多游客在开满花树的草坪上休闲野餐，享受户外时光。",
+    "theme": "春日公园赏花"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "人们可能在进行休闲活动如野餐或散步。"
+    ],
+    "direct_observations": [
+      "大量游客分散在绿色草地上。",
+      "背景中有成排的开花树木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "坐着",
+      "躺着",
+      "行走",
+      "拍照"
+    ],
+    "attributes": [
+      "晴朗天空",
+      "绿色草地",
+      "盛开的花树",
+      "穿着各异的游客"
+    ],
+    "relations": [
+      "人群分布在草坪上。",
+      "花树位于人群后方。",
+      "游客与花树相邻。"
+    ],
+    "scene": "开阔草坪上的公共休闲区域",
+    "subjects": [
+      "人群",
+      "花树",
+      "草地"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "人们可能在进行休闲活动如野餐或散步。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大量游客分散在绿色草地上；背景中有成排的开花树木。",
+    "safe_facts": [
+      "大量游客分散在绿色草地上。",
+      "背景中有成排的开花树木。"
+    ]
+  },
+  "label_id": "cpl_c7a8e4e7eb572e579d22700d",
+  "provenance": {
+    "generated_at": "2026-08-03T10:54:50.449309+00:00",
+    "migrated_at": "2026-08-03T10:54:50.450906+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bc9406104439e56dbeac1d187a204e6b41666116b519012bc58d59517f437126",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6e90edc5e7bcc2e267c6675b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:54:50.451296+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6e90edc5e7bcc2e267c6675b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

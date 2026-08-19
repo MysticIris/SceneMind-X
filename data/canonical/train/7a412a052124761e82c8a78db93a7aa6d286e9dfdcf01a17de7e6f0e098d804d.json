@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:885.jpg",
+    "relative_path": "train/885.jpg",
+    "sha256": "7a412a052124761e82c8a78db93a7aa6d286e9dfdcf01a17de7e6f0e098d804d",
+    "split": "train"
+  },
+  "canonical_sha256": "6197a9c90736ef34c4247048a4fd63694ede982e187b0609578a1525c6264e2c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "乡村街道",
+      "黄昏",
+      "电线杆",
+      "儿童"
+    ],
+    "short_description": "傍晚时分，乡村街道上有人物活动，电线杆与远山构成背景，天空中可见月亮。",
+    "theme": "乡村黄昏街景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线表明时间接近黄昏。"
+    ],
+    "direct_observations": [
+      "画面中有电线杆及多条电线。",
+      "天空中可见一轮明月。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "男孩站立并伸展手臂",
+      "成人推着婴儿车"
+    ],
+    "attributes": [
+      "天空呈蓝色渐变",
+      "有电线杆和电线",
+      "远处有山脉"
+    ],
+    "relations": [
+      "男孩位于画面右侧。",
+      "成人与婴儿在画面左侧。",
+      "婴儿在婴儿车中。"
+    ],
+    "scene": "乡村街道",
+    "subjects": [
+      "一名男孩",
+      "两名成人",
+      "一名婴儿"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线表明时间接近黄昏。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有电线杆及多条电线；天空中可见一轮明月。",
+    "safe_facts": [
+      "画面中有电线杆及多条电线。",
+      "天空中可见一轮明月。"
+    ]
+  },
+  "label_id": "cpl_de43efff05223013711d0014",
+  "provenance": {
+    "generated_at": "2026-08-03T12:43:22.225250+00:00",
+    "migrated_at": "2026-08-03T12:43:22.227846+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "615889ea4b76bf245e3b19487fe53621db5036bcb89d524289124308b907e9c2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_93dcb148ca761c2c7eda1f05",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:43:22.228203+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_93dcb148ca761c2c7eda1f05"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

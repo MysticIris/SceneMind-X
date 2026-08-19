@@ -1,0 +1,114 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1648.jpg",
+    "relative_path": "train/1648.jpg",
+    "sha256": "b7268a8bb6f301a7dd4f7fe572bc071dfda8e509d3f576dc0389551a75615ad7",
+    "split": "train"
+  },
+  "canonical_sha256": "3497066b982f246a34a899a6bad50f01d2dbe868b9663c45e7f70f4a3fd7b056",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "卡通狗",
+      "柯基犬",
+      "项圈"
+    ],
+    "short_description": "一只橙白相间的卡通柯基犬，戴着项圈，站立着，表情可爱。",
+    "theme": "卡通柯基犬"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "主体是一只卡通风格的柯基犬。",
+      "犬身上有橙色和白色毛发，佩戴红色项圈并带金色圆形吊牌。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "橙白相间",
+      "戴项圈",
+      "站立"
+    ],
+    "relations": [],
+    "scene": "无具体场景",
+    "subjects": [
+      "卡通柯基犬"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "主体是一只卡通风格的柯基犬；犬身上有橙色和白色毛发，佩戴红色项圈并带金色圆形吊牌。",
+    "safe_facts": [
+      "主体是一只卡通风格的柯基犬。",
+      "犬身上有橙色和白色毛发，佩戴红色项圈并带金色圆形吊牌。"
+    ]
+  },
+  "label_id": "cpl_2287837b11b7ed43be2ff450",
+  "provenance": {
+    "generated_at": "2026-08-03T14:49:26.768627+00:00",
+    "migrated_at": "2026-08-03T14:49:26.772033+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3fb07a46fa291d0c8fbda6c61cd3790e8002dc627bb4e8cf6a9ea2e447769897",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7867023be3812eccc542e621",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:49:26.772393+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7867023be3812eccc542e621"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

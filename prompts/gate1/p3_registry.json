@@ -1,0 +1,45 @@
+{
+  "schema_version": "scenemindx_core_prompt_registry_v1",
+  "default_prompt": "p3_v1_4",
+  "bundle_sha256_algorithm": "sha256(join(stage_id + NUL + stage_file_sha256, NUL))",
+  "generation": {
+    "do_sample": false,
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "repetition_penalty": 1.05,
+    "no_repeat_ngram_size": 6
+  },
+  "prompts": {
+    "p3_v1_3": {
+      "version": "P3 v1.3",
+      "status": "historical_baseline",
+      "bundle_sha256": "1c74c155d0b0eff02ff97ab3760d8e88c898fa453b8d5ecdb1c6b646fc1a8a7d",
+      "stages": [
+        {"id": "global_subjects", "file": "p3/global_subjects.txt", "sha256": "8e9f46d5adc6342bbee3d5c5970e1edd64eda9fdc923ac48de1b891ed7ef6880", "max_new_tokens": 64, "fields": ["global_observation", "subjects"]},
+        {"id": "activities", "file": "p3/activities.txt", "sha256": "efabe00324951b215a0c33888b96262fe2dd1002267d8482c0a50090a1e61e72", "max_new_tokens": 32, "fields": ["activities"]},
+        {"id": "attributes", "file": "p3/attributes.txt", "sha256": "1561906a02613448153bf5a8494a94ae9b9475712134119005339de2534e1daa", "max_new_tokens": 40, "fields": ["attributes"]},
+        {"id": "relations", "file": "p3/relations.txt", "sha256": "93407d0445c25582a1c2da07422f16d6550d4fdf37e8fdb33e0148d9416a61ef", "max_new_tokens": 40, "fields": ["relations"]},
+        {"id": "visible_text", "file": "p3/visible_text.txt", "sha256": "9206f3033f3e9768aba40c2f6ae6075e5d490f7a3c37711dbc30c5d548a53ccb", "max_new_tokens": 24, "fields": ["visible_text_candidates"]},
+        {"id": "scene_hypotheses", "file": "p3/scene_hypotheses.txt", "sha256": "7cf12db8ce9ce947728490c59b81c6dad6e664d5bd1881b7e6fe6b22940805af", "max_new_tokens": 48, "fields": ["scene_hypotheses"]},
+        {"id": "uncertainties", "file": "p3/uncertainties.txt", "sha256": "91828ca1da093d50ec9358ad28eedd40daec42405cb03fff59463ff5e4143564", "max_new_tokens": 40, "fields": ["uncertainties"]},
+        {"id": "evidence", "file": "p3/evidence.txt", "sha256": "b831838b1b364a06794b44cb553f74879fe6136af0f86c9eff5bb555a9811ccb", "max_new_tokens": 48, "fields": ["evidence_descriptions"]}
+      ]
+    },
+    "p3_v1_4": {
+      "version": "P3 v1.4",
+      "status": "production_default",
+      "bundle_sha256": "34cfdf01f958ce07421591569213695c2e30e500128ddd859d7e64b23a84c64c",
+      "selected_by": "Phase 3C Train-only Blind-32",
+      "stages": [
+        {"id": "global_subjects", "file": "p3/global_subjects.txt", "sha256": "8e9f46d5adc6342bbee3d5c5970e1edd64eda9fdc923ac48de1b891ed7ef6880", "max_new_tokens": 64, "fields": ["global_observation", "subjects"]},
+        {"id": "activities", "file": "p3/activities.txt", "sha256": "efabe00324951b215a0c33888b96262fe2dd1002267d8482c0a50090a1e61e72", "max_new_tokens": 32, "fields": ["activities"]},
+        {"id": "attributes", "file": "p3/attributes.txt", "sha256": "1561906a02613448153bf5a8494a94ae9b9475712134119005339de2534e1daa", "max_new_tokens": 40, "fields": ["attributes"]},
+        {"id": "relations", "file": "p3/relations.txt", "sha256": "93407d0445c25582a1c2da07422f16d6550d4fdf37e8fdb33e0148d9416a61ef", "max_new_tokens": 40, "fields": ["relations"]},
+        {"id": "visible_text", "file": "p3_v1_4/visible_text.txt", "sha256": "77bd55e547425932ada6fa0ae49ed9c436c2d834cf45f82c88096495902fef6e", "max_new_tokens": 24, "fields": ["visible_text_candidates"]},
+        {"id": "scene_hypotheses", "file": "p3/scene_hypotheses.txt", "sha256": "7cf12db8ce9ce947728490c59b81c6dad6e664d5bd1881b7e6fe6b22940805af", "max_new_tokens": 48, "fields": ["scene_hypotheses"]},
+        {"id": "uncertainties", "file": "p3/uncertainties.txt", "sha256": "91828ca1da093d50ec9358ad28eedd40daec42405cb03fff59463ff5e4143564", "max_new_tokens": 40, "fields": ["uncertainties"]},
+        {"id": "evidence", "file": "p3/evidence.txt", "sha256": "b831838b1b364a06794b44cb553f74879fe6136af0f86c9eff5bb555a9811ccb", "max_new_tokens": 48, "fields": ["evidence_descriptions"]}
+      ]
+    }
+  }
+}

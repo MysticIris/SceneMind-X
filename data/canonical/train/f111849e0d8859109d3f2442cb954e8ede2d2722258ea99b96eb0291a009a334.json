@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1142.jpg",
+    "relative_path": "train/1142.jpg",
+    "sha256": "f111849e0d8859109d3f2442cb954e8ede2d2722258ea99b96eb0291a009a334",
+    "split": "train"
+  },
+  "canonical_sha256": "71563b7b0cf22c4230074551a4cdaa867ef8f294c46a49009a8ca29ffb717ea8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "梨形水池",
+      "城市夜景",
+      "商场入口"
+    ],
+    "short_description": "夜晚城市广场，一个大型梨形水池雕塑旁，背景是商场建筑，灯光映照下呈现现代都市景观。",
+    "theme": "户外艺术装置"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有一个大型梨形水池雕塑，边缘为白色，内部呈浅绿色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "大型",
+      "发光",
+      "浅绿色",
+      "白色边框"
+    ],
+    "relations": [
+      "水池雕塑位于商场前方。"
+    ],
+    "scene": "城市广场夜景",
+    "subjects": [
+      "梨形水池雕塑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一个大型梨形水池雕塑，边缘为白色，内部呈浅绿色。",
+    "safe_facts": [
+      "画面中央有一个大型梨形水池雕塑，边缘为白色，内部呈浅绿色。"
+    ]
+  },
+  "label_id": "cpl_493cb59c3501d372814802c5",
+  "provenance": {
+    "generated_at": "2026-08-03T13:43:15.496728+00:00",
+    "migrated_at": "2026-08-03T13:43:15.499913+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b451d9c41a354ea9b1bd3ee6bfad69e819b595e0e4717a81d2716fa468b258fd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_545bd442d51c5aaef12d54b8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:43:15.500402+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_545bd442d51c5aaef12d54b8"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "K11",
+      "WELCOME"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "K11",
+      "WELCOME"
+    ]
+  }
+}

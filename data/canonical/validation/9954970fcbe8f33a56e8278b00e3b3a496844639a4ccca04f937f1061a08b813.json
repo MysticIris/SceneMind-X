@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2260.jpg",
+    "relative_path": "val/2260.jpg",
+    "sha256": "9954970fcbe8f33a56e8278b00e3b3a496844639a4ccca04f937f1061a08b813",
+    "split": "val"
+  },
+  "canonical_sha256": "1e751e0b97cf5ed0846fbc7f1702c4ec611119ee317dcbc55c624f22619cd6d7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "室内",
+      "三人",
+      "沙发",
+      "吊灯"
+    ],
+    "short_description": "三位女性坐在客厅沙发上，其中一人比出OK手势，背景有窗帘和吊灯。",
+    "theme": "室内三人合影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "房间内光线来自窗户。"
+    ],
+    "direct_observations": [
+      "三名女性并排坐在沙发上。",
+      "天花板悬挂着一盏水晶吊灯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "比出OK手势",
+      "坐着"
+    ],
+    "attributes": [
+      "戴眼镜",
+      "穿夹克",
+      "穿花纹上衣"
+    ],
+    "relations": [
+      "三人并排坐。",
+      "坐在沙发上。"
+    ],
+    "scene": "客厅",
+    "subjects": [
+      "戴眼镜的女性",
+      "穿夹克的女性",
+      "穿花纹上衣的女性"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "房间内光线来自窗户。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三名女性并排坐在沙发上；天花板悬挂着一盏水晶吊灯。",
+    "safe_facts": [
+      "三名女性并排坐在沙发上。",
+      "天花板悬挂着一盏水晶吊灯。"
+    ]
+  },
+  "label_id": "cpl_b77bbed5ce889f3fc47c7dec",
+  "provenance": {
+    "generated_at": "2026-08-03T16:21:09.288606+00:00",
+    "migrated_at": "2026-08-03T16:21:09.290109+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bf553f77497987632dc4157fb8815553c2f7ec17e9e25990a04d85299e3f302d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0ad10ebf467a9932490566c0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:21:09.290507+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0ad10ebf467a9932490566c0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

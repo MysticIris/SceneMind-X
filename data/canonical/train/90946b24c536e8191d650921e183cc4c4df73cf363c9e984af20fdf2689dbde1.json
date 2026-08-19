@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1642.jpg",
+    "relative_path": "train/1642.jpg",
+    "sha256": "90946b24c536e8191d650921e183cc4c4df73cf363c9e984af20fdf2689dbde1",
+    "split": "train"
+  },
+  "canonical_sha256": "17cc04bedf00e358bf8e7277586360d5369695825a142dc91306b8977872cdff",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式建筑",
+      "红灯笼",
+      "木结构",
+      "游客"
+    ],
+    "short_description": "一座多层中式传统木结构门楼，悬挂红灯笼，雕花栏杆，游客撑伞穿行于拱门下。",
+    "theme": "中式古建筑门楼"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "门楼为多层木结构，屋顶有翘角和装饰性构件。",
+      "门楼各层悬挂多个红色灯笼。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "多层结构",
+      "雕花装饰",
+      "深色木质",
+      "悬挂红灯笼"
+    ],
+    "relations": [
+      "游客位于门楼下方。",
+      "红灯笼悬挂在门楼各层。"
+    ],
+    "scene": "古建筑入口区域",
+    "subjects": [
+      "门楼",
+      "游客",
+      "红灯笼"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "门楼为多层木结构，屋顶有翘角和装饰性构件；门楼各层悬挂多个红色灯笼。",
+    "safe_facts": [
+      "门楼为多层木结构，屋顶有翘角和装饰性构件。",
+      "门楼各层悬挂多个红色灯笼。"
+    ]
+  },
+  "label_id": "cpl_aa43bbb3e3c8c4ba997c49b6",
+  "provenance": {
+    "generated_at": "2026-08-03T14:48:44.062364+00:00",
+    "migrated_at": "2026-08-03T14:48:44.065101+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "aca5c8597c558efedb48f8403bbf9c81bdbfd76eaf3c4ebe4086b8288267e32b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9a475c1f0e691377de28413e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:48:44.067605+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9a475c1f0e691377de28413e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

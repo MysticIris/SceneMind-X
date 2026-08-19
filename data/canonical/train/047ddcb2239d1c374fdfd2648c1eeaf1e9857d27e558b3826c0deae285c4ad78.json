@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1337.jpg",
+    "relative_path": "train/1337.jpg",
+    "sha256": "047ddcb2239d1c374fdfd2648c1eeaf1e9857d27e558b3826c0deae285c4ad78",
+    "split": "train"
+  },
+  "canonical_sha256": "60614536255074944f47be7d0586b59816663f2c37510c7d28c77bd73644d1d1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "吸顶灯",
+      "LED灯珠",
+      "电路板",
+      "天花板安装"
+    ],
+    "short_description": "白色圆形吸顶灯内部，可见环形LED灯珠、电线及电路板，安装于天花板。",
+    "theme": "圆形LED灯内部结构"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "灯体呈白色圆形，边缘有固定螺丝孔。",
+      "环形LED灯珠排列整齐，部分被透明罩覆盖。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色",
+      "圆形",
+      "透明罩",
+      "金属支架"
+    ],
+    "relations": [
+      "LED灯珠环绕中心。",
+      "电线连接电路板。"
+    ],
+    "scene": "室内天花板",
+    "subjects": [
+      "吸顶灯",
+      "LED灯珠",
+      "电线",
+      "电路板"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "灯体呈白色圆形，边缘有固定螺丝孔；环形LED灯珠排列整齐，部分被透明罩覆盖。",
+    "safe_facts": [
+      "灯体呈白色圆形，边缘有固定螺丝孔。",
+      "环形LED灯珠排列整齐，部分被透明罩覆盖。"
+    ]
+  },
+  "label_id": "cpl_d80b360fa10206201f2f5384",
+  "provenance": {
+    "generated_at": "2026-08-03T14:09:51.119935+00:00",
+    "migrated_at": "2026-08-03T14:09:51.123934+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "77b53c409835e617cd7c0a00e9fd0c06f3bc3033e854cb08d6fa7a8c8f552aec",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_284865cb9479f8ec766b2092",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:09:51.124322+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_284865cb9479f8ec766b2092"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

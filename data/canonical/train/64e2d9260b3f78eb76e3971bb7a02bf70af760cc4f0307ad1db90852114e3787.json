@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:557.jpg",
+    "relative_path": "train/557.jpg",
+    "sha256": "64e2d9260b3f78eb76e3971bb7a02bf70af760cc4f0307ad1db90852114e3787",
+    "split": "train"
+  },
+  "canonical_sha256": "145e87caccb3a2918009109ee2cc3a0bd69da61fe295110eb49517e2866319d3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "教室",
+      "授课",
+      "学生",
+      "投影屏幕"
+    ],
+    "short_description": "一间大学教室里，讲师站在讲台前讲解，学生坐在课桌前听讲，前方投影屏幕显示课程内容。",
+    "theme": "教室授课场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "室内有多排木质课桌椅，呈阶梯式排列。",
+      "天花板上装有多个长方形荧光灯和通风口。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "讲师讲解",
+      "学生听讲"
+    ],
+    "attributes": [
+      "天花板有通风口",
+      "课桌为木质",
+      "墙壁有黑板"
+    ],
+    "relations": [
+      "讲师站在讲台前。",
+      "学生坐在课桌前。",
+      "投影屏幕位于讲台后方。"
+    ],
+    "scene": "大学教室",
+    "subjects": [
+      "讲师",
+      "学生",
+      "投影屏幕",
+      "讲台"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "室内有多排木质课桌椅，呈阶梯式排列；天花板上装有多个长方形荧光灯和通风口。",
+    "safe_facts": [
+      "室内有多排木质课桌椅，呈阶梯式排列。",
+      "天花板上装有多个长方形荧光灯和通风口。"
+    ]
+  },
+  "label_id": "cpl_9d55143acf2a49fdad6bfc58",
+  "provenance": {
+    "generated_at": "2026-08-03T11:32:49.088860+00:00",
+    "migrated_at": "2026-08-03T11:32:49.091514+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "026b8a882fdb125c663ac01120229467cb785c47ceb502cc4d65f7ab35f28285",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_620487bd5ecddb5888e92a69",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:32:49.091862+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_620487bd5ecddb5888e92a69"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

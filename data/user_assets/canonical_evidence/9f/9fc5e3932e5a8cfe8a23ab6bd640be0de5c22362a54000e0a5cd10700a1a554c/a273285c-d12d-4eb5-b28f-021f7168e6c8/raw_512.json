@@ -1,0 +1,125 @@
+{
+  "asset_id": "9fc5e3932e5a8cfe",
+  "asset_sha256": "9fc5e3932e5a8cfe8a23ab6bd640be0de5c22362a54000e0a5cd10700a1a554c",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"城市路口交通执勤\",\n    \"short_description\": \"晴朗天气下的城市十字路口，一名身穿荧光黄反光背心的人员站在路边石球旁。路面有斑马线，背景可见行驶的白色SUV、红色公交车及远处的现代建筑与山峦。\",\n    \"micro_tags\": [\n      \"交通指挥\",\n      \"城市街景\",\n      \"斑马线\",\n      \"石球路障\",\n      \"反光背心\",\n      \"晴天\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"城市道路交叉口及人行道区域\",\n    \"subjects\": [\n      \"穿荧光色背心的人员\",\n      \"白色SUV\",\n      \"红色公交车\",\n      \"球形石墩\",\n      \"斑马线\",\n      \"远处建筑\"\n    ],\n    \"actions\": [\n      \"站立\",\n      \"行驶\",\n      \"等待\"\n    ],\n    \"attributes\": [\n      \"晴朗\",\n      \"光照充足\",\n      \"影子清晰\",\n      \"冬季植被（树木无叶）\"\n    ],\n    \"relations\": [\n      \"人员位于人行道边缘石球内侧\",\n      \"车辆位于机动车道内\",\n      \"石球沿人行道边缘排列\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面左侧前景有一名身穿荧光黄绿色反光上衣和深色裤子的人员背对镜头站立。\",\n      \"人行道边缘排列着多个灰白色球形石质隔离墩。\",\n      \"路口有一辆白色SUV正在通过，后方跟随一辆红白相间的公交车。\",\n      \"天空呈湛蓝色，地面投射出清晰的长影，表明阳光强烈且角度较低。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据人员的着装和站位，其可能正在执行交通疏导或安保任务。\",\n      \"树木枝头无叶且光线角度低，推测拍摄时间可能为秋冬季节的早晨或傍晚。\"\n    ],\n    \"uncertainties\": [\n      \"无法确认该人员的具体所属单位或职务。\",\n      \"无法准确判断具体的地理位置或城市名称。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_unreadable\",\n    \"visual_candidates\": []\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张户外城市街道照片，展示了晴朗天气下的路口场景。前景为人行道和球形石墩，一名穿着高亮色背心的人员站在路边。中景有汽车和公交车在道路上行驶，背景包含高楼建筑和远山。\",\n    \"safe_facts\": [\n      \"图片为彩色摄影作品\",\n      \"场景包含铺装路面、车辆、行人设施及建筑物\",\n      \"光线明亮，能见度良好\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 660,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 660,
+        "total_tokens": 3865,
+        "estimated_cost_cny": 0.01169,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "城市路口交通执勤",
+          "short_description": "晴朗天气下的城市十字路口，一名身穿荧光黄反光背心的人员站在路边石球旁。路面有斑马线，背景可见行驶的白色SUV、红色公交车及远处的现代建筑与山峦。",
+          "micro_tags": [
+            "交通指挥",
+            "城市街景",
+            "斑马线",
+            "石球路障",
+            "反光背心",
+            "晴天"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "城市道路交叉口及人行道区域",
+          "subjects": [
+            "穿荧光色背心的人员",
+            "白色SUV",
+            "红色公交车",
+            "球形石墩",
+            "斑马线",
+            "远处建筑"
+          ],
+          "actions": [
+            "站立",
+            "行驶",
+            "等待"
+          ],
+          "attributes": [
+            "晴朗",
+            "光照充足",
+            "影子清晰",
+            "冬季植被（树木无叶）"
+          ],
+          "relations": [
+            "人员位于人行道边缘石球内侧",
+            "车辆位于机动车道内",
+            "石球沿人行道边缘排列"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "画面左侧前景有一名身穿荧光黄绿色反光上衣和深色裤子的人员背对镜头站立。",
+            "人行道边缘排列着多个灰白色球形石质隔离墩。",
+            "路口有一辆白色SUV正在通过，后方跟随一辆红白相间的公交车。",
+            "天空呈湛蓝色，地面投射出清晰的长影，表明阳光强烈且角度较低。"
+          ],
+          "cautious_inferences": [
+            "根据人员的着装和站位，其可能正在执行交通疏导或安保任务。",
+            "树木枝头无叶且光线角度低，推测拍摄时间可能为秋冬季节的早晨或傍晚。"
+          ],
+          "uncertainties": [
+            "无法确认该人员的具体所属单位或职务。",
+            "无法准确判断具体的地理位置或城市名称。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_unreadable",
+          "visual_candidates": []
+        },
+        "fallback": {
+          "safe_caption": "一张户外城市街道照片，展示了晴朗天气下的路口场景。前景为人行道和球形石墩，一名穿着高亮色背心的人员站在路边。中景有汽车和公交车在道路上行驶，背景包含高楼建筑和远山。",
+          "safe_facts": [
+            "图片为彩色摄影作品",
+            "场景包含铺装路面、车辆、行人设施及建筑物",
+            "光线明亮，能见度良好"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 8773608,
+        "request_bytes": 6577134,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.65286040000501,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "ce55dfff6db39c12c6d790129f7605af4a226b62bfbec209466035934ddcdd9f"
+}

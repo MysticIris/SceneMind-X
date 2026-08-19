@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:665.jpg",
+    "relative_path": "train/665.jpg",
+    "sha256": "60a7e0bcc143280b7492909fce104fde622b4e60c820a9aa6b7d8c654ec125fa",
+    "split": "train"
+  },
+  "canonical_sha256": "2d4d06215b1f49cb70bacb8610ec981dca30ccd13e94087bdf7e5d3aaeb72644",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "生牛肉片",
+      "白盘子",
+      "火锅食材"
+    ],
+    "short_description": "三盘新鲜生牛肉片整齐排列在白色长条盘上，色泽鲜红，纹理清晰，置于餐厅桌面。",
+    "theme": "生肉片摆盘"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "三盘白色长条形盘子并排摆放。",
+      "盘中盛放着多片红色生肉，肉质纹理可见。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "鲜红色",
+      "薄切",
+      "有脂肪纹路"
+    ],
+    "relations": [
+      "牛肉片放在盘子上。"
+    ],
+    "scene": "餐厅桌面",
+    "subjects": [
+      "生牛肉片",
+      "白色长条盘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三盘白色长条形盘子并排摆放；盘中盛放着多片红色生肉，肉质纹理可见。",
+    "safe_facts": [
+      "三盘白色长条形盘子并排摆放。",
+      "盘中盛放着多片红色生肉，肉质纹理可见。"
+    ]
+  },
+  "label_id": "cpl_c0b55b2245f0cabaa01673c7",
+  "provenance": {
+    "generated_at": "2026-08-03T11:55:20.331291+00:00",
+    "migrated_at": "2026-08-03T11:55:20.334526+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4109dd1cbe61e258047dfff1c7f7c140f3811dd10286c652f820171c4d93373b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c9b4831e180be002ea74cf72",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:55:20.334865+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c9b4831e180be002ea74cf72"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

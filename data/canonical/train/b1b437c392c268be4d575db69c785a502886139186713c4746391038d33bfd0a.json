@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1406.jpg",
+    "relative_path": "train/1406.jpg",
+    "sha256": "b1b437c392c268be4d575db69c785a502886139186713c4746391038d33bfd0a",
+    "split": "train"
+  },
+  "canonical_sha256": "db41eda7f573088150388358cc2159997717f5fc3c6febf457ff986e91fa5b73",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "湖边",
+      "户外家具",
+      "藤椅",
+      "碎石地面"
+    ],
+    "short_description": "湖边设有长桌与藤椅，周围绿树环绕，地面铺满碎石，远处有人活动。",
+    "theme": "户外休闲区"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该区域可能用于聚会或餐饮，因桌椅组合和环境设置。"
+    ],
+    "direct_observations": [
+      "一张长方形深色桌面的桌子，桌腿为原木桩状。",
+      "多把黑色藤编椅子围绕桌子摆放。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深色桌面",
+      "粗木桩桌腿",
+      "编织纹理座椅",
+      "碎石地面",
+      "绿色植被"
+    ],
+    "relations": [
+      "桌子位于椅子前方。",
+      "椅子围绕桌子摆放。",
+      "树木位于背景。",
+      "水面在远处。"
+    ],
+    "scene": "湖畔户外休闲区域",
+    "subjects": [
+      "长桌",
+      "藤编椅子",
+      "树木",
+      "水面",
+      "草地"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该区域可能用于聚会或餐饮，因桌椅组合和环境设置。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一张长方形深色桌面的桌子，桌腿为原木桩状；多把黑色藤编椅子围绕桌子摆放。",
+    "safe_facts": [
+      "一张长方形深色桌面的桌子，桌腿为原木桩状。",
+      "多把黑色藤编椅子围绕桌子摆放。"
+    ]
+  },
+  "label_id": "cpl_8737b2c8a9e027fd2fc9c1c7",
+  "provenance": {
+    "generated_at": "2026-08-03T14:18:56.161712+00:00",
+    "migrated_at": "2026-08-03T14:18:56.164463+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "16c5588003a2c670b2d110180472225165fc974138582f780d50bacc1e68e8b7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1c66809f4e6cb1772f82002d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:18:56.164828+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1c66809f4e6cb1772f82002d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

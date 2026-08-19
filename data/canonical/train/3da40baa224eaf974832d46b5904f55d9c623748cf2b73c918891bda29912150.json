@@ -1,0 +1,136 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1283.jpg",
+    "relative_path": "train/1283.jpg",
+    "sha256": "3da40baa224eaf974832d46b5904f55d9c623748cf2b73c918891bda29912150",
+    "split": "train"
+  },
+  "canonical_sha256": "a6a54f27bbd3135bd432dab6a9330e52d21979f5a71d27e0eb5d7f88a5126ce0",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "桌面",
+      "键盘"
+    ],
+    "short_description": "桌上摆放着一瓶，背景是带红色背光的键盘和笔记本电脑。",
+    "theme": "桌面小瓶"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一瓶带有绿色瓶盖的透明玻璃瓶置于浅色木纹桌面上。",
+      "背景中可见黑色键盘，其按键发出红色背光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色瓶盖",
+      "透明玻璃瓶身",
+      "红色背光键盘",
+      "黑色笔记本电脑"
+    ],
+    "relations": [],
+    "scene": "办公桌或工作台",
+    "subjects": [
+      "键盘",
+      "笔记本电脑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一瓶带有绿色瓶盖的透明玻璃瓶置于浅色木纹桌面上；背景中可见黑色键盘，其按键发出红色背光。",
+    "safe_facts": [
+      "一瓶带有绿色瓶盖的透明玻璃瓶置于浅色木纹桌面上。",
+      "背景中可见黑色键盘，其按键发出红色背光。"
+    ]
+  },
+  "label_id": "cpl_c38cf390cac666b80ae243c2",
+  "provenance": {
+    "generated_at": "2026-08-03T14:02:37.362046+00:00",
+    "migrated_at": "2026-08-03T14:02:37.365355+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5f834b2ee4a1821d307c18cc224acac75f494f5ea3723a6ad2dc3187546091fd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0288b192427c87d5397c19bc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:02:37.366449+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:relations",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0288b192427c87d5397c19bc"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "风油精",
+      "OTC",
+      "每瓶装6毫升",
+      "国药准字Z32020838",
+      "有效期至:2020-05月",
+      "产品批号:170605"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "风油精",
+      "OTC",
+      "每瓶装6毫升",
+      "国药准字Z32020838",
+      "有效期至:2020-05月",
+      "产品批号:170605"
+    ]
+  }
+}

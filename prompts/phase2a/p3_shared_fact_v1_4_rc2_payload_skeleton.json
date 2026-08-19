@@ -1,0 +1,11 @@
+{
+  "visual_medium": {"primary_type": "uncertain", "secondary_types": [], "evidence_refs": [], "confidence": 0.0, "uncertainty_reason": "无法可靠判断图像媒介。"},
+  "depicted_content": {"summary": null, "real_world_event_status": "unknown", "evidence_refs": [], "uncertainty_reason": "无法可靠判断内部描绘内容。"},
+  "scene_summary": null,
+  "subjects": [],
+  "activities": [],
+  "relationships": [],
+  "text_assessment": {"text_presence": "none", "legibility": "none", "suspected_false_positive": false, "false_positive_contexts": [], "selected_text": [], "scene_inference_allowed": false, "uncertainty_reason": null},
+  "evidence_items": [],
+  "claims": []
+}

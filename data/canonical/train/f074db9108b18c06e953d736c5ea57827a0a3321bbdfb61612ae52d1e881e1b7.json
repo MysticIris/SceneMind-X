@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:2000.jpg",
+    "relative_path": "train/2000.jpg",
+    "sha256": "f074db9108b18c06e953d736c5ea57827a0a3321bbdfb61612ae52d1e881e1b7",
+    "split": "train"
+  },
+  "canonical_sha256": "440373a24a25b9ef15cb608689cc53cdc345405b9b77b5eb0b6500764c8b8146",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "炖鸡",
+      "柠檬片",
+      "金属锅",
+      "餐桌"
+    ],
+    "short_description": "一道盛在金属锅中的炖鸡，配柠檬片和多种配料，置于深色木桌上，旁边有茶杯和餐具。",
+    "theme": "热锅炖菜"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "锅内盛有鸡肉块、蔬菜和柠檬片。",
+      "锅具为锤纹金属材质，带两个把手。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "带把手的金属锅",
+      "锅内有柠檬片",
+      "锅底有陶土垫圈",
+      "桌面有划痕"
+    ],
+    "relations": [
+      "锅放在桌面上。",
+      "茶杯在桌面上。",
+      "餐具在桌面上。"
+    ],
+    "scene": "餐厅餐桌",
+    "subjects": [
+      "炖鸡菜肴",
+      "金属锅",
+      "茶杯",
+      "餐具"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "锅内盛有鸡肉块、蔬菜和柠檬片；锅具为锤纹金属材质，带两个把手。",
+    "safe_facts": [
+      "锅内盛有鸡肉块、蔬菜和柠檬片。",
+      "锅具为锤纹金属材质，带两个把手。"
+    ]
+  },
+  "label_id": "cpl_cf13adf9f15a9e47e1c4bd10",
+  "provenance": {
+    "generated_at": "2026-08-03T15:33:44.954113+00:00",
+    "migrated_at": "2026-08-03T15:33:44.955689+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "57ce10ad7c51d7c5deed3a6de94b359ccd1e0e5d2c8303ce5d75cfa4e5a53167",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_21e82532e43508a1f08e7037",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:33:44.955889+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_21e82532e43508a1f08e7037"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1380.jpg",
+    "relative_path": "train/1380.jpg",
+    "sha256": "2343e253e368702d883856b6a9341600507ec34382d79c82f5ed64335b021390",
+    "split": "train"
+  },
+  "canonical_sha256": "9fc94a0b64aac080dbd6f172fd8c9881e1fd3b504ab94e3ade71b146b0d23024",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "相声表演",
+      "舞台演出",
+      "传统艺术"
+    ],
+    "short_description": "多张照片拼接展示相声演员在舞台上的不同表演瞬间，背景有红色幕布和宣传板。",
+    "theme": "相声表演现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "舞台背景为红色幕布。",
+      "演员穿着传统中式服装。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "表演",
+      "互动"
+    ],
+    "attributes": [
+      "红色幕布",
+      "传统服饰",
+      "麦克风"
+    ],
+    "relations": [
+      "演员在舞台上。",
+      "演员面对观众。"
+    ],
+    "scene": "室内舞台",
+    "subjects": [
+      "演员",
+      "观众席"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "舞台背景为红色幕布；演员穿着传统中式服装。",
+    "safe_facts": [
+      "舞台背景为红色幕布。",
+      "演员穿着传统中式服装。"
+    ]
+  },
+  "label_id": "cpl_e9a891b6bb6c98281ad17726",
+  "provenance": {
+    "generated_at": "2026-08-03T14:14:56.029571+00:00",
+    "migrated_at": "2026-08-03T14:14:56.032810+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e985f316b0527b1de7b352aa8167d86a949dabfa22ef8006f7afd610aed0eec4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fb7ddaf77e00b018db391819",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:14:56.034460+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fb7ddaf77e00b018db391819"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

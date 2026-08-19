@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:974.jpg",
+    "relative_path": "train/974.jpg",
+    "sha256": "113640fd86d9f058099eb76d51a66705b57f8aea2651452834e6ddf6a7bf46ab",
+    "split": "train"
+  },
+  "canonical_sha256": "32b47b117f502811bbb0dadc6bab886a42a27781275001c9ddffe9d862e3879c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "孔雀",
+      "庭院",
+      "植物",
+      "石阶"
+    ],
+    "short_description": "两只孔雀在棕黄色墙壁旁的石阶上，周围有绿色植物，一只低头觅食，另一只抬头观望。",
+    "theme": "庭院中的孔雀"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两只孔雀，一只低头，一只抬头。",
+      "背景为棕黄色墙面，墙上有窗户和门框。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "低头",
+      "抬头"
+    ],
+    "attributes": [
+      "羽毛呈棕色斑纹",
+      "墙体为棕黄色",
+      "窗框为白色"
+    ],
+    "relations": [
+      "孔雀位于石阶上。",
+      "孔雀靠近墙壁。"
+    ],
+    "scene": "户外庭院角落",
+    "subjects": [
+      "孔雀"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两只孔雀，一只低头，一只抬头；背景为棕黄色墙面，墙上有窗户和门框。",
+    "safe_facts": [
+      "画面中有两只孔雀，一只低头，一只抬头。",
+      "背景为棕黄色墙面，墙上有窗户和门框。"
+    ]
+  },
+  "label_id": "cpl_1bbd7ef6eb786ac17f1f98c4",
+  "provenance": {
+    "generated_at": "2026-08-03T13:08:05.661882+00:00",
+    "migrated_at": "2026-08-03T13:08:05.665854+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "beb14b895ac58f6336001e3d683e158a9a24c22ea5e5458f2144354718170a63",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1bbd7ef6eb786ac17f1f98c4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:17.252322+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1c176b82c249386ec8a6cbf8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

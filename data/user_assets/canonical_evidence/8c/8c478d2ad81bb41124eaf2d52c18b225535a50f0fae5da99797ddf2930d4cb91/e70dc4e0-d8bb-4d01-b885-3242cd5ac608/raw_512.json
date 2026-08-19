@@ -1,0 +1,118 @@
+{
+  "asset_id": "8c478d2ad81bb411",
+  "asset_sha256": "8c478d2ad81bb41124eaf2d52c18b225535a50f0fae5da99797ddf2930d4cb91",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"红底梅花鹿与祝福文字\",\n    \"short_description\": \"一只长有鹿角的梅花鹿侧身站立在纯红色背景前，身上布满白色斑点。图片底部印有黑色的“马年快乐”四个汉字，构成一张具有节日氛围的图像。\",\n    \"micro_tags\": [\n      \"梅花鹿\",\n      \"红色背景\",\n      \"马年快乐\",\n      \"动物摄影\",\n      \"节日海报\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"纯色背景摄影棚或合成背景\",\n    \"subjects\": [\n      \"梅花鹿\",\n      \"文字\"\n    ],\n    \"actions\": [\n      \"站立\",\n      \"注视前方\"\n    ],\n    \"attributes\": [\n      \"棕色皮毛\",\n      \"白色斑点\",\n      \"鹿角\",\n      \"红色背景\",\n      \"黑色字体\"\n    ],\n    \"relations\": [\n      \"鹿位于画面中央\",\n      \"文字位于鹿的下方\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"一只成年雄性梅花鹿（有角）站在纯红色背景前，身体朝向右侧。\",\n      \"图片底部中央有清晰的黑色宋体汉字“马年快乐”。\"\n    ],\n    \"cautious_inferences\": [\n      \"这可能是一张用于庆祝农历马年的创意图片或表情包，尽管图中主体是鹿而非马。\",\n      \"鹿的姿态看起来像是经过训练或在受控环境下拍摄的。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定这是真实拍摄的照片还是经过数字合成的图像。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"马年快乐\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一只梅花鹿站在红色背景前，下方配有文字。\",\n    \"safe_facts\": [\n      \"画面主体是一只带角的鹿\",\n      \"背景为纯红色\",\n      \"底部包含可见的文本信息\"\n    ]\n  }\n}",
+      "input_tokens": 1851,
+      "output_tokens": 518,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 1851,
+        "output_tokens": 518,
+        "total_tokens": 2369,
+        "estimated_cost_cny": 0.007846,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "红底梅花鹿与祝福文字",
+          "short_description": "一只长有鹿角的梅花鹿侧身站立在纯红色背景前，身上布满白色斑点。图片底部印有黑色的“马年快乐”四个汉字，构成一张具有节日氛围的图像。",
+          "micro_tags": [
+            "梅花鹿",
+            "红色背景",
+            "马年快乐",
+            "动物摄影",
+            "节日海报"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "纯色背景摄影棚或合成背景",
+          "subjects": [
+            "梅花鹿",
+            "文字"
+          ],
+          "actions": [
+            "站立",
+            "注视前方"
+          ],
+          "attributes": [
+            "棕色皮毛",
+            "白色斑点",
+            "鹿角",
+            "红色背景",
+            "黑色字体"
+          ],
+          "relations": [
+            "鹿位于画面中央",
+            "文字位于鹿的下方"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "一只成年雄性梅花鹿（有角）站在纯红色背景前，身体朝向右侧。",
+            "图片底部中央有清晰的黑色宋体汉字“马年快乐”。"
+          ],
+          "cautious_inferences": [
+            "这可能是一张用于庆祝农历马年的创意图片或表情包，尽管图中主体是鹿而非马。",
+            "鹿的姿态看起来像是经过训练或在受控环境下拍摄的。"
+          ],
+          "uncertainties": [
+            "无法确定这是真实拍摄的照片还是经过数字合成的图像。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "马年快乐"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一只梅花鹿站在红色背景前，下方配有文字。",
+          "safe_facts": [
+            "画面主体是一只带角的鹿",
+            "背景为纯红色",
+            "底部包含可见的文本信息"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 1268360,
+        "request_bytes": 948196,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 10.13088979999884,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "c3e000de74e86e1556f241c3a824b9404673e6970422903c14e039c73afec660"
+}

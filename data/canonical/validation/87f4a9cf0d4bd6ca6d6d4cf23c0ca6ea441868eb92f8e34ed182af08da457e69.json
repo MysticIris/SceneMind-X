@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2348.jpg",
+    "relative_path": "val/2348.jpg",
+    "sha256": "87f4a9cf0d4bd6ca6d6d4cf23c0ca6ea441868eb92f8e34ed182af08da457e69",
+    "split": "val"
+  },
+  "canonical_sha256": "6ccb6cec15026d47027ca496cd5b49332d46d9685783a82479736e8f88265b89",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "青铜雕塑",
+      "神兽",
+      "喷泉",
+      "户外"
+    ],
+    "short_description": "一座大型青铜色神兽雕塑，背负火焰状装饰，立于喷泉旁，背景为绿树与阴天。",
+    "theme": "青铜神兽雕塑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "雕塑主体呈青铜色，造型似神兽，背部有火焰状结构。",
+      "雕塑周围有喷泉，水流向上喷射。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "青铜色",
+      "火焰状装饰",
+      "多角装饰",
+      "喷泉正在喷水"
+    ],
+    "relations": [
+      "雕塑位于喷泉前方。",
+      "雕塑后方有树木。"
+    ],
+    "scene": "户外广场或公园",
+    "subjects": [
+      "青铜神兽雕塑",
+      "喷泉",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "雕塑主体呈青铜色，造型似神兽，背部有火焰状结构；雕塑周围有喷泉，水流向上喷射。",
+    "safe_facts": [
+      "雕塑主体呈青铜色，造型似神兽，背部有火焰状结构。",
+      "雕塑周围有喷泉，水流向上喷射。"
+    ]
+  },
+  "label_id": "cpl_8508926dc357cd63b907d492",
+  "provenance": {
+    "generated_at": "2026-08-03T16:32:22.731513+00:00",
+    "migrated_at": "2026-08-03T16:32:22.733546+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "93fc8f0b6aa74f73283d317b0edac95d814a80989fe2ce2e6c13e402ca7c31a3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_87c3fb4a17e70cba24a4696f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:32:22.733894+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_87c3fb4a17e70cba24a4696f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

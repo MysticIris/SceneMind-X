@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:341.jpg",
+    "relative_path": "train/341.jpg",
+    "sha256": "e036816757bf6eb9b93752e8ca77ec3ffbb4600ca199a4e447864dad3c0ed60b",
+    "split": "train"
+  },
+  "canonical_sha256": "cb578ced1596bd88473109bd2f5ad3ae8205ba183b4efe0e08421b848f06f452",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "运算放大器"
+    ],
+    "short_description": "图中包含多个标有型号如 U1A、U1B、U1C、U4B、U18、U2B 的运算放大器芯片符号；图中可见多个电阻(如 R1、R2、R3)和电容(如 C1、C2、C3)等无源元件符号。",
+    "theme": "运算放大器与电阻"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图中包含多个标有型号如 U1A、U1B、U1C、U4B、U18、U2B 的运算放大器芯片符号。",
+      "图中可见多个电阻(如 R1、R2、R3)和电容(如 C1、C2、C3)等无源元件符号。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "带标注的电路图",
+      "包含多个芯片型号"
+    ],
+    "relations": [],
+    "scene": "电子电路原理图",
+    "subjects": [
+      "运算放大器",
+      "电阻",
+      "电容",
+      "二极管",
+      "LED灯"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图中包含多个标有型号如 U1A、U1B、U1C、U4B、U18、U2B 的运算放大器芯片符号；图中可见多个电阻(如 R1、R2、R3)和电容(如 C1、C2、C3)等无源元件符号。",
+    "safe_facts": [
+      "图中包含多个标有型号如 U1A、U1B、U1C、U4B、U18、U2B 的运算放大器芯片符号。",
+      "图中可见多个电阻(如 R1、R2、R3)和电容(如 C1、C2、C3)等无源元件符号。"
+    ]
+  },
+  "label_id": "cpl_bde48052744e5d916036d868",
+  "provenance": {
+    "generated_at": "2026-08-03T10:43:22.862948+00:00",
+    "migrated_at": "2026-08-03T10:43:22.864636+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "56385073491ab783f9015b07d7942ec7493b4eb5170d07c6044a44b4b4301d5b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_12f048d6070956721eab503c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:43:22.865013+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_12f048d6070956721eab503c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "图5.27 音响放大电路电路原理图"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "图5.27 音响放大电路电路原理图"
+    ]
+  }
+}

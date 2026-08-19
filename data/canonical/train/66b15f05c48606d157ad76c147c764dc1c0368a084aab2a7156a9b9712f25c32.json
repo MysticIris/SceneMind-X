@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1618.jpg",
+    "relative_path": "train/1618.jpg",
+    "sha256": "66b15f05c48606d157ad76c147c764dc1c0368a084aab2a7156a9b9712f25c32",
+    "split": "train"
+  },
+  "canonical_sha256": "bd62310754bc1c38266804a02c27dfd79d31cec34c7e389e5c18e9b8130dde7f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "落叶树",
+      "行人街道",
+      "中式建筑"
+    ],
+    "short_description": "冬日街道两旁高大落叶树下，行人穿梭，背景是中式风格建筑群，阳光透过枝桠洒落。",
+    "theme": "城市街景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天气晴朗，阳光从上方照射地面形成斑驳光影。"
+    ],
+    "direct_observations": [
+      "多棵高大落叶树，树干呈灰白色，枝条光秃无叶。",
+      "街道上有多个行人，部分穿着深色外套，有人推着自行车。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "站立",
+      "骑行"
+    ],
+    "attributes": [
+      "冬季",
+      "光秃树枝",
+      "石砌墙体",
+      "红窗框",
+      "橙色自行车"
+    ],
+    "relations": [
+      "行人沿街道移动。",
+      "树木位于街道两侧。",
+      "建筑位于街道后方。"
+    ],
+    "scene": "城市街道",
+    "subjects": [
+      "行人",
+      "树木",
+      "建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天气晴朗，阳光从上方照射地面形成斑驳光影。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多棵高大落叶树，树干呈灰白色，枝条光秃无叶；街道上有多个行人，部分穿着深色外套，有人推着自行车。",
+    "safe_facts": [
+      "多棵高大落叶树，树干呈灰白色，枝条光秃无叶。",
+      "街道上有多个行人，部分穿着深色外套，有人推着自行车。"
+    ]
+  },
+  "label_id": "cpl_bb87b0106a58181c1582f09c",
+  "provenance": {
+    "generated_at": "2026-08-03T14:44:41.824089+00:00",
+    "migrated_at": "2026-08-03T14:44:41.828146+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3ce855d7fbf1a1e5819c26c9cb95729a14732da313e25b3bc0ac7d65e85b21a1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_69619c970ecee0c988a483f0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:44:41.830974+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_69619c970ecee0c988a483f0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

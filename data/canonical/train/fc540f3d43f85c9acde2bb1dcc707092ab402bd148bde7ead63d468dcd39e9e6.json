@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:227.jpg",
+    "relative_path": "train/227.jpg",
+    "sha256": "fc540f3d43f85c9acde2bb1dcc707092ab402bd148bde7ead63d468dcd39e9e6",
+    "split": "train"
+  },
+  "canonical_sha256": "c6b3a9353ddb025eeac046512ded7cb845ff0d8fb200c95a20854d30e2074972",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "巨大机械",
+      "小人物",
+      "管道",
+      "烟雾"
+    ],
+    "short_description": "两个小人站在巨大机械装置前，装置有大眼睛和管道，地面呈橙色，背景有烟雾。",
+    "theme": "巨大机械装置前的小人物"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两个小人站立在地面上。",
+      "画面中央有一个大型机械装置，其头部有圆形眼睛和张开的口部。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "机械装置有大眼睛",
+      "地面呈橙色",
+      "背景有烟雾"
+    ],
+    "relations": [
+      "两个小人位于机械装置前方。"
+    ],
+    "scene": "室内空间",
+    "subjects": [
+      "两个小人",
+      "大型机械装置"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两个小人站立在地面上；画面中央有一个大型机械装置，其头部有圆形眼睛和张开的口部。",
+    "safe_facts": [
+      "画面中有两个小人站立在地面上。",
+      "画面中央有一个大型机械装置，其头部有圆形眼睛和张开的口部。"
+    ]
+  },
+  "label_id": "cpl_f192222aed14e7b012468229",
+  "provenance": {
+    "generated_at": "2026-08-03T10:20:11.768038+00:00",
+    "migrated_at": "2026-08-03T10:20:11.770166+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "69673811d198c88ab7be7eff63c6e97b8dd87940fad55c22a00933431e3bd27b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b3ca754e2deaca22250722bb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:20:11.770720+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b3ca754e2deaca22250722bb"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "(管子砰砰声)"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "(管子砰砰声)"
+    ]
+  }
+}

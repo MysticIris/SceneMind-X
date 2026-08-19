@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1104.jpg",
+    "relative_path": "train/1104.jpg",
+    "sha256": "50be15b3052b743f10ac6043e8ac5730f786f708c8d1a41fad03ced28a5d736a",
+    "split": "train"
+  },
+  "canonical_sha256": "5e9f5084ea6086c51803c69c942dda131d6a6788ee64b92814b9f42c48d9f34c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "灯笼",
+      "夜景",
+      "悬挂",
+      "植物"
+    ],
+    "short_description": "夜间悬挂的两盏纸灯笼，一橙一蓝，映衬着树影与暖光，营造静谧氛围。",
+    "theme": "夜色灯笼"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "橙色灯笼可能用于装饰或照明，蓝色灯笼可能带有图案。"
+    ],
+    "direct_observations": [
+      "画面中有两个悬挂的纸灯笼，一个呈橙色，一个呈浅蓝色。",
+      "灯笼内部有光源，发出温暖或冷色调光芒。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "发光",
+      "悬挂",
+      "纸质结构",
+      "有纹路"
+    ],
+    "relations": [
+      "灯笼悬挂在树枝上。",
+      "灯笼位于植物背景前。"
+    ],
+    "scene": "户外夜间环境",
+    "subjects": [
+      "橙色纸灯笼",
+      "蓝色纸灯笼"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "橙色灯笼可能用于装饰或照明，蓝色灯笼可能带有图案。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两个悬挂的纸灯笼，一个呈橙色，一个呈浅蓝色；灯笼内部有光源，发出温暖或冷色调光芒。",
+    "safe_facts": [
+      "画面中有两个悬挂的纸灯笼，一个呈橙色，一个呈浅蓝色。",
+      "灯笼内部有光源，发出温暖或冷色调光芒。"
+    ]
+  },
+  "label_id": "cpl_31a2c5054c7f52ffea72c3d2",
+  "provenance": {
+    "generated_at": "2026-08-03T13:36:47.202285+00:00",
+    "migrated_at": "2026-08-03T13:36:47.205203+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "69ebc4525ffd9086058912feeeeab068d4f9492508646c5bd964b244d6dea749",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e586f5f08eb451e7c319e702",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:36:47.205566+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e586f5f08eb451e7c319e702"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

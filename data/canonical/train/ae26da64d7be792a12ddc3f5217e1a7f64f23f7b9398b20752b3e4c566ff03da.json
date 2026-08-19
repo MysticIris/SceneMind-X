@@ -1,0 +1,135 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1903.jpg",
+    "relative_path": "train/1903.jpg",
+    "sha256": "ae26da64d7be792a12ddc3f5217e1a7f64f23f7b9398b20752b3e4c566ff03da",
+    "split": "train"
+  },
+  "canonical_sha256": "ebfe542e16034bfd9b72630d5a2247b44e1a0c70fde0942aa72a0ced1f6aeb75",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "鸡尾酒",
+      "薄荷装饰",
+      "调酒器具"
+    ],
+    "short_description": "一杯绿色渐变鸡尾酒，配以薄荷叶装饰，旁边摆放着调酒器具。",
+    "theme": "特调饮品"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "杯中液体呈从上黄下绿的渐变色。",
+      "杯口插有一枝新鲜薄荷叶。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色渐变液体",
+      "心形杯沿",
+      "金属质感杯底"
+    ],
+    "relations": [
+      "鸡尾酒杯放置于桌面上。",
+      "薄荷叶插在鸡尾酒杯口。"
+    ],
+    "scene": "室内桌面",
+    "subjects": [
+      "鸡尾酒杯",
+      "调酒器",
+      "薄荷叶"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "杯中液体呈从上黄下绿的渐变色；杯口插有一枝新鲜薄荷叶。",
+    "safe_facts": [
+      "杯中液体呈从上黄下绿的渐变色。",
+      "杯口插有一枝新鲜薄荷叶。"
+    ]
+  },
+  "label_id": "cpl_065183b68ffabf6b2f309937",
+  "provenance": {
+    "generated_at": "2026-08-03T15:18:55.100172+00:00",
+    "migrated_at": "2026-08-03T15:18:55.101757+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "29cba30293ec31b6716d3635f4a63f40558a91a19ed870a61e86356d81c63eb0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5e198bdd1f8d87680f40d88f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:18:55.102127+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5e198bdd1f8d87680f40d88f"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "“小獾猪”",
+      "微甜",
+      "超柔和",
+      "超清爽",
+      "松弛",
+      "「惊梦酒吧」保留的以你的名字命名的特调。"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "“小獾猪”",
+      "微甜",
+      "超柔和",
+      "超清爽",
+      "松弛",
+      "「惊梦酒吧」保留的以你的名字命名的特调。"
+    ]
+  }
+}

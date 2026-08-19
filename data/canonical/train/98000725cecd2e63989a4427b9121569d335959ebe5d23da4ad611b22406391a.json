@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1829.jpg",
+    "relative_path": "train/1829.jpg",
+    "sha256": "98000725cecd2e63989a4427b9121569d335959ebe5d23da4ad611b22406391a",
+    "split": "train"
+  },
+  "canonical_sha256": "e9c25131dcbb1a27f10b55dc077c35dd676a019da8f4da454f2549f0ad75155d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "荧光绿T恤",
+      "手持发光棒",
+      "夜间跑步"
+    ],
+    "short_description": "一群穿着亮绿色T恤的人在夜间的跑道上跑步，手持发光棒，背景有舞台灯光和观众。",
+    "theme": "夜间荧光跑活动"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多人穿着统一亮绿色T恤。",
+      "多人手持发光棒。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "跑步",
+      "手持发光棒"
+    ],
+    "attributes": [
+      "亮绿色T恤",
+      "红色跑道",
+      "戴眼镜",
+      "有观众"
+    ],
+    "relations": [
+      "参与者在跑道上。",
+      "观众在背景。"
+    ],
+    "scene": "夜间户外跑道",
+    "subjects": [
+      "多名参与者",
+      "观众"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多人穿着统一亮绿色T恤；多人手持发光棒。",
+    "safe_facts": [
+      "多人穿着统一亮绿色T恤。",
+      "多人手持发光棒。"
+    ]
+  },
+  "label_id": "cpl_6b73c8efb4e1cfd8f0d0d46b",
+  "provenance": {
+    "generated_at": "2026-08-03T15:10:58.297912+00:00",
+    "migrated_at": "2026-08-03T15:10:58.300143+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5eb9fbdc1782a29c81df5b3732348ab36bcd1e584c8c5e1b292b43c574027bc6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2149fbf40e8b2b4bc73b18ba",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:10:58.300488+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2149fbf40e8b2b4bc73b18ba"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

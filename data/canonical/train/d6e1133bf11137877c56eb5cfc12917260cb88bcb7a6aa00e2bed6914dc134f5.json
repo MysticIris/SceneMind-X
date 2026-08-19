@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:402.jpg",
+    "relative_path": "train/402.jpg",
+    "sha256": "d6e1133bf11137877c56eb5cfc12917260cb88bcb7a6aa00e2bed6914dc134f5",
+    "split": "train"
+  },
+  "canonical_sha256": "49f77d164e9ab11bf35c39e89e65f1bb33ebf4c3981c5710367b9798ca4cbe4d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "多肉植物",
+      "莲座状",
+      "盆栽"
+    ],
+    "short_description": "一盆多肉植物，中心呈莲座状，叶片边缘带红，周围散落着其他叶片和土壤。",
+    "theme": "多肉植物盆栽"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有一株呈莲座状排列的绿色多肉植物。",
+      "植物周围散落着其他叶片和深色土壤。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色叶片",
+      "叶片边缘泛红",
+      "土壤覆盖盆土"
+    ],
+    "relations": [
+      "植物生长于土壤中。"
+    ],
+    "scene": "室内盆栽环境",
+    "subjects": [
+      "多肉植物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一株呈莲座状排列的绿色多肉植物；植物周围散落着其他叶片和深色土壤。",
+    "safe_facts": [
+      "画面中央有一株呈莲座状排列的绿色多肉植物。",
+      "植物周围散落着其他叶片和深色土壤。"
+    ]
+  },
+  "label_id": "cpl_4f3a139c89c56d9fe8b81c5b",
+  "provenance": {
+    "generated_at": "2026-08-03T10:55:40.072151+00:00",
+    "migrated_at": "2026-08-03T10:55:40.073713+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a1913d9544a94e47eacccb0e24052b29e7c470b8eabc2cf937d0aeb2271ace84",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_934a0131fe1d51545a2a8167",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:55:40.073915+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_934a0131fe1d51545a2a8167"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

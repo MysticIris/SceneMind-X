@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1117.jpg",
+    "relative_path": "train/1117.jpg",
+    "sha256": "46e2d8e92c602822f7a508c4172153c50aa1eda6ea2398010f0921d6e38cdcb6",
+    "split": "train"
+  },
+  "canonical_sha256": "f5c5a6a44d3924ad113fdf395871f18b2926996d8618ee0cb440e0b647cb33e3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "公交车",
+      "路灯",
+      "护栏"
+    ],
+    "short_description": "夜晚城市街道，公交与汽车行驶，背景建筑亮着招牌，路灯与护栏清晰可见。",
+    "theme": "城市夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能有人在路边站立或行走(因有模糊人影)。"
+    ],
+    "direct_observations": [
+      "画面呈现夜间城市街道环境。",
+      "前景有白色金属护栏，中间有灰色立柱。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行驶"
+    ],
+    "attributes": [
+      "夜间",
+      "灯光照明",
+      "现代建筑",
+      "金属护栏"
+    ],
+    "relations": [
+      "汽车在道路上行驶。",
+      "公交车在道路旁行驶。",
+      "建筑位于背景。"
+    ],
+    "scene": "城市街道夜景",
+    "subjects": [
+      "公交车",
+      "汽车",
+      "建筑",
+      "路灯",
+      "护栏"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能有人在路边站立或行走(因有模糊人影)。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现夜间城市街道环境；前景有白色金属护栏，中间有灰色立柱。",
+    "safe_facts": [
+      "画面呈现夜间城市街道环境。",
+      "前景有白色金属护栏，中间有灰色立柱。"
+    ]
+  },
+  "label_id": "cpl_fede1f81bfc61a5767818f56",
+  "provenance": {
+    "generated_at": "2026-08-03T13:40:32.361766+00:00",
+    "migrated_at": "2026-08-03T13:40:32.367699+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2d53299511b6eecd646eee5aca583d96698769fd5b0647dae10acdf9f41b7db3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_80dac08ee66ffe73b13c823b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:40:32.369145+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_80dac08ee66ffe73b13c823b"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "K11 Select",
+      "夫山大道"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "K11 Select",
+      "夫山大道"
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1539.jpg",
+    "relative_path": "train/1539.jpg",
+    "sha256": "686dd44289c1534897d07f3f157946d5e86e3cf650c89c25530bbe1f71010ef2",
+    "split": "train"
+  },
+  "canonical_sha256": "86c490d4458556ed6114b1781f7ae8f99453ab223cf18e7342c39f6cb5fee76a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "河边",
+      "赤脚",
+      "山景",
+      "休闲"
+    ],
+    "short_description": "三人在河边石阶上休憩，一人赤脚浸水，背景是连绵山丘与枯黄芦苇。",
+    "theme": "河畔休闲时光"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "三个人坐在水边的混凝土台阶上。",
+      "其中两人赤脚接触水面，一人低头玩水。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "坐着",
+      "赤脚浸水",
+      "低头玩水"
+    ],
+    "attributes": [
+      "穿着外套",
+      "戴着帽子",
+      "手持包"
+    ],
+    "relations": [
+      "三人并排坐在石阶上。",
+      "石阶位于水边。"
+    ],
+    "scene": "河流岸边",
+    "subjects": [
+      "一名女性",
+      "一名男性",
+      "一名儿童"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三个人坐在水边的混凝土台阶上；其中两人赤脚接触水面，一人低头玩水。",
+    "safe_facts": [
+      "三个人坐在水边的混凝土台阶上。",
+      "其中两人赤脚接触水面，一人低头玩水。"
+    ]
+  },
+  "label_id": "cpl_a7e84ca9bae18c829b9f0c44",
+  "provenance": {
+    "generated_at": "2026-08-03T14:35:25.504982+00:00",
+    "migrated_at": "2026-08-03T14:35:25.510100+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fd56ff445894f58736f8ddb6ffeae10a456064bfee466004f5eb981cb5246f41",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_991a967910f85a6ed444f399",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:35:25.510457+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_991a967910f85a6ed444f399"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

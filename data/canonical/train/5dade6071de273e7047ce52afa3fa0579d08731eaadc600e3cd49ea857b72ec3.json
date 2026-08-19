@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1440.jpg",
+    "relative_path": "train/1440.jpg",
+    "sha256": "5dade6071de273e7047ce52afa3fa0579d08731eaadc600e3cd49ea857b72ec3",
+    "split": "train"
+  },
+  "canonical_sha256": "6554a13c6f3b1f38a258a3346ffcade8541d0ff32b9f4233dcc68df4e7387ade",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "纸皮核桃",
+      "食品包装",
+      "银色保温垫"
+    ],
+    "short_description": "一包黄色包装的纸皮核桃放在银色保温材料上，背景是室内地面和家具。",
+    "theme": "纸皮核桃包装"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "包装袋上有卡通女性形象和花卉图案。",
+      "包装袋置于银色波纹状保温材料之上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黄色包装",
+      "卡通女性图案",
+      "银色反光材质"
+    ],
+    "relations": [
+      "包装袋放置在保温材料上。"
+    ],
+    "scene": "室内地面环境",
+    "subjects": [
+      "纸皮核桃包装袋",
+      "银色保温材料"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "包装袋上有卡通女性形象和花卉图案；包装袋置于银色波纹状保温材料之上。",
+    "safe_facts": [
+      "包装袋上有卡通女性形象和花卉图案。",
+      "包装袋置于银色波纹状保温材料之上。"
+    ]
+  },
+  "label_id": "cpl_b4f06ff327c3c8264bc37b5f",
+  "provenance": {
+    "generated_at": "2026-08-03T14:24:28.604222+00:00",
+    "migrated_at": "2026-08-03T14:24:28.614659+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fb7a863e328bb67571f424144caab26169f9259864eec8b4bb155c709bca5560",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0a81caa1aef36e82b9a91a7b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:24:28.615003+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0a81caa1aef36e82b9a91a7b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

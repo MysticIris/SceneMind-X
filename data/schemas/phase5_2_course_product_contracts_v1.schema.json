@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scenemind-x.local/schemas/phase5_2_course_product_contracts_v1.schema.json",
+  "title": "SceneMind-X Phase 5.2 course product contracts",
+  "type": "object",
+  "$defs": {
+    "asset_ref": {
+      "type": "object",
+      "required": ["ref", "source", "asset_id", "order", "sha256"],
+      "properties": {
+        "ref": {"type": "string", "minLength": 1},
+        "source": {"enum": ["library", "local"]},
+        "asset_id": {"type": "string", "minLength": 1},
+        "image_id": {"type": "string", "minLength": 1},
+        "order": {"type": "integer", "minimum": 1, "maximum": 5},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "image_url": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": true
+    },
+    "message": {
+      "type": "object",
+      "required": ["message_id", "role", "content", "asset_refs", "task_type", "created_at"],
+      "properties": {
+        "message_id": {"type": "string", "minLength": 1},
+        "role": {"enum": ["user", "assistant", "tool"]},
+        "content": {},
+        "asset_refs": {"type": "array", "maxItems": 5, "items": {"type": "string"}},
+        "task_type": {"type": "string", "minLength": 1},
+        "trace_id": {"type": ["string", "null"]},
+        "created_at": {"type": "string", "format": "date-time"}
+      },
+      "additionalProperties": true
+    },
+    "conversation": {
+      "type": "object",
+      "required": [
+        "conversation_id",
+        "title",
+        "active_assets",
+        "selected_asset_refs",
+        "messages",
+        "context_summary",
+        "tool_calls",
+        "tool_results",
+        "generated_content",
+        "retrieval_results",
+        "comparison_results",
+        "ranking_results",
+        "created_at",
+        "updated_at"
+      ],
+      "properties": {
+        "conversation_id": {"type": "string", "minLength": 1},
+        "title": {"type": "string", "minLength": 1},
+        "active_assets": {"type": "array", "maxItems": 5, "items": {"$ref": "#/$defs/asset_ref"}},
+        "selected_asset_refs": {"type": "array", "maxItems": 5, "items": {"type": "string"}},
+        "messages": {"type": "array", "items": {"$ref": "#/$defs/message"}},
+        "context_summary": {"type": "string", "maxLength": 1600},
+        "tool_calls": {"type": "array", "items": {"type": "object"}},
+        "tool_results": {"type": "array", "items": {"type": "object"}},
+        "generated_content": {"type": "array", "items": {"type": "object"}},
+        "retrieval_results": {"type": "array", "items": {"type": "object"}},
+        "comparison_results": {"type": "array", "items": {"type": "object"}},
+        "ranking_results": {"type": "array", "items": {"type": "object"}},
+        "created_at": {"type": "string", "format": "date-time"},
+        "updated_at": {"type": "string", "format": "date-time"}
+      },
+      "additionalProperties": true
+    },
+    "chat_response": {
+      "type": "object",
+      "required": ["answer", "asset_references", "uncertainty", "refused"],
+      "properties": {
+        "answer": {"type": "string"},
+        "asset_references": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["asset_id", "evidence"],
+            "properties": {
+              "asset_id": {"type": "string", "minLength": 1},
+              "evidence": {"type": "array", "items": {"type": "string"}}
+            },
+            "additionalProperties": false
+          }
+        },
+        "uncertainty": {"type": "array", "items": {"type": "string"}},
+        "refused": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "generation_response": {
+      "type": "object",
+      "required": [
+        "content",
+        "direct_facts",
+        "narrative_organization",
+        "creative_expression",
+        "unknowns",
+        "cross_image_relation",
+        "asset_ids"
+      ],
+      "properties": {
+        "content": {"type": "string", "minLength": 1},
+        "direct_facts": {"type": "array", "items": {"type": "object"}},
+        "narrative_organization": {"type": "array", "items": {"type": "string"}},
+        "creative_expression": {"type": "array", "items": {"type": "string"}},
+        "unknowns": {"type": "array", "items": {"type": "string"}},
+        "cross_image_relation": {"enum": ["independent", "evidenced_shared_event", "creative_sequence"]},
+        "asset_ids": {"type": "array", "minItems": 1, "maxItems": 5, "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "ranking_response": {
+      "type": "object",
+      "required": ["ranking", "best_asset_id", "best_reason", "uncertainty"],
+      "properties": {
+        "ranking": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "required": ["rank", "asset_id", "score", "reason"],
+            "properties": {
+              "rank": {"type": "integer", "minimum": 1, "maximum": 5},
+              "asset_id": {"type": "string", "minLength": 1},
+              "score": {"type": "number", "minimum": 0, "maximum": 100},
+              "reason": {"type": "string", "minLength": 1}
+            },
+            "additionalProperties": false
+          }
+        },
+        "best_asset_id": {"type": "string", "minLength": 1},
+        "best_reason": {"type": "string", "minLength": 1},
+        "uncertainty": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    }
+  },
+  "properties": {
+    "conversation": {"$ref": "#/$defs/conversation"},
+    "chat_response": {"$ref": "#/$defs/chat_response"},
+    "generation_response": {"$ref": "#/$defs/generation_response"},
+    "ranking_response": {"$ref": "#/$defs/ranking_response"}
+  },
+  "additionalProperties": false
+}

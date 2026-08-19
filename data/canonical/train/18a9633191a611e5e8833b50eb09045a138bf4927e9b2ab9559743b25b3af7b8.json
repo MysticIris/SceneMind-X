@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1820.jpg",
+    "relative_path": "train/1820.jpg",
+    "sha256": "18a9633191a611e5e8833b50eb09045a138bf4927e9b2ab9559743b25b3af7b8",
+    "split": "train"
+  },
+  "canonical_sha256": "0cea0fd42080824c3ffe5ec94d7de4ef95af33e6105b631452777dccc9e3e994",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "骆驼",
+      "茅草棚",
+      "围栏",
+      "棕榈树"
+    ],
+    "short_description": "一只棕色骆驼站在泥土地上，头顶上方有一个茅草遮阳棚，背景有木栅栏和棕榈树。",
+    "theme": "骆驼在遮阳棚下"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像中有一只棕色骆驼，身体部分朝向镜头。",
+      "骆驼头顶上方有一个由干草编织成的圆顶遮阳棚。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "棕色毛发",
+      "站立姿态",
+      "泥土地面"
+    ],
+    "relations": [
+      "骆驼位于茅草棚下方。",
+      "骆驼被木栅栏环绕。"
+    ],
+    "scene": "户外围栏区域",
+    "subjects": [
+      "骆驼"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像中有一只棕色骆驼，身体部分朝向镜头；骆驼头顶上方有一个由干草编织成的圆顶遮阳棚。",
+    "safe_facts": [
+      "图像中有一只棕色骆驼，身体部分朝向镜头。",
+      "骆驼头顶上方有一个由干草编织成的圆顶遮阳棚。"
+    ]
+  },
+  "label_id": "cpl_64884b5ceb7296b9a50dd183",
+  "provenance": {
+    "generated_at": "2026-08-02T22:18:21.809241+00:00",
+    "migrated_at": "2026-08-03T07:13:41.531286+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "06add72306526ac80affea1d6d7644e0de6a42d62191de6771a47d238339988a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0588a01576b69355fe5b3db3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:11:12.927754+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0588a01576b69355fe5b3db3",
+    "cpl_070c88d2d3e13a5acdc724bb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

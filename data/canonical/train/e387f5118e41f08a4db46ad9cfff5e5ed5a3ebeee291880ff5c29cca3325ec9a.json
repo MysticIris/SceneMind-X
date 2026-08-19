@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:349.jpg",
+    "relative_path": "train/349.jpg",
+    "sha256": "e387f5118e41f08a4db46ad9cfff5e5ed5a3ebeee291880ff5c29cca3325ec9a",
+    "split": "train"
+  },
+  "canonical_sha256": "0012477229925174f915edc0ddb3ba081a9b71265a9764c8e3962fbf9e259919",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "青瓷",
+      "餐具",
+      "展柜"
+    ],
+    "short_description": "三件青釉瓷器皿置于展柜内，中央为大盘，两侧为碗，表面有浅浮雕纹饰。",
+    "theme": "青瓷餐具陈列"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "三件瓷器均呈青绿色釉面，表面有雕刻纹样。",
+      "瓷器放置于透明亚克力底座上，背景为玻璃展柜。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "青绿色釉面",
+      "浅浮雕纹饰",
+      "透明玻璃展柜"
+    ],
+    "relations": [
+      "瓷盘位于中间，两碗分列两侧。"
+    ],
+    "scene": "博物馆或展览馆玻璃展柜内",
+    "subjects": [
+      "青釉瓷盘",
+      "青釉瓷碗"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三件瓷器均呈青绿色釉面，表面有雕刻纹样；瓷器放置于透明亚克力底座上，背景为玻璃展柜。",
+    "safe_facts": [
+      "三件瓷器均呈青绿色釉面，表面有雕刻纹样。",
+      "瓷器放置于透明亚克力底座上，背景为玻璃展柜。"
+    ]
+  },
+  "label_id": "cpl_643a7a24d2ff7ae8e823a9ca",
+  "provenance": {
+    "generated_at": "2026-08-03T10:44:55.647703+00:00",
+    "migrated_at": "2026-08-03T10:44:55.649199+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "766915f37070400764526d23fc613f7c2f3d556e589ea1fbfe2fc1c89ebdcf6b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b6813705c07a663657eae93b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:44:55.649403+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b6813705c07a663657eae93b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

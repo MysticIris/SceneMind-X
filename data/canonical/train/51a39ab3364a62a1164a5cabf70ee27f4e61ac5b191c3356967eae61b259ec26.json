@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:575.jpg",
+    "relative_path": "train/575.jpg",
+    "sha256": "51a39ab3364a62a1164a5cabf70ee27f4e61ac5b191c3356967eae61b259ec26",
+    "split": "train"
+  },
+  "canonical_sha256": "46131c1e77a30a842b20a2b3723b72e35747184aed47dfdc107cf71045b4b742",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "学术海报",
+      "密集预测"
+    ],
+    "short_description": "海报右侧有二维码和图表。",
+    "theme": "学术海报与站立的人"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "海报右侧有二维码和图表。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "室内展览空间",
+    "subjects": [
+      "学术海报",
+      "站立的人"
+    ],
+    "visual_medium": "poster_document"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "海报右侧有二维码和图表。",
+    "safe_facts": [
+      "海报右侧有二维码和图表。"
+    ]
+  },
+  "label_id": "cpl_64724f0b3cc3b05d2bc916a7",
+  "provenance": {
+    "generated_at": "2026-08-03T11:36:42.643886+00:00",
+    "migrated_at": "2026-08-03T11:36:42.646163+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "39c93aa26b6e5809be8a46af63f165227163a13524117116b1063adbcf2c1c51",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6364857e8133d5886c59b89c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:36:42.646740+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6364857e8133d5886c59b89c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Expediting Large-Scale Vision Transforme",
+      "Weicong Liang, Yuhui Yuan, Henghui Ding,"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Expediting Large-Scale Vision Transforme",
+      "Weicong Liang, Yuhui Yuan, Henghui Ding,"
+    ]
+  }
+}

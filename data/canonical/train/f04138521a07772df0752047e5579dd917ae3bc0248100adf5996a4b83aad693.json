@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:562.jpg",
+    "relative_path": "train/562.jpg",
+    "sha256": "f04138521a07772df0752047e5579dd917ae3bc0248100adf5996a4b83aad693",
+    "split": "train"
+  },
+  "canonical_sha256": "4cd507d09d9df22f60f5f800ca63bd5e951db2cf803919f242076ffd4c50e5e3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "紫色花海",
+      "游客",
+      "远山",
+      "户外",
+      "自然风光"
+    ],
+    "short_description": "游客在大片紫色花田中漫步，背景是连绵青山与晴朗天空，画面充满自然美感与休闲氛围。",
+    "theme": "紫色花海与远山"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能为夏季或春末时节。",
+      "看起来是旅游景点。"
+    ],
+    "direct_observations": [
+      "大面积紫色花朵覆盖地面。",
+      "多名游客在花田中活动。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "行走",
+      "拍照"
+    ],
+    "attributes": [
+      "紫色花朵密集",
+      "天空晴朗",
+      "山体覆盖植被",
+      "游客穿着多样"
+    ],
+    "relations": [
+      "游客位于花田中。",
+      "花田延伸至远处山脚。",
+      "山体位于花田后方。"
+    ],
+    "scene": "开阔的户外花田景观",
+    "subjects": [
+      "游客",
+      "紫色花朵",
+      "远山",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能为夏季或春末时节。",
+      "看起来是旅游景点。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大面积紫色花朵覆盖地面；多名游客在花田中活动。",
+    "safe_facts": [
+      "大面积紫色花朵覆盖地面。",
+      "多名游客在花田中活动。"
+    ]
+  },
+  "label_id": "cpl_772cbc15d8cb3d00ed43691c",
+  "provenance": {
+    "generated_at": "2026-08-03T11:33:57.471096+00:00",
+    "migrated_at": "2026-08-03T11:33:57.473220+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6de6fe96249475229e73166099dbd0fc957644a9331c46b21a93658aafecd133",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0354bfc4dd4ae8ee0808decd",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:33:57.473466+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0354bfc4dd4ae8ee0808decd"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:678.jpg",
+    "relative_path": "train/678.jpg",
+    "sha256": "60324f9356ee9ec47734fb6b0db5b9e73336ca8078e174430b8d7daa6e12463c",
+    "split": "train"
+  },
+  "canonical_sha256": "07dd920b173bcdd7773cb0cb12bf96e0371f2d3fc1c50278a67627d00208223f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "公寓入口",
+      "玻璃门",
+      "女性站立"
+    ],
+    "short_description": "一栋建筑的入口，门口站着一个人，前景有汽车。",
+    "theme": "公寓入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "门口有一位穿着条纹上衣和浅色裤子的女性。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "玻璃门",
+      "金属门框",
+      "红色LED显示屏"
+    ],
+    "relations": [
+      "女性站在门口。",
+      "汽车停在前景。"
+    ],
+    "scene": "建筑物入口",
+    "subjects": [
+      "女性",
+      "建筑",
+      "汽车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "门口有一位穿着条纹上衣和浅色裤子的女性。",
+    "safe_facts": [
+      "门口有一位穿着条纹上衣和浅色裤子的女性。"
+    ]
+  },
+  "label_id": "cpl_64bdd59202b2a7c7d9b2e8ef",
+  "provenance": {
+    "generated_at": "2026-08-03T11:58:27.798851+00:00",
+    "migrated_at": "2026-08-03T11:58:27.801981+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fa3981b7fc7e14ba95456d43212123d465a1dd272bcbe4e382ae18880ed795b9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c45d51fdb400fffd59631ed0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:58:27.802526+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c45d51fdb400fffd59631ed0"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "枫丽公寓",
+      "日租, 短租"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "枫丽公寓",
+      "日租, 短租"
+    ]
+  }
+}

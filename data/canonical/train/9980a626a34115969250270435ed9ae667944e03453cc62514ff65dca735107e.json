@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:835.jpg",
+    "relative_path": "train/835.jpg",
+    "sha256": "9980a626a34115969250270435ed9ae667944e03453cc62514ff65dca735107e",
+    "split": "train"
+  },
+  "canonical_sha256": "64b9749e16c183730e184b27f26093f60b05f9058fcb005bc88b0307fdca5a84",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "学生",
+      "学习",
+      "教室",
+      "课桌"
+    ],
+    "short_description": "多名学生在室内课桌前专注学习，墙上贴有红色标语，一名穿浅蓝色上衣的学生背对镜头。",
+    "theme": "教室学习场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多名学生坐在课桌前，面前摆放着书本和文具。",
+      "房间内有木质地板、红色塑料凳和一扇木门。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "坐着",
+      "低头看材料",
+      "手部动作(如抬手)"
+    ],
+    "attributes": [
+      "木质地板",
+      "红色塑料凳",
+      "白色墙壁",
+      "红色标语"
+    ],
+    "relations": [
+      "学生坐在课桌旁。",
+      "课桌排列成行。",
+      "黑板位于墙面上。"
+    ],
+    "scene": "室内教室环境",
+    "subjects": [
+      "多名学生",
+      "课桌",
+      "黑板",
+      "门",
+      "墙壁装饰"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多名学生坐在课桌前，面前摆放着书本和文具；房间内有木质地板、红色塑料凳和一扇木门。",
+    "safe_facts": [
+      "多名学生坐在课桌前，面前摆放着书本和文具。",
+      "房间内有木质地板、红色塑料凳和一扇木门。"
+    ]
+  },
+  "label_id": "cpl_a5004b0ff309ed4cbf24dd7c",
+  "provenance": {
+    "generated_at": "2026-08-03T12:33:10.222254+00:00",
+    "migrated_at": "2026-08-03T12:33:10.226125+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b62da8229eeb47c4a1f991fa5096494f5f4732d26f52f652ddaedf1159e94334",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7d046553fbce88d7e95df0b8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:33:10.226486+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7d046553fbce88d7e95df0b8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

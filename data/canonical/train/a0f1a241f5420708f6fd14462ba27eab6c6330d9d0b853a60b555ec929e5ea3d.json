@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1793.jpg",
+    "relative_path": "train/1793.jpg",
+    "sha256": "a0f1a241f5420708f6fd14462ba27eab6c6330d9d0b853a60b555ec929e5ea3d",
+    "split": "train"
+  },
+  "canonical_sha256": "954bbb84f337c3842bfcd0b6846780f80365724c13823a4c0263fdcf6cc62cd3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "幻灯片",
+      "组织概念"
+    ],
+    "short_description": "投影屏幕显示关于青年相关基础概念的幻灯片内容。",
+    "theme": "投影屏幕"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见投影屏幕。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "室内投影演示场景",
+    "subjects": [
+      "投影屏幕"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见投影屏幕。",
+    "safe_facts": [
+      "画面中可见投影屏幕。"
+    ]
+  },
+  "label_id": "cpl_684356effe575eab5ba530d3",
+  "provenance": {
+    "generated_at": "2026-08-03T15:06:43.966776+00:00",
+    "migrated_at": "2026-08-03T15:06:43.968527+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7b59865651a4d337971dabd707ad294564324e9096063db6c45445668447cae9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_728e6a6619ad707a13cef3c5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:06:43.969054+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_direct_observations_insufficient",
+      "legacy_contract_safe_facts_empty",
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_728e6a6619ad707a13cef3c5"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "几个基础性概念:",
+      "青年:经济学(生产预备队、生力军)、社会学(社会群体)、心理学(成熟前期)政治学",
+      "青年工作:动员、组织、引领、服务",
+      "青年组织:正式组织和非正式组织、自组织",
+      "青年运动:青年为追求自身或社会利益开展的规模较大有广泛影响的社会活动",
+      "中国共产主义青年团"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "几个基础性概念:",
+      "青年:经济学(生产预备队、生力军)、社会学(社会群体)、心理学(成熟前期)政治学",
+      "青年工作:动员、组织、引领、服务",
+      "青年组织:正式组织和非正式组织、自组织",
+      "青年运动:青年为追求自身或社会利益开展的规模较大有广泛影响的社会活动",
+      "中国共产主义青年团"
+    ]
+  }
+}

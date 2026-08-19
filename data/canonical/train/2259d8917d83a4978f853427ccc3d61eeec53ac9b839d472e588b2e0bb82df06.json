@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1465.jpg",
+    "relative_path": "train/1465.jpg",
+    "sha256": "2259d8917d83a4978f853427ccc3d61eeec53ac9b839d472e588b2e0bb82df06",
+    "split": "train"
+  },
+  "canonical_sha256": "d5373d9810517c712c96189c7c94ff77924cddf4b4b04430c5c3147877570725",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "海鸥",
+      "海洋",
+      "飞翔",
+      "蓝天"
+    ],
+    "short_description": "一群海鸥在蔚蓝海面上飞翔与漂浮，翅膀舒展，水面波光粼粼，天空晴朗无云。",
+    "theme": "海鸟飞翔"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "海鸥可能在觅食或休息。"
+    ],
+    "direct_observations": [
+      "多只海鸥在空中飞翔，翅膀展开。",
+      "部分海鸥停留在水面上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "飞翔",
+      "漂浮"
+    ],
+    "attributes": [
+      "白色羽毛",
+      "黑色头部",
+      "蓝色海水",
+      "晴朗天空"
+    ],
+    "relations": [
+      "海鸥在海面上方飞行。",
+      "海鸥部分在水面上漂浮。"
+    ],
+    "scene": "开阔海域",
+    "subjects": [
+      "海鸥"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "海鸥可能在觅食或休息。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多只海鸥在空中飞翔，翅膀展开；部分海鸥停留在水面上。",
+    "safe_facts": [
+      "多只海鸥在空中飞翔，翅膀展开。",
+      "部分海鸥停留在水面上。"
+    ]
+  },
+  "label_id": "cpl_b1f6305dc82ae6f46ef48dfe",
+  "provenance": {
+    "generated_at": "2026-08-03T14:26:20.332207+00:00",
+    "migrated_at": "2026-08-03T14:26:20.335145+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "833f212b739605b30d54a459b53afc48ad2fda192049406e032ac2e64f7ec3d2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4e4c34ceb9818db725c44321",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:26:20.335494+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4e4c34ceb9818db725c44321"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

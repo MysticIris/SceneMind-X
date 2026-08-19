@@ -1,0 +1,136 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_a917265cdb4b4208574f5911",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_e1e68db8f919762024b53866"
+  ],
+  "asset": {
+    "asset_id": "c7e7806ff7596090",
+    "sha256": "c7e7806ff7596090a382d230d1167bafdf63d01d7b8d98d3d5cb1deff5eb56d9",
+    "split": "user_custom",
+    "relative_path": "user_assets/c7/c7e7806ff7596090a382d230d1167bafdf63d01d7b8d98d3d5cb1deff5eb56d9/c7e7806ff7596090a382d230d1167bafdf63d01d7b8d98d3d5cb1deff5eb56d9.png"
+  },
+  "display": {
+    "theme": "雅思成绩单截图",
+    "short_description": "一张手机应用界面的截图，展示了IDP雅思考试的成绩单详情。界面列出了口语、听力、阅读、写作及总分的具体数值，其中阅读为9.0分，口语为1.5分，底部配有用户吐槽口语分数的文案。",
+    "micro_tags": [
+      "雅思成绩",
+      "IDP",
+      "截图",
+      "分数展示",
+      "社交媒体"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "移动端应用程序界面",
+    "subjects": [
+      "考试成绩列表",
+      "顶部导航栏",
+      "底部用户评论区域"
+    ],
+    "actions": [],
+    "attributes": [
+      "白色背景卡片",
+      "红色数字字体",
+      "黑色文本标签",
+      "分享图标"
+    ],
+    "relations": [
+      "各项成绩垂直排列。",
+      "总分位于列表最下方。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "屏幕顶部显示时间为01：58，信号栏显示5G网络及80%电量。",
+      "页面主体包含五个白色卡片，分别标记为Speaking (1.5)，Listening (8.5)，Reading (9.0)，Writing (7.5)。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "idp IELTS",
+      "you receive your official Test Report Fo",
+      "Speaking 1.5",
+      "Listening 8.5",
+      "Reading 9.0",
+      "Writing 7.5"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "idp IELTS",
+      "you receive your official Test Report Fo",
+      "Speaking 1.5",
+      "Listening 8.5",
+      "Reading 9.0",
+      "Writing 7.5"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "屏幕顶部显示时间为01：58，信号栏显示5G网络及80%电量；页面主体包含五个白色卡片，分别标记为Speaking (1.5)，Listening (8.5)，Reading (9.0)，Writing (7.5)。",
+    "safe_facts": [
+      "屏幕顶部显示时间为01：58，信号栏显示5G网络及80%电量。",
+      "页面主体包含五个白色卡片，分别标记为Speaking (1.5)，Listening (8.5)，Reading (9.0)，Writing (7.5)。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_9399d301-a440-4498-8c21-5a53d8c49d0b",
+    "generated_at": "2026-08-12T03:07:58.747930+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "c5bf2b838b4d683a26d54ba203bdb29e9647e94ce53093afff412d6db37c5fc5",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:07:58.749602+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_e1e68db8f919762024b53866",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:07:58.750125+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "7aa747e8c3f3d6398494ba1d63dced7d545e6024f86ee3bb2237cf43c0116629"
+}

@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2043.jpg",
+    "relative_path": "val/2043.jpg",
+    "sha256": "b2e73f0fcd8c1b85f595b98cff2a8d29441df9723c89d520f63a27e88920d468",
+    "split": "val"
+  },
+  "canonical_sha256": "779b2ddc47b2e02964d65eb196d0666ee2ce59a07c467faf91f59788030ef49c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石碑",
+      "桥梁",
+      "夜景",
+      "行人"
+    ],
+    "short_description": "夜晚桥上石碑矗立，灯光照射下显出历史感，周围有行人驻足。",
+    "theme": "夜景石碑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "背景是一座多拱形的混凝土桥梁，桥上有路灯照明。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "桥梁有拱形结构",
+      "路灯亮着"
+    ],
+    "relations": [
+      "石碑位于桥梁旁。",
+      "行人站在石碑附近。"
+    ],
+    "scene": "夜间城市桥梁旁",
+    "subjects": [
+      "石碑",
+      "行人",
+      "桥梁结构"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "背景是一座多拱形的混凝土桥梁，桥上有路灯照明。",
+    "safe_facts": [
+      "背景是一座多拱形的混凝土桥梁，桥上有路灯照明。"
+    ]
+  },
+  "label_id": "cpl_3a1dad5caa40be69e4641d99",
+  "provenance": {
+    "generated_at": "2026-08-03T15:51:43.726810+00:00",
+    "migrated_at": "2026-08-03T15:51:43.728354+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c47509f2c99a94a55fb649de5d568af16869418ad97565c42820442b63b2f74d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_715bf531bed8e34b3aec1b16",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:51:43.728540+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_715bf531bed8e34b3aec1b16"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

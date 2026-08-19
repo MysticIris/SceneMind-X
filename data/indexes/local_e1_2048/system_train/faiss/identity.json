@@ -1,0 +1,32 @@
+{
+  "dimension": 2048,
+  "identity_sha256": "b81655242db7fedf49002172ab3fe8aa87cf22523b572c7b2269caf6e5ed7a0a",
+  "image_preprocess": {
+    "attention": "sdpa",
+    "dtype": "bfloat16",
+    "implementation": "Qwen3VLEmbedder.process",
+    "max_length": 8192,
+    "max_pixels": 1843200,
+    "min_pixels": 4096
+  },
+  "metric": "inner_product",
+  "model_id": "Qwen/Qwen3-VL-Embedding-2B",
+  "model_revision": "cda4398c9bbfb3a644105446a2793692a8da5ea1",
+  "normalization": "l2",
+  "provider_runtime": "local_in_process",
+  "schema_version": "scenemindx_local_embedding_identity_v2",
+  "scope": "system_train",
+  "serialization_schema": {
+    "faiss": "IndexFlatIP_float32",
+    "mapping": "scenemindx_e1_product_index_v1",
+    "portable_paths": "scenemindx_portable_asset_uri_v1"
+  },
+  "source_commit": "393e2978d27852b0d0230d6994f37f9c15bed73c",
+  "source_index_version": "e1-product-bdde356f7a70",
+  "text_preprocess": {
+    "default_instruction": "Retrieve images relevant to the user's query.",
+    "implementation": "Qwen3VLEmbedder.process",
+    "max_length": 8192
+  },
+  "weights_sha256": "c73fa9caeddeb3ff831d46c085a7a5708343248ca777e90f2d486964464509c1"
+}

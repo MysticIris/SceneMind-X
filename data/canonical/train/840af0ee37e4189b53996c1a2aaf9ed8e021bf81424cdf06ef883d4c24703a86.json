@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:486.jpg",
+    "relative_path": "train/486.jpg",
+    "sha256": "840af0ee37e4189b53996c1a2aaf9ed8e021bf81424cdf06ef883d4c24703a86",
+    "split": "train"
+  },
+  "canonical_sha256": "c5e1150412bc35a35d496743b1a8989e10ae3fa319709770c5866a6e39592111",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "星云",
+      "恒星",
+      "宇宙",
+      "气体尘埃"
+    ],
+    "short_description": "深空星云中弥漫着橙红与灰白气体，中心密集分布着明亮恒星群，背景布满繁星。",
+    "theme": "星云与恒星"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "星云中的气体可能因恒星辐射而发光。"
+    ],
+    "direct_observations": [
+      "图像呈现深空星云结构，包含橙红色与灰白色气体云团。",
+      "中心区域密集分布大量明亮恒星，部分呈十字星芒状。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "橙红色调",
+      "灰白色气体",
+      "密集恒星群",
+      "繁星背景"
+    ],
+    "relations": [
+      "恒星群位于星云中心。",
+      "气体尘埃环绕恒星群。"
+    ],
+    "scene": "深空星云区域",
+    "subjects": [
+      "星云",
+      "恒星群",
+      "星际尘埃"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "星云中的气体可能因恒星辐射而发光。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现深空星云结构，包含橙红色与灰白色气体云团；中心区域密集分布大量明亮恒星，部分呈十字星芒状。",
+    "safe_facts": [
+      "图像呈现深空星云结构，包含橙红色与灰白色气体云团。",
+      "中心区域密集分布大量明亮恒星，部分呈十字星芒状。"
+    ]
+  },
+  "label_id": "cpl_4cdff9c66225fd597625063c",
+  "provenance": {
+    "generated_at": "2026-08-03T11:13:27.613107+00:00",
+    "migrated_at": "2026-08-03T11:13:27.614692+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f8528df31bf3fb63cd818fe6ec7cf1760580c4e59e0261e9522f3410de449a4e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_efaf19d3a5e5a16430d736d2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:13:27.614898+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_efaf19d3a5e5a16430d736d2"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

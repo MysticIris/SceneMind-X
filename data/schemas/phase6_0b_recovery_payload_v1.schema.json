@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scenemind-x.local/schemas/phase6_0b_recovery_payload_v1.schema.json",
+  "title": "Phase 6.0-B minimal safe recovery payload v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "display",
+    "fallback",
+    "evidence_boundary",
+    "text_evidence"
+  ],
+  "properties": {
+    "contract_version": {
+      "const": "phase6_0b_recovery_payload_v1"
+    },
+    "display": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["theme", "short_description", "micro_tags"],
+      "properties": {
+        "theme": {"type": "string", "minLength": 1, "maxLength": 24},
+        "short_description": {
+          "type": "string",
+          "minLength": 4,
+          "maxLength": 120
+        },
+        "micro_tags": {
+          "type": "array",
+          "maxItems": 5,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1, "maxLength": 18}
+        }
+      }
+    },
+    "fallback": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["safe_facts"],
+      "properties": {
+        "safe_facts": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1, "maxLength": 80}
+        }
+      }
+    },
+    "evidence_boundary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["uncertainty"],
+      "properties": {
+        "uncertainty": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {"type": "string", "minLength": 1, "maxLength": 80}
+        }
+      }
+    },
+    "text_evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["verification_status"],
+      "properties": {
+        "verification_status": {
+          "enum": ["none", "candidate", "conflicted"]
+        }
+      }
+    }
+  }
+}

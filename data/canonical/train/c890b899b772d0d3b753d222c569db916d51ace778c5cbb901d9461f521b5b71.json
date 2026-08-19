@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1942.jpg",
+    "relative_path": "train/1942.jpg",
+    "sha256": "c890b899b772d0d3b753d222c569db916d51ace778c5cbb901d9461f521b5b71",
+    "split": "train"
+  },
+  "canonical_sha256": "9a0fbe448a6d0a2e217aa56d7430bf44050c7033bc92f3e20d131e610cf57619",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "向日葵",
+      "绿色植物",
+      "田野",
+      "黄色花朵"
+    ],
+    "short_description": "一片绿叶茂盛的向日葵田，点缀着零星黄色花朵，背景是浓密灌木丛。",
+    "theme": "向日葵田"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "这些植物可能是向日葵，因为其叶片形态和花盘特征符合该物种。"
+    ],
+    "direct_observations": [
+      "画面中大量绿色阔叶植物密集分布。",
+      "部分植株顶端有黄色花盘。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "叶片宽大",
+      "部分植株开花"
+    ],
+    "relations": [
+      "向日葵植株生长于地面。",
+      "植株前方有灌木丛。"
+    ],
+    "scene": "户外田野",
+    "subjects": [
+      "向日葵植株"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "这些植物可能是向日葵，因为其叶片形态和花盘特征符合该物种。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中大量绿色阔叶植物密集分布；部分植株顶端有黄色花盘。",
+    "safe_facts": [
+      "画面中大量绿色阔叶植物密集分布。",
+      "部分植株顶端有黄色花盘。"
+    ]
+  },
+  "label_id": "cpl_5efc4c763298c2e4feeffb7b",
+  "provenance": {
+    "generated_at": "2026-08-03T15:26:53.912404+00:00",
+    "migrated_at": "2026-08-03T15:26:53.914204+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "36ab46a034cb51c4cd5ef53950894478ff69ec52629258f36e5e18969af225fb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_24b21638b73aab1b940f41ec",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:26:53.914465+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_24b21638b73aab1b940f41ec"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

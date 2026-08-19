@@ -1,0 +1,133 @@
+{
+  "asset_id": "e6825e78e569a91c",
+  "asset_sha256": "e6825e78e569a91cc022b1f71ca6725151fe6a688904e57a218637061c3daf94",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"游戏战绩列表截图\",\n    \"short_description\": \"这是一张手机竖屏截图，展示了某MOBA手游中英雄“大乔”的近期排位赛战绩详情。界面以垂直列表形式排列了多场对局记录，包含胜负结果、KDA数据、组队模式（如五排、三排）以及MVP或金牌中路等荣誉标识。\",\n    \"micro_tags\": [\n      \"手机游戏\",\n      \"战绩查询\",\n      \"大乔\",\n      \"排位赛\",\n      \"MVP\",\n      \"UI界面\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端应用程序界面\",\n    \"subjects\": [\n      \"游戏战绩列表\",\n      \"英雄头像\",\n      \"状态标签\",\n      \"数据文本\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"竖向排列\",\n      \"白底黑字\",\n      \"彩色图标\",\n      \"信息密集\"\n    ],\n    \"relations\": [\n      \"每一行代表一场独立的比赛记录\",\n      \"左侧为角色头像，右侧为详细数据与评价\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕顶部显示标题文字“我的大乔详情”。\",\n      \"列表项中包含红色的“失败”和蓝色的“胜利”字样，以及具体的数字比分（如1/3/5）。\",\n      \"部分条目右侧带有“MVP”、“金牌中路”或“银牌中路”的徽章图标。\",\n      \"每条记录右侧边缘均有向右的箭头符号。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局和术语（如排位赛、五排），这很可能是一款多人在线战术竞技类手游的结算或历史查询页面。\",\n      \"时间戳显示这些对局集中在凌晨时段（如01:14, 02:21）。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"我的大乔详情\",\n      \"失败 排位赛 五排\",\n      \"胜利 排位赛 五排\",\n      \"1/3/5\",\n      \"5/1/15\",\n      \"MVP\",\n      \"金牌中路\",\n      \"银牌中路\",\n      \"铜牌中路\",\n      \"尽力局\",\n      \"实力局\",\n      \"暴走局\",\n      \"翻车局\",\n      \"01-14 02:21\",\n      \"19:48\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张展示手机游戏历史对局记录的竖屏截图，包含多行带有胜负状态、数值统计和荣誉徽章的列表项。\",\n    \"safe_facts\": [\n      \"图像为移动设备屏幕截图\",\n      \"内容呈现为垂直滚动的列表布局\",\n      \"包含重复出现的圆形人物头像图标\",\n      \"使用红色和蓝色区分不同的状态类别\",\n      \"每行数据右侧包含指向性箭头图标\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 752,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 752,
+        "total_tokens": 3979,
+        "estimated_cost_cny": 0.01247,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "游戏战绩列表截图",
+          "short_description": "这是一张手机竖屏截图，展示了某MOBA手游中英雄“大乔”的近期排位赛战绩详情。界面以垂直列表形式排列了多场对局记录，包含胜负结果、KDA数据、组队模式（如五排、三排）以及MVP或金牌中路等荣誉标识。",
+          "micro_tags": [
+            "手机游戏",
+            "战绩查询",
+            "大乔",
+            "排位赛",
+            "MVP",
+            "UI界面"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "移动端应用程序界面",
+          "subjects": [
+            "游戏战绩列表",
+            "英雄头像",
+            "状态标签",
+            "数据文本"
+          ],
+          "actions": [],
+          "attributes": [
+            "竖向排列",
+            "白底黑字",
+            "彩色图标",
+            "信息密集"
+          ],
+          "relations": [
+            "每一行代表一场独立的比赛记录",
+            "左侧为角色头像，右侧为详细数据与评价"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "屏幕顶部显示标题文字“我的大乔详情”。",
+            "列表项中包含红色的“失败”和蓝色的“胜利”字样，以及具体的数字比分（如1/3/5）。",
+            "部分条目右侧带有“MVP”、“金牌中路”或“银牌中路”的徽章图标。",
+            "每条记录右侧边缘均有向右的箭头符号。"
+          ],
+          "cautious_inferences": [
+            "根据界面布局和术语（如排位赛、五排），这很可能是一款多人在线战术竞技类手游的结算或历史查询页面。",
+            "时间戳显示这些对局集中在凌晨时段（如01:14, 02:21）。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "我的大乔详情",
+            "失败 排位赛 五排",
+            "胜利 排位赛 五排",
+            "1/3/5",
+            "5/1/15",
+            "MVP",
+            "金牌中路",
+            "银牌中路",
+            "铜牌中路",
+            "尽力局",
+            "实力局",
+            "暴走局",
+            "翻车局",
+            "01-14 02:21",
+            "19:48"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张展示手机游戏历史对局记录的竖屏截图，包含多行带有胜负状态、数值统计和荣誉徽章的列表项。",
+          "safe_facts": [
+            "图像为移动设备屏幕截图",
+            "内容呈现为垂直滚动的列表布局",
+            "包含重复出现的圆形人物头像图标",
+            "使用红色和蓝色区分不同的状态类别",
+            "每行数据右侧包含指向性箭头图标"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 1484676,
+        "request_bytes": 1110435,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.03238330000022,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "04b642a69347dc14b6fbcac71fbf02aa3b69f9726e3527215788a6915e842b4a"
+}

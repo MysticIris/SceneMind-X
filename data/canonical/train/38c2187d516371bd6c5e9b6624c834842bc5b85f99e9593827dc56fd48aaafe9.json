@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:353.jpg",
+    "relative_path": "train/353.jpg",
+    "sha256": "38c2187d516371bd6c5e9b6624c834842bc5b85f99e9593827dc56fd48aaafe9",
+    "split": "train"
+  },
+  "canonical_sha256": "6c8e88908ba75ce4c5cc3a77bd6465b094329d5ad5e4adeda951895491dbae26",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "霓虹灯",
+      "夜间",
+      "铁丝网",
+      "人物剪影"
+    ],
+    "short_description": "一名男子站在夜间铁丝网围栏前，背景有发光的霓虹灯装饰。",
+    "theme": "霓虹灯装饰夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一名男子站立在铁丝网围栏旁。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色霓虹灯",
+      "蓝色和黄色发光人形剪影",
+      "铁丝网围栏"
+    ],
+    "relations": [
+      "男子站在围栏前。",
+      "霓虹灯装置安装在围栏上。"
+    ],
+    "scene": "户外夜间场景",
+    "subjects": [
+      "一名男子",
+      "霓虹灯装置"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一名男子站立在铁丝网围栏旁。",
+    "safe_facts": [
+      "画面中有一名男子站立在铁丝网围栏旁。"
+    ]
+  },
+  "label_id": "cpl_ed59198b0f3b56df467632f9",
+  "provenance": {
+    "generated_at": "2026-08-03T10:45:42.055213+00:00",
+    "migrated_at": "2026-08-03T10:45:42.056650+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5fa529c80eebf79a1308af7367080b1a6772dd12277209a8ad255f269cd9b6ca",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5bc53e07707d979e79b183bb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:45:42.056837+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5bc53e07707d979e79b183bb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

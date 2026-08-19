@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:216.jpg",
+    "relative_path": "train/216.jpg",
+    "sha256": "f660a84f781763555d349edb6dafdf007018f58f30c6ea4a759331fb795a769d",
+    "split": "train"
+  },
+  "canonical_sha256": "2a9751325c07099dbadc1ec8dda0d7ad4387f95e6d9171e7460645fa1bea5af7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石刻浮雕",
+      "古代艺术",
+      "历史遗迹"
+    ],
+    "short_description": "古代石墙上雕刻着人物与动物的浮雕，细节丰富，展现历史场景。",
+    "theme": "古石刻浮雕"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "石墙上有多组浮雕图案，包括站立的人物和动物形象。",
+      "浮雕线条清晰，具有装饰性花纹边框。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "石质",
+      "雕刻精细",
+      "部分破损"
+    ],
+    "relations": [],
+    "scene": "石墙上的浮雕装饰",
+    "subjects": [
+      "人物",
+      "动物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "石墙上有多组浮雕图案，包括站立的人物和动物形象；浮雕线条清晰，具有装饰性花纹边框。",
+    "safe_facts": [
+      "石墙上有多组浮雕图案，包括站立的人物和动物形象。",
+      "浮雕线条清晰，具有装饰性花纹边框。"
+    ]
+  },
+  "label_id": "cpl_fcdc3477663d22add82b75c1",
+  "provenance": {
+    "generated_at": "2026-08-02T22:34:30.101058+00:00",
+    "migrated_at": "2026-08-03T07:13:42.007167+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "96b08e2a423e6147687c2247892f100bae4192009af7d26e684adedf275c114a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3667b6588ed84c9060311129",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:18:19.285164+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3667b6588ed84c9060311129",
+    "cpl_66cc665c80a1e6d87816c38f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

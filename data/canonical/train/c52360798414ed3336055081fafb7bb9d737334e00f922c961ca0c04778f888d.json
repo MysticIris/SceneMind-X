@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:970.jpg",
+    "relative_path": "train/970.jpg",
+    "sha256": "c52360798414ed3336055081fafb7bb9d737334e00f922c961ca0c04778f888d",
+    "split": "train"
+  },
+  "canonical_sha256": "b0be689079c86cc2348e2ac400ef7aa7f50e9a856764f6478ecbbe351111c8ce",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "玻璃幕墙",
+      "仰拍视角",
+      "城市建筑"
+    ],
+    "short_description": "仰拍视角下，现代玻璃幕墙建筑在蓝天映衬下呈现几何线条感，反射出天空与邻近建筑。",
+    "theme": "玻璃幕墙建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "建筑可能位于城市环境中，因背景为晴朗蓝天且有其他建筑倒影。"
+    ],
+    "direct_observations": [
+      "画面为仰视角度拍摄的现代建筑外墙。",
+      "建筑表面由大量玻璃面板和金属框架构成。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "透明玻璃",
+      "金属框架",
+      "蓝色天空"
+    ],
+    "relations": [
+      "玻璃幕墙反射天空与邻近建筑。"
+    ],
+    "scene": "城市建筑外部",
+    "subjects": [
+      "玻璃幕墙建筑",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "建筑可能位于城市环境中，因背景为晴朗蓝天且有其他建筑倒影。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面为仰视角度拍摄的现代建筑外墙；建筑表面由大量玻璃面板和金属框架构成。",
+    "safe_facts": [
+      "画面为仰视角度拍摄的现代建筑外墙。",
+      "建筑表面由大量玻璃面板和金属框架构成。"
+    ]
+  },
+  "label_id": "cpl_4056ee6a92b0633ff8fb0523",
+  "provenance": {
+    "generated_at": "2026-08-03T13:11:58.962653+00:00",
+    "migrated_at": "2026-08-03T13:11:58.966224+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9a4a0558d972cf8a16afff6cfe6f68099327c5c70f7ce58ae71ba1795f730ec4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4056ee6a92b0633ff8fb0523",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:21:19.691907+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_222a8e8c1e95dd6302d3daed"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1695.jpg",
+    "relative_path": "train/1695.jpg",
+    "sha256": "e59cfb60849dd70c8c4fe2790110ec03aa696801c563d63977a2c3291ef8f640",
+    "split": "train"
+  },
+  "canonical_sha256": "0de59a5ed4a29d4b6b8e4881ee0477d924a6c7ae1674213217d5e0a98ecd4792",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "教室",
+      "黑板",
+      "学生",
+      "手写字迹"
+    ],
+    "short_description": "教室内的黑板上写满了手写字迹，前方有学生在座位上。",
+    "theme": "保守"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图中可见学生坐在课桌前。",
+      "黑板上方悬挂着中国国旗和红色标语。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "",
+    "subjects": [],
+    "visual_medium": "uncertain"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图中可见学生坐在课桌前；黑板上方悬挂着中国国旗和红色标语。",
+    "safe_facts": [
+      "图中可见学生坐在课桌前。",
+      "黑板上方悬挂着中国国旗和红色标语。"
+    ]
+  },
+  "label_id": "cpl_25ab1d490f74fa7a101ae39c",
+  "provenance": {
+    "generated_at": "2026-08-03T15:36:58.125289+00:00",
+    "migrated_at": "2026-08-03T15:36:58.126809+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "a1b9e02b68561075c20a39e92cf25e495d05a8017f7ff3050b6f68f5012a9bfb",
+    "raw_output_sha256": "61ae2db6f007e453d7471ce4fa53d014dbe98768f002a9c85c7b3f62d8bace74",
+    "recovered_at_tokens": 384,
+    "source_label_id": "cpl_7ced9028b5c1bc186048a19d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:36:58.126997+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_subjects_empty",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_with_minimal_contract",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7ced9028b5c1bc186048a19d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2159.jpg",
+    "relative_path": "val/2159.jpg",
+    "sha256": "d423f055ed51df5f7d194bd45bc15b6fd5f6fa78d5acf030705a048c1cc976ff",
+    "split": "val"
+  },
+  "canonical_sha256": "05a9f44ed9339e22cc964952b3ff24dfc508750da76256b61255814383d8964e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "柠檬鱼汤",
+      "鱼片",
+      "汤品",
+      "餐厅"
+    ],
+    "short_description": "一碗金黄色汤底的柠檬鱼片汤，配有柠檬片、红辣椒和葱段，盛放在浅绿色碗中。",
+    "theme": "柠檬鱼片汤"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "碗内盛有金黄色液体，其中漂浮着白色鱼片。",
+      "汤面点缀有柠檬切片、红辣椒和绿色葱段。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金黄色汤底",
+      "浅绿色碗",
+      "带金属勺子",
+      "表面有油光"
+    ],
+    "relations": [
+      "鱼片漂浮在汤中。",
+      "柠檬片和红辣椒作为配料。"
+    ],
+    "scene": "餐桌",
+    "subjects": [
+      "碗",
+      "汤",
+      "鱼片",
+      "柠檬片",
+      "红辣椒",
+      "葱段"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "碗内盛有金黄色液体，其中漂浮着白色鱼片；汤面点缀有柠檬切片、红辣椒和绿色葱段。",
+    "safe_facts": [
+      "碗内盛有金黄色液体，其中漂浮着白色鱼片。",
+      "汤面点缀有柠檬切片、红辣椒和绿色葱段。"
+    ]
+  },
+  "label_id": "cpl_6438a068233476280d34d8a1",
+  "provenance": {
+    "generated_at": "2026-08-03T16:06:33.982252+00:00",
+    "migrated_at": "2026-08-03T16:06:33.984366+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "46c6a734e55fb754bafdb46a851c14c4bf6698f8904c2dab0e97a5bb794827e8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_de643ce1bd8039b2bf6d452f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:06:33.984707+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_de643ce1bd8039b2bf6d452f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

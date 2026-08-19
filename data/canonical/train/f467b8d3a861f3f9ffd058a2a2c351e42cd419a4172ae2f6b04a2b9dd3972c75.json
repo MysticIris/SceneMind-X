@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:747.jpg",
+    "relative_path": "train/747.jpg",
+    "sha256": "f467b8d3a861f3f9ffd058a2a2c351e42cd419a4172ae2f6b04a2b9dd3972c75",
+    "split": "train"
+  },
+  "canonical_sha256": "04aa6c8a094375c5649da9a0e8d11ca14e8ae12334e63a6063a034a7f31eca0e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "摩天大楼",
+      "城市景观",
+      "黄昏天空"
+    ],
+    "short_description": "黄昏时分，一座现代摩天大楼在紫粉色天空下闪耀，周围环绕着其他建筑群与绿树。",
+    "theme": "城市天际线黄昏"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该场景可能发生在日落或日出时段。"
+    ],
+    "direct_observations": [
+      "天空呈现紫粉色渐变。",
+      "建筑物表面有反光效果。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "玻璃幕墙",
+      "反射光线",
+      "紫色天空",
+      "城市轮廓"
+    ],
+    "relations": [
+      "摩天大楼位于画面中央。",
+      "树木位于前景底部。"
+    ],
+    "scene": "城市天际线",
+    "subjects": [
+      "摩天大楼",
+      "其他高层建筑",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该场景可能发生在日落或日出时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现紫粉色渐变；建筑物表面有反光效果。",
+    "safe_facts": [
+      "天空呈现紫粉色渐变。",
+      "建筑物表面有反光效果。"
+    ]
+  },
+  "label_id": "cpl_ba56b811ea67fe2c5b7599eb",
+  "provenance": {
+    "generated_at": "2026-08-03T12:14:33.349230+00:00",
+    "migrated_at": "2026-08-03T12:14:33.352006+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7e46b883941bb10891c0f8a35e97eff85ef6949ba39445031ef0fcbf2613f293",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b2e7ebfdf805103736107254",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:14:33.352339+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b2e7ebfdf805103736107254"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

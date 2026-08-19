@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2082.jpg",
+    "relative_path": "val/2082.jpg",
+    "sha256": "0d30215f84d70ee6dfa51da259f8932fa5e50ad2b14a797b4b3eb37fcad59c5f",
+    "split": "val"
+  },
+  "canonical_sha256": "6edb2cdedaa9c74c10bb1116b5299b1e481ce04f67a36e3ace797b39ae4b4344",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电路板",
+      "测试线",
+      "实验操作"
+    ],
+    "short_description": "一只手正在连接实验板上的测试线，绿色电路板上有多个接口和标识。",
+    "theme": "电子实验操作"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "绿色电路板上布满电子元件和接线端子。",
+      "手正将红黑测试线插入电路板上的插孔。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "连接"
+    ],
+    "attributes": [
+      "绿色电路板",
+      "红色和黑色测试线",
+      "黑色袖口"
+    ],
+    "relations": [
+      "手连接测试线至电路板。"
+    ],
+    "scene": "实验台面",
+    "subjects": [
+      "手",
+      "电路板",
+      "测试线"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "绿色电路板上布满电子元件和接线端子；手正将红黑测试线插入电路板上的插孔。",
+    "safe_facts": [
+      "绿色电路板上布满电子元件和接线端子。",
+      "手正将红黑测试线插入电路板上的插孔。"
+    ]
+  },
+  "label_id": "cpl_1f503026286cded89eaa6c93",
+  "provenance": {
+    "generated_at": "2026-08-03T15:57:22.659206+00:00",
+    "migrated_at": "2026-08-03T15:57:22.660718+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "57ea006b347cd8e75ee94f1af1de4f8e3c3f17c08d87234ec6c53339879f77bc",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4c2fec34636b52a8ab5d03ef",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:57:22.661039+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4c2fec34636b52a8ab5d03ef"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

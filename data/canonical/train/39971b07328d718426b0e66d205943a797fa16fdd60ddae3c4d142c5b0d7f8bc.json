@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1794.jpg",
+    "relative_path": "train/1794.jpg",
+    "sha256": "39971b07328d718426b0e66d205943a797fa16fdd60ddae3c4d142c5b0d7f8bc",
+    "split": "train"
+  },
+  "canonical_sha256": "b74042b48600b61eef1c083836523342c9ffb5bd1a29b45c48f7930057252181",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "牡丹花",
+      "紫红色",
+      "绿叶",
+      "户外花园"
+    ],
+    "short_description": "数朵盛开的紫红色牡丹花，花瓣层层叠叠，绿叶环绕，背景为泥土与杂草。",
+    "theme": "牡丹花丛"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有数朵盛开的紫红色牡丹花。",
+      "花朵周围环绕着绿色的复叶。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "紫红色",
+      "多层花瓣",
+      "绿色叶片"
+    ],
+    "relations": [
+      "花朵位于叶片之间。"
+    ],
+    "scene": "户外花园",
+    "subjects": [
+      "牡丹花",
+      "绿叶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有数朵盛开的紫红色牡丹花；花朵周围环绕着绿色的复叶。",
+    "safe_facts": [
+      "画面中有数朵盛开的紫红色牡丹花。",
+      "花朵周围环绕着绿色的复叶。"
+    ]
+  },
+  "label_id": "cpl_c40a4bc0845203111ab3640a",
+  "provenance": {
+    "generated_at": "2026-08-03T15:08:18.017066+00:00",
+    "migrated_at": "2026-08-03T15:08:18.018734+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "44b7c60a9a3bda9de1920b607136029cd733bd6ec8279393b58f80b864bd01b1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5a5991bb9b72b443eb23eca1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:08:18.019052+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5a5991bb9b72b443eb23eca1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

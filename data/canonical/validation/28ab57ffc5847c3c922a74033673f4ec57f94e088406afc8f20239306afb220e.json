@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2361.jpg",
+    "relative_path": "val/2361.jpg",
+    "sha256": "28ab57ffc5847c3c922a74033673f4ec57f94e088406afc8f20239306afb220e",
+    "split": "val"
+  },
+  "canonical_sha256": "04d60acf4e8e5e45ae94aa9e82fc0ae2a26fabf96f1dc3022b71ab8380e923c5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "烤鸭",
+      "蘸料",
+      "中式餐食",
+      "餐桌"
+    ],
+    "short_description": "一盘色泽红亮的烤鸭配以多种蘸料和配菜，摆放在餐桌中央，旁边有蒸笼和餐具。",
+    "theme": "烤鸭配蘸料"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "烤鸭被切片摆放在白色圆盘上。",
+      "蘸料盘内含黄瓜条、酱汁、辣椒酱、粉色糖粉和黄色条状物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "烤鸭皮色红亮",
+      "蘸料盘分格",
+      "蒸笼木质"
+    ],
+    "relations": [
+      "烤鸭位于蘸料盘上方。",
+      "蒸笼在桌面右侧。"
+    ],
+    "scene": "餐厅餐桌",
+    "subjects": [
+      "烤鸭",
+      "蘸料盘",
+      "蒸笼",
+      "餐巾纸",
+      "杯子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "烤鸭被切片摆放在白色圆盘上；蘸料盘内含黄瓜条、酱汁、辣椒酱、粉色糖粉和黄色条状物。",
+    "safe_facts": [
+      "烤鸭被切片摆放在白色圆盘上。",
+      "蘸料盘内含黄瓜条、酱汁、辣椒酱、粉色糖粉和黄色条状物。"
+    ]
+  },
+  "label_id": "cpl_9c9859f31ba732d09435f69e",
+  "provenance": {
+    "generated_at": "2026-08-03T16:31:33.297502+00:00",
+    "migrated_at": "2026-08-03T16:31:33.299093+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "82714b0c4d2a620c8d20b7a43455f4520bb5d358c90804c293c805d57b2cf29f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_beda83c2082b5cd1622e99dd",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:31:33.299292+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_beda83c2082b5cd1622e99dd"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

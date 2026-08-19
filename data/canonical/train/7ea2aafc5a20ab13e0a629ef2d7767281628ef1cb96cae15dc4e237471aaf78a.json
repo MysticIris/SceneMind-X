@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1394.jpg",
+    "relative_path": "train/1394.jpg",
+    "sha256": "7ea2aafc5a20ab13e0a629ef2d7767281628ef1cb96cae15dc4e237471aaf78a",
+    "split": "train"
+  },
+  "canonical_sha256": "8ffeeaac2ad173259c3bbd40c26fd0b03298185a3feac9e118ed47500ccb7f71",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "卡通角色",
+      "躺卧姿势",
+      "模糊图像"
+    ],
+    "short_description": "一张卡通风格的图像，显示一个角色侧卧在白色背景上，头部朝向右上方，身体呈放松姿态。",
+    "theme": "卡通角色躺卧"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像主体为卡通风格的角色。",
+      "角色呈侧卧姿态，头部朝右上方。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "模糊",
+      "侧卧"
+    ],
+    "relations": [],
+    "scene": "纯白背景",
+    "subjects": [
+      "卡通角色"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像主体为卡通风格的角色；角色呈侧卧姿态，头部朝右上方。",
+    "safe_facts": [
+      "图像主体为卡通风格的角色。",
+      "角色呈侧卧姿态，头部朝右上方。"
+    ]
+  },
+  "label_id": "cpl_4e6a332e5b6322d69336e8c0",
+  "provenance": {
+    "generated_at": "2026-08-03T14:17:12.909683+00:00",
+    "migrated_at": "2026-08-03T14:17:12.913642+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cd67c86dd5fb0a2c7706c3615f4269f46006bb9e5f557bdc6dafa07159318148",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_32f6629a9c71aa3a41e2e4ca",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:17:12.914290+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_32f6629a9c71aa3a41e2e4ca"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "极品廉价劳动力去世",
+      "小人市长"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "极品廉价劳动力去世",
+      "小人市长"
+    ]
+  }
+}

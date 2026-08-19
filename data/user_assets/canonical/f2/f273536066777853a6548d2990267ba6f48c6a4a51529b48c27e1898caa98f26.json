@@ -1,0 +1,144 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_29787860b561472fe726731e",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_4b0eae7a7e1fe15cdabe50d0"
+  ],
+  "asset": {
+    "asset_id": "f273536066777853",
+    "sha256": "f273536066777853a6548d2990267ba6f48c6a4a51529b48c27e1898caa98f26",
+    "split": "user_custom",
+    "relative_path": "user_assets/f2/f273536066777853a6548d2990267ba6f48c6a4a51529b48c27e1898caa98f26/f273536066777853a6548d2990267ba6f48c6a4a51529b48c27e1898caa98f26.png"
+  },
+  "display": {
+    "theme": "热门新车推荐列表",
+    "short_description": "列表中垂直排列了三款豪华汽车卡片，分别包含车辆图片、名称(如Gemera、迈巴赫S级、保时捷911)、在售车型数量、热度数值以及红色的最低报价和“询底价”按钮。",
+    "micro_tags": [
+      "汽车资讯",
+      "手机截图",
+      "豪车推荐",
+      "购车比价",
+      "UI界面",
+      "懂车帝"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "移动端应用程序的信息流或推荐页面",
+    "subjects": [
+      "Gemera跑车",
+      "迈巴赫S级轿车",
+      "保时捷911跑车",
+      "应用界面元素"
+    ],
+    "actions": [],
+    "attributes": [
+      "橙黄色渐变背景",
+      "白色圆角卡片布局",
+      "红色价格字体",
+      "底部黑色导航栏",
+      "顶部状态栏显示时间01：32"
+    ],
+    "relations": [
+      "三辆汽车以列表形式垂直排列。",
+      "每辆车对应独立的信息卡片。",
+      "价格位于车辆图片右侧下方。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "屏幕顶部显示时间为01：32，信号为5G，电量49%。",
+      "第一张卡片展示深灰色跑车Gemera，标价1980.00万。",
+      "第二张卡片展示蓝色轿车迈巴赫S级，标价141.80万，并有直降5.00万标签。",
+      "第三张卡片展示蓝色跑车保时捷911，标价137.60万。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "01:32",
+      "5G",
+      "49",
+      "你可能感兴趣的",
+      "热门新车",
+      "Gemera"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "01:32",
+      "5G",
+      "49",
+      "你可能感兴趣的",
+      "热门新车",
+      "Gemera"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "屏幕顶部显示时间为01：32，信号为5G，电量49%；第一张卡片展示深灰色跑车Gemera，标价1980.00万。",
+    "safe_facts": [
+      "屏幕顶部显示时间为01：32，信号为5G，电量49%。",
+      "第一张卡片展示深灰色跑车Gemera，标价1980.00万。",
+      "第二张卡片展示蓝色轿车迈巴赫S级，标价141.80万，并有直降5.00万标签。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_cee795dd-f6f5-4121-bf51-e2eabfad4397",
+    "generated_at": "2026-08-12T03:12:59.848320+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "f3b862bd5a0a0a9c32fff2adf219c56c9c7a96b2a1aaa078c88edb189c64687e",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:12:59.849437+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_4b0eae7a7e1fe15cdabe50d0",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:12:59.849968+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "77e746846937bf081318c3e668c9eb92445f2050c892c2c49bdefe9c01d02569"
+}

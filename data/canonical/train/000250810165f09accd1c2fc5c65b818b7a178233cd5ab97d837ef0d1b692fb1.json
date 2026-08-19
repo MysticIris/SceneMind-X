@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1955.jpg",
+    "relative_path": "train/1955.jpg",
+    "sha256": "000250810165f09accd1c2fc5c65b818b7a178233cd5ab97d837ef0d1b692fb1",
+    "split": "train"
+  },
+  "canonical_sha256": "00b83b05c6649046f72f9942c62148c2eabf38d4b70c9326e3d7804723f99903",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "树林",
+      "长椅",
+      "树干涂白",
+      "公园"
+    ],
+    "short_description": "高大树木环绕的公园小径，树干底部被涂白，木质长椅静置于绿草与砖石之间。",
+    "theme": "林间长椅"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "树木可能为落叶乔木，因无叶而呈现冬季或早春状态。"
+    ],
+    "direct_observations": [
+      "多棵高大树木排列成行，树干下部被白色涂料覆盖。",
+      "画面中有木质长椅，部分被绿草包围。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "树干涂白",
+      "木质长椅",
+      "绿色草地",
+      "灰色砖石地面"
+    ],
+    "relations": [
+      "树木环绕长椅。",
+      "长椅位于草地与人行道之间。"
+    ],
+    "scene": "公园林地",
+    "subjects": [
+      "树木",
+      "长椅",
+      "草地",
+      "人行道"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "树木可能为落叶乔木，因无叶而呈现冬季或早春状态。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多棵高大树木排列成行，树干下部被白色涂料覆盖；画面中有木质长椅，部分被绿草包围。",
+    "safe_facts": [
+      "多棵高大树木排列成行，树干下部被白色涂料覆盖。",
+      "画面中有木质长椅，部分被绿草包围。"
+    ]
+  },
+  "label_id": "cpl_826d1047f6a3a5d67c9b55bc",
+  "provenance": {
+    "generated_at": "2026-08-03T15:26:22.243151+00:00",
+    "migrated_at": "2026-08-03T15:26:22.245066+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "92369400621a4c2376610738ab938f7866b4d9dcaaad8e178a759873ad8401bf",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_60b658a9ca5d3a66f407e620",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:26:22.245435+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_60b658a9ca5d3a66f407e620"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

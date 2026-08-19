@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:565.jpg",
+    "relative_path": "train/565.jpg",
+    "sha256": "32e9e587e9a4391291565a0e86fdc4b7849e9fa0e6ca27eea2aa94aeb7e770fc",
+    "split": "train"
+  },
+  "canonical_sha256": "74182c371f44db02c0ebb9fbf819eae81e8e4316ec96407ed3e68464d385d78e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "发光雕塑",
+      "夜间景观",
+      "水池喷泉"
+    ],
+    "short_description": "夜晚户外大型发光人形雕塑，周围环绕水池与观众，灯光营造梦幻氛围。",
+    "theme": "夜景灯光装置"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "中心位置有一座由蓝色灯光构成的人形雕塑。",
+      "雕塑周围有水池，水面泛起雾气或水花。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "发光",
+      "蓝色灯光",
+      "圆形水池",
+      "围栏"
+    ],
+    "relations": [
+      "雕塑位于水池中央。",
+      "观众在雕塑前方观看。"
+    ],
+    "scene": "户外夜间场地",
+    "subjects": [
+      "发光人形雕塑",
+      "观众群体",
+      "水池区域"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "中心位置有一座由蓝色灯光构成的人形雕塑；雕塑周围有水池，水面泛起雾气或水花。",
+    "safe_facts": [
+      "中心位置有一座由蓝色灯光构成的人形雕塑。",
+      "雕塑周围有水池，水面泛起雾气或水花。"
+    ]
+  },
+  "label_id": "cpl_a5efa22e8003dde9f8359f31",
+  "provenance": {
+    "generated_at": "2026-08-03T11:34:28.312301+00:00",
+    "migrated_at": "2026-08-03T11:34:28.313903+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e1340367b952bd489808e0046bec8c67ea6900628bd29d4d8e8006981abc1a39",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_97b46396081060e674a57044",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:34:28.314132+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_97b46396081060e674a57044"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

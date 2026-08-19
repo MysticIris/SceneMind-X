@@ -1,0 +1,136 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1699.jpg",
+    "relative_path": "train/1699.jpg",
+    "sha256": "fb740613dd488355d028c3f97ee9618c2368fc5e6eacca4892e5f4a0a997d8b8",
+    "split": "train"
+  },
+  "canonical_sha256": "b49f26d14411ea5e13393c4c300c35761748055f3b1f386cbf83cb59355c68f6",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市天际线",
+      "阴天",
+      "江景",
+      "建筑群"
+    ],
+    "short_description": "阴天下的城市景观，前景是低矮建筑与树木，远处高楼林立，江面有船只。",
+    "theme": "城市天际线远景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "江面可能有船只在航行。"
+    ],
+    "direct_observations": [
+      "天空呈灰白色，云层较厚。",
+      "画面前景有绿色树木和低矮建筑，背景是密集的高层建筑群。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阴天",
+      "多云",
+      "灰蒙蒙天空",
+      "低矮住宅楼",
+      "高层摩天大楼",
+      "红瓦屋顶"
+    ],
+    "relations": [
+      "建筑物位于江岸。",
+      "树木位于前景。",
+      "船只在江面上。"
+    ],
+    "scene": "城市江岸远景",
+    "subjects": [
+      "建筑物",
+      "树木",
+      "江面",
+      "船只"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "江面可能有船只在航行。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈灰白色，云层较厚；画面前景有绿色树木和低矮建筑，背景是密集的高层建筑群。",
+    "safe_facts": [
+      "天空呈灰白色，云层较厚。",
+      "画面前景有绿色树木和低矮建筑，背景是密集的高层建筑群。"
+    ]
+  },
+  "label_id": "cpl_59d3c873abd33ebcc0fbac8e",
+  "provenance": {
+    "generated_at": "2026-08-03T14:56:52.407441+00:00",
+    "migrated_at": "2026-08-03T14:56:52.409260+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ad64a443bdfa993eb5f4bd36a49d203ede1bcd7bab3b4d945612f06d8814884d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ef88045c35603948b5eb6808",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:56:52.409680+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ef88045c35603948b5eb6808"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "HUAWEI Mate 10 Pro",
+      "NEW LEICA DUAL CAMERA"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "HUAWEI Mate 10 Pro",
+      "NEW LEICA DUAL CAMERA"
+    ]
+  }
+}

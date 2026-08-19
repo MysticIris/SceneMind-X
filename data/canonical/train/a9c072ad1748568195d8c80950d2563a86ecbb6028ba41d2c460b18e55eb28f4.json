@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:22.jpg",
+    "relative_path": "train/22.jpg",
+    "sha256": "a9c072ad1748568195d8c80950d2563a86ecbb6028ba41d2c460b18e55eb28f4",
+    "split": "train"
+  },
+  "canonical_sha256": "d8af243b6d54da51bb8263bf114000a63802affbcecbdc11658dbc80bf352a1f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "街边小吃",
+      "黄昏光线",
+      "遮阳棚"
+    ],
+    "short_description": "黄昏街头，摊贩在遮阳棚下售卖烤串，顾客驻足观看，背景有车辆与行人。",
+    "theme": "街边小吃摊"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有三个人物，分别站立、操作、坐着。",
+      "摊位上挂有串状食物，旁边有塑料瓶和盆栽。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "男子站立观看",
+      "女性摊贩操作食物",
+      "男子坐着休息"
+    ],
+    "attributes": [
+      "遮阳棚",
+      "烤串串",
+      "塑料瓶",
+      "盆栽植物"
+    ],
+    "relations": [
+      "男子站在摊位前。",
+      "女性摊贩在摊位后操作。",
+      "男子坐在摊位旁。"
+    ],
+    "scene": "城市街道旁的临时摊位",
+    "subjects": [
+      "一名穿深色外套的男子",
+      "一名戴口罩的女性摊贩",
+      "一名穿迷彩服的男子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有三个人物，分别站立、操作、坐着；摊位上挂有串状食物，旁边有塑料瓶和盆栽。",
+    "safe_facts": [
+      "画面中有三个人物，分别站立、操作、坐着。",
+      "摊位上挂有串状食物，旁边有塑料瓶和盆栽。"
+    ]
+  },
+  "label_id": "cpl_f0a65257f58c2b1f797afe7b",
+  "provenance": {
+    "generated_at": "2026-08-03T09:08:28.140454+00:00",
+    "migrated_at": "2026-08-03T09:08:28.141958+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "560b8b87545f888543bad64d43697ede8256879aeac0e31b387745be50d76f78",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_67378507bb7fc58683c5cc0b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:25.991139+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_67378507bb7fc58683c5cc0b",
+    "cpl_cec8674119efbc682c723035"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

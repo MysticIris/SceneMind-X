@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1868.jpg",
+    "relative_path": "train/1868.jpg",
+    "sha256": "98656745ea1bec3cf4f7bb56ebbd0d8c3ca68d5f5251194755dc294eed082ec4",
+    "split": "train"
+  },
+  "canonical_sha256": "bcac20895a41ec779ce15b041ad93128afc6d471b38df6c4bab4d52eda6f68e7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "青年工作",
+      "重大创新",
+      "政策文件"
+    ],
+    "short_description": "屏幕上显示白色背景的演示文稿，内容为红色标题和黑色正文；屏幕右下角可见部分墙边开关面板。",
+    "theme": "青年工作重大创新"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕上显示白色背景的演示文稿，内容为红色标题和黑色正文。",
+      "屏幕右下角可见部分墙边开关面板。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "室内讲台或教室环境，显示投影屏幕上的演示文稿",
+    "subjects": [
+      "投影屏幕",
+      "演示文稿内容"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕上显示白色背景的演示文稿，内容为红色标题和黑色正文；屏幕右下角可见部分墙边开关面板。",
+    "safe_facts": [
+      "屏幕上显示白色背景的演示文稿，内容为红色标题和黑色正文。",
+      "屏幕右下角可见部分墙边开关面板。"
+    ]
+  },
+  "label_id": "cpl_07f62b57d2a125a40b6da15e",
+  "provenance": {
+    "generated_at": "2026-08-03T15:16:28.760665+00:00",
+    "migrated_at": "2026-08-03T15:16:28.763441+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1c39d08fcbf52d261116326c49170a5348d8c3638dbbe65815b373ceb47de4e9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8efa2e1a7842aa01b1ff17d9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:16:28.764873+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8efa2e1a7842aa01b1ff17d9"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "重大实践和理论创新:",
+      "党和国家历史上第一次中央党的群团工作会议",
+      "第一次系统全面的共青团改革",
+      "第一个国家青年发展规划",
+      "第一部中国青年发展白皮书",
+      "第一个以党中央名义下发的少先队工作文件等开创性工作"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "重大实践和理论创新:",
+      "党和国家历史上第一次中央党的群团工作会议",
+      "第一次系统全面的共青团改革",
+      "第一个国家青年发展规划",
+      "第一部中国青年发展白皮书",
+      "第一个以党中央名义下发的少先队工作文件等开创性工作"
+    ]
+  }
+}

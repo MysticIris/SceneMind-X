@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1929.jpg",
+    "relative_path": "train/1929.jpg",
+    "sha256": "e0be50dfa0d3a7c46b4cd56017e77fd54e969df64cafa096892caf03f0d46f94",
+    "split": "train"
+  },
+  "canonical_sha256": "ebbe07259cc76eb5afc1a4cdfa32712f7707efd6865b98ec2ace024d01f1bed5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "警示灯",
+      "戴口罩的人",
+      "绿色灌木"
+    ],
+    "short_description": "车辆顶部安装有橙色警示灯。",
+    "theme": "汽车与驾驶员"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "车辆顶部安装有橙色警示灯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "银色车身",
+      "橙色警示灯",
+      "车顶标牌",
+      "戴口罩"
+    ],
+    "relations": [
+      "驾驶员在车内。",
+      "警示灯安装在车顶。"
+    ],
+    "scene": "户外停车场或道路旁",
+    "subjects": [
+      "汽车",
+      "驾驶员"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "车辆顶部安装有橙色警示灯。",
+    "safe_facts": [
+      "车辆顶部安装有橙色警示灯。"
+    ]
+  },
+  "label_id": "cpl_5b8b8b59466e3099741839a3",
+  "provenance": {
+    "generated_at": "2026-08-03T15:22:55.042179+00:00",
+    "migrated_at": "2026-08-03T15:22:55.043754+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8e04ba3e621b5989613d17983d2c0ea1251f70017138057fac455df3ee7ff150",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_303c247f45b84e358e9cbd46",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:22:55.044230+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "legacy_contract_short_description_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_303c247f45b84e358e9cbd46"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "机器人教练",
+      "北京智行科技有限公司"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "机器人教练",
+      "北京智行科技有限公司"
+    ]
+  }
+}

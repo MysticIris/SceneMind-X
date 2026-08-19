@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2004.jpg",
+    "relative_path": "val/2004.jpg",
+    "sha256": "7fb7ce2fd31fff112bd0b3d498e5c8a796b7615563e1f8d83b27c2c31141be67",
+    "split": "val"
+  },
+  "canonical_sha256": "862759d7ae21b29cbdbfd4e0453c170b51c7f5baa5256fa8dec555bdb61a73c0",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "手握玩具",
+      "玉米造型",
+      "餐桌场景"
+    ],
+    "short_description": "一只手拿着绿色塑料玉米造型玩具，背景是用餐后的餐桌，有吃剩的盘子和筷子。",
+    "theme": "餐桌上玩具玉米"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一只手正握着一个绿色塑料玉米造型玩具。",
+      "玩具上有黄色玉米粒形状的部件和绿色履带式底盘。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "手持"
+    ],
+    "attributes": [
+      "绿色塑料",
+      "黄色玉米状",
+      "桌面有食物残渣"
+    ],
+    "relations": [
+      "手握着玩具。",
+      "玩具放在桌面上。",
+      "玩具旁边有筷子和餐盘。"
+    ],
+    "scene": "室内餐桌",
+    "subjects": [
+      "一只手",
+      "绿色塑料玩具",
+      "玉米",
+      "餐盘",
+      "筷子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只手正握着一个绿色塑料玉米造型玩具；玩具上有黄色玉米粒形状的部件和绿色履带式底盘。",
+    "safe_facts": [
+      "一只手正握着一个绿色塑料玉米造型玩具。",
+      "玩具上有黄色玉米粒形状的部件和绿色履带式底盘。"
+    ]
+  },
+  "label_id": "cpl_d1111d3ca24c277ca0ec49c6",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/val/val_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "e32d3af75c130700fc73cbca19128fe8491843a5f2d834ae73a5bd88abf3c6d1",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T15:44:26.089454+00:00",
+    "migrated_at": "2026-08-03T15:44:26.091026+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e17e9b85ac798f06cfa27ae0e28af5bd955d30742204daf3462313bb509f2fc0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f081c2a91adb4748af3613fe",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:44:26.091367+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "手持绿色玩具与餐桌背景描述准确。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f081c2a91adb4748af3613fe"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

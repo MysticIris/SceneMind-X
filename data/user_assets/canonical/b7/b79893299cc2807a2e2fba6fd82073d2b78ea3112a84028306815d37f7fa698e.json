@@ -1,0 +1,126 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_cd7259154dc6cf9d9b9a0260",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_7f43ea46d2cbb364046023c8"
+  ],
+  "asset": {
+    "asset_id": "b79893299cc2807a",
+    "sha256": "b79893299cc2807a2e2fba6fd82073d2b78ea3112a84028306815d37f7fa698e",
+    "split": "user_custom",
+    "relative_path": "user_assets/b7/b79893299cc2807a2e2fba6fd82073d2b78ea3112a84028306815d37f7fa698e/b79893299cc2807a2e2fba6fd82073d2b78ea3112a84028306815d37f7fa698e.png"
+  },
+  "display": {
+    "theme": "彩色像素噪点纹理",
+    "short_description": "这是一张由大量随机分布的彩色小方块组成的抽象图像。",
+    "micro_tags": [
+      "像素化",
+      "噪点",
+      "抽象",
+      "故障艺术",
+      "多色",
+      "纹理"
+    ]
+  },
+  "facts": {
+    "visual_medium": "illustration",
+    "scene": "抽象数字背景",
+    "subjects": [
+      "彩色像素网格",
+      "随机色块"
+    ],
+    "actions": [],
+    "attributes": [
+      "高饱和度",
+      "低分辨率感",
+      "无序排列",
+      "方形单元"
+    ],
+    "relations": []
+  },
+  "evidence": {
+    "direct_observations": [
+      "图像完全由细小的正方形色块(像素)填充，没有留白。",
+      "颜色分布极其杂乱，相邻像素之间往往存在巨大的色差(如亮绿紧邻深紫)。",
+      "画面中不存在任何可识别的具体物体、人物或风景轮廓。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法确定这是计算机生成的纯随机图像，还是对真实拍摄的高噪点照片进行的极端像素化处理。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "none",
+    "visual_candidates": [],
+    "ocr_candidates": [],
+    "candidate_text": [],
+    "confidence": null,
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "图像完全由细小的正方形色块(像素)填充，没有留白；颜色分布极其杂乱，相邻像素之间往往存在巨大的色差(如亮绿紧邻深紫)。",
+    "safe_facts": [
+      "图像完全由细小的正方形色块(像素)填充，没有留白。",
+      "颜色分布极其杂乱，相邻像素之间往往存在巨大的色差(如亮绿紧邻深紫)。",
+      "画面中不存在任何可识别的具体物体、人物或风景轮廓。"
+    ],
+    "do_not_assert": [
+      "无法确定这是计算机生成的纯随机图像，还是对真实拍摄的高噪点照片进行的极端像素化处理。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "needs_review",
+    "schema_valid": true,
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": true,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_e06c8407-e504-4b63-9109-b1462d145fcc",
+    "generated_at": "2026-08-12T03:16:42.657879+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "a68116d1fa3b029511d79a4e7c58bd5a9822d18ed133b8de6399f021ad0a2e7a",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:16:42.658544+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_7f43ea46d2cbb364046023c8",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:16:42.658939+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "f056bb0bd14ef3ad1c628942aaea92afeb53377bfc68f84876473cbc4b2f4722"
+}

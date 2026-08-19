@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2127.jpg",
+    "relative_path": "val/2127.jpg",
+    "sha256": "fad785959e154c7b0bba6e5c57bee966e3391bbfba8135aef2055d744750534a",
+    "split": "val"
+  },
+  "canonical_sha256": "9f2205273ed10eb4818ac4aebab3caf193f392d19058ad6f620d49387b4fdc64",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "吊灯",
+      "室内",
+      "走廊",
+      "大理石柱"
+    ],
+    "short_description": "一盏大型多层吊灯悬挂在有大理石柱和装饰性栏杆的室内空间，背景为走廊和宣传板。",
+    "theme": "室内吊灯"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "吊灯由多个层级组成，每个层级有多个灯泡。",
+      "两侧有大理石纹理的立柱。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "多层结构",
+      "白色灯罩",
+      "黑色金属支架",
+      "装饰性栏杆",
+      "斑驳墙面"
+    ],
+    "relations": [
+      "吊灯悬挂于天花板。",
+      "大理石柱支撑结构。",
+      "栏杆位于前景。"
+    ],
+    "scene": "室内走廊或大厅",
+    "subjects": [
+      "吊灯",
+      "大理石柱",
+      "栏杆",
+      "墙壁",
+      "宣传板"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "吊灯由多个层级组成，每个层级有多个灯泡；两侧有大理石纹理的立柱。",
+    "safe_facts": [
+      "吊灯由多个层级组成，每个层级有多个灯泡。",
+      "两侧有大理石纹理的立柱。"
+    ]
+  },
+  "label_id": "cpl_49b54f735cc39d4ac3dbfa0f",
+  "provenance": {
+    "generated_at": "2026-08-03T16:02:42.455466+00:00",
+    "migrated_at": "2026-08-03T16:02:42.457162+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3dec585aa4d7e0e66a7e9f0727eea08f6bd15d9fa15e81c64d893d8b988b7860",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_54baf5d354471c17b3b491e8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:02:42.457448+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_54baf5d354471c17b3b491e8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

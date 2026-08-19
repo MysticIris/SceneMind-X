@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:966.jpg",
+    "relative_path": "train/966.jpg",
+    "sha256": "7bbc20b68620951e0f9cd8793230bb9c05257508710fd5d0f5974188bcbf2bd0",
+    "split": "train"
+  },
+  "canonical_sha256": "82810ab779bf1955c58473dda98d424325be175a04d8190b2953e0152d3be254",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑白摄影",
+      "几何穹顶",
+      "古典建筑"
+    ],
+    "short_description": "黑白照片展现几何网格穹顶与古典柱式建筑的融合，光影交错形成强烈视觉对比。",
+    "theme": "现代建筑穹顶"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像为黑白摄影，呈现建筑穹顶与墙体结构。",
+      "穹顶由黑色线条构成规则网格，墙体表面有阴影图案。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑白",
+      "几何网格",
+      "古典柱式"
+    ],
+    "relations": [
+      "穹顶覆盖建筑空间。",
+      "墙体投射网格阴影。"
+    ],
+    "scene": "建筑内部空间",
+    "subjects": [
+      "穹顶结构",
+      "建筑墙体"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像为黑白摄影，呈现建筑穹顶与墙体结构；穹顶由黑色线条构成规则网格，墙体表面有阴影图案。",
+    "safe_facts": [
+      "图像为黑白摄影，呈现建筑穹顶与墙体结构。",
+      "穹顶由黑色线条构成规则网格，墙体表面有阴影图案。"
+    ]
+  },
+  "label_id": "cpl_c581f7cc96a451eb5432d006",
+  "provenance": {
+    "generated_at": "2026-08-03T13:10:58.652451+00:00",
+    "migrated_at": "2026-08-03T13:10:58.656483+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2ee92217f9de0919824c2f8ab2c3e3dffb4a8599cd82457057b49a881fcd1356",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c581f7cc96a451eb5432d006",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:21:20.471862+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_344509a19c1f9fdd08cefd06"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

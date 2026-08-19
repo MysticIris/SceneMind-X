@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1775.jpg",
+    "relative_path": "train/1775.jpg",
+    "sha256": "1d35d126a94a29c2d35fbbbffe0be0a54e9894a0c84ffefd7e05ef072b07c29d",
+    "split": "train"
+  },
+  "canonical_sha256": "f488e7dca1c687f60187269a0680cbf8454760c3c22b07beaf82cbdbb4205121",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "手提袋",
+      "茶叶罐",
+      "白色布袋"
+    ],
+    "short_description": "一个白色手提袋悬挂在前景，背景是陈列茶叶的玻璃罐。",
+    "theme": "茶饮品牌手提袋"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央是一个白色的布质手提袋。",
+      "背景中有多个装有深色茶叶的透明玻璃罐。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色",
+      "布质",
+      "透明玻璃罐"
+    ],
+    "relations": [
+      "手提袋位于前景。",
+      "玻璃罐位于背景。"
+    ],
+    "scene": "室内陈列区",
+    "subjects": [
+      "手提袋",
+      "玻璃茶叶罐"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是一个白色的布质手提袋；背景中有多个装有深色茶叶的透明玻璃罐。",
+    "safe_facts": [
+      "画面中央是一个白色的布质手提袋。",
+      "背景中有多个装有深色茶叶的透明玻璃罐。"
+    ]
+  },
+  "label_id": "cpl_1716d52711422f2aae803a00",
+  "provenance": {
+    "generated_at": "2026-08-03T15:04:14.303797+00:00",
+    "migrated_at": "2026-08-03T15:04:14.305798+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b8ed0d246bb949f4c7c10603fe6373af687ada371082aff85b8afb55d5794c06",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4b73b8d88e7b548df7a28ed0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:04:14.306421+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4b73b8d88e7b548df7a28ed0"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "inspiration of tea",
+      "喜茶",
+      "HEYTEA"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "inspiration of tea",
+      "喜茶",
+      "HEYTEA"
+    ]
+  }
+}

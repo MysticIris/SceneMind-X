@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1325.jpg",
+    "relative_path": "train/1325.jpg",
+    "sha256": "7a32edd873eef9152e181a78553d6d362fc13808c7bdecd96fa90580cc389604",
+    "split": "train"
+  },
+  "canonical_sha256": "e555ae93eeca784a5ed14332368aab30ecf810cf52b4a5b9b9a531d4bc84e131",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "商业建筑",
+      "广告牌",
+      "城市街道"
+    ],
+    "short_description": "夜晚城市街道旁的大型商业建筑，外墙有发光招牌和广告屏，车辆在前景行驶。",
+    "theme": "城市夜景商业建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑物外墙有多个发光广告牌和标识。",
+      "前景中有车辆行驶，尾灯亮起。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间照明",
+      "现代建筑外观",
+      "路面有车流"
+    ],
+    "relations": [],
+    "scene": "城市夜景",
+    "subjects": [
+      "商业建筑",
+      "车辆",
+      "广告屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑物外墙有多个发光广告牌和标识；前景中有车辆行驶，尾灯亮起。",
+    "safe_facts": [
+      "建筑物外墙有多个发光广告牌和标识。",
+      "前景中有车辆行驶，尾灯亮起。"
+    ]
+  },
+  "label_id": "cpl_a5e0b61b7b0245d77856edf6",
+  "provenance": {
+    "generated_at": "2026-08-03T14:08:24.107395+00:00",
+    "migrated_at": "2026-08-03T14:08:24.110440+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1e6be2a080b66b97c933d1378dfb18d3ad5f727077eda18ac36825fea6cd601f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f3d4f540560036d0fe202c7a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:08:24.110776+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f3d4f540560036d0fe202c7a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

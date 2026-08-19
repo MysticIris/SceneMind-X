@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1033.jpg",
+    "relative_path": "train/1033.jpg",
+    "sha256": "9134df5a9b21a093c51c18f1606df825edbb396b112eb822f58039eebc4b53c0",
+    "split": "train"
+  },
+  "canonical_sha256": "2e6897f3ac9dc7288f6d1135ff9bcc15aa62f448f615fe581d470953950e8c0f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "咖啡杯",
+      "青瓷茶具",
+      "木桌",
+      "绿植"
+    ],
+    "short_description": "木桌上摆放着一杯拿铁、青瓷茶具、蓝白瓷罐和一块石头，旁边有绿植与电源插座。",
+    "theme": "茶与咖啡静物"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一杯盛有奶泡的咖啡。",
+      "画面中有青色陶瓷茶壶和配套小碗。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木制桌面",
+      "青瓷茶具",
+      "蓝白花纹瓷罐",
+      "带奶泡的咖啡",
+      "绿色植物",
+      "金属台灯底座"
+    ],
+    "relations": [
+      "咖啡杯放在木质托盘上。",
+      "茶具套装放在圆形瓷盘上。",
+      "瓷罐位于画面左侧。",
+      "石块位于瓷罐右侧。",
+      "绿植位于画面右上方。"
+    ],
+    "scene": "室内桌面",
+    "subjects": [
+      "咖啡杯",
+      "茶具套装",
+      "瓷罐",
+      "石块",
+      "绿植",
+      "电源插座"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一杯盛有奶泡的咖啡；画面中有青色陶瓷茶壶和配套小碗。",
+    "safe_facts": [
+      "画面中有一杯盛有奶泡的咖啡。",
+      "画面中有青色陶瓷茶壶和配套小碗。"
+    ]
+  },
+  "label_id": "cpl_4b6c5201b80a3afd5949a3a3",
+  "provenance": {
+    "generated_at": "2026-08-03T13:26:26.953748+00:00",
+    "migrated_at": "2026-08-03T13:26:26.957383+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a80a782845f38af485cc8a2f86b8365b2025270ec1385f63b84cbb16c989ec3b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_620b903a20932ec55d520e4c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:26:26.957750+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_620b903a20932ec55d520e4c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

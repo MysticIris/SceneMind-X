@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:64.jpg",
+    "relative_path": "train/64.jpg",
+    "sha256": "18293e722915fdf82a6fb139f2f5f88d25e33e24c4385e7b516ebea26b74f123",
+    "split": "train"
+  },
+  "canonical_sha256": "ef7a2e0d47c24ef5204aaf91dd2e90473a5b6d4b0a9540594d54b3c56f4a0c4b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "交警",
+      "路口",
+      "车辆",
+      "交通指挥"
+    ],
+    "short_description": "两名交警在路口指挥车辆通行，多辆汽车停驻或行驶，路面标线清晰可见。",
+    "theme": "交通执法现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两名身穿荧光黄背心的人员站立于道路中央。",
+      "多辆汽车分布在路口不同位置，部分车辆静止。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立指挥",
+      "停车等待",
+      "行驶"
+    ],
+    "attributes": [
+      "荧光黄制服",
+      "黑色帽子",
+      "银色轿车",
+      "白色轿车",
+      "路面标线"
+    ],
+    "relations": [
+      "交警位于车辆之间。",
+      "车辆停在标线区域。"
+    ],
+    "scene": "城市道路交叉口",
+    "subjects": [
+      "两名交警",
+      "多辆汽车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两名身穿荧光黄背心的人员站立于道路中央；多辆汽车分布在路口不同位置，部分车辆静止。",
+    "safe_facts": [
+      "两名身穿荧光黄背心的人员站立于道路中央。",
+      "多辆汽车分布在路口不同位置，部分车辆静止。"
+    ]
+  },
+  "label_id": "cpl_12a0eb9d238c2b9468c26021",
+  "provenance": {
+    "generated_at": "2026-08-03T09:17:46.848690+00:00",
+    "migrated_at": "2026-08-03T09:17:46.850176+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3219e962d8275d0f5a5036302ecec236fad888c11986f37e85ba3cf762738af7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b4ddaa799bec1cf10a315a48",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:27.719157+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b4ddaa799bec1cf10a315a48",
+    "cpl_02a14c73b1ba33e160b1b3cb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

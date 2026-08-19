@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1518.jpg",
+    "relative_path": "train/1518.jpg",
+    "sha256": "fe6a1257dff2a5d8380c9aabdaf00ff13db5ed51d49be75d450f70d3c89941bb",
+    "split": "train"
+  },
+  "canonical_sha256": "aaa6fc6e1b7a4a96b1e218a3e253eb2e8858abc449b4d04bd892e0d631d460b9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "卡通角色",
+      "流泪",
+      "表情包"
+    ],
+    "short_description": "一个卡通角色正在流泪，表情混合悲伤与无奈。",
+    "theme": "哭泣表情包"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "角色面部呈圆形轮廓。",
+      "角色双眼为黑色实心圆，眼眶周围有波浪线表示流泪。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "眼睛大而黑",
+      "嘴角上扬",
+      "蓝色泪滴"
+    ],
+    "relations": [],
+    "scene": "无具体场景",
+    "subjects": [
+      "卡通角色"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "角色面部呈圆形轮廓；角色双眼为黑色实心圆，眼眶周围有波浪线表示流泪。",
+    "safe_facts": [
+      "角色面部呈圆形轮廓。",
+      "角色双眼为黑色实心圆，眼眶周围有波浪线表示流泪。"
+    ]
+  },
+  "label_id": "cpl_872709023df2c8ef47318f52",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/train/train_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "170dc34eb8269f1babe6835cdb58f23286285057aea88fcd9025beb9e0166c19",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T14:32:49.814336+00:00",
+    "migrated_at": "2026-08-03T14:32:49.820108+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3f1d9115a8ae2e6ab46da6b74047c306168e790a8dfce656205def64f2b36145",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_585fa140fbc6216ac8b9e243",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:32:49.820635+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "表情包图形与可见中文主题一致。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_585fa140fbc6216ac8b9e243"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "惨不忍睹"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "惨不忍睹"
+    ]
+  }
+}

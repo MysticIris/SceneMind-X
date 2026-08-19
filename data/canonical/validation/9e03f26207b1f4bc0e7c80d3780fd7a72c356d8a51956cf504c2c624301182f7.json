@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2176.jpg",
+    "relative_path": "val/2176.jpg",
+    "sha256": "9e03f26207b1f4bc0e7c80d3780fd7a72c356d8a51956cf504c2c624301182f7",
+    "split": "val"
+  },
+  "canonical_sha256": "7929cb4d345985c73cbea7029b3f989740b4c8a247696c72412cf254d2d31692",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "海豹",
+      "冰原",
+      "玻璃缸",
+      "休息"
+    ],
+    "short_description": "玻璃缸内，几只海豹躺在冰岩上休息，背景有冰挂，一人伸手靠近玻璃。",
+    "theme": "海豹栖息地"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "玻璃缸内有多只海豹，部分躺卧在岩石上。",
+      "玻璃缸外有一只手做出挥手姿势。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "长牙",
+      "皮肤褶皱",
+      "冰岩环境"
+    ],
+    "relations": [
+      "海豹位于玻璃缸内。",
+      "人手在玻璃外伸向海豹。"
+    ],
+    "scene": "水族馆玻璃缸内",
+    "subjects": [
+      "海豹",
+      "人手"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "玻璃缸内有多只海豹，部分躺卧在岩石上；玻璃缸外有一只手做出挥手姿势。",
+    "safe_facts": [
+      "玻璃缸内有多只海豹，部分躺卧在岩石上。",
+      "玻璃缸外有一只手做出挥手姿势。"
+    ]
+  },
+  "label_id": "cpl_998a6933193e0e75635f85ce",
+  "provenance": {
+    "generated_at": "2026-08-03T16:10:02.418160+00:00",
+    "migrated_at": "2026-08-03T16:10:02.419720+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b5266e0b02cb46e2918cca158e735846ebe8ebc6efde1a312c2b760f62a5c62f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2c5c449fe3f52d3c1b93760b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:10:02.419914+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2c5c449fe3f52d3c1b93760b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

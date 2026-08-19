@@ -1,0 +1,146 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_6ab649c1dc201333486ab085",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_f685185cd95ab5ba50b3072a"
+  ],
+  "asset": {
+    "asset_id": "8ebe77e9d547efdb",
+    "sha256": "8ebe77e9d547efdbd4cf794e22bfe6eec8d9ef7ce118bc544621361988c62d55",
+    "split": "user_custom",
+    "relative_path": "user_assets/8e/8ebe77e9d547efdbd4cf794e22bfe6eec8d9ef7ce118bc544621361988c62d55/8ebe77e9d547efdbd4cf794e22bfe6eec8d9ef7ce118bc544621361988c62d55.png"
+  },
+  "display": {
+    "theme": "腾讯校招宣讲会邀请",
+    "short_description": "这是一张手机邮件客户端的截图，展示了腾讯2026实习生招聘的宣讲会报名邀请。页面包含带有卡通企鹅形象的黄色宣传横幅、具体的活动时间地点信息以及报名链接，整体为深色模式界面。",
+    "micro_tags": [
+      "腾讯招聘",
+      "校园宣讲",
+      "邮件截图",
+      "实习生",
+      "深色模式",
+      "活动海报"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "移动端电子邮件应用界面",
+    "subjects": [
+      "邮件详情页面",
+      "招聘宣传横幅",
+      "文本信息块"
+    ],
+    "actions": [],
+    "attributes": [
+      "深色背景",
+      "黄色主色调横幅",
+      "蓝色按钮样式",
+      "卡通吉祥物形象"
+    ],
+    "relations": [
+      "横幅位于邮件正文顶部。",
+      "文本详情位于横幅下方。",
+      "状态栏位于屏幕最顶端。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "屏幕顶部状态栏显示时间为10：12，信号为4G，电量35%。",
+      "正文包含一张黄色背景的宽幅图片，右侧有一个戴眼镜的卡通企鹅角色。",
+      "图片中有蓝色按钮图形，上书'进校宣讲会报名'。",
+      "正文下列出了时间(3月20日)、地址(华中科技大学)及网址链接。"
+    ],
+    "cautious_inferences": [
+      "界面处于手机的深色/夜间模式下。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "腾讯2026实习生招聘",
+      "让世界看到你的影响力",
+      "进校宣讲会报名",
+      "时间:3月20日 18:30",
+      "地址:华中科技大学-大学生活动中心B305",
+      "惊喜大奖"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "腾讯2026实习生招聘",
+      "让世界看到你的影响力",
+      "进校宣讲会报名",
+      "时间:3月20日 18:30",
+      "地址:华中科技大学-大学生活动中心B305",
+      "惊喜大奖"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "屏幕顶部状态栏显示时间为10：12，信号为4G，电量35%；正文包含一张黄色背景的宽幅图片，右侧有一个戴眼镜的卡通企鹅角色。",
+    "safe_facts": [
+      "屏幕顶部状态栏显示时间为10：12，信号为4G，电量35%。",
+      "正文包含一张黄色背景的宽幅图片，右侧有一个戴眼镜的卡通企鹅角色。",
+      "图片中有蓝色按钮图形，上书'进校宣讲会报名'。"
+    ],
+    "do_not_assert": [
+      "界面处于手机的深色/夜间模式下。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "needs_review",
+    "schema_valid": true,
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": true,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_3786087c-f298-4505-869a-f781c4873cba",
+    "generated_at": "2026-08-12T03:16:30.797935+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "b8bbc3dbf1b55bce05ed0529a033574f1459e55c3045c158a54d472c06baabe8",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:16:30.799371+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_f685185cd95ab5ba50b3072a",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:16:30.799831+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "fab4350e3a611c92c0f20a44adfa131dbb8286707a8ed4c9152c937a2725e7e8"
+}

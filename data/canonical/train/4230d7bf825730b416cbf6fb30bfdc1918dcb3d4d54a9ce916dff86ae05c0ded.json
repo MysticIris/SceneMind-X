@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1708.jpg",
+    "relative_path": "train/1708.jpg",
+    "sha256": "4230d7bf825730b416cbf6fb30bfdc1918dcb3d4d54a9ce916dff86ae05c0ded",
+    "split": "train"
+  },
+  "canonical_sha256": "efc1821e5fb476c06431835c28253da1a2a6d00126319dab97e354c9dd6a8e8f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "日落",
+      "剪影",
+      "田野",
+      "天空"
+    ],
+    "short_description": "一人站在开阔草地上，仰望被粉紫霞光染透的天空，云层壮丽，远处有树丛轮廓。",
+    "theme": "日落田野剪影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该场景发生在日落或日出时段。"
+    ],
+    "direct_observations": [
+      "天空呈现粉紫色调并布满云层。",
+      "地面上有一人呈剪影状站立。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "举手"
+    ],
+    "attributes": [
+      "剪影",
+      "粉紫色天空",
+      "云层",
+      "草地"
+    ],
+    "relations": [
+      "人位于草地中央。",
+      "人面向天空。"
+    ],
+    "scene": "开阔草地与天空",
+    "subjects": [
+      "人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该场景发生在日落或日出时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现粉紫色调并布满云层；地面上有一人呈剪影状站立。",
+    "safe_facts": [
+      "天空呈现粉紫色调并布满云层。",
+      "地面上有一人呈剪影状站立。"
+    ]
+  },
+  "label_id": "cpl_27f0acc0c92798644d3039ea",
+  "provenance": {
+    "generated_at": "2026-08-03T14:57:54.143262+00:00",
+    "migrated_at": "2026-08-03T14:57:54.145130+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4912c9d7ff2baf1c57581a16f40760044cc51e23ee03fef6db3b9a61bc45c9b8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_61c8c37b8b4678a3ad9e0497",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:57:54.145322+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_61c8c37b8b4678a3ad9e0497"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

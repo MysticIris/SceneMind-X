@@ -1,0 +1,135 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:407.jpg",
+    "relative_path": "train/407.jpg",
+    "sha256": "59fa857b7bb43f6ce4b010a39dd93b1772a5686de4023427f6653ac45203d796",
+    "split": "train"
+  },
+  "canonical_sha256": "73b0427712d52cc2f72993b143f7573e564947de4c50782702e66cdf1f49cd42",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中国历史",
+      "时间系统"
+    ],
+    "short_description": "展示中国古代历法演变脉络的展板，以树状图形式呈现各朝代历法名称。",
+    "theme": "展板与历法树状图"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "展板上有木制标签组成的树状结构，显示历法名称。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质标签",
+      "白色背景墙"
+    ],
+    "relations": [
+      "历法树状图附着于展板上。"
+    ],
+    "scene": "博物馆或展览馆内",
+    "subjects": [
+      "展板",
+      "历法树状图"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "展板上有木制标签组成的树状结构，显示历法名称。",
+    "safe_facts": [
+      "展板上有木制标签组成的树状结构，显示历法名称。"
+    ]
+  },
+  "label_id": "cpl_4af82509f8a6a6e14db842ca",
+  "provenance": {
+    "generated_at": "2026-08-03T10:57:07.125942+00:00",
+    "migrated_at": "2026-08-03T10:57:07.128209+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "15ce0575a48f10eb4b735bcabefe486936dcd0963052fb60045bce3df0723484",
+    "recovered_at_tokens": 768,
+    "source_label_id": "cpl_270523b5539e839de44bd8cc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:57:07.128657+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_768_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_270523b5539e839de44bd8cc"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "历法传承",
+      "The Inheritance of Calendars",
+      "夏商周秦汉魏晋南北朝隋唐北宋南宋元明清",
+      "夏小正",
+      "太初历",
+      "三统历"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "历法传承",
+      "The Inheritance of Calendars",
+      "夏商周秦汉魏晋南北朝隋唐北宋南宋元明清",
+      "夏小正",
+      "太初历",
+      "三统历"
+    ]
+  }
+}

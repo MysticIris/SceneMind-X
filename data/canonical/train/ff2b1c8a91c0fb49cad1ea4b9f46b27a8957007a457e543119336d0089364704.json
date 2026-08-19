@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1461.jpg",
+    "relative_path": "train/1461.jpg",
+    "sha256": "ff2b1c8a91c0fb49cad1ea4b9f46b27a8957007a457e543119336d0089364704",
+    "split": "train"
+  },
+  "canonical_sha256": "b8ab899b1f4e2af3a025347eed1936181bf127fda264d935feb75040f0982448",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "乐队演出",
+      "绿色长发",
+      "舞台灯光"
+    ],
+    "short_description": "两名乐手在烟雾弥漫的舞台上表演，一人弹奏贝斯并唱歌，另一人弹奏电吉他。",
+    "theme": "舞台表演"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "左侧乐手留有绿色长发，身穿白色西装，手持黄色贝斯，正对着麦克风演唱。",
+      "右侧乐手戴眼镜，身穿浅色西装，手持红色电吉他，低头演奏。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "弹奏乐器",
+      "演唱"
+    ],
+    "attributes": [
+      "白色西装",
+      "绿色长发",
+      "红色电吉他",
+      "黄色贝斯"
+    ],
+    "relations": [
+      "两人同台演出。"
+    ],
+    "scene": "室内舞台",
+    "subjects": [
+      "一名绿发乐手",
+      "一名戴眼镜乐手"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "左侧乐手留有绿色长发，身穿白色西装，手持黄色贝斯，正对着麦克风演唱；右侧乐手戴眼镜，身穿浅色西装，手持红色电吉他，低头演奏。",
+    "safe_facts": [
+      "左侧乐手留有绿色长发，身穿白色西装，手持黄色贝斯，正对着麦克风演唱。",
+      "右侧乐手戴眼镜，身穿浅色西装，手持红色电吉他，低头演奏。"
+    ]
+  },
+  "label_id": "cpl_02d8650b2d84739f23549a9e",
+  "provenance": {
+    "generated_at": "2026-08-03T14:25:54.197733+00:00",
+    "migrated_at": "2026-08-03T14:25:54.200232+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f156913f304e86ee89eac2162352063b640ce15006b664d54f05cf43e372bd5a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5f85d6eafdddf37e958f4c81",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:25:54.201406+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5f85d6eafdddf37e958f4c81"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:15.jpg",
+    "relative_path": "train/15.jpg",
+    "sha256": "60162e1ab4cf0ce7a936650c616f28cfa98796581056128b7c1de77480a7a0c0",
+    "split": "train"
+  },
+  "canonical_sha256": "fad202bc0b93e92cbf4bbf0589b87a33e9312b2213269ebbb4d04c3bf6b9e600",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "老人",
+      "户外演奏",
+      "公园",
+      "小提琴",
+      "曼陀林"
+    ],
+    "short_description": "三位老人在绿树成荫的公园里演奏乐器，一位弹曼陀林，两位拉小提琴，享受户外时光。",
+    "theme": "公园街头音乐表演"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有三个人物正在演奏乐器。",
+      "背景是茂密的绿色树木和草地。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "弹奏曼陀林",
+      "拉小提琴"
+    ],
+    "attributes": [
+      "戴帽子",
+      "穿外套",
+      "坐姿",
+      "站立演奏"
+    ],
+    "relations": [
+      "三人并排演奏。",
+      "每人面前有乐谱架。"
+    ],
+    "scene": "公园绿地",
+    "subjects": [
+      "弹曼陀林的老人",
+      "拉小提琴的老人",
+      "拉小提琴的女性"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有三个人物正在演奏乐器；背景是茂密的绿色树木和草地。",
+    "safe_facts": [
+      "画面中有三个人物正在演奏乐器。",
+      "背景是茂密的绿色树木和草地。"
+    ]
+  },
+  "label_id": "cpl_f11705d4c5cd43d9f8143290",
+  "provenance": {
+    "generated_at": "2026-08-03T09:06:54.287922+00:00",
+    "migrated_at": "2026-08-03T09:06:54.289846+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ed6eecbc90c28f1abaf873653d41bcb06b76a6af7ffec485c6262aa5bdf19aa2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_877dd4b64b0ecc879b0ba341",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:25.750451+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_877dd4b64b0ecc879b0ba341",
+    "cpl_40348d2617d3b3df64d27847"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

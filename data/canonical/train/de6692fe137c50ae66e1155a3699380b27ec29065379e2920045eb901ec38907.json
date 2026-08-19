@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:720.jpg",
+    "relative_path": "train/720.jpg",
+    "sha256": "de6692fe137c50ae66e1155a3699380b27ec29065379e2920045eb901ec38907",
+    "split": "train"
+  },
+  "canonical_sha256": "4f7b342e4f7e43298cdfd9443da7fffdcd0f44c2b7c378b0502985250687ac72",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "白色冰箱",
+      "房间角落",
+      "电源插座",
+      "窗帘"
+    ],
+    "short_description": "一台白色小型冰箱放置在房间角落，旁边有电源插座和窗帘，地面散落电线和杂物。",
+    "theme": "白色小冰箱角落"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一台白色小型冰箱位于房间角落，其门把手朝向右方。",
+      "冰箱左侧墙壁上有一个白色电源插座，冰箱底部有黑色电线延伸至地面。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色",
+      "方形",
+      "带门把手",
+      "有灰尘痕迹",
+      "地面有散落物"
+    ],
+    "relations": [
+      "冰箱靠墙放置。",
+      "冰箱旁有电源插座。",
+      "冰箱右侧有窗帘。"
+    ],
+    "scene": "室内房间角落",
+    "subjects": [
+      "白色小型冰箱",
+      "电源插座",
+      "窗帘",
+      "地面电线"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一台白色小型冰箱位于房间角落，其门把手朝向右方；冰箱左侧墙壁上有一个白色电源插座，冰箱底部有黑色电线延伸至地面。",
+    "safe_facts": [
+      "一台白色小型冰箱位于房间角落，其门把手朝向右方。",
+      "冰箱左侧墙壁上有一个白色电源插座，冰箱底部有黑色电线延伸至地面。"
+    ]
+  },
+  "label_id": "cpl_139a44cfd9319d4d0cb824c9",
+  "provenance": {
+    "generated_at": "2026-08-03T12:08:11.034057+00:00",
+    "migrated_at": "2026-08-03T12:08:11.037274+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "83b4f5bbac1db30c7b258bb94bc84bb08f8c751d1bf2475ab0a59129eb17aa59",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0d47991d2fd2034a52d26828",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:08:11.037661+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0d47991d2fd2034a52d26828"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

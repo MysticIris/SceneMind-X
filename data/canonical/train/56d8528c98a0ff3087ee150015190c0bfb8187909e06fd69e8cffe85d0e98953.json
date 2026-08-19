@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1926.jpg",
+    "relative_path": "train/1926.jpg",
+    "sha256": "56d8528c98a0ff3087ee150015190c0bfb8187909e06fd69e8cffe85d0e98953",
+    "split": "train"
+  },
+  "canonical_sha256": "a64ad08b15da30bef2328efa4847d800e63a61cde77932f0b9b947a37724ef53",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "摩天大楼",
+      "霓虹灯光",
+      "云层"
+    ],
+    "short_description": "夜幕下高楼林立，灯光璀璨，云层飘动，现代建筑群构成壮观天际线。",
+    "theme": "城市夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多栋高层建筑在夜空中亮起灯光。",
+      "天空中有云层分布。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "灯火通明",
+      "现代建筑"
+    ],
+    "relations": [
+      "建筑群位于天空下方。",
+      "云层漂浮于建筑上方。"
+    ],
+    "scene": "城市夜景",
+    "subjects": [
+      "高层建筑",
+      "云层"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多栋高层建筑在夜空中亮起灯光；天空中有云层分布。",
+    "safe_facts": [
+      "多栋高层建筑在夜空中亮起灯光。",
+      "天空中有云层分布。"
+    ]
+  },
+  "label_id": "cpl_f7da67d6fae9b61d5d4c9b95",
+  "provenance": {
+    "generated_at": "2026-08-03T15:23:32.331070+00:00",
+    "migrated_at": "2026-08-03T15:23:32.332936+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cc1fd747f6a2fa56ad05c0b30c3d52c40bae60cae79081a2cc3455556bd9cb72",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_818d4fd3adc9de9af02e2a52",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:23:32.333227+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_818d4fd3adc9de9af02e2a52"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

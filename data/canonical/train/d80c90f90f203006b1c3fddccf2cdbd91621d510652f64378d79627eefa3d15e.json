@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1526.jpg",
+    "relative_path": "train/1526.jpg",
+    "sha256": "d80c90f90f203006b1c3fddccf2cdbd91621d510652f64378d79627eefa3d15e",
+    "split": "train"
+  },
+  "canonical_sha256": "1aa2a8d33b7bf37041eacf1f07b7ac74c69f75de1d142caacecfefc2394540e2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式建筑",
+      "雕花木梁",
+      "彩绘天花板"
+    ],
+    "short_description": "红色柱子支撑着雕花彩绘的木质屋檐，天花板呈网格状，饰有金色图案和圆形装饰。",
+    "theme": "传统中式建筑屋檐"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多根红色圆柱支撑着上方的木质结构。",
+      "天花板由方形格子组成，每个格子内有圆形装饰和金色纹样。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色",
+      "绿色",
+      "金色",
+      "雕刻花纹",
+      "网格状"
+    ],
+    "relations": [
+      "柱子支撑屋檐结构。",
+      "天花板位于屋檐上方。"
+    ],
+    "scene": "传统中式建筑内部",
+    "subjects": [
+      "红色柱子",
+      "木质屋檐结构",
+      "天花板装饰"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多根红色圆柱支撑着上方的木质结构；天花板由方形格子组成，每个格子内有圆形装饰和金色纹样。",
+    "safe_facts": [
+      "多根红色圆柱支撑着上方的木质结构。",
+      "天花板由方形格子组成，每个格子内有圆形装饰和金色纹样。"
+    ]
+  },
+  "label_id": "cpl_28253165c08e5d11ee356524",
+  "provenance": {
+    "generated_at": "2026-08-03T14:33:52.647901+00:00",
+    "migrated_at": "2026-08-03T14:33:52.653905+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d08dadc4f260965810346401bc8862f235f899518efedd2435608a6cdb006909",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8325b1a110f9335dd8ffa717",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:33:52.656125+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8325b1a110f9335dd8ffa717"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "HUAWEI Mate 10 Pro",
+      "NEW LEICA DUAL CAMERA"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "HUAWEI Mate 10 Pro",
+      "NEW LEICA DUAL CAMERA"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:410.jpg",
+    "relative_path": "train/410.jpg",
+    "sha256": "6fdfd1db79623a68dd51f7ea17befd7d25f68e3470e264e83892cef65c0c81de",
+    "split": "train"
+  },
+  "canonical_sha256": "8052d79b5d7ea5f6a46f1d3546cef6337fd659bb0f2a4c31ff8c1858696dbabe",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "路灯",
+      "墙体标识",
+      "树木"
+    ],
+    "short_description": "夜晚路灯下，一堵墙上有发光的中英文标识，旁边有树木和灌木丛。",
+    "theme": "夜间校园入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有亮着的圆形路灯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "发光标识",
+      "夜景",
+      "照明"
+    ],
+    "relations": [
+      "路灯位于墙体前方。",
+      "树木位于墙体左侧。"
+    ],
+    "scene": "户外夜间场景",
+    "subjects": [
+      "路灯",
+      "墙体",
+      "树木",
+      "灌木丛"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有亮着的圆形路灯。",
+    "safe_facts": [
+      "画面中有亮着的圆形路灯。"
+    ]
+  },
+  "label_id": "cpl_43da2f585de265e6ae2e0ac1",
+  "provenance": {
+    "generated_at": "2026-08-03T10:57:46.747253+00:00",
+    "migrated_at": "2026-08-03T10:57:46.749175+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "abd455d017c49c812dd0e2529e55620e0d59f3ea0c9400304d5d95322962d084",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_bcc59e28083029cf8daac318",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:57:46.749373+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_bcc59e28083029cf8daac318"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

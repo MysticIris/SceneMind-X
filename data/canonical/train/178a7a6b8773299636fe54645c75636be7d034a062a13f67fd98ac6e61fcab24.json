@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1082.jpg",
+    "relative_path": "train/1082.jpg",
+    "sha256": "178a7a6b8773299636fe54645c75636be7d034a062a13f67fd98ac6e61fcab24",
+    "split": "train"
+  },
+  "canonical_sha256": "4103453969998047fe09034eb2c9c13400c2820b2bcee6781794227b261ad614",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪山",
+      "黄昏",
+      "野花",
+      "岩石",
+      "自然风光"
+    ],
+    "short_description": "雪峰在粉紫色天空下，前景是岩石与黄花，植物叶片宽大，色彩对比鲜明。",
+    "theme": "雪山黄昏花景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空颜色可能是日落或日出时分。"
+    ],
+    "direct_observations": [
+      "画面中有被白雪覆盖的山峰。",
+      "前景有岩石和黄色花朵。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "雪覆盖山峰",
+      "天空呈粉紫色",
+      "花朵为黄色",
+      "植物叶片宽大"
+    ],
+    "relations": [
+      "花朵生长在岩石上。",
+      "山峰位于背景。",
+      "天空位于山峰上方。"
+    ],
+    "scene": "高山湖泊与山峰背景",
+    "subjects": [
+      "雪山",
+      "岩石",
+      "黄色花朵",
+      "绿色植物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空颜色可能是日落或日出时分。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有被白雪覆盖的山峰；前景有岩石和黄色花朵。",
+    "safe_facts": [
+      "画面中有被白雪覆盖的山峰。",
+      "前景有岩石和黄色花朵。"
+    ]
+  },
+  "label_id": "cpl_ed67ffd95cc38498e9d94414",
+  "provenance": {
+    "generated_at": "2026-08-03T13:33:12.100726+00:00",
+    "migrated_at": "2026-08-03T13:33:12.103254+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ba035a8458f65b890c8ae4a58ebd6331684f80cafa12c2e755bcc5d1b110b6a0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_88483e8857b72f7c80a37c15",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:33:12.103747+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_88483e8857b72f7c80a37c15"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

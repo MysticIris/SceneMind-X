@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1338.jpg",
+    "relative_path": "train/1338.jpg",
+    "sha256": "18a154789c8e303b0e6f6cddd1154bf5dc7b778733183e1deb5a5f357230992f",
+    "split": "train"
+  },
+  "canonical_sha256": "6f2b783da8233bc68af5c2e288f3691573a037dfb64e235bc12f303587c5842b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "森林环绕",
+      "建筑群",
+      "俯瞰视角",
+      "晴朗天空"
+    ],
+    "short_description": "俯瞰视角下，茂密森林环抱多栋建筑群，远处城市天际线隐约可见，天空晴朗。",
+    "theme": "校园绿意环绕"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该区域可能为大学或科研机构园区。"
+    ],
+    "direct_observations": [
+      "画面中大面积绿色树木覆盖山丘。",
+      "多栋现代风格建筑分布于树林间。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色植被茂密",
+      "建筑屋顶呈灰色或红褐色",
+      "天空湛蓝"
+    ],
+    "relations": [
+      "建筑群被树木包围。",
+      "树木覆盖山坡。",
+      "远处可见城市轮廓。"
+    ],
+    "scene": "山林中的建筑群",
+    "subjects": [
+      "建筑物",
+      "树木",
+      "天空",
+      "远山"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该区域可能为大学或科研机构园区。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中大面积绿色树木覆盖山丘；多栋现代风格建筑分布于树林间。",
+    "safe_facts": [
+      "画面中大面积绿色树木覆盖山丘。",
+      "多栋现代风格建筑分布于树林间。"
+    ]
+  },
+  "label_id": "cpl_16fea31d2236d1dcfa30b07d",
+  "provenance": {
+    "generated_at": "2026-08-03T14:12:15.681193+00:00",
+    "migrated_at": "2026-08-03T14:12:15.683798+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b167fc6a16f9c0a5f5d52c3257231c83a85ae5e9cf56054ed35c7b0757103c07",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3b19e0e6615ddec4e12842e1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:12:15.684254+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3b19e0e6615ddec4e12842e1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1294.jpg",
+    "relative_path": "train/1294.jpg",
+    "sha256": "dcb11e9becedf1bd7136d6bd68e459b93afd65f8ff2f6086e9dc5122d2f4ebf4",
+    "split": "train"
+  },
+  "canonical_sha256": "a256ff89d1dc2182aa77a70a55e7801069499f3ef4c850e6453d19e402fb7aac",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "走廊",
+      "绿色墙裙",
+      "木质长椅",
+      "悬挂灯"
+    ],
+    "short_description": "一条带有绿色墙裙和木质长椅的室内走廊，两侧有窗户和悬挂灯具，尽头通向一扇白色门。",
+    "theme": "走廊内景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面铺有灰色方形地砖。",
+      "墙壁下半部分涂成绿色，上半部分为白色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色墙裙",
+      "灰色地砖",
+      "白色墙壁",
+      "木质长椅"
+    ],
+    "relations": [
+      "长椅位于走廊左侧。",
+      "窗户位于走廊右侧。",
+      "灯具悬挂在天花板上。"
+    ],
+    "scene": "室内走廊",
+    "subjects": [
+      "长椅",
+      "窗户",
+      "灯具",
+      "门"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面铺有灰色方形地砖；墙壁下半部分涂成绿色，上半部分为白色。",
+    "safe_facts": [
+      "地面铺有灰色方形地砖。",
+      "墙壁下半部分涂成绿色，上半部分为白色。"
+    ]
+  },
+  "label_id": "cpl_684ab36306ecae257656080e",
+  "provenance": {
+    "generated_at": "2026-08-03T14:06:55.861796+00:00",
+    "migrated_at": "2026-08-03T14:06:55.864595+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "50751b6bf4efa10c4615308d64db78f4ae9e6ed8a41adaf170ecaf158bd11957",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6ad5b83435c9d8f39235020d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:06:55.864950+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6ad5b83435c9d8f39235020d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

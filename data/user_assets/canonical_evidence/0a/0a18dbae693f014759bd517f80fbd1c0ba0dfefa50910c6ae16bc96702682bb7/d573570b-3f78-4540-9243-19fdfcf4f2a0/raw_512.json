@@ -1,0 +1,66 @@
+{
+  "asset_id": "0a18dbae693f0147",
+  "asset_sha256": "0a18dbae693f014759bd517f80fbd1c0ba0dfefa50910c6ae16bc96702682bb7",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"恶搞人格测试结果截图\",\n    \"short_description\": \"一张手机屏幕截图，显示名为“SBTI 人格测试”的网页结果。页面显示人格类型为“自我攻击者 IMSB”，配有一个低多边形风格的卡通人物插图，下方包含关于该类型的幽默解读文本。\",\n    \"micro_tags\": [\n      \"手机截图\",\n      \"人格测试\",\n      \"恶搞\",\n      \"IMSB\",\n      \"网页界面\",\n      \"卡通插图\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端网页浏览器界面\",\n    \"subjects\": [\n      \"测试结果卡片\",\n      \"低多边形风格男性卡通头像\",\n      \"状态栏信息\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"浅绿色背景\",\n      \"白色圆角卡片\",\n      \"深色文字\",\n      \"顶部黑色状态栏\"\n    ],\n    \"relations\": [\n      \"卡通头像位于人格类型标题右侧\",\n      \"详细解读文本位于结果卡片下方\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图片顶部状态栏显示时间“01:34”、5G信号图标及红色低电量电池图标（12%）。\",\n      \"页面标题栏显示“SBTI 人格测试”及网址“sbti.unun.dev”。\",\n      \"主视觉区域大字显示“你的人格类型是：自我攻击者 IMSB”。\",\n      \"右侧有一个棕色头发、穿着粉色上衣的低多边形（Low-poly）风格3D卡通小人。\",\n      \"下方小字写着“认真的么？我真的是傻逼么？”以及“你的主类型 IMSB（傻者）”。\"\n    ],\n    \"cautious_inferences\": [\n      \"这是一个模仿MBTI人格测试的恶搞或娱乐性网页应用。\",\n      \"用户可能是在深夜（凌晨1点34分）且手机电量极低的情况下进行的测试。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"SBTI 人格测试\",\n      \"sbti.unun.dev\",\n      \"你的人格类型是：\",\n      \"自我攻击者\",\n      \"IMSB\",\n      \"认真的么？我真的是傻逼么？\",\n      \"你的主类型\",\n      \"IMSB（傻者）\",\n      \"匹配度 73% · 精准命中 7/15 维\",\n      \"维度命中度较高，当前结果可视为你的第一人格画像。\",\n      \"该人格的简单解读\",\n      \"恭喜您！您根本不在人类范畴内！您测出了百万年一遇的【IMSB】人格。\",\n      \"IMSB人格的大脑里住着两个不死不休的究极战士：一个叫“我他妈冲了！”，另一个叫“我是个傻逼！”\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张手机网页截图，展示了一个带有卡通人物插图的测试结果页面，背景为浅绿色，包含大标题和详细的段落文本。\",\n    \"safe_facts\": [\n      \"图像为竖屏手机界面",
+      "input_tokens": 3227,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 768,
+        "total_tokens": 3995,
+        "estimated_cost_cny": 0.012598,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "恶搞人格测试结果截图",
+        "short_description": "一张手机屏幕截图，显示名为“SBTI 人格测试”的网页结果。页面显示人格类型为“自我攻击者 IMSB”，配有一个低多边形风格的卡通人物插图，下方包含关于该类型的幽默解读文本。",
+        "micro_tags": [
+          "手机截图",
+          "人格测试",
+          "恶搞",
+          "IMSB",
+          "网页界面",
+          "卡通插图"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 1289936,
+        "request_bytes": 964379,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 16.098175200000696,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "a5d6c8f401567fb577f774d40815479e24cbf825b610d1963f66431b624644c0"
+}

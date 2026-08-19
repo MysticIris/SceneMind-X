@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:359.jpg",
+    "relative_path": "train/359.jpg",
+    "sha256": "61af98c0b9624a82216122c4e97c95050d8804277a190a1365afaf3d234375d1",
+    "split": "train"
+  },
+  "canonical_sha256": "2d844d83b274e465d074a1d0ea067e1008f756649e70fcc5fd37d8b4b1c36bda",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市广场",
+      "飞机雕塑",
+      "喷泉",
+      "人行天桥"
+    ],
+    "short_description": "城市广场中央设有喷泉，一架大型飞机模型横跨人行天桥，背景是欧式建筑群，行人穿梭其间。",
+    "theme": "城市广场与飞机雕塑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中心有一座多层喷泉，水从顶部喷出。",
+      "一架大型客机模型停放在广场上，机身部分被天桥遮挡。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "喷泉正在流水",
+      "飞机模型为白色与蓝色",
+      "人行天桥为玻璃与金属结构"
+    ],
+    "relations": [
+      "飞机模型位于喷泉后方。",
+      "人行天桥跨越广场空间。",
+      "行人行走于广场地面。"
+    ],
+    "scene": "城市广场",
+    "subjects": [
+      "飞机模型",
+      "喷泉",
+      "人行天桥",
+      "行人",
+      "欧式建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中心有一座多层喷泉，水从顶部喷出；一架大型客机模型停放在广场上，机身部分被天桥遮挡。",
+    "safe_facts": [
+      "画面中心有一座多层喷泉，水从顶部喷出。",
+      "一架大型客机模型停放在广场上，机身部分被天桥遮挡。"
+    ]
+  },
+  "label_id": "cpl_5669688b90612d444921a1bf",
+  "provenance": {
+    "generated_at": "2026-08-03T10:46:58.091663+00:00",
+    "migrated_at": "2026-08-03T10:46:58.093063+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ea81813b5a4fa02b07b61a9ac97c5ecda8b0341b4c344a9c51b4c766982ea67d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2479bb622e9f06cc91aa3cb0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:46:58.093272+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2479bb622e9f06cc91aa3cb0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2041.jpg",
+    "relative_path": "val/2041.jpg",
+    "sha256": "3c6d0e7e8b6cec574cf001796e2a9cf98b885a99a4f137871f4a04fcfc56962e",
+    "split": "val"
+  },
+  "canonical_sha256": "8c5f62ffb8511a29cae0d05050afab60ebf2f23de8223792df7c8f53098766d3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电子屏幕",
+      "英语练习",
+      "词汇提示"
+    ],
+    "short_description": "一张电子屏幕上显示着英语词汇练习题，包含四条句子和一组提示词。",
+    "theme": "屏幕显示英文练习题"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕显示英文练习题文本。",
+      "屏幕边缘有深色边框。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色背景",
+      "边框"
+    ],
+    "relations": [],
+    "scene": "电子屏幕显示文本内容",
+    "subjects": [
+      "屏幕"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕显示英文练习题文本；屏幕边缘有深色边框。",
+    "safe_facts": [
+      "屏幕显示英文练习题文本。",
+      "屏幕边缘有深色边框。"
+    ]
+  },
+  "label_id": "cpl_ccab3a8300158ce77592334d",
+  "provenance": {
+    "generated_at": "2026-08-03T15:51:29.703865+00:00",
+    "migrated_at": "2026-08-03T15:51:29.705888+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "26e02e12295533aa892559e201a1d899ab2544663af9fb4417a19059096f4fed",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8fe3c8e1c78cb69132f30ce9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:51:29.706604+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8fe3c8e1c78cb69132f30ce9"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "You may find some of the following words",
+      "1. The experiment did not work.",
+      "2. No changes were observed in any of th",
+      "3. There is not a piece of evidence supp",
+      "4. The variation was never more than 1%."
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "You may find some of the following words",
+      "1. The experiment did not work.",
+      "2. No changes were observed in any of th",
+      "3. There is not a piece of evidence supp",
+      "4. The variation was never more than 1%."
+    ]
+  }
+}

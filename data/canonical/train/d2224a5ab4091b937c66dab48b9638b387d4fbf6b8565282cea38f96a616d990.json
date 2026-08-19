@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1786.jpg",
+    "relative_path": "train/1786.jpg",
+    "sha256": "d2224a5ab4091b937c66dab48b9638b387d4fbf6b8565282cea38f96a616d990",
+    "split": "train"
+  },
+  "canonical_sha256": "dc253553ac9f5f0526cd9b832be789354b2f924cecedf8fa4362e0f0925fee2b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "提要构建",
+      "数据缺失",
+      "双语提示"
+    ],
+    "short_description": "幻灯片上有两个带边框的文本区域，分别用英文和中文呈现指导内容。",
+    "theme": "提要构建指导"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "幻灯片上有两个带边框的文本区域，分别用英文和中文呈现指导内容。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "电脑屏幕显示的演示文稿页面",
+    "subjects": [
+      "幻灯片标题",
+      "两个带边框的文本框"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "幻灯片上有两个带边框的文本区域，分别用英文和中文呈现指导内容。",
+    "safe_facts": [
+      "幻灯片上有两个带边框的文本区域，分别用英文和中文呈现指导内容。"
+    ]
+  },
+  "label_id": "cpl_e7d2900ba592e2c93e36be08",
+  "provenance": {
+    "generated_at": "2026-08-03T15:07:28.559453+00:00",
+    "migrated_at": "2026-08-03T15:07:28.561538+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8b96521f90a76e179b341e9492127bbd0289cc8e29a1e359a42909df1a8228d6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ff88fb95dedfe0ee69156c30",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:07:28.562237+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ff88fb95dedfe0ee69156c30"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "How should you construct an outline?",
+      "你应该如何起草你的提要?",
+      "Simply indicate where missing data will",
+      "简要地标明哪些地方还缺数据,你认为(或推测)这些数据大概是什么样。如果你的推测是"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "How should you construct an outline?",
+      "你应该如何起草你的提要?",
+      "Simply indicate where missing data will",
+      "简要地标明哪些地方还缺数据,你认为(或推测)这些数据大概是什么样。如果你的推测是"
+    ]
+  }
+}

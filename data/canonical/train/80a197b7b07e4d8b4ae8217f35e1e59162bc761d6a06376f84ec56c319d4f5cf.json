@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1269.jpg",
+    "relative_path": "train/1269.jpg",
+    "sha256": "80a197b7b07e4d8b4ae8217f35e1e59162bc761d6a06376f84ec56c319d4f5cf",
+    "split": "train"
+  },
+  "canonical_sha256": "a5090d583e38e7b2d32828dd07ac4ae58393276f2dad4c14b62bbeabce845a9d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "冰淇淋店",
+      "甜点展示",
+      "促销海报"
+    ],
+    "short_description": "一家冰淇淋店内，玻璃柜陈列着多种甜点，上方悬挂着多块宣传海报，一名员工站在柜台旁。",
+    "theme": "冰淇淋店促销"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "玻璃展示柜内陈列着多种甜点。",
+      "墙上悬挂着多块宣传海报。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "玻璃柜内有甜点",
+      "海报上有卡通形象",
+      "员工戴帽子"
+    ],
+    "relations": [
+      "海报悬挂在天花板下方。",
+      "员工站在柜台旁。"
+    ],
+    "scene": "室内冰淇淋店柜台区域",
+    "subjects": [
+      "玻璃展示柜",
+      "宣传海报",
+      "员工",
+      "甜点"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "玻璃展示柜内陈列着多种甜点；墙上悬挂着多块宣传海报。",
+    "safe_facts": [
+      "玻璃展示柜内陈列着多种甜点。",
+      "墙上悬挂着多块宣传海报。"
+    ]
+  },
+  "label_id": "cpl_0730f4dca261e2b4433cd94a",
+  "provenance": {
+    "generated_at": "2026-08-03T14:03:41.208476+00:00",
+    "migrated_at": "2026-08-03T14:03:41.212260+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "65fe6feff694b8f48f558545ff3facd8dd6a0f6de1d6726891985e0ba318745b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_331f2a903d119f9feb79508f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:03:41.213058+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_331f2a903d119f9feb79508f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

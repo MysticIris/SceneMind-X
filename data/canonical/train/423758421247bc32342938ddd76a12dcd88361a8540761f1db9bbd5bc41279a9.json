@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1968.jpg",
+    "relative_path": "train/1968.jpg",
+    "sha256": "423758421247bc32342938ddd76a12dcd88361a8540761f1db9bbd5bc41279a9",
+    "split": "train"
+  },
+  "canonical_sha256": "36d14183b401bdcf34c91388e26a29c25c614982cc933b8e4775f756ccda5c99",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "小鹿",
+      "奔跑",
+      "绿植",
+      "草地",
+      "水泥路"
+    ],
+    "short_description": "一只带斑点的小鹿正在草丛边的水泥路上奔跑，周围是茂密的绿色灌木。",
+    "theme": "小鹿穿行绿植旁"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "小鹿可能正从植被区域向道路边缘移动。"
+    ],
+    "direct_observations": [
+      "小鹿身体呈棕色，布满白色斑点。",
+      "小鹿四肢伸展，正在向前奔跑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "奔跑"
+    ],
+    "attributes": [
+      "棕色皮毛",
+      "白色斑点",
+      "耳朵竖立",
+      "四肢伸展"
+    ],
+    "relations": [
+      "小鹿在水泥路边的草地上移动。",
+      "小鹿靠近茂密的绿色植物。"
+    ],
+    "scene": "户外绿化区域旁的水泥路",
+    "subjects": [
+      "一只小鹿"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "小鹿可能正从植被区域向道路边缘移动。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "小鹿身体呈棕色，布满白色斑点；小鹿四肢伸展，正在向前奔跑。",
+    "safe_facts": [
+      "小鹿身体呈棕色，布满白色斑点。",
+      "小鹿四肢伸展，正在向前奔跑。"
+    ]
+  },
+  "label_id": "cpl_a5ff54eb1b8fd1d61bd99c2f",
+  "provenance": {
+    "generated_at": "2026-08-03T15:29:56.383982+00:00",
+    "migrated_at": "2026-08-03T15:29:56.385596+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bda2da90ce63b316184ca671fd743ce0d9c261af99dc0a2834e0bb15bc476a3c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_49df525307c692bf5796dca5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:29:56.385802+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_49df525307c692bf5796dca5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

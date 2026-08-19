@@ -1,0 +1,1 @@
+visual_medium 描述图像载体。幻灯片、表情包、包装、屏幕或插画内部呈现的内容写入 depicted_content，不把内部事件当作拍摄现场。真实照片没有独立载体内内容时，depicted_content 使用 null。

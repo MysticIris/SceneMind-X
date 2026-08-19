@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1701.jpg",
+    "relative_path": "train/1701.jpg",
+    "sha256": "2b22d9a04ef1953450facaa8ef9561167ab3e7bb4120c089a41c7bba242dffe5",
+    "split": "train"
+  },
+  "canonical_sha256": "3ef98a4f10b567bb2751fd06d678cc62b72c9014e401f76da499e991bc089117",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电脑桌面",
+      "动漫壁纸",
+      "笔记本电脑"
+    ],
+    "short_description": "一张电脑桌面照片，显示一台笔记本和一台显示器，屏幕上都是相同的动漫壁纸，旁边有台式机和鼠标垫。",
+    "theme": "电脑桌面场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一台笔记本电脑和一台显示器，两者屏幕均显示相同壁纸。",
+      "桌面上放置有台式机主机、键盘、鼠标垫和台灯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "显示器屏幕亮着",
+      "笔记本电脑屏幕亮着",
+      "鼠标垫上有熊猫图案"
+    ],
+    "relations": [
+      "笔记本电脑放在鼠标垫上。",
+      "显示器位于笔记本电脑上方。",
+      "台式机主机在左侧。"
+    ],
+    "scene": "室内桌面工作区",
+    "subjects": [
+      "笔记本电脑",
+      "显示器",
+      "台式机主机",
+      "鼠标垫",
+      "键盘",
+      "台灯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一台笔记本电脑和一台显示器，两者屏幕均显示相同壁纸；桌面上放置有台式机主机、键盘、鼠标垫和台灯。",
+    "safe_facts": [
+      "画面中有一台笔记本电脑和一台显示器，两者屏幕均显示相同壁纸。",
+      "桌面上放置有台式机主机、键盘、鼠标垫和台灯。"
+    ]
+  },
+  "label_id": "cpl_3222b36a638ed5695e9af98c",
+  "provenance": {
+    "generated_at": "2026-08-03T14:57:08.617216+00:00",
+    "migrated_at": "2026-08-03T14:57:08.619148+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a60736e4e0f5aadb2b0ff6b4fccba7fe9e03db12f176e6d9b9c084ba7745001f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f2160150de0b72070c88dfbb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:57:08.619388+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f2160150de0b72070c88dfbb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2244.jpg",
+    "relative_path": "val/2244.jpg",
+    "sha256": "a56b5dea671b5643120e415f9d424a1e3593dd33c3eddd435e29a9cc6496eee3",
+    "split": "val"
+  },
+  "canonical_sha256": "af03c1105465b4c8118308c28fd74b4b9e460c1b20a04787339df4cd280e9094",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "植物园",
+      "中式建筑",
+      "绿植雕塑"
+    ],
+    "short_description": "入口处，中式建筑风格大门前有大型绿植雕塑和刻字石碑，天空多云，地面铺有石砖。",
+    "theme": "植物园入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑具有传统中式屋檐结构。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "中式屋顶",
+      "石质地面",
+      "绿色灌木造型",
+      "黄色花坛"
+    ],
+    "relations": [
+      "石碑位于绿植雕塑前方。",
+      "绿植雕塑位于建筑前方。"
+    ],
+    "scene": "植物园入口广场",
+    "subjects": [
+      "石碑",
+      "绿植雕塑",
+      "建筑",
+      "游客"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑具有传统中式屋檐结构。",
+    "safe_facts": [
+      "建筑具有传统中式屋檐结构。"
+    ]
+  },
+  "label_id": "cpl_b9b55b6d3e0d879c4bd65af4",
+  "provenance": {
+    "generated_at": "2026-08-03T16:19:04.853230+00:00",
+    "migrated_at": "2026-08-03T16:19:04.854951+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d8e66a76ad63e4e3f49f38f30ece56fe67440994c03576b117b44543cf8915c3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1b52375fd1189c49d0f2eece",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:19:04.855224+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1b52375fd1189c49d0f2eece"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "南寧植物園"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "南寧植物園"
+    ]
+  }
+}

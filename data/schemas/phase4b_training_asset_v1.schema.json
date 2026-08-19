@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scenemind-x.local/schemas/phase4b_training_asset_v1.schema.json",
+  "title": "SceneMind-X Phase 4B training asset candidate",
+  "type": "object",
+  "required": ["schema_version", "image", "shared_core_facts", "natural_description", "retrieval_assets", "vlm_sft_assets", "quality_and_provenance"],
+  "properties": {
+    "schema_version": {"const": "phase4b_training_asset_v1"},
+    "image": {"type": "object", "required": ["image_id", "sha256", "split"], "properties": {"image_id": {"type": "string"}, "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}, "split": {"const": "train"}}, "additionalProperties": true},
+    "shared_core_facts": {"type": "object", "required": ["scene", "subjects", "activities", "relations", "text_presence", "uncertainty"]},
+    "natural_description": {"type": "object", "required": ["text", "prompt_version", "prompt_sha256", "source_core_sha256"]},
+    "retrieval_assets": {"type": "object", "required": ["positive_text_candidates", "entity_terms", "scene_terms", "attribute_terms", "relation_terms", "query_source_fields"]},
+    "vlm_sft_assets": {"type": "object", "required": ["instruction", "answer", "provenance", "quality_flags", "training_allowed"]},
+    "quality_and_provenance": {"type": "object", "required": ["model", "model_revision", "core_prompt_sha256", "description_prompt_sha256", "generated_at", "retry_count", "risk_flags", "review_status", "split", "dataset_version"]}
+  },
+  "additionalProperties": false
+}

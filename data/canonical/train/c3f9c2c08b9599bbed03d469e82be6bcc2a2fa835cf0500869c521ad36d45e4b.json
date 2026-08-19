@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1766.jpg",
+    "relative_path": "train/1766.jpg",
+    "sha256": "c3f9c2c08b9599bbed03d469e82be6bcc2a2fa835cf0500869c521ad36d45e4b",
+    "split": "train"
+  },
+  "canonical_sha256": "582eab9f2dc50637b13e8fa4e9c4639130c41e4e088c3a329e37f5e0385b49d2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "雕像",
+      "广场",
+      "灯光照明"
+    ],
+    "short_description": "夜晚灯光下，一座白色人物雕像矗立在石基座上，背景是多层建筑，周围有灌木丛。",
+    "theme": "夜间雕像广场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "雕像呈白色，右手抬起作挥手状。",
+      "雕像立于方形石质基座上，基座前有台阶。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "挥手"
+    ],
+    "attributes": [
+      "白色",
+      "站立",
+      "石基座",
+      "被灯光照亮"
+    ],
+    "relations": [
+      "雕像位于基座之上。",
+      "雕像前方有台阶。",
+      "雕像后方有建筑物。"
+    ],
+    "scene": "户外广场",
+    "subjects": [
+      "白色人物雕像"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "雕像呈白色，右手抬起作挥手状；雕像立于方形石质基座上，基座前有台阶。",
+    "safe_facts": [
+      "雕像呈白色，右手抬起作挥手状。",
+      "雕像立于方形石质基座上，基座前有台阶。"
+    ]
+  },
+  "label_id": "cpl_bc37fb7503318add0b9b4405",
+  "provenance": {
+    "generated_at": "2026-08-03T15:04:33.529756+00:00",
+    "migrated_at": "2026-08-03T15:04:33.531540+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "17b70835f843c9d6a3ca7b88a47d204a95587cdfabcc42d67e7ea3aaa59a5f3e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2235beb32a5d59191ca3deb4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:04:33.531741+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2235beb32a5d59191ca3deb4"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

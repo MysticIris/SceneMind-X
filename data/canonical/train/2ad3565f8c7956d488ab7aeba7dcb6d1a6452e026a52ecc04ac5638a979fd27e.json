@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1174.jpg",
+    "relative_path": "train/1174.jpg",
+    "sha256": "2ad3565f8c7956d488ab7aeba7dcb6d1a6452e026a52ecc04ac5638a979fd27e",
+    "split": "train"
+  },
+  "canonical_sha256": "bd2a78d4393f334c79842f8af536d2026f78e622e01eb21b20997c46ab8d6af9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "木制框架",
+      "红色纹饰",
+      "博物馆展品"
+    ],
+    "short_description": "博物馆玻璃展柜内陈列着一件带有红色纹饰的古代木制框架，结构呈矩形，立柱上刻有几何图案。",
+    "theme": "古代木构框架"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "框架由多根木条构成，呈矩形结构。",
+      "立柱表面可见红色颜料绘制的几何图案。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深棕色木质",
+      "红色装饰性纹样",
+      "矩形结构",
+      "透明玻璃围栏"
+    ],
+    "relations": [
+      "木制框架被玻璃展柜包围。"
+    ],
+    "scene": "室内展览环境",
+    "subjects": [
+      "木制框架",
+      "玻璃展柜"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "框架由多根木条构成，呈矩形结构；立柱表面可见红色颜料绘制的几何图案。",
+    "safe_facts": [
+      "框架由多根木条构成，呈矩形结构。",
+      "立柱表面可见红色颜料绘制的几何图案。"
+    ]
+  },
+  "label_id": "cpl_feda8a3b4c2a64d2cfe9bf1d",
+  "provenance": {
+    "generated_at": "2026-08-03T13:48:07.703569+00:00",
+    "migrated_at": "2026-08-03T13:48:07.706044+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bd4ecea7e783b26ab391b97209565b4c4a62d39276ada813cef4636ad0f53bdf",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ddac19e8ed87cc115fcbc8e9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:48:07.706375+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ddac19e8ed87cc115fcbc8e9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

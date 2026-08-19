@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2130.jpg",
+    "relative_path": "val/2130.jpg",
+    "sha256": "06f861835cc465b8d010fc84a363fef406791309661db7b1da595b7891478734",
+    "split": "val"
+  },
+  "canonical_sha256": "21abe6696adc4b4a4dc0364a07757a910d41ed8bdf5a854d9f21fd92df962d16",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "林荫道",
+      "藤蔓缠绕",
+      "砖石路面"
+    ],
+    "short_description": "一条被茂密树木环绕的砖石小径，树干上缠绕着藤蔓和绿叶，阳光透过枝叶洒在路面上。",
+    "theme": "林荫小径"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线从树冠间隙照射下来，在地面上形成斑驳光影。"
+    ],
+    "direct_observations": [
+      "画面左侧有一棵大树，树皮粗糙，表面覆盖着大量藤蔓和绿色叶片。",
+      "右侧是一条由灰色砖块铺设的小径，延伸向远方，两旁树木形成天然拱廊。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "树干粗壮",
+      "叶片繁茂",
+      "路面铺砖"
+    ],
+    "relations": [
+      "藤蔓缠绕在树干上。",
+      "树木沿小径两侧生长。"
+    ],
+    "scene": "林间小径",
+    "subjects": [
+      "树木",
+      "藤蔓",
+      "砖石小径"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线从树冠间隙照射下来，在地面上形成斑驳光影。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面左侧有一棵大树，树皮粗糙，表面覆盖着大量藤蔓和绿色叶片；右侧是一条由灰色砖块铺设的小径，延伸向远方，两旁树木形成天然拱廊。",
+    "safe_facts": [
+      "画面左侧有一棵大树，树皮粗糙，表面覆盖着大量藤蔓和绿色叶片。",
+      "右侧是一条由灰色砖块铺设的小径，延伸向远方，两旁树木形成天然拱廊。"
+    ]
+  },
+  "label_id": "cpl_70ac8c9300ccce60b6535f21",
+  "provenance": {
+    "generated_at": "2026-08-03T16:03:56.736939+00:00",
+    "migrated_at": "2026-08-03T16:03:56.738780+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ba546f5a61f369e4562f6accb018a25b0cf0ecbf9cefff8c5c9221f9295f62f9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9ad4d24f9efa0b0e508d1e80",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:03:56.739011+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9ad4d24f9efa0b0e508d1e80"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

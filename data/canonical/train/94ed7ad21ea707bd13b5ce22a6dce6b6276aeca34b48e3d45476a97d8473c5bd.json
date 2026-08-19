@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1748.jpg",
+    "relative_path": "train/1748.jpg",
+    "sha256": "94ed7ad21ea707bd13b5ce22a6dce6b6276aeca34b48e3d45476a97d8473c5bd",
+    "split": "train"
+  },
+  "canonical_sha256": "e8be1f191e0c70cf9b6aac4f0c3aaa05327ec93fb366014e97e0648573b90dee",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雨天",
+      "石阶",
+      "绿树",
+      "撑伞人"
+    ],
+    "short_description": "雨天，两人撑伞沿石阶小径穿行于茂密绿树丛中，阶梯蜿蜒向上，植被葱郁。",
+    "theme": "雨中石阶林间"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "环境潮湿，可能正在下雨或刚下过雨。"
+    ],
+    "direct_observations": [
+      "画面中有两条石阶小径，一条主路，一条侧路。",
+      "两名行人手持雨伞，正沿着石阶向上行走。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走"
+    ],
+    "attributes": [
+      "湿润的石阶",
+      "茂密的绿色植被",
+      "雨伞"
+    ],
+    "relations": [
+      "人位于石阶上。",
+      "石阶被树木环绕。"
+    ],
+    "scene": "山林中的石阶小径",
+    "subjects": [
+      "撑伞的人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "环境潮湿，可能正在下雨或刚下过雨。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两条石阶小径，一条主路，一条侧路；两名行人手持雨伞，正沿着石阶向上行走。",
+    "safe_facts": [
+      "画面中有两条石阶小径，一条主路，一条侧路。",
+      "两名行人手持雨伞，正沿着石阶向上行走。"
+    ]
+  },
+  "label_id": "cpl_8868f830507b06c73c6575d0",
+  "provenance": {
+    "generated_at": "2026-08-03T15:02:25.971522+00:00",
+    "migrated_at": "2026-08-03T15:02:25.973033+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4c2dbcf04b85bf69f13086da7086c18e370cf771a56cc296bf481bd33d33f53c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_853abb62d41c46172d8d43e3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:02:25.973251+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_853abb62d41c46172d8d43e3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

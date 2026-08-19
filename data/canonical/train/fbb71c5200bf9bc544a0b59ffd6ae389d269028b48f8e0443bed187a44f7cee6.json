@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:814.jpg",
+    "relative_path": "train/814.jpg",
+    "sha256": "fbb71c5200bf9bc544a0b59ffd6ae389d269028b48f8e0443bed187a44f7cee6",
+    "split": "train"
+  },
+  "canonical_sha256": "61c38afb673740976b63d62810b60721adccb6c05254e8bd2ded155e8d0d7ffe",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "三文鱼刺身",
+      "冰镇",
+      "日式料理"
+    ],
+    "short_description": "冰镇三文鱼刺身摆盘，配绿叶装饰，旁有酱油碟。",
+    "theme": "三文鱼刺身"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "三文鱼刺身可能为生食，因呈现新鲜状态且未加热。"
+    ],
+    "direct_observations": [
+      "三文鱼刺身呈橙粉色，被切成薄片并整齐排列。",
+      "三文鱼刺身置于碎冰之上，冰块覆盖碗底。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "橙粉色",
+      "薄切",
+      "晶莹剔透",
+      "新鲜",
+      "冰镇状态"
+    ],
+    "relations": [
+      "三文鱼刺身放置于冰块上。",
+      "绿叶装饰位于三文鱼刺身上方。",
+      "酱油碟位于画面右侧。"
+    ],
+    "scene": "餐桌",
+    "subjects": [
+      "三文鱼刺身",
+      "冰块",
+      "绿叶装饰",
+      "酱油碟"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "三文鱼刺身可能为生食，因呈现新鲜状态且未加热。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三文鱼刺身呈橙粉色，被切成薄片并整齐排列；三文鱼刺身置于碎冰之上，冰块覆盖碗底。",
+    "safe_facts": [
+      "三文鱼刺身呈橙粉色，被切成薄片并整齐排列。",
+      "三文鱼刺身置于碎冰之上，冰块覆盖碗底。"
+    ]
+  },
+  "label_id": "cpl_dc3a74997f433c7a1cb721cd",
+  "provenance": {
+    "generated_at": "2026-08-03T12:28:47.142414+00:00",
+    "migrated_at": "2026-08-03T12:28:47.147201+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "786b134c1ee41556cf745783f32558c085735f0e449868e5e4b36c255ec58ef0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_82b0191bb0ac5d2e26c457b6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:28:47.147593+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_82b0191bb0ac5d2e26c457b6"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

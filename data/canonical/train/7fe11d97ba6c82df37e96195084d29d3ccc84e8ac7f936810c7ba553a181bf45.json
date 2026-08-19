@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:132.jpg",
+    "relative_path": "train/132.jpg",
+    "sha256": "7fe11d97ba6c82df37e96195084d29d3ccc84e8ac7f936810c7ba553a181bf45",
+    "split": "train"
+  },
+  "canonical_sha256": "dfce4d1460947efab803821e9bda2796727302d215a4d1d85fbd7ce4e5e2f2db",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "青铜镜",
+      "文物展陈",
+      "圆形器物"
+    ],
+    "short_description": "圆形铜镜置于白色展台上，表面有纹饰，灯光聚焦，背景深暗。",
+    "theme": "青铜镜文物展陈"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "铜镜呈圆形，表面有雕刻纹样。",
+      "铜镜放置于白色方形展台上，由支架支撑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "圆形",
+      "带纹饰",
+      "金属材质",
+      "有锈迹"
+    ],
+    "relations": [
+      "铜镜被支架支撑。",
+      "铜镜位于展台中央。"
+    ],
+    "scene": "博物馆展柜内",
+    "subjects": [
+      "铜镜"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "铜镜呈圆形，表面有雕刻纹样；铜镜放置于白色方形展台上，由支架支撑。",
+    "safe_facts": [
+      "铜镜呈圆形，表面有雕刻纹样。",
+      "铜镜放置于白色方形展台上，由支架支撑。"
+    ]
+  },
+  "label_id": "cpl_fe209c025b7b22e8ca4f718e",
+  "provenance": {
+    "generated_at": "2026-08-03T09:34:31.390308+00:00",
+    "migrated_at": "2026-08-03T09:34:31.391743+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "68d0f1fe2360b9bb0e43bf067206d4e4c439e759cba4d2743cbd0b4e85f42061",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a559a6f0a555431092460f9d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:40.811329+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a559a6f0a555431092460f9d",
+    "cpl_783e219c9cf08ca3f555d34c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

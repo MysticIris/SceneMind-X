@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:414.jpg",
+    "relative_path": "train/414.jpg",
+    "sha256": "7d269658008758c0c23310dfdc4a2a10eb30e982a924d18766dd52251edfd600",
+    "split": "train"
+  },
+  "canonical_sha256": "257dfafb7c34bbf44d334f33949d76b1356d7818b1d52856946a6d1bb23c929b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "自助终端",
+      "人群聚集",
+      "红色马甲"
+    ],
+    "short_description": "多人在自助服务终端前等待或操作。",
+    "theme": "自助服务场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多个站立的人围绕着自助服务终端。",
+      "一名身穿红色马甲的人站在终端旁，手放在腰间。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立观看",
+      "操作设备"
+    ],
+    "attributes": [
+      "戴口罩",
+      "穿红色马甲",
+      "提购物袋",
+      "有电子屏幕"
+    ],
+    "relations": [
+      "穿红色马甲者站在设备旁。",
+      "老年男女并排站立。"
+    ],
+    "scene": "室内公共区域",
+    "subjects": [
+      "穿红色马甲的人",
+      "戴口罩的年轻男子",
+      "穿深色外套的老年男性",
+      "穿酒红色上衣的老年女性"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个站立的人围绕着自助服务终端；一名身穿红色马甲的人站在终端旁，手放在腰间。",
+    "safe_facts": [
+      "画面中有多个站立的人围绕着自助服务终端。",
+      "一名身穿红色马甲的人站在终端旁，手放在腰间。"
+    ]
+  },
+  "label_id": "cpl_372761d12e8503f3ea44a8fb",
+  "provenance": {
+    "generated_at": "2026-08-03T10:58:40.483522+00:00",
+    "migrated_at": "2026-08-03T10:58:40.484994+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fdc5aae04422d2846f1b17d2d3d6a11306c978f26ae3e7cde4a13a4142f30640",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9eed9b0773bf424ac0ae07eb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:58:40.485197+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9eed9b0773bf424ac0ae07eb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

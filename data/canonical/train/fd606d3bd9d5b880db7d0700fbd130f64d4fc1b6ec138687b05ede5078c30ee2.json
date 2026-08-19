@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:572.jpg",
+    "relative_path": "train/572.jpg",
+    "sha256": "fd606d3bd9d5b880db7d0700fbd130f64d4fc1b6ec138687b05ede5078c30ee2",
+    "split": "train"
+  },
+  "canonical_sha256": "f47d4c61a4a6f61343937ab7d82d0fcc0e9f2825a1df8c8751beca0b0da77f3a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪地",
+      "自行车",
+      "围栏",
+      "城市远景"
+    ],
+    "short_description": "雪天里，一辆黑色自行车倚靠在铁丝网围栏旁，地面覆盖积雪，远处可见城市建筑轮廓。",
+    "theme": "雪地围栏旁的自行车"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一辆黑色自行车停放在铁丝网围栏旁。",
+      "地面和远处场地被白雪覆盖。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色自行车",
+      "覆盖积雪",
+      "铁丝网围栏",
+      "多栋建筑"
+    ],
+    "relations": [
+      "自行车倚靠在围栏上。",
+      "围栏环绕雪地场地。",
+      "积雪覆盖地面。"
+    ],
+    "scene": "户外雪地场地",
+    "subjects": [
+      "自行车",
+      "铁丝网围栏",
+      "积雪地面",
+      "远处建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一辆黑色自行车停放在铁丝网围栏旁；地面和远处场地被白雪覆盖。",
+    "safe_facts": [
+      "画面中有一辆黑色自行车停放在铁丝网围栏旁。",
+      "地面和远处场地被白雪覆盖。"
+    ]
+  },
+  "label_id": "cpl_09472259f0904bed3dd052a2",
+  "provenance": {
+    "generated_at": "2026-08-03T11:36:13.637940+00:00",
+    "migrated_at": "2026-08-03T11:36:13.639427+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "71e664dca3571bad6db05ace56c4d691ace407d4c2735e9ae95c84bca89d8f56",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_cf78d5aec31e1813ef87520f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:36:13.639631+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_cf78d5aec31e1813ef87520f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

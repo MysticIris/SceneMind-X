@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:538.jpg",
+    "relative_path": "train/538.jpg",
+    "sha256": "98cf122a2af690ac66d742cfbc08391c0407a92bcea22a6914e679e185d6e1d2",
+    "split": "train"
+  },
+  "canonical_sha256": "03a9b49f93080f7658c238669195a3b5a650daf50dc4a5c7283d563425aa1096",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "鸡尾酒",
+      "柠檬装饰",
+      "大理石桌面"
+    ],
+    "short_description": "一杯橙红色渐变鸡尾酒置于大理石桌面上，配柠檬片与吸管，背景为昏暗酒吧环境。",
+    "theme": "鸡尾酒特写"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "饮品可能为鸡尾酒类。"
+    ],
+    "direct_observations": [
+      "玻璃杯内装有橙红色渐变液体并含冰块。",
+      "杯口插有柠檬片和一根白色吸管。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "橙红色渐变液体",
+      "冰块",
+      "黑色杯垫",
+      "金色金属容器"
+    ],
+    "relations": [
+      "鸡尾酒盛于玻璃杯中。",
+      "柠檬片插在鸡尾酒杯口。",
+      "吸管插入鸡尾酒。",
+      "玻璃杯置于黑色杯垫上。",
+      "杯垫置于大理石桌面上。"
+    ],
+    "scene": "室内酒吧或餐厅",
+    "subjects": [
+      "鸡尾酒",
+      "玻璃杯",
+      "柠檬片",
+      "吸管",
+      "大理石桌面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "饮品可能为鸡尾酒类。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "玻璃杯内装有橙红色渐变液体并含冰块；杯口插有柠檬片和一根白色吸管。",
+    "safe_facts": [
+      "玻璃杯内装有橙红色渐变液体并含冰块。",
+      "杯口插有柠檬片和一根白色吸管。"
+    ]
+  },
+  "label_id": "cpl_43d2bb887f90ec8636db3de0",
+  "provenance": {
+    "generated_at": "2026-08-03T11:25:16.766362+00:00",
+    "migrated_at": "2026-08-03T11:25:16.769279+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4b070aa80d7a8288372e37afa396155e9717c607734a14ec4ee68797b7b2bc2a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9cd317c2087f853acd308cd2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:25:16.769514+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9cd317c2087f853acd308cd2"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

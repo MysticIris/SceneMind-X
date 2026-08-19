@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1953.jpg",
+    "relative_path": "train/1953.jpg",
+    "sha256": "e9636a7bc54d4e2a84297e3f3c22dee0c9410e9e786dd8b3fe6668afa323bd8c",
+    "split": "train"
+  },
+  "canonical_sha256": "a144dcabbe28a05cc3e686a68b61341f1f7eb7400a8a3aa7286631767490bade",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑色汽车",
+      "车体破损",
+      "枯叶",
+      "车灯"
+    ],
+    "short_description": "一辆黑色汽车前侧有破损，车门与引擎盖接缝处有一片枯叶，车灯清晰可见。",
+    "theme": "车体局部损伤"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "汽车车身为黑色，表面有划痕和凹陷。",
+      "车头灯为透明塑料材质，边缘有金属镀铬装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色",
+      "有破损",
+      "有枯叶"
+    ],
+    "relations": [
+      "枯叶位于车体破损处。"
+    ],
+    "scene": "户外停放的车辆局部",
+    "subjects": [
+      "汽车",
+      "枯叶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "汽车车身为黑色，表面有划痕和凹陷；车头灯为透明塑料材质，边缘有金属镀铬装饰。",
+    "safe_facts": [
+      "汽车车身为黑色，表面有划痕和凹陷。",
+      "车头灯为透明塑料材质，边缘有金属镀铬装饰。"
+    ]
+  },
+  "label_id": "cpl_fb869576e3f3b2df258e43bf",
+  "provenance": {
+    "generated_at": "2026-08-03T15:26:05.308604+00:00",
+    "migrated_at": "2026-08-03T15:26:05.310102+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d7f0fd37d5e1f9047161c632c162907d5aec3ed1612bf27dde47df033fa2e5d4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4f09e50fc0952b0d035eebcc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:26:05.310300+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4f09e50fc0952b0d035eebcc"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

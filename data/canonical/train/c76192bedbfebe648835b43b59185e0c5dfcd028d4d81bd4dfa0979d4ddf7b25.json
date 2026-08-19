@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:8.jpg",
+    "relative_path": "train/8.jpg",
+    "sha256": "c76192bedbfebe648835b43b59185e0c5dfcd028d4d81bd4dfa0979d4ddf7b25",
+    "split": "train"
+  },
+  "canonical_sha256": "a780c9710bf5585556cb5e8685ca7dfbc4203ffe643b3a53d9c9edbafefb5b2a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "猫咪",
+      "阳光",
+      "台阶",
+      "盆栽"
+    ],
+    "short_description": "两只橘白相间的猫在台阶上晒太阳，一只抬头望天，另一只低头靠近绿植，周围有盆栽和砖墙。",
+    "theme": "阳光下的猫咪"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "成年猫可能在观察上方环境。",
+      "幼猫可能在探索或休息。"
+    ],
+    "direct_observations": [
+      "画面中有两只毛色为橘白相间的猫。",
+      "猫位于水泥台阶上，旁边有盆栽植物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "成年猫抬头仰望",
+      "幼猫靠近植物"
+    ],
+    "attributes": [
+      "橘白毛色",
+      "绿色植物",
+      "水泥台阶",
+      "红砖墙"
+    ],
+    "relations": [
+      "两只猫在台阶上。",
+      "猫与植物相邻。"
+    ],
+    "scene": "户外台阶区域",
+    "subjects": [
+      "一只成年橘白猫",
+      "一只幼年橘白猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "成年猫可能在观察上方环境。",
+      "幼猫可能在探索或休息。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两只毛色为橘白相间的猫；猫位于水泥台阶上，旁边有盆栽植物。",
+    "safe_facts": [
+      "画面中有两只毛色为橘白相间的猫。",
+      "猫位于水泥台阶上，旁边有盆栽植物。"
+    ]
+  },
+  "label_id": "cpl_5fcca89df5f175765c21f7b0",
+  "provenance": {
+    "generated_at": "2026-08-03T09:05:21.775272+00:00",
+    "migrated_at": "2026-08-03T09:05:21.776778+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ff9a2932819950403174b3ff9764084f94791c30fe1d4372015d62bae25a5422",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5f0096fdef1b0868a9b6f460",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:25.486049+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5f0096fdef1b0868a9b6f460",
+    "cpl_e7722aeff06aa0680b2777bd"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

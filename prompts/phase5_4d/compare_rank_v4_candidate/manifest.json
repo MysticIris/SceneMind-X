@@ -1,0 +1,16 @@
+{
+  "candidate_id": "SCENEMINDX_COMPARE_RANK_V4_CANDIDATE",
+  "parent_candidate_id": "SCENEMINDX_COMPARE_RANK_V3_CANDIDATE",
+  "status": "candidate_active_phase5_4d",
+  "iteration": 4,
+  "prompt": {
+    "prompt_id": "phase5_4d_compare_rank_v4",
+    "file": "prompts/phase5_4d/compare_rank_v4_candidate/compare_rank_v4.txt",
+    "raw_sha256": "b9efbf681dd5be5e98b2fe37887af0b07944f6723dcce3c46cef2a2f7e57d92a"
+  },
+  "retry_prompt": {
+    "prompt_id": "phase5_4d_compare_rank_retry_v1",
+    "file": "prompts/phase5_4d/compare_rank_v4_candidate/compare_rank_retry_v1.txt",
+    "raw_sha256": "7ce02189c68fc2cb92c8ad8d6df9d2ef30fe8d3c5dff8b48ec3287ab21a389e5"
+  }
+}

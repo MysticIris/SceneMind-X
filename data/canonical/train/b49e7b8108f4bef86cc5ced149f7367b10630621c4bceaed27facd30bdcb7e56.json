@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1753.jpg",
+    "relative_path": "train/1753.jpg",
+    "sha256": "b49e7b8108f4bef86cc5ced149f7367b10630621c4bceaed27facd30bdcb7e56",
+    "split": "train"
+  },
+  "canonical_sha256": "3b933d8cf081a1655ae610ce5c9d64af58d7dacf87cdc53de7502c5d3466c22c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "荷花",
+      "荷叶",
+      "古建筑",
+      "庭院"
+    ],
+    "short_description": "绿叶丛中荷花绽放，背景为灰砖墙与门廊，一人戴帽在花丛后探头。",
+    "theme": "荷塘与古建"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面前景布满宽大的绿色荷叶和数朵粉红色荷花。",
+      "背景为灰砖砌成的墙体及白色立柱结构。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "粉红色荷花",
+      "绿色荷叶",
+      "灰色砖墙",
+      "白色柱子"
+    ],
+    "relations": [
+      "荷花生长于荷叶之间。",
+      "人位于荷叶丛后。"
+    ],
+    "scene": "庭院或园林",
+    "subjects": [
+      "荷花",
+      "荷叶",
+      "人",
+      "建筑墙体"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景布满宽大的绿色荷叶和数朵粉红色荷花；背景为灰砖砌成的墙体及白色立柱结构。",
+    "safe_facts": [
+      "画面前景布满宽大的绿色荷叶和数朵粉红色荷花。",
+      "背景为灰砖砌成的墙体及白色立柱结构。"
+    ]
+  },
+  "label_id": "cpl_212d1809f65b59c3d8973014",
+  "provenance": {
+    "generated_at": "2026-08-03T15:01:44.139064+00:00",
+    "migrated_at": "2026-08-03T15:01:44.141033+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5dcdae6da58bf4724e7fda458420cc6e19800ccf48e367563b24098afc23f66b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_106934c3049d3b5e5a29204a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:01:44.141386+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_106934c3049d3b5e5a29204a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

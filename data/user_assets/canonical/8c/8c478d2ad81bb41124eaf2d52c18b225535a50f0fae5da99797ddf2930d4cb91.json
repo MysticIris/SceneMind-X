@@ -1,0 +1,132 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_c6ac18c2945a698a8148288c",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_f11aabebeb38d73e7f0c26a3"
+  ],
+  "asset": {
+    "asset_id": "8c478d2ad81bb411",
+    "sha256": "8c478d2ad81bb41124eaf2d52c18b225535a50f0fae5da99797ddf2930d4cb91",
+    "split": "user_custom",
+    "relative_path": "user_assets/8c/8c478d2ad81bb41124eaf2d52c18b225535a50f0fae5da99797ddf2930d4cb91/8c478d2ad81bb41124eaf2d52c18b225535a50f0fae5da99797ddf2930d4cb91.png"
+  },
+  "display": {
+    "theme": "梅花鹿",
+    "short_description": "一只长有鹿角的梅花鹿侧身站立在纯红色背景前，身上布满白色斑点。图片底部印有黑色的“马年快乐”四个汉字，构成一张具有节日氛围的图像。",
+    "micro_tags": [
+      "梅花鹿",
+      "红色背景",
+      "马年快乐",
+      "动物摄影",
+      "节日海报"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "纯色背景摄影棚或合成背景",
+    "subjects": [
+      "梅花鹿"
+    ],
+    "actions": [
+      "站立",
+      "注视前方"
+    ],
+    "attributes": [
+      "棕色皮毛",
+      "白色斑点",
+      "鹿角",
+      "红色背景",
+      "黑色字体"
+    ],
+    "relations": [
+      "鹿位于画面中央。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "一只成年雄性梅花鹿(有角)站在纯红色背景前，身体朝向右侧。",
+      "图片底部中央有清晰的黑色宋体汉字“马年快乐”。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法确定这是真实拍摄的照片还是经过数字合成的图像。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "马年快乐"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "马年快乐"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "一只成年雄性梅花鹿(有角)站在纯红色背景前，身体朝向右侧；图片底部中央有清晰的黑色宋体汉字“马年快乐”。",
+    "safe_facts": [
+      "一只成年雄性梅花鹿(有角)站在纯红色背景前，身体朝向右侧。",
+      "图片底部中央有清晰的黑色宋体汉字“马年快乐”。"
+    ],
+    "do_not_assert": [
+      "无法确定这是真实拍摄的照片还是经过数字合成的图像。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "needs_review",
+    "schema_valid": true,
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": true,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_e70dc4e0-d8bb-4d01-b885-3242cd5ac608",
+    "generated_at": "2026-08-12T03:03:15.076475+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "c3e000de74e86e1556f241c3a824b9404673e6970422903c14e039c73afec660",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:03:15.076954+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_f11aabebeb38d73e7f0c26a3",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:03:15.077303+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "f9be0b6e048a4c074f43db76473c579e3d68241a2e098b5c134908325ed077a2"
+}

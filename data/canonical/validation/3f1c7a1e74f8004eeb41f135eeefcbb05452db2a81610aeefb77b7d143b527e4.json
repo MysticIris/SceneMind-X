@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2100.jpg",
+    "relative_path": "val/2100.jpg",
+    "sha256": "3f1c7a1e74f8004eeb41f135eeefcbb05452db2a81610aeefb77b7d143b527e4",
+    "split": "val"
+  },
+  "canonical_sha256": "f9497268a32c302e46111bd4dae937bba9da248e923495f7124b617c7e0f8a62",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "实验指导"
+    ],
+    "short_description": "投影屏幕显示物理实验操作指南，含与参数设置及计算公式。",
+    "theme": "投影屏幕"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见投影屏幕。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "教室或实验室环境",
+    "subjects": [
+      "投影屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见投影屏幕。",
+    "safe_facts": [
+      "画面中可见投影屏幕。"
+    ]
+  },
+  "label_id": "cpl_584f86d9262dd6ce2f4a5aca",
+  "provenance": {
+    "generated_at": "2026-08-03T16:00:00.441303+00:00",
+    "migrated_at": "2026-08-03T16:00:00.443745+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0ef33a38c9198906ca94559d446df6a9276aef854a8f7253c00ebd8d92c48fae",
+    "recovered_at_tokens": 768,
+    "source_label_id": "cpl_24dd795dab764db879301acd",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:00:00.444438+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:direct_observations",
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_768_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_24dd795dab764db879301acd"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "实验内容 1 - 拍3个整个面板图备用",
+      "1. 峰峰值和周期测量 - 课后按1:1在坐标纸上画出一个周期U~t图,并剪贴居",
+      "信号发生器",
+      "示波器",
+      "Frequency f (kHz)",
+      "幅度 Vpp (V)"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "实验内容 1 - 拍3个整个面板图备用",
+      "1. 峰峰值和周期测量 - 课后按1:1在坐标纸上画出一个周期U~t图,并剪贴居",
+      "信号发生器",
+      "示波器",
+      "Frequency f (kHz)",
+      "幅度 Vpp (V)"
+    ]
+  }
+}

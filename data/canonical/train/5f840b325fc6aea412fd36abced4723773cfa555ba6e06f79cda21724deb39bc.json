@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:797.jpg",
+    "relative_path": "train/797.jpg",
+    "sha256": "5f840b325fc6aea412fd36abced4723773cfa555ba6e06f79cda21724deb39bc",
+    "split": "train"
+  },
+  "canonical_sha256": "7692442b5d6e55e016b279aaaa7e16153437b930927939ca890fa3cab041389e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "动漫封面",
+      "战士",
+      "头盔",
+      "蓝色背景"
+    ],
+    "short_description": "蓝色背景下，一名戴头盔的战士侧身坐在岩石上，手持武器，画面下方有黄色大字标题。",
+    "theme": "动漫封面"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "封面中央是一名戴头盔的战士角色。",
+      "战士坐在岩石状物体上，背景为蓝色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色背景",
+      "岩石地形",
+      "手持武器"
+    ],
+    "relations": [],
+    "scene": "书籍封面",
+    "subjects": [
+      "戴头盔的战士"
+    ],
+    "visual_medium": "product_packaging"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "封面中央是一名戴头盔的战士角色；战士坐在岩石状物体上，背景为蓝色。",
+    "safe_facts": [
+      "封面中央是一名戴头盔的战士角色。",
+      "战士坐在岩石状物体上，背景为蓝色。"
+    ]
+  },
+  "label_id": "cpl_6c4b5c485f05dc51e84d7660",
+  "provenance": {
+    "generated_at": "2026-08-02T22:33:23.938791+00:00",
+    "migrated_at": "2026-08-03T07:13:41.951535+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "601323331b0f0536eb7ed415fc0d181072e39c2e727ca9e91c84737146c364f6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_200e124dcbc2c94d8a7ea1db",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:25:20.326014+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_200e124dcbc2c94d8a7ea1db",
+    "cpl_b3a5d22c21d3848a78089722"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "日本國寶級動畫大師宮崎駿的漫畫大作!全7卷",
+      "宮崎駿",
+      "風之谷",
+      "東販出版"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "日本國寶級動畫大師宮崎駿的漫畫大作!全7卷",
+      "宮崎駿",
+      "風之谷",
+      "東販出版"
+    ]
+  }
+}

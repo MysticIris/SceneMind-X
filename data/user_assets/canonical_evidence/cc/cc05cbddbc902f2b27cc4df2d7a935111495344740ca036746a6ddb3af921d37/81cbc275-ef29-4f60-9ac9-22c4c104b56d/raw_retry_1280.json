@@ -1,0 +1,145 @@
+{
+  "asset_id": "cc05cbddbc902f2b",
+  "asset_sha256": "cc05cbddbc902f2b27cc4df2d7a935111495344740ca036746a6ddb3af921d37",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"王者荣耀战绩列表\",\n    \"short_description\": \"这是一张手机游戏《王者荣耀》的战绩界面截图。深蓝色背景下垂直排列着多场5v5排位赛的对战记录，包含英雄头像、MVP标识、胜负结果、KDA数据及装备图标，左侧设有功能导航栏。\",\n    \"micro_tags\": [\n      \"游戏截图\",\n      \"战绩查询\",\n      \"MOBA\",\n      \"排位赛\",\n      \"UI界面\",\n      \"数据分析\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端游戏应用程序的用户界面\",\n    \"subjects\": [\n      \"战绩列表项\",\n      \"侧边导航菜单\",\n      \"顶部状态栏\",\n      \"英雄头像图标\",\n      \"装备道具图标\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"深蓝色科技风格背景\",\n      \"列表式布局\",\n      \"高亮显示的MVP标签\",\n      \"红蓝配色的胜负标识\",\n      \"圆形图标阵列\"\n    ],\n    \"relations\": [\n      \"每一行代表一场独立的对局记录\",\n      \"左侧菜单用于切换不同的功能页面\",\n      \"右侧箭头指示可进入详情页\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"界面左侧垂直排列着‘主页’、‘战绩’、‘英雄’等导航选项，其中‘战绩’处于高亮选中状态。\",\n      \"主区域展示了多行对战记录，每行包含左侧的英雄头像、中间的KDA数值（如7/5/17）以及右侧的一排圆形装备图标。\",\n      \"部分记录左上角标有橙色的‘MVP’字样，结果栏显示蓝色的‘胜利’或红色的‘失败’。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局和图标风格，这极有可能是腾讯游戏《王者荣耀》的结算或历史战绩页面。\",\n      \"列表中的数字序列（如6/1/11）通常代表击杀、死亡和助攻的游戏统计数据。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定截图的具体拍摄时间或玩家所在的服务器大区。\",\n      \"具体的段位等级（如王者、星耀）在截图中未直接完整显示。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"战绩\",\n      \"订阅战报\",\n      \"分享\",\n      \"对战\",\n      \"娱乐\",\n      \"主页\",\n      \"英雄\",\n      \"图鉴\",\n      \"荣誉\",\n      \"护卫队\",\n      \"游戏\",\n      \"社交\",\n      \"MVP\",\n      \"金牌中路\",\n      \"银牌中路\",\n      \"铜牌中路\",\n      \"胜利\",\n      \"失败\",\n      \"5v5排位\",\n      \"昨天 22:59\",\n      \"+200\",\n      \"-88\",\n      \"7 / 5 / 17\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张深色调的手机游戏界面截图，展示了垂直排列的多条对战历史记录。每条记录包含角色头像、统计数值、胜负状态标签以及一排圆形的道具图标，左侧设有功能导航菜单。\",\n    \"safe_facts\": [\n      \"图像为竖屏移动应用界面的截图\",\n      \"背景主要为深蓝色渐变\",\n      \"内容以列表形式呈现，包含重复的结构化信息块\",\n      \"每个信息块包含图形化的头像和物品图标\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 853,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 853,
+        "total_tokens": 4080,
+        "estimated_cost_cny": 0.013278,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "王者荣耀战绩列表",
+          "short_description": "这是一张手机游戏《王者荣耀》的战绩界面截图。深蓝色背景下垂直排列着多场5v5排位赛的对战记录，包含英雄头像、MVP标识、胜负结果、KDA数据及装备图标，左侧设有功能导航栏。",
+          "micro_tags": [
+            "游戏截图",
+            "战绩查询",
+            "MOBA",
+            "排位赛",
+            "UI界面",
+            "数据分析"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "移动端游戏应用程序的用户界面",
+          "subjects": [
+            "战绩列表项",
+            "侧边导航菜单",
+            "顶部状态栏",
+            "英雄头像图标",
+            "装备道具图标"
+          ],
+          "actions": [],
+          "attributes": [
+            "深蓝色科技风格背景",
+            "列表式布局",
+            "高亮显示的MVP标签",
+            "红蓝配色的胜负标识",
+            "圆形图标阵列"
+          ],
+          "relations": [
+            "每一行代表一场独立的对局记录",
+            "左侧菜单用于切换不同的功能页面",
+            "右侧箭头指示可进入详情页"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "界面左侧垂直排列着‘主页’、‘战绩’、‘英雄’等导航选项，其中‘战绩’处于高亮选中状态。",
+            "主区域展示了多行对战记录，每行包含左侧的英雄头像、中间的KDA数值（如7/5/17）以及右侧的一排圆形装备图标。",
+            "部分记录左上角标有橙色的‘MVP’字样，结果栏显示蓝色的‘胜利’或红色的‘失败’。"
+          ],
+          "cautious_inferences": [
+            "根据界面布局和图标风格，这极有可能是腾讯游戏《王者荣耀》的结算或历史战绩页面。",
+            "列表中的数字序列（如6/1/11）通常代表击杀、死亡和助攻的游戏统计数据。"
+          ],
+          "uncertainties": [
+            "无法确定截图的具体拍摄时间或玩家所在的服务器大区。",
+            "具体的段位等级（如王者、星耀）在截图中未直接完整显示。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "战绩",
+            "订阅战报",
+            "分享",
+            "对战",
+            "娱乐",
+            "主页",
+            "英雄",
+            "图鉴",
+            "荣誉",
+            "护卫队",
+            "游戏",
+            "社交",
+            "MVP",
+            "金牌中路",
+            "银牌中路",
+            "铜牌中路",
+            "胜利",
+            "失败",
+            "5v5排位",
+            "昨天 22:59",
+            "+200",
+            "-88",
+            "7 / 5 / 17"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张深色调的手机游戏界面截图，展示了垂直排列的多条对战历史记录。每条记录包含角色头像、统计数值、胜负状态标签以及一排圆形的道具图标，左侧设有功能导航菜单。",
+          "safe_facts": [
+            "图像为竖屏移动应用界面的截图",
+            "背景主要为深蓝色渐变",
+            "内容以列表形式呈现，包含重复的结构化信息块",
+            "每个信息块包含图形化的头像和物品图标"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 3967568,
+        "request_bytes": 2972604,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 16.342002000004868,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "b687574ff7b5369759ecfd83c70767b87f0e49b8f983281e6ecc8aecb5db65e6"
+}

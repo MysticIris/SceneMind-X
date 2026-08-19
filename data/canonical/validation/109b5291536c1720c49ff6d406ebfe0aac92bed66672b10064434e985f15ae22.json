@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2178.jpg",
+    "relative_path": "val/2178.jpg",
+    "sha256": "109b5291536c1720c49ff6d406ebfe0aac92bed66672b10064434e985f15ae22",
+    "split": "val"
+  },
+  "canonical_sha256": "ec976e6478c8dd25db5820fd3ad346b0182cbd50f7cafacc2d3fbcb4e1280d6c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "寺庙",
+      "石墙",
+      "金色铭文",
+      "绿树"
+    ],
+    "short_description": "一座中式寺庙前的黑色石墙，墙上刻有金色汉字，周围绿树环绕，地面铺着灰色地砖。",
+    "theme": "寺庙石墙铭文"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "石墙表面刻有金色汉字。",
+      "地面由灰色方形地砖铺设。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色石墙",
+      "金色汉字",
+      "灰色地砖",
+      "茂密绿叶"
+    ],
+    "relations": [
+      "石墙位于庭院中央。",
+      "树木环绕石墙。"
+    ],
+    "scene": "寺庙庭院",
+    "subjects": [
+      "石墙",
+      "树木",
+      "地面地砖"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "石墙表面刻有金色汉字；地面由灰色方形地砖铺设。",
+    "safe_facts": [
+      "石墙表面刻有金色汉字。",
+      "地面由灰色方形地砖铺设。"
+    ]
+  },
+  "label_id": "cpl_6531e48d548abf0466432eaa",
+  "provenance": {
+    "generated_at": "2026-08-03T16:10:17.350252+00:00",
+    "migrated_at": "2026-08-03T16:10:17.351934+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "026dab579d8ad760d2c2e2e6394362c274360fe0e37c4fd5ba70dc2ec8a615ce",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_089c77390a9fb5ee3d6ff2ef",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:10:17.352299+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_089c77390a9fb5ee3d6ff2ef"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "南無觀世音菩薩"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "南無觀世音菩薩"
+    ]
+  }
+}

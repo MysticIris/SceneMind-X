@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:318.jpg",
+    "relative_path": "train/318.jpg",
+    "sha256": "b2c9809c9515a366980d4fd8447b5ca5727598af57528424bda2ee430390d79f",
+    "split": "train"
+  },
+  "canonical_sha256": "087c3c5b462882470f3df62b078a3296ef9e57995b3cf3e5feabdac4e4ae9bc1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "灯光秀",
+      "水面倒影",
+      "高楼建筑"
+    ],
+    "short_description": "夜幕下城市天际线被彩色灯光投影装饰，水面倒映斑斓光影，岸边有人影驻足观赏。",
+    "theme": "城市夜景灯光秀"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多栋高层建筑外墙投射彩色动态灯光图案。",
+      "水面反射建筑灯光形成波纹状光影。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灯光投影",
+      "彩色光影",
+      "倒影"
+    ],
+    "relations": [
+      "高楼建筑位于水岸上方。",
+      "人群站在水岸边缘。"
+    ],
+    "scene": "城市沿江夜景",
+    "subjects": [
+      "高楼建筑群",
+      "岸边人群",
+      "水面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多栋高层建筑外墙投射彩色动态灯光图案；水面反射建筑灯光形成波纹状光影。",
+    "safe_facts": [
+      "多栋高层建筑外墙投射彩色动态灯光图案。",
+      "水面反射建筑灯光形成波纹状光影。"
+    ]
+  },
+  "label_id": "cpl_0352c63b3d75b076a45377f4",
+  "provenance": {
+    "generated_at": "2026-08-03T10:38:42.000595+00:00",
+    "migrated_at": "2026-08-03T10:38:42.002231+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f7f3ed7c662d30c8acea72df6297383fb8356a64231529fa4efeb019a296da11",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_00227150dc2fa65fb7d2bab4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:38:42.002537+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_00227150dc2fa65fb7d2bab4"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

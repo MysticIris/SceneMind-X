@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:547.jpg",
+    "relative_path": "train/547.jpg",
+    "sha256": "040c03edd6938369ca5b440924179a6c0506f84f2ff4add49cee5d6376cd9940",
+    "split": "train"
+  },
+  "canonical_sha256": "f83be716c0806eac532aadb2e61c7c7f0d03b86527c6e0a12c6d1ff0ba7e6567",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "灯光装置",
+      "湖面",
+      "观众"
+    ],
+    "short_description": "夜晚湖面漂浮着粉色莲花灯饰，岸边树木被蓝光照射，观众在前景观看并拍照。",
+    "theme": "夜景灯光秀"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有三名观众背对镜头，其中一人手持手机。",
+      "湖面上漂浮着大型粉色莲花造型灯饰及多组小彩灯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色灯光",
+      "粉色灯光",
+      "水面倒影",
+      "观众手持手机"
+    ],
+    "relations": [
+      "观众位于前景。",
+      "莲花灯饰漂浮于水面。",
+      "树木位于画面左侧。"
+    ],
+    "scene": "夜间户外水边景观",
+    "subjects": [
+      "观众",
+      "莲花灯饰",
+      "树木",
+      "水面",
+      "建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有三名观众背对镜头，其中一人手持手机；湖面上漂浮着大型粉色莲花造型灯饰及多组小彩灯。",
+    "safe_facts": [
+      "画面中有三名观众背对镜头，其中一人手持手机。",
+      "湖面上漂浮着大型粉色莲花造型灯饰及多组小彩灯。"
+    ]
+  },
+  "label_id": "cpl_69cf23223ccfa98c2979ff0b",
+  "provenance": {
+    "generated_at": "2026-08-03T11:30:13.679849+00:00",
+    "migrated_at": "2026-08-03T11:30:13.682035+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "28efe596123564fa36adec1135516774eb7058f56c243f29bb96153b9aff9895",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_585e7358c57b407f8d438419",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:30:13.682298+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_585e7358c57b407f8d438419"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

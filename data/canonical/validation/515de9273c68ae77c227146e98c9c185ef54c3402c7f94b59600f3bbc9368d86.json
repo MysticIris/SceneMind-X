@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2278.jpg",
+    "relative_path": "val/2278.jpg",
+    "sha256": "515de9273c68ae77c227146e98c9c185ef54c3402c7f94b59600f3bbc9368d86",
+    "split": "val"
+  },
+  "canonical_sha256": "1e94e510efff1dab6e6ad592a1febb0b13640bf7a5cce0a373f1af920051a77e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "篮球场",
+      "黄昏",
+      "校园",
+      "天空云彩"
+    ],
+    "short_description": "傍晚时分，校园篮球场上有人打球，天空云层呈现橙紫渐变，建筑与树木构成背景。",
+    "theme": "校园黄昏篮球场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多个篮球架和地面标线。",
+      "天空呈现橙色与紫色云层。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "打球",
+      "站立"
+    ],
+    "attributes": [
+      "天空有云",
+      "地面有标线",
+      "建筑多层",
+      "树木茂密"
+    ],
+    "relations": [
+      "人位于篮球场上。",
+      "篮球架固定于地面。",
+      "建筑物在画面右侧。"
+    ],
+    "scene": "室外篮球场",
+    "subjects": [
+      "人",
+      "篮球架",
+      "建筑物",
+      "树木",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个篮球架和地面标线；天空呈现橙色与紫色云层。",
+    "safe_facts": [
+      "画面中有多个篮球架和地面标线。",
+      "天空呈现橙色与紫色云层。"
+    ]
+  },
+  "label_id": "cpl_3792773144436bef0b43bf95",
+  "provenance": {
+    "generated_at": "2026-08-03T16:23:51.178318+00:00",
+    "migrated_at": "2026-08-03T16:23:51.180092+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c22d244fd775a5d4e6f8b795b310d014fd0d18b05368df6095589f9635d99b9b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c407f4781cb239a850394ea2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:23:51.180298+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c407f4781cb239a850394ea2"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

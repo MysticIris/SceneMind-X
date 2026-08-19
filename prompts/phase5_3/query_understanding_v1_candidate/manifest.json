@@ -1,0 +1,77 @@
+{
+  "schema_version": "phase5_3_query_understanding_prompt_manifest_v1",
+  "candidate_id": "QUERY_UNDERSTANDING_QWEN3_VL_4B_V1_CANDIDATE",
+  "release_id": "RETRIEVAL_R2_QUERY_UNDERSTANDING",
+  "status": "experimental_inactive_held",
+  "iteration": 2,
+  "maximum_iterations": 2,
+  "production_enabled": false,
+  "default_route": false,
+  "model": "Qwen/Qwen3-VL-4B-Instruct",
+  "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+  "prompt_file": "query_understanding_v1.txt",
+  "prompt_sha256": "2f6f82a17d4c9ade0fe6cc6addaafda5741c5915c139de261bbfefd7336889f2",
+  "schema": "data/schemas/phase5_3_query_understanding_v1.schema.json",
+  "schema_sha256": "ebd12d9c4de8753feea5bb1cdc781fb0bbc4210c191d7ca9ba7552ab77e2ea35",
+  "evaluation_extension": "data/benchmark/phase5_3_query_understanding_extension_v1.jsonl",
+  "evaluation_extension_sha256": "74fcd1fd3f67418ed5082d74d94cca9947d08dda74ef1ea3ca35c29611740c48",
+  "generation_settings": {
+    "do_sample": false,
+    "max_new_tokens": 512,
+    "repetition_penalty": 1.05,
+    "no_repeat_ngram_size": 0
+  },
+  "iteration_2_change": {
+    "classification": "bounded generation-setting engineering fix",
+    "prompt_bytes_changed": false,
+    "reason": "Iteration 1 produced 31/32 invalid JSON objects with typographic quote/key corruption and one empty semantic_query while no_repeat_ngram_size=6 was active.",
+    "change": "Disable the Query Understanding-only n-gram repeat ban; keep deterministic decoding, repetition_penalty, Prompt, Schema, parser, data and Gate unchanged.",
+    "previous_failed_run": "artifacts/phase5_3_private/stage2/run_20260731_113200_r2",
+    "further_iterations_allowed": false
+  },
+  "final_decision": {
+    "decision": "B. HOLD R2 QUERY UNDERSTANDING; CONTINUE STAGE 3 WITHOUT ROUTING R2",
+    "completed_run": "phase5_3_query_understanding/run_20260731_115318_r2_iteration2",
+    "contract_success_rate": 1.0,
+    "numeric_gate_passed": false,
+    "failed_checks": [
+      "extension_ndcg_at_5_delta_vs_r1_min",
+      "query_understanding_latency_p95_ms_max"
+    ],
+    "human_review": "intent mostly faithful but structured-slot coverage is inconsistent; one of eight explicit-negative queries omitted negative_constraints",
+    "production_promotion_allowed": false,
+    "stage3_dependency": "Stage 3 must use the original query and may not route through this held candidate."
+  },
+  "input_contract": "one original text query, JSON-escaped into a fixed template",
+  "output_contract": "one strict JSON object with no asset identity",
+  "fixed_baselines": [
+    "SCENEMINDX_PROMPT_SUITE_V1",
+    "P3 v1.4",
+    "RETRIEVAL_R0_COLOR_GRID_BASELINE",
+    "RETRIEVAL_E1_QWEN3_VL_EMBEDDING_2B_FAISS"
+  ],
+  "allowed_scope": [
+    "query-understanding prompt candidate",
+    "strict parser and schema",
+    "query-vector ablations",
+    "Train-only development regression"
+  ],
+  "forbidden_scope": [
+    "production Prompt modification",
+    "asset selection by the language model",
+    "Val/Test/Blind",
+    "full Train-2000",
+    "training or QLoRA",
+    "poetry-specific rules"
+  ],
+  "preflight": {
+    "route_prompt_engineering_chapter_read": true,
+    "prompt_governance_read": true,
+    "prompt_registry_read": true,
+    "evaluation_manifest_read": true,
+    "frozen_baseline_results_read": true,
+    "development_set": "fixed viewed Train-only retrieval benchmark plus eight viewed Stage-2 paraphrase cases",
+    "blind_set": "none in this stage; no blind claim",
+    "val_test_blind_touched": false
+  }
+}

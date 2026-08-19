@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:695.jpg",
+    "relative_path": "train/695.jpg",
+    "sha256": "c075d329e1dfc18fd718a2504b155d8663c73851907897bc8162f670acf6457b",
+    "split": "train"
+  },
+  "canonical_sha256": "abc0c571e80964aff503fa51aded374838671e6aab4684979454f3e962f668a1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "灰白猫",
+      "被抚摸",
+      "低头",
+      "室内"
+    ],
+    "short_description": "一只灰白相间的猫正被一只手轻抚头部，它低着头，表情平静，背景是木质家具和瓷砖地面。",
+    "theme": "猫咪被抚摸"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "猫可能正在享受抚摸，因为其姿态放松。"
+    ],
+    "direct_observations": [
+      "猫的身体呈灰白相间，腹部和四肢为白色。",
+      "一只手从上方伸向猫的背部和颈部区域。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "抚摸"
+    ],
+    "attributes": [
+      "灰白毛色",
+      "低头",
+      "毛茸茸"
+    ],
+    "relations": [
+      "手在抚摸猫的头部。"
+    ],
+    "scene": "室内环境",
+    "subjects": [
+      "一只猫",
+      "一只手"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "猫可能正在享受抚摸，因为其姿态放松。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "猫的身体呈灰白相间，腹部和四肢为白色；一只手从上方伸向猫的背部和颈部区域。",
+    "safe_facts": [
+      "猫的身体呈灰白相间，腹部和四肢为白色。",
+      "一只手从上方伸向猫的背部和颈部区域。"
+    ]
+  },
+  "label_id": "cpl_af3054cad822679b24863988",
+  "provenance": {
+    "generated_at": "2026-08-03T12:02:41.807528+00:00",
+    "migrated_at": "2026-08-03T12:02:41.810321+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3a7067548c95fd92d651340eab5dca1be02c91a0abb4ec03e1d819832102eafb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_225b7379c918860e68cb3ed7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:02:41.810677+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_225b7379c918860e68cb3ed7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

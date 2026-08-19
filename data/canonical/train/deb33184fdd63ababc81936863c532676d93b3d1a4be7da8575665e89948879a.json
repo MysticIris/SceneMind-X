@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1089.jpg",
+    "relative_path": "train/1089.jpg",
+    "sha256": "deb33184fdd63ababc81936863c532676d93b3d1a4be7da8575665e89948879a",
+    "split": "train"
+  },
+  "canonical_sha256": "dc2b6260f3552082a8de5b4317b6c89260b0d626377297f624dddc9893c25f06",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "山峦",
+      "晴空",
+      "阳光",
+      "剪影",
+      "自然风光"
+    ],
+    "short_description": "阳光穿透云层，照亮深蓝天空，远处山脉呈黑色剪影，前景植被浓密，画面充满自然宁静感。",
+    "theme": "山峦剪影与晴空"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "阳光从左上角照射，产生光晕和镜头眩光效果。"
+    ],
+    "direct_observations": [
+      "天空呈现深蓝色，有少量云朵。",
+      "山脉轮廓呈黑色剪影，前方有茂密植被。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晴朗",
+      "深蓝色",
+      "剪影",
+      "阳光照射"
+    ],
+    "relations": [
+      "山脉位于前景植被后方。",
+      "云朵漂浮于天空中。"
+    ],
+    "scene": "户外山地景观",
+    "subjects": [
+      "山脉",
+      "天空",
+      "云朵",
+      "植被"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "阳光从左上角照射，产生光晕和镜头眩光效果。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现深蓝色，有少量云朵；山脉轮廓呈黑色剪影，前方有茂密植被。",
+    "safe_facts": [
+      "天空呈现深蓝色，有少量云朵。",
+      "山脉轮廓呈黑色剪影，前方有茂密植被。"
+    ]
+  },
+  "label_id": "cpl_ede04b14ed744029559f8434",
+  "provenance": {
+    "generated_at": "2026-08-03T13:35:47.757504+00:00",
+    "migrated_at": "2026-08-03T13:35:47.764278+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "218c4b3d527f10f9867148fba37cc1643ef0ff0c2ca6496f782f57fe3c33b488",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_332070f3cd0b0e4c1d0c1646",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:35:47.765159+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_332070f3cd0b0e4c1d0c1646"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

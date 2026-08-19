@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2174.jpg",
+    "relative_path": "val/2174.jpg",
+    "sha256": "06508b9cfc486ecc86c3d4aa04538f3d1f19d781d61280451c8f2f9f95863e9b",
+    "split": "val"
+  },
+  "canonical_sha256": "13c04c4432f8fe564ae3c23a1511afd9e577dc323b0c4b6a59e4a4951592f3ab",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "灯光装饰",
+      "人群聚集"
+    ],
+    "short_description": "夜晚户外活动现场，树木被彩色灯光照亮，人群聚集在蓝色帐篷下，右侧有白色展板。",
+    "theme": "夜景灯光树影"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "树木枝叶间有橙色和紫色灯光照射。",
+      "画面中有多个蓝色帐篷和聚集的人群。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灯光照明",
+      "彩色光效",
+      "蓝色帐篷",
+      "白色展板"
+    ],
+    "relations": [
+      "人群位于帐篷前方。",
+      "树木被灯光照射。",
+      "展板位于画面右侧。"
+    ],
+    "scene": "户外夜间活动",
+    "subjects": [
+      "人群",
+      "树木",
+      "蓝色帐篷",
+      "白色展板"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "树木枝叶间有橙色和紫色灯光照射；画面中有多个蓝色帐篷和聚集的人群。",
+    "safe_facts": [
+      "树木枝叶间有橙色和紫色灯光照射。",
+      "画面中有多个蓝色帐篷和聚集的人群。"
+    ]
+  },
+  "label_id": "cpl_44a2d6b04d5516ce8196408a",
+  "provenance": {
+    "generated_at": "2026-08-03T16:09:47.975234+00:00",
+    "migrated_at": "2026-08-03T16:09:47.976872+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ad80c4a851db509bfcf8f4e51c2c51f9c39317a184b264bd5feb57022e058caf",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_20e5b096ca88df349ced0c25",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:09:47.977097+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_20e5b096ca88df349ced0c25"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

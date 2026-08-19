@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1367.jpg",
+    "relative_path": "train/1367.jpg",
+    "sha256": "3e14509a8d101ec32ad1ac146c1da9cdd73228cf2f974199ad2059c3d6ae9443",
+    "split": "train"
+  },
+  "canonical_sha256": "1e7392c10e806501b91072ae84d108d8f3142d2939bd43257c71919ecb748d52",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄昏",
+      "湖水",
+      "树木",
+      "灯光倒影"
+    ],
+    "short_description": "黄昏时分湖边树木剪影，远处灯光倒映水面，草地呈暖黄色调。",
+    "theme": "黄昏湖畔树影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "树木枝叶部分呈现秋季色彩，可能为枫树或橡树。"
+    ],
+    "direct_observations": [
+      "天空呈现蓝紫色渐变，显示黄昏时段。",
+      "湖面有连续的点状光源倒影，光源来自对岸。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黄昏天色",
+      "树干涂白",
+      "水面反光",
+      "草地呈黄褐色"
+    ],
+    "relations": [
+      "树木位于前景草地之上。",
+      "湖面位于树木后方。",
+      "灯光反射于湖面。"
+    ],
+    "scene": "湖岸公园或自然景观",
+    "subjects": [
+      "树木",
+      "湖面",
+      "草地"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "树木枝叶部分呈现秋季色彩，可能为枫树或橡树。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现蓝紫色渐变，显示黄昏时段；湖面有连续的点状光源倒影，光源来自对岸。",
+    "safe_facts": [
+      "天空呈现蓝紫色渐变，显示黄昏时段。",
+      "湖面有连续的点状光源倒影，光源来自对岸。"
+    ]
+  },
+  "label_id": "cpl_894d510231ad31c7a3f1f52f",
+  "provenance": {
+    "generated_at": "2026-08-03T14:13:29.463203+00:00",
+    "migrated_at": "2026-08-03T14:13:29.466917+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "73f423a68f8988045b376ae064a963611d2b2e7177f7f619500dad5f5d8b4fbc",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b1fbaf5bc17fc2f606caad1f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:13:29.467388+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b1fbaf5bc17fc2f606caad1f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

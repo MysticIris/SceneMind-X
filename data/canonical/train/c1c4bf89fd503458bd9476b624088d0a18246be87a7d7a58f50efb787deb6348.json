@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:142.jpg",
+    "relative_path": "train/142.jpg",
+    "sha256": "c1c4bf89fd503458bd9476b624088d0a18246be87a7d7a58f50efb787deb6348",
+    "split": "train"
+  },
+  "canonical_sha256": "63fd03d34f7c3a35774eaa201972415d3cd0a7a2bdd8dd3e04c7dcf9a6431686",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "白板",
+      "擦除",
+      "户外",
+      "运动服"
+    ],
+    "short_description": "一名身穿白色运动服的人正在户外白板上擦除成绩公告，背景有铁丝网和树木。",
+    "theme": "成绩公告板"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "白板上有手写的汉字和数字。",
+      "人员手持蓝色橡皮擦和笔。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "擦拭白板"
+    ],
+    "attributes": [
+      "白色运动服",
+      "灰色帽子",
+      "蓝色笔"
+    ],
+    "relations": [
+      "人员在白板前操作。"
+    ],
+    "scene": "户外场地",
+    "subjects": [
+      "一名人员"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "白板上有手写的汉字和数字；人员手持蓝色橡皮擦和笔。",
+    "safe_facts": [
+      "白板上有手写的汉字和数字。",
+      "人员手持蓝色橡皮擦和笔。"
+    ]
+  },
+  "label_id": "cpl_7798c75a43bd11bd424fddef",
+  "provenance": {
+    "generated_at": "2026-08-03T09:36:34.193673+00:00",
+    "migrated_at": "2026-08-03T09:36:34.195762+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4db541cf1ecee974e58080c86f1b237de10779262d97a5936beca8edac9b4779",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a946f6e7d19c900dfcb984a8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:41.409166+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a946f6e7d19c900dfcb984a8",
+    "cpl_12d0f9161fbce01f57c8d292"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

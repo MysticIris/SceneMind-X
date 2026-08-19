@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:687.jpg",
+    "relative_path": "train/687.jpg",
+    "sha256": "ba3040de73c29fff90846c4130f68927d957b5e6b20151090534182bfa90bee5",
+    "split": "train"
+  },
+  "canonical_sha256": "9aa35178ba4cb8cc6a11e9fd21966f2d6fc4a431dd36281fe01a0484183b99c3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式木结构",
+      "节日装饰",
+      "室内绿植"
+    ],
+    "short_description": "中式木质格栅窗棂与悬挂节日装饰物，前景绿植遮挡部分视角，室内有蒸汽弥漫。",
+    "theme": "中式装饰餐厅内景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能正在使用热食或蒸汽设备。"
+    ],
+    "direct_observations": [
+      "可见中式风格的木质窗格和屋檐结构。",
+      "前景有大量绿色植物叶片。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质结构",
+      "绿色叶片",
+      "暖色灯光",
+      "蒸汽弥漫"
+    ],
+    "relations": [
+      "装饰物悬挂在天花板下。",
+      "绿植位于前景。"
+    ],
+    "scene": "室内餐厅环境",
+    "subjects": [
+      "木质窗格",
+      "悬挂装饰物",
+      "绿植",
+      "蒸汽"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能正在使用热食或蒸汽设备。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "可见中式风格的木质窗格和屋檐结构；前景有大量绿色植物叶片。",
+    "safe_facts": [
+      "可见中式风格的木质窗格和屋檐结构。",
+      "前景有大量绿色植物叶片。"
+    ]
+  },
+  "label_id": "cpl_70e60f7c6d2d6a4e62eb7e0a",
+  "provenance": {
+    "generated_at": "2026-08-03T12:00:26.457286+00:00",
+    "migrated_at": "2026-08-03T12:00:26.461053+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "529105520797905f31e250ffcc490005cc8c3134ce5ac3414b1c66d4c5151f98",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_87a232b81406553602a0a6d6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:00:26.461394+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_87a232b81406553602a0a6d6"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

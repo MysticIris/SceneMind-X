@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2247.jpg",
+    "relative_path": "val/2247.jpg",
+    "sha256": "e96f2f1ba22535db24aa817dfc91c5141fa7a8722e330529a592d181af49828c",
+    "split": "val"
+  },
+  "canonical_sha256": "b76aeb1ca0836d6b88e2146ac3a794169530449ee853aa5d2882e740b35b3d2d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "圣诞树",
+      "装饰品",
+      "人造植物",
+      "节日气氛"
+    ],
+    "short_description": "一棵小型人造圣诞树，装饰着彩灯、礼物盒和金色星星，置于户外瓷砖地面上，旁边有花盆和干草堆。",
+    "theme": "圣诞树装饰"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "圣诞树上挂有多个彩色礼品盒装饰物。",
+      "树顶有一个金色五角星装饰物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色针叶",
+      "彩色小灯",
+      "金色五角星顶饰",
+      "多色礼品盒装饰",
+      "陶土花盆",
+      "釉面陶瓷花盆"
+    ],
+    "relations": [
+      "圣诞树位于花盆之间。",
+      "圣诞树靠近金属栏杆。",
+      "干草堆在圣诞树右侧。"
+    ],
+    "scene": "室外庭院或阳台",
+    "subjects": [
+      "圣诞树",
+      "花盆",
+      "干草堆",
+      "金属栏杆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "圣诞树上挂有多个彩色礼品盒装饰物；树顶有一个金色五角星装饰物。",
+    "safe_facts": [
+      "圣诞树上挂有多个彩色礼品盒装饰物。",
+      "树顶有一个金色五角星装饰物。"
+    ]
+  },
+  "label_id": "cpl_97e66df34da333b71959b7d7",
+  "provenance": {
+    "generated_at": "2026-08-03T16:17:45.108976+00:00",
+    "migrated_at": "2026-08-03T16:17:45.110982+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "754e9b02e5a2aeda80067bd294a0097729b762abcd019c4792b80aefe48c85fb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2b0424dce928c1e790dbe15c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:17:45.111363+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2b0424dce928c1e790dbe15c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

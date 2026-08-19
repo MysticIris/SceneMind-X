@@ -1,0 +1,66 @@
+{
+  "asset_id": "2c1e701f1b445a5a",
+  "asset_sha256": "2c1e701f1b445a5a1f3f97f1186c8064fe8964f2ab87561d27d950d0849c2eb5",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"学院楼入口与自动售货设施\",\n    \"short_description\": \"图片展示了一栋现代建筑的主入口，上方悬挂着带有中英文校名的蓝色标识牌。门口左侧设有一个带蓝色遮阳棚的小型服务点，右侧并排摆放着红色饮料机和白色零食自动售货机。台阶前放置有橙色交通锥，地面铺设地砖，整体环境整洁安静。\",\n    \"micro_tags\": [\n      \"学院建筑\",\n      \"自动售货机\",\n      \"玻璃雨棚\",\n      \"入口台阶\",\n      \"校园设施\",\n      \"交通锥\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"建筑物外部入口区域\",\n    \"subjects\": [\n      \"建筑立面\",\n      \"玻璃雨棚\",\n      \"蓝色标识牌\",\n      \"小型服务亭\",\n      \"红色自动售货机\",\n      \"白色自动售货机\",\n      \"台阶\",\n      \"交通锥\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"现代风格\",\n      \"玻璃幕墙\",\n      \"混凝土墙面\",\n      \"金属支架\",\n      \"户外\",\n      \"白天\"\n    ],\n    \"relations\": [\n      \"标识牌位于入口上方\",\n      \"售货机位于入口右侧\",\n      \"服务亭位于入口左侧\",\n      \"交通锥位于台阶前方地面\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"建筑入口上方有大型蓝色立体字招牌，包含中文和英文文本。\",\n      \"入口右侧并排立着一台红色机器和一台白色机器，内部陈列有瓶装饮料和包装食品。\",\n      \"入口左侧有一个蓝色的小亭子，上方延伸出蓝白条纹的遮阳篷。\",\n      \"前景的砖铺地面上放置着两个橙白相间的圆锥形路障。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据建筑风格和设施配置，该地点可能是一所大学或科研机构的学院楼入口。\",\n      \"红色和白色机器看起来是提供自助购买服务的自动售货设备。\"\n    ],\n    \"uncertainties\": [\n      \"无法确认招牌上具体文字内容的准确含义（虽可见字形但未做OCR核验）。\",\n      \"不确定小亭子当前的营业状态。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"生命科学与技术学院\",\n      \"COLLEGE OF LIFE SCIENCE AND TECHNOLOGY\",\n      \"Life Nook\",\n      \"COFFEE\",\n      \"农夫山泉\",\n      \"A Nook for Life, A Break for Science\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一栋带有玻璃雨棚和蓝色招牌的现代建筑入口处，两侧分别设有小型服务亭和两台自动售货机，台阶前的地面上放有橙色交通锥。\",\n    \"safe_facts\": [\n      \"画面主体为一栋建筑的底层入口\",\n      \"入口上方有突出的玻璃结构雨棚\",\n      \"右侧摆放有两台立式自动售卖设备\",\n      \"左侧有一个带遮阳篷的小型构筑物\",\n      \"地面为铺装路面并设有台阶\",\n      \"前景可见橙白色的安全警示锥\"\n   ",
+      "input_tokens": 3205,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 768,
+        "total_tokens": 3973,
+        "estimated_cost_cny": 0.012554,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "学院楼入口与自动售货设施",
+        "short_description": "图片展示了一栋现代建筑的主入口，上方悬挂着带有中英文校名的蓝色标识牌。门口左侧设有一个带蓝色遮阳棚的小型服务点，右侧并排摆放着红色饮料机和白色零食自动售货机。台阶前放置有橙色交通锥，地面铺设地砖，整体环境整洁安静。",
+        "micro_tags": [
+          "学院建筑",
+          "自动售货机",
+          "玻璃雨棚",
+          "入口台阶",
+          "校园设施",
+          "交通锥"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 5653740,
+        "request_bytes": 4237231,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.146919400001934,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "b5a0cf6fb44c937a6d89bb51957d424c15d17b0bddfd5477ef23d512463b6ad0"
+}

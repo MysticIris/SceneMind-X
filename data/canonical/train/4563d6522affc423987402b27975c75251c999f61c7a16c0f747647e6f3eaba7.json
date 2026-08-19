@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1622.jpg",
+    "relative_path": "train/1622.jpg",
+    "sha256": "4563d6522affc423987402b27975c75251c999f61c7a16c0f747647e6f3eaba7",
+    "split": "train"
+  },
+  "canonical_sha256": "9814035c9c6f8ca2365a20cafec04c3bfe11b82d9002217442edeec0c4dba3fb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雕像",
+      "草坪",
+      "墙面",
+      "树木"
+    ],
+    "short_description": "图像显示人物雕像站立在石基座上；雕像右侧有绿色植物。",
+    "theme": "保守"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像显示人物雕像站立在石基座上。",
+      "雕像右侧有绿色植物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "",
+    "subjects": [],
+    "visual_medium": "uncertain"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像显示人物雕像站立在石基座上；雕像右侧有绿色植物。",
+    "safe_facts": [
+      "图像显示人物雕像站立在石基座上。",
+      "雕像右侧有绿色植物。"
+    ]
+  },
+  "label_id": "cpl_794302b4126aaba559997411",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/train/train_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "170dc34eb8269f1babe6835cdb58f23286285057aea88fcd9025beb9e0166c19",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T15:36:56.878633+00:00",
+    "migrated_at": "2026-08-03T15:36:56.880138+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "a1b9e02b68561075c20a39e92cf25e495d05a8017f7ff3050b6f68f5012a9bfb",
+    "raw_output_sha256": "1d5b8b721b3bfc87f77b45ab0e060600fc49d00d510b27df47897b39edd8724f",
+    "recovered_at_tokens": 384,
+    "source_label_id": "cpl_543c6b4c2c67dc98d822be0a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:36:56.880323+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_short_description_length",
+      "legacy_contract_subjects_empty",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_with_minimal_contract",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "精简恢复标签保守描述人物雕像与碑墙，未见越界推断。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_543c6b4c2c67dc98d822be0a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

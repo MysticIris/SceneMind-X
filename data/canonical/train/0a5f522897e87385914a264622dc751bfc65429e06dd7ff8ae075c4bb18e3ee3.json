@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:186.jpg",
+    "relative_path": "train/186.jpg",
+    "sha256": "0a5f522897e87385914a264622dc751bfc65429e06dd7ff8ae075c4bb18e3ee3",
+    "split": "train"
+  },
+  "canonical_sha256": "a41f2bf6ed360d6432fa12bafb884950937651878432006c0730728d2c4c3fba",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄昏",
+      "云彩",
+      "住宅区"
+    ],
+    "short_description": "黄昏时分，天空被橙黄色云彩染色，街道旁有房屋、树木和车辆，电线横跨画面。",
+    "theme": "黄昏街景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天空呈现大面积橙黄色云层。",
+      "建筑物外墙为深灰色，有白色排水管。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空呈橙黄色",
+      "房屋为多层建筑",
+      "树木枝叶茂密"
+    ],
+    "relations": [
+      "房屋位于街道右侧。",
+      "树木位于房屋左侧。",
+      "电线横跨天空。"
+    ],
+    "scene": "街道旁的住宅区",
+    "subjects": [
+      "房屋",
+      "树木",
+      "车辆",
+      "电线"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现大面积橙黄色云层；建筑物外墙为深灰色，有白色排水管。",
+    "safe_facts": [
+      "天空呈现大面积橙黄色云层。",
+      "建筑物外墙为深灰色，有白色排水管。"
+    ]
+  },
+  "label_id": "cpl_9c3aa1fe9907f836ce2618ce",
+  "provenance": {
+    "generated_at": "2026-08-03T10:12:25.734192+00:00",
+    "migrated_at": "2026-08-03T10:12:25.735982+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "98fca6f175d070fb341ce5c48084030066dd6a15136c1c266b84289ded645fbf",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_dda4b404b5399b58048bb317",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:12:25.736178+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_dda4b404b5399b58048bb317"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:330.jpg",
+    "relative_path": "train/330.jpg",
+    "sha256": "638104aa44befd2dae3caaa18c5f449ac3c5ac8485eb7694d9d5cd493045c8ff",
+    "split": "train"
+  },
+  "canonical_sha256": "d944882edb61556fcd3568d2ab1948baa7869a5e82ef00febb254aad2d73499b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "日落",
+      "卫城",
+      "城市全景",
+      "海景"
+    ],
+    "short_description": "夕阳余晖下，雅典卫城在城市与海景间熠熠生辉，建筑群被暖光勾勒，远处山峦与船只静谧相望。",
+    "theme": "日落古城景观"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该场景可能发生在傍晚时分，因光线和照明特征符合日落后初期。"
+    ],
+    "direct_observations": [
+      "天空呈现橙红色渐变，云层稀薄。",
+      "卫城建筑群被人工灯光照亮，呈金黄色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夕阳染天",
+      "建筑被灯光照亮",
+      "城市密集分布",
+      "海面平静"
+    ],
+    "relations": [
+      "卫城位于城市高地。",
+      "卫城俯瞰海港。",
+      "城市延伸至海岸线。"
+    ],
+    "scene": "城市与海港的日落景观",
+    "subjects": [
+      "雅典卫城",
+      "城市建筑群",
+      "远山",
+      "海面",
+      "船只"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该场景可能发生在傍晚时分，因光线和照明特征符合日落后初期。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现橙红色渐变，云层稀薄；卫城建筑群被人工灯光照亮，呈金黄色。",
+    "safe_facts": [
+      "天空呈现橙红色渐变，云层稀薄。",
+      "卫城建筑群被人工灯光照亮，呈金黄色。"
+    ]
+  },
+  "label_id": "cpl_783e4f8a921a7be2bc0688e6",
+  "provenance": {
+    "generated_at": "2026-08-03T10:40:59.956277+00:00",
+    "migrated_at": "2026-08-03T10:40:59.958695+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "766bc118f5812bad697bec703d8341486b88349fbbf9771db32d5220009e81cd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fc8149c7942fcdf53a2fd513",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:40:59.958976+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fc8149c7942fcdf53a2fd513"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

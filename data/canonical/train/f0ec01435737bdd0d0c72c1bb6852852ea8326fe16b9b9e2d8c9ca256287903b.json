@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:119.jpg",
+    "relative_path": "train/119.jpg",
+    "sha256": "f0ec01435737bdd0d0c72c1bb6852852ea8326fe16b9b9e2d8c9ca256287903b",
+    "split": "train"
+  },
+  "canonical_sha256": "63e020e765791f7e907a7862e9e0951f5ef1105f5112fa006c41ef92ba3185ea",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "毛绒玩具",
+      "挂件",
+      "猫形角色"
+    ],
+    "short_description": "一只戴心形眼罩的紫色毛绒猫挂件挂在白色透明包上，背景有电脑屏幕一角。",
+    "theme": "紫色猫形挂件"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "挂件为毛绒材质，呈猫形，头部有紫色毛发和心形眼罩。",
+      "挂件通过金属链条悬挂于白色透明背包上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "紫色耳朵",
+      "心形眼罩",
+      "黑色领结",
+      "白色身体"
+    ],
+    "relations": [
+      "挂件挂在背包上。"
+    ],
+    "scene": "室内桌面",
+    "subjects": [
+      "毛绒挂件",
+      "透明背包",
+      "电脑屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "挂件为毛绒材质，呈猫形，头部有紫色毛发和心形眼罩；挂件通过金属链条悬挂于白色透明背包上。",
+    "safe_facts": [
+      "挂件为毛绒材质，呈猫形，头部有紫色毛发和心形眼罩。",
+      "挂件通过金属链条悬挂于白色透明背包上。"
+    ]
+  },
+  "label_id": "cpl_1f1ebf03a113ad4fc09980e9",
+  "provenance": {
+    "generated_at": "2026-08-03T09:32:04.862084+00:00",
+    "migrated_at": "2026-08-03T09:32:04.864268+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9f9accc0e8b435f939db0a0079807887b38059766cd5781b6a5e76a46c5c73f7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_383b2d1bd2197652582ccb0d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:30.408896+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_383b2d1bd2197652582ccb0d",
+    "cpl_9668370d081990fdb460ee5d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

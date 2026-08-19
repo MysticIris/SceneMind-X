@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:967.jpg",
+    "relative_path": "train/967.jpg",
+    "sha256": "67f53701f49a40c53765d54139f7a28f6cd8de501091b9a8b7ae739d58db37f4",
+    "split": "train"
+  },
+  "canonical_sha256": "fb0b3982acd5ff364e7c8682ca3e2ab9b0ff17cc8b55c5171d9c3a2b9822b4d1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "山地",
+      "小径",
+      "荒野",
+      "远山",
+      "云朵"
+    ],
+    "short_description": "一条蜿蜒小径穿过荒芜山地，远处山峰连绵，天空云朵飘浮，地貌呈现灰褐与土黄色调。",
+    "theme": "山地旷野"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "地面植被可能处于秋季或冬季状态，颜色偏枯黄。"
+    ],
+    "direct_observations": [
+      "画面中可见一条由车辙或足迹形成的浅色小径从前景延伸至中景。",
+      "远景为连绵起伏的灰色山体，部分山顶覆盖薄雪或积雪痕迹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灰褐色地貌",
+      "部分植被枯黄",
+      "天空有云"
+    ],
+    "relations": [
+      "小径位于前景并延伸向远方山丘。",
+      "山脉位于背景。"
+    ],
+    "scene": "开阔山地景观",
+    "subjects": [
+      "山脉",
+      "地面植被",
+      "小径"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "地面植被可能处于秋季或冬季状态，颜色偏枯黄。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见一条由车辙或足迹形成的浅色小径从前景延伸至中景；远景为连绵起伏的灰色山体，部分山顶覆盖薄雪或积雪痕迹。",
+    "safe_facts": [
+      "画面中可见一条由车辙或足迹形成的浅色小径从前景延伸至中景。",
+      "远景为连绵起伏的灰色山体，部分山顶覆盖薄雪或积雪痕迹。"
+    ]
+  },
+  "label_id": "cpl_b9eb7153c39c353cd972f82b",
+  "provenance": {
+    "generated_at": "2026-08-03T13:11:13.902742+00:00",
+    "migrated_at": "2026-08-03T13:11:13.906106+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "eec18c114c452d5ea632c56b0b6c096285d2ed662da769a09b6277f74e69d5e5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b9eb7153c39c353cd972f82b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:17.061986+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ce83f31dad97274f148f544b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

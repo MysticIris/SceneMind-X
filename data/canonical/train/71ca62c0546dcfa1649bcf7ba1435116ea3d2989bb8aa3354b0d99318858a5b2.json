@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1425.jpg",
+    "relative_path": "train/1425.jpg",
+    "sha256": "71ca62c0546dcfa1649bcf7ba1435116ea3d2989bb8aa3354b0d99318858a5b2",
+    "split": "train"
+  },
+  "canonical_sha256": "a3a0c9e8b1f863dbb35b613ad79ffe59f63f4c12b810ac517a03583d5e26d831",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "演唱会",
+      "绿发歌手",
+      "舞台表演"
+    ],
+    "short_description": "一位绿发歌手在舞台上表演，观众举着手机观看并记录。",
+    "theme": "演唱会现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一位绿发女性手持麦克风站在舞台中央。",
+      "观众席有多人举起手机拍摄。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "演唱",
+      "举手机拍摄"
+    ],
+    "attributes": [
+      "绿色头发",
+      "戴眼镜的吉他手影像"
+    ],
+    "relations": [
+      "歌手在舞台上。",
+      "观众在台下举手机。"
+    ],
+    "scene": "室内演唱会现场",
+    "subjects": [
+      "绿发女歌手",
+      "背景大屏幕",
+      "观众"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一位绿发女性手持麦克风站在舞台中央；观众席有多人举起手机拍摄。",
+    "safe_facts": [
+      "一位绿发女性手持麦克风站在舞台中央。",
+      "观众席有多人举起手机拍摄。"
+    ]
+  },
+  "label_id": "cpl_1404b9459057eae6607f6afe",
+  "provenance": {
+    "generated_at": "2026-08-03T14:22:40.670486+00:00",
+    "migrated_at": "2026-08-03T14:22:40.673689+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8b4590488476dbfe0a16101b482b9ac9d7b7492edc03975b41de56336ac9023c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c1b523dcee849e97c90b82cf",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:22:40.674196+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c1b523dcee849e97c90b82cf"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "也会在岁月中消退"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "也会在岁月中消退"
+    ]
+  }
+}

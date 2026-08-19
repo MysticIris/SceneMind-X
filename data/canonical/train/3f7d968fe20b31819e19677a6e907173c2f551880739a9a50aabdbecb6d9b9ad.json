@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1233.jpg",
+    "relative_path": "train/1233.jpg",
+    "sha256": "3f7d968fe20b31819e19677a6e907173c2f551880739a9a50aabdbecb6d9b9ad",
+    "split": "train"
+  },
+  "canonical_sha256": "28885b669cb2ba381cff9208b9994b94bf51452092c2e6a14176f4b1c36e0495",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "樱花",
+      "黄昏",
+      "屋顶",
+      "天空"
+    ],
+    "short_description": "傍晚时分，盛开的樱花枝条横跨画面，背景是屋顶与淡紫色天空，房屋灯光温暖。",
+    "theme": "樱花与黄昏屋舍"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空颜色表明时间接近黄昏或日落。"
+    ],
+    "direct_observations": [
+      "画面中有盛开的白色花朵，枝条伸展至画面上方。",
+      "房屋屋顶呈红褐色瓦片，部分窗户亮着暖黄色灯光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "樱花盛开",
+      "天空呈淡紫色",
+      "房屋屋顶有灯光"
+    ],
+    "relations": [
+      "樱花树枝位于房屋上方。",
+      "房屋屋顶在樱花树后方。"
+    ],
+    "scene": "户外黄昏场景",
+    "subjects": [
+      "樱花树",
+      "房屋屋顶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空颜色表明时间接近黄昏或日落。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有盛开的白色花朵，枝条伸展至画面上方；房屋屋顶呈红褐色瓦片，部分窗户亮着暖黄色灯光。",
+    "safe_facts": [
+      "画面中有盛开的白色花朵，枝条伸展至画面上方。",
+      "房屋屋顶呈红褐色瓦片，部分窗户亮着暖黄色灯光。"
+    ]
+  },
+  "label_id": "cpl_4b4a6111f299b78b62824c32",
+  "provenance": {
+    "generated_at": "2026-08-03T13:58:33.481621+00:00",
+    "migrated_at": "2026-08-03T13:58:33.485976+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "afb48e285f13441cb9aa7521c75117e9a0f934a03ac0279649a6c06a44b59e34",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8b14bcb85fba0d40f5e374f3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:58:33.486947+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8b14bcb85fba0d40f5e374f3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

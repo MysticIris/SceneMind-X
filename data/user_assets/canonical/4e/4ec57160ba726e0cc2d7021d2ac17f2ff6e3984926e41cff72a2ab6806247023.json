@@ -1,0 +1,150 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_7f0dad7b4ea10af934f96d0a",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_b98e2e76dbc4c2358365f614"
+  ],
+  "asset": {
+    "asset_id": "4ec57160ba726e0c",
+    "sha256": "4ec57160ba726e0cc2d7021d2ac17f2ff6e3984926e41cff72a2ab6806247023",
+    "split": "user_custom",
+    "relative_path": "user_assets/4e/4ec57160ba726e0cc2d7021d2ac17f2ff6e3984926e41cff72a2ab6806247023/4ec57160ba726e0cc2d7021d2ac17f2ff6e3984926e41cff72a2ab6806247023.jpg"
+  },
+  "display": {
+    "theme": "雪后停放的电动车",
+    "short_description": "这是一张雪天场景的照片，画面中密集停放着大量电动自行车和自行车。车辆的车座、车把及前置车篮上均覆盖着厚厚的积雪，显示出降雪量较大。背景是一栋贴有灰色瓷砖的建筑物，窗户装有金属防盗网，地面潮湿且散落着残雪。",
+    "micro_tags": [
+      "雪景",
+      "电动车",
+      "积雪",
+      "停车区",
+      "冬季",
+      "建筑物"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "室外建筑物旁的非机动车停放区域",
+    "subjects": [
+      "电动自行车",
+      "自行车",
+      "积雪",
+      "建筑物外墙",
+      "窗户"
+    ],
+    "actions": [],
+    "attributes": [
+      "被雪覆盖",
+      "密集排列",
+      "潮湿",
+      "灰色瓷砖墙面",
+      "金属防盗窗"
+    ],
+    "relations": [
+      "车辆停放在建筑物旁。",
+      "积雪覆盖在车辆部件上。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "大量两轮车辆(电动车和自行车)紧密并排停放。",
+      "车辆的黑色车座、把手和网状车篮上堆积着明显的白色雪层。",
+      "背景建筑外墙由浅灰色方形瓷砖铺设，窗户安装有竖向金属栏杆。",
+      "地面呈现深色湿润状态，局部可见未融化的积雪。"
+    ],
+    "cautious_inferences": [
+      "车辆长时间未移动，导致积雪完整保留在水平表面上。"
+    ],
+    "uncertainties": [
+      "无法确定具体的地理位置或城市。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "武汉",
+      "ZV957",
+      "爱玛",
+      "绿能",
+      "自行车便民服务",
+      "800289578"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "武汉",
+      "ZV957",
+      "爱玛",
+      "绿能",
+      "自行车便民服务",
+      "800289578"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "大量两轮车辆(电动车和自行车)紧密并排停放；车辆的黑色车座、把手和网状车篮上堆积着明显的白色雪层。",
+    "safe_facts": [
+      "大量两轮车辆(电动车和自行车)紧密并排停放。",
+      "车辆的黑色车座、把手和网状车篮上堆积着明显的白色雪层。",
+      "背景建筑外墙由浅灰色方形瓷砖铺设，窗户安装有竖向金属栏杆。"
+    ],
+    "do_not_assert": [
+      "车辆长时间未移动，导致积雪完整保留在水平表面上。",
+      "无法确定具体的地理位置或城市。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_fecd8c13-5547-49dd-a729-92f903ce2f7f",
+    "generated_at": "2026-08-12T03:17:52.003948+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "8be1c4de972767e5b00f645306a555c886a372bdc5c35c7c720598c35530d620",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:17:52.004911+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_b98e2e76dbc4c2358365f614",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:17:52.005270+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "f7956ecaa98495e90b05a2f0fc88a786f5c5ab1b0cca526c25fe5d0633a669b0"
+}

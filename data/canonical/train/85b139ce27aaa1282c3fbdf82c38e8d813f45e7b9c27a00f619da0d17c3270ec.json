@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1372.jpg",
+    "relative_path": "train/1372.jpg",
+    "sha256": "85b139ce27aaa1282c3fbdf82c38e8d813f45e7b9c27a00f619da0d17c3270ec",
+    "split": "train"
+  },
+  "canonical_sha256": "fccad30596d55683d137080c146c7994c01c1b494638dc0565bdf7eb6d763662",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城堡入口",
+      "童话风格",
+      "游客人群"
+    ],
+    "short_description": "蓝天白云下，一座装饰华丽的童话风格城堡大门，游客正从拱门下穿行。",
+    "theme": "童话城堡入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天空呈现蓝色并布满云朵。",
+      "建筑具有尖顶塔楼和石砌基座。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "穿行"
+    ],
+    "attributes": [
+      "双塔结构",
+      "彩色旗帜",
+      "拱形门廊"
+    ],
+    "relations": [
+      "游客位于城堡门前。"
+    ],
+    "scene": "主题乐园入口区域",
+    "subjects": [
+      "游客",
+      "城堡建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现蓝色并布满云朵；建筑具有尖顶塔楼和石砌基座。",
+    "safe_facts": [
+      "天空呈现蓝色并布满云朵。",
+      "建筑具有尖顶塔楼和石砌基座。"
+    ]
+  },
+  "label_id": "cpl_bbc3ddb6b54907792102d3bc",
+  "provenance": {
+    "generated_at": "2026-08-03T14:16:04.325558+00:00",
+    "migrated_at": "2026-08-03T14:16:04.330049+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "934ebbdf0894cf4ff25494d481bb843979ec8347a49bc082db1ec7c2382b1d56",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d8082c2259043ff6da73ab33",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:16:04.330761+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d8082c2259043ff6da73ab33"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "魔法小镇",
+      "Magic Town"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "魔法小镇",
+      "Magic Town"
+    ]
+  }
+}

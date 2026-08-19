@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:539.jpg",
+    "relative_path": "train/539.jpg",
+    "sha256": "56ad7f3c03f4a49fce3f5605ab21132fd62d37112f07e14b49368e9a6bec2c3c",
+    "split": "train"
+  },
+  "canonical_sha256": "3ebe554a92005a1f48b793ffeef19bfe32091407a8ca0ab66da117a720fc5303",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "火焰鸡尾酒",
+      "Tiki杯",
+      "酒吧场景"
+    ],
+    "short_description": "一位年轻人坐在昏暗酒吧桌旁，面前是一杯正在喷火的特色鸡尾酒，桌上还有冰镇百加得饮料和烛光。",
+    "theme": "夜店调酒"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有一杯造型独特的陶土杯，杯口有蓝色火焰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "鸡尾酒杯呈人面造型",
+      "杯中火焰呈蓝色",
+      "桌面为大理石纹理"
+    ],
+    "relations": [
+      "男子坐在桌子旁。",
+      "鸡尾酒放在桌面上。",
+      "百加得杯子与鸡尾酒相邻。"
+    ],
+    "scene": "室内酒吧环境",
+    "subjects": [
+      "一名年轻男性",
+      "一杯带火焰的鸡尾酒",
+      "一个装有百加得的玻璃杯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一杯造型独特的陶土杯，杯口有蓝色火焰。",
+    "safe_facts": [
+      "画面中央有一杯造型独特的陶土杯，杯口有蓝色火焰。"
+    ]
+  },
+  "label_id": "cpl_ad23a426ab73093390220210",
+  "provenance": {
+    "generated_at": "2026-08-03T11:25:31.022578+00:00",
+    "migrated_at": "2026-08-03T11:25:31.025473+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4aafb018a51b2cc623c213a70078fe4e833758b77b4217573721c5975927d01a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4000c4ebd621afe18e3326c2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:25:31.025995+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4000c4ebd621afe18e3326c2"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "BACARDÍ"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "BACARDÍ"
+    ]
+  }
+}

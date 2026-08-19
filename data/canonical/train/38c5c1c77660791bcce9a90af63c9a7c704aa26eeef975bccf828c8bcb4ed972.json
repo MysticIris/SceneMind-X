@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:963.jpg",
+    "relative_path": "train/963.jpg",
+    "sha256": "38c5c1c77660791bcce9a90af63c9a7c704aa26eeef975bccf828c8bcb4ed972",
+    "split": "train"
+  },
+  "canonical_sha256": "23ced5ffcaaa92769887bdc9864662427805a62827a1d35e3ffe60c5e737ab48",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "日式建筑",
+      "庭院景观",
+      "传统屋顶",
+      "修剪树木"
+    ],
+    "short_description": "透过茂密树冠俯瞰传统日式建筑屋顶与修剪整齐的绿植，光影交错，静谧雅致。",
+    "theme": "日式庭院建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线从上方穿透树叶，在地面和建筑上形成斑驳光影。"
+    ],
+    "direct_observations": [
+      "可见建筑具有传统日式坡屋顶和灰瓦。",
+      "前景有修剪成层叠形状的绿色灌木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色墙体",
+      "灰色瓦片屋顶",
+      "绿色树叶",
+      "修剪整齐的灌木"
+    ],
+    "relations": [
+      "树木环绕建筑。",
+      "灌木位于建筑前方。"
+    ],
+    "scene": "户外庭院",
+    "subjects": [
+      "建筑屋顶",
+      "树木",
+      "灌木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线从上方穿透树叶，在地面和建筑上形成斑驳光影。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "可见建筑具有传统日式坡屋顶和灰瓦；前景有修剪成层叠形状的绿色灌木。",
+    "safe_facts": [
+      "可见建筑具有传统日式坡屋顶和灰瓦。",
+      "前景有修剪成层叠形状的绿色灌木。"
+    ]
+  },
+  "label_id": "cpl_17afc13149f0f4e9879e3aa0",
+  "provenance": {
+    "generated_at": "2026-08-03T13:10:17.142922+00:00",
+    "migrated_at": "2026-08-03T13:10:17.146346+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e890f46e331f0639e16ec38c77d7d8518b8347649c6e41bb121f35ab3a2936b9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_17afc13149f0f4e9879e3aa0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:16.929141+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9c2a04efa884c13e78524011"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

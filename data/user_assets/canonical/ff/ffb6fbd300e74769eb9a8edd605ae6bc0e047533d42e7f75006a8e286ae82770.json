@@ -1,0 +1,138 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_72943584800339303f552714",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_fec6727990d634e7c7be13d5"
+  ],
+  "asset": {
+    "asset_id": "ffb6fbd300e74769",
+    "sha256": "ffb6fbd300e74769eb9a8edd605ae6bc0e047533d42e7f75006a8e286ae82770",
+    "split": "user_custom",
+    "relative_path": "user_assets/ff/ffb6fbd300e74769eb9a8edd605ae6bc0e047533d42e7f75006a8e286ae82770/ffb6fbd300e74769eb9a8edd605ae6bc0e047533d42e7f75006a8e286ae82770.jpg"
+  },
+  "display": {
+    "theme": "卡通主题店铺外观",
+    "short_description": "夜间拍摄的店铺入口，墙面挂有粉橙渐变色的卡通猫插画招牌，描绘了柜台场景。门口上方有装饰性雨棚，右侧悬挂黄色发光灯箱，店内可见陈列着各类小商品的洞洞板墙面。",
+    "micro_tags": [
+      "卡通插画",
+      "店铺招牌",
+      "夜间摄影",
+      "可爱风格",
+      "商品陈列"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "临街店铺入口及外墙",
+    "subjects": [
+      "墙面大型装饰画",
+      "店铺入口",
+      "悬挂式灯箱",
+      "室内货架"
+    ],
+    "actions": [],
+    "attributes": [
+      "粉紫色调",
+      "暖色照明",
+      "卡通形象",
+      "夜间环境"
+    ],
+    "relations": [
+      "装饰画位于入口左侧墙面。",
+      "灯箱悬挂于入口右侧。",
+      "雨棚覆盖在入口上方。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "左侧墙面有一幅竖向长方形装饰画，背景由粉色渐变为橙色，画面包含多个拟人化猫咪角色、柜台、电话机及植物盆栽等元素。",
+      "透过敞开的玻璃门可以看到店内墙壁上安装了洞洞板，上面挂满了各种小型包装商品或挂件。",
+      "入口上方有一个紫红色的遮阳棚，边缘装饰有蝴蝶结、花朵、信封等白色剪影图标。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "猫池渔商店",
+      "HELLO",
+      "KITTY",
+      "小红书",
+      "ovoyy0016"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "猫池渔商店",
+      "HELLO",
+      "KITTY",
+      "小红书",
+      "ovoyy0016"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "左侧墙面有一幅竖向长方形装饰画，背景由粉色渐变为橙色，画面包含多个拟人化猫咪角色、柜台、电话机及植物盆栽等元素；透过敞开的玻璃门可以看到店内墙壁上安装了洞洞板，上面挂满了各种小型包装商品或挂件。",
+    "safe_facts": [
+      "左侧墙面有一幅竖向长方形装饰画，背景由粉色渐变为橙色，画面包含多个拟人化猫咪角色、柜台、电话机及植物盆栽等元素。",
+      "透过敞开的玻璃门可以看到店内墙壁上安装了洞洞板，上面挂满了各种小型包装商品或挂件。",
+      "入口上方有一个紫红色的遮阳棚，边缘装饰有蝴蝶结、花朵、信封等白色剪影图标。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_8d335cac-be41-43e0-9bde-d4341ef17295",
+    "generated_at": "2026-08-12T03:05:34.376019+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "6860bc991fb48d244b6333a3c73e032dd6e75609096113986d3e39a7424597ab",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:05:34.377151+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_fec6727990d634e7c7be13d5",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:05:34.377568+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "5a1217edbec977d966ed874ed0c07c7e3399828736c8cd52b071802ce5eec3fa"
+}

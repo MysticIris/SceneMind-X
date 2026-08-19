@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1803.jpg",
+    "relative_path": "train/1803.jpg",
+    "sha256": "eb842d73b4e24bb93577c7feadb5152890d2d5227e6b3b8926b7b32d4a2f8e89",
+    "split": "train"
+  },
+  "canonical_sha256": "1a988a3ee78ae2c799b11106575ac5c1a6424306a67faa899f60773a533e6899",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石雕",
+      "女性头像",
+      "户外雕塑",
+      "灌木丛"
+    ],
+    "short_description": "一座大型石质女性头像雕塑，部分被绿色灌木丛遮挡，背景为多云天空。",
+    "theme": "石雕头像"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像主体为一座大型石质女性头像雕塑。",
+      "雕塑前方有茂密的绿色灌木丛。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "石质",
+      "大型",
+      "女性面部特征",
+      "有头发造型",
+      "被植物部分遮挡"
+    ],
+    "relations": [
+      "石雕头像位于灌木丛后方。",
+      "石雕头像背景为天空。"
+    ],
+    "scene": "户外",
+    "subjects": [
+      "石雕头像"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像主体为一座大型石质女性头像雕塑；雕塑前方有茂密的绿色灌木丛。",
+    "safe_facts": [
+      "图像主体为一座大型石质女性头像雕塑。",
+      "雕塑前方有茂密的绿色灌木丛。"
+    ]
+  },
+  "label_id": "cpl_48927b0ef58d667c2203dc87",
+  "provenance": {
+    "generated_at": "2026-08-03T15:07:54.707344+00:00",
+    "migrated_at": "2026-08-03T15:07:54.708803+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a3bca25ce16f76d681fec84524af1c917386962043301720919c7dad63f67d0f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_dbd63e49b8239eeab85d6147",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:07:54.709002+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_dbd63e49b8239eeab85d6147"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

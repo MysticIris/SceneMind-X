@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1427.jpg",
+    "relative_path": "train/1427.jpg",
+    "sha256": "700b4a6e61ba5f995ef74d231657b37150a2075fefac036ee0b6a7019063bebf",
+    "split": "train"
+  },
+  "canonical_sha256": "7470c574774d0a5354663af21f4066454080e288c3182fd2e257a8e708b4e0d2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "寺庙建筑",
+      "黄色墙体",
+      "传统屋檐"
+    ],
+    "short_description": "黄色墙壁上悬挂竖排书法牌匾，屋檐翘角饰有石雕，背景绿树成荫。",
+    "theme": "古寺墙垣"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "墙壁呈鲜明黄色。",
+      "屋檐为深灰色瓦片构成，两端有石雕装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黄色",
+      "灰色瓦片",
+      "石雕",
+      "绿色树叶"
+    ],
+    "relations": [
+      "石雕位于屋檐下。",
+      "树木位于墙壁后方。"
+    ],
+    "scene": "寺庙围墙局部",
+    "subjects": [
+      "黄色墙壁",
+      "屋檐",
+      "石雕装饰",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "墙壁呈鲜明黄色；屋檐为深灰色瓦片构成，两端有石雕装饰。",
+    "safe_facts": [
+      "墙壁呈鲜明黄色。",
+      "屋檐为深灰色瓦片构成，两端有石雕装饰。"
+    ]
+  },
+  "label_id": "cpl_8d24c13305ba3e17ec1a081f",
+  "provenance": {
+    "generated_at": "2026-08-03T14:22:54.606567+00:00",
+    "migrated_at": "2026-08-03T14:22:54.609679+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3f42861db17b5fa67c7cb11b28a63564f9ce97b815ff8010665fb283cb5a971e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_908e87ebdd3547e820e6b196",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:22:54.610012+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_908e87ebdd3547e820e6b196"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

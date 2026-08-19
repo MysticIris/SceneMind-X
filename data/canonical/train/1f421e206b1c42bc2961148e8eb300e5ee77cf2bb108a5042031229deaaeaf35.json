@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1195.jpg",
+    "relative_path": "train/1195.jpg",
+    "sha256": "1f421e206b1c42bc2961148e8eb300e5ee77cf2bb108a5042031229deaaeaf35",
+    "split": "train"
+  },
+  "canonical_sha256": "4b8251888461f2b4dab4cff041be734a3886d9270caa6910bb6ab23da7756621",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "校门",
+      "夜景",
+      "石碑",
+      "灯光"
+    ],
+    "short_description": "夜间拍摄的两座高大发光石碑，上面刻有汉字，背景为深色天空。",
+    "theme": "校门夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两座高大的石碑在夜间被灯光照亮。",
+      "石碑表面刻有竖排汉字。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "发光",
+      "刻有汉字",
+      "立于入口处"
+    ],
+    "relations": [
+      "两座石碑并排站立。"
+    ],
+    "scene": "夜间户外",
+    "subjects": [
+      "两座高大石碑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两座高大的石碑在夜间被灯光照亮；石碑表面刻有竖排汉字。",
+    "safe_facts": [
+      "两座高大的石碑在夜间被灯光照亮。",
+      "石碑表面刻有竖排汉字。"
+    ]
+  },
+  "label_id": "cpl_eb9a21d7d551a6dd8e8f727e",
+  "provenance": {
+    "generated_at": "2026-08-03T13:53:35.458842+00:00",
+    "migrated_at": "2026-08-03T13:53:35.462140+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "76e3f9c477eec2bf955a0aec6f4f8fdfa21b943ceaa4d026dcef611e4c6ea55a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8b983aaee161c11a70129236",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:53:35.462724+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8b983aaee161c11a70129236"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "同济医学院",
+      "华中科技大学"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "同济医学院",
+      "华中科技大学"
+    ]
+  }
+}

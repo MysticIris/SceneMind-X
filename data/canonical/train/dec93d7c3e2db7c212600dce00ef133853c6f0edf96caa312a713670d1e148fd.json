@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:120.jpg",
+    "relative_path": "train/120.jpg",
+    "sha256": "dec93d7c3e2db7c212600dce00ef133853c6f0edf96caa312a713670d1e148fd",
+    "split": "train"
+  },
+  "canonical_sha256": "fca8eb7daebef01957355c65967f35707ff4262d8fc0039aa863902136dd9beb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "火车站",
+      "钟楼",
+      "拱形门廊"
+    ],
+    "short_description": "一座大型欧式风格火车站，两侧有钟楼，正门上方有红色汉字，广场上有行人和电子显示屏。",
+    "theme": "火车站建筑外观"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑正面有两座带钟面的塔楼。",
+      "建筑中央有多个拱形入口。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "米色石材外墙",
+      "红色汉字标识",
+      "蓝色遮阳伞"
+    ],
+    "relations": [],
+    "scene": "城市火车站广场",
+    "subjects": [
+      "建筑",
+      "行人",
+      "电子显示屏"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑正面有两座带钟面的塔楼；建筑中央有多个拱形入口。",
+    "safe_facts": [
+      "建筑正面有两座带钟面的塔楼。",
+      "建筑中央有多个拱形入口。"
+    ]
+  },
+  "label_id": "cpl_f425e5860fbaff67b0f6c6ae",
+  "provenance": {
+    "generated_at": "2026-08-03T09:32:15.750156+00:00",
+    "migrated_at": "2026-08-03T09:32:15.752127+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "724e1bbd9006ff4f917d34c46bfa44297bfbce339dd0c16549be0cfc94cab88d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_dada8713ecbf43b93bd9ad03",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:30.474423+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_dada8713ecbf43b93bd9ad03",
+    "cpl_92450a5cbb795f49bdcb90c1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

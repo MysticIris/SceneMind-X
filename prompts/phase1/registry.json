@@ -1,0 +1,11 @@
+{
+  "schema_version": "scenemindx_task_prompt_registry_v1",
+  "prompts": {
+    "natural_chinese_detailed_description_v1": {
+      "version": "NATURAL_CHINESE_DETAILED_DESCRIPTION_V1",
+      "status": "production",
+      "file": "natural_chinese_detailed_description_v1.txt",
+      "sha256": "d6c61f6c5569cc6ad233e1993eaa39b8edf55e133642f2e71d68e7d6b7af421d"
+    }
+  }
+}

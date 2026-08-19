@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1930.jpg",
+    "relative_path": "train/1930.jpg",
+    "sha256": "1e759ef800aa48cf25da1657f99984b38e71c62bc4966b8ea14a1b8d117a643a",
+    "split": "train"
+  },
+  "canonical_sha256": "945660d80bb27dc4ab0ae06945a0398dffb81a5aba35792c8f7417d140f9e364",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "股价图表",
+      "股价波动",
+      "金融数据"
+    ],
+    "short_description": "屏幕显示蓝色折线图，横轴标有2006至2010年。",
+    "theme": "股价波动趋势图"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕显示蓝色折线图，横轴标有2006至2010年。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "显示股价变化"
+    ],
+    "relations": [],
+    "scene": "室内投影屏幕展示区域",
+    "subjects": [
+      "投影屏幕",
+      "股价走势图"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕显示蓝色折线图，横轴标有2006至2010年。",
+    "safe_facts": [
+      "屏幕显示蓝色折线图，横轴标有2006至2010年。"
+    ]
+  },
+  "label_id": "cpl_5c6e29702a6cb72d46562c9a",
+  "provenance": {
+    "generated_at": "2026-08-03T15:24:04.390281+00:00",
+    "migrated_at": "2026-08-03T15:24:04.392227+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c908eefac88bc514c4c2066b01b6c3609609cba41c50202e0b4ab82cfd07675a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ea8a50b7d0f17e54739fa371",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:24:04.392606+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "legacy_contract_short_description_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ea8a50b7d0f17e54739fa371"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "The graph shows frequent fluctuations an",
+      "At the beginning of the period the share"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "The graph shows frequent fluctuations an",
+      "At the beginning of the period the share"
+    ]
+  }
+}

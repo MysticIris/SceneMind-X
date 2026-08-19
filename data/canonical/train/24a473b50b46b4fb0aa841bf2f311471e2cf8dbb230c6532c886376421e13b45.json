@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1553.jpg",
+    "relative_path": "train/1553.jpg",
+    "sha256": "24a473b50b46b4fb0aa841bf2f311471e2cf8dbb230c6532c886376421e13b45",
+    "split": "train"
+  },
+  "canonical_sha256": "9a4f2008a0108964eb32224f7084399c72eb02bc0e00e0c8507683266d7bc4af",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "银色雕塑",
+      "水池",
+      "现代建筑"
+    ],
+    "short_description": "一座银色金属雕塑矗立于水池中央，背景是现代建筑与柱廊，表面布满球形凸起。",
+    "theme": "现代艺术雕塑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "雕塑由银色金属制成，表面有多个圆形凸起。",
+      "雕塑坐落在一个浅水池中，水面倒映雕塑和周围环境。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "银色",
+      "反光表面",
+      "球形凸起",
+      "水池水面平静"
+    ],
+    "relations": [
+      "雕塑位于水池中央。",
+      "雕塑后方有建筑和柱子。"
+    ],
+    "scene": "室外广场或建筑前庭",
+    "subjects": [
+      "金属雕塑",
+      "水池",
+      "建筑柱廊"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "雕塑由银色金属制成，表面有多个圆形凸起；雕塑坐落在一个浅水池中，水面倒映雕塑和周围环境。",
+    "safe_facts": [
+      "雕塑由银色金属制成，表面有多个圆形凸起。",
+      "雕塑坐落在一个浅水池中，水面倒映雕塑和周围环境。"
+    ]
+  },
+  "label_id": "cpl_c40e1df77c04caa5b61d2a29",
+  "provenance": {
+    "generated_at": "2026-08-03T14:37:14.743260+00:00",
+    "migrated_at": "2026-08-03T14:37:14.749831+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e14a3cc049f04520cabdc956f246f8583e89ab2115048930f0a7351ce0488360",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8265f4565a3b3c66db467c2b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:37:14.750233+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8265f4565a3b3c66db467c2b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

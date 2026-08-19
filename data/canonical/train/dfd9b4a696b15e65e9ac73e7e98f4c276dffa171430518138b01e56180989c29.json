@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1477.jpg",
+    "relative_path": "train/1477.jpg",
+    "sha256": "dfd9b4a696b15e65e9ac73e7e98f4c276dffa171430518138b01e56180989c29",
+    "split": "train"
+  },
+  "canonical_sha256": "26f09c47285aad2960d4f9c0995c423eb5d48a2dbfab26955e282f8b4b43e31b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "糖醋鸡块",
+      "中式菜肴",
+      "酱汁鸡肉"
+    ],
+    "short_description": "一盘糖醋鸡块盛放在白色纹理盘中，鸡肉块裹着浓稠酱汁，点缀青椒片，色泽诱人。",
+    "theme": "糖醋鸡块"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "酱汁看起来浓稠且有光泽，可能是糖醋味型。"
+    ],
+    "direct_observations": [
+      "盘中食物主要由块状鸡肉组成，表面覆盖深褐色酱汁。",
+      "食物中混有绿色青椒片和少量浅色葱段。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "裹着酱汁",
+      "呈块状",
+      "表面油亮",
+      "有青椒点缀"
+    ],
+    "relations": [
+      "鸡肉块位于盘子中央。",
+      "青椒片夹杂在鸡肉块间。"
+    ],
+    "scene": "餐桌上的菜肴",
+    "subjects": [
+      "鸡肉块",
+      "青椒片",
+      "酱汁",
+      "白色盘子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "酱汁看起来浓稠且有光泽，可能是糖醋味型。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "盘中食物主要由块状鸡肉组成，表面覆盖深褐色酱汁；食物中混有绿色青椒片和少量浅色葱段。",
+    "safe_facts": [
+      "盘中食物主要由块状鸡肉组成，表面覆盖深褐色酱汁。",
+      "食物中混有绿色青椒片和少量浅色葱段。"
+    ]
+  },
+  "label_id": "cpl_bc2ea08ddb4ac8b7e7ee0cca",
+  "provenance": {
+    "generated_at": "2026-08-03T14:27:57.455117+00:00",
+    "migrated_at": "2026-08-03T14:27:57.458161+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a04f9d4cdef097f4fae3caa36fc18ea3e706fb4a765e455e339a2ba7991b2519",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3996efd9a9640dddc29c7329",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:27:57.458516+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3996efd9a9640dddc29c7329"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

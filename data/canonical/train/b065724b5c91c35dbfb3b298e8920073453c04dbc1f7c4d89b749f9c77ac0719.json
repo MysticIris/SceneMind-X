@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1836.jpg",
+    "relative_path": "train/1836.jpg",
+    "sha256": "b065724b5c91c35dbfb3b298e8920073453c04dbc1f7c4d89b749f9c77ac0719",
+    "split": "train"
+  },
+  "canonical_sha256": "87a9dfa9864fcd789e7422eace524a53eb8326ac7fa74b9611506331d9dc5fda",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "奖牌",
+      "半程马拉松",
+      "绶带",
+      "金属奖章"
+    ],
+    "short_description": "一枚彩色边框的半程马拉松奖牌，配有多色绶带，放置于浅棕色木质表面上。",
+    "theme": "半程马拉松奖牌"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "奖牌呈圆形，边缘有彩色分段设计。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "彩色边框",
+      "金属材质",
+      "多色绶带"
+    ],
+    "relations": [
+      "绶带悬挂于奖牌上。"
+    ],
+    "scene": "桌面",
+    "subjects": [
+      "奖牌",
+      "绶带"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "奖牌呈圆形，边缘有彩色分段设计。",
+    "safe_facts": [
+      "奖牌呈圆形，边缘有彩色分段设计。"
+    ]
+  },
+  "label_id": "cpl_b799b707a4978c869dcb6937",
+  "provenance": {
+    "generated_at": "2026-08-03T15:13:06.465885+00:00",
+    "migrated_at": "2026-08-03T15:13:06.467863+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4d331b979efb4fbd622410386ffe9c090a8bc89d577979872bff56c7c5789a37",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fda222227bc14cbd51ec914a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:13:06.468158+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fda222227bc14cbd51ec914a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

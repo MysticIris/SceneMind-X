@@ -1,0 +1,128 @@
+{
+  "asset_id": "e6825e78e569a91c",
+  "asset_sha256": "e6825e78e569a91cc022b1f71ca6725151fe6a688904e57a218637061c3daf94",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"游戏战绩结算列表\",\n    \"short_description\": \"这是一张手机游戏界面的截图，展示了名为“我的大乔详情”的排位赛历史记录。列表包含多场对局，显示了胜负结果、KDA数据（如5/1/15）、组队模式（五排、三排）以及MVP和金牌中路等荣誉标识。\",\n    \"micro_tags\": [\n      \"游戏截图\",\n      \"战绩查询\",\n      \"王者荣耀\",\n      \"大乔\",\n      \"排位赛\",\n      \"MVP\",\n      \"手机界面\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端应用程序的用户界面列表页\",\n    \"subjects\": [\n      \"游戏角色头像（大乔）\",\n      \"比赛结果文本\",\n      \"荣誉徽章图标\",\n      \"状态栏信息\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白色背景\",\n      \"列表式布局\",\n      \"彩色标签（红/蓝/金/银）\",\n      \"顶部标题栏\"\n    ],\n    \"relations\": [\n      \"每一行代表一场独立的比赛记录\",\n      \"左侧为角色头像，中间为数据，右侧为时间与荣誉\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕顶部显示时间19:48及电量51%的状态栏\",\n      \"页面标题清晰可见为“我的大乔详情”\",\n      \"列表项中包含“胜利”、“失败”、“排位赛”、“五排”等文字\",\n      \"部分条目右侧带有“MVP”、“金牌中路”、“银牌中路”的彩色徽章\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面UI风格、字体及特定术语（如金牌中路、暴走局），推测该应用为《王者荣耀》\",\n      \"红色标签通常代表逆风或尽力局，蓝色标签代表顺风或实力局\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"我的大乔详情\",\n      \"失败 排位赛 五排 1/3/5\",\n      \"胜利 排位赛 五排 5/1/15\",\n      \"金牌中路\",\n      \"MVP\",\n      \"暴走局\",\n      \"实力局\",\n      \"尽力局\",\n      \"翻车局\",\n      \"铜牌中路\",\n      \"银牌中路\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张展示手机游戏对局历史记录的垂直列表截图，包含角色头像、胜负状态、数值统计及各类成就徽章。\",\n    \"safe_facts\": [\n      \"图像为竖屏手机界面截图\",\n      \"内容以列表形式排列，每项包含左侧图片、中间文本和右侧图标\",\n      \"使用了红色、蓝色、金色和银色来区分不同的状态或等级\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 720,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 720,
+        "total_tokens": 3947,
+        "estimated_cost_cny": 0.012214,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "游戏战绩结算列表",
+          "short_description": "这是一张手机游戏界面的截图，展示了名为“我的大乔详情”的排位赛历史记录。列表包含多场对局，显示了胜负结果、KDA数据（如5/1/15）、组队模式（五排、三排）以及MVP和金牌中路等荣誉标识。",
+          "micro_tags": [
+            "游戏截图",
+            "战绩查询",
+            "王者荣耀",
+            "大乔",
+            "排位赛",
+            "MVP",
+            "手机界面"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "移动端应用程序的用户界面列表页",
+          "subjects": [
+            "游戏角色头像（大乔）",
+            "比赛结果文本",
+            "荣誉徽章图标",
+            "状态栏信息"
+          ],
+          "actions": [],
+          "attributes": [
+            "白色背景",
+            "列表式布局",
+            "彩色标签（红/蓝/金/银）",
+            "顶部标题栏"
+          ],
+          "relations": [
+            "每一行代表一场独立的比赛记录",
+            "左侧为角色头像，中间为数据，右侧为时间与荣誉"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "屏幕顶部显示时间19:48及电量51%的状态栏",
+            "页面标题清晰可见为“我的大乔详情”",
+            "列表项中包含“胜利”、“失败”、“排位赛”、“五排”等文字",
+            "部分条目右侧带有“MVP”、“金牌中路”、“银牌中路”的彩色徽章"
+          ],
+          "cautious_inferences": [
+            "根据界面UI风格、字体及特定术语（如金牌中路、暴走局），推测该应用为《王者荣耀》",
+            "红色标签通常代表逆风或尽力局，蓝色标签代表顺风或实力局"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "我的大乔详情",
+            "失败 排位赛 五排 1/3/5",
+            "胜利 排位赛 五排 5/1/15",
+            "金牌中路",
+            "MVP",
+            "暴走局",
+            "实力局",
+            "尽力局",
+            "翻车局",
+            "铜牌中路",
+            "银牌中路"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张展示手机游戏对局历史记录的垂直列表截图，包含角色头像、胜负状态、数值统计及各类成就徽章。",
+          "safe_facts": [
+            "图像为竖屏手机界面截图",
+            "内容以列表形式排列，每项包含左侧图片、中间文本和右侧图标",
+            "使用了红色、蓝色、金色和银色来区分不同的状态或等级"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 1484676,
+        "request_bytes": 1110435,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.671574699998018,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "17d3567bd1768d55a6ecd225f46e23ff610203a8f8ce91d0ba87637e169d575d"
+}

@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:199.jpg",
+    "relative_path": "train/199.jpg",
+    "sha256": "e6feba5af6cae25f19b664e2506ee5bf7f3461fa08d771b05235e8047f961722",
+    "split": "train"
+  },
+  "canonical_sha256": "47737df42bf822bc6b5311d3be20fb59ff558eee558cbeb755f4529cb3eb662d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式牌坊",
+      "现代建筑",
+      "城市街道"
+    ],
+    "short_description": "中式传统牌坊下，行人穿行于现代都市街道，背景高楼林立，树木点缀其间。",
+    "theme": "中式牌坊与现代建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有一座中式风格的木结构牌坊。",
+      "牌坊后方可见多栋现代高层建筑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质结构",
+      "灰色瓦片屋顶",
+      "现代高层建筑",
+      "光秃树枝"
+    ],
+    "relations": [
+      "牌坊位于街道入口。",
+      "行人行走于牌坊下。",
+      "树木位于牌坊两侧。"
+    ],
+    "scene": "城市街道入口",
+    "subjects": [
+      "牌坊",
+      "行人",
+      "建筑物",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一座中式风格的木结构牌坊；牌坊后方可见多栋现代高层建筑。",
+    "safe_facts": [
+      "画面中央有一座中式风格的木结构牌坊。",
+      "牌坊后方可见多栋现代高层建筑。"
+    ]
+  },
+  "label_id": "cpl_d2c45adc7fe205f92269b75e",
+  "provenance": {
+    "generated_at": "2026-08-03T10:15:12.960239+00:00",
+    "migrated_at": "2026-08-03T10:15:12.961930+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "38201adff41ac03ddc86cb0a9eeb06c2bf3ce3eedfe939e43ed87e6d05d1e49e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_77afe10c1457ef9faa445d61",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:15:12.962139+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_77afe10c1457ef9faa445d61"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

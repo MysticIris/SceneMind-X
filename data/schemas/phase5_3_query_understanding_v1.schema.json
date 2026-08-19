@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scenemind-x.local/schemas/phase5_3_query_understanding_v1.schema.json",
+  "title": "SceneMind-X Phase 5.3 Query Understanding Candidate V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "literal_objects",
+    "scene",
+    "activities",
+    "attributes",
+    "relations",
+    "mood",
+    "color_tone",
+    "composition",
+    "usage_intent",
+    "positive_constraints",
+    "negative_constraints",
+    "literal_query",
+    "semantic_query",
+    "visual_style_query",
+    "uncertainties"
+  ],
+  "properties": {
+    "literal_objects": {"$ref": "#/$defs/string_list"},
+    "scene": {"$ref": "#/$defs/string_list"},
+    "activities": {"$ref": "#/$defs/string_list"},
+    "attributes": {"$ref": "#/$defs/string_list"},
+    "relations": {"$ref": "#/$defs/string_list"},
+    "mood": {"$ref": "#/$defs/string_list"},
+    "color_tone": {"$ref": "#/$defs/string_list"},
+    "composition": {"$ref": "#/$defs/string_list"},
+    "usage_intent": {"type": "string", "maxLength": 200},
+    "positive_constraints": {"$ref": "#/$defs/string_list"},
+    "negative_constraints": {"$ref": "#/$defs/string_list"},
+    "literal_query": {"type": "string", "minLength": 1, "maxLength": 2000},
+    "semantic_query": {"type": "string", "minLength": 1, "maxLength": 1000},
+    "visual_style_query": {"type": "string", "maxLength": 1000},
+    "uncertainties": {"$ref": "#/$defs/string_list"}
+  },
+  "$defs": {
+    "string_list": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {"type": "string", "minLength": 1, "maxLength": 120}
+    }
+  }
+}

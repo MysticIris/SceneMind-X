@@ -1,0 +1,139 @@
+{
+  "asset_id": "c5510081c933b70e",
+  "asset_sha256": "c5510081c933b70e28ef290af43c846e43c6433f9071fe2be95b57d6a9303b73",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"留学申请方案列表\",\n    \"short_description\": \"这是一张手机应用截图，展示了“指南者留学”APP中的硕士留学申请方案详情。页面以列表形式呈现了宾夕法尼亚大学、约翰霍普金斯大学、哥伦比亚大学等多所名校的机器人、计算机及人工智能相关专业，包含QS排名、学费及入学时间等信息，底部设有顾问联系方式。\",\n    \"micro_tags\": [\n      \"留学申请\",\n      \"硕士项目\",\n      \"院校列表\",\n      \"QS排名\",\n      \"计算机科学\",\n      \"机器人学\",\n      \"移动端界面\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端应用程序界面\",\n    \"subjects\": [\n      \"留学方案列表\",\n      \"大学校徽\",\n      \"专业名称文本\",\n      \"底部咨询按钮\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白底蓝头设计\",\n      \"列表式布局\",\n      \"包含多所高校信息\",\n      \"显示QS排名标签\"\n    ],\n    \"relations\": [\n      \"每个列表项左侧为校徽，右侧为学校及专业详情\",\n      \"底部悬浮栏包含顾问头像及操作按钮\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕顶部标题栏显示文字“指南者留学”，下方有两个选项卡“方案详情”和“专业对比”，其中“方案详情”处于选中高亮状态。\",\n      \"列表中包含宾夕法尼亚大学（QS第15名）、约翰霍普金斯大学（QS第24名）、哥伦比亚大学（QS第38名）等条目，均标记有蓝色的“主申”标签。\",\n      \"页面底部有一个悬浮操作栏，左侧显示一位女性头像及名字“单如雪”，右侧有橙色的“加微信”和蓝色的“打电话”按钮。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局和“主申”标签推测，这是一个用于辅助学生进行研究生选校定位或管理申请进度的工具界面。\",\n      \"底部的顾问入口表明该应用可能提供付费咨询或人工服务功能。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"指南者留学\",\n      \"方案详情\",\n      \"专业对比\",\n      \"宾夕法尼亚大学\",\n      \"QS第15名\",\n      \"机器人学硕士\",\n      \"项目学费 75,420美元\",\n      \"2027秋\",\n      \"主申\",\n      \"约翰霍普金斯大学\",\n      \"QS第24名\",\n      \"哥伦比亚大学\",\n      \"QS第38名\",\n      \"人工智能硕士\",\n      \"杜克大学\",\n      \"QS第62名\",\n      \"南加州大学\",\n      \"QS第146名\",\n      \"单如雪\",\n      \"金牌咨询顾问老师\",\n      \"加微信\",\n      \"打电话\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张展示多所大学硕士留学项目信息的手机应用列表界面截图，包含学校名称、排名标签及底部咨询入口。\",\n    \"safe_facts\": [\n      \"图片为竖屏手机界面截图\",\n      \"内容采用垂直列表布局展示多个条目\",\n      \"每个条目包含图标、标题及详细参数文本\",\n      \"界面底部设有包含人物头像的功能操作区\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 842,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 842,
+        "total_tokens": 4069,
+        "estimated_cost_cny": 0.01319,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "留学申请方案列表",
+          "short_description": "这是一张手机应用截图，展示了“指南者留学”APP中的硕士留学申请方案详情。页面以列表形式呈现了宾夕法尼亚大学、约翰霍普金斯大学、哥伦比亚大学等多所名校的机器人、计算机及人工智能相关专业，包含QS排名、学费及入学时间等信息，底部设有顾问联系方式。",
+          "micro_tags": [
+            "留学申请",
+            "硕士项目",
+            "院校列表",
+            "QS排名",
+            "计算机科学",
+            "机器人学",
+            "移动端界面"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "移动端应用程序界面",
+          "subjects": [
+            "留学方案列表",
+            "大学校徽",
+            "专业名称文本",
+            "底部咨询按钮"
+          ],
+          "actions": [],
+          "attributes": [
+            "白底蓝头设计",
+            "列表式布局",
+            "包含多所高校信息",
+            "显示QS排名标签"
+          ],
+          "relations": [
+            "每个列表项左侧为校徽，右侧为学校及专业详情",
+            "底部悬浮栏包含顾问头像及操作按钮"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "屏幕顶部标题栏显示文字“指南者留学”，下方有两个选项卡“方案详情”和“专业对比”，其中“方案详情”处于选中高亮状态。",
+            "列表中包含宾夕法尼亚大学（QS第15名）、约翰霍普金斯大学（QS第24名）、哥伦比亚大学（QS第38名）等条目，均标记有蓝色的“主申”标签。",
+            "页面底部有一个悬浮操作栏，左侧显示一位女性头像及名字“单如雪”，右侧有橙色的“加微信”和蓝色的“打电话”按钮。"
+          ],
+          "cautious_inferences": [
+            "根据界面布局和“主申”标签推测，这是一个用于辅助学生进行研究生选校定位或管理申请进度的工具界面。",
+            "底部的顾问入口表明该应用可能提供付费咨询或人工服务功能。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "指南者留学",
+            "方案详情",
+            "专业对比",
+            "宾夕法尼亚大学",
+            "QS第15名",
+            "机器人学硕士",
+            "项目学费 75,420美元",
+            "2027秋",
+            "主申",
+            "约翰霍普金斯大学",
+            "QS第24名",
+            "哥伦比亚大学",
+            "QS第38名",
+            "人工智能硕士",
+            "杜克大学",
+            "QS第62名",
+            "南加州大学",
+            "QS第146名",
+            "单如雪",
+            "金牌咨询顾问老师",
+            "加微信",
+            "打电话"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张展示多所大学硕士留学项目信息的手机应用列表界面截图，包含学校名称、排名标签及底部咨询入口。",
+          "safe_facts": [
+            "图片为竖屏手机界面截图",
+            "内容采用垂直列表布局展示多个条目",
+            "每个条目包含图标、标题及详细参数文本",
+            "界面底部设有包含人物头像的功能操作区"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 966312,
+        "request_bytes": 721660,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.729082600002585,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "0e400ee78dfb33060c10df7e44e96291de6521a608b8a023fbdece8eac57021f"
+}

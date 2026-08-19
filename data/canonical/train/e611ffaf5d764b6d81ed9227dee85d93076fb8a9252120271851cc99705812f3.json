@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:81.jpg",
+    "relative_path": "train/81.jpg",
+    "sha256": "e611ffaf5d764b6d81ed9227dee85d93076fb8a9252120271851cc99705812f3",
+    "split": "train"
+  },
+  "canonical_sha256": "c82753656ef0fa562adf159a8d6cedbcb7cefd27ae5b3188716f1b4530c2fc2c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "海滨",
+      "草坪",
+      "人群",
+      "大桥"
+    ],
+    "short_description": "晴朗天气下，人们在绿草坪上休憩，远处跨海大桥横贯水面，背景是开阔的蓝色天空与海面。",
+    "theme": "海滨休闲时光"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多个穿着日常服装的人坐在或站在草地上。",
+      "远处有一座大型混凝土结构的跨海大桥，桥上有车辆行驶。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "坐着",
+      "站着",
+      "眺望"
+    ],
+    "attributes": [
+      "晴朗天空",
+      "绿色草坪",
+      "混凝土桥墩",
+      "蓝色海水"
+    ],
+    "relations": [
+      "人位于草坪上。",
+      "桥横跨水面。",
+      "人面向水面方向。"
+    ],
+    "scene": "海滨公园或堤岸",
+    "subjects": [
+      "多人",
+      "桥梁",
+      "水面",
+      "草地"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个穿着日常服装的人坐在或站在草地上；远处有一座大型混凝土结构的跨海大桥，桥上有车辆行驶。",
+    "safe_facts": [
+      "画面中有多个穿着日常服装的人坐在或站在草地上。",
+      "远处有一座大型混凝土结构的跨海大桥，桥上有车辆行驶。"
+    ]
+  },
+  "label_id": "cpl_ea377c9c092df9fe61e143f2",
+  "provenance": {
+    "generated_at": "2026-08-03T09:21:35.793892+00:00",
+    "migrated_at": "2026-08-03T09:21:35.796019+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0532b56defa2640299da63f9fce623187ffea61efd630ac7cc4d652ea639a5ce",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7e918ee4a8566a1eca2b4a14",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:28.474924+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7e918ee4a8566a1eca2b4a14",
+    "cpl_7b657441a0b058b24f0399f6"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

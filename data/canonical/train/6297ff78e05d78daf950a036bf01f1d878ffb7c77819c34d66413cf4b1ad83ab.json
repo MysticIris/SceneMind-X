@@ -1,0 +1,135 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:523.jpg",
+    "relative_path": "train/523.jpg",
+    "sha256": "6297ff78e05d78daf950a036bf01f1d878ffb7c77819c34d66413cf4b1ad83ab",
+    "split": "train"
+  },
+  "canonical_sha256": "cae75a9dd7a07fd0b1297ef22e80389ac2bf42a41050333d3ccf1934f3ecffe6",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "课堂",
+      "天文课程",
+      "学生",
+      "投影屏幕"
+    ],
+    "short_description": "屏幕显示中文课程作业内容；多名学生背对镜头，部分举着手机拍摄屏幕。",
+    "theme": "投影屏幕与学生群体"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕显示中文课程作业内容。",
+      "多名学生背对镜头，部分举着手机拍摄屏幕。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "观看",
+      "拍照"
+    ],
+    "attributes": [
+      "学生背对镜头"
+    ],
+    "relations": [
+      "学生面向屏幕。",
+      "学生手持手机拍摄屏幕。"
+    ],
+    "scene": "教室讲台前",
+    "subjects": [
+      "投影屏幕",
+      "学生群体"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕显示中文课程作业内容；多名学生背对镜头，部分举着手机拍摄屏幕。",
+    "safe_facts": [
+      "屏幕显示中文课程作业内容。",
+      "多名学生背对镜头，部分举着手机拍摄屏幕。"
+    ]
+  },
+  "label_id": "cpl_b7aa5b4b2188334a90e482c4",
+  "provenance": {
+    "generated_at": "2026-08-03T11:22:00.924391+00:00",
+    "migrated_at": "2026-08-03T11:22:00.927020+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ac431ffee939bf5d365ceb816823b706ba1fa0502553be1f63426b8990f9c007",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e9b02aae8039ea27fd346b17",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:22:00.927786+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e9b02aae8039ea27fd346b17"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "课外作业:小论文(任选一)",
+      "一旦发现抄袭,以零分计算!",
+      "截止日期 2024-05-20 23:00"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "课外作业:小论文(任选一)",
+      "一旦发现抄袭,以零分计算!",
+      "截止日期 2024-05-20 23:00"
+    ]
+  }
+}

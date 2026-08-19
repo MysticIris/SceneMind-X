@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2030.jpg",
+    "relative_path": "val/2030.jpg",
+    "sha256": "16aa62c3a19ff188d8d3eeb457f950402c4c028363e077e6a3796c72e1b44a7a",
+    "split": "val"
+  },
+  "canonical_sha256": "012492e5442842558b421e5178ca90145c8eae16376fd204e2a2f9ae5588ce74",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "棕熊",
+      "树干",
+      "丛林",
+      "动物栖息"
+    ],
+    "short_description": "一只棕熊趴在粗壮的倒木上，背景是茂密的热带植被，地面有另一只熊的背影。",
+    "theme": "棕熊栖息于树干"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能是在休息或观察周围环境。"
+    ],
+    "direct_observations": [
+      "一只棕熊趴在一根粗大的倒木上，前爪搭在树干上。",
+      "背景是密集的绿色植物，包括棕榈叶和其他灌木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "趴伏",
+      "栖息"
+    ],
+    "attributes": [
+      "棕毛",
+      "粗糙树皮",
+      "茂密绿植"
+    ],
+    "relations": [
+      "棕熊位于树干上。",
+      "树干横跨画面。"
+    ],
+    "scene": "户外自然环境",
+    "subjects": [
+      "棕熊",
+      "树干",
+      "植被"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能是在休息或观察周围环境。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只棕熊趴在一根粗大的倒木上，前爪搭在树干上；背景是密集的绿色植物，包括棕榈叶和其他灌木。",
+    "safe_facts": [
+      "一只棕熊趴在一根粗大的倒木上，前爪搭在树干上。",
+      "背景是密集的绿色植物，包括棕榈叶和其他灌木。"
+    ]
+  },
+  "label_id": "cpl_973743a95b44d8119196fb05",
+  "provenance": {
+    "generated_at": "2026-08-03T15:50:21.028094+00:00",
+    "migrated_at": "2026-08-03T15:50:21.029551+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e55160529622d54bb20f5fa85b74be9057de49b357624c5921ce7212895fcf2c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1d0614ea8e4e3292ada6886c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:50:21.029763+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1d0614ea8e4e3292ada6886c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

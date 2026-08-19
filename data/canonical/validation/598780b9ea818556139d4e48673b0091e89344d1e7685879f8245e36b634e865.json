@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2167.jpg",
+    "relative_path": "val/2167.jpg",
+    "sha256": "598780b9ea818556139d4e48673b0091e89344d1e7685879f8245e36b634e865",
+    "split": "val"
+  },
+  "canonical_sha256": "4bcc2de03257224709674e55b8c0c96d736e708bb7ce46cae6d0fb09290aaf2c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "教学幻灯片",
+      "方言笑话",
+      "幽默分析"
+    ],
+    "short_description": "课堂幻灯片，要求学生用家乡方言写搞笑段子并分析逻辑与幽默点。",
+    "theme": "大学教学任务"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现的是一个教学场景中的屏幕内容。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "屏幕顶部有校徽和校名",
+      "屏幕右侧有水墨画"
+    ],
+    "relations": [
+      "校徽位于屏幕左上角。"
+    ],
+    "scene": "教室或讲台前的投影屏幕",
+    "subjects": [
+      "投影屏幕"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现的是一个教学场景中的屏幕内容。",
+    "safe_facts": [
+      "图像呈现的是一个教学场景中的屏幕内容。"
+    ]
+  },
+  "label_id": "cpl_254d693a856acacd04533a38",
+  "provenance": {
+    "generated_at": "2026-08-03T16:07:37.433056+00:00",
+    "migrated_at": "2026-08-03T16:07:37.435527+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "15c9fc2e2c449b81f31599fcf6405624d8335a5a0b0c380ab937c553ef240772",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5f2f8e7c475548e6c21db769",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:07:37.435898+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5f2f8e7c475548e6c21db769"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "华中科技大学",
+      "21、试用你家乡的方言写一个搞笑的段子,并点出其中逻辑和幽默的亮点。"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "华中科技大学",
+      "21、试用你家乡的方言写一个搞笑的段子,并点出其中逻辑和幽默的亮点。"
+    ]
+  }
+}

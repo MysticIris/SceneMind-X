@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1655.jpg",
+    "relative_path": "train/1655.jpg",
+    "sha256": "af15ef523571133c80b9e20043ada327266be44016cadb29973464e8a43e6790",
+    "split": "train"
+  },
+  "canonical_sha256": "2dfb00d402d3d8bd52560b35110641b1fdf0fc654b2f551aaabe2d365134433f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "天安门",
+      "广场",
+      "红墙",
+      "车辆"
+    ],
+    "short_description": "天安门广场上，红墙金瓦的建筑前有车辆和行人，天空多云。",
+    "theme": "天安门广场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央是一座具有传统中式屋顶的红色建筑。",
+      "广场上有公交车、出租车和轿车等车辆。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红墙",
+      "金色屋檐",
+      "多云天空",
+      "铺装地面"
+    ],
+    "relations": [
+      "车辆在广场上行驶。",
+      "建筑位于广场后方。"
+    ],
+    "scene": "天安门广场",
+    "subjects": [
+      "建筑",
+      "车辆",
+      "行人",
+      "交通设施"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是一座具有传统中式屋顶的红色建筑；广场上有公交车、出租车和轿车等车辆。",
+    "safe_facts": [
+      "画面中央是一座具有传统中式屋顶的红色建筑。",
+      "广场上有公交车、出租车和轿车等车辆。"
+    ]
+  },
+  "label_id": "cpl_a269ce6e7242e7f89c2bdc6d",
+  "provenance": {
+    "generated_at": "2026-08-02T22:22:01.585055+00:00",
+    "migrated_at": "2026-08-03T07:13:41.702714+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "642b21dffe80cf233eb0f8c09a3c3dad7105a25c5322e221497b5a9aab15da61",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_616d1781cb774ae04371d581",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:50:34.935631+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_616d1781cb774ae04371d581",
+    "cpl_44cc29021cad978b64035904"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

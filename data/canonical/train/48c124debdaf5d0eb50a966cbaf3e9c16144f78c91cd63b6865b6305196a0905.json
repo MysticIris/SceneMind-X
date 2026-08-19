@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:507.jpg",
+    "relative_path": "train/507.jpg",
+    "sha256": "48c124debdaf5d0eb50a966cbaf3e9c16144f78c91cd63b6865b6305196a0905",
+    "split": "train"
+  },
+  "canonical_sha256": "f104bfcb599c15c1ea55a29ed961ab8d7f1e2ed2bc9a5a88ecc96589b929e111",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "湖泊",
+      "绿树",
+      "晴天",
+      "水面"
+    ],
+    "short_description": "平静湖面倒映蓝天，远处绿树成荫，近处枝叶点缀画面，水面上漂浮着网状物。",
+    "theme": "湖畔静景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "水面上可能有养殖网具。"
+    ],
+    "direct_observations": [
+      "水面平静，反射天空颜色。",
+      "画面前景和右上角有绿色树叶。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "平静水面",
+      "绿色植被",
+      "浅蓝色天空"
+    ],
+    "relations": [
+      "树木位于湖岸。",
+      "枝叶位于画面前景。"
+    ],
+    "scene": "开阔水域与岸边植被",
+    "subjects": [
+      "湖面",
+      "树木",
+      "天空",
+      "枝叶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "水面上可能有养殖网具。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "水面平静，反射天空颜色；画面前景和右上角有绿色树叶。",
+    "safe_facts": [
+      "水面平静，反射天空颜色。",
+      "画面前景和右上角有绿色树叶。"
+    ]
+  },
+  "label_id": "cpl_40f305520f62d950805d8c3c",
+  "provenance": {
+    "generated_at": "2026-08-03T11:17:57.207356+00:00",
+    "migrated_at": "2026-08-03T11:17:57.208789+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9f0b414c9ea16c3facc86c07d4efbb486b70a9648a34e220478d81de0eea3201",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e925779292c6f7b66277e39f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:17:57.208987+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e925779292c6f7b66277e39f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

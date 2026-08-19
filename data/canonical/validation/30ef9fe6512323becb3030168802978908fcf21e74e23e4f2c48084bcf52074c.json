@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2056.jpg",
+    "relative_path": "val/2056.jpg",
+    "sha256": "30ef9fe6512323becb3030168802978908fcf21e74e23e4f2c48084bcf52074c",
+    "split": "val"
+  },
+  "canonical_sha256": "edf40ae20e79a38786cb99d07899ff52465cd476c03d81a4f1ce7b963d826e30",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "树林",
+      "树干",
+      "绿叶",
+      "自然景观"
+    ],
+    "short_description": "茂密的树林中，多根树干交错生长，枝叶繁盛，地面覆盖着落叶与绿草。",
+    "theme": "林间树丛"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "树丛可能生长在湿润环境中，因树皮纹理和植被状态推测。"
+    ],
+    "direct_observations": [
+      "画面中有多个树干，树皮呈棕色且有裂纹。",
+      "树冠浓密，叶片呈深绿色，部分遮挡天空。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "枝叶茂密",
+      "树皮粗糙",
+      "地面有落叶"
+    ],
+    "relations": [
+      "树干相互交错。",
+      "树叶覆盖天空。"
+    ],
+    "scene": "户外林地",
+    "subjects": [
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "树丛可能生长在湿润环境中，因树皮纹理和植被状态推测。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个树干，树皮呈棕色且有裂纹；树冠浓密，叶片呈深绿色，部分遮挡天空。",
+    "safe_facts": [
+      "画面中有多个树干，树皮呈棕色且有裂纹。",
+      "树冠浓密，叶片呈深绿色，部分遮挡天空。"
+    ]
+  },
+  "label_id": "cpl_b91feedad786beb67699dd28",
+  "provenance": {
+    "generated_at": "2026-08-03T15:54:18.816372+00:00",
+    "migrated_at": "2026-08-03T15:54:18.818290+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4abafa9d8c84e2c159b0d9de2c0a3cccd50481f3f145c9da83ae501eb452f6d0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_365bca12395d6586b28df491",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:54:18.818495+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_365bca12395d6586b28df491"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

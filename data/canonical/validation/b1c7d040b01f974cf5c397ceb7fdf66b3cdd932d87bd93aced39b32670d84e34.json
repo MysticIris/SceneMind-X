@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2061.jpg",
+    "relative_path": "val/2061.jpg",
+    "sha256": "b1c7d040b01f974cf5c397ceb7fdf66b3cdd932d87bd93aced39b32670d84e34",
+    "split": "val"
+  },
+  "canonical_sha256": "68ecbaa1da3e2a38504c4ba542a041c2c82f0e64fba150653f60ba22c219ef88",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市天际线",
+      "黄昏云彩",
+      "树影剪影"
+    ],
+    "short_description": "城市建筑群在黄昏天空下，云层厚重，树影剪影清晰，天边透出微光。",
+    "theme": "城市黄昏云景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自地平线方向，可能为日落或日出时段。"
+    ],
+    "direct_observations": [
+      "天空布满灰蓝色云层，底部有淡粉色光晕。",
+      "前景树木呈现黑色剪影，轮廓清晰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黄昏光线",
+      "阴沉天空",
+      "剪影效果"
+    ],
+    "relations": [
+      "树木位于前景。",
+      "建筑物位于中景。",
+      "云层覆盖天空。"
+    ],
+    "scene": "城市建筑与天空交界处",
+    "subjects": [
+      "建筑物",
+      "树木",
+      "云层"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自地平线方向，可能为日落或日出时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空布满灰蓝色云层，底部有淡粉色光晕；前景树木呈现黑色剪影，轮廓清晰。",
+    "safe_facts": [
+      "天空布满灰蓝色云层，底部有淡粉色光晕。",
+      "前景树木呈现黑色剪影，轮廓清晰。"
+    ]
+  },
+  "label_id": "cpl_99bc94251b232f5f03fd9911",
+  "provenance": {
+    "generated_at": "2026-08-03T15:53:54.717896+00:00",
+    "migrated_at": "2026-08-03T15:53:54.720583+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ada49b14fce946a36e3ebdbfa039ffd63f906f4a72ed416eb21a0d78b83b9fb0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_41859df51f2dd3f7f44215c5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:53:54.720872+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_41859df51f2dd3f7f44215c5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

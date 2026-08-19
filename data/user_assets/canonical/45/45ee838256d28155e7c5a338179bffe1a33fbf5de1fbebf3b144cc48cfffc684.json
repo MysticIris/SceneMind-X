@@ -1,0 +1,136 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_263c89688a5466d0b62220c2",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_8f8a240d5029a96e22c3d3e8"
+  ],
+  "asset": {
+    "asset_id": "45ee838256d28155",
+    "sha256": "45ee838256d28155e7c5a338179bffe1a33fbf5de1fbebf3b144cc48cfffc684",
+    "split": "user_custom",
+    "relative_path": "user_assets/45/45ee838256d28155e7c5a338179bffe1a33fbf5de1fbebf3b144cc48cfffc684/45ee838256d28155e7c5a338179bffe1a33fbf5de1fbebf3b144cc48cfffc684.jpg"
+  },
+  "display": {
+    "theme": "水泥地上的快递纸箱",
+    "short_description": "一个棕色瓦楞纸箱放置在灰色水泥地面上，箱体表面缠绕着透明胶带进行加固，顶部贴有一张白色的物流面单。纸箱左上角的地面上有一块白色的片状垃圾，图片上方边缘可见黑色轮胎的局部。",
+    "micro_tags": [
+      "快递包裹",
+      "瓦楞纸箱",
+      "水泥地面",
+      "物流面单",
+      "透明胶带",
+      "户外场景"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "室外或半室外的水泥硬化地面",
+    "subjects": [
+      "棕色瓦楞纸箱",
+      "白色物流面单",
+      "透明封箱胶带",
+      "地面白色碎片",
+      "黑色轮胎局部"
+    ],
+    "actions": [],
+    "attributes": [
+      "棕色",
+      "方形",
+      "被胶带缠绕",
+      "贴有标签",
+      "静止放置"
+    ],
+    "relations": [
+      "纸箱位于画面中央。",
+      "面单贴在纸箱顶部。",
+      "白色碎片位于纸箱左后方地面。",
+      "轮胎位于画面上方边缘。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "一个封闭的棕色瓦楞纸箱放置在粗糙的灰色水泥地面上。",
+      "纸箱顶部和侧面有多道透明胶带交叉缠绕固定。",
+      "纸箱顶面贴有一张包含条形码和二维码的白色矩形标签。",
+      "画面左上角地面有一块白色的扁平废弃物。",
+      "画面正上方边缘可见黑色橡胶轮胎的下部。"
+    ],
+    "cautious_inferences": [
+      "该纸箱看起来是一个待寄出或刚送达的快递包裹。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_unreadable",
+    "visual_candidates": [],
+    "ocr_candidates": [],
+    "candidate_text": [],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "一个封闭的棕色瓦楞纸箱放置在粗糙的灰色水泥地面上；纸箱顶部和侧面有多道透明胶带交叉缠绕固定。",
+    "safe_facts": [
+      "一个封闭的棕色瓦楞纸箱放置在粗糙的灰色水泥地面上。",
+      "纸箱顶部和侧面有多道透明胶带交叉缠绕固定。",
+      "纸箱顶面贴有一张包含条形码和二维码的白色矩形标签。"
+    ],
+    "do_not_assert": [
+      "该纸箱看起来是一个待寄出或刚送达的快递包裹。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_b4c8ddf7-d768-4768-982c-29b77647f1ea",
+    "generated_at": "2026-08-12T03:13:57.842764+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "48c9c67e31b1e897888b0ea12cb3fd0a9209ba3d878663569e5f8ba386415fe3",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:13:57.843329+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_8f8a240d5029a96e22c3d3e8",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:13:57.843639+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "47077e8a42ae80a1bd75d845deb86de5f9becd34f0f9319cf2436b0cbda1763e"
+}

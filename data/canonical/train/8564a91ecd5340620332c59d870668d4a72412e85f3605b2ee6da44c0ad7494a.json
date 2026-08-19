@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1556.jpg",
+    "relative_path": "train/1556.jpg",
+    "sha256": "8564a91ecd5340620332c59d870668d4a72412e85f3605b2ee6da44c0ad7494a",
+    "split": "train"
+  },
+  "canonical_sha256": "92502952e9c1a5fcd0eb27c7614ace8475736446ae846baecc07ea049b116f75",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "唐代陶器",
+      "博物馆展品",
+      "玻璃展柜"
+    ],
+    "short_description": "玻璃展柜内陈列唐代陶器，包括双耳罐、碗及陶珠，配有说明牌。",
+    "theme": "唐代陶器展陈"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "玻璃展柜内陈列多个陶器文物。",
+      "陶器表面呈现陶土原色或绿釉。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "陶制",
+      "带裂痕",
+      "绿色釉面",
+      "棕色陶土"
+    ],
+    "relations": [
+      "陶器陈列于玻璃展柜中。",
+      "每件陶器旁有说明牌。"
+    ],
+    "scene": "博物馆展柜内景",
+    "subjects": [
+      "陶碗"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "玻璃展柜内陈列多个陶器文物；陶器表面呈现陶土原色或绿釉。",
+    "safe_facts": [
+      "玻璃展柜内陈列多个陶器文物。",
+      "陶器表面呈现陶土原色或绿釉。"
+    ]
+  },
+  "label_id": "cpl_0b0c964dd8967c40242d34e5",
+  "provenance": {
+    "generated_at": "2026-08-03T14:37:42.332044+00:00",
+    "migrated_at": "2026-08-03T14:37:42.340157+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a33e3f27dc901d986cef49b13b1a555ead05f8c5d4c447e54bf9bb0a8a6e3679",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_697228af45e06009ebd37284",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:37:42.344061+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_697228af45e06009ebd37284"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "双耳罐 (唐代)",
+      "Pot (Tang Dynasty)",
+      "陶珠 (唐代)",
+      "Pottery Bead (Tang Dynasty)",
+      "围棋子 (唐代)",
+      "Stone for the Game of Go (Tang Dynasty)"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "双耳罐 (唐代)",
+      "Pot (Tang Dynasty)",
+      "陶珠 (唐代)",
+      "Pottery Bead (Tang Dynasty)",
+      "围棋子 (唐代)",
+      "Stone for the Game of Go (Tang Dynasty)"
+    ]
+  }
+}

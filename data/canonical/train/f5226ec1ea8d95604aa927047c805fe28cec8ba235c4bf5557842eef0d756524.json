@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:750.jpg",
+    "relative_path": "train/750.jpg",
+    "sha256": "f5226ec1ea8d95604aa927047c805fe28cec8ba235c4bf5557842eef0d756524",
+    "split": "train"
+  },
+  "canonical_sha256": "a4ca4c8f9df8cf77565b2fc5831de689a7b5b368d8793cf6a860887f1b4d20c6",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "感谢老师",
+      "卡通插画",
+      "告示牌"
+    ],
+    "short_description": "一个装有卡通图案的粉色告示牌挂在瓷砖墙面上。",
+    "theme": "感谢老师主题海报"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "告示牌为金属材质，带有顶部投递口。",
+      "告示牌表面贴有粉色背景的宣传海报。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "粉色背景",
+      "金属边框",
+      "带投递口"
+    ],
+    "relations": [
+      "告示牌固定在墙面上。"
+    ],
+    "scene": "室内墙面",
+    "subjects": [
+      "告示牌",
+      "卡通儿童图案"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "告示牌为金属材质，带有顶部投递口；告示牌表面贴有粉色背景的宣传海报。",
+    "safe_facts": [
+      "告示牌为金属材质，带有顶部投递口。",
+      "告示牌表面贴有粉色背景的宣传海报。"
+    ]
+  },
+  "label_id": "cpl_fc635a223054131565b54ed8",
+  "provenance": {
+    "generated_at": "2026-08-03T12:15:14.079637+00:00",
+    "migrated_at": "2026-08-03T12:15:14.084691+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "eaf05d4fb35a9ece1ed4940bfcde93708d7f6f878425f54d9a2b54bc36913753",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_024888b0f0e0dd1622f956d3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:15:14.088901+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_024888b0f0e0dd1622f956d3"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "THANK",
+      "老师我想对您说",
+      "让我们的血液充满暖暖的生机",
+      "我们在老师的爱里美好洋溢着美妙希望的歌声",
+      "我们把家乡美丽的童话变成太阳照耀的棉花",
+      "太阳每天都会给我们温暖快乐充满了我们芬芳的生命"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "THANK",
+      "老师我想对您说",
+      "让我们的血液充满暖暖的生机",
+      "我们在老师的爱里美好洋溢着美妙希望的歌声",
+      "我们把家乡美丽的童话变成太阳照耀的棉花",
+      "太阳每天都会给我们温暖快乐充满了我们芬芳的生命"
+    ]
+  }
+}

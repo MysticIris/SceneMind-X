@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:405.jpg",
+    "relative_path": "train/405.jpg",
+    "sha256": "5847610475d62fb6a136774d7a6ffa32d9f880a65941d1d5c845cd2949a10ff2",
+    "split": "train"
+  },
+  "canonical_sha256": "a6fc8c60b109182983b6b35f45b48a2ae23548cd6f9544ef8e7002b8f9453da7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红色机械臂",
+      "工业自动化",
+      "生产线"
+    ],
+    "short_description": "红色机械臂在自动化产线作业，周围有橙色设备和操作人员。",
+    "theme": "工业机器人工作站"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一台红色机械臂安装在金属工作台上。",
+      "背景中有两名人员站立。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色",
+      "金属材质",
+      "带黑色软管"
+    ],
+    "relations": [
+      "机械臂位于工作台上。",
+      "操作人员在背景中。"
+    ],
+    "scene": "工厂车间或实训室",
+    "subjects": [
+      "红色机械臂",
+      "操作人员",
+      "工作台"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一台红色机械臂安装在金属工作台上；背景中有两名人员站立。",
+    "safe_facts": [
+      "一台红色机械臂安装在金属工作台上。",
+      "背景中有两名人员站立。"
+    ]
+  },
+  "label_id": "cpl_54b9d5a7d469a1c9cc22f1a9",
+  "provenance": {
+    "generated_at": "2026-08-03T10:56:17.791155+00:00",
+    "migrated_at": "2026-08-03T10:56:17.792535+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c8a586f9746d97cf57862a5c6a424556926cdaa3694add5fd09a746fcf3fe025",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b84139c225f3d4d4131674af",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:56:17.792724+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b84139c225f3d4d4131674af"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

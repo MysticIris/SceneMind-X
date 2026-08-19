@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2143.jpg",
+    "relative_path": "val/2143.jpg",
+    "sha256": "9ce6439c8e57248169d90fb8d1ef1443387859135d034cf35c3bd01d2c0d47fd",
+    "split": "val"
+  },
+  "canonical_sha256": "68fa433eef1cb5d59486671b68f3e9a5e49cc9416b972a8a251c8636877b062a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "课堂",
+      "黑板",
+      "电路图"
+    ],
+    "short_description": "一名男性教师在黑板前讲解电路原理，学生坐在课桌后听课，黑板上有手绘电路图和公式。",
+    "theme": "课堂讲授电路图"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一名男性教师站在黑板前，右手抬起指向黑板上的内容。",
+      "多名学生背对镜头坐在课桌后。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "讲解",
+      "听讲"
+    ],
+    "attributes": [
+      "黑板",
+      "电路图",
+      "公式",
+      "课桌"
+    ],
+    "relations": [
+      "教师站在黑板前。",
+      "学生坐在课桌后。"
+    ],
+    "scene": "教室",
+    "subjects": [
+      "教师",
+      "学生"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名男性教师站在黑板前，右手抬起指向黑板上的内容；多名学生背对镜头坐在课桌后。",
+    "safe_facts": [
+      "一名男性教师站在黑板前，右手抬起指向黑板上的内容。",
+      "多名学生背对镜头坐在课桌后。"
+    ]
+  },
+  "label_id": "cpl_73644d92d9b22d4b06960597",
+  "provenance": {
+    "generated_at": "2026-08-03T16:04:39.702943+00:00",
+    "migrated_at": "2026-08-03T16:04:39.704721+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a5599c50102dae467f8963cf7fdcd7240dfa8148878f2d16e642418ee142ae8c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2a82e57259bf0a2b48f8dceb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:04:39.704922+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2a82e57259bf0a2b48f8dceb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

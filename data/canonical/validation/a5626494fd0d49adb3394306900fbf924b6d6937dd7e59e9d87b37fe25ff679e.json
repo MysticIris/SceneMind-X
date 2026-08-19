@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2206.jpg",
+    "relative_path": "val/2206.jpg",
+    "sha256": "a5626494fd0d49adb3394306900fbf924b6d6937dd7e59e9d87b37fe25ff679e",
+    "split": "val"
+  },
+  "canonical_sha256": "d1adab57e6dac7acbe0e960489c113a1f4b6104cddd84e8df849a364897fe76c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑毛动物",
+      "竹筒平台",
+      "丛林环境"
+    ],
+    "short_description": "两只黑色毛茸茸的动物背对镜头坐在竹筒架上，周围环绕着茂密绿叶和树木。",
+    "theme": "丛林中的黑毛动物"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两只动物背对镜头，毛发呈黑色，体型较大。",
+      "动物坐在由竹筒组成的水平平台上，平台有多个圆形孔洞。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色毛发",
+      "坐姿",
+      "竹筒平台",
+      "绿色树叶"
+    ],
+    "relations": [
+      "动物位于竹筒平台上。",
+      "动物被树木环绕。"
+    ],
+    "scene": "户外丛林环境",
+    "subjects": [
+      "两只黑色毛茸茸的动物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两只动物背对镜头，毛发呈黑色，体型较大；动物坐在由竹筒组成的水平平台上，平台有多个圆形孔洞。",
+    "safe_facts": [
+      "两只动物背对镜头，毛发呈黑色，体型较大。",
+      "动物坐在由竹筒组成的水平平台上，平台有多个圆形孔洞。"
+    ]
+  },
+  "label_id": "cpl_ae5f6711c131e9804c05881c",
+  "provenance": {
+    "generated_at": "2026-08-03T16:13:44.175314+00:00",
+    "migrated_at": "2026-08-03T16:13:44.177142+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "920083e91a23f0f95d9aa5a0d73be77a7cbaebf94473921608f93547f140104e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ccc12f98c487b0a874c63d63",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:13:44.177350+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ccc12f98c487b0a874c63d63"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

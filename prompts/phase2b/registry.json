@@ -1,0 +1,65 @@
+{
+  "registry_version": "scenemindx_phase2b_prompt_registry_v1",
+  "stages": {
+    "media_router": {
+      "version": "phase2b_media_router_v1",
+      "status": "approved_for_four_image_recovery_smoke_implementation",
+      "modules": [
+        {
+          "file": "media_router/system.txt",
+          "sha256": "d3681fbcaa7b2d68d024ee10e4463d4e4f5007fdee22c6ba75bdb4b2796f4ba2"
+        },
+        {
+          "file": "media_router/task.txt",
+          "sha256": "6f17531632f2c7329940ad1c55aa602ef0d68008672f1e7f1f1c51ffc0639a81"
+        },
+        {
+          "file": "media_router/examples.json",
+          "sha256": "ed3facbfce497431708a6170b0b9e9227fed235cf4b44c3f6811eae96af96182"
+        },
+        {
+          "file": "media_router/skeleton.json",
+          "sha256": "9bbf9cf01e5cd0add1b6d42186ac08f92a0f00b2b70934913fc1c41a668267dd"
+        }
+      ]
+    },
+    "semantic_extractor": {
+      "version": "phase2b_semantic_extractor_v1",
+      "status": "approved_for_four_image_recovery_smoke_implementation",
+      "modules": [
+        {
+          "file": "semantic_extractor/system.txt",
+          "sha256": "e3b925318345675e348f09421a260a9b52d2798b03233239db8e1874311fd90e"
+        },
+        {
+          "file": "semantic_extractor/base_task.txt",
+          "sha256": "0fcc554982fd37400439e04e6bed8b2151a2b98dc4f902695d1ca42774ac423c"
+        },
+        {
+          "file": "semantic_extractor/real_photo_addendum.txt",
+          "sha256": "8f4bfe40d91061103eff2e385248ec37cfca99cf5d76199078842accd11a42d4"
+        },
+        {
+          "file": "semantic_extractor/presentation_slide_addendum.txt",
+          "sha256": "148f027ba86f0be19cb98a6d9afd3375f2dba7e5fab6e4fcf93c04399be742a2"
+        },
+        {
+          "file": "semantic_extractor/meme_addendum.txt",
+          "sha256": "62bbd78614e9306ca47bd54966d88937d01b80a6afd368c7e425d1824d0848c9"
+        },
+        {
+          "file": "semantic_extractor/default_addendum.txt",
+          "sha256": "5ccc84d2bc3da4573d8af566dab289898defa06f83aecc5b5c25ddaad762a031"
+        },
+        {
+          "file": "semantic_extractor/examples.json",
+          "sha256": "2d61a828d5cec30bc9a1d964e63fa57753278c256b7b54279c49bc70f08b04a7"
+        },
+        {
+          "file": "semantic_extractor/skeleton.json",
+          "sha256": "3e6cbb2288417da352c8a573383bf23b4102c10b028fc3c1f10e626b5063364c"
+        }
+      ]
+    }
+  }
+}

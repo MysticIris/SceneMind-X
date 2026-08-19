@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:105.jpg",
+    "relative_path": "train/105.jpg",
+    "sha256": "ee77761818a40b014ff992c534767ad93d364bb8190a2618890c09778a320fa1",
+    "split": "train"
+  },
+  "canonical_sha256": "211a5fb6befdb508b3afc5643e0b146d2a1cefef379b6e5ed5c1ea3e6570a024",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "秋日森林",
+      "河流景观",
+      "空中俯拍"
+    ],
+    "short_description": "俯瞰视角下，一条深蓝色河流穿行于色彩斑斓的秋林之间，一座桥梁横跨水面，两岸树木呈现橙黄绿交织的秋色。",
+    "theme": "秋日河谷俯瞰"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "树木叶子呈现秋季典型颜色变化，包括橙色、黄色和绿色。"
+    ],
+    "direct_observations": [
+      "画面从高空俯视，展现河流蜿蜒穿过森林。",
+      "河流呈深蓝色，表面有白色水花和波纹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深蓝色河水",
+      "多彩秋叶",
+      "木质桥梁"
+    ],
+    "relations": [
+      "桥梁横跨河流。",
+      "树木环绕河流两侧。"
+    ],
+    "scene": "河流穿过秋季树林的山谷",
+    "subjects": [
+      "河流",
+      "树木",
+      "桥梁"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "树木叶子呈现秋季典型颜色变化，包括橙色、黄色和绿色。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面从高空俯视，展现河流蜿蜒穿过森林；河流呈深蓝色，表面有白色水花和波纹。",
+    "safe_facts": [
+      "画面从高空俯视，展现河流蜿蜒穿过森林。",
+      "河流呈深蓝色，表面有白色水花和波纹。"
+    ]
+  },
+  "label_id": "cpl_f0517b547f6cd2db25ea228f",
+  "provenance": {
+    "generated_at": "2026-08-03T09:26:30.350824+00:00",
+    "migrated_at": "2026-08-03T09:26:30.352242+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a865537eeb429124eb3aab04a4e1e114179c2d173de6964a5bab40f1dfb8c188",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_666c5c5d8997181adc7afa8c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:29.665564+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_666c5c5d8997181adc7afa8c",
+    "cpl_731ffade0807e1cd3119301b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:518.jpg",
+    "relative_path": "train/518.jpg",
+    "sha256": "3ccdaf2b62b0fdb9cadd17a28cfd6f4443b0ba9cdf42ba0f6d93f83583bbb592",
+    "split": "train"
+  },
+  "canonical_sha256": "c3e29020c0e1a92f32b0d60d03dcdb5563a96207286f2ad88eadc2cb8f8be092",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市景观",
+      "人群聚集",
+      "摩天大楼"
+    ],
+    "short_description": "黄昏时分，众多游客聚集于城市滨水区，背景是标志性的摩天大楼群和塔楼。",
+    "theme": "城市天际线与人群"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天空呈现灰蓝色，有云层覆盖。",
+      "前景有多人聚集，部分人举起手机拍摄。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黄昏",
+      "阴云",
+      "城市建筑群"
+    ],
+    "relations": [],
+    "scene": "城市滨水区黄昏景象",
+    "subjects": [
+      "人群",
+      "摩天大楼",
+      "塔楼"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现灰蓝色，有云层覆盖；前景有多人聚集，部分人举起手机拍摄。",
+    "safe_facts": [
+      "天空呈现灰蓝色，有云层覆盖。",
+      "前景有多人聚集，部分人举起手机拍摄。"
+    ]
+  },
+  "label_id": "cpl_693fcc1120d0c8e9754815d6",
+  "provenance": {
+    "generated_at": "2026-08-03T11:20:20.134182+00:00",
+    "migrated_at": "2026-08-03T11:20:20.136029+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "519fe646a1680fe6f7610074803c57e062ae6da0a0809ec852d2c99997235db2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2d5fbdfde59fb6185d9faefd",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:20:20.136289+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2d5fbdfde59fb6185d9faefd"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

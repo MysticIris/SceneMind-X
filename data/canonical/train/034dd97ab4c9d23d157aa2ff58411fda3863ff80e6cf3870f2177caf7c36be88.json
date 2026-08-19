@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1433.jpg",
+    "relative_path": "train/1433.jpg",
+    "sha256": "034dd97ab4c9d23d157aa2ff58411fda3863ff80e6cf3870f2177caf7c36be88",
+    "split": "train"
+  },
+  "canonical_sha256": "f981a2665595a3318ddd4c7928f5b89a2fed6d8adf52a533825bf131e5bc17ef",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "星空",
+      "雪山",
+      "月光",
+      "奇幻景观"
+    ],
+    "short_description": "雪覆峡谷中，红蓝星月辉映水面，天空如星河倒悬，神秘而壮丽。",
+    "theme": "星夜奇幻峡谷"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空中的星云状区域可能由发光粒子构成，但无法确认其物理本质。"
+    ],
+    "direct_observations": [
+      "画面中有一轮明亮的月亮悬于深蓝色夜空中。",
+      "水面呈现红色与蓝色光斑的反射，周围有冰雪覆盖的山体。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色星云",
+      "蓝色月光",
+      "冰雪覆盖",
+      "反射光斑"
+    ],
+    "relations": [
+      "月亮在天空中。",
+      "水面反射星光与月光。",
+      "山脉环绕峡谷。"
+    ],
+    "scene": "雪山峡谷夜景",
+    "subjects": [
+      "月亮",
+      "山脉",
+      "水面",
+      "星空"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空中的星云状区域可能由发光粒子构成，但无法确认其物理本质。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一轮明亮的月亮悬于深蓝色夜空中；水面呈现红色与蓝色光斑的反射，周围有冰雪覆盖的山体。",
+    "safe_facts": [
+      "画面中有一轮明亮的月亮悬于深蓝色夜空中。",
+      "水面呈现红色与蓝色光斑的反射，周围有冰雪覆盖的山体。"
+    ]
+  },
+  "label_id": "cpl_09afbd49029156cd371950aa",
+  "provenance": {
+    "generated_at": "2026-08-03T14:23:40.279969+00:00",
+    "migrated_at": "2026-08-03T14:23:40.284214+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4790dd9162a524235f9c1b48e9b64d64f054919f9f826ba197617b0bae2cb409",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e55d699b9cfc53f5ca79ef58",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:23:40.284583+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e55d699b9cfc53f5ca79ef58"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

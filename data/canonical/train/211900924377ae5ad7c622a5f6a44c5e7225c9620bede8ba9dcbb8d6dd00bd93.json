@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1973.jpg",
+    "relative_path": "train/1973.jpg",
+    "sha256": "211900924377ae5ad7c622a5f6a44c5e7225c9620bede8ba9dcbb8d6dd00bd93",
+    "split": "train"
+  },
+  "canonical_sha256": "42ce56f6a6eeef5ac83957c030f0dbdb4958b83bb3bef86d96f28fd1c4894d5a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "桥梁",
+      "城市",
+      "花卉"
+    ],
+    "short_description": "夜幕下，一座现代拱桥横跨水面，背景高楼亮灯，前景有紫红色花丛。",
+    "theme": "夜景城市桥梁"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现夜晚的城市景观。",
+      "前景有密集的紫红色花朵。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间照明",
+      "水面波光",
+      "紫色花朵"
+    ],
+    "relations": [
+      "桥梁横跨水面。",
+      "花丛位于前景。"
+    ],
+    "scene": "城市夜景",
+    "subjects": [
+      "拱形桥梁",
+      "高楼建筑",
+      "水面",
+      "花丛"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现夜晚的城市景观；前景有密集的紫红色花朵。",
+    "safe_facts": [
+      "画面呈现夜晚的城市景观。",
+      "前景有密集的紫红色花朵。"
+    ]
+  },
+  "label_id": "cpl_5eec5f638ace210209b29dd9",
+  "provenance": {
+    "generated_at": "2026-08-03T15:28:38.385192+00:00",
+    "migrated_at": "2026-08-03T15:28:38.387194+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c061de59c417d26de23a8cebeb4ffb2236bb886022a923107eef3339d8a5fec2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4a75d9f27ff2c63b2634c536",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:28:38.387509+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4a75d9f27ff2c63b2634c536"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

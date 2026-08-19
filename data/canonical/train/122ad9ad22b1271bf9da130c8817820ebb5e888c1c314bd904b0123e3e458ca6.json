@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1525.jpg",
+    "relative_path": "train/1525.jpg",
+    "sha256": "122ad9ad22b1271bf9da130c8817820ebb5e888c1c314bd904b0123e3e458ca6",
+    "split": "train"
+  },
+  "canonical_sha256": "23dbd2a0e640b161dc45c12a1d7b55d141c9b3aef19a0a0e5f3a25e9a9128803",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "游客",
+      "古建筑",
+      "宫殿",
+      "红墙黄瓦"
+    ],
+    "short_description": "众多游客在一座大型传统中式宫殿前的广场上活动，背景是橙色琉璃瓦屋顶和红色宫墙。",
+    "theme": "古建筑前游客聚集"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空多云，光线柔和，可能是阴天拍摄。"
+    ],
+    "direct_observations": [
+      "画面中央是一座具有传统中式风格的宫殿建筑，屋顶覆盖橙色琉璃瓦，墙体为红色。",
+      "广场上有大量人群，部分人携带行李箱或背包，正在行走或驻足观看。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "站立",
+      "拍照"
+    ],
+    "attributes": [
+      "橙色琉璃瓦屋顶",
+      "红色宫墙",
+      "石质栏杆",
+      "灰色天空"
+    ],
+    "relations": [
+      "游客位于宫殿前方。",
+      "游客在广场上活动。"
+    ],
+    "scene": "宫殿前广场",
+    "subjects": [
+      "游客",
+      "宫殿建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空多云，光线柔和，可能是阴天拍摄。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是一座具有传统中式风格的宫殿建筑，屋顶覆盖橙色琉璃瓦，墙体为红色；广场上有大量人群，部分人携带行李箱或背包，正在行走或驻足观看。",
+    "safe_facts": [
+      "画面中央是一座具有传统中式风格的宫殿建筑，屋顶覆盖橙色琉璃瓦，墙体为红色。",
+      "广场上有大量人群，部分人携带行李箱或背包，正在行走或驻足观看。"
+    ]
+  },
+  "label_id": "cpl_85abfabecdbe9730b032abac",
+  "provenance": {
+    "generated_at": "2026-08-03T14:33:29.307232+00:00",
+    "migrated_at": "2026-08-03T14:33:29.313557+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a92f148d878b65aacd10002c0e85bc2bc0e416f7bf8fd6947bc39023359ff4b2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0ce9c3fef78de447b25f441b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:33:29.314088+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0ce9c3fef78de447b25f441b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

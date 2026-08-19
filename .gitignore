@@ -1,0 +1,44 @@
+# Credentials and local secrets
+.secrets/*.csv
+.secrets/*.json
+.secrets/*.env
+!.secrets/CREDENTIAL_FILE_GOES_HERE.txt
+
+# Python caches and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Runtime state and logs
+runtime/
+*.log
+*.pid
+
+# Local environment files
+.env
+.env.*
+
+# Future local model weights; retain only the placement note
+models/local/*
+!models/local/MODELS_GO_HERE.txt
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Course-provided datasets are intentionally excluded from the public release
+datasets/course_train/*
+!datasets/course_train/.gitkeep
+datasets/course_val/*
+!datasets/course_val/.gitkeep
+data/cache/thumbnails/phase6_1/train/*
+!data/cache/thumbnails/phase6_1/train/.gitkeep
+data/cache/thumbnails/phase6_1/val/*
+!data/cache/thumbnails/phase6_1/val/.gitkeep

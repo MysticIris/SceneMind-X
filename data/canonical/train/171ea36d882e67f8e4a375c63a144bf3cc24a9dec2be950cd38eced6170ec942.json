@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:553.jpg",
+    "relative_path": "train/553.jpg",
+    "sha256": "171ea36d882e67f8e4a375c63a144bf3cc24a9dec2be950cd38eced6170ec942",
+    "split": "train"
+  },
+  "canonical_sha256": "8c807700eac8a76d385f8908f6bd1b088ae412dbcc09983b34330728fcae5aa7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雾天",
+      "夜间",
+      "高楼",
+      "湿漉漉的路"
+    ],
+    "short_description": "雨后雾气弥漫的城市街道，高楼被灯光照亮，路面湿滑反光，右侧有带顶棚的停车区。",
+    "theme": "雾夜城市街景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能刚下过雨。"
+    ],
+    "direct_observations": [
+      "天空灰暗，有雾气笼罩建筑物。",
+      "路面有水渍并反射灯光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "雾气弥漫",
+      "路面湿润",
+      "灯光照明",
+      "绿色植被"
+    ],
+    "relations": [
+      "路灯照亮道路。",
+      "停车棚位于草坡旁。"
+    ],
+    "scene": "城市街道",
+    "subjects": [
+      "高楼",
+      "路灯",
+      "道路",
+      "草坡",
+      "停车棚"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能刚下过雨。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空灰暗，有雾气笼罩建筑物；路面有水渍并反射灯光。",
+    "safe_facts": [
+      "天空灰暗，有雾气笼罩建筑物。",
+      "路面有水渍并反射灯光。"
+    ]
+  },
+  "label_id": "cpl_a98648c58cb705ee0f67dd18",
+  "provenance": {
+    "generated_at": "2026-08-03T11:31:40.213538+00:00",
+    "migrated_at": "2026-08-03T11:31:40.215409+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "422be345b9eb3f2d77a6042ef4f0238bce18efb32c8ba46f082540c5e1efb08c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_de5712f0e1e339e128057736",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:31:40.215635+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_de5712f0e1e339e128057736"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

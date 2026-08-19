@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:946.jpg",
+    "relative_path": "train/946.jpg",
+    "sha256": "8ad47457bbf6965e134631f665e2152210f852eaa2df04377dcd32c9220a1364",
+    "split": "train"
+  },
+  "canonical_sha256": "6b2af5f4e687b973499a63fe40ffa91a762bffe0ee6d2d5b7b86f05524494073",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "法式面包",
+      "长棍面包",
+      "金黄色",
+      "烘焙食品"
+    ],
+    "short_description": "三根新鲜出炉的法式长棍面包，金黄酥脆，置于白色织物上，呈现诱人质感。",
+    "theme": "法式长棍面包"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "三根法式长棍面包并排摆放。",
+      "面包表皮呈金黄色，有纵向割痕。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金黄色",
+      "表面有割痕",
+      "呈长条形"
+    ],
+    "relations": [
+      "面包放置于布料上。"
+    ],
+    "scene": "白色布料上的面包",
+    "subjects": [
+      "法式长棍面包"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三根法式长棍面包并排摆放；面包表皮呈金黄色，有纵向割痕。",
+    "safe_facts": [
+      "三根法式长棍面包并排摆放。",
+      "面包表皮呈金黄色，有纵向割痕。"
+    ]
+  },
+  "label_id": "cpl_9e83675bb1c9b6e8903496ac",
+  "provenance": {
+    "generated_at": "2026-08-03T13:06:11.034038+00:00",
+    "migrated_at": "2026-08-03T13:06:11.037820+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9c82d8132259ebcf27506abd063063769838888fe1d68eb7f5e815ff92170a04",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9e83675bb1c9b6e8903496ac",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:16.390964+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_37304828cfb632c8d79bb8dc"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

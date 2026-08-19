@@ -1,0 +1,50 @@
+{
+  "schema_version": "scenemindx_prompt_suite_v1_generation_settings_v1",
+  "common_message_contract": {
+    "system_message": null,
+    "message_roles": ["user"],
+    "content_order": ["all_images_in_request_order", "resolved_prompt_text"],
+    "chat_template": {
+      "tokenize": true,
+      "add_generation_prompt": true,
+      "return_dict": true,
+      "return_tensors": "pt"
+    }
+  },
+  "common_generation": {
+    "do_sample": false,
+    "repetition_penalty": 1.05,
+    "no_repeat_ngram_size": 6,
+    "temperature_declared_in_p3_registry": 0.0,
+    "top_p_declared_in_p3_registry": 1.0,
+    "temperature_forwarded_to_model_generate": false,
+    "top_p_forwarded_to_model_generate": false
+  },
+  "tasks": {
+    "p3_v1_4": {
+      "max_new_tokens_by_stage": {
+        "global_subjects": 64,
+        "activities": 32,
+        "attributes": 40,
+        "relations": 40,
+        "visible_text": 24,
+        "scene_hypotheses": 48,
+        "uncertainties": 40,
+        "evidence": 48
+      }
+    },
+    "description_v1": {
+      "max_new_tokens": 512,
+      "min_new_tokens_formula": "min(max(target_length - 20, 160), 330)"
+    },
+    "vqa_v1": {"max_new_tokens": 320},
+    "compare_v1": {"max_new_tokens": 384},
+    "rank_contract_v1": {
+      "max_new_tokens": 32,
+      "repetition_penalty": 1.0,
+      "no_repeat_ngram_size": 0
+    },
+    "content_v1": {"max_new_tokens": 384}
+  },
+  "source": "src/scenemindx/services/vlm.py at source_git_head plus no Prompt-related working-tree modification"
+}

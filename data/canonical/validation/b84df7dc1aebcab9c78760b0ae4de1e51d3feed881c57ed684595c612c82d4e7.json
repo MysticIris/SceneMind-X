@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2156.jpg",
+    "relative_path": "val/2156.jpg",
+    "sha256": "b84df7dc1aebcab9c78760b0ae4de1e51d3feed881c57ed684595c612c82d4e7",
+    "split": "val"
+  },
+  "canonical_sha256": "d3f857cb54805ed3281f5a006e87449c1918304a469b0379449b4bfd4699bb42",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "示波器",
+      "电子设备",
+      "波形图"
+    ],
+    "short_description": "一台黑色数字示波器正在显示多个黄色水平波形，屏幕上有刻度和控制按钮，周围有线缆。",
+    "theme": "示波器屏幕显示波形"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "示波器屏幕上显示多个水平黄色波形。",
+      "设备右侧有多个彩色旋钮和功能按键。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色外壳",
+      "彩色旋钮",
+      "显示屏",
+      "多条黄色波形线"
+    ],
+    "relations": [],
+    "scene": "实验室或工作台环境",
+    "subjects": [
+      "示波器"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "示波器屏幕上显示多个水平黄色波形；设备右侧有多个彩色旋钮和功能按键。",
+    "safe_facts": [
+      "示波器屏幕上显示多个水平黄色波形。",
+      "设备右侧有多个彩色旋钮和功能按键。"
+    ]
+  },
+  "label_id": "cpl_93e3144d7aed7f0e8a8fd336",
+  "provenance": {
+    "generated_at": "2026-08-03T16:07:33.399817+00:00",
+    "migrated_at": "2026-08-03T16:07:33.401712+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e16edb3fd46de578171aac4768040d28691fc6677f958628a24a982f1f216ec5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_37f5d547d35788da46a1514c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:07:33.402305+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_37f5d547d35788da46a1514c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "RIGOL MSO5354 DIGITAL OSCILLOSCOPE",
+      "STOP",
+      "10.0ms",
+      "200MS/s",
+      "CH1",
+      "Measure"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "RIGOL MSO5354 DIGITAL OSCILLOSCOPE",
+      "STOP",
+      "10.0ms",
+      "200MS/s",
+      "CH1",
+      "Measure"
+    ]
+  }
+}

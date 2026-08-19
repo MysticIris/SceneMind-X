@@ -1,0 +1,129 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_e6a4d7bcccf0676e172302dc",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_19418fb1b2c4405bd48f4b5e"
+  ],
+  "asset": {
+    "asset_id": "b501de0d8d7a6fbd",
+    "sha256": "b501de0d8d7a6fbd7778629b6ccacdfb77c5f4e50b0b18b7249ae5bcfe0f240f",
+    "split": "user_custom",
+    "relative_path": "user_assets/b5/b501de0d8d7a6fbd7778629b6ccacdfb77c5f4e50b0b18b7249ae5bcfe0f240f/b501de0d8d7a6fbd7778629b6ccacdfb77c5f4e50b0b18b7249ae5bcfe0f240f.jpg"
+  },
+  "display": {
+    "theme": "无人机航迹规划试题",
+    "short_description": "这是一张包含中文文本和示意图的考试题目图片。内容涉及固定翼无人飞行器在山区低空飞行的航迹规划问题，右侧配有飞行任务场景图和飞行器结构示意图，左侧列出了四个具体的数学建模或工程问题。",
+    "micro_tags": [
+      "无人机",
+      "航迹规划",
+      "数学建模",
+      "考试题",
+      "示意图",
+      "固定翼"
+    ]
+  },
+  "facts": {
+    "visual_medium": "poster_document",
+    "scene": "",
+    "subjects": [
+      "中文题目文本",
+      "山地飞行场景图",
+      "飞机结构线条图"
+    ],
+    "actions": [],
+    "attributes": [
+      "白底黑字",
+      "图文混排",
+      "numbered list"
+    ],
+    "relations": [
+      "插图位于右侧。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "图片左侧是大段中文文本，分为题干和四个带编号的小问((1)至(4))。"
+    ],
+    "cautious_inferences": [
+      "题目内容涉及动力学方程、状态变量等术语，属于工程技术或应用数学领域。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "飞行任务示意图",
+      "飞行器结构示意图"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "飞行任务示意图",
+      "飞行器结构示意图"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "图片左侧是大段中文文本，分为题干和四个带编号的小问((1)至(4))。",
+    "safe_facts": [
+      "图片左侧是大段中文文本，分为题干和四个带编号的小问((1)至(4))。"
+    ],
+    "do_not_assert": [
+      "题目内容涉及动力学方程、状态变量等术语，属于工程技术或应用数学领域。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_ce749244-2ee6-4bb2-9fb9-9bde780bd13f",
+    "generated_at": "2026-08-12T03:03:29.781323+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "ea0b24899f7a449314f6adea41799f69d7600be7a6f1cdd6cf6c282bde8a4e77",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:03:29.781961+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_19418fb1b2c4405bd48f4b5e",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:03:29.782258+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "e3ca89ef76f9b66a14b48b40ce3825a042702405230cbf2082ec6c928d0b88f3"
+}

@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2232.jpg",
+    "relative_path": "val/2232.jpg",
+    "sha256": "abe9a2982f590e629b128fe2d913952942ca5960b605eecaabecae4cf70bf1e1",
+    "split": "val"
+  },
+  "canonical_sha256": "dc07350de58200faafca3042d49d4effccf8f5a1a863db9744db0f72d2292732",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "书籍",
+      "堆叠",
+      "桌面"
+    ],
+    "short_description": "三本教材书脊并排置于木质桌面上，书名部分可见，背景模糊。",
+    "theme": "三本技术类书籍堆叠"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "三本书垂直堆叠放置于木纹桌面上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "书脊可见",
+      "木质桌面"
+    ],
+    "relations": [
+      "书本堆叠。"
+    ],
+    "scene": "室内桌面",
+    "subjects": [
+      "三本书"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "三本书垂直堆叠放置于木纹桌面上。",
+    "safe_facts": [
+      "三本书垂直堆叠放置于木纹桌面上。"
+    ]
+  },
+  "label_id": "cpl_610d174896f887e083bb8235",
+  "provenance": {
+    "generated_at": "2026-08-03T16:17:34.443217+00:00",
+    "migrated_at": "2026-08-03T16:17:34.444835+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "24b235be9cef3feb0bfdf72bd243db145216730181c8f2773a1d3a27312d0b87",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_00c3d638c4b9534a534129f2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:17:34.445160+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_unsafe_text_candidates_for_presence",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_00c3d638c4b9534a534129f2"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "系统建模(第2版)",
+      "模式识别(第三版)",
+      "数字信号处理"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_unreadable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "系统建模(第2版)",
+      "模式识别(第三版)",
+      "数字信号处理"
+    ]
+  }
+}

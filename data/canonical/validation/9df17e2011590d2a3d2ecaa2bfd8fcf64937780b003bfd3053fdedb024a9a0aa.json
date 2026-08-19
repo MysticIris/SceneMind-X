@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2241.jpg",
+    "relative_path": "val/2241.jpg",
+    "sha256": "9df17e2011590d2a3d2ecaa2bfd8fcf64937780b003bfd3053fdedb024a9a0aa",
+    "split": "val"
+  },
+  "canonical_sha256": "0ae9aef35f1deb9008b6edfd30f8a2de7cf7918733f901e8e6361bd1b7815f17",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "树林",
+      "篝火",
+      "树丛"
+    ],
+    "short_description": "夜间森林中，一束强光从树丛后照亮地面，周围树木与灌木丛环绕，远处隐约可见人影聚集。",
+    "theme": "夜间林间篝火"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光源可能来自篝火或照明设备。"
+    ],
+    "direct_observations": [
+      "画面呈现夜间环境，天空呈深色。",
+      "前景有树木与灌木丛，背景有明亮光源。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "有光照",
+      "植被茂密"
+    ],
+    "relations": [
+      "光源位于树丛后方。",
+      "人影在光源前方。"
+    ],
+    "scene": "夜间户外林地",
+    "subjects": [
+      "树木",
+      "灌木丛",
+      "光源",
+      "人影"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光源可能来自篝火或照明设备。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现夜间环境，天空呈深色；前景有树木与灌木丛，背景有明亮光源。",
+    "safe_facts": [
+      "画面呈现夜间环境，天空呈深色。",
+      "前景有树木与灌木丛，背景有明亮光源。"
+    ]
+  },
+  "label_id": "cpl_b79122e65d2f1c413eb95660",
+  "provenance": {
+    "generated_at": "2026-08-03T16:16:57.323653+00:00",
+    "migrated_at": "2026-08-03T16:16:57.325166+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "838d085a0f4a621688b940dbe054cf96d11d5bfd268e4b1fb296b989ce28dc27",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4971874dd65d71df2353dd30",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:16:57.325375+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4971874dd65d71df2353dd30"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

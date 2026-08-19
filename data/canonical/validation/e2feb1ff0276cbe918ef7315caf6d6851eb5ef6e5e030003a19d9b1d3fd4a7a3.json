@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2207.jpg",
+    "relative_path": "val/2207.jpg",
+    "sha256": "e2feb1ff0276cbe918ef7315caf6d6851eb5ef6e5e030003a19d9b1d3fd4a7a3",
+    "split": "val"
+  },
+  "canonical_sha256": "a3adc166d22941aff4d6b2332266b244bf88c774dd262a76739384bb9bd87521",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红毛猩猩",
+      "丛林",
+      "木平台",
+      "休息"
+    ],
+    "short_description": "一只红毛猩猩趴在木制平台上，双手交叠放在身前，背景是茂密的绿色植被。",
+    "theme": "丛林中的猩猩"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "猩猩可能正在休息或观察周围环境。"
+    ],
+    "direct_observations": [
+      "猩猩身体呈红棕色，面部颜色较深。",
+      "猩猩趴在木板上，双手交叠置于身前。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "趴着",
+      "双手交叠"
+    ],
+    "attributes": [
+      "红棕色毛发",
+      "深色面部",
+      "木制平台"
+    ],
+    "relations": [
+      "猩猩位于平台之上。",
+      "平台被树木环绕。"
+    ],
+    "scene": "户外木质平台",
+    "subjects": [
+      "红毛猩猩"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "猩猩可能正在休息或观察周围环境。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "猩猩身体呈红棕色，面部颜色较深；猩猩趴在木板上，双手交叠置于身前。",
+    "safe_facts": [
+      "猩猩身体呈红棕色，面部颜色较深。",
+      "猩猩趴在木板上，双手交叠置于身前。"
+    ]
+  },
+  "label_id": "cpl_834fb0d2275ab4021d7b0455",
+  "provenance": {
+    "generated_at": "2026-08-03T16:12:31.073956+00:00",
+    "migrated_at": "2026-08-03T16:12:31.075327+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0cb5473015781e4b9112d8b03df67a4d69775df14bd669ffddc388060a82e1dd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_58665a3542882f42c165cb48",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:12:31.075525+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_58665a3542882f42c165cb48"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

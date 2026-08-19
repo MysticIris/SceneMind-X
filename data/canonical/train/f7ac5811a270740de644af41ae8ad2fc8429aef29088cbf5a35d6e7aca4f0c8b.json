@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:360.jpg",
+    "relative_path": "train/360.jpg",
+    "sha256": "f7ac5811a270740de644af41ae8ad2fc8429aef29088cbf5a35d6e7aca4f0c8b",
+    "split": "train"
+  },
+  "canonical_sha256": "8ecad78fbddf43dfbcce833780432520407d58e845453abe94d319b9bf4ac66a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "课程体系",
+      "学期安排",
+      "学科结构"
+    ],
+    "short_description": "一张展示多学期计算机相关课程的层级结构图，各课程按学期分布并用颜色区分。",
+    "theme": "课程体系结构图"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像底部有六个学期标签，从第一学期到第六学期。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "彩色矩形框",
+      "连接线"
+    ],
+    "relations": [
+      "课程与学期通过连线关联。"
+    ],
+    "scene": "一张课程结构示意图",
+    "subjects": [
+      "课程名称",
+      "学期标识"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像底部有六个学期标签，从第一学期到第六学期。",
+    "safe_facts": [
+      "图像底部有六个学期标签，从第一学期到第六学期。"
+    ]
+  },
+  "label_id": "cpl_c6cbfb43538efa0ebf6c03f6",
+  "provenance": {
+    "generated_at": "2026-08-03T10:47:29.537752+00:00",
+    "migrated_at": "2026-08-03T10:47:29.539394+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ed38b1afae009273c03e1630e13f981a1adbfc371400df0ba8119afd5546ac86",
+    "recovered_at_tokens": 768,
+    "source_label_id": "cpl_704bfed109d5578311d83c88",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:47:29.539866+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_768_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_704bfed109d5578311d83c88"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "线性代数",
+      "微积分(一)",
+      "程序设计基础",
+      "物理",
+      "经济学",
+      "认知科学导论"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "线性代数",
+      "微积分(一)",
+      "程序设计基础",
+      "物理",
+      "经济学",
+      "认知科学导论"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1416.jpg",
+    "relative_path": "train/1416.jpg",
+    "sha256": "4fbe14da8934d20ac9099431aa4becbc454e8a942ed0ffa851722768d233666a",
+    "split": "train"
+  },
+  "canonical_sha256": "bc0df656fb21e33c2b6ae6cd483f4095d6d76e7801c23ae8c6a3dd6592aa2f57",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式园林",
+      "水景",
+      "石栏",
+      "游客休憩"
+    ],
+    "short_description": "游客在中式亭台廊桥旁休憩，碧水环绕，石栏雕花，背景绿树成荫。",
+    "theme": "古典园林水景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有数名游客坐在廊桥长凳上。",
+      "水面呈碧绿色，有轻微波纹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "坐",
+      "休息"
+    ],
+    "attributes": [
+      "青瓦屋顶",
+      "雕花石栏",
+      "碧绿色水面",
+      "竹林背景"
+    ],
+    "relations": [
+      "游客位于廊桥上。",
+      "廊桥横跨水面。",
+      "石栏沿水岸设置。"
+    ],
+    "scene": "中式园林水边廊桥",
+    "subjects": [
+      "游客",
+      "廊桥",
+      "石栏",
+      "水面",
+      "建筑屋檐"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有数名游客坐在廊桥长凳上；水面呈碧绿色，有轻微波纹。",
+    "safe_facts": [
+      "画面中有数名游客坐在廊桥长凳上。",
+      "水面呈碧绿色，有轻微波纹。"
+    ]
+  },
+  "label_id": "cpl_469df8024d2a1ff6f2b27008",
+  "provenance": {
+    "generated_at": "2026-08-03T14:20:12.885306+00:00",
+    "migrated_at": "2026-08-03T14:20:12.888132+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "183c5b71e7915cbb96c15ce3a226827437ae1fed5abfef9313321a3d21cb7b15",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9c7a860d08f29d7ad9ae1fa5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:20:12.888864+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9c7a860d08f29d7ad9ae1fa5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

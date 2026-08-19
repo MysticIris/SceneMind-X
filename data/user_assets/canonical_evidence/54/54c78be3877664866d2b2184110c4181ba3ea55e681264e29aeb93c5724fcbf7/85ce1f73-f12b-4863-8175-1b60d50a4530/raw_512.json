@@ -1,0 +1,65 @@
+{
+  "asset_id": "54c78be387766486",
+  "asset_sha256": "54c78be3877664866d2b2184110c4181ba3ea55e681264e29aeb93c5724fcbf7",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"历史试题与政治漫画\",\n    \"short_description\": \"这是一张手机截图，显示了一道关于1949年美国报纸漫画的历史选择题。漫画描绘了标有“欧洲”的人物在标有“美国纳税人”的人帮助下骑车前行，题目询问图中①处应填写的内容，选项包含马歇尔计划等。\",\n    \"micro_tags\": [\n      \"历史题\",\n      \"政治漫画\",\n      \"马歇尔计划\",\n      \"手机截图\",\n      \"短视频界面\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端短视频应用界面，主体为拍摄的纸质试卷或教辅资料\",\n    \"subjects\": [\n      \"历史选择题\",\n      \"黑白讽刺漫画\",\n      \"骑行者形象\",\n      \"助推者形象\",\n      \"自行车\"\n    ],\n    \"actions\": [\n      \"人物骑自行车\",\n      \"后方人物推车助力\",\n      \"用户浏览内容\"\n    ],\n    \"attributes\": [\n      \"黑白线条画\",\n      \"中文印刷体\",\n      \"红色批改痕迹\",\n      \"竖屏构图\"\n    ],\n    \"relations\": [\n      \"漫画位于题干下方\",\n      \"选项排列在漫画下方\",\n      \"界面元素覆盖在图片边缘\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图片中央是一幅黑白漫画，画中一人骑着自行车，车身或踏板处标有数字①，另一人在后方推车，两人身上分别印有文字标签。\",\n      \"漫画上方有题干文字“下图是 1949 年美国报纸中的一幅漫画”，下方列有 A、B、C、D 四个选项，其中 C 选项旁有手写笔迹。\",\n      \"屏幕顶部显示时间“12:04”及电量，右侧有垂直排列的点赞、评论、收藏等社交互动图标。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据题干中的年份“1949年”及漫画中“美国”帮助“欧洲”的意象，推测该题考察的是二战后美国对欧援助的相关历史知识（如马歇尔计划）。\",\n      \"红色的勾画痕迹表明这可能是一份已经做过或批改过的练习题。\"\n    ],\n    \"uncertainties\": [\n      \"由于拍摄角度和清晰度限制，漫画中人物身上的具体微小文字标签难以完全确认，仅能辨识大致轮廓。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"2. 下图是 1949 年美国报纸中的一幅漫画，题为《他终于上道了》。图中①处应填写\",\n      \"加油！\",\n      \"欧洲\",\n      \"美国纳税人\",\n      \"自立\",\n      \"A. 罗斯福新政\",\n      \"B. “铁幕”演说\",\n      \"C. 马歇尔计划\",\n      \"D. 欧洲共同体\",\n      \"3. 日本自 1963 年起成为世界上最大的钢...\",\n      \"@花迎春时雨\",\n      \"发朋友圈可能没人懂 但发抖音一定有人懂\",\n      \"#kpl #成都 AG 超玩会 #轩九\"\n",
+      "input_tokens": 3227,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 768,
+        "total_tokens": 3995,
+        "estimated_cost_cny": 0.012598,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "历史试题与政治漫画",
+        "short_description": "这是一张手机截图，显示了一道关于1949年美国报纸漫画的历史选择题。漫画描绘了标有“欧洲”的人物在标有“美国纳税人”的人帮助下骑车前行，题目询问图中①处应填写的内容，选项包含马歇尔计划等。",
+        "micro_tags": [
+          "历史题",
+          "政治漫画",
+          "马歇尔计划",
+          "手机截图",
+          "短视频界面"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 4901936,
+        "request_bytes": 3673380,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.729744299998856,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "9be8a6f4a73f3eb0f9449fb88f02bf7356d0a69990928741c60218a0953ea55b"
+}

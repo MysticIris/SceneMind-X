@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1938.jpg",
+    "relative_path": "train/1938.jpg",
+    "sha256": "5fae288fb49c0e4fe35c8a5d5294f8a0b60de1a90c807853f54c96a881298653",
+    "split": "train"
+  },
+  "canonical_sha256": "27e7bb492955c3d22c87adfd6860639e924cb9c10cf4467d48f7253a6fd3aa6e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "演讲提纲",
+      "青年工作",
+      "会议幻灯片"
+    ],
+    "short_description": "屏幕上方有天花板照明灯具和黑色投影幕布边缘。",
+    "theme": "会议演示文稿"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕上方有天花板照明灯具和黑色投影幕布边缘。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "室内会议室或教室",
+    "subjects": [
+      "投影屏幕",
+      "演示文稿内容"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕上方有天花板照明灯具和黑色投影幕布边缘。",
+    "safe_facts": [
+      "屏幕上方有天花板照明灯具和黑色投影幕布边缘。"
+    ]
+  },
+  "label_id": "cpl_3e2a5f33dbde61bca5ab32ac",
+  "provenance": {
+    "generated_at": "2026-08-03T15:26:23.483251+00:00",
+    "migrated_at": "2026-08-03T15:26:23.485570+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4c63de8aa1521703e57b2b5688f323e152e011befe5118c09553f09bf1ebb94a",
+    "recovered_at_tokens": 768,
+    "source_label_id": "cpl_037f28e5b52135d7f2014563",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:26:23.486155+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_768_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_037f28e5b52135d7f2014563"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "篇章结构和重点提示",
+      "1.团青纪念大会讲话",
+      "2.与团干部座谈",
+      "3.与青年座谈",
+      "4.给青年回信",
+      "5.党的会议讲话、报告"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "篇章结构和重点提示",
+      "1.团青纪念大会讲话",
+      "2.与团干部座谈",
+      "3.与青年座谈",
+      "4.给青年回信",
+      "5.党的会议讲话、报告"
+    ]
+  }
+}

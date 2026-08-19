@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1446.jpg",
+    "relative_path": "train/1446.jpg",
+    "sha256": "69a74ec1b178e28d3b89dcbe999e579874579e92d03e1ab884e8d652111b6898",
+    "split": "train"
+  },
+  "canonical_sha256": "24321b84304368b58d77b63c8c596b74344e60e9e6f559f555408c3a75d4e879",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑板",
+      "数学公式",
+      "积分",
+      "粉笔字"
+    ],
+    "short_description": "一块写满数学公式的绿色黑板。",
+    "theme": "数学公式黑板"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "黑板呈绿色，边缘有白色边框。",
+      "黑板上有白色粉笔书写的数学公式和符号。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色表面",
+      "白色粉笔字",
+      "部分被擦除"
+    ],
+    "relations": [],
+    "scene": "教室或讲堂内的黑板",
+    "subjects": [
+      "黑板",
+      "粉笔字迹"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "黑板呈绿色，边缘有白色边框；黑板上有白色粉笔书写的数学公式和符号。",
+    "safe_facts": [
+      "黑板呈绿色，边缘有白色边框。",
+      "黑板上有白色粉笔书写的数学公式和符号。"
+    ]
+  },
+  "label_id": "cpl_a6bbe0bef0e807777976fa6f",
+  "provenance": {
+    "generated_at": "2026-08-02T22:22:36.066394+00:00",
+    "migrated_at": "2026-08-03T07:13:41.721927+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "45378446cd91d3c73c9bff6c8e228bc506786275b6166f9334479bd87891cc79",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_14497ebe74e714ce7350abd9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:25:01.561299+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_14497ebe74e714ce7350abd9",
+    "cpl_0a0b52d19843774315fa9e38"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "∫ f(t) dt^a",
+      "x = t^{1/a}",
+      "x^a ∈ [0,1]",
+      "f(u) = ∫_a^b u^α du",
+      "0 < a < p",
+      "∫_0^1 t^{(α-1)} dt < +∞"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "∫ f(t) dt^a",
+      "x = t^{1/a}",
+      "x^a ∈ [0,1]",
+      "f(u) = ∫_a^b u^α du",
+      "0 < a < p",
+      "∫_0^1 t^{(α-1)} dt < +∞"
+    ]
+  }
+}

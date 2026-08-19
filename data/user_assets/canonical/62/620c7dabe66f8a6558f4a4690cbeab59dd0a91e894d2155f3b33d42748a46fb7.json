@@ -1,0 +1,142 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_90dafe32da670d3538ea4b06",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_65f7fd9daa679c441ef846d8"
+  ],
+  "asset": {
+    "asset_id": "620c7dabe66f8a65",
+    "sha256": "620c7dabe66f8a6558f4a4690cbeab59dd0a91e894d2155f3b33d42748a46fb7",
+    "split": "user_custom",
+    "relative_path": "user_assets/62/620c7dabe66f8a6558f4a4690cbeab59dd0a91e894d2155f3b33d42748a46fb7/620c7dabe66f8a6558f4a4690cbeab59dd0a91e894d2155f3b33d42748a46fb7.png"
+  },
+  "display": {
+    "theme": "NVIDIA招聘网站申请状态页",
+    "short_description": "这是一张电脑屏幕截图，显示了NVIDIA(英伟达)的求职者主页。页面包含“我的申请”列表，显示两个深度学习架构师职位的申请状态为“申请已收到”，提交日期均为2026年5月18日。下方还有根据申请推荐的职位卡片。",
+    "micro_tags": [
+      "网页截图",
+      "求职申请",
+      "NVIDIA",
+      "招聘系统",
+      "深度学习",
+      "用户界面"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "浏览器窗口内的Web应用程序界面",
+    "subjects": [
+      "网页布局",
+      "申请状态表格",
+      "推荐职位卡片",
+      "浏览器标签页",
+      "Windows任务栏"
+    ],
+    "actions": [],
+    "attributes": [
+      "白色背景",
+      "绿色状态标签",
+      "蓝色链接文本",
+      "列表视图",
+      "网格视图"
+    ],
+    "relations": [
+      "表格位于页面中部。",
+      "推荐卡片位于表格下方。",
+      "浏览器地址栏位于顶部。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "页面标题区域显示“我的申请”，下列表格包含“职称”、“职位要求”、“我的申请状态”等列。"
+    ],
+    "cautious_inferences": [
+      "界面语言设置为简体中文。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "NVIDIA Corporation 工作机会",
+      "Candidate Home",
+      "我的申请",
+      "JR2018038",
+      "JR2006158"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "NVIDIA Corporation 工作机会",
+      "Candidate Home",
+      "我的申请",
+      "JR2018038",
+      "JR2006158"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "页面标题区域显示“我的申请”，下列表格包含“职称”、“职位要求”、“我的申请状态”等列。",
+    "safe_facts": [
+      "页面标题区域显示“我的申请”，下列表格包含“职称”、“职位要求”、“我的申请状态”等列。"
+    ],
+    "do_not_assert": [
+      "界面语言设置为简体中文。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_4cfd212a-655a-44d6-9fd3-6ee1385616fd",
+    "generated_at": "2026-08-12T03:32:03.366986+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "e28362a6ae98765f8407264ea4fabeaae2723a2f85c531c848ea92f74c518de3",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:32:03.368122+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_65f7fd9daa679c441ef846d8",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:32:03.368674+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "d26bf433ef517e22fe91aac44239b711ea4873307a0a0f08972dc66a3ef91017"
+}

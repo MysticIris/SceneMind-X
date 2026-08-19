@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1097.jpg",
+    "relative_path": "train/1097.jpg",
+    "sha256": "008bca233b862635764c605ce3c4c293bec315fb7211213969ce82a17da90d7f",
+    "split": "train"
+  },
+  "canonical_sha256": "65935b0073558d316b11aad4c2b0618db3e25deaeb3396bfdfab2502fe03224a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪山",
+      "桥梁",
+      "红滩",
+      "高原景观"
+    ],
+    "short_description": "雪山脚下，一座长桥横跨于粉红色水域之上，滩涂呈现红橙色，天空湛蓝无云。",
+    "theme": "雪山桥下红滩"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "水面颜色异常鲜艳，可能是藻类或矿物质沉积所致。"
+    ],
+    "direct_observations": [
+      "画面中可见连绵雪山，山顶有积雪。",
+      "一座长桥横跨在粉红色水面上，桥墩支撑结构清晰可见。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "雪山覆盖积雪",
+      "桥梁有多个桥墩",
+      "水面呈粉红色",
+      "滩涂呈红橙色",
+      "天空湛蓝无云"
+    ],
+    "relations": [
+      "桥梁横跨水面。",
+      "雪山位于背景。",
+      "滩涂与水面相连。"
+    ],
+    "scene": "高原湖泊或河床区域",
+    "subjects": [
+      "雪山",
+      "桥梁",
+      "滩涂",
+      "水面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "水面颜色异常鲜艳，可能是藻类或矿物质沉积所致。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见连绵雪山，山顶有积雪；一座长桥横跨在粉红色水面上，桥墩支撑结构清晰可见。",
+    "safe_facts": [
+      "画面中可见连绵雪山，山顶有积雪。",
+      "一座长桥横跨在粉红色水面上，桥墩支撑结构清晰可见。"
+    ]
+  },
+  "label_id": "cpl_9e6cee66fb2458582f1ae0ef",
+  "provenance": {
+    "generated_at": "2026-08-03T13:36:57.641697+00:00",
+    "migrated_at": "2026-08-03T13:36:57.645585+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5ad409d8fdc868945a812131a0d02cc1d20a28021b8018f3dc2f64cef1010377",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_313e273eb97d5e09ab3b67da",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:36:57.645957+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_313e273eb97d5e09ab3b67da"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

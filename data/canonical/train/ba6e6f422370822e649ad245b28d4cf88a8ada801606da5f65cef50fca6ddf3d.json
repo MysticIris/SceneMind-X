@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:115.jpg",
+    "relative_path": "train/115.jpg",
+    "sha256": "ba6e6f422370822e649ad245b28d4cf88a8ada801606da5f65cef50fca6ddf3d",
+    "split": "train"
+  },
+  "canonical_sha256": "c50e2b67b37b8ccce7a3791bf20d4f371585fb1cace245ad43e9a75f74981bd1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "石阶",
+      "行人",
+      "城市街道"
+    ],
+    "short_description": "夜晚城市街道的石阶上，数人正向上行走，两侧有建筑与绿植，路灯照亮部分区域。",
+    "theme": "夜色阶梯"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现夜间城市街道环境。",
+      "多个人物正在沿石阶向上移动。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "向上行走"
+    ],
+    "attributes": [
+      "夜间",
+      "石阶",
+      "路灯照明",
+      "树木",
+      "建筑"
+    ],
+    "relations": [
+      "行人位于石阶上。",
+      "石阶连接两侧建筑。"
+    ],
+    "scene": "城市街道夜景",
+    "subjects": [
+      "行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现夜间城市街道环境；多个人物正在沿石阶向上移动。",
+    "safe_facts": [
+      "画面呈现夜间城市街道环境。",
+      "多个人物正在沿石阶向上移动。"
+    ]
+  },
+  "label_id": "cpl_77d3e64d689e02043a10f1d4",
+  "provenance": {
+    "generated_at": "2026-08-03T09:31:29.791387+00:00",
+    "migrated_at": "2026-08-03T09:31:29.792819+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "45c6067a7548218a7f43bcef5eae020e5ecff542cd86710f61cb9d6e13c7f936",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fceddc3db5dc66ffe20df848",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:30.187467+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fceddc3db5dc66ffe20df848",
+    "cpl_00bf0e19d85586d3e6fe1f8b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "asset_id": "35389d721372e49a",
+  "asset_sha256": "35389d721372e49a57aa3462dda09b083a52be85130761c4e5a5344db4bab77d",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"手持瓶装果冻饮料\",\n    \"short_description\": \"一只手在室内木质桌面上方握着一瓶透明塑料包装的饮料。瓶身标签色彩鲜艳，印有冰块和橙色水果图案，底部可见橙红色凝胶状内容物，瓶盖为黄色。\",\n    \"micro_tags\": [\n      \"手持饮料\",\n      \"瓶装果冻\",\n      \"冰红茶味\",\n      \"夏日饮品\",\n      \"零食特写\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"室内桌面环境\",\n    \"subjects\": [\n      \"人手\",\n      \"塑料瓶装饮料\"\n    ],\n    \"actions\": [\n      \"手握持瓶身\"\n    ],\n    \"attributes\": [\n      \"黄色瓶盖\",\n      \"透明瓶身\",\n      \"彩色标签\",\n      \"橙红色底部内容物\"\n    ],\n    \"relations\": [\n      \"手位于瓶子左侧及后方\",\n      \"瓶子位于画面中心前景\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"一只左手握住一个透明塑料瓶的中上部\",\n      \"瓶内底部填充有橙红色的半透明胶状物质\",\n      \"瓶身贴有包含蓝色、黄色和橙色几何图形的标签\",\n      \"背景为浅棕色木纹桌面及模糊的白色物体\"\n    ],\n    \"cautious_inferences\": [\n      \"根据瓶身下方的胶状物和标签上的冰块图案，推测这可能是一款果冻类或含果肉的茶饮料\",\n      \"光线明亮且有明显阴影，可能是在自然光或强室内光源下拍摄\"\n    ],\n    \"uncertainties\": [\n      \"无法确认具体的品牌名称（虽然看起来像康师傅，但需严格遵循不猜测原则）\",\n      \"无法确认拍摄的具体时间\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"康师傅\",\n      \"冰红茶\",\n      \"冻冻茶\",\n      \"痛快Dong起来\",\n      \"冰红茶味果冻\",\n      \"净含量:450g\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张特写照片，展示了一只手握着一瓶带有黄色瓶盖和彩色标签的透明塑料饮料瓶，瓶底装有橙红色凝胶状物体，背景为木质桌面。\",\n    \"safe_facts\": [\n      \"图中包含一只人手和一个塑料容器\",\n      \"容器具有黄色螺旋盖和透明瓶体\",\n      \"容器底部含有有色半固体物质\",\n      \"背景包含木质纹理表面\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 633,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 633,
+        "total_tokens": 3838,
+        "estimated_cost_cny": 0.011474,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "手持瓶装果冻饮料",
+          "short_description": "一只手在室内木质桌面上方握着一瓶透明塑料包装的饮料。瓶身标签色彩鲜艳，印有冰块和橙色水果图案，底部可见橙红色凝胶状内容物，瓶盖为黄色。",
+          "micro_tags": [
+            "手持饮料",
+            "瓶装果冻",
+            "冰红茶味",
+            "夏日饮品",
+            "零食特写"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "室内桌面环境",
+          "subjects": [
+            "人手",
+            "塑料瓶装饮料"
+          ],
+          "actions": [
+            "手握持瓶身"
+          ],
+          "attributes": [
+            "黄色瓶盖",
+            "透明瓶身",
+            "彩色标签",
+            "橙红色底部内容物"
+          ],
+          "relations": [
+            "手位于瓶子左侧及后方",
+            "瓶子位于画面中心前景"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "一只左手握住一个透明塑料瓶的中上部",
+            "瓶内底部填充有橙红色的半透明胶状物质",
+            "瓶身贴有包含蓝色、黄色和橙色几何图形的标签",
+            "背景为浅棕色木纹桌面及模糊的白色物体"
+          ],
+          "cautious_inferences": [
+            "根据瓶身下方的胶状物和标签上的冰块图案，推测这可能是一款果冻类或含果肉的茶饮料",
+            "光线明亮且有明显阴影，可能是在自然光或强室内光源下拍摄"
+          ],
+          "uncertainties": [
+            "无法确认具体的品牌名称（虽然看起来像康师傅，但需严格遵循不猜测原则）",
+            "无法确认拍摄的具体时间"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "康师傅",
+            "冰红茶",
+            "冻冻茶",
+            "痛快Dong起来",
+            "冰红茶味果冻",
+            "净含量:450g"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张特写照片，展示了一只手握着一瓶带有黄色瓶盖和彩色标签的透明塑料饮料瓶，瓶底装有橙红色凝胶状物体，背景为木质桌面。",
+          "safe_facts": [
+            "图中包含一只人手和一个塑料容器",
+            "容器具有黄色螺旋盖和透明瓶体",
+            "容器底部含有有色半固体物质",
+            "背景包含木质纹理表面"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 484872,
+        "request_bytes": 360581,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 12.246053299997584,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "0b2c3f6f72a8211a990d28f0bf863dd3982aa01a843cd4f140f9b5f62756b08a"
+}

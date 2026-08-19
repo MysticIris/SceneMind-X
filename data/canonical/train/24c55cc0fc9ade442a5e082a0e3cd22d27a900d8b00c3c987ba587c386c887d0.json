@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:236.jpg",
+    "relative_path": "train/236.jpg",
+    "sha256": "24c55cc0fc9ade442a5e082a0e3cd22d27a900d8b00c3c987ba587c386c887d0",
+    "split": "train"
+  },
+  "canonical_sha256": "38ea7dc2634a478ee2bae186b0022fd356f0da8b5dfc75f9f0cb08473a528b48",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "树林",
+      "凉亭",
+      "小径",
+      "路灯"
+    ],
+    "short_description": "树木葱郁的公园小径旁，一座中式凉亭静立，路灯已亮起，环境幽静宜人。",
+    "theme": "林间小径"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线较暗，可能是傍晚或阴天。"
+    ],
+    "direct_observations": [
+      "画面中有多棵高大树木，枝叶繁茂。",
+      "远处可见一座中式风格凉亭，有红色柱子和翘角屋顶。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿叶茂密",
+      "树干粗壮",
+      "凉亭有屋顶",
+      "路灯亮着",
+      "地面铺草"
+    ],
+    "relations": [
+      "树木环绕小径。",
+      "凉亭位于林间。",
+      "路灯沿小径设置。",
+      "垃圾桶置于小径旁。"
+    ],
+    "scene": "公园林地",
+    "subjects": [
+      "树木",
+      "凉亭",
+      "路灯",
+      "小径",
+      "垃圾桶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线较暗，可能是傍晚或阴天。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多棵高大树木，枝叶繁茂；远处可见一座中式风格凉亭，有红色柱子和翘角屋顶。",
+    "safe_facts": [
+      "画面中有多棵高大树木，枝叶繁茂。",
+      "远处可见一座中式风格凉亭，有红色柱子和翘角屋顶。"
+    ]
+  },
+  "label_id": "cpl_39f433b90b522f8be1d2da50",
+  "provenance": {
+    "generated_at": "2026-08-03T10:22:11.752079+00:00",
+    "migrated_at": "2026-08-03T10:22:11.754355+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "77ee8b65718f9f27121f84c9fba120af603a0afe509516dfe93d167df9cb4802",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_629a5056407bef54b0af4ab0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:22:11.754584+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_629a5056407bef54b0af4ab0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

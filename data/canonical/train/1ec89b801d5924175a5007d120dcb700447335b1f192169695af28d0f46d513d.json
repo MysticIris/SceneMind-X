@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1848.jpg",
+    "relative_path": "train/1848.jpg",
+    "sha256": "1ec89b801d5924175a5007d120dcb700447335b1f192169695af28d0f46d513d",
+    "split": "train"
+  },
+  "canonical_sha256": "4315e3e5724b9d1bca157eed316c1b980be27eb762578fbe77b994f7d5cdf1fc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "白虎",
+      "动物园",
+      "拍摄",
+      "岩石"
+    ],
+    "short_description": "一只白虎在岩石围栏内行走，前方有水池，有人正用手机拍摄。",
+    "theme": "白虎栖息"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一只白虎正在移动。",
+      "前景有双手持手机拍摄。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "拍摄"
+    ],
+    "attributes": [
+      "白色皮毛",
+      "黑色条纹",
+      "水池",
+      "岩石背景"
+    ],
+    "relations": [
+      "白虎在岩石旁。",
+      "人手持手机对准白虎。"
+    ],
+    "scene": "室内动物展区",
+    "subjects": [
+      "白虎",
+      "人手"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一只白虎正在移动；前景有双手持手机拍摄。",
+    "safe_facts": [
+      "画面中有一只白虎正在移动。",
+      "前景有双手持手机拍摄。"
+    ]
+  },
+  "label_id": "cpl_51581ef4c01df2d97596755e",
+  "provenance": {
+    "generated_at": "2026-08-03T15:14:18.900712+00:00",
+    "migrated_at": "2026-08-03T15:14:18.902074+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b0bc244cd9191b2823dcd3c2acd87482c2dabaa222ee856806cd121b29ebe8a5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ad938dabcde4b4de7ee96a7b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:14:18.902277+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ad938dabcde4b4de7ee96a7b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

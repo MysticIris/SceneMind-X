@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1865.jpg",
+    "relative_path": "train/1865.jpg",
+    "sha256": "d6c7300ec1451b4e2b4a9af79d74f928ab4226202f511fd60ec7ea161473b9d8",
+    "split": "train"
+  },
+  "canonical_sha256": "7765364918d1e63974cc569c1ef6936ee9f1a2cf71efc1f9d74ff7fa0663041e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "大学课堂",
+      "先秦六家",
+      "教学幻灯片"
+    ],
+    "short_description": "课堂幻灯片，讨论先秦六家的逻辑幽默感，配以古代人物剪影和山水插图。",
+    "theme": "大学课堂幻灯片"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见投影屏幕和古代人物剪影。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "屏幕有校徽",
+      "屏幕有插图"
+    ],
+    "relations": [
+      "校徽位于屏幕左上角。",
+      "剪影位于屏幕右侧。",
+      "山水插图位于屏幕下部。"
+    ],
+    "scene": "教室内的投影屏幕",
+    "subjects": [
+      "投影屏幕",
+      "古代人物剪影",
+      "山水插图",
+      "屏幕上方校徽"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见投影屏幕和古代人物剪影。",
+    "safe_facts": [
+      "画面中可见投影屏幕和古代人物剪影。"
+    ]
+  },
+  "label_id": "cpl_3c681447aa322dc6ff21bdee",
+  "provenance": {
+    "generated_at": "2026-08-03T15:14:49.138211+00:00",
+    "migrated_at": "2026-08-03T15:14:49.140698+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a05c8cd357e9d09845c87f89f90609a5e488bb7de1f30edfa558d49fa21bb063",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_109d166f0ec687b87cd543cd",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:14:49.141222+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [
+      "removed_unverified_text:direct_observations",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_109d166f0ec687b87cd543cd"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "华中科技大学",
+      "14、在先秦‘六大家’中,你认为哪一家最具有逻辑分析基础上的幽默感?试举例说明。",
+      "ThreeStars"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "华中科技大学",
+      "14、在先秦‘六大家’中,你认为哪一家最具有逻辑分析基础上的幽默感?试举例说明。",
+      "ThreeStars"
+    ]
+  }
+}

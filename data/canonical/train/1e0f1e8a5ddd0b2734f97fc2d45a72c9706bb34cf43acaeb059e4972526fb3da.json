@@ -1,0 +1,110 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1880.jpg",
+    "relative_path": "train/1880.jpg",
+    "sha256": "1e0f1e8a5ddd0b2734f97fc2d45a72c9706bb34cf43acaeb059e4972526fb3da",
+    "split": "train"
+  },
+  "canonical_sha256": "7a38d1b48957a98b677e6484525f1035d22f6804d881f8d97cd9701ecb416b7d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "舞台设备",
+      "观众席"
+    ],
+    "short_description": "夜间大型场馆内，舞台设备已搭建完毕，观众席部分就座，工作人员在场边活动。",
+    "theme": "大型室内演出场地"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "观众席部分区域坐有人群。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "大型室内场馆",
+    "subjects": [
+      "舞台设备",
+      "观众席",
+      "工作人员"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "观众席部分区域坐有人群。",
+    "safe_facts": [
+      "观众席部分区域坐有人群。"
+    ]
+  },
+  "label_id": "cpl_71deef2f8bab1d607a394fc1",
+  "provenance": {
+    "generated_at": "2026-08-03T15:17:41.250123+00:00",
+    "migrated_at": "2026-08-03T15:17:41.251831+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d7b826bb8e105cb2a62d31d87c734bb541fc58a93d0365ed6754d3941674c4e4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_43f7a5c8d79deffc0601c3c3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:17:41.252002+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_43f7a5c8d79deffc0601c3c3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

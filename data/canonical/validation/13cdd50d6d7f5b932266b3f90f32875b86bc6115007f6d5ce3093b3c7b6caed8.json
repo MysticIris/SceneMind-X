@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2283.jpg",
+    "relative_path": "val/2283.jpg",
+    "sha256": "13cdd50d6d7f5b932266b3f90f32875b86bc6115007f6d5ce3093b3c7b6caed8",
+    "split": "val"
+  },
+  "canonical_sha256": "b61240c25b6d13428a71f474d52d14982a91c7eaddb002488ac12af6cdd98edd",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "巧克力冰淇淋",
+      "麦当劳蛋筒",
+      "手握甜点"
+    ],
+    "short_description": "一只手拿着一个装满巧克力软冰淇淋的麦当劳蛋筒，背景有薯条和包装纸。",
+    "theme": "巧克力冰淇淋甜点"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "冰淇淋呈棕色，堆叠在蛋筒中。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "巧克力色",
+      "软冰淇淋质地",
+      "蛋筒状容器",
+      "纸质包装"
+    ],
+    "relations": [
+      "手握着蛋筒。",
+      "蛋筒内盛有冰淇淋。",
+      "薯条在红色纸盒中。"
+    ],
+    "scene": "室内用餐环境",
+    "subjects": [
+      "手",
+      "巧克力冰淇淋",
+      "蛋筒",
+      "薯条",
+      "包装纸"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "冰淇淋呈棕色，堆叠在蛋筒中。",
+    "safe_facts": [
+      "冰淇淋呈棕色，堆叠在蛋筒中。"
+    ]
+  },
+  "label_id": "cpl_de87875e484d3d521286007f",
+  "provenance": {
+    "generated_at": "2026-08-03T16:22:08.126052+00:00",
+    "migrated_at": "2026-08-03T16:22:08.127850+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "96c3473be0a75d25558f00c8cbe110f0d9ab9f2fea20ce3d4681f26f2f237c84",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_96ec8e48bf42795fba5235e0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:22:08.128316+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_unsafe_text_candidates_for_presence",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_96ec8e48bf42795fba5235e0"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "McDonald's"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_unreadable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "McDonald's"
+    ]
+  }
+}

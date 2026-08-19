@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1822.jpg",
+    "relative_path": "train/1822.jpg",
+    "sha256": "446be54c7e2c663035e024e17198511b8d913187b04f8deb247e7f28106d968a",
+    "split": "train"
+  },
+  "canonical_sha256": "c3193b5aeb48e7e8a16b3c6d66e3300538bd261501c281677b78fc8ebf212959",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "橘猫",
+      "窗台",
+      "静坐",
+      "室内"
+    ],
+    "short_description": "一只橘色猫咪坐在窗台，背对镜头望向窗外，身旁有笔记本电脑和耳机。",
+    "theme": "窗边橘猫静坐"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "猫呈坐姿，背部朝向镜头。",
+      "猫位于有金属栏杆的窗户旁。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "毛发蓬松",
+      "坐姿端正"
+    ],
+    "relations": [
+      "猫位于窗台。",
+      "猫面向窗外。"
+    ],
+    "scene": "室内窗台",
+    "subjects": [
+      "一只橘色猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "猫呈坐姿，背部朝向镜头；猫位于有金属栏杆的窗户旁。",
+    "safe_facts": [
+      "猫呈坐姿，背部朝向镜头。",
+      "猫位于有金属栏杆的窗户旁。"
+    ]
+  },
+  "label_id": "cpl_12ca5d6da64cf25612a3ce78",
+  "provenance": {
+    "generated_at": "2026-08-03T15:11:25.237550+00:00",
+    "migrated_at": "2026-08-03T15:11:25.239012+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d48b8b1d8607ec4f1fa39a43e55b96cf23285defa195e73ef2da1c3cfdb9dd3b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_cf0f3faf423c841f4a406cd8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:11:25.239195+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_cf0f3faf423c841f4a406cd8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

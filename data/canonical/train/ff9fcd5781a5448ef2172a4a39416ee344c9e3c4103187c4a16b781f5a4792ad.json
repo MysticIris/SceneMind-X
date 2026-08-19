@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1590.jpg",
+    "relative_path": "train/1590.jpg",
+    "sha256": "ff9fcd5781a5448ef2172a4a39416ee344c9e3c4103187c4a16b781f5a4792ad",
+    "split": "train"
+  },
+  "canonical_sha256": "e6c904503fe6737f4b653ef9a74113d4d1247c611a791fba9de2baac70f87f41",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "书本",
+      "杂物",
+      "地板",
+      "柜子"
+    ],
+    "short_description": "房间一角散落着书籍、文件夹和背包，地面凌乱，旁边有蓝色柜子和垃圾桶。",
+    "theme": "杂乱书桌角落"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面上散落着多本书籍、文件夹和纸张。",
+      "左侧有一个打开的黑色背包，旁边有绿色工牌。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质地板",
+      "蓝色柜子",
+      "红色流苏挂饰",
+      "绿色工牌"
+    ],
+    "relations": [
+      "书本和文件夹散落在地板上。",
+      "背包放在地板上。",
+      "垃圾桶在画面右下角。"
+    ],
+    "scene": "室内房间角落",
+    "subjects": [
+      "书本",
+      "文件夹",
+      "背包",
+      "柜子",
+      "垃圾桶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面上散落着多本书籍、文件夹和纸张；左侧有一个打开的黑色背包，旁边有绿色工牌。",
+    "safe_facts": [
+      "地面上散落着多本书籍、文件夹和纸张。",
+      "左侧有一个打开的黑色背包，旁边有绿色工牌。"
+    ]
+  },
+  "label_id": "cpl_45f3f841b6992e38de52ca89",
+  "provenance": {
+    "generated_at": "2026-08-03T14:41:43.043602+00:00",
+    "migrated_at": "2026-08-03T14:41:43.046131+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6b536ae5be5609f0012fc66e334f582c9186e896a701dc19a2e34c58cd086d2b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_12739e1696524c2321322807",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:41:43.048548+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_12739e1696524c2321322807"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

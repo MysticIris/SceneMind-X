@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1521.jpg",
+    "relative_path": "train/1521.jpg",
+    "sha256": "c132834864953d9ab1d056378416ea6569f005ee0a23cf84e5ea56a110798a19",
+    "split": "train"
+  },
+  "canonical_sha256": "eed9aeb4822f5c99028e4428c361c3eda40e2ec9dfd9b1a5640a7fd01516a517",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "下雪",
+      "操场",
+      "行人",
+      "撑伞"
+    ],
+    "short_description": "雪天校园操场，有人撑伞行走，地面覆雪，远处有建筑和树木。",
+    "theme": "雪中校园"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能正在下雪或刚结束降雪。"
+    ],
+    "direct_observations": [
+      "地面被白雪覆盖，有脚印和车辙痕迹。",
+      "天空阴沉，雪花飘落。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "撑伞"
+    ],
+    "attributes": [
+      "覆盖积雪",
+      "灰白色天空",
+      "绿色树木"
+    ],
+    "relations": [
+      "行人位于雪地上。",
+      "树木位于操场边缘。",
+      "建筑物在背景中。"
+    ],
+    "scene": "雪天户外操场",
+    "subjects": [
+      "行人",
+      "树木",
+      "建筑物",
+      "雪地"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能正在下雪或刚结束降雪。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面被白雪覆盖，有脚印和车辙痕迹；天空阴沉，雪花飘落。",
+    "safe_facts": [
+      "地面被白雪覆盖，有脚印和车辙痕迹。",
+      "天空阴沉，雪花飘落。"
+    ]
+  },
+  "label_id": "cpl_be902737697986b78d5dfec8",
+  "provenance": {
+    "generated_at": "2026-08-03T14:32:52.610952+00:00",
+    "migrated_at": "2026-08-03T14:32:52.619173+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "12f465854b502f1d747d3a144f65207ab672ffd7590b455c6ac65197d067a292",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_bbf2900bdcbbdbf6b0f5b097",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:32:52.619547+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_bbf2900bdcbbdbf6b0f5b097"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

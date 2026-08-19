@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1334.jpg",
+    "relative_path": "train/1334.jpg",
+    "sha256": "96fa6ec3e5fa53cc584718a3dccffdf2c628e95f13d63108e4719fc5804a46aa",
+    "split": "train"
+  },
+  "canonical_sha256": "ece8b7aba2c101bc655f9a0dea7f6537b98611aea38e397bff79e4cd6781998e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "积雪",
+      "小径",
+      "灌木",
+      "建筑物"
+    ],
+    "short_description": "雪地覆盖的小路旁有灌木和树木，地面部分积雪融化，露出泥土和脚印，远处可见建筑和一辆黄色车辆。",
+    "theme": "雪后小区小径"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能有人在此行走留下脚印。"
+    ],
+    "direct_observations": [
+      "地面覆盖着白色积雪，部分区域已融化。",
+      "前景有一块黑色金属井盖露出。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "积雪覆盖地面",
+      "部分融雪",
+      "树干涂白",
+      "井盖暴露"
+    ],
+    "relations": [
+      "积雪覆盖灌木周围。",
+      "树木位于积雪区域。",
+      "建筑物在背景中。"
+    ],
+    "scene": "城市小区户外区域",
+    "subjects": [
+      "积雪",
+      "灌木",
+      "树木",
+      "建筑物",
+      "黄色车辆",
+      "井盖"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能有人在此行走留下脚印。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面覆盖着白色积雪，部分区域已融化；前景有一块黑色金属井盖露出。",
+    "safe_facts": [
+      "地面覆盖着白色积雪，部分区域已融化。",
+      "前景有一块黑色金属井盖露出。"
+    ]
+  },
+  "label_id": "cpl_44185872eabee714374aeb97",
+  "provenance": {
+    "generated_at": "2026-08-03T14:11:44.721087+00:00",
+    "migrated_at": "2026-08-03T14:11:44.727424+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e2d7620b80b8c95061e63c1f12dba15210b71cbb0c68b86c1086871d058aa3da",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_61de89c20f7a66808f75d573",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:11:44.727817+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_61de89c20f7a66808f75d573"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

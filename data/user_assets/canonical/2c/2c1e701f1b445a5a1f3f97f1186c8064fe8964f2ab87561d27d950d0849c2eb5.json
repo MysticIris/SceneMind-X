@@ -1,0 +1,146 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_224d77c49f177e3195685088",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_7a8496b795dc06a5716ce913"
+  ],
+  "asset": {
+    "asset_id": "2c1e701f1b445a5a",
+    "sha256": "2c1e701f1b445a5a1f3f97f1186c8064fe8964f2ab87561d27d950d0849c2eb5",
+    "split": "user_custom",
+    "relative_path": "user_assets/2c/2c1e701f1b445a5a1f3f97f1186c8064fe8964f2ab87561d27d950d0849c2eb5/2c1e701f1b445a5a1f3f97f1186c8064fe8964f2ab87561d27d950d0849c2eb5.jpg"
+  },
+  "display": {
+    "theme": "学院楼入口与自动售货设施",
+    "short_description": "入口处设有玻璃雨棚和台阶，左侧有一个带蓝白条纹遮阳篷的小型服务点，右侧并排摆放着一台红色饮料自动售货机和一台白色零食售货机。前景地面铺有地砖，放置有红白交通锥。",
+    "micro_tags": [
+      "建筑入口",
+      "自动售货机",
+      "校园设施",
+      "玻璃雨棚",
+      "交通锥",
+      "便利店"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "建筑物外部入口及门前广场",
+    "subjects": [
+      "建筑立面",
+      "招牌",
+      "自动售货机",
+      "小型商铺",
+      "交通锥",
+      "台阶"
+    ],
+    "actions": [],
+    "attributes": [
+      "玻璃幕墙",
+      "混凝土墙面",
+      "金属框架雨棚",
+      "蓝白条纹遮阳篷",
+      "红色机身",
+      "白色机身"
+    ],
+    "relations": [
+      "售货机位于入口右侧。",
+      "商铺位于入口左侧。",
+      "招牌悬挂于雨棚上方。",
+      "交通锥位于前景地面。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "建筑入口上方安装有大型蓝色立体汉字招牌，下方有对应的英文翻译行。",
+      "入口右侧放置有一台红色的瓶装饮料自动售货机和一台白色的格子式零食售货机。",
+      "入口左侧设有一个带有蓝白条纹伸缩遮阳篷的小型售卖亭，前方立有蓝色广告牌。",
+      "前景的砖石地面上放置有两个橙红色的交通反光锥。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "生命科学与...",
+      "COLLEGE OF LIFE SCIENCE AND TECHNOLOGY..",
+      "Life Nook",
+      "农夫山泉",
+      "COFFEE"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "生命科学与...",
+      "COLLEGE OF LIFE SCIENCE AND TECHNOLOGY..",
+      "Life Nook",
+      "农夫山泉",
+      "COFFEE"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "建筑入口上方安装有大型蓝色立体汉字招牌，下方有对应的英文翻译行；入口右侧放置有一台红色的瓶装饮料自动售货机和一台白色的格子式零食售货机。",
+    "safe_facts": [
+      "建筑入口上方安装有大型蓝色立体汉字招牌，下方有对应的英文翻译行。",
+      "入口右侧放置有一台红色的瓶装饮料自动售货机和一台白色的格子式零食售货机。",
+      "入口左侧设有一个带有蓝白条纹伸缩遮阳篷的小型售卖亭，前方立有蓝色广告牌。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_184fa614-06ac-4419-86b3-2f6353d99697",
+    "generated_at": "2026-08-12T03:12:13.308760+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "2e28c15ba84caf9e244176b4775840e5ad6a935d1f7f6289e543cbaff342fd36",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:12:13.310156+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_7a8496b795dc06a5716ce913",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:12:13.310668+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "83cf885168f540c115413234d968a536781119e4eb01421267679d1c5f95bca4"
+}

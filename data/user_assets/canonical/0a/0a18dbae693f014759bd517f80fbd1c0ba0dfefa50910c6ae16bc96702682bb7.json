@@ -1,0 +1,144 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_c836eee20e98f10c0b8b9346",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_3b03285b6cd5af8a39f574e2"
+  ],
+  "asset": {
+    "asset_id": "0a18dbae693f0147",
+    "sha256": "0a18dbae693f014759bd517f80fbd1c0ba0dfefa50910c6ae16bc96702682bb7",
+    "split": "user_custom",
+    "relative_path": "user_assets/0a/0a18dbae693f014759bd517f80fbd1c0ba0dfefa50910c6ae16bc96702682bb7/0a18dbae693f014759bd517f80fbd1c0ba0dfefa50910c6ae16bc96702682bb7.png"
+  },
+  "display": {
+    "theme": "恶搞人格测试结果截图",
+    "short_description": "一张手机屏幕截图，显示名为“SBTI 人格测试”的网页结果。页面显示人格类型为“自我攻击者 IMSB”，配有一个低多边形风格的卡通人物头像，下方包含关于该类型的幽默解读文本。",
+    "micro_tags": [
+      "手机截图",
+      "人格测试",
+      "恶搞",
+      "IMSB",
+      "网页界面",
+      "卡通头像"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "移动端网页浏览器界面",
+    "subjects": [
+      "测试结果卡片",
+      "低多边形风格男性卡通头像",
+      "状态栏信息"
+    ],
+    "actions": [],
+    "attributes": [
+      "浅绿色背景",
+      "白色圆角卡片",
+      "顶部黑色状态栏"
+    ],
+    "relations": [
+      "详细解读文本位于结果卡片下方。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "图片顶部状态栏显示时间“01：34”、5G信号图标及红色低电量电池图标(12%)。",
+      "页面标题栏显示“SBTI 人格测试”及网址“sbti.unun.dev”。",
+      "主视觉区域大字显示“你的人格类型是：自我攻击者 IMSB”。",
+      "右侧有一个棕色头发、穿着粉色上衣的低多边形(Low-poly)风格3D卡通小人。",
+      "下方小字写着“认真的么？我真的是傻逼么？”以及“你的主类型 IMSB(傻者)”。"
+    ],
+    "cautious_inferences": [
+      "这是一个模仿MBTI人格测试的恶搞或娱乐性网页应用。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "01:34",
+      "5G",
+      "12",
+      "SBTI 人格测试",
+      "sbti.unun.dev",
+      "IMSB"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "01:34",
+      "5G",
+      "12",
+      "SBTI 人格测试",
+      "sbti.unun.dev",
+      "IMSB"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "图片顶部状态栏显示时间“01：34”、5G信号图标及红色低电量电池图标(12%)；页面标题栏显示“SBTI 人格测试”及网址“sbti.unun.dev”。",
+    "safe_facts": [
+      "图片顶部状态栏显示时间“01：34”、5G信号图标及红色低电量电池图标(12%)。",
+      "页面标题栏显示“SBTI 人格测试”及网址“sbti.unun.dev”。",
+      "主视觉区域大字显示“你的人格类型是：自我攻击者 IMSB”。"
+    ],
+    "do_not_assert": [
+      "这是一个模仿MBTI人格测试的恶搞或娱乐性网页应用。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_d573570b-3f78-4540-9243-19fdfcf4f2a0",
+    "generated_at": "2026-08-12T02:59:35.158093+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "e4f30bf1ddb87f20883a2133c74db5494f79db458de618a3d812571994972b77",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T02:59:35.159245+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_3b03285b6cd5af8a39f574e2",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T02:59:35.159820+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "fa8c73a6fafebf5e4735bf0d160c056620cacea1aa8ab4c33a74d48a3f2e4dd4"
+}

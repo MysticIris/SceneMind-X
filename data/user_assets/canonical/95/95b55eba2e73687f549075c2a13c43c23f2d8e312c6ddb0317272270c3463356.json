@@ -1,0 +1,142 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_192fa91dc1cce48881410eb3",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_57525d123c80802f40295db9"
+  ],
+  "asset": {
+    "asset_id": "95b55eba2e73687f",
+    "sha256": "95b55eba2e73687f549075c2a13c43c23f2d8e312c6ddb0317272270c3463356",
+    "split": "user_custom",
+    "relative_path": "user_assets/95/95b55eba2e73687f549075c2a13c43c23f2d8e312c6ddb0317272270c3463356/95b55eba2e73687f549075c2a13c43c23f2d8e312c6ddb0317272270c3463356.png"
+  },
+  "display": {
+    "theme": "手机锁屏界面与系统警告",
+    "short_description": "这是一张智能手机锁屏界面的截图。壁纸为水墨风格插画，描绘了夜色山峦间漂浮的粉色灯笼及水中伫立的人影。屏幕下方叠加了黄色的“检测到液体”系统警告弹窗，提示无法充电，底部还有社交应用的消息通知横幅。",
+    "micro_tags": [
+      "手机截图",
+      "系统警告",
+      "液体检测",
+      "水墨风壁纸",
+      "孔明灯",
+      "锁屏界面",
+      "消息通知"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "智能手机操作系统锁屏界面",
+    "subjects": [
+      "系统警告弹窗",
+      "背景壁纸插画",
+      "消息通知横幅",
+      "状态栏信息"
+    ],
+    "actions": [],
+    "attributes": [
+      "黄色三角形警告图标",
+      "粉色发光灯笼",
+      "深色山水背景",
+      "白色数字时间显示",
+      "半透明通知卡片"
+    ],
+    "relations": [
+      "警告弹窗覆盖在壁纸下半部分。",
+      "通知横幅位于警告弹窗下方。",
+      "时间和日期位于屏幕上方中央。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "屏幕中央显示巨大的白色数字时间'17：42'及日期信息。",
+      "屏幕下方有一个带有黄色水滴三角形图标的弹窗，标题为'检测到液体'。",
+      "背景是一幅竖构图插画，画面中有黑色山崖剪影、水面倒影以及许多升空的粉色灯笼。",
+      "底部有两个圆形的快捷功能图标(手电筒和相机)。"
+    ],
+    "cautious_inferences": [
+      "壁纸风格看起来具有东方奇幻或古风色彩。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "中国电信",
+      "17:42",
+      "检测到液体"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "中国电信",
+      "17:42",
+      "检测到液体"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "屏幕中央显示巨大的白色数字时间'17：42'及日期信息；屏幕下方有一个带有黄色水滴三角形图标的弹窗，标题为'检测到液体'。",
+    "safe_facts": [
+      "屏幕中央显示巨大的白色数字时间'17：42'及日期信息。",
+      "屏幕下方有一个带有黄色水滴三角形图标的弹窗，标题为'检测到液体'。",
+      "背景是一幅竖构图插画，画面中有黑色山崖剪影、水面倒影以及许多升空的粉色灯笼。"
+    ],
+    "do_not_assert": [
+      "壁纸风格看起来具有东方奇幻或古风色彩。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_ae6bb8d1-b76e-44c2-8648-03d3258e3f2f",
+    "generated_at": "2026-08-12T02:56:20.208064+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "5f84221e050a13f43bd3f3322f3919b5f1f1f1907f58a1ae400bab2e2e570063",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T02:56:20.209806+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_57525d123c80802f40295db9",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T02:56:20.210285+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "5f496da647d8b40b9f0f1458e36bcbbaefa1a22695357bddc9a2242a205d85be"
+}

@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:133.jpg",
+    "relative_path": "train/133.jpg",
+    "sha256": "7db3a952d2e1a3261313d624b298cfea53e24b84631317a285d5d16d26dbc685",
+    "split": "train"
+  },
+  "canonical_sha256": "10c67f7858047de44741b06e6ee5d85bef8a428ce5e7b64f58738a44c2d34062",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古建筑",
+      "游客",
+      "晴天",
+      "红墙蓝瓦"
+    ],
+    "short_description": "晴朗天气下，一座红墙蓝瓦的传统中式建筑前聚集大量游客，许多人撑着遮阳伞。",
+    "theme": "古建筑群游客场景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "游客可能在参观或拍照。"
+    ],
+    "direct_observations": [
+      "天空湛蓝，有少量云朵。",
+      "建筑具有中国传统风格的屋顶和红色墙壁。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "行走",
+      "撑伞"
+    ],
+    "attributes": [
+      "蓝天",
+      "绿树",
+      "红色墙体",
+      "蓝色屋檐"
+    ],
+    "relations": [
+      "游客聚集在建筑前。",
+      "建筑位于广场中央。"
+    ],
+    "scene": "户外旅游景点",
+    "subjects": [
+      "游客",
+      "传统建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "游客可能在参观或拍照。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空湛蓝，有少量云朵；建筑具有中国传统风格的屋顶和红色墙壁。",
+    "safe_facts": [
+      "天空湛蓝，有少量云朵。",
+      "建筑具有中国传统风格的屋顶和红色墙壁。"
+    ]
+  },
+  "label_id": "cpl_154863f1d576489ab7bcfc9f",
+  "provenance": {
+    "generated_at": "2026-08-03T09:34:43.179812+00:00",
+    "migrated_at": "2026-08-03T09:34:43.181541+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "865ee59cce48bf7b1a99585743be9380b45a093779bac66766e4956a797fc786",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ea0c1df6fb3f11d01f23ea66",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:40.871750+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ea0c1df6fb3f11d01f23ea66",
+    "cpl_8d2bb075b516d360873fa2b1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1113.jpg",
+    "relative_path": "train/1113.jpg",
+    "sha256": "e54178893482dc3649049c0f26bfd13b3c122830483171ad1e545757f67d3ef6",
+    "split": "train"
+  },
+  "canonical_sha256": "01c3658746d63fd221182ef4d37761d20e4e94d84547e3dac7a31f3a46f3bc1d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄昏天空",
+      "飞机尾迹",
+      "树影剪影"
+    ],
+    "short_description": "黄昏时分，天空渐变色，两道飞机尾迹划过天际，地平线处树木与建筑剪影清晰可见。",
+    "theme": "黄昏天空与树影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空中的亮线可能是飞机飞行留下的凝结尾迹。"
+    ],
+    "direct_observations": [
+      "天空呈现从上至下由浅蓝到淡橙的渐变色调。",
+      "画面底部可见树木和建筑物的黑色剪影。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空渐变色",
+      "剪影",
+      "黄昏光线"
+    ],
+    "relations": [
+      "飞机尾迹位于天空中。",
+      "树木与建筑物位于地平线下。"
+    ],
+    "scene": "户外天空与地平线",
+    "subjects": [
+      "飞机尾迹",
+      "树木",
+      "建筑物轮廓",
+      "灯杆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空中的亮线可能是飞机飞行留下的凝结尾迹。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现从上至下由浅蓝到淡橙的渐变色调；画面底部可见树木和建筑物的黑色剪影。",
+    "safe_facts": [
+      "天空呈现从上至下由浅蓝到淡橙的渐变色调。",
+      "画面底部可见树木和建筑物的黑色剪影。"
+    ]
+  },
+  "label_id": "cpl_2da6d5c1691bd2b221b44bd3",
+  "provenance": {
+    "generated_at": "2026-08-03T13:39:57.916073+00:00",
+    "migrated_at": "2026-08-03T13:39:57.920246+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2fdc661a6a961fcfc19a9be2490bf30a44c264b63f50fcffd7ee380de9706041",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ffaaeb40929a2099bf10007e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:39:57.920596+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ffaaeb40929a2099bf10007e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

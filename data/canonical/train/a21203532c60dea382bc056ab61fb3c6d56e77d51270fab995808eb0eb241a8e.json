@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1658.jpg",
+    "relative_path": "train/1658.jpg",
+    "sha256": "a21203532c60dea382bc056ab61fb3c6d56e77d51270fab995808eb0eb241a8e",
+    "split": "train"
+  },
+  "canonical_sha256": "5699f7588fd7d3bf5dc74b4b9d676d4bd595d1ab2dc83be3daadf8568abdbb53",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式亭子",
+      "园林景观",
+      "彩绘屋檐",
+      "石基座"
+    ],
+    "short_description": "一座装饰华丽的传统中式亭子坐落在岩石环绕的庭院中，周围树木葱郁，屋檐飞翘，彩绘精美。",
+    "theme": "中式亭台园林"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "亭子可能用于休憩或观赏，因其位置和设计符合园林功能。"
+    ],
+    "direct_observations": [
+      "亭子具有传统中式建筑风格，屋檐向上翘起，覆盖着灰色瓦片。",
+      "亭子由绿色柱子支撑，底部为石砌基座，周围有天然岩石。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "彩绘装饰",
+      "绿色柱子",
+      "灰色瓦片屋顶",
+      "石砌基座"
+    ],
+    "relations": [
+      "亭子位于岩石之上。",
+      "亭子被树木环绕。"
+    ],
+    "scene": "户外园林",
+    "subjects": [
+      "亭子",
+      "树木",
+      "岩石"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "亭子可能用于休憩或观赏，因其位置和设计符合园林功能。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "亭子具有传统中式建筑风格，屋檐向上翘起，覆盖着灰色瓦片；亭子由绿色柱子支撑，底部为石砌基座，周围有天然岩石。",
+    "safe_facts": [
+      "亭子具有传统中式建筑风格，屋檐向上翘起，覆盖着灰色瓦片。",
+      "亭子由绿色柱子支撑，底部为石砌基座，周围有天然岩石。"
+    ]
+  },
+  "label_id": "cpl_823f9faaa6653d8994852397",
+  "provenance": {
+    "generated_at": "2026-08-03T14:50:56.634486+00:00",
+    "migrated_at": "2026-08-03T14:50:56.642690+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "60873347300047b51ab2dab11ab204421317e791c72c1c5c9a653088d12b82f9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_16b6fa82795889eec0936e70",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:50:56.643929+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_16b6fa82795889eec0936e70"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

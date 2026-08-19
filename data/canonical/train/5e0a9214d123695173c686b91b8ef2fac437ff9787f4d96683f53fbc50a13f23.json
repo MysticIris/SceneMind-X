@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1228.jpg",
+    "relative_path": "train/1228.jpg",
+    "sha256": "5e0a9214d123695173c686b91b8ef2fac437ff9787f4d96683f53fbc50a13f23",
+    "split": "train"
+  },
+  "canonical_sha256": "3bfee405572a0ad0ff461864e121d21efbda8f1596bc7ba09cd1de7b0c305f59",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜市",
+      "灯笼",
+      "人群",
+      "红色拱门"
+    ],
+    "short_description": "夜晚热闹的街市入口，红色拱门挂满黄色灯笼，人群穿着冬衣戴着口罩穿行其中。",
+    "theme": "夜市灯笼装饰"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "现场可能为节庆或商业活动期间。"
+    ],
+    "direct_observations": [
+      "画面中有多人穿着厚外套并佩戴口罩。",
+      "拱门上方悬挂着多盏圆形黄色灯笼。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "聚集"
+    ],
+    "attributes": [
+      "冬季服装",
+      "佩戴口罩",
+      "发光灯笼",
+      "红色建筑结构"
+    ],
+    "relations": [
+      "行人位于拱门前。",
+      "灯笼悬挂在拱门上。"
+    ],
+    "scene": "夜间户外商业街区入口",
+    "subjects": [
+      "行人",
+      "灯笼",
+      "红色拱门结构"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "现场可能为节庆或商业活动期间。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多人穿着厚外套并佩戴口罩；拱门上方悬挂着多盏圆形黄色灯笼。",
+    "safe_facts": [
+      "画面中有多人穿着厚外套并佩戴口罩。",
+      "拱门上方悬挂着多盏圆形黄色灯笼。"
+    ]
+  },
+  "label_id": "cpl_c6b3b30ef90c80c80c959622",
+  "provenance": {
+    "generated_at": "2026-08-03T13:55:57.040338+00:00",
+    "migrated_at": "2026-08-03T13:55:57.044483+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f2a68bcf1a7dd5bcd3e76dfade722303a9385e6d13f69d316b257b0621d9992a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_10c952b0cb7a7c428aaefcfa",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:55:57.044861+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_10c952b0cb7a7c428aaefcfa"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

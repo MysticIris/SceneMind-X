@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:143.jpg",
+    "relative_path": "train/143.jpg",
+    "sha256": "8b47d4d830a8d5f25fd18fa895527ec13241218770ce7d00f94ecd7ac2f9c49f",
+    "split": "train"
+  },
+  "canonical_sha256": "cb67139c7aba766688b9e9d0f45c5494290afff12cb0a40242753c5fe7f3abac",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "宣传海报",
+      "红色背景"
+    ],
+    "short_description": "一张用于宣传的红色活动海报，背景有灯笼和气球装饰。",
+    "theme": "宣传海报与墙面标识"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央是一张大型红色宣传海报。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色背景",
+      "悬挂灯笼图案"
+    ],
+    "relations": [
+      "海报贴于墙面。",
+      "气球位于海报右侧。"
+    ],
+    "scene": "室内活动宣传区域",
+    "subjects": [
+      "宣传海报",
+      "墙面标识",
+      "气球装饰"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是一张大型红色宣传海报。",
+    "safe_facts": [
+      "画面中央是一张大型红色宣传海报。"
+    ]
+  },
+  "label_id": "cpl_6a3b6d4e0d6fe4ebac0a91a9",
+  "provenance": {
+    "generated_at": "2026-08-03T09:36:47.709848+00:00",
+    "migrated_at": "2026-08-03T09:36:47.711740+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "35e49f20a283ac798b8083016039f0786c97825bdb1379d56e483abd303f6fba",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8da9f29a4e13efaa6ce17111",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:41.474156+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8da9f29a4e13efaa6ce17111",
+    "cpl_438930e83dc778d055e82cb9"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "光谷实验室",
+      "Optics Valley Laboratory",
+      "时光启盛 璀璨迎新",
+      "电子信息与通信学院2024年新年晚会",
+      "HAPPY NEW YEAR",
+      "EIC vivo 智联校园|有智青年"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "光谷实验室",
+      "Optics Valley Laboratory",
+      "时光启盛 璀璨迎新",
+      "电子信息与通信学院2024年新年晚会",
+      "HAPPY NEW YEAR",
+      "EIC vivo 智联校园|有智青年"
+    ]
+  }
+}

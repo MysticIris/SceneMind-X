@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1891.jpg",
+    "relative_path": "train/1891.jpg",
+    "sha256": "5e52bc1a3edd91f12d13727b5e1bb21731d2958064a08b765b4e179da27b1b1d",
+    "split": "train"
+  },
+  "canonical_sha256": "26a3a8c51b6cff987363bc26125ce70292c6795701471fb8ca44734c2d790d2a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "户外烧烤",
+      "便携炭炉",
+      "水果拼盘"
+    ],
+    "short_description": "多人围坐桌旁，使用便携式炭炉烤红薯和橙子，桌上摆着水果盒和饮品。",
+    "theme": "户外烧烤聚会"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一个人正在用签子将食物(如红薯、橙子)放在炭炉上烤。",
+      "桌上摆放着多个木质分格盒子，内含不同种类的水果和蔬菜。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "手持食物烤制"
+    ],
+    "attributes": [
+      "炭炉内有火苗",
+      "木盒内装有水果",
+      "杯子带盖",
+      "椅子为折叠式"
+    ],
+    "relations": [
+      "人手正将食物放在炭炉上烤。",
+      "木盒放置于桌面上。",
+      "炭炉置于桌面中央。"
+    ],
+    "scene": "室内或半室外休闲区域",
+    "subjects": [
+      "人手",
+      "便携式炭炉",
+      "木质分格盒子",
+      "黑色折叠椅",
+      "黑色桌子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一个人正在用签子将食物(如红薯、橙子)放在炭炉上烤；桌上摆放着多个木质分格盒子，内含不同种类的水果和蔬菜。",
+    "safe_facts": [
+      "画面中有一个人正在用签子将食物(如红薯、橙子)放在炭炉上烤。",
+      "桌上摆放着多个木质分格盒子，内含不同种类的水果和蔬菜。"
+    ]
+  },
+  "label_id": "cpl_48216371d759c54ccb2fdc9b",
+  "provenance": {
+    "generated_at": "2026-08-03T15:17:39.219042+00:00",
+    "migrated_at": "2026-08-03T15:17:39.221003+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4e681bbd835b625bdce876686a2e3d79301c647fbc7d99857ab1ccefef284689",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_47cadec97c42559ac6e174d4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:17:39.221219+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_47cadec97c42559ac6e174d4"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

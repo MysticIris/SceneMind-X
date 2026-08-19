@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:516.jpg",
+    "relative_path": "train/516.jpg",
+    "sha256": "f3cd4ec59f7b1ad3a4a955cfd066062cef04528e390d17b1a237227658c1bd8e",
+    "split": "train"
+  },
+  "canonical_sha256": "b0ccf0fad5e6f640c3b7241112be293365368236e90e800755aa521ebeff296e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "樱花",
+      "校园",
+      "春日",
+      "人群"
+    ],
+    "short_description": "盛开的粉色樱花树下，人们在校园建筑前驻足观赏，背景是现代风格的教学楼。",
+    "theme": "春日校园"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有大量盛开的粉红色樱花树。",
+      "背景是一座多层现代建筑，带有玻璃幕墙和白色外墙。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "粉红色花朵",
+      "多层建筑",
+      "铁栅栏"
+    ],
+    "relations": [
+      "樱花树位于前景。",
+      "教学楼位于背景。"
+    ],
+    "scene": "户外校园环境",
+    "subjects": [
+      "樱花树",
+      "教学楼",
+      "行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有大量盛开的粉红色樱花树；背景是一座多层现代建筑，带有玻璃幕墙和白色外墙。",
+    "safe_facts": [
+      "画面中有大量盛开的粉红色樱花树。",
+      "背景是一座多层现代建筑，带有玻璃幕墙和白色外墙。"
+    ]
+  },
+  "label_id": "cpl_c8ccb6702f2e860c0163840e",
+  "provenance": {
+    "generated_at": "2026-08-03T11:19:35.519512+00:00",
+    "migrated_at": "2026-08-03T11:19:35.521916+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "24730d90fa8b9b1d1b670e178f7e47b12cb986a2bf2bd764e048bd05fa16f31c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8d17402f012f003605fb314e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:19:35.522118+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8d17402f012f003605fb314e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

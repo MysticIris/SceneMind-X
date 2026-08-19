@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:914.jpg",
+    "relative_path": "train/914.jpg",
+    "sha256": "4c0bc88c72f6d1dda48f0e188d82ddebf121c01d753e8a05e6d9452916c45537",
+    "split": "train"
+  },
+  "canonical_sha256": "3c7d2913d4568072d0a79e944ff123ae885d7f483984e36a899f8be46d27e6bb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市建筑",
+      "黄昏天空",
+      "高层住宅楼",
+      "街道绿化"
+    ],
+    "short_description": "黄昏时分，城市高楼林立，天空泛着淡橙色余晖，建筑群间穿插电线与绿树，前景有巴士局部。",
+    "theme": "城市高楼黄昏景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能处于日落前后时段，因天空颜色变化。"
+    ],
+    "direct_observations": [
+      "画面中有三栋以上高层建筑，外墙呈米色与深色相间。",
+      "天空呈现从浅灰到淡橙色的渐变，云层稀薄。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "现代建筑风格",
+      "多层窗户",
+      "黄昏光线",
+      "绿色树叶"
+    ],
+    "relations": [
+      "建筑群位于街道两侧。",
+      "树木分布在建筑前方。",
+      "电线横跨画面。"
+    ],
+    "scene": "城市街景",
+    "subjects": [
+      "高层建筑",
+      "树木",
+      "电线",
+      "巴士车顶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能处于日落前后时段，因天空颜色变化。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有三栋以上高层建筑，外墙呈米色与深色相间；天空呈现从浅灰到淡橙色的渐变，云层稀薄。",
+    "safe_facts": [
+      "画面中有三栋以上高层建筑，外墙呈米色与深色相间。",
+      "天空呈现从浅灰到淡橙色的渐变，云层稀薄。"
+    ]
+  },
+  "label_id": "cpl_4897bf127ea51e232fde4668",
+  "provenance": {
+    "generated_at": "2026-08-03T12:49:34.036993+00:00",
+    "migrated_at": "2026-08-03T12:49:34.040179+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d60223870be7bd945dec70d0704273c3a0dbc80eb7d457b5e3e4d789c0f58b3e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2bbc5b097dc5b7b653e2fc73",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:49:34.040567+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2bbc5b097dc5b7b653e2fc73"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

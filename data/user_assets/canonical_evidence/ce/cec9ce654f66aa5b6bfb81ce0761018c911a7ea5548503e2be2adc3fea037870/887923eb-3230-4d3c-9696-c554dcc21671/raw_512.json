@@ -1,0 +1,66 @@
+{
+  "asset_id": "cec9ce654f66aa5b",
+  "asset_sha256": "cec9ce654f66aa5b6bfb81ce0761018c911a7ea5548503e2be2adc3fea037870",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"游戏结算界面截图\",\n    \"short_description\": \"这是一张手机游戏的对局结算界面截图。画面左侧展示了一位身穿白色裙装、拥有银白色长发的女性角色立绘，背景为深蓝色星空与冰晶特效。界面右侧及中央显示了巨大的评分数字“14.9”，以及“MVP”、“顶级中路”等荣誉标识。下方排列着分路表现、团队贡献、战斗操作三个维度的徽章评价，底部有星级奖励进度条及继续按钮。\",\n    \"micro_tags\": [\n      \"游戏截图\",\n      \"结算界面\",\n      \"女性角色\",\n      \"MVP\",\n      \"冰雪主题\",\n      \"UI设计\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"电子游戏对局结束后的数据统计与评价界面\",\n    \"subjects\": [\n      \"银发白衣女性游戏角色\",\n      \"游戏UI面板\",\n      \"评价徽章\",\n      \"数值文本\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"深蓝色星空背景\",\n      \"冰晶装饰元素\",\n      \"金色与红色配色的徽章\",\n      \"高亮显示的评分数字\",\n      \"三颗金色星星\"\n    ],\n    \"relations\": [\n      \"角色立绘位于界面左侧占据主要视觉区域\",\n      \"评分数据与荣誉标签位于界面右侧及中央\",\n      \"功能按钮位于界面最底部\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面中央显示巨大的黄色数字“14.9”，旁边有红色标签显示“前1%”。\",\n      \"界面包含三个圆形徽章，分别对应“分路表现”、“团队贡献”和“战斗操作”，下方有具体的百分比或数值统计。\",\n      \"左侧人物为长发女性，身着白色礼服，周围环绕着蓝色的冰棱状特效。\",\n      \"右上角显示玩家昵称及段位图标，右下角有“点击此处继续”的提示文字。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局和数据展示方式，推测这是一款多人在线战术竞技类手游（MOBA）的赛后结算页面。\",\n      \"人物造型与冰雪元素结合，可能代表该角色的技能属性或当前使用的皮肤主题。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的游戏名称及版本号。\",\n      \"无法确认该角色在游戏中的具体身份名称。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"14.9\",\n      \"前1%\",\n      \"顶级中路\",\n      \"MVP\",\n      \"分路表现\",\n      \"团队贡献\",\n      \"战斗操作\",\n      \"对本分路塔伤害占比15%\",\n      \"参团率94%\",\n      \"最多连杀4\",\n      \"本局总计积分 +301\",\n      \"星级+3\",\n      \"点击此处继续\",\n      \"甄姬\",\n      \"里程碑计数：达成累计击败数量251\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张深蓝色调的游戏结算界面截图，左侧有一位银发",
+      "input_tokens": 3227,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 768,
+        "total_tokens": 3995,
+        "estimated_cost_cny": 0.012598,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "游戏结算界面截图",
+        "short_description": "这是一张手机游戏的对局结算界面截图。画面左侧展示了一位身穿白色裙装、拥有银白色长发的女性角色立绘，背景为深蓝色星空与冰晶特效。界面右侧及中央显示了巨大的评分数字“14.9”，以及“MVP”、“顶级中路”等荣誉标识。下方排列着分路表现、团队贡献、战斗操作三个维度的徽章评价，底部有星级奖励进度条及继续按钮。",
+        "micro_tags": [
+          "游戏截图",
+          "结算界面",
+          "女性角色",
+          "MVP",
+          "冰雪主题",
+          "UI设计"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 6102532,
+        "request_bytes": 4573826,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.552401799999643,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "d20494659652235ede67c8c3caa989b3553c350c99819a5d86acb292b08b4974"
+}

@@ -1,0 +1,112 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:887.jpg",
+    "relative_path": "train/887.jpg",
+    "sha256": "75d6c7ea4d5a5dd10c377a6c8b0439d428ae9a2983bf67ea0b5fec58ebf0988a",
+    "split": "train"
+  },
+  "canonical_sha256": "2dd4166e2b1854b4d9c91254d77588d71048a087e092c240a512e4681e6f32f8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "学生",
+      "教室",
+      "写字",
+      "黑板",
+      "桌子"
+    ],
+    "short_description": "多名学生在教室里坐着写字。",
+    "theme": "保守"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "有多名学生坐在课桌前。",
+      "房间内有一块黑板。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "",
+    "subjects": [],
+    "visual_medium": "uncertain"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "有多名学生坐在课桌前；房间内有一块黑板。",
+    "safe_facts": [
+      "有多名学生坐在课桌前。",
+      "房间内有一块黑板。"
+    ]
+  },
+  "label_id": "cpl_f53b0efa56119950dfbba340",
+  "provenance": {
+    "generated_at": "2026-08-03T13:22:14.736619+00:00",
+    "migrated_at": "2026-08-03T13:22:14.749858+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "a1b9e02b68561075c20a39e92cf25e495d05a8017f7ff3050b6f68f5012a9bfb",
+    "raw_output_sha256": "9dbfdc9731f562acd190421bfbd6d88bd750b56e89af7d195696c3995004ce70",
+    "recovered_at_tokens": 384,
+    "source_label_id": "cpl_f2b049fa2a936c0178530c74",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:14.750192+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_subjects_empty",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_with_minimal_contract",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f2b049fa2a936c0178530c74"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

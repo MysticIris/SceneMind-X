@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:162.jpg",
+    "relative_path": "train/162.jpg",
+    "sha256": "a74c8faf6050ad990711601cb8e1e06689f2efa6562213927a33a65da93f1d93",
+    "split": "train"
+  },
+  "canonical_sha256": "8ed512fbd0c8a8ab1f33e925adea89418c37cae22f5a7b87ac4643d4c57ec552",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "海豹",
+      "水生动物",
+      "岩石海岸"
+    ],
+    "short_description": "两只海豹在水面上浮游，露出头部和长牙，背景是模糊的岩石海岸。",
+    "theme": "海豹在水中"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两只海豹头部露出水面，身体部分浸在水中。",
+      "海豹嘴部有明显长牙，颜色为乳白色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "有长牙",
+      "皮肤呈灰褐色斑点状"
+    ],
+    "relations": [
+      "两只海豹并排浮于水面。"
+    ],
+    "scene": "海洋水域",
+    "subjects": [
+      "海豹"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两只海豹头部露出水面，身体部分浸在水中；海豹嘴部有明显长牙，颜色为乳白色。",
+    "safe_facts": [
+      "两只海豹头部露出水面，身体部分浸在水中。",
+      "海豹嘴部有明显长牙，颜色为乳白色。"
+    ]
+  },
+  "label_id": "cpl_1f091d2261e14630e0edf092",
+  "provenance": {
+    "generated_at": "2026-08-03T10:07:40.005230+00:00",
+    "migrated_at": "2026-08-03T10:07:40.007422+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1321a4b10e53b9f103ac613909008470a4497b52a990f8294c98e83cea201599",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_defaea25ff50dae819d340c1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:07:40.007811+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_defaea25ff50dae819d340c1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

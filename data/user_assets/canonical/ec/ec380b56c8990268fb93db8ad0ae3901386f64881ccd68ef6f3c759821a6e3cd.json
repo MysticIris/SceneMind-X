@@ -1,0 +1,142 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_74ebaed5a8248e7f48e4757a",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_f4e70384f163aae941c1ef7d"
+  ],
+  "asset": {
+    "asset_id": "ec380b56c8990268",
+    "sha256": "ec380b56c8990268fb93db8ad0ae3901386f64881ccd68ef6f3c759821a6e3cd",
+    "split": "user_custom",
+    "relative_path": "user_assets/ec/ec380b56c8990268fb93db8ad0ae3901386f64881ccd68ef6f3c759821a6e3cd/ec380b56c8990268fb93db8ad0ae3901386f64881ccd68ef6f3c759821a6e3cd.jpg"
+  },
+  "display": {
+    "theme": "游戏界面与证件截图",
+    "short_description": "这是一张手机游戏个人主页界面的截图，画面中央叠加了一张绿底金字的证件图片，背景可见游戏角色立绘及左侧的数据统计菜单。",
+    "micro_tags": [
+      "游戏截图",
+      "个人主页",
+      "证件",
+      "UI界面",
+      "叠加图"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "移动端游戏应用界面",
+    "subjects": [
+      "游戏UI菜单",
+      "绿色证件卡片",
+      "游戏角色立绘"
+    ],
+    "actions": [],
+    "attributes": [
+      "深蓝色背景",
+      "青绿色卡片",
+      "金色浮雕质感图标",
+      "垂直排列的文本列表"
+    ],
+    "relations": [
+      "证件图片覆盖在游戏界面中央。",
+      "菜单栏位于画面左侧。",
+      "角色立绘位于画面右侧背景。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "图像为数字屏幕截图。",
+      "包含垂直排列的导航菜单项。",
+      "中央有一个矩形的绿色图文卡片。",
+      "卡片上有金色的图形标志。",
+      "右下角有社交媒体平台的水印。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "个人主页",
+      "电竞空间",
+      "中华人民共和国",
+      "1487",
+      "499",
+      "1746"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "个人主页",
+      "电竞空间",
+      "中华人民共和国",
+      "1487",
+      "499",
+      "1746"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "图像为数字屏幕截图；包含垂直排列的导航菜单项。",
+    "safe_facts": [
+      "图像为数字屏幕截图。",
+      "包含垂直排列的导航菜单项。",
+      "中央有一个矩形的绿色图文卡片。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "needs_review",
+    "schema_valid": true,
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": true,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_6319b84c-5553-4124-9224-5877549c3d6c",
+    "generated_at": "2026-08-12T03:18:49.239175+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "42bfeb6504b3c027e86b1d78ad5a778830424f5e6d1b3b65b4512aff562a1078",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:18:49.240075+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_f4e70384f163aae941c1ef7d",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:18:49.240375+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "9f4a93450535bb0252bacec2b8a2bbb7bd7d80c639bb9f46cdda6556ae4bb0aa"
+}

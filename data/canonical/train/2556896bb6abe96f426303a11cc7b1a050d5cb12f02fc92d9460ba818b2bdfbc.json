@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1861.jpg",
+    "relative_path": "train/1861.jpg",
+    "sha256": "2556896bb6abe96f426303a11cc7b1a050d5cb12f02fc92d9460ba818b2bdfbc",
+    "split": "train"
+  },
+  "canonical_sha256": "5068e2b4b944e718f0e6ec9889a20ecbe22c80f052d19a3bc0a7683306042f42",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "科学界",
+      "语言平等"
+    ],
+    "short_description": "一张显示两个版本相同思想的幻灯片，内容涉及非母语科学家应享平等地位。",
+    "theme": "对比两种表述"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像包含两个带编号的文本框，用于对比相同主题的不同表达方式。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "一张屏幕截图，背景为浅灰色，含紫色和粉色矩形框",
+    "subjects": [],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像包含两个带编号的文本框，用于对比相同主题的不同表达方式。",
+    "safe_facts": [
+      "图像包含两个带编号的文本框，用于对比相同主题的不同表达方式。"
+    ]
+  },
+  "label_id": "cpl_c659e802de562960f1998ee8",
+  "provenance": {
+    "generated_at": "2026-08-03T15:14:16.667586+00:00",
+    "migrated_at": "2026-08-03T15:14:16.669631+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b11f30f3e04798a2cc665b6fccc488c49613eca1e9a24e2f782fc68afe8e8925",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b598b1511989abdb26842b02",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:14:16.670016+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_subjects_empty",
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b598b1511989abdb26842b02"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Compare the following two versions of th",
+      "1. Scientists for whom English is not th",
+      "2. Scientists for whom English is second"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Compare the following two versions of th",
+      "1. Scientists for whom English is not th",
+      "2. Scientists for whom English is second"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:902.jpg",
+    "relative_path": "train/902.jpg",
+    "sha256": "199567edffd3999adc2039b386f545f092457d88f73aa4cdd5e1616433c2e085",
+    "split": "train"
+  },
+  "canonical_sha256": "9b8e5efe9f99ac90c1a84d92344903ffc1c1c16f62854ecc87b3dc07c4fbdd4e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "草地",
+      "人群聚集",
+      "列队站立"
+    ],
+    "short_description": "夜晚草地上，大量人群聚集，部分人跪坐或蹲伏，中央有数人列队站立，背景是树木和城市灯光。",
+    "theme": "夜间户外集体活动"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "人群可能在参与某种集体活动或仪式。"
+    ],
+    "direct_observations": [
+      "画面显示夜间场景，天空呈深色。",
+      "草坪上有大量人群，部分人呈跪姿或蹲姿。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "跪坐",
+      "蹲伏",
+      "列队站立"
+    ],
+    "attributes": [
+      "夜间",
+      "绿色草坪",
+      "树上灯光",
+      "远处有起重机"
+    ],
+    "relations": [
+      "人群分布在草坪两侧。",
+      "列队人员位于草坪中央。",
+      "树木环绕草坪。"
+    ],
+    "scene": "户外草坪",
+    "subjects": [
+      "人群",
+      "列队人员",
+      "树木",
+      "城市建筑轮廓"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "人群可能在参与某种集体活动或仪式。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面显示夜间场景，天空呈深色；草坪上有大量人群，部分人呈跪姿或蹲姿。",
+    "safe_facts": [
+      "画面显示夜间场景，天空呈深色。",
+      "草坪上有大量人群，部分人呈跪姿或蹲姿。"
+    ]
+  },
+  "label_id": "cpl_3d4a39ebbe92dcf4d35a47d3",
+  "provenance": {
+    "generated_at": "2026-08-03T12:47:23.062556+00:00",
+    "migrated_at": "2026-08-03T12:47:23.064516+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8b6a309fac9dfdbc74a49dbc72ed46a61bce879d5794f9cde7016f28314be933",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ea0ca7edabab501cdb873bc2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:47:23.064729+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ea0ca7edabab501cdb873bc2"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:640.jpg",
+    "relative_path": "train/640.jpg",
+    "sha256": "004936f56dc9f76ead938e233f78ba6cd21d09d2b4b460e2ab99627d639eccb5",
+    "split": "train"
+  },
+  "canonical_sha256": "f6a5653c12d51c1bba853dd3edba77333dd9ec2d9a26eec2b1506de5ebbd9b22",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电动车",
+      "停车区",
+      "户外",
+      "顶棚"
+    ],
+    "short_description": "多个电动自行车停放在带顶棚的砖砌地面区域，背景有树木和建筑物。",
+    "theme": "电动车停放区"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多辆电动自行车整齐排列在砖砌地面上。",
+      "上方有蓝色塑料顶棚覆盖车辆。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "多辆",
+      "静止",
+      "带顶棚",
+      "地面铺砖"
+    ],
+    "relations": [
+      "电动车停放在顶棚下。",
+      "顶棚覆盖地面区域。",
+      "树木位于背景。"
+    ],
+    "scene": "户外停车场",
+    "subjects": [
+      "电动自行车",
+      "顶棚",
+      "砖砌地面",
+      "树木",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多辆电动自行车整齐排列在砖砌地面上；上方有蓝色塑料顶棚覆盖车辆。",
+    "safe_facts": [
+      "多辆电动自行车整齐排列在砖砌地面上。",
+      "上方有蓝色塑料顶棚覆盖车辆。"
+    ]
+  },
+  "label_id": "cpl_a80c5926183cfdf9677ff94f",
+  "provenance": {
+    "generated_at": "2026-08-03T11:49:57.899693+00:00",
+    "migrated_at": "2026-08-03T11:49:57.902246+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3d52cc826d29cbaf6ccdb7c1f0f95e75b389d86af8c229ecf29f7278c5c3e2c0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f25a0a8f781ed6bbb00bfd92",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:49:57.902586+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f25a0a8f781ed6bbb00bfd92"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

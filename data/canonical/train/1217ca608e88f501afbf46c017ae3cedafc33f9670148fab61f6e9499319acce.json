@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1242.jpg",
+    "relative_path": "train/1242.jpg",
+    "sha256": "1217ca608e88f501afbf46c017ae3cedafc33f9670148fab61f6e9499319acce",
+    "split": "train"
+  },
+  "canonical_sha256": "50345a3ad10823dc5ae493b94516bf712da95c211423a0ff47a90d493722b5ed",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "高楼灯光",
+      "剪影前景"
+    ],
+    "short_description": "夜幕下城市高楼群灯火通明，前景树木与遮挡物形成剪影，建筑轮廓清晰可见。",
+    "theme": "城市夜景剪影"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多栋高层建筑被灯光照亮，呈现垂直条纹状光带。",
+      "前景为深色树木轮廓，部分区域被黑色遮挡结构覆盖。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "灯光照明",
+      "剪影效果"
+    ],
+    "relations": [
+      "建筑位于树木后方。",
+      "遮挡结构位于画面前景。"
+    ],
+    "scene": "城市夜景",
+    "subjects": [
+      "高楼建筑",
+      "树木",
+      "遮挡结构"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多栋高层建筑被灯光照亮，呈现垂直条纹状光带；前景为深色树木轮廓，部分区域被黑色遮挡结构覆盖。",
+    "safe_facts": [
+      "多栋高层建筑被灯光照亮，呈现垂直条纹状光带。",
+      "前景为深色树木轮廓，部分区域被黑色遮挡结构覆盖。"
+    ]
+  },
+  "label_id": "cpl_56790da14c5a25888696582d",
+  "provenance": {
+    "generated_at": "2026-08-02T22:01:54.441376+00:00",
+    "migrated_at": "2026-08-03T07:13:41.274288+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5c415374787ee0aeb505e3519793bd28b28b80e5ac820b11107e09a83d3e8a16",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6b476cdcd839f712f58c7366",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:57:25.618101+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6b476cdcd839f712f58c7366",
+    "cpl_ebc1200ec6bd20a57dcf04df"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

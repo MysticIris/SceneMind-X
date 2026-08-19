@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1604.jpg",
+    "relative_path": "train/1604.jpg",
+    "sha256": "1aca8a9cf0dcc1491e867a2785776f07aa931fb68b69153ef2e677109e99bf23",
+    "split": "train"
+  },
+  "canonical_sha256": "1179d367782ad328f5c9275e3dd878cebf7520d16471599b8662318f7270cc99",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红色大桥",
+      "黄昏",
+      "行人",
+      "城市景观"
+    ],
+    "short_description": "一对行人走在红色悬索桥人行道上，桥面车流穿梭，远处城市天际线隐约可见。",
+    "theme": "红色大桥黄昏景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一座大型红色悬索桥，桥塔和钢缆结构清晰可见。",
+      "桥面上有多辆汽车正在行驶，右侧有人行道上有两人并肩行走。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "行驶"
+    ],
+    "attributes": [
+      "红色桥塔",
+      "路灯亮起",
+      "天空呈灰蓝色"
+    ],
+    "relations": [
+      "行人位于桥的人行道上。",
+      "车辆在桥面车道行驶。",
+      "桥梁连接城市建筑群。"
+    ],
+    "scene": "城市桥梁",
+    "subjects": [
+      "两名行人",
+      "多辆汽车",
+      "桥梁结构"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一座大型红色悬索桥，桥塔和钢缆结构清晰可见；桥面上有多辆汽车正在行驶，右侧有人行道上有两人并肩行走。",
+    "safe_facts": [
+      "画面中有一座大型红色悬索桥，桥塔和钢缆结构清晰可见。",
+      "桥面上有多辆汽车正在行驶，右侧有人行道上有两人并肩行走。"
+    ]
+  },
+  "label_id": "cpl_1c6d82ada49b2949c5d7116c",
+  "provenance": {
+    "generated_at": "2026-08-03T14:43:00.773298+00:00",
+    "migrated_at": "2026-08-03T14:43:00.776166+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "598dc5f088666cc6ee597ab6f163eaba2aa9fa9f8bc59347d2a86dd5afd24984",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_91585e6db941592c2f7a923a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:43:00.776527+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_91585e6db941592c2f7a923a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

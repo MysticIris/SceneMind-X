@@ -1,0 +1,144 @@
+{
+  "asset_id": "352589fc29973cb5",
+  "asset_sha256": "352589fc29973cb576cfd7b10c94a7d5c0c96b6ef2073ce47208a7acd4999843",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"社交软件聊天界面截图\",\n    \"short_description\": \"一张手机社交应用Soul的聊天界面截图。画面展示了用户与昵称为“芝芝”的在线好友之间的对话记录，包含青色和白色的气泡消息、卡通头像以及底部的快捷回复选项栏。\",\n    \"micro_tags\": [\n      \"Soul\",\n      \"聊天记录\",\n      \"即时通讯\",\n      \"UI界面\",\n      \"社交APP\",\n      \"手机截图\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端应用程序聊天窗口\",\n    \"subjects\": [\n      \"聊天气泡\",\n      \"用户头像\",\n      \"顶部导航栏\",\n      \"底部输入区\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白色背景\",\n      \"青色发送方气泡\",\n      \"白色接收方气泡\",\n      \"圆形卡通头像\",\n      \"顶部状态栏显示时间11:17\"\n    ],\n    \"relations\": [\n      \"消息气泡按时间顺序垂直排列\",\n      \"右侧气泡对应发送方，左侧气泡对应接收方\",\n      \"头像位于对应消息气泡的外侧\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕顶部中央显示应用名称'Soul'，左上角时间为'11:17'，右上角有5G信号和90%电量图标。\",\n      \"聊天对象昵称显示为'芝芝（我18叔叔们别私我了。）'，状态标记为绿色的'在线'。\",\n      \"界面右侧为青色圆角矩形消息气泡，左侧为白色圆角矩形消息气泡，分别配有不同的二次元风格圆形头像。\",\n      \"底部有一排胶囊状的功能按钮，包含'甜甜圈'、'中午好'、'桌球'、'礼物'等图文标签。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局推测这是一款陌生人社交或兴趣交友类应用的即时通讯功能页面。\",\n      \"对话内容涉及学习状况（如'网课'、'基础差'），可能是在讨论学业话题。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定截图者的真实身份及具体地理位置。\",\n      \"无法确认对话双方的真实年龄或关系。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"Soul\",\n      \"11:17\",\n      \"芝芝（我18叔叔们别私我了。）\",\n      \"在线\",\n      \"关注\",\n      \"我还以为你们高中生\",\n      \"都在晚上活动\",\n      \"呆着看网课\",\n      \"基础差\",\n      \"啥水平呀\",\n      \"现在\",\n      \"400\",\n      \"多\",\n      \"聪明但没学\",\n      \"得找人帮一把\",\n      \"嗯嗯\",\n      \"甜甜圈\",\n      \"中午好\",\n      \"桌球\",\n      \"礼物\",\n      \"文明聊天，友善交友~\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"这是一张智能手机社交应用的聊天界面截图，显示了两个用户之间使用不同颜色气泡进行的文本对话，界面包含顶部的状态信息栏和底部的功能快捷键区域。\",\n    \"safe_facts\": [\n      \"图像为竖屏手机界面截图\",\n      \"包含典型的即时通讯软件布局元素\",\n      \"存在左右分列的消息气泡结构\",\n      \"顶部有系统状态栏和应用标题\",\n      \"底部有输入框及预设短语按钮\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 860,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 860,
+        "total_tokens": 4087,
+        "estimated_cost_cny": 0.013334,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "社交软件聊天界面截图",
+          "short_description": "一张手机社交应用Soul的聊天界面截图。画面展示了用户与昵称为“芝芝”的在线好友之间的对话记录，包含青色和白色的气泡消息、卡通头像以及底部的快捷回复选项栏。",
+          "micro_tags": [
+            "Soul",
+            "聊天记录",
+            "即时通讯",
+            "UI界面",
+            "社交APP",
+            "手机截图"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "移动端应用程序聊天窗口",
+          "subjects": [
+            "聊天气泡",
+            "用户头像",
+            "顶部导航栏",
+            "底部输入区"
+          ],
+          "actions": [],
+          "attributes": [
+            "白色背景",
+            "青色发送方气泡",
+            "白色接收方气泡",
+            "圆形卡通头像",
+            "顶部状态栏显示时间11:17"
+          ],
+          "relations": [
+            "消息气泡按时间顺序垂直排列",
+            "右侧气泡对应发送方，左侧气泡对应接收方",
+            "头像位于对应消息气泡的外侧"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "屏幕顶部中央显示应用名称'Soul'，左上角时间为'11:17'，右上角有5G信号和90%电量图标。",
+            "聊天对象昵称显示为'芝芝（我18叔叔们别私我了。）'，状态标记为绿色的'在线'。",
+            "界面右侧为青色圆角矩形消息气泡，左侧为白色圆角矩形消息气泡，分别配有不同的二次元风格圆形头像。",
+            "底部有一排胶囊状的功能按钮，包含'甜甜圈'、'中午好'、'桌球'、'礼物'等图文标签。"
+          ],
+          "cautious_inferences": [
+            "根据界面布局推测这是一款陌生人社交或兴趣交友类应用的即时通讯功能页面。",
+            "对话内容涉及学习状况（如'网课'、'基础差'），可能是在讨论学业话题。"
+          ],
+          "uncertainties": [
+            "无法确定截图者的真实身份及具体地理位置。",
+            "无法确认对话双方的真实年龄或关系。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "Soul",
+            "11:17",
+            "芝芝（我18叔叔们别私我了。）",
+            "在线",
+            "关注",
+            "我还以为你们高中生",
+            "都在晚上活动",
+            "呆着看网课",
+            "基础差",
+            "啥水平呀",
+            "现在",
+            "400",
+            "多",
+            "聪明但没学",
+            "得找人帮一把",
+            "嗯嗯",
+            "甜甜圈",
+            "中午好",
+            "桌球",
+            "礼物",
+            "文明聊天，友善交友~"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "这是一张智能手机社交应用的聊天界面截图，显示了两个用户之间使用不同颜色气泡进行的文本对话，界面包含顶部的状态信息栏和底部的功能快捷键区域。",
+          "safe_facts": [
+            "图像为竖屏手机界面截图",
+            "包含典型的即时通讯软件布局元素",
+            "存在左右分列的消息气泡结构",
+            "顶部有系统状态栏和应用标题",
+            "底部有输入框及预设短语按钮"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 576616,
+        "request_bytes": 429390,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 16.45593319999898,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "51490996af2dcc437f53e09b20dc4505adfc263796b9c9721ae1ffe287715e8b"
+}

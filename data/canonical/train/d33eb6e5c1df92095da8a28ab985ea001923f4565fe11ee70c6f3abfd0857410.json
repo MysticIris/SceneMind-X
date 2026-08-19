@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1687.jpg",
+    "relative_path": "train/1687.jpg",
+    "sha256": "d33eb6e5c1df92095da8a28ab985ea001923f4565fe11ee70c6f3abfd0857410",
+    "split": "train"
+  },
+  "canonical_sha256": "cf25a0e32725c44284990bba8ac7e3969d27583cf7a8a60afda481193bcfcf9e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "纪念碑",
+      "广场",
+      "石柱",
+      "行人"
+    ],
+    "short_description": "阴天下的大型石质纪念碑矗立于开阔广场，周围有行人和车辆，前景为金属护栏。",
+    "theme": "纪念碑广场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中心是一座高大的石质纪念碑，顶部呈方形结构。",
+      "纪念碑前方有台阶和护栏，背景建筑有红色屋顶。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "站立",
+      "行驶"
+    ],
+    "attributes": [
+      "石质",
+      "高大",
+      "多层基座",
+      "灰色天空",
+      "金属护栏"
+    ],
+    "relations": [
+      "纪念碑位于广场中央。",
+      "行人分布在纪念碑周边。",
+      "车辆停靠在纪念碑前方。"
+    ],
+    "scene": "城市公共广场",
+    "subjects": [
+      "纪念碑",
+      "行人",
+      "车辆",
+      "路灯",
+      "护栏"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中心是一座高大的石质纪念碑，顶部呈方形结构；纪念碑前方有台阶和护栏，背景建筑有红色屋顶。",
+    "safe_facts": [
+      "画面中心是一座高大的石质纪念碑，顶部呈方形结构。",
+      "纪念碑前方有台阶和护栏，背景建筑有红色屋顶。"
+    ]
+  },
+  "label_id": "cpl_b40d5ed7b9752c5741fad4bd",
+  "provenance": {
+    "generated_at": "2026-08-03T14:54:35.048578+00:00",
+    "migrated_at": "2026-08-03T14:54:35.050153+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2f7bca041f3e11d48d8971ed86f3329dc0045dbde3b4de6faa3b39f18d124b78",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_45d4669cf3b5c4b33b867bf7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:54:35.050362+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_45d4669cf3b5c4b33b867bf7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

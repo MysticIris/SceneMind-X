@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:880.jpg",
+    "relative_path": "train/880.jpg",
+    "sha256": "d8040b6b057bbd86bca5eac9aaf95bc30cce454b397d85d07d2a4801710e6f71",
+    "split": "train"
+  },
+  "canonical_sha256": "dbc8e3117b3a838b7d04ddf015048f694ffe0b17b8bdcc9ad13c6c0cfa048703",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "楼梯",
+      "玻璃护栏",
+      "嵌入式灯光",
+      "现代设计"
+    ],
+    "short_description": "现代风格螺旋楼梯，台阶嵌入照明，玻璃护栏环绕，背景为暖色调弧形墙面。",
+    "theme": "现代室内楼梯"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "楼梯台阶呈阶梯状向上延伸，表面为带颗粒纹理的石材。",
+      "台阶下方嵌入发光灯带，提供照明效果。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "嵌入式照明",
+      "玻璃材质",
+      "暖色背景墙",
+      "石材台阶表面"
+    ],
+    "relations": [
+      "玻璃护栏沿楼梯边缘设置。",
+      "照明嵌入台阶下方。"
+    ],
+    "scene": "室内建筑空间",
+    "subjects": [
+      "楼梯",
+      "玻璃护栏",
+      "台阶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "楼梯台阶呈阶梯状向上延伸，表面为带颗粒纹理的石材；台阶下方嵌入发光灯带，提供照明效果。",
+    "safe_facts": [
+      "楼梯台阶呈阶梯状向上延伸，表面为带颗粒纹理的石材。",
+      "台阶下方嵌入发光灯带，提供照明效果。"
+    ]
+  },
+  "label_id": "cpl_06c764002635970f550fd966",
+  "provenance": {
+    "generated_at": "2026-08-03T12:42:22.952295+00:00",
+    "migrated_at": "2026-08-03T12:42:22.955958+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "849e4fc2540fb273234a676211ab0a4c41d93209935425dcfdd2c0f399ce2936",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7017f7a734b9a77eea76b0c0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:42:22.956319+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7017f7a734b9a77eea76b0c0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

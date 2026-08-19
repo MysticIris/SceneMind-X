@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:658.jpg",
+    "relative_path": "train/658.jpg",
+    "sha256": "54d0d55c4f088336bcdc3bb585f913689900c55d6d8f0b9b230001a1d0c9969b",
+    "split": "train"
+  },
+  "canonical_sha256": "477634b3c385c71f55d26c8a35d73fab0a19982894d7c89c8010bff764182f6a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红玫瑰",
+      "黑色包装",
+      "大理石地面"
+    ],
+    "short_description": "一束红色玫瑰花束置于大理石地砖角落，黑色包装纸包裹，点缀白色小花，旁边贴有纸质标签。",
+    "theme": "红玫瑰花束"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一束由红色玫瑰组成的花束。",
+      "花束被黑色包装纸包裹并置于浅色大理石地砖上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色玫瑰",
+      "白色小花",
+      "黑色包装纸",
+      "纸质标签",
+      "大理石瓷砖地面"
+    ],
+    "relations": [
+      "花束放置于地面。"
+    ],
+    "scene": "室内角落",
+    "subjects": [
+      "花束"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一束由红色玫瑰组成的花束；花束被黑色包装纸包裹并置于浅色大理石地砖上。",
+    "safe_facts": [
+      "画面中有一束由红色玫瑰组成的花束。",
+      "花束被黑色包装纸包裹并置于浅色大理石地砖上。"
+    ]
+  },
+  "label_id": "cpl_73f32e8e79769ee8c4bcc2cc",
+  "provenance": {
+    "generated_at": "2026-08-03T11:53:48.683777+00:00",
+    "migrated_at": "2026-08-03T11:53:48.686225+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2dfda0a672f832cbdf60319a8b273c3e33f9acd6bc70e0264ba4a1aa23660bed",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d64c84dbf73975a7b8a2d286",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:53:48.687150+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d64c84dbf73975a7b8a2d286"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

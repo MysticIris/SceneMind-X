@@ -1,0 +1,120 @@
+{
+  "asset_id": "fc4042119b352e3c",
+  "asset_sha256": "fc4042119b352e3c76e5283e3e69f992b4b6cc0283c884ade0908904921e67eb",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"课堂投影课后作业\",\n    \"short_description\": \"这是一张拍摄于教室环境的投影屏幕照片。屏幕上显示着“课后作业”的标题，包含两道关于心理词典和ChatGPT训练流程的问答题，以及提交PDF电子版的具体要求、邮箱地址和截止日期。\",\n    \"micro_tags\": [\n      \"课后作业\",\n      \"投影屏幕\",\n      \"教学课件\",\n      \"ChatGPT\",\n      \"心理词典\",\n      \"中文文本\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"教室或讲座现场\",\n    \"subjects\": [\n      \"投影幕布\",\n      \"演示文稿幻灯片\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白底黑字\",\n      \"文字清晰\",\n      \"右上角有校徽标志\",\n      \"包含编号列表\"\n    ],\n    \"relations\": [\n      \"文字内容排列在投影幕布中央区域\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图片展示了一个明亮的投影屏幕，背景为白色，文字为黑色或深灰色。\",\n      \"屏幕左上角可见标题“课后作业”，右上角有一个圆形的机构徽章图案。\",\n      \"正文分为两个主要问题部分，分别标有(1)和(2)，涉及学术概念。\",\n      \"底部有一段红色或深色强调的文字，列出了具体的提交要求、电子邮箱地址及日期。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据内容判断，这可能是一门心理学或人工智能相关的大学课程作业。\",\n      \"拍摄角度略微仰视，符合学生在座位拍摄前方屏幕的特征。\"\n    ],\n    \"uncertainties\": [\n      \"由于拍摄角度和光线原因，右上角徽章内的具体文字难以完全辨认。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"课后作业\",\n      \"(1) 心理词典在大脑中是如何组织的？在单词的语义识别过程中，针对单词的高水平表征和低水平表征的区别是什么？\",\n      \"(2) 请简述ChatGPT的整体训练流程。结合人类语言和Transformer的理论特点，尝试分析为什么无监督学习能够在ChatGPT的训练中发挥重要的作用。\",\n      \"要求： (1) PDF电子版（封面附手写的电子签名）以班级为单位提交至27191420@qq.com（肖阳邮箱）；(2) 文件命名格式为“姓名_班级_学号”； (3) 截止日期为2026年04月20日。\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张拍摄教室投影屏幕的照片，屏幕上显示着包含多道问答题和提交要求的课后作业幻灯片。\",\n    \"safe_facts\": [\n      \"画面主体为白色的投影幕布。\",\n      \"幕布上投射有密集的中文文本信息。\",\n      \"文本排版包含标题、编号列表和段落说明。\",\n      \"右上角印有一个圆形的徽标图案。\"\n    ]\n  }\n}",
+      "input_tokens": 2801,
+      "output_tokens": 740,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 2801,
+        "output_tokens": 740,
+        "total_tokens": 3541,
+        "estimated_cost_cny": 0.011522,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "课堂投影课后作业",
+          "short_description": "这是一张拍摄于教室环境的投影屏幕照片。屏幕上显示着“课后作业”的标题，包含两道关于心理词典和ChatGPT训练流程的问答题，以及提交PDF电子版的具体要求、邮箱地址和截止日期。",
+          "micro_tags": [
+            "课后作业",
+            "投影屏幕",
+            "教学课件",
+            "ChatGPT",
+            "心理词典",
+            "中文文本"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "教室或讲座现场",
+          "subjects": [
+            "投影幕布",
+            "演示文稿幻灯片"
+          ],
+          "actions": [],
+          "attributes": [
+            "白底黑字",
+            "文字清晰",
+            "右上角有校徽标志",
+            "包含编号列表"
+          ],
+          "relations": [
+            "文字内容排列在投影幕布中央区域"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图片展示了一个明亮的投影屏幕，背景为白色，文字为黑色或深灰色。",
+            "屏幕左上角可见标题“课后作业”，右上角有一个圆形的机构徽章图案。",
+            "正文分为两个主要问题部分，分别标有(1)和(2)，涉及学术概念。",
+            "底部有一段红色或深色强调的文字，列出了具体的提交要求、电子邮箱地址及日期。"
+          ],
+          "cautious_inferences": [
+            "根据内容判断，这可能是一门心理学或人工智能相关的大学课程作业。",
+            "拍摄角度略微仰视，符合学生在座位拍摄前方屏幕的特征。"
+          ],
+          "uncertainties": [
+            "由于拍摄角度和光线原因，右上角徽章内的具体文字难以完全辨认。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "课后作业",
+            "(1) 心理词典在大脑中是如何组织的？在单词的语义识别过程中，针对单词的高水平表征和低水平表征的区别是什么？",
+            "(2) 请简述ChatGPT的整体训练流程。结合人类语言和Transformer的理论特点，尝试分析为什么无监督学习能够在ChatGPT的训练中发挥重要的作用。",
+            "要求： (1) PDF电子版（封面附手写的电子签名）以班级为单位提交至27191420@qq.com（肖阳邮箱）；(2) 文件命名格式为“姓名_班级_学号”； (3) 截止日期为2026年04月20日。"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张拍摄教室投影屏幕的照片，屏幕上显示着包含多道问答题和提交要求的课后作业幻灯片。",
+          "safe_facts": [
+            "画面主体为白色的投影幕布。",
+            "幕布上投射有密集的中文文本信息。",
+            "文本排版包含标题、编号列表和段落说明。",
+            "右上角印有一个圆形的徽标图案。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 116284,
+        "request_bytes": 84141,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.574010399999679,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "1e86222e858857d3a98ba42c82730201f353384b5cef8c1c5d857cb261a49ce7"
+}

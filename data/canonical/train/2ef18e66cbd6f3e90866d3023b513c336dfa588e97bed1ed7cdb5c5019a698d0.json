@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:845.jpg",
+    "relative_path": "train/845.jpg",
+    "sha256": "2ef18e66cbd6f3e90866d3023b513c336dfa588e97bed1ed7cdb5c5019a698d0",
+    "split": "train"
+  },
+  "canonical_sha256": "b35a5392451a1da6b106fc015e1da0c7904c1c3de49c6ea696d0e0071f86694b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "办公室",
+      "木柜",
+      "皮沙发",
+      "窗帘"
+    ],
+    "short_description": "一间布置简洁的办公室，配有深色木柜、办公桌、黑色皮沙发及窗帘遮挡的窗户。",
+    "theme": "办公室内部场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面铺设有灰色水磨石瓷砖。",
+      "房间内有一组深棕色木质书柜。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "地板为水磨石材质",
+      "窗帘为米色",
+      "书柜为深棕色木质",
+      "沙发为黑色皮革"
+    ],
+    "relations": [
+      "书柜位于窗户旁。",
+      "办公桌在左侧。",
+      "沙发在右侧。"
+    ],
+    "scene": "室内办公空间",
+    "subjects": [
+      "木制书柜",
+      "办公桌",
+      "黑色皮质沙发",
+      "窗帘",
+      "吊灯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面铺设有灰色水磨石瓷砖；房间内有一组深棕色木质书柜。",
+    "safe_facts": [
+      "地面铺设有灰色水磨石瓷砖。",
+      "房间内有一组深棕色木质书柜。"
+    ]
+  },
+  "label_id": "cpl_0bccb48841776e2ef6fa6220",
+  "provenance": {
+    "generated_at": "2026-08-03T12:35:05.500483+00:00",
+    "migrated_at": "2026-08-03T12:35:05.502964+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "51bdfd09ef82497d70c81ab243749caa8a95f2b027896a2cfdfff96a67bd767b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f461e81a8a062476e2ccb558",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:35:05.503301+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f461e81a8a062476e2ccb558"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

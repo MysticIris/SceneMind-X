@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2203.jpg",
+    "relative_path": "val/2203.jpg",
+    "sha256": "bd1baae1f31fbf50e998e759f4676357a93802cd206ea43e391362a51ddac493",
+    "split": "val"
+  },
+  "canonical_sha256": "e4c26546a62cd8a803fee5a6488e2a4f1139dac60f03651775c945f6208bd621",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "共享单车",
+      "城市街道",
+      "停车区域"
+    ],
+    "short_description": "大量蓝绿色共享单车密集停放在树荫下，背景有建筑和树木，地面为铺装路面。",
+    "theme": "共享单车停放区"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见大量排列密集的共享单车。",
+      "自行车主要为蓝绿色和浅蓝色，部分带有车篮和黑色座椅。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝绿色车身",
+      "带车篮",
+      "黑色座椅",
+      "金属车架"
+    ],
+    "relations": [
+      "自行车停放在路边。",
+      "树木位于自行车后方。",
+      "建筑物位于画面右侧。"
+    ],
+    "scene": "户外街道旁的停车区域",
+    "subjects": [
+      "共享单车",
+      "树木",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见大量排列密集的共享单车；自行车主要为蓝绿色和浅蓝色，部分带有车篮和黑色座椅。",
+    "safe_facts": [
+      "画面中可见大量排列密集的共享单车。",
+      "自行车主要为蓝绿色和浅蓝色，部分带有车篮和黑色座椅。"
+    ]
+  },
+  "label_id": "cpl_6d8867fcd6dae489d2133774",
+  "provenance": {
+    "generated_at": "2026-08-03T16:11:58.805801+00:00",
+    "migrated_at": "2026-08-03T16:11:58.808144+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bf7ce1abbc1aacaf8034489ac15ab17575f13e0f2a51cbab3979d0982707f36c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e456d1eb0b8a5b8a1f0d49c6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:11:58.808499+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e456d1eb0b8a5b8a1f0d49c6"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

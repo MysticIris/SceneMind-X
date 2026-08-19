@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:332.jpg",
+    "relative_path": "train/332.jpg",
+    "sha256": "cef3301afb4fd8e9dc0e080b87199c873860ec98fc6370f975c89bb8fad48ae5",
+    "split": "train"
+  },
+  "canonical_sha256": "5b9c56e81205b740475afb11f7a2b8dc22a08cbb1e93dc76bd85da029a46a1f3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "秋日",
+      "古堡",
+      "山林",
+      "暖光"
+    ],
+    "short_description": "秋色浓烈的山坡上，一座石砌古堡隐现于红黄树林间，天空云层柔和，光影温暖。",
+    "theme": "秋日山林古堡"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自低角度，可能是日出或日落时分。"
+    ],
+    "direct_observations": [
+      "树木叶子呈现橙色、黄色和红色等秋季色彩。",
+      "古堡由石头建造，有尖顶塔楼结构。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "秋叶呈橙红色",
+      "古堡为石砌结构",
+      "天空多云"
+    ],
+    "relations": [
+      "古堡位于山坡树林中。",
+      "树木环绕古堡。"
+    ],
+    "scene": "山坡上的秋季森林景观",
+    "subjects": [
+      "古堡",
+      "树木",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自低角度，可能是日出或日落时分。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "树木叶子呈现橙色、黄色和红色等秋季色彩；古堡由石头建造，有尖顶塔楼结构。",
+    "safe_facts": [
+      "树木叶子呈现橙色、黄色和红色等秋季色彩。",
+      "古堡由石头建造，有尖顶塔楼结构。"
+    ]
+  },
+  "label_id": "cpl_626e74e02ac8d666c74a64c8",
+  "provenance": {
+    "generated_at": "2026-08-03T10:41:24.395694+00:00",
+    "migrated_at": "2026-08-03T10:41:24.397525+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "26538fe879eba821955a6ab399b117d836d281dfa29823ecd284fc93edd1c342",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d7b8a97433c763da1a3b15c0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:41:24.397744+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d7b8a97433c763da1a3b15c0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

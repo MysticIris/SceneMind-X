@@ -1,0 +1,135 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1224.jpg",
+    "relative_path": "train/1224.jpg",
+    "sha256": "7757b4c4b4d4d506b5b56d96a4e134b1a5768ea35e20d6d7fbb89c57082902b6",
+    "split": "train"
+  },
+  "canonical_sha256": "27fb2fc1d72ac7c60a230a94d5b2a7f91674380daef7fda306bd1e1a4a8b1721",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "高架桥",
+      "银色轿车",
+      "限速标志",
+      "城市道路"
+    ],
+    "short_description": "一辆银色轿车行驶在城市高架桥下，路旁有绿化带和路灯，上方悬挂限速的交通标志。",
+    "theme": "城市高架道路"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一辆银色轿车正在道路上行驶。",
+      "高架桥结构清晰可见，包括桥墩和桥面。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "银色",
+      "轿车",
+      "绿色路牌",
+      "混凝土桥墩"
+    ],
+    "relations": [
+      "轿车在道路上行驶。",
+      "高架桥横跨道路。",
+      "交通标志位于桥下。"
+    ],
+    "scene": "城市高架桥下的道路",
+    "subjects": [
+      "银色轿车",
+      "高架桥",
+      "交通标志",
+      "路灯",
+      "绿化带"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一辆银色轿车正在道路上行驶；高架桥结构清晰可见，包括桥墩和桥面。",
+    "safe_facts": [
+      "一辆银色轿车正在道路上行驶。",
+      "高架桥结构清晰可见，包括桥墩和桥面。"
+    ]
+  },
+  "label_id": "cpl_8b8f102e059bc31bb7873cd6",
+  "provenance": {
+    "generated_at": "2026-08-03T13:55:40.687183+00:00",
+    "migrated_at": "2026-08-03T13:55:40.691066+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4728600718f89aec4c8b8d440216120a327b0d387b964a808b08c1f4b0eb2142",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4beae29bb69789aebc037fb3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:55:40.691677+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:attributes"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4beae29bb69789aebc037fb3"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "80",
+      "Longshan Bei Lu"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "80",
+      "Longshan Bei Lu"
+    ]
+  }
+}

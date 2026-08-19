@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:436.jpg",
+    "relative_path": "train/436.jpg",
+    "sha256": "de56785fa3a0f038d0557e008a4c93b037c107593a36d9fb81da819808a51a58",
+    "split": "train"
+  },
+  "canonical_sha256": "43ebccd6df4dc56b7749faa053429f8a0bc78050bcbe4cacdf5b9c59ec413ced",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "圆形街道",
+      "中心绿植",
+      "城市俯瞰"
+    ],
+    "short_description": "俯瞰视角下，圆形道路环绕着中心茂密的绿色树木，周围是整齐排列的房屋建筑群。",
+    "theme": "圆形街道与中央绿植"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "周围建筑呈环状排列，可能为特定规划的街区。"
+    ],
+    "direct_observations": [
+      "图像呈现从上往下俯瞰的城市街道布局。",
+      "中心区域有一片密集的绿色植被。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "俯视角度",
+      "秋季色彩",
+      "环形布局"
+    ],
+    "relations": [
+      "树木位于道路中心。",
+      "房屋围绕道路分布。"
+    ],
+    "scene": "城市街道与建筑群",
+    "subjects": [
+      "圆形道路",
+      "中心树木",
+      "周边房屋"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "周围建筑呈环状排列，可能为特定规划的街区。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现从上往下俯瞰的城市街道布局；中心区域有一片密集的绿色植被。",
+    "safe_facts": [
+      "图像呈现从上往下俯瞰的城市街道布局。",
+      "中心区域有一片密集的绿色植被。"
+    ]
+  },
+  "label_id": "cpl_3522e62cfa837f1f19176d1d",
+  "provenance": {
+    "generated_at": "2026-08-03T11:03:12.000749+00:00",
+    "migrated_at": "2026-08-03T11:03:12.002430+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0a9153593afcdae9eb6ea7343d0e5b459aeacab3c87612f9fcb6e84454de1728",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d4ee45be2d4df34aaad5e881",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:03:12.002634+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d4ee45be2d4df34aaad5e881"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

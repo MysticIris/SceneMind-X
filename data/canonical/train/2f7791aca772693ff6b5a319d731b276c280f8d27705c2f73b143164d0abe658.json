@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:344.jpg",
+    "relative_path": "train/344.jpg",
+    "sha256": "2f7791aca772693ff6b5a319d731b276c280f8d27705c2f73b143164d0abe658",
+    "split": "train"
+  },
+  "canonical_sha256": "cf7173731f76d1102f4bf4918b5bd65fcc1f8bd39e9fe205dfd0eb9819f58111",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蜡像",
+      "历史场景",
+      "外交会面"
+    ],
+    "short_description": "博物馆内蜡像场景，模拟古代建筑前的外交会面，两侧人物着装不同，背景为传统宫殿。",
+    "theme": "历史场景再现"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多个蜡像人物，分列于长桌两侧。",
+      "背景为大型传统中式宫殿建筑壁画。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蜡像",
+      "传统建筑",
+      "现代游客"
+    ],
+    "relations": [
+      "蜡像位于展厅中央。",
+      "游客在蜡像前方观看。"
+    ],
+    "scene": "博物馆展厅内的蜡像陈列",
+    "subjects": [
+      "穿着西装的男性蜡像",
+      "穿着传统服饰的男性蜡像",
+      "背景中的宫殿建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个蜡像人物，分列于长桌两侧；背景为大型传统中式宫殿建筑壁画。",
+    "safe_facts": [
+      "画面中有多个蜡像人物，分列于长桌两侧。",
+      "背景为大型传统中式宫殿建筑壁画。"
+    ]
+  },
+  "label_id": "cpl_8b27189920d71bb85d3e376b",
+  "provenance": {
+    "generated_at": "2026-08-03T10:44:00.718127+00:00",
+    "migrated_at": "2026-08-03T10:44:00.719886+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "016519dea9f74014e05595d0d41676a019f70774f5d9f5b2ee0564297bfb54c7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f3a5e9ca7e803ea63b072f8d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:44:00.720217+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f3a5e9ca7e803ea63b072f8d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:151.jpg",
+    "relative_path": "train/151.jpg",
+    "sha256": "ab427771519e04245bfed0f935a94890ab9bac0dc93977fa225cb8954491c70d",
+    "split": "train"
+  },
+  "canonical_sha256": "4afad35293df83b85454799952071da8ad3bc7e14d5db50af59c840e3a0f4427",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "消防车",
+      "城市街道",
+      "山丘背景"
+    ],
+    "short_description": "城市街道上多辆消防车停靠，背景有山丘、建筑群和高架桥，树木部分落叶。",
+    "theme": "城市消防演练现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有数辆红色消防车停在道路旁。",
+      "远处有连绵的山丘和现代建筑群。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色消防车",
+      "光秃树枝",
+      "绿色草坪",
+      "晴朗天空"
+    ],
+    "relations": [
+      "消防车停在街道上。",
+      "树木位于街道两侧。",
+      "山丘在背景中。"
+    ],
+    "scene": "城市街道及周边环境",
+    "subjects": [
+      "消防车",
+      "树木",
+      "建筑物",
+      "山丘",
+      "高架桥"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有数辆红色消防车停在道路旁；远处有连绵的山丘和现代建筑群。",
+    "safe_facts": [
+      "画面中有数辆红色消防车停在道路旁。",
+      "远处有连绵的山丘和现代建筑群。"
+    ]
+  },
+  "label_id": "cpl_f4dd75772e498d19d12814a7",
+  "provenance": {
+    "generated_at": "2026-08-03T09:38:32.164602+00:00",
+    "migrated_at": "2026-08-03T09:38:32.166447+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3e8366734740f3c51cb835fe2fea640d02c56cf13adcdba169748c3458538ab4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f2b1fd9492815e09a475e6fa",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:42.063479+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f2b1fd9492815e09a475e6fa",
+    "cpl_ce880e914d60d63bf4fc7719"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

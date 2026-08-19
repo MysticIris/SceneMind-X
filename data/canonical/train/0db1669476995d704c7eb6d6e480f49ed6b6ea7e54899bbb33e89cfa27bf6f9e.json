@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:171.jpg",
+    "relative_path": "train/171.jpg",
+    "sha256": "0db1669476995d704c7eb6d6e480f49ed6b6ea7e54899bbb33e89cfa27bf6f9e",
+    "split": "train"
+  },
+  "canonical_sha256": "5eafda1eb699c13e41e9d2de7baf97fa6ef3d8a270227408aab998e9863f65f2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪山",
+      "云海",
+      "松树",
+      "日落"
+    ],
+    "short_description": "雪覆山峰，云海翻腾，夕阳余晖染天际，松树挺立于雾霭之中，景色壮丽宁静。",
+    "theme": "雪山云海日落"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空呈现日落时分的橙黄色与蓝色渐变。"
+    ],
+    "direct_observations": [
+      "山体和松树表面覆盖着白色积雪。",
+      "大片云雾在山脚下弥漫，形成云海景象。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "雪覆盖",
+      "云海弥漫",
+      "夕阳余晖",
+      "松树形态独特"
+    ],
+    "relations": [
+      "松树生长于山峰之上。",
+      "云海位于山峰下方。",
+      "天空位于云海上方。"
+    ],
+    "scene": "高山云海景观",
+    "subjects": [
+      "雪覆盖的松树",
+      "山峰",
+      "云海",
+      "天空"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空呈现日落时分的橙黄色与蓝色渐变。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "山体和松树表面覆盖着白色积雪；大片云雾在山脚下弥漫，形成云海景象。",
+    "safe_facts": [
+      "山体和松树表面覆盖着白色积雪。",
+      "大片云雾在山脚下弥漫，形成云海景象。"
+    ]
+  },
+  "label_id": "cpl_20ab626eb3250c32f041e196",
+  "provenance": {
+    "generated_at": "2026-08-03T10:09:38.224578+00:00",
+    "migrated_at": "2026-08-03T10:09:38.227550+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fa9d89bf24674995b29dbe0faa33a5984fedf13f3689da72b41ad20d8f6eb369",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5a643bcfbbe4afe4d69bd310",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:09:38.227908+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5a643bcfbbe4afe4d69bd310"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

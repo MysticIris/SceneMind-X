@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1731.jpg",
+    "relative_path": "train/1731.jpg",
+    "sha256": "3fcd176e7178dc21db3f4fbc365ab227e9c4f4652ccc35e46b6b408503a3cddd",
+    "split": "train"
+  },
+  "canonical_sha256": "a394bafd0c0f58a8954272b1aaf2f24b2a2b9bf17606044d0f7091daa6782458",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "考古遗址",
+      "室内展示",
+      "网格状基址"
+    ],
+    "short_description": "室内保护性展示的古代建筑基址，呈网格状布局，游客在围栏外参观。",
+    "theme": "考古遗址展示"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面可见多个方形土坑构成网格状结构。",
+      "游客站在围栏外观看遗址。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "土质基址呈网格状",
+      "游客在围栏外站立观看"
+    ],
+    "relations": [
+      "游客位于基址外围。",
+      "基址被围栏环绕。"
+    ],
+    "scene": "室内考古遗址展示区",
+    "subjects": [
+      "土质基址",
+      "游客",
+      "围栏",
+      "展板"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面可见多个方形土坑构成网格状结构；游客站在围栏外观看遗址。",
+    "safe_facts": [
+      "地面可见多个方形土坑构成网格状结构。",
+      "游客站在围栏外观看遗址。"
+    ]
+  },
+  "label_id": "cpl_b6ea42f95a259b93c0a64e71",
+  "provenance": {
+    "generated_at": "2026-08-03T14:58:56.455576+00:00",
+    "migrated_at": "2026-08-03T14:58:56.457131+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8f64242b0b0632c2de2081031e489bea7816dea0ff2344ec305a3a33a8e26d27",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b5e71a1374700fd9d0e38a07",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:58:56.457337+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b5e71a1374700fd9d0e38a07"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

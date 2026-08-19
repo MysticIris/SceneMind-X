@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1379.jpg",
+    "relative_path": "train/1379.jpg",
+    "sha256": "be27250a57fd2c88923ebd86f2e595ec793daf67e4bb987f4bebdbdade2604a9",
+    "split": "train"
+  },
+  "canonical_sha256": "785b5ba2f6a4c33314a2d0a88f64c86042becf2834507d3d8a8960df7369d157",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "演唱会",
+      "舞台表演",
+      "观众拍摄"
+    ],
+    "short_description": "演唱会现场，歌手在台上表演，观众在台下用手机记录。",
+    "theme": "演唱会现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一名绿发歌手在舞台上弹奏乐器。",
+      "多名观众举着手机拍摄。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "弹奏乐器",
+      "举手拍摄",
+      "观看演出"
+    ],
+    "attributes": [
+      "绿色长发",
+      "白色上衣"
+    ],
+    "relations": [
+      "歌手在舞台上表演。",
+      "观众在台下用手机拍摄。"
+    ],
+    "scene": "室内演唱会现场",
+    "subjects": [
+      "歌手",
+      "观众",
+      "舞台设备"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名绿发歌手在舞台上弹奏乐器；多名观众举着手机拍摄。",
+    "safe_facts": [
+      "一名绿发歌手在舞台上弹奏乐器。",
+      "多名观众举着手机拍摄。"
+    ]
+  },
+  "label_id": "cpl_4ba9a85e68d8ed923b00fb4f",
+  "provenance": {
+    "generated_at": "2026-08-03T14:16:48.516608+00:00",
+    "migrated_at": "2026-08-03T14:16:48.521244+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "174957967eac3cd0cb7df43b2e83d3e9d2e9f088c1f4b815b191628a1df0be26",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4d4665736054aac3bad46720",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:16:48.521871+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4d4665736054aac3bad46720"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "也许有天没音乐",
+      "我只见见你也好"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "也许有天没音乐",
+      "我只见见你也好"
+    ]
+  }
+}

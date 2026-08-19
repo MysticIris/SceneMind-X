@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1677.jpg",
+    "relative_path": "train/1677.jpg",
+    "sha256": "d6851d68cdc11e9eb81f7be4a404e05365f7148cdfee669816c4d6b5d2cac7e6",
+    "split": "train"
+  },
+  "canonical_sha256": "79fc6b2c01fe42d8e0a1d77c40a970fdd1bc7a20ae4a29d0efdae0385e13968c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "摩天轮",
+      "夜景",
+      "红色座舱",
+      "圆形结构"
+    ],
+    "short_description": "一座大型摩天轮在淡紫色天空下缓缓转动，红色座舱沿圆形轨道分布，底部立柱上悬挂着圆形招牌。",
+    "theme": "摩天轮夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "摩天轮由金属杆件构成网格状骨架。",
+      "多个红色座舱沿圆周分布并悬挂于轨道上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金属结构",
+      "装饰灯光",
+      "淡紫色天空"
+    ],
+    "relations": [
+      "座舱悬挂在摩天轮外圈。",
+      "支撑结构连接底座与摩天轮。"
+    ],
+    "scene": "户外游乐设施",
+    "subjects": [
+      "摩天轮",
+      "座舱",
+      "支撑结构"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "摩天轮由金属杆件构成网格状骨架；多个红色座舱沿圆周分布并悬挂于轨道上。",
+    "safe_facts": [
+      "摩天轮由金属杆件构成网格状骨架。",
+      "多个红色座舱沿圆周分布并悬挂于轨道上。"
+    ]
+  },
+  "label_id": "cpl_4441c183fb7a71a652054602",
+  "provenance": {
+    "generated_at": "2026-08-03T14:53:14.747064+00:00",
+    "migrated_at": "2026-08-03T14:53:14.751337+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dbe23ce11198fc852f7f4c289f56f45ecc70c4541d37f9d475d9c45638b58df7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e605b9f6fd9afc913476898e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:53:14.751699+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e605b9f6fd9afc913476898e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

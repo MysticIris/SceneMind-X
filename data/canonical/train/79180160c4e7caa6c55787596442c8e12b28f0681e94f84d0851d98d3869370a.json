@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1422.jpg",
+    "relative_path": "train/1422.jpg",
+    "sha256": "79180160c4e7caa6c55787596442c8e12b28f0681e94f84d0851d98d3869370a",
+    "split": "train"
+  },
+  "canonical_sha256": "685705ba95fd257a898e66f5782a5dce7a0385f37e493f9d60d43a6b61b5990e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄昏",
+      "城市街景",
+      "路灯剪影"
+    ],
+    "short_description": "城市街道上路灯与建筑剪影映衬着橙黄色晚霞，云层边缘被阳光染色，树木枝干裸露。",
+    "theme": "黄昏城市剪影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自地平线方向，可能是日落时分。"
+    ],
+    "direct_observations": [
+      "天空呈现橙黄色调，云层边缘有光晕。",
+      "路灯杆呈黑色剪影，灯臂弯曲。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "橙黄色天空",
+      "云层边缘发光",
+      "树木无叶"
+    ],
+    "relations": [
+      "路灯位于前景。",
+      "建筑物位于背景。",
+      "云层位于天空中。"
+    ],
+    "scene": "城市街道黄昏景象",
+    "subjects": [
+      "路灯",
+      "建筑物",
+      "树木",
+      "天空与云层"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自地平线方向，可能是日落时分。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现橙黄色调，云层边缘有光晕；路灯杆呈黑色剪影，灯臂弯曲。",
+    "safe_facts": [
+      "天空呈现橙黄色调，云层边缘有光晕。",
+      "路灯杆呈黑色剪影，灯臂弯曲。"
+    ]
+  },
+  "label_id": "cpl_242fe9cf015ce1a8d05df4a7",
+  "provenance": {
+    "generated_at": "2026-08-03T14:20:58.028922+00:00",
+    "migrated_at": "2026-08-03T14:20:58.031495+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d077f73b5e64bbaf106033c5061b68daa1499dc826f0b6129263ea669c1d8324",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_465fd908f665badad8b2a398",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:20:58.032301+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_465fd908f665badad8b2a398"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

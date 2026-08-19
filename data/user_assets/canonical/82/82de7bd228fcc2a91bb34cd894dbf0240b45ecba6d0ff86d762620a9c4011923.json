@@ -1,0 +1,148 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_c0366865d499492e465dc410",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_02fe4d647a67be52681f172c"
+  ],
+  "asset": {
+    "asset_id": "82de7bd228fcc2a9",
+    "sha256": "82de7bd228fcc2a91bb34cd894dbf0240b45ecba6d0ff86d762620a9c4011923",
+    "split": "user_custom",
+    "relative_path": "user_assets/82/82de7bd228fcc2a91bb34cd894dbf0240b45ecba6d0ff86d762620a9c4011923/82de7bd228fcc2a91bb34cd894dbf0240b45ecba6d0ff86d762620a9c4011923.png"
+  },
+  "display": {
+    "theme": "数字逻辑电路示意图",
+    "short_description": "这是一张电子电路逻辑图，展示了包含异或门、与门、或门及非门的组合逻辑电路。图中通过蓝色连线连接各个逻辑符号，并标注了“0位错”、“1位错”、“2位错”及“总校验位错”等中文标签，用于表示不同的错误检测状态。",
+    "micro_tags": [
+      "逻辑电路图",
+      "数字电路",
+      "纠错编码",
+      "异或门",
+      "工程制图",
+      "信号检测"
+    ]
+  },
+  "facts": {
+    "visual_medium": "illustration",
+    "scene": "带有网格背景的工程绘图界面",
+    "subjects": [
+      "逻辑门符号",
+      "电路连线",
+      "文本标签",
+      "输入输出端"
+    ],
+    "actions": [],
+    "attributes": [
+      "蓝色导线",
+      "黑色逻辑符号轮廓",
+      "点状网格背景",
+      "矩形文本框"
+    ],
+    "relations": [
+      "左侧输入信号经过多输入异或门处理。",
+      "异或门输出连接至后续逻辑判断电路。",
+      "电路分支分别指向不同的错误状态标签。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "左侧有一个标有'检测'的方框，连接到一个6输入的异或门(XOR)。",
+      "异或门输出后分为三路：一路经非门指向'0位错'，一路直接参与后续逻辑，一路进入下方逻辑组。",
+      "右侧有三个主要输出标签：'0位错'、'2位错'、'1位错'，以及中间的'总校验位错'。"
+    ],
+    "cautious_inferences": [
+      "蓝色线条代表电气连接或信号流向。"
+    ],
+    "uncertainties": [
+      "无法确定具体的仿真软件名称。",
+      "部分逻辑门的具体输入引脚定义需结合完整电路上下文确认。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "检测",
+      "0位错",
+      "总校验位错",
+      "2位错",
+      "1位错"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "检测",
+      "0位错",
+      "总校验位错",
+      "2位错",
+      "1位错"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "左侧有一个标有'检测'的方框，连接到一个6输入的异或门(XOR)；异或门输出后分为三路：一路经非门指向'0位错'，一路直接参与后续逻辑，一路进入下方逻辑组。",
+    "safe_facts": [
+      "左侧有一个标有'检测'的方框，连接到一个6输入的异或门(XOR)。",
+      "异或门输出后分为三路：一路经非门指向'0位错'，一路直接参与后续逻辑，一路进入下方逻辑组。",
+      "右侧有三个主要输出标签：'0位错'、'2位错'、'1位错'，以及中间的'总校验位错'。"
+    ],
+    "do_not_assert": [
+      "蓝色线条代表电气连接或信号流向。",
+      "无法确定具体的仿真软件名称。",
+      "部分逻辑门的具体输入引脚定义需结合完整电路上下文确认。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_6c32534f-6669-4656-be33-98787b164820",
+    "generated_at": "2026-08-12T03:27:28.488117+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "fd7aaaabb20596e275d5b5e11eacc2d37e3d7a4ba3bc14179ea23dd0096c0800",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:27:28.488931+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_02fe4d647a67be52681f172c",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:27:28.489331+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "8af515e1afd394a06a2cc62f4ccdd98dc5b202102ffa60875da83db9675ae99f"
+}

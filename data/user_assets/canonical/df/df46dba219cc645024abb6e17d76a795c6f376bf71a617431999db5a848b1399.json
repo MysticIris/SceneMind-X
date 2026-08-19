@@ -1,0 +1,147 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_cab9d05af5eabfa6dceaf098",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_a0e1449a0b00e74c02a348df"
+  ],
+  "asset": {
+    "asset_id": "df46dba219cc6450",
+    "sha256": "df46dba219cc645024abb6e17d76a795c6f376bf71a617431999db5a848b1399",
+    "split": "user_custom",
+    "relative_path": "user_assets/df/df46dba219cc645024abb6e17d76a795c6f376bf71a617431999db5a848b1399/df46dba219cc645024abb6e17d76a795c6f376bf71a617431999db5a848b1399.jpg"
+  },
+  "display": {
+    "theme": "Python代码编辑界面",
+    "short_description": "一张计算机屏幕截图，展示了Visual Studio Code编辑器界面。左侧为文件资源管理器，中间显示名为tic_tac_toe.py的Python代码，包含井字棋游戏的状态类定义。右侧有AI辅助编程的对话窗口和终端运行日志。",
+    "micro_tags": [
+      "VS Code",
+      "Python代码",
+      "编程开发",
+      "井字棋算法",
+      "IDE界面",
+      "代码编辑"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "软件开发集成环境界面",
+    "subjects": [
+      "代码编辑器窗口",
+      "Python源代码文本",
+      "侧边栏文件列表",
+      "右侧AI对话面板",
+      "底部终端区域"
+    ],
+    "actions": [],
+    "attributes": [
+      "深色与浅色混合主题",
+      "语法高亮显示",
+      "多栏布局",
+      "中文界面菜单"
+    ],
+    "relations": [
+      "代码编辑区位于界面中央。",
+      "文件树位于左侧边栏。",
+      "AI助手窗口悬浮于右侧。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "界面顶部菜单栏显示'文件(F)'、'编辑(E)'等中文选项，标签页显示文件名'tic_tac_toe.py'。",
+      "代码区域可见'class State：'定义及'import numpy as np'等Python语句，行号显示至37行。",
+      "右侧面板包含'CODEX'、'CLAUDE CODE'标签及关于脚本创建和运行的中文对话记录。",
+      "底部状态栏显示'Python 3.13.1'及'UTF-8'编码信息。"
+    ],
+    "cautious_inferences": [
+      "右侧的对话内容表明正在进行代码生成或调试任务。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "tic_tac_toe.py",
+      "import numpy as np",
+      "CODEX",
+      "CLAUDE CODE",
+      "python compare_1e4_1e5.py",
+      "Python 3.13.1"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "tic_tac_toe.py",
+      "import numpy as np",
+      "CODEX",
+      "CLAUDE CODE",
+      "python compare_1e4_1e5.py",
+      "Python 3.13.1"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "界面顶部菜单栏显示'文件(F)'、'编辑(E)'等中文选项，标签页显示文件名'tic_tac_toe.py'；代码区域可见'class State：'定义及'import numpy as np'等Python语句，行号显示至37行。",
+    "safe_facts": [
+      "界面顶部菜单栏显示'文件(F)'、'编辑(E)'等中文选项，标签页显示文件名'tic_tac_toe.py'。",
+      "代码区域可见'class State：'定义及'import numpy as np'等Python语句，行号显示至37行。",
+      "右侧面板包含'CODEX'、'CLAUDE CODE'标签及关于脚本创建和运行的中文对话记录。"
+    ],
+    "do_not_assert": [
+      "右侧的对话内容表明正在进行代码生成或调试任务。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_b107a5f9-a25c-4865-9b14-80bfd9033a2b",
+    "generated_at": "2026-08-12T03:14:27.508183+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "32df049a111d0258edcad606b461e4729a05286a24d8120b439da1f598f96f36",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:14:27.509562+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_a0e1449a0b00e74c02a348df",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:14:27.510151+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "d1cdb2c05f8b5da071a2ae3393a18106397a666c86d6c36c17efde8f183035d2"
+}

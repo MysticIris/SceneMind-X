@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1706.jpg",
+    "relative_path": "train/1706.jpg",
+    "sha256": "9950fcf0025e816ab5963868d3246a525c5c6dd7002b1d544000c4c1cc451b5a",
+    "split": "train"
+  },
+  "canonical_sha256": "73ccf875cafd88c444f5ed20c9476564a5a1ce422bee14c6f27fd902a2b2dca2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "卡通猫",
+      "站立姿势",
+      "萌系风格"
+    ],
+    "short_description": "一只米白色卡通猫站立着，身体圆润，眼睛和嘴巴简单，右爪抬起呈C形，整体风格简约萌系。",
+    "theme": "可爱卡通猫"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "主体为卡通猫形象，轮廓由深色粗线条勾勒。",
+      "猫的身体呈站立姿态，右前肢抬起并弯曲成C形。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立"
+    ],
+    "attributes": [
+      "米白色",
+      "圆润体型",
+      "黑色轮廓线",
+      "简化五官"
+    ],
+    "relations": [],
+    "scene": "",
+    "subjects": [
+      "卡通猫"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "主体为卡通猫形象，轮廓由深色粗线条勾勒；猫的身体呈站立姿态，右前肢抬起并弯曲成C形。",
+    "safe_facts": [
+      "主体为卡通猫形象，轮廓由深色粗线条勾勒。",
+      "猫的身体呈站立姿态，右前肢抬起并弯曲成C形。"
+    ]
+  },
+  "label_id": "cpl_e583cd9484c41bd49af1b3af",
+  "provenance": {
+    "generated_at": "2026-08-02T22:04:37.504522+00:00",
+    "migrated_at": "2026-08-03T07:13:41.381126+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8731ab5f65fb564f29f5b888f074d6ea9f504b04e2f223a13344e588ce8d2a48",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_bd304645fb48d57b3fa0e19c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:39:22.994225+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_bd304645fb48d57b3fa0e19c",
+    "cpl_420e2767faa0eae42067e99e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

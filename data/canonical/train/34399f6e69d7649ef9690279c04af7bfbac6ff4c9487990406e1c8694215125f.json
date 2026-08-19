@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1551.jpg",
+    "relative_path": "train/1551.jpg",
+    "sha256": "34399f6e69d7649ef9690279c04af7bfbac6ff4c9487990406e1c8694215125f",
+    "split": "train"
+  },
+  "canonical_sha256": "2a3f93687d2040d994094d8191b856eba7a10eca21c2e0a9562b5d26b68bdac9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "生日蛋糕",
+      "蜡烛",
+      "水果装饰"
+    ],
+    "short_description": "一个白色奶油蛋糕，顶部插着数字蜡烛和水果装饰，底部有坚果碎边。",
+    "theme": "生日蛋糕装饰"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "蛋糕表面覆盖白色奶油。",
+      "蛋糕底部边缘有碎坚果。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色奶油覆盖",
+      "底部有坚果碎",
+      "顶部有点燃的蜡烛"
+    ],
+    "relations": [],
+    "scene": "室内桌面",
+    "subjects": [
+      "蛋糕",
+      "蜡烛",
+      "水果装饰"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "蛋糕表面覆盖白色奶油；蛋糕底部边缘有碎坚果。",
+    "safe_facts": [
+      "蛋糕表面覆盖白色奶油。",
+      "蛋糕底部边缘有碎坚果。"
+    ]
+  },
+  "label_id": "cpl_d1be10d08c9fdad907264d92",
+  "provenance": {
+    "generated_at": "2026-08-03T14:36:54.333594+00:00",
+    "migrated_at": "2026-08-03T14:36:54.343914+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9c5775d8f82a4982a3f5f5ac7b06180ac7f3dcccccf60bf6a9764841b3ca472f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ec952a89c7810a477e93394b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:36:54.344250+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ec952a89c7810a477e93394b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

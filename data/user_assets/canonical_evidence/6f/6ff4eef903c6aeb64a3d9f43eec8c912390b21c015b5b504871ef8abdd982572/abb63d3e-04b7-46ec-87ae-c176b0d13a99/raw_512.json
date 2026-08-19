@@ -1,0 +1,66 @@
+{
+  "asset_id": "6ff4eef903c6aeb6",
+  "asset_sha256": "6ff4eef903c6aeb64a3d9f43eec8c912390b21c015b5b504871ef8abdd982572",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"机器人竞赛获奖证书\",\n    \"short_description\": \"这是一张2024中国机器人大赛暨RoboCup机器人世界杯中国赛的获奖证书。证书显示华中科技大学AirHust团队在无人机自主飞行竞速赛项中获得三等奖，右下角盖有中国自动化学会的红色印章。\",\n    \"micro_tags\": [\n      \"获奖证书\",\n      \"机器人比赛\",\n      \"无人机\",\n      \"华中科技大学\",\n      \"三等奖\",\n      \"官方文件\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"poster_document\",\n    \"scene\": \"白色背景的正式证书版面\",\n    \"subjects\": [\n      \"证书文本\",\n      \"卡通龙插图\",\n      \"防伪底纹\",\n      \"红色印章\",\n      \"顶部Logo\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"竖版构图\",\n      \"白底黑字\",\n      \"红色强调色\",\n      \"正式排版\"\n    ],\n    \"relations\": [\n      \"标题位于顶部居中\",\n      \"奖项等级位于视觉中心\",\n      \"名单位于下半部分\",\n      \"印章位于右下角\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图片顶部印有'2024中国机器人大赛暨RoboCup机器人世界杯中国赛'及日期地点信息。\",\n      \"页面中央显著位置印有红色的'三等奖'字样。\",\n      \"左侧有一个彩色的卡通龙形象插图。\",\n      \"右下角有一个圆形的红色公章，内含五角星图案。\",\n      \"背景布满浅灰色的复杂曲线防伪底纹。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据排版和印章判断，这是一份正式的电子或纸质获奖证明文件。\",\n      \"列出的名称可能是参赛队伍成员及指导教师的名单。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"2024中国机器人大赛暨RoboCup机器人世界杯中国赛\",\n      \"中国·西安 2024.11.1-11.3\",\n      \"获奖证书\",\n      \"Y2409T70507\",\n      \"华中科技大学\",\n      \"AirHust\",\n      \"无人机挑战赛-无人机自主飞行竞速赛项\",\n      \"三等奖\",\n      \"指导教师：欧阳由 熊传光\",\n      \"队员：杨征坷 叶凡琪 周宇童 余思源 李语心 谭茗予 余嘉贺 王天怡 于滨华\",\n      \"中国自动化学会\",\n      \"2024年11月11日\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张带有防伪底纹和红色印章的正式证书，包含标题、卡通插图、获奖名单及醒目的红色奖项等级标识。\",\n    \"safe_facts\": [\n      \"文档采用白色背景和居中对齐的排版风格。\",\n      \"包含顶部的活动标题区域和中间的奖项等级展示。\",\n      \"左侧装饰有彩色插画元素。\",\n      \"右下角盖有红色的圆形官方印章。\",\n      \"列出了多行",
+      "input_tokens": 1586,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 1586,
+        "output_tokens": 768,
+        "total_tokens": 2354,
+        "estimated_cost_cny": 0.009316,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "机器人竞赛获奖证书",
+        "short_description": "这是一张2024中国机器人大赛暨RoboCup机器人世界杯中国赛的获奖证书。证书显示华中科技大学AirHust团队在无人机自主飞行竞速赛项中获得三等奖，右下角盖有中国自动化学会的红色印章。",
+        "micro_tags": [
+          "获奖证书",
+          "机器人比赛",
+          "无人机",
+          "华中科技大学",
+          "三等奖",
+          "官方文件"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 658948,
+        "request_bytes": 491138,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.603550100000575,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "a5b207d55fd0de5455a39f7630a09f22dc77ba2e956854baca2d32f519ae2538"
+}

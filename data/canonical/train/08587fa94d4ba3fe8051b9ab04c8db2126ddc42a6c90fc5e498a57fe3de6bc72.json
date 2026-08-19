@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:632.jpg",
+    "relative_path": "train/632.jpg",
+    "sha256": "08587fa94d4ba3fe8051b9ab04c8db2126ddc42a6c90fc5e498a57fe3de6bc72",
+    "split": "train"
+  },
+  "canonical_sha256": "4b50b397c7a14f19fe70d6bc19881476c1f6b7387da041a3891616f1b241681a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪夜",
+      "广场",
+      "雕像",
+      "路灯"
+    ],
+    "short_description": "雪夜中的广场，中央矗立雕像，远处大楼灯火通明，几人漫步雪地，路灯装饰着红色灯笼。",
+    "theme": "雪夜广场"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "路灯上悬挂着红色装饰物，可能为节日装饰。"
+    ],
+    "direct_observations": [
+      "地面覆盖着积雪，有脚印和车辙痕迹。",
+      "广场中央有一座白色雕像，基座为石质。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走"
+    ],
+    "attributes": [
+      "覆盖积雪",
+      "亮灯",
+      "装饰性路灯",
+      "多层建筑"
+    ],
+    "relations": [
+      "行人位于广场上。",
+      "雕像位于广场中央。",
+      "路灯分布在广场两侧。"
+    ],
+    "scene": "雪夜中的城市广场",
+    "subjects": [
+      "行人",
+      "雕像",
+      "建筑物",
+      "路灯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "路灯上悬挂着红色装饰物，可能为节日装饰。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面覆盖着积雪，有脚印和车辙痕迹；广场中央有一座白色雕像，基座为石质。",
+    "safe_facts": [
+      "地面覆盖着积雪，有脚印和车辙痕迹。",
+      "广场中央有一座白色雕像，基座为石质。"
+    ]
+  },
+  "label_id": "cpl_5cf01370e4465d55a7e6ff66",
+  "provenance": {
+    "generated_at": "2026-08-03T11:48:14.968741+00:00",
+    "migrated_at": "2026-08-03T11:48:14.971489+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "13f9602fd83217201463ea218cfff7c939d6b30cbac9df21bc109c569fa0d995",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c8ae0c4ae7b3a5f4d132f6cd",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:48:14.971883+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c8ae0c4ae7b3a5f4d132f6cd"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

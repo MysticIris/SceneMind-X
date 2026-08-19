@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2183.jpg",
+    "relative_path": "val/2183.jpg",
+    "sha256": "d5bb20119f19e594b8d6690fc8b8e5c55edc06f6b1d9a531b19d9c9ea9641ff9",
+    "split": "val"
+  },
+  "canonical_sha256": "23d178004c44695d27c99e6c533ffffa86fb0a78b1e6b71313d05b7970e57a07",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市天际线",
+      "湖面倒影",
+      "现代建筑",
+      "白色栏杆"
+    ],
+    "short_description": "平静水面映照着远处林立的高楼群，前景是白色栏杆长堤，天空呈淡蓝色。",
+    "theme": "城市湖畔倒影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "水面平静导致倒影清晰。",
+      "天空颜色均匀，可能为晴朗天气。"
+    ],
+    "direct_observations": [
+      "画面中可见多栋高层建筑沿水平线排列。",
+      "水面呈现清晰的建筑倒影。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "水面平静",
+      "天空晴朗",
+      "建筑密集"
+    ],
+    "relations": [
+      "建筑群倒映于水面。",
+      "栏杆长堤位于水岸。"
+    ],
+    "scene": "城市湖泊景观",
+    "subjects": [
+      "高层建筑群",
+      "水面",
+      "白色栏杆长堤"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "水面平静导致倒影清晰。",
+      "天空颜色均匀，可能为晴朗天气。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见多栋高层建筑沿水平线排列；水面呈现清晰的建筑倒影。",
+    "safe_facts": [
+      "画面中可见多栋高层建筑沿水平线排列。",
+      "水面呈现清晰的建筑倒影。"
+    ]
+  },
+  "label_id": "cpl_d57159a20cf439955611e9df",
+  "provenance": {
+    "generated_at": "2026-08-03T16:09:32.503450+00:00",
+    "migrated_at": "2026-08-03T16:09:32.505257+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6e0250e1083602b4c3ce0123205fda83211916f9c1a38da8bb99df3ddd64ec8b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_08a6f8df924c9cb7b72d7371",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:09:32.505458+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_08a6f8df924c9cb7b72d7371"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

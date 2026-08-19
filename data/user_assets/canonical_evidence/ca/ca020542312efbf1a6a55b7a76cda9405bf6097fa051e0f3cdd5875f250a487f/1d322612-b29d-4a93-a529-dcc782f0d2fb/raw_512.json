@@ -1,0 +1,131 @@
+{
+  "asset_id": "ca020542312efbf1",
+  "asset_sha256": "ca020542312efbf1a6a55b7a76cda9405bf6097fa051e0f3cdd5875f250a487f",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"餐桌上的啤酒瓶\",\n    \"short_description\": \"灰色桌布上并排摆放着两个绿色玻璃啤酒瓶，瓶身贴有包含“DRAFT”和“纯生”字样的标签。旁边可见白色无线耳机盒、纸巾及卷起的湿毛巾，背景有模糊的人物手臂和餐具。\",\n    \"micro_tags\": [\n      \"啤酒瓶\",\n      \"绿色玻璃\",\n      \"餐桌\",\n      \"DRAFT\",\n      \"纯生\",\n      \"生活场景\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"室内餐桌环境\",\n    \"subjects\": [\n      \"绿色玻璃瓶\",\n      \"产品标签\",\n      \"白色耳机盒\",\n      \"纸巾\",\n      \"毛巾\",\n      \"人物手臂\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"绿色透明材质\",\n      \"圆柱形瓶身\",\n      \"银色反光标签\",\n      \"黑色与红色印刷字体\",\n      \"条形码\"\n    ],\n    \"relations\": [\n      \"两个瓶子并排直立放置\",\n      \"耳机盒位于左侧瓶子旁\",\n      \"毛巾位于右侧瓶子旁\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面主体为两个直立的绿色玻璃瓶，瓶身贴有白底银边的标签。\",\n      \"左侧瓶身标签清晰可见英文单词“DRAFT”及中文“纯生”字样。\",\n      \"右侧瓶身展示了标签背面，包含密集的说明文字和底部的条形码。\",\n      \"左下角有一个白色的椭圆形物体（类似无线耳机充电盒）和一张揉皱的纸巾。\",\n      \"右下角有一卷白色的织物（看起来像湿毛巾）。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据瓶身形状和标签内容，推测这是饮用后的空啤酒瓶或正在饮用的啤酒。\",\n      \"场景看起来像是在餐厅用餐过程中或结束后拍摄的。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定瓶内是否还有剩余液体。\",\n      \"无法确认具体的拍摄地点或时间。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"REFRESH YOUR LIFE\",\n      \"青岛啤酒\",\n      \"DRAFT\",\n      \"纯生\",\n      \"青岛纯生 鲜活人生\",\n      \"6 901035 609319\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"两个绿色玻璃瓶放置在铺有灰色桌布的桌面上，瓶身贴有标签，周围散落着白色小物件和毛巾。\",\n    \"safe_facts\": [\n      \"图像中包含两个绿色的圆柱形玻璃容器。\",\n      \"容器表面贴有带有文字和条码的标签。\",\n      \"物体放置在灰色的纹理表面上。\",\n      \"周围存在白色的电子配件盒状物和纺织品。\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 717,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 717,
+        "total_tokens": 3922,
+        "estimated_cost_cny": 0.012146,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "餐桌上的啤酒瓶",
+          "short_description": "灰色桌布上并排摆放着两个绿色玻璃啤酒瓶，瓶身贴有包含“DRAFT”和“纯生”字样的标签。旁边可见白色无线耳机盒、纸巾及卷起的湿毛巾，背景有模糊的人物手臂和餐具。",
+          "micro_tags": [
+            "啤酒瓶",
+            "绿色玻璃",
+            "餐桌",
+            "DRAFT",
+            "纯生",
+            "生活场景"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "室内餐桌环境",
+          "subjects": [
+            "绿色玻璃瓶",
+            "产品标签",
+            "白色耳机盒",
+            "纸巾",
+            "毛巾",
+            "人物手臂"
+          ],
+          "actions": [],
+          "attributes": [
+            "绿色透明材质",
+            "圆柱形瓶身",
+            "银色反光标签",
+            "黑色与红色印刷字体",
+            "条形码"
+          ],
+          "relations": [
+            "两个瓶子并排直立放置",
+            "耳机盒位于左侧瓶子旁",
+            "毛巾位于右侧瓶子旁"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "画面主体为两个直立的绿色玻璃瓶，瓶身贴有白底银边的标签。",
+            "左侧瓶身标签清晰可见英文单词“DRAFT”及中文“纯生”字样。",
+            "右侧瓶身展示了标签背面，包含密集的说明文字和底部的条形码。",
+            "左下角有一个白色的椭圆形物体（类似无线耳机充电盒）和一张揉皱的纸巾。",
+            "右下角有一卷白色的织物（看起来像湿毛巾）。"
+          ],
+          "cautious_inferences": [
+            "根据瓶身形状和标签内容，推测这是饮用后的空啤酒瓶或正在饮用的啤酒。",
+            "场景看起来像是在餐厅用餐过程中或结束后拍摄的。"
+          ],
+          "uncertainties": [
+            "无法确定瓶内是否还有剩余液体。",
+            "无法确认具体的拍摄地点或时间。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "REFRESH YOUR LIFE",
+            "青岛啤酒",
+            "DRAFT",
+            "纯生",
+            "青岛纯生 鲜活人生",
+            "6 901035 609319"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "两个绿色玻璃瓶放置在铺有灰色桌布的桌面上，瓶身贴有标签，周围散落着白色小物件和毛巾。",
+          "safe_facts": [
+            "图像中包含两个绿色的圆柱形玻璃容器。",
+            "容器表面贴有带有文字和条码的标签。",
+            "物体放置在灰色的纹理表面上。",
+            "周围存在白色的电子配件盒状物和纺织品。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 6771992,
+        "request_bytes": 5075922,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.676322400002391,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "28e4d33740bc745e12fc96a734873492522bfb5f630ace69e9fec2e63bb80203"
+}

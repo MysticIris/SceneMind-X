@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1363.jpg",
+    "relative_path": "train/1363.jpg",
+    "sha256": "e92611040ca77583fb5ab6746c46dcd471de2d7b56646158d080dbe68556be60",
+    "split": "train"
+  },
+  "canonical_sha256": "af960867a807789214354eff947f2232246fda10f1fcb7926d42421c788d66e5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "树木",
+      "灌木",
+      "围栏",
+      "住宅楼"
+    ],
+    "short_description": "一棵树干被蓝色材料包裹，旁边有修剪整齐的灌木丛和白色围栏，背景是多层住宅楼。",
+    "theme": "小区儿童游乐区"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "树干被蓝色材料缠绕包裹。",
+      "灌木丛呈球形修剪形态。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "树干包裹蓝色材料",
+      "灌木修剪整齐",
+      "围栏为白色"
+    ],
+    "relations": [
+      "树位于灌木前方。",
+      "灌木位于围栏内侧。",
+      "建筑位于背景。"
+    ],
+    "scene": "住宅小区户外绿化区域",
+    "subjects": [
+      "树",
+      "灌木",
+      "围栏",
+      "建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "树干被蓝色材料缠绕包裹；灌木丛呈球形修剪形态。",
+    "safe_facts": [
+      "树干被蓝色材料缠绕包裹。",
+      "灌木丛呈球形修剪形态。"
+    ]
+  },
+  "label_id": "cpl_74ff8c94771a09b1b744e5f2",
+  "provenance": {
+    "generated_at": "2026-08-03T14:12:59.832427+00:00",
+    "migrated_at": "2026-08-03T14:12:59.837729+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0e33f85784987e1134140044d51d5d5373ac02f67b7de7b135d680e875ff569a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_95e30f90d11ee625b62eb2a7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:12:59.838241+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_95e30f90d11ee625b62eb2a7"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "萌宠乐园"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "萌宠乐园"
+    ]
+  }
+}

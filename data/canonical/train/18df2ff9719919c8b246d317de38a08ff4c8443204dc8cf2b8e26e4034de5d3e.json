@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:11.jpg",
+    "relative_path": "train/11.jpg",
+    "sha256": "18df2ff9719919c8b246d317de38a08ff4c8443204dc8cf2b8e26e4034de5d3e",
+    "split": "train"
+  },
+  "canonical_sha256": "281a2f90af205d338ff7f3cd46cf4c479cacb00449cd9ef69f60bb8cd4b3ab67",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "滑板",
+      "跳跃",
+      "城市街头",
+      "运动姿态"
+    ],
+    "short_description": "一名穿着蓝色上衣和短裤的滑板者在城市建筑下腾空完成动作，背景是灰色混凝土墙面，阳光投下清晰影子。",
+    "theme": "滑板少年跃空"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "滑板者正在执行一个滑板技巧动作。"
+    ],
+    "direct_observations": [
+      "滑板者身体腾空，双脚离地。",
+      "滑板位于滑板者脚下，悬浮在空中。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "腾空",
+      "滑行中做出动作"
+    ],
+    "attributes": [
+      "穿蓝色上衣",
+      "戴浅色帽子",
+      "穿白色袜子",
+      "穿带蓝纹的运动鞋"
+    ],
+    "relations": [
+      "滑板者踩在滑板上。",
+      "滑板悬空于地面之上。"
+    ],
+    "scene": "城市街道旁的建筑阴影下",
+    "subjects": [
+      "一名滑板者"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "滑板者正在执行一个滑板技巧动作。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "滑板者身体腾空，双脚离地；滑板位于滑板者脚下，悬浮在空中。",
+    "safe_facts": [
+      "滑板者身体腾空，双脚离地。",
+      "滑板位于滑板者脚下，悬浮在空中。"
+    ]
+  },
+  "label_id": "cpl_63f990ad5e1f3feb113227b2",
+  "provenance": {
+    "generated_at": "2026-08-03T09:06:01.402807+00:00",
+    "migrated_at": "2026-08-03T09:06:01.404221+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "87486a483db1760a89fcb444a8e36737fa05fb42b951053f6df5cd93f28fa8f5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a6a86c20fd67337147f201da",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:25.590470+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a6a86c20fd67337147f201da",
+    "cpl_0c3bcce4d5b87252fc2d63bb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

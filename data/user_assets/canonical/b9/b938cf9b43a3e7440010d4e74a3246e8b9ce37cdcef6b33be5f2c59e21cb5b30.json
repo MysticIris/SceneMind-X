@@ -1,0 +1,139 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_d328c274686dc1d62612cd6a",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_e9a33ace8fbeefd9c479c04a"
+  ],
+  "asset": {
+    "asset_id": "b938cf9b43a3e744",
+    "sha256": "b938cf9b43a3e7440010d4e74a3246e8b9ce37cdcef6b33be5f2c59e21cb5b30",
+    "split": "user_custom",
+    "relative_path": "user_assets/b9/b938cf9b43a3e7440010d4e74a3246e8b9ce37cdcef6b33be5f2c59e21cb5b30/b938cf9b43a3e7440010d4e74a3246e8b9ce37cdcef6b33be5f2c59e21cb5b30.png"
+  },
+  "display": {
+    "theme": "iPhone电池设置界面",
+    "short_description": "这是一张智能手机屏幕截图，显示了深色模式下的电池设置页面。界面包含电池百分比开关、低电量模式选项以及自动锁定建议。下方展示了过去24小时的电池电量变化曲线和使用活动柱状图，当前显示正在充电且电量为21%。",
+    "micro_tags": [
+      "手机设置",
+      "电池健康",
+      "电量图表",
+      "深色模式",
+      "系统界面",
+      "iOS风格"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "智能手机操作系统设置菜单",
+    "subjects": [
+      "电池设置列表",
+      "电量统计图表",
+      "状态栏信息"
+    ],
+    "actions": [],
+    "attributes": [
+      "深色背景",
+      "绿色 toggle 开关",
+      "蓝色与绿色数据图表",
+      "中文文本界面"
+    ],
+    "relations": [
+      "图表位于设置选项下方。",
+      "状态栏位于屏幕顶部。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "屏幕顶部状态栏显示时间为02：02，网络信号为5G，电池图标旁显示数字22并带有闪电符号。",
+      "界面中部有一个标题为'自动锁定'的选项，右侧显示值为'永不'，下方有灰色提示文字建议启用以节省电量。",
+      "底部图表区域分为上下两部分，上方为绿色的电池电量折线/柱状混合图，下方为蓝色的活动时长柱状图。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "电池百分比",
+      "低电量模式",
+      "自动锁定",
+      "电池健康与充电",
+      "过去24小时",
+      "过去10天"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "电池百分比",
+      "低电量模式",
+      "自动锁定",
+      "电池健康与充电",
+      "过去24小时",
+      "过去10天"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "屏幕顶部状态栏显示时间为02：02，网络信号为5G，电池图标旁显示数字22并带有闪电符号；界面中部有一个标题为'自动锁定'的选项，右侧显示值为'永不'，下方有灰色提示文字建议启用以节省电量。",
+    "safe_facts": [
+      "屏幕顶部状态栏显示时间为02：02，网络信号为5G，电池图标旁显示数字22并带有闪电符号。",
+      "界面中部有一个标题为'自动锁定'的选项，右侧显示值为'永不'，下方有灰色提示文字建议启用以节省电量。",
+      "底部图表区域分为上下两部分，上方为绿色的电池电量折线/柱状混合图，下方为蓝色的活动时长柱状图。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_866f31b6-1710-4282-927e-b462f01a2d4f",
+    "generated_at": "2026-08-12T03:17:08.836280+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "bb9a645937b87649f57408c3c4a11564512bf1637174b9a682523162794cf418",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:17:08.837387+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_e9a33ace8fbeefd9c479c04a",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:17:08.838200+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "2bbecc35942e1973b3e37ef641634b04e3a65eae3a47833e93c73c21235af411"
+}

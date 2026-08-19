@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1967.jpg",
+    "relative_path": "train/1967.jpg",
+    "sha256": "f72275a772c0311bd7806604f9bc4e7d8e2715a7b419dfaf11e6ba20aee68c93",
+    "split": "train"
+  },
+  "canonical_sha256": "d5f14db6c27c7e67dca9a2b39c7a4138954fbab366ee1dc9a6ed4f0c24c135e1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "炒河粉",
+      "肉片",
+      "青菜",
+      "筷子",
+      "蘸料"
+    ],
+    "short_description": "一盘盛在白色花边碗中的炒河粉，配有肉片和绿叶菜，旁边放着筷子和小碟蘸料。",
+    "theme": "炒河粉配蔬菜"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "白色花边碗中盛有炒河粉，上面有肉片和绿叶菜。",
+      "黑色筷子横放在碗上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "棕色炒河粉",
+      "绿色蔬菜",
+      "红色辣椒酱",
+      "黑色筷子"
+    ],
+    "relations": [
+      "筷子放在碗上。",
+      "碗放在转盘上。",
+      "蘸料在碗旁。"
+    ],
+    "scene": "餐桌",
+    "subjects": [
+      "炒河粉",
+      "筷子",
+      "小碟蘸料",
+      "白色花边碗",
+      "金属转盘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "白色花边碗中盛有炒河粉，上面有肉片和绿叶菜；黑色筷子横放在碗上。",
+    "safe_facts": [
+      "白色花边碗中盛有炒河粉，上面有肉片和绿叶菜。",
+      "黑色筷子横放在碗上。"
+    ]
+  },
+  "label_id": "cpl_20c1d06b237b54fb13f98303",
+  "provenance": {
+    "generated_at": "2026-08-03T15:27:53.110539+00:00",
+    "migrated_at": "2026-08-03T15:27:53.112485+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b38ceabc8e3d24549acbef5cf749b41d24e8a7720beba0d39a7834bb3eefebe7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ff2662c8b5164cb502267d29",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:27:53.112692+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ff2662c8b5164cb502267d29"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

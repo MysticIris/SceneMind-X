@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1251.jpg",
+    "relative_path": "train/1251.jpg",
+    "sha256": "a1ebe8ff08eb1ccccad3c54e0368223360317a6c545874627dd6dabe50f53456",
+    "split": "train"
+  },
+  "canonical_sha256": "15ac776973421ec10c48df217bf8a977d8fcbb1248aad6e88041e1a66b874a56",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "男士护肤",
+      "蓝色瓶子",
+      "手握产品"
+    ],
+    "short_description": "一只手握着一个蓝色瓶装的男士护肤品。",
+    "theme": "男士护肤产品"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "瓶身为蓝色，瓶盖也为蓝色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色瓶身",
+      "瓶盖为蓝色",
+      "瓶身上有男性头像图案"
+    ],
+    "relations": [
+      "手握着瓶子。"
+    ],
+    "scene": "室内桌面环境",
+    "subjects": [
+      "一只手",
+      "一瓶护肤品"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "瓶身为蓝色，瓶盖也为蓝色。",
+    "safe_facts": [
+      "瓶身为蓝色，瓶盖也为蓝色。"
+    ]
+  },
+  "label_id": "cpl_27a2c015cfbaee14daa34e19",
+  "provenance": {
+    "generated_at": "2026-08-03T14:01:24.750613+00:00",
+    "migrated_at": "2026-08-03T14:01:24.754703+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5210c4d8a65c7b94afdb0daec480d4d2f83364b256dd692f3b1cacbaa9bc6b18",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_597344404b9e314de51693a4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:01:24.755790+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_597344404b9e314de51693a4"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "MEN",
+      "男士 SOD蜜",
+      "滋润保湿 清爽润肤",
+      "轻盈乳液质地 深入滋润肌肤 补充水分",
+      "适合多种肌肤类型",
+      "MEN CHARM SYSTEM"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "MEN",
+      "男士 SOD蜜",
+      "滋润保湿 清爽润肤",
+      "轻盈乳液质地 深入滋润肌肤 补充水分",
+      "适合多种肌肤类型",
+      "MEN CHARM SYSTEM"
+    ]
+  }
+}

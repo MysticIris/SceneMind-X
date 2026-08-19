@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1270.jpg",
+    "relative_path": "train/1270.jpg",
+    "sha256": "e9f8a48700060c523b077a27c314999c8fa334fca72a20aac2ecfc83a7c222b4",
+    "split": "train"
+  },
+  "canonical_sha256": "591574a6ef48a444bc1add84c5e3188e3daf7d0f0b153f80f3ee5c701c9b1f87",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "摩天轮",
+      "樱花",
+      "城市景观",
+      "河流"
+    ],
+    "short_description": "春日樱花盛开，背景是大型摩天轮与现代建筑群，河面有船只经过。",
+    "theme": "城市摩天轮春景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能是在春季拍摄，因樱花盛开。"
+    ],
+    "direct_observations": [
+      "画面中央有一个大型白色摩天轮结构。",
+      "前景有盛开的粉白色花朵的树木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晴朗天空",
+      "粉白色花朵",
+      "现代建筑",
+      "水面倒影"
+    ],
+    "relations": [
+      "摩天轮位于建筑群后方。",
+      "樱花树前景遮挡部分视野。",
+      "船只在河面上。"
+    ],
+    "scene": "城市河边景观",
+    "subjects": [
+      "摩天轮",
+      "樱花树",
+      "高层建筑",
+      "船只"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能是在春季拍摄，因樱花盛开。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一个大型白色摩天轮结构；前景有盛开的粉白色花朵的树木。",
+    "safe_facts": [
+      "画面中央有一个大型白色摩天轮结构。",
+      "前景有盛开的粉白色花朵的树木。"
+    ]
+  },
+  "label_id": "cpl_c85ff25e34777570bfc22a5d",
+  "provenance": {
+    "generated_at": "2026-08-03T14:00:48.845787+00:00",
+    "migrated_at": "2026-08-03T14:00:48.849064+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "150c4d2dc834a08885ef897659509901987e87053291544a36b70c21a5d2f35c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_864809c565a9ea538f54df20",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:00:48.849423+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_864809c565a9ea538f54df20"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

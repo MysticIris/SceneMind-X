@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1900.jpg",
+    "relative_path": "train/1900.jpg",
+    "sha256": "49c196b4c02c876603c1f7b8a3bc1bc6c322e3a9e7a522d4a5921e7c73b9e3e3",
+    "split": "train"
+  },
+  "canonical_sha256": "0e197896be93c9c1adf394e8ec780eb77157ff92b1b168749d8e623b6c0bf09d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑猫",
+      "石板路",
+      "自行车",
+      "夜间"
+    ],
+    "short_description": "一只黑猫蹲伏在石板路上，旁边停放着自行车和电动车，环境昏暗。",
+    "theme": "夜间街边猫影"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面由不规则石板铺成，表面有裂缝和污渍。",
+      "黑猫身体呈蜷缩姿态，尾巴自然下垂。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑猫",
+      "石板路",
+      "自行车带车篮",
+      "电动车白色前挡板"
+    ],
+    "relations": [
+      "黑猫位于石板路中央。",
+      "自行车停放在黑猫左侧。",
+      "电动车位于画面右上角。"
+    ],
+    "scene": "户外石板路面",
+    "subjects": [
+      "黑猫",
+      "自行车",
+      "电动车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面由不规则石板铺成，表面有裂缝和污渍；黑猫身体呈蜷缩姿态，尾巴自然下垂。",
+    "safe_facts": [
+      "地面由不规则石板铺成，表面有裂缝和污渍。",
+      "黑猫身体呈蜷缩姿态，尾巴自然下垂。"
+    ]
+  },
+  "label_id": "cpl_ea19d9c8e8d1215a1b9293a3",
+  "provenance": {
+    "generated_at": "2026-08-03T15:20:07.441816+00:00",
+    "migrated_at": "2026-08-03T15:20:07.443654+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "09f36b4697392d2a78555448e18302943fa6bbd138fbef74cca665fb806c0fd5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7b1c00ddf15b494f3ee459d7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:20:07.443872+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7b1c00ddf15b494f3ee459d7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

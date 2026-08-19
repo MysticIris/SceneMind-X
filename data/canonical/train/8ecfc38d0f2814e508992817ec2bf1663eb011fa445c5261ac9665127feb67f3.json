@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1344.jpg",
+    "relative_path": "train/1344.jpg",
+    "sha256": "8ecfc38d0f2814e508992817ec2bf1663eb011fa445c5261ac9665127feb67f3",
+    "split": "train"
+  },
+  "canonical_sha256": "69eb3d8ca1c154252193131a4e3f4fe14c9a413e2819d1009591c83d8e145704",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "日落",
+      "城市天际线",
+      "气球",
+      "橙色天空"
+    ],
+    "short_description": "夕阳西下，天空染成橙红色，树影与建筑轮廓在暖光中勾勒，空中飘着一个气球。",
+    "theme": "日落城市剪影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "气球可能正在上升或被风吹动。"
+    ],
+    "direct_observations": [
+      "天空呈现大面积橙红色调。",
+      "太阳为明亮圆形光源。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空呈橙红色",
+      "太阳为圆形亮斑",
+      "树木为剪影",
+      "气球悬于空中"
+    ],
+    "relations": [
+      "太阳位于画面中央偏下。",
+      "树木与建筑物位于前景与中景。",
+      "气球位于天空上部。"
+    ],
+    "scene": "城市户外黄昏场景",
+    "subjects": [
+      "太阳",
+      "树木",
+      "建筑物",
+      "气球"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "气球可能正在上升或被风吹动。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现大面积橙红色调；太阳为明亮圆形光源。",
+    "safe_facts": [
+      "天空呈现大面积橙红色调。",
+      "太阳为明亮圆形光源。"
+    ]
+  },
+  "label_id": "cpl_dde8e3fbce3ea8005d7e3f7b",
+  "provenance": {
+    "generated_at": "2026-08-03T14:10:34.472957+00:00",
+    "migrated_at": "2026-08-03T14:10:34.477035+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "398558fb469be6ac5939fea1801eb8a03f59881b1734c2512bca5948ad9d69de",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1700744abab70f98bde0c399",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:10:34.477377+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1700744abab70f98bde0c399"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

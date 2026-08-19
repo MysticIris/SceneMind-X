@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:300.jpg",
+    "relative_path": "train/300.jpg",
+    "sha256": "f509b8f8733d5f9115d1eaa0727022cdb4431fde539848678a71adc86d4817ad",
+    "split": "train"
+  },
+  "canonical_sha256": "ec9a7bb656efc58c4b022f0db25c32cdd2259b5f515103a762512f5b794a8ae5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蓝色灯光",
+      "城市模型",
+      "微型建筑"
+    ],
+    "short_description": "蓝色灯光照射下，一座微型城市建筑群模型，包含多栋楼房和树木，整体呈现夜景氛围。",
+    "theme": "蓝色灯光下的城市模型"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能为室内灯光照射下的模型展示。"
+    ],
+    "direct_observations": [
+      "画面整体被蓝色光线笼罩。",
+      "建筑模型具有多层结构和屋顶轮廓。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "被蓝色灯光照亮",
+      "覆盖雪状物",
+      "玻璃反射痕迹"
+    ],
+    "relations": [
+      "建筑模型位于雪地之上。",
+      "树木模型分布在建筑之间。"
+    ],
+    "scene": "室内展示的微型城市景观",
+    "subjects": [
+      "建筑模型",
+      "树木模型",
+      "蓝色灯光"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能为室内灯光照射下的模型展示。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面整体被蓝色光线笼罩；建筑模型具有多层结构和屋顶轮廓。",
+    "safe_facts": [
+      "画面整体被蓝色光线笼罩。",
+      "建筑模型具有多层结构和屋顶轮廓。"
+    ]
+  },
+  "label_id": "cpl_c131bcd126cc7495d2bee4fe",
+  "provenance": {
+    "generated_at": "2026-08-03T10:35:01.968964+00:00",
+    "migrated_at": "2026-08-03T10:35:01.971899+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cab5487acdd178fadd3819cbad9af57b7fca08b15607d6cb5390d9e32e5e8d5b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_97057fc5d0c36ee7a19ac6c2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:35:01.972284+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_97057fc5d0c36ee7a19ac6c2"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

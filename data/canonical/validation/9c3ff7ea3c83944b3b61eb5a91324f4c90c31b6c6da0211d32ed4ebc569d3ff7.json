@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2275.jpg",
+    "relative_path": "val/2275.jpg",
+    "sha256": "9c3ff7ea3c83944b3b61eb5a91324f4c90c31b6c6da0211d32ed4ebc569d3ff7",
+    "split": "val"
+  },
+  "canonical_sha256": "886d418a9f6241d8aa318cd3d71b952cf62da4f1352737ff9db845e8368c9121",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "溪流",
+      "阴天",
+      "山丘",
+      "植被"
+    ],
+    "short_description": "阴云密布下，溪水湍急流淌，两岸绿草丛生，远处山峦起伏，桥身隐约可见。",
+    "theme": "阴天溪流边景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能因降雨或上游来水导致溪水湍急。"
+    ],
+    "direct_observations": [
+      "天空被厚重云层覆盖。",
+      "溪水表面有明显波纹和流动痕迹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阴天",
+      "水流湍急",
+      "绿色植被"
+    ],
+    "relations": [
+      "溪水沿岸流动。",
+      "草丛生长于溪边。",
+      "山丘位于背景。",
+      "桥梁横跨远方。"
+    ],
+    "scene": "溪流沿岸自然景观",
+    "subjects": [
+      "溪水",
+      "草丛",
+      "树木",
+      "山丘",
+      "桥梁"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能因降雨或上游来水导致溪水湍急。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空被厚重云层覆盖；溪水表面有明显波纹和流动痕迹。",
+    "safe_facts": [
+      "天空被厚重云层覆盖。",
+      "溪水表面有明显波纹和流动痕迹。"
+    ]
+  },
+  "label_id": "cpl_281f27c58b0b5b44637ec10d",
+  "provenance": {
+    "generated_at": "2026-08-03T16:21:07.586258+00:00",
+    "migrated_at": "2026-08-03T16:21:07.588112+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2d3a26789842bbb8c89c612293d2b6024b58f60d59eb5e3945e7032218258826",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_126c3d4100e9b20de98cf23a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:21:07.588451+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_126c3d4100e9b20de98cf23a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

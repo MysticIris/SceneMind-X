@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:483.jpg",
+    "relative_path": "train/483.jpg",
+    "sha256": "005d4182a078c72aa7123c93846e6f1428e575ea6b60bd2495f12a3db107e211",
+    "split": "train"
+  },
+  "canonical_sha256": "d9f23b39d508efc80950bf142d3ff342deaa952e7713762b2e4fa6e419adc0e0",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "星空",
+      "银河",
+      "海滩",
+      "人影"
+    ],
+    "short_description": "一个人站在沙滩上，仰望布满繁星的夜空，银河横跨天际，远处山峦轮廓在微光下若隐若现。",
+    "theme": "星空下的海滩"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "远处地平线有橙红色光晕，可能是日落余晖或城市灯光。"
+    ],
+    "direct_observations": [
+      "天空中布满密集的星星和一条明亮的星带(银河)。",
+      "沙滩上有一个人的剪影和一串脚印。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "星空璀璨",
+      "沙滩广阔",
+      "山峦剪影"
+    ],
+    "relations": [
+      "人位于沙滩中央。",
+      "人面向星空。"
+    ],
+    "scene": "夜晚的海滩",
+    "subjects": [
+      "一个人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "远处地平线有橙红色光晕，可能是日落余晖或城市灯光。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空中布满密集的星星和一条明亮的星带(银河)；沙滩上有一个人的剪影和一串脚印。",
+    "safe_facts": [
+      "天空中布满密集的星星和一条明亮的星带(银河)。",
+      "沙滩上有一个人的剪影和一串脚印。"
+    ]
+  },
+  "label_id": "cpl_3763268edf7ed8987a1993d8",
+  "provenance": {
+    "generated_at": "2026-08-03T11:12:50.455717+00:00",
+    "migrated_at": "2026-08-03T11:12:50.457379+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9079438aa224a90c30b0297d86c25bf9f51b63e1d5c528e38eaee070909fdf6a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2e44d1bf54263750bca4f333",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:12:50.457585+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2e44d1bf54263750bca4f333"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

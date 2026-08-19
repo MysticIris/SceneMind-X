@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1353.jpg",
+    "relative_path": "train/1353.jpg",
+    "sha256": "3d2307dac836e56b47a9b426777cef4edb34c7f266f943bc471356c90554e330",
+    "split": "train"
+  },
+  "canonical_sha256": "49de10c4ce0872a957f402d0f26dca38bcd5471df5828a1a04e8beb6bac9f9cd",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "无糖薄荷味",
+      "绿色包装"
+    ],
+    "short_description": "绿色包装的无糖薄荷味口香糖盒，放置在白色盒子上，背景为黑色键盘。",
+    "theme": "无糖薄荷味口香糖"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "绿色包装的口香糖盒位于画面中央。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色包装",
+      "无糖薄荷味"
+    ],
+    "relations": [
+      "口香糖盒放在白色盒子上。",
+      "白色盒子在桌面上。",
+      "键盘在背景中。"
+    ],
+    "scene": "桌面环境",
+    "subjects": [
+      "白色盒子",
+      "黑色键盘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "绿色包装的口香糖盒位于画面中央。",
+    "safe_facts": [
+      "绿色包装的口香糖盒位于画面中央。"
+    ]
+  },
+  "label_id": "cpl_0dfceaa257e4f375e323e060",
+  "provenance": {
+    "generated_at": "2026-08-03T14:11:44.448090+00:00",
+    "migrated_at": "2026-08-03T14:11:44.456273+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fb2abd0dd9eb5e78d98cd0c8bfd87c756fe1114a3f463ebc1137b31a722c8e12",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_31733f1712b398ab3f51326e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:11:44.457272+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:attributes",
+      "removed_unverified_text:micro_tags",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_31733f1712b398ab3f51326e"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "益达",
+      "沁凉薄荷味",
+      "无糖口香糖",
+      "12片装",
+      "净含量:32克",
+      "图案仅供口味示意"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "益达",
+      "沁凉薄荷味",
+      "无糖口香糖",
+      "12片装",
+      "净含量:32克",
+      "图案仅供口味示意"
+    ]
+  }
+}

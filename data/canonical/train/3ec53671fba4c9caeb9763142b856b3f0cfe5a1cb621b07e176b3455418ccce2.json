@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:451.jpg",
+    "relative_path": "train/451.jpg",
+    "sha256": "3ec53671fba4c9caeb9763142b856b3f0cfe5a1cb621b07e176b3455418ccce2",
+    "split": "train"
+  },
+  "canonical_sha256": "ddc12ceec972f8ec6dfa8ee72758204843861a608550b244527ad6900ccc2fe3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市街道",
+      "斜拉桥",
+      "多层建筑",
+      "阴天"
+    ],
+    "short_description": "城市街道上车辆行驶，远处一座白色与橙色相间的现代斜拉桥横跨山谷，两侧高楼林立，天空阴沉。",
+    "theme": "城市街景与桥梁"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多辆汽车在道路上行驶。",
+      "远处有一座具有白色塔柱和橙色斜拉索的现代桥梁。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阴天",
+      "多车道道路",
+      "高层建筑",
+      "现代桥梁结构"
+    ],
+    "relations": [
+      "汽车在道路上行驶。",
+      "桥梁位于街道尽头。",
+      "建筑物环绕街道两侧。"
+    ],
+    "scene": "城市街道与桥梁景观",
+    "subjects": [
+      "汽车",
+      "建筑物",
+      "桥梁",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多辆汽车在道路上行驶；远处有一座具有白色塔柱和橙色斜拉索的现代桥梁。",
+    "safe_facts": [
+      "画面中有多辆汽车在道路上行驶。",
+      "远处有一座具有白色塔柱和橙色斜拉索的现代桥梁。"
+    ]
+  },
+  "label_id": "cpl_87a2857c70f29e169401319b",
+  "provenance": {
+    "generated_at": "2026-08-03T11:06:08.610435+00:00",
+    "migrated_at": "2026-08-03T11:06:08.612331+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "423f797db00d2efc1fb2c2fb318695f47627b3fa79eb9bd2d83cd11b55b3102e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ce726ac861cacff4ee233794",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:06:08.612627+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ce726ac861cacff4ee233794"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

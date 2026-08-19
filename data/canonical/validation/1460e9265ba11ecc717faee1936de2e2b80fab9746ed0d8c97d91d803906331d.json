@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2170.jpg",
+    "relative_path": "val/2170.jpg",
+    "sha256": "1460e9265ba11ecc717faee1936de2e2b80fab9746ed0d8c97d91d803906331d",
+    "split": "val"
+  },
+  "canonical_sha256": "531d4260c8404fa2ab96eec1f87256c0e916863b2ae804d81f0003e37ef4fd5c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "拱桥",
+      "水面倒影",
+      "路灯照明"
+    ],
+    "short_description": "夜色中，一座拱桥横跨水面，两岸路灯照亮河岸与树木，倒影在平静水面上形成光斑。",
+    "theme": "夜景桥梁"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "水面反射灯光，形成光点。"
+    ],
+    "direct_observations": [
+      "画面呈现夜间环境，天空呈深紫色调。",
+      "桥为拱形结构，横跨于水面上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "静谧",
+      "灯光照明",
+      "水面平静"
+    ],
+    "relations": [
+      "桥横跨水面。",
+      "路灯沿河岸分布。",
+      "树位于河岸两侧。"
+    ],
+    "scene": "夜间河道景观",
+    "subjects": [
+      "拱桥",
+      "路灯",
+      "树木",
+      "水面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "水面反射灯光，形成光点。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现夜间环境，天空呈深紫色调；桥为拱形结构，横跨于水面上。",
+    "safe_facts": [
+      "画面呈现夜间环境，天空呈深紫色调。",
+      "桥为拱形结构，横跨于水面上。"
+    ]
+  },
+  "label_id": "cpl_116e643146272bb00608e1ae",
+  "provenance": {
+    "generated_at": "2026-08-03T16:09:19.638267+00:00",
+    "migrated_at": "2026-08-03T16:09:19.641910+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "77a39063b606628e72bc2f4c176370d95472a5e592e479270582cf81eaf10b11",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_db9ff88116705acdb4ec48b6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:09:19.642289+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_db9ff88116705acdb4ec48b6"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

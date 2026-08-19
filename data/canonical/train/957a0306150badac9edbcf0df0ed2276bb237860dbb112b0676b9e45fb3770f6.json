@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1977.jpg",
+    "relative_path": "train/1977.jpg",
+    "sha256": "957a0306150badac9edbcf0df0ed2276bb237860dbb112b0676b9e45fb3770f6",
+    "split": "train"
+  },
+  "canonical_sha256": "1ff3441eff8b14a35d9d85c41db5e937deb5537b75458fa6fc32f2128ca32ecb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "政策框架",
+      "中心思想"
+    ],
+    "short_description": "一张演示文稿幻灯片，展示如何，包含五个核心措施。",
+    "theme": "幻灯片标题与思维导图式图表"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现于电子屏幕之上。",
+      "内容以中心主题和辐射式结构组织。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "电子屏幕显示的演示文稿页面",
+    "subjects": [
+      "幻灯片标题",
+      "思维导图式图表"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现于电子屏幕之上；内容以中心主题和辐射式结构组织。",
+    "safe_facts": [
+      "图像呈现于电子屏幕之上。",
+      "内容以中心主题和辐射式结构组织。"
+    ]
+  },
+  "label_id": "cpl_57fb6db2c76a989fa39cbe76",
+  "provenance": {
+    "generated_at": "2026-08-03T15:28:54.173825+00:00",
+    "migrated_at": "2026-08-03T15:28:54.176086+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f84d40f435d7e738912b7310561d5692687bfdf57ee08a0a6e602f732b83c6fe",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e6127ce769bfcbf9b0337082",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:28:54.176770+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e6127ce769bfcbf9b0337082"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "(三)如何实现共同富裕",
+      "实现共同富裕的总体思路",
+      "坚持以人民为中心",
+      "推动高质量发展",
+      "构建基础性制度安排",
+      "扎实推动共同富裕"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "(三)如何实现共同富裕",
+      "实现共同富裕的总体思路",
+      "坚持以人民为中心",
+      "推动高质量发展",
+      "构建基础性制度安排",
+      "扎实推动共同富裕"
+    ]
+  }
+}

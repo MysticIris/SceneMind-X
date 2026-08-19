@@ -1,0 +1,123 @@
+{
+  "asset_id": "26eb6da0162f9f0b",
+  "asset_sha256": "26eb6da0162f9f0b34e4dda01f935b2d401f7b62bba6c688fea4d11454bf3680",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"账户余额与消费概览\",\n    \"short_description\": \"这是一张数字界面的截图，展示了账户的财务状态。主要内容包括充值余额为9.58元人民币，以及六月消费金额为0.41元人民币。界面底部设有黑色的“去充值”按钮和黄色的余额预警设置提示，顶部有关于UTC+0时间显示的说明文字。\",\n    \"micro_tags\": [\n      \"余额显示\",\n      \"消费记录\",\n      \"人民币\",\n      \"用户界面\",\n      \"充值按钮\",\n      \"财务数据\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端或网页端的个人账户财务管理界面\",\n    \"subjects\": [\n      \"余额数值\",\n      \"消费数值\",\n      \"功能按钮\",\n      \"提示文本\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白底黑字\",\n      \"大字号数字\",\n      \"黑色实心按钮\",\n      \"浅黄色背景标签\"\n    ],\n    \"relations\": [\n      \"余额位于左侧，消费位于右侧\",\n      \"操作按钮位于数值下方\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"左侧显示大号数字'¥9.58'及货币单位'CNY'，上方标注'充值余额'\",\n      \"右侧显示大号数字'¥0.41'及货币单位'CNY'，上方标注'六月消费'\",\n      \"左下角有一个黑色圆角矩形按钮，内含白色文字'去充值'\",\n      \"按钮右侧有一个浅黄色胶囊状标签，提示'余额预警未开启'\"\n    ],\n    \"cautious_inferences\": [\n      \"该界面可能属于云服务、API服务或某种订阅制应用的后台管理页面\",\n      \"数据更新可能存在延迟，因为顶部有相关的时间说明\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"所有日期均按 UTC+0 时间显示，数据可能有 5 分钟延迟。\",\n      \"充值余额\",\n      \"¥9.58 CNY\",\n      \"六月消费（按 UTC+0 时间）\",\n      \"¥0.41 CNY\",\n      \"去充值\",\n      \"余额预警未开启（去设置）\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张显示财务数据的界面截图，包含左右排列的两个金额数值、货币符号以及底部的操作按钮和状态提示标签。\",\n    \"safe_facts\": [\n      \"界面背景为白色\",\n      \"包含两个显著的大号金额数字\",\n      \"底部有深色和浅色两种不同样式的交互组件\"\n    ]\n  }\n}",
+      "input_tokens": 936,
+      "output_tokens": 663,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 936,
+        "output_tokens": 663,
+        "total_tokens": 1599,
+        "estimated_cost_cny": 0.007176,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "账户余额与消费概览",
+          "short_description": "这是一张数字界面的截图，展示了账户的财务状态。主要内容包括充值余额为9.58元人民币，以及六月消费金额为0.41元人民币。界面底部设有黑色的“去充值”按钮和黄色的余额预警设置提示，顶部有关于UTC+0时间显示的说明文字。",
+          "micro_tags": [
+            "余额显示",
+            "消费记录",
+            "人民币",
+            "用户界面",
+            "充值按钮",
+            "财务数据"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "移动端或网页端的个人账户财务管理界面",
+          "subjects": [
+            "余额数值",
+            "消费数值",
+            "功能按钮",
+            "提示文本"
+          ],
+          "actions": [],
+          "attributes": [
+            "白底黑字",
+            "大字号数字",
+            "黑色实心按钮",
+            "浅黄色背景标签"
+          ],
+          "relations": [
+            "余额位于左侧，消费位于右侧",
+            "操作按钮位于数值下方"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "左侧显示大号数字'¥9.58'及货币单位'CNY'，上方标注'充值余额'",
+            "右侧显示大号数字'¥0.41'及货币单位'CNY'，上方标注'六月消费'",
+            "左下角有一个黑色圆角矩形按钮，内含白色文字'去充值'",
+            "按钮右侧有一个浅黄色胶囊状标签，提示'余额预警未开启'"
+          ],
+          "cautious_inferences": [
+            "该界面可能属于云服务、API服务或某种订阅制应用的后台管理页面",
+            "数据更新可能存在延迟，因为顶部有相关的时间说明"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "所有日期均按 UTC+0 时间显示，数据可能有 5 分钟延迟。",
+            "充值余额",
+            "¥9.58 CNY",
+            "六月消费（按 UTC+0 时间）",
+            "¥0.41 CNY",
+            "去充值",
+            "余额预警未开启（去设置）"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张显示财务数据的界面截图，包含左右排列的两个金额数值、货币符号以及底部的操作按钮和状态提示标签。",
+          "safe_facts": [
+            "界面背景为白色",
+            "包含两个显著的大号金额数字",
+            "底部有深色和浅色两种不同样式的交互组件"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 42252,
+        "request_bytes": 28617,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 12.771072100003948,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "aea18a546c38c7f879cec9ed076ff07bdcf5d8cfd28706c6da64028a56bab50e"
+}

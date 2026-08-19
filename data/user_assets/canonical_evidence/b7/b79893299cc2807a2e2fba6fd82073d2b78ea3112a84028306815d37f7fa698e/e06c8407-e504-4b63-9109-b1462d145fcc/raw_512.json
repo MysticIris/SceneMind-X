@@ -1,0 +1,111 @@
+{
+  "asset_id": "b79893299cc2807a",
+  "asset_sha256": "b79893299cc2807a2e2fba6fd82073d2b78ea3112a84028306815d37f7fa698e",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"彩色像素噪点纹理\",\n    \"short_description\": \"这是一张由大量随机分布的彩色小方块组成的抽象图像。画面呈现出类似数字信号故障或电视雪花屏的视觉效果，包含红、绿、蓝、紫、黄等多种高饱和度颜色，整体具有强烈的颗粒感和无序性。\",\n    \"micro_tags\": [\n      \"像素化\",\n      \"噪点\",\n      \"抽象\",\n      \"故障艺术\",\n      \"多色\",\n      \"纹理\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"illustration\",\n    \"scene\": \"抽象数字背景\",\n    \"subjects\": [\n      \"彩色像素网格\",\n      \"随机色块\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"高饱和度\",\n      \"低分辨率感\",\n      \"无序排列\",\n      \"方形单元\"\n    ],\n    \"relations\": []\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图像完全由细小的正方形色块（像素）填充，没有留白。\",\n      \"颜色分布极其杂乱，相邻像素之间往往存在巨大的色差（如亮绿紧邻深紫）。\",\n      \"画面中不存在任何可识别的具体物体、人物或风景轮廓。\"\n    ],\n    \"cautious_inferences\": [\n      \"这种视觉模式看起来像是数字图像损坏、信号丢失或专门生成的随机噪声纹理。\",\n      \"可能是某种数据可视化（如内存转储）的艺术化呈现，或者是模拟老式显示器无信号时的状态。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定这是计算机生成的纯随机图像，还是对真实拍摄的高噪点照片进行的极端像素化处理。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"none\",\n    \"visual_candidates\": []\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张充满随机彩色像素点的抽象纹理图，呈现出类似数字噪点或故障画面的视觉效果。\",\n    \"safe_facts\": [\n      \"画面由密集的彩色方格组成\",\n      \"色彩丰富且分布无规律\",\n      \"无具体具象内容\"\n    ]\n  }\n}",
+      "input_tokens": 2232,
+      "output_tokens": 529,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 2232,
+        "output_tokens": 529,
+        "total_tokens": 2761,
+        "estimated_cost_cny": 0.008696,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "彩色像素噪点纹理",
+          "short_description": "这是一张由大量随机分布的彩色小方块组成的抽象图像。画面呈现出类似数字信号故障或电视雪花屏的视觉效果，包含红、绿、蓝、紫、黄等多种高饱和度颜色，整体具有强烈的颗粒感和无序性。",
+          "micro_tags": [
+            "像素化",
+            "噪点",
+            "抽象",
+            "故障艺术",
+            "多色",
+            "纹理"
+          ]
+        },
+        "facts": {
+          "visual_medium": "illustration",
+          "scene": "抽象数字背景",
+          "subjects": [
+            "彩色像素网格",
+            "随机色块"
+          ],
+          "actions": [],
+          "attributes": [
+            "高饱和度",
+            "低分辨率感",
+            "无序排列",
+            "方形单元"
+          ],
+          "relations": []
+        },
+        "evidence": {
+          "direct_observations": [
+            "图像完全由细小的正方形色块（像素）填充，没有留白。",
+            "颜色分布极其杂乱，相邻像素之间往往存在巨大的色差（如亮绿紧邻深紫）。",
+            "画面中不存在任何可识别的具体物体、人物或风景轮廓。"
+          ],
+          "cautious_inferences": [
+            "这种视觉模式看起来像是数字图像损坏、信号丢失或专门生成的随机噪声纹理。",
+            "可能是某种数据可视化（如内存转储）的艺术化呈现，或者是模拟老式显示器无信号时的状态。"
+          ],
+          "uncertainties": [
+            "无法确定这是计算机生成的纯随机图像，还是对真实拍摄的高噪点照片进行的极端像素化处理。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "none",
+          "visual_candidates": []
+        },
+        "fallback": {
+          "safe_caption": "一张充满随机彩色像素点的抽象纹理图，呈现出类似数字噪点或故障画面的视觉效果。",
+          "safe_facts": [
+            "画面由密集的彩色方格组成",
+            "色彩丰富且分布无规律",
+            "无具体具象内容"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 3167900,
+        "request_bytes": 2372852,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 11.273986600004719,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "a68116d1fa3b029511d79a4e7c58bd5a9822d18ed133b8de6399f021ad0a2e7a"
+}

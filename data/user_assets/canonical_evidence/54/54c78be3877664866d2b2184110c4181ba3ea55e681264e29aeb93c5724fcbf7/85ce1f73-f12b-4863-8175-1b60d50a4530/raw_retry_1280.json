@@ -1,0 +1,141 @@
+{
+  "asset_id": "54c78be387766486",
+  "asset_sha256": "54c78be3877664866d2b2184110c4181ba3ea55e681264e29aeb93c5724fcbf7",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"历史试题与政治漫画\",\n    \"short_description\": \"这是一张手机截图，显示了一道关于1949年美国报纸漫画的历史选择题。漫画描绘了标有“欧洲”的人物在标有“美国纳税人”的人帮助下骑车前行，题目询问图中①处应填写的内容，选项包含马歇尔计划等。\",\n    \"micro_tags\": [\n      \"历史题\",\n      \"政治漫画\",\n      \"马歇尔计划\",\n      \"手机截图\",\n      \"短视频界面\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端短视频应用界面覆盖在纸质试卷照片上\",\n    \"subjects\": [\n      \"历史选择题\",\n      \"黑白线条漫画\",\n      \"骑车人物\",\n      \"推车人物\",\n      \"APP导航栏\",\n      \"互动图标\"\n    ],\n    \"actions\": [\n      \"骑行\",\n      \"助推\",\n      \"拍摄\",\n      \"浏览\"\n    ],\n    \"attributes\": [\n      \"黑白印刷\",\n      \"红色手写批注\",\n      \"竖屏构图\",\n      \"图文混排\"\n    ],\n    \"relations\": [\n      \"漫画位于题干下方\",\n      \"选项排列在漫画下方\",\n      \"APP界面元素悬浮于图片之上\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图片顶部可见手机状态栏显示时间12:04及电量98%，底部有首页、朋友、消息等导航标签。\",\n      \"试卷题目编号为2，题干提及“1949年美国报纸”、“漫画”、“他终于上道了”。\",\n      \"漫画中一人物身上写有“欧洲”，另一人物身上写有“美国纳税人”，车轮处标有“自立”。\",\n      \"题目右侧有红色笔迹手写的字母“C”及一个对勾符号。\",\n      \"四个选项分别为：A.罗斯福新政，B.“铁幕”演说，C.马歇尔计划，D.欧洲共同体。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据漫画内容（美国纳税人帮助欧洲自立）及选项设置，该题考察的知识点极可能是马歇尔计划。\",\n      \"红色笔迹表明该题目已被批改或作答，且答案被判定为正确。\",\n      \"底部的文案标签如#kpl #成都AG超玩会暗示该截图可能来自某个游戏或娱乐相关的视频流，但内容与题目本身无关。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定拍摄该试卷的具体用户身份。\",\n      \"无法确认视频发布者的具体意图，仅能从标签推测与游戏直播或社群有关。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"2. 下图是 1949 年美国报纸中的一幅漫画，题为《他终于上道了》。图中①处应填写\",\n      \"加油！\",\n      \"欧洲\",\n      \"美国纳税人\",\n      \"自立\",\n      \"A. 罗斯福新政\",\n      \"B. “铁幕”演说\",\n      \"C. 马歇尔计划\",\n      \"D. 欧洲共同体\",\n      \"@花迎春时雨\",\n      \"发朋友圈可能没人懂 但发抖音一定有人懂\",\n      \"#kpl #成都 AG 超玩会 #轩九\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张包含历史选择题的手机屏幕截图。画面主体是一道印有政治漫画的试题，漫画展示了人物互动的场景，周围环绕着中文题目文本和选项。界面边缘可见社交媒体应用的典型操作图标和文字标签。\",\n    \"safe_facts\": [\n      \"图像为竖屏手机截图，包含应用界面UI元素。\",\n      \"中心内容是一张拍摄的纸质试卷，包含图文题目。\",\n      \"可见清晰的中文印刷体文字和手写红色标记。\",\n      \"漫画风格为黑白线条画。\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 946,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 946,
+        "total_tokens": 4173,
+        "estimated_cost_cny": 0.014022,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "历史试题与政治漫画",
+          "short_description": "这是一张手机截图，显示了一道关于1949年美国报纸漫画的历史选择题。漫画描绘了标有“欧洲”的人物在标有“美国纳税人”的人帮助下骑车前行，题目询问图中①处应填写的内容，选项包含马歇尔计划等。",
+          "micro_tags": [
+            "历史题",
+            "政治漫画",
+            "马歇尔计划",
+            "手机截图",
+            "短视频界面"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "移动端短视频应用界面覆盖在纸质试卷照片上",
+          "subjects": [
+            "历史选择题",
+            "黑白线条漫画",
+            "骑车人物",
+            "推车人物",
+            "APP导航栏",
+            "互动图标"
+          ],
+          "actions": [
+            "骑行",
+            "助推",
+            "拍摄",
+            "浏览"
+          ],
+          "attributes": [
+            "黑白印刷",
+            "红色手写批注",
+            "竖屏构图",
+            "图文混排"
+          ],
+          "relations": [
+            "漫画位于题干下方",
+            "选项排列在漫画下方",
+            "APP界面元素悬浮于图片之上"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图片顶部可见手机状态栏显示时间12:04及电量98%，底部有首页、朋友、消息等导航标签。",
+            "试卷题目编号为2，题干提及“1949年美国报纸”、“漫画”、“他终于上道了”。",
+            "漫画中一人物身上写有“欧洲”，另一人物身上写有“美国纳税人”，车轮处标有“自立”。",
+            "题目右侧有红色笔迹手写的字母“C”及一个对勾符号。",
+            "四个选项分别为：A.罗斯福新政，B.“铁幕”演说，C.马歇尔计划，D.欧洲共同体。"
+          ],
+          "cautious_inferences": [
+            "根据漫画内容（美国纳税人帮助欧洲自立）及选项设置，该题考察的知识点极可能是马歇尔计划。",
+            "红色笔迹表明该题目已被批改或作答，且答案被判定为正确。",
+            "底部的文案标签如#kpl #成都AG超玩会暗示该截图可能来自某个游戏或娱乐相关的视频流，但内容与题目本身无关。"
+          ],
+          "uncertainties": [
+            "无法确定拍摄该试卷的具体用户身份。",
+            "无法确认视频发布者的具体意图，仅能从标签推测与游戏直播或社群有关。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "2. 下图是 1949 年美国报纸中的一幅漫画，题为《他终于上道了》。图中①处应填写",
+            "加油！",
+            "欧洲",
+            "美国纳税人",
+            "自立",
+            "A. 罗斯福新政",
+            "B. “铁幕”演说",
+            "C. 马歇尔计划",
+            "D. 欧洲共同体",
+            "@花迎春时雨",
+            "发朋友圈可能没人懂 但发抖音一定有人懂",
+            "#kpl #成都 AG 超玩会 #轩九"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张包含历史选择题的手机屏幕截图。画面主体是一道印有政治漫画的试题，漫画展示了人物互动的场景，周围环绕着中文题目文本和选项。界面边缘可见社交媒体应用的典型操作图标和文字标签。",
+          "safe_facts": [
+            "图像为竖屏手机截图，包含应用界面UI元素。",
+            "中心内容是一张拍摄的纸质试卷，包含图文题目。",
+            "可见清晰的中文印刷体文字和手写红色标记。",
+            "漫画风格为黑白线条画。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 4901936,
+        "request_bytes": 3673380,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 18.06675840000389,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "52364b0d566defc2856c1069564f9d1102cca72b930c38c52152910589079c9a"
+}

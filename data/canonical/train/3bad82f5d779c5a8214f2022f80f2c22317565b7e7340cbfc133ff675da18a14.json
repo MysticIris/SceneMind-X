@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1268.jpg",
+    "relative_path": "train/1268.jpg",
+    "sha256": "3bad82f5d779c5a8214f2022f80f2c22317565b7e7340cbfc133ff675da18a14",
+    "split": "train"
+  },
+  "canonical_sha256": "023fc8b2cea0804d97ef1971a8cdf9eaa52597a40991bb10a89cf63527812265",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电视播放",
+      "餐桌食物",
+      "居家场景"
+    ],
+    "short_description": "客厅电视播放森林画面，桌上摆着两碗热菜、一瓶酒和杯子，营造休闲用餐氛围。",
+    "theme": "居家观影用餐"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "电视屏幕上显示蓝色调的森林场景。",
+      "桌上有两个装满菜肴的白色碗。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "电视屏幕显示森林画面",
+      "食物盛放在白色碗中",
+      "桌面有塑料包装"
+    ],
+    "relations": [
+      "电视放置在电视柜上。",
+      "食物摆放在桌面上。"
+    ],
+    "scene": "室内客厅环境",
+    "subjects": [
+      "电视机",
+      "餐桌",
+      "食物",
+      "饮料瓶",
+      "杯子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "电视屏幕上显示蓝色调的森林场景；桌上有两个装满菜肴的白色碗。",
+    "safe_facts": [
+      "电视屏幕上显示蓝色调的森林场景。",
+      "桌上有两个装满菜肴的白色碗。"
+    ]
+  },
+  "label_id": "cpl_bdd55591be8a0852eff6d907",
+  "provenance": {
+    "generated_at": "2026-08-03T14:00:33.184368+00:00",
+    "migrated_at": "2026-08-03T14:00:33.187651+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7e83d876288a676c740dc0c872ff8db4918f29fc152f17176bbc24c6d19d8d84",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5fd55e177cda75e34bdac01e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:00:33.187987+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5fd55e177cda75e34bdac01e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

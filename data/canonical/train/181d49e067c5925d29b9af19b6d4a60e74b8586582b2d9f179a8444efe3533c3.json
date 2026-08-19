@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:552.jpg",
+    "relative_path": "train/552.jpg",
+    "sha256": "181d49e067c5925d29b9af19b6d4a60e74b8586582b2d9f179a8444efe3533c3",
+    "split": "train"
+  },
+  "canonical_sha256": "67dc35da368af796c6486a1e9cf6a4316fb91702167b6ae89a8ad2727d89ae2e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石雕",
+      "头像",
+      "户外雕塑",
+      "夜间照明"
+    ],
+    "short_description": "户外夜景中一座大型石质男性头像雕塑，手托下巴，背景有树木和白色廊架。",
+    "theme": "石雕头像纪念雕塑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "雕塑由灰色石材制成，呈现男性面部特征。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "石质",
+      "手托下巴",
+      "卷发",
+      "胡须",
+      "夜间照明"
+    ],
+    "relations": [
+      "雕塑位于铺装地面。",
+      "背景有树木和白色廊架。"
+    ],
+    "scene": "户外广场或公园",
+    "subjects": [
+      "石雕头像"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "雕塑由灰色石材制成，呈现男性面部特征。",
+    "safe_facts": [
+      "雕塑由灰色石材制成，呈现男性面部特征。"
+    ]
+  },
+  "label_id": "cpl_0578b73ac0ccfcf2ca1bfd18",
+  "provenance": {
+    "generated_at": "2026-08-03T11:31:27.765818+00:00",
+    "migrated_at": "2026-08-03T11:31:27.767963+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d7a5559abf4651c91ffa3f18345d9853739e294a1808b687ddc149d726e40c31",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1381e74628e10d10d4cc3551",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:31:27.768339+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_unsafe_text_candidates_for_presence",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1381e74628e10d10d4cc3551"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "韵苑落成记",
+      "东湖之滨,马鞍山麓,公馆明珠、宅日朝英。黄墙绿瓦,红花碧树,普山丽水,精舍香榭,"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_unreadable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "韵苑落成记",
+      "东湖之滨,马鞍山麓,公馆明珠、宅日朝英。黄墙绿瓦,红花碧树,普山丽水,精舍香榭,"
+    ]
+  }
+}

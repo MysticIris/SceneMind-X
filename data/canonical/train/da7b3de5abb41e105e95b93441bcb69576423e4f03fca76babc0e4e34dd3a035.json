@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:643.jpg",
+    "relative_path": "train/643.jpg",
+    "sha256": "da7b3de5abb41e105e95b93441bcb69576423e4f03fca76babc0e4e34dd3a035",
+    "split": "train"
+  },
+  "canonical_sha256": "574d9fe8da5ede7f298f91462fef0b0c32086d66838dba39b1929b34ce4a4380",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "停车场",
+      "黑色轿车",
+      "城市街道"
+    ],
+    "short_description": "酒店门前的停车场，有多辆车停放。",
+    "theme": "酒店门前停车场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面有白色停车线，黑色轿车停在其中。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "酒店招牌有中英文",
+      "地面划有停车位标线",
+      "车辆停放在车位内"
+    ],
+    "relations": [
+      "黑色轿车停在酒店门前。",
+      "白色轿车和银色轿车停在旁边。"
+    ],
+    "scene": "城市街道旁的酒店入口区域",
+    "subjects": [
+      "黑色轿车",
+      "白色轿车",
+      "银色轿车",
+      "电动车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面有白色停车线，黑色轿车停在其中。",
+    "safe_facts": [
+      "地面有白色停车线，黑色轿车停在其中。"
+    ]
+  },
+  "label_id": "cpl_74b85bd0052cefb464a76cc7",
+  "provenance": {
+    "generated_at": "2026-08-03T11:50:39.210637+00:00",
+    "migrated_at": "2026-08-03T11:50:39.214554+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "de42b937c183a03398b3fbb07b426237beafc0b5ab1ff20e400cd41129ab90a1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e5e95288b7dd53d08bda284a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:50:39.215373+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e5e95288b7dd53d08bda284a"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "LA VAND E 露枫酒店",
+      "公寓出租",
+      "天域网",
+      "请从酒店大堂电梯"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "LA VAND E 露枫酒店",
+      "公寓出租",
+      "天域网",
+      "请从酒店大堂电梯"
+    ]
+  }
+}

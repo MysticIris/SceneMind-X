@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1560.jpg",
+    "relative_path": "train/1560.jpg",
+    "sha256": "6d4814286d8835da2b3c9f7a016647ab18bebd2abe7d4096286128df977e051f",
+    "split": "train"
+  },
+  "canonical_sha256": "f7ec0a19a54ad079d5c287b9ade0fd0f7c619d1718d77da2ad0e0e374b4f5a7d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "街道停车",
+      "树叶反光"
+    ],
+    "short_description": "夜晚城市街道，路边停着车辆，树木与商铺灯光交相辉映，地面湿润反光。",
+    "theme": "城市夜景街拍"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现夜间城市街道环境。",
+      "路面有水渍反光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "湿润路面",
+      "发光招牌",
+      "绿色植物"
+    ],
+    "relations": [
+      "汽车停在路边。",
+      "树木位于道路两侧。",
+      "商铺招牌在建筑物上。"
+    ],
+    "scene": "城市街道夜景",
+    "subjects": [
+      "汽车",
+      "树木",
+      "商铺招牌",
+      "路面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现夜间城市街道环境；路面有水渍反光。",
+    "safe_facts": [
+      "画面呈现夜间城市街道环境。",
+      "路面有水渍反光。"
+    ]
+  },
+  "label_id": "cpl_fd47769a53325c4eb9727ef2",
+  "provenance": {
+    "generated_at": "2026-08-02T22:02:26.319210+00:00",
+    "migrated_at": "2026-08-03T07:13:41.294932+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "97f39e8516d9cee1b14f1e720169d68ee9597e1d79a7d064c044466e58ec3367",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_92915d665de8d567602ef4f8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:38:01.149069+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_92915d665de8d567602ef4f8",
+    "cpl_cba8a7f0cb5dd8a780083cef"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

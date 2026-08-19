@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:231.jpg",
+    "relative_path": "train/231.jpg",
+    "sha256": "22980548b88df95c693576d7ea9c434fa6c2321f30dcfb68892b8fa04db619f4",
+    "split": "train"
+  },
+  "canonical_sha256": "3aa57dc79785c4532ea4c22abd7e3f074ea1f02b5db644bba6f1567b0640f4c6",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "白色轿车",
+      "展厅",
+      "人群围观",
+      "恐龙骨架"
+    ],
+    "short_description": "一辆白色轿车停放在玻璃幕墙展厅中央，周围人群围观，背景有恐龙骨架装饰。",
+    "theme": "展厅内白色轿车"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "车辆为白色，具有流线型设计。",
+      "背景有大型恐龙骨架装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "人群围观",
+      "有人俯身查看车门"
+    ],
+    "attributes": [
+      "白色车身",
+      "玻璃幕墙背景",
+      "室内环境"
+    ],
+    "relations": [
+      "人群围绕轿车。",
+      "恐龙骨架位于背景。"
+    ],
+    "scene": "室内展厅",
+    "subjects": [
+      "白色轿车",
+      "人群",
+      "恐龙骨架"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "车辆为白色，具有流线型设计；背景有大型恐龙骨架装饰。",
+    "safe_facts": [
+      "车辆为白色，具有流线型设计。",
+      "背景有大型恐龙骨架装饰。"
+    ]
+  },
+  "label_id": "cpl_5e4e887dc8535cbab26ff195",
+  "provenance": {
+    "generated_at": "2026-08-03T10:21:10.503933+00:00",
+    "migrated_at": "2026-08-03T10:21:10.505710+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6e3954956b9f5b9a5afb2f494a0c1a0738ba17573de73d06e931a7ff80904d31",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2e934a3ec25000666e834083",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:21:10.506028+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2e934a3ec25000666e834083"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

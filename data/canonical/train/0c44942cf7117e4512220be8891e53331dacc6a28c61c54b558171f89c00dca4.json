@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1598.jpg",
+    "relative_path": "train/1598.jpg",
+    "sha256": "0c44942cf7117e4512220be8891e53331dacc6a28c61c54b558171f89c00dca4",
+    "split": "train"
+  },
+  "canonical_sha256": "69cc895fee514fad07fd4c820a4aaa7204a4f4e271766fdfdd3ebda292954b84",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "橘猫",
+      "惊讶表情",
+      "卷耳",
+      "木框"
+    ],
+    "short_description": "一只橘色卷耳猫从木制缝隙中探头，张嘴露出惊讶表情，画面下方有白色汉字“”。",
+    "theme": "惊讶橘猫"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "猫的毛发呈橘黄色，带有深色条纹。",
+      "猫的眼睛睁大，嘴巴张开，露出口腔内部。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "橘色毛发",
+      "大眼睛",
+      "张开嘴巴",
+      "卷耳"
+    ],
+    "relations": [
+      "猫位于木制结构缝隙内。"
+    ],
+    "scene": "室内木制结构缝隙",
+    "subjects": [
+      "一只橘色卷耳猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "猫的毛发呈橘黄色，带有深色条纹；猫的眼睛睁大，嘴巴张开，露出口腔内部。",
+    "safe_facts": [
+      "猫的毛发呈橘黄色，带有深色条纹。",
+      "猫的眼睛睁大，嘴巴张开，露出口腔内部。"
+    ]
+  },
+  "label_id": "cpl_a791b2321280639a83551071",
+  "provenance": {
+    "generated_at": "2026-08-02T22:04:18.472068+00:00",
+    "migrated_at": "2026-08-03T07:13:41.365917+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "83f44d5691c2f7e04939488d726b3154af44975188fab4b54913dcc0ff311e38",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_86f357980c2b6b82676fa723",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:42:21.575282+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "codex_visual_minor",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "文字候选脱敏后 display 留有空引号，核心语义与 fallback 均安全。"
+      ],
+      "status": "minor"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_86f357980c2b6b82676fa723",
+    "cpl_a15f7c76073b6e5135720462"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "啊"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "啊"
+    ]
+  }
+}

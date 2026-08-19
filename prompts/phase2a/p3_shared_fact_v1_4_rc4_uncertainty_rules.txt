@@ -1,0 +1,1 @@
+看不清时使用 null、空数组、uncertain、low 或 unreadable，并在 text_uncertainty 或 uncertainties 中说明原因。允许少报不可靠细节，不补全模糊文字，不把候选推断写成确定事实。

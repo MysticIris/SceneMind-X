@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1383.jpg",
+    "relative_path": "train/1383.jpg",
+    "sha256": "e6c5b483bcdbe0facb77cc2d1b85e68b6d479e2f33bddfc0371f605e5141da8c",
+    "split": "train"
+  },
+  "canonical_sha256": "a885bbd254cd72f63c0fd44929b999c921a89a3f4035991ce9cade8c77c2b7d2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "道路",
+      "交通标志",
+      "摩托车",
+      "树木"
+    ],
+    "short_description": "阴天下的城市道路旁，设有和的交通标志，路边停放着多辆摩托车。",
+    "theme": "城市道路旁禁停标志"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "路边停放着数辆摩托车。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阴天",
+      "蓝色标志牌",
+      "白色标线",
+      "灰色路面"
+    ],
+    "relations": [
+      "标志牌位于道路旁人行道上。",
+      "摩托车停放在人行道边。"
+    ],
+    "scene": "城市道路旁",
+    "subjects": [
+      "交通标志",
+      "摩托车",
+      "树木",
+      "道路"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "路边停放着数辆摩托车。",
+    "safe_facts": [
+      "路边停放着数辆摩托车。"
+    ]
+  },
+  "label_id": "cpl_bde9afaf22bdb6263636f84f",
+  "provenance": {
+    "generated_at": "2026-08-03T14:17:17.395937+00:00",
+    "migrated_at": "2026-08-03T14:17:17.399865+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1a0ec6915ac64efc7149c53511e79b3510fe02235620d6b4bef67da33437e1a2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_036dc256194f941310f785a6",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:17:17.400444+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:direct_observations"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_036dc256194f941310f785a6"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "禁止停车",
+      "减速慢行"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "禁止停车",
+      "减速慢行"
+    ]
+  }
+}

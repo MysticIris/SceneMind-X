@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1155.jpg",
+    "relative_path": "train/1155.jpg",
+    "sha256": "eeafc1c846697980fcd41b50595e2ae408e79693968af0ec074ad3d738149a97",
+    "split": "train"
+  },
+  "canonical_sha256": "ee88b542fb1d370802be76f5b54eea53339e1e43f891ee0103fe869b4e529088",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "木质餐具",
+      "玻璃展柜",
+      "古董器物"
+    ],
+    "short_description": "玻璃展柜内陈列着一套深色木质餐具，包括碗、盘和金属夹具，整体呈传统中式风格。",
+    "theme": "古董餐具陈列"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "展柜内有多个深色木质圆盘和一个带盖的木质碗。",
+      "展柜内有两件金属长条状夹具。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深色木质",
+      "金属材质",
+      "玻璃展柜"
+    ],
+    "relations": [
+      "餐具放置于展柜内。"
+    ],
+    "scene": "室内陈列柜",
+    "subjects": [
+      "木质碗",
+      "木质盘",
+      "金属夹具"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "展柜内有多个深色木质圆盘和一个带盖的木质碗；展柜内有两件金属长条状夹具。",
+    "safe_facts": [
+      "展柜内有多个深色木质圆盘和一个带盖的木质碗。",
+      "展柜内有两件金属长条状夹具。"
+    ]
+  },
+  "label_id": "cpl_505804eb62a2bda3e22c0846",
+  "provenance": {
+    "generated_at": "2026-08-03T13:46:46.592987+00:00",
+    "migrated_at": "2026-08-03T13:46:46.595512+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "aaecd3a71752a633347217af98ea741242d5c1e60420f60c2d1449f4c57c1d08",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d8af2ac293aeb5283a0b497a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:46:46.595848+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d8af2ac293aeb5283a0b497a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

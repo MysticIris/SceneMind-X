@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1415.jpg",
+    "relative_path": "train/1415.jpg",
+    "sha256": "f20e43dbae1e29b55bc65576fd4975ea1ba131b5c3ecbd02f36ebd46cb603235",
+    "split": "train"
+  },
+  "canonical_sha256": "c0912c39fca3b62b31c82f4186f5f74a1cad6e0e75f0fcd9a39b172ff40e747e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "大熊猫",
+      "黑白毛发",
+      "草地背景"
+    ],
+    "short_description": "一只黑白相间的大熊猫坐在草地上，圆脸黑眼圈，毛茸茸的身躯，背景是模糊的绿色草地。",
+    "theme": "熊猫特写"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像主体是一只大熊猫，具有标志性的黑白毛色和黑眼圈。",
+      "熊猫位于绿色草地上，背景呈模糊状态。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑白毛色",
+      "圆脸",
+      "黑眼圈",
+      "毛茸茸"
+    ],
+    "relations": [],
+    "scene": "草地",
+    "subjects": [
+      "大熊猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像主体是一只大熊猫，具有标志性的黑白毛色和黑眼圈；熊猫位于绿色草地上，背景呈模糊状态。",
+    "safe_facts": [
+      "图像主体是一只大熊猫，具有标志性的黑白毛色和黑眼圈。",
+      "熊猫位于绿色草地上，背景呈模糊状态。"
+    ]
+  },
+  "label_id": "cpl_0765361666733e7be9041b59",
+  "provenance": {
+    "generated_at": "2026-08-02T22:34:20.400055+00:00",
+    "migrated_at": "2026-08-03T07:13:41.998978+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ec37f4e102152b41179e517d4eea0644d12384b2927d37fe56f49e2348f9bf65",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_efe73d99a115c259071b51cb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:21:25.933948+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_efe73d99a115c259071b51cb",
+    "cpl_fdcabb2ae9f8cac59c475205"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

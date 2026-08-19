@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:261.jpg",
+    "relative_path": "train/261.jpg",
+    "sha256": "01cd993a1d0b091f0abc102eb9412476df1fccf37004b91d855fe976ef30990d",
+    "split": "train"
+  },
+  "canonical_sha256": "3a4f51b00b956be0a4c9c46f3a946c5306e45751538f87d9d8570af46a99d80a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红色围巾",
+      "手持文件夹"
+    ],
+    "short_description": "地面铺有红色带花纹地毯。",
+    "theme": "现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面铺有红色带花纹地毯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "手持文件夹"
+    ],
+    "attributes": [
+      "红色地毯",
+      "木质墙面",
+      "悬挂吊灯"
+    ],
+    "relations": [
+      "多人聚集于活动厅中央。",
+      "部分人手持红色文件夹。"
+    ],
+    "scene": "室内活动厅",
+    "subjects": [
+      "多人",
+      "穿红色围巾者",
+      "持红色文件夹者"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面铺有红色带花纹地毯。",
+    "safe_facts": [
+      "地面铺有红色带花纹地毯。"
+    ]
+  },
+  "label_id": "cpl_8221c31fa5a9991262266526",
+  "provenance": {
+    "generated_at": "2026-08-03T10:27:10.421752+00:00",
+    "migrated_at": "2026-08-03T10:27:10.423420+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3f056af73af06304f8173c954b1e7173ecb98191b0d26ad9834ad00a9575a53e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_08f647480026794374eb4455",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:27:10.423814+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_08f647480026794374eb4455"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "2024",
+      "人工智能与自动化学院",
+      "春节联欢会"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "2024",
+      "人工智能与自动化学院",
+      "春节联欢会"
+    ]
+  }
+}

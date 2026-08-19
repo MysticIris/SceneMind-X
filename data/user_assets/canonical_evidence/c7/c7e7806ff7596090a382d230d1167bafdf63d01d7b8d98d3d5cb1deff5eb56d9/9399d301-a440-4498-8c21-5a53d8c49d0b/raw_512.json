@@ -1,0 +1,123 @@
+{
+  "asset_id": "c7e7806ff7596090",
+  "asset_sha256": "c7e7806ff7596090a382d230d1167bafdf63d01d7b8d98d3d5cb1deff5eb56d9",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"雅思成绩单截图\",\n    \"short_description\": \"一张手机应用界面的截图，展示了IDP雅思考试的成绩单详情。界面列出了口语、听力、阅读、写作及总分的具体数值，其中阅读为9.0分，口语为1.5分，底部配有用户吐槽口语分数的文案。\",\n    \"micro_tags\": [\n      \"雅思成绩\",\n      \"IDP\",\n      \"截图\",\n      \"分数展示\",\n      \"社交媒体\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端应用程序界面\",\n    \"subjects\": [\n      \"考试成绩列表\",\n      \"顶部导航栏\",\n      \"底部用户评论区域\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白色背景卡片\",\n      \"红色数字字体\",\n      \"黑色文本标签\",\n      \"分享图标\"\n    ],\n    \"relations\": [\n      \"各项成绩垂直排列\",\n      \"总分位于列表最下方\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕顶部显示时间为01:58，信号栏显示5G网络及80%电量。\",\n      \"页面主体包含五个白色卡片，分别标记为Speaking (1.5), Listening (8.5), Reading (9.0), Writing (7.5), Overall (6.5)。\",\n      \"底部可见用户ID“@七元购.”及文案“雅思 你有完没完?! 口语老师 我是不是哪得罪你了?!”。\"\n    ],\n    \"cautious_inferences\": [\n      \"该图片可能来自短视频或社交分享平台，因为右侧有典型的点赞、评论和转发悬浮按钮。\",\n      \"用户发布此图可能是为了表达对口语分数极低（1.5）而其他科目分数较高的惊讶或不满。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"idp IELTS\",\n      \"you receive your official Test Report Form (TRF).\",\n      \"Speaking 1.5\",\n      \"Listening 8.5\",\n      \"Reading 9.0\",\n      \"Writing 7.5\",\n      \"Overall 6.5\",\n      \"@七元购.\",\n      \"雅思 你有完没完?!\",\n      \"口语老师 我是不是哪得罪你了?!\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张展示多项数值评分的移动应用界面截图，包含列表形式的条目和底部的社交互动元素。\",\n    \"safe_facts\": [\n      \"界面采用垂直列表布局展示数据项\",\n      \"关键数值使用醒目的红色字体显示\",\n      \"右侧边缘存在社交互动的悬浮图标列\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 681,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 681,
+        "total_tokens": 3908,
+        "estimated_cost_cny": 0.011902,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "雅思成绩单截图",
+          "short_description": "一张手机应用界面的截图，展示了IDP雅思考试的成绩单详情。界面列出了口语、听力、阅读、写作及总分的具体数值，其中阅读为9.0分，口语为1.5分，底部配有用户吐槽口语分数的文案。",
+          "micro_tags": [
+            "雅思成绩",
+            "IDP",
+            "截图",
+            "分数展示",
+            "社交媒体"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "移动端应用程序界面",
+          "subjects": [
+            "考试成绩列表",
+            "顶部导航栏",
+            "底部用户评论区域"
+          ],
+          "actions": [],
+          "attributes": [
+            "白色背景卡片",
+            "红色数字字体",
+            "黑色文本标签",
+            "分享图标"
+          ],
+          "relations": [
+            "各项成绩垂直排列",
+            "总分位于列表最下方"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "屏幕顶部显示时间为01:58，信号栏显示5G网络及80%电量。",
+            "页面主体包含五个白色卡片，分别标记为Speaking (1.5), Listening (8.5), Reading (9.0), Writing (7.5), Overall (6.5)。",
+            "底部可见用户ID“@七元购.”及文案“雅思 你有完没完?! 口语老师 我是不是哪得罪你了?!”。"
+          ],
+          "cautious_inferences": [
+            "该图片可能来自短视频或社交分享平台，因为右侧有典型的点赞、评论和转发悬浮按钮。",
+            "用户发布此图可能是为了表达对口语分数极低（1.5）而其他科目分数较高的惊讶或不满。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "idp IELTS",
+            "you receive your official Test Report Form (TRF).",
+            "Speaking 1.5",
+            "Listening 8.5",
+            "Reading 9.0",
+            "Writing 7.5",
+            "Overall 6.5",
+            "@七元购.",
+            "雅思 你有完没完?!",
+            "口语老师 我是不是哪得罪你了?!"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张展示多项数值评分的移动应用界面截图，包含列表形式的条目和底部的社交互动元素。",
+          "safe_facts": [
+            "界面采用垂直列表布局展示数据项",
+            "关键数值使用醒目的红色字体显示",
+            "右侧边缘存在社交互动的悬浮图标列"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 1676152,
+        "request_bytes": 1254040,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.469172999997681,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "c5bf2b838b4d683a26d54ba203bdb29e9647e94ce53093afff412d6db37c5fc5"
+}

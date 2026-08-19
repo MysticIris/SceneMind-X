@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:303.jpg",
+    "relative_path": "train/303.jpg",
+    "sha256": "ff7c92acf0f77ef8181fd61d4395d4d9f55390b673732f2b1ae16a348c02ab61",
+    "split": "train"
+  },
+  "canonical_sha256": "a76c279ad8a95010f27652e503baa46531d51bc840ae73aca29b98ad6b1a4ad8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "金质刀鞘",
+      "雕花装饰",
+      "博物馆展品"
+    ],
+    "short_description": "一件金色雕花刀鞘，配有金属链，陈列于玻璃展柜中。",
+    "theme": "金质刀鞘"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "物体呈金色，表面有浮雕图案。",
+      "物体通过金属链条悬挂于展柜内。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金色",
+      "雕刻花纹",
+      "带金属链"
+    ],
+    "relations": [
+      "刀鞘悬挂在展柜内。"
+    ],
+    "scene": "博物馆展柜内",
+    "subjects": [
+      "金质刀鞘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "物体呈金色，表面有浮雕图案；物体通过金属链条悬挂于展柜内。",
+    "safe_facts": [
+      "物体呈金色，表面有浮雕图案。",
+      "物体通过金属链条悬挂于展柜内。"
+    ]
+  },
+  "label_id": "cpl_a5042bf0aac7e7ef62d47fe4",
+  "provenance": {
+    "generated_at": "2026-08-03T10:35:37.401364+00:00",
+    "migrated_at": "2026-08-03T10:35:37.403737+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "840859240ccf8331ce0c9a278745b2bf2068964a6e100066414270f3f32c3e38",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fc7020677a671dae46387943",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:35:37.404232+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fc7020677a671dae46387943"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "鸾凤纹带鞘金质刀 过"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "鸾凤纹带鞘金质刀 过"
+    ]
+  }
+}

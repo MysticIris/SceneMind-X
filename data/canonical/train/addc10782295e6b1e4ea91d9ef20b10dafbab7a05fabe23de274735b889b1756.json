@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:900.jpg",
+    "relative_path": "train/900.jpg",
+    "sha256": "addc10782295e6b1e4ea91d9ef20b10dafbab7a05fabe23de274735b889b1756",
+    "split": "train"
+  },
+  "canonical_sha256": "9aa5ff4d8671c45fee5ad89819ec71fddbd4f8e29bd6f7c7bc77be7cac50439a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "梯田",
+      "农田",
+      "乡村",
+      "山景"
+    ],
+    "short_description": "山脚下梯田层层叠叠，绿植错落分布，远处村落与山脉相映成趣，呈现宁静田园风光。",
+    "theme": "山间梯田农耕景观"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "梯田可能用于种植经济作物或蔬菜。"
+    ],
+    "direct_observations": [
+      "画面中可见呈环形或阶梯状排列的种植区。",
+      "远处有数栋低矮建筑，周围有树木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色植被",
+      "土黄色田埂",
+      "远山轮廓",
+      "多栋民居"
+    ],
+    "relations": [
+      "梯田位于山坡上。",
+      "房屋分布在田地边缘。",
+      "树木环绕田地。"
+    ],
+    "scene": "山脚下的农田与村落",
+    "subjects": [
+      "梯田",
+      "农作物",
+      "房屋",
+      "树木",
+      "山脉"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "梯田可能用于种植经济作物或蔬菜。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见呈环形或阶梯状排列的种植区；远处有数栋低矮建筑，周围有树木。",
+    "safe_facts": [
+      "画面中可见呈环形或阶梯状排列的种植区。",
+      "远处有数栋低矮建筑，周围有树木。"
+    ]
+  },
+  "label_id": "cpl_36ad436bb9738121f1a285e3",
+  "provenance": {
+    "generated_at": "2026-08-03T12:46:56.103863+00:00",
+    "migrated_at": "2026-08-03T12:46:56.107003+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "86712a69d05fe38cbe500f1855934b89940a94cf19ecb4a2030974ed75ddbb25",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_25b9df8ff780bb0163df551d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:46:56.107370+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_25b9df8ff780bb0163df551d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

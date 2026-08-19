@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:597.jpg",
+    "relative_path": "train/597.jpg",
+    "sha256": "5fb5342f9bf6fc1282a40d0c4d153444c581c55571780e76880388f24829639c",
+    "split": "train"
+  },
+  "canonical_sha256": "2b748b068faef421beccdb5ef2643a06f4ce175450e1789134ba37436c544f5e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "紫色花田",
+      "自然风光",
+      "户外摄影"
+    ],
+    "short_description": "一片广阔的紫色花田在晴朗天空下延伸，远处有绿树和一棵孤树，前景有摄影灯。",
+    "theme": "紫色花海"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能拍摄于日落或日出时段，因光线柔和且天空颜色过渡明显。"
+    ],
+    "direct_observations": [
+      "画面中遍布大量紫色小花，密集分布于绿色茎叶之上。",
+      "背景为连绵绿色山丘，天空呈淡蓝色渐变。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "紫色",
+      "绿色",
+      "晴朗天空",
+      "广阔"
+    ],
+    "relations": [
+      "花朵生长在茎叶上。",
+      "花朵覆盖田野。",
+      "树木位于田野后方。",
+      "摄影灯位于前景。"
+    ],
+    "scene": "开阔田野",
+    "subjects": [
+      "紫色花朵",
+      "绿色茎叶",
+      "远处树木",
+      "孤树",
+      "摄影灯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能拍摄于日落或日出时段，因光线柔和且天空颜色过渡明显。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中遍布大量紫色小花，密集分布于绿色茎叶之上；背景为连绵绿色山丘，天空呈淡蓝色渐变。",
+    "safe_facts": [
+      "画面中遍布大量紫色小花，密集分布于绿色茎叶之上。",
+      "背景为连绵绿色山丘，天空呈淡蓝色渐变。"
+    ]
+  },
+  "label_id": "cpl_13ddbd86c8a9843fd81b4e61",
+  "provenance": {
+    "generated_at": "2026-08-03T11:41:23.984555+00:00",
+    "migrated_at": "2026-08-03T11:41:23.986516+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "16e40f361579d6cd0afa41d14d58f9aff371d0f7dc5bdfeaeb448939a7ada033",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_08d07ecba8c711810a1e6820",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:41:23.986762+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_08d07ecba8c711810a1e6820"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

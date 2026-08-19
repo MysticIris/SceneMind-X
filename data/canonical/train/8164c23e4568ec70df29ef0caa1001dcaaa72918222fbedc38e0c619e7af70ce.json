@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:703.jpg",
+    "relative_path": "train/703.jpg",
+    "sha256": "8164c23e4568ec70df29ef0caa1001dcaaa72918222fbedc38e0c619e7af70ce",
+    "split": "train"
+  },
+  "canonical_sha256": "b66f81e2db9903bec54a5c36a1ea780ffc5304d8fc4f3ff3441e6ef343f63047",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "阳台",
+      "空调",
+      "塑料布"
+    ],
+    "short_description": "阳台一角，装有空调、窗帘和被塑料布覆盖的电器，阳光透过窗户照入。",
+    "theme": "室内阳台角落"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天花板上安装有一台白色空调。",
+      "窗户旁悬挂着米色窗帘。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色空调",
+      "米色窗帘",
+      "塑料布覆盖",
+      "阳光照射"
+    ],
+    "relations": [
+      "空调安装在天花板上。",
+      "窗帘挂在窗户旁。",
+      "电器被塑料布包裹。"
+    ],
+    "scene": "室内阳台区域",
+    "subjects": [
+      "空调",
+      "窗帘",
+      "被塑料布覆盖的电器",
+      "窗户"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天花板上安装有一台白色空调；窗户旁悬挂着米色窗帘。",
+    "safe_facts": [
+      "天花板上安装有一台白色空调。",
+      "窗户旁悬挂着米色窗帘。"
+    ]
+  },
+  "label_id": "cpl_f68a1a7048682f8bea54fa5d",
+  "provenance": {
+    "generated_at": "2026-08-03T12:04:33.775296+00:00",
+    "migrated_at": "2026-08-03T12:04:33.777603+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8087b845a0c56dbb9b9504ccf707064d4efb5c7ea3a76b106a879064552eacd8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ec1e3b6b8e5c2445dafb65f5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:04:33.777923+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ec1e3b6b8e5c2445dafb65f5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:502.jpg",
+    "relative_path": "train/502.jpg",
+    "sha256": "dc64d183ebcad767489233776af2310f8a93b0bc0e87b53430a8d12720464884",
+    "split": "train"
+  },
+  "canonical_sha256": "9a7ad8937a947145b915caf19010838c47ff5262ba7d2b8400ac0317666fb4ed",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "龙舟",
+      "划船",
+      "河流",
+      "户外活动"
+    ],
+    "short_description": "一群人在河上划着装饰有龙首的长船，岸边有木质栏杆和观景人群，水边有植被。",
+    "theme": "龙舟竞渡"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一条长形龙舟在绿色水面上，船头有龙首造型。",
+      "多名穿着救生衣的人在船上划桨。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "划桨",
+      "乘坐船只"
+    ],
+    "attributes": [
+      "龙舟有龙首装饰",
+      "船身有红色菱形图案",
+      "水面有波纹"
+    ],
+    "relations": [
+      "划船者在船上。",
+      "观景人在岸边栏杆旁。"
+    ],
+    "scene": "河流",
+    "subjects": [
+      "多人划船队伍",
+      "龙舟",
+      "岸边观景人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一条长形龙舟在绿色水面上，船头有龙首造型；多名穿着救生衣的人在船上划桨。",
+    "safe_facts": [
+      "一条长形龙舟在绿色水面上，船头有龙首造型。",
+      "多名穿着救生衣的人在船上划桨。"
+    ]
+  },
+  "label_id": "cpl_4548e7d2636996f8f06224f1",
+  "provenance": {
+    "generated_at": "2026-08-03T11:16:59.275621+00:00",
+    "migrated_at": "2026-08-03T11:16:59.277818+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9563d1d6f45acfc853641eb8a70855c1f1f02386497e99c582bfac2e228e7db4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_253950b827d428020393d016",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:16:59.278174+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_253950b827d428020393d016"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

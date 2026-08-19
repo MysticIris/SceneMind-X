@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1166.jpg",
+    "relative_path": "train/1166.jpg",
+    "sha256": "dc5fb5683030f9f411238a922169b8ef4da0ab7dfd5b21ee7a363b8d0f1e5730",
+    "split": "train"
+  },
+  "canonical_sha256": "f62ed24905e9e5aa1795c0701ea0d503f91f9ab99c61cdcdf47018390688d8c5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "樱花",
+      "夜景",
+      "城市街道"
+    ],
+    "short_description": "夜色中樱花树繁花似锦，白色花瓣在灯光下晶莹剔透，背景是模糊的城市霓虹与绿植。",
+    "theme": "夜樱绽放"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面前景为盛开的白色樱花枝条。",
+      "背景呈现城市街道灯光与模糊建筑轮廓。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色花朵",
+      "夜间照明",
+      "模糊背景"
+    ],
+    "relations": [
+      "花朵生长于树枝上。",
+      "树枝位于灌木丛前方。"
+    ],
+    "scene": "城市街道夜景",
+    "subjects": [
+      "樱花树枝",
+      "花朵",
+      "灌木丛"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景为盛开的白色樱花枝条；背景呈现城市街道灯光与模糊建筑轮廓。",
+    "safe_facts": [
+      "画面前景为盛开的白色樱花枝条。",
+      "背景呈现城市街道灯光与模糊建筑轮廓。"
+    ]
+  },
+  "label_id": "cpl_60cc76a393af998b48b9358a",
+  "provenance": {
+    "generated_at": "2026-08-03T13:46:48.544339+00:00",
+    "migrated_at": "2026-08-03T13:46:48.548931+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fe30e0d39e4f74f9dae42dc012e1af5f5891dafceef5e1c2e8bf0b81d396192d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4863963bcc3d6066836324e8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:46:48.549264+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4863963bcc3d6066836324e8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:604.jpg",
+    "relative_path": "train/604.jpg",
+    "sha256": "299e9b3b37ce21b5e2fd568408c7af1583723e816055a73786e8595bca25de03",
+    "split": "train"
+  },
+  "canonical_sha256": "593c2f068385a5ff10d6b9907bd9cd9d0ed8c5b164fc0a435bfce12eb2805b0c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪地",
+      "住宅楼",
+      "小树",
+      "长椅"
+    ],
+    "short_description": "雪地中的现代住宅楼群，中央有一棵被支架支撑的小树，周围有长椅和路灯。",
+    "theme": "雪后住宅区"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面覆盖着一层白雪。",
+      "树木被三根木棍支撑并缠绕蓝色保护物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "覆盖积雪",
+      "棕色与白色外墙",
+      "木质支架",
+      "蓝色包裹物"
+    ],
+    "relations": [
+      "小树位于庭院中央。",
+      "长椅分布在庭院两侧。",
+      "高楼环绕庭院。"
+    ],
+    "scene": "住宅区庭院",
+    "subjects": [
+      "高楼",
+      "小树",
+      "长椅",
+      "路灯",
+      "消防栓"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面覆盖着一层白雪；树木被三根木棍支撑并缠绕蓝色保护物。",
+    "safe_facts": [
+      "地面覆盖着一层白雪。",
+      "树木被三根木棍支撑并缠绕蓝色保护物。"
+    ]
+  },
+  "label_id": "cpl_49653d308ee2f630b2b5f137",
+  "provenance": {
+    "generated_at": "2026-08-03T11:42:55.428482+00:00",
+    "migrated_at": "2026-08-03T11:42:55.429986+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "198d8e791074034c972ebbd5dc86136495d59efd94772527989c55ad20593b58",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0d1cbf7ab13f6a55fd869eb5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:42:55.430196+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0d1cbf7ab13f6a55fd869eb5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:606.jpg",
+    "relative_path": "train/606.jpg",
+    "sha256": "7825e71e09a99e9879ca1e643db1c6f718e7a1cc60bbdebef994d4dc4d893cc9",
+    "split": "train"
+  },
+  "canonical_sha256": "93d0cd08a2a64f7eb0b6f94eb9f3c737a98bc72f1d8e8f674bfaf9fd3805ab22",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "校门",
+      "花坛",
+      "国旗",
+      "校园"
+    ],
+    "short_description": "华中科技大学校门前广场，花坛色彩鲜艳，国旗飘扬，背景是教学楼与绿树。",
+    "theme": "大学校门景观"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "石碑前方是红黄相间的大型花坛。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝天白云",
+      "绿色树木",
+      "红色黄色花坛",
+      "灰色铺装地面"
+    ],
+    "relations": [
+      "校门石碑位于花坛后方。",
+      "国旗旗杆立于校门中央偏上位置。"
+    ],
+    "scene": "大学校园入口广场",
+    "subjects": [
+      "校门石碑",
+      "花坛",
+      "国旗旗杆",
+      "树木",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "石碑前方是红黄相间的大型花坛。",
+    "safe_facts": [
+      "石碑前方是红黄相间的大型花坛。"
+    ]
+  },
+  "label_id": "cpl_26173041c9fe8b3507085b1e",
+  "provenance": {
+    "generated_at": "2026-08-02T22:32:16.407637+00:00",
+    "migrated_at": "2026-08-03T07:13:41.896279+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "970b64449433e8c3d70ad65530723b4c1ef34fa9fbb24663457936a1be97406e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_48ab65b9dc3371829618a84d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:43:10.002220+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_48ab65b9dc3371829618a84d",
+    "cpl_687348ddecfdd3ecbf46225e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

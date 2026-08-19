@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:693.jpg",
+    "relative_path": "train/693.jpg",
+    "sha256": "553b1cadc6b938eab1f2e90bd0f8dd318b3ddf42d98ac984909d212596bb7845",
+    "split": "train"
+  },
+  "canonical_sha256": "449f39dd8ecde5302529915f03048f8d336c6acfa2ffc30b77e08e4ad93e5a4f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式餐食",
+      "炒饭",
+      "汤碗"
+    ],
+    "short_description": "木桌上摆放着一盘混合肉类菜肴、一碗炒饭和一碗汤，背景有折叠伞。",
+    "theme": "中式餐食"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一张浅色木纹桌子。",
+      "桌上放着一个白色盘子，内含多种肉类和蔬菜。",
+      "旁边有一个白色碗装着炒饭，碗里有勺子。",
+      "另一个白色碗装着黄色汤。",
+      "背景处有一个黑色折叠伞。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色瓷盘",
+      "白色瓷碗",
+      "浅色木纹桌面",
+      "红色酱料",
+      "绿色香菜",
+      "橙色胡萝卜丁"
+    ],
+    "relations": [
+      "盘子放在木桌上。",
+      "碗放在木桌上。",
+      "食物盛在盘子和碗里。"
+    ],
+    "scene": "室内餐桌",
+    "subjects": [
+      "盘子",
+      "碗",
+      "食物",
+      "木桌",
+      "折叠伞"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一张浅色木纹桌子；桌上放着一个白色盘子，内含多种肉类和蔬菜。",
+    "safe_facts": [
+      "画面中有一张浅色木纹桌子。",
+      "桌上放着一个白色盘子，内含多种肉类和蔬菜。",
+      "旁边有一个白色碗装着炒饭，碗里有勺子。"
+    ]
+  },
+  "label_id": "cpl_275c4cb673f77dac67b8663b",
+  "provenance": {
+    "generated_at": "2026-08-03T12:02:10.168948+00:00",
+    "migrated_at": "2026-08-03T12:02:10.171690+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "53fafcc0076a4930dea31d8f20b9ec80b00be623c44ec240d4a6cde79b7cc2e9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3edd5165384eaa0337e62578",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:02:10.173086+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3edd5165384eaa0337e62578"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

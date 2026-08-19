@@ -1,0 +1,136 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1965.jpg",
+    "relative_path": "train/1965.jpg",
+    "sha256": "941216e8d588e504dc08003ad331019b97ee59bfe21fb294e85696576c99b952",
+    "split": "train"
+  },
+  "canonical_sha256": "7a544c6e07b479bdc275c68c45d57309a883a4aba24c6232e61e69cc2263be55",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "演讲",
+      "会议",
+      "大屏幕"
+    ],
+    "short_description": "演讲者在讲台发言，大屏幕显示活动议程与发言人信息，摄影师在场记录。",
+    "theme": "会议发言现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一名男性站在讲台后方进行演讲。",
+      "一名摄影师手持摄像机对准舞台方向。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "演讲",
+      "拍摄"
+    ],
+    "attributes": [
+      "讲台",
+      "大屏幕",
+      "摄影设备"
+    ],
+    "relations": [
+      "演讲者站在讲台前。",
+      "摄影师在舞台前方拍摄。"
+    ],
+    "scene": "室内会议厅",
+    "subjects": [
+      "演讲者",
+      "摄影师",
+      "大屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名男性站在讲台后方进行演讲；一名摄影师手持摄像机对准舞台方向。",
+    "safe_facts": [
+      "一名男性站在讲台后方进行演讲。",
+      "一名摄影师手持摄像机对准舞台方向。"
+    ]
+  },
+  "label_id": "cpl_fac354ff54e0631f80ec26a9",
+  "provenance": {
+    "generated_at": "2026-08-03T15:27:35.923439+00:00",
+    "migrated_at": "2026-08-03T15:27:35.925713+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fb3047fff4f2935fbf2043642656ad45eb0180364aad1bd7086e0d14f4a49fa9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4fb0a3132d1f0a28459e2066",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:27:35.926349+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4fb0a3132d1f0a28459e2066"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "08",
+      "太湖创新基金",
+      "项目代表发言",
+      "白翔教授",
+      "华中科技大学未来技术学院"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "08",
+      "太湖创新基金",
+      "项目代表发言",
+      "白翔教授",
+      "华中科技大学未来技术学院"
+    ]
+  }
+}

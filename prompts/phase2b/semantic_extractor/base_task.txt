@@ -1,0 +1,13 @@
+已确定的 visual_medium：{visual_medium}
+
+请用简体中文提取九个顶层字段：depicted_content, scene_summary, subjects,
+activities, relationships, visible_text_candidates, observations,
+inference_candidates, uncertainties。
+
+字段值只能是 string、null 或 string[]；不得嵌套，不得生成 ID、引用、Caption、VQA、
+retrieval、self-check、verified、selected_text、文字可靠性或证据来源字段。
+visible_text_candidates 只是 VLM 未核验候选。小、模糊、装饰性文字可以不转写；
+不得让未经可靠辨认的文字变成真实地点、机构、身份或核心场景事实。
+
+精确字段骨架：
+{semantic_skeleton}

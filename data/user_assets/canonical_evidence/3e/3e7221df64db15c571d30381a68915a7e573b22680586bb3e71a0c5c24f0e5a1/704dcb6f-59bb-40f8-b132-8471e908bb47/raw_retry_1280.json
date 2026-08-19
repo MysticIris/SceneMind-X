@@ -1,0 +1,131 @@
+{
+  "asset_id": "3e7221df64db15c5",
+  "asset_sha256": "3e7221df64db15c571d30381a68915a7e573b22680586bb3e71a0c5c24f0e5a1",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"在线实习申请表单填写界面\",\n    \"short_description\": \"一张网页表单截图，标题为“基础信息收集”。界面包含学校专业、英语成绩、软件技能等输入框。部分字段已填写如“华中科技大学”，而通勤时长、绩点等必填项显示红色边框及“必填项未填写”的报错提示。\",\n    \"micro_tags\": [\n      \"在线表单\",\n      \"求职申请\",\n      \"信息录入\",\n      \"必填项报错\",\n      \"用户界面\",\n      \"实习生招聘\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"网页端信息收集表单页面\",\n    \"subjects\": [\n      \"表单输入框\",\n      \"下拉菜单\",\n      \"错误提示文本\",\n      \"标签文字\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白色背景\",\n      \"双列布局\",\n      \"红色警告色\",\n      \"灰色占位符文本\"\n    ],\n    \"relations\": [\n      \"错误提示位于对应的输入框下方\",\n      \"标签位于输入框上方\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"页面顶部有大号标题“基础信息收集”。\",\n      \"多个输入框周围有红色边框，下方伴有红色叉号图标和文字“必填项未填写”。\",\n      \"左上角第一个输入框内已填入黑色文字“华中科技大学 人工智能 大三”。\",\n      \"右侧第一行输入框内显示灰色提示文字“目前居住地点至延锋实习通勤方式时长”。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据红色边框和提示语推断，用户正在尝试提交表单但因缺少必要信息而被系统拦截。\",\n      \"根据“延锋”字样推断，这可能是针对特定企业（延锋）的实习或校园招聘申请流程。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"基础信息收集\",\n      \"学校+专业+年级\",\n      \"华中科技大学 人工智能 大三\",\n      \"目前居住地点至延锋实习通勤方式时长\",\n      \"必填项未填写\",\n      \"英语四六级是否通过以及分数\",\n      \"通过 六级539\",\n      \"英语口语水平\",\n      \"可作为工作语言\",\n      \"请罗列目前掌握的软件与熟练度\",\n      \"目前在校成绩绩点or排名情况\",\n      \"是否对延锋有过了解，并简单概况\",\n      \"实习生岗位需填写：最快开始实习日期\",\n      \"请用一句话介绍自己最大的优点以及不足\",\n      \"参加实习的目的\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张包含多个输入字段的网页表单截图，部分字段显示红色的未填写错误提示，个别字段已填入文本内容。\",\n    \"safe_facts\": [\n      \"图像展示了计算机屏幕上的表单界面\",\n      \"界面采用左右分栏的布局结构\",\n      \"存在明显的红色视觉反馈元素指示状态异常\"\n    ]\n  }\n}",
+      "input_tokens": 1610,
+      "output_tokens": 746,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 1610,
+        "output_tokens": 746,
+        "total_tokens": 2356,
+        "estimated_cost_cny": 0.009188,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "在线实习申请表单填写界面",
+          "short_description": "一张网页表单截图，标题为“基础信息收集”。界面包含学校专业、英语成绩、软件技能等输入框。部分字段已填写如“华中科技大学”，而通勤时长、绩点等必填项显示红色边框及“必填项未填写”的报错提示。",
+          "micro_tags": [
+            "在线表单",
+            "求职申请",
+            "信息录入",
+            "必填项报错",
+            "用户界面",
+            "实习生招聘"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "网页端信息收集表单页面",
+          "subjects": [
+            "表单输入框",
+            "下拉菜单",
+            "错误提示文本",
+            "标签文字"
+          ],
+          "actions": [],
+          "attributes": [
+            "白色背景",
+            "双列布局",
+            "红色警告色",
+            "灰色占位符文本"
+          ],
+          "relations": [
+            "错误提示位于对应的输入框下方",
+            "标签位于输入框上方"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "页面顶部有大号标题“基础信息收集”。",
+            "多个输入框周围有红色边框，下方伴有红色叉号图标和文字“必填项未填写”。",
+            "左上角第一个输入框内已填入黑色文字“华中科技大学 人工智能 大三”。",
+            "右侧第一行输入框内显示灰色提示文字“目前居住地点至延锋实习通勤方式时长”。"
+          ],
+          "cautious_inferences": [
+            "根据红色边框和提示语推断，用户正在尝试提交表单但因缺少必要信息而被系统拦截。",
+            "根据“延锋”字样推断，这可能是针对特定企业（延锋）的实习或校园招聘申请流程。"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "基础信息收集",
+            "学校+专业+年级",
+            "华中科技大学 人工智能 大三",
+            "目前居住地点至延锋实习通勤方式时长",
+            "必填项未填写",
+            "英语四六级是否通过以及分数",
+            "通过 六级539",
+            "英语口语水平",
+            "可作为工作语言",
+            "请罗列目前掌握的软件与熟练度",
+            "目前在校成绩绩点or排名情况",
+            "是否对延锋有过了解，并简单概况",
+            "实习生岗位需填写：最快开始实习日期",
+            "请用一句话介绍自己最大的优点以及不足",
+            "参加实习的目的"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张包含多个输入字段的网页表单截图，部分字段显示红色的未填写错误提示，个别字段已填入文本内容。",
+          "safe_facts": [
+            "图像展示了计算机屏幕上的表单界面",
+            "界面采用左右分栏的布局结构",
+            "存在明显的红色视觉反馈元素指示状态异常"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 186460,
+        "request_bytes": 136772,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.699909000002663,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "8f21fa7dd527c2de2142a684ba5ce6a21b95b61685b45aa712040f98355a487e"
+}

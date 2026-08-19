@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2088.jpg",
+    "relative_path": "val/2088.jpg",
+    "sha256": "8544e4d301de2b2db8b5fec705cd11974e56318b9cbe4b9cfa645bec6083eaa2",
+    "split": "val"
+  },
+  "canonical_sha256": "caa4f67cb044e6244ac1e75946a4e3c92903bb30f4a96bfcc0614e17d84bc5a2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雾天",
+      "城市道路",
+      "护栏",
+      "树木"
+    ],
+    "short_description": "雾天城市道路旁，白色护栏与树木成排，远处高楼轮廓模糊，路面湿润。",
+    "theme": "城市道路与建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天气可能为阴天或有雾。"
+    ],
+    "direct_observations": [
+      "路面有水渍，呈现湿润状态。",
+      "远处建筑群在雾中若隐若现。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "路面湿润",
+      "雾气弥漫",
+      "护栏为白色",
+      "树木有支撑架"
+    ],
+    "relations": [
+      "护栏沿道路边缘设置。",
+      "树木种植于护栏内侧。",
+      "路灯位于道路旁。"
+    ],
+    "scene": "城市道路旁的绿化带与远处建筑群",
+    "subjects": [
+      "道路",
+      "护栏",
+      "树木",
+      "路灯",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天气可能为阴天或有雾。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "路面有水渍，呈现湿润状态；远处建筑群在雾中若隐若现。",
+    "safe_facts": [
+      "路面有水渍，呈现湿润状态。",
+      "远处建筑群在雾中若隐若现。"
+    ]
+  },
+  "label_id": "cpl_a537394d29e7249eaa3c189a",
+  "provenance": {
+    "generated_at": "2026-08-03T15:58:08.142397+00:00",
+    "migrated_at": "2026-08-03T15:58:08.143963+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9d57c5066a4d89b3b0e319bff7ed154d950fd259a9ca59860e35b6e508f6d123",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_647a5eb923390359710aa1a7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:58:08.144164+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_647a5eb923390359710aa1a7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

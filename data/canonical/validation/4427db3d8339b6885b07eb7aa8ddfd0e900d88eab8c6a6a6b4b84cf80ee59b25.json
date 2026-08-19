@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2287.jpg",
+    "relative_path": "val/2287.jpg",
+    "sha256": "4427db3d8339b6885b07eb7aa8ddfd0e900d88eab8c6a6a6b4b84cf80ee59b25",
+    "split": "val"
+  },
+  "canonical_sha256": "2008e97f873914d0b277bff07acc6ce6fb31f9ae3e35d07b4a1fab888975a495",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪景",
+      "山路",
+      "松树",
+      "冬季"
+    ],
+    "short_description": "一条蜿蜒山路旁，树木与地面覆盖薄雪，天空阴沉，呈现冬日静谧景象。",
+    "theme": "雪后山林小径"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能刚经历降雪或低温凝结。"
+    ],
+    "direct_observations": [
+      "路面为深色铺装，部分区域有水渍。",
+      "树木枝叶上附着白色霜雪。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "覆盖积雪",
+      "阴天",
+      "湿润路面"
+    ],
+    "relations": [
+      "道路位于树木旁。",
+      "积雪覆盖地面与树枝。"
+    ],
+    "scene": "山间小路及周边植被",
+    "subjects": [
+      "道路",
+      "树木",
+      "积雪"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能刚经历降雪或低温凝结。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "路面为深色铺装，部分区域有水渍；树木枝叶上附着白色霜雪。",
+    "safe_facts": [
+      "路面为深色铺装，部分区域有水渍。",
+      "树木枝叶上附着白色霜雪。"
+    ]
+  },
+  "label_id": "cpl_7639e337ed5354715c27577f",
+  "provenance": {
+    "generated_at": "2026-08-03T16:22:37.712321+00:00",
+    "migrated_at": "2026-08-03T16:22:37.713820+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "206bd821d53ccda604395a31b99c8899e94026b6686f96f5eccf918cf45ac313",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_afd7b5c7b545b0bee30ce97f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:22:37.714054+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_afd7b5c7b545b0bee30ce97f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

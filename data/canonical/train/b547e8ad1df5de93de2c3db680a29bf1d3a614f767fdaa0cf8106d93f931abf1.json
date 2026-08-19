@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1545.jpg",
+    "relative_path": "train/1545.jpg",
+    "sha256": "b547e8ad1df5de93de2c3db680a29bf1d3a614f767fdaa0cf8106d93f931abf1",
+    "split": "train"
+  },
+  "canonical_sha256": "57b7dcb6ab9fc0ebca1e31014b439c19a4803a4694f783412cadcd15622741bb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "荷塘",
+      "荷花苞",
+      "绿叶",
+      "传统建筑"
+    ],
+    "short_description": "一片广阔的荷塘，碧绿的荷叶铺满水面，粉红色荷花苞点缀其间，远处有传统建筑掩映于树林之中。",
+    "theme": "荷塘绿意"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "荷塘可能处于盛夏或初秋季节。"
+    ],
+    "direct_observations": [
+      "画面前景和中景布满宽大的绿色荷叶。",
+      "多个粉红色荷花苞分布在荷叶之间。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色",
+      "粉红色",
+      "茂密",
+      "静止"
+    ],
+    "relations": [
+      "荷叶覆盖水面。",
+      "荷花苞生长于荷叶间。",
+      "建筑位于树林后方。"
+    ],
+    "scene": "户外荷塘",
+    "subjects": [
+      "荷叶",
+      "荷花苞",
+      "树木",
+      "传统建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "荷塘可能处于盛夏或初秋季节。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景和中景布满宽大的绿色荷叶；多个粉红色荷花苞分布在荷叶之间。",
+    "safe_facts": [
+      "画面前景和中景布满宽大的绿色荷叶。",
+      "多个粉红色荷花苞分布在荷叶之间。"
+    ]
+  },
+  "label_id": "cpl_ce06556f9df70bcef6ff4a4f",
+  "provenance": {
+    "generated_at": "2026-08-03T14:36:10.966120+00:00",
+    "migrated_at": "2026-08-03T14:36:10.968995+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "775423794831b85436edc4e289d305b8b7b28d5a9c1d22b2b8078115cf8a5ba0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f285e8e27f13775e050258a1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:36:10.970618+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f285e8e27f13775e050258a1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1745.jpg",
+    "relative_path": "train/1745.jpg",
+    "sha256": "2bb696fb8f01695bf5ba40a189b6bc8ec67eed6a6cfc36064c13929d05deaa83",
+    "split": "train"
+  },
+  "canonical_sha256": "bca42acdefd12c5770b2df7777d4e3458376a3762232486a383b7cd04e179d9b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "山脉",
+      "天空",
+      "云朵",
+      "远景"
+    ],
+    "short_description": "蓝天白云下，连绵山脉与远方水域相接，近处松树枝干清晰，远处城市轮廓隐约可见。",
+    "theme": "山海相接"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "远处水域与城市区域因距离较远而模糊不清。"
+    ],
+    "direct_observations": [
+      "画面呈现晴朗天气下的山地景观。",
+      "山脉呈层叠状延伸至远方，覆盖植被。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晴朗",
+      "蓝色天空",
+      "层叠山峦",
+      "稀疏云朵",
+      "部分树木无叶"
+    ],
+    "relations": [
+      "山脉位于前景。",
+      "城市位于远处。",
+      "树木位于画面左下角。"
+    ],
+    "scene": "高山俯瞰平原与水域",
+    "subjects": [
+      "山脉",
+      "天空",
+      "云朵",
+      "树木",
+      "远处城市"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "远处水域与城市区域因距离较远而模糊不清。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现晴朗天气下的山地景观；山脉呈层叠状延伸至远方，覆盖植被。",
+    "safe_facts": [
+      "画面呈现晴朗天气下的山地景观。",
+      "山脉呈层叠状延伸至远方，覆盖植被。"
+    ]
+  },
+  "label_id": "cpl_e876b6a21645ca9dd4b12784",
+  "provenance": {
+    "generated_at": "2026-08-03T15:00:43.892788+00:00",
+    "migrated_at": "2026-08-03T15:00:43.894367+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6ed266a7668d30c86a8c27fbe504ab7e244e626c611fea16884f7b0f3dd13d68",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b28bcfb12242922d8c0b6f90",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:00:43.894577+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b28bcfb12242922d8c0b6f90"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

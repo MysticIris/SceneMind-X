@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1719.jpg",
+    "relative_path": "train/1719.jpg",
+    "sha256": "37ff8ee3dc9fe56c5d10cf790bfdd0798e0263355d01b52d8c05cc9e76b86a28",
+    "split": "train"
+  },
+  "canonical_sha256": "0db887286bf89d2f7041831070dd8a858f6d3c7a2336539efab8b4b726eede10",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "樱花",
+      "红砖建筑",
+      "春日",
+      "粉红花朵"
+    ],
+    "short_description": "粉红色樱花枝条垂挂于红砖建筑前，花瓣与叶片在柔和光线下交织，营造春日静谧氛围。",
+    "theme": "粉樱映红砖楼"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "樱花枝条从画面上方垂下，部分遮挡天空。"
+    ],
+    "direct_observations": [
+      "画面中有盛开的粉红色樱花花朵。",
+      "背景为红砖砌成的多层建筑，配有蓝色窗框。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "粉红色花朵",
+      "红砖外墙",
+      "蓝色窗框",
+      "棕色叶片"
+    ],
+    "relations": [
+      "樱花枝条位于建筑前方。",
+      "花朵与叶片共生于枝条上。"
+    ],
+    "scene": "户外建筑前",
+    "subjects": [
+      "樱花枝条",
+      "红砖建筑",
+      "窗户"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "樱花枝条从画面上方垂下，部分遮挡天空。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有盛开的粉红色樱花花朵；背景为红砖砌成的多层建筑，配有蓝色窗框。",
+    "safe_facts": [
+      "画面中有盛开的粉红色樱花花朵。",
+      "背景为红砖砌成的多层建筑，配有蓝色窗框。"
+    ]
+  },
+  "label_id": "cpl_de87707154702e2891cacdf4",
+  "provenance": {
+    "generated_at": "2026-08-03T14:57:22.769341+00:00",
+    "migrated_at": "2026-08-03T14:57:22.771167+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "793c18489c07916a77a4d198991496ce1a8956fe82d84e31b40e70df2547b2bb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_25a4146d55d3e59c8fbfbc13",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:57:22.771401+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_25a4146d55d3e59c8fbfbc13"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

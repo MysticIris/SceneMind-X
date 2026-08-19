@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:588.jpg",
+    "relative_path": "train/588.jpg",
+    "sha256": "db4f3fe71ef51923deb8a56628e7a27207ee208794faccf7d1f4481c8e9c6ec3",
+    "split": "train"
+  },
+  "canonical_sha256": "1062a79c8603942fac41266db1e873a74210953ae457ce610bf5418f7edb02f2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石板路",
+      "夜景照明",
+      "园林景观"
+    ],
+    "short_description": "夜幕下石板小径蜿蜒穿过草坪与树木，暖黄色地灯沿路分布，远处山林轮廓隐约可见。",
+    "theme": "夜景园林小径"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "环境处于夜晚，天空呈深蓝色。"
+    ],
+    "direct_observations": [
+      "石板小径从前景延伸至背景。",
+      "多盏方形地灯沿小径边缘发光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "灯光照明",
+      "石板铺装",
+      "草坪绿化"
+    ],
+    "relations": [
+      "地灯位于小径两侧。",
+      "树木环绕小径。"
+    ],
+    "scene": "户外园林",
+    "subjects": [
+      "石板小径",
+      "草坪",
+      "树木",
+      "地灯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "环境处于夜晚，天空呈深蓝色。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "石板小径从前景延伸至背景；多盏方形地灯沿小径边缘发光。",
+    "safe_facts": [
+      "石板小径从前景延伸至背景。",
+      "多盏方形地灯沿小径边缘发光。"
+    ]
+  },
+  "label_id": "cpl_c7e31061cb0199f32baf54e8",
+  "provenance": {
+    "generated_at": "2026-08-03T11:39:11.415946+00:00",
+    "migrated_at": "2026-08-03T11:39:11.417777+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "15097833dc03a026fe3a6a4e6ab73c9959fbaf793a74a2006ab30b493889fd38",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_149d18e9e5e97ce9df3bf33c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:39:11.418002+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_149d18e9e5e97ce9df3bf33c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "asset_id": "eaba0224996e034e",
+  "asset_sha256": "eaba0224996e034e8b0a6a232b1e44efe40975de22d1b6b5db71328842253bad",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"高速公路龙门架指示牌\",\n    \"short_description\": \"阴天下的高速公路行车视角，前方横跨着巨大的绿色交通指示龙门架。路牌显示出口编号147及分叉路口信息，包含G7212、S40、G80等高速编号及多个城市名称。路面有车辆行驶，右侧设有隔音屏障。\",\n    \"micro_tags\": [\n      \"高速公路\",\n      \"交通指示牌\",\n      \"龙门架\",\n      \"行车记录\",\n      \"阴天\",\n      \"道路设施\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"高速公路路段\",\n    \"subjects\": [\n      \"绿色交通指示牌\",\n      \"金属龙门架\",\n      \"行驶中的汽车\",\n      \"沥青路面\",\n      \"路边护栏\",\n      \"隔音墙\"\n    ],\n    \"actions\": [\n      \"车辆沿车道向前行驶\",\n      \"指示牌悬挂于道路上方\"\n    ],\n    \"attributes\": [\n      \"天空阴沉灰白\",\n      \"指示牌为绿底白字\",\n      \"立柱底部有黄黑警示条纹\",\n      \"路面标线清晰\"\n    ],\n    \"relations\": [\n      \"指示牌位于道路正上方\",\n      \"蓝色轿车位于前方右侧车道\",\n      \"黑色SUV位于前方左侧车道\",\n      \"隔音墙位于道路右侧边缘\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面中央上方有一个大型绿色高速公路指示牌，由两根带有黄黑条纹的金属立柱支撑。\",\n      \"指示牌右上角标有“出口 147”，中间有白色分叉箭头图案。\",\n      \"路牌上可见“G7212”、“S40”、“G80”等红黄底编号框，以及“桂平”、“柳州”、“贵港东”、“玉林”、“北海”等汉字地名。\",\n      \"前方路面有两辆正在行驶的私家车，右侧车道为一辆蓝色轿车，左侧车道为一辆深色SUV。\",\n      \"道路右侧安装有连续的半透明隔音屏障，左侧为绿色波形护栏。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据路牌上的分叉箭头和地名分布，前方可能是一个高速公路枢纽或互通立交。\",\n      \"拍摄视角来自后方车辆的行车记录仪或车内乘客视角。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的拍摄时间和日期。\",\n      \"无法确认远处背景中的具体地理环境特征。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"出口 147\",\n      \"G7212 (北)\",\n      \"S40\",\n      \"G7212 (南)\",\n      \"G80\",\n      \"桂平\",\n      \"梧州\",\n      \"柳州\",\n      \"广州\",\n      \"贵港东\",\n      \"玉林\",\n      \"北海\",\n      \"小红书\",\n      \"小红书号：373332785\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张从车内拍摄的高速公路照片，展示了前方跨越道路的绿色交通指示龙门架。天气阴沉，路面上有几辆汽车正在行驶，道路右侧设有隔音设施。\",\n    \"safe_facts\": [\n      \"图片展示了高速公路场景\",\n      \"主要物体是横跨道路的大型绿色指示牌\",\n      \"指示牌由金属立柱支撑\",\n      \"路面上有行驶的车辆\",\n      \"天空呈现灰白色阴天状态\"\n    ]\n  }\n}",
+      "input_tokens": 2241,
+      "output_tokens": 865,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 2241,
+        "output_tokens": 865,
+        "total_tokens": 3106,
+        "estimated_cost_cny": 0.011402,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "高速公路龙门架指示牌",
+          "short_description": "阴天下的高速公路行车视角，前方横跨着巨大的绿色交通指示龙门架。路牌显示出口编号147及分叉路口信息，包含G7212、S40、G80等高速编号及多个城市名称。路面有车辆行驶，右侧设有隔音屏障。",
+          "micro_tags": [
+            "高速公路",
+            "交通指示牌",
+            "龙门架",
+            "行车记录",
+            "阴天",
+            "道路设施"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "高速公路路段",
+          "subjects": [
+            "绿色交通指示牌",
+            "金属龙门架",
+            "行驶中的汽车",
+            "沥青路面",
+            "路边护栏",
+            "隔音墙"
+          ],
+          "actions": [
+            "车辆沿车道向前行驶",
+            "指示牌悬挂于道路上方"
+          ],
+          "attributes": [
+            "天空阴沉灰白",
+            "指示牌为绿底白字",
+            "立柱底部有黄黑警示条纹",
+            "路面标线清晰"
+          ],
+          "relations": [
+            "指示牌位于道路正上方",
+            "蓝色轿车位于前方右侧车道",
+            "黑色SUV位于前方左侧车道",
+            "隔音墙位于道路右侧边缘"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "画面中央上方有一个大型绿色高速公路指示牌，由两根带有黄黑条纹的金属立柱支撑。",
+            "指示牌右上角标有“出口 147”，中间有白色分叉箭头图案。",
+            "路牌上可见“G7212”、“S40”、“G80”等红黄底编号框，以及“桂平”、“柳州”、“贵港东”、“玉林”、“北海”等汉字地名。",
+            "前方路面有两辆正在行驶的私家车，右侧车道为一辆蓝色轿车，左侧车道为一辆深色SUV。",
+            "道路右侧安装有连续的半透明隔音屏障，左侧为绿色波形护栏。"
+          ],
+          "cautious_inferences": [
+            "根据路牌上的分叉箭头和地名分布，前方可能是一个高速公路枢纽或互通立交。",
+            "拍摄视角来自后方车辆的行车记录仪或车内乘客视角。"
+          ],
+          "uncertainties": [
+            "无法确定具体的拍摄时间和日期。",
+            "无法确认远处背景中的具体地理环境特征。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "出口 147",
+            "G7212 (北)",
+            "S40",
+            "G7212 (南)",
+            "G80",
+            "桂平",
+            "梧州",
+            "柳州",
+            "广州",
+            "贵港东",
+            "玉林",
+            "北海",
+            "小红书",
+            "小红书号：373332785"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张从车内拍摄的高速公路照片，展示了前方跨越道路的绿色交通指示龙门架。天气阴沉，路面上有几辆汽车正在行驶，道路右侧设有隔音设施。",
+          "safe_facts": [
+            "图片展示了高速公路场景",
+            "主要物体是横跨道路的大型绿色指示牌",
+            "指示牌由金属立柱支撑",
+            "路面上有行驶的车辆",
+            "天空呈现灰白色阴天状态"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 236348,
+        "request_bytes": 174189,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.64909500000067,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "1af0dfd7b2dcd10ee6fad0d7093d102de43b0b0502fca4ead4f00fa8aeab3f19"
+}

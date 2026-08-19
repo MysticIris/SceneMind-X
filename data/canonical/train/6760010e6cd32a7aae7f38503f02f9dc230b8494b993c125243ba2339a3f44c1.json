@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1629.jpg",
+    "relative_path": "train/1629.jpg",
+    "sha256": "6760010e6cd32a7aae7f38503f02f9dc230b8494b993c125243ba2339a3f44c1",
+    "split": "train"
+  },
+  "canonical_sha256": "4ccb1c9d2027a5ce67f737c6581256d4bdfa9e8cd74e093f7c8d9f374b3eca31",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "青铜雕像",
+      "对峙姿态",
+      "户外场景"
+    ],
+    "short_description": "两座青铜雕像在户外对峙，一人倚柱伸手，另一人持枪抬手，地面湿润，背景绿树成荫。",
+    "theme": "铜像对峙场景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "地面湿润，可能刚下过雨。"
+    ],
+    "direct_observations": [
+      "两座青铜雕像位于铺装地面上。",
+      "雕像周围有树木和灌木丛。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "伸出手臂",
+      "抬手示意"
+    ],
+    "attributes": [
+      "青铜材质",
+      "湿漉漉表面",
+      "绿色植被背景"
+    ],
+    "relations": [
+      "两雕像相对站立。"
+    ],
+    "scene": "户外公园或纪念地",
+    "subjects": [
+      "青铜雕像"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "地面湿润，可能刚下过雨。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两座青铜雕像位于铺装地面上；雕像周围有树木和灌木丛。",
+    "safe_facts": [
+      "两座青铜雕像位于铺装地面上。",
+      "雕像周围有树木和灌木丛。"
+    ]
+  },
+  "label_id": "cpl_d254f721bd1802ad81b2be8f",
+  "provenance": {
+    "generated_at": "2026-08-03T14:47:13.578011+00:00",
+    "migrated_at": "2026-08-03T14:47:13.585665+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2ac1c0664e5e25f2116fd505c7107f55ae48a4a6c00fdcdbef30c5a53d05d846",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fdb23f8018d1ed1c96625bd7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:47:13.586013+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fdb23f8018d1ed1c96625bd7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

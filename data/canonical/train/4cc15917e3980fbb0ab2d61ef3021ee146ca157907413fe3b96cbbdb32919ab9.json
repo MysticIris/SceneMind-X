@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1781.jpg",
+    "relative_path": "train/1781.jpg",
+    "sha256": "4cc15917e3980fbb0ab2d61ef3021ee146ca157907413fe3b96cbbdb32919ab9",
+    "split": "train"
+  },
+  "canonical_sha256": "326e8e31cafa7ab14171c6263e4af122db727ff8d9f37c638be454377d0d9ce2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "火锅丸子",
+      "蔬菜片",
+      "香菜装饰"
+    ],
+    "short_description": "白色长盘上摆放着多种丸子和蔬菜片，配以香菜点缀，置于木质桌面上。",
+    "theme": "火锅食材拼盘"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "白色长盘上整齐排列着多个丸子和黄瓜片。",
+      "盘中央有几片绿色香菜作为装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色长盘",
+      "圆形丸子",
+      "绿色黄瓜片",
+      "绿色香菜叶"
+    ],
+    "relations": [
+      "丸子放置在黄瓜片上。",
+      "香菜位于丸子之间。"
+    ],
+    "scene": "餐桌上的食物摆盘",
+    "subjects": [
+      "白色长盘",
+      "丸子",
+      "黄瓜片",
+      "香菜",
+      "木质桌面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "白色长盘上整齐排列着多个丸子和黄瓜片；盘中央有几片绿色香菜作为装饰。",
+    "safe_facts": [
+      "白色长盘上整齐排列着多个丸子和黄瓜片。",
+      "盘中央有几片绿色香菜作为装饰。"
+    ]
+  },
+  "label_id": "cpl_73bd8e0592fc64c48b490cf4",
+  "provenance": {
+    "generated_at": "2026-08-02T22:07:39.500645+00:00",
+    "migrated_at": "2026-08-03T07:13:41.508597+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8e6acc79a47d68e058a14aa9fba8034326d997b540819b0b25359954bdca4ce9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e5bea925c86fb249577d4459",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:04:42.734897+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e5bea925c86fb249577d4459",
+    "cpl_6c2d5457328e8a04c892a1e1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

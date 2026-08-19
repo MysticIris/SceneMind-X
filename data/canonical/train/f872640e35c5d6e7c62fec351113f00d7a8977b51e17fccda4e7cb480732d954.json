@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1853.jpg",
+    "relative_path": "train/1853.jpg",
+    "sha256": "f872640e35c5d6e7c62fec351113f00d7a8977b51e17fccda4e7cb480732d954",
+    "split": "train"
+  },
+  "canonical_sha256": "7da27fd129cacda2731ceecf1c07b9d941ba09f448e68978ed64779cc58c26f7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电子白板",
+      "英语单词",
+      "教学笔记"
+    ],
+    "short_description": "一块电子白板上显示着英语学习笔记，包含词汇对比和趋势说明。",
+    "theme": "教学板书"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕底部可见一排功能图标，如选择笔、橡皮擦等交互按钮。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深灰色屏幕",
+      "白色书写笔迹",
+      "底部工具栏"
+    ],
+    "relations": [],
+    "scene": "室内电子教学设备界面",
+    "subjects": [
+      "电子白板"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕底部可见一排功能图标，如选择笔、橡皮擦等交互按钮。",
+    "safe_facts": [
+      "屏幕底部可见一排功能图标，如选择笔、橡皮擦等交互按钮。"
+    ]
+  },
+  "label_id": "cpl_b692eba9ee1f2e8d3c306e6c",
+  "provenance": {
+    "generated_at": "2026-08-03T15:13:27.569765+00:00",
+    "migrated_at": "2026-08-03T15:13:27.572143+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f17a97c9ee9dd78253a6ea7f59f51d08ed233868d1720100aa20d8e02aa2a360",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5a51739acc711a9744c9bfbe",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:13:27.572769+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5a51739acc711a9744c9bfbe"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Compare → Similarity.",
+      "Contrast → difference.",
+      "overtake",
+      "decline",
+      "increase",
+      "箭头连接文字"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Compare → Similarity.",
+      "Contrast → difference.",
+      "overtake",
+      "decline",
+      "increase",
+      "箭头连接文字"
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1218.jpg",
+    "relative_path": "train/1218.jpg",
+    "sha256": "2cfadaafe30a3329ca7efdc523cf16a2480097d811c105da88f45562286af9fc",
+    "split": "train"
+  },
+  "canonical_sha256": "c665c781292130cfd6bbbb8b0bcfd9b7105563d6c4682e1d5db5e70b92242a42",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "多人聚餐",
+      "砖墙环境",
+      "红色碗筷"
+    ],
+    "short_description": "多人围坐于砖墙小院内用餐，桌上摆着红色碗筷，背景有神龛和红色对联。",
+    "theme": "室内聚餐场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多人围坐在长条桌旁进食。",
+      "背景墙上挂有红色对联和神龛。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "用餐",
+      "坐着"
+    ],
+    "attributes": [
+      "红色碗筷",
+      "木制凳子",
+      "黄色布料悬挂"
+    ],
+    "relations": [
+      "人坐在桌旁。",
+      "神龛位于后方墙壁。"
+    ],
+    "scene": "砖墙围合的室内空间",
+    "subjects": [
+      "多人",
+      "餐桌",
+      "椅子",
+      "神龛",
+      "红色对联"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多人围坐在长条桌旁进食；背景墙上挂有红色对联和神龛。",
+    "safe_facts": [
+      "多人围坐在长条桌旁进食。",
+      "背景墙上挂有红色对联和神龛。"
+    ]
+  },
+  "label_id": "cpl_2d3455642b86a275e6013286",
+  "provenance": {
+    "generated_at": "2026-08-03T13:54:52.213922+00:00",
+    "migrated_at": "2026-08-03T13:54:52.217874+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7936d255f680e683550b7c92bc2edc0cbb7dd8ae53275c03c37393874500fc3a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7ccac5086bba560f7a5b9a77",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:54:52.218211+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7ccac5086bba560f7a5b9a77"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

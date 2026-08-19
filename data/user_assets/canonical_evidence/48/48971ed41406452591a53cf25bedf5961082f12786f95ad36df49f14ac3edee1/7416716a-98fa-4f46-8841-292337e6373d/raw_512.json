@@ -1,0 +1,128 @@
+{
+  "asset_id": "48971ed414064525",
+  "asset_sha256": "48971ed41406452591a53cf25bedf5961082f12786f95ad36df49f14ac3edee1",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"冬季高速公路夜间行车\",\n    \"short_description\": \"这是一张从车内视角拍摄的冬季高速公路照片。天色昏暗，路面有积雪和车辙印。前方横跨道路的门架式交通指示牌在灯光照射下清晰可见，标有G11、S13等路线编号及多个地名方向指引，右侧显示距离出口500米。\",\n    \"micro_tags\": [\n      \"高速公路\",\n      \"交通指示牌\",\n      \"雪天路滑\",\n      \"夜间驾驶\",\n      \"第一人称视角\",\n      \"冬季风景\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"覆盖积雪的高速公路路段，时间为黄昏或夜间\",\n    \"subjects\": [\n      \"门架式交通指示牌\",\n      \"积雪的路面\",\n      \"远处的山峦轮廓\",\n      \"路边的树木\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"绿色背景白色文字的指示牌\",\n      \"路面有车灯照射的反光\",\n      \"天空呈深蓝色\",\n      \"道路两侧有护栏\"\n    ],\n    \"relations\": [\n      \"指示牌位于道路正上方\",\n      \"车辆正行驶在指示牌下方\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"画面中央上方悬挂着两块大型绿色交通指示牌，分别标有G11和S13编号\",\n      \"路面大部分被压实的积雪覆盖，中间有明显的深色车轮轨迹\",\n      \"右侧指示牌下方标有'500m'及向右的箭头符号\",\n      \"背景天空呈现均匀的深蓝色，远处有连绵的山脉剪影\"\n    ],\n    \"cautious_inferences\": [\n      \"根据光线和天空颜色判断，拍摄时间可能为傍晚或清晨\",\n      \"路面状况看起来较为湿滑，可能存在结冰风险\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"G11\",\n      \"抚松\",\n      \"长白山景区\",\n      \"敦化\",\n      \"延吉\",\n      \"S13\",\n      \"朝阳镇\",\n      \"白山\",\n      \"长春\",\n      \"500m\",\n      \"出口 846\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张冬季夜间高速公路行车的照片，视野前方有横跨道路的大型绿色交通指示牌，路面有积雪和车辙，远处是昏暗的山景。\",\n    \"safe_facts\": [\n      \"场景为户外高速公路\",\n      \"环境光线较暗，属于夜间或 twilight 时段\",\n      \"地面有显著积雪覆盖\",\n      \"存在大型 overhead 交通标志结构\"\n    ]\n  }\n}",
+      "input_tokens": 3211,
+      "output_tokens": 680,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3211,
+        "output_tokens": 680,
+        "total_tokens": 3891,
+        "estimated_cost_cny": 0.011862,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "冬季高速公路夜间行车",
+          "short_description": "这是一张从车内视角拍摄的冬季高速公路照片。天色昏暗，路面有积雪和车辙印。前方横跨道路的门架式交通指示牌在灯光照射下清晰可见，标有G11、S13等路线编号及多个地名方向指引，右侧显示距离出口500米。",
+          "micro_tags": [
+            "高速公路",
+            "交通指示牌",
+            "雪天路滑",
+            "夜间驾驶",
+            "第一人称视角",
+            "冬季风景"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "覆盖积雪的高速公路路段，时间为黄昏或夜间",
+          "subjects": [
+            "门架式交通指示牌",
+            "积雪的路面",
+            "远处的山峦轮廓",
+            "路边的树木"
+          ],
+          "actions": [],
+          "attributes": [
+            "绿色背景白色文字的指示牌",
+            "路面有车灯照射的反光",
+            "天空呈深蓝色",
+            "道路两侧有护栏"
+          ],
+          "relations": [
+            "指示牌位于道路正上方",
+            "车辆正行驶在指示牌下方"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "画面中央上方悬挂着两块大型绿色交通指示牌，分别标有G11和S13编号",
+            "路面大部分被压实的积雪覆盖，中间有明显的深色车轮轨迹",
+            "右侧指示牌下方标有'500m'及向右的箭头符号",
+            "背景天空呈现均匀的深蓝色，远处有连绵的山脉剪影"
+          ],
+          "cautious_inferences": [
+            "根据光线和天空颜色判断，拍摄时间可能为傍晚或清晨",
+            "路面状况看起来较为湿滑，可能存在结冰风险"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "G11",
+            "抚松",
+            "长白山景区",
+            "敦化",
+            "延吉",
+            "S13",
+            "朝阳镇",
+            "白山",
+            "长春",
+            "500m",
+            "出口 846"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张冬季夜间高速公路行车的照片，视野前方有横跨道路的大型绿色交通指示牌，路面有积雪和车辙，远处是昏暗的山景。",
+          "safe_facts": [
+            "场景为户外高速公路",
+            "环境光线较暗，属于夜间或 twilight 时段",
+            "地面有显著积雪覆盖",
+            "存在大型 overhead 交通标志结构"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 888420,
+        "request_bytes": 663241,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.446301899995888,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "5c8da640d1e477467fae46fb50d8e6489a24d84845c30f75cfda8ae6ee18903a"
+}

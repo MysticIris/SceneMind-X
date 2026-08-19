@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:587.jpg",
+    "relative_path": "train/587.jpg",
+    "sha256": "5e80fdb8d2b0a33da6d2ed58a6129948859c23231fdbe1bf699acecaadb4a94e",
+    "split": "train"
+  },
+  "canonical_sha256": "2754d7c3b1e6f446ecec56bd375c93ee6e760dfb2794296730342669e1afb7e8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "紫色花田",
+      "日落",
+      "户外",
+      "游客"
+    ],
+    "short_description": "夕阳下大片紫色小花盛开，远处有山丘与游客身影，天空云彩柔和。",
+    "theme": "紫色花海日落"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自太阳方向，呈现暖色调。"
+    ],
+    "direct_observations": [
+      "画面中大面积分布紫色小花。",
+      "太阳位于画面中上部偏右，呈圆形光斑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "紫色",
+      "盛开",
+      "日落",
+      "天空有云"
+    ],
+    "relations": [
+      "花朵覆盖地面。",
+      "游客位于花田中。",
+      "太阳位于天空中央。"
+    ],
+    "scene": "开阔的户外花田",
+    "subjects": [
+      "紫色花朵",
+      "游客",
+      "山丘",
+      "太阳"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自太阳方向，呈现暖色调。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中大面积分布紫色小花；太阳位于画面中上部偏右，呈圆形光斑。",
+    "safe_facts": [
+      "画面中大面积分布紫色小花。",
+      "太阳位于画面中上部偏右，呈圆形光斑。"
+    ]
+  },
+  "label_id": "cpl_43cf996fe47313b16bb0d265",
+  "provenance": {
+    "generated_at": "2026-08-03T11:38:55.502216+00:00",
+    "migrated_at": "2026-08-03T11:38:55.503847+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cc8adc4a754413eb8f28d13b8ed160617e1a974f25e80c4554d449e250d8bd0d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b06ff222c27da44cda7ebb10",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:38:55.504205+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b06ff222c27da44cda7ebb10"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1474.jpg",
+    "relative_path": "train/1474.jpg",
+    "sha256": "95ed78bc1316d097fd7edd799322c86affa1c091500086c44034d8a27c43e2d6",
+    "split": "train"
+  },
+  "canonical_sha256": "114bb879ba9351ca41c9d2a3dd251f0d885b544e302370c2fcf455c094f1cd6d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "教材封面"
+    ],
+    "short_description": "图像呈现的是书籍封面；封面设计以红色和白色为主。",
+    "theme": "照片"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现的是书籍封面。",
+      "封面设计以红色和白色为主。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "封面为红白配色"
+    ],
+    "relations": [],
+    "scene": "书本堆叠场景",
+    "subjects": [],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现的是书籍封面；封面设计以红色和白色为主。",
+    "safe_facts": [
+      "图像呈现的是书籍封面。",
+      "封面设计以红色和白色为主。"
+    ]
+  },
+  "label_id": "cpl_7d083bdabaaf137586e92f73",
+  "provenance": {
+    "generated_at": "2026-08-03T14:28:01.738821+00:00",
+    "migrated_at": "2026-08-03T14:28:01.742130+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1783bd2463d5b3800fdefb9834f73c45692d347b0016c5efd0c3084f80c7a5b8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_07ccb4a3055d3a51ad746977",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:28:01.743151+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_07ccb4a3055d3a51ad746977"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "MATLAB&Simulink 开发实例系列丛书",
+      "在线交流",
+      "MATLAB 数学建模 方法与实践(第3版)",
+      "卓金武 王鸿钧 编著",
+      "北京航空航天大学出版社",
+      "BEIHANG UNIVERSITY PRESS"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "MATLAB&Simulink 开发实例系列丛书",
+      "在线交流",
+      "MATLAB 数学建模 方法与实践(第3版)",
+      "卓金武 王鸿钧 编著",
+      "北京航空航天大学出版社",
+      "BEIHANG UNIVERSITY PRESS"
+    ]
+  }
+}

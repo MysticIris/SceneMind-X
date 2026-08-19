@@ -1,0 +1,145 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_74e1eaf62e6ac37a5b837470",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_ba5833334134e34aac650969"
+  ],
+  "asset": {
+    "asset_id": "7b8665707ba8b8ef",
+    "sha256": "7b8665707ba8b8efe07053a9bfdfdb4f1a16a93750d02a2218c7a614bf7ab794",
+    "split": "user_custom",
+    "relative_path": "user_assets/7b/7b8665707ba8b8efe07053a9bfdfdb4f1a16a93750d02a2218c7a614bf7ab794/7b8665707ba8b8efe07053a9bfdfdb4f1a16a93750d02a2218c7a614bf7ab794.jpg"
+  },
+  "display": {
+    "theme": "手写书信与情感记录",
+    "short_description": "一只手在下方托举着本子，背景为简洁的浅色平面，整体呈现出文艺且怀旧的氛围。",
+    "micro_tags": [
+      "手写体",
+      "笔记本",
+      "情感语录",
+      "特写摄影",
+      "文艺风格"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "室内近距离拍摄场景",
+    "subjects": [
+      "打开的笔记本",
+      "人手"
+    ],
+    "actions": [
+      "手持",
+      "展示"
+    ],
+    "attributes": [
+      "纸张具有明显的凹凸纹理",
+      "右页上方贴有一张边缘不规则的白色纸片",
+      "左页有蓝色线条装饰",
+      "字体为手写风格"
+    ],
+    "relations": [
+      "手位于笔记本下方支撑。",
+      "白色纸片粘贴在右侧页面上方。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "图片中心是一本摊开的书或笔记本，纸张表面有明显的皱褶和纹理质感。",
+      "一只左手的手指(可见拇指和部分手掌)从下方托住笔记本的下边缘。",
+      "背景是模糊的灰白色平面，光线柔和均匀。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法确定拍摄的具体地点是在家中还是其他室内场所。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "2023.9.24",
+      "第一次在食堂碰见你",
+      "你迎面走来",
+      "外面的天还下着小雨",
+      "我的心却是晴天",
+      "我好想再淋一遍"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "2023.9.24",
+      "第一次在食堂碰见你",
+      "你迎面走来",
+      "外面的天还下着小雨",
+      "我的心却是晴天",
+      "我好想再淋一遍"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "图片中心是一本摊开的书或笔记本，纸张表面有明显的皱褶和纹理质感；一只左手的手指(可见拇指和部分手掌)从下方托住笔记本的下边缘。",
+    "safe_facts": [
+      "图片中心是一本摊开的书或笔记本，纸张表面有明显的皱褶和纹理质感。",
+      "一只左手的手指(可见拇指和部分手掌)从下方托住笔记本的下边缘。",
+      "背景是模糊的灰白色平面，光线柔和均匀。"
+    ],
+    "do_not_assert": [
+      "无法确定拍摄的具体地点是在家中还是其他室内场所。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "needs_review",
+    "schema_valid": true,
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": true,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_4a405f0d-e917-47fc-ac29-f580296d53cf",
+    "generated_at": "2026-08-12T03:18:36.325699+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "a697a706eaef18df04e5402517725a0a6141b725e170a684c005799457b847e9",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:18:36.326893+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_ba5833334134e34aac650969",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:18:36.327265+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "5a4d7dc4b7bb3cbbbc9d6c46f5932eb27d149e4d2fd9a17d3728c582208b632f"
+}

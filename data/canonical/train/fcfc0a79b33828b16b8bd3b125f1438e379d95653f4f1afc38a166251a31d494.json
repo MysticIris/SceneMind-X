@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:415.jpg",
+    "relative_path": "train/415.jpg",
+    "sha256": "fcfc0a79b33828b16b8bd3b125f1438e379d95653f4f1afc38a166251a31d494",
+    "split": "train"
+  },
+  "canonical_sha256": "aed6c2d96ccc6f55e6c97d8b691b6552ce2bbf28346bf4ce599d0e32cec1e235",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [],
+    "short_description": "图像呈现的是教学演示文稿的一页。",
+    "theme": "演示文稿页面"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现的是教学演示文稿的一页。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色背景",
+      "分栏布局"
+    ],
+    "relations": [],
+    "scene": "电子电路实验课程演示文稿首页",
+    "subjects": [
+      "演示文稿页面"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现的是教学演示文稿的一页。",
+    "safe_facts": [
+      "图像呈现的是教学演示文稿的一页。"
+    ]
+  },
+  "label_id": "cpl_f518075945ccd7a514e51590",
+  "provenance": {
+    "generated_at": "2026-08-03T07:13:42.051149+00:00",
+    "migrated_at": "2026-08-03T07:13:42.052433+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b84cb2c54c6edb393805ce9f699ac3f825e07ac09b5e2d3ac496158e1ce2209b",
+    "recovered_at_tokens": 768,
+    "source_label_id": "cpl_86645cbb87a4567c18cc8be5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:58:41.586171+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_768_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "原图已检查；生成输出被 token 上限截断，无 active label 或公开 fallback。"
+      ],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_86645cbb87a4567c18cc8be5",
+    "cpl_e97ced07076b240e4969a41f"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "2023",
+      "模拟电子电路电路实验",
+      "时间:2023年10月16日",
+      "目录",
+      "COMPANY",
+      "01 基于分立器件的555芯片功能实现和的时间间隔测量"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "2023",
+      "模拟电子电路电路实验",
+      "时间:2023年10月16日",
+      "目录",
+      "COMPANY",
+      "01 基于分立器件的555芯片功能实现和的时间间隔测量"
+    ]
+  }
+}

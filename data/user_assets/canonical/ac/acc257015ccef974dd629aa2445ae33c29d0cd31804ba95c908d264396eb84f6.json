@@ -1,0 +1,139 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_4b89647098295bbb6006b015",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_99ad56f9eb5f72a0196f4e4e"
+  ],
+  "asset": {
+    "asset_id": "acc257015ccef974",
+    "sha256": "acc257015ccef974dd629aa2445ae33c29d0cd31804ba95c908d264396eb84f6",
+    "split": "user_custom",
+    "relative_path": "user_assets/ac/acc257015ccef974dd629aa2445ae33c29d0cd31804ba95c908d264396eb84f6/acc257015ccef974dd629aa2445ae33c29d0cd31804ba95c908d264396eb84f6.jpg"
+  },
+  "display": {
+    "theme": "赛车手获胜海报",
+    "short_description": "这是一张以红色为主色调的竖构图海报。",
+    "micro_tags": [
+      "赛车",
+      "红色制服",
+      "人物肖像",
+      "海报设计",
+      "胜利"
+    ]
+  },
+  "facts": {
+    "visual_medium": "poster_document",
+    "scene": "平面宣传海报",
+    "subjects": [
+      "男性赛车手"
+    ],
+    "actions": [],
+    "attributes": [
+      "红色背景",
+      "几何线条装饰",
+      "佩戴耳饰",
+      "编发发型",
+      "多品牌Logo制服"
+    ],
+    "relations": []
+  },
+  "evidence": {
+    "direct_observations": [
+      "人物身穿带有黄色盾形徽章(内含黑马图案)的红色立领赛车服。",
+      "右上角有白色的F1官方标志。",
+      "背景为深红色，带有斜向的几何条纹设计。"
+    ],
+    "cautious_inferences": [
+      "人物看起来是职业赛车运动员。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "F1",
+      "PERONI",
+      "IBM",
+      "hp",
+      "UniCredit",
+      "ceva LOGISTICS"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "F1",
+      "PERONI",
+      "IBM",
+      "hp",
+      "UniCredit",
+      "ceva LOGISTICS"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "人物身穿带有黄色盾形徽章(内含黑马图案)的红色立领赛车服；右上角有白色的F1官方标志。",
+    "safe_facts": [
+      "人物身穿带有黄色盾形徽章(内含黑马图案)的红色立领赛车服。",
+      "右上角有白色的F1官方标志。",
+      "背景为深红色，带有斜向的几何条纹设计。"
+    ],
+    "do_not_assert": [
+      "人物看起来是职业赛车运动员。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "needs_review",
+    "schema_valid": true,
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": true,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_b0d94ecc-c65a-4f06-bbd5-cbcdac44abe4",
+    "generated_at": "2026-08-12T03:04:18.676353+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "077581b4f6bb8e096eadf8b4fb3a597cee99104018b9e5a686e0ae4b29048968",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:04:18.676971+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_99ad56f9eb5f72a0196f4e4e",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:04:18.677283+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "a3350cd8c3fb52990c01a0fffc3adbd79c9c6997427c238a52a3511462e43555"
+}

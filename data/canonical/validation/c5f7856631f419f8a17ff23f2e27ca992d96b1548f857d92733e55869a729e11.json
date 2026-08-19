@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2179.jpg",
+    "relative_path": "val/2179.jpg",
+    "sha256": "c5f7856631f419f8a17ff23f2e27ca992d96b1548f857d92733e55869a729e11",
+    "split": "val"
+  },
+  "canonical_sha256": "1b16b562981384872cb9d9e1f0e1e2d99cd05ae2b53b977e603c74975683ee42",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "花海",
+      "红黄花朵",
+      "绿树环绕",
+      "户外花园"
+    ],
+    "short_description": "一片红黄相间的花海在绿树环绕下铺展，天空晴朗，小径蜿蜒穿过花丛。",
+    "theme": "花海景观"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能为人工布置的观赏性花坛。"
+    ],
+    "direct_observations": [
+      "大面积红色和黄色花朵密集排列成波浪状图案。",
+      "背景中有茂密的绿色树木和部分芭蕉叶。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "色彩鲜艳",
+      "密集种植",
+      "自然坡地"
+    ],
+    "relations": [
+      "花朵覆盖地面。",
+      "树木位于背景。",
+      "小径穿行花丛。"
+    ],
+    "scene": "户外花园或公园",
+    "subjects": [
+      "红色花朵",
+      "黄色花朵",
+      "树木",
+      "石板小径"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能为人工布置的观赏性花坛。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大面积红色和黄色花朵密集排列成波浪状图案；背景中有茂密的绿色树木和部分芭蕉叶。",
+    "safe_facts": [
+      "大面积红色和黄色花朵密集排列成波浪状图案。",
+      "背景中有茂密的绿色树木和部分芭蕉叶。"
+    ]
+  },
+  "label_id": "cpl_b38e6dfcad99ddffa93667df",
+  "provenance": {
+    "generated_at": "2026-08-03T16:09:04.529050+00:00",
+    "migrated_at": "2026-08-03T16:09:04.531023+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "04b4fe430ce0827b2c63262295f1882a195026e2f2c7ad34fea2141f7c38f271",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_83f0068f645025a5df5ed369",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:09:04.531234+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_83f0068f645025a5df5ed369"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

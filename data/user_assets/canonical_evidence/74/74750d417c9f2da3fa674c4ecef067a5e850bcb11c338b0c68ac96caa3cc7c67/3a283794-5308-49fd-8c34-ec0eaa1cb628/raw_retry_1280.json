@@ -1,0 +1,138 @@
+{
+  "asset_id": "74750d417c9f2da3",
+  "asset_sha256": "74750d417c9f2da3fa674c4ecef067a5e850bcb11c338b0c68ac96caa3cc7c67",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 1280,
+  "effective_max_new_tokens": 1280,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"数字电路仿真波形图\",\n    \"short_description\": \"这是一张电子设计自动化（EDA）软件的界面截图，展示了名为 counter74HC161 的数字逻辑电路仿真结果。左侧列表显示了 cep、cet、cp 等信号名称及其当前数值，右侧黑色背景区域绘制了随时间变化的绿色信号波形图及十六进制计数序列。\",\n    \"micro_tags\": [\n      \"波形图\",\n      \"仿真\",\n      \"EDA软件\",\n      \"数字逻辑\",\n      \"计数器\",\n      \"时序分析\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"计算机屏幕上的工程软件界面\",\n    \"subjects\": [\n      \"信号列表面板\",\n      \"波形显示区域\",\n      \"顶部工具栏\",\n      \"文件标签页\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"黑底绿线\",\n      \"网格线\",\n      \"时间轴刻度\",\n      \"十六进制数值标注\"\n    ],\n    \"relations\": [\n      \"左侧信号名与右侧波形一一对应\",\n      \"波形随顶部时间轴向右延伸\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"界面顶部可见 'counter74HC161_tb.v' 和 'counter74HC161.v' 等文件标签。\",\n      \"左侧面板列出了 'cep', 'cet', 'pe_n', 'cp', 'cr_n', 'd[3:0]', 'tc', 'q[3:0]' 等信号名称。\",\n      \"右侧主区域为黑色背景，绘有绿色的数字信号波形，横轴标有 '0 ns' 到 '900 ns' 的时间刻度。\",\n      \"底部信号 'q[3:0]' 的波形下方标注了 'x 0 c d e f 0 1 2 3 4 5' 等十六进制数值变化。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据文件名 'counter74HC161' 推测，这可能是一个 74HC161 计数器的 Verilog 仿真测试。\",\n      \"界面风格特征符合常见的 FPGA/ASIC 仿真工具（如 ModelSim 或 Vivado）。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的软件版本或操作系统环境。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"counter74HC161_tb.v\",\n      \"counter74HC161.v\",\n      \"Untitled 2\",\n      \"Name\",\n      \"Value\",\n      \"cep\",\n      \"cet\",\n      \"pe_n\",\n      \"cp\",\n      \"cr_n\",\n      \"d[3:0]\",\n      \"tc\",\n      \"q[3:0]\",\n      \"0 ns\",\n      \"100 ns\",\n      \"200 ns\",\n      \"999.982 ns\",\n      \"x 0 c d e f 0 1 2 3 4 5\",\n      \"6\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张展示数字信号时序波形的软件界面截图，包含信号列表和随时间变化的图形化数据。\",\n    \"safe_facts\": [\n      \"图像为计算机软件界面的屏幕截图。\",\n      \"画面主要由左侧的数据列表和右侧的图表区域组成。\",\n      \"图表背景为黑色，数据线为绿色。\",\n      \"顶部有水平排列的标签页和工具图标。\"\n    ]\n  }\n}",
+      "input_tokens": 2262,
+      "output_tokens": 877,
+      "finish_reason": "stop",
+      "max_new_tokens": 1280,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 2262,
+        "output_tokens": 877,
+        "total_tokens": 3139,
+        "estimated_cost_cny": 0.01154,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "数字电路仿真波形图",
+          "short_description": "这是一张电子设计自动化（EDA）软件的界面截图，展示了名为 counter74HC161 的数字逻辑电路仿真结果。左侧列表显示了 cep、cet、cp 等信号名称及其当前数值，右侧黑色背景区域绘制了随时间变化的绿色信号波形图及十六进制计数序列。",
+          "micro_tags": [
+            "波形图",
+            "仿真",
+            "EDA软件",
+            "数字逻辑",
+            "计数器",
+            "时序分析"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "计算机屏幕上的工程软件界面",
+          "subjects": [
+            "信号列表面板",
+            "波形显示区域",
+            "顶部工具栏",
+            "文件标签页"
+          ],
+          "actions": [],
+          "attributes": [
+            "黑底绿线",
+            "网格线",
+            "时间轴刻度",
+            "十六进制数值标注"
+          ],
+          "relations": [
+            "左侧信号名与右侧波形一一对应",
+            "波形随顶部时间轴向右延伸"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "界面顶部可见 'counter74HC161_tb.v' 和 'counter74HC161.v' 等文件标签。",
+            "左侧面板列出了 'cep', 'cet', 'pe_n', 'cp', 'cr_n', 'd[3:0]', 'tc', 'q[3:0]' 等信号名称。",
+            "右侧主区域为黑色背景，绘有绿色的数字信号波形，横轴标有 '0 ns' 到 '900 ns' 的时间刻度。",
+            "底部信号 'q[3:0]' 的波形下方标注了 'x 0 c d e f 0 1 2 3 4 5' 等十六进制数值变化。"
+          ],
+          "cautious_inferences": [
+            "根据文件名 'counter74HC161' 推测，这可能是一个 74HC161 计数器的 Verilog 仿真测试。",
+            "界面风格特征符合常见的 FPGA/ASIC 仿真工具（如 ModelSim 或 Vivado）。"
+          ],
+          "uncertainties": [
+            "无法确定具体的软件版本或操作系统环境。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "counter74HC161_tb.v",
+            "counter74HC161.v",
+            "Untitled 2",
+            "Name",
+            "Value",
+            "cep",
+            "cet",
+            "pe_n",
+            "cp",
+            "cr_n",
+            "d[3:0]",
+            "tc",
+            "q[3:0]",
+            "0 ns",
+            "100 ns",
+            "200 ns",
+            "999.982 ns",
+            "x 0 c d e f 0 1 2 3 4 5",
+            "6"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张展示数字信号时序波形的软件界面截图，包含信号列表和随时间变化的图形化数据。",
+          "safe_facts": [
+            "图像为计算机软件界面的屏幕截图。",
+            "画面主要由左侧的数据列表和右侧的图表区域组成。",
+            "图表背景为黑色，数据线为绿色。",
+            "顶部有水平排列的标签页和工具图标。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 51624,
+        "request_bytes": 35644,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.83902279999893,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "064b6b6b3b1f67b3f82b7c0fa941b15fcf6f6d575566f424de6e15891437e3b8"
+}

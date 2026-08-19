@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1315.jpg",
+    "relative_path": "train/1315.jpg",
+    "sha256": "b577234301204885291adf3ab60134a726f71b42afd202348bd7e5d0df63e795",
+    "split": "train"
+  },
+  "canonical_sha256": "7dec114c7ad60c4f91adf65963be28b6671b8198978eedcca0b59c5f595c0432",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "幻想风格",
+      "角色互动",
+      "机械装甲"
+    ],
+    "short_description": "两位角色在梦幻光影中互动，一位身着轻盈服饰，另一位穿着机械装甲，背景有飞鸟与月光。",
+    "theme": "蓝白幻想风格"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两位角色，一位穿浅色服饰带翅膀，一位穿深色机械装甲。",
+      "背景有飞鸟和月光效果，整体色调以蓝紫为主。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "互动"
+    ],
+    "attributes": [
+      "蓝色调",
+      "发光特效",
+      "翅膀装饰"
+    ],
+    "relations": [
+      "并肩站立。",
+      "面向彼此。"
+    ],
+    "scene": "梦幻光影背景",
+    "subjects": [
+      "左侧角色",
+      "右侧角色"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两位角色，一位穿浅色服饰带翅膀，一位穿深色机械装甲；背景有飞鸟和月光效果，整体色调以蓝紫为主。",
+    "safe_facts": [
+      "画面中有两位角色，一位穿浅色服饰带翅膀，一位穿深色机械装甲。",
+      "背景有飞鸟和月光效果，整体色调以蓝紫为主。"
+    ]
+  },
+  "label_id": "cpl_39f10807fd57fb7a7636d78d",
+  "provenance": {
+    "generated_at": "2026-08-03T14:07:02.587623+00:00",
+    "migrated_at": "2026-08-03T14:07:02.590091+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6a7775f887bcbf950bd9db98f06f59cd5c50ef0b9a6e3888fb6f2fbff701ced7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_bb10033057d01e38b306b003",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:07:02.590447+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_bb10033057d01e38b306b003"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:977.jpg",
+    "relative_path": "train/977.jpg",
+    "sha256": "db4c1f5e6d74cda317c26a852aeab7d21e787b5117d55858369b3fa348541951",
+    "split": "train"
+  },
+  "canonical_sha256": "d925188a92e7aa742d43e4f577c34c6bbc2a469f6dbf9169efcfb86d2bf5b1b7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "向日葵",
+      "花田",
+      "黄色",
+      "田野"
+    ],
+    "short_description": "一片广阔的向日葵田，黄色花朵密集绽放，绿叶点缀其间，充满自然生机。",
+    "theme": "向日葵花田"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "大量向日葵植株密集分布于画面中。",
+      "花朵呈明亮黄色，中心为深棕色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黄色花瓣",
+      "深棕色花盘",
+      "绿色茎叶"
+    ],
+    "relations": [],
+    "scene": "开阔的户外田野",
+    "subjects": [
+      "向日葵"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大量向日葵植株密集分布于画面中；花朵呈明亮黄色，中心为深棕色。",
+    "safe_facts": [
+      "大量向日葵植株密集分布于画面中。",
+      "花朵呈明亮黄色，中心为深棕色。"
+    ]
+  },
+  "label_id": "cpl_0fa33aa91fdf5db1d0e73d8d",
+  "provenance": {
+    "generated_at": "2026-08-03T13:08:46.299802+00:00",
+    "migrated_at": "2026-08-03T13:08:46.304425+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5ed2dd7c6445dbe80c5c61db0405b16d76dcd3ce2063e2f040d1e20f0524aa28",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0fa33aa91fdf5db1d0e73d8d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:21:20.910465+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0e1b0bfd6993d754f9bebcc7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

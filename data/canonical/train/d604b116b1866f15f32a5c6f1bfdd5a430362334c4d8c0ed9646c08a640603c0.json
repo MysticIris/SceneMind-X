@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1956.jpg",
+    "relative_path": "train/1956.jpg",
+    "sha256": "d604b116b1866f15f32a5c6f1bfdd5a430362334c4d8c0ed9646c08a640603c0",
+    "split": "train"
+  },
+  "canonical_sha256": "12156486570b9357a288e16853a97ddc63477ff3e09d7bf58b82172b8d2534b5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市天际线",
+      "黄昏天空",
+      "电线绝缘子",
+      "云层航迹"
+    ],
+    "short_description": "城市天际线剪影下，云层与航迹划过天空，电线杆上悬挂着两个绝缘子，夕阳余晖染透天边。",
+    "theme": "城市黄昏天空"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自地平线方向，表明拍摄时间接近日落。"
+    ],
+    "direct_observations": [
+      "画面中可见多条平行电线，线上悬挂两个绝缘子状物体。",
+      "天空中有云层和一条白色航迹，地平线处有橙黄色光晕。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "剪影",
+      "黄昏",
+      "多云",
+      "航迹清晰"
+    ],
+    "relations": [
+      "建筑群位于画面底部。",
+      "电线横跨画面中部。",
+      "航迹贯穿云层。"
+    ],
+    "scene": "城市黄昏天空",
+    "subjects": [
+      "城市建筑群",
+      "云层",
+      "航迹",
+      "电线及绝缘子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自地平线方向，表明拍摄时间接近日落。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见多条平行电线，线上悬挂两个绝缘子状物体；天空中有云层和一条白色航迹，地平线处有橙黄色光晕。",
+    "safe_facts": [
+      "画面中可见多条平行电线，线上悬挂两个绝缘子状物体。",
+      "天空中有云层和一条白色航迹，地平线处有橙黄色光晕。"
+    ]
+  },
+  "label_id": "cpl_f01cff54045d4472f9746ca9",
+  "provenance": {
+    "generated_at": "2026-08-03T15:28:25.566470+00:00",
+    "migrated_at": "2026-08-03T15:28:25.568050+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3dc37ab50c5649ddc0e181c7c9a7ee6fe88940d8d7ba9debe0a4841fa62cfe37",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_256f66204a73e3813cbaf35c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:28:25.568394+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_256f66204a73e3813cbaf35c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

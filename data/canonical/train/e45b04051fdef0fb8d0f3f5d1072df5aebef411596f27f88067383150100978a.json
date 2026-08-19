@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:465.jpg",
+    "relative_path": "train/465.jpg",
+    "sha256": "e45b04051fdef0fb8d0f3f5d1072df5aebef411596f27f88067383150100978a",
+    "split": "train"
+  },
+  "canonical_sha256": "c5d985afa47d4d4ccfb1b7646662d47003fffafe7e2e457f3582e371329d1c83",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "数控车削",
+      "实训车间",
+      "工业设备"
+    ],
+    "short_description": "透过玻璃门看到一间整洁的数控车削车间，多台机床排列有序，地面有黄色警示线。",
+    "theme": "工程实训中心"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多台数控机床并排摆放。",
+      "地面有黄色安全警示线。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色天花板",
+      "蓝色机床底座",
+      "黄色地面标线"
+    ],
+    "relations": [
+      "机床位于车间内。",
+      "玻璃门通向车间。"
+    ],
+    "scene": "室内工业实训空间",
+    "subjects": [
+      "数控机床",
+      "玻璃门",
+      "地面标识线"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多台数控机床并排摆放；地面有黄色安全警示线。",
+    "safe_facts": [
+      "多台数控机床并排摆放。",
+      "地面有黄色安全警示线。"
+    ]
+  },
+  "label_id": "cpl_a248d5cb160a1df5852570eb",
+  "provenance": {
+    "generated_at": "2026-08-03T11:08:56.972593+00:00",
+    "migrated_at": "2026-08-03T11:08:56.974438+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d8406341127d80d5adf652c8106a6f15dfc76e33ba012e98945c56dc3035648f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_706949b8818641a70791c503",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:08:56.974639+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_706949b8818641a70791c503"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

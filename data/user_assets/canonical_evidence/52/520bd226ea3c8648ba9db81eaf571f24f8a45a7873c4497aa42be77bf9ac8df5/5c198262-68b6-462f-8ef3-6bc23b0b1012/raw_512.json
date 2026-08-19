@@ -1,0 +1,132 @@
+{
+  "asset_id": "520bd226ea3c8648",
+  "asset_sha256": "520bd226ea3c8648ba9db81eaf571f24f8a45a7873c4497aa42be77bf9ac8df5",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"课堂投影作业说明\",\n    \"short_description\": \"教室内投影幕布显示一份摄影作业要求，列出了拍摄五张不同照片的具体标准，右侧配有一张人物示例图，底部可见大学校名标识。\",\n    \"micro_tags\": [\n      \"投影幕布\",\n      \"作业要求\",\n      \"教室场景\",\n      \"摄影课程\",\n      \"幻灯片\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"教室或 lecture hall\",\n    \"subjects\": [\n      \"投影幕布\",\n      \"幻灯片内容\",\n      \"左下角的人物头部\"\n    ],\n    \"actions\": [\n      \"展示\",\n      \"投影\"\n    ],\n    \"attributes\": [\n      \"白底黑字\",\n      \"列表格式\",\n      \"包含示例图片\",\n      \"顶部有投影仪设备\"\n    ],\n    \"relations\": [\n      \"幕布悬挂于黑板前方\",\n      \"文字位于左侧，图片位于右侧\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"白色投影幕布上显示着标题为“作业”的幻灯片页面。\",\n      \"幻灯片左侧列出了多条关于拍摄照片的要求文本。\",\n      \"幻灯片右侧展示了一张垂直构图的人物照片作为示例。\",\n      \"幕布上方天花板悬挂着黑色的投影仪设备。\",\n      \"画面左下角可见一名男子的部分头部和肩部。\",\n      \"幕布底部中央印有“华中科技大学”字样及校徽。\"\n    ],\n    \"cautious_inferences\": [\n      \"这可能是一堂关于摄影或视觉艺术的大学课程现场。\",\n      \"屏幕上的内容是老师布置给学生的课后练习。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定拍摄该照片的具体日期和时间。\",\n      \"左下角人物的具体身份（如是否为讲师）无法确认。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"作业\",\n      \"拍摄五张不同照片，要求：\",\n      \"需要在不同的时间段（早、中、晚）\",\n      \"要有明确的前景和背景（不能只有景色）\",\n      \"背景或前景本身有深度变化\",\n      \"前景和背景之间有明显深度差异\",\n      \"运用至少一种构图规则\",\n      \"具有美学特征\",\n      \"各班学习委员收齐后发送到邮箱：hlu@hust.edu.cn\",\n      \"华中科技大学\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张在教室内拍摄的照片，主要展示了投影幕布上的演示文稿，内容涉及摄影作业的具体要求列表及示例图片。\",\n    \"safe_facts\": [\n      \"场景包含投影幕布和天花板上的投影设备。\",\n      \"幕布上显示有分条列出的文本信息和一张配图。\",\n      \"画面边缘出现了真人的局部影像。\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 708,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 708,
+        "total_tokens": 3935,
+        "estimated_cost_cny": 0.012118,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "课堂投影作业说明",
+          "short_description": "教室内投影幕布显示一份摄影作业要求，列出了拍摄五张不同照片的具体标准，右侧配有一张人物示例图，底部可见大学校名标识。",
+          "micro_tags": [
+            "投影幕布",
+            "作业要求",
+            "教室场景",
+            "摄影课程",
+            "幻灯片"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "教室或 lecture hall",
+          "subjects": [
+            "投影幕布",
+            "幻灯片内容",
+            "左下角的人物头部"
+          ],
+          "actions": [
+            "展示",
+            "投影"
+          ],
+          "attributes": [
+            "白底黑字",
+            "列表格式",
+            "包含示例图片",
+            "顶部有投影仪设备"
+          ],
+          "relations": [
+            "幕布悬挂于黑板前方",
+            "文字位于左侧，图片位于右侧"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "白色投影幕布上显示着标题为“作业”的幻灯片页面。",
+            "幻灯片左侧列出了多条关于拍摄照片的要求文本。",
+            "幻灯片右侧展示了一张垂直构图的人物照片作为示例。",
+            "幕布上方天花板悬挂着黑色的投影仪设备。",
+            "画面左下角可见一名男子的部分头部和肩部。",
+            "幕布底部中央印有“华中科技大学”字样及校徽。"
+          ],
+          "cautious_inferences": [
+            "这可能是一堂关于摄影或视觉艺术的大学课程现场。",
+            "屏幕上的内容是老师布置给学生的课后练习。"
+          ],
+          "uncertainties": [
+            "无法确定拍摄该照片的具体日期和时间。",
+            "左下角人物的具体身份（如是否为讲师）无法确认。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "作业",
+            "拍摄五张不同照片，要求：",
+            "需要在不同的时间段（早、中、晚）",
+            "要有明确的前景和背景（不能只有景色）",
+            "背景或前景本身有深度变化",
+            "前景和背景之间有明显深度差异",
+            "运用至少一种构图规则",
+            "具有美学特征",
+            "各班学习委员收齐后发送到邮箱：hlu@hust.edu.cn",
+            "华中科技大学"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张在教室内拍摄的照片，主要展示了投影幕布上的演示文稿，内容涉及摄影作业的具体要求列表及示例图片。",
+          "safe_facts": [
+            "场景包含投影幕布和天花板上的投影设备。",
+            "幕布上显示有分条列出的文本信息和一张配图。",
+            "画面边缘出现了真人的局部影像。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 575124,
+        "request_bytes": 428270,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.874963900001603,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "92e43fb8ab345e2d748168a373e5b54e842481b3e3b1bae1722db97554a64206"
+}

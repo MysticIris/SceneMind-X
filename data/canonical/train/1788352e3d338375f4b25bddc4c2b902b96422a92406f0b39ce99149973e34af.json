@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:135.jpg",
+    "relative_path": "train/135.jpg",
+    "sha256": "1788352e3d338375f4b25bddc4c2b902b96422a92406f0b39ce99149973e34af",
+    "split": "train"
+  },
+  "canonical_sha256": "806bff6f6ef017745543f79b5d5d6ed20f9efa5b3d67423da6cf876da4fbc6ff",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "玉衣",
+      "古代葬服",
+      "玻璃展柜"
+    ],
+    "short_description": "一件由玉片拼接而成的古代葬服，平躺在玻璃展柜内，表面有红色丝线缝合痕迹。",
+    "theme": "金缕玉衣展品"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "物体由多块方形玉片拼接而成。",
+      "物体被放置在棕色展台上，周围有玻璃围栏。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "由玉片构成",
+      "有红色丝线缝合",
+      "平躺姿态"
+    ],
+    "relations": [
+      "玉衣位于展柜内。"
+    ],
+    "scene": "博物馆展柜内",
+    "subjects": [
+      "玉衣"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "物体由多块方形玉片拼接而成；物体被放置在棕色展台上，周围有玻璃围栏。",
+    "safe_facts": [
+      "物体由多块方形玉片拼接而成。",
+      "物体被放置在棕色展台上，周围有玻璃围栏。"
+    ]
+  },
+  "label_id": "cpl_ef3042805f70b3e8f7bf137f",
+  "provenance": {
+    "generated_at": "2026-08-03T09:35:07.262124+00:00",
+    "migrated_at": "2026-08-03T09:35:07.263541+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ed4116593395261d2d3c525bf235c1a19bdadad5286c712d9a17c127291e57b5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6b5bd6105c21020828dfd0d8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:40.994182+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6b5bd6105c21020828dfd0d8",
+    "cpl_28eb5557b236a3ba4976cb32"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

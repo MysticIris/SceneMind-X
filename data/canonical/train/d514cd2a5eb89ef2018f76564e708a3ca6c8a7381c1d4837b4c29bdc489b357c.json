@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:899.jpg",
+    "relative_path": "train/899.jpg",
+    "sha256": "d514cd2a5eb89ef2018f76564e708a3ca6c8a7381c1d4837b4c29bdc489b357c",
+    "split": "train"
+  },
+  "canonical_sha256": "6a3e96b035ee01302a1fb13f99e4f7e5715a9b53bd5c06ef84e60ab3b747d6ff",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市公园",
+      "黄昏",
+      "雕塑",
+      "高层建筑"
+    ],
+    "short_description": "傍晚时分，城市公园草坪上矗立着一座雕塑，背景是高层住宅楼与现代建筑，天空泛着暖色霞光。",
+    "theme": "城市公园黄昏景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "雕塑可能具有象征性或纪念意义，但具体造型无法确认。"
+    ],
+    "direct_observations": [
+      "天空呈现橙黄色调，表明是黄昏时段。",
+      "草坪上有修剪整齐的灌木和棕榈类植物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黄昏光线",
+      "绿色草坪",
+      "修剪整齐的灌木",
+      "多云天空"
+    ],
+    "relations": [
+      "雕塑位于草坪中央。",
+      "住宅楼位于画面左侧。",
+      "现代建筑位于画面右侧。"
+    ],
+    "scene": "城市公园",
+    "subjects": [
+      "雕塑",
+      "高层住宅楼",
+      "现代建筑",
+      "树木",
+      "草坪",
+      "道路"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "雕塑可能具有象征性或纪念意义，但具体造型无法确认。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现橙黄色调，表明是黄昏时段；草坪上有修剪整齐的灌木和棕榈类植物。",
+    "safe_facts": [
+      "天空呈现橙黄色调，表明是黄昏时段。",
+      "草坪上有修剪整齐的灌木和棕榈类植物。"
+    ]
+  },
+  "label_id": "cpl_e897e75389bbeb74816a5d38",
+  "provenance": {
+    "generated_at": "2026-08-03T12:46:42.410432+00:00",
+    "migrated_at": "2026-08-03T12:46:42.414071+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "886ce26c13c84a4cacd4b390274594da8091d0ff4e78b95655daf5ca3206f134",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_cbef22d57fed3fd5b9d84531",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:46:42.414448+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_cbef22d57fed3fd5b9d84531"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

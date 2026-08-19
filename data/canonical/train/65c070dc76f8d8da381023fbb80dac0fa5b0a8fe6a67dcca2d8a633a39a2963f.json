@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1317.jpg",
+    "relative_path": "train/1317.jpg",
+    "sha256": "65c070dc76f8d8da381023fbb80dac0fa5b0a8fe6a67dcca2d8a633a39a2963f",
+    "split": "train"
+  },
+  "canonical_sha256": "edec0df0d3fe350ff93e9a9601e731132115ed562239fc2fd2317f95dc16998a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "铜像",
+      "城市广场",
+      "日落",
+      "高楼"
+    ],
+    "short_description": "夕阳下，一座大型铜像背对镜头，手指向前方街道，周围是高楼大厦和花坛，行人穿梭其间。",
+    "theme": "城市广场日落"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中心是一座大型铜像，其右手抬起指向远方。",
+      "广场地面铺有浅色地砖，四周有花坛装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "铜像指向远方",
+      "行人行走"
+    ],
+    "attributes": [
+      "铜像呈深棕色",
+      "花坛有彩色花卉",
+      "天空呈金色"
+    ],
+    "relations": [
+      "铜像位于广场中央。",
+      "行人分布在广场各处。",
+      "建筑物环绕广场。"
+    ],
+    "scene": "城市广场",
+    "subjects": [
+      "铜像",
+      "行人",
+      "建筑物",
+      "花坛"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中心是一座大型铜像，其右手抬起指向远方；广场地面铺有浅色地砖，四周有花坛装饰。",
+    "safe_facts": [
+      "画面中心是一座大型铜像，其右手抬起指向远方。",
+      "广场地面铺有浅色地砖，四周有花坛装饰。"
+    ]
+  },
+  "label_id": "cpl_49870ade9de89bf9346552ae",
+  "provenance": {
+    "generated_at": "2026-08-03T14:07:20.631290+00:00",
+    "migrated_at": "2026-08-03T14:07:20.634118+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3b92b2e534d08646063d1b40abab9f2f6c1105053aa5dced541d5fc565d1c2d7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4c2bef38392e2584c4d6c043",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:07:20.634483+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4c2bef38392e2584c4d6c043"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

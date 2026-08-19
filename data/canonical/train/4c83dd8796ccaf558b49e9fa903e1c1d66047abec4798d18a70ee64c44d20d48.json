@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1825.jpg",
+    "relative_path": "train/1825.jpg",
+    "sha256": "4c83dd8796ccaf558b49e9fa903e1c1d66047abec4798d18a70ee64c44d20d48",
+    "split": "train"
+  },
+  "canonical_sha256": "15e835efde815bf37088eba1b0f0528dda07567a7a471f8a42bf2b513e7b703a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪景",
+      "铁路",
+      "山村",
+      "冬季"
+    ],
+    "short_description": "从行驶列车车窗望见雪覆铁轨与山间村落，树木与房屋被薄雪覆盖，远处山峦朦胧。",
+    "theme": "雪中乡村铁路"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "铁轨上覆盖着一层薄雪。",
+      "山坡与树木部分被雪覆盖。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "覆盖积雪",
+      "灰蒙天空",
+      "枯草丛生"
+    ],
+    "relations": [
+      "铁轨位于前景。",
+      "房屋位于中景。",
+      "山丘位于背景。"
+    ],
+    "scene": "山区乡村铁路沿线",
+    "subjects": [
+      "铁轨",
+      "房屋",
+      "树木",
+      "山丘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "铁轨上覆盖着一层薄雪；山坡与树木部分被雪覆盖。",
+    "safe_facts": [
+      "铁轨上覆盖着一层薄雪。",
+      "山坡与树木部分被雪覆盖。"
+    ]
+  },
+  "label_id": "cpl_2310f69f541e53857cc2bc44",
+  "provenance": {
+    "generated_at": "2026-08-03T15:10:29.600836+00:00",
+    "migrated_at": "2026-08-03T15:10:29.602577+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cc7cf9295eaa2948a500c2e1a944d68d97380142deaeec61b5b27a37ddb6ee3f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a627d466b830b1de3689b9df",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:10:29.602768+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a627d466b830b1de3689b9df"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

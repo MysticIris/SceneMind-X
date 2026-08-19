@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1393.jpg",
+    "relative_path": "train/1393.jpg",
+    "sha256": "32a115e2de0b0c272fb7e579edfb6cad9c01bb25c7881af2f654b55c065ec1bf",
+    "split": "train"
+  },
+  "canonical_sha256": "a6b3d76484b6b170a3df09aa7fbfe517382222cfa860f736a17b4e14c6ad7d26",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "微信红包",
+      "聊天界面"
+    ],
+    "short_description": "手机屏幕截图显示微信聊天界面，多个红包消息气泡排列整齐，背景为浅色。",
+    "theme": "微信红包对话界面"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕顶部显示时间 09：29 和电池电量 93%。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "橙色背景",
+      "红色红包图标"
+    ],
+    "relations": [],
+    "scene": "手机微信聊天界面",
+    "subjects": [
+      "红包消息气泡",
+      "用户头像"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕顶部显示时间 09：29 和电池电量 93%。",
+    "safe_facts": [
+      "屏幕顶部显示时间 09：29 和电池电量 93%。"
+    ]
+  },
+  "label_id": "cpl_802ce157e5fbf1149cdb975f",
+  "provenance": {
+    "generated_at": "2026-08-03T14:18:42.804903+00:00",
+    "migrated_at": "2026-08-03T14:18:42.806937+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "00d3fb1b9945709b49c8a5ae1493e9859d84f2a0ee8533d06eeeaf43eef110f0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_cf950f6187e178ea7b61516d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:18:42.807905+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_cf950f6187e178ea7b61516d"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "别眨眼",
+      "仪式感来了哦",
+      "一个世界一个你",
+      "两人同心我和你",
+      "三生有幸遇见你",
+      "四季如春想念你"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "别眨眼",
+      "仪式感来了哦",
+      "一个世界一个你",
+      "两人同心我和你",
+      "三生有幸遇见你",
+      "四季如春想念你"
+    ]
+  }
+}

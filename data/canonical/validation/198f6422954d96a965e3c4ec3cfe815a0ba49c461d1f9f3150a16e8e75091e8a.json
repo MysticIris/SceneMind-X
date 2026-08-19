@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2353.jpg",
+    "relative_path": "val/2353.jpg",
+    "sha256": "198f6422954d96a965e3c4ec3cfe815a0ba49c461d1f9f3150a16e8e75091e8a",
+    "split": "val"
+  },
+  "canonical_sha256": "3075068bdc5019fd0df0e2e5d6bc19b1aaef410a0a835b221134b47911adcf89",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "红色城楼",
+      "金色屋檐"
+    ],
+    "short_description": "夜晚灯光照亮的红色城楼，顶部有金色屋檐和红色灯笼，前方有金属栏杆和宽阔台阶。",
+    "theme": "夜景建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑物在夜间被灯光照亮。",
+      "城楼顶部有金色屋檐和红色灯笼。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "被灯光照亮",
+      "红色墙体",
+      "金色屋顶"
+    ],
+    "relations": [
+      "栏杆位于台阶两侧。",
+      "灯笼悬挂在城楼下方。"
+    ],
+    "scene": "夜间城市建筑",
+    "subjects": [
+      "城楼",
+      "灯笼",
+      "栏杆",
+      "台阶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑物在夜间被灯光照亮；城楼顶部有金色屋檐和红色灯笼。",
+    "safe_facts": [
+      "建筑物在夜间被灯光照亮。",
+      "城楼顶部有金色屋檐和红色灯笼。"
+    ]
+  },
+  "label_id": "cpl_8c5c944d137a627bb4d4cad0",
+  "provenance": {
+    "generated_at": "2026-08-03T16:30:38.312242+00:00",
+    "migrated_at": "2026-08-03T16:30:38.313635+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "19ff5f031eb6adccff7674593c30155a1480a4ac1747b490ccd418a2362b92ff",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_41fb40be280f3f8727cb79f1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:30:38.313818+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_41fb40be280f3f8727cb79f1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

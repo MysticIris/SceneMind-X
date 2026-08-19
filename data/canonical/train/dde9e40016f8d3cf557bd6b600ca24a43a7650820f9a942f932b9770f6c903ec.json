@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1293.jpg",
+    "relative_path": "train/1293.jpg",
+    "sha256": "dde9e40016f8d3cf557bd6b600ca24a43a7650820f9a942f932b9770f6c903ec",
+    "split": "train"
+  },
+  "canonical_sha256": "76f94dc4756bf1a219cdc74f0a3ee40e97072c2333c58e96707b1c4cea2aeb13",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "木地板",
+      "地面",
+      "模糊图像"
+    ],
+    "short_description": "一张模糊的室内地板照片，呈现木质或石质拼接纹理，左下角有方形物体边缘，右上角隐约可见人脚。",
+    "theme": "地面纹理特写"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "图像整体模糊，细节不清。"
+    ],
+    "direct_observations": [
+      "地板由多块长条状板材拼接而成。",
+      "左下角有一个方形物体的边缘露出。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质或石质纹理",
+      "拼接结构",
+      "模糊"
+    ],
+    "relations": [
+      "方形物体边缘位于地板左侧。"
+    ],
+    "scene": "室内地面",
+    "subjects": [
+      "地板",
+      "方形物体边缘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "图像整体模糊，细节不清。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地板由多块长条状板材拼接而成；左下角有一个方形物体的边缘露出。",
+    "safe_facts": [
+      "地板由多块长条状板材拼接而成。",
+      "左下角有一个方形物体的边缘露出。"
+    ]
+  },
+  "label_id": "cpl_947cc135bc6fcbea4569b617",
+  "provenance": {
+    "generated_at": "2026-08-03T14:04:07.366889+00:00",
+    "migrated_at": "2026-08-03T14:04:07.369968+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c7fadbb1dcdb69c829ce163ebe64935a9cfae169402f99094d3282b6f89c331b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1201c08502f4b15d195ac4c7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:04:07.370296+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1201c08502f4b15d195ac4c7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

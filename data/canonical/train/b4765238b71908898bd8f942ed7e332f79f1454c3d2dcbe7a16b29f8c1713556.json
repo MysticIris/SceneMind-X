@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:827.jpg",
+    "relative_path": "train/827.jpg",
+    "sha256": "b4765238b71908898bd8f942ed7e332f79f1454c3d2dcbe7a16b29f8c1713556",
+    "split": "train"
+  },
+  "canonical_sha256": "856df3810340bf922c1a57d2b4377d8fd5e7c337c319cc16d245da136e016f74",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "手持相机",
+      "长焦镜头",
+      "相机机身",
+      "蓝色地面"
+    ],
+    "short_description": "一只手握着一台配备长焦镜头的相机，背景为蓝色地面，镜头上标有焦距参数。",
+    "theme": "手持相机特写"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "相机镜头上有刻度标记，包括200、135、105、70、50、35、24。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "握持"
+    ],
+    "attributes": [
+      "黑色镜头",
+      "银色相机机身",
+      "棕色皮质相机带"
+    ],
+    "relations": [
+      "手握持相机。",
+      "镜头安装在相机上。"
+    ],
+    "scene": "室内或室外场地",
+    "subjects": [
+      "手",
+      "相机",
+      "镜头"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "相机镜头上有刻度标记，包括200、135、105、70、50、35、24。",
+    "safe_facts": [
+      "相机镜头上有刻度标记，包括200、135、105、70、50、35、24。"
+    ]
+  },
+  "label_id": "cpl_a8eb6f6f432ff07475bbccba",
+  "provenance": {
+    "generated_at": "2026-08-03T12:31:28.120200+00:00",
+    "migrated_at": "2026-08-03T12:31:28.123910+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b0c9d4293a8614948c6c8cc2c08aabb8d170ca0c5d999d3e4585e94bb2c7ce8d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_86deb36de83d1585f57579b8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:31:28.125349+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_86deb36de83d1585f57579b8"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "24-200/4-6.3",
+      "AUTO",
+      "M A S P",
+      "N J A N",
+      "ULTRA"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "24-200/4-6.3",
+      "AUTO",
+      "M A S P",
+      "N J A N",
+      "ULTRA"
+    ]
+  }
+}

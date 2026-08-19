@@ -1,0 +1,115 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:36.jpg",
+    "relative_path": "train/36.jpg",
+    "sha256": "b07019deb0cd3b704eec5faefc31f6be515e4296755fd6f19bac131418fb2af5",
+    "split": "train"
+  },
+  "canonical_sha256": "78e85fb80df6455b0238dec5ead02e4b8992a1c68fbcec57a78f46ce426eac93",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "手绘插画",
+      "卡通小熊",
+      "凌乱头发"
+    ],
+    "short_description": "一张棕色纸张上绘制了黑色小熊和凌乱头发的人物形象。",
+    "theme": "手绘卡通插画"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "纸上绘制有黑色小熊图案。",
+      "人物头发以潦草线条表现。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色小熊戴粉色项圈",
+      "人物头发凌乱"
+    ],
+    "relations": [],
+    "scene": "纸张上的手绘画面",
+    "subjects": [
+      "黑色小熊",
+      "凌乱头发的人物"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "纸上绘制有黑色小熊图案；人物头发以潦草线条表现。",
+    "safe_facts": [
+      "纸上绘制有黑色小熊图案。",
+      "人物头发以潦草线条表现。"
+    ]
+  },
+  "label_id": "cpl_37e51448279c41409af2c1ab",
+  "provenance": {
+    "generated_at": "2026-08-03T09:11:29.681070+00:00",
+    "migrated_at": "2026-08-03T09:11:29.683099+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "457d418d76502d27727388bd9e3dd5cd265cf67e6023c7f5d34fcc56ae5fba74",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_272ca0568c71f70a660765a9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:26.526166+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_272ca0568c71f70a660765a9",
+    "cpl_4e1ddae247714523d20fce1f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

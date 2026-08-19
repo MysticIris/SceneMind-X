@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:76.jpg",
+    "relative_path": "train/76.jpg",
+    "sha256": "100d3f1cdda0fea095db1c84bf468741d8cd482b144e7778ababee099b7ec5c8",
+    "split": "train"
+  },
+  "canonical_sha256": "76f38e3d5e9a9dd958ff167c93efa5d6b1618253634eec8919fac0945010a834",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "海景",
+      "窗框",
+      "礁石",
+      "海浪"
+    ],
+    "short_description": "透过方形窗框望向碧蓝大海，浪花拍打礁石，远处有小岛轮廓，阳光洒在窗沿。",
+    "theme": "海景窗框视角"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线从左侧照射窗框，产生暖色阴影。"
+    ],
+    "direct_observations": [
+      "画面通过方形窗框构图。",
+      "海水呈蓝绿色，有波纹和白色浪花。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "拍打",
+      "涌动"
+    ],
+    "attributes": [
+      "蓝色海水",
+      "晴朗天空",
+      "混凝土窗框"
+    ],
+    "relations": [
+      "窗框框住海景。",
+      "海浪冲击礁石。"
+    ],
+    "scene": "海边",
+    "subjects": [
+      "窗框",
+      "海洋",
+      "礁石",
+      "海浪"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线从左侧照射窗框，产生暖色阴影。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面通过方形窗框构图；海水呈蓝绿色，有波纹和白色浪花。",
+    "safe_facts": [
+      "画面通过方形窗框构图。",
+      "海水呈蓝绿色，有波纹和白色浪花。"
+    ]
+  },
+  "label_id": "cpl_a126ed542e10f8361122c9f2",
+  "provenance": {
+    "generated_at": "2026-08-03T09:20:27.059239+00:00",
+    "migrated_at": "2026-08-03T09:20:27.061472+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0109abe020b423ec8b17b47f459296182b236411a2156c4b3effb05ae0ef4796",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_10d30849365c3c91175b1179",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:28.251062+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_10d30849365c3c91175b1179",
+    "cpl_8d8ae64cafa540dfae5b302e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

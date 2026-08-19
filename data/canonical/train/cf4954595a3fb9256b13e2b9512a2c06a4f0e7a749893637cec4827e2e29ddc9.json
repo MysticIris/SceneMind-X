@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1264.jpg",
+    "relative_path": "train/1264.jpg",
+    "sha256": "cf4954595a3fb9256b13e2b9512a2c06a4f0e7a749893637cec4827e2e29ddc9",
+    "split": "train"
+  },
+  "canonical_sha256": "199a964ae0240e7a0052f81f3d8e1fdb1e2b655122fc6eda4eae37c637ba3b69",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电动车",
+      "小狗",
+      "睡着",
+      "人行道"
+    ],
+    "short_description": "一辆绿色电动车停在铺砖人行道旁，一只棕色小狗蜷缩在车轮边睡觉，背景是瓷砖墙和带栏杆的窗户。",
+    "theme": "街边电动车与小狗"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有绿色电动车和一只棕色小狗。",
+      "小狗蜷缩在地面，身体呈睡眠姿态。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "睡觉"
+    ],
+    "attributes": [
+      "绿色车身",
+      "黑色座椅",
+      "波浪形地砖",
+      "瓷砖墙面",
+      "金属窗栏"
+    ],
+    "relations": [
+      "小狗位于电动车旁。",
+      "电动车停放在人行道上。"
+    ],
+    "scene": "户外人行道旁",
+    "subjects": [
+      "绿色电动车",
+      "棕色小狗"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有绿色电动车和一只棕色小狗；小狗蜷缩在地面，身体呈睡眠姿态。",
+    "safe_facts": [
+      "画面中有绿色电动车和一只棕色小狗。",
+      "小狗蜷缩在地面，身体呈睡眠姿态。"
+    ]
+  },
+  "label_id": "cpl_00dad295041820477df483fe",
+  "provenance": {
+    "generated_at": "2026-08-03T14:00:06.564318+00:00",
+    "migrated_at": "2026-08-03T14:00:06.568163+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "10f0ff895487425a20f7ef40e83a16f78c4c36910c95b994d743a077cfc17f08",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3032a2a676a1c22b99dd29b2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:00:06.568515+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3032a2a676a1c22b99dd29b2"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

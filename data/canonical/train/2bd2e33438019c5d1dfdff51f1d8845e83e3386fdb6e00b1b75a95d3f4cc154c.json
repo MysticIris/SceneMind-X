@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:460.jpg",
+    "relative_path": "train/460.jpg",
+    "sha256": "2bd2e33438019c5d1dfdff51f1d8845e83e3386fdb6e00b1b75a95d3f4cc154c",
+    "split": "train"
+  },
+  "canonical_sha256": "0007d5d3674ec0fe98e327fbc5d5db60ffcc7648746a95f6ba4b46d148b5a255",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "梅花",
+      "春日",
+      "公园",
+      "游客"
+    ],
+    "short_description": "公园里盛开的粉色梅花树下，游客们驻足观赏，背景是绿草和更多花树。",
+    "theme": "春日赏花"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央是一棵开满粉红色梅花的树。",
+      "树下有多位游客正在观看。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "观赏",
+      "站立"
+    ],
+    "attributes": [
+      "粉红色花朵",
+      "绿色草地",
+      "晴朗天空"
+    ],
+    "relations": [
+      "游客站在梅花树旁。",
+      "梅花树位于草地上。"
+    ],
+    "scene": "户外公园",
+    "subjects": [
+      "梅花树",
+      "游客"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是一棵开满粉红色梅花的树；树下有多位游客正在观看。",
+    "safe_facts": [
+      "画面中央是一棵开满粉红色梅花的树。",
+      "树下有多位游客正在观看。"
+    ]
+  },
+  "label_id": "cpl_b1078c30b4267c3cae9903cb",
+  "provenance": {
+    "generated_at": "2026-08-03T11:07:55.676461+00:00",
+    "migrated_at": "2026-08-03T11:07:55.677782+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c1403c71334303b99453a040b1f0555d071cb033630d33d10edefe1485f68543",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3f355e71231f5e877553e3f0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:07:55.677969+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3f355e71231f5e877553e3f0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

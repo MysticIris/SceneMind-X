@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:134.jpg",
+    "relative_path": "train/134.jpg",
+    "sha256": "0b5739fefd7bda2bcf389d5ed8f9fe52d10a9d8caf20cafb6e77d7f0ef0b4edf",
+    "split": "train"
+  },
+  "canonical_sha256": "719964baccade8c625deb2ea25599ada785ad63102712aa78c8fdefbdae60943",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蓝色穹顶",
+      "几何网格",
+      "圆形灯饰",
+      "暖光装饰"
+    ],
+    "short_description": "蓝色几何网格穹顶下悬挂圆形发光装置，周围墙壁有暖光装饰，整体呈现现代艺术空间感。",
+    "theme": "蓝色穹顶建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "穹顶由蓝色几何线条构成网格状结构。",
+      "中央悬挂一个环形发光装置，边缘有橙黄色小灯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色",
+      "几何图案",
+      "发光",
+      "暖色灯光"
+    ],
+    "relations": [
+      "穹顶结构覆盖整个空间。",
+      "照明装置位于穹顶中心。",
+      "墙壁装饰与穹顶结构相邻。"
+    ],
+    "scene": "室内穹顶结构",
+    "subjects": [
+      "穹顶结构",
+      "中央照明装置",
+      "墙壁装饰"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "穹顶由蓝色几何线条构成网格状结构；中央悬挂一个环形发光装置，边缘有橙黄色小灯。",
+    "safe_facts": [
+      "穹顶由蓝色几何线条构成网格状结构。",
+      "中央悬挂一个环形发光装置，边缘有橙黄色小灯。"
+    ]
+  },
+  "label_id": "cpl_9327ba0bff7f8310bd7bc826",
+  "provenance": {
+    "generated_at": "2026-08-03T09:34:55.566637+00:00",
+    "migrated_at": "2026-08-03T09:34:55.568740+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f117166dd0939f677c034e5b6d85aad19741691d11685a848c9f10107580242b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1a03bc85ba9ffa45a4ae4de4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:40.932052+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1a03bc85ba9ffa45a4ae4de4",
+    "cpl_782217f6cca1dcc7259f3dbf"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

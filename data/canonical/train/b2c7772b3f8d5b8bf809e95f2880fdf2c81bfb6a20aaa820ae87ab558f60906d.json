@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:741.jpg",
+    "relative_path": "train/741.jpg",
+    "sha256": "b2c7772b3f8d5b8bf809e95f2880fdf2c81bfb6a20aaa820ae87ab558f60906d",
+    "split": "train"
+  },
+  "canonical_sha256": "2162bc6b0042e3bb85fe016f5ce60a81a5c7d596488e568886db2f905ebe09af",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "自行车",
+      "电动车",
+      "街边停放",
+      "铺砖地面"
+    ],
+    "short_description": "一辆深色山地自行车停放在铺砖路面上，周围有多辆电动车和摩托车，场景为户外停车区域。",
+    "theme": "街边停放的自行车与电动车"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "自行车旁停放着多辆电动车和摩托车，地面为灰色砖块铺设。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "自行车有车篮",
+      "自行车有脚踏板",
+      "电动车有黑色座椅"
+    ],
+    "relations": [
+      "自行车停放在电动车旁边。",
+      "多辆车并排停放。"
+    ],
+    "scene": "户外铺砖地面的停车区域",
+    "subjects": [
+      "自行车",
+      "电动车",
+      "摩托车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "自行车旁停放着多辆电动车和摩托车，地面为灰色砖块铺设。",
+    "safe_facts": [
+      "自行车旁停放着多辆电动车和摩托车，地面为灰色砖块铺设。"
+    ]
+  },
+  "label_id": "cpl_592c1db5e1e12f3c7cb3bf7c",
+  "provenance": {
+    "generated_at": "2026-08-03T12:13:12.236222+00:00",
+    "migrated_at": "2026-08-03T12:13:12.239096+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6777228005f7ac84171d9a9a625e97a2cafa5631a07c35dc5664071f8d64a6d8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7ea6735ab7662cea25d61870",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:13:12.239504+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7ea6735ab7662cea25d61870"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

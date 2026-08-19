@@ -1,0 +1,114 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1602.jpg",
+    "relative_path": "train/1602.jpg",
+    "sha256": "f489e378f332daf77fc55c30d0d899f9c965f20433177da9a73a128b7eb818df",
+    "split": "train"
+  },
+  "canonical_sha256": "e751a571ff63602a14951b322645b1f75af7db3334f385f6f0968785ee8eb37b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "模糊图像",
+      "熊猫头像",
+      "黑白图像"
+    ],
+    "short_description": "一张严重模糊的黑白图像，呈现类似熊猫头部的轮廓，中央有隐约的绿色条纹状痕迹。",
+    "theme": "模糊熊猫头像"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像整体呈模糊状态，无法辨识细节。",
+      "图像主体呈现类似熊猫头部的形状，包括黑色区域和白色区域。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "模糊",
+      "黑白",
+      "中心有绿色痕迹"
+    ],
+    "relations": [],
+    "scene": "",
+    "subjects": [
+      "熊猫头部轮廓"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像整体呈模糊状态，无法辨识细节；图像主体呈现类似熊猫头部的形状，包括黑色区域和白色区域。",
+    "safe_facts": [
+      "图像整体呈模糊状态，无法辨识细节。",
+      "图像主体呈现类似熊猫头部的形状，包括黑色区域和白色区域。"
+    ]
+  },
+  "label_id": "cpl_50e25445833e76f654f49508",
+  "provenance": {
+    "generated_at": "2026-08-03T14:42:44.738850+00:00",
+    "migrated_at": "2026-08-03T14:42:44.747906+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a283fdf74393548748462c98936e1f78890be25460a4cb52e926e77bc93207ab",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_71cc7c562e24cc036993b2be",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:42:44.749086+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_71cc7c562e24cc036993b2be"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

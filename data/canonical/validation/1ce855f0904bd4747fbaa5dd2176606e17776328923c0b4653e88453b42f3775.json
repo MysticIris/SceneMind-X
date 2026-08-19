@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2062.jpg",
+    "relative_path": "val/2062.jpg",
+    "sha256": "1ce855f0904bd4747fbaa5dd2176606e17776328923c0b4653e88453b42f3775",
+    "split": "val"
+  },
+  "canonical_sha256": "52aec69f37907e155715248a2ecca0e24f175846080824b1eb308417cb66c87f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "火烈鸟",
+      "粉红色",
+      "湿地",
+      "群聚"
+    ],
+    "short_description": "一群粉红色火烈鸟在干燥土地上聚集，部分低头觅食，周围有芦苇丛。",
+    "theme": "粉红火烈鸟群"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "火烈鸟可能正在觅食或休息。"
+    ],
+    "direct_observations": [
+      "多只火烈鸟聚集在地面上。",
+      "火烈鸟羽毛呈粉红色，腿部细长。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "低头"
+    ],
+    "attributes": [
+      "粉红色羽毛",
+      "长腿",
+      "弯曲脖子"
+    ],
+    "relations": [
+      "火烈鸟群聚在一起。",
+      "火烈鸟在芦苇旁。"
+    ],
+    "scene": "户外干燥地面",
+    "subjects": [
+      "火烈鸟"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "火烈鸟可能正在觅食或休息。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多只火烈鸟聚集在地面上；火烈鸟羽毛呈粉红色，腿部细长。",
+    "safe_facts": [
+      "多只火烈鸟聚集在地面上。",
+      "火烈鸟羽毛呈粉红色，腿部细长。"
+    ]
+  },
+  "label_id": "cpl_af5747093369b0a2a57d07c6",
+  "provenance": {
+    "generated_at": "2026-08-03T15:55:00.539325+00:00",
+    "migrated_at": "2026-08-03T15:55:00.540928+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "075d94ff4fa14272bb477f3b52aa357b5f1d35c299e562c3a797fb3a7e1bc756",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3eb59f2cd0d29836ac387a53",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:55:00.541425+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3eb59f2cd0d29836ac387a53"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

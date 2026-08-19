@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:485.jpg",
+    "relative_path": "train/485.jpg",
+    "sha256": "4170fb6aa8d9755203a416e0a650c4383402439a928bb16418920156c202a651",
+    "split": "train"
+  },
+  "canonical_sha256": "c71aaaa85efc1e82cad4ac5a613c050e0bd1f8bdb73bff6f697a406930a6c5b7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "峡谷",
+      "秋叶",
+      "红岩",
+      "自然风光"
+    ],
+    "short_description": "橙红色岩壁夹峙间，一棵金黄树叶的树在峡谷中显得格外醒目，光影交错，色彩浓烈。",
+    "theme": "峡谷秋色"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两座高耸的橙红色砂岩峭壁，中间夹着一棵枝叶繁茂的树。",
+      "树的叶子呈现鲜明的金黄色，与周围岩石颜色形成对比。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "橙红色岩石",
+      "金黄色树叶",
+      "光影效果"
+    ],
+    "relations": [
+      "树木位于峡谷岩壁之间。"
+    ],
+    "scene": "峡谷地貌",
+    "subjects": [
+      "树木",
+      "岩石"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两座高耸的橙红色砂岩峭壁，中间夹着一棵枝叶繁茂的树；树的叶子呈现鲜明的金黄色，与周围岩石颜色形成对比。",
+    "safe_facts": [
+      "画面中有两座高耸的橙红色砂岩峭壁，中间夹着一棵枝叶繁茂的树。",
+      "树的叶子呈现鲜明的金黄色，与周围岩石颜色形成对比。"
+    ]
+  },
+  "label_id": "cpl_32b03c395d8ca07f453a1b76",
+  "provenance": {
+    "generated_at": "2026-08-03T11:13:13.967120+00:00",
+    "migrated_at": "2026-08-03T11:13:13.969185+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dd6564afe9da7228c79550f624f761d92f110cc036aa80ef10ebf380ebff2017",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3797a739bd9d9e66b594c074",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:13:13.969417+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3797a739bd9d9e66b594c074"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:563.jpg",
+    "relative_path": "train/563.jpg",
+    "sha256": "1f779933868b24a54a6fbf8632fe0e2642563de47a00800f33f3a025ec83b24b",
+    "split": "train"
+  },
+  "canonical_sha256": "f12fdb885a6d1745a696e849ecc02f84778da38a07142f0509cbf0dc8c4f51c7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "园林景观",
+      "水道环绕",
+      "石砌花坛"
+    ],
+    "short_description": "绿意盎然的园林景观，环形石砌花坛与蜿蜒水道相映成趣，树木葱郁，草木丰茂。",
+    "theme": "园林水景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该场景可能为人工设计的园林景观。"
+    ],
+    "direct_observations": [
+      "画面中有多个圆形石砌花坛，内植树木。",
+      "水道环绕草坪，水面平静，倒映天空。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色植被",
+      "石质边缘",
+      "圆形花坛",
+      "蜿蜒水道"
+    ],
+    "relations": [
+      "树木位于花坛中央。",
+      "花坛环绕草坪。",
+      "水道沿草坪边缘延伸。"
+    ],
+    "scene": "户外园林",
+    "subjects": [
+      "树木",
+      "草坪",
+      "石砌花坛",
+      "水道",
+      "水生植物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该场景可能为人工设计的园林景观。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个圆形石砌花坛，内植树木；水道环绕草坪，水面平静，倒映天空。",
+    "safe_facts": [
+      "画面中有多个圆形石砌花坛，内植树木。",
+      "水道环绕草坪，水面平静，倒映天空。"
+    ]
+  },
+  "label_id": "cpl_697e345b45ad5aa38093aad4",
+  "provenance": {
+    "generated_at": "2026-08-02T22:30:36.932253+00:00",
+    "migrated_at": "2026-08-03T07:13:41.826667+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8e0124f3673aaea03ae0ffd9f1191c9a99f0b6e65baf1770dfbaa393b4ba24d8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6be52e9de5fb9cd8337ee57b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:33:58.642609+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6be52e9de5fb9cd8337ee57b",
+    "cpl_77332ba07d27cd08b7797a62"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

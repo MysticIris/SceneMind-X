@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1381.jpg",
+    "relative_path": "train/1381.jpg",
+    "sha256": "96cf04f3e9d87eb9c1ad15d579f810c47388b898865815f0acc7afc2e32809de",
+    "split": "train"
+  },
+  "canonical_sha256": "83228209274135cb9a4eed39b215fbfbd7e15baa740316826c4c640fcf6519b4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "玫瑰",
+      "康乃馨",
+      "花束",
+      "花市"
+    ],
+    "short_description": "多束色彩鲜艳的玫瑰与康乃馨被透明包装纸包裹，摆放在花市摊位上，前景有人手持一束花。",
+    "theme": "花束陈列"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多个不同颜色的花束，包括粉色、蓝色、红色和橙色。",
+      "前景有一只手正握着一束由多种颜色花朵组成的花束。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "彩色",
+      "透明包装纸包裹",
+      "塑料桶盛装"
+    ],
+    "relations": [
+      "手持有花束。"
+    ],
+    "scene": "花市摊位",
+    "subjects": [
+      "花束",
+      "手"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个不同颜色的花束，包括粉色、蓝色、红色和橙色；前景有一只手正握着一束由多种颜色花朵组成的花束。",
+    "safe_facts": [
+      "画面中有多个不同颜色的花束，包括粉色、蓝色、红色和橙色。",
+      "前景有一只手正握着一束由多种颜色花朵组成的花束。"
+    ]
+  },
+  "label_id": "cpl_b320ef080136155b07882161",
+  "provenance": {
+    "generated_at": "2026-08-03T14:17:03.889091+00:00",
+    "migrated_at": "2026-08-03T14:17:03.892953+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "aa8f9ce000363bf01c730591da7f920586a9d8fc92eed9498da3e45a7bd68fa6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_daad36ea5e5950170324473b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:17:03.893509+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_daad36ea5e5950170324473b"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "“一束花的仪式感永不过时”"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "“一束花的仪式感永不过时”"
+    ]
+  }
+}

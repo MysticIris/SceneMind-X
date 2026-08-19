@@ -1,0 +1,140 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_4848b9644478be5da30be099",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_a381bd4f5494db31ddc4e482"
+  ],
+  "asset": {
+    "asset_id": "48971ed414064525",
+    "sha256": "48971ed41406452591a53cf25bedf5961082f12786f95ad36df49f14ac3edee1",
+    "split": "user_custom",
+    "relative_path": "user_assets/48/48971ed41406452591a53cf25bedf5961082f12786f95ad36df49f14ac3edee1/48971ed41406452591a53cf25bedf5961082f12786f95ad36df49f14ac3edee1.jpg"
+  },
+  "display": {
+    "theme": "冬季高速公路夜间行车",
+    "short_description": "这是一张从车内视角拍摄的冬季高速公路照片。天色昏暗，路面有积雪和车辙印。前方横跨道路的门架式交通指示牌在灯光照射下清晰可见，标有G11、S13等路线编号及多个地名方向指引，右侧显示距离出口500米。",
+    "micro_tags": [
+      "高速公路",
+      "交通指示牌",
+      "雪天路滑",
+      "夜间驾驶",
+      "第一人称视角",
+      "冬季风景"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "覆盖积雪的高速公路路段，时间为黄昏或夜间",
+    "subjects": [
+      "门架式交通指示牌",
+      "积雪的路面",
+      "远处的山峦轮廓",
+      "路边的树木"
+    ],
+    "actions": [],
+    "attributes": [
+      "路面有车灯照射的反光",
+      "天空呈深蓝色",
+      "道路两侧有护栏"
+    ],
+    "relations": [
+      "指示牌位于道路正上方。",
+      "车辆正行驶在指示牌下方。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "画面中央上方悬挂着两块大型绿色交通指示牌，分别标有G11和S13编号。",
+      "路面大部分被压实的积雪覆盖，中间有明显的深色车轮轨迹。",
+      "右侧指示牌下方标有'500m'及向右的箭头符号。",
+      "背景天空呈现均匀的深蓝色，远处有连绵的山脉剪影。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "G11",
+      "抚松",
+      "长白山景区",
+      "S13",
+      "500m",
+      "出口 846"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "G11",
+      "抚松",
+      "长白山景区",
+      "S13",
+      "500m",
+      "出口 846"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "画面中央上方悬挂着两块大型绿色交通指示牌，分别标有G11和S13编号；路面大部分被压实的积雪覆盖，中间有明显的深色车轮轨迹。",
+    "safe_facts": [
+      "画面中央上方悬挂着两块大型绿色交通指示牌，分别标有G11和S13编号。",
+      "路面大部分被压实的积雪覆盖，中间有明显的深色车轮轨迹。",
+      "右侧指示牌下方标有'500m'及向右的箭头符号。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_7416716a-98fa-4f46-8841-292337e6373d",
+    "generated_at": "2026-08-12T02:58:49.559701+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "5c8da640d1e477467fae46fb50d8e6489a24d84845c30f75cfda8ae6ee18903a",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T02:58:49.560523+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_a381bd4f5494db31ddc4e482",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T02:58:49.560882+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "de0d5d80f2ed388e4b086ff0b9a1e7aaaddddbdc984128f8106fb889d750d89b"
+}

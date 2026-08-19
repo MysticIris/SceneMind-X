@@ -1,0 +1,141 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2080.jpg",
+    "relative_path": "val/2080.jpg",
+    "sha256": "1622d4e69b5d4a9e488e4079d89a80c95b43bce00000cde6d7c9dce65c1e09dc",
+    "split": "val"
+  },
+  "canonical_sha256": "9eed4b5ba90e08941720fbb64483ff846a9eec81b2c9726eba77f1a5c5a9adbe",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜间",
+      "校园",
+      "红色标志"
+    ],
+    "short_description": "夜间户外，红色牌显示距离校庆还有，背景有树木和行人。",
+    "theme": "校庆标志"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像为夜间拍摄。",
+      "标志位于户外人行道旁。",
+      "标志上有发光数字。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色",
+      "发光数字",
+      "白色边框",
+      "树影",
+      "路灯照明"
+    ],
+    "relations": [
+      "行人位于标志左侧。",
+      "标志立于人行道旁。"
+    ],
+    "scene": "夜间户外校园环境",
+    "subjects": [
+      "行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像为夜间拍摄；标志位于户外人行道旁。",
+    "safe_facts": [
+      "图像为夜间拍摄。",
+      "标志位于户外人行道旁。",
+      "标志上有发光数字。"
+    ]
+  },
+  "label_id": "cpl_8a965c328413221d9cab0463",
+  "provenance": {
+    "generated_at": "2026-08-03T15:57:09.184210+00:00",
+    "migrated_at": "2026-08-03T15:57:09.185999+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1c2117124798f2ac66367cddea4e53d246ae77ca2e2717b2c05725a839f6b1e3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d9c18bcdb28254d08b1609bb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:57:09.186613+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d9c18bcdb28254d08b1609bb"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "距武汉大学130周年校庆",
+      "2023年11月29日",
+      "倒计时",
+      "3天",
+      "130",
+      "1893-2023"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "距武汉大学130周年校庆",
+      "2023年11月29日",
+      "倒计时",
+      "3天",
+      "130",
+      "1893-2023"
+    ]
+  }
+}

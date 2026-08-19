@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2104.jpg",
+    "relative_path": "val/2104.jpg",
+    "sha256": "2646f9d0f3492dfb812509c1b2c3893556821c3209bc6f803d764c62f737547d",
+    "split": "val"
+  },
+  "canonical_sha256": "1e91ccbece2044867a172f2430ad84a346deaa3b07a918edd8c7698e6b5e3847",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "研究大纲",
+      "学术写作",
+      "幻灯片",
+      "中文提示"
+    ],
+    "short_description": "一张关于学术研究大纲的幻灯片，包含三个核心问题及其子项，底部附有中文说明。",
+    "theme": "研究问题大纲"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现的是一个演示文稿页面，包含多个问题模块和相关子项。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "包含英文和中文内容",
+      "背景为浅灰色"
+    ],
+    "relations": [],
+    "scene": "电脑屏幕显示的演示文稿页面",
+    "subjects": [
+      "幻灯片标题",
+      "三个问题模块",
+      "中文说明框"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现的是一个演示文稿页面，包含多个问题模块和相关子项。",
+    "safe_facts": [
+      "图像呈现的是一个演示文稿页面，包含多个问题模块和相关子项。"
+    ]
+  },
+  "label_id": "cpl_ae10f4cd6e0277a14d049e8c",
+  "provenance": {
+    "generated_at": "2026-08-03T16:00:36.238727+00:00",
+    "migrated_at": "2026-08-03T16:00:36.241480+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5aa75a1635655d7a79a0fa79528f4b4a0d19c0326ee0d38bf70c87e9ae77f751",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f7644ebae607eee748f50a03",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:00:36.242540+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f7644ebae607eee748f50a03"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Outlines",
+      "What is the research question?",
+      "Why is it important?",
+      "Is it unknown, limitation, or controvers",
+      "What are your aims?",
+      "What do you plan to achieve?"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Outlines",
+      "What is the research question?",
+      "Why is it important?",
+      "Is it unknown, limitation, or controvers",
+      "What are your aims?",
+      "What do you plan to achieve?"
+    ]
+  }
+}

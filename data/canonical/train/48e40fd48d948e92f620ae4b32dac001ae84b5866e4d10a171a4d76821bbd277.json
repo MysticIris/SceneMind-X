@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:217.jpg",
+    "relative_path": "train/217.jpg",
+    "sha256": "48e40fd48d948e92f620ae4b32dac001ae84b5866e4d10a171a4d76821bbd277",
+    "split": "train"
+  },
+  "canonical_sha256": "f2c33b4a7ff560298fbbc5913ae6cd8071b6610a2d89be407f33345f46470d59",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "玉米迷宫",
+      "俯视图",
+      "农田",
+      "秋季景观"
+    ],
+    "short_description": "俯瞰视角下的方形玉米迷宫，周围环绕着农田和简易建筑，阳光下呈现温暖色调。",
+    "theme": "玉米迷宫"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像从高空俯拍，显示一个规则的方形玉米迷宫。",
+      "迷宫外围是开阔的农田，边缘有土路和几座小型棚屋。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "方形",
+      "由玉米植株构成",
+      "有路径和图案",
+      "阳光照射"
+    ],
+    "relations": [
+      "迷宫位于农田中央。",
+      "建筑分布在迷宫周边。"
+    ],
+    "scene": "户外农田区域",
+    "subjects": [
+      "玉米迷宫",
+      "农田",
+      "简易建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像从高空俯拍，显示一个规则的方形玉米迷宫；迷宫外围是开阔的农田，边缘有土路和几座小型棚屋。",
+    "safe_facts": [
+      "图像从高空俯拍，显示一个规则的方形玉米迷宫。",
+      "迷宫外围是开阔的农田，边缘有土路和几座小型棚屋。"
+    ]
+  },
+  "label_id": "cpl_887cb66c778835b05f25e11c",
+  "provenance": {
+    "generated_at": "2026-08-03T10:18:31.809668+00:00",
+    "migrated_at": "2026-08-03T10:18:31.811762+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "afd2e7680be55e999fd673dea2ed2822fe869aeb1505e52f123f8f4f997e10c5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_676349381ad09aef2055dcbc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:18:31.812130+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_676349381ad09aef2055dcbc"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

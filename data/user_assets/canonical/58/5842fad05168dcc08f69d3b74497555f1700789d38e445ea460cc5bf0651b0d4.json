@@ -1,0 +1,146 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_7b628af446049a6423e67f97",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_0708e9451c53045546bc977e"
+  ],
+  "asset": {
+    "asset_id": "5842fad05168dcc0",
+    "sha256": "5842fad05168dcc08f69d3b74497555f1700789d38e445ea460cc5bf0651b0d4",
+    "split": "user_custom",
+    "relative_path": "user_assets/58/5842fad05168dcc08f69d3b74497555f1700789d38e445ea460cc5bf0651b0d4/5842fad05168dcc08f69d3b74497555f1700789d38e445ea460cc5bf0651b0d4.png"
+  },
+  "display": {
+    "theme": "电子电路原理图",
+    "short_description": "这是一张使用嘉立创EDA绘制的电子技术课设原理图。图中展示了FPGA芯片与SRAM存储器的连接电路，包含详细的引脚定义、网络标号及电源去耦电容，底部有标准工程标题栏。",
+    "micro_tags": [
+      "原理图",
+      "FPGA",
+      "SRAM",
+      "嘉立创EDA",
+      "电路设计",
+      "电子技术"
+    ]
+  },
+  "facts": {
+    "visual_medium": "illustration",
+    "scene": "电子工程设计软件界面",
+    "subjects": [
+      "电路原理图",
+      "集成电路符号",
+      "标题栏"
+    ],
+    "actions": [],
+    "attributes": [
+      "白底黑线",
+      "网格背景",
+      "红色边框",
+      "技术图纸"
+    ],
+    "relations": [
+      "左侧芯片通过导线连接至中间网络标签。",
+      "右侧芯片连接至外部总线信号。",
+      "标题栏位于图纸右下角。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "图片展示了两颗主要芯片U16和U15的电路符号及其引脚连线。",
+      "图纸右下角包含‘嘉立创EDA’标志及‘电子技术课设原理图’文字。",
+      "可见大量以FPGA_和FSMC_开头的蓝色网络标号。",
+      "芯片旁标注有0.1uF电容符号及+3.3V电源标识。"
+    ],
+    "cautious_inferences": [
+      "根据芯片型号IS61WV102416BLL推断这是SRAM存储器电路。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "XC7A35T-1FTG256C",
+      "IS61WV102416BLL",
+      "嘉立创EDA",
+      "FPGA_A0",
+      "FSMC_D0",
+      "2024-12-27"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "XC7A35T-1FTG256C",
+      "IS61WV102416BLL",
+      "嘉立创EDA",
+      "FPGA_A0",
+      "FSMC_D0",
+      "2024-12-27"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "图片展示了两颗主要芯片U16和U15的电路符号及其引脚连线；图纸右下角包含‘嘉立创EDA’标志及‘电子技术课设原理图’文字。",
+    "safe_facts": [
+      "图片展示了两颗主要芯片U16和U15的电路符号及其引脚连线。",
+      "图纸右下角包含‘嘉立创EDA’标志及‘电子技术课设原理图’文字。",
+      "可见大量以FPGA_和FSMC_开头的蓝色网络标号。"
+    ],
+    "do_not_assert": [
+      "根据芯片型号IS61WV102416BLL推断这是SRAM存储器电路。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_87df1379-711f-4892-b052-fa76fe311acc",
+    "generated_at": "2026-08-12T03:31:47.696460+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "dd6176c722add716d80d462b6386c4c3c910f4e81d581b09012176cf52687503",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:31:47.697566+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_0708e9451c53045546bc977e",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:31:47.697974+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "a7b3e1824d95b66989972c44463da3b46619a7de4676e3bbfeb08eced8dad2f5"
+}

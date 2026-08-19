@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2105.jpg",
+    "relative_path": "val/2105.jpg",
+    "sha256": "f200edb0b5f34d8447a9f095a6d090452a319e9ff4ac57dff8021d0fb3d0955d",
+    "split": "val"
+  },
+  "canonical_sha256": "07e795fc8650d485b996ae37f035c19cadf31b9ca9f4d2dcb6f613f696e68dcc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "提要起草",
+      "中英对照",
+      "教学幻灯片"
+    ],
+    "short_description": "一张演示幻灯片，讲解如何构建提要，包含英文和中文对照内容。",
+    "theme": "提要起草指南"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕上有两个带边框的矩形区域，分别包含英文和中文文本内容。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "电脑屏幕显示的演示文稿页面",
+    "subjects": [
+      "两个带边框的文本框"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕上有两个带边框的矩形区域，分别包含英文和中文文本内容。",
+    "safe_facts": [
+      "屏幕上有两个带边框的矩形区域，分别包含英文和中文文本内容。"
+    ]
+  },
+  "label_id": "cpl_ae3664ca4eba87dbbb2b5fb2",
+  "provenance": {
+    "generated_at": "2026-08-03T16:00:00.451038+00:00",
+    "migrated_at": "2026-08-03T16:00:00.452776+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1a681c7018335ec58a8c71b6fba53d47dd635de8b850f5ed5c2b2aafe6f4a924",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6c23c46fee118881f61c7d54",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:00:00.453305+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6c23c46fee118881f61c7d54"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "How should you construct an outline?",
+      "你应该如何起草你的提要?",
+      "Finally, put everything—outline of secti",
+      "最后,把所有这些——内容的提纲、表格、草图、方程式,排好顺序。"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "How should you construct an outline?",
+      "你应该如何起草你的提要?",
+      "Finally, put everything—outline of secti",
+      "最后,把所有这些——内容的提纲、表格、草图、方程式,排好顺序。"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1130.jpg",
+    "relative_path": "train/1130.jpg",
+    "sha256": "0eedfedfce2c091951e603183ad24c56334292e09b3b607873b1ec37beacc3b4",
+    "split": "train"
+  },
+  "canonical_sha256": "da0e3a6f11e269ce36ef193dd6b2129909776505150b3424fd87c8b3b378ccf2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "木质文房用具",
+      "古代器物",
+      "展柜陈列"
+    ],
+    "short_description": "展柜内陈列两件红棕色木质文房用具，上件为长方形盒状，下件为带多个凹槽的砚台式器物。",
+    "theme": "古代文房器具"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两件物品均为红棕色木质材质。",
+      "上方物品呈长方体盒状，表面有规律排列的凸起装饰。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红棕色",
+      "木质",
+      "雕刻纹饰"
+    ],
+    "relations": [
+      "陈列于展柜中。"
+    ],
+    "scene": "博物馆展柜内",
+    "subjects": [
+      "木质文房用具",
+      "木质砚台式器物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两件物品均为红棕色木质材质；上方物品呈长方体盒状，表面有规律排列的凸起装饰。",
+    "safe_facts": [
+      "两件物品均为红棕色木质材质。",
+      "上方物品呈长方体盒状，表面有规律排列的凸起装饰。"
+    ]
+  },
+  "label_id": "cpl_958f27c4b880a19c9b999c36",
+  "provenance": {
+    "generated_at": "2026-08-03T13:41:01.128972+00:00",
+    "migrated_at": "2026-08-03T13:41:01.132195+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "26f335bb0d32765c8b4d8f3ef3599d7d6e43d1f31830534b2b6ba564cea0ddfe",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d4b860ba02dd3b9c53b60f70",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:41:01.133118+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d4b860ba02dd3b9c53b60f70"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "苞茅缩酒",
+      "苞茅 (Hyparrhenia bracteata)",
+      "江陵马山1号墓出土竹简及墨书"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "苞茅缩酒",
+      "苞茅 (Hyparrhenia bracteata)",
+      "江陵马山1号墓出土竹简及墨书"
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:536.jpg",
+    "relative_path": "train/536.jpg",
+    "sha256": "bd0c51c542071d7c57148745dc881c231e50eaed2a8bcd6c0831a174a3410228",
+    "split": "train"
+  },
+  "canonical_sha256": "c0a796540c7d7861d1511d065f406be01e5047e9d64bbe651383d6294e8f8f01",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "紫色花朵",
+      "花田",
+      "自然风光"
+    ],
+    "short_description": "一片盛开的紫色小花在微风中摇曳，背景是模糊的山丘与天空，色彩柔和宁静。",
+    "theme": "紫色花海"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能处于日光照射下的自然环境中。"
+    ],
+    "direct_observations": [
+      "画面主体为大量紫色小花组成的花丛。",
+      "花朵呈簇状生长，茎秆细长呈绿色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "盛开",
+      "密集分布",
+      "浅景深"
+    ],
+    "relations": [
+      "花朵生长于茎秆上。",
+      "花朵位于前景，背景虚化。"
+    ],
+    "scene": "户外田野",
+    "subjects": [
+      "紫色小花",
+      "绿色茎秆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能处于日光照射下的自然环境中。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面主体为大量紫色小花组成的花丛；花朵呈簇状生长，茎秆细长呈绿色。",
+    "safe_facts": [
+      "画面主体为大量紫色小花组成的花丛。",
+      "花朵呈簇状生长，茎秆细长呈绿色。"
+    ]
+  },
+  "label_id": "cpl_046404c5c24430c83e994ae5",
+  "provenance": {
+    "generated_at": "2026-08-03T11:24:49.386196+00:00",
+    "migrated_at": "2026-08-03T11:24:49.388323+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "57ce474c1ebff0ddf82db7d7a183acd51687252ec074ee498221fce2f39ad032",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d31eb52125aee764a0a4dbd5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:24:49.388550+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d31eb52125aee764a0a4dbd5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

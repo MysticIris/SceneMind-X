@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:5.jpg",
+    "relative_path": "train/5.jpg",
+    "sha256": "5dd3abc404d1cdf8e735eddab19851e05cc93940ccaa646b939978ee9d38cbcc",
+    "split": "train"
+  },
+  "canonical_sha256": "75bbfd34cdde8e04892d32af909c3314b2113201481779c2c550d147109ff2e2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "户外野餐",
+      "帐篷",
+      "遮阳棚"
+    ],
+    "short_description": "晴朗天气下，多人在草坪上搭帐篷、遮阳棚，围坐桌旁用餐，旁边有手推车和水瓶。",
+    "theme": "户外野餐露营"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能是在公园或郊外营地进行休闲活动。"
+    ],
+    "direct_observations": [
+      "画面中有多个成年人在草地上围坐于一张折叠桌旁。",
+      "背景有高大树木和岩石景观，地面铺满青草。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "坐着",
+      "用餐",
+      "搭建遮阳棚"
+    ],
+    "attributes": [
+      "晴朗天空",
+      "绿色草地",
+      "树木环绕"
+    ],
+    "relations": [
+      "人坐在桌子旁。",
+      "帐篷位于遮阳棚右侧。",
+      "手推车在帐篷前方。"
+    ],
+    "scene": "草地上的露营区域",
+    "subjects": [
+      "多人",
+      "帐篷",
+      "遮阳棚",
+      "折叠桌椅",
+      "手推车",
+      "水瓶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能是在公园或郊外营地进行休闲活动。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个成年人在草地上围坐于一张折叠桌旁；背景有高大树木和岩石景观，地面铺满青草。",
+    "safe_facts": [
+      "画面中有多个成年人在草地上围坐于一张折叠桌旁。",
+      "背景有高大树木和岩石景观，地面铺满青草。"
+    ]
+  },
+  "label_id": "cpl_f7fc741b8a8db8d52a697046",
+  "provenance": {
+    "generated_at": "2026-08-03T09:04:41.848212+00:00",
+    "migrated_at": "2026-08-03T09:04:41.850049+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ed9107090c541a34b49533b9cd549785cea0d0f813aadfa502fc98c78e432945",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b351920d83a86f32db00964b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:25.383089+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b351920d83a86f32db00964b",
+    "cpl_c33f540dba9667e17fdf1746"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

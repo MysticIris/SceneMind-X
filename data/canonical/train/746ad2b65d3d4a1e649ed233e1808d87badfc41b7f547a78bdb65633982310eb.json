@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:302.jpg",
+    "relative_path": "train/302.jpg",
+    "sha256": "746ad2b65d3d4a1e649ed233e1808d87badfc41b7f547a78bdb65633982310eb",
+    "split": "train"
+  },
+  "canonical_sha256": "16b0ba82b18fb341365313fcddb46bb50f2fd56d6f1326f45e0c1ec4e979e253",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "金色面具",
+      "博物馆展品",
+      "红宝石镶嵌"
+    ],
+    "short_description": "一件金色面具陈列于博物馆展柜中，表面镶嵌红色宝石，造型庄重，置于白色展台上。",
+    "theme": "古文物展陈"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "面具呈金色，表面有红色宝石镶嵌。",
+      "面具被置于白色方形展台上，周围有玻璃展柜。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金色",
+      "面部雕刻",
+      "方形轮廓"
+    ],
+    "relations": [
+      "面具放置于白色展台。"
+    ],
+    "scene": "博物馆玻璃展柜内",
+    "subjects": [
+      "金色面具"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "面具呈金色，表面有红色宝石镶嵌；面具被置于白色方形展台上，周围有玻璃展柜。",
+    "safe_facts": [
+      "面具呈金色，表面有红色宝石镶嵌。",
+      "面具被置于白色方形展台上，周围有玻璃展柜。"
+    ]
+  },
+  "label_id": "cpl_5fbf6adc79c7b9b4fad0564b",
+  "provenance": {
+    "generated_at": "2026-08-03T10:35:26.143459+00:00",
+    "migrated_at": "2026-08-03T10:35:26.145509+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "91afd58dd32b14669225dc9fc74cd9259112ef3071900d8a84a40c8fe45a0377",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8d4378f191b76636dbdbb1d2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:35:26.146158+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:attributes"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8d4378f191b76636dbdbb1d2"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "镶嵌红宝石金面具",
+      "北朝(公元439年—581年)",
+      "1997年昭苏县波马墓地出土",
+      "伊犁哈萨克自治州博物馆藏"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "镶嵌红宝石金面具",
+      "北朝(公元439年—581年)",
+      "1997年昭苏县波马墓地出土",
+      "伊犁哈萨克自治州博物馆藏"
+    ]
+  }
+}

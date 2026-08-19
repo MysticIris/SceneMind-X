@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:760.jpg",
+    "relative_path": "train/760.jpg",
+    "sha256": "46b61b8a823f429c3536d3105001e4a9a669874ccc36a2b8b7e1575acab7cddf",
+    "split": "train"
+  },
+  "canonical_sha256": "ef17b610be2ead99829e290880a291d23f464b5b2f3c617116cb2e898e85df3d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "柯基犬",
+      "趴卧",
+      "红牵引绳",
+      "砖地"
+    ],
+    "short_description": "一只棕白相间的柯基犬趴在灰色砖地上，系着红色牵引绳，耳朵竖立，眼神平静。",
+    "theme": "柯基犬静卧街砖"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "狗趴在由灰色砖块铺成的地面上。",
+      "狗的毛色为棕色与白色相间，鼻子为黑色，耳朵竖立。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "棕白毛色",
+      "竖立耳朵",
+      "黑色鼻头",
+      "红色牵引绳"
+    ],
+    "relations": [
+      "狗与牵引绳相连。",
+      "狗位于砖地上。"
+    ],
+    "scene": "铺有灰砖的户外地面",
+    "subjects": [
+      "一只柯基犬"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "狗趴在由灰色砖块铺成的地面上；狗的毛色为棕色与白色相间，鼻子为黑色，耳朵竖立。",
+    "safe_facts": [
+      "狗趴在由灰色砖块铺成的地面上。",
+      "狗的毛色为棕色与白色相间，鼻子为黑色，耳朵竖立。"
+    ]
+  },
+  "label_id": "cpl_aab5ab84253bb544f910dde2",
+  "provenance": {
+    "generated_at": "2026-08-03T12:17:31.768406+00:00",
+    "migrated_at": "2026-08-03T12:17:31.772080+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "66dba00ce972e14a3008b738029c0126fc3e43dd1b922f297ae4b277560d04ed",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_319c34164c4ea1ee9c09b5ae",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:17:31.772446+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_319c34164c4ea1ee9c09b5ae"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

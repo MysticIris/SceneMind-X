@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:672.jpg",
+    "relative_path": "train/672.jpg",
+    "sha256": "0e37f1b291b0001a6f5a64a2c1783acd5b91ec4926f5c8d020c85d0e0127f3ce",
+    "split": "train"
+  },
+  "canonical_sha256": "4c2777aa4204df9eee5239c361b1ac0d88d64c7ff7442588f08c09bb9a33ac6d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式建筑",
+      "宫殿大厅",
+      "金色灯笼",
+      "雕花天花板"
+    ],
+    "short_description": "宏伟的中式宫殿大厅，中央设台阶与宝座，两侧立有金色灯笼，天花板雕花繁复，地面铺大理石。",
+    "theme": "中式宫殿大厅"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "大厅中央设有台阶通向宝座。",
+      "两侧对称摆放着金色灯笼。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质结构",
+      "金色装饰",
+      "大理石地面",
+      "红色绳索围栏"
+    ],
+    "relations": [
+      "灯笼位于台阶两侧。",
+      "宝座位于大厅中央。",
+      "天花板悬于宝座上方。"
+    ],
+    "scene": "室内大厅",
+    "subjects": [
+      "宝座",
+      "台阶",
+      "灯笼",
+      "天花板",
+      "地面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大厅中央设有台阶通向宝座；两侧对称摆放着金色灯笼。",
+    "safe_facts": [
+      "大厅中央设有台阶通向宝座。",
+      "两侧对称摆放着金色灯笼。"
+    ]
+  },
+  "label_id": "cpl_66ad39c803d4575f92c4a346",
+  "provenance": {
+    "generated_at": "2026-08-03T11:57:09.898266+00:00",
+    "migrated_at": "2026-08-03T11:57:09.900889+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "23598aa566f0fbfb0125cf28577ad4a3a8548bb626e1d17320b38b5f25331464",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1e2337ec68cd2fad6cd7b680",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:57:09.901221+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_1e2337ec68cd2fad6cd7b680"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

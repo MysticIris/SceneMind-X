@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2003.jpg",
+    "relative_path": "val/2003.jpg",
+    "sha256": "341a248c88a49d117a164e14eca78b2d7d797cf54f7770ecd7488b07b8e74477",
+    "split": "val"
+  },
+  "canonical_sha256": "45b27f2d498a0a97f7fc24de265628b26ec125ac6c563e7e17cbdf78b0d1d43a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "山羊",
+      "岩石",
+      "自然栖息地"
+    ],
+    "short_description": "一只棕色山羊站在岩石峭壁上，背景是层叠的灰色岩层，阳光照射下显现出自然纹理。",
+    "theme": "岩壁上的山羊"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一只棕色山羊站立在岩石表面。",
+      "背景由多层灰色岩石构成。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "棕色皮毛",
+      "站立姿态",
+      "有角"
+    ],
+    "relations": [
+      "山羊位于岩石上。"
+    ],
+    "scene": "岩石峭壁环境",
+    "subjects": [
+      "一只山羊"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只棕色山羊站立在岩石表面；背景由多层灰色岩石构成。",
+    "safe_facts": [
+      "一只棕色山羊站立在岩石表面。",
+      "背景由多层灰色岩石构成。"
+    ]
+  },
+  "label_id": "cpl_679db8d165c8106021c07d0f",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/val/val_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "e32d3af75c130700fc73cbca19128fe8491843a5f2d834ae73a5bd88abf3c6d1",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T15:44:11.777405+00:00",
+    "migrated_at": "2026-08-03T15:44:11.779746+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dda33a58fa3fff77fffaf81ca71e1124764b5dbda7adfa81000873a617d879d3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ce593761a6c491666ed432dd",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:44:11.779952+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "岩壁中的动物主体与环境描述准确。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ce593761a6c491666ed432dd"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2341.jpg",
+    "relative_path": "val/2341.jpg",
+    "sha256": "e4a983fc5af9561fbf7adca5f56175ab572615aba3f771ce7423b4bf64e65f36",
+    "split": "val"
+  },
+  "canonical_sha256": "33a4067e52343cdd5f926b540b51f75e8859c4abb6e64e4c3cdb769f5e7fc614",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "烟花",
+      "夜景",
+      "河流",
+      "城市灯光"
+    ],
+    "short_description": "夜幕下河面倒映着绚丽的红色烟花，远处城市灯火与桥梁轮廓隐约可见，前景有绿色植物。",
+    "theme": "夜空烟花秀"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天空中有多个红色烟花正在绽放。",
+      "河水表面反射着烟花的红色光芒。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色烟花",
+      "水面倒影",
+      "城市灯光",
+      "绿色植物"
+    ],
+    "relations": [
+      "烟花在夜空中绽放。",
+      "烟花倒映在水面上。",
+      "城市建筑位于河对岸。"
+    ],
+    "scene": "夜间户外河岸",
+    "subjects": [
+      "烟花",
+      "河流",
+      "城市建筑群",
+      "植被"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空中有多个红色烟花正在绽放；河水表面反射着烟花的红色光芒。",
+    "safe_facts": [
+      "天空中有多个红色烟花正在绽放。",
+      "河水表面反射着烟花的红色光芒。"
+    ]
+  },
+  "label_id": "cpl_3835c3a8d395c52ea2cbe5cc",
+  "provenance": {
+    "generated_at": "2026-08-03T16:29:11.432877+00:00",
+    "migrated_at": "2026-08-03T16:29:11.434685+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dfda86886b6521ece8ec7d58db21e99d8c66c221371d8af6a4a92b334357f8fa",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_adbd4d7175ab4f59295315f7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:29:11.434891+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_adbd4d7175ab4f59295315f7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

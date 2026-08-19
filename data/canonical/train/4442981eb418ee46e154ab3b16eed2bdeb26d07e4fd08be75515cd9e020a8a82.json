@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1453.jpg",
+    "relative_path": "train/1453.jpg",
+    "sha256": "4442981eb418ee46e154ab3b16eed2bdeb26d07e4fd08be75515cd9e020a8a82",
+    "split": "train"
+  },
+  "canonical_sha256": "42041890f8c9898f4a1d6ff4407c143e89c272ccc985ab6477120025ba86638b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电影院",
+      "电影标题",
+      "大屏幕"
+    ],
+    "short_description": "黑暗影院内，大银幕上显示着红色与黄色渐变的电影标题，观众席隐约可见。",
+    "theme": "电影放映厅"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "观众座椅呈深色且部分被遮挡。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑暗环境",
+      "屏幕发光"
+    ],
+    "relations": [],
+    "scene": "电影院放映厅",
+    "subjects": [
+      "银幕",
+      "观众座椅"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "观众座椅呈深色且部分被遮挡。",
+    "safe_facts": [
+      "观众座椅呈深色且部分被遮挡。"
+    ]
+  },
+  "label_id": "cpl_11cd7ddde0fbde75d9c10bf0",
+  "provenance": {
+    "generated_at": "2026-08-03T14:24:54.620383+00:00",
+    "migrated_at": "2026-08-03T14:24:54.623496+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6ceaf8c470b8409e7030ebd1010fcb96b7400defcd7c01f25a4346ebae9a4b64",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f369e9db6fa3d64c654bb71c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:24:54.624160+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f369e9db6fa3d64c654bb71c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "93国际列车大劫案",
+      "莫斯科行动",
+      "MOSCOW MISSION"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "93国际列车大劫案",
+      "莫斯科行动",
+      "MOSCOW MISSION"
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1738.jpg",
+    "relative_path": "train/1738.jpg",
+    "sha256": "366abee2dd9a59e46af04d29f42ff60995812f6d08c69aa9899c4ee2d7cd5e05",
+    "split": "train"
+  },
+  "canonical_sha256": "a2967c32578f10cf94ad800d5b548a5c103be9ab20714f582d40354a8c68da8c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "奶茶",
+      "盖饭",
+      "办公桌",
+      "电脑屏幕"
+    ],
+    "short_description": "一张办公桌上摆放着一杯奶茶和一份盖饭，背景是电脑屏幕和键盘。",
+    "theme": "办公桌上的餐食"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一杯带吸管的奶茶，杯身有熊猫图案。",
+      "画面中有一个透明盖子的盖饭盒，内含米饭、肉块和蔬菜。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "奶茶杯带吸管",
+      "盖饭盒透明盖子",
+      "电脑屏幕显示代码"
+    ],
+    "relations": [
+      "奶茶杯位于盖饭盒上方。",
+      "盖饭盒靠近键盘。"
+    ],
+    "scene": "办公桌桌面",
+    "subjects": [
+      "奶茶杯",
+      "盖饭盒",
+      "电脑显示器",
+      "键盘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一杯带吸管的奶茶，杯身有熊猫图案；画面中有一个透明盖子的盖饭盒，内含米饭、肉块和蔬菜。",
+    "safe_facts": [
+      "画面中有一杯带吸管的奶茶，杯身有熊猫图案。",
+      "画面中有一个透明盖子的盖饭盒，内含米饭、肉块和蔬菜。"
+    ]
+  },
+  "label_id": "cpl_9a1c4ae42c8b7245257dadd4",
+  "provenance": {
+    "generated_at": "2026-08-03T15:01:40.689972+00:00",
+    "migrated_at": "2026-08-03T15:01:40.691440+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "56711f43a907f6e5ec88a0ef0f493ee5954e233fa469fe963aa5a0ed9f46b67b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_71c5c3dc9d33be5a599cd2f0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:01:40.691649+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_71c5c3dc9d33be5a599cd2f0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

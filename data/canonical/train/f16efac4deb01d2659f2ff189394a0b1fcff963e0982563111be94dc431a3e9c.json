@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:908.jpg",
+    "relative_path": "train/908.jpg",
+    "sha256": "f16efac4deb01d2659f2ff189394a0b1fcff963e0982563111be94dc431a3e9c",
+    "split": "train"
+  },
+  "canonical_sha256": "ea242aa4a442d8ab7fbd4e914d91d237570eee836136b7ed266be590d5c48d6b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "教学演示",
+      "课程表"
+    ],
+    "short_description": "一位穿着浅色衬衫的男性站在讲台旁进行讲解。",
+    "theme": "说明"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一位穿着浅色衬衫的男性站在讲台旁进行讲解。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "讲解"
+    ],
+    "attributes": [
+      "大屏幕显示课程信息",
+      "讲师站立讲台前"
+    ],
+    "relations": [
+      "讲师面向观众。",
+      "观众位于屏幕前方。"
+    ],
+    "scene": "室内讲座现场",
+    "subjects": [
+      "讲师",
+      "观众"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一位穿着浅色衬衫的男性站在讲台旁进行讲解。",
+    "safe_facts": [
+      "一位穿着浅色衬衫的男性站在讲台旁进行讲解。"
+    ]
+  },
+  "label_id": "cpl_219f1db53b3a897575f4cf70",
+  "provenance": {
+    "generated_at": "2026-08-03T12:48:17.050741+00:00",
+    "migrated_at": "2026-08-03T12:48:17.055627+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f3fbc5cb0a24a4736567b32440813555fc0b726d343d55c0b5f04c2fc809113d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_df130b949c911948da2dc957",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:48:17.056565+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_df130b949c911948da2dc957"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "实践教学环节",
+      "军事训练",
+      "专业认知实践",
+      "毕业设计(论文)",
+      "合计 46w/13",
+      "占实践教学环节学分比例(%)"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "实践教学环节",
+      "军事训练",
+      "专业认知实践",
+      "毕业设计(论文)",
+      "合计 46w/13",
+      "占实践教学环节学分比例(%)"
+    ]
+  }
+}

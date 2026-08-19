@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1828.jpg",
+    "relative_path": "train/1828.jpg",
+    "sha256": "8d1f12feefd479e47c24d11629b47642016411a384369b8ddbd11a7f4d39a3fb",
+    "split": "train"
+  },
+  "canonical_sha256": "35e1a423efd4810112efaacd621a380f15fa23911f3680a30eb6cfca143bcecc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蓝色门",
+      "医疗设施",
+      "玻璃窗"
+    ],
+    "short_description": "医院走廊内一扇蓝色双开门，配有玻璃窗和金属把手，左侧墙上有科室标识牌。",
+    "theme": "蓝色医疗门"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "门为蓝色，双扇设计，每扇门上有一块矩形玻璃窗。",
+      "门中间装有银色金属把手，门框为同色系蓝色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色",
+      "带玻璃窗",
+      "金属把手",
+      "白色墙壁",
+      "灰色地板"
+    ],
+    "relations": [
+      "门位于走廊中央。",
+      "标识牌贴于门左侧墙壁。"
+    ],
+    "scene": "医院走廊",
+    "subjects": [
+      "双开门",
+      "标识牌",
+      "墙壁",
+      "地面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "门为蓝色，双扇设计，每扇门上有一块矩形玻璃窗；门中间装有银色金属把手，门框为同色系蓝色。",
+    "safe_facts": [
+      "门为蓝色，双扇设计，每扇门上有一块矩形玻璃窗。",
+      "门中间装有银色金属把手，门框为同色系蓝色。"
+    ]
+  },
+  "label_id": "cpl_c7c501653c971792ac48ca4f",
+  "provenance": {
+    "generated_at": "2026-08-03T15:12:09.045487+00:00",
+    "migrated_at": "2026-08-03T15:12:09.047022+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4b07e31768146fb6eed0a37f2b490ff24ee4d92bc772f742c6cd97bca32bac02",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_18a653f62f8541174e76fe56",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:12:09.047238+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_18a653f62f8541174e76fe56"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

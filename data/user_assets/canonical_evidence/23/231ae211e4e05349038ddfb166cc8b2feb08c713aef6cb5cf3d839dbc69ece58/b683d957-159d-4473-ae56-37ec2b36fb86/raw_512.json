@@ -1,0 +1,66 @@
+{
+  "asset_id": "231ae211e4e05349",
+  "asset_sha256": "231ae211e4e05349038ddfb166cc8b2feb08c713aef6cb5cf3d839dbc69ece58",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"食堂英语词汇教学课件\",\n    \"short_description\": \"这是一张电脑屏幕的实拍照片，显示正在进行在线英语教学。屏幕中央展示了一份关于“Cafeteria (食堂)”的英文学习表格，列出了热食、冷食、饮料和甜点四个区域的描述及常用句型。顶部可见多名参会者的头像，左侧排列着各类桌面应用程序图标。\",\n    \"micro_tags\": [\n      \"在线课堂\",\n      \"英语教学\",\n      \"食堂词汇\",\n      \"电脑屏幕\",\n      \"演示文稿\",\n      \"桌面图标\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"电脑桌面环境下的在线会议或网课界面\",\n    \"subjects\": [\n      \"教学幻灯片\",\n      \"桌面图标\",\n      \"会议参与者头像栏\",\n      \"任务栏\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"青绿色表头\",\n      \"三列式表格布局\",\n      \"中英文混合标题\",\n      \"右侧配有食物图片\"\n    ],\n    \"relations\": [\n      \"教学内容位于屏幕中央主要区域\",\n      \"应用图标垂直排列于屏幕左侧\",\n      \"用户头像水平排列于屏幕顶部\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕中央显示标题为“Cafeteria (食堂)”的表格，包含zone、description、useful phrases三列。\",\n      \"表格内容分为hot food station、cold food station、beverage station、dessert & snack station四个部分。\",\n      \"屏幕左侧可见Chrome、腾讯会议、Adobe Premiere Pro、QQ等软件图标。\",\n      \"顶部状态栏显示多个圆形用户头像，其中一个被绿色框选中并标有“老师”。\",\n      \"右上角有“多次元”字样的Logo。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局推测，这可能是一堂正在进行的英语线上辅导课或语言培训。\",\n      \"拍摄者可能是参与课程的学生或观察者，使用外部设备拍摄了显示器画面。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的授课时间或课程所属机构。\",\n      \"无法确认除“老师”外其他头像的具体身份。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"Cafeteria (食堂)\",\n      \"zone\",\n      \"description\",\n      \"useful phrases\",\n      \"hot food station\",\n      \"Freshly cooked dishes: fried chicken, stews, pasta...\",\n      \"What's the daily special?\",\n      \"cold food station\",\n      \"Salads, sandwiches, wraps...\",\n      \"beverage station\",\n      \"Coffee, tea, soda...\",\n      \"dessert & snack station\",\n      \"Cakes, cookies, pastries...\",\n      \"Healthy & Creative\",\n      \"多次元\",\n      \"Google Chrome\",\n      \"腾讯会议\",\n      \"Adobe Premiere P\",\n      \"Legion Zone\",\n      \"Microsoft Edge\",\n      \"QQ\",\n      \"Visual Studio Code\",\n      \"Watt Toolkit\",\n      \"微信\",\n      \"Clash Verge\",\n      \"bilibili\",\n     ",
+      "input_tokens": 3205,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 768,
+        "total_tokens": 3973,
+        "estimated_cost_cny": 0.012554,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "食堂英语词汇教学课件",
+        "short_description": "这是一张电脑屏幕的实拍照片，显示正在进行在线英语教学。屏幕中央展示了一份关于“Cafeteria (食堂)”的英文学习表格，列出了热食、冷食、饮料和甜点四个区域的描述及常用句型。顶部可见多名参会者的头像，左侧排列着各类桌面应用程序图标。",
+        "micro_tags": [
+          "在线课堂",
+          "英语教学",
+          "食堂词汇",
+          "电脑屏幕",
+          "演示文稿",
+          "桌面图标"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 6219536,
+        "request_bytes": 4661579,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.553730100000394,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "fada8258fc2858fde2090382f688c4b19ce67415f8b57f6ad548d062217b2990"
+}

@@ -1,0 +1,142 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1912.jpg",
+    "relative_path": "train/1912.jpg",
+    "sha256": "3fabe64c32aec5666d84ccd21d1952c4467491c1a077fa1bdfaaa3b89824f559",
+    "split": "train"
+  },
+  "canonical_sha256": "449abb9eb975dd4fa2ee626503d5635ad5fba63b2b43f29bb1e1f4f951ea074f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "演讲者",
+      "讲台",
+      "投影屏幕",
+      "室内会议"
+    ],
+    "short_description": "一名青年男性在讲台前使用笔记本电脑进行演讲，背景屏幕显示活动主题，前方有绿植和水瓶。",
+    "theme": "会议现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一名戴眼镜的青年男性站在木质讲台后操作笔记本电脑。",
+      "讲台左侧有圆形徽章，右侧有绿色植物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立于讲台后",
+      "操作笔记本电脑"
+    ],
+    "attributes": [
+      "黑色夹克",
+      "木质讲台",
+      "蓝色背景屏幕",
+      "绿色植物"
+    ],
+    "relations": [
+      "青年男性站在讲台后。",
+      "讲台位于青年男性前方。",
+      "投影屏幕在讲台后方。",
+      "绿植在前景桌面上。"
+    ],
+    "scene": "室内会议或讲座场景",
+    "subjects": [
+      "一名戴眼镜的青年男性",
+      "讲台",
+      "投影屏幕",
+      "绿植",
+      "水瓶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名戴眼镜的青年男性站在木质讲台后操作笔记本电脑；讲台左侧有圆形徽章，右侧有绿色植物。",
+    "safe_facts": [
+      "一名戴眼镜的青年男性站在木质讲台后操作笔记本电脑。",
+      "讲台左侧有圆形徽章，右侧有绿色植物。"
+    ]
+  },
+  "label_id": "cpl_d335aba7c670db2b831808fc",
+  "provenance": {
+    "generated_at": "2026-08-03T15:22:07.032444+00:00",
+    "migrated_at": "2026-08-03T15:22:07.034521+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c9b0a71db6a175df2e21c2383990df4fe65eca9743f842366e018e00fde5136b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6a9a0f554230db8110092719",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:22:07.035140+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6a9a0f554230db8110092719"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "未来工程本科生",
+      "预备党员转正",
+      "主持人:李怡雪",
+      "中华人民共和国万岁",
+      "联系人"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "未来工程本科生",
+      "预备党员转正",
+      "主持人:李怡雪",
+      "中华人民共和国万岁",
+      "联系人"
+    ]
+  }
+}

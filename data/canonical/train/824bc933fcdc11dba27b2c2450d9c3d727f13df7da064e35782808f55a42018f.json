@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:744.jpg",
+    "relative_path": "train/744.jpg",
+    "sha256": "824bc933fcdc11dba27b2c2450d9c3d727f13df7da064e35782808f55a42018f",
+    "split": "train"
+  },
+  "canonical_sha256": "2c0bf954ae2d74965fc9bbff42587af7019b07729e2cbd12cb85eb805dafe8ae",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "书籍",
+      "阳光",
+      "桌面",
+      "堆叠"
+    ],
+    "short_description": "阳光斜照下，几本封面带插画的书堆叠在桌面上，光影交错，营造静谧阅读氛围。",
+    "theme": "书籍堆叠光影"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有数本平装书堆叠放置。",
+      "光线从一侧斜射，在书页和桌面上形成明暗对比。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "有插画封面",
+      "有光影效果"
+    ],
+    "relations": [
+      "书籍堆叠在一起。"
+    ],
+    "scene": "室内桌面",
+    "subjects": [
+      "书籍"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有数本平装书堆叠放置；光线从一侧斜射，在书页和桌面上形成明暗对比。",
+    "safe_facts": [
+      "画面中有数本平装书堆叠放置。",
+      "光线从一侧斜射，在书页和桌面上形成明暗对比。"
+    ]
+  },
+  "label_id": "cpl_985bb7604f74ad2b271dddb8",
+  "provenance": {
+    "generated_at": "2026-08-03T12:13:53.360956+00:00",
+    "migrated_at": "2026-08-03T12:13:53.365575+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "09bb87e6fcccf8b06a8ac1087fb3d650db7115159eb14ebbbffcd3462259b571",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_85bbc7b1c418376e6f81d0d2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:13:53.366786+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_unsafe_text_candidates_for_presence",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_85bbc7b1c418376e6f81d0d2"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "上市一周,强势超越《刺杀骑士团长》",
+      "一口气读完了它!",
+      "住野夜,下一个可能‘支撑日本文学界未来的人’"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_unreadable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "上市一周,强势超越《刺杀骑士团长》",
+      "一口气读完了它!",
+      "住野夜,下一个可能‘支撑日本文学界未来的人’"
+    ]
+  }
+}

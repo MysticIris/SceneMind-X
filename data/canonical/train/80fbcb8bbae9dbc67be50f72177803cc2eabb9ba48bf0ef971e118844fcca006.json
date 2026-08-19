@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:27.jpg",
+    "relative_path": "train/27.jpg",
+    "sha256": "80fbcb8bbae9dbc67be50f72177803cc2eabb9ba48bf0ef971e118844fcca006",
+    "split": "train"
+  },
+  "canonical_sha256": "0464ac1b305d6aa3fd2b4cbdddb2164b28d2076e692b657bfc9b9a3660b7c8ea",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蔬果",
+      "超市货架",
+      "色彩丰富"
+    ],
+    "short_description": "超市内色彩缤纷的蔬果货架，整齐排列着各类新鲜农产品，背景为红色竖条纹装饰墙。",
+    "theme": "生鲜蔬果陈列区"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "货架上分层摆放多种颜色的蔬菜和水果。",
+      "背景墙面由红色竖条纹装饰构成。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "色彩鲜艳",
+      "整齐摆放",
+      "木质货架"
+    ],
+    "relations": [
+      "蔬果陈列于货架上。",
+      "货架位于地面以上。"
+    ],
+    "scene": "超市生鲜区",
+    "subjects": [
+      "蔬菜",
+      "水果",
+      "货架"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "货架上分层摆放多种颜色的蔬菜和水果；背景墙面由红色竖条纹装饰构成。",
+    "safe_facts": [
+      "货架上分层摆放多种颜色的蔬菜和水果。",
+      "背景墙面由红色竖条纹装饰构成。"
+    ]
+  },
+  "label_id": "cpl_be6390ca951290b3309593ae",
+  "provenance": {
+    "generated_at": "2026-08-03T09:09:33.327800+00:00",
+    "migrated_at": "2026-08-03T09:09:33.329536+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8fe54c1ce9df001c4ce631903319cb2587e210280fd969fc84b28c728e99d9a8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_47af55703f5fcd293ac23497",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:26.163622+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_47af55703f5fcd293ac23497",
+    "cpl_f39823c84d15bf2b18b95ed1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

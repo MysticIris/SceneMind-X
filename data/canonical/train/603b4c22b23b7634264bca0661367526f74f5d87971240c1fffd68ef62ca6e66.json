@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1101.jpg",
+    "relative_path": "train/1101.jpg",
+    "sha256": "603b4c22b23b7634264bca0661367526f74f5d87971240c1fffd68ef62ca6e66",
+    "split": "train"
+  },
+  "canonical_sha256": "2749d269c88fe922e7eb351e44dfea7745ef3b9dce5d29ffd37a51c490f997e7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "宝塔",
+      "中式建筑",
+      "古塔",
+      "红黑塔身",
+      "蓝天背景"
+    ],
+    "short_description": "一座多层中式宝塔矗立于绿树丛中，塔身红黑相间，顶部饰有金色装饰，在晴朗蓝天映衬下显得庄重典雅。",
+    "theme": "古塔林立"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "塔身颜色可能是红漆与深色瓦片组合。"
+    ],
+    "direct_observations": [
+      "塔身为多层结构，每层有屋檐和栏杆。",
+      "塔顶有金色装饰物，包括宝珠和尖顶。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "多层结构",
+      "红色与黑色相间",
+      "金色塔顶装饰",
+      "绿叶茂密"
+    ],
+    "relations": [
+      "宝塔位于树木后方。",
+      "树木环绕宝塔底部。"
+    ],
+    "scene": "户外，晴朗天气",
+    "subjects": [
+      "宝塔",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "塔身颜色可能是红漆与深色瓦片组合。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "塔身为多层结构，每层有屋檐和栏杆；塔顶有金色装饰物，包括宝珠和尖顶。",
+    "safe_facts": [
+      "塔身为多层结构，每层有屋檐和栏杆。",
+      "塔顶有金色装饰物，包括宝珠和尖顶。"
+    ]
+  },
+  "label_id": "cpl_affcebcff8de5ba2bc72b291",
+  "provenance": {
+    "generated_at": "2026-08-03T13:37:29.434258+00:00",
+    "migrated_at": "2026-08-03T13:37:29.437604+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d7bdea7c03be34d319d9ee33809e414251839fa556d751693cc5413916144681",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_87bb9e9a4bbeb18953acfaf1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:37:29.438044+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_87bb9e9a4bbeb18953acfaf1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

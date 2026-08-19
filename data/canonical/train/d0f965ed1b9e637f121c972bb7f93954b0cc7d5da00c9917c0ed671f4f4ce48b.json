@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:16.jpg",
+    "relative_path": "train/16.jpg",
+    "sha256": "d0f965ed1b9e637f121c972bb7f93954b0cc7d5da00c9917c0ed671f4f4ce48b",
+    "split": "train"
+  },
+  "canonical_sha256": "5427a957e32930702c9e041a0070c2f6fd693fa91f6856f81187919240d23c6d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "日落",
+      "海滩",
+      "人群",
+      "游泳"
+    ],
+    "short_description": "夕阳西下，海面泛着金光，众多游客在水中嬉戏，岸边有人驻足观赏，远处山峦轮廓清晰。",
+    "theme": "日落海滩"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "人们可能在享受日落时分的海滨活动。"
+    ],
+    "direct_observations": [
+      "太阳正沉入地平线，天空呈橙黄色调。",
+      "多人在水中活动，部分人站在浅水区。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "游泳",
+      "站立",
+      "观看"
+    ],
+    "attributes": [
+      "剪影",
+      "金色天空",
+      "波光粼粼"
+    ],
+    "relations": [
+      "人位于水边。",
+      "太阳位于地平线。",
+      "山脉位于背景。"
+    ],
+    "scene": "海边日落",
+    "subjects": [
+      "人",
+      "太阳",
+      "山脉",
+      "水面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "人们可能在享受日落时分的海滨活动。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "太阳正沉入地平线，天空呈橙黄色调；多人在水中活动，部分人站在浅水区。",
+    "safe_facts": [
+      "太阳正沉入地平线，天空呈橙黄色调。",
+      "多人在水中活动，部分人站在浅水区。"
+    ]
+  },
+  "label_id": "cpl_d91d4e5cf9d7ac740f6dbb98",
+  "provenance": {
+    "generated_at": "2026-08-03T09:07:08.213462+00:00",
+    "migrated_at": "2026-08-03T09:07:08.215198+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d98bb70c2de200448043cef7027b80e06d98e47472bb382745f22d338358a5a2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_736ceea56f4b754b793ea641",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:25.786421+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_736ceea56f4b754b793ea641",
+    "cpl_362b7e7896609279eb200eff"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

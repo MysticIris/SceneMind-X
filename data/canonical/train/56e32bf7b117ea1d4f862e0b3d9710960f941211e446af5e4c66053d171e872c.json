@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:609.jpg",
+    "relative_path": "train/609.jpg",
+    "sha256": "56e32bf7b117ea1d4f862e0b3d9710960f941211e446af5e4c66053d171e872c",
+    "split": "train"
+  },
+  "canonical_sha256": "fc95433a2667837195e57d7aa88c3e702ccfb64536287e661acba0f67b751eec",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "池塘",
+      "松树",
+      "绣球花",
+      "木栏杆"
+    ],
+    "short_description": "木栏旁池塘边，松树与绣球花相映，绿植环绕，静谧宜人。",
+    "theme": "园林水景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "池塘周围种植了绣球花，呈现粉紫色。"
+    ],
+    "direct_observations": [
+      "画面中有池塘，水面呈灰绿色，有波纹。",
+      "池塘边有松树，枝干弯曲，针叶茂密。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色植物",
+      "粉色花朵",
+      "木质结构",
+      "水面倒影"
+    ],
+    "relations": [
+      "松树生长于池塘边缘。",
+      "绣球花位于松树旁。",
+      "木栏杆围绕池塘。"
+    ],
+    "scene": "园林景观",
+    "subjects": [
+      "松树",
+      "绣球花",
+      "池塘",
+      "木栏杆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "池塘周围种植了绣球花，呈现粉紫色。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有池塘，水面呈灰绿色，有波纹；池塘边有松树，枝干弯曲，针叶茂密。",
+    "safe_facts": [
+      "画面中有池塘，水面呈灰绿色，有波纹。",
+      "池塘边有松树，枝干弯曲，针叶茂密。"
+    ]
+  },
+  "label_id": "cpl_26bdbd9511fb994a124a4ee4",
+  "provenance": {
+    "generated_at": "2026-08-03T11:43:56.983688+00:00",
+    "migrated_at": "2026-08-03T11:43:56.985618+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cf79630073c328e2f6478c3497eeca13fb51198787622e9d9ad5d8f13763ac2e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_984a7f61c7748d29e3871e58",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:43:56.985832+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_984a7f61c7748d29e3871e58"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

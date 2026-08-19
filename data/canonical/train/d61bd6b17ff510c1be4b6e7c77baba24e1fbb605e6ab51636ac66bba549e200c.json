@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:77.jpg",
+    "relative_path": "train/77.jpg",
+    "sha256": "d61bd6b17ff510c1be4b6e7c77baba24e1fbb605e6ab51636ac66bba549e200c",
+    "split": "train"
+  },
+  "canonical_sha256": "88734fbe6cd247145290b55d8dd47587ffa457fbeb88f7e53a956124e13536df",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "橘白猫",
+      "三叶草",
+      "户外",
+      "栅栏"
+    ],
+    "short_description": "一只橘白相间的猫蹲坐在绿植旁，背景是开着粉花的三叶草，前景有白色栅栏。",
+    "theme": "猫与花草"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "猫毛色为橘白相间，眼睛呈黄色。",
+      "背景植物为三叶草，点缀着粉色小花。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "橘白相间",
+      "绿色植物",
+      "粉色小花",
+      "白色栅栏"
+    ],
+    "relations": [
+      "猫位于植物前方。",
+      "猫位于栅栏后方。"
+    ],
+    "scene": "户外草地与栅栏旁",
+    "subjects": [
+      "一只猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "猫毛色为橘白相间，眼睛呈黄色；背景植物为三叶草，点缀着粉色小花。",
+    "safe_facts": [
+      "猫毛色为橘白相间，眼睛呈黄色。",
+      "背景植物为三叶草，点缀着粉色小花。"
+    ]
+  },
+  "label_id": "cpl_aeae686376145ca4a542e602",
+  "provenance": {
+    "generated_at": "2026-08-03T09:20:39.675944+00:00",
+    "migrated_at": "2026-08-03T09:20:39.678320+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2e8442ba247935db1a6e4e040f13bbfde505919c25ff3156b3cfbcd6c9c0dae4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_aacbc76a0db272549a61223a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:28.295317+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_aacbc76a0db272549a61223a",
+    "cpl_148ed45fb90a81bdf3a006e9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

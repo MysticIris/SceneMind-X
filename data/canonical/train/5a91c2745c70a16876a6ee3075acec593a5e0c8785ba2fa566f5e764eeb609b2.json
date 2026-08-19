@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:794.jpg",
+    "relative_path": "train/794.jpg",
+    "sha256": "5a91c2745c70a16876a6ee3075acec593a5e0c8785ba2fa566f5e764eeb609b2",
+    "split": "train"
+  },
+  "canonical_sha256": "6707d43b0f7828501ce817006de32112c1118a2e3aae424dcbbb4c583cf077e6",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "灯笼",
+      "夜景",
+      "节日装饰",
+      "人群聚集"
+    ],
+    "short_description": "夜幕下，成排橙色灯笼悬挂在街道上方，形成璀璨光带，人群在灯笼下活动，背景有中式亭台建筑。",
+    "theme": "夜市灯笼装饰"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "大量橙色圆形灯笼悬挂在多条线上，形成密集光带。",
+      "天空呈深蓝色，表明为夜晚。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "橙色",
+      "发光",
+      "悬挂",
+      "密集排列",
+      "深蓝色天空"
+    ],
+    "relations": [
+      "灯笼悬挂在空中。",
+      "人群在灯笼下方活动。",
+      "亭台建筑位于画面中央偏下。"
+    ],
+    "scene": "户外夜间公共空间",
+    "subjects": [
+      "灯笼",
+      "人群",
+      "中式亭台建筑",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大量橙色圆形灯笼悬挂在多条线上，形成密集光带；天空呈深蓝色，表明为夜晚。",
+    "safe_facts": [
+      "大量橙色圆形灯笼悬挂在多条线上，形成密集光带。",
+      "天空呈深蓝色，表明为夜晚。"
+    ]
+  },
+  "label_id": "cpl_ab24b537e7f312de3d85d720",
+  "provenance": {
+    "generated_at": "2026-08-03T12:24:54.121088+00:00",
+    "migrated_at": "2026-08-03T12:24:54.123993+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "94f113f912b36d4f82950db483cf4a4e1e5e37a57e8240d4b3ff5f85f91d20ba",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0b75fe70c6f8866a6c7a45af",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:24:54.124363+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0b75fe70c6f8866a6c7a45af"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

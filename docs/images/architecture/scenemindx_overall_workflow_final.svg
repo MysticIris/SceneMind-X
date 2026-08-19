@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1080" viewBox="0 0 2400 1080">
+  <defs>
+    <style>
+      .cn{font-family:'Microsoft YaHei','DengXian','SimHei',sans-serif;fill:#243746}.white{fill:#fff!important}
+      .small{font-size:24px}.mid{font-size:28px}.title{font-size:32px;font-weight:700}
+      .node{fill:#fff;stroke:#97C4E6;stroke-width:3}
+      .foundation{fill:#F5FBFF;stroke:#1DA4FF;stroke-width:3}
+      .bar{fill:#215F9A}
+      .lane1{fill:#EAF7FF;stroke:#1DA4FF;stroke-width:3}
+      .lane2{fill:#F2F8FC;stroke:#3476B2;stroke-width:3}
+      .lane3{fill:#F5F8FF;stroke:#6D91C7;stroke-width:3}
+      .arrow{fill:none;stroke:#3476B2;stroke-width:5;marker-end:url(#arrow)}
+      .feed{fill:none;stroke:#7BAED1;stroke-width:4}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#3476B2"/>
+    </marker>
+  </defs>
+  <rect width="2400" height="1080" fill="#FFFFFF"/>
+
+  <!-- semantic asset foundation -->
+  <rect x="48" y="46" width="216" height="58" rx="29" fill="#1DA4FF"/>
+  <text x="156" y="85" text-anchor="middle" class="cn title white">语义资产基础</text>
+
+  <rect x="65" y="135" width="330" height="130" rx="18" class="foundation"/>
+  <text x="230" y="187" text-anchor="middle" class="cn title">用户与图片</text>
+  <text x="230" y="228" text-anchor="middle" class="cn mid">上传 · 导入 · 查询</text>
+
+  <rect x="535" y="135" width="330" height="130" rx="18" class="foundation"/>
+  <text x="700" y="187" text-anchor="middle" class="cn title">视觉资产管理</text>
+  <text x="700" y="228" text-anchor="middle" class="cn mid">上传 · 保存 · 索引</text>
+
+  <rect x="1005" y="135" width="330" height="130" rx="18" class="foundation"/>
+  <text x="1170" y="187" text-anchor="middle" class="cn title">VLM 结构化分析</text>
+  <text x="1170" y="228" text-anchor="middle" class="cn mid">主体 · 场景 · 文字 · 关系</text>
+
+  <rect x="1475" y="135" width="330" height="130" rx="18" class="foundation"/>
+  <text x="1640" y="187" text-anchor="middle" class="cn title">视觉语义候选</text>
+  <text x="1640" y="228" text-anchor="middle" class="cn mid">多维结构化信息</text>
+
+  <rect x="1945" y="135" width="390" height="130" rx="18" class="foundation"/>
+  <text x="2140" y="187" text-anchor="middle" class="cn title">结构化语义资产</text>
+  <text x="2140" y="228" text-anchor="middle" class="cn mid">Canonical · 可复用语义</text>
+
+  <path d="M395 200 H535" class="arrow"/>
+  <path d="M865 200 H1005" class="arrow"/>
+  <path d="M1335 200 H1475" class="arrow"/>
+  <path d="M1805 200 H1945" class="arrow"/>
+
+  <!-- orchestration bar -->
+  <path d="M2140 265 V330 H1185" class="feed"/>
+  <rect x="65" y="320" width="1975" height="72" rx="20" class="bar"/>
+  <text x="1052" y="366" text-anchor="middle" class="cn title white">统一视觉资产贯穿检索、对话与任务执行</text>
+
+  <!-- retrieval lane -->
+  <rect x="65" y="448" width="245" height="138" rx="18" fill="#1DA4FF"/>
+  <text x="187" y="504" text-anchor="middle" class="cn title white">检索通路</text>
+  <text x="187" y="545" text-anchor="middle" class="cn small white">文本 / 图片 / 图文</text>
+  <rect x="365" y="448" width="300" height="138" rx="18" class="lane1"/>
+  <text x="515" y="504" text-anchor="middle" class="cn title">Embedding</text>
+  <text x="515" y="545" text-anchor="middle" class="cn small">2048D / 2560D 空间</text>
+  <rect x="720" y="448" width="300" height="138" rx="18" class="lane1"/>
+  <text x="870" y="504" text-anchor="middle" class="cn title">L2 normalize</text>
+  <text x="870" y="545" text-anchor="middle" class="cn small">统一余弦相似度合同</text>
+  <rect x="1075" y="448" width="300" height="138" rx="18" class="lane1"/>
+  <text x="1225" y="504" text-anchor="middle" class="cn title">Faiss IndexFlatIP</text>
+  <text x="1225" y="545" text-anchor="middle" class="cn small">精确向量检索</text>
+  <rect x="1430" y="448" width="300" height="138" rx="18" class="lane1"/>
+  <text x="1580" y="504" text-anchor="middle" class="cn title">Top-K 资产</text>
+  <text x="1580" y="545" text-anchor="middle" class="cn small">SEARCH_n 映射</text>
+  <path d="M310 517 H365" class="arrow"/><path d="M665 517 H720" class="arrow"/><path d="M1020 517 H1075" class="arrow"/><path d="M1375 517 H1430" class="arrow"/>
+
+  <!-- context lane -->
+  <rect x="65" y="642" width="245" height="138" rx="18" fill="#3476B2"/>
+  <text x="187" y="698" text-anchor="middle" class="cn title white">上下文通路</text>
+  <text x="187" y="739" text-anchor="middle" class="cn small white">会话与图片范围</text>
+  <rect x="365" y="642" width="300" height="138" rx="18" class="lane2"/>
+  <text x="515" y="698" text-anchor="middle" class="cn title">会话状态管理</text>
+  <text x="515" y="739" text-anchor="middle" class="cn small">ConversationState</text>
+  <rect x="720" y="642" width="300" height="138" rx="18" class="lane2"/>
+  <text x="870" y="698" text-anchor="middle" class="cn title">图片引用解析</text>
+  <text x="870" y="739" text-anchor="middle" class="cn small">IMG_n · 序号 · 自然指代</text>
+  <rect x="1075" y="642" width="300" height="138" rx="18" class="lane2"/>
+  <text x="1225" y="698" text-anchor="middle" class="cn title">当前图片集合</text>
+  <text x="1225" y="739" text-anchor="middle" class="cn small">本轮使用的图片</text>
+  <rect x="1430" y="642" width="300" height="138" rx="18" class="lane2"/>
+  <text x="1580" y="698" text-anchor="middle" class="cn title">对话上下文整理</text>
+  <text x="1580" y="739" text-anchor="middle" class="cn small">当前任务所需信息</text>
+  <path d="M310 711 H365" class="arrow"/><path d="M665 711 H720" class="arrow"/><path d="M1020 711 H1075" class="arrow"/><path d="M1375 711 H1430" class="arrow"/>
+
+  <!-- task lane -->
+  <rect x="65" y="836" width="245" height="138" rx="18" fill="#6D91C7"/>
+  <text x="187" y="892" text-anchor="middle" class="cn title white">任务通路</text>
+  <text x="187" y="933" text-anchor="middle" class="cn small white">保留用户原始语义</text>
+  <rect x="365" y="836" width="300" height="138" rx="18" class="lane3"/>
+  <text x="515" y="892" text-anchor="middle" class="cn title">任务路由</text>
+  <text x="515" y="933" text-anchor="middle" class="cn small">明确选择 / 排序再调用工具</text>
+  <rect x="720" y="836" width="300" height="138" rx="18" class="lane3"/>
+  <text x="870" y="884" text-anchor="middle" class="cn title">任务 Prompt</text>
+  <text x="870" y="925" text-anchor="middle" class="cn small">VQA · Compare/Rank ·</text>
+  <text x="870" y="955" text-anchor="middle" class="cn small">Content/Story</text>
+  <rect x="1075" y="836" width="300" height="138" rx="18" class="lane3"/>
+  <text x="1225" y="892" text-anchor="middle" class="cn title">模型执行</text>
+  <text x="1225" y="933" text-anchor="middle" class="cn small">Self-hosted / Cloud</text>
+  <rect x="1430" y="836" width="300" height="138" rx="18" class="lane3"/>
+  <text x="1580" y="892" text-anchor="middle" class="cn title">结果解析与格式整理</text>
+  <text x="1580" y="933" text-anchor="middle" class="cn small">Schema / Parser</text>
+  <path d="M310 905 H365" class="arrow"/><path d="M665 905 H720" class="arrow"/><path d="M1020 905 H1075" class="arrow"/><path d="M1375 905 H1430" class="arrow"/>
+
+  <!-- unified applications -->
+  <rect x="1815" y="448" width="520" height="526" rx="24" fill="#F7FBFE" stroke="#215F9A" stroke-width="4"/>
+  <rect x="1870" y="488" width="410" height="72" rx="18" fill="#215F9A"/>
+  <text x="2075" y="535" text-anchor="middle" class="cn title white">统一应用输出</text>
+  <text x="2075" y="630" text-anchor="middle" class="cn title">视觉问答与描述</text>
+  <text x="2075" y="695" text-anchor="middle" class="cn title">视觉资产检索</text>
+  <text x="2075" y="760" text-anchor="middle" class="cn title">多图比较与排序</text>
+  <text x="2075" y="825" text-anchor="middle" class="cn title">故事与内容生成</text>
+  <rect x="1905" y="875" width="340" height="62" rx="16" fill="#DAEFF9"/>
+  <text x="2075" y="916" text-anchor="middle" class="cn title">前端展示与继续交互</text>
+  <path d="M1730 517 H1815" class="arrow"/><path d="M1730 711 H1815" class="arrow"/><path d="M1730 905 H1815" class="arrow"/>
+</svg>

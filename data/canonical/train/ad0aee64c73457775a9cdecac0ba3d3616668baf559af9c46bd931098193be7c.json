@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1585.jpg",
+    "relative_path": "train/1585.jpg",
+    "sha256": "ad0aee64c73457775a9cdecac0ba3d3616668baf559af9c46bd931098193be7c",
+    "split": "train"
+  },
+  "canonical_sha256": "5c19e209d2500d51828c8a0e019ce7d4874c99739a277f304977d6626f219210",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "红墙",
+      "飞檐",
+      "中式建筑",
+      "阴天"
+    ],
+    "short_description": "红墙灰瓦的传统中式建筑一角，屋檐飞翘，配以彩绘装饰，天空阴云密布。",
+    "theme": "传统中式建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "建筑风格具有中国传统宫殿式特征。"
+    ],
+    "direct_observations": [
+      "墙体呈红色，表面有斑驳痕迹。",
+      "屋檐为多层结构，边缘向上翘起。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色墙体",
+      "深色屋檐",
+      "彩绘装饰",
+      "灰色天空"
+    ],
+    "relations": [
+      "屋檐位于墙体上方。",
+      "装饰构件附着于屋檐下部。"
+    ],
+    "scene": "户外建筑场景",
+    "subjects": [
+      "建筑墙体",
+      "屋檐结构",
+      "装饰构件"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "建筑风格具有中国传统宫殿式特征。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "墙体呈红色，表面有斑驳痕迹；屋檐为多层结构，边缘向上翘起。",
+    "safe_facts": [
+      "墙体呈红色，表面有斑驳痕迹。",
+      "屋檐为多层结构，边缘向上翘起。"
+    ]
+  },
+  "label_id": "cpl_a32147e72a03e79b87e3522e",
+  "provenance": {
+    "generated_at": "2026-08-03T14:41:41.929492+00:00",
+    "migrated_at": "2026-08-03T14:41:41.933997+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "100d6c6f0e8d456d2596c41dc62baa949354d2cc487e83e284ac0a031bb0da67",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_74a5519531d46ef34c9b904c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:41:41.934809+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_74a5519531d46ef34c9b904c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "HUAWEI Mate 10 Pro",
+      "NEW LEICA DUAL CAMERA"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "HUAWEI Mate 10 Pro",
+      "NEW LEICA DUAL CAMERA"
+    ]
+  }
+}

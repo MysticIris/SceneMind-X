@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1373.jpg",
+    "relative_path": "train/1373.jpg",
+    "sha256": "9663b0600dd6a2053ad845af17a64b173b28879dabdfd79c041a264644154073",
+    "split": "train"
+  },
+  "canonical_sha256": "8a6c59ccbfad2a228e14c6ec1172d06ec94fbb748ae1ce4908e5d71b3d7ba8ba",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市街道",
+      "商业建筑",
+      "霓虹灯光"
+    ],
+    "short_description": "傍晚时分的城市商业街区，高楼林立，商铺霓虹灯亮起，车辆与行人穿梭其间。",
+    "theme": "城市商业街景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空呈黄昏色调，表明拍摄时间接近傍晚。"
+    ],
+    "direct_observations": [
+      "画面中有多栋高层建筑，部分楼体有发光标识。",
+      "街道上有电动车、汽车及行人，地面有水渍反光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行驶",
+      "行走",
+      "站立"
+    ],
+    "attributes": [
+      "高楼",
+      "霓虹灯",
+      "傍晚光线",
+      "湿润路面"
+    ],
+    "relations": [
+      "车辆在道路上行驶。",
+      "行人走在人行道上。",
+      "商铺位于建筑底层。"
+    ],
+    "scene": "城市商业街区",
+    "subjects": [
+      "建筑物",
+      "车辆",
+      "行人",
+      "商铺招牌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空呈黄昏色调，表明拍摄时间接近傍晚。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多栋高层建筑，部分楼体有发光标识；街道上有电动车、汽车及行人，地面有水渍反光。",
+    "safe_facts": [
+      "画面中有多栋高层建筑，部分楼体有发光标识。",
+      "街道上有电动车、汽车及行人，地面有水渍反光。"
+    ]
+  },
+  "label_id": "cpl_87c6829eb9ed46e75689252c",
+  "provenance": {
+    "generated_at": "2026-08-03T14:14:12.862135+00:00",
+    "migrated_at": "2026-08-03T14:14:12.865082+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "50b3056ab4bc8dfefc00a1877f6b9f6d3071c24843d951238a099e47e33c055f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_792c4fdc3ffcddf839ce96e0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:14:12.865458+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_792c4fdc3ffcddf839ce96e0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

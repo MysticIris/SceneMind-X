@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1837.jpg",
+    "relative_path": "train/1837.jpg",
+    "sha256": "8a46b520372da9ac8ec1425f800f094c4115a977568224a8f3e01a985f2462c7",
+    "split": "train"
+  },
+  "canonical_sha256": "f31eeb405e3c41008e90bac3d0b2c4af0698202876dcb37eeb085e516c4dacbf",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "算符代数"
+    ],
+    "short_description": "画面中可见数学公式和矩阵表达式。",
+    "theme": "数学公式与矩阵表达式"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见数学公式和矩阵表达式。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "电子屏幕显示的量子力学教学笔记",
+    "subjects": [
+      "数学公式",
+      "矩阵表达式"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见数学公式和矩阵表达式。",
+    "safe_facts": [
+      "画面中可见数学公式和矩阵表达式。"
+    ]
+  },
+  "label_id": "cpl_9903ae1cf8bef9a1b0d4b5d2",
+  "provenance": {
+    "generated_at": "2026-08-03T15:11:27.711900+00:00",
+    "migrated_at": "2026-08-03T15:11:27.713552+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0dbb19aeceae935e3408d7e38156c2436cd520719df7d102888bbb56da54a9a5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fa3480aaf8027d02b3f7ef8e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:11:27.714086+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:direct_observations",
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fa3480aaf8027d02b3f7ef8e"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "六、量子力学的矩阵形式",
+      "求 î_x 和 î_y 的矩阵表示 X 和 Y。",
+      "X = ħ/√2 * [[0, 1, 0], [1, 0, 1], [0, 1,",
+      "Y = ħ/√2 * [[0, -i, 0], [i, 0, -i], [0,"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "六、量子力学的矩阵形式",
+      "求 î_x 和 î_y 的矩阵表示 X 和 Y。",
+      "X = ħ/√2 * [[0, 1, 0], [1, 0, 1], [0, 1,",
+      "Y = ħ/√2 * [[0, -i, 0], [i, 0, -i], [0,"
+    ]
+  }
+}

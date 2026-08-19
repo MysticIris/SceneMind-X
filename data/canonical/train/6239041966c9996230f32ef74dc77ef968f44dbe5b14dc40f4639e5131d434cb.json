@@ -1,0 +1,140 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:723.jpg",
+    "relative_path": "train/723.jpg",
+    "sha256": "6239041966c9996230f32ef74dc77ef968f44dbe5b14dc40f4639e5131d434cb",
+    "split": "train"
+  },
+  "canonical_sha256": "3c5e4b52283809eca76c5cbf9df853ef7123a6db049f3e23e35dda0e4669eebd",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "地铁车厢",
+      "男子看手机",
+      "线路图"
+    ],
+    "short_description": "地铁车厢内，一名男子低头看手机，上方有线路图，右侧有绿色车门标识。",
+    "theme": "地铁车厢内景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该男子可能正在查看导航或地图应用。"
+    ],
+    "direct_observations": [
+      "一名男子坐在车厢内，低头注视手中的手机。",
+      "车厢顶部悬挂着地铁线路图，显示紫色线路及站点名称。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "男子低头看手机"
+    ],
+    "attributes": [
+      "男子戴眼镜",
+      "线路图显示紫色线路",
+      "车门标识为绿色"
+    ],
+    "relations": [
+      "男子手持手机。",
+      "线路图位于车厢顶部。",
+      "车门标识位于车厢侧壁。"
+    ],
+    "scene": "地铁车厢内部",
+    "subjects": [
+      "一名男子",
+      "手机",
+      "线路图",
+      "车门标识"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该男子可能正在查看导航或地图应用。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名男子坐在车厢内，低头注视手中的手机；车厢顶部悬挂着地铁线路图，显示紫色线路及站点名称。",
+    "safe_facts": [
+      "一名男子坐在车厢内，低头注视手中的手机。",
+      "车厢顶部悬挂着地铁线路图，显示紫色线路及站点名称。"
+    ]
+  },
+  "label_id": "cpl_7a7cb233e990fd412679fd65",
+  "provenance": {
+    "generated_at": "2026-08-03T12:08:58.362730+00:00",
+    "migrated_at": "2026-08-03T12:08:58.366148+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4fb836a1f8f7d8b4795cfd56b17ef2ab8bcc29a513e0f14a8dcee176220c4bef",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a18814396d73a203e932c869",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:08:58.368706+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a18814396d73a203e932c869"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "谨防夹伤",
+      "请勿扶门",
+      "小心站台间隙",
+      "5号线",
+      "5233车 6门"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "谨防夹伤",
+      "请勿扶门",
+      "小心站台间隙",
+      "5号线",
+      "5233车 6门"
+    ]
+  }
+}

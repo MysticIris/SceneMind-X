@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:512.jpg",
+    "relative_path": "train/512.jpg",
+    "sha256": "66b6b21e38757e62914e9a8dd04765ede5d8632ae6d4e40233bf11672877f972",
+    "split": "train"
+  },
+  "canonical_sha256": "dac925c3ef391ba4b488274e96ac91d3c3a7887e4672749d3a38c7b716ed8de4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "阴天",
+      "湖泊",
+      "远山",
+      "植被"
+    ],
+    "short_description": "阴云密布下，平静湖面倒映天空，远处山峦轮廓隐约可见，前景绿植茂盛。",
+    "theme": "阴天湖景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "远处山体轮廓因雾气或距离而模糊。"
+    ],
+    "direct_observations": [
+      "天空被灰白色云层覆盖。",
+      "湖面平静，无明显波纹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阴天",
+      "平静水面",
+      "绿色植被"
+    ],
+    "relations": [
+      "湖水倒映天空。",
+      "植被位于前景。"
+    ],
+    "scene": "开阔水域与远山景观",
+    "subjects": [
+      "湖水",
+      "远山",
+      "前景植被"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "远处山体轮廓因雾气或距离而模糊。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空被灰白色云层覆盖；湖面平静，无明显波纹。",
+    "safe_facts": [
+      "天空被灰白色云层覆盖。",
+      "湖面平静，无明显波纹。"
+    ]
+  },
+  "label_id": "cpl_8ad44fa7512c70fc17e20d6f",
+  "provenance": {
+    "generated_at": "2026-08-02T22:23:55.994828+00:00",
+    "migrated_at": "2026-08-03T07:13:41.783418+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "35038619fa9d2fe260001901c4717f2d7a8ec5ea3f0e8f149a6c0eb2559fbd5f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8d9c60192d56b3dfd1b12f10",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:18:45.910042+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8d9c60192d56b3dfd1b12f10",
+    "cpl_47b1ad98b9f233182b4d864c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

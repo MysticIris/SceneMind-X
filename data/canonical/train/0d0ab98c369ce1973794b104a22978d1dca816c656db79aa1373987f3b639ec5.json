@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:990.jpg",
+    "relative_path": "train/990.jpg",
+    "sha256": "0d0ab98c369ce1973794b104a22978d1dca816c656db79aa1373987f3b639ec5",
+    "split": "train"
+  },
+  "canonical_sha256": "e3b838ba29b67b7d13c9812df6da64037a0ca66dccc353cdf8a4efc1e40a1646",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "桨板",
+      "椰树",
+      "碧水",
+      "海岸线"
+    ],
+    "short_description": "一人在清澈碧绿的海水中划桨板，岸边椰树投下浓重阴影，阳光洒落水面泛起粼粼波光。",
+    "theme": "热带水域静谧"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该场景可能发生在晴朗天气下，因水面有明显光影效果。"
+    ],
+    "direct_observations": [
+      "一名男子站立在白色桨板上，手持桨具。",
+      "水面呈现浅蓝绿色，水底沙质可见。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "划桨板"
+    ],
+    "attributes": [
+      "清澈的水",
+      "阳光照射",
+      "岸边有植被"
+    ],
+    "relations": [
+      "人站在桨板上。",
+      "桨板漂浮在水上。",
+      "椰树位于岸边。"
+    ],
+    "scene": "热带海岸水域",
+    "subjects": [
+      "人",
+      "桨板",
+      "椰树"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该场景可能发生在晴朗天气下，因水面有明显光影效果。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名男子站立在白色桨板上，手持桨具；水面呈现浅蓝绿色，水底沙质可见。",
+    "safe_facts": [
+      "一名男子站立在白色桨板上，手持桨具。",
+      "水面呈现浅蓝绿色，水底沙质可见。"
+    ]
+  },
+  "label_id": "cpl_1833bd4888a0c7b8318f2eb2",
+  "provenance": {
+    "generated_at": "2026-08-03T13:11:53.272338+00:00",
+    "migrated_at": "2026-08-03T13:11:53.275545+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "315a914bede8270da5916872e78433e5742968293c00f43318bf907799c330f5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_1833bd4888a0c7b8318f2eb2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:17.868749+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b8c2cbc0a8a9826f428a8655"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

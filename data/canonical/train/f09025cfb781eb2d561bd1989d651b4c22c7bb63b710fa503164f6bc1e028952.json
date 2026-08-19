@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1374.jpg",
+    "relative_path": "train/1374.jpg",
+    "sha256": "f09025cfb781eb2d561bd1989d651b4c22c7bb63b710fa503164f6bc1e028952",
+    "split": "train"
+  },
+  "canonical_sha256": "db4fb24aa629e4c3ece4d9ef3a39a79be382a30b515e94ed9bb3b869aba00c34",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "樱花",
+      "宝塔",
+      "春日",
+      "仰视视角"
+    ],
+    "short_description": "透过盛开的樱花枝桠，仰望一座金色屋顶的多层宝塔，背景是晴朗蓝天。",
+    "theme": "樱花与古塔"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面前景有盛开的粉红色樱花及绿叶枝条。",
+      "背景中有一座具有多层屋檐和金色屋顶的塔式建筑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "粉色花朵",
+      "绿色叶片",
+      "金色屋顶",
+      "蓝色天空"
+    ],
+    "relations": [
+      "樱花树位于宝塔前方。",
+      "宝塔被樱花枝叶部分遮挡。"
+    ],
+    "scene": "户外园林",
+    "subjects": [
+      "樱花树",
+      "宝塔"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景有盛开的粉红色樱花及绿叶枝条；背景中有一座具有多层屋檐和金色屋顶的塔式建筑。",
+    "safe_facts": [
+      "画面前景有盛开的粉红色樱花及绿叶枝条。",
+      "背景中有一座具有多层屋檐和金色屋顶的塔式建筑。"
+    ]
+  },
+  "label_id": "cpl_5bc2594cc521d7f26e43b91a",
+  "provenance": {
+    "generated_at": "2026-08-03T14:16:19.493707+00:00",
+    "migrated_at": "2026-08-03T14:16:19.496670+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "48ec69b1031568e55d5e9781b8718765bb37b6632f0d2d3439c8cf4623417874",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_629d5116246e168e1009e086",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:16:19.497009+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_629d5116246e168e1009e086"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

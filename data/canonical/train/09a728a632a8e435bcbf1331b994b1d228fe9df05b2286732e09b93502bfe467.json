@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1349.jpg",
+    "relative_path": "train/1349.jpg",
+    "sha256": "09a728a632a8e435bcbf1331b994b1d228fe9df05b2286732e09b93502bfe467",
+    "split": "train"
+  },
+  "canonical_sha256": "53bda7b7d08bee810d9e5debed934c14b43b3586be6ea929ac72621b7b04b374",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪山",
+      "高空俯瞰",
+      "冰川地貌"
+    ],
+    "short_description": "高空俯瞰连绵雪峰，山脊陡峭，白雪覆盖，天空湛蓝无云。",
+    "theme": "雪山群峰"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现多座被白雪覆盖的高山。",
+      "天空为纯净蓝色，无明显云层。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白雪覆盖",
+      "陡峭山脊",
+      "晴朗天空"
+    ],
+    "relations": [],
+    "scene": "高空俯瞰雪山群峰",
+    "subjects": [
+      "雪山",
+      "山脊",
+      "积雪"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现多座被白雪覆盖的高山；天空为纯净蓝色，无明显云层。",
+    "safe_facts": [
+      "画面呈现多座被白雪覆盖的高山。",
+      "天空为纯净蓝色，无明显云层。"
+    ]
+  },
+  "label_id": "cpl_84b21d0422d2392864dea5bc",
+  "provenance": {
+    "generated_at": "2026-08-03T14:13:28.615842+00:00",
+    "migrated_at": "2026-08-03T14:13:28.618345+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b72edf909244b7444533b6b2ca6fcdffc1d98f8e979a9f96a5d2d507a502c436",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_762d96770cd64baa7527c49e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:13:28.618709+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_762d96770cd64baa7527c49e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

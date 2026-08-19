@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:378.jpg",
+    "relative_path": "train/378.jpg",
+    "sha256": "25f076a1cd35f566e06580817f48255d6642f9d5a3a7ff422fae4b5b23b590b5",
+    "split": "train"
+  },
+  "canonical_sha256": "adabb9d7f39991cc2806ad2ca41ad961360c498649176d83976521d4ebb573ff",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "货轮",
+      "集装箱",
+      "港口",
+      "夕阳"
+    ],
+    "short_description": "一艘满载集装箱的货轮正驶向港口，夕阳映照海面，远处可见码头起重机。",
+    "theme": "海上货运船"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "货轮甲板上堆满五颜六色的集装箱。",
+      "远处海岸线上排列着多台大型起重机。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "满载集装箱",
+      "夕阳背景",
+      "水面波纹"
+    ],
+    "relations": [
+      "货轮位于海面上。",
+      "集装箱堆叠在货轮甲板上。",
+      "码头起重机位于远处岸线。"
+    ],
+    "scene": "开阔海域靠近港口区域",
+    "subjects": [
+      "货轮",
+      "集装箱",
+      "码头起重机"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "货轮甲板上堆满五颜六色的集装箱；远处海岸线上排列着多台大型起重机。",
+    "safe_facts": [
+      "货轮甲板上堆满五颜六色的集装箱。",
+      "远处海岸线上排列着多台大型起重机。"
+    ]
+  },
+  "label_id": "cpl_f0bfc8cf304eddea5c9da447",
+  "provenance": {
+    "generated_at": "2026-08-03T10:51:09.345299+00:00",
+    "migrated_at": "2026-08-03T10:51:09.346781+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "000694084bd3c4f2951c078e8d287c47b5ad0620fb9932ce03c4567fab52b435",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b6e2d55b9e58805b182c3c25",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:51:09.346977+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b6e2d55b9e58805b182c3c25"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

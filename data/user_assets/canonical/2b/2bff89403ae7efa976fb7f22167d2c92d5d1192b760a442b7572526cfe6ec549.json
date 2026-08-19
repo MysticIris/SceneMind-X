@@ -1,0 +1,137 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_e93709a6199529d2cb884d4e",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_9714d7732c8a54d1172ed522"
+  ],
+  "asset": {
+    "asset_id": "2bff89403ae7efa9",
+    "sha256": "2bff89403ae7efa976fb7f22167d2c92d5d1192b760a442b7572526cfe6ec549",
+    "split": "user_custom",
+    "relative_path": "user_assets/2b/2bff89403ae7efa976fb7f22167d2c92d5d1192b760a442b7572526cfe6ec549/2bff89403ae7efa976fb7f22167d2c92d5d1192b760a442b7572526cfe6ec549.png"
+  },
+  "display": {
+    "theme": "Windows磁盘属性界面",
+    "short_description": "这是一张Windows操作系统中本地磁盘(C：)属性窗口的截图。界面显示该驱动器名为Windows-SSD，文件系统为NTFS，总容量200GB，已用空间约190GB，可用空间仅剩9.50GB，磁盘使用率极高。",
+    "micro_tags": [
+      "系统截图",
+      "磁盘属性",
+      "C盘",
+      "存储空间",
+      "NTFS",
+      "Windows界面"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "计算机操作系统图形用户界面",
+    "subjects": [
+      "磁盘属性对话框",
+      "存储空间统计图表"
+    ],
+    "actions": [],
+    "attributes": [
+      "白色背景窗口",
+      "蓝色环形进度图",
+      "中文界面文本",
+      "选项卡式布局"
+    ],
+    "relations": [
+      "环形图直观展示了已用空间与可用空间的比例关系。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "窗口标题栏显示“Windows-SSD (C：) 属性”。",
+      "数据显示容量为200 GB，可用空间为9.50 GB。",
+      "底部有一个蓝色的环形图，绝大部分为蓝色(代表已用)，极少部分为灰色(代表可用)。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "Windows-SSD (C:) 属性",
+      "以前的版本",
+      "Windows-SSD",
+      "类型: 本地磁盘",
+      "文件系统: NTFS"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "Windows-SSD (C:) 属性",
+      "以前的版本",
+      "Windows-SSD",
+      "类型: 本地磁盘",
+      "文件系统: NTFS"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "窗口标题栏显示“Windows-SSD (C：) 属性”；数据显示容量为200 GB，可用空间为9.50 GB。",
+    "safe_facts": [
+      "窗口标题栏显示“Windows-SSD (C：) 属性”。",
+      "数据显示容量为200 GB，可用空间为9.50 GB。",
+      "底部有一个蓝色的环形图，绝大部分为蓝色(代表已用)，极少部分为灰色(代表可用)。"
+    ],
+    "do_not_assert": [],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "needs_review",
+    "schema_valid": true,
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": true,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_e295f898-f99c-4735-9f7f-ea4fc5655e4d",
+    "generated_at": "2026-08-12T03:29:24.567823+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "d56508f4e67c44b15b9b615e8370c90289930dc685ce23b52614dd48e7a73fd7",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:29:24.568714+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_9714d7732c8a54d1172ed522",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:29:24.569226+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "d06d7f0185f3092503312bcf4b44340499f423b06593c5095fc2173f79994a02"
+}

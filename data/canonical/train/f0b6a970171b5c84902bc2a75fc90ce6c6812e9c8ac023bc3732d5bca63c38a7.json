@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1149.jpg",
+    "relative_path": "train/1149.jpg",
+    "sha256": "f0b6a970171b5c84902bc2a75fc90ce6c6812e9c8ac023bc3732d5bca63c38a7",
+    "split": "train"
+  },
+  "canonical_sha256": "94b6b42b0b0c0f7510be52a2f75297c7c7551aac9c7c213b0875f300c17a25c3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古代文物",
+      "兽形底座"
+    ],
+    "short_description": "一件漆木结构的古代器物，由四只兽形底座支撑，顶部有复杂纹饰，陈列于玻璃展柜中。",
+    "theme": "漆器文物"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "文物表面覆盖深色漆层，局部有橙红色斑点。",
+      "底部有四个雕刻成兽形的支撑结构。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深色漆面",
+      "雕刻纹饰",
+      "兽形底座"
+    ],
+    "relations": [
+      "文物被放置在展柜中。"
+    ],
+    "scene": "博物馆展柜内",
+    "subjects": [
+      "漆器文物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "文物表面覆盖深色漆层，局部有橙红色斑点；底部有四个雕刻成兽形的支撑结构。",
+    "safe_facts": [
+      "文物表面覆盖深色漆层，局部有橙红色斑点。",
+      "底部有四个雕刻成兽形的支撑结构。"
+    ]
+  },
+  "label_id": "cpl_1e44ac11185a3e90334f895e",
+  "provenance": {
+    "generated_at": "2026-08-03T13:45:42.172150+00:00",
+    "migrated_at": "2026-08-03T13:45:42.177639+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "879001b6296bec620354dc528e07cdbd42f2c93b2376eb14364cfada83e75695",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f2f30ec06c3a0a5c4a8e0931",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:45:42.178420+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f2f30ec06c3a0a5c4a8e0931"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "漆器漆禁",
+      "禁用于承物。禁面由整块木板雕琢而成,四角各饰有兽头,四兽圆眼成形。"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "漆器漆禁",
+      "禁用于承物。禁面由整块木板雕琢而成,四角各饰有兽头,四兽圆眼成形。"
+    ]
+  }
+}

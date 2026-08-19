@@ -1,0 +1,145 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:556.jpg",
+    "relative_path": "train/556.jpg",
+    "sha256": "429b594c9e48909f2ef4c45085075d6a75fa0d3ba57492ea8bc07ba749902b7f",
+    "split": "train"
+  },
+  "canonical_sha256": "609d7430380bd7bd69b4805d4c101a1f14bcc5aea1f5eb2af76fa2ace715388f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "教室",
+      "学生",
+      "教师",
+      "投影屏幕"
+    ],
+    "short_description": "教室天花板上安装有多个方形空调和长条形荧光灯；讲台上有一位女性教师正在讲话，面前有麦克风。",
+    "theme": "课堂讲授场景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "投影屏幕上显示的是教学内容，但具体内容因角度和距离无法完全辨识。"
+    ],
+    "direct_observations": [
+      "教室天花板上安装有多个方形空调和长条形荧光灯。",
+      "讲台上有一位女性教师正在讲话，面前有麦克风。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "教师讲课",
+      "学生听课"
+    ],
+    "attributes": [
+      "天花板装有空调和照明灯",
+      "学生穿着日常服装"
+    ],
+    "relations": [
+      "教师站在讲台前，面对学生。",
+      "学生坐在课桌前，面向讲台。"
+    ],
+    "scene": "室内教室环境",
+    "subjects": [
+      "教师",
+      "学生",
+      "投影屏幕",
+      "黑板"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "投影屏幕上显示的是教学内容，但具体内容因角度和距离无法完全辨识。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "教室天花板上安装有多个方形空调和长条形荧光灯；讲台上有一位女性教师正在讲话，面前有麦克风。",
+    "safe_facts": [
+      "教室天花板上安装有多个方形空调和长条形荧光灯。",
+      "讲台上有一位女性教师正在讲话，面前有麦克风。"
+    ]
+  },
+  "label_id": "cpl_676f13e5593b3ad51ea4ce8a",
+  "provenance": {
+    "generated_at": "2026-08-03T11:32:31.922445+00:00",
+    "migrated_at": "2026-08-03T11:32:31.925425+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "718f2203458492da19a13607529c29f89d8a412ba9ba2fd66bde5110b4cc43ac",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5afd1f97caa74ce2e860b832",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:32:31.926354+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5afd1f97caa74ce2e860b832"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "《中国马克思主义与当代》教学大纲(2021年版)",
+      "第二节 百年变局中的当代世界政治",
+      "第三节 当代国际政治格局的变革与挑战",
+      "第四节 中国特色社会主义发展道路",
+      "五、中国的政治制度和国家治理体系",
+      "六、为人类政治文明发展作出中国贡献"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "《中国马克思主义与当代》教学大纲(2021年版)",
+      "第二节 百年变局中的当代世界政治",
+      "第三节 当代国际政治格局的变革与挑战",
+      "第四节 中国特色社会主义发展道路",
+      "五、中国的政治制度和国家治理体系",
+      "六、为人类政治文明发展作出中国贡献"
+    ]
+  }
+}

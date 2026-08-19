@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scenemind-x.local/schemas/gate1-d3-semantic-review-payload-v1.schema.json",
+  "title": "Gate 1-D3 compact semantic review payload v1",
+  "description": "Compact model-facing payload used only for fair 2B/4B human review. It is not the final project annotation contract.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "global_observation",
+    "subjects",
+    "activities",
+    "attributes",
+    "relations",
+    "visible_text_candidates",
+    "scene_hypotheses",
+    "uncertainties",
+    "evidence_descriptions"
+  ],
+  "properties": {
+    "global_observation": {"type": "string", "minLength": 1},
+    "subjects": {"type": "array", "maxItems": 8, "items": {"type": "string", "minLength": 1}},
+    "activities": {"type": "array", "maxItems": 8, "items": {"type": "string", "minLength": 1}},
+    "attributes": {
+      "type": "array",
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["subject", "attribute"],
+        "properties": {
+          "subject": {"type": "string", "minLength": 1},
+          "attribute": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "relations": {
+      "type": "array",
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["subject", "relation", "object"],
+        "properties": {
+          "subject": {"type": "string", "minLength": 1},
+          "relation": {"type": "string", "minLength": 1},
+          "object": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "visible_text_candidates": {
+      "type": "array",
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["text", "legibility", "used_for_scene_inference"],
+        "properties": {
+          "text": {"type": "string"},
+          "legibility": {"enum": ["clear", "uncertain", "unreadable"]},
+          "used_for_scene_inference": {"type": "boolean"}
+        }
+      }
+    },
+    "scene_hypotheses": {
+      "type": "array",
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["hypothesis", "basis", "confidence"],
+        "properties": {
+          "hypothesis": {"type": "string", "minLength": 1},
+          "basis": {"type": "string", "minLength": 1},
+          "confidence": {"enum": ["low", "medium", "high"]}
+        }
+      }
+    },
+    "uncertainties": {"type": "array", "maxItems": 8, "items": {"type": "string", "minLength": 1}},
+    "evidence_descriptions": {"type": "array", "maxItems": 8, "items": {"type": "string", "minLength": 1}}
+  }
+}

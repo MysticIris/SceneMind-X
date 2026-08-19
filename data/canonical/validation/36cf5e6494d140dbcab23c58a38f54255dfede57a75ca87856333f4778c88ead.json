@@ -1,0 +1,113 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2177.jpg",
+    "relative_path": "val/2177.jpg",
+    "sha256": "36cf5e6494d140dbcab23c58a38f54255dfede57a75ca87856333f4778c88ead",
+    "split": "val"
+  },
+  "canonical_sha256": "986441ceeae38983e7ed4ee1a81ea84ace79f396c892ff844675f6c534717c3c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "孔雀",
+      "羽毛",
+      "干草地"
+    ],
+    "short_description": "一只孔雀背对镜头站立，羽毛色彩斑斓，地面铺满干草与沙土。",
+    "theme": "孔雀栖息"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像中可见一只孔雀，其背部羽毛呈现绿色与深色斑纹。",
+      "地面覆盖着干草和细沙混合物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "羽毛呈绿色与蓝色",
+      "背部羽毛有斑点纹理"
+    ],
+    "relations": [],
+    "scene": "地面铺有干草和沙土的户外环境",
+    "subjects": [
+      "孔雀"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像中可见一只孔雀，其背部羽毛呈现绿色与深色斑纹；地面覆盖着干草和细沙混合物。",
+    "safe_facts": [
+      "图像中可见一只孔雀，其背部羽毛呈现绿色与深色斑纹。",
+      "地面覆盖着干草和细沙混合物。"
+    ]
+  },
+  "label_id": "cpl_5e3ac5a625e5108ef74a1af2",
+  "provenance": {
+    "generated_at": "2026-08-03T16:08:48.566897+00:00",
+    "migrated_at": "2026-08-03T16:08:48.569209+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "842da414b0b8ba1eeb6be55ad4cd794ceecd9bfc899c393a4c8d449499e6d4c8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_16a9d3ec7eb9fd42a8c86bd3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:08:48.569561+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_16a9d3ec7eb9fd42a8c86bd3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

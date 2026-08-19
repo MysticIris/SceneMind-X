@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1164.jpg",
+    "relative_path": "train/1164.jpg",
+    "sha256": "53fbc157fb25394a6f82d970836992ba958435def8c5596bd90a8838e746099c",
+    "split": "train"
+  },
+  "canonical_sha256": "e2945514e1b31bc06e708daef9873a9e1e46ec5c619b3fb957c52451a6e8a617",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "白猫",
+      "长毛",
+      "玻璃隔间",
+      "互动"
+    ],
+    "short_description": "两只白色长毛猫在玻璃隔间内，一只伸爪触碰另一只尾巴，姿态生动可爱。",
+    "theme": "白猫互动"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两只猫均为白色长毛，毛发蓬松。",
+      "一只猫前爪伸出接触另一只猫的尾部。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "伸爪触碰",
+      "后腿站立"
+    ],
+    "attributes": [
+      "长毛",
+      "白色",
+      "蓬松尾巴"
+    ],
+    "relations": [
+      "相互靠近。",
+      "隔着玻璃。"
+    ],
+    "scene": "室内玻璃隔间",
+    "subjects": [
+      "白色长毛猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两只猫均为白色长毛，毛发蓬松；一只猫前爪伸出接触另一只猫的尾部。",
+    "safe_facts": [
+      "两只猫均为白色长毛，毛发蓬松。",
+      "一只猫前爪伸出接触另一只猫的尾部。"
+    ]
+  },
+  "label_id": "cpl_2e0b5363f74eb585beec6f66",
+  "provenance": {
+    "generated_at": "2026-08-03T13:46:28.067974+00:00",
+    "migrated_at": "2026-08-03T13:46:28.070505+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "950ee71e914eb75c9cca4c0d2a9861e2d92564210dab70b00270fd4f3ccecfee",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_dbb98ffc6c8b56e154cfb0c9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:46:28.070831+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_dbb98ffc6c8b56e154cfb0c9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

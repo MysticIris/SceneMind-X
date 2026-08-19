@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scenemind-x.local/schemas/gate1-d3-semantic-review-payload-v1-1.schema.json",
+  "title": "Gate 1-D3 compact semantic review payload v1.1",
+  "description": "Short string-list payload used only for paired human review after the nested v1 pilot truncated.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["global_observation", "subjects", "activities", "attributes", "relations", "visible_text_candidates", "scene_hypotheses", "uncertainties", "evidence_descriptions"],
+  "properties": {
+    "global_observation": {"type": "string", "minLength": 1, "maxLength": 80},
+    "subjects": {"$ref": "#/$defs/shortList"},
+    "activities": {"$ref": "#/$defs/shortList"},
+    "attributes": {"$ref": "#/$defs/shortList"},
+    "relations": {"$ref": "#/$defs/shortList"},
+    "visible_text_candidates": {"$ref": "#/$defs/shortList"},
+    "scene_hypotheses": {"$ref": "#/$defs/shortList"},
+    "uncertainties": {"$ref": "#/$defs/shortList"},
+    "evidence_descriptions": {"$ref": "#/$defs/shortList"}
+  },
+  "$defs": {
+    "shortList": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {"type": "string", "minLength": 1, "maxLength": 80}
+    }
+  }
+}

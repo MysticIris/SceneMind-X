@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:628.jpg",
+    "relative_path": "train/628.jpg",
+    "sha256": "f060a43ed6017f23d581e6ee656e015ae803008cf84e1d767ba2ac4ec6f74758",
+    "split": "train"
+  },
+  "canonical_sha256": "2835cc0da1eb3d57ddedda2fccb099ab5908837215196203e0d3d8f35411fae1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "河道",
+      "传统建筑",
+      "游船",
+      "黄昏"
+    ],
+    "short_description": "黄昏时分，河道两侧传统民居与现代高楼并立，一艘游船在水面缓缓行驶，天空云层渐暗。",
+    "theme": "水乡黄昏"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空颜色从地平线处的暖黄色过渡到上方的灰蓝色，表明日落接近尾声。"
+    ],
+    "direct_observations": [
+      "画面呈现黄昏时分的城市水道景观。",
+      "河道两侧分布着具有传统风格的低矮建筑和远处的现代高层建筑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "航行"
+    ],
+    "attributes": [
+      "黄昏",
+      "多云",
+      "传统屋顶",
+      "现代高层建筑"
+    ],
+    "relations": [
+      "船只在河道上行驶。",
+      "房屋沿河道分布。",
+      "天空覆盖云层。"
+    ],
+    "scene": "城市水道沿岸景观",
+    "subjects": [
+      "船只",
+      "房屋",
+      "天空",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空颜色从地平线处的暖黄色过渡到上方的灰蓝色，表明日落接近尾声。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现黄昏时分的城市水道景观；河道两侧分布着具有传统风格的低矮建筑和远处的现代高层建筑。",
+    "safe_facts": [
+      "画面呈现黄昏时分的城市水道景观。",
+      "河道两侧分布着具有传统风格的低矮建筑和远处的现代高层建筑。"
+    ]
+  },
+  "label_id": "cpl_613fbc8bcc8aea084ab68296",
+  "provenance": {
+    "generated_at": "2026-08-03T11:47:31.457091+00:00",
+    "migrated_at": "2026-08-03T11:47:31.460015+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2d06656e886b3d6a3864fa7390017a9b6287b2d28251c17ccef8a931c8e413d8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_44536ca073ccbc90b656d43d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:47:31.460370+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_44536ca073ccbc90b656d43d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

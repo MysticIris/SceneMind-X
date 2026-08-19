@@ -1,0 +1,66 @@
+{
+  "asset_id": "f273536066777853",
+  "asset_sha256": "f273536066777853a6548d2990267ba6f48c6a4a51529b48c27e1898caa98f26",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"热门新车推荐列表\",\n    \"short_description\": \"这是一张手机应用界面的截图，展示了“你可能感兴趣的热门新车”板块。列表中垂直排列了三款豪华汽车的卡片，分别包含车辆图片、名称（如Gemera、迈巴赫S级、保时捷911）、在售车型数量、热度数值以及红色的最低报价和“询底价”按钮。界面底部设有导航栏和“查看更多”选项。\",\n    \"micro_tags\": [\n      \"汽车资讯\",\n      \"手机截图\",\n      \"豪车推荐\",\n      \"购车比价\",\n      \"UI界面\",\n      \"懂车帝\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端应用程序的信息流或推荐页面\",\n    \"subjects\": [\n      \"Gemera跑车\",\n      \"迈巴赫S级轿车\",\n      \"保时捷911跑车\",\n      \"应用界面元素\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白色圆角卡片背景\",\n      \"红色价格字体\",\n      \"顶部状态栏显示时间01:32\",\n      \"底部黑色导航栏\"\n    ],\n    \"relations\": [\n      \"三辆汽车以列表形式垂直排列\",\n      \"每辆车对应独立的信息展示卡片\",\n      \"价格位于车辆图片右侧下方\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕顶部显示时间为01:32，信号为5G，电量49%。\",\n      \"页面标题区域写有“你可能感兴趣的 热门新车”。\",\n      \"第一张卡片展示了一辆深灰色跑车，标注名称为Gemera，报价1980.00万。\",\n      \"第二张卡片展示了一辆蓝色轿车，标注名称为迈巴赫S级，报价141.80万。\",\n      \"第三张卡片展示了一辆蓝色跑车，标注名称为保时捷911，报价137.60万。\",\n      \"每个卡片右下角都有一个粉色的“询底价”按钮。\"\n    ],\n    \"cautious_inferences\": [\n      \"该界面可能属于一个汽车资讯或交易类APP。\",\n      \"红色数字代表车辆的当前市场参考价格。\",\n      \"“热度”数值反映了该车型在平台上的受关注程度。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"01:32\",\n      \"5G\",\n      \"49\",\n      \"热点\",\n      \"朋友\",\n      \"团购\",\n      \"直播\",\n      \"鞍山\",\n      \"关注\",\n      \"推荐\",\n      \"你可能感兴趣的\",\n      \"热门新车\",\n      \"懂车帝·小程序\",\n      \"汽车国补官方指定平台\",\n      \"Gemera\",\n      \"现有1款车型在售\",\n      \"热度52万\",\n      \"1980.00万\",\n      \"最低报价\",\n      \"询底价\",\n      \"迈巴赫S级\",\n      \"现有9款车型在售\",\n      \"热度74万\",\n      \"141.80万\",\n      \"直降5.",
+      "input_tokens": 3227,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 768,
+        "total_tokens": 3995,
+        "estimated_cost_cny": 0.012598,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "热门新车推荐列表",
+        "short_description": "这是一张手机应用界面的截图，展示了“你可能感兴趣的热门新车”板块。列表中垂直排列了三款豪华汽车的卡片，分别包含车辆图片、名称（如Gemera、迈巴赫S级、保时捷911）、在售车型数量、热度数值以及红色的最低报价和“询底价”按钮。界面底部设有导航栏和“查看更多”选项。",
+        "micro_tags": [
+          "汽车资讯",
+          "手机截图",
+          "豪车推荐",
+          "购车比价",
+          "UI界面",
+          "懂车帝"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 2405620,
+        "request_bytes": 1801141,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.927014499997313,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "dba7275d3a1e262cb0b9e127ae74f407c62a10f00935b5e69320ed631196edb3"
+}

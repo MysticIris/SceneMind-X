@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:147.jpg",
+    "relative_path": "train/147.jpg",
+    "sha256": "e3d1063437058de01ced3149f0e9599ed6ff34d4e468a9ef93597a3c2c5c040c",
+    "split": "train"
+  },
+  "canonical_sha256": "8b7ee4baef9a2c9a8df7652bc4be601d096b5a5295501d75c7325650bf3317ff",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "烧烤",
+      "肉串",
+      "户外",
+      "手套"
+    ],
+    "short_description": "一人戴手套在户外烤架上翻动肉串，旁边有调料盒和塑料袋。",
+    "theme": "户外烧烤"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "人双手戴透明塑料手套，正在翻动烤架上的肉串。",
+      "烤架上有多个肉串，部分已烤至棕色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "翻动肉串"
+    ],
+    "attributes": [
+      "戴手套",
+      "黑色烤架",
+      "金属网格"
+    ],
+    "relations": [
+      "人操作烤架。",
+      "肉串在烤架上。"
+    ],
+    "scene": "户外草地",
+    "subjects": [
+      "人",
+      "烤架",
+      "肉串"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "人双手戴透明塑料手套，正在翻动烤架上的肉串；烤架上有多个肉串，部分已烤至棕色。",
+    "safe_facts": [
+      "人双手戴透明塑料手套，正在翻动烤架上的肉串。",
+      "烤架上有多个肉串，部分已烤至棕色。"
+    ]
+  },
+  "label_id": "cpl_4898bc440559fd24603d2288",
+  "provenance": {
+    "generated_at": "2026-08-03T09:37:43.110467+00:00",
+    "migrated_at": "2026-08-03T09:37:43.112493+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "730f5c5f76650a142cf917b4f1e1b221bff678fd5f10c20da3310b418ce79ae0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e9afecbf415c6323c2580e8a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:41.801167+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e9afecbf415c6323c2580e8a",
+    "cpl_ec4693b1836d03a5041731cf"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

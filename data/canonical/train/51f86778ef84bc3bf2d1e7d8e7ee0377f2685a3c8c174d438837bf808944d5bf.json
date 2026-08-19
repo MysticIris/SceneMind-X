@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1080.jpg",
+    "relative_path": "train/1080.jpg",
+    "sha256": "51f86778ef84bc3bf2d1e7d8e7ee0377f2685a3c8c174d438837bf808944d5bf",
+    "split": "train"
+  },
+  "canonical_sha256": "00f0c640189504cee4917009823b935162a4adede48461433e7481c66861bb43",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "樱花装饰",
+      "室内休息区",
+      "霓虹灯牌"
+    ],
+    "short_description": "粉色樱花树旁设有圆形坐垫和红色回收箱，背景墙饰有樱花图案与霓虹灯牌。",
+    "theme": "樱花主题室内空间"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一棵大型人造樱花树位于画面左侧。",
+      "地面有圆形软垫和红色回收箱。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "粉色花朵",
+      "绿色边框玻璃门",
+      "橙色坐垫",
+      "红色回收箱",
+      "霓虹灯效果"
+    ],
+    "relations": [
+      "樱花树位于坐垫旁。",
+      "回收箱置于地面。",
+      "霓虹灯牌安装于墙面。"
+    ],
+    "scene": "室内公共空间",
+    "subjects": [
+      "樱花树",
+      "坐垫",
+      "回收箱",
+      "霓虹灯牌",
+      "玻璃门"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一棵大型人造樱花树位于画面左侧；地面有圆形软垫和红色回收箱。",
+    "safe_facts": [
+      "一棵大型人造樱花树位于画面左侧。",
+      "地面有圆形软垫和红色回收箱。"
+    ]
+  },
+  "label_id": "cpl_6926454a858def7e14b431c6",
+  "provenance": {
+    "generated_at": "2026-08-03T13:32:56.912640+00:00",
+    "migrated_at": "2026-08-03T13:32:56.915251+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "93324642791aec40595826ea0339d8c791508246cfbafadffeb0251f51c052b2",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6f77ed37a964275b92257198",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:32:56.915590+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6f77ed37a964275b92257198"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

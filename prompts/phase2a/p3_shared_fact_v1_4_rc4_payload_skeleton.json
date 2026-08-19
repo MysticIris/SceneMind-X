@@ -1,0 +1,32 @@
+{
+  "visual_medium": "real_world_photo",
+  "depicted_content": "<简体中文短语>",
+  "scene_summary": "<简体中文短语>",
+  "subjects": [
+    "<简体中文短语>"
+  ],
+  "activities": [
+    "<简体中文短语>"
+  ],
+  "relationships": [
+    "<简体中文短语>"
+  ],
+  "text_presence": "present",
+  "text_role": "decision_critical",
+  "text_reliability": "verified",
+  "visible_text_candidates": [
+    "<简体中文短语>"
+  ],
+  "selected_text": null,
+  "text_summary": "<简体中文短语>",
+  "text_uncertainty": "<简体中文短语>",
+  "observations": [
+    "<简体中文短语>"
+  ],
+  "inference_candidates": [
+    "<简体中文短语>"
+  ],
+  "uncertainties": [
+    "<简体中文短语>"
+  ]
+}

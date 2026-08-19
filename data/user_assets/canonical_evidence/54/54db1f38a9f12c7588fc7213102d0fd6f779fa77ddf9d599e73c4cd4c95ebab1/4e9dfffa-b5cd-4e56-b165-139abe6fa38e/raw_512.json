@@ -1,0 +1,134 @@
+{
+  "asset_id": "54db1f38a9f12c75",
+  "asset_sha256": "54db1f38a9f12c7588fc7213102d0fd6f779fa77ddf9d599e73c4cd4c95ebab1",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"腾讯欢乐麻将游戏截图\",\n    \"short_description\": \"这是一张手机麻将游戏的对局截图。画面展示了绿色的虚拟牌桌，底部玩家手持条子牌并处于听牌状态，右侧弹出包含倍数和胡牌概率的结算预测面板，四周分布着其他玩家的头像与积分信息。\",\n    \"micro_tags\": [\n      \"麻将\",\n      \"手游\",\n      \"游戏界面\",\n      \"听牌\",\n      \"策略\",\n      \"休闲\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"数字麻将游戏对局界面\",\n    \"subjects\": [\n      \"麻将牌\",\n      \"游戏UI面板\",\n      \"玩家头像\",\n      \"虚拟牌桌\"\n    ],\n    \"actions\": [\n      \"展示手牌\",\n      \"显示听牌提示\",\n      \"呈现对局数据\"\n    ],\n    \"attributes\": [\n      \"绿色背景\",\n      \"卡通风格头像\",\n      \"半透明信息浮窗\",\n      \"竖排手牌布局\"\n    ],\n    \"relations\": [\n      \"手牌位于屏幕底部中央\",\n      \"数据统计面板悬浮于右侧\",\n      \"对手信息环绕牌桌边缘\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"屏幕底部排列着多张绿色的条子花色麻将牌，右下角有‘听牌’按钮亮起。\",\n      \"右侧有一个白色半透明矩形框，列出了‘预收益’、‘总倍数’等数值及对应的牌型图示。\",\n      \"牌桌中心有倒计时数字显示，周围有四个方位的玩家头像及分数标识。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局和图标风格，推测这是一款移动端在线麻将游戏。\",\n      \"右侧面板的数据可能是在计算当前听牌后的预期得分情况。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的游戏规则变种（如血流成河或血战到底的具体细节）。\",\n      \"无法确认玩家的实际地理位置或真实身份。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"红中血流\",\n      \"预收益 7.04万\",\n      \"总倍数 352倍\",\n      \"胡牌数 10张\",\n      \"自动摸打/胡牌\",\n      \"腾讯欢乐麻将\",\n      \"听牌\",\n      \"流水\",\n      \"聊天\",\n      \"存豆罐\",\n      \"菜单\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张电子麻将游戏的实时对局画面，显示了玩家的手牌、听牌状态以及详细的局势分析数据面板。\",\n    \"safe_facts\": [\n      \"图像为横向构图的电子屏幕截图\",\n      \"主要视觉元素包括麻将牌、数字界面和卡通图标\",\n      \"画面包含复杂的数据统计浮层\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 720,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 720,
+        "total_tokens": 3947,
+        "estimated_cost_cny": 0.012214,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "腾讯欢乐麻将游戏截图",
+          "short_description": "这是一张手机麻将游戏的对局截图。画面展示了绿色的虚拟牌桌，底部玩家手持条子牌并处于听牌状态，右侧弹出包含倍数和胡牌概率的结算预测面板，四周分布着其他玩家的头像与积分信息。",
+          "micro_tags": [
+            "麻将",
+            "手游",
+            "游戏界面",
+            "听牌",
+            "策略",
+            "休闲"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "数字麻将游戏对局界面",
+          "subjects": [
+            "麻将牌",
+            "游戏UI面板",
+            "玩家头像",
+            "虚拟牌桌"
+          ],
+          "actions": [
+            "展示手牌",
+            "显示听牌提示",
+            "呈现对局数据"
+          ],
+          "attributes": [
+            "绿色背景",
+            "卡通风格头像",
+            "半透明信息浮窗",
+            "竖排手牌布局"
+          ],
+          "relations": [
+            "手牌位于屏幕底部中央",
+            "数据统计面板悬浮于右侧",
+            "对手信息环绕牌桌边缘"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "屏幕底部排列着多张绿色的条子花色麻将牌，右下角有‘听牌’按钮亮起。",
+            "右侧有一个白色半透明矩形框，列出了‘预收益’、‘总倍数’等数值及对应的牌型图示。",
+            "牌桌中心有倒计时数字显示，周围有四个方位的玩家头像及分数标识。"
+          ],
+          "cautious_inferences": [
+            "根据界面布局和图标风格，推测这是一款移动端在线麻将游戏。",
+            "右侧面板的数据可能是在计算当前听牌后的预期得分情况。"
+          ],
+          "uncertainties": [
+            "无法确定具体的游戏规则变种（如血流成河或血战到底的具体细节）。",
+            "无法确认玩家的实际地理位置或真实身份。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "红中血流",
+            "预收益 7.04万",
+            "总倍数 352倍",
+            "胡牌数 10张",
+            "自动摸打/胡牌",
+            "腾讯欢乐麻将",
+            "听牌",
+            "流水",
+            "聊天",
+            "存豆罐",
+            "菜单"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张电子麻将游戏的实时对局画面，显示了玩家的手牌、听牌状态以及详细的局势分析数据面板。",
+          "safe_facts": [
+            "图像为横向构图的电子屏幕截图",
+            "主要视觉元素包括麻将牌、数字界面和卡通图标",
+            "画面包含复杂的数据统计浮层"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 5305064,
+        "request_bytes": 3975726,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.190393999997468,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "8138ffca4e26e086710dcf1d07209616e3aae2e04fc7b3a1410778747993e99c"
+}

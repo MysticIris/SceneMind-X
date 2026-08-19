@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:208.jpg",
+    "relative_path": "train/208.jpg",
+    "sha256": "0008a3e737b809423cf099519c59c2341c0b1533036a77f19b2bf2801c3b60e2",
+    "split": "train"
+  },
+  "canonical_sha256": "6d8171dd3e7d28862c696ed639e592f4f8cbec5ea058c60c57da84c8fb264a8b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市夜景",
+      "雕像",
+      "高楼大厦",
+      "灯光装饰"
+    ],
+    "short_description": "城市夜景中，一座雕像矗立于公园，背景是高楼林立的现代建筑群，其中一栋大楼被彩色灯光照亮。",
+    "theme": "城市夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现城市夜景，天空黑暗，建筑物亮着灯光。",
+      "前景有树木剪影，中间有一座白色雕像，背景有多栋高层建筑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "灯光照明",
+      "湿润地面"
+    ],
+    "relations": [
+      "雕像位于公园中央。",
+      "高楼位于雕像后方。"
+    ],
+    "scene": "城市公园与高层建筑群夜景",
+    "subjects": [
+      "雕像",
+      "高楼建筑",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现城市夜景，天空黑暗，建筑物亮着灯光；前景有树木剪影，中间有一座白色雕像，背景有多栋高层建筑。",
+    "safe_facts": [
+      "画面呈现城市夜景，天空黑暗，建筑物亮着灯光。",
+      "前景有树木剪影，中间有一座白色雕像，背景有多栋高层建筑。"
+    ]
+  },
+  "label_id": "cpl_a6f0dc6727f5f217fc588401",
+  "provenance": {
+    "generated_at": "2026-08-03T10:17:05.149693+00:00",
+    "migrated_at": "2026-08-03T10:17:05.151786+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b08d3730ac20e3e5f957b25b652ac655d117c312cd301cad07a125c38fde3823",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3ce20735b8432ee7b59678ce",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:17:05.152009+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3ce20735b8432ee7b59678ce"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

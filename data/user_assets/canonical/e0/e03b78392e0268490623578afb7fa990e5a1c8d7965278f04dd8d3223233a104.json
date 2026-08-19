@@ -1,0 +1,143 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_8bbc8116334f431942472618",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_54d6e0637dc5f4ca1e0bd9a7"
+  ],
+  "asset": {
+    "asset_id": "e03b78392e026849",
+    "sha256": "e03b78392e0268490623578afb7fa990e5a1c8d7965278f04dd8d3223233a104",
+    "split": "user_custom",
+    "relative_path": "user_assets/e0/e03b78392e0268490623578afb7fa990e5a1c8d7965278f04dd8d3223233a104/e03b78392e0268490623578afb7fa990e5a1c8d7965278f04dd8d3223233a104.jpg"
+  },
+  "display": {
+    "theme": "课堂教学安排投影",
+    "short_description": "教室场景下的投影幕布特写，画面显示关于教学安排的文字内容，包含教学方式与考核方式的比例说明，前景可见听课人员的黑色头发顶部。",
+    "micro_tags": [
+      "投影幕布",
+      "教学安排",
+      "课堂",
+      "前排视角"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "室内教室或讲座现场",
+    "subjects": [
+      "投影幕布",
+      "演示文稿",
+      "听众头部"
+    ],
+    "actions": [],
+    "attributes": [
+      "白底黑字",
+      "列表格式",
+      "包含百分比数值"
+    ],
+    "relations": [
+      "幕布位于背景。",
+      "头发位于前景底部。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "白色投影幕布上显示有层级结构的中文文本列表。",
+      "文本内容涉及‘教学安排’、‘平时作业 (30%)’及‘笔试考试 (70%)’等字样。",
+      "图片底部边缘可见数个黑色的头顶发旋，表明拍摄者位于观众席。"
+    ],
+    "cautious_inferences": [
+      "拍摄角度为仰视，符合坐在教室中后排观众的视角。"
+    ],
+    "uncertainties": [
+      "无法确定具体的课程名称或所属机构。",
+      "左上角图标的具体含义因模糊而无法辨认。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "教学安排",
+      "教学方式",
+      "课堂教学",
+      "考核方式",
+      "每周一 交前一周作业"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "教学安排",
+      "教学方式",
+      "课堂教学",
+      "考核方式",
+      "每周一 交前一周作业"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "白色投影幕布上显示有层级结构的中文文本列表；文本内容涉及‘教学安排’、‘平时作业 (30%)’及‘笔试考试 (70%)’等字样。",
+    "safe_facts": [
+      "白色投影幕布上显示有层级结构的中文文本列表。",
+      "文本内容涉及‘教学安排’、‘平时作业 (30%)’及‘笔试考试 (70%)’等字样。",
+      "图片底部边缘可见数个黑色的头顶发旋，表明拍摄者位于观众席。"
+    ],
+    "do_not_assert": [
+      "拍摄角度为仰视，符合坐在教室中后排观众的视角。",
+      "无法确定具体的课程名称或所属机构。",
+      "左上角图标的具体含义因模糊而无法辨认。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_53830268-9b38-4208-ba14-771df31b3e36",
+    "generated_at": "2026-08-12T03:14:39.736188+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "d0a678d4f8f8b440b0849dd0d20ca81540f346dfef0d46098a2422e1e09ddbd0",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:14:39.736957+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_54d6e0637dc5f4ca1e0bd9a7",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:14:39.737287+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "40c07e577505fad96a93d574bf3fafca9f8a30308277f29db42071f22b984875"
+}

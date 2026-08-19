@@ -1,0 +1,369 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scenemind-x.local/schemas/scenemindx_canonical_pseudo_label_v2_1_1_candidate.schema.json",
+  "title": "SceneMind-X canonical pseudo-label v2.1.1 split-compatible candidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "label_id",
+    "canonical_status",
+    "supersedes",
+    "asset",
+    "display",
+    "facts",
+    "evidence",
+    "text_evidence",
+    "fallback",
+    "quality",
+    "review",
+    "provenance",
+    "canonical_sha256"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "scenemindx_canonical_pseudo_label_v2_1_1_candidate"
+    },
+    "label_id": {
+      "type": "string",
+      "pattern": "^cpl_[0-9a-f]{24}$"
+    },
+    "canonical_status": {
+      "enum": ["active_candidate", "inactive"]
+    },
+    "supersedes": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["asset_id", "sha256", "split", "relative_path"],
+      "properties": {
+        "asset_id": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "split": {"enum": ["train", "val"]},
+        "relative_path": {"type": "string", "minLength": 1}
+      }
+    },
+    "display": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["theme", "short_description", "micro_tags"],
+      "properties": {
+        "theme": {"type": "string", "minLength": 1, "maxLength": 24},
+        "short_description": {"type": "string", "minLength": 4, "maxLength": 160},
+        "micro_tags": {
+          "type": "array",
+          "maxItems": 8,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1, "maxLength": 18}
+        }
+      }
+    },
+    "facts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "visual_medium",
+        "scene",
+        "subjects",
+        "actions",
+        "attributes",
+        "relations"
+      ],
+      "properties": {
+        "visual_medium": {
+          "enum": [
+            "photograph",
+            "screenshot",
+            "illustration",
+            "poster_document",
+            "product_packaging",
+            "mixed",
+            "uncertain"
+          ]
+        },
+        "scene": {"type": "string", "maxLength": 100},
+        "subjects": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {"type": "string", "minLength": 1, "maxLength": 40}
+        },
+        "actions": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {"type": "string", "minLength": 1, "maxLength": 40}
+        },
+        "attributes": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {"type": "string", "minLength": 1, "maxLength": 40}
+        },
+        "relations": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {"type": "string", "minLength": 1, "maxLength": 80}
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "direct_observations",
+        "cautious_inferences",
+        "uncertainties"
+      ],
+      "properties": {
+        "direct_observations": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 8,
+          "items": {"type": "string", "minLength": 1, "maxLength": 100}
+        },
+        "cautious_inferences": {
+          "type": "array",
+          "maxItems": 4,
+          "items": {"type": "string", "minLength": 1, "maxLength": 100}
+        },
+        "uncertainties": {
+          "type": "array",
+          "maxItems": 4,
+          "items": {"type": "string", "minLength": 1, "maxLength": 100}
+        }
+      }
+    },
+    "text_evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "presence",
+        "visual_candidates",
+        "ocr_candidates",
+        "candidate_text",
+        "confidence",
+        "verification_status",
+        "verified_text",
+        "verified_text_source"
+      ],
+      "properties": {
+        "presence": {
+          "enum": [
+            "none",
+            "present_readable",
+            "present_unreadable",
+            "uncertain"
+          ]
+        },
+        "visual_candidates": {
+          "type": "array",
+          "maxItems": 12,
+          "items": {"type": "string", "minLength": 1, "maxLength": 80}
+        },
+        "ocr_candidates": {
+          "type": "array",
+          "maxItems": 12,
+          "items": {"type": "string", "minLength": 1, "maxLength": 80}
+        },
+        "candidate_text": {
+          "type": "array",
+          "maxItems": 24,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1, "maxLength": 80}
+        },
+        "confidence": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "verification_status": {
+          "enum": ["none", "candidate", "verified", "conflicted"]
+        },
+        "verified_text": {
+          "type": "array",
+          "maxItems": 12,
+          "items": {"type": "string", "minLength": 1, "maxLength": 80}
+        },
+        "verified_text_source": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "fallback": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "safe_caption",
+        "safe_facts",
+        "do_not_assert",
+        "caption_composer",
+        "policy",
+        "must_not_override_valid_model_output"
+      ],
+      "properties": {
+        "safe_caption": {"type": "string", "minLength": 4, "maxLength": 220},
+        "safe_facts": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1, "maxLength": 100}
+        },
+        "do_not_assert": {
+          "type": "array",
+          "maxItems": 24,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1, "maxLength": 100}
+        },
+        "caption_composer": {
+          "const": "phase6_0b_safe_facts_caption_composer_v1"
+        },
+        "policy": {
+          "const": "use_only_when_public_model_body_invalid"
+        },
+        "must_not_override_valid_model_output": {"const": true}
+      }
+    },
+    "quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "semantic_status",
+        "schema_valid",
+        "warning_codes",
+        "needs_review",
+        "validation_errors",
+        "sanitization_applied",
+        "sanitization_actions"
+      ],
+      "properties": {
+        "semantic_status": {
+          "enum": ["pass", "warning", "needs_review", "failed"]
+        },
+        "schema_valid": {"type": "boolean"},
+        "warning_codes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "needs_review": {"type": "boolean"},
+        "validation_errors": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "sanitization_applied": {"type": "boolean"},
+        "sanitization_actions": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "automatic_validation",
+        "codex_visual_review",
+        "user_human_review",
+        "review_label",
+        "gold_status"
+      ],
+      "properties": {
+        "automatic_validation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status"],
+          "properties": {
+            "status": {"enum": ["pass", "warning", "failed"]}
+          }
+        },
+        "codex_visual_review": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "notes"],
+          "properties": {
+            "status": {
+              "enum": [
+                "pass",
+                "minor",
+                "major",
+                "critical",
+                "not_reviewed"
+              ]
+            },
+            "notes": {
+              "type": "array",
+              "maxItems": 4,
+              "items": {"type": "string", "minLength": 1, "maxLength": 240}
+            }
+          }
+        },
+        "user_human_review": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status"],
+          "properties": {
+            "status": {
+              "enum": ["pending", "approved", "rejected", "edited"]
+            }
+          }
+        },
+        "review_label": {
+          "enum": ["machine_provisional", "user_reviewed"]
+        },
+        "gold_status": {"type": "boolean"}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "source_run_id",
+        "prompt_id",
+        "prompt_sha256",
+        "model",
+        "model_revision",
+        "raw_output_sha256",
+        "normalizer",
+        "validator",
+        "migrated_at",
+        "migration_version",
+        "source_schema_version",
+        "source_label_id",
+        "recovered_at_tokens"
+      ],
+      "properties": {
+        "source_run_id": {"type": "string", "minLength": 1},
+        "generated_at": {"type": "string", "minLength": 1},
+        "prompt_id": {"type": "string", "minLength": 1},
+        "prompt_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "model": {"type": "string", "minLength": 1},
+        "model_revision": {"type": "string", "minLength": 1},
+        "raw_output_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "normalizer": {"type": "string", "minLength": 1},
+        "validator": {
+          "const": "phase6_0b_canonical_safety_validator_v1"
+        },
+        "migrated_at": {"type": "string", "minLength": 1},
+        "migration_version": {
+          "const": "phase6_0b_canonical_safety_migration_v1"
+        },
+        "source_schema_version": {"type": "string", "minLength": 1},
+        "source_label_id": {"type": "string"},
+        "recovered_at_tokens": {
+          "type": ["integer", "null"],
+          "minimum": 1
+        }
+      }
+    },
+    "canonical_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  }
+}

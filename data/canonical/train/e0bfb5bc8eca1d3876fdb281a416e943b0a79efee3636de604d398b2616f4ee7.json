@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:166.jpg",
+    "relative_path": "train/166.jpg",
+    "sha256": "e0bfb5bc8eca1d3876fdb281a416e943b0a79efee3636de604d398b2616f4ee7",
+    "split": "train"
+  },
+  "canonical_sha256": "f95f54c19e7889902c53db35432715eaaef678ae27929db4f9b89b35ee0f3e22",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古塔",
+      "夜景",
+      "月亮",
+      "桥梁"
+    ],
+    "short_description": "夜幕下，一座中式古塔被灯光照亮，桥上人影绰约，河面倒映着月光与灯火，天空悬挂一轮明月。",
+    "theme": "夜色古塔"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "月亮可能处于农历十五左右，因月相较圆且亮度高。"
+    ],
+    "direct_observations": [
+      "古塔为多层中式建筑，屋檐翘起，顶部有尖顶。",
+      "桥梁上有行人，桥栏杆装饰有黄色灯带。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灯光照明",
+      "水面倒影",
+      "深蓝色夜空"
+    ],
+    "relations": [
+      "古塔位于河岸。",
+      "桥梁横跨河流。",
+      "月亮悬于夜空。"
+    ],
+    "scene": "城市河流夜景",
+    "subjects": [
+      "古塔",
+      "桥梁",
+      "月亮",
+      "河水",
+      "建筑群"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "月亮可能处于农历十五左右，因月相较圆且亮度高。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "古塔为多层中式建筑，屋檐翘起，顶部有尖顶；桥梁上有行人，桥栏杆装饰有黄色灯带。",
+    "safe_facts": [
+      "古塔为多层中式建筑，屋檐翘起，顶部有尖顶。",
+      "桥梁上有行人，桥栏杆装饰有黄色灯带。"
+    ]
+  },
+  "label_id": "cpl_cd31c0a1949d02a88539f2d6",
+  "provenance": {
+    "generated_at": "2026-08-03T10:08:33.398753+00:00",
+    "migrated_at": "2026-08-03T10:08:33.401300+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7d5176d66d7377dcf157f03faff2f1e1d22ac12194bf30a4c5414b1356e6ce55",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ab74672a07e809e1820a8695",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:08:33.401719+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ab74672a07e809e1820a8695"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

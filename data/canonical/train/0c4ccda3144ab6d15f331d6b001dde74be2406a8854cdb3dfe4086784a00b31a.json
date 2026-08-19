@@ -1,0 +1,135 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:400.jpg",
+    "relative_path": "train/400.jpg",
+    "sha256": "0c4ccda3144ab6d15f331d6b001dde74be2406a8854cdb3dfe4086784a00b31a",
+    "split": "train"
+  },
+  "canonical_sha256": "43cd9519a252497666b2e852f8559290b43a81a0522084440d68880e52060b5d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "清代火器",
+      "燧发枪",
+      "博物馆展品"
+    ],
+    "short_description": "数支火枪以细绳悬挂于展柜内壁；右侧陈列两个弯曲的弹药袋状物品。",
+    "theme": "清代火器与弹药"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "数支火枪以细绳悬挂于展柜内壁。",
+      "右侧陈列两个弯曲的弹药袋状物品。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "古旧",
+      "悬挂展示",
+      "金属与木质结构"
+    ],
+    "relations": [
+      "火枪与弹药袋并列陈列于展柜中。"
+    ],
+    "scene": "玻璃展柜内陈列文物",
+    "subjects": [],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "数支火枪以细绳悬挂于展柜内壁；右侧陈列两个弯曲的弹药袋状物品。",
+    "safe_facts": [
+      "数支火枪以细绳悬挂于展柜内壁。",
+      "右侧陈列两个弯曲的弹药袋状物品。"
+    ]
+  },
+  "label_id": "cpl_f0b9af97e020c8807738ef29",
+  "provenance": {
+    "generated_at": "2026-08-03T10:55:16.885151+00:00",
+    "migrated_at": "2026-08-03T10:55:16.886863+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6dc7f8c46bf404d320d5bbd8d720de85ac3d5b5f2c0fd034a06c989bf88f86a3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ff0ec8ce9b6a726e5d1e296c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:55:16.887665+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:micro_tags",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ff0ec8ce9b6a726e5d1e296c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "名称:前膛燧发短火枪",
+      "年代:清",
+      "质地:铁质/木质",
+      "来源:辛亥革命博物馆藏",
+      "名称:弹药袋",
+      "质地:牛角质/角质/铜质"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "名称:前膛燧发短火枪",
+      "年代:清",
+      "质地:铁质/木质",
+      "来源:辛亥革命博物馆藏",
+      "名称:弹药袋",
+      "质地:牛角质/角质/铜质"
+    ]
+  }
+}

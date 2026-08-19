@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:844.jpg",
+    "relative_path": "train/844.jpg",
+    "sha256": "5963e2ddea12ab4fb024bcd0ddac063b3973982105e06966e076380bff186a52",
+    "split": "train"
+  },
+  "canonical_sha256": "086b771a11fe941838bbfb75b8e2935e67d0cafa213dd0c829a2701f122c6769",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "观景台",
+      "人造草坪",
+      "金属栏杆",
+      "山林景色"
+    ],
+    "short_description": "绿草如茵的观景台，金属栏杆环绕，远处山峦叠翠，树木葱郁，天空晴朗。",
+    "theme": "山间观景平台"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "平台可能用于观赏远景，因视角开阔且有护栏保障安全。"
+    ],
+    "direct_observations": [
+      "地面铺设有绿色人造草坪。",
+      "栏杆由银色金属制成并沿平台边缘设置。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色人造草坪",
+      "银色金属栏杆",
+      "茂密树叶",
+      "晴朗天空"
+    ],
+    "relations": [
+      "栏杆围绕观景台。",
+      "树木位于观景台旁。",
+      "远山在背景中。"
+    ],
+    "scene": "山间观景平台",
+    "subjects": [
+      "观景台",
+      "树木",
+      "栏杆",
+      "草地",
+      "远山"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "平台可能用于观赏远景，因视角开阔且有护栏保障安全。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面铺设有绿色人造草坪；栏杆由银色金属制成并沿平台边缘设置。",
+    "safe_facts": [
+      "地面铺设有绿色人造草坪。",
+      "栏杆由银色金属制成并沿平台边缘设置。"
+    ]
+  },
+  "label_id": "cpl_a4e5bf4b8d227c6a5fb8c3f5",
+  "provenance": {
+    "generated_at": "2026-08-03T12:34:53.106014+00:00",
+    "migrated_at": "2026-08-03T12:34:53.109089+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2e09868cbffc07003d302c8d262f5f2dc91bdad63e1bbbce200f012cd78c2e32",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4df07b3b012bd16babeef093",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:34:53.109477+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4df07b3b012bd16babeef093"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

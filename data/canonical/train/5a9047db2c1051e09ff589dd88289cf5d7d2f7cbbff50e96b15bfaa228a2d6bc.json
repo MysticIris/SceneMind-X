@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:994.jpg",
+    "relative_path": "train/994.jpg",
+    "sha256": "5a9047db2c1051e09ff589dd88289cf5d7d2f7cbbff50e96b15bfaa228a2d6bc",
+    "split": "train"
+  },
+  "canonical_sha256": "c0a90849adbcdf62d23f8e4f8c92842c231108e16037fe86e3143f260735d758",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "现代建筑",
+      "海滨步道",
+      "悬索桥",
+      "城市景观"
+    ],
+    "short_description": "白色波浪形建筑旁的海滨步道，远处可见红色悬索桥横跨水面，几位行人正在散步。",
+    "theme": "现代建筑与桥梁景观"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "建筑表面反射天空和周围环境。"
+    ],
+    "direct_observations": [
+      "画面左侧为具有波浪状纹理的白色建筑立面。",
+      "远处水面上有一座红色悬索桥。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走"
+    ],
+    "attributes": [
+      "白色波浪形外墙",
+      "红色桥塔",
+      "浅色步道",
+      "多云天空"
+    ],
+    "relations": [
+      "建筑位于步道左侧。",
+      "桥横跨水面。",
+      "行人沿步道移动。"
+    ],
+    "scene": "海滨区域",
+    "subjects": [
+      "白色建筑",
+      "悬索桥",
+      "行人",
+      "狗"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "建筑表面反射天空和周围环境。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面左侧为具有波浪状纹理的白色建筑立面；远处水面上有一座红色悬索桥。",
+    "safe_facts": [
+      "画面左侧为具有波浪状纹理的白色建筑立面。",
+      "远处水面上有一座红色悬索桥。"
+    ]
+  },
+  "label_id": "cpl_f7c2e335aa66280f7afb4267",
+  "provenance": {
+    "generated_at": "2026-08-03T13:22:31.840524+00:00",
+    "migrated_at": "2026-08-03T13:22:31.843880+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f3582b6728cc75a528e2cc228513024da9c6a5279b093376027e7b9bbce021a0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_18a4eea516b18436faca3693",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:22:31.844236+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_18a4eea516b18436faca3693"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

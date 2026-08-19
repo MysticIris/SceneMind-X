@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1876.jpg",
+    "relative_path": "train/1876.jpg",
+    "sha256": "f40f6e512a374ef0c57732e819ed1174fe59d912ad28825ab0adb1a041645b3b",
+    "split": "train"
+  },
+  "canonical_sha256": "b522272ed2292e91e7a0699801d314cfc38e14a870d4397750ebef0d37a4c41e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "鸽子",
+      "笼子",
+      "鸽舍",
+      "棕色羽毛"
+    ],
+    "short_description": "笼子里有几只棕色白羽鸽子，背景是木质结构和蓝色喂食器，环境看起来像鸽舍。",
+    "theme": "笼中鸽子"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有数只鸽子，羽毛呈棕色与白色相间。",
+      "鸽子被关在金属网格围栏内，地面为金属网格板。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "棕色羽毛",
+      "白色头部",
+      "金属网格笼子",
+      "木质背景板",
+      "蓝色喂食器"
+    ],
+    "relations": [
+      "鸽子在笼子里。",
+      "鸽子站在金属网格上。"
+    ],
+    "scene": "鸽舍或鸽笼内",
+    "subjects": [
+      "鸽子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有数只鸽子，羽毛呈棕色与白色相间；鸽子被关在金属网格围栏内，地面为金属网格板。",
+    "safe_facts": [
+      "画面中有数只鸽子，羽毛呈棕色与白色相间。",
+      "鸽子被关在金属网格围栏内，地面为金属网格板。"
+    ]
+  },
+  "label_id": "cpl_0b1c16f205504ae1f524839d",
+  "provenance": {
+    "generated_at": "2026-08-02T22:18:32.605143+00:00",
+    "migrated_at": "2026-08-03T07:13:41.540017+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "90a53e5db1d612e20955e0722bf1cbc2efe2412d7ee8c58459da3307b7adddf5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_03ddf10d5b11d63ff3f86d66",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:17:16.744363+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "codex_visual_minor",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "笼中鸟类被具体描述为鸽子，物种粒度偏具体但核心主体正确。"
+      ],
+      "status": "minor"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_03ddf10d5b11d63ff3f86d66",
+    "cpl_3286839da045b4120868ac68"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

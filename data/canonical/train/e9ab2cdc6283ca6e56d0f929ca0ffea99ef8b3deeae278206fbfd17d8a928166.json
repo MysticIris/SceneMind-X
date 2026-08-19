@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:569.jpg",
+    "relative_path": "train/569.jpg",
+    "sha256": "e9ab2cdc6283ca6e56d0f929ca0ffea99ef8b3deeae278206fbfd17d8a928166",
+    "split": "train"
+  },
+  "canonical_sha256": "afa939806b18f7e18794dbefa7e1426390011d17007f5c693b388b139648eac3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "烟花",
+      "夜间",
+      "庭院",
+      "火光"
+    ],
+    "short_description": "夜间住宅区庭院地面燃放烟花，火光四溅，旁边有交通锥，背景有车辆和房屋。",
+    "theme": "夜间户外燃放烟花"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "烟花燃放产生大量烟雾。"
+    ],
+    "direct_observations": [
+      "地面上有正在燃烧并发出火花的烟花。",
+      "烟花旁放置了一个橙色交通锥。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "燃放"
+    ],
+    "attributes": [
+      "夜间",
+      "地面燃烧",
+      "发光",
+      "冒烟"
+    ],
+    "relations": [
+      "烟花位于地面中央。",
+      "交通锥置于烟花旁。",
+      "汽车停在右侧。",
+      "房屋在背景。"
+    ],
+    "scene": "住宅区庭院",
+    "subjects": [
+      "烟花",
+      "交通锥",
+      "汽车",
+      "房屋",
+      "门廊"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "烟花燃放产生大量烟雾。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面上有正在燃烧并发出火花的烟花；烟花旁放置了一个橙色交通锥。",
+    "safe_facts": [
+      "地面上有正在燃烧并发出火花的烟花。",
+      "烟花旁放置了一个橙色交通锥。"
+    ]
+  },
+  "label_id": "cpl_ebfa9c7243d8f4c2770c04fb",
+  "provenance": {
+    "generated_at": "2026-08-03T11:35:26.836902+00:00",
+    "migrated_at": "2026-08-03T11:35:26.838357+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3d08db67811f9ff9cfb6cf3e6a19d8c54b118895e2ca46398e9a353a7f1c694b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8b4d9dd02f9d53ba8fe16e87",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:35:26.838568+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8b4d9dd02f9d53ba8fe16e87"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

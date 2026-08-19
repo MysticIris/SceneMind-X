@@ -1,0 +1,132 @@
+{
+  "asset_id": "e0ff6202bfaa676b",
+  "asset_sha256": "e0ff6202bfaa676b0ef38154ad2a0ae89f2a7f44db7d821b32ca01badfa038f9",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"电竞战队乐队化宣传海报\",\n    \"short_description\": \"一张红黑配色的横向宣传图，展示了五位身穿白红黑相间队服的年轻男性。他们分别手持麦克风、架子鼓棒、电吉他、贝斯和电子琴，呈现出乐队成员的站位。图片上方有显著的英文标题，底部对应标注了主唱、鼓手、吉他手等中文角色名称及图标。\",\n    \"micro_tags\": [\n      \"电子竞技\",\n      \"乐队组合\",\n      \"人物群像\",\n      \"乐器展示\",\n      \"宣传海报\",\n      \"队服\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"poster_document\",\n    \"scene\": \"红色背景的室内摄影棚或合成背景\",\n    \"subjects\": [\n      \"五位年轻男性\",\n      \"电声乐器\",\n      \"运动风格队服\"\n    ],\n    \"actions\": [\n      \"站立\",\n      \"手持乐器\",\n      \"注视镜头\"\n    ],\n    \"attributes\": [\n      \"红色主色调\",\n      \"白色上衣\",\n      \"黑色短发\",\n      \"戴眼镜（部分人物）\"\n    ],\n    \"relations\": [\n      \"五人并排排列\",\n      \"人物与下方文字标签一一对应\",\n      \"乐器与人物动作匹配\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图片顶部中央有大号白色英文文本 'TOP ESPORTS' 及盾形标志。\",\n      \"五位人物从左至右依次持有麦克风、鼓棒、电吉他、贝斯和键盘。\",\n      \"每个人物头顶上方有一个独特的黑白几何图标。\",\n      \"图片底部红色横条内印有白色的中文职位名（如'主唱'、'鼓手'）及对应的英文小字。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据服装统一性和乐器配置，这可能是一个电竞战队的娱乐分队或特别企划宣传。\",\n      \"中间副标题包含 '2026' 字样，可能指代未来的巡演计划或活动年份。\"\n    ],\n    \"uncertainties\": [\n      \"无法确认人物的真实姓名或所属的具体战队全称（仅可见缩写）。\",\n      \"无法确认这是真实拍摄的照片还是经过数字合成的图像。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"TOP ESPORTS\",\n      \"TES BAND LIVE TOUR 2026\",\n      \"主唱 VOCAL\",\n      \"鼓手 DRUMMER\",\n      \"吉他手 GUITARIST\",\n      \"贝斯手 BASSIST\",\n      \"键盘手 KEYBOARDIST\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张展示五位身穿统一白红队服男性的宣传海报，他们分别拿着麦克风和各种电声乐器，背景为红色，上下方配有明显的标题和角色说明文字。\",\n    \"safe_facts\": [\n      \"画面包含五名男性主体\",\n      \"主体穿着相同的运动风格制服\",\n      \"主体手中持有音乐演奏设备\",\n      \"背景主要为红色\",\n      \"图像包含显著的排版文字信息\"\n    ]\n  }\n}",
+      "input_tokens": 1591,
+      "output_tokens": 767,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 1591,
+        "output_tokens": 767,
+        "total_tokens": 2358,
+        "estimated_cost_cny": 0.009318,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "电竞战队乐队化宣传海报",
+          "short_description": "一张红黑配色的横向宣传图，展示了五位身穿白红黑相间队服的年轻男性。他们分别手持麦克风、架子鼓棒、电吉他、贝斯和电子琴，呈现出乐队成员的站位。图片上方有显著的英文标题，底部对应标注了主唱、鼓手、吉他手等中文角色名称及图标。",
+          "micro_tags": [
+            "电子竞技",
+            "乐队组合",
+            "人物群像",
+            "乐器展示",
+            "宣传海报",
+            "队服"
+          ]
+        },
+        "facts": {
+          "visual_medium": "poster_document",
+          "scene": "红色背景的室内摄影棚或合成背景",
+          "subjects": [
+            "五位年轻男性",
+            "电声乐器",
+            "运动风格队服"
+          ],
+          "actions": [
+            "站立",
+            "手持乐器",
+            "注视镜头"
+          ],
+          "attributes": [
+            "红色主色调",
+            "白色上衣",
+            "黑色短发",
+            "戴眼镜（部分人物）"
+          ],
+          "relations": [
+            "五人并排排列",
+            "人物与下方文字标签一一对应",
+            "乐器与人物动作匹配"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图片顶部中央有大号白色英文文本 'TOP ESPORTS' 及盾形标志。",
+            "五位人物从左至右依次持有麦克风、鼓棒、电吉他、贝斯和键盘。",
+            "每个人物头顶上方有一个独特的黑白几何图标。",
+            "图片底部红色横条内印有白色的中文职位名（如'主唱'、'鼓手'）及对应的英文小字。"
+          ],
+          "cautious_inferences": [
+            "根据服装统一性和乐器配置，这可能是一个电竞战队的娱乐分队或特别企划宣传。",
+            "中间副标题包含 '2026' 字样，可能指代未来的巡演计划或活动年份。"
+          ],
+          "uncertainties": [
+            "无法确认人物的真实姓名或所属的具体战队全称（仅可见缩写）。",
+            "无法确认这是真实拍摄的照片还是经过数字合成的图像。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "TOP ESPORTS",
+            "TES BAND LIVE TOUR 2026",
+            "主唱 VOCAL",
+            "鼓手 DRUMMER",
+            "吉他手 GUITARIST",
+            "贝斯手 BASSIST",
+            "键盘手 KEYBOARDIST"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张展示五位身穿统一白红队服男性的宣传海报，他们分别拿着麦克风和各种电声乐器，背景为红色，上下方配有明显的标题和角色说明文字。",
+          "safe_facts": [
+            "画面包含五名男性主体",
+            "主体穿着相同的运动风格制服",
+            "主体手中持有音乐演奏设备",
+            "背景主要为红色",
+            "图像包含显著的排版文字信息"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 281992,
+        "request_bytes": 208422,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.029040999994322,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "efb04138bf85508d4f19b121c9752a3676a20a9ce7d298a8b60f0510fde0cc60"
+}

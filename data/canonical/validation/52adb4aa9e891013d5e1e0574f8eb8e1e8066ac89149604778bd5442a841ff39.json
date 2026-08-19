@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2042.jpg",
+    "relative_path": "val/2042.jpg",
+    "sha256": "52adb4aa9e891013d5e1e0574f8eb8e1e8066ac89149604778bd5442a841ff39",
+    "split": "val"
+  },
+  "canonical_sha256": "59d98a421091f8ae8f0d0bc2e88c67362e0b1c45b845b50bcc56a55b4f38bd02",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "写作技巧",
+      "阅读反思"
+    ],
+    "short_description": "一张幻灯片展示写作改进的第八条准则：阅读并思考自己的作品，反复润色。",
+    "theme": "写作技巧指南"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见蓝色背景框。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "电脑屏幕显示的演示文稿页面",
+    "subjects": [
+      "蓝色背景框"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见蓝色背景框。",
+    "safe_facts": [
+      "画面中可见蓝色背景框。"
+    ]
+  },
+  "label_id": "cpl_2a5d5c36086b930dfff35b32",
+  "provenance": {
+    "generated_at": "2026-08-03T15:52:37.880019+00:00",
+    "migrated_at": "2026-08-03T15:52:37.881752+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "71b68058da6a2f3c58a632ca6443690a193ca60703f3e86fa16fceb09535520a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2870b111183014d068632912",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:52:37.882323+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [
+      "removed_unverified_text:direct_observations"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_safe_facts_empty",
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2870b111183014d068632912"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "2.1 Eight guidelines for improving your",
+      "2.1.8 Read and think about your work",
+      "If you have not read your work, why shou",
+      "(needing print)",
+      "Reading your work is only the first step",
+      "Polish it again and again"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "2.1 Eight guidelines for improving your",
+      "2.1.8 Read and think about your work",
+      "If you have not read your work, why shou",
+      "(needing print)",
+      "Reading your work is only the first step",
+      "Polish it again and again"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2317.jpg",
+    "relative_path": "val/2317.jpg",
+    "sha256": "03d7ba07dfc5fc4bd116663131c5e740575778fa8f53a04f3041a899b8e466e7",
+    "split": "val"
+  },
+  "canonical_sha256": "74641f8f03773ad6b954116732c9d388b0d99da8820d798c48dbd4812351ca67",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "开花树木",
+      "粉白花瓣",
+      "枝叶交错"
+    ],
+    "short_description": "一棵开满粉白色花朵的树，枝叶繁茂，背景是阴天和远处建筑。",
+    "theme": "粉白花树"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能是在春季或初夏拍摄。"
+    ],
+    "direct_observations": [
+      "树上布满粉白色花朵和绿色叶子。",
+      "天空呈灰白色，无明显阳光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "粉白色花朵",
+      "绿色叶片",
+      "阴天背景"
+    ],
+    "relations": [
+      "树位于前景，建筑在背景。"
+    ],
+    "scene": "户外庭院或街道旁",
+    "subjects": [
+      "开花的树"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能是在春季或初夏拍摄。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "树上布满粉白色花朵和绿色叶子；天空呈灰白色，无明显阳光。",
+    "safe_facts": [
+      "树上布满粉白色花朵和绿色叶子。",
+      "天空呈灰白色，无明显阳光。"
+    ]
+  },
+  "label_id": "cpl_2e3b6a332a5e3cdf0aad66df",
+  "provenance": {
+    "generated_at": "2026-08-03T16:26:14.060464+00:00",
+    "migrated_at": "2026-08-03T16:26:14.061990+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "33641ad81dd49fd7457fd5633fa9de86ff38a94f83bd65fad6cce8a38a144926",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_08e12660a68ec3a3b192dcc5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:26:14.062181+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_08e12660a68ec3a3b192dcc5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

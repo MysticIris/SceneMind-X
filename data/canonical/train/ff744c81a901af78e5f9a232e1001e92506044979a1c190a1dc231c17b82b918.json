@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1157.jpg",
+    "relative_path": "train/1157.jpg",
+    "sha256": "ff744c81a901af78e5f9a232e1001e92506044979a1c190a1dc231c17b82b918",
+    "split": "train"
+  },
+  "canonical_sha256": "79f6291c80f48c93eea1d9324f1853de5ebffcbda28b78a1bee9c803d8559fe5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古剑",
+      "金属纹路",
+      "博物馆展陈"
+    ],
+    "short_description": "一把带有菱形纹路的古剑在聚光灯下静置，刀身泛着金属光泽，背景深暗。",
+    "theme": "古剑特写"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "剑身呈金属色，表面有规则菱形图案。",
+      "剑柄处有圆形护手，刀身靠近护手处有刻字。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金属材质",
+      "菱形纹路",
+      "刀身有铭文",
+      "刀柄有护手"
+    ],
+    "relations": [],
+    "scene": "黑暗背景下的展台",
+    "subjects": [
+      "一把剑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "剑身呈金属色，表面有规则菱形图案；剑柄处有圆形护手，刀身靠近护手处有刻字。",
+    "safe_facts": [
+      "剑身呈金属色，表面有规则菱形图案。",
+      "剑柄处有圆形护手，刀身靠近护手处有刻字。"
+    ]
+  },
+  "label_id": "cpl_5d77ad17c9e8ddfc4db65c44",
+  "provenance": {
+    "generated_at": "2026-08-03T13:47:01.320109+00:00",
+    "migrated_at": "2026-08-03T13:47:01.322862+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a68fc30843f3af3ac57bf2854dab226ec41025e95a2c75b7b1f55ddf637fc7d5",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_9038bc6abeffb9bceceec126",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:47:01.323420+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_9038bc6abeffb9bceceec126"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "剑身刻有汉字铭文"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "剑身刻有汉字铭文"
+    ]
+  }
+}

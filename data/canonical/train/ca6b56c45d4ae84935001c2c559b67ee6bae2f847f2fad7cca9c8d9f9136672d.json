@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:777.jpg",
+    "relative_path": "train/777.jpg",
+    "sha256": "ca6b56c45d4ae84935001c2c559b67ee6bae2f847f2fad7cca9c8d9f9136672d",
+    "split": "train"
+  },
+  "canonical_sha256": "0ca341cd145aa3070ce36fd2fbdeea53f868b082e84b9514521bc276058bc08c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "面包板",
+      "电子元件",
+      "彩色导线",
+      "数码管"
+    ],
+    "short_description": "一张布满彩色导线和电子元件的面包板，多个数码管显示红色数字，整体布局杂乱。",
+    "theme": "电路板实验"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "数码管可能正在显示数值，但具体数字不可辨识。"
+    ],
+    "direct_observations": [
+      "面包板上有多个插孔和插入的电子元件。",
+      "导线颜色多样且缠绕密集。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "杂乱",
+      "多色导线",
+      "红色数码管显示"
+    ],
+    "relations": [
+      "导线连接电子元件。",
+      "数码管安装在面包板上。"
+    ],
+    "scene": "电子实验工作台",
+    "subjects": [
+      "面包板",
+      "导线",
+      "电子元件",
+      "数码管"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "数码管可能正在显示数值，但具体数字不可辨识。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "面包板上有多个插孔和插入的电子元件；导线颜色多样且缠绕密集。",
+    "safe_facts": [
+      "面包板上有多个插孔和插入的电子元件。",
+      "导线颜色多样且缠绕密集。"
+    ]
+  },
+  "label_id": "cpl_7c3b1579ce564714b9a8133f",
+  "provenance": {
+    "generated_at": "2026-08-03T12:21:13.672791+00:00",
+    "migrated_at": "2026-08-03T12:21:13.676134+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bdcb429649589bd171ff44f49b3e056c9ed0855a7b88ffc5f1d8bd44862f491c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_449319be8d07023ec69bbd87",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:21:13.676501+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_449319be8d07023ec69bbd87"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

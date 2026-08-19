@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1674.jpg",
+    "relative_path": "train/1674.jpg",
+    "sha256": "304e8f0fec30fa7c64bc936300ebcd6259884b7087588f549f0e9bdbdc76233b",
+    "split": "train"
+  },
+  "canonical_sha256": "690454e7bd752515195a354dd4434d6536739be812bb4f5000de1418d9caf2cb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "河流",
+      "农田",
+      "住宅区",
+      "绿色田野",
+      "远景"
+    ],
+    "short_description": "一条河流蜿蜒流过绿色田野，远处是成排的现代住宅楼，天空晴朗无云。",
+    "theme": "河畔田园与住宅区"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "远处建筑群可能是居民区，屋顶颜色多样。"
+    ],
+    "direct_observations": [
+      "画面左侧有一条宽阔的河流，水面平静。",
+      "河流右侧是大片绿色植被和部分已收割的作物田地。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色田野",
+      "晴朗天空",
+      "现代建筑"
+    ],
+    "relations": [
+      "河流位于画面左侧，田野在河流右侧延伸。",
+      "住宅楼位于田野后方远处。"
+    ],
+    "scene": "河岸与住宅区景观",
+    "subjects": [
+      "河流",
+      "农田",
+      "住宅楼"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "远处建筑群可能是居民区，屋顶颜色多样。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面左侧有一条宽阔的河流，水面平静；河流右侧是大片绿色植被和部分已收割的作物田地。",
+    "safe_facts": [
+      "画面左侧有一条宽阔的河流，水面平静。",
+      "河流右侧是大片绿色植被和部分已收割的作物田地。"
+    ]
+  },
+  "label_id": "cpl_5c1514ec06c74c9f0117b201",
+  "provenance": {
+    "generated_at": "2026-08-03T14:52:37.464122+00:00",
+    "migrated_at": "2026-08-03T14:52:37.467347+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "622cb1b6c25abf4881e993291747b0793724b90e7add2961443bd27bb3512066",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8c9169f024dbe7b6681d1d6a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:52:37.467706+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8c9169f024dbe7b6681d1d6a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

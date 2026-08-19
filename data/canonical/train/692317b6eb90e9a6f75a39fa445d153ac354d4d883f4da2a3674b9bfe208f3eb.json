@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:237.jpg",
+    "relative_path": "train/237.jpg",
+    "sha256": "692317b6eb90e9a6f75a39fa445d153ac354d4d883f4da2a3674b9bfe208f3eb",
+    "split": "train"
+  },
+  "canonical_sha256": "dcb5f744cb710aa32363e500bea98a7847d8f6b16653f6737e1584ffd89f7992",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "虚拟现实",
+      "头戴设备",
+      "室内场景"
+    ],
+    "short_description": "室内，多人佩戴头显设备进行沉浸式体验，墙上挂有多台显示屏。",
+    "theme": "虚拟现实"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两名人员佩戴VR头显并手持控制器站立。",
+      "墙上悬挂多台显示屏幕，其中一台显示VR界面。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "佩戴VR头显",
+      "手持控制器"
+    ],
+    "attributes": [
+      "白色墙壁",
+      "蓝色装饰线",
+      "玻璃护栏",
+      "黑色办公椅"
+    ],
+    "relations": [
+      "人站在显示屏前。",
+      "人手持控制器。"
+    ],
+    "scene": "室内VR实训区",
+    "subjects": [
+      "佩戴VR头显的人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两名人员佩戴VR头显并手持控制器站立；墙上悬挂多台显示屏幕，其中一台显示VR界面。",
+    "safe_facts": [
+      "两名人员佩戴VR头显并手持控制器站立。",
+      "墙上悬挂多台显示屏幕，其中一台显示VR界面。"
+    ]
+  },
+  "label_id": "cpl_027fb468daea3721bea1f6a0",
+  "provenance": {
+    "generated_at": "2026-08-03T10:22:23.740235+00:00",
+    "migrated_at": "2026-08-03T10:22:23.741983+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e2241b316861398842906f98c082dec98e52ea2be65d30771ce8cef64d3d1707",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c197cf7f482666b9a4d7c50b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:22:23.742327+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c197cf7f482666b9a4d7c50b"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "VR实训区"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "VR实训区"
+    ]
+  }
+}

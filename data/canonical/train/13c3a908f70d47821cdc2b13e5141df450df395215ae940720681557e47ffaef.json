@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1022.jpg",
+    "relative_path": "train/1022.jpg",
+    "sha256": "13c3a908f70d47821cdc2b13e5141df450df395215ae940720681557e47ffaef",
+    "split": "train"
+  },
+  "canonical_sha256": "0d339ad2023099d321042b4ccf17fa20e4acb3c33011778bef4e66c671fa99a7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "天空",
+      "云彩",
+      "月亮"
+    ],
+    "short_description": "天空呈现蓝紫渐变，几朵云彩被夕阳染成粉红色，一弯新月悬于天际。",
+    "theme": "暮色云霞"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "月亮可能处于傍晚或清晨时段。"
+    ],
+    "direct_observations": [
+      "天空背景由蓝色过渡到淡紫色。",
+      "云层边缘泛着粉红色光晕。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空呈蓝紫色渐变",
+      "云彩被染成粉红色",
+      "月亮呈新月状"
+    ],
+    "relations": [],
+    "scene": "天空",
+    "subjects": [
+      "云彩",
+      "月亮"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "月亮可能处于傍晚或清晨时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空背景由蓝色过渡到淡紫色；云层边缘泛着粉红色光晕。",
+    "safe_facts": [
+      "天空背景由蓝色过渡到淡紫色。",
+      "云层边缘泛着粉红色光晕。"
+    ]
+  },
+  "label_id": "cpl_c4a2268ac1209a9a13f3df1c",
+  "provenance": {
+    "generated_at": "2026-08-03T13:26:13.570411+00:00",
+    "migrated_at": "2026-08-03T13:26:13.576888+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dac84c0cdcb5ce49dc4dfca4330bc7238d663e45dc2617553e16f724a10d8746",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7d4d1f4867a4bd3b1cf6fc8c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:26:13.577238+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7d4d1f4867a4bd3b1cf6fc8c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

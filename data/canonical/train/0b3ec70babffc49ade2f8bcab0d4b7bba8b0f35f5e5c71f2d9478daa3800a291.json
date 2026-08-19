@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1533.jpg",
+    "relative_path": "train/1533.jpg",
+    "sha256": "0b3ec70babffc49ade2f8bcab0d4b7bba8b0f35f5e5c71f2d9478daa3800a291",
+    "split": "train"
+  },
+  "canonical_sha256": "862692324630a4d120eb192338b7518c5db4f3ff251ae916b23deb3d5cce4deb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "米粉",
+      "蔬菜",
+      "筷子",
+      "纸碗"
+    ],
+    "short_description": "一碗盛在带花纹纸碗中的米粉，配有绿色蔬菜和筷子，旁边有红色塑料篮子。",
+    "theme": "一碗米粉配蔬菜"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "碗内有透明细长面条和绿色蔬菜。",
+      "筷子插入碗中。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "透明米粉",
+      "绿色蔬菜",
+      "红色塑料篮子",
+      "不锈钢台面"
+    ],
+    "relations": [
+      "米粉在纸碗中。",
+      "筷子插在米粉上。",
+      "红色塑料篮子在画面左侧。"
+    ],
+    "scene": "不锈钢台面",
+    "subjects": [
+      "一碗米粉",
+      "筷子",
+      "红色塑料篮子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "碗内有透明细长面条和绿色蔬菜；筷子插入碗中。",
+    "safe_facts": [
+      "碗内有透明细长面条和绿色蔬菜。",
+      "筷子插入碗中。"
+    ]
+  },
+  "label_id": "cpl_51762180f5d5ec040d1d2530",
+  "provenance": {
+    "generated_at": "2026-08-03T14:34:41.982022+00:00",
+    "migrated_at": "2026-08-03T14:34:41.986229+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e6537638375528c4b6429b6bbea2be6e6e1ca496a5313d5fd46425e089b69199",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_794d497f646f978268b67162",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:34:41.986630+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_794d497f646f978268b67162"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

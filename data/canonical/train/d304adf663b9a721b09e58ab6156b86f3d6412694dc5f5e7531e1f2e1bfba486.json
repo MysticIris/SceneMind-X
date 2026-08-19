@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:244.jpg",
+    "relative_path": "train/244.jpg",
+    "sha256": "d304adf663b9a721b09e58ab6156b86f3d6412694dc5f5e7531e1f2e1bfba486",
+    "split": "train"
+  },
+  "canonical_sha256": "b378e9012a3548537a3ab35e1a1f00fcef6e001f3a638d700c4adc4f885541ab",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "历史文献",
+      "旧报纸",
+      "展柜陈列"
+    ],
+    "short_description": "陈列柜内展示多份泛黄旧报纸与手写纸张，上方悬挂着数份历史出版物，灯光聚焦于玻璃展柜中的小型物件。",
+    "theme": "历史文献展陈"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "玻璃展柜内有多个小型长方形物品被灯光照亮。",
+      "展柜上方悬挂多份带有汉字的旧报纸或手写纸张。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "泛黄",
+      "纸质",
+      "被灯光照射"
+    ],
+    "relations": [
+      "报纸与纸张悬挂在展柜上方。",
+      "展柜内放置多个小物件。"
+    ],
+    "scene": "博物馆或展览馆内的展品陈列区",
+    "subjects": [
+      "旧报纸",
+      "手写纸张",
+      "玻璃展柜"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "玻璃展柜内有多个小型长方形物品被灯光照亮；展柜上方悬挂多份带有汉字的旧报纸或手写纸张。",
+    "safe_facts": [
+      "玻璃展柜内有多个小型长方形物品被灯光照亮。",
+      "展柜上方悬挂多份带有汉字的旧报纸或手写纸张。"
+    ]
+  },
+  "label_id": "cpl_1bc771f8437c68dfed6807ae",
+  "provenance": {
+    "generated_at": "2026-08-03T10:23:39.668402+00:00",
+    "migrated_at": "2026-08-03T10:23:39.669822+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8e28c770ca93252254aa6275eff51c89150d2839b9be4e9b254075e7c93c764a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_231dd709a45efc378f358545",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:23:39.670026+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_231dd709a45efc378f358545"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

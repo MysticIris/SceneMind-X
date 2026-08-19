@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1442.jpg",
+    "relative_path": "train/1442.jpg",
+    "sha256": "2ef1ef6375388680e363839aba6286438cfa6efbd85bf1507e6a9564aa0548a3",
+    "split": "train"
+  },
+  "canonical_sha256": "a01aae823a7fdca26d7c50e25e156b2d3e7e9fee01f487cf3eb14c8bbee9e156",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "楼梯",
+      "扶手",
+      "室内",
+      "灰色台阶"
+    ],
+    "short_description": "从上方俯瞰一段深色木质扶手的楼梯，台阶为灰色石材，地面铺有同色瓷砖，墙面为白色。",
+    "theme": "楼梯间视角"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现从高处向下俯视的楼梯结构。",
+      "楼梯扶手为深棕色木质材质，带有装饰性立柱。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "深色木质扶手",
+      "灰色石材台阶",
+      "白色墙面",
+      "灰色瓷砖地面"
+    ],
+    "relations": [
+      "扶手沿楼梯边缘设置。",
+      "台阶连接地面与上层平台。"
+    ],
+    "scene": "室内楼梯间",
+    "subjects": [
+      "楼梯",
+      "扶手",
+      "台阶",
+      "墙面",
+      "地面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现从高处向下俯视的楼梯结构；楼梯扶手为深棕色木质材质，带有装饰性立柱。",
+    "safe_facts": [
+      "图像呈现从高处向下俯视的楼梯结构。",
+      "楼梯扶手为深棕色木质材质，带有装饰性立柱。"
+    ]
+  },
+  "label_id": "cpl_4de90bf192207e5a41e0bc5f",
+  "provenance": {
+    "generated_at": "2026-08-03T14:24:44.834371+00:00",
+    "migrated_at": "2026-08-03T14:24:44.839175+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "978a0ea699977a59ee6fdef614b35609243e9b4a892abe8516c4508813af02d4",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_517e6279d072fccfbbc407a7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:24:44.839539+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_517e6279d072fccfbbc407a7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

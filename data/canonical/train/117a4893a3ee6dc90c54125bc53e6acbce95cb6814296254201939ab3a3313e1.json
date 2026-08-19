@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:739.jpg",
+    "relative_path": "train/739.jpg",
+    "sha256": "117a4893a3ee6dc90c54125bc53e6acbce95cb6814296254201939ab3a3313e1",
+    "split": "train"
+  },
+  "canonical_sha256": "bc6d463878e45cbfa878c92946817b6f0bee937743d7d22a1833a4728893bb6f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄色小鸡",
+      "戴皇冠",
+      "卡通玩偶"
+    ],
+    "short_description": "一只戴着皇冠的黄色小鸡玩偶，坐在彩色布面上，造型可爱，细节丰富。",
+    "theme": "黄色小鸡玩偶"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "玩偶主体为黄色，头部戴有橙色皇冠。",
+      "玩偶身体呈坐姿，四肢可见。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黄色",
+      "戴皇冠",
+      "有翅膀",
+      "有小嘴",
+      "有眼睛",
+      "有脸颊红晕"
+    ],
+    "relations": [
+      "玩偶位于布面之上。"
+    ],
+    "scene": "室内桌面环境",
+    "subjects": [
+      "黄色小鸡玩偶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "玩偶主体为黄色，头部戴有橙色皇冠；玩偶身体呈坐姿，四肢可见。",
+    "safe_facts": [
+      "玩偶主体为黄色，头部戴有橙色皇冠。",
+      "玩偶身体呈坐姿，四肢可见。"
+    ]
+  },
+  "label_id": "cpl_8546818a64727f22587edb25",
+  "provenance": {
+    "generated_at": "2026-08-03T12:12:44.474805+00:00",
+    "migrated_at": "2026-08-03T12:12:44.482555+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5a842b17e7963f3e1d55db321f768a5561535744238f806d2633a5fcf303b5ee",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a3023cc6499cbfcd96f33eb4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:12:44.482908+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a3023cc6499cbfcd96f33eb4"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

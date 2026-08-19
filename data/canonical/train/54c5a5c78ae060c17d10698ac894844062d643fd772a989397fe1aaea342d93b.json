@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1378.jpg",
+    "relative_path": "train/1378.jpg",
+    "sha256": "54c5a5c78ae060c17d10698ac894844062d643fd772a989397fe1aaea342d93b",
+    "split": "train"
+  },
+  "canonical_sha256": "02e5cae10784a7621b969e572baea7c122ce8e74bfa3921431a866f97d4a645b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "舞台表演",
+      "电吉他",
+      "剪影",
+      "灯光效果"
+    ],
+    "short_description": "一位长发演奏者在强光下弹奏电吉他，背景为网格状灯光装置，氛围充满戏剧性。",
+    "theme": "舞台剪影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "主体可能正在表演音乐。"
+    ],
+    "direct_observations": [
+      "主体呈现为剪影，轮廓清晰。",
+      "背景有网格状发光线条。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "弹奏电吉他"
+    ],
+    "attributes": [
+      "长发",
+      "黑色服装",
+      "舞台灯光"
+    ],
+    "relations": [
+      "演奏者站在麦克风前。"
+    ],
+    "scene": "室内舞台环境",
+    "subjects": [
+      "演奏者"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "主体可能正在表演音乐。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "主体呈现为剪影，轮廓清晰；背景有网格状发光线条。",
+    "safe_facts": [
+      "主体呈现为剪影，轮廓清晰。",
+      "背景有网格状发光线条。"
+    ]
+  },
+  "label_id": "cpl_5f4fc0f61d1da0c023fa3414",
+  "provenance": {
+    "generated_at": "2026-08-03T14:14:40.021082+00:00",
+    "migrated_at": "2026-08-03T14:14:40.025625+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ccc4f65bb62b6793b6621f6b18768eae46bf6f0d6483f264e1f0a41796a44c20",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_395484ada78ea7ca2f3e6a29",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:14:40.025995+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_395484ada78ea7ca2f3e6a29"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

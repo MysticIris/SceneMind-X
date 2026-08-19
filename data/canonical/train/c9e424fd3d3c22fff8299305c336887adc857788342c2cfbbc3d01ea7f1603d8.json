@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1169.jpg",
+    "relative_path": "train/1169.jpg",
+    "sha256": "c9e424fd3d3c22fff8299305c336887adc857788342c2cfbbc3d01ea7f1603d8",
+    "split": "train"
+  },
+  "canonical_sha256": "b2a28f3222342efeb7c94a98e54bb606523e7af55b92094d6017e0d50de57239",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "饮品",
+      "纸杯",
+      "插画包装",
+      "桌面"
+    ],
+    "short_description": "两个装有饮品的纸杯，杯口有泡沫和碎屑，放置在深色圆桌上。",
+    "theme": "饮品包装插画"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两个白色纸杯并排放在深色圆形桌面上。",
+      "杯口覆盖着白色泡沫，表面撒有黄色细碎物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "杯口有泡沫",
+      "杯身有图案",
+      "杯内有液体"
+    ],
+    "relations": [
+      "杯子放在桌面上。"
+    ],
+    "scene": "室内桌面",
+    "subjects": [
+      "纸杯",
+      "饮品"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两个白色纸杯并排放在深色圆形桌面上；杯口覆盖着白色泡沫，表面撒有黄色细碎物。",
+    "safe_facts": [
+      "两个白色纸杯并排放在深色圆形桌面上。",
+      "杯口覆盖着白色泡沫，表面撒有黄色细碎物。"
+    ]
+  },
+  "label_id": "cpl_4f7e57ad054a747e0ea07ae7",
+  "provenance": {
+    "generated_at": "2026-08-03T13:49:15.509156+00:00",
+    "migrated_at": "2026-08-03T13:49:15.514058+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cd242010d72d6a93c18111abb7f5bdb68185e88c072c53e286d52278f27c1f37",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_218b55d8d20ef0146a12a329",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:49:15.514399+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_218b55d8d20ef0146a12a329"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1221.jpg",
+    "relative_path": "train/1221.jpg",
+    "sha256": "372f2672a93b1724dfd4b868225d9a6c7b0fcfdbd950877de52aff115ab143a2",
+    "split": "train"
+  },
+  "canonical_sha256": "41c3bdadcd2ca41bfea169cfc62c8ad931be2273ba263b88ebb568ffcd194ce9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "禁止停车",
+      "路边停车",
+      "树荫",
+      "砖地"
+    ],
+    "short_description": "树荫下停放多辆汽车，中间立有禁止停车标志，地面铺砖，背景有石墙和建筑。",
+    "theme": "路边停车禁停标志"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多个车辆并排停放。",
+      "画面中央有一个圆形禁止停车标志。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "汽车静止停放",
+      "标志为圆形红蓝相间",
+      "地面有树影"
+    ],
+    "relations": [
+      "汽车停放在标志附近。",
+      "标志立于砖地上。"
+    ],
+    "scene": "城市街道旁的停车区域",
+    "subjects": [
+      "多辆汽车",
+      "禁止停车标志",
+      "树木",
+      "砖砌地面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个车辆并排停放；画面中央有一个圆形禁止停车标志。",
+    "safe_facts": [
+      "画面中有多个车辆并排停放。",
+      "画面中央有一个圆形禁止停车标志。"
+    ]
+  },
+  "label_id": "cpl_097b22c22ed3abb76fa85839",
+  "provenance": {
+    "generated_at": "2026-08-03T13:57:17.761537+00:00",
+    "migrated_at": "2026-08-03T13:57:17.766471+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cdce2b4858550a9a6d0a11235ce78119639f16cd358adb37cef8cd358370b546",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_569f4695927ca6031c3eabba",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:57:17.766816+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_569f4695927ca6031c3eabba"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

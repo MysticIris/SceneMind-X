@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:111.jpg",
+    "relative_path": "train/111.jpg",
+    "sha256": "8411e12a4bd1c3241bb83c19efa17ffc0cd40cd4bb27ba9f2c613a5e281a84e8",
+    "split": "train"
+  },
+  "canonical_sha256": "9f1b4c570e16cfa74270a633b571b20e8d772fb68eedc0fd6278e3f7dda4f721",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蜡烛",
+      "乐队",
+      "肖像",
+      "舞台"
+    ],
+    "short_description": "舞台上有乐队演奏，前方摆满蜡烛，背景大屏幕显示一位戴眼镜的白发男子肖像及竖排汉字。",
+    "theme": "告别仪式"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "舞台上有多个点燃的蜡烛。",
+      "背景屏幕显示一位戴眼镜的白发男子肖像。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "乐队演奏",
+      "蜡烛摆放"
+    ],
+    "attributes": [
+      "男子手托脸颊",
+      "乐队成员剪影",
+      "蜡烛点燃"
+    ],
+    "relations": [
+      "男子肖像在背景屏幕。",
+      "乐队在舞台中央。",
+      "蜡烛分布在舞台前方。"
+    ],
+    "scene": "室内舞台",
+    "subjects": [
+      "戴眼镜的白发男子",
+      "乐队成员",
+      "蜡烛"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "舞台上有多个点燃的蜡烛；背景屏幕显示一位戴眼镜的白发男子肖像。",
+    "safe_facts": [
+      "舞台上有多个点燃的蜡烛。",
+      "背景屏幕显示一位戴眼镜的白发男子肖像。"
+    ]
+  },
+  "label_id": "cpl_962dcf9aef49a3748850561f",
+  "provenance": {
+    "generated_at": "2026-08-03T09:30:43.701606+00:00",
+    "migrated_at": "2026-08-03T09:30:43.703337+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9313456046b06462175d70f18893754bf6dca15678817cdbde400610fa573abf",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4b0ca4103af4fabdbc194154",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:29.961136+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4b0ca4103af4fabdbc194154",
+    "cpl_330e228ed319957060f2df33"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "再見,勞倫斯先生",
+      "坂本"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "再見,勞倫斯先生",
+      "坂本"
+    ]
+  }
+}

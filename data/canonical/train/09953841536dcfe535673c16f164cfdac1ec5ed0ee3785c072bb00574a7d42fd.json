@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1222.jpg",
+    "relative_path": "train/1222.jpg",
+    "sha256": "09953841536dcfe535673c16f164cfdac1ec5ed0ee3785c072bb00574a7d42fd",
+    "split": "train"
+  },
+  "canonical_sha256": "38c8c97355cafcff2e22f55861e80a8b18b2d737698435e54e292ade95d44a52",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古地图",
+      "城市规划",
+      "河流分布"
+    ],
+    "short_description": "一张描绘城市布局和水系分布的古地图插图。",
+    "theme": "古地图"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地图上有网格线划分区域。",
+      "河流以蓝色线条贯穿地图。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "网格线",
+      "彩色区块"
+    ],
+    "relations": [
+      "河流穿过城市。",
+      "街道与区域相连。"
+    ],
+    "scene": "一张手绘风格的地图",
+    "subjects": [
+      "河流",
+      "街道",
+      "区域标记"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地图上有网格线划分区域；河流以蓝色线条贯穿地图。",
+    "safe_facts": [
+      "地图上有网格线划分区域。",
+      "河流以蓝色线条贯穿地图。"
+    ]
+  },
+  "label_id": "cpl_74a5d1594ee9d06d4bb2bb63",
+  "provenance": {
+    "generated_at": "2026-08-03T13:55:25.612752+00:00",
+    "migrated_at": "2026-08-03T13:55:25.615948+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "648056689ba82b81057eab69b92687bc03655a9c782c2afd4e3a6da720ec3053",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b78fa36b034f26ca38525673",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:55:25.616267+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b78fa36b034f26ca38525673"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

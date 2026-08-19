@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1514.jpg",
+    "relative_path": "train/1514.jpg",
+    "sha256": "13ed7ee57994108e2864001f0c936a72a1f9be77002f948417e58a440c916f22",
+    "split": "train"
+  },
+  "canonical_sha256": "88a8fede8dbcf7804fbc4bd432908439ea1dc11272e3ff8aeab43d9e8dd7f83e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "芦苇",
+      "溪流",
+      "山景",
+      "湿地"
+    ],
+    "short_description": "金黄芦苇丛中蜿蜒溪流，远处山峦叠嶂，几栋房屋隐现其间，构成宁静自然风光。",
+    "theme": "山野湿地"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "溪流可能因季节性降水或融雪而形成。"
+    ],
+    "direct_observations": [
+      "画面前景为浅褐色泥泞溪流，水面倒映天空蓝色。",
+      "溪流两侧分布着大量干枯的金黄色芦苇。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金黄色芦苇",
+      "泥泞溪水",
+      "远山连绵",
+      "低矮建筑"
+    ],
+    "relations": [
+      "芦苇生长于溪流两岸。",
+      "房屋位于山脚平地。"
+    ],
+    "scene": "山地湿地",
+    "subjects": [
+      "芦苇",
+      "溪流",
+      "山脉",
+      "房屋"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "溪流可能因季节性降水或融雪而形成。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景为浅褐色泥泞溪流，水面倒映天空蓝色；溪流两侧分布着大量干枯的金黄色芦苇。",
+    "safe_facts": [
+      "画面前景为浅褐色泥泞溪流，水面倒映天空蓝色。",
+      "溪流两侧分布着大量干枯的金黄色芦苇。"
+    ]
+  },
+  "label_id": "cpl_d82123e00f4c798e764aa2fd",
+  "provenance": {
+    "generated_at": "2026-08-03T14:32:21.717262+00:00",
+    "migrated_at": "2026-08-03T14:32:21.720061+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ebb935a9bd74d1601aefb8159738318866f3413f22e446a7f5d9b7c4951141ff",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e57a463d463a409280a83095",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:32:21.720420+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e57a463d463a409280a83095"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

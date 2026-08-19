@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:920.jpg",
+    "relative_path": "train/920.jpg",
+    "sha256": "e97d064018df35b4a4b4d560c9918e03978087b5be1cf5d45b684f45880fce3b",
+    "split": "train"
+  },
+  "canonical_sha256": "eb763e0d123171b02d82f5a1c953d38596d74e496e553692a53b42d12ff995cf",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "骑马雕像",
+      "商场中庭",
+      "红色横幅"
+    ],
+    "short_description": "商场中庭的骑马雕像群，背景有红色横幅和建筑结构。",
+    "theme": "广场雕塑"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两尊骑马雕像立于石质基座上。",
+      "背景有红色横幅悬挂在建筑上方。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色金属雕像",
+      "石质基座",
+      "红色装饰性横幅"
+    ],
+    "relations": [
+      "雕像位于台阶上方。",
+      "行人从雕像旁经过。"
+    ],
+    "scene": "室内商业空间",
+    "subjects": [
+      "骑马雕像",
+      "行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两尊骑马雕像立于石质基座上；背景有红色横幅悬挂在建筑上方。",
+    "safe_facts": [
+      "两尊骑马雕像立于石质基座上。",
+      "背景有红色横幅悬挂在建筑上方。"
+    ]
+  },
+  "label_id": "cpl_920abf783afbe3baf5aada56",
+  "provenance": {
+    "generated_at": "2026-08-03T12:50:46.341364+00:00",
+    "migrated_at": "2026-08-03T12:50:46.343755+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "96d4e476e53a320b6705d4055456f1642aae171f658a6938f6873975c2dc847b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5769e35ff9733548d7b8645b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:50:46.344100+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5769e35ff9733548d7b8645b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

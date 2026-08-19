@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2280.jpg",
+    "relative_path": "val/2280.jpg",
+    "sha256": "4a2be87f1dfd8f71ee63cee8bb681ededb6764146ed6be53f8f9625e634c25c5",
+    "split": "val"
+  },
+  "canonical_sha256": "27b6d534c6cca6d377b9c90ab3588d5ccf2fca4e630100c5581957462edcc77c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "下雨",
+      "湖边",
+      "行人",
+      "撑伞"
+    ],
+    "short_description": "阴天，雨中，人们撑伞站在木桥上眺望湖面，远处有城市建筑和雕塑。",
+    "theme": "雨中湖畔步道"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空灰暗，可能正在下雨。"
+    ],
+    "direct_observations": [
+      "地面和栏杆表面有水渍，显示正在下雨或刚下过雨。",
+      "有人撑着黑色雨伞站在步道上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "撑伞"
+    ],
+    "attributes": [
+      "湿润的地面",
+      "灰色天空",
+      "红色栏杆",
+      "绿色植物"
+    ],
+    "relations": [
+      "人站在步道上。",
+      "步道靠近湖面。",
+      "建筑位于背景。"
+    ],
+    "scene": "城市公园湖泊旁的木质步道",
+    "subjects": [
+      "撑伞的人",
+      "湖水",
+      "远处建筑",
+      "树木",
+      "栏杆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空灰暗，可能正在下雨。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面和栏杆表面有水渍，显示正在下雨或刚下过雨；有人撑着黑色雨伞站在步道上。",
+    "safe_facts": [
+      "地面和栏杆表面有水渍，显示正在下雨或刚下过雨。",
+      "有人撑着黑色雨伞站在步道上。"
+    ]
+  },
+  "label_id": "cpl_a359d814f90d77f2844a174c",
+  "provenance": {
+    "generated_at": "2026-08-03T16:24:07.988697+00:00",
+    "migrated_at": "2026-08-03T16:24:07.990525+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4085d4be5ea556a9e919ae94efc9b98538b207d75d94a737c2e9e3d3059cbf0d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_24acdbd2b0234feea02b6d98",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:24:07.990748+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_24acdbd2b0234feea02b6d98"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

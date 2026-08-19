@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:524.jpg",
+    "relative_path": "train/524.jpg",
+    "sha256": "61e07d6f894a3efbba5da7dc7a33fd31a5ea405d7850ce919a7eaedb881d00d2",
+    "split": "train"
+  },
+  "canonical_sha256": "072e72f5f8d8a2094d44dfa4c90ea5878b47c8abd3e751f2c5ba2f93e06715d7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式建筑",
+      "开花树枝",
+      "游客",
+      "园林入口"
+    ],
+    "short_description": "白墙灰瓦的中式拱门旁，枝头绽放着粉色花朵，游客在树影下穿行。",
+    "theme": "中式园林入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央是一座白色墙体、黑色瓦片装饰的中式拱门。",
+      "拱门两侧有树木，部分枝条上开着粉红色小花。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白墙",
+      "灰瓦",
+      "粉色花朵",
+      "镂空窗格"
+    ],
+    "relations": [
+      "游客位于建筑前。",
+      "树枝穿过拱门。"
+    ],
+    "scene": "中式园林入口",
+    "subjects": [
+      "游客",
+      "树木",
+      "建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是一座白色墙体、黑色瓦片装饰的中式拱门；拱门两侧有树木，部分枝条上开着粉红色小花。",
+    "safe_facts": [
+      "画面中央是一座白色墙体、黑色瓦片装饰的中式拱门。",
+      "拱门两侧有树木，部分枝条上开着粉红色小花。"
+    ]
+  },
+  "label_id": "cpl_3e5df33746762fbf4b0dcd74",
+  "provenance": {
+    "generated_at": "2026-08-03T11:22:12.437875+00:00",
+    "migrated_at": "2026-08-03T11:22:12.440089+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "08749fadf7d57946a2547b7070334e9c21e2d13a0bcedae72c969f8929aa902d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_80f943142329c5b220a029bb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:22:12.440443+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_80f943142329c5b220a029bb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

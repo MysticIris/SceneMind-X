@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:118.jpg",
+    "relative_path": "train/118.jpg",
+    "sha256": "a838760eddcd82654d6f29b9f65220b0181c17042c92744d5f9c0cfc6181d6e5",
+    "split": "train"
+  },
+  "canonical_sha256": "4c67f126f7e03df736f35a89bdbfaf05269f05e6b87c575d9ab6758b8c5e214c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "卡通人物",
+      "戴墨镜",
+      "大笑",
+      "阳光照射"
+    ],
+    "short_description": "金发角色戴墨镜大笑，阳光洒在脸上，表情夸张可爱。",
+    "theme": "卡通角色特写"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "角色面部表情为大笑。"
+    ],
+    "direct_observations": [
+      "角色有金色头发。",
+      "角色佩戴黑色圆形墨镜。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "大笑"
+    ],
+    "attributes": [
+      "金发",
+      "戴墨镜",
+      "阳光照射"
+    ],
+    "relations": [],
+    "scene": "",
+    "subjects": [
+      "卡通角色"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "角色面部表情为大笑。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "角色有金色头发；角色佩戴黑色圆形墨镜。",
+    "safe_facts": [
+      "角色有金色头发。",
+      "角色佩戴黑色圆形墨镜。"
+    ]
+  },
+  "label_id": "cpl_873b03a5a13250c95d84f277",
+  "provenance": {
+    "generated_at": "2026-08-03T09:31:52.860975+00:00",
+    "migrated_at": "2026-08-03T09:31:52.863244+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c1c23339a8c6499d2124a18b6140542e67d331c0de76a27a82d167349b2457bc",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_72aabe6a327625ef5906479a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:30.351937+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_72aabe6a327625ef5906479a",
+    "cpl_d20fe22436423f92a3f1f0c8"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "小红书",
+      "小红书号: 1076294631"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "小红书",
+      "小红书号: 1076294631"
+    ]
+  }
+}

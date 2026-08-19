@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scenemind-x.local/schemas/complexity-route-v1.schema.json",
+  "title": "SceneMind-X complexity-aware route decision v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["image_id", "complexity", "confidence", "branches", "reasons", "policy_version"],
+  "properties": {
+    "image_id": {"type": "string", "minLength": 1},
+    "complexity": {"enum": ["simple", "moderate", "complex", "unknown"]},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "branches": {"type": "array", "items": {"enum": ["global_vlm", "ocr", "grounding", "local_vlm", "sam", "presence_uncertainty", "conflict_review"]}, "uniqueItems": true},
+    "reasons": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "policy_version": {"type": "string", "minLength": 1}
+  }
+}

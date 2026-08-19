@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1010.jpg",
+    "relative_path": "train/1010.jpg",
+    "sha256": "2a84c0dee084e51b4f1f23dca3ed9a8eb196949c45a31aa6c910517a6b13a396",
+    "split": "train"
+  },
+  "canonical_sha256": "5023cc8a11638f1814a381b6c32517e303f8e1035a0b1d5d606861485e258dec",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "荷叶",
+      "荷花",
+      "城市公园",
+      "绿色植物"
+    ],
+    "short_description": "一片茂密的荷叶田，点缀着几朵白色荷花，背景是绿树和欧式建筑。",
+    "theme": "荷塘绿意"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "荷塘可能位于城市区域，因背景可见高层建筑和住宅楼。"
+    ],
+    "direct_observations": [
+      "画面前景是大量圆形绿色荷叶。",
+      "荷叶间有数朵白色荷花绽放。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色",
+      "白色",
+      "茂盛",
+      "密集"
+    ],
+    "relations": [
+      "荷叶覆盖水面。",
+      "荷花生长于荷叶间。",
+      "树木位于荷塘后方。",
+      "建筑物位于树木后方。"
+    ],
+    "scene": "城市边缘的荷塘",
+    "subjects": [
+      "荷叶",
+      "荷花",
+      "树木",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "荷塘可能位于城市区域，因背景可见高层建筑和住宅楼。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景是大量圆形绿色荷叶；荷叶间有数朵白色荷花绽放。",
+    "safe_facts": [
+      "画面前景是大量圆形绿色荷叶。",
+      "荷叶间有数朵白色荷花绽放。"
+    ]
+  },
+  "label_id": "cpl_d57741a42961e79440bca10a",
+  "provenance": {
+    "generated_at": "2026-08-03T13:24:31.003194+00:00",
+    "migrated_at": "2026-08-03T13:24:31.006479+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "dc6a828e81a4baf4f1d686ffc5e338b75ad20733d4e0c001b72a156025523fd0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_80b490ce13658d21acd74375",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:24:31.006813+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_80b490ce13658d21acd74375"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": "scenemindx_prompt_suite_v1_metrics_v1",
+  "prompt_suite_id": "SCENEMINDX_PROMPT_SUITE_V1",
+  "aggregation_policy": "No aggregate score. Metrics retain their own task, time, denominator and review status.",
+  "new_model_calls_for_archive": 0,
+  "rows": [
+    {
+      "prompt_family": "P3",
+      "sample_count": 12,
+      "evidence_scope": "Phase 5.1 frozen Train-only acceptance subset",
+      "test_time": "2026-07-28 to 2026-07-29",
+      "historical_acceptance": true,
+      "live_restore_smoke": false,
+      "split": "Train",
+      "manual_review": true,
+      "denominator_complete": true,
+      "metrics": {
+        "engineering_success": {"numerator": 12, "denominator": 12, "percentage": 100.0, "label": "HTTP/model execution success"},
+        "schema_or_format": {"numerator": 10, "denominator": 12, "percentage": 83.33, "label": "strict JSON Schema valid"},
+        "manual_semantic": {"numerator": 8, "denominator": 12, "percentage": 66.67, "label": "manual visual/semantic pass"}
+      },
+      "main_failures": ["two strict Schema failures", "four manual visual/semantic failures", "single-field raw_text_fallback remains possible"],
+      "sources": ["docs/status/phase5_1_snapshot.json", "docs/experiments/phase5_1_product_usability_recovery_report.md"]
+    },
+    {
+      "prompt_family": "Description",
+      "sample_count": 1,
+      "evidence_scope": "one frozen production Description V1 acceptance/live-restore observation on 114.jpg",
+      "test_time": "2026-07-30",
+      "historical_acceptance": true,
+      "live_restore_smoke": true,
+      "split": "Train",
+      "manual_review": true,
+      "denominator_complete": true,
+      "population_accuracy_claim_allowed": false,
+      "metrics": {
+        "engineering_success": {"numerator": 1, "denominator": 1, "percentage": 100.0, "label": "request success"},
+        "schema_or_format": {"numerator": 1, "denominator": 1, "percentage": 100.0, "label": "150-350 Chinese-character length contract"},
+        "manual_semantic": {"numerator": 0, "denominator": 1, "percentage": 0.0, "label": "manual semantic pass for the archived sample"},
+        "unsupported_specific_text_occurrences": {"count": 3, "items": ["中国平安", "复悦茶美食馆", "TOKYO"]}
+      },
+      "main_failures": ["P3 said visible text was unreadable, but Description asserted three specific text strings", "no independent verified-text guard"],
+      "sources": ["artifacts/phase5_1_private/live_restore_20260730_142112/runtime/outputs/describe/a5475354-ed30-4f5f-a9f0-d90fb23a9924.json", "docs/experiments/phase5_1_product_usability_recovery_report.md"]
+    },
+    {
+      "prompt_family": "VQA",
+      "sample_count": 24,
+      "evidence_scope": "six Train images, four questions per image, six isolated conversations",
+      "test_time": "2026-07-28 to 2026-07-29",
+      "historical_acceptance": true,
+      "live_restore_smoke": false,
+      "split": "Train",
+      "manual_review": true,
+      "denominator_complete": true,
+      "metrics": {
+        "engineering_success": {"numerator": 24, "denominator": 24, "percentage": 100.0, "label": "HTTP/model and JSON parsing success"},
+        "schema_or_format": {"numerator": 24, "denominator": 24, "percentage": 100.0, "label": "request/parse completion; no independent runtime JSON Schema validator"},
+        "manual_semantic": {"numerator": 14, "denominator": 24, "percentage": 58.33, "label": "manual semantic-and-evidence pass"},
+        "current_image_binding": {"numerator": 6, "denominator": 6, "percentage": 100.0, "label": "six tested conversations remained bound to their selected asset"},
+        "conversation_isolation": {"numerator": 6, "denominator": 6, "percentage": 100.0, "label": "six isolated asset conversations"}
+      },
+      "main_failures": ["position completeness", "quantity", "visible text", "evidence completeness"],
+      "sources": ["docs/status/phase5_1_snapshot.json", "docs/experiments/phase5_1_product_usability_recovery_report.md"]
+    },
+    {
+      "prompt_family": "Compare",
+      "sample_count": 4,
+      "evidence_scope": "four Train-only multi-image acceptance groups",
+      "test_time": "2026-07-28 to 2026-07-29",
+      "historical_acceptance": true,
+      "live_restore_smoke": false,
+      "split": "Train",
+      "manual_review": true,
+      "denominator_complete": true,
+      "metrics": {
+        "engineering_success": {"numerator": 4, "denominator": 4, "percentage": 100.0, "label": "returned all supplied assets"},
+        "schema_or_format": {"numerator": 4, "denominator": 4, "percentage": 100.0, "label": "asset coverage and parse completion"},
+        "manual_semantic": {"numerator": 2, "denominator": 4, "percentage": 50.0, "label": "manual semantic pass"}
+      },
+      "main_failures": ["two comparison groups had semantic failures", "historical empty or weak differences behavior"],
+      "sources": ["docs/status/phase5_1_snapshot.json", "docs/experiments/phase5_1_product_usability_recovery_report.md"]
+    },
+    {
+      "prompt_family": "Rank",
+      "sample_count": 4,
+      "evidence_scope": "four Train-only multi-image ranking groups",
+      "test_time": "2026-07-28 to 2026-07-29",
+      "historical_acceptance": true,
+      "live_restore_smoke": false,
+      "split": "Train",
+      "manual_review": true,
+      "denominator_complete": true,
+      "metrics": {
+        "engineering_success": {"numerator": 4, "denominator": 4, "percentage": 100.0, "label": "ranking structure complete"},
+        "schema_or_format": {"numerator": 4, "denominator": 4, "percentage": 100.0, "label": "unique 1..N position contract valid"},
+        "manual_semantic": {"numerator": 3, "denominator": 4, "percentage": 75.0, "label": "manual semantic pass"}
+      },
+      "main_failures": ["one text-density ranking failure", "baseline is prompted VLM order plus deterministic P3 reason, not a trained Reranker"],
+      "sources": ["docs/status/phase5_1_snapshot.json", "docs/experiments/phase5_1_product_usability_recovery_report.md"]
+    },
+    {
+      "prompt_family": "Content",
+      "sample_count": 13,
+      "evidence_scope": "Phase 5.1 Train-only acceptance content-generation executions",
+      "test_time": "2026-07-28 to 2026-07-29",
+      "historical_acceptance": true,
+      "live_restore_smoke": false,
+      "split": "Train",
+      "manual_review": "partial; no complete human semantic denominator",
+      "denominator_complete": false,
+      "metrics": {
+        "engineering_success": {"numerator": 13, "denominator": 13, "percentage": 100.0, "label": "execution completion"},
+        "schema_or_format": {"value": "N/A — existing evidence does not provide a complete denominator"},
+        "manual_semantic": {"value": "N/A — existing evidence does not provide a complete denominator"}
+      },
+      "main_failures": ["one known text residual", "execution success must not be interpreted as content correctness", "fact_guard is model-authored"],
+      "sources": ["docs/status/phase5_1_snapshot.json", "docs/experiments/phase5_1_product_usability_recovery_report.md"]
+    }
+  ],
+  "retrieval_background_excluded_from_prompt_score": {
+    "text_retrieval": "present in Phase 5.1 product evidence",
+    "image_retrieval": "color-grid-v1 deterministic visual baseline",
+    "hybrid_retrieval": "present in Phase 5.1 product evidence",
+    "reason": "Retrieval is not a Prompt Suite model-Prompt evaluation and therefore is not included in any Prompt V1 accuracy."
+  }
+}

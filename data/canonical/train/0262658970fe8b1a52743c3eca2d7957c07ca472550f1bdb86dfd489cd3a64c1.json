@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1852.jpg",
+    "relative_path": "train/1852.jpg",
+    "sha256": "0262658970fe8b1a52743c3eca2d7957c07ca472550f1bdb86dfd489cd3a64c1",
+    "split": "train"
+  },
+  "canonical_sha256": "6edd777833ba13bdbc6e36a96e8d996b858b0fdcc195bc1e1627c1a4a6680594",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "教学幻灯片",
+      "英语语法",
+      "课堂展示"
+    ],
+    "short_description": "教室投影屏幕显示英语形容词和副词变化程度及句式结构的快速回顾要点。",
+    "theme": "英语语法速记"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中包含一个教学屏幕和上方的监控设备。",
+      "屏幕上有彩色柱状图和箭头图案。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "屏幕底部有木质纹理装饰"
+    ],
+    "relations": [
+      "摄像头安装在屏幕上方。"
+    ],
+    "scene": "教室环境",
+    "subjects": [
+      "投影屏幕",
+      "监控摄像头"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中包含一个教学屏幕和上方的监控设备；屏幕上有彩色柱状图和箭头图案。",
+    "safe_facts": [
+      "画面中包含一个教学屏幕和上方的监控设备。",
+      "屏幕上有彩色柱状图和箭头图案。"
+    ]
+  },
+  "label_id": "cpl_55a6770d32bde7d698565260",
+  "provenance": {
+    "generated_at": "2026-08-02T22:22:58.844536+00:00",
+    "migrated_at": "2026-08-03T07:13:41.740991+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "267023549ee83860744faeb9dce8a61a7e09ef1cb5b8023ac5eaf08968fd28d1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c4eae74cebdd742dc4acc156",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:14:34.552245+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c4eae74cebdd742dc4acc156",
+    "cpl_ba69c8ae628e8c6cc343a117"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Quick Recap",
+      "Adjectives (adverbs) according to the de",
+      "Size/quantity adjectives",
+      "dramatic; considerable; steep; sharp; si",
+      "Time adjectives",
+      "Sudden; quick; rapid; steady; gradual; s"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Quick Recap",
+      "Adjectives (adverbs) according to the de",
+      "Size/quantity adjectives",
+      "dramatic; considerable; steep; sharp; si",
+      "Time adjectives",
+      "Sudden; quick; rapid; steady; gradual; s"
+    ]
+  }
+}

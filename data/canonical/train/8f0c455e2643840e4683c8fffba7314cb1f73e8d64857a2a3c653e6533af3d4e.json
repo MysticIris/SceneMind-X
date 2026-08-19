@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1923.jpg",
+    "relative_path": "train/1923.jpg",
+    "sha256": "8f0c455e2643840e4683c8fffba7314cb1f73e8d64857a2a3c653e6533af3d4e",
+    "split": "train"
+  },
+  "canonical_sha256": "243ad776a9c5ad19354bb5730bdb0f632bf6d9f112bcb84b6e45aed2c46bd583",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蓝天",
+      "云朵",
+      "枯枝",
+      "月亮"
+    ],
+    "short_description": "湛蓝天空下，稀疏云朵飘浮，几株枯枝剪影勾勒天际线，一轮明月悬于高空。",
+    "theme": "晴空与枝影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "月亮可能处于黄昏或黎明时段。"
+    ],
+    "direct_observations": [
+      "天空呈现蓝色，分布有少量云层。",
+      "画面底部可见多株无叶枝干的剪影。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色天空",
+      "白色云朵",
+      "枯枝",
+      "明亮月亮"
+    ],
+    "relations": [
+      "云朵漂浮在天空中。",
+      "枝干位于画面前景。",
+      "月亮悬挂在天空。"
+    ],
+    "scene": "户外天空场景",
+    "subjects": [
+      "天空",
+      "云朵",
+      "树木枝干",
+      "月亮"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "月亮可能处于黄昏或黎明时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现蓝色，分布有少量云层；画面底部可见多株无叶枝干的剪影。",
+    "safe_facts": [
+      "天空呈现蓝色，分布有少量云层。",
+      "画面底部可见多株无叶枝干的剪影。"
+    ]
+  },
+  "label_id": "cpl_8c22a8339e5d57603a0f10f3",
+  "provenance": {
+    "generated_at": "2026-08-02T22:20:22.479543+00:00",
+    "migrated_at": "2026-08-03T07:13:41.628567+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cb72d9b830693a274dd8ca711f63df4da6d85982fcb518a86554c8d90f451af6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4e5c46e37c02f8753c2aead2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:22:12.754635+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4e5c46e37c02f8753c2aead2",
+    "cpl_c82560815dfd4d66cda2a400"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

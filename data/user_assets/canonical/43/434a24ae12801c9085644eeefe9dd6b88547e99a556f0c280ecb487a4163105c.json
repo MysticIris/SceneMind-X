@@ -1,0 +1,148 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_c450ee40b14b60283acd2d7d",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_b83f039b711c03790350715c"
+  ],
+  "asset": {
+    "asset_id": "434a24ae12801c90",
+    "sha256": "434a24ae12801c9085644eeefe9dd6b88547e99a556f0c280ecb487a4163105c",
+    "split": "user_custom",
+    "relative_path": "user_assets/43/434a24ae12801c9085644eeefe9dd6b88547e99a556f0c280ecb487a4163105c/434a24ae12801c9085644eeefe9dd6b88547e99a556f0c280ecb487a4163105c.png"
+  },
+  "display": {
+    "theme": "手机天气应用界面截图",
+    "short_description": "这是一张智能手机天气应用程序的深色模式界面截图。屏幕顶部显示当前地点为“鞍山市铁东区”，实时气温3度，天气多云。界面包含每小时天气预报和10日天气预报列表，展示了未来一周的气温变化趋势，其中周四至周六有显著降温，最低气温达零下19度。底部可见空气质量地图入口及导航栏图标。",
+    "micro_tags": [
+      "天气预报",
+      "鞍山",
+      "气温骤降",
+      "深色模式",
+      "手机截图",
+      "UI界面"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "移动设备操作系统内的天气应用程序界面",
+    "subjects": [
+      "天气数据图表",
+      "温度数值",
+      "天气状况图标",
+      "地理位置名称",
+      "时间信息"
+    ],
+    "actions": [],
+    "attributes": [
+      "深色背景",
+      "蓝色温度进度条",
+      "黄色太阳图标",
+      "灰色云朵图标",
+      "垂直列表布局"
+    ],
+    "relations": [
+      "日期与对应天气图标及温度范围一一对应。",
+      "顶部显示当前位置及实时状态。",
+      "中部展示逐小时变化趋势。",
+      "下部展示长期预报列表。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "屏幕顶部居中显示大号文字“鞍山市铁东区”及下方小字“3° | 多云”。",
+      "左上角状态栏显示时间为“03：48”，右上角电池电量显示为“22”。"
+    ],
+    "cautious_inferences": [
+      "界面布局符合iOS系统自带天气应用的典型设计风格。"
+    ],
+    "uncertainties": [
+      "无法确定截图的具体年份，虽然显示了星期几，但缺乏具体日期数字。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "03:48",
+      "22",
+      "我的位置",
+      "鞍山市铁东区",
+      "每小时天气预报"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "03:48",
+      "22",
+      "我的位置",
+      "鞍山市铁东区",
+      "每小时天气预报"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "屏幕顶部居中显示大号文字“鞍山市铁东区”及下方小字“3° | 多云”；左上角状态栏显示时间为“03：48”，右上角电池电量显示为“22”。",
+    "safe_facts": [
+      "屏幕顶部居中显示大号文字“鞍山市铁东区”及下方小字“3° | 多云”。",
+      "左上角状态栏显示时间为“03：48”，右上角电池电量显示为“22”。"
+    ],
+    "do_not_assert": [
+      "界面布局符合iOS系统自带天气应用的典型设计风格。",
+      "无法确定截图的具体年份，虽然显示了星期几，但缺乏具体日期数字。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_9d4cdabc-91e5-48e4-b1f0-40bbddbd8411",
+    "generated_at": "2026-08-12T03:10:37.537167+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "00261e6bd35d316114ac07d1a3b0458fdbd1db28c6004ddaa34b88b8952cecd3",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:10:37.538194+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_b83f039b711c03790350715c",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:10:37.538818+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "5232745ac6d82f251111ca895a1d1bbf0bad932fc40220cfcc17d2658b51b554"
+}

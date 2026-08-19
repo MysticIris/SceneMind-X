@@ -1,0 +1,134 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_f2f8ffad86aa076ff63039d5",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_c08bc13c41431556ac54bacc"
+  ],
+  "asset": {
+    "asset_id": "ca8c5d15b2de19db",
+    "sha256": "ca8c5d15b2de19db7d738659ad173a840fde1d52dc78db6af8d94945c6570cc8",
+    "split": "user_custom",
+    "relative_path": "user_assets/ca/ca8c5d15b2de19db7d738659ad173a840fde1d52dc78db6af8d94945c6570cc8/ca8c5d15b2de19db7d738659ad173a840fde1d52dc78db6af8d94945c6570cc8.jpg"
+  },
+  "display": {
+    "theme": "清晨小区停车道",
+    "short_description": "一条位于居民区内的道路，两侧整齐停放着大量电动车和自行车。左侧是茂密的树木，右侧是多层住宅楼。远处路灯发出强光，在空气中形成明显的光束，地面看起来有些潮湿。",
+    "micro_tags": [
+      "电动车",
+      "居民区",
+      "路灯",
+      "丁达尔效应",
+      "清晨",
+      "林荫道"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "室外居民区道路",
+    "subjects": [
+      "电动车",
+      "自行车",
+      "树木",
+      "住宅楼",
+      "路灯"
+    ],
+    "actions": [],
+    "attributes": [
+      "排列整齐",
+      "光线朦胧",
+      "路面湿润",
+      "植被茂密"
+    ],
+    "relations": [
+      "车辆沿道路两侧停放。",
+      "树木位于道路左侧。",
+      "楼房位于道路右侧。",
+      "路灯照亮前方道路。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "道路两侧停满了两轮交通工具，左侧主要是电动踏板车，右侧混杂了自行车和电动车。",
+      "画面远处有明亮的路灯光源，光线穿过树梢和空气形成清晰可见的光束(丁达尔效应)。",
+      "右侧是一栋白色的多层建筑，窗户上安装有金属防盗网或护栏。",
+      "左侧种植着高大的树木，枝叶繁茂，遮蔽了部分天空。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法确定具体的地理位置或城市。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_unreadable",
+    "visual_candidates": [],
+    "ocr_candidates": [],
+    "candidate_text": [],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "道路两侧停满了两轮交通工具，左侧主要是电动踏板车，右侧混杂了自行车和电动车；画面远处有明亮的路灯光源，光线穿过树梢和空气形成清晰可见的光束(丁达尔效应)。",
+    "safe_facts": [
+      "道路两侧停满了两轮交通工具，左侧主要是电动踏板车，右侧混杂了自行车和电动车。",
+      "画面远处有明亮的路灯光源，光线穿过树梢和空气形成清晰可见的光束(丁达尔效应)。",
+      "右侧是一栋白色的多层建筑，窗户上安装有金属防盗网或护栏。"
+    ],
+    "do_not_assert": [
+      "无法确定具体的地理位置或城市。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_c73a1ba7-d508-4eec-99f4-8b6fda17cdc4",
+    "generated_at": "2026-08-12T03:07:28.383538+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "4ec23de2deb6376f173f81ff4d58847dd1a8606288462356cd4efb2417159826",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:07:28.384191+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_c08bc13c41431556ac54bacc",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:07:28.384690+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "ce48a71b85d3ff4c5b1486e40c2e6985229979ca54723988ff35956b9d0b36df"
+}

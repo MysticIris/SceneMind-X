@@ -1,0 +1,56 @@
+{
+  "dimension": 2048,
+  "first_local_enablement_reencodes_course_assets": false,
+  "metric": "inner_product",
+  "model_id": "Qwen/Qwen3-VL-Embedding-2B",
+  "model_revision": "cda4398c9bbfb3a644105446a2793692a8da5ea1",
+  "normalization": "l2",
+  "product_lifecycle_relative_path": "data/indexes/local_e1_2048/product/lifecycle.json",
+  "project_relative": true,
+  "schema_version": "scenemindx_local_e1_2048_catalog_v1",
+  "scopes": {
+    "product": {
+      "dimension": 2048,
+      "faiss_bytes_unchanged": false,
+      "faiss_sha256": "ad5892211cd5c7f6a48faa5847d67e2520d32f691910341a5f2faa67fa76434e",
+      "identity_sha256": "b81655242db7fedf49002172ab3fe8aa87cf22523b572c7b2269caf6e5ed7a0a",
+      "manifest_sha256": "8d1977eebe685153134b77d984439db4bc910f3fdbc07079f171dc6c4ead7bc2",
+      "metric": "inner_product_on_l2_normalized_vectors",
+      "records": 0,
+      "relative_root": "data/indexes/local_e1_2048/product/faiss",
+      "scope": "product",
+      "source_index_version": "e1-product-4f53cda18c2b",
+      "source_relative_root": null,
+      "unique_sha": 0
+    },
+    "system_train": {
+      "dimension": 2048,
+      "faiss_bytes_unchanged": false,
+      "faiss_sha256": "ad5892211cd5c7f6a48faa5847d67e2520d32f691910341a5f2faa67fa76434e",
+      "identity_sha256": "b81655242db7fedf49002172ab3fe8aa87cf22523b572c7b2269caf6e5ed7a0a",
+      "manifest_sha256": "8d1977eebe685153134b77d984439db4bc910f3fdbc07079f171dc6c4ead7bc2",
+      "metric": "inner_product_on_l2_normalized_vectors",
+      "records": 0,
+      "relative_root": "data/indexes/local_e1_2048/system_train/faiss",
+      "scope": "system_train",
+      "source_index_version": "e1-product-4f53cda18c2b",
+      "source_relative_root": null,
+      "unique_sha": 0
+    },
+    "system_val": {
+      "dimension": 2048,
+      "faiss_bytes_unchanged": false,
+      "faiss_sha256": "ad5892211cd5c7f6a48faa5847d67e2520d32f691910341a5f2faa67fa76434e",
+      "identity_sha256": "b81655242db7fedf49002172ab3fe8aa87cf22523b572c7b2269caf6e5ed7a0a",
+      "manifest_sha256": "8d1977eebe685153134b77d984439db4bc910f3fdbc07079f171dc6c4ead7bc2",
+      "metric": "inner_product_on_l2_normalized_vectors",
+      "records": 0,
+      "relative_root": "data/indexes/local_e1_2048/system_val/faiss",
+      "scope": "system_val",
+      "source_index_version": "e1-product-4f53cda18c2b",
+      "source_relative_root": null,
+      "unique_sha": 0
+    }
+  },
+  "source_commit": "393e2978d27852b0d0230d6994f37f9c15bed73c"
+}

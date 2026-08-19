@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1400.jpg",
+    "relative_path": "train/1400.jpg",
+    "sha256": "4b09f107b7c8b5ded7ef7d2eea69c6e24f1c00947cca3869acbbad16f484e211",
+    "split": "train"
+  },
+  "canonical_sha256": "79848a22a3542d7a85176b116562cc71ce0ede5e49b18ded2d5452fffb6d299a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "高层住宅楼",
+      "街边商铺",
+      "城市商业区"
+    ],
+    "short_description": "画面中有数栋高层住宅楼，外墙呈米黄色，窗户密集，阳台多配有栏杆。",
+    "theme": "城市街景与住宅楼"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有数栋高层住宅楼，外墙呈米黄色，窗户密集，阳台多配有栏杆。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "城市街道与居民楼",
+    "subjects": [
+      "高层建筑",
+      "商铺招牌",
+      "街边小吃摊"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有数栋高层住宅楼，外墙呈米黄色，窗户密集，阳台多配有栏杆。",
+    "safe_facts": [
+      "画面中有数栋高层住宅楼，外墙呈米黄色，窗户密集，阳台多配有栏杆。"
+    ]
+  },
+  "label_id": "cpl_012e29fb7db6c6de2aa5483e",
+  "provenance": {
+    "generated_at": "2026-08-03T14:18:11.161651+00:00",
+    "migrated_at": "2026-08-03T14:18:11.166147+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f9da5f40c90cb9adacb695bcda90b46eb9e2cd9765fe1ba8054d6ccb1aa15e24",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7f363d938655c89fdaf37721",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:18:11.168125+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7f363d938655c89fdaf37721"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "舒漫舞蹈艺术中心",
+      "夜市秩序共遵守 公共安全靠大家",
+      "王先生的烧烤",
+      "陈先生的烧烤",
+      "小蹄大作 烤猪蹄",
+      "好味鲜鸡"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "舒漫舞蹈艺术中心",
+      "夜市秩序共遵守 公共安全靠大家",
+      "王先生的烧烤",
+      "陈先生的烧烤",
+      "小蹄大作 烤猪蹄",
+      "好味鲜鸡"
+    ]
+  }
+}

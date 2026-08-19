@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:435.jpg",
+    "relative_path": "train/435.jpg",
+    "sha256": "0b3714d8e5425f3c8a9149d047f60b028435a0956dcc89d4c5e998a33a9c2310",
+    "split": "train"
+  },
+  "canonical_sha256": "30c0b824697e65d7c965163ea7ec5bfd8d9dfd9dcf4cc681d9a24ed671ddc840",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "沙漠",
+      "骆驼",
+      "沙丘",
+      "行进",
+      "俯视"
+    ],
+    "short_description": "俯瞰视角下，多峰骆驼沿着沙丘脊线蜿蜒前行，留下清晰足迹，沙丘曲线优美，光影分明。",
+    "theme": "沙漠驼队行进"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "骆驼可能正穿越沙丘地形以完成迁徙或运输任务。"
+    ],
+    "direct_observations": [
+      "画面呈现从高空俯瞰的沙漠景观。",
+      "多只骆驼沿沙丘脊线呈队列状移动并留下脚印。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行进"
+    ],
+    "attributes": [
+      "沙丘",
+      "金色沙地",
+      "影子"
+    ],
+    "relations": [
+      "骆驼在沙丘上移动。",
+      "骆驼留下足迹。"
+    ],
+    "scene": "沙漠地貌",
+    "subjects": [
+      "骆驼"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "骆驼可能正穿越沙丘地形以完成迁徙或运输任务。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现从高空俯瞰的沙漠景观；多只骆驼沿沙丘脊线呈队列状移动并留下脚印。",
+    "safe_facts": [
+      "画面呈现从高空俯瞰的沙漠景观。",
+      "多只骆驼沿沙丘脊线呈队列状移动并留下脚印。"
+    ]
+  },
+  "label_id": "cpl_cc1ff625c5a48fba4ed6db67",
+  "provenance": {
+    "generated_at": "2026-08-03T11:02:59.589953+00:00",
+    "migrated_at": "2026-08-03T11:02:59.591990+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c6c0262dc710f566ca63e2516bcf0a1df59a8083937be7f2e74a4fda68190b12",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2a7b3f7998406e25d31e10e4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:02:59.592309+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2a7b3f7998406e25d31e10e4"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

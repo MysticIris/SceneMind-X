@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2069.jpg",
+    "relative_path": "val/2069.jpg",
+    "sha256": "0cce8c218e527e7a5cc6fa388576c05fc8aabf6499357892a69c0bca73acb2c9",
+    "split": "val"
+  },
+  "canonical_sha256": "10876d3f21b49120a196eeae3e5e8da4b35cae88b8f5c89b091939f486f3c8b1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "莲子",
+      "汤水",
+      "不锈钢锅",
+      "勺子"
+    ],
+    "short_description": "不锈钢锅中盛着泡发的莲子和清澈汤水，一把金属勺子浸在其中。",
+    "theme": "莲子汤"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "锅内有大量白色圆形莲子，部分裂开。",
+      "莲子浸泡在浅黄色透明液体中。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色莲子",
+      "透明汤水",
+      "金属光泽锅具",
+      "勺子部分浸入液体"
+    ],
+    "relations": [
+      "莲子浸泡在汤水中。",
+      "勺子位于锅内液体中。"
+    ],
+    "scene": "厨房或餐桌上的烹饪容器",
+    "subjects": [
+      "莲子",
+      "汤水",
+      "不锈钢锅",
+      "勺子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "锅内有大量白色圆形莲子，部分裂开；莲子浸泡在浅黄色透明液体中。",
+    "safe_facts": [
+      "锅内有大量白色圆形莲子，部分裂开。",
+      "莲子浸泡在浅黄色透明液体中。"
+    ]
+  },
+  "label_id": "cpl_e41b58725f9d218739915872",
+  "provenance": {
+    "generated_at": "2026-08-03T15:54:56.913408+00:00",
+    "migrated_at": "2026-08-03T15:54:56.915124+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8ad74ebc1b069cff9c469104e419f739dc3f14efd598742d86cb597cb5718bd1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6065ae708059024c05d663e4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:54:56.915350+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6065ae708059024c05d663e4"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

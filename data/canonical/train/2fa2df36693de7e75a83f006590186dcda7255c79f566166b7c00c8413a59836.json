@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1030.jpg",
+    "relative_path": "train/1030.jpg",
+    "sha256": "2fa2df36693de7e75a83f006590186dcda7255c79f566166b7c00c8413a59836",
+    "split": "train"
+  },
+  "canonical_sha256": "6cf006a8ab33ffde328b5e5837e52ed64cf6e2222ce113c1b876354035ad6402",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "纸灯笼",
+      "夜景",
+      "植物",
+      "发光"
+    ],
+    "short_description": "夜晚悬挂于绿叶间的彩色纸灯笼，透出温暖光芒，背景是深色植物。",
+    "theme": "夜色中的纸灯笼"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "灯笼呈椭圆形，表面有橙色、白色及深色条纹图案。",
+      "灯笼由细绳或支架悬挂在树干或枝条上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "发光",
+      "彩色图案",
+      "悬挂状态"
+    ],
+    "relations": [
+      "灯笼悬挂在树枝上。",
+      "灯笼被植物叶片环绕。"
+    ],
+    "scene": "夜间户外植物环境",
+    "subjects": [
+      "纸灯笼",
+      "植物叶片"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "灯笼呈椭圆形，表面有橙色、白色及深色条纹图案；灯笼由细绳或支架悬挂在树干或枝条上。",
+    "safe_facts": [
+      "灯笼呈椭圆形，表面有橙色、白色及深色条纹图案。",
+      "灯笼由细绳或支架悬挂在树干或枝条上。"
+    ]
+  },
+  "label_id": "cpl_45e65614e292e1f79784d41c",
+  "provenance": {
+    "generated_at": "2026-08-03T13:27:01.636250+00:00",
+    "migrated_at": "2026-08-03T13:27:01.639825+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4fc20b7b144e2fc1567bb60044efa9bbdaa43fe5e70e08eb862baf77518ce430",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_604e0d3a15188ad747e1ba33",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:27:01.640185+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_604e0d3a15188ad747e1ba33"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

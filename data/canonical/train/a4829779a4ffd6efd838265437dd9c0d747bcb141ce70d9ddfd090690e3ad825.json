@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1282.jpg",
+    "relative_path": "train/1282.jpg",
+    "sha256": "a4829779a4ffd6efd838265437dd9c0d747bcb141ce70d9ddfd090690e3ad825",
+    "split": "train"
+  },
+  "canonical_sha256": "7c0efad8e538ed6f8d1618c5ba2566a33a6e4cc735ad42aecafd85197744cd10",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "数学题",
+      "手写笔记",
+      "积分计算"
+    ],
+    "short_description": "一张手机屏幕截图，显示手写数学题解答过程，包含积分计算与导数推导。",
+    "theme": "数学解题笔记"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕顶部显示时间 14：58 和 4G 网络状态。",
+      "屏幕中央区域为白色背景上的黑色手写数学推导过程。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "手机屏幕显示手写数学推导",
+    "subjects": [
+      "手写数学公式",
+      "手机屏幕界面"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕顶部显示时间 14：58 和 4G 网络状态；屏幕中央区域为白色背景上的黑色手写数学推导过程。",
+    "safe_facts": [
+      "屏幕顶部显示时间 14：58 和 4G 网络状态。",
+      "屏幕中央区域为白色背景上的黑色手写数学推导过程。"
+    ]
+  },
+  "label_id": "cpl_ccefcbdb3e751d716379aea1",
+  "provenance": {
+    "generated_at": "2026-08-03T14:05:16.666214+00:00",
+    "migrated_at": "2026-08-03T14:05:16.671742+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fb379538f0288df3aeddd831e649d016367bcc16f60e840af902250c3b17f1f9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7c504342eac09e3e0435f118",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:05:16.676025+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7c504342eac09e3e0435f118"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "答案:见解析",
+      "解析:令 u=tx 则 t=1/x u dt=1/x du",
+      "f'(x) = ∫(-2sinx-xcosx)dx = cosx-xsinx+C",
+      "知识点:微分方程"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "答案:见解析",
+      "解析:令 u=tx 则 t=1/x u dt=1/x du",
+      "f'(x) = ∫(-2sinx-xcosx)dx = cosx-xsinx+C",
+      "知识点:微分方程"
+    ]
+  }
+}

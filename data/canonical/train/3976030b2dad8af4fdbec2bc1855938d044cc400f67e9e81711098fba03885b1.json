@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1752.jpg",
+    "relative_path": "train/1752.jpg",
+    "sha256": "3976030b2dad8af4fdbec2bc1855938d044cc400f67e9e81711098fba03885b1",
+    "split": "train"
+  },
+  "canonical_sha256": "c9c15f2d286b2461415ee8c5bc75f453e2a6b0043382dffdb5905065a96b3718",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "日出",
+      "湖面",
+      "薄雾",
+      "拱桥"
+    ],
+    "short_description": "晨曦中，太阳悬于薄雾之上，湖面倒映金光，远处城市轮廓朦胧，一座拱桥横跨水面，几人伫立桥上。",
+    "theme": "晨雾湖景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "场景发生在清晨或黄昏，因光线柔和且有薄雾。"
+    ],
+    "direct_observations": [
+      "太阳呈圆形，位于画面右上方，发出橙黄色光芒。",
+      "湖面反射太阳光形成一条明亮光带。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晨曦",
+      "薄雾笼罩",
+      "水面反光",
+      "桥上有行人"
+    ],
+    "relations": [
+      "太阳位于天空上方。",
+      "桥横跨湖面。",
+      "树木位于前景。",
+      "城市建筑群位于背景。"
+    ],
+    "scene": "湖泊与城市远景",
+    "subjects": [
+      "太阳",
+      "湖水",
+      "拱桥",
+      "树木",
+      "城市建筑群"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "场景发生在清晨或黄昏，因光线柔和且有薄雾。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "太阳呈圆形，位于画面右上方，发出橙黄色光芒；湖面反射太阳光形成一条明亮光带。",
+    "safe_facts": [
+      "太阳呈圆形，位于画面右上方，发出橙黄色光芒。",
+      "湖面反射太阳光形成一条明亮光带。"
+    ]
+  },
+  "label_id": "cpl_6229494ae4643e58084f3db6",
+  "provenance": {
+    "generated_at": "2026-08-03T15:02:56.926601+00:00",
+    "migrated_at": "2026-08-03T15:02:56.928718+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0c2617872d58ce9513d5b935c36883a4d97f9664cd4211a2d017b04a84ac455a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5ba43333e83e343a66110099",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:02:56.929072+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5ba43333e83e343a66110099"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1839.jpg",
+    "relative_path": "train/1839.jpg",
+    "sha256": "e1fdc95e7f185ec1677be226535b2b49425d9710f3435ed9041928d401333d97",
+    "split": "train"
+  },
+  "canonical_sha256": "b91aba03cdd8b3ccdcf7b0552704ae19b5cdd45e58a587e818e7dafea812f9d7",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电动车",
+      "充电器",
+      "户外充电"
+    ],
+    "short_description": "电动车踏板上放置着一个黑色充电器，插头连接电源，周围是砖石地面。",
+    "theme": "电动车充电场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "充电器位于电动车踏板表面。",
+      "充电器插头已插入电源插座。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色充电器",
+      "带线缆",
+      "插头连接"
+    ],
+    "relations": [
+      "充电器放置于踏板上。"
+    ],
+    "scene": "户外砖石地面",
+    "subjects": [
+      "电动车踏板",
+      "充电器"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "充电器位于电动车踏板表面；充电器插头已插入电源插座。",
+    "safe_facts": [
+      "充电器位于电动车踏板表面。",
+      "充电器插头已插入电源插座。"
+    ]
+  },
+  "label_id": "cpl_d34e470b798c3c5fbef77b1f",
+  "provenance": {
+    "generated_at": "2026-08-03T15:11:40.676580+00:00",
+    "migrated_at": "2026-08-03T15:11:40.678323+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "968e8a8f3ff36dd5fb3cd31cc5e80cefccabb50bf2cfb27b567738213c53db99",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f84b42b63b4fb3734d6df830",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:11:40.678516+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f84b42b63b4fb3734d6df830"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

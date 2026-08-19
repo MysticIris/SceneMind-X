@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1846.jpg",
+    "relative_path": "train/1846.jpg",
+    "sha256": "d9b15bb279c857a31664dfba36981a73c66ee7629372f2bbab3cf8a6294fce76",
+    "split": "train"
+  },
+  "canonical_sha256": "528a92dbc828fbefbd1c11685adebae46350e5c5ff907e98b815185c7f5162d4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "丛林入口",
+      "游客排队",
+      "猩猩雕塑"
+    ],
+    "short_description": "一群游客站在热带植物环绕的猩猩主题入口前。",
+    "theme": "丛林主题入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多个游客背对镜头站立或行走。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色植被",
+      "木质结构"
+    ],
+    "relations": [
+      "游客位于入口前方。",
+      "猩猩雕塑位于入口顶部。"
+    ],
+    "scene": "户外丛林主题园区入口",
+    "subjects": [
+      "游客",
+      "猩猩雕塑",
+      "入口拱门"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个游客背对镜头站立或行走。",
+    "safe_facts": [
+      "画面中有多个游客背对镜头站立或行走。"
+    ]
+  },
+  "label_id": "cpl_e8e97db1956a6ae8f0cbe2d6",
+  "provenance": {
+    "generated_at": "2026-08-03T15:14:04.552135+00:00",
+    "migrated_at": "2026-08-03T15:14:04.553839+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "242d1d5a02e20a7505fbed45e307ad19f6f7e9ca1bde7a5ee4aa420c066786d7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a7eb08248c1797ecbdbc737b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:14:04.554149+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a7eb08248c1797ecbdbc737b"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "猩猩揽月",
+      "Orangutan"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "猩猩揽月",
+      "Orangutan"
+    ]
+  }
+}

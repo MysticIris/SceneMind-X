@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1466.jpg",
+    "relative_path": "train/1466.jpg",
+    "sha256": "9046c053865e1ad5ca88f8f40f7613b961d9949ceb404e0548f9c218771e380b",
+    "split": "train"
+  },
+  "canonical_sha256": "1790b9d5866ee0aab076d0047853c190f129c1ca8ad77302eb806f450bffaf07",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "砂锅",
+      "炖菜",
+      "鱼头",
+      "豆腐"
+    ],
+    "short_description": "砂锅中盛有鱼头、豆腐、粉条、青椒和腊肉，撒有葱花和干辣椒，色泽红亮诱人。",
+    "theme": "砂锅炖菜"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "砂锅内盛有鱼头、豆腐、粉条、青椒、腊肉等食材。",
+      "菜肴表面撒有绿色葱花和红色干辣椒。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红褐色酱汁",
+      "油亮光泽",
+      "撒有葱花",
+      "点缀干辣椒"
+    ],
+    "relations": [
+      "鱼头与豆腐、粉条、青椒、腊肉混合在一起。",
+      "葱花和干辣椒撒在菜肴表面。"
+    ],
+    "scene": "砂锅内盛装的菜肴",
+    "subjects": [
+      "鱼头",
+      "豆腐",
+      "粉条",
+      "青椒",
+      "腊肉",
+      "葱花"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "砂锅内盛有鱼头、豆腐、粉条、青椒、腊肉等食材；菜肴表面撒有绿色葱花和红色干辣椒。",
+    "safe_facts": [
+      "砂锅内盛有鱼头、豆腐、粉条、青椒、腊肉等食材。",
+      "菜肴表面撒有绿色葱花和红色干辣椒。"
+    ]
+  },
+  "label_id": "cpl_7a602ad2ce82e297a7bfc551",
+  "provenance": {
+    "generated_at": "2026-08-03T14:27:12.950516+00:00",
+    "migrated_at": "2026-08-03T14:27:12.953948+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4ebd99ba5af0fad657e57c7ab05fcac021ab70e2abfdeee03de06f885dbb5bff",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5cd846e28764f83e16a6c2fd",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:27:12.954315+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5cd846e28764f83e16a6c2fd"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

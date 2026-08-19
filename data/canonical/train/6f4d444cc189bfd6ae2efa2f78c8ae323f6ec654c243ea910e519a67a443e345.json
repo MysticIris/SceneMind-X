@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1239.jpg",
+    "relative_path": "train/1239.jpg",
+    "sha256": "6f4d444cc189bfd6ae2efa2f78c8ae323f6ec654c243ea910e519a67a443e345",
+    "split": "train"
+  },
+  "canonical_sha256": "cc604f11afed0dbccebfec44ad18c3fd6764167c5fdf0c596326d7c40bdfa797",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪地",
+      "枯枝",
+      "雾天",
+      "乡村",
+      "土路"
+    ],
+    "short_description": "薄雪覆盖泥土小径，枯枝交错，远处有房屋与蓝色屋顶棚屋，雾气弥漫。",
+    "theme": "冬日雾中乡村角落"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天气可能寒冷且有雾。"
+    ],
+    "direct_observations": [
+      "地面有部分积雪与裸露泥土。",
+      "背景中有无叶树木与建筑物轮廓。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "薄雪",
+      "雾气弥漫",
+      "裸露树枝",
+      "泥土地面"
+    ],
+    "relations": [
+      "积雪覆盖地面。",
+      "枯枝穿插于雪地之间。",
+      "房屋位于画面左侧。",
+      "棚屋位于画面右侧。"
+    ],
+    "scene": "户外乡村环境",
+    "subjects": [
+      "积雪",
+      "枯树",
+      "房屋一角",
+      "蓝色屋顶棚屋"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天气可能寒冷且有雾。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面有部分积雪与裸露泥土；背景中有无叶树木与建筑物轮廓。",
+    "safe_facts": [
+      "地面有部分积雪与裸露泥土。",
+      "背景中有无叶树木与建筑物轮廓。"
+    ]
+  },
+  "label_id": "cpl_ef67f0ddd93197a32f308b3f",
+  "provenance": {
+    "generated_at": "2026-08-03T13:59:19.091213+00:00",
+    "migrated_at": "2026-08-03T13:59:19.093921+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3c34b65b4d54f37a6835ddbe42905ccc9ad133d356c711533febb880594071b8",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_96dd8fb998e4703a2e55c2cf",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:59:19.094831+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_96dd8fb998e4703a2e55c2cf"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

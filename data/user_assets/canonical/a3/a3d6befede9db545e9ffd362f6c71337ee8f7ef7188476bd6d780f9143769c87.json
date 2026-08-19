@@ -1,0 +1,141 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_b630d38d6091f75def2b77cc",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_33ae62800b3b71f2b7b51042"
+  ],
+  "asset": {
+    "asset_id": "a3d6befede9db545",
+    "sha256": "a3d6befede9db545e9ffd362f6c71337ee8f7ef7188476bd6d780f9143769c87",
+    "split": "user_custom",
+    "relative_path": "user_assets/a3/a3d6befede9db545e9ffd362f6c71337ee8f7ef7188476bd6d780f9143769c87/a3d6befede9db545e9ffd362f6c71337ee8f7ef7188476bd6d780f9143769c87.png"
+  },
+  "display": {
+    "theme": "考试考位查询结果",
+    "short_description": "一张网页截图，展示了2026年5月9日武汉地区多个考点的考位查询结果。列表包含华中科技大学、武汉大学等考场名称、费用及预定按钮状态。",
+    "micro_tags": [
+      "网页截图",
+      "考位查询",
+      "考试预约",
+      "表格数据",
+      "武汉考点"
+    ]
+  },
+  "facts": {
+    "visual_medium": "screenshot",
+    "scene": "网页界面",
+    "subjects": [
+      "查询条件表单",
+      "考位查询结果列表",
+      "操作按钮"
+    ],
+    "actions": [],
+    "attributes": [
+      "白底黑字",
+      "表格布局",
+      "蓝色表头",
+      "黑色按钮"
+    ],
+    "relations": [
+      "查询条件位于列表上方。",
+      "列表项包含城市、考场、费用和考位状态列。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "页面顶部设有“考点所在城市”和“考试日期”的下拉选择框及“查询考位”按钮。",
+      "部分考场名称下方带有蓝色的无障碍设施图标。"
+    ],
+    "cautious_inferences": [
+      "这是一个在线考试系统的报名或查分界面。",
+      "用户正在查看特定日期的考场剩余名额情况。"
+    ],
+    "uncertainties": []
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "查询条件",
+      "考点所在城市 武汉",
+      "考试日期 2026年5月9日 星期六",
+      "查询考位",
+      "考位查询结果"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "查询条件",
+      "考点所在城市 武汉",
+      "考试日期 2026年5月9日 星期六",
+      "查询考位",
+      "考位查询结果"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "页面顶部设有“考点所在城市”和“考试日期”的下拉选择框及“查询考位”按钮；部分考场名称下方带有蓝色的无障碍设施图标。",
+    "safe_facts": [
+      "页面顶部设有“考点所在城市”和“考试日期”的下拉选择框及“查询考位”按钮。",
+      "部分考场名称下方带有蓝色的无障碍设施图标。"
+    ],
+    "do_not_assert": [
+      "这是一个在线考试系统的报名或查分界面。",
+      "用户正在查看特定日期的考场剩余名额情况。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_7f3133f9-19e1-46fc-afed-5984cd099b35",
+    "generated_at": "2026-08-12T03:30:09.050028+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "34cb0e1ac25fab689708f2039c27eecca1814029d7ef0342c9e8dde86094a388",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:30:09.050954+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_33ae62800b3b71f2b7b51042",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:30:09.051341+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "cfcb3804aa039ea35ac18d2464f5bcf18eedec2b36a13dd76c3bafb25621dbd6"
+}

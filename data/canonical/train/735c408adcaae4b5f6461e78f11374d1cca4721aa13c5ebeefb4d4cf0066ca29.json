@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:866.jpg",
+    "relative_path": "train/866.jpg",
+    "sha256": "735c408adcaae4b5f6461e78f11374d1cca4721aa13c5ebeefb4d4cf0066ca29",
+    "split": "train"
+  },
+  "canonical_sha256": "e7aec6a40027bbcccc93b15e8a90f6949170e6202368ef54fa4914421ac59b9c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "地铁站",
+      "行人",
+      "警示贴",
+      "监控摄像头"
+    ],
+    "short_description": "地铁站内通道，多人行走，地面有黄色警示贴，天花板装有监控摄像头。",
+    "theme": "地铁站内通道"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多人正在通道内行走。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走"
+    ],
+    "attributes": [
+      "室内环境",
+      "瓷砖地面",
+      "条形天花板"
+    ],
+    "relations": [
+      "行人位于通道中。",
+      "警示贴贴于地面。",
+      "摄像头悬挂在天花板。"
+    ],
+    "scene": "地铁站内通道",
+    "subjects": [
+      "行人",
+      "监控摄像头",
+      "地面警示贴"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多人正在通道内行走。",
+    "safe_facts": [
+      "画面中有多人正在通道内行走。"
+    ]
+  },
+  "label_id": "cpl_3e06ec1a19db38d9716cbb09",
+  "provenance": {
+    "generated_at": "2026-08-03T12:39:32.144912+00:00",
+    "migrated_at": "2026-08-03T12:39:32.147077+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fee9f84b3723498103e1e8da15693ebd0862aced5de0aaa3080e04578f729557",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7bdc10de1ffe87a2bdbd61eb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:39:32.147539+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7bdc10de1ffe87a2bdbd61eb"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "请勿停留",
+      "Please don't stay"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "请勿停留",
+      "Please don't stay"
+    ]
+  }
+}

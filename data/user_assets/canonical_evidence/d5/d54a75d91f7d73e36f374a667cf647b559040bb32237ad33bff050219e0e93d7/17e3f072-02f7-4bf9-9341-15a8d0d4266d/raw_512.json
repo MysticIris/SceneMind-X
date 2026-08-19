@@ -1,0 +1,66 @@
+{
+  "asset_id": "d54a75d91f7d73e3",
+  "asset_sha256": "d54a75d91f7d73e36f374a667cf647b559040bb32237ad33bff050219e0e93d7",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"考研励志相框商品展示\",\n    \"short_description\": \"这是一张电商平台的商品详情页截图。画面主体为一个放置在桌面上的木质相框，内嵌一张印有年轻男子肖像及“考研必胜”字样的海报。界面包含价格优惠信息、商品缩略图导航栏以及底部的购买按钮，展示了该励志装饰品的售卖状态。\",\n    \"micro_tags\": [\n      \"电商截图\",\n      \"考研周边\",\n      \"木质相框\",\n      \"人物肖像\",\n      \"桌面摆件\",\n      \"励志标语\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"电商平台移动端商品详情页界面\",\n    \"subjects\": [\n      \"木质相框\",\n      \"相框内的男性人物海报\",\n      \"UI界面元素（价格栏、导航图、按钮）\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"浅木色边框\",\n      \"蓝色背景海报\",\n      \"黑色西装领带着装\",\n      \"红色促销标签\",\n      \"橙色购买按钮\"\n    ],\n    \"relations\": [\n      \"相框位于界面中央展示区\",\n      \"UI控件环绕并覆盖在商品主图上下方\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图片顶部显示手机状态栏时间09:23及电量100%，底部有橙色‘去购买’按钮，确认为APP截图。\",\n      \"画面中心是一个直立的长方形木框，内部图片为蓝底，上方有大号白色汉字，中间是一名穿正装的年轻男子证件照风格画像。\",\n      \"界面中部有一排横向滚动的商品缩略图，当前选中第一张。\",\n      \"红色横幅区域显示数字‘9.5’和‘8.6’，伴有‘超级立减’字样。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局推测，这是一款针对学生群体的励志装饰画或相框产品的在线销售页面。\",\n      \"相框内的文字内容可能与考试祝福或激励有关。\"\n    ],\n    \"uncertainties\": [\n      \"无法确认相框内人物的真实身份或具体姓名。\",\n      \"无法确定拍摄该商品主图的具体物理环境（如房间类型）。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"考研必胜\",\n      \"天降礼金直降0.9元\",\n      \"考研助力官·少羽\",\n      \"自从在书桌前摆了这个“考研必胜”相框\",\n      \"宝贝讲解\",\n      \"必定上岸\",\n      \"超级立减\",\n      \"店铺优惠后¥9.5起\",\n      \"平台加补后¥8.6起\",\n      \"全网热销400+\",\n      \"先用后付\",\n      \"去购买\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张移动端购物应用的商品详情截图，主要展示了一款带有年轻男性肖像的木质桌面相框，界面包含明显的红色促销价格标签和底部的橙色操作按钮。\",\n    \"safe_facts\": [\n      \"图像为竖屏手机界面截图\",\n      \"核心物体为放置在",
+      "input_tokens": 3227,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 768,
+        "total_tokens": 3995,
+        "estimated_cost_cny": 0.012598,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "考研励志相框商品展示",
+        "short_description": "这是一张电商平台的商品详情页截图。画面主体为一个放置在桌面上的木质相框，内嵌一张印有年轻男子肖像及“考研必胜”字样的海报。界面包含价格优惠信息、商品缩略图导航栏以及底部的购买按钮，展示了该励志装饰品的售卖状态。",
+        "micro_tags": [
+          "电商截图",
+          "考研周边",
+          "木质相框",
+          "人物肖像",
+          "桌面摆件",
+          "励志标语"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 9411804,
+        "request_bytes": 7055781,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 16.072181700001238,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "75a18a3d02c0858278d07c74edda16e6d270258ce2a4ccaafdee492f93dfd17d"
+}

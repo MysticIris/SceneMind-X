@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1605.jpg",
+    "relative_path": "train/1605.jpg",
+    "sha256": "3455636aefd9c1854af2c840843c141b762b304e23d1775f294d611b67c168ac",
+    "split": "train"
+  },
+  "canonical_sha256": "88753dc53e9e72e3d8d979d15fddb0716eb22e406abb97287f74edd181537cf2",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "窗户",
+      "田野",
+      "山林",
+      "光影",
+      "自然景观"
+    ],
+    "short_description": "透过木框窗户，可见田野与山林，光影分隔左右，色彩对比鲜明。",
+    "theme": "窗边田园风光"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线从右侧照射，使右侧景物呈暖黄色调，左侧呈冷蓝色调。"
+    ],
+    "direct_observations": [
+      "画面由两扇木框窗户构成，窗玻璃呈现不同色调。",
+      "窗外可见分段式农田与绿色植被及远山。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质窗框",
+      "分色光影",
+      "植被茂密",
+      "田地分段"
+    ],
+    "relations": [
+      "窗户框住田野与山林。",
+      "田野位于前景。",
+      "山林位于背景。"
+    ],
+    "scene": "从室内透过窗户望向户外田野与山林",
+    "subjects": [
+      "窗户",
+      "田野",
+      "树木",
+      "山丘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线从右侧照射，使右侧景物呈暖黄色调，左侧呈冷蓝色调。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面由两扇木框窗户构成，窗玻璃呈现不同色调；窗外可见分段式农田与绿色植被及远山。",
+    "safe_facts": [
+      "画面由两扇木框窗户构成，窗玻璃呈现不同色调。",
+      "窗外可见分段式农田与绿色植被及远山。"
+    ]
+  },
+  "label_id": "cpl_01acb3c8285a5f4e22d81e35",
+  "provenance": {
+    "generated_at": "2026-08-03T14:44:24.287039+00:00",
+    "migrated_at": "2026-08-03T14:44:24.290536+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3680de946e2e66b05d8f567408c0d7a1d8e7ac697f1e9d436fb09190302e247a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6b79440ea61305a8e9722794",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:44:24.290906+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6b79440ea61305a8e9722794"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

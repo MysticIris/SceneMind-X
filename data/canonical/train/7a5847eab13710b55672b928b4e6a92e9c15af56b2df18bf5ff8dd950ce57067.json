@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:215.jpg",
+    "relative_path": "train/215.jpg",
+    "sha256": "7a5847eab13710b55672b928b4e6a92e9c15af56b2df18bf5ff8dd950ce57067",
+    "split": "train"
+  },
+  "canonical_sha256": "60bad32b13684f77fd3594d88ca9fcbbd7ff8191fa85822f09008b014b02144f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪山",
+      "湖泊",
+      "山谷",
+      "高原地貌"
+    ],
+    "short_description": "雪山环抱的湖泊在山谷中蜿蜒，阳光穿透云层照亮部分山体，远处山脉连绵起伏。",
+    "theme": "雪山湖泊全景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "阳光从一侧照射，导致部分山体和湖面呈现明亮反光。"
+    ],
+    "direct_observations": [
+      "画面中有被白雪覆盖的山峰。",
+      "画面中央有一条蜿蜒的蓝色湖泊。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "覆盖积雪",
+      "湖水呈蓝绿色",
+      "地面植被呈棕褐色"
+    ],
+    "relations": [
+      "湖泊位于山谷中。",
+      "雪山环绕湖泊。"
+    ],
+    "scene": "高山峡谷地貌",
+    "subjects": [
+      "雪山",
+      "湖泊",
+      "山地地形"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "阳光从一侧照射，导致部分山体和湖面呈现明亮反光。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有被白雪覆盖的山峰；画面中央有一条蜿蜒的蓝色湖泊。",
+    "safe_facts": [
+      "画面中有被白雪覆盖的山峰。",
+      "画面中央有一条蜿蜒的蓝色湖泊。"
+    ]
+  },
+  "label_id": "cpl_36e85c063e81c87672b5e6f7",
+  "provenance": {
+    "generated_at": "2026-08-02T22:19:05.649511+00:00",
+    "migrated_at": "2026-08-03T07:13:41.565772+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2a32051b369706316d559b22e74f00c64597db7cf231385321e2c14c48bff215",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4f366d10f46d5eec6f2b8bdb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:18:19.220521+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4f366d10f46d5eec6f2b8bdb",
+    "cpl_ac47526e1fd528145f78b1f1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

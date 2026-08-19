@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:762.jpg",
+    "relative_path": "train/762.jpg",
+    "sha256": "0b4ed70f76633ea7187fa06282951d868767c58388520ac59c0e0107819478a0",
+    "split": "train"
+  },
+  "canonical_sha256": "dd418b56746e78fedd7f3c3723b1c11790fc44bbbc2b1cd97e4529042cefcd5d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "烤肉串",
+      "电烤架",
+      "生肉",
+      "烧烤"
+    ],
+    "short_description": "多串生肉串整齐排列在电烤架上，正待加热，背景有餐具和调料瓶。",
+    "theme": "烤肉串准备中"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多个肉串插在金属签子上，整齐排列在烤架上。",
+      "烤架下方有红色炭火或加热元件，表面有白色颗粒状物质。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "生肉",
+      "金属烤架",
+      "带调料的肉串"
+    ],
+    "relations": [
+      "肉串被串在铁签上。",
+      "肉串放置在烤架上。"
+    ],
+    "scene": "室内烧烤台面",
+    "subjects": [
+      "肉串",
+      "烤架",
+      "餐具",
+      "调料瓶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多个肉串插在金属签子上，整齐排列在烤架上；烤架下方有红色炭火或加热元件，表面有白色颗粒状物质。",
+    "safe_facts": [
+      "多个肉串插在金属签子上，整齐排列在烤架上。",
+      "烤架下方有红色炭火或加热元件，表面有白色颗粒状物质。"
+    ]
+  },
+  "label_id": "cpl_cd910ea291400638e32c2658",
+  "provenance": {
+    "generated_at": "2026-08-03T12:17:58.371895+00:00",
+    "migrated_at": "2026-08-03T12:17:58.375096+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fb1afc7700e270b9f596661b9acc12fb3e04b9fc5685d83279b7179cbc7749e0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3979987bfa518b1a8094beff",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:17:58.375447+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3979987bfa518b1a8094beff"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

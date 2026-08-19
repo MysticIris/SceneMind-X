@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:968.jpg",
+    "relative_path": "train/968.jpg",
+    "sha256": "c4d4687f8b995154cabd552d32ac52b760a2b45d1c1e223d79dc56ddfbcce87d",
+    "split": "train"
+  },
+  "canonical_sha256": "6896dd6991b365ecaa8f5ba338d7cd24b0b97ce1908e16b448030c33866ed10b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "咖啡",
+      "书籍",
+      "干花",
+      "橙片"
+    ],
+    "short_description": "一杯咖啡旁放着打开的书本、干花与橙片，营造宁静悠闲的午后氛围。",
+    "theme": "静谧阅读时光"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一杯盛有咖啡的瓷杯，配有同款杯碟和勺子。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色桌布",
+      "带花纹的瓷杯碟",
+      "带花卉图案的勺子",
+      "干制橙片",
+      "干花束"
+    ],
+    "relations": [
+      "咖啡杯放在杯碟上。",
+      "书本摊开在桌面上。",
+      "干花置于左侧小容器内。",
+      "橙片盛于金属盘中。"
+    ],
+    "scene": "桌面布置",
+    "subjects": [
+      "咖啡杯",
+      "书本",
+      "干花",
+      "橙片"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一杯盛有咖啡的瓷杯，配有同款杯碟和勺子。",
+    "safe_facts": [
+      "画面中有一杯盛有咖啡的瓷杯，配有同款杯碟和勺子。"
+    ]
+  },
+  "label_id": "cpl_d7a918ffd8a55e1b1986f6ff",
+  "provenance": {
+    "generated_at": "2026-08-03T13:11:29.969516+00:00",
+    "migrated_at": "2026-08-03T13:11:29.973643+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "36307c9beb77155848710dbdd85632f39e958a9a93b8a47866f7c85ba2bfba98",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d7a918ffd8a55e1b1986f6ff",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:21:20.569365+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e3d96abe031e454f3c1839fd"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "Yeni dönya",
+      "Gönderiler",
+      "CİRAF JENİS"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "Yeni dönya",
+      "Gönderiler",
+      "CİRAF JENİS"
+    ]
+  }
+}

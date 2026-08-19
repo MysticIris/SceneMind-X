@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1451.jpg",
+    "relative_path": "train/1451.jpg",
+    "sha256": "20c0df3125f82e45f82899dde5a1be6c4b6fb255bea15ccb22ed2d41bc7bbbe8",
+    "split": "train"
+  },
+  "canonical_sha256": "acac78db34afd45f4268ca9e22e6ba987aaea6ccface597657aa5d8f795031b8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "宠物领养",
+      "商场活动",
+      "狗笼"
+    ],
+    "short_description": "商场内多个蓝色笼子摆放着待领养的宠物狗，周围有戴口罩的人群围观。",
+    "theme": "领养活动现场"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多只狗被关在蓝色金属笼子里。",
+      "多名顾客佩戴口罩在笼子前驻足观看。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "围观",
+      "站立"
+    ],
+    "attributes": [
+      "戴口罩",
+      "浅色毛发",
+      "蓝色笼子"
+    ],
+    "relations": [
+      "人站在笼子旁。",
+      "狗在笼子里。"
+    ],
+    "scene": "室内商场环境",
+    "subjects": [
+      "宠物狗",
+      "人",
+      "蓝色金属笼子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多只狗被关在蓝色金属笼子里；多名顾客佩戴口罩在笼子前驻足观看。",
+    "safe_facts": [
+      "多只狗被关在蓝色金属笼子里。",
+      "多名顾客佩戴口罩在笼子前驻足观看。"
+    ]
+  },
+  "label_id": "cpl_58164b5848485ed2337b9c02",
+  "provenance": {
+    "generated_at": "2026-08-02T22:33:59.867405+00:00",
+    "migrated_at": "2026-08-03T07:13:41.982213+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "651d6bf8c22a4578c55bf82896dd55a4bfde323870f67e09b1648a24be840440",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_bcfb9f0542fcb71ca256053e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:24:42.157035+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_bcfb9f0542fcb71ca256053e",
+    "cpl_54af3863c14eab8df1c68851"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

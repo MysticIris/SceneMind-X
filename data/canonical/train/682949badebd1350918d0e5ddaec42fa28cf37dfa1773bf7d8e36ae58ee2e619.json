@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1696.jpg",
+    "relative_path": "train/1696.jpg",
+    "sha256": "682949badebd1350918d0e5ddaec42fa28cf37dfa1773bf7d8e36ae58ee2e619",
+    "split": "train"
+  },
+  "canonical_sha256": "c63b4e79946c57c172119a6977a73ff059be9fcf59c019a94d92613617ac86c4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑猫",
+      "睡觉",
+      "楼梯",
+      "瓷砖"
+    ],
+    "short_description": "一只黑色猫咪蜷缩在黑白瓷砖台阶上睡觉，姿态放松，尾巴自然垂落。",
+    "theme": "黑猫睡楼梯"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一只全身黑色的猫趴在台阶上，身体蜷曲，头部靠近前爪。",
+      "台阶由浅色和深色瓷砖交替铺成，呈阶梯状排列。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "睡觉"
+    ],
+    "attributes": [
+      "黑色",
+      "蜷缩",
+      "毛发光滑",
+      "尾巴垂落"
+    ],
+    "relations": [
+      "猫位于台阶上。"
+    ],
+    "scene": "室内楼梯台阶",
+    "subjects": [
+      "一只黑猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只全身黑色的猫趴在台阶上，身体蜷曲，头部靠近前爪；台阶由浅色和深色瓷砖交替铺成，呈阶梯状排列。",
+    "safe_facts": [
+      "一只全身黑色的猫趴在台阶上，身体蜷曲，头部靠近前爪。",
+      "台阶由浅色和深色瓷砖交替铺成，呈阶梯状排列。"
+    ]
+  },
+  "label_id": "cpl_0bf796878607dcccd418810c",
+  "provenance": {
+    "generated_at": "2026-08-02T22:06:55.488803+00:00",
+    "migrated_at": "2026-08-03T07:13:41.480068+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5a209325dd25ad509918a70db22a0c95cd461c0228d56f1336ec77d6c1a4c419",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_da36d6cc5fe6c4b6a0fae46d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:54:58.970866+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_da36d6cc5fe6c4b6a0fae46d",
+    "cpl_0c7b2c2653ae7ed99ef85cd8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

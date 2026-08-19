@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1288.jpg",
+    "relative_path": "train/1288.jpg",
+    "sha256": "eee56368ed677615ca207a4ac08449e4e5509b821c511caa8da9454afc92c28c",
+    "split": "train"
+  },
+  "canonical_sha256": "d2bc485fc0649ac25c9725f7f78dfb97950347545ef4e616558037619a65e503",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "空调",
+      "办公室",
+      "立式",
+      "窗帘"
+    ],
+    "short_description": "办公室角落放置一台白色立式空调，旁边有金色窗帘和玻璃隔断，环境简洁现代。",
+    "theme": "办公室角落空调"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有一台白色的立式空调设备。",
+      "左侧有垂挂的金色带花纹窗帘。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色",
+      "立式",
+      "金色窗帘",
+      "玻璃隔断"
+    ],
+    "relations": [
+      "空调位于窗帘右侧。",
+      "空调位于玻璃隔断后方。"
+    ],
+    "scene": "室内办公区域",
+    "subjects": [
+      "立式空调",
+      "窗帘",
+      "玻璃隔断"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一台白色的立式空调设备；左侧有垂挂的金色带花纹窗帘。",
+    "safe_facts": [
+      "画面中央有一台白色的立式空调设备。",
+      "左侧有垂挂的金色带花纹窗帘。"
+    ]
+  },
+  "label_id": "cpl_3bd14f420a111631fe9a9155",
+  "provenance": {
+    "generated_at": "2026-08-03T14:06:05.020172+00:00",
+    "migrated_at": "2026-08-03T14:06:05.023479+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b2c314f16631f1b23cedc54afd7e01c56593dbf2be2500bad4e2399325f22bc9",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_35c3d71025d085ac13ddb4f3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:06:05.023821+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_35c3d71025d085ac13ddb4f3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

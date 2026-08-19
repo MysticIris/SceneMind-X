@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1263.jpg",
+    "relative_path": "train/1263.jpg",
+    "sha256": "c6d2a6fcd3bdf25a327ceece4e7c94fe292879308cbb3bed233191114b509d5c",
+    "split": "train"
+  },
+  "canonical_sha256": "b25e55f3d1074610dd0a21ed6e5d0e6d57405f6fb612873f35f01414b232447a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "绿树成荫",
+      "居民楼",
+      "街道停车"
+    ],
+    "short_description": "绿树成荫的街道旁停着几辆汽车，背景是多层居民楼，阳光透过树叶洒下斑驳光影。",
+    "theme": "绿荫街道住宅区"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有高大树木，枝叶繁茂，树干被涂白。",
+      "一栋多层建筑位于树木后方，阳台外挂有衣物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "茂密的树叶",
+      "浅色外墙",
+      "白色轿车",
+      "深色SUV"
+    ],
+    "relations": [
+      "树木遮蔽部分建筑。",
+      "汽车停放在路边。",
+      "人行横道位于前景。"
+    ],
+    "scene": "城市街道",
+    "subjects": [
+      "树木",
+      "居民楼",
+      "汽车",
+      "人行横道"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有高大树木，枝叶繁茂，树干被涂白；一栋多层建筑位于树木后方，阳台外挂有衣物。",
+    "safe_facts": [
+      "画面中有高大树木，枝叶繁茂，树干被涂白。",
+      "一栋多层建筑位于树木后方，阳台外挂有衣物。"
+    ]
+  },
+  "label_id": "cpl_b647b87898e06b7b9ae61fd2",
+  "provenance": {
+    "generated_at": "2026-08-03T14:02:53.011216+00:00",
+    "migrated_at": "2026-08-03T14:02:53.014564+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "82fd788c13b9751f5a4d140ffe8c800a6c05cc0027a8e86b5be700fb9a4bff1e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_133a09848ec4f867be502797",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:02:53.014944+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_133a09848ec4f867be502797"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

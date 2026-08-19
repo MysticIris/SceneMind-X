@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1922.jpg",
+    "relative_path": "train/1922.jpg",
+    "sha256": "d77d0a7ee8573064d7a93f07916378958bfe781e4c661ef598a9e3674cd6274e",
+    "split": "train"
+  },
+  "canonical_sha256": "4d6f3a256b5b7f4705453e43211e9a67499dcae9da2828088250ea6c46135877",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "集体合影",
+      "蓝色T恤",
+      "红色证书"
+    ],
+    "short_description": "一群穿着蓝色T恤的人在室内合影，部分人手持红色证书和绿色小物件，背景有投影屏幕和植物。",
+    "theme": "集体合影"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多人穿着统一蓝色T恤。",
+      "部分人手中持有红色封面物品。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "合影"
+    ],
+    "attributes": [
+      "蓝色T恤",
+      "红色证书",
+      "绿色小物件",
+      "白色墙壁",
+      "天花板灯具"
+    ],
+    "relations": [
+      "多人并排站立。",
+      "部分人手持证书。"
+    ],
+    "scene": "室内",
+    "subjects": [
+      "多人",
+      "穿蓝色T恤者",
+      "穿红色马甲者",
+      "戴口罩者"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多人穿着统一蓝色T恤；部分人手中持有红色封面物品。",
+    "safe_facts": [
+      "多人穿着统一蓝色T恤。",
+      "部分人手中持有红色封面物品。"
+    ]
+  },
+  "label_id": "cpl_af1fef2c3df8a886113be300",
+  "provenance": {
+    "generated_at": "2026-08-03T15:23:17.817252+00:00",
+    "migrated_at": "2026-08-03T15:23:17.819055+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "17d6e7e6470ee4dcf7c7b28f648745c6bfe210d7bef5b2c520f395a865d8fdf7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_44bc9913282293d1986069f5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:23:17.819305+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_44bc9913282293d1986069f5"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

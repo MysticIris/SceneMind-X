@@ -1,0 +1,131 @@
+{
+  "asset_id": "0f46744348d7a580",
+  "asset_sha256": "0f46744348d7a580e6143c83d219a7c0022bdc8cd6036df76cc7da8caee3be9f",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"城市街道交通场景\",\n    \"short_description\": \"这是一张侧向拍摄的城市街道照片。画面前景有一名佩戴深色帽子、背着浅紫色花纹双肩包的人骑着电动车经过，因运动产生模糊。背景道路上停着或行驶着黑色SUV和灰色轿车，远处矗立着多栋高层居民楼，楼体上有红色招牌。\",\n    \"micro_tags\": [\n      \"城市街道\",\n      \"电动车\",\n      \"高层建筑\",\n      \"交通\",\n      \"动态模糊\",\n      \"背包\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"城市道路与居民区\",\n    \"subjects\": [\n      \"骑电动车的人\",\n      \"黑色SUV\",\n      \"灰色轿车\",\n      \"浅蓝色车辆局部\",\n      \"高层住宅楼\",\n      \"树木\"\n    ],\n    \"actions\": [\n      \"骑行\",\n      \"行驶\",\n      \"停放\"\n    ],\n    \"attributes\": [\n      \"运动模糊\",\n      \"侧向构图\",\n      \"白天\",\n      \"沥青路面\",\n      \"白色建筑外墙\"\n    ],\n    \"relations\": [\n      \"骑车人位于前景\",\n      \"汽车位于中景道路\",\n      \"建筑物位于背景\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"前景人物背着浅紫色带图案的双肩包，戴着深色棒球帽，骑在两轮车上，影像呈现明显的运动模糊。\",\n      \"中景道路上有一辆黑色SUV和一辆深灰色轿车，车身反光清晰。\",\n      \"背景是多栋白色外墙的高层建筑，窗户排列整齐，楼下有绿化树木。\",\n      \"建筑物低层位置悬挂有红底黄字的横向招牌。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据光影和清晰度判断，拍摄时间可能为白天。\",\n      \"前景的模糊表明骑车人相对于相机正在快速移动，或者相机正在跟随移动物体拍摄。\",\n      \"红色招牌看起来像是餐饮或商业广告，但具体文字难以完全确认。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定骑车人的性别和确切年龄。\",\n      \"无法确认背景车辆的具体品牌型号。\",\n      \"图片方向似乎是旋转了90度，或者拍摄时相机处于侧向状态。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"995 烧烤排挡\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张侧向视角的城市街景照片，展示了前景中模糊的骑行者、中景道路上的私家车以及背景中的高层住宅楼群。\",\n    \"safe_facts\": [\n      \"画面包含多层白色建筑\",\n      \"道路上有机动车和非机动车\",\n      \"存在明显的运动模糊效果\",\n      \"建筑物上有红色横幅状物体\"\n    ]\n  }\n}",
+      "input_tokens": 3205,
+      "output_tokens": 710,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3205,
+        "output_tokens": 710,
+        "total_tokens": 3915,
+        "estimated_cost_cny": 0.01209,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "城市街道交通场景",
+          "short_description": "这是一张侧向拍摄的城市街道照片。画面前景有一名佩戴深色帽子、背着浅紫色花纹双肩包的人骑着电动车经过，因运动产生模糊。背景道路上停着或行驶着黑色SUV和灰色轿车，远处矗立着多栋高层居民楼，楼体上有红色招牌。",
+          "micro_tags": [
+            "城市街道",
+            "电动车",
+            "高层建筑",
+            "交通",
+            "动态模糊",
+            "背包"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "城市道路与居民区",
+          "subjects": [
+            "骑电动车的人",
+            "黑色SUV",
+            "灰色轿车",
+            "浅蓝色车辆局部",
+            "高层住宅楼",
+            "树木"
+          ],
+          "actions": [
+            "骑行",
+            "行驶",
+            "停放"
+          ],
+          "attributes": [
+            "运动模糊",
+            "侧向构图",
+            "白天",
+            "沥青路面",
+            "白色建筑外墙"
+          ],
+          "relations": [
+            "骑车人位于前景",
+            "汽车位于中景道路",
+            "建筑物位于背景"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "前景人物背着浅紫色带图案的双肩包，戴着深色棒球帽，骑在两轮车上，影像呈现明显的运动模糊。",
+            "中景道路上有一辆黑色SUV和一辆深灰色轿车，车身反光清晰。",
+            "背景是多栋白色外墙的高层建筑，窗户排列整齐，楼下有绿化树木。",
+            "建筑物低层位置悬挂有红底黄字的横向招牌。"
+          ],
+          "cautious_inferences": [
+            "根据光影和清晰度判断，拍摄时间可能为白天。",
+            "前景的模糊表明骑车人相对于相机正在快速移动，或者相机正在跟随移动物体拍摄。",
+            "红色招牌看起来像是餐饮或商业广告，但具体文字难以完全确认。"
+          ],
+          "uncertainties": [
+            "无法确定骑车人的性别和确切年龄。",
+            "无法确认背景车辆的具体品牌型号。",
+            "图片方向似乎是旋转了90度，或者拍摄时相机处于侧向状态。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "995 烧烤排挡"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张侧向视角的城市街景照片，展示了前景中模糊的骑行者、中景道路上的私家车以及背景中的高层住宅楼群。",
+          "safe_facts": [
+            "画面包含多层白色建筑",
+            "道路上有机动车和非机动车",
+            "存在明显的运动模糊效果",
+            "建筑物上有红色横幅状物体"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 5844892,
+        "request_bytes": 4380595,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.383718700002646,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "f0a7e07383ebc73895f445d67bc417757dd856e063175279684de0fc4131f604"
+}

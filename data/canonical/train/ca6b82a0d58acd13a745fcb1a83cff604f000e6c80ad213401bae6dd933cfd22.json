@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1253.jpg",
+    "relative_path": "train/1253.jpg",
+    "sha256": "ca6b82a0d58acd13a745fcb1a83cff604f000e6c80ad213401bae6dd933cfd22",
+    "split": "train"
+  },
+  "canonical_sha256": "8e9e8f33c79931d6927cdee581ea70e6ad4e286760502312b0b9a2cfb769f754",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雨夜",
+      "城市街道",
+      "行人",
+      "霓虹灯"
+    ],
+    "short_description": "雨夜城市街道，行人与车辆穿梭，树影与霓虹灯交织，前景有树枝遮挡视角。",
+    "theme": "雨夜街景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能正在下雨或刚下过雨。"
+    ],
+    "direct_observations": [
+      "路面反光显示湿润状态。",
+      "前景有树枝遮挡画面。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "骑行",
+      "行驶",
+      "撑伞"
+    ],
+    "attributes": [
+      "湿漉漉的路面",
+      "昏暗天色",
+      "路灯照明",
+      "树叶呈黄色"
+    ],
+    "relations": [
+      "行人与骑车人共处街道。",
+      "车辆与行人共享道路空间。"
+    ],
+    "scene": "城市街道",
+    "subjects": [
+      "行人",
+      "骑车人",
+      "公交车",
+      "车辆",
+      "树木",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能正在下雨或刚下过雨。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "路面反光显示湿润状态；前景有树枝遮挡画面。",
+    "safe_facts": [
+      "路面反光显示湿润状态。",
+      "前景有树枝遮挡画面。"
+    ]
+  },
+  "label_id": "cpl_dc6ee99d443ac9024058a2a2",
+  "provenance": {
+    "generated_at": "2026-08-03T14:01:40.647177+00:00",
+    "migrated_at": "2026-08-03T14:01:40.650804+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "35f4373fa49d5da89bcaa1779e1ad1ab0d233559749b63469f74f649ff881c8f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0044bc2b19c4ae7b36f2da91",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:01:40.651186+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0044bc2b19c4ae7b36f2da91"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

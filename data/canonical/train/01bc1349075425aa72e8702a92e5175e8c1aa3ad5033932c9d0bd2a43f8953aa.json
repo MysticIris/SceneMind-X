@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:644.jpg",
+    "relative_path": "train/644.jpg",
+    "sha256": "01bc1349075425aa72e8702a92e5175e8c1aa3ad5033932c9d0bd2a43f8953aa",
+    "split": "train"
+  },
+  "canonical_sha256": "26db99efc8275ab8ed5500f51e16bb04c37769da6c9fd3bd6e1930661606d869",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "冷藏柜",
+      "生肉",
+      "悬挂",
+      "水槽",
+      "文件夹"
+    ],
+    "short_description": "冷藏柜内悬挂多块生肉，旁边有不锈钢水槽和蓝色文件夹，地面为水磨石。",
+    "theme": "冷藏柜内悬挂生肉"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "冷藏柜内有多块生肉通过挂钩悬挂。",
+      "冷藏柜旁有不锈钢水槽和多个蓝色文件夹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "冷藏柜透明玻璃门",
+      "生肉悬挂状态",
+      "水槽金属材质",
+      "文件夹蓝色",
+      "地面水磨石"
+    ],
+    "relations": [
+      "冷藏柜位于水槽右侧。",
+      "生肉悬挂在冷藏柜内。",
+      "人站在冷藏柜左侧。"
+    ],
+    "scene": "室内商业环境",
+    "subjects": [
+      "冷藏柜",
+      "生肉",
+      "不锈钢水槽",
+      "蓝色文件夹",
+      "人的一部分身体"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "冷藏柜内有多块生肉通过挂钩悬挂；冷藏柜旁有不锈钢水槽和多个蓝色文件夹。",
+    "safe_facts": [
+      "冷藏柜内有多块生肉通过挂钩悬挂。",
+      "冷藏柜旁有不锈钢水槽和多个蓝色文件夹。"
+    ]
+  },
+  "label_id": "cpl_c8d45e75a518091804f6e427",
+  "provenance": {
+    "generated_at": "2026-08-03T11:50:53.462210+00:00",
+    "migrated_at": "2026-08-03T11:50:53.465548+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d056ae351b7bafd3a1c3eec8451a429330a341134478d47ed8d079c6c4e4d237",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_b392b837845cd265220518cb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:50:53.465913+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_b392b837845cd265220518cb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

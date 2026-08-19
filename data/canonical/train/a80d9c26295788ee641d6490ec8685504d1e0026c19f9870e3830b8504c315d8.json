@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1048.jpg",
+    "relative_path": "train/1048.jpg",
+    "sha256": "a80d9c26295788ee641d6490ec8685504d1e0026c19f9870e3830b8504c315d8",
+    "split": "train"
+  },
+  "canonical_sha256": "b00cbf691c5cab99886187b3d3999b96698bffc53f9b6b3fd08af6b3668b6ee3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "湖泊",
+      "山脉",
+      "倒影",
+      "蓝天",
+      "沙地"
+    ],
+    "short_description": "碧蓝湖水如镜，倒映着连绵山脉与白云，沙岸静谧，天空湛蓝。",
+    "theme": "湖光山色倒影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该场景可能位于干旱或半干旱地区，因沙地与裸露山体常见于此类环境。"
+    ],
+    "direct_observations": [
+      "湖面平静，清晰反射天空与山脉轮廓。",
+      "湖水呈现青绿色调，岸边为浅色沙地。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "湖水呈青绿色",
+      "天空湛蓝",
+      "云朵洁白蓬松",
+      "沙地呈浅黄色"
+    ],
+    "relations": [
+      "湖水倒映山脉与云朵。",
+      "山脉位于湖后方。",
+      "沙地环绕湖岸。"
+    ],
+    "scene": "湖泊与山脉景观",
+    "subjects": [
+      "湖泊",
+      "山脉",
+      "天空",
+      "云朵",
+      "沙地"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该场景可能位于干旱或半干旱地区，因沙地与裸露山体常见于此类环境。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "湖面平静，清晰反射天空与山脉轮廓；湖水呈现青绿色调，岸边为浅色沙地。",
+    "safe_facts": [
+      "湖面平静，清晰反射天空与山脉轮廓。",
+      "湖水呈现青绿色调，岸边为浅色沙地。"
+    ]
+  },
+  "label_id": "cpl_e06ca0ecf32e288bf788321a",
+  "provenance": {
+    "generated_at": "2026-08-03T13:29:45.239228+00:00",
+    "migrated_at": "2026-08-03T13:29:45.242074+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "06a03612402a2e5491458f6a29746c54b47617c36a3db737b1b6f11dc226b038",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_bc353b4da0ebdaa502010eb2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:29:45.242440+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_bc353b4da0ebdaa502010eb2"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

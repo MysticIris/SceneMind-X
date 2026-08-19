@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:60.jpg",
+    "relative_path": "train/60.jpg",
+    "sha256": "5c628c1b6dbed63daa332092ba9670f4b772e264fb6918bb0c23d21d0839d561",
+    "split": "train"
+  },
+  "canonical_sha256": "ce3f1867d0c37edc9e56286544f264565727f236a9834c771b212eb55528a564",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "街道",
+      "停车",
+      "树木",
+      "白色汽车"
+    ],
+    "short_description": "城市街道旁绿树成荫，多辆白色轿车沿路边停放，前景可见摩托车后视镜反射出部分行人。",
+    "theme": "街道停车场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多辆白色轿车并排停在道路右侧。",
+      "道路两旁有茂密的绿色树木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色车身",
+      "绿叶茂盛",
+      "晴朗天气"
+    ],
+    "relations": [
+      "汽车停放在路边。",
+      "树木位于道路两侧。"
+    ],
+    "scene": "城市街道",
+    "subjects": [
+      "多辆汽车",
+      "树木",
+      "摩托车后视镜"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多辆白色轿车并排停在道路右侧；道路两旁有茂密的绿色树木。",
+    "safe_facts": [
+      "多辆白色轿车并排停在道路右侧。",
+      "道路两旁有茂密的绿色树木。"
+    ]
+  },
+  "label_id": "cpl_2029801b475da8840d5c3e6c",
+  "provenance": {
+    "generated_at": "2026-08-03T09:16:49.219217+00:00",
+    "migrated_at": "2026-08-03T09:16:49.220761+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c66329f1925246f64eb894111cca3661e7bce0c51302f92fdfce76609074281a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0eb72d1dc87ed13ac138f2ad",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:27.552603+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0eb72d1dc87ed13ac138f2ad",
+    "cpl_ffd87517e5c2e29b163b1914"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

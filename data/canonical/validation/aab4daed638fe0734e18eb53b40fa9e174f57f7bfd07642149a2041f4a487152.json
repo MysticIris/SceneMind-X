@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2074.jpg",
+    "relative_path": "val/2074.jpg",
+    "sha256": "aab4daed638fe0734e18eb53b40fa9e174f57f7bfd07642149a2041f4a487152",
+    "split": "val"
+  },
+  "canonical_sha256": "0998018c4d594654880665d7c3717d3111a1d316bdd9cc4d4dacf387603e6f22",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "动漫角色",
+      "侧脸",
+      "绿衣少年",
+      "蓝天白云"
+    ],
+    "short_description": "一位灰发少年侧脸望向右方，背景是蓝天白云，阳光透过树叶洒下斑驳光影，他穿着绿色外套。",
+    "theme": "动漫角色侧脸特写"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现动漫风格的人物插画。",
+      "人物为侧脸视角，头发呈灰褐色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "短发",
+      "绿色外套",
+      "蓝色天空背景",
+      "阳光斑点"
+    ],
+    "relations": [],
+    "scene": "户外晴天",
+    "subjects": [
+      "灰发少年"
+    ],
+    "visual_medium": "illustration"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现动漫风格的人物插画；人物为侧脸视角，头发呈灰褐色。",
+    "safe_facts": [
+      "画面呈现动漫风格的人物插画。",
+      "人物为侧脸视角，头发呈灰褐色。"
+    ]
+  },
+  "label_id": "cpl_b4fce1f1dd5ff1cc591db98f",
+  "provenance": {
+    "generated_at": "2026-08-03T15:56:24.580773+00:00",
+    "migrated_at": "2026-08-03T15:56:24.582169+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3fa6c16465c558f0cd6f568d427cda85b5f0cb994b05941c452bf1c82ef139b6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6447c3bd59cdcd9a3baa3268",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:56:24.582373+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6447c3bd59cdcd9a3baa3268"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

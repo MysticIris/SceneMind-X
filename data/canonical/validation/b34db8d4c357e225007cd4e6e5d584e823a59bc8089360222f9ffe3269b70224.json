@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2047.jpg",
+    "relative_path": "val/2047.jpg",
+    "sha256": "b34db8d4c357e225007cd4e6e5d584e823a59bc8089360222f9ffe3269b70224",
+    "split": "val"
+  },
+  "canonical_sha256": "c7eadfdf136c5185510d5f32d2b567629db0c18847ffea38f1ddaf3cd68096cd",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "铁板烧",
+      "餐厅",
+      "厨师",
+      "菜肴"
+    ],
+    "short_description": "铁板烧餐厅内景，厨师正在操作，桌上摆放着几盘菜肴和调料。",
+    "theme": "铁板烧餐厅"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一名穿着白色厨师服的人正在操作台前工作。",
+      "桌面上有几盘食物，包括炒青菜和一块带土豆的肉块。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "厨师正在操作"
+    ],
+    "attributes": [
+      "白色厨师服",
+      "金属托盘",
+      "绿色蔬菜",
+      "红褐色肉块"
+    ],
+    "relations": [
+      "厨师在操作台前工作。",
+      "菜肴摆放在餐桌上。"
+    ],
+    "scene": "餐厅厨房区域",
+    "subjects": [
+      "厨师",
+      "菜肴",
+      "调料容器",
+      "餐桌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名穿着白色厨师服的人正在操作台前工作；桌面上有几盘食物，包括炒青菜和一块带土豆的肉块。",
+    "safe_facts": [
+      "一名穿着白色厨师服的人正在操作台前工作。",
+      "桌面上有几盘食物，包括炒青菜和一块带土豆的肉块。"
+    ]
+  },
+  "label_id": "cpl_120dbfa118e8104970ec82ee",
+  "provenance": {
+    "generated_at": "2026-08-03T15:52:13.839735+00:00",
+    "migrated_at": "2026-08-03T15:52:13.841830+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "08a4aa29fabc43f6654f06ad4a99cde12948217e79bf018e78917c93a079e543",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_c5648a7f695410820d68fb2e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:52:13.842039+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_c5648a7f695410820d68fb2e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

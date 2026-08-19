@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1407.jpg",
+    "relative_path": "train/1407.jpg",
+    "sha256": "9cd5a389c0114a396ded8b9df9db7c41ac917cc4f72d52f1f7a72512b0558252",
+    "split": "train"
+  },
+  "canonical_sha256": "96d6aa93ebfc0047cd2c1c99f8c3f0fae3bb4236fdf081c1b5ec110f4cc721e3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "商业建筑",
+      "夜间照明",
+      "现代设计"
+    ],
+    "short_description": "夜晚灯光下的现代商业建筑外观，外墙有发光标识，周围有路灯和树木。",
+    "theme": "现代商业建筑夜景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑物外墙由灰色面板构成，呈几何分层结构。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "发光标识",
+      "现代建筑风格",
+      "夜间环境"
+    ],
+    "relations": [
+      "路灯位于建筑前方。",
+      "树木分布在建筑周边。"
+    ],
+    "scene": "城市商业区夜景",
+    "subjects": [
+      "建筑物",
+      "路灯",
+      "树木",
+      "车辆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑物外墙由灰色面板构成，呈几何分层结构。",
+    "safe_facts": [
+      "建筑物外墙由灰色面板构成，呈几何分层结构。"
+    ]
+  },
+  "label_id": "cpl_36863e14eb0be020e6d5c74b",
+  "provenance": {
+    "generated_at": "2026-08-03T14:20:44.936398+00:00",
+    "migrated_at": "2026-08-03T14:20:44.939647+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bd827564b399efddb50ad4228e4d331dd83c3be40464f228c3d9703fc1e6958a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8d46079574899a220297422e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:20:44.940158+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8d46079574899a220297422e"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "大悦城",
+      "JOY CITY"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "大悦城",
+      "JOY CITY"
+    ]
+  }
+}

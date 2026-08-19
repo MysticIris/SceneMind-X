@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1564.jpg",
+    "relative_path": "train/1564.jpg",
+    "sha256": "117d3ea6bf8f1728db1b6e5a8c12820ddda95c0e552c5e4fe7df5860467056be",
+    "split": "train"
+  },
+  "canonical_sha256": "471f5f44efa8b32b2a04d7c00044405ca7b31a951fde3983c2c602ce07bc4566",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "猫咪",
+      "仰卧",
+      "卧室",
+      "被褥"
+    ],
+    "short_description": "一只白灰相间的猫仰卧在蓝白花卉图案的被褥上，四肢伸展，周围散落衣物与杂物。",
+    "theme": "猫咪慵懒卧姿"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "猫身体呈仰卧姿态，四肢向上伸展。",
+      "猫躺在带有蓝色花卉图案的布料上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白灰毛色",
+      "长毛",
+      "仰卧姿势",
+      "四肢伸展"
+    ],
+    "relations": [
+      "猫位于被褥上。"
+    ],
+    "scene": "室内床铺区域",
+    "subjects": [
+      "猫"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "猫身体呈仰卧姿态，四肢向上伸展；猫躺在带有蓝色花卉图案的布料上。",
+    "safe_facts": [
+      "猫身体呈仰卧姿态，四肢向上伸展。",
+      "猫躺在带有蓝色花卉图案的布料上。"
+    ]
+  },
+  "label_id": "cpl_be0b6160af059a03a9093b91",
+  "provenance": {
+    "generated_at": "2026-08-03T14:38:36.008161+00:00",
+    "migrated_at": "2026-08-03T14:38:36.010701+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3e6a75e7ba6682fb899136d99736134b7b2c681bd04b82fe9560fa25a9e16499",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a982c4bfaae8ac917748a578",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:38:36.011030+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a982c4bfaae8ac917748a578"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

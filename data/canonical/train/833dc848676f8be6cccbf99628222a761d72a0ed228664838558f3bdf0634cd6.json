@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:250.jpg",
+    "relative_path": "train/250.jpg",
+    "sha256": "833dc848676f8be6cccbf99628222a761d72a0ed228664838558f3bdf0634cd6",
+    "split": "train"
+  },
+  "canonical_sha256": "dbcb9904e23d0c180aa211bf58c6371f14acdfc8edd656a53b289212390b080c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市街道",
+      "交通标志",
+      "行人道",
+      "高楼大厦"
+    ],
+    "short_description": "城市道路旁行人与车辆通行，路牌指示方向，背景高楼林立，天际线现代。",
+    "theme": "城市街道交通"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多个行人和骑电动车者在道路上移动。",
+      "道路旁设有蓝色路牌和红色旗帜。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "骑行",
+      "行驶"
+    ],
+    "attributes": [
+      "多车道",
+      "混凝土护栏",
+      "红色旗帜",
+      "蓝色路牌"
+    ],
+    "relations": [
+      "行人走在人行道上。",
+      "车辆在道路上行驶。",
+      "路牌位于道路上方。"
+    ],
+    "scene": "城市道路与人行道",
+    "subjects": [
+      "行人",
+      "骑电动车的人",
+      "汽车",
+      "路牌",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多个行人和骑电动车者在道路上移动；道路旁设有蓝色路牌和红色旗帜。",
+    "safe_facts": [
+      "画面中有多个行人和骑电动车者在道路上移动。",
+      "道路旁设有蓝色路牌和红色旗帜。"
+    ]
+  },
+  "label_id": "cpl_74389439fe86dd7bb4489406",
+  "provenance": {
+    "generated_at": "2026-08-03T10:24:54.812845+00:00",
+    "migrated_at": "2026-08-03T10:24:54.815007+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2b8a48ec47c0360f98eec6ee317c1d9b3d9a0b5732c74ddd3d634df9de798193",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f944618b0995be7bb60090d3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:24:54.815212+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f944618b0995be7bb60090d3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

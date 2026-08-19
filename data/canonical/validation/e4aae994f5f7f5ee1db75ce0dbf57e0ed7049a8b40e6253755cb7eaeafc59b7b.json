@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2362.jpg",
+    "relative_path": "val/2362.jpg",
+    "sha256": "e4aae994f5f7f5ee1db75ce0dbf57e0ed7049a8b40e6253755cb7eaeafc59b7b",
+    "split": "val"
+  },
+  "canonical_sha256": "f52566d138ef7d1bf5104fee21abed1b68fa647b9eb33e9e6a7a73c75134e95b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "桥梁",
+      "河流",
+      "灯光"
+    ],
+    "short_description": "夜色下，钢铁桥梁横跨河流，桥下水面泛着暖黄色灯光，远处有彩色灯光桥和建筑轮廓。",
+    "theme": "夜桥河景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "远处桥梁可能有彩色灯光装饰。"
+    ],
+    "direct_observations": [
+      "画面主体为一座大型钢架桥梁，从下方视角拍摄。",
+      "桥下河水呈黄褐色，表面有灯光反射。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "灯光照明",
+      "金属结构",
+      "水面反光"
+    ],
+    "relations": [
+      "桥梁跨越河流。",
+      "船只位于河面。"
+    ],
+    "scene": "夜间城市河流与桥梁景观",
+    "subjects": [
+      "桥梁",
+      "河流",
+      "远处建筑",
+      "水面船只"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "远处桥梁可能有彩色灯光装饰。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面主体为一座大型钢架桥梁，从下方视角拍摄；桥下河水呈黄褐色，表面有灯光反射。",
+    "safe_facts": [
+      "画面主体为一座大型钢架桥梁，从下方视角拍摄。",
+      "桥下河水呈黄褐色，表面有灯光反射。"
+    ]
+  },
+  "label_id": "cpl_f95c6bfeaf14219985805199",
+  "provenance": {
+    "generated_at": "2026-08-03T16:33:51.297744+00:00",
+    "migrated_at": "2026-08-03T16:33:51.299645+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a03202cc1415d9b5b678c8acf1bad216fc810d14b860284931db8174d17fb32f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_12ae88f85b8288978abcddc3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:33:51.300015+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_12ae88f85b8288978abcddc3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

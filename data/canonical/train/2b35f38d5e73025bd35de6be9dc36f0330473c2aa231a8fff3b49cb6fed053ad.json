@@ -1,0 +1,114 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:789.jpg",
+    "relative_path": "train/789.jpg",
+    "sha256": "2b35f38d5e73025bd35de6be9dc36f0330473c2aa231a8fff3b49cb6fed053ad",
+    "split": "train"
+  },
+  "canonical_sha256": "bf074632ceda560cfcc3802b948faffaa3a771594048b47360f79e10d336b90a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "人工智能",
+      "图书陈列",
+      "ChatGPT"
+    ],
+    "short_description": "书店书架上陈列多本关于ChatGPT和人工智能主题的书籍，封面设计多样，部分书籍堆叠整齐。",
+    "theme": "人工智能图书陈列"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多排书籍整齐摆放在木质书架上。",
+      "书籍封面可见多种颜色和设计，包括蓝色、红色、绿色等。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "多本",
+      "封面多样",
+      "部分堆叠"
+    ],
+    "relations": [],
+    "scene": "室内书架区域",
+    "subjects": [
+      "书籍"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多排书籍整齐摆放在木质书架上；书籍封面可见多种颜色和设计，包括蓝色、红色、绿色等。",
+    "safe_facts": [
+      "画面中有多排书籍整齐摆放在木质书架上。",
+      "书籍封面可见多种颜色和设计，包括蓝色、红色、绿色等。"
+    ]
+  },
+  "label_id": "cpl_3e921d95432e5dd96459cc8e",
+  "provenance": {
+    "generated_at": "2026-08-03T12:23:47.220332+00:00",
+    "migrated_at": "2026-08-03T12:23:47.222717+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b74492c9187ecbc1990468a7fc5ee63220b2e237d8bc0adf37d832ff089f57c3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_86eb2a2a59dd7d82190ec169",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:23:47.223047+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_86eb2a2a59dd7d82190ec169"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

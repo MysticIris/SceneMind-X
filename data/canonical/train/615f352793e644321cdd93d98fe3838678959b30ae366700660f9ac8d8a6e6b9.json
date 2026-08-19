@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:933.jpg",
+    "relative_path": "train/933.jpg",
+    "sha256": "615f352793e644321cdd93d98fe3838678959b30ae366700660f9ac8d8a6e6b9",
+    "split": "train"
+  },
+  "canonical_sha256": "587cb1700cd08d6e7e43ef4fc169b4df854f953cf7c5da891d5b6681d01c9d82",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "演讲",
+      "教育政策",
+      "高校名单"
+    ],
+    "short_description": "画面中有人物在进行公开讲话；背景屏幕呈现图文信息。",
+    "theme": "演讲"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有人物在进行公开讲话。",
+      "背景屏幕呈现图文信息。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "演讲者手持麦克风讲话"
+    ],
+    "attributes": [],
+    "relations": [
+      "演讲者站在屏幕前。"
+    ],
+    "scene": "室内会议或讲座现场",
+    "subjects": [
+      "一名男性演讲者",
+      "投影屏幕"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有人物在进行公开讲话；背景屏幕呈现图文信息。",
+    "safe_facts": [
+      "画面中有人物在进行公开讲话。",
+      "背景屏幕呈现图文信息。"
+    ]
+  },
+  "label_id": "cpl_305dc11ac155acfdf438c55b",
+  "provenance": {
+    "generated_at": "2026-08-03T13:03:33.221175+00:00",
+    "migrated_at": "2026-08-03T13:03:33.226737+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fb145105f38e8158539f366f3ddb733cdf9f3f311e8217be6e3b74a48cbb6f4e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_305dc11ac155acfdf438c55b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:21:19.632436+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a64838314b7e503291a445cd"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "未来技术学院缘起",
+      "腾讯会议",
+      "正在讲话: 姜波不被扛"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "未来技术学院缘起",
+      "腾讯会议",
+      "正在讲话: 姜波不被扛"
+    ]
+  }
+}

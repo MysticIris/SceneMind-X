@@ -1,0 +1,135 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1414.jpg",
+    "relative_path": "train/1414.jpg",
+    "sha256": "6f50fb31fa8383cdebcc65b0bea37f745c74d36ad29fbfdeee29e2917ef9c8af",
+    "split": "train"
+  },
+  "canonical_sha256": "1ba54e23053677778fef7deb15a35f4b48b4d30e96c45b8f8d6224a3dc558959",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "人物",
+      "演讲",
+      "对话"
+    ],
+    "short_description": "一张分屏照片，上半部分为一人在讲台前演讲，下半部分为三人围坐交谈。",
+    "theme": "人物对话场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "下方画面中有三名男性并排坐着，其中一人手持麦克风。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立演讲",
+      "坐着交谈",
+      "微笑",
+      "手持麦克风"
+    ],
+    "attributes": [
+      "西装",
+      "紫色领带",
+      "条纹衬衫",
+      "浅绿色上衣",
+      "戴眼镜"
+    ],
+    "relations": [
+      "上方人物在讲台前。",
+      "下方人物围坐于讲台旁。"
+    ],
+    "scene": "分屏图像，上半部分为一人演讲，下半部分为三人坐谈",
+    "subjects": [
+      "穿西装的男性",
+      "穿浅色衬衫的男性",
+      "穿条纹衬衫的男性",
+      "穿浅绿色上衣的男性"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "下方画面中有三名男性并排坐着，其中一人手持麦克风。",
+    "safe_facts": [
+      "下方画面中有三名男性并排坐着，其中一人手持麦克风。"
+    ]
+  },
+  "label_id": "cpl_8dfcac9f14bb88817e63aa31",
+  "provenance": {
+    "generated_at": "2026-08-03T14:19:55.935096+00:00",
+    "migrated_at": "2026-08-03T14:19:55.938803+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8277a7e0778e3a18a2e33ef41b58f05fb1a23a60306d1291c13629a96494ba32",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_aeae07b3d71c11defac19b9c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:19:55.941264+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_aeae07b3d71c11defac19b9c"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "索尼的游戏机 已经占领了全世界玩家的客厅",
+      "为什么始终无法在中国年轻人中普及 我真的不懂",
+      "因为目标人群真的没有客厅"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "索尼的游戏机 已经占领了全世界玩家的客厅",
+      "为什么始终无法在中国年轻人中普及 我真的不懂",
+      "因为目标人群真的没有客厅"
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:781.jpg",
+    "relative_path": "train/781.jpg",
+    "sha256": "2d69787a72ef6d81e409a3e5730c1133ff6a63e3bdc30f66480780d89a6ac03b",
+    "split": "train"
+  },
+  "canonical_sha256": "10c81883fb53e97d5be48bbbab5541f40ebabea6d06ebcf07a0f5daba5bdeed1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "棕榈树",
+      "教学楼",
+      "多层建筑",
+      "晴天"
+    ],
+    "short_description": "晴朗天空下，一栋米色多层建筑前有三棵高大棕榈树，建筑外墙布满空调外机。",
+    "theme": "教学楼前棕榈树"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "建筑可能为学校或机构，因有大量窗户和空调设备。"
+    ],
+    "direct_observations": [
+      "建筑为多层结构，外墙呈米色，窗户密集，每层装有多个空调外机。",
+      "前景中有三棵高大的棕榈树，树干粗壮，叶片宽大呈扇形。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "米色外墙",
+      "蓝色天空",
+      "空调外机",
+      "绿色树叶"
+    ],
+    "relations": [
+      "棕榈树位于建筑前方。",
+      "行人站在建筑入口附近。"
+    ],
+    "scene": "户外建筑前",
+    "subjects": [
+      "棕榈树",
+      "多层建筑",
+      "行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "建筑可能为学校或机构，因有大量窗户和空调设备。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑为多层结构，外墙呈米色，窗户密集，每层装有多个空调外机；前景中有三棵高大的棕榈树，树干粗壮，叶片宽大呈扇形。",
+    "safe_facts": [
+      "建筑为多层结构，外墙呈米色，窗户密集，每层装有多个空调外机。",
+      "前景中有三棵高大的棕榈树，树干粗壮，叶片宽大呈扇形。"
+    ]
+  },
+  "label_id": "cpl_7115f2d4182ed8c5160c52fe",
+  "provenance": {
+    "generated_at": "2026-08-03T12:22:03.660629+00:00",
+    "migrated_at": "2026-08-03T12:22:03.665070+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "affa58a96f8d944079948b6b5e2bda17bbe803c98b832a543af2edce24a26b37",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8f57ee573678f1e5b9b8dbc8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:22:03.665459+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8f57ee573678f1e5b9b8dbc8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "asset_id": "fae63174f19b392a",
+  "asset_sha256": "fae63174f19b392a16d402dd852320a6d951bf7984e1a9a078757dcfe7a294d3",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"手写信号与系统笔记\",\n    \"short_description\": \"一张横线笔记本页面的特写照片，上面写满了关于离散时间系统分析的数学推导。内容涉及线性、时不变性、稳定性和因果性的判断，包含正弦函数、求和符号及不等式证明。\",\n    \"micro_tags\": [\n      \"手写笔记\",\n      \"数学公式\",\n      \"信号处理\",\n      \"学习笔记\",\n      \"横线纸\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"书桌或学习区域\",\n    \"subjects\": [\n      \"笔记本页面\",\n      \"手写数学推导\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"黑色墨水\",\n      \"行线格纸\",\n      \"字迹潦草但清晰\",\n      \"包含复杂数学符号\"\n    ],\n    \"relations\": [\n      \"文字书写在纸张横线上\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图片展示了一页带有水平横线的白色笔记本纸。\",\n      \"页面上用黑色笔迹写满了多行数学公式和中文注释。\",\n      \"可见明显的数学符号如求和符号(Σ)、正弦函数(sin)、绝对值符号以及变量n, k, m等。\",\n      \"文本结构呈现为分步骤的推导过程，包含类似‘27(1)’、‘(3)’的题号标记。\"\n    ],\n    \"cautious_inferences\": [\n      \"根据公式形式（如y(n)=T[x(n)]）推断，这可能是数字信号处理或自动控制原理课程的作业或复习笔记。\",\n      \"拍摄角度略微倾斜，光线均匀，看起来是在室内灯光下拍摄。\"\n    ],\n    \"uncertainties\": [\n      \"无法确定具体的拍摄日期或作者身份。\",\n      \"部分连笔字迹可能存在识别歧义。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"y(n) = T[x(n)] = x(n)sin(2/3πn + π/6)\",\n      \"T[ax1(n) + bx2(n)] = ay1(n) + by2(n)\",\n      \"为线性系统\",\n      \"T[x(n-k)] ≠ y(n-k)\",\n      \"非移变系统\",\n      \"|x(n)| ≤ M\",\n      \"为稳定系统\",\n      \"为因果系统\",\n      \"ay1(n) + by2(n) = aΣx1(k) + bΣx2(k)\",\n      \"不稳定系统\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张写满密集手写数学公式和中文注释的横线笔记本页面特写。\",\n    \"safe_facts\": [\n      \"图像主体为一张白色的横线记事本内页。\",\n      \"页面上覆盖着大量黑色的手写字符，包括拉丁字母、希腊字母、数字运算符号及汉字。\",\n      \"书写内容排列整齐，大致遵循纸张的横线走向。\"\n    ]\n  }\n}",
+      "input_tokens": 3255,
+      "output_tokens": 737,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3255,
+        "output_tokens": 737,
+        "total_tokens": 3992,
+        "estimated_cost_cny": 0.012406,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "手写信号与系统笔记",
+          "short_description": "一张横线笔记本页面的特写照片，上面写满了关于离散时间系统分析的数学推导。内容涉及线性、时不变性、稳定性和因果性的判断，包含正弦函数、求和符号及不等式证明。",
+          "micro_tags": [
+            "手写笔记",
+            "数学公式",
+            "信号处理",
+            "学习笔记",
+            "横线纸"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "书桌或学习区域",
+          "subjects": [
+            "笔记本页面",
+            "手写数学推导"
+          ],
+          "actions": [],
+          "attributes": [
+            "黑色墨水",
+            "行线格纸",
+            "字迹潦草但清晰",
+            "包含复杂数学符号"
+          ],
+          "relations": [
+            "文字书写在纸张横线上"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图片展示了一页带有水平横线的白色笔记本纸。",
+            "页面上用黑色笔迹写满了多行数学公式和中文注释。",
+            "可见明显的数学符号如求和符号(Σ)、正弦函数(sin)、绝对值符号以及变量n, k, m等。",
+            "文本结构呈现为分步骤的推导过程，包含类似‘27(1)’、‘(3)’的题号标记。"
+          ],
+          "cautious_inferences": [
+            "根据公式形式（如y(n)=T[x(n)]）推断，这可能是数字信号处理或自动控制原理课程的作业或复习笔记。",
+            "拍摄角度略微倾斜，光线均匀，看起来是在室内灯光下拍摄。"
+          ],
+          "uncertainties": [
+            "无法确定具体的拍摄日期或作者身份。",
+            "部分连笔字迹可能存在识别歧义。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "y(n) = T[x(n)] = x(n)sin(2/3πn + π/6)",
+            "T[ax1(n) + bx2(n)] = ay1(n) + by2(n)",
+            "为线性系统",
+            "T[x(n-k)] ≠ y(n-k)",
+            "非移变系统",
+            "|x(n)| ≤ M",
+            "为稳定系统",
+            "为因果系统",
+            "ay1(n) + by2(n) = aΣx1(k) + bΣx2(k)",
+            "不稳定系统"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张写满密集手写数学公式和中文注释的横线笔记本页面特写。",
+          "safe_facts": [
+            "图像主体为一张白色的横线记事本内页。",
+            "页面上覆盖着大量黑色的手写字符，包括拉丁字母、希腊字母、数字运算符号及汉字。",
+            "书写内容排列整齐，大致遵循纸张的横线走向。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 4088364,
+        "request_bytes": 3063201,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 15.099051499993948,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "e5a36f162ca8f258a2d6eb0d841a87b110d3979a2109da63358a38cd0efb91f6"
+}

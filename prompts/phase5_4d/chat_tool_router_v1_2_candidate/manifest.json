@@ -1,0 +1,23 @@
+{
+  "candidate_id": "SCENEMINDX_CHAT_TOOL_ROUTER_V1_2_CANDIDATE",
+  "parent_candidate_id": "SCENEMINDX_CHAT_TOOL_ROUTER_V1_1_CANDIDATE",
+  "status": "engineering_candidate_active_for_phase5_4d",
+  "iteration": 3,
+  "business_tool_whitelist": [
+    "generate_content_from_images",
+    "search_images",
+    "compare_or_rank_images"
+  ],
+  "max_business_steps": 2,
+  "prompt": {
+    "prompt_id": "phase5_4d_chat_tool_router_v1_2",
+    "file": "prompts/phase5_4d/chat_tool_router_v1_2_candidate/router_v1_2.txt",
+    "raw_sha256": "d91cec38dbd3efd8c3ef4d6dfd6d80b70d64e4e7cc478e7d35077bc7525059b0"
+  },
+  "direct_chat_prompt": {
+    "candidate_id": "SCENEMINDX_DIRECT_CHAT_V1_CANDIDATE",
+    "prompt_id": "phase5_4d_direct_chat_v1",
+    "file": "prompts/phase5_4d/chat_tool_router_v1_2_candidate/direct_chat_v1.txt",
+    "raw_sha256": "e4dc9b9a29193a2fdf7347f46ce81cb4c16ecd2fe7696547045b30dcd24ab14e"
+  }
+}

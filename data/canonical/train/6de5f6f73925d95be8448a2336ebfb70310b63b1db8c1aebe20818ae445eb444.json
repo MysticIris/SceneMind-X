@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1534.jpg",
+    "relative_path": "train/1534.jpg",
+    "sha256": "6de5f6f73925d95be8448a2336ebfb70310b63b1db8c1aebe20818ae445eb444",
+    "split": "train"
+  },
+  "canonical_sha256": "6e8c62963febcf583c5cb2040e52d5b2fd99566e1946adebec67cfda4fe1d54c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "湖景",
+      "游船",
+      "晴天",
+      "绿树"
+    ],
+    "short_description": "晴朗天空下，湖面平静如镜，岸边绿树成荫，一艘中式游船静泊水面，远处城市天际线隐约可见。",
+    "theme": "湖畔晴空"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "远处建筑群可能为城市区域。"
+    ],
+    "direct_observations": [
+      "水面平静，有轻微波纹。",
+      "天空呈蓝色，有稀疏云层。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "晴朗",
+      "平静",
+      "绿色",
+      "木质结构"
+    ],
+    "relations": [
+      "游船停泊于水面。",
+      "树木位于岸边。",
+      "天空覆盖湖面。"
+    ],
+    "scene": "开阔湖泊与城市远景",
+    "subjects": [
+      "游船",
+      "树木",
+      "天空",
+      "水面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "远处建筑群可能为城市区域。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "水面平静，有轻微波纹；天空呈蓝色，有稀疏云层。",
+    "safe_facts": [
+      "水面平静，有轻微波纹。",
+      "天空呈蓝色，有稀疏云层。"
+    ]
+  },
+  "label_id": "cpl_9fc55caf9498e5ae216cc6e8",
+  "provenance": {
+    "generated_at": "2026-08-03T14:34:58.206620+00:00",
+    "migrated_at": "2026-08-03T14:34:58.209441+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3373fdd5f5b60a415163adab63ff2bf5c1cede04e09c8ac99be946d8784da39b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_91d1d508d3b8fe7422180cf8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:34:58.209777+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_91d1d508d3b8fe7422180cf8"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

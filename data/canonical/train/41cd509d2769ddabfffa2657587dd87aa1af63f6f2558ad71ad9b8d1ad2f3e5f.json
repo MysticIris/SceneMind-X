@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1150.jpg",
+    "relative_path": "train/1150.jpg",
+    "sha256": "41cd509d2769ddabfffa2657587dd87aa1af63f6f2558ad71ad9b8d1ad2f3e5f",
+    "split": "train"
+  },
+  "canonical_sha256": "818d98e0f24ab4ff04425dad1d09c8e98a79a43b18c7be9b4ef8de35ea282fda",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古剑",
+      "手机拍摄",
+      "博物馆展柜"
+    ],
+    "short_description": "黑暗环境中，一把古剑被灯光照亮，有人正用手机拍摄其细节。",
+    "theme": "古剑特写"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "古剑放置于展柜内，剑身有雕刻纹路。",
+      "手机屏幕显示正在拍摄古剑的画面。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "拍摄"
+    ],
+    "attributes": [
+      "古剑有纹饰",
+      "手机屏幕亮着"
+    ],
+    "relations": [
+      "手机被手持用于拍摄古剑。"
+    ],
+    "scene": "昏暗环境中的展柜",
+    "subjects": [
+      "古剑",
+      "手机",
+      "手"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "古剑放置于展柜内，剑身有雕刻纹路；手机屏幕显示正在拍摄古剑的画面。",
+    "safe_facts": [
+      "古剑放置于展柜内，剑身有雕刻纹路。",
+      "手机屏幕显示正在拍摄古剑的画面。"
+    ]
+  },
+  "label_id": "cpl_4c835575b94ad1c00daf8be0",
+  "provenance": {
+    "generated_at": "2026-08-03T13:44:26.995269+00:00",
+    "migrated_at": "2026-08-03T13:44:26.998235+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5a028eda76020e5aa6f65826f18ed78ff48d73f855e79232d1b8f82f090356fd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ed8ec169b5473931e3b1e7e7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:44:26.998564+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ed8ec169b5473931e3b1e7e7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

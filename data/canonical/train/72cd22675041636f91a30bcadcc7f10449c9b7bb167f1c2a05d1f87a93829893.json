@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:558.jpg",
+    "relative_path": "train/558.jpg",
+    "sha256": "72cd22675041636f91a30bcadcc7f10449c9b7bb167f1c2a05d1f87a93829893",
+    "split": "train"
+  },
+  "canonical_sha256": "bfe61a35e1d59f49de8c75617f57d64d5e897410028ee3be51e9f093fd924d0c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "花田",
+      "城市公园",
+      "高楼大厦"
+    ],
+    "short_description": "一片开满粉白花朵的草坪，背景是高楼林立的城市天际线，远处有通信塔和施工中的建筑。",
+    "theme": "城市公园花海"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "草坪上密集分布着粉白相间的花朵。",
+      "背景中有数栋高层建筑和一座通信塔。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色草地",
+      "粉白色花朵",
+      "茂密树木",
+      "现代高层建筑",
+      "施工建筑"
+    ],
+    "relations": [
+      "花朵生长在草地上。",
+      "树木位于草坪边缘。",
+      "建筑物位于背景。"
+    ],
+    "scene": "城市公园草坪",
+    "subjects": [
+      "花朵",
+      "树木",
+      "建筑物",
+      "通信塔"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "草坪上密集分布着粉白相间的花朵；背景中有数栋高层建筑和一座通信塔。",
+    "safe_facts": [
+      "草坪上密集分布着粉白相间的花朵。",
+      "背景中有数栋高层建筑和一座通信塔。"
+    ]
+  },
+  "label_id": "cpl_68d7a77e5fd10f46aa345aee",
+  "provenance": {
+    "generated_at": "2026-08-03T11:33:03.388193+00:00",
+    "migrated_at": "2026-08-03T11:33:03.390705+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bca63b5179c16a67e6aa2b7c64ed29572ec4c388a5004c70dae9191c2d1f30cb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f52091b315fd1b9416e3d5b7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:33:03.391093+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f52091b315fd1b9416e3d5b7"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

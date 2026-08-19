@@ -1,0 +1,13 @@
+以下示例只演示结构和边界，示例来源均为已人工审阅的 Train-only 图片。
+
+示例 1685.jpg（普通真实照片）
+{"visual_medium":"real_world_photo","depicted_content":null,"scene_summary":"积雪覆盖的林荫道上有多名行人。","subjects":["行人","积雪树木","道路旁长椅"],"activities":["行人在雪地道路上步行"],"relationships":["行人分布在林荫道远近不同位置"],"text_assessment":{"presence":"present","legibility":"high","selected_text":["HUAWEI Mate 10 Pro","NEW LEICA DUAL CAMERA"],"summary":"画面底部有相机水印。","uncertainty":null},"observations":["树木、道路和长椅覆盖积雪。","近处与远处可见多名行人。","画面底部有英文相机水印。"],"inferences":[{"text":"这是一条雪后仍有人通行的林荫道。","support":[0,1],"confidence":"medium"}]}
+
+示例 1984.jpg（幻灯片）
+{"visual_medium":"presentation_slide","depicted_content":"英文课件总结空气污染、疾病与历史烟雾事件。","scene_summary":"一页带有英文段落的课堂幻灯片。","subjects":["课件标题","英文正文"],"activities":[],"relationships":["标题位于正文上方"],"text_assessment":{"presence":"present","legibility":"mixed","selected_text":["Improved summary 2","air pollution","killed nearly 3,000 people"],"summary":"正文讨论空气污染、疾病和历史烟雾事件。","uncertainty":"局部受反光影响，只摘录清晰短语。"},"observations":["画面具有标题栏和正文区的幻灯片版式。","正文为多行英文，局部有反光。"],"inferences":[{"text":"这是关于空气污染影响的课堂课件。","support":[0,1],"confidence":"high"}]}
+
+示例 1644.jpg（表情包）
+{"visual_medium":"meme_or_reaction_image","depicted_content":"一名戴狗头面具的人抬手扶额。","scene_summary":"带三段中文叠字的疑惑反应表情包。","subjects":["戴狗头面具的人","中文叠字"],"activities":["人物抬手扶额"],"relationships":["问号位于人物头部附近"],"text_assessment":{"presence":"present","legibility":"high","selected_text":["脑子里有答案...","那不相当于作弊吗...","敢不敢堂堂正正比一比运气"],"summary":"叠字表达对动脑作答的调侃。","uncertainty":null},"observations":["人物戴狗头面具并抬手扶额。","画面上方和下方有中文叠字。","人物头部附近有白色问号。"],"inferences":[{"text":"该图用疑惑姿态和文字构成调侃式表情包。","support":[0,1,2],"confidence":"high"}]}
+
+示例 1631.jpg（模糊文字边界）
+{"visual_medium":"real_world_photo","depicted_content":"手持透明卡套内有黑底白色动物图案。","scene_summary":"双手拿着一张带图案和文字的卡片。","subjects":["双手","透明卡套","黑底白色图案"],"activities":["双手拿着卡片"],"relationships":["黑底白色图案位于卡片中央"],"text_assessment":{"presence":"present","legibility":"mixed","selected_text":null,"summary":"卡片上存在印刷和手写文字，但未可靠转写。","uncertainty":"中央手写内容模糊且部分受反光影响，无法可靠辨认。"},"observations":["双手拿着透明卡套。","卡片中央有黑底白色动物图案。","卡片文字存在模糊和反光。"],"inferences":[]}

@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2242.jpg",
+    "relative_path": "val/2242.jpg",
+    "sha256": "6c6555b13e9fe489ff5edceb726c361484dccd4d8e391ee925935e9a19f5c147",
+    "split": "val"
+  },
+  "canonical_sha256": "2817c162c43aaf4f11fa2c382b44e30edeb03e8b6ffcabc03a8ff6b4986e1b7d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "炖菜",
+      "铁锅",
+      "热气腾腾",
+      "配菜"
+    ],
+    "short_description": "一锅热气腾腾的炖菜盛在铁锅里，配有勺子和配菜，旁边有绿叶植物。",
+    "theme": "热锅炖菜"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "铁锅内盛有带骨肉块、宽面条状食材和深色汤汁。",
+      "锅边放置两把金属勺子，锅旁有白色小碗装着绿叶植物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "热气腾腾",
+      "深色汤汁",
+      "带骨肉块",
+      "宽面条状食材",
+      "绿色蔬菜"
+    ],
+    "relations": [
+      "炖菜在铁锅内。",
+      "铁锅放在桌面上。",
+      "勺子插在炖菜中。",
+      "绿叶植物在铁锅旁。"
+    ],
+    "scene": "餐桌",
+    "subjects": [
+      "炖菜",
+      "铁锅",
+      "勺子",
+      "绿叶植物",
+      "米饭碗",
+      "调味碟"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "铁锅内盛有带骨肉块、宽面条状食材和深色汤汁；锅边放置两把金属勺子，锅旁有白色小碗装着绿叶植物。",
+    "safe_facts": [
+      "铁锅内盛有带骨肉块、宽面条状食材和深色汤汁。",
+      "锅边放置两把金属勺子，锅旁有白色小碗装着绿叶植物。"
+    ]
+  },
+  "label_id": "cpl_2cfb09ff6c4f13f3cf94cbf2",
+  "provenance": {
+    "generated_at": "2026-08-03T16:18:50.216135+00:00",
+    "migrated_at": "2026-08-03T16:18:50.217945+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "83b93c60afd7e3cdeb4cc980271553577e3fb43bbba4d63e0144cebbf158f199",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8744568287d5ef94dd18525f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:18:50.218166+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8744568287d5ef94dd18525f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

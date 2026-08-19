@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1859.jpg",
+    "relative_path": "train/1859.jpg",
+    "sha256": "298a6260d556c259514ee99616742e5c3aef9bf504148aeb48941d57aa66bf48",
+    "split": "train"
+  },
+  "canonical_sha256": "df5a97fed68d4d3a6c45988b439fd6662eeceba1c87e56aa3d7819ebe3c5142c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "排版指南",
+      "阅读性"
+    ],
+    "short_description": "一张演示文稿幻灯片，列出关于使用清晰易读布局的写作建议，包括字体、行距和段落格式。",
+    "theme": "文档排版规范"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "标题下方是一个带项目符号的列表，包含多条关于文本格式的建议。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "粉红色标题栏",
+      "项目符号列表"
+    ],
+    "relations": [],
+    "scene": "电脑屏幕显示的演示文稿页面",
+    "subjects": [
+      "幻灯片标题",
+      "列表项"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "标题下方是一个带项目符号的列表，包含多条关于文本格式的建议。",
+    "safe_facts": [
+      "标题下方是一个带项目符号的列表，包含多条关于文本格式的建议。"
+    ]
+  },
+  "label_id": "cpl_0cdeecb154026a4b4ee4c124",
+  "provenance": {
+    "generated_at": "2026-08-02T22:32:40.160099+00:00",
+    "migrated_at": "2026-08-03T07:13:41.911198+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d7b6e8ce7725f5b55236085a8b56ac352bf334016b6eae3760a0e309d780677f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_62a7a91bf0e5fe3abb8e24b1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:14:02.683773+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_62a7a91bf0e5fe3abb8e24b1",
+    "cpl_5656246b6d03d306db55df34"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "2.1.2 Use a clean and legible layout",
+      "Readability(易读)",
+      "Use double-space text",
+      "Use justified format",
+      "Use 12 pont text with Arial or Helvetica",
+      "Indent your paragraph. A paragraph is a"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "2.1.2 Use a clean and legible layout",
+      "Readability(易读)",
+      "Use double-space text",
+      "Use justified format",
+      "Use 12 pont text with Arial or Helvetica",
+      "Indent your paragraph. A paragraph is a"
+    ]
+  }
+}

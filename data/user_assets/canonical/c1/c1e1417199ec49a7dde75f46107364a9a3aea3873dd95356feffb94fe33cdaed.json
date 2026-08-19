@@ -1,0 +1,150 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_46c4baaf2cb0a50d6e2697d1",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_c116692a47c63198abb3fb84"
+  ],
+  "asset": {
+    "asset_id": "c1e1417199ec49a7",
+    "sha256": "c1e1417199ec49a7dde75f46107364a9a3aea3873dd95356feffb94fe33cdaed",
+    "split": "user_custom",
+    "relative_path": "user_assets/c1/c1e1417199ec49a7dde75f46107364a9a3aea3873dd95356feffb94fe33cdaed/c1e1417199ec49a7dde75f46107364a9a3aea3873dd95356feffb94fe33cdaed.jpg"
+  },
+  "display": {
+    "theme": "盲盒玩具包装展示",
+    "short_description": "一张手持拍摄的玩具包装盒背面照片。背景可见货架上堆叠的其他黑色与米色包装盒。",
+    "micro_tags": [
+      "盲盒",
+      "玩具包装",
+      "Q版公仔",
+      "挂件",
+      "POP MART",
+      "哪吒",
+      "敖丙"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "室内零售环境或收藏展示区",
+    "subjects": [
+      "玩具包装盒",
+      "手",
+      "货架",
+      "其他商品盒"
+    ],
+    "actions": [
+      "手持",
+      "展示"
+    ],
+    "attributes": [
+      "淡紫色背景",
+      "Q版卡通形象",
+      "动物拟人化造型",
+      "挂环设计",
+      "红色概率标签"
+    ],
+    "relations": [
+      "手握住包装盒右侧边缘。",
+      "包装盒位于前景。",
+      "其他盒子位于背景货架上。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "画面主体为一个长方体包装盒的背面，背景为淡紫色纹理。",
+      "盒面上排列着六个卡通人物形象，均带有顶部的挂环结构，看似钥匙扣或挂件。",
+      "每个形象旁都有竖排的中英文文字说明以及红底白字的'1/6'标识。",
+      "左侧背景中有黑色的盒子堆叠，侧面有红色的'POP MART'标志。",
+      "下方背景中有米黄色的盒子，同样印有红色的'POP MART'标志。",
+      "右下角可见一只手的大拇指和部分手掌正在握持该包装盒。"
+    ],
+    "cautious_inferences": [],
+    "uncertainties": [
+      "无法确定具体的拍摄时间。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "POP MART",
+      "小猪吒儿",
+      "1/6",
+      "熊猫吒儿"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "POP MART",
+      "小猪吒儿",
+      "1/6",
+      "熊猫吒儿"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "画面主体为一个长方体包装盒的背面，背景为淡紫色纹理；盒面上排列着六个卡通人物形象，均带有顶部的挂环结构，看似钥匙扣或挂件。",
+    "safe_facts": [
+      "画面主体为一个长方体包装盒的背面，背景为淡紫色纹理。",
+      "盒面上排列着六个卡通人物形象，均带有顶部的挂环结构，看似钥匙扣或挂件。",
+      "每个形象旁都有竖排的中英文文字说明以及红底白字的'1/6'标识。"
+    ],
+    "do_not_assert": [
+      "无法确定具体的拍摄时间。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_extended_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_23592aeb-8b0a-47b5-b486-11a89e45decc",
+    "generated_at": "2026-08-12T03:11:11.067276+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "2f3ca62e22d38de3b0f0e938d1e1bfcb4c7ed8d06639ba72789340095c1eb117",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:11:11.068246+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_c116692a47c63198abb3fb84",
+    "recovered_at_tokens": 1280,
+    "split_compatibility_migrated_at": "2026-08-12T03:11:11.068652+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "69a5d1b6462182bcda6d1a90a17de21331e65534b66cb2104dec7da9713746f3"
+}

@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:292.jpg",
+    "relative_path": "train/292.jpg",
+    "sha256": "2e91f8d054c8200a139cb892f47d5ced3a89f6da0b3fc16c7630bca166ce1f95",
+    "split": "train"
+  },
+  "canonical_sha256": "8230cedeb208294b9213852ce9af879ba4c81ae271ba7604f7a70301da851bf8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "山林步道",
+      "游客行走",
+      "绿树成荫"
+    ],
+    "short_description": "游客在绿树环绕的山间石阶小路上行走，两侧植被茂密，远处山峦叠嶂。",
+    "theme": "山林步道"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有数名游客沿石阶向上行走。",
+      "道路两侧及远处覆盖着茂密的绿色树木和灌木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走"
+    ],
+    "attributes": [
+      "石阶",
+      "绿树",
+      "山峦"
+    ],
+    "relations": [
+      "游客在石阶上行走。",
+      "石阶位于山林之间。"
+    ],
+    "scene": "山间石阶小路",
+    "subjects": [
+      "游客"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有数名游客沿石阶向上行走；道路两侧及远处覆盖着茂密的绿色树木和灌木。",
+    "safe_facts": [
+      "画面中有数名游客沿石阶向上行走。",
+      "道路两侧及远处覆盖着茂密的绿色树木和灌木。"
+    ]
+  },
+  "label_id": "cpl_cbaff82b12167273d5d65dd5",
+  "provenance": {
+    "generated_at": "2026-08-03T10:33:28.288397+00:00",
+    "migrated_at": "2026-08-03T10:33:28.290392+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "913f9d2197684371b7513f0bddbf69ac7bfbdb6ff1feab35e61bb6c3642a6fda",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2ee151b5c26982f0ae8a6df2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:33:28.290779+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2ee151b5c26982f0ae8a6df2"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

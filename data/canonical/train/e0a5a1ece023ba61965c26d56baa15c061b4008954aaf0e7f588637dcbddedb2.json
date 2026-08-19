@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1213.jpg",
+    "relative_path": "train/1213.jpg",
+    "sha256": "e0a5a1ece023ba61965c26d56baa15c061b4008954aaf0e7f588637dcbddedb2",
+    "split": "train"
+  },
+  "canonical_sha256": "5517f8399a16a2a02147588b85ff466e7a795c2bbbf01c1b613c2d451fad009c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "浅蓝色背包",
+      "毛绒外套",
+      "户外穿搭"
+    ],
+    "short_description": "一位女性背着浅蓝色竖款背包，身穿黑白毛绒外套，站在户外铺砖路面上。",
+    "theme": "浅蓝色背包穿搭"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "女性穿着黑白相间的毛绒外套。",
+      "女性背负一个浅蓝色背包。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "浅蓝色背包",
+      "黑白毛绒外套",
+      "长发"
+    ],
+    "relations": [
+      "女性背着背包。"
+    ],
+    "scene": "户外铺砖路面",
+    "subjects": [
+      "女性",
+      "背包"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "女性穿着黑白相间的毛绒外套；女性背负一个浅蓝色背包。",
+    "safe_facts": [
+      "女性穿着黑白相间的毛绒外套。",
+      "女性背负一个浅蓝色背包。"
+    ]
+  },
+  "label_id": "cpl_3dc9564795289193c2e0c863",
+  "provenance": {
+    "generated_at": "2026-08-03T13:56:29.857778+00:00",
+    "migrated_at": "2026-08-03T13:56:29.861638+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c8f059da17b1d6f139c37dea3ae804e47afbc3b06d9bfd1f0e5b8656b8e6b241",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_861a0c9f2f10718b6354b9ec",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:56:29.861995+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_861a0c9f2f10718b6354b9ec"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

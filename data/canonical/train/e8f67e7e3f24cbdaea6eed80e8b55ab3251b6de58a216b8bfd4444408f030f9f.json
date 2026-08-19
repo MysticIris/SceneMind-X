@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:952.jpg",
+    "relative_path": "train/952.jpg",
+    "sha256": "e8f67e7e3f24cbdaea6eed80e8b55ab3251b6de58a216b8bfd4444408f030f9f",
+    "split": "train"
+  },
+  "canonical_sha256": "7d20375bfeae1482d127929d59cf9e13bbbe2da81fe6a2582b6f15d39f9e9131",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "海滩",
+      "母女",
+      "海水",
+      "背影"
+    ],
+    "short_description": "一位女士和一个小女孩背对镜头站在浅水区，眺望海面，画面宁静温馨。",
+    "theme": "海边亲子时光"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有两位人物，均背对镜头站立于沙滩与海水交界处。",
+      "海水呈蓝色，有波浪拍打岸边，沙滩上有少量碎石。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "女士穿花色连衣裙",
+      "小女孩穿白色上衣"
+    ],
+    "relations": [
+      "女士站在小女孩前方。",
+      "两人并排站立于浅水区。"
+    ],
+    "scene": "海边",
+    "subjects": [
+      "一位女士",
+      "一个小女孩"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有两位人物，均背对镜头站立于沙滩与海水交界处；海水呈蓝色，有波浪拍打岸边，沙滩上有少量碎石。",
+    "safe_facts": [
+      "画面中有两位人物，均背对镜头站立于沙滩与海水交界处。",
+      "海水呈蓝色，有波浪拍打岸边，沙滩上有少量碎石。"
+    ]
+  },
+  "label_id": "cpl_81c91e8ecec6b61ca8f895aa",
+  "provenance": {
+    "generated_at": "2026-08-03T13:07:08.390813+00:00",
+    "migrated_at": "2026-08-03T13:07:08.396504+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f43d44c07a079abaaedae089238a020ed27aad78ce60219702c30825b49f861b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_81c91e8ecec6b61ca8f895aa",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:21:20.002278+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d360d3818aa7e31f20694b94"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

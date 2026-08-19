@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1296.jpg",
+    "relative_path": "train/1296.jpg",
+    "sha256": "4c03f1c62126ca18256c346c162ea0f303daf27d5998901a70362a59becbfca7",
+    "split": "train"
+  },
+  "canonical_sha256": "60a0f613e99693bf656f5a79b14b8a7d4222da530b5fb97b2d5d418f5a1d5c10",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "悬空观景台",
+      "湖泊风光",
+      "山峦环绕"
+    ],
+    "short_description": "蓝天白云下，一座悬空观景台俯瞰湖光山色，远处群山环抱，湖面岛屿星罗棋布，绿树环绕。",
+    "theme": "悬空观景台"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央有一座悬空的圆形观景台，由白色支架支撑。",
+      "观景台下方是广阔的湖泊，湖中有多个小岛，远处是连绵山脉。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "悬空",
+      "金属结构",
+      "玻璃围栏",
+      "晴朗天气",
+      "蓝色天空",
+      "云朵"
+    ],
+    "relations": [
+      "观景台位于山顶。",
+      "观景台俯瞰湖泊。",
+      "湖泊被山脉环绕。",
+      "岛屿分布在湖面。"
+    ],
+    "scene": "山间湖泊景观",
+    "subjects": [
+      "观景台",
+      "游客",
+      "山脉",
+      "湖泊",
+      "岛屿",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一座悬空的圆形观景台，由白色支架支撑；观景台下方是广阔的湖泊，湖中有多个小岛，远处是连绵山脉。",
+    "safe_facts": [
+      "画面中央有一座悬空的圆形观景台，由白色支架支撑。",
+      "观景台下方是广阔的湖泊，湖中有多个小岛，远处是连绵山脉。"
+    ]
+  },
+  "label_id": "cpl_bc3c062520a7bc3e00fdec51",
+  "provenance": {
+    "generated_at": "2026-08-03T14:07:11.166429+00:00",
+    "migrated_at": "2026-08-03T14:07:11.169557+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3bfcd46963e3dae3878ab869298d55d02543a8d970650be9ecb291c7353dc11a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3275ede321693fe3b466b664",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:07:11.169956+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3275ede321693fe3b466b664"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

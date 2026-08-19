@@ -1,0 +1,134 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2087.jpg",
+    "relative_path": "val/2087.jpg",
+    "sha256": "9f502ac15b436e52f6ae399bd3279ce24bc004715deecfdba054750a0ed2555e",
+    "split": "val"
+  },
+  "canonical_sha256": "537e2e2840ec6a5ad8bb13c7b5cc98db98986693e3520e9aad7967a34d75ad68",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "示波器",
+      "电子测试设备",
+      "信号波形"
+    ],
+    "short_description": "一台黑色示波器显示黄色波形，连接多根测试线，置于绿色桌面上。",
+    "theme": "示波器测量场景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "示波器屏幕显示黄色水平波形。",
+      "设备上有多个旋钮和按钮。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色机身",
+      "显示屏上有波形",
+      "连接多根线缆"
+    ],
+    "relations": [
+      "示波器放置于桌面。",
+      "线缆连接至示波器。"
+    ],
+    "scene": "实验室或工作台环境",
+    "subjects": [
+      "示波器",
+      "测试线缆"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "示波器屏幕显示黄色水平波形；设备上有多个旋钮和按钮。",
+    "safe_facts": [
+      "示波器屏幕显示黄色水平波形。",
+      "设备上有多个旋钮和按钮。"
+    ]
+  },
+  "label_id": "cpl_1c4d5635cb140b6dd551ae22",
+  "provenance": {
+    "generated_at": "2026-08-03T15:57:44.397782+00:00",
+    "migrated_at": "2026-08-03T15:57:44.399620+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c83d8ea251270a4a2911ae386d7d2edfe97785f68a3ed8f7a9a5648dc8324485",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_90617d3a525ca823d02c7ca0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:57:44.400179+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_90617d3a525ca823d02c7ca0"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "RIGOL MSO5354",
+      "STOP",
+      "20.0ms",
+      "100mV",
+      "CH1",
+      "AUTO"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "RIGOL MSO5354",
+      "STOP",
+      "20.0ms",
+      "100mV",
+      "CH1",
+      "AUTO"
+    ]
+  }
+}

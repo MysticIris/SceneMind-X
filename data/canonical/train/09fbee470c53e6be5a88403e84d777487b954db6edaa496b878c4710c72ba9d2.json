@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:146.jpg",
+    "relative_path": "train/146.jpg",
+    "sha256": "09fbee470c53e6be5a88403e84d777487b954db6edaa496b878c4710c72ba9d2",
+    "split": "train"
+  },
+  "canonical_sha256": "ef46f81cd8f0548566cbfc340858bff19b6b9b37db60bc7f70235dc1b5b7669a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "建筑入口",
+      "玻璃幕墙",
+      "金色汉字",
+      "红色横幅"
+    ],
+    "short_description": "一栋现代风格建筑的入口，配有玻璃幕墙和顶部标识。",
+    "theme": "医学院建筑入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑外墙为浅色石材或涂料材质。",
+      "玻璃幕墙由多个矩形玻璃面板组成并反射天空。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "多层楼体",
+      "外挂空调机组",
+      "玻璃反射天空",
+      "红色横幅悬挂"
+    ],
+    "relations": [
+      "金色汉字位于建筑入口上方。",
+      "红色横幅悬挂在入口前方。"
+    ],
+    "scene": "建筑物正面入口区域",
+    "subjects": [
+      "建筑外墙",
+      "玻璃幕墙",
+      "金色汉字标识",
+      "红色横幅"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑外墙为浅色石材或涂料材质；玻璃幕墙由多个矩形玻璃面板组成并反射天空。",
+    "safe_facts": [
+      "建筑外墙为浅色石材或涂料材质。",
+      "玻璃幕墙由多个矩形玻璃面板组成并反射天空。"
+    ]
+  },
+  "label_id": "cpl_1daeaa830b74d2f9923f10a3",
+  "provenance": {
+    "generated_at": "2026-08-03T09:37:30.908531+00:00",
+    "migrated_at": "2026-08-03T09:37:30.910488+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1222ee2d75641896834bf3cf1c31fc2cdca0e3a12589cbf702c505e8fb37db74",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f8ce88a8659b04be8c1f9b0c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:41.731067+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f8ce88a8659b04be8c1f9b0c",
+    "cpl_e06088d5ec478f670595f72c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

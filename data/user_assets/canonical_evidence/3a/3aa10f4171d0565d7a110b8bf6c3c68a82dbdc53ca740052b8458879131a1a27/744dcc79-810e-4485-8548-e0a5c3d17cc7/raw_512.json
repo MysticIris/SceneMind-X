@@ -1,0 +1,124 @@
+{
+  "asset_id": "3aa10f4171d0565d",
+  "asset_sha256": "3aa10f4171d0565d7a110b8bf6c3c68a82dbdc53ca740052b8458879131a1a27",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"社交媒体青春随笔截图\",\n    \"short_description\": \"这是一张社交媒体平台的帖子详情页截图。内容包含一段关于十七岁雨夜回忆的抒情文字，下方有点赞、评论等互动数据及用户头像，整体呈现典型的移动端图文浏览界面。\",\n    \"micro_tags\": [\n      \"手机截图\",\n      \"社交动态\",\n      \"文字记录\",\n      \"青春回忆\",\n      \"评论区\",\n      \"UI界面\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"移动端应用程序界面\",\n    \"subjects\": [\n      \"文本段落\",\n      \"用户头像\",\n      \"交互图标\",\n      \"状态栏\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白底黑字\",\n      \"竖屏构图\",\n      \"列表布局\"\n    ],\n    \"relations\": [\n      \"文本位于头像右侧及下方\",\n      \"互动数据位于文本底部\",\n      \"评论列表位于互动区下方\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图片顶部显示时间01:51及电池电量87%的状态栏信息\",\n      \"主体区域包含大段中文叙事文本，排版整齐\",\n      \"文本下方可见心形点赞图标、气泡评论图标及对应的数字统计\",\n      \"底部有输入框提示语及发送按钮图标\"\n    ],\n    \"cautious_inferences\": [\n      \"根据界面布局推测为某社交或内容分享类APP的详情页\",\n      \"文本内容涉及对过去时光的回忆，可能属于情感类随笔\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"Chennnnnnni\",\n      \"或许十七岁所感受到的一切都具有滞后性\",\n      \"雨或许是一台时光机\",\n      \"#原创 #随笔 #十七岁 #高中 #青春\",\n      \"共 71 条评论\",\n      \"一些东西很难再发现 但是从未消失\",\n      \"5103\",\n      \"1069\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张展示社交媒体长文帖子的手机屏幕截图，包含正文、标签话题及底部的互动数据统计栏。\",\n    \"safe_facts\": [\n      \"界面顶部包含系统状态信息\",\n      \"主要内容为多行排列的文本块\",\n      \"底部设有功能操作栏和数据反馈区\"\n    ]\n  }\n}",
+      "input_tokens": 3227,
+      "output_tokens": 618,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3227,
+        "output_tokens": 618,
+        "total_tokens": 3845,
+        "estimated_cost_cny": 0.011398,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "社交媒体青春随笔截图",
+          "short_description": "这是一张社交媒体平台的帖子详情页截图。内容包含一段关于十七岁雨夜回忆的抒情文字，下方有点赞、评论等互动数据及用户头像，整体呈现典型的移动端图文浏览界面。",
+          "micro_tags": [
+            "手机截图",
+            "社交动态",
+            "文字记录",
+            "青春回忆",
+            "评论区",
+            "UI界面"
+          ]
+        },
+        "facts": {
+          "visual_medium": "screenshot",
+          "scene": "移动端应用程序界面",
+          "subjects": [
+            "文本段落",
+            "用户头像",
+            "交互图标",
+            "状态栏"
+          ],
+          "actions": [],
+          "attributes": [
+            "白底黑字",
+            "竖屏构图",
+            "列表布局"
+          ],
+          "relations": [
+            "文本位于头像右侧及下方",
+            "互动数据位于文本底部",
+            "评论列表位于互动区下方"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图片顶部显示时间01:51及电池电量87%的状态栏信息",
+            "主体区域包含大段中文叙事文本，排版整齐",
+            "文本下方可见心形点赞图标、气泡评论图标及对应的数字统计",
+            "底部有输入框提示语及发送按钮图标"
+          ],
+          "cautious_inferences": [
+            "根据界面布局推测为某社交或内容分享类APP的详情页",
+            "文本内容涉及对过去时光的回忆，可能属于情感类随笔"
+          ],
+          "uncertainties": []
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "Chennnnnnni",
+            "或许十七岁所感受到的一切都具有滞后性",
+            "雨或许是一台时光机",
+            "#原创 #随笔 #十七岁 #高中 #青春",
+            "共 71 条评论",
+            "一些东西很难再发现 但是从未消失",
+            "5103",
+            "1069"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一张展示社交媒体长文帖子的手机屏幕截图，包含正文、标签话题及底部的互动数据统计栏。",
+          "safe_facts": [
+            "界面顶部包含系统状态信息",
+            "主要内容为多行排列的文本块",
+            "底部设有功能操作栏和数据反馈区"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 1200976,
+        "request_bytes": 897658,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 12.214029499999015,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "2154dd1cbe4a95ca2f1dea1e257e2ac66b290853b0f13857d1dc0eb494f94b61"
+}

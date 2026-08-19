@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1676.jpg",
+    "relative_path": "train/1676.jpg",
+    "sha256": "00823e2adfc4b89d7eb773384b30f08d00adb0b485c8a93c14f49bd5e86a2fe5",
+    "split": "train"
+  },
+  "canonical_sha256": "5819f683af71311ca656c1358f83e713947a66e23d210c18a79d683b239c0a65",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "古建筑",
+      "灯光照明",
+      "人群聚集"
+    ],
+    "short_description": "夜幕下，一座宏伟的中式传统建筑被暖黄色灯光照亮，屋顶曲线优美，屋檐下有人群活动，前景有树木和少量行人。",
+    "theme": "夜景古建"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "建筑可能用于公共观赏或文化活动，因有大量人群聚集在平台区域。"
+    ],
+    "direct_observations": [
+      "建筑具有中国传统风格的多层飞檐和顶部宝顶。",
+      "建筑外墙及台阶被暖黄色灯光均匀照亮。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "被灯光照亮",
+      "多层屋檐",
+      "金色屋顶装饰",
+      "暖黄色灯光"
+    ],
+    "relations": [
+      "建筑位于画面中央。",
+      "人群在建筑平台活动。",
+      "树木位于建筑前方。"
+    ],
+    "scene": "夜间户外",
+    "subjects": [
+      "建筑",
+      "人群",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "建筑可能用于公共观赏或文化活动，因有大量人群聚集在平台区域。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑具有中国传统风格的多层飞檐和顶部宝顶；建筑外墙及台阶被暖黄色灯光均匀照亮。",
+    "safe_facts": [
+      "建筑具有中国传统风格的多层飞檐和顶部宝顶。",
+      "建筑外墙及台阶被暖黄色灯光均匀照亮。"
+    ]
+  },
+  "label_id": "cpl_224904061360b75116068736",
+  "provenance": {
+    "generated_at": "2026-08-03T14:52:53.325381+00:00",
+    "migrated_at": "2026-08-03T14:52:53.327858+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3c58481d388bea8113654a96698c5795aa6a56f5d283cbd993b85412f4880ca7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ef815e1c7c025aca0c6354c4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:52:53.328439+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ef815e1c7c025aca0c6354c4"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

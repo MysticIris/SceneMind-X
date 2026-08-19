@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:17.jpg",
+    "relative_path": "train/17.jpg",
+    "sha256": "152914b8f2c8ac8c8ce888fb2981c112041eabc5e949b67354f5a820bb1d28eb",
+    "split": "train"
+  },
+  "canonical_sha256": "8cd8624f347140ec90aa21ff1c20f19d33e8c374ed93d4272e55de598764d7eb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "骑车人",
+      "彩色气球",
+      "城市街道"
+    ],
+    "short_description": "一名男子骑着蓝色自行车，车后载满五颜六色透明气球，行走在绿树成荫的街道上。",
+    "theme": "街头气球贩售"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "男子佩戴口罩并骑着蓝色自行车。",
+      "自行车后方悬挂大量透明彩色气球。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "骑行",
+      "携带气球"
+    ],
+    "attributes": [
+      "男子穿灰色马甲",
+      "自行车有篮子",
+      "气球透明带图案"
+    ],
+    "relations": [
+      "男子骑在自行车上。",
+      "气球挂在男子身后。"
+    ],
+    "scene": "城市街道旁",
+    "subjects": [
+      "一名戴口罩的男子",
+      "一辆蓝色自行车",
+      "大量彩色气球"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "男子佩戴口罩并骑着蓝色自行车；自行车后方悬挂大量透明彩色气球。",
+    "safe_facts": [
+      "男子佩戴口罩并骑着蓝色自行车。",
+      "自行车后方悬挂大量透明彩色气球。"
+    ]
+  },
+  "label_id": "cpl_20766d71144a56114b385b09",
+  "provenance": {
+    "generated_at": "2026-08-03T09:07:20.989951+00:00",
+    "migrated_at": "2026-08-03T09:07:20.991572+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4fd46587194223419a877aade59edddfe0fb7db335ebeb7cd00d2925ce08b145",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_264f493d96c4b4f223947409",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:25.823267+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_264f493d96c4b4f223947409",
+    "cpl_29ff6ac80772cb9d55814b60"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

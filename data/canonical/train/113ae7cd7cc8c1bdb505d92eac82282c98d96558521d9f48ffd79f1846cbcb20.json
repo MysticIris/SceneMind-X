@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1144.jpg",
+    "relative_path": "train/1144.jpg",
+    "sha256": "113ae7cd7cc8c1bdb505d92eac82282c98d96558521d9f48ffd79f1846cbcb20",
+    "split": "train"
+  },
+  "canonical_sha256": "1baea79fc3c16f9f51f389770c91e19d6172eede0752e73317b67fa7c6740f6c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "镜面反射",
+      "螺旋结构",
+      "彩色灯光"
+    ],
+    "short_description": "从低角度仰拍的镜面螺旋结构，反射出多彩灯光与自身倒影，形成无限延伸的视觉效果。",
+    "theme": "镜面螺旋空间"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该结构可能用于艺术展示或商业空间装饰。"
+    ],
+    "direct_observations": [
+      "镜面构成螺旋状环形结构。",
+      "镜面反射出周围灯光和部分环境。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "多层镜面",
+      "彩色照明",
+      "几何对称"
+    ],
+    "relations": [
+      "镜面反射自身及环境。",
+      "灯光照亮镜面结构。"
+    ],
+    "scene": "室内镜面装饰结构",
+    "subjects": [
+      "镜面结构",
+      "灯光装置",
+      "反射影像"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该结构可能用于艺术展示或商业空间装饰。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "镜面构成螺旋状环形结构；镜面反射出周围灯光和部分环境。",
+    "safe_facts": [
+      "镜面构成螺旋状环形结构。",
+      "镜面反射出周围灯光和部分环境。"
+    ]
+  },
+  "label_id": "cpl_cb032bb3b1c9b2cb47d85564",
+  "provenance": {
+    "generated_at": "2026-08-03T13:43:36.477829+00:00",
+    "migrated_at": "2026-08-03T13:43:36.482471+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "e9d51725596e96b369eb710fd56c7f29623a52ad0269bb1bd4db1742d0991541",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_618eed1ea4c69567f86a793f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:43:36.482822+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_618eed1ea4c69567f86a793f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

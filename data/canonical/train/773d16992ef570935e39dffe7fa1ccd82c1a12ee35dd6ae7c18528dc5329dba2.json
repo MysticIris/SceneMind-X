@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1324.jpg",
+    "relative_path": "train/1324.jpg",
+    "sha256": "773d16992ef570935e39dffe7fa1ccd82c1a12ee35dd6ae7c18528dc5329dba2",
+    "split": "train"
+  },
+  "canonical_sha256": "3b025a92bbe34749e24767caba998c1d94010123b4cca24b67b5e76c12a7528b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "男士护肤品",
+      "爽肤水",
+      "蓝色瓶身"
+    ],
+    "short_description": "一只手托着一个蓝色瓶身的护肤品。",
+    "theme": "男士护肤产品"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一只手正托住一个蓝色瓶身的瓶子。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色瓶身",
+      "紫色瓶盖"
+    ],
+    "relations": [
+      "手托着瓶子。"
+    ],
+    "scene": "室内桌面环境",
+    "subjects": [
+      "手",
+      "护肤品瓶子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一只手正托住一个蓝色瓶身的瓶子。",
+    "safe_facts": [
+      "一只手正托住一个蓝色瓶身的瓶子。"
+    ]
+  },
+  "label_id": "cpl_88d0fc6833775e5a5f6a414c",
+  "provenance": {
+    "generated_at": "2026-08-03T14:10:41.115984+00:00",
+    "migrated_at": "2026-08-03T14:10:41.119752+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5ffa635abdf3d8166a0f6566dd787372f92445edf7d5bf53166f91c70f97fbb2",
+    "recovered_at_tokens": 768,
+    "source_label_id": "cpl_d3f8a9409027ed5fb224fab4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:10:41.121849+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_768_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d3f8a9409027ed5fb224fab4"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "春静®",
+      "男士爽肤滋润SOD蜜",
+      "温和洁肤舒爽保护",
+      "采用专为亚洲男士设计的护理配方",
+      "成分:水、矿油、鲸蜡硬脂醇、甘油、鲸蜡硬脂基葡糖苷、甘油硬脂酸酯、超氧化物歧化酶",
+      "使用方法:洁肤后,取少量本品均匀涂于面部,并可根据需要调整用量,达到不同效果。本"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "春静®",
+      "男士爽肤滋润SOD蜜",
+      "温和洁肤舒爽保护",
+      "采用专为亚洲男士设计的护理配方",
+      "成分:水、矿油、鲸蜡硬脂醇、甘油、鲸蜡硬脂基葡糖苷、甘油硬脂酸酯、超氧化物歧化酶",
+      "使用方法:洁肤后,取少量本品均匀涂于面部,并可根据需要调整用量,达到不同效果。本"
+    ]
+  }
+}

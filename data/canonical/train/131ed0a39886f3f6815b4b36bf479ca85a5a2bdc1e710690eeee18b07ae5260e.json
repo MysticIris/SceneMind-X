@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:206.jpg",
+    "relative_path": "train/206.jpg",
+    "sha256": "131ed0a39886f3f6815b4b36bf479ca85a5a2bdc1e710690eeee18b07ae5260e",
+    "split": "train"
+  },
+  "canonical_sha256": "89c332672cd7a4b16e9108caca559025c51efe38a761d93c751c114dccdcee24",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "城市天际线",
+      "水面船只"
+    ],
+    "short_description": "夜晚水面上停泊着多艘船只，背景是亮灯的城市天际线和一座大型红色拱门建筑。",
+    "theme": "夜景城市地标"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现夜间城市景观，水面有船只漂浮。",
+      "背景中有高层建筑群，其中一座建筑呈拱形并带有红色发光面板。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜间",
+      "灯光照明",
+      "水面波纹"
+    ],
+    "relations": [
+      "船只位于水面。",
+      "建筑位于背景。"
+    ],
+    "scene": "城市水域夜景",
+    "subjects": [
+      "船只",
+      "城市建筑",
+      "拱形结构"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现夜间城市景观，水面有船只漂浮；背景中有高层建筑群，其中一座建筑呈拱形并带有红色发光面板。",
+    "safe_facts": [
+      "画面呈现夜间城市景观，水面有船只漂浮。",
+      "背景中有高层建筑群，其中一座建筑呈拱形并带有红色发光面板。"
+    ]
+  },
+  "label_id": "cpl_0827c1f847e0961278377bb8",
+  "provenance": {
+    "generated_at": "2026-08-03T10:16:40.056995+00:00",
+    "migrated_at": "2026-08-03T10:16:40.059514+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "eb1a2aa64700fae49a2ba57961e7030feea6f2f624c0afbbdd3405fe961b3feb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_150cd920e64f68ee1c76e14f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:16:40.059731+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_150cd920e64f68ee1c76e14f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

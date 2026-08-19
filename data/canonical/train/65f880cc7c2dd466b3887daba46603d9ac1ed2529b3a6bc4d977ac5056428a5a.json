@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1756.jpg",
+    "relative_path": "train/1756.jpg",
+    "sha256": "65f880cc7c2dd466b3887daba46603d9ac1ed2529b3a6bc4d977ac5056428a5a",
+    "split": "train"
+  },
+  "canonical_sha256": "d85f0aa23266875b58f8e2d1aa29f728ef44cdc5716e397d9a2487c6ef2b695e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "老木窗",
+      "粉玫瑰",
+      "绿叶藤蔓",
+      "磨砂玻璃"
+    ],
+    "short_description": "老木窗框旁攀爬着粉玫瑰，绿叶繁茂，窗玻璃呈磨砂质感，墙面斑驳。",
+    "theme": "窗边蔷薇"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "蔷薇花丛可能正在生长并攀爬窗框。"
+    ],
+    "direct_observations": [
+      "窗框由深色木材制成，表面有剥落漆皮。",
+      "窗玻璃呈现均匀的磨砂纹理，透光但模糊。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质窗框老化",
+      "玻璃呈磨砂状",
+      "花朵为粉色",
+      "叶片为绿色"
+    ],
+    "relations": [
+      "蔷薇花丛攀附于窗框旁。",
+      "窗框紧贴墙面。"
+    ],
+    "scene": "室外建筑角落",
+    "subjects": [
+      "木窗",
+      "蔷薇花丛"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "蔷薇花丛可能正在生长并攀爬窗框。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "窗框由深色木材制成，表面有剥落漆皮；窗玻璃呈现均匀的磨砂纹理，透光但模糊。",
+    "safe_facts": [
+      "窗框由深色木材制成，表面有剥落漆皮。",
+      "窗玻璃呈现均匀的磨砂纹理，透光但模糊。"
+    ]
+  },
+  "label_id": "cpl_5eda8a8ad0b40ab8c8ee4f4c",
+  "provenance": {
+    "generated_at": "2026-08-02T22:03:48.518214+00:00",
+    "migrated_at": "2026-08-03T07:13:41.344295+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "241081767a6917c96f93fa5bd4145a69f8177d3038314d4e842cd1e928eed2eb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2743482278237d3ec23e76b2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:03:14.586476+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2743482278237d3ec23e76b2",
+    "cpl_f5ac3aedd50c0955af131862"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

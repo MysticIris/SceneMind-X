@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:689.jpg",
+    "relative_path": "train/689.jpg",
+    "sha256": "0c260c1aa89a39f31bae261d1af19efe0105a3e570e688f3c3a46ba6cd482cd0",
+    "split": "train"
+  },
+  "canonical_sha256": "796f38282048f20155b5b48dcd3ef273bdb37e0aa2f4f6f19104849ec32ac577",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蓝色顶棚",
+      "红色汉字",
+      "建筑入口"
+    ],
+    "short_description": "蓝色弧形顶棚覆盖建筑入口，上方有红色汉字标识，背景为多层住宅楼。",
+    "theme": "蓝色顶棚建筑入口"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "蓝色半透明塑料顶棚呈拱形结构。",
+      "建筑外墙由深色瓷砖构成。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色透明材质",
+      "红色立体字",
+      "灰色砖墙",
+      "绿色植物"
+    ],
+    "relations": [
+      "顶棚覆盖入口。",
+      "顶棚悬挂在建筑外立面。"
+    ],
+    "scene": "城市建筑入口区域",
+    "subjects": [
+      "蓝色顶棚",
+      "建筑外墙",
+      "远处楼房",
+      "树木"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "蓝色半透明塑料顶棚呈拱形结构；建筑外墙由深色瓷砖构成。",
+    "safe_facts": [
+      "蓝色半透明塑料顶棚呈拱形结构。",
+      "建筑外墙由深色瓷砖构成。"
+    ]
+  },
+  "label_id": "cpl_75d885db54322a666db28ae3",
+  "provenance": {
+    "generated_at": "2026-08-03T12:01:14.445837+00:00",
+    "migrated_at": "2026-08-03T12:01:14.450287+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "9e55f8e81983c156c8e3d9942a9408dd45a708ef304631b5b4693605983c7b4a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8d21d414a818bcbba0ac2aa2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:01:14.450633+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8d21d414a818bcbba0ac2aa2"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

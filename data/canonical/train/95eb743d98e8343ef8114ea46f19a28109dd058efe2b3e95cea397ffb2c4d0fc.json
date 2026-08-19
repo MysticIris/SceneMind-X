@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:871.jpg",
+    "relative_path": "train/871.jpg",
+    "sha256": "95eb743d98e8343ef8114ea46f19a28109dd058efe2b3e95cea397ffb2c4d0fc",
+    "split": "train"
+  },
+  "canonical_sha256": "4419ec1edc67b4612d8578b85c15c83e0b3f7f5a7090716ec85e2cf9e4b264e3",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "美食街",
+      "人群密集",
+      "各国旗帜"
+    ],
+    "short_description": "俯拍视角下，人群聚集于装饰有各国旗帜的室内美食街区，摊位与顾客密集，氛围热闹。",
+    "theme": "室内美食街"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有多人聚集在室内空间，部分人在摊位前停留或用餐。",
+      "天花板上悬挂着多面不同国家的旗帜。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "行走",
+      "用餐"
+    ],
+    "attributes": [
+      "多人聚集",
+      "悬挂旗帜",
+      "灯光照明"
+    ],
+    "relations": [
+      "顾客在摊位附近活动。",
+      "旗帜悬挂在天花板。"
+    ],
+    "scene": "室内美食街区",
+    "subjects": [
+      "顾客",
+      "摊位",
+      "旗帜"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有多人聚集在室内空间，部分人在摊位前停留或用餐；天花板上悬挂着多面不同国家的旗帜。",
+    "safe_facts": [
+      "画面中有多人聚集在室内空间，部分人在摊位前停留或用餐。",
+      "天花板上悬挂着多面不同国家的旗帜。"
+    ]
+  },
+  "label_id": "cpl_705b1a52037e2a99cc6f1c0a",
+  "provenance": {
+    "generated_at": "2026-08-03T12:40:29.723170+00:00",
+    "migrated_at": "2026-08-03T12:40:29.725535+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2f773464dc88fa534d14f032ec810bdbc406a2bb7134bb557ecd635d38545d18",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ed7be404a72f22a218715410",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:40:29.726757+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ed7be404a72f22a218715410"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:71.jpg",
+    "relative_path": "train/71.jpg",
+    "sha256": "509a06e32e8710113dedde1b552ee894adf21038cd02bf0eccd3b24adbb8bd39",
+    "split": "train"
+  },
+  "canonical_sha256": "e46a6553f131827bd968e4a24c2b6073ef4ae90efd65b7cd61da0056ecf35b59",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市景观",
+      "黄昏",
+      "高楼大厦",
+      "车流灯光"
+    ],
+    "short_description": "城市高楼林立，天空霞光绚烂，街道车流如织，灯火初上，展现都市傍晚的繁华与宁静。",
+    "theme": "城市黄昏天际线"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能处于日落后的城市黄昏时段。"
+    ],
+    "direct_observations": [
+      "天空呈现从橙红色到深蓝色的渐变色带。",
+      "多栋高层建筑轮廓清晰，部分窗户亮着灯光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空呈橙红与深蓝渐变",
+      "建筑群灯光亮起",
+      "道路有车灯轨迹"
+    ],
+    "relations": [
+      "建筑群环绕道路分布。",
+      "道路延伸至远方桥梁。"
+    ],
+    "scene": "城市夜景与黄昏交界处",
+    "subjects": [
+      "高层住宅楼群",
+      "城市道路",
+      "天空云层"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能处于日落后的城市黄昏时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现从橙红色到深蓝色的渐变色带；多栋高层建筑轮廓清晰，部分窗户亮着灯光。",
+    "safe_facts": [
+      "天空呈现从橙红色到深蓝色的渐变色带。",
+      "多栋高层建筑轮廓清晰，部分窗户亮着灯光。"
+    ]
+  },
+  "label_id": "cpl_39250f605920988131e847d2",
+  "provenance": {
+    "generated_at": "2026-08-03T09:19:20.996798+00:00",
+    "migrated_at": "2026-08-03T09:19:20.999373+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "884f4649c22a558211542b75ed0cb7b3ee30bcecc95d547f8c39d4115188e72a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2fefbd6ca8829d47c6b2b9e7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:28.027200+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2fefbd6ca8829d47c6b2b9e7",
+    "cpl_0c75f7ef6ebe7176c5896f80"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

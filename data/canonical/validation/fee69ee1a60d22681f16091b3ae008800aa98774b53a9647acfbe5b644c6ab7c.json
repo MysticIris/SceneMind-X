@@ -1,0 +1,117 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2253.jpg",
+    "relative_path": "val/2253.jpg",
+    "sha256": "fee69ee1a60d22681f16091b3ae008800aa98774b53a9647acfbe5b644c6ab7c",
+    "split": "val"
+  },
+  "canonical_sha256": "347ddc3b6da421cd83da3b2c8d2d412d3d752773bbd1035bde3a2ff1d1a5f6c0",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "绿色烟花",
+      "夜空",
+      "庆祝",
+      "烟花绽放"
+    ],
+    "short_description": "夜空中绿色烟花绽放，伴有烟雾和尾迹，呈现节日庆典氛围。",
+    "theme": "绿色烟花绽放"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天空中有多个绿色烟花正在绽放。",
+      "烟花周围有烟雾和尾迹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "绽放"
+    ],
+    "attributes": [
+      "绿色",
+      "发光",
+      "有烟雾"
+    ],
+    "relations": [],
+    "scene": "夜间户外",
+    "subjects": [
+      "烟花"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空中有多个绿色烟花正在绽放；烟花周围有烟雾和尾迹。",
+    "safe_facts": [
+      "天空中有多个绿色烟花正在绽放。",
+      "烟花周围有烟雾和尾迹。"
+    ]
+  },
+  "label_id": "cpl_45cbf4784bb507f3dc572c80",
+  "provenance": {
+    "generated_at": "2026-08-03T16:18:27.915795+00:00",
+    "migrated_at": "2026-08-03T16:18:27.918095+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "64a5ae4e9798054f93924f6ffc0f1e0bbfcbe6d5d782e871b2015bd08e7a4a21",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d74ef209ae2e11e02353bccc",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:18:27.918425+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d74ef209ae2e11e02353bccc"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

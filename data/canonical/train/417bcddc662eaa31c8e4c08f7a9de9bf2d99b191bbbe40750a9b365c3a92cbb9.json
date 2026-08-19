@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1423.jpg",
+    "relative_path": "train/1423.jpg",
+    "sha256": "417bcddc662eaa31c8e4c08f7a9de9bf2d99b191bbbe40750a9b365c3a92cbb9",
+    "split": "train"
+  },
+  "canonical_sha256": "e5bae8f736d38b9ebdc7aae38780fdbc6f00c4be2e7641cefc45d70eb9143ee1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "猫咪",
+      "玩玩具",
+      "毛绒毯",
+      "蓝色挂件"
+    ],
+    "short_description": "一只白灰相间的长毛猫正躺在毛绒毯上，用嘴咬住一个蓝色布质挂件，眼睛圆睁，表情专注。",
+    "theme": "猫咪玩玩具"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "挂件可能连接在包的拉链上。"
+    ],
+    "direct_observations": [
+      "猫的毛发蓬松且呈白色与灰色相间。",
+      "猫嘴巴张开，正在咬一个蓝色布质挂件。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "咬",
+      "躺着"
+    ],
+    "attributes": [
+      "长毛",
+      "白灰相间",
+      "大眼睛",
+      "张着嘴"
+    ],
+    "relations": [
+      "猫在毯子上。",
+      "猫咬着挂件。",
+      "挂件挂在包上。"
+    ],
+    "scene": "室内毛绒毯上",
+    "subjects": [
+      "一只猫",
+      "一个蓝色包",
+      "一个蓝色挂件"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "挂件可能连接在包的拉链上。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "猫的毛发蓬松且呈白色与灰色相间；猫嘴巴张开，正在咬一个蓝色布质挂件。",
+    "safe_facts": [
+      "猫的毛发蓬松且呈白色与灰色相间。",
+      "猫嘴巴张开，正在咬一个蓝色布质挂件。"
+    ]
+  },
+  "label_id": "cpl_9fb765defccc01952a252670",
+  "provenance": {
+    "generated_at": "2026-08-03T14:22:26.301934+00:00",
+    "migrated_at": "2026-08-03T14:22:26.305307+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "229ec48a5ad234a879ecd180511f0ce3cdcd2fc00750034252877d665c772ba0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_4baf13066b91afeb306f2dc4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:22:26.306872+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_4baf13066b91afeb306f2dc4"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

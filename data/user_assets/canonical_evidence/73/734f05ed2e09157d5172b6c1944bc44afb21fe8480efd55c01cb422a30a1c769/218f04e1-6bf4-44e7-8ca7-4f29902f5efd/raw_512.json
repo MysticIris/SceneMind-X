@@ -1,0 +1,127 @@
+{
+  "asset_id": "734f05ed2e09157d",
+  "asset_sha256": "734f05ed2e09157d5172b6c1944bc44afb21fe8480efd55c01cb422a30a1c769",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"城市夜景人像\",\n    \"short_description\": \"夜晚的城市街头，一位长发女性站在天桥或高处的玻璃护栏旁。她身穿印有英文字母的白色短袖上衣和蓝色牛仔裤，肩背米色单肩包。面部被一个黄色的大笑表情符号遮挡，双手举起靠近头部。背景可见高楼大厦、路灯及街道上的车辆。\",\n    \"micro_tags\": [\n      \"夜景\",\n      \"街拍\",\n      \"白色T恤\",\n      \"牛仔裤\",\n      \"表情包遮挡\",\n      \"城市建筑\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"夜晚的城市街道高处视角\",\n    \"subjects\": [\n      \"长发女性\"\n    ],\n    \"actions\": [\n      \"站立\",\n      \"双手举至头部附近\",\n      \"面对镜头\"\n    ],\n    \"attributes\": [\n      \"黑色长发\",\n      \"白色印花短袖上衣\",\n      \"蓝色直筒牛仔裤\",\n      \"米色菱格纹单肩包\",\n      \"面部被黄色大笑Emoji遮挡\"\n    ],\n    \"relations\": [\n      \"人物位于玻璃护栏内侧\",\n      \"人物位于街道上方\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"图中女性身穿白色短袖T恤，胸前印有三行黑色轮廓英文字母，下身穿着蓝色牛仔裤。\",\n      \"人物面部完全被一个黄色的、张嘴大笑的表情符号（Emoji）贴图覆盖。\",\n      \"背景为夜间城市景观，包含多栋亮灯的高层建筑、路灯以及下方道路上的白色轿车和电动车。\",\n      \"人物左肩背着一个米白色的绗缝纹理单肩包。\"\n    ],\n    \"cautious_inferences\": [\n      \"人物可能站在人行天桥或建筑物二层的户外走廊上，因为视角高于路面且有玻璃护栏。\",\n      \"T恤上的文字看起来像是 'FOCUS ON THE PRESENT'，但因字体设计和褶皱无法百分之百确认。\"\n    ],\n    \"uncertainties\": [\n      \"无法确认人物的具体身份或拍摄的具体地点名称。\",\n      \"无法确认T恤上文字的完整准确拼写。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"FOCUS\",\n      \"ONE THE\",\n      \"RESENT\",\n      \"Soul APP\",\n      \"都汇酒店\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一名长发女性在夜晚的城市高处护栏边拍照，身穿白色印花T恤和牛仔裤，背着浅色包，面部被表情符号遮挡，背景是灯火通明的街道和高楼。\",\n    \"safe_facts\": [\n      \"图片展示了一名女性在夜间城市环境中的半身照。\",\n      \"主体穿着白色短袖上衣和蓝色牛仔裤。\",\n      \"背景包含高层建筑和街道交通。\",\n      \"人物面部被数字图形遮挡。\"\n    ]\n  }\n}",
+      "input_tokens": 3248,
+      "output_tokens": 706,
+      "finish_reason": "stop",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": false,
+      "usage": {
+        "input_tokens": 3248,
+        "output_tokens": 706,
+        "total_tokens": 3954,
+        "estimated_cost_cny": 0.012144,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "payload_version": "phase6_0a_model_payload_v1",
+        "display": {
+          "theme": "城市夜景人像",
+          "short_description": "夜晚的城市街头，一位长发女性站在天桥或高处的玻璃护栏旁。她身穿印有英文字母的白色短袖上衣和蓝色牛仔裤，肩背米色单肩包。面部被一个黄色的大笑表情符号遮挡，双手举起靠近头部。背景可见高楼大厦、路灯及街道上的车辆。",
+          "micro_tags": [
+            "夜景",
+            "街拍",
+            "白色T恤",
+            "牛仔裤",
+            "表情包遮挡",
+            "城市建筑"
+          ]
+        },
+        "facts": {
+          "visual_medium": "photograph",
+          "scene": "夜晚的城市街道高处视角",
+          "subjects": [
+            "长发女性"
+          ],
+          "actions": [
+            "站立",
+            "双手举至头部附近",
+            "面对镜头"
+          ],
+          "attributes": [
+            "黑色长发",
+            "白色印花短袖上衣",
+            "蓝色直筒牛仔裤",
+            "米色菱格纹单肩包",
+            "面部被黄色大笑Emoji遮挡"
+          ],
+          "relations": [
+            "人物位于玻璃护栏内侧",
+            "人物位于街道上方"
+          ]
+        },
+        "evidence": {
+          "direct_observations": [
+            "图中女性身穿白色短袖T恤，胸前印有三行黑色轮廓英文字母，下身穿着蓝色牛仔裤。",
+            "人物面部完全被一个黄色的、张嘴大笑的表情符号（Emoji）贴图覆盖。",
+            "背景为夜间城市景观，包含多栋亮灯的高层建筑、路灯以及下方道路上的白色轿车和电动车。",
+            "人物左肩背着一个米白色的绗缝纹理单肩包。"
+          ],
+          "cautious_inferences": [
+            "人物可能站在人行天桥或建筑物二层的户外走廊上，因为视角高于路面且有玻璃护栏。",
+            "T恤上的文字看起来像是 'FOCUS ON THE PRESENT'，但因字体设计和褶皱无法百分之百确认。"
+          ],
+          "uncertainties": [
+            "无法确认人物的具体身份或拍摄的具体地点名称。",
+            "无法确认T恤上文字的完整准确拼写。"
+          ]
+        },
+        "text_evidence": {
+          "presence": "present_readable",
+          "visual_candidates": [
+            "FOCUS",
+            "ONE THE",
+            "RESENT",
+            "Soul APP",
+            "都汇酒店"
+          ]
+        },
+        "fallback": {
+          "safe_caption": "一名长发女性在夜晚的城市高处护栏边拍照，身穿白色印花T恤和牛仔裤，背着浅色包，面部被表情符号遮挡，背景是灯火通明的街道和高楼。",
+          "safe_facts": [
+            "图片展示了一名女性在夜间城市环境中的半身照。",
+            "主体穿着白色短袖上衣和蓝色牛仔裤。",
+            "背景包含高层建筑和街道交通。",
+            "人物面部被数字图形遮挡。"
+          ]
+        }
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 1317548,
+        "request_bytes": 985087,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 13.883561499998905,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "49e10a7077afc8274e8c5bc97a7b2ce47d1a44fea316374b5c705dbd80fdfa45"
+}

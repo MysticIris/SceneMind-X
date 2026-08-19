@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1230.jpg",
+    "relative_path": "train/1230.jpg",
+    "sha256": "3415ce50be91cc66733344ef409d9c38c820dbbfbde6f02134ce0707a9b3a6b1",
+    "split": "train"
+  },
+  "canonical_sha256": "e563a2ae236f2e142a6c5269192106048b2a2058510640ff890e79c01e2f8ffc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "粉色花朵",
+      "春日枝头",
+      "绿叶点缀"
+    ],
+    "short_description": "粉嫩花朵垂挂枝头，绿叶相伴，背景是校园小径与建筑，阳光明媚。",
+    "theme": "春日花枝"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能为春季开花植物。",
+      "看起来是自然光照下的户外场景。"
+    ],
+    "direct_observations": [
+      "画面前景有大量粉红色花朵簇拥在枝条上。",
+      "背景可见浅色砖墙建筑与修剪整齐的灌木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "粉红色",
+      "盛开",
+      "绿色叶片",
+      "晴朗天气"
+    ],
+    "relations": [
+      "花朵生长于枝条上。",
+      "枝条连接绿叶。",
+      "花朵位于前景，建筑在背景。"
+    ],
+    "scene": "户外庭院或校园路径",
+    "subjects": [
+      "粉色花朵",
+      "绿叶",
+      "建筑",
+      "小径",
+      "灌木丛"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能为春季开花植物。",
+      "看起来是自然光照下的户外场景。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景有大量粉红色花朵簇拥在枝条上；背景可见浅色砖墙建筑与修剪整齐的灌木。",
+    "safe_facts": [
+      "画面前景有大量粉红色花朵簇拥在枝条上。",
+      "背景可见浅色砖墙建筑与修剪整齐的灌木。"
+    ]
+  },
+  "label_id": "cpl_80be5edce65b022558fbed5d",
+  "provenance": {
+    "generated_at": "2026-08-03T13:56:12.511624+00:00",
+    "migrated_at": "2026-08-03T13:56:12.514845+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5eac22413971bdb8947563715d253a5ba5a346e85a6dda072d9f896699548798",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_15bf26cb730c15a723b40bff",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:56:12.515200+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_15bf26cb730c15a723b40bff"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

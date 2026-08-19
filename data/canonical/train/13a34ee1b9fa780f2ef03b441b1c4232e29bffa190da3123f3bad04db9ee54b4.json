@@ -1,0 +1,120 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:717.jpg",
+    "relative_path": "train/717.jpg",
+    "sha256": "13a34ee1b9fa780f2ef03b441b1c4232e29bffa190da3123f3bad04db9ee54b4",
+    "split": "train"
+  },
+  "canonical_sha256": "023ad4b945fcae7e0df3cdda196f4062ef0607aca2ffc775b90044b72c09feb1",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "木制长凳",
+      "白色设备",
+      "地面水渍"
+    ],
+    "short_description": "一间房间内有木制长凳、一台白色设备及墙边立牌，地面有水渍痕迹。",
+    "theme": "室内木质家具与设备"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "房间内有一张木制长凳，带有抽屉和开放隔层。",
+      "地面有明显水渍痕迹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木制长凳有抽屉",
+      "白色设备带显示屏",
+      "地面有水渍"
+    ],
+    "relations": [
+      "木制长凳位于白色设备左侧。",
+      "立牌位于白色设备旁。"
+    ],
+    "scene": "室内房间",
+    "subjects": [
+      "木制长凳",
+      "白色设备",
+      "立牌",
+      "窗户"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "房间内有一张木制长凳，带有抽屉和开放隔层；地面有明显水渍痕迹。",
+    "safe_facts": [
+      "房间内有一张木制长凳，带有抽屉和开放隔层。",
+      "地面有明显水渍痕迹。"
+    ]
+  },
+  "label_id": "cpl_2215f2906e90d2ced937a227",
+  "provenance": {
+    "generated_at": "2026-08-03T12:07:26.297009+00:00",
+    "migrated_at": "2026-08-03T12:07:26.302782+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d2623ae61925aa1110bed3de93994c1a584580c4ba83f2ac8059216ef8c5b22b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_30165a54868f15285be4c2a1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:07:26.303186+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_30165a54868f15285be4c2a1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

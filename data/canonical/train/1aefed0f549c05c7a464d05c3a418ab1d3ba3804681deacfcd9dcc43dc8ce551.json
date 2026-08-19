@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:945.jpg",
+    "relative_path": "train/945.jpg",
+    "sha256": "1aefed0f549c05c7a464d05c3a418ab1d3ba3804681deacfcd9dcc43dc8ce551",
+    "split": "train"
+  },
+  "canonical_sha256": "e4cb7f943c7f4fafdef34fb836f6eb7d6e54c4198e941b7ba656764d474cbc2b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石灯笼",
+      "竹林",
+      "石门框",
+      "庭院景观"
+    ],
+    "short_description": "石门框内景，一座石灯笼立于竹林旁，地面铺满碎石，背景有树木与水体。",
+    "theme": "日式庭院入口"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "灯笼可能用于照明或装饰用途。"
+    ],
+    "direct_observations": [
+      "画面中央有一座多层石制灯笼。",
+      "灯笼后方有密集的绿色竹子。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "石灯笼呈多层结构",
+      "竹林茂密",
+      "地面铺有碎石"
+    ],
+    "relations": [
+      "石灯笼位于竹林前方。",
+      "石灯笼置于石门框内。"
+    ],
+    "scene": "日式庭院入口",
+    "subjects": [
+      "石灯笼",
+      "竹林",
+      "石门框",
+      "树木",
+      "碎石地面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "灯笼可能用于照明或装饰用途。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央有一座多层石制灯笼；灯笼后方有密集的绿色竹子。",
+    "safe_facts": [
+      "画面中央有一座多层石制灯笼。",
+      "灯笼后方有密集的绿色竹子。"
+    ]
+  },
+  "label_id": "cpl_8481b9cf281ba3050be76ac0",
+  "provenance": {
+    "generated_at": "2026-08-03T13:05:59.801629+00:00",
+    "migrated_at": "2026-08-03T13:05:59.804621+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "008179a035f85490d144468fc2a277b1f6f34aee77f3d0ff6d361f5b33a54a5f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8481b9cf281ba3050be76ac0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:21:19.882916+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_33033e613e4a069f7e2938d3"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

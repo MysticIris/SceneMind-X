@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scenemind-x.local/schemas/scenemindx_canonical_pseudo_label_v2_candidate.schema.json",
+  "title": "SceneMind-X canonical pseudo-label v2 candidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "label_id", "asset", "display", "facts", "evidence", "text_evidence", "fallback", "quality", "provenance", "canonical_sha256"],
+  "properties": {
+    "schema_version": {"const": "scenemindx_canonical_pseudo_label_v2_candidate"},
+    "label_id": {"type": "string", "pattern": "^cpl_[0-9a-f]{24}$"},
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["asset_id", "sha256", "split", "relative_path"],
+      "properties": {
+        "asset_id": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "split": {"const": "train"},
+        "relative_path": {"type": "string", "minLength": 1}
+      }
+    },
+    "display": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["theme", "short_description", "micro_tags"],
+      "properties": {
+        "theme": {"type": "string", "minLength": 2, "maxLength": 24},
+        "short_description": {"type": "string", "minLength": 8, "maxLength": 140},
+        "micro_tags": {"type": "array", "minItems": 1, "maxItems": 8, "uniqueItems": true, "items": {"type": "string", "minLength": 1, "maxLength": 18}}
+      }
+    },
+    "facts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["visual_medium", "scene", "subjects", "actions", "attributes", "relations"],
+      "properties": {
+        "visual_medium": {"enum": ["photograph", "screenshot", "illustration", "poster_document", "product_packaging", "mixed", "uncertain"]},
+        "scene": {"type": "string", "maxLength": 100},
+        "subjects": {"type": "array", "minItems": 1, "maxItems": 6, "items": {"type": "string", "minLength": 1, "maxLength": 40}},
+        "actions": {"type": "array", "maxItems": 5, "items": {"type": "string", "minLength": 1, "maxLength": 40}},
+        "attributes": {"type": "array", "maxItems": 6, "items": {"type": "string", "minLength": 1, "maxLength": 40}},
+        "relations": {"type": "array", "maxItems": 5, "items": {"type": "string", "minLength": 1, "maxLength": 60}}
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["direct_observations", "cautious_inferences", "uncertainties"],
+      "properties": {
+        "direct_observations": {"type": "array", "minItems": 1, "maxItems": 8, "items": {"type": "string", "minLength": 1, "maxLength": 80}},
+        "cautious_inferences": {"type": "array", "maxItems": 4, "items": {"type": "string", "minLength": 1, "maxLength": 80}},
+        "uncertainties": {"type": "array", "maxItems": 4, "items": {"type": "string", "minLength": 1, "maxLength": 80}}
+      }
+    },
+    "text_evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["presence", "visual_candidates", "verification_status", "verified_text", "verified_text_source"],
+      "properties": {
+        "presence": {"enum": ["none", "present_readable", "present_unreadable", "uncertain"]},
+        "visual_candidates": {"type": "array", "maxItems": 6, "items": {"type": "string", "minLength": 1, "maxLength": 40}},
+        "verification_status": {"const": "unverified_visual_candidate_only"},
+        "verified_text": {"type": "array", "maxItems": 0},
+        "verified_text_source": {"const": "not_available"}
+      }
+    },
+    "fallback": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["safe_caption", "safe_facts", "policy", "must_not_override_valid_model_output"],
+      "properties": {
+        "safe_caption": {"type": "string", "minLength": 8, "maxLength": 140},
+        "safe_facts": {"type": "array", "minItems": 1, "maxItems": 5, "items": {"type": "string", "minLength": 1, "maxLength": 80}},
+        "policy": {"const": "use_only_when_public_model_body_invalid"},
+        "must_not_override_valid_model_output": {"const": true}
+      }
+    },
+    "quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "schema_valid", "validation_errors", "human_review_status", "sanitization_applied", "sanitization_actions"],
+      "properties": {
+        "status": {"enum": ["accepted", "rejected"]},
+        "schema_valid": {"type": "boolean"},
+        "validation_errors": {"type": "array", "items": {"type": "string"}},
+        "human_review_status": {"enum": ["pending", "reviewed"]},
+        "sanitization_applied": {"type": "boolean"},
+        "sanitization_actions": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_run_id", "generated_at", "prompt_id", "prompt_sha256", "model", "model_revision", "raw_output_sha256", "normalizer", "validator"],
+      "properties": {
+        "source_run_id": {"type": "string", "minLength": 1},
+        "generated_at": {"type": "string", "minLength": 1},
+        "prompt_id": {"const": "phase6_0a_canonical_pseudo_label_v1"},
+        "prompt_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "model": {"type": "string", "minLength": 1},
+        "model_revision": {"type": "string", "minLength": 1},
+        "raw_output_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "normalizer": {"const": "phase6_0a_lossless_normalizer_v1"},
+        "validator": {"const": "phase6_0a_canonical_validator_v1"}
+      }
+    },
+    "canonical_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}

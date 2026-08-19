@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1357.jpg",
+    "relative_path": "train/1357.jpg",
+    "sha256": "9b66f6a30992a2bea827a6842cae62f00247dbdd35c749bb6bc294301a8bc726",
+    "split": "train"
+  },
+  "canonical_sha256": "a9501e824199f8199a333c866e83b9dc567ed8896af96af2c5e888e16b765404",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "趋势图",
+      "数据统计"
+    ],
+    "short_description": "画面中可见条形柱状图和折线图。",
+    "theme": "历年杀人案数据趋势"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见条形柱状图和折线图。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色柱状图",
+      "绿色折线图",
+      "横轴时间轴",
+      "纵轴数值刻度"
+    ],
+    "relations": [],
+    "scene": "数据图表展示区",
+    "subjects": [
+      "条形柱状图",
+      "折线图"
+    ],
+    "visual_medium": "poster_document"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见条形柱状图和折线图。",
+    "safe_facts": [
+      "画面中可见条形柱状图和折线图。"
+    ]
+  },
+  "label_id": "cpl_b27c8eb2fbb3218a0e1043ac",
+  "provenance": {
+    "codex_visual_review_evidence": "artifacts/phase6_1_private/run_20260803_full_v2_1_1/review/train/train_visual_review_results.json",
+    "codex_visual_review_evidence_sha256": "170dc34eb8269f1babe6835cdb58f23286285057aea88fcd9025beb9e0166c19",
+    "codex_visual_review_method": "phase6_1_stratified_original_image_and_label_inspection",
+    "codex_visual_reviewed_at": "2026-08-03T16:42:00+00:00",
+    "generated_at": "2026-08-03T14:12:17.444795+00:00",
+    "migrated_at": "2026-08-03T14:12:17.450857+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "256901692a257ba9e72221f57a7c744586f1dfcec32fafb40cdf77b47fb0442c",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_83e8aab56dc67611043871a5",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:12:17.452029+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:direct_observations",
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [
+        "柱状图和折线图的可见结构描述准确。"
+      ],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_83e8aab56dc67611043871a5"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "历年《公安机关立案的杀人刑事案件》(1995-2021)",
+      "数据来源:国家统计局历年《公安机关立案的杀人刑事案件(起)》和《年末总人口》。",
+      "杀人案件(起)",
+      "比例(起/百万人)"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "历年《公安机关立案的杀人刑事案件》(1995-2021)",
+      "数据来源:国家统计局历年《公安机关立案的杀人刑事案件(起)》和《年末总人口》。",
+      "杀人案件(起)",
+      "比例(起/百万人)"
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:635.jpg",
+    "relative_path": "train/635.jpg",
+    "sha256": "47cb43306249e8b280fbfccd6bcad685a70ff9c02100aa9a26be4cce5c01324a",
+    "split": "train"
+  },
+  "canonical_sha256": "a4a0fb87c869e2adbab0e96c95d2c2734b92cde08c1a3ec56042b1021a4a0249",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电动踏板车",
+      "白色汽车",
+      "地砖路面"
+    ],
+    "short_description": "一辆灰色电动踏板车停在铺有彩色地砖的路边，旁边是一辆白色SUV，车轮和车篮清晰可见。",
+    "theme": "电动踏板车旁停着汽车"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有一辆灰色电动踏板车，配有车篮和座椅。",
+      "背景中有一辆白色SUV，其车轮和侧门可见。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "灰色车身",
+      "黑色座椅",
+      "金属车篮",
+      "多色地砖地面"
+    ],
+    "relations": [
+      "电动踏板车停在白色汽车旁边。"
+    ],
+    "scene": "户外停车场或路边",
+    "subjects": [
+      "电动踏板车",
+      "白色汽车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一辆灰色电动踏板车，配有车篮和座椅；背景中有一辆白色SUV，其车轮和侧门可见。",
+    "safe_facts": [
+      "画面中有一辆灰色电动踏板车，配有车篮和座椅。",
+      "背景中有一辆白色SUV，其车轮和侧门可见。"
+    ]
+  },
+  "label_id": "cpl_7936124cad11a0f5b79a3b9f",
+  "provenance": {
+    "generated_at": "2026-08-03T11:48:53.369563+00:00",
+    "migrated_at": "2026-08-03T11:48:53.372685+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f0c2d915274856bfcad68027e674e4e35ddd090affb07cc66faf92fec2ce4afd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fb791296af23dd2971b50ac9",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:48:53.373044+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fb791296af23dd2971b50ac9"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

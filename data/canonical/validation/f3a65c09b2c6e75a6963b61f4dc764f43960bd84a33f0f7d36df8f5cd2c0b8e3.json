@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2303.jpg",
+    "relative_path": "val/2303.jpg",
+    "sha256": "f3a65c09b2c6e75a6963b61f4dc764f43960bd84a33f0f7d36df8f5cd2c0b8e3",
+    "split": "val"
+  },
+  "canonical_sha256": "e3013387bd6ee0b988ad670cd37a9ffb9f62ef1dbb9f5ccce4b7addd1e5a702b",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市街道",
+      "黄昏",
+      "车辆行驶",
+      "建筑群"
+    ],
+    "short_description": "傍晚时分的城市街道，车辆行驶，路边有建筑和树木，天空呈现淡蓝色至粉紫色渐变。",
+    "theme": "城市街道黄昏景象"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天空呈现从浅蓝到淡粉的渐变色调。",
+      "道路上有行驶中的汽车和一名骑行者。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行驶",
+      "骑行"
+    ],
+    "attributes": [
+      "天空渐变色",
+      "道路标线",
+      "树荫"
+    ],
+    "relations": [
+      "车辆在道路上行驶。",
+      "骑行者在道路右侧骑行。",
+      "建筑位于道路两侧。"
+    ],
+    "scene": "城市道路",
+    "subjects": [
+      "白色SUV",
+      "黑色轿车",
+      "骑行者",
+      "路灯",
+      "高层建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现从浅蓝到淡粉的渐变色调；道路上有行驶中的汽车和一名骑行者。",
+    "safe_facts": [
+      "天空呈现从浅蓝到淡粉的渐变色调。",
+      "道路上有行驶中的汽车和一名骑行者。"
+    ]
+  },
+  "label_id": "cpl_6dbceb771f93395215426ee0",
+  "provenance": {
+    "generated_at": "2026-08-03T16:24:37.146680+00:00",
+    "migrated_at": "2026-08-03T16:24:37.149224+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "00c7ae9390607d7abd2dc89180d1a83c67bc6fe36a33cbd960c84a65537bb38b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3c6c68a28455be60f9215f70",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:24:37.149564+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3c6c68a28455be60f9215f70"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

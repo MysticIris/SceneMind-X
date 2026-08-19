@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:653.jpg",
+    "relative_path": "train/653.jpg",
+    "sha256": "7fe1f21c1a1fa502f73e98877b472f67ca19a779ae3bf419954a94930bae63ad",
+    "split": "train"
+  },
+  "canonical_sha256": "90baaafa7eac034d498ef2e2156bbc530e31990a5ba5bad5ea06f0e1058a3adb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "举奖杯",
+      "烟花绽放",
+      "庆祝场面"
+    ],
+    "short_description": "多人合力举起奖杯，烟花四溅，现场气氛热烈，地面散落彩屑，背景灯光璀璨。",
+    "theme": "庆典胜利瞬间"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多人双手共同托举一个奖杯。",
+      "空中有大量金色火花飞溅。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "举起",
+      "庆祝"
+    ],
+    "attributes": [
+      "火花四溅",
+      "灯光璀璨",
+      "地面有彩屑"
+    ],
+    "relations": [
+      "多人共同举起奖杯。"
+    ],
+    "scene": "室内舞台或颁奖现场",
+    "subjects": [
+      "多人",
+      "奖杯"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多人双手共同托举一个奖杯；空中有大量金色火花飞溅。",
+    "safe_facts": [
+      "多人双手共同托举一个奖杯。",
+      "空中有大量金色火花飞溅。"
+    ]
+  },
+  "label_id": "cpl_6a0561f33aab9a878f3d7dcb",
+  "provenance": {
+    "generated_at": "2026-08-03T11:52:49.314998+00:00",
+    "migrated_at": "2026-08-03T11:52:49.318192+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a688c3803c528491391c2a23951c066818f2ca2dfb7e0650771ab1ab519293ee",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_160de71a0427cfd105455dfa",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:52:49.318907+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_160de71a0427cfd105455dfa"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "聂见炊烟 bili bili",
+      "bilibili BV12e411Z7yA 1:02:48/1:03:22"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "聂见炊烟 bili bili",
+      "bilibili BV12e411Z7yA 1:02:48/1:03:22"
+    ]
+  }
+}

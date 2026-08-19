@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:82.jpg",
+    "relative_path": "train/82.jpg",
+    "sha256": "46215c141a3d40965618ed1d7e839fbd33ac9dcef07f90f95d649aed90cec9fe",
+    "split": "train"
+  },
+  "canonical_sha256": "26cc09e046ba77b38ca64f8bab0464acbaa036b1990f4f1100d8132d6c3b7864",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "火锅",
+      "蘸料",
+      "食材拼盘",
+      "筷子"
+    ],
+    "short_description": "桌上摆放着火锅锅具、多种生食拼盘及两碗蘸料，旁边有一杯深色饮料。",
+    "theme": "火锅食材与蘸料"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中可见火锅锅具，内含红汤底。",
+      "桌面上有多个白色方形容器装着不同食材。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金属锅体",
+      "白色塑料容器",
+      "红色汤底",
+      "绿色葱花",
+      "深色饮料"
+    ],
+    "relations": [
+      "蘸料碗位于锅具前方。",
+      "食材拼盘置于锅具后方。"
+    ],
+    "scene": "火锅餐桌",
+    "subjects": [
+      "火锅锅具",
+      "食材拼盘",
+      "蘸料碗",
+      "饮料杯",
+      "筷子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中可见火锅锅具，内含红汤底；桌面上有多个白色方形容器装着不同食材。",
+    "safe_facts": [
+      "画面中可见火锅锅具，内含红汤底。",
+      "桌面上有多个白色方形容器装着不同食材。"
+    ]
+  },
+  "label_id": "cpl_00ccbc49f27ff157e44ed7ce",
+  "provenance": {
+    "generated_at": "2026-08-03T09:21:49.539938+00:00",
+    "migrated_at": "2026-08-03T09:21:49.541627+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0eaf21b5abd34c0b415f0dbdad30b420b781b64554c177633444ac88ee235a89",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2a66e21af94f65bb4329b0ff",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:28.518940+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2a66e21af94f65bb4329b0ff",
+    "cpl_cff190e9a70b226e12b84b7c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

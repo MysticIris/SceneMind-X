@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:733.jpg",
+    "relative_path": "train/733.jpg",
+    "sha256": "9dd0b052cf98bda316c1887e846fa1de33e864b64271a1e56b8dbdcb064e393f",
+    "split": "train"
+  },
+  "canonical_sha256": "b86d76953d20e8cf8e7c92de42eb418459bca984a8119b866d0bae7c42161761",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "毛绒玩具",
+      "白色鸭子",
+      "室内场景"
+    ],
+    "short_description": "一只白色的毛绒鸭子玩偶坐在室内地板上，旁边有电源插座和橙色衣物。",
+    "theme": "白色鸭子玩偶"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央是一只白色的毛绒鸭子玩偶。",
+      "玩偶旁有一个白色多孔电源插座。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色",
+      "毛绒材质",
+      "黄色喙",
+      "黑色眼睛",
+      "长腿"
+    ],
+    "relations": [
+      "鸭子玩偶位于地板上。",
+      "鸭子玩偶旁边有电源插座。"
+    ],
+    "scene": "室内地板角落",
+    "subjects": [
+      "白色毛绒鸭子玩偶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是一只白色的毛绒鸭子玩偶；玩偶旁有一个白色多孔电源插座。",
+    "safe_facts": [
+      "画面中央是一只白色的毛绒鸭子玩偶。",
+      "玩偶旁有一个白色多孔电源插座。"
+    ]
+  },
+  "label_id": "cpl_4faa26acc16122ffdee51909",
+  "provenance": {
+    "generated_at": "2026-08-03T12:11:15.267691+00:00",
+    "migrated_at": "2026-08-03T12:11:15.270106+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "c741e7c185443c013ddff2c6f498e2ea8ef663f9957900289a9d3827900f9a83",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_009c7408c1f846a8317ceb58",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:11:15.270480+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_009c7408c1f846a8317ceb58"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

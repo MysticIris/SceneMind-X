@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1558.jpg",
+    "relative_path": "train/1558.jpg",
+    "sha256": "a03a7c30f0c8477c67812a4ee061c02f0782d24afafe03dc394f6dc9c818d020",
+    "split": "train"
+  },
+  "canonical_sha256": "5bcc43d1846aae87f9491c40909cf3f3ee134ce4fc1029141eed0c38f6f33c22",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "桥上",
+      "共享单车",
+      "城市景观"
+    ],
+    "short_description": "两名男子站在桥上，身旁停放着共享单车，远眺城市天际线与江面。",
+    "theme": "桥上骑行观景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两名男子背对镜头站立于桥上人行道。",
+      "两辆青绿色共享单车停放在栏杆旁。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "眺望"
+    ],
+    "attributes": [
+      "黑色T恤",
+      "黑色短裤",
+      "青绿色自行车",
+      "灰色栏杆"
+    ],
+    "relations": [
+      "男子站在自行车旁。",
+      "自行车停放在桥边。"
+    ],
+    "scene": "城市桥梁人行道",
+    "subjects": [
+      "两名男子",
+      "两辆共享单车"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两名男子背对镜头站立于桥上人行道；两辆青绿色共享单车停放在栏杆旁。",
+    "safe_facts": [
+      "两名男子背对镜头站立于桥上人行道。",
+      "两辆青绿色共享单车停放在栏杆旁。"
+    ]
+  },
+  "label_id": "cpl_762c15d194721656d16ff33b",
+  "provenance": {
+    "generated_at": "2026-08-03T14:37:59.876048+00:00",
+    "migrated_at": "2026-08-03T14:37:59.881274+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1c21aac731f9a62e685559cb1582d87677c4df001ad08dccdd6f9cce39c251b6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3093dbaf2f7498261d5a9faf",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:37:59.881621+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3093dbaf2f7498261d5a9faf"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2289.jpg",
+    "relative_path": "val/2289.jpg",
+    "sha256": "7e4a351beb2a672099f6b757c2af2665bbc910cfc587f111cb8c057ab1cb39dd",
+    "split": "val"
+  },
+  "canonical_sha256": "e14f19510db5b81860ab083b9448a62a754a91c9a9999eda3e44cd3cad24283c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜市",
+      "灯光装饰",
+      "行人",
+      "商业街"
+    ],
+    "short_description": "夜晚城市商业步行街，灯光装饰下的拱门和行人穿梭，地面铺有石砖，两侧店铺林立。",
+    "theme": "夜市街景"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "街道上有多个行人正在活动。",
+      "街道上方悬挂着绿色发光的装饰性拱门结构。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "站立",
+      "坐着"
+    ],
+    "attributes": [
+      "夜间",
+      "有灯光装饰",
+      "铺有石砖地面",
+      "多层建筑"
+    ],
+    "relations": [
+      "行人位于街道上。",
+      "路灯照亮街道。",
+      "装饰灯串悬挂在建筑上方。"
+    ],
+    "scene": "城市商业步行街夜间",
+    "subjects": [
+      "行人",
+      "建筑",
+      "路灯",
+      "装饰灯串",
+      "花坛"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "街道上有多个行人正在活动；街道上方悬挂着绿色发光的装饰性拱门结构。",
+    "safe_facts": [
+      "街道上有多个行人正在活动。",
+      "街道上方悬挂着绿色发光的装饰性拱门结构。"
+    ]
+  },
+  "label_id": "cpl_555c9bf73d2cdea4ac2484af",
+  "provenance": {
+    "generated_at": "2026-08-03T16:22:52.491886+00:00",
+    "migrated_at": "2026-08-03T16:22:52.493677+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "352974e4ffe2072d42b02c5f04f073e796a38983b93d9db4193ca47135dbacd3",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_851258b728bee1520ef5f91f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:22:52.493879+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_851258b728bee1520ef5f91f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

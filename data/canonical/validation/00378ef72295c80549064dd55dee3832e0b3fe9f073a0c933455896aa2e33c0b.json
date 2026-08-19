@@ -1,0 +1,131 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2009.jpg",
+    "relative_path": "val/2009.jpg",
+    "sha256": "00378ef72295c80549064dd55dee3832e0b3fe9f073a0c933455896aa2e33c0b",
+    "split": "val"
+  },
+  "canonical_sha256": "20c70e38e490192f2df9ee45b254d35be2eee704bbbdc8348e982cd75823838d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "雪地",
+      "公园",
+      "中式亭子",
+      "行人"
+    ],
+    "short_description": "雪覆盖的公园山坡上，几人撑伞漫步，远处有中式亭子，树木萧疏，地面有车辙痕迹。",
+    "theme": "雪后公园小景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "可能有人在雪中活动，因为有行人和撑伞者。"
+    ],
+    "direct_observations": [
+      "地面覆盖着一层薄雪，部分区域露出泥土。",
+      "山坡上有几棵光秃的树和一些常绿灌木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "撑伞"
+    ],
+    "attributes": [
+      "覆雪",
+      "光秃树枝",
+      "中式建筑风格",
+      "地面有车辙"
+    ],
+    "relations": [
+      "行人位于雪地上。",
+      "亭子位于山坡高处。",
+      "树木分布在山坡上。"
+    ],
+    "scene": "雪后公园山坡",
+    "subjects": [
+      "行人",
+      "树木",
+      "亭子",
+      "雪地",
+      "小船状物体"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "可能有人在雪中活动，因为有行人和撑伞者。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面覆盖着一层薄雪，部分区域露出泥土；山坡上有几棵光秃的树和一些常绿灌木。",
+    "safe_facts": [
+      "地面覆盖着一层薄雪，部分区域露出泥土。",
+      "山坡上有几棵光秃的树和一些常绿灌木。"
+    ]
+  },
+  "label_id": "cpl_ca3209e29a5391aea8d6bab7",
+  "provenance": {
+    "generated_at": "2026-08-03T15:44:57.413228+00:00",
+    "migrated_at": "2026-08-03T15:44:57.415219+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ff00b80f51d37e6dee74224d5a3cbea003c458e77f5b9685422257f3318ba125",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d120b6c86e635ca391104f6b",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:44:57.415433+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d120b6c86e635ca391104f6b"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

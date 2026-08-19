@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:348.jpg",
+    "relative_path": "train/348.jpg",
+    "sha256": "dad7760cb4a369eba1859b18502faf1e3bb8223c4ac754c23d8000366f69dfe7",
+    "split": "train"
+  },
+  "canonical_sha256": "6d6099216807b2a3e85875789c86c8ab360b146b6081fd0eacdf2a0d8d92f90e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "中式古建",
+      "游客聚集",
+      "红墙金瓦"
+    ],
+    "short_description": "晴朗天气下，人群聚集于一座宏伟的中国传统宫殿式建筑前，红墙金瓦，飞檐翘角，绿树点缀。",
+    "theme": "传统中式建筑群"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "建筑具有典型的中国古典风格，包括飞檐、斗拱和红色柱子。",
+      "大量游客在建筑前活动，部分人佩戴口罩。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "站立",
+      "行走",
+      "参观"
+    ],
+    "attributes": [
+      "多层结构",
+      "彩绘装饰",
+      "绿色树木"
+    ],
+    "relations": [
+      "游客位于建筑前方。"
+    ],
+    "scene": "户外旅游景点",
+    "subjects": [
+      "游客",
+      "传统建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑具有典型的中国古典风格，包括飞檐、斗拱和红色柱子；大量游客在建筑前活动，部分人佩戴口罩。",
+    "safe_facts": [
+      "建筑具有典型的中国古典风格，包括飞檐、斗拱和红色柱子。",
+      "大量游客在建筑前活动，部分人佩戴口罩。"
+    ]
+  },
+  "label_id": "cpl_fdd91aa7953086292141aef2",
+  "provenance": {
+    "generated_at": "2026-08-03T10:44:44.035151+00:00",
+    "migrated_at": "2026-08-03T10:44:44.037097+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8b21d70310dfff56ba62a0b2fdaae720d73f67811ee3a8768655f5d52fe3764d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_396591978ab5644c06b36c11",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:44:44.037310+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_396591978ab5644c06b36c11"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

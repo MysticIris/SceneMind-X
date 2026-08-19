@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:650.jpg",
+    "relative_path": "train/650.jpg",
+    "sha256": "02d99195303c7e107c789983446fbf3eaf042d82d387b72702128f3e41ea0410",
+    "split": "train"
+  },
+  "canonical_sha256": "675538aafad30211a2c64889f0a281b7f424225b3455d10672963cf587b9e9ac",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电动车",
+      "停车棚",
+      "树荫",
+      "居民楼"
+    ],
+    "short_description": "树荫下蓝色顶棚覆盖的电动车停车区，多辆电动车整齐停放，背景为居民楼。",
+    "theme": "电动车停放区"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多辆电动车并排停放在蓝色金属框架的遮阳棚下。",
+      "地面铺设有灰色方形地砖，两侧有粗壮树干。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色顶棚",
+      "灰色砖地",
+      "树皮剥落",
+      "空调外机"
+    ],
+    "relations": [
+      "电动车停放在停车棚下。",
+      "树木位于停车棚旁。"
+    ],
+    "scene": "户外停车场",
+    "subjects": [
+      "电动车",
+      "树木",
+      "停车棚",
+      "建筑物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多辆电动车并排停放在蓝色金属框架的遮阳棚下；地面铺设有灰色方形地砖，两侧有粗壮树干。",
+    "safe_facts": [
+      "多辆电动车并排停放在蓝色金属框架的遮阳棚下。",
+      "地面铺设有灰色方形地砖，两侧有粗壮树干。"
+    ]
+  },
+  "label_id": "cpl_e1905bfda59ad7ec7ac4ffff",
+  "provenance": {
+    "generated_at": "2026-08-03T11:52:11.707468+00:00",
+    "migrated_at": "2026-08-03T11:52:11.709801+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "92b2966e67b2570403f08d3de33322d7ae575f79494b82f34233a4c0da64813a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_803d37bff963e71818c3dec1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:52:11.710139+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_803d37bff963e71818c3dec1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:373.jpg",
+    "relative_path": "train/373.jpg",
+    "sha256": "214933d6e66d86154feaf97092044e2dbf178dd26d183113faae260835df666a",
+    "split": "train"
+  },
+  "canonical_sha256": "0d3d660dbb6cbe07324a8ea667d22aef156acb0f3d27dbc2b5ff9e5eb023e483",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "古建筑",
+      "灯笼装饰",
+      "树木",
+      "游客"
+    ],
+    "short_description": "古色古香的建筑旁，大树枝叶繁茂，悬挂着暖黄色灯笼，游客在树下漫步，氛围宁静祥和。",
+    "theme": "古风街景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "游客在树下活动，可能在散步或拍照。"
+    ],
+    "direct_observations": [
+      "画面中有深色木质结构的传统建筑。",
+      "树上悬挂多个暖黄色圆形灯笼。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "木质结构",
+      "悬挂灯笼",
+      "树叶茂密"
+    ],
+    "relations": [
+      "树木位于建筑前方。",
+      "灯笼悬挂在树枝上。"
+    ],
+    "scene": "中式传统风格建筑群旁的街道",
+    "subjects": [
+      "树木",
+      "建筑",
+      "游客"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "游客在树下活动，可能在散步或拍照。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有深色木质结构的传统建筑；树上悬挂多个暖黄色圆形灯笼。",
+    "safe_facts": [
+      "画面中有深色木质结构的传统建筑。",
+      "树上悬挂多个暖黄色圆形灯笼。"
+    ]
+  },
+  "label_id": "cpl_5c757b2c93b940f8331f8380",
+  "provenance": {
+    "generated_at": "2026-08-03T10:50:08.009888+00:00",
+    "migrated_at": "2026-08-03T10:50:08.011578+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "07d47d747987b87c58711bc0a3d23c272e5c4a3044798cdd50c8cf60fcd53b19",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_f5251b70076a8df0cefd0781",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:50:08.011849+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_f5251b70076a8df0cefd0781"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

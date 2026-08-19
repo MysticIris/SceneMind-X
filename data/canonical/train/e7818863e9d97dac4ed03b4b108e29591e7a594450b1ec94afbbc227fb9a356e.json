@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1160.jpg",
+    "relative_path": "train/1160.jpg",
+    "sha256": "e7818863e9d97dac4ed03b4b108e29591e7a594450b1ec94afbbc227fb9a356e",
+    "split": "train"
+  },
+  "canonical_sha256": "0c27a519e391262ea2469fad2610f288df4b712618a4923073a74849ad4954c8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "青铜剑",
+      "青铜战车",
+      "博物馆展品",
+      "儿童拍照"
+    ],
+    "short_description": "博物馆展柜内，一把青铜剑竖立于支架上，背景是多匹青铜战马雕塑，一名儿童正举手机拍照。",
+    "theme": "青铜剑与战车陈列"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "儿童正在用手机拍摄展品。"
+    ],
+    "direct_observations": [
+      "画面中心有一把青铜剑被竖立在黑色支架上。",
+      "背景有多匹青铜战马雕塑排列成行。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "儿童举手机拍照"
+    ],
+    "attributes": [
+      "青铜剑竖立于支架",
+      "战马雕塑呈队列状",
+      "展柜玻璃反光"
+    ],
+    "relations": [
+      "儿童位于展柜前。",
+      "青铜剑置于展柜中央。"
+    ],
+    "scene": "室内博物馆展厅",
+    "subjects": [
+      "青铜剑",
+      "青铜战马雕塑",
+      "儿童"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "儿童正在用手机拍摄展品。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中心有一把青铜剑被竖立在黑色支架上；背景有多匹青铜战马雕塑排列成行。",
+    "safe_facts": [
+      "画面中心有一把青铜剑被竖立在黑色支架上。",
+      "背景有多匹青铜战马雕塑排列成行。"
+    ]
+  },
+  "label_id": "cpl_cd7f01a4bfaad63f62279381",
+  "provenance": {
+    "generated_at": "2026-08-03T13:45:47.331687+00:00",
+    "migrated_at": "2026-08-03T13:45:47.334318+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "27e0c9dfc19788326567e56c70a59604b5749075af28512d0ed525122392e3ed",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_84a40125985dad9fa0a94aae",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:45:47.334666+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_84a40125985dad9fa0a94aae"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

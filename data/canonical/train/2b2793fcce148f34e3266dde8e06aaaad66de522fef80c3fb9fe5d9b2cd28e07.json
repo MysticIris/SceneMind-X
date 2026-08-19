@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1172.jpg",
+    "relative_path": "train/1172.jpg",
+    "sha256": "2b2793fcce148f34e3266dde8e06aaaad66de522fef80c3fb9fe5d9b2cd28e07",
+    "split": "train"
+  },
+  "canonical_sha256": "2dc847fab01c69df78f22f050fca6345c5a5b51f15e25340405c3d99bfe1225a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蓝色装饰",
+      "世界地图",
+      "相框陈列"
+    ],
+    "short_description": "室内墙壁以蓝色为主色调，装饰有世界地图、相框和灯饰，多人在场。",
+    "theme": "蓝色主题装饰空间"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "墙壁上有蓝色世界地图图案。",
+      "墙上挂有多组相框和装饰灯。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色主色调",
+      "装饰性墙面",
+      "多层置物架"
+    ],
+    "relations": [
+      "相框陈列于置物架上。",
+      "灯饰安装于墙壁。"
+    ],
+    "scene": "室内店铺或展览空间",
+    "subjects": [
+      "人",
+      "墙壁",
+      "相框",
+      "灯饰",
+      "窗户"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "墙壁上有蓝色世界地图图案；墙上挂有多组相框和装饰灯。",
+    "safe_facts": [
+      "墙壁上有蓝色世界地图图案。",
+      "墙上挂有多组相框和装饰灯。"
+    ]
+  },
+  "label_id": "cpl_c241e1e51878ec8fca748c6e",
+  "provenance": {
+    "generated_at": "2026-08-03T13:47:47.974280+00:00",
+    "migrated_at": "2026-08-03T13:47:47.977328+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "5e569f4cc521be89cb247175f6bb27f885f8cb3896b4f3832eaab39830c4273d",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_907c651114c6b405d5184842",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:47:47.977662+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_907c651114c6b405d5184842"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

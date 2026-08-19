@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1093.jpg",
+    "relative_path": "train/1093.jpg",
+    "sha256": "4893fb549af6a47bdb6b73eaeadb6b91c4cafef134d5189735f8685d1cc8ae1a",
+    "split": "train"
+  },
+  "canonical_sha256": "983550fea0838b7314c97427fda4006e78d74b389af8b9b99b85193fd30d05bc",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "Arduino扩展板",
+      "彩色导线",
+      "电子实验"
+    ],
+    "short_description": "一张木桌上放置着一块Arduino扩展板，连接多根彩色导线，旁边有一部分键盘，整体呈现电子实验场景。",
+    "theme": "电子实验装置"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一块绿色电路板上安装有Arduino扩展板，板上有红色LED灯亮起。",
+      "多根红、绿、黑、蓝颜色的导线连接在扩展板上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红色LED灯亮起",
+      "木质桌面"
+    ],
+    "relations": [
+      "导线连接扩展板。",
+      "扩展板位于键盘旁。"
+    ],
+    "scene": "桌面实验环境",
+    "subjects": [
+      "Arduino扩展板",
+      "彩色导线",
+      "键盘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一块绿色电路板上安装有Arduino扩展板，板上有红色LED灯亮起；多根红、绿、黑、蓝颜色的导线连接在扩展板上。",
+    "safe_facts": [
+      "一块绿色电路板上安装有Arduino扩展板，板上有红色LED灯亮起。",
+      "多根红、绿、黑、蓝颜色的导线连接在扩展板上。"
+    ]
+  },
+  "label_id": "cpl_353d47ab1314bfa0dc51e2a8",
+  "provenance": {
+    "generated_at": "2026-08-03T13:36:23.232254+00:00",
+    "migrated_at": "2026-08-03T13:36:23.234857+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "b680b57f539d1f17cc1209f43b12aea050e3b8986df2f25e7345bc16a59c6484",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_147f2045a38421b058379011",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:36:23.235207+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_147f2045a38421b058379011"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

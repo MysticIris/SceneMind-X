@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1175.jpg",
+    "relative_path": "train/1175.jpg",
+    "sha256": "8aeec598e5e2a52c8175452a86300e00d364751360b99956cae6afc830da3736",
+    "split": "train"
+  },
+  "canonical_sha256": "ef552ea5fb3fa3c42ce258242148aa2041a24878ad2e601b3028a290be074fb0",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "双龙纹",
+      "博物馆展品"
+    ],
+    "short_description": "一件双龙纹玉璧陈列于博物馆展台上，中央有支撑杆，下方标牌显示名称。",
+    "theme": "玉器展品"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "玉璧可能为古代工艺品。"
+    ],
+    "direct_observations": [
+      "玉璧呈浅色，表面有雕刻纹饰。",
+      "玉璧被细长金属杆支撑，立于灰色展台上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色玉石材质",
+      "雕刻有龙形图案",
+      "中心有圆孔",
+      "置于黑色展台"
+    ],
+    "relations": [
+      "玉璧被支撑杆托起。",
+      "玉璧位于展台中央。",
+      "标牌位于展台前方。"
+    ],
+    "scene": "博物馆展厅内展台",
+    "subjects": [
+      "展台",
+      "支撑杆",
+      "标牌"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "玉璧可能为古代工艺品。",
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "玉璧呈浅色，表面有雕刻纹饰；玉璧被细长金属杆支撑，立于灰色展台上。",
+    "safe_facts": [
+      "玉璧呈浅色，表面有雕刻纹饰。",
+      "玉璧被细长金属杆支撑，立于灰色展台上。"
+    ]
+  },
+  "label_id": "cpl_0d8a19b981d9a9d6429ec640",
+  "provenance": {
+    "generated_at": "2026-08-02T22:06:22.746819+00:00",
+    "migrated_at": "2026-08-03T07:13:41.457482+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "40eb5fe0aa2b62ca9b5b019b5a23c6d092f7e46dcfe40b45b3672e09762ba6f7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_dc68c8cf6c94625a92ae3090",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:50:05.307251+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_dc68c8cf6c94625a92ae3090",
+    "cpl_855eb02fe6d6c7583aed81de"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "双龙玉璧",
+      "Jade bi-disc flanked by dragons"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "双龙玉璧",
+      "Jade bi-disc flanked by dragons"
+    ]
+  }
+}

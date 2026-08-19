@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:681.jpg",
+    "relative_path": "train/681.jpg",
+    "sha256": "dc53d4d1f072b69eebc280634b01721873c28313d57d5907c4d30c660e2b4e38",
+    "split": "train"
+  },
+  "canonical_sha256": "cea582ec0c76e675a1b92a9a11136b6c37c808c261cb4ca02531508a70cbfb50",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "电动自行车",
+      "金属篮子",
+      "人行道",
+      "白色汽车"
+    ],
+    "short_description": "一辆黑色电动自行车停在铺砖人行道上，前方装有金属篮子，旁边有白色汽车和石墩。",
+    "theme": "街边电动车"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中央是一辆黑色电动自行车，配有金属车篮和圆形前灯。",
+      "地面由红褐色六边形地砖铺设，旁边有灰色石墩和红色交通锥。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色车身",
+      "圆形前灯",
+      "金属车篮",
+      "带座垫"
+    ],
+    "relations": [
+      "电动自行车停放在人行道上。",
+      "白色汽车位于电动自行车右侧。"
+    ],
+    "scene": "户外人行道旁",
+    "subjects": [
+      "电动自行车",
+      "白色汽车",
+      "石墩",
+      "交通锥"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中央是一辆黑色电动自行车，配有金属车篮和圆形前灯；地面由红褐色六边形地砖铺设，旁边有灰色石墩和红色交通锥。",
+    "safe_facts": [
+      "画面中央是一辆黑色电动自行车，配有金属车篮和圆形前灯。",
+      "地面由红褐色六边形地砖铺设，旁边有灰色石墩和红色交通锥。"
+    ]
+  },
+  "label_id": "cpl_0a4b16a82dbea8c973b95108",
+  "provenance": {
+    "generated_at": "2026-08-03T11:59:08.708054+00:00",
+    "migrated_at": "2026-08-03T11:59:08.711006+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "664bef151c8a3f16c0bf5356d76059bd47f23771fad7f9f49050d0cc12cb1abc",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_15d0207d75e77d8ce766e821",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:59:08.711366+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_15d0207d75e77d8ce766e821"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "asset_id": "8c4bbb9ce694ffec",
+  "asset_sha256": "8c4bbb9ce694ffec48de6db6f36b148fa7f827a18d5bc724b6c1bfe0ea211dd6",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"手持梅子乌龙茶饮料\",\n    \"short_description\": \"一张户外拍摄的特写照片，展示了一只手握着一瓶透明塑料瓶装的梅子乌龙茶饮料。瓶身贴有白底绿圈的标签，印有“梅子x乌龙”字样及制作步骤说明，净含量显示为487mL。瓶内液体呈琥珀色，瓶壁上有冷凝水珠，背景为模糊的灰色地砖路面。\",\n    \"micro_tags\": [\n      \"梅子乌龙\",\n      \"瓶装饮料\",\n      \"手持特写\",\n      \"户外街拍\",\n      \"茶饮\",\n      \"冷凝水珠\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"photograph\",\n    \"scene\": \"户外铺砖路面\",\n    \"subjects\": [\n      \"手\",\n      \"塑料饮料瓶\",\n      \"珠串手链\"\n    ],\n    \"actions\": [\n      \"手持瓶子\"\n    ],\n    \"attributes\": [\n      \"透明瓶身\",\n      \"琥珀色液体\",\n      \"白色瓶盖\",\n      \"瓶身有水珠\",\n      \"绿色圆形标签设计\"\n    ],\n    \"relations\": [\n      \"手握住瓶身中部\",\n      \"手腕佩戴深色珠串\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"一只左手握持透明塑料瓶，手腕处佩戴有一串深褐色圆珠手链。\",\n      \"瓶身标签显著位置印有黑色手写体汉字“梅子x乌龙”，下方有绿色圆形色块及小字说明。\",\n      \"瓶内装有约满的浅棕色透明液体，瓶身外壁附着大量细小水珠。\",\n      \"背景为失焦的灰色方形地砖路面，可见白色标线。\"\n    ],\n    \"cautious_inferences\": [\n      \"瓶身的水珠表明饮料可能刚从冷藏环境中取出或处于较冷状态。\",\n      \"根据标签文字推测这是一款混合了梅子汁与乌龙茶的饮品。\"\n    ],\n    \"uncertainties\": [\n      \"无法确认拍摄者的具体身份或拍摄的确切地理位置。\",\n      \"标签右侧的小字因角度和清晰度原因难以完全辨认。\"\n    ]\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"梅子x乌龙\",\n      \"name. 品名\",\n      \"steps. 步骤\",\n      \"泡好茶\",\n      \"武夷山大红袍\",\n      \"萃取头道茶汤\",\n      \"选好果\",\n      \"自然熟成至浓香的发酵青梅汁\",\n      \"入杯\",\n      \"梅子酸甜 岩韵茶香\",\n      \"乌龙茶饮料\",\n      \"净含量:487mL\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一只佩戴珠串手链的手在户外握着一瓶带有冷凝水珠的琥珀色瓶装饮料，瓶身贴有包含绿色圆形图案和中文文字的标签。\",\n    \"safe_facts\": [\n      \"图中主体为一只手持握的透明塑料饮料瓶。\",\n      \"瓶内液体呈半透明琥珀色。\",\n      \"瓶身表面覆盖着明显的冷凝水珠。\",\n      \"",
+      "input_tokens": 2241,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 2241,
+        "output_tokens": 768,
+        "total_tokens": 3009,
+        "estimated_cost_cny": 0.010626,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "手持梅子乌龙茶饮料",
+        "short_description": "一张户外拍摄的特写照片，展示了一只手握着一瓶透明塑料瓶装的梅子乌龙茶饮料。瓶身贴有白底绿圈的标签，印有“梅子x乌龙”字样及制作步骤说明，净含量显示为487mL。瓶内液体呈琥珀色，瓶壁上有冷凝水珠，背景为模糊的灰色地砖路面。",
+        "micro_tags": [
+          "梅子乌龙",
+          "瓶装饮料",
+          "手持特写",
+          "户外街拍",
+          "茶饮",
+          "冷凝水珠"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 195496,
+        "request_bytes": 143548,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.522691300000588,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "a9c922bf556fb0f8f806fae7f58a70698d3b8c0db0a51245b01363ba45658708"
+}

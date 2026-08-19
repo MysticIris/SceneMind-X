@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2101.jpg",
+    "relative_path": "val/2101.jpg",
+    "sha256": "948b53c47f0520e812cefd7a3d360a8bf8e03796a644a672a261049bdfeb0c72",
+    "split": "val"
+  },
+  "canonical_sha256": "1ac99052521e9246b83d1b2c57bef2eee9be85942905644524d013b4270975fd",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "图表",
+      "数据统计",
+      "吸烟人数"
+    ],
+    "short_description": "电子屏幕上显示着关于吸烟人数变化的图表及说明。",
+    "theme": "数据图表展示"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "屏幕上显示一个折线图，横轴为年份，纵轴为人数，图例区分男性(蓝色)和女性(粉色)吸烟者。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "教室或会议室的电子屏幕",
+    "subjects": [
+      "图表"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "屏幕上显示一个折线图，横轴为年份，纵轴为人数，图例区分男性(蓝色)和女性(粉色)吸烟者。",
+    "safe_facts": [
+      "屏幕上显示一个折线图，横轴为年份，纵轴为人数，图例区分男性(蓝色)和女性(粉色)吸烟者。"
+    ]
+  },
+  "label_id": "cpl_1e529d9d736e6ea8eb0a64e1",
+  "provenance": {
+    "generated_at": "2026-08-03T15:59:27.858232+00:00",
+    "migrated_at": "2026-08-03T15:59:27.859866+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "aa8705b4ae2d02d385844833db57b9d5f27fd02a4649787c80560a1dab406ce7",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fb2a5732b1c564274bfa419a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:59:27.860211+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fb2a5732b1c564274bfa419a"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "The graph reveals statistics about femal",
+      "The number of male smokers declined stro"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "The graph reveals statistics about femal",
+      "The number of male smokers declined stro"
+    ]
+  }
+}

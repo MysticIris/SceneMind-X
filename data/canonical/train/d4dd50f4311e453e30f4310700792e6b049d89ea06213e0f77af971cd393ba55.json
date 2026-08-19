@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:52.jpg",
+    "relative_path": "train/52.jpg",
+    "sha256": "d4dd50f4311e453e30f4310700792e6b049d89ea06213e0f77af971cd393ba55",
+    "split": "train"
+  },
+  "canonical_sha256": "43b1b3ea62dea96cd634e2164e19b61aff7e539252cb4ef573d0d10c047bbcb4",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "泰迪熊",
+      "圣诞树",
+      "节日装饰"
+    ],
+    "short_description": "一棵由大量浅棕色泰迪熊堆叠而成的圣诞树，树顶装饰着星形饰物，背景是黑色门面的店铺。",
+    "theme": "毛绒玩具圣诞树"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "大量浅棕色泰迪熊被堆叠成锥形结构。",
+      "树顶有银色星形装饰物，树身点缀红色球形装饰物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "浅棕色",
+      "堆叠成锥形",
+      "树顶有星形装饰",
+      "部分泰迪熊系有红白条纹围巾",
+      "树上挂有红色球形装饰物"
+    ],
+    "relations": [
+      "泰迪熊组成圣诞树形状。",
+      "圣诞树位于店铺门前。"
+    ],
+    "scene": "户外店铺门前",
+    "subjects": [
+      "泰迪熊",
+      "圣诞树",
+      "店铺门面"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "大量浅棕色泰迪熊被堆叠成锥形结构；树顶有银色星形装饰物，树身点缀红色球形装饰物。",
+    "safe_facts": [
+      "大量浅棕色泰迪熊被堆叠成锥形结构。",
+      "树顶有银色星形装饰物，树身点缀红色球形装饰物。"
+    ]
+  },
+  "label_id": "cpl_95359cf8739251bc81d2d90a",
+  "provenance": {
+    "generated_at": "2026-08-03T09:15:02.608707+00:00",
+    "migrated_at": "2026-08-03T09:15:02.610698+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "fc2cbb8ca9aee0e3a3dd5e8bb72f360748dbdad8f7afb331116317e4100cd33a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_2b180073cfbfa98fa85ebce7",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:27.222690+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_2b180073cfbfa98fa85ebce7",
+    "cpl_ccb734c59409fd841b1dea84"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

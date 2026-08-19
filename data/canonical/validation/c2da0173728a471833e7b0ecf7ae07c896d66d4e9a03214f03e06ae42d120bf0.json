@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2225.jpg",
+    "relative_path": "val/2225.jpg",
+    "sha256": "c2da0173728a471833e7b0ecf7ae07c896d66d4e9a03214f03e06ae42d120bf0",
+    "split": "val"
+  },
+  "canonical_sha256": "61d43fa184c87383ba718db2ac39d136e00637541939b2861e5f882df8ebca0d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "青年成长",
+      "核心理念"
+    ],
+    "short_description": "图像呈现于室内投影设备上。",
+    "theme": "投影屏幕与党徽图标"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现于室内投影设备上。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色背景",
+      "黑色边框"
+    ],
+    "relations": [],
+    "scene": "室内投影屏幕",
+    "subjects": [
+      "投影屏幕",
+      "党徽图标"
+    ],
+    "visual_medium": "screenshot"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现于室内投影设备上。",
+    "safe_facts": [
+      "图像呈现于室内投影设备上。"
+    ]
+  },
+  "label_id": "cpl_a2d6344778a8d3cf9fa5c39a",
+  "provenance": {
+    "generated_at": "2026-08-03T16:15:01.079000+00:00",
+    "migrated_at": "2026-08-03T16:15:01.080802+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "8e95b7b4f5b604b8abd9d9fc9b086938a836928f002fe1a95fafb78b37da3f56",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_774a4343776b725fec415aa3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:15:01.081270+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_774a4343776b725fec415aa3"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "结构化解读:核心12个字: 理想信念——学习奋斗——修身明德",
+      "(新时代青年健康成长的正确道路,也是健康成长的规律、路线图)",
+      "最核心 6个字",
+      "理想",
+      "奋斗",
+      "修身"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "结构化解读:核心12个字: 理想信念——学习奋斗——修身明德",
+      "(新时代青年健康成长的正确道路,也是健康成长的规律、路线图)",
+      "最核心 6个字",
+      "理想",
+      "奋斗",
+      "修身"
+    ]
+  }
+}

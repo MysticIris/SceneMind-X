@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1712.jpg",
+    "relative_path": "train/1712.jpg",
+    "sha256": "a31e338b434e1a01ab4ddcb99ae29471d5f931cf9170f3cb1e0e03fd4df350d1",
+    "split": "train"
+  },
+  "canonical_sha256": "caa63fc44b2a9fc0939a7fdfb6a45e60741e8ae09cf10e9c99589324d8429d31",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "骑行者",
+      "滨水步道",
+      "城市远景",
+      "冬季树木"
+    ],
+    "short_description": "一名骑行者在蓝红相间的滨水步道上骑行，远处城市轮廓朦胧，树木光秃。",
+    "theme": "城市滨水骑行道"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空灰白，可能有雾霾或阴天。"
+    ],
+    "direct_observations": [
+      "画面中有一个人骑着自行车。",
+      "地面有蓝色和红色两条平行路径。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "骑行"
+    ],
+    "attributes": [
+      "蓝色跑道",
+      "红色人行道",
+      "光秃树木",
+      "雾霾天气"
+    ],
+    "relations": [
+      "骑行者在步道上骑行。"
+    ],
+    "scene": "滨水步道",
+    "subjects": [
+      "骑行者"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空灰白，可能有雾霾或阴天。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一个人骑着自行车；地面有蓝色和红色两条平行路径。",
+    "safe_facts": [
+      "画面中有一个人骑着自行车。",
+      "地面有蓝色和红色两条平行路径。"
+    ]
+  },
+  "label_id": "cpl_2aa3625569e7d23ff2e11c56",
+  "provenance": {
+    "generated_at": "2026-08-03T14:58:23.479934+00:00",
+    "migrated_at": "2026-08-03T14:58:23.481758+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "f73e3c8c18a52d73c7891516b74fb2906e22f97ac31d33ee2d678e4c31ab7bdd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_052089469614124582633c1e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:58:23.482044+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_052089469614124582633c1e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

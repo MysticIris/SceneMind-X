@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:631.jpg",
+    "relative_path": "train/631.jpg",
+    "sha256": "10e37c38751d6ef475ccae964b2fd44f32c97e0e9712689fe7f8ae2d4990309e",
+    "split": "train"
+  },
+  "canonical_sha256": "36490f1e00e20a317e375c2de4c9dd2db603a5d82ff59585217a4a419df1d292",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "江岸",
+      "中式建筑",
+      "城市天际线"
+    ],
+    "short_description": "阴天下的城市江岸，传统中式建筑群沿河岸排列，远处高楼林立，江面有船只航行。",
+    "theme": "城市江岸景观"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面呈现阴天，天空灰白无阳光。",
+      "江岸有沙地，岸边排列着中式风格建筑，屋顶为绿色瓦片。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阴天",
+      "绿色屋顶",
+      "红色柱子",
+      "沙质河岸"
+    ],
+    "relations": [
+      "中式建筑位于江岸。",
+      "高楼位于背景。",
+      "行人行走于步道。"
+    ],
+    "scene": "城市江岸",
+    "subjects": [
+      "中式建筑",
+      "高楼",
+      "江水",
+      "行人",
+      "船只"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面呈现阴天，天空灰白无阳光；江岸有沙地，岸边排列着中式风格建筑，屋顶为绿色瓦片。",
+    "safe_facts": [
+      "画面呈现阴天，天空灰白无阳光。",
+      "江岸有沙地，岸边排列着中式风格建筑，屋顶为绿色瓦片。"
+    ]
+  },
+  "label_id": "cpl_a4db813a950a4a2bcf271bf0",
+  "provenance": {
+    "generated_at": "2026-08-03T11:47:57.935681+00:00",
+    "migrated_at": "2026-08-03T11:47:57.940524+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "51baa63617b6a80060a792da600193b22610a5df6eea67df1a85f20569cf311b",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_85c38d157ce4904ec321727d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:47:57.940908+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_85c38d157ce4904ec321727d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

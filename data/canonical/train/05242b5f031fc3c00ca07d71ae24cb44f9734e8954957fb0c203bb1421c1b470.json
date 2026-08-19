@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:279.jpg",
+    "relative_path": "train/279.jpg",
+    "sha256": "05242b5f031fc3c00ca07d71ae24cb44f9734e8954957fb0c203bb1421c1b470",
+    "split": "train"
+  },
+  "canonical_sha256": "325b957e37a3678901023b42ffddb2300133818fcbd96df8c7d740d7c1d384a5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "章鱼",
+      "贝壳",
+      "海底",
+      "触手",
+      "眼睛"
+    ],
+    "short_description": "一只章鱼藏身于贝壳中，触手舒展，眼睛警觉地望向镜头，周围是深蓝色的海底沙地。",
+    "theme": "海底生物"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "章鱼身体部分被贝壳遮挡，露出头部和部分触手。",
+      "贝壳边缘粗糙，表面覆盖藻类或沉积物。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "章鱼有吸盘",
+      "贝壳呈黄褐色",
+      "章鱼眼睛突出"
+    ],
+    "relations": [
+      "章鱼位于贝壳内部。"
+    ],
+    "scene": "海底沙地",
+    "subjects": [
+      "章鱼",
+      "贝壳"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "章鱼身体部分被贝壳遮挡，露出头部和部分触手；贝壳边缘粗糙，表面覆盖藻类或沉积物。",
+    "safe_facts": [
+      "章鱼身体部分被贝壳遮挡，露出头部和部分触手。",
+      "贝壳边缘粗糙，表面覆盖藻类或沉积物。"
+    ]
+  },
+  "label_id": "cpl_459c5f6ac44ce840b04f5a5a",
+  "provenance": {
+    "generated_at": "2026-08-03T10:30:51.619367+00:00",
+    "migrated_at": "2026-08-03T10:30:51.622299+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "20180146fefd0e08ee13fee88bfb64d3027c193c74ef7eea0ac7bc825cb9b891",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ae11c986ebeffd7b3a33eec4",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:30:51.622549+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ae11c986ebeffd7b3a33eec4"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

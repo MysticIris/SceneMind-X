@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:765.jpg",
+    "relative_path": "train/765.jpg",
+    "sha256": "fb6ff6ae0448dd31d892d8566b50c635a7d3e779c10a0512748c0a71a7c62264",
+    "split": "train"
+  },
+  "canonical_sha256": "fc42719234a484602652167ab58bc8974f8504226274638c04472ed5c96c164c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "霓虹灯",
+      "餐饮招牌",
+      "室内装修"
+    ],
+    "short_description": "室内餐饮空间，多处发光招牌与装饰性墙面，顾客在场，氛围热闹。",
+    "theme": "霓虹招牌美食街"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天花板为黑色网格状设计。",
+      "墙上悬挂多个发光招牌和装饰画。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "发光招牌",
+      "网格吊顶",
+      "木质装饰"
+    ],
+    "relations": [],
+    "scene": "室内餐饮场所",
+    "subjects": [
+      "顾客",
+      "招牌",
+      "墙面装饰"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天花板为黑色网格状设计；墙上悬挂多个发光招牌和装饰画。",
+    "safe_facts": [
+      "天花板为黑色网格状设计。",
+      "墙上悬挂多个发光招牌和装饰画。"
+    ]
+  },
+  "label_id": "cpl_107e6faa71a0ccefe7bf599a",
+  "provenance": {
+    "generated_at": "2026-08-03T12:18:39.686385+00:00",
+    "migrated_at": "2026-08-03T12:18:39.689655+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "147c63c5d670a24785ddd9361a16a49358d34e76ceca2e354bdf5af933f734d0",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ce0c6707e6542d3ae2143eaf",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:18:39.689994+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ce0c6707e6542d3ae2143eaf"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

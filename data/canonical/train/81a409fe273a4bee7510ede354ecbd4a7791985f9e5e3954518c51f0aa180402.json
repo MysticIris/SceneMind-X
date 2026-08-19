@@ -1,0 +1,135 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1456.jpg",
+    "relative_path": "train/1456.jpg",
+    "sha256": "81a409fe273a4bee7510ede354ecbd4a7791985f9e5e3954518c51f0aa180402",
+    "split": "train"
+  },
+  "canonical_sha256": "90af73a107e0cd61510d8a3f52303fcf14fdd404126e68c90e556ec767a69877",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "高速公路",
+      "收费站"
+    ],
+    "short_description": "阴天下的收费站，设有通道和人工收费区，地面有黄色警示锥和防撞设施。",
+    "theme": "高速公路收费站"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天空布满云层，光线均匀。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阴天",
+      "混凝土路面",
+      "红字标识",
+      "黄黑相间路障"
+    ],
+    "relations": [],
+    "scene": "高速公路收费站入口",
+    "subjects": [
+      "收费站建筑",
+      "交通标志",
+      "路障"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空布满云层，光线均匀。",
+    "safe_facts": [
+      "天空布满云层，光线均匀。"
+    ]
+  },
+  "label_id": "cpl_efac9e5f19b891dddbc6a2a0",
+  "provenance": {
+    "generated_at": "2026-08-03T14:26:14.422506+00:00",
+    "migrated_at": "2026-08-03T14:26:14.425562+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4c83101c0e652ad2717d74ace5a66a56aca1685af444f4c207b50eb15cc5f132",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ac94ac963fbe5c10d18fb938",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:26:14.426341+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ac94ac963fbe5c10d18fb938"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "凤凰山",
+      "HBCI 税收支局",
+      "ETC",
+      "超宽车道",
+      "5",
+      "货车专用道"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "凤凰山",
+      "HBCI 税收支局",
+      "ETC",
+      "超宽车道",
+      "5",
+      "货车专用道"
+    ]
+  }
+}

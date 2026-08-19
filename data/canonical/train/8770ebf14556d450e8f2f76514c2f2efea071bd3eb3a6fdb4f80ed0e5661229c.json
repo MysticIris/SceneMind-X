@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1771.jpg",
+    "relative_path": "train/1771.jpg",
+    "sha256": "8770ebf14556d450e8f2f76514c2f2efea071bd3eb3a6fdb4f80ed0e5661229c",
+    "split": "train"
+  },
+  "canonical_sha256": "9a618cb48ee2e564c2e9a1219f5df49f61595ea206023aee971e50b0ad8d28fb",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "塑料瓶",
+      "饮料罐",
+      "木桌",
+      "户外"
+    ],
+    "short_description": "一张俯拍视角的照片，展示了多个塑料瓶装水和饮料罐随意堆放在木桌上，旁边有纸张和笔。",
+    "theme": "户外饮品摊位"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多个塑料瓶和饮料罐堆叠在木制桌面上。",
+      "桌面上有一张纸和一支笔。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "透明瓶身",
+      "红色瓶盖",
+      "蓝色瓶盖",
+      "红色罐体",
+      "白色罐体"
+    ],
+    "relations": [
+      "塑料瓶和饮料罐放置在木桌上。",
+      "纸张和笔放在木桌上。"
+    ],
+    "scene": "户外摊位",
+    "subjects": [
+      "塑料瓶",
+      "饮料罐",
+      "木桌",
+      "纸张",
+      "笔"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多个塑料瓶和饮料罐堆叠在木制桌面上；桌面上有一张纸和一支笔。",
+    "safe_facts": [
+      "多个塑料瓶和饮料罐堆叠在木制桌面上。",
+      "桌面上有一张纸和一支笔。"
+    ]
+  },
+  "label_id": "cpl_c0788ac8f8e7f71c195b8ec3",
+  "provenance": {
+    "generated_at": "2026-08-02T22:31:24.823602+00:00",
+    "migrated_at": "2026-08-03T07:13:41.865486+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ba7235633fa01e70d605dca5dd5a058e5973e80397a34bc48f61603a3093fcf6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fa319aca27959648ba3c0791",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:03:45.764120+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fa319aca27959648ba3c0791",
+    "cpl_e2a85da0b41736a0be3bd9d4"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

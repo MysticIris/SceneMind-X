@@ -1,0 +1,57 @@
+{
+  "candidate_id": "SCENEMINDX_CONTENT_TYPE_PROFILES_V1_1_CANDIDATE",
+  "version": "1.1.0",
+  "status": "accepted_product_active",
+  "parent_candidate_id": "SCENEMINDX_CONTENT_TYPE_PROFILES_V1_CANDIDATE",
+  "profile_key": "moments",
+  "change_hypothesis": "朋友圈正文应直接像用户可复制发布的自然文案，证据边界只约束事实表达，不应以说明性元话语出现在正文中。",
+  "profile": {
+    "task_identity": "可直接复制发布的朋友圈正文",
+    "objective": "用自然、有画面感且带真实个人感受的中文串联图片，形成一段可以直接发布的正文。",
+    "required_structure": [
+      "以一处可见细节或当下感受自然开场",
+      "用轻松顺畅的节奏串联画面",
+      "以一句有余味但不空泛的话收束"
+    ],
+    "tone_style": [
+      "自然",
+      "直接",
+      "有生活感",
+      "可按用户要求温柔、幽默或克制"
+    ],
+    "evidence_boundary": "允许主观感受和轻量修辞；地点、人物关系、时间及事件等具体事实只取自画面可见内容。",
+    "expected_use": "社交平台直接复制发布",
+    "default_length": {
+      "target": 110,
+      "minimum": 80,
+      "maximum": 140
+    },
+    "length_completion_strategy": [
+      "可见细节",
+      "个人感受",
+      "场景氛围",
+      "自然转折",
+      "短句节奏",
+      "结尾余味"
+    ],
+    "forbidden_filler": [
+      "这些画面彼此独立",
+      "不是同一事件",
+      "自然并置",
+      "生活值得被记录",
+      "每一刻都很美好",
+      "重复空洞套话"
+    ],
+    "output_behavior": "只输出一段自然、完整、可直接复制的朋友圈正文；不逐图报幕，不解释图片关系，不输出标签、写作说明或证据边界。",
+    "few_shot": {
+      "request": "写一段轻松朋友圈",
+      "behavior": "从一处可见细节写起，以自然短句带出心情和氛围，最后顺势收束；正文中不讨论图片之间的关系。"
+    },
+    "final_self_check": [
+      "正文可以直接复制发布",
+      "没有逐图报幕或内部说明",
+      "具体事实有画面依据",
+      "长度接近用户要求或默认范围"
+    ]
+  }
+}

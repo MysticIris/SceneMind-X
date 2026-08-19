@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:645.jpg",
+    "relative_path": "train/645.jpg",
+    "sha256": "cb375df459ce78577bbe20b65986a7797ee659fa4502fe2f3bef190260b037c7",
+    "split": "train"
+  },
+  "canonical_sha256": "5ceb0eb0995cc62a656ec82ddc2feea1d91f669efc425cc939ed4f9c67d64cb5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黑色机箱",
+      "立式电脑",
+      "瓷砖地面"
+    ],
+    "short_description": "一台黑色立式电脑机箱放置在瓷砖地板上，旁边有白色立柱和电线。",
+    "theme": "黑色电脑机箱"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "机箱为黑色，呈长方体立式结构。",
+      "机箱底部接触瓷砖地面，周围有裂缝。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "黑色",
+      "立式",
+      "有通风口",
+      "有电源线"
+    ],
+    "relations": [
+      "机箱位于地板上。",
+      "机箱靠近白色立柱。"
+    ],
+    "scene": "室内环境",
+    "subjects": [
+      "电脑机箱"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "机箱为黑色，呈长方体立式结构；机箱底部接触瓷砖地面，周围有裂缝。",
+    "safe_facts": [
+      "机箱为黑色，呈长方体立式结构。",
+      "机箱底部接触瓷砖地面，周围有裂缝。"
+    ]
+  },
+  "label_id": "cpl_4dfe691865f1d9991588584c",
+  "provenance": {
+    "generated_at": "2026-08-03T11:51:05.095420+00:00",
+    "migrated_at": "2026-08-03T11:51:05.097930+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d591d645a2e02b98c0913df5bd1802f09abd9d625e4741cb63bc2646c6366d54",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_cb7a4360b359ab7c8bb8978c",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:51:05.098268+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_cb7a4360b359ab7c8bb8978c"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:859.jpg",
+    "relative_path": "train/859.jpg",
+    "sha256": "3856c0a54036a1c6db43c69980e634cdae858caa6dc7d545e9c01920c626e0a3",
+    "split": "train"
+  },
+  "canonical_sha256": "483aee8c38da13c16fb44566779129b869664e82c04cf75c89e8a46f79dc1931",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄昏",
+      "远山",
+      "田野",
+      "农具"
+    ],
+    "short_description": "黄昏时分，远山剪影映衬渐变天色，近处田地与农具静默伫立，树木轮廓分明。",
+    "theme": "黄昏山野"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自地平线方向，表明是日落或日出时段。"
+    ],
+    "direct_observations": [
+      "天空呈现从浅蓝到淡粉的渐变色调。",
+      "远处山脉轮廓清晰，呈深色剪影。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "天空呈蓝紫渐变",
+      "云层稀疏",
+      "田野绿色",
+      "手推车静止"
+    ],
+    "relations": [
+      "山脉位于田野后方。",
+      "树木分布在田野边缘。",
+      "房屋位于画面左侧。"
+    ],
+    "scene": "乡村户外庭院",
+    "subjects": [
+      "山脉",
+      "树木",
+      "农田",
+      "手推车",
+      "房屋一角"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自地平线方向，表明是日落或日出时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现从浅蓝到淡粉的渐变色调；远处山脉轮廓清晰，呈深色剪影。",
+    "safe_facts": [
+      "天空呈现从浅蓝到淡粉的渐变色调。",
+      "远处山脉轮廓清晰，呈深色剪影。"
+    ]
+  },
+  "label_id": "cpl_061f02b753c7d190f0222a60",
+  "provenance": {
+    "generated_at": "2026-08-03T12:38:00.570342+00:00",
+    "migrated_at": "2026-08-03T12:38:00.572810+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "db583f464e756f4ca9289a9bacd85904727484d75dc348e9be0b93fafd76ae8f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fd2fcb0c9d905d9884afc6b1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:38:00.573163+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fd2fcb0c9d905d9884afc6b1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

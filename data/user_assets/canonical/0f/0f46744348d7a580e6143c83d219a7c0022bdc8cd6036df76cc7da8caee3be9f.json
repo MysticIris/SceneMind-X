@@ -1,0 +1,146 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_2ddaf20438bf1c82258b9e9d",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_6ced17b0c7f2ab22b7bc3fff"
+  ],
+  "asset": {
+    "asset_id": "0f46744348d7a580",
+    "sha256": "0f46744348d7a580e6143c83d219a7c0022bdc8cd6036df76cc7da8caee3be9f",
+    "split": "user_custom",
+    "relative_path": "user_assets/0f/0f46744348d7a580e6143c83d219a7c0022bdc8cd6036df76cc7da8caee3be9f/0f46744348d7a580e6143c83d219a7c0022bdc8cd6036df76cc7da8caee3be9f.jpg"
+  },
+  "display": {
+    "theme": "城市街道交通场景",
+    "short_description": "这是一张侧向拍摄的城市街道照片。画面前景有一名佩戴深色帽子、背着浅紫色花纹双肩包的人骑着电动车经过，因运动产生模糊。背景道路上停着或行驶着黑色SUV和灰色轿车，远处矗立着多栋高层居民楼，楼体上有红色招牌。",
+    "micro_tags": [
+      "城市街道",
+      "电动车",
+      "高层建筑",
+      "交通",
+      "动态模糊",
+      "背包"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "城市道路与居民区",
+    "subjects": [
+      "骑电动车的人",
+      "黑色SUV",
+      "灰色轿车",
+      "浅蓝色车辆局部",
+      "高层住宅楼",
+      "树木"
+    ],
+    "actions": [
+      "骑行",
+      "行驶",
+      "停放"
+    ],
+    "attributes": [
+      "运动模糊",
+      "侧向构图",
+      "白天",
+      "沥青路面",
+      "白色建筑外墙"
+    ],
+    "relations": [
+      "骑车人位于前景。",
+      "汽车位于中景道路。",
+      "建筑物位于背景。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "前景人物背着浅紫色带图案的双肩包，戴着深色棒球帽，骑在两轮车上，影像呈现明显的运动模糊。",
+      "中景道路上有一辆黑色SUV和一辆深灰色轿车，车身反光清晰。",
+      "背景是多栋白色外墙的高层建筑，窗户排列整齐，楼下有绿化树木。",
+      "建筑物低层位置悬挂有红底黄字的横向招牌。"
+    ],
+    "cautious_inferences": [
+      "前景的模糊表明骑车人相对于相机正在快速移动，或者相机正在跟随移动物体拍摄。"
+    ],
+    "uncertainties": [
+      "无法确定骑车人的性别和确切年龄。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "995 烧烤排挡"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "995 烧烤排挡"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "前景人物背着浅紫色带图案的双肩包，戴着深色棒球帽，骑在两轮车上，影像呈现明显的运动模糊；中景道路上有一辆黑色SUV和一辆深灰色轿车，车身反光清晰。",
+    "safe_facts": [
+      "前景人物背着浅紫色带图案的双肩包，戴着深色棒球帽，骑在两轮车上，影像呈现明显的运动模糊。",
+      "中景道路上有一辆黑色SUV和一辆深灰色轿车，车身反光清晰。",
+      "背景是多栋白色外墙的高层建筑，窗户排列整齐，楼下有绿化树木。"
+    ],
+    "do_not_assert": [
+      "前景的模糊表明骑车人相对于相机正在快速移动，或者相机正在跟随移动物体拍摄。",
+      "无法确定骑车人的性别和确切年龄。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_c24273c8-df43-4154-9a6c-b45ced1a5411",
+    "generated_at": "2026-08-12T03:14:12.797462+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "f0a7e07383ebc73895f445d67bc417757dd856e063175279684de0fc4131f604",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:14:12.798219+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_6ced17b0c7f2ab22b7bc3fff",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:14:12.798587+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "2e6090463beebaba114e43eb711e84dd5129e50074f87d82c7d6afe58915f0c0"
+}

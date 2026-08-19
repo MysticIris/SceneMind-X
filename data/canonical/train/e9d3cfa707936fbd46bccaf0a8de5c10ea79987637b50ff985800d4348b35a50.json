@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1165.jpg",
+    "relative_path": "train/1165.jpg",
+    "sha256": "e9d3cfa707936fbd46bccaf0a8de5c10ea79987637b50ff985800d4348b35a50",
+    "split": "train"
+  },
+  "canonical_sha256": "23581c0188306817610367c6f27f6d696901379d1ec5158084e1963e00f48816",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "玉兰树",
+      "春日",
+      "公园",
+      "行人"
+    ],
+    "short_description": "粉紫色玉兰花树成行，人们在树下散步、拍照，天空布满云层。",
+    "theme": "春日花树下漫步"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天气晴朗但云层较厚。"
+    ],
+    "direct_observations": [
+      "多棵玉兰树开满粉紫色花朵。",
+      "地面有铺砌小径，有人在上面行走。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "站立",
+      "拍照"
+    ],
+    "attributes": [
+      "粉紫色花朵",
+      "光秃树枝",
+      "浅蓝色天空",
+      "云层"
+    ],
+    "relations": [
+      "行人位于树下。",
+      "树木排列成行。"
+    ],
+    "scene": "户外公园或园林",
+    "subjects": [
+      "行人",
+      "玉兰树"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天气晴朗但云层较厚。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多棵玉兰树开满粉紫色花朵；地面有铺砌小径，有人在上面行走。",
+    "safe_facts": [
+      "多棵玉兰树开满粉紫色花朵。",
+      "地面有铺砌小径，有人在上面行走。"
+    ]
+  },
+  "label_id": "cpl_16ea443acd0617fccfa757de",
+  "provenance": {
+    "generated_at": "2026-08-03T13:48:31.628932+00:00",
+    "migrated_at": "2026-08-03T13:48:31.631517+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a675869234895a1461d9c14aa6fcfeadf0d9d786fe59e68447dd0bb4313eb40e",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_670f830b5313f82bf29a2ac2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:48:31.633274+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_670f830b5313f82bf29a2ac2"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

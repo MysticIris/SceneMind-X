@@ -1,0 +1,136 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2262.jpg",
+    "relative_path": "val/2262.jpg",
+    "sha256": "7eea93ed2d2dbcd41c6197722461d7b9a5aeb47005a1aea01bcb11e7d61c0685",
+    "split": "val"
+  },
+  "canonical_sha256": "f4cd66425a483425b5cf692d5532f9a5a8418a7004956c5c5fca7fdfa33f6c16",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "情侣",
+      "马拉松",
+      "合影",
+      "胜利手势"
+    ],
+    "short_description": "一对男女在户外赛事终点合影，背景有雕塑和蓝色帐篷，两人比出胜利手势。",
+    "theme": "情侣马拉松合影"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "照片中有一男一女，均面带微笑，做出胜利手势。",
+      "背景中有大型金属雕塑和蓝色帐篷。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "比出胜利手势",
+      "并肩站立"
+    ],
+    "attributes": [
+      "戴帽子",
+      "戴眼镜",
+      "佩戴奖牌",
+      "佩戴绶带"
+    ],
+    "relations": [
+      "两人并肩站立。",
+      "女性佩戴奖牌。",
+      "男性佩戴绶带。"
+    ],
+    "scene": "户外活动场地",
+    "subjects": [
+      "一名女性",
+      "一名男性"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "照片中有一男一女，均面带微笑，做出胜利手势；背景中有大型金属雕塑和蓝色帐篷。",
+    "safe_facts": [
+      "照片中有一男一女，均面带微笑，做出胜利手势。",
+      "背景中有大型金属雕塑和蓝色帐篷。"
+    ]
+  },
+  "label_id": "cpl_f2f39ce704d77bffb2be45a6",
+  "provenance": {
+    "generated_at": "2026-08-03T16:21:24.925178+00:00",
+    "migrated_at": "2026-08-03T16:21:24.927093+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "02f10c0f77ae7df98f31641362324cef31b40de77371d3e8fef7aa9a2a4defa6",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_78690e73f8130222617bd698",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:21:24.927658+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_78690e73f8130222617bd698"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "曹一鸣、位羽",
+      "爱情宣言",
+      "本想仗剑走天涯...",
+      "照片拍摄于高百济南站结束后..."
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "曹一鸣、位羽",
+      "爱情宣言",
+      "本想仗剑走天涯...",
+      "照片拍摄于高百济南站结束后..."
+    ]
+  }
+}

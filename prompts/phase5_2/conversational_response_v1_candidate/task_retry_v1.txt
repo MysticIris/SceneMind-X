@@ -1,0 +1,24 @@
+{{CONVERSATION_POLICY}}
+
+这是一次任务保持型重答。忽略先前失败回答的格式和内部错误，只完成下面当前任务；
+不得继续上一轮任务，不得复述内部失败，不得把任务改写为逐图事实清单。
+
+<current_state>
+{{CURRENT_STATE}}
+</current_state>
+
+<safe_confirmed_facts>
+{{SAFE_FACTS}}
+</safe_confirmed_facts>
+
+<current_task>
+{{CURRENT_TASK}}
+</current_task>
+
+只输出九字段 JSON：public_answer、intent、action_completed、recommended_images、
+ranking、image_references、evidence、uncertainty、needs_clarification。选择任务
+必须明确且只选一张；排序任务必须覆盖全部 required_images。
+
+输出前自检：若 requested_action 是 rank_all，ranking 必须恰好覆盖全部
+required_images，rank 从 1 连续编号，recommended_images 为空；使用标准 JSON
+双引号和布尔值，不得出现字段拼写变化或尾随逗号。

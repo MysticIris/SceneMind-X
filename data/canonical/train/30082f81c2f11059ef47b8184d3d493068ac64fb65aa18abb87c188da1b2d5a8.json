@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:630.jpg",
+    "relative_path": "train/630.jpg",
+    "sha256": "30082f81c2f11059ef47b8184d3d493068ac64fb65aa18abb87c188da1b2d5a8",
+    "split": "train"
+  },
+  "canonical_sha256": "370453c71fb817e84d8fd9739b0cb60b0006f697dc03516356dd8842d7af5466",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市街道",
+      "高楼林立",
+      "行人骑行"
+    ],
+    "short_description": "城市街道上，行人与骑车者穿行于高楼与绿树之间，路边有施工围挡和公交站牌。",
+    "theme": "城市街道日常"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中有行人和骑车人正在街道上移动。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "行走",
+      "骑行",
+      "停放"
+    ],
+    "attributes": [
+      "白色SUV",
+      "绿色树木",
+      "灰色建筑",
+      "蓝色公交站牌"
+    ],
+    "relations": [
+      "行人与骑车人同处街道。",
+      "汽车停在路边。",
+      "公交站位于建筑旁。"
+    ],
+    "scene": "城市街道",
+    "subjects": [
+      "行人",
+      "骑车人",
+      "汽车",
+      "高楼",
+      "树木",
+      "公交站"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有行人和骑车人正在街道上移动。",
+    "safe_facts": [
+      "画面中有行人和骑车人正在街道上移动。"
+    ]
+  },
+  "label_id": "cpl_8658e089cdc9275b0b0faced",
+  "provenance": {
+    "generated_at": "2026-08-02T22:03:05.884673+00:00",
+    "migrated_at": "2026-08-03T07:13:41.316227+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "15d02dc94c59d7cac94f2337f4b0958dfeb76a6dc2e1ecbff3aa157a00e7d8bd",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_ca3ec5af8fbc8994485bc489",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:47:45.937217+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "pass"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ca3ec5af8fbc8994485bc489",
+    "cpl_c57ad180879e4a6a14d24d64"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "路长驿站"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "路长驿站"
+    ]
+  }
+}

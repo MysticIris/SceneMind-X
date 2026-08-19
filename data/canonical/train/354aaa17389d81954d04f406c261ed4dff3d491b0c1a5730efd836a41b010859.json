@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:686.jpg",
+    "relative_path": "train/686.jpg",
+    "sha256": "354aaa17389d81954d04f406c261ed4dff3d491b0c1a5730efd836a41b010859",
+    "split": "train"
+  },
+  "canonical_sha256": "edac76d77125d516961b7766db35b1664df194d91ddb49147858f3467a49327e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "炖肉",
+      "土豆块",
+      "自助餐",
+      "不锈钢餐盘"
+    ],
+    "short_description": "不锈钢餐盘中盛放着带土豆块的炖肉，配有葱段和辣椒，呈现诱人的红褐色酱汁。",
+    "theme": "热菜自助餐"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "菜肴可能为辣味炖肉，因可见红色辣椒碎。"
+    ],
+    "direct_observations": [
+      "两个不锈钢长方形容器内装有炖肉和土豆块。",
+      "菜肴表面覆盖红褐色酱汁，可见葱段和辣椒碎屑。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "红褐色酱汁",
+      "油亮表面",
+      "分层摆放"
+    ],
+    "relations": [
+      "土豆块与肉块混合。",
+      "葱段和辣椒点缀菜肴。"
+    ],
+    "scene": "自助餐台",
+    "subjects": [
+      "炖肉",
+      "土豆块",
+      "葱段",
+      "辣椒",
+      "不锈钢餐盘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "菜肴可能为辣味炖肉，因可见红色辣椒碎。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两个不锈钢长方形容器内装有炖肉和土豆块；菜肴表面覆盖红褐色酱汁，可见葱段和辣椒碎屑。",
+    "safe_facts": [
+      "两个不锈钢长方形容器内装有炖肉和土豆块。",
+      "菜肴表面覆盖红褐色酱汁，可见葱段和辣椒碎屑。"
+    ]
+  },
+  "label_id": "cpl_48bf42b6c9b81efc22f8b65f",
+  "provenance": {
+    "generated_at": "2026-08-03T12:00:13.281983+00:00",
+    "migrated_at": "2026-08-03T12:00:13.285156+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "6f053b662da8f2afdbab20832b05878a4f0e8b36693aeb4938df5be286ea88fb",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_8db8fd3b771c9c7c667fc81d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:00:13.285521+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_8db8fd3b771c9c7c667fc81d"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:453.jpg",
+    "relative_path": "train/453.jpg",
+    "sha256": "2af5e442629021db03a151ffc5c2e37706ddc3a5230d1f88d2f85f3d098b09c9",
+    "split": "train"
+  },
+  "canonical_sha256": "e8ccd1415478ae3685f71ab9824a41c813f96475afebeb16ac9d44d36b3f61d8",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "城市景观",
+      "河流",
+      "桥梁",
+      "灯笼"
+    ],
+    "short_description": "城市河流两岸，桥梁横跨水面，前景悬挂灯笼，远处高楼林立，绿植环绕道路。",
+    "theme": "城市河岸景观"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面左上角悬挂一个橙色纸灯笼。",
+      "河流上有两座大型桥梁，其中一座呈红色拱形。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阴天",
+      "多云",
+      "混凝土桥墩",
+      "绿色植被",
+      "橙色灯笼"
+    ],
+    "relations": [
+      "灯笼悬挂在前景。",
+      "桥梁跨越河流。",
+      "城市建筑位于背景。",
+      "道路沿河岸延伸。"
+    ],
+    "scene": "城市河流与桥梁景观",
+    "subjects": [
+      "灯笼",
+      "桥梁",
+      "河流",
+      "城市建筑",
+      "树木",
+      "道路"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面左上角悬挂一个橙色纸灯笼；河流上有两座大型桥梁，其中一座呈红色拱形。",
+    "safe_facts": [
+      "画面左上角悬挂一个橙色纸灯笼。",
+      "河流上有两座大型桥梁，其中一座呈红色拱形。"
+    ]
+  },
+  "label_id": "cpl_f66a1ea2c18e89e21431b23f",
+  "provenance": {
+    "generated_at": "2026-08-03T11:06:33.754836+00:00",
+    "migrated_at": "2026-08-03T11:06:33.756254+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "d29ca99176d794a9b9d86dd7e75dc7d401f876eb5bcea5d5bc24b4baa9701ee1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_552e0a4bef2e26ee3d712567",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:06:33.756464+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_552e0a4bef2e26ee3d712567"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

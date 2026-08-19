@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:104.jpg",
+    "relative_path": "train/104.jpg",
+    "sha256": "7c832de3d7b3f4da0d7ad5b3c4f6dec0fb14d0143118826942ae55c5ef559a47",
+    "split": "train"
+  },
+  "canonical_sha256": "23e0cc47c3707696b96ee1b87011151b60146ee89b5c3d0a3f1047e459c07250",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "石桥",
+      "溪流",
+      "山峦",
+      "阴云",
+      "自然景观"
+    ],
+    "short_description": "阴云密布下，古朴石桥横跨湍急溪流，背景山峦起伏，植被覆盖，氛围苍茫而宁静。",
+    "theme": "石桥溪流山景"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空中的云层厚重且移动缓慢，可能为长时间曝光拍摄所致。"
+    ],
+    "direct_observations": [
+      "画面中有一座多拱石桥横跨溪流。",
+      "溪流表面因水流快速呈现模糊的白色水纹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "石桥由石块砌成",
+      "溪流呈流动状态",
+      "天空多云",
+      "山丘覆盖植被"
+    ],
+    "relations": [
+      "石桥跨越溪流。",
+      "溪流位于石桥下方。",
+      "山丘位于石桥后方。"
+    ],
+    "scene": "户外自然景观",
+    "subjects": [
+      "石桥",
+      "溪流",
+      "山丘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空中的云层厚重且移动缓慢，可能为长时间曝光拍摄所致。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中有一座多拱石桥横跨溪流；溪流表面因水流快速呈现模糊的白色水纹。",
+    "safe_facts": [
+      "画面中有一座多拱石桥横跨溪流。",
+      "溪流表面因水流快速呈现模糊的白色水纹。"
+    ]
+  },
+  "label_id": "cpl_4587ceee58700d38fa7107db",
+  "provenance": {
+    "generated_at": "2026-08-03T09:26:18.074615+00:00",
+    "migrated_at": "2026-08-03T09:26:18.076079+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "2f87f36d968e46a1905bb6a86230c97e136649c9f52a402e442b80ee60422def",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_02a777e7ccd938949b3491bf",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_1_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T09:52:29.619332+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_02a777e7ccd938949b3491bf",
+    "cpl_689c81c9ed8fa9c2286eec5f"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

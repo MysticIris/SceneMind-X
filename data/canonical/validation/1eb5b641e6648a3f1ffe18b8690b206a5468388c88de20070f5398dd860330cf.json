@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:val:2312.jpg",
+    "relative_path": "val/2312.jpg",
+    "sha256": "1eb5b641e6648a3f1ffe18b8690b206a5468388c88de20070f5398dd860330cf",
+    "split": "val"
+  },
+  "canonical_sha256": "2a14fcdb1be0060d26d750c8d32c6198b3f9af9d083f211333f8736ea04f603a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "城市灯光",
+      "山丘植被"
+    ],
+    "short_description": "夜幕下，山丘植被前景衬托远处灯火通明的城市天际线，云层覆盖天空。",
+    "theme": "夜景城市轮廓"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "天空被云层遮蔽，呈现灰暗色调。"
+    ],
+    "direct_observations": [
+      "画面前景为深色植被，部分叶片呈绿色。",
+      "远处城市建筑群亮着灯光，形成光带。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "夜色",
+      "云层覆盖",
+      "灯光照明",
+      "绿色植物"
+    ],
+    "relations": [
+      "植被位于前景。",
+      "城市位于背景。"
+    ],
+    "scene": "夜间城市远景",
+    "subjects": [
+      "城市建筑群",
+      "山丘植被"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "天空被云层遮蔽，呈现灰暗色调。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面前景为深色植被，部分叶片呈绿色；远处城市建筑群亮着灯光，形成光带。",
+    "safe_facts": [
+      "画面前景为深色植被，部分叶片呈绿色。",
+      "远处城市建筑群亮着灯光，形成光带。"
+    ]
+  },
+  "label_id": "cpl_56548967840f0e3df08e627d",
+  "provenance": {
+    "generated_at": "2026-08-03T16:28:06.447824+00:00",
+    "migrated_at": "2026-08-03T16:28:06.449626+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ba0cc08fef2c974d718532b96c3869cd805197c8caa946a63ee3e0e0f120294f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_fe06b4d630b8f99ad939ff1e",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T16:28:06.449960+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_fe06b4d630b8f99ad939ff1e"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

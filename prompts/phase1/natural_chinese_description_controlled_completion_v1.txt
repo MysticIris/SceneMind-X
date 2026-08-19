@@ -1,0 +1,17 @@
+任务：NATURAL_CHINESE_DESCRIPTION_CONTROLLED_COMPLETION_V1
+
+当前干净描述：
+{current_clean_description}
+
+尚未覆盖的高价值可靠事实：
+{missing_reliable_high_value_facts}
+
+已验证文字（可能为空）：
+{verified_text}
+
+复杂度档位：{target_tier}
+当前中文字符数（由外部程序统计，仅供背景）：{current_chinese_character_count}
+
+请逐字保留当前干净描述，并在其后自然补充一至三句尚未覆盖的重要细节。只能使用上面提供的可靠事实，不得引入新对象、新文字、新地点或身份。
+
+输出一个完整自然段，只输出最终正文，不输出注释、字符数、角色名、规则说明或自我评价。内容充分后立即结束，不要为了达到长度而重复或扩写。

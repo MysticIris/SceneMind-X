@@ -1,0 +1,145 @@
+{
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "label_id": "cpl_9e4860bfdb06594a91be1497",
+  "canonical_status": "active_candidate",
+  "supersedes": [
+    "cpl_53a1205d7e1f851acacb96c4"
+  ],
+  "asset": {
+    "asset_id": "5a5fc0a3b259edc5",
+    "sha256": "5a5fc0a3b259edc5d66fb045bbc63cd04eab31a7aef1d7e80157b1f2cefe8189",
+    "split": "user_custom",
+    "relative_path": "user_assets/5a/5a5fc0a3b259edc5d66fb045bbc63cd04eab31a7aef1d7e80157b1f2cefe8189/5a5fc0a3b259edc5d66fb045bbc63cd04eab31a7aef1d7e80157b1f2cefe8189.jpg"
+  },
+  "display": {
+    "theme": "独立包装的月饼",
+    "short_description": "浅色木纹桌面上散乱堆放着十余个独立透明塑料包装的圆形月饼。",
+    "micro_tags": [
+      "月饼",
+      "独立包装",
+      "传统糕点",
+      "桌面静物",
+      "食品"
+    ]
+  },
+  "facts": {
+    "visual_medium": "photograph",
+    "scene": "室内浅色木纹桌面",
+    "subjects": [
+      "独立包装的月饼",
+      "塑料包装袋",
+      "木质桌面"
+    ],
+    "actions": [],
+    "attributes": [
+      "圆形",
+      "金黄色",
+      "透明包装",
+      "堆叠放置"
+    ],
+    "relations": [
+      "月饼被封装在透明塑料袋中。",
+      "多个包装散落在桌面上。"
+    ]
+  },
+  "evidence": {
+    "direct_observations": [
+      "画面主体为多个独立包装的圆形烘焙食品，放置在浅色木纹表面上。",
+      "每个食品都被密封在透明塑料托盒或袋中，包装边缘有金色锯齿状封口。",
+      "食品表面呈现金黄色泽，中心位置有明显的模具压印汉字纹理。"
+    ],
+    "cautious_inferences": [
+      "包装上的文字布局暗示了品牌名称和产品类型(如‘东北老式’等字样依稀可见)。"
+    ],
+    "uncertainties": [
+      "无法确定具体的馅料口味(如五仁、豆沙等)。"
+    ]
+  },
+  "text_evidence": {
+    "presence": "present_readable",
+    "visual_candidates": [
+      "莱朵",
+      "东北老式",
+      "净含量:100克",
+      "2025年09月24日",
+      "家乡味道",
+      "秉承传统"
+    ],
+    "ocr_candidates": [],
+    "candidate_text": [
+      "莱朵",
+      "东北老式",
+      "净含量:100克",
+      "2025年09月24日",
+      "家乡味道",
+      "秉承传统"
+    ],
+    "confidence": null,
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available"
+  },
+  "fallback": {
+    "safe_caption": "画面主体为多个独立包装的圆形烘焙食品，放置在浅色木纹表面上；每个食品都被密封在透明塑料托盒或袋中，包装边缘有金色锯齿状封口。",
+    "safe_facts": [
+      "画面主体为多个独立包装的圆形烘焙食品，放置在浅色木纹表面上。",
+      "每个食品都被密封在透明塑料托盒或袋中，包装边缘有金色锯齿状封口。",
+      "食品表面呈现金黄色泽，中心位置有明显的模具压印汉字纹理。"
+    ],
+    "do_not_assert": [
+      "包装上的文字布局暗示了品牌名称和产品类型(如‘东北老式’等字样依稀可见)。",
+      "无法确定具体的馅料口味(如五仁、豆沙等)。"
+    ],
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "policy": "use_only_when_public_model_body_invalid",
+    "must_not_override_valid_model_output": true
+  },
+  "quality": {
+    "semantic_status": "warning",
+    "schema_valid": true,
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ],
+    "needs_review": false,
+    "validation_errors": [],
+    "sanitization_applied": false,
+    "sanitization_actions": []
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "status": "not_reviewed",
+      "notes": []
+    },
+    "user_human_review": {
+      "status": "pending"
+    },
+    "review_label": "machine_provisional",
+    "gold_status": false
+  },
+  "provenance": {
+    "source_run_id": "phase6_3_online_fdae7e7a-5e08-4ebe-8740-ebcfdc9a6d02",
+    "generated_at": "2026-08-12T03:11:25.873216+00:00",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "raw_output_sha256": "e21f1ec206e8f38ed69f1c745798061e8dd8abd9beca716dbcca657ff606fdb5",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1",
+    "migrated_at": "2026-08-12T03:11:25.874164+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "source_label_id": "cpl_53a1205d7e1f851acacb96c4",
+    "recovered_at_tokens": null,
+    "split_compatibility_migrated_at": "2026-08-12T03:11:25.874493+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1"
+  },
+  "canonical_sha256": "6e824cb764f779c7f33d410b265973e0b52e2de653901b897ace03b02457c040"
+}

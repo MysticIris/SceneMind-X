@@ -1,0 +1,65 @@
+{
+  "asset_id": "a3d6befede9db545",
+  "asset_sha256": "a3d6befede9db545e9ffd362f6c71337ee8f7ef7188476bd6d780f9143769c87",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"考试考位查询结果\",\n    \"short_description\": \"一张网页截图，展示了2026年5月9日武汉地区多个考点的考位查询结果。列表包含华中科技大学、武汉大学等考场名称、费用及预定按钮状态。\",\n    \"micro_tags\": [\n      \"网页截图\",\n      \"考位查询\",\n      \"考试信息\",\n      \"表格数据\",\n      \"武汉考点\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"网页界面\",\n    \"subjects\": [\n      \"查询条件表单\",\n      \"考位查询结果列表\",\n      \"操作按钮\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"白底黑字\",\n      \"表格布局\",\n      \"蓝色表头\",\n      \"黑色按钮\"\n    ],\n    \"relations\": [\n      \"查询条件位于页面上方\",\n      \"结果列表位于页面下方\",\n      \"每一行对应一个考场信息\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"页面顶部有“查询条件”区域，包含“考点所在城市”下拉框（显示武汉）和“考试日期”下拉框（显示2026年5月9日）。\",\n      \"下方表格列出了多个考场，如“华中科技大学”、“武汉大学考试中心”，并显示费用为RMB ¥ 2100.00。\",\n      \"表格右侧有“立即预定”黑色按钮或“名额暂满”灰色文字状态。\"\n    ],\n    \"cautious_inferences\": [\n      \"这可能是一个考试报名系统的后台或前端查询页面。\",\n      \"图标可能代表无障碍设施或其他考场服务标识。\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"查询条件\",\n      \"考点所在城市 武汉\",\n      \"考试日期 2026年5月9日 星期六\",\n      \"查询考位\",\n      \"考位查询结果\",\n      \"请您关注 各考点入校/入场要求。\",\n      \"考试日期： 2026年5月9日 星期六\",\n      \"考试时间： 09:00\",\n      \"最晚到达时间： 08:30\",\n      \"城市\",\n      \"考场\",\n      \"费用\",\n      \"考位\",\n      \"湖北 武汉\",\n      \"STN80020A 华中科技大学\",\n      \"RMB ¥ 2100.00\",\n      \"立即预定\",\n      \"名额暂满\",\n      \"STN80021A 武汉大学考试中心\",\n      \"STN80103A 武汉理工大学\",\n      \"STN80128A 湖北楚才考试服务有限公司\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张显示考试考位查询结果的网页截图，包含日期选择器和详细的考场列表表格。\",\n    \"safe_facts\": [\n      \"图片展示了一个包含表单和表格的用户界面。\",\n      \"表格中有多行数据，每行包含文本信息和右侧的状态指示（",
+      "input_tokens": 2475,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 2475,
+        "output_tokens": 768,
+        "total_tokens": 3243,
+        "estimated_cost_cny": 0.011094,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "考试考位查询结果",
+        "short_description": "一张网页截图，展示了2026年5月9日武汉地区多个考点的考位查询结果。列表包含华中科技大学、武汉大学等考场名称、费用及预定按钮状态。",
+        "micro_tags": [
+          "网页截图",
+          "考位查询",
+          "考试信息",
+          "表格数据",
+          "武汉考点"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 239160,
+        "request_bytes": 176296,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.463201700003992,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "b396f4c4a6018d2bc3c6a09cdff9ff97347b0ca4025aa81a0305925f97b1a83e"
+}

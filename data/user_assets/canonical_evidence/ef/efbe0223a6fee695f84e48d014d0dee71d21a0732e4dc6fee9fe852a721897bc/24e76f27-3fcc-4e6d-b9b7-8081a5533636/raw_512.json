@@ -1,0 +1,66 @@
+{
+  "asset_id": "efbe0223a6fee695",
+  "asset_sha256": "efbe0223a6fee695f84e48d014d0dee71d21a0732e4dc6fee9fe852a721897bc",
+  "scope": "user_custom",
+  "requested_max_new_tokens": 512,
+  "effective_max_new_tokens": 768,
+  "result": {
+    "status": "success",
+    "data": {
+      "raw_output": "{\n  \"payload_version\": \"phase6_0a_model_payload_v1\",\n  \"display\": {\n    \"theme\": \"DOSBox校园出入管理界面\",\n    \"short_description\": \"这是一张DOSBox模拟器的运行截图，显示了一个名为“出入校园管理”的复古风格软件界面。屏幕中央包含日期显示、八个蓝色地点选择按钮（如南大门、东大门等）以及状态切换选项，底部设有确定按钮，整体呈现典型的命令行图形用户界面特征。\",\n    \"micro_tags\": [\n      \"DOSBox\",\n      \"校园管理\",\n      \"复古UI\",\n      \"软件截图\",\n      \"蓝色按钮\",\n      \"出入登记\"\n    ]\n  },\n  \"facts\": {\n    \"visual_medium\": \"screenshot\",\n    \"scene\": \"计算机模拟器软件运行界面\",\n    \"subjects\": [\n      \"出入校园管理软件窗口\",\n      \"DOSBox标题栏\",\n      \"功能选择按钮组\"\n    ],\n    \"actions\": [],\n    \"attributes\": [\n      \"黑底白字背景\",\n      \"蓝色圆角矩形按钮\",\n      \"像素化字体\",\n      \"窗口化显示\"\n    ],\n    \"relations\": [\n      \"标题位于界面顶部居中\",\n      \"地点按钮排列在界面中部\",\n      \"状态选项位于按钮组下方\",\n      \"确定按钮位于右下角\"\n    ]\n  },\n  \"evidence\": {\n    \"direct_observations\": [\n      \"窗口顶部标题栏显示文本“DOSBox 0.72, Cpu Cycles: max, Frameskip 0, Program: BC”\",\n      \"界面主标题为“出入校园管理”，下方有“AIA>>HUST”及“出入校园登记”字样\",\n      \"界面包含两排共八个深蓝色按钮，文字分别为“南大门”、“南二门”、“南三门”、“体育馆门”、“东大门”、“生活区门”、“启明门”、“西小门”\",\n      \"底部设有“状态：”标签及“校外”、“校内”两个选项按钮，右下角有一个“确定”按钮\"\n    ],\n    \"cautious_inferences\": [\n      \"该界面可能是一个用于模拟或记录校园出入信息的简易程序\",\n      \"界面设计风格模仿了早期的DOS操作系统图形界面\"\n    ],\n    \"uncertainties\": []\n  },\n  \"text_evidence\": {\n    \"presence\": \"present_readable\",\n    \"visual_candidates\": [\n      \"DOSBox 0.72\",\n      \"出入校园管理\",\n      \"AIA>>HUST\",\n      \"出入校园登记\",\n      \"时间:2025年4月25日\",\n      \"选择出入校园地点\",\n      \"南大门\",\n      \"南二门\",\n      \"南三门\",\n      \"体育馆门\",\n      \"东大门\",\n      \"生活区门\",\n      \"启明门\",\n      \"西小门\",\n      \"状态：\",\n      \"校外\",\n      \"校内\",\n      \"确定\",\n      \"返回\"\n    ]\n  },\n  \"fallback\": {\n    \"safe_caption\": \"一张计算机屏幕截图，展示了一个运行在模拟器中的复古风格管理软件界面，包含多个蓝色的功能选择按钮和状态选项。\",\n    \"safe_facts\": [\n      \"图像为软件界面的屏幕截图\",\n      \"背景为黑色，主要交互元素为蓝色按钮\",\n     ",
+      "input_tokens": 1401,
+      "output_tokens": 768,
+      "finish_reason": "length",
+      "max_new_tokens": 768,
+      "max_new_tokens_hit": true,
+      "usage": {
+        "input_tokens": 1401,
+        "output_tokens": 768,
+        "total_tokens": 2169,
+        "estimated_cost_cny": 0.008946,
+        "retry_count": 0
+      },
+      "request_model_id": "qwen3.7-plus",
+      "reported_model": "qwen3.7-plus",
+      "parsed_output": {
+        "theme": "DOSBox校园出入管理界面",
+        "short_description": "这是一张DOSBox模拟器的运行截图，显示了一个名为“出入校园管理”的复古风格软件界面。屏幕中央包含日期显示、八个蓝色地点选择按钮（如南大门、东大门等）以及状态切换选项，底部设有确定按钮，整体呈现典型的命令行图形用户界面特征。",
+        "micro_tags": [
+          "DOSBox",
+          "校园管理",
+          "复古UI",
+          "软件截图",
+          "蓝色按钮",
+          "出入登记"
+        ]
+      },
+      "parse_error": null,
+      "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+      "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+      "image_labels": null,
+      "min_new_tokens": null,
+      "provider_generation_profile": "phase6_7_task_bounded_high_quality_caps",
+      "image_transport": {
+        "item_count": 1,
+        "used_compatible_transport": false,
+        "profiles": [
+          "default_transport_v1"
+        ],
+        "fallback_reason": null,
+        "original_preserved": true,
+        "provider_profile": "bailian_high_quality",
+        "transport_budget_bytes": 10500000,
+        "estimated_request_body_bytes": 81820,
+        "request_bytes": 58293,
+        "request_count": 1,
+        "fallback_from_request_too_large": false
+      }
+    },
+    "error": null,
+    "model": "qwen3.7-plus",
+    "model_revision": "qwen3.7-plus",
+    "latency_seconds": 14.189614499999152,
+    "peak_vram_bytes": null
+  },
+  "raw_output_sha256": "b578c0dcf6d60a35818eb202b2e8c75950e60b476b5c8cda4cd7bcdd4bb62f15"
+}

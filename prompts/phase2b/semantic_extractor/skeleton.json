@@ -1,0 +1,25 @@
+{
+  "depicted_content": "<简体中文短语>",
+  "scene_summary": "<简体中文短语>",
+  "subjects": [
+    "<简体中文短语>"
+  ],
+  "activities": [
+    "<简体中文短语>"
+  ],
+  "relationships": [
+    "<简体中文短语>"
+  ],
+  "visible_text_candidates": [
+    "<简体中文短语>"
+  ],
+  "observations": [
+    "<简体中文短语>"
+  ],
+  "inference_candidates": [
+    "<简体中文短语>"
+  ],
+  "uncertainties": [
+    "<简体中文短语>"
+  ]
+}

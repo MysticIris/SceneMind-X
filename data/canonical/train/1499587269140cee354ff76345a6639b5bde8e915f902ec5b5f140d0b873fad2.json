@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1913.jpg",
+    "relative_path": "train/1913.jpg",
+    "sha256": "1499587269140cee354ff76345a6639b5bde8e915f902ec5b5f140d0b873fad2",
+    "split": "train"
+  },
+  "canonical_sha256": "f88c31e20194645a69ac96185ca34c89588ea34876f905eadd250e7fe8b3d7f9",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "学生奖励",
+      "制度文件"
+    ],
+    "short_description": "图像呈现的是纸质文档的一部分。",
+    "theme": "学生奖励制度"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现的是纸质文档的一部分。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [],
+    "relations": [],
+    "scene": "",
+    "subjects": [
+      "奖惩制度条款"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现的是纸质文档的一部分。",
+    "safe_facts": [
+      "图像呈现的是纸质文档的一部分。"
+    ]
+  },
+  "label_id": "cpl_8efdad4fddb49f3b10a61939",
+  "provenance": {
+    "generated_at": "2026-08-03T15:20:41.838046+00:00",
+    "migrated_at": "2026-08-03T15:20:41.839981+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "cb8a342e14c6f55b34f50ee154cc1ab9451aea5956d99baaefd58fd97862a653",
+    "recovered_at_tokens": 768,
+    "source_label_id": "cpl_ab22493e97fed3c2b7bfbef8",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:20:41.841009+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [
+      "removed_unverified_text:display.short_description",
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_safe_caption_length",
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "recovered_at_768_tokens",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_ab22493e97fed3c2b7bfbef8"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "1. “智赴未来”共进班级奖;",
+      "2. “力创未来”争先团队奖;",
+      "3. “遥领未来”、“既达未来”和“可见未来”优秀个人奖;",
+      "4. “翼望未来”新生潜力奖。",
+      "第五条 获得任何一项奖学金的班级或团队内全体成员及个人必须满足以下基本条件:",
+      "1. 爱国主义思想坚定,团结统一、爱好和平,拥护中国共产党的领导,认真学习党的科"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "1. “智赴未来”共进班级奖;",
+      "2. “力创未来”争先团队奖;",
+      "3. “遥领未来”、“既达未来”和“可见未来”优秀个人奖;",
+      "4. “翼望未来”新生潜力奖。",
+      "第五条 获得任何一项奖学金的班级或团队内全体成员及个人必须满足以下基本条件:",
+      "1. 爱国主义思想坚定,团结统一、爱好和平,拥护中国共产党的领导,认真学习党的科"
+    ]
+  }
+}

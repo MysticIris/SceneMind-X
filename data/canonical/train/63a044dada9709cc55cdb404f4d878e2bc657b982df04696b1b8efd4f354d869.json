@@ -1,0 +1,130 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1385.jpg",
+    "relative_path": "train/1385.jpg",
+    "sha256": "63a044dada9709cc55cdb404f4d878e2bc657b982df04696b1b8efd4f354d869",
+    "split": "train"
+  },
+  "canonical_sha256": "b305e73de89a5af285e9da054f34ac3eb37bc2aae52726474cf000bb3b192a98",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "学生排名",
+      "学院公告"
+    ],
+    "short_description": "一张学院发布的学子排名榜单，包含学生信息和成绩数据。",
+    "theme": "海报或文档"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "图像呈现的是一个排行榜形式的文档。",
+      "文档上有标题和表格结构。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "包含表格数据",
+      "有装饰性图案"
+    ],
+    "relations": [],
+    "scene": "一张张贴或印刷的榜单",
+    "subjects": [],
+    "visual_medium": "poster_document"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像呈现的是一个排行榜形式的文档；文档上有标题和表格结构。",
+    "safe_facts": [
+      "图像呈现的是一个排行榜形式的文档。",
+      "文档上有标题和表格结构。"
+    ]
+  },
+  "label_id": "cpl_f40d19ca4756b6b43a2f27f3",
+  "provenance": {
+    "generated_at": "2026-08-03T14:17:42.378339+00:00",
+    "migrated_at": "2026-08-03T14:17:42.384318+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "75512fa344f65c65951adee2e38f41595edee43055fbca17a0c7d9fc08e3e974",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_a3846eaf9fb2f553ced829c3",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:17:42.387586+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:display.theme",
+      "removed_unverified_text:micro_tags",
+      "removed_unverified_text:subjects"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "micro_tags_below_recommended",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_a3846eaf9fb2f553ced829c3"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "材料与化工学院",
+      "一才华学子风云榜",
+      "哥在江湖时默默无闻,不在江湖时已成传说",
+      "他强由他强,清风拂山岗;他横任他横,明月照大江",
+      "(才华学子风云榜为动态榜单,排名以化学化工毕业生的学业绩点高低为序,每年毕业季更"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "材料与化工学院",
+      "一才华学子风云榜",
+      "哥在江湖时默默无闻,不在江湖时已成传说",
+      "他强由他强,清风拂山岗;他横任他横,明月照大江",
+      "(才华学子风云榜为动态榜单,排名以化学化工毕业生的学业绩点高低为序,每年毕业季更"
+    ]
+  }
+}

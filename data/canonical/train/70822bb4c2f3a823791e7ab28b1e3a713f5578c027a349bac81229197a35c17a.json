@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1916.jpg",
+    "relative_path": "train/1916.jpg",
+    "sha256": "70822bb4c2f3a823791e7ab28b1e3a713f5578c027a349bac81229197a35c17a",
+    "split": "train"
+  },
+  "canonical_sha256": "41fb5ff72573bc3138d109b6a38891b8db9d69ba31344ed49898cd2e8ea996fe",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "演讲者",
+      "会议现场",
+      "大屏幕展示"
+    ],
+    "short_description": "一位女性演讲者在讲台前手持麦克风，背景大屏幕显示多个团队名称及对接信息。",
+    "theme": "会议对接展示"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "一名女性站在讲台旁手持麦克风。",
+      "观众席有多人正面向前方。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "演讲者手持麦克风讲话",
+      "听众坐着聆听"
+    ],
+    "attributes": [
+      "演讲者穿棕色外套",
+      "听众背对镜头"
+    ],
+    "relations": [
+      "演讲者站在讲台前。",
+      "听众坐在演讲者前方。"
+    ],
+    "scene": "室内会议厅",
+    "subjects": [
+      "女性演讲者",
+      "听众",
+      "大屏幕"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "一名女性站在讲台旁手持麦克风；观众席有多人正面向前方。",
+    "safe_facts": [
+      "一名女性站在讲台旁手持麦克风。",
+      "观众席有多人正面向前方。"
+    ]
+  },
+  "label_id": "cpl_25821cb3624539654c62da86",
+  "provenance": {
+    "generated_at": "2026-08-03T15:22:33.457755+00:00",
+    "migrated_at": "2026-08-03T15:22:33.459909+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "03e2cc05efc966fd6e3d531b8e94a6a2041c4a405ad81c6e1424faf6621bd162",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e63903e092fc9bea87ec7a6a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:22:33.460195+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e63903e092fc9bea87ec7a6a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

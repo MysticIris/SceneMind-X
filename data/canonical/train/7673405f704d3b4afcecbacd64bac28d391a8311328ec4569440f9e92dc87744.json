@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:819.jpg",
+    "relative_path": "train/819.jpg",
+    "sha256": "7673405f704d3b4afcecbacd64bac28d391a8311328ec4569440f9e92dc87744",
+    "split": "train"
+  },
+  "canonical_sha256": "faa856b9606bdbaf713e9d70683b71a1cb580b18407601842af6c07ba23a718f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "黄昏",
+      "塔吊",
+      "城市天际线"
+    ],
+    "short_description": "橙色晚霞映衬下，建筑群与两台塔吊的剪影构成都市建设景象，天空云层层次分明。",
+    "theme": "黄昏城市剪影"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线来自地平线方向，应为日落时段。"
+    ],
+    "direct_observations": [
+      "天空呈现橙黄色调，云层呈条状分布。",
+      "建筑物和塔吊轮廓为黑色剪影。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "剪影",
+      "橙色天空",
+      "云层"
+    ],
+    "relations": [
+      "塔吊位于建筑群上方。"
+    ],
+    "scene": "城市建筑群与塔吊剪影",
+    "subjects": [
+      "塔吊",
+      "高层建筑"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线来自地平线方向，应为日落时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天空呈现橙黄色调，云层呈条状分布；建筑物和塔吊轮廓为黑色剪影。",
+    "safe_facts": [
+      "天空呈现橙黄色调，云层呈条状分布。",
+      "建筑物和塔吊轮廓为黑色剪影。"
+    ]
+  },
+  "label_id": "cpl_f1d598cb798aa38aab6d9bb9",
+  "provenance": {
+    "generated_at": "2026-08-03T12:29:40.254032+00:00",
+    "migrated_at": "2026-08-03T12:29:40.257083+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a03ea105c9b982a6978e193a0e55471f82a7bbc2ef10ed357bb593d8ecb1a97a",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_059ecb4424f6d2d560898739",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:29:40.257508+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_059ecb4424f6d2d560898739"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

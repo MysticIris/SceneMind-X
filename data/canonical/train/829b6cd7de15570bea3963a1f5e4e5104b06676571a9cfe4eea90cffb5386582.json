@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:503.jpg",
+    "relative_path": "train/503.jpg",
+    "sha256": "829b6cd7de15570bea3963a1f5e4e5104b06676571a9cfe4eea90cffb5386582",
+    "split": "train"
+  },
+  "canonical_sha256": "7c639c1c6417e865770deb05577a900e67177265995614b40a547ee44a06824c",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "水上飞行",
+      "水翼飞行器",
+      "湖泊",
+      "户外运动"
+    ],
+    "short_description": "一名男子在湖面上借助水翼飞行器腾空而起，身后喷射出强劲水柱，背景是茂密树林与蓝天白云。",
+    "theme": "水上飞行运动"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该活动发生在开阔水域，可能为人工湖或水库。"
+    ],
+    "direct_observations": [
+      "男子站立于水翼飞行器上，身体呈腾空姿态。",
+      "飞行器后方喷射出白色水柱，形成弧形轨迹。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "飞行",
+      "喷水"
+    ],
+    "attributes": [
+      "穿着黑色背心",
+      "穿着图案短裤",
+      "脚踩红色设备"
+    ],
+    "relations": [
+      "男子站在水翼飞行器上。",
+      "水翼飞行器喷水升空。"
+    ],
+    "scene": "湖泊水域",
+    "subjects": [
+      "一名男子"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该活动发生在开阔水域，可能为人工湖或水库。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "男子站立于水翼飞行器上，身体呈腾空姿态；飞行器后方喷射出白色水柱，形成弧形轨迹。",
+    "safe_facts": [
+      "男子站立于水翼飞行器上，身体呈腾空姿态。",
+      "飞行器后方喷射出白色水柱，形成弧形轨迹。"
+    ]
+  },
+  "label_id": "cpl_5b9cf34940fdbad5aef63df9",
+  "provenance": {
+    "generated_at": "2026-08-03T11:17:11.723334+00:00",
+    "migrated_at": "2026-08-03T11:17:11.725159+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4fd50eda2bbcb54408fc58390829c7dd2812d956b6b0f057de6267c517784184",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_92a0ae311823899f50a23afb",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T11:17:11.725536+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_92a0ae311823899f50a23afb"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

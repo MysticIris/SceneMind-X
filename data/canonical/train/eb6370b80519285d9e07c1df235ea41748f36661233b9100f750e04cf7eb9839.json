@@ -1,0 +1,136 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:239.jpg",
+    "relative_path": "train/239.jpg",
+    "sha256": "eb6370b80519285d9e07c1df235ea41748f36661233b9100f750e04cf7eb9839",
+    "split": "train"
+  },
+  "canonical_sha256": "3d841c98c747873790236ba0478d282860cb2641620997dd785bb27ce7ede15e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "冬末春初",
+      "公园",
+      "枯枝",
+      "白花"
+    ],
+    "short_description": "枝干虬曲的梅树上绽放着白色花朵，背景是公园小径与行人，春意盎然。",
+    "theme": "梅花盛开"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "多株梅花树，枝干呈深褐色，布满白色花朵。",
+      "背景中有小径和行走的人影。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "白色花朵",
+      "深色枝干",
+      "地面裸露"
+    ],
+    "relations": [
+      "梅花树位于前景。",
+      "行人位于背景。"
+    ],
+    "scene": "户外公园",
+    "subjects": [
+      "梅花树",
+      "行人"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "多株梅花树，枝干呈深褐色，布满白色花朵；背景中有小径和行走的人影。",
+    "safe_facts": [
+      "多株梅花树，枝干呈深褐色，布满白色花朵。",
+      "背景中有小径和行走的人影。"
+    ]
+  },
+  "label_id": "cpl_3d12d1ca1f9c1690b7eeec5e",
+  "provenance": {
+    "generated_at": "2026-08-03T10:22:49.242840+00:00",
+    "migrated_at": "2026-08-03T10:22:49.245237+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "efeae9afaafd456af53eee549fcf06caddb0070a9583295b347181e435544895",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_19690b33e877d7db640d601d",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:22:49.246025+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [
+      "removed_unverified_text:micro_tags"
+    ],
+    "sanitization_applied": true,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt",
+      "text_candidate_redacted"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_19690b33e877d7db640d601d"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "龙游品种",
+      "Contorted dragon cul...",
+      "具梅花之典型枝...",
+      "型梅花,散发典型梅香...",
+      "(枝)面上具蜂窝状..."
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "龙游品种",
+      "Contorted dragon cul...",
+      "具梅花之典型枝...",
+      "型梅花,散发典型梅香...",
+      "(枝)面上具蜂窝状..."
+    ]
+  }
+}

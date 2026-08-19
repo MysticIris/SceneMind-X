@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1819.jpg",
+    "relative_path": "train/1819.jpg",
+    "sha256": "1e211b56092392acfb3bdd56964c722cfb310fd147be88ec5d957981ae6b8859",
+    "split": "train"
+  },
+  "canonical_sha256": "570038f0688edb23464356774c6d4aadf5706db817cd2b10f9d1647f2dcb329a",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "夜景",
+      "建筑",
+      "玻璃幕墙",
+      "暖光"
+    ],
+    "short_description": "夜晚仰拍现代建筑，玻璃幕墙反射暖黄色灯光，前景有植物剪影，背景为深色天空。",
+    "theme": "夜景建筑"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "拍摄视角为仰视角度。"
+    ],
+    "direct_observations": [
+      "建筑物外墙由玻璃和浅色面板构成。",
+      "建筑顶部区域发出明亮的暖黄色灯光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "玻璃幕墙",
+      "暖黄色灯光",
+      "深色天空",
+      "低角度拍摄"
+    ],
+    "relations": [
+      "植物位于建筑前方。"
+    ],
+    "scene": "城市夜间户外",
+    "subjects": [
+      "建筑物",
+      "植物"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "拍摄视角为仰视角度。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "建筑物外墙由玻璃和浅色面板构成；建筑顶部区域发出明亮的暖黄色灯光。",
+    "safe_facts": [
+      "建筑物外墙由玻璃和浅色面板构成。",
+      "建筑顶部区域发出明亮的暖黄色灯光。"
+    ]
+  },
+  "label_id": "cpl_e16ec65855cda2fcce196456",
+  "provenance": {
+    "generated_at": "2026-08-03T15:09:46.887399+00:00",
+    "migrated_at": "2026-08-03T15:09:46.889181+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "1ef7e945accea9109c850a5308333710978cbca1cb7db8b8ae53bb0c0c7c4684",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_e50922dc2a94c98de4b4ad33",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:09:46.889378+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_e50922dc2a94c98de4b4ad33"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

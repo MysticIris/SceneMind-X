@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1163.jpg",
+    "relative_path": "train/1163.jpg",
+    "sha256": "74883797b7cf3567351e2c2087b86d562f90a0e5e84394f59d01d64bd67795cc",
+    "split": "train"
+  },
+  "canonical_sha256": "0c24dc4dd4960f044fdc83f9e5717a70860e82e023758ec5daac8f02bb76d75e",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "蓝色蝴蝶",
+      "标本",
+      "装饰相框"
+    ],
+    "short_description": "一只蓝色蝴蝶标本被装裱在带金色装饰边框的白色相框内，背景为紫色绒面。",
+    "theme": "蓝蝶标本展示"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "蝴蝶标本呈展开状态，翅膀为鲜艳蓝色，边缘为深色。",
+      "相框四周有金色雕花装饰，背景为紫色绒面材质。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "蓝色翅膀",
+      "黑色身体",
+      "金色装饰边框",
+      "白色相框",
+      "紫色背景"
+    ],
+    "relations": [
+      "蝴蝶标本位于相框内。",
+      "相框置于紫色表面上。"
+    ],
+    "scene": "室内展示环境",
+    "subjects": [
+      "蝴蝶标本"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "蝴蝶标本呈展开状态，翅膀为鲜艳蓝色，边缘为深色；相框四周有金色雕花装饰，背景为紫色绒面材质。",
+    "safe_facts": [
+      "蝴蝶标本呈展开状态，翅膀为鲜艳蓝色，边缘为深色。",
+      "相框四周有金色雕花装饰，背景为紫色绒面材质。"
+    ]
+  },
+  "label_id": "cpl_9d2a6d8e90d0b2118779330d",
+  "provenance": {
+    "generated_at": "2026-08-03T13:48:07.197504+00:00",
+    "migrated_at": "2026-08-03T13:48:07.202658+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "ace1a1b5678f0b3a7064d5d4813288ed3a3ac280877695f8fee41b2d46fc9131",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_514460f13230d21912bfe7af",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T13:48:07.203918+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": true,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "needs_review",
+    "validation_errors": [],
+    "warning_codes": [
+      "legacy_contract_unsafe_text_candidates_for_presence",
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_514460f13230d21912bfe7af"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "武汉吴华林蓝蝴蝶艺术馆",
+      "Papilio pho butter"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_unreadable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "武汉吴华林蓝蝴蝶艺术馆",
+      "Papilio pho butter"
+    ]
+  }
+}

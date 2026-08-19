@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:358.jpg",
+    "relative_path": "train/358.jpg",
+    "sha256": "940dc2fd22d46c2a16e3fc88ecac27de1394801e1641c7b991a0ced1d8907b1a",
+    "split": "train"
+  },
+  "canonical_sha256": "09c296c97c6849018d6eb2c68d1dc2c40dd2e7d16749bbb3be77c7c6be42009d",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "金酒",
+      "餐桌",
+      "烤串",
+      "塑料杯"
+    ],
+    "short_description": "一张餐桌照片，中央摆放着一瓶绿色玻璃瓶装的金酒，旁边有水杯和一盘烤串，背景模糊。",
+    "theme": "餐桌上的一瓶金酒"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "画面中心是一瓶绿色玻璃瓶装的金酒。",
+      "瓶子旁有一个透明塑料杯，杯中有液体。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "绿色玻璃瓶",
+      "透明塑料杯",
+      "黑色盘子",
+      "木制托盘"
+    ],
+    "relations": [
+      "金酒瓶放在桌面上。",
+      "塑料杯靠近金酒瓶。",
+      "烤串在黑色盘子上。"
+    ],
+    "scene": "室内餐桌环境",
+    "subjects": [
+      "绿色玻璃瓶装金酒",
+      "透明塑料杯",
+      "黑色盘子上的烤串",
+      "木制托盘"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中心是一瓶绿色玻璃瓶装的金酒；瓶子旁有一个透明塑料杯，杯中有液体。",
+    "safe_facts": [
+      "画面中心是一瓶绿色玻璃瓶装的金酒。",
+      "瓶子旁有一个透明塑料杯，杯中有液体。"
+    ]
+  },
+  "label_id": "cpl_0574920db1a6af6945873528",
+  "provenance": {
+    "generated_at": "2026-08-03T10:46:45.229962+00:00",
+    "migrated_at": "2026-08-03T10:46:45.231932+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "7943e31002ca76c12e539a75181a922f8ede474a0183ef2eccff7ddbf5d742ab",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_7769b54f51c0de56c2443a1a",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:46:45.232147+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_7769b54f51c0de56c2443a1a"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

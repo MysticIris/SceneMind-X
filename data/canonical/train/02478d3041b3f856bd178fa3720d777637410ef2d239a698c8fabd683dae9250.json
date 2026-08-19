@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1410.jpg",
+    "relative_path": "train/1410.jpg",
+    "sha256": "02478d3041b3f856bd178fa3720d777637410ef2d239a698c8fabd683dae9250",
+    "split": "train"
+  },
+  "canonical_sha256": "1249eb1cf5490b7c53bb66769a2c2a265368498c74eccaef3005f1e0fd2acaef",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "航拍",
+      "校园建筑",
+      "绿树环绕"
+    ],
+    "short_description": "航拍视角下，一座被茂密绿树包围的多栋建筑群，远处可见城市高楼与山峦。",
+    "theme": "校园绿意环绕"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "该区域可能为教育或科研机构园区。"
+    ],
+    "direct_observations": [
+      "画面中心有多栋相连的米色建筑，屋顶呈浅绿色。",
+      "建筑四周及背景区域覆盖大量深绿色树木。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "建筑群呈L型布局",
+      "屋顶为浅绿色",
+      "树木浓密成片"
+    ],
+    "relations": [
+      "建筑群被树木环绕。",
+      "建筑群位于城市与山地之间。"
+    ],
+    "scene": "城市边缘的校园或机构园区",
+    "subjects": [
+      "多栋建筑",
+      "茂密树木",
+      "远处高层住宅楼",
+      "远山"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "该区域可能为教育或科研机构园区。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面中心有多栋相连的米色建筑，屋顶呈浅绿色；建筑四周及背景区域覆盖大量深绿色树木。",
+    "safe_facts": [
+      "画面中心有多栋相连的米色建筑，屋顶呈浅绿色。",
+      "建筑四周及背景区域覆盖大量深绿色树木。"
+    ]
+  },
+  "label_id": "cpl_8b5a72104057b6367890678a",
+  "provenance": {
+    "generated_at": "2026-08-03T14:19:21.845821+00:00",
+    "migrated_at": "2026-08-03T14:19:21.852578+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "bea3d6faee4e4b458b0c7e619aa9bc6e418fb9886ec31329c39aacdbc4fdb3db",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d956e1c0a59436f0b934a1c0",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:19:21.852980+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d956e1c0a59436f0b934a1c0"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1831.jpg",
+    "relative_path": "train/1831.jpg",
+    "sha256": "511c9e071756f11ff23eb5b37e04c09afb0f3d9d8790ecb6717a8e8048cc660c",
+    "split": "train"
+  },
+  "canonical_sha256": "4bef26afd6b64a745b58fe95c3f52bfdbc5038f0bb655a0ca53a192f48d9dfb5",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "户外展览",
+      "人造草坪",
+      "大型屏幕"
+    ],
+    "short_description": "户外展览场地，有摊位、模特和大型屏幕，地面铺着人造草坪，天空阴沉。",
+    "theme": "户外服装展"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "地面铺设绿色人造草坪。",
+      "多个摊位设有衣物展示架和模特。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阴天",
+      "人造草坪地面",
+      "透明帐篷结构"
+    ],
+    "relations": [],
+    "scene": "户外展览场地",
+    "subjects": [
+      "人",
+      "摊位",
+      "模特",
+      "屏幕",
+      "旗帜"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "地面铺设绿色人造草坪；多个摊位设有衣物展示架和模特。",
+    "safe_facts": [
+      "地面铺设绿色人造草坪。",
+      "多个摊位设有衣物展示架和模特。"
+    ]
+  },
+  "label_id": "cpl_8ad771930e1d9f88da79d251",
+  "provenance": {
+    "generated_at": "2026-08-03T15:11:11.157687+00:00",
+    "migrated_at": "2026-08-03T15:11:11.159342+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "3a8ec100aca9daf37d6fbdd39b1b8d2136069b95aa057af1a4ae57d734216019",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_5c1e79ace544ca9671deab93",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T15:11:11.159539+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_5c1e79ace544ca9671deab93"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

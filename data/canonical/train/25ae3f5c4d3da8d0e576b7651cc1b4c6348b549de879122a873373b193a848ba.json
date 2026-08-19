@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1267.jpg",
+    "relative_path": "train/1267.jpg",
+    "sha256": "25ae3f5c4d3da8d0e576b7651cc1b4c6348b549de879122a873373b193a848ba",
+    "split": "train"
+  },
+  "canonical_sha256": "ecb22d50475f4bbf763d3c5e5b038e7bd2ecf024ff19763ef363d0cfea605f65",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "柳树",
+      "湖水",
+      "阳光",
+      "小径"
+    ],
+    "short_description": "阳光穿透垂柳枝叶，在湖面投下斑驳光影，石板小径蜿蜒延伸，静谧宜人。",
+    "theme": "柳树湖畔日光"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "光线角度表明拍摄时间可能为日出或日落时段。"
+    ],
+    "direct_observations": [
+      "画面左侧有阳光从树冠后方透射形成光晕。",
+      "湖面倒映着柳树的枝条轮廓。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "阳光照射",
+      "垂柳枝条",
+      "水面波纹"
+    ],
+    "relations": [
+      "柳树沿湖岸排列。",
+      "石板路紧邻湖岸。"
+    ],
+    "scene": "湖边林荫道",
+    "subjects": [
+      "柳树",
+      "湖水",
+      "石板路"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "光线角度表明拍摄时间可能为日出或日落时段。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "画面左侧有阳光从树冠后方透射形成光晕；湖面倒映着柳树的枝条轮廓。",
+    "safe_facts": [
+      "画面左侧有阳光从树冠后方透射形成光晕。",
+      "湖面倒映着柳树的枝条轮廓。"
+    ]
+  },
+  "label_id": "cpl_1e8b720c487fb6172db88437",
+  "provenance": {
+    "generated_at": "2026-08-03T14:03:25.581966+00:00",
+    "migrated_at": "2026-08-03T14:03:25.584812+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "0c11e71f673f811167bb19ec81ca05ccfca08cef44b2a728f5e8254726212e4f",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_6a925e1465925d0c89be1294",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:03:25.585153+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_6a925e1465925d0c89be1294"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

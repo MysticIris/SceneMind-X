@@ -1,0 +1,119 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:1727.jpg",
+    "relative_path": "train/1727.jpg",
+    "sha256": "7d807bf91b1c89c49456d4975130c31ebc4668d3b1e50e274f948492008b4c82",
+    "split": "train"
+  },
+  "canonical_sha256": "e1e9411f7f6a6051ba42c389dde94085b45ce1d6e4959a020e613bbd846d707f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "数控机床",
+      "金属加工",
+      "工业设备"
+    ],
+    "short_description": "一台工业级数控机床正在加工金属零件，旁边配有显示屏和工具架。",
+    "theme": "精密加工设备"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "机床主体为银灰色金属材质。",
+      "机床工作台上放置有金属加工件。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "金属零件",
+      "银灰色机身",
+      "黑色导轨"
+    ],
+    "relations": [
+      "显示屏位于机床左侧。",
+      "工具架安装在机床左侧下方。"
+    ],
+    "scene": "工业车间环境",
+    "subjects": [
+      "数控机床",
+      "显示屏",
+      "工具架"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "机床主体为银灰色金属材质；机床工作台上放置有金属加工件。",
+    "safe_facts": [
+      "机床主体为银灰色金属材质。",
+      "机床工作台上放置有金属加工件。"
+    ]
+  },
+  "label_id": "cpl_982c6e5d31492cf05a0eca9d",
+  "provenance": {
+    "generated_at": "2026-08-03T14:58:26.716479+00:00",
+    "migrated_at": "2026-08-03T14:58:26.718715+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "38278994e04f3444888f3eeb7496e9318bd81770523c2d8bfcf100574cccbcce",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_0a1760f74e470c921bd22674",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T14:58:26.718934+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_0a1760f74e470c921bd22674"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

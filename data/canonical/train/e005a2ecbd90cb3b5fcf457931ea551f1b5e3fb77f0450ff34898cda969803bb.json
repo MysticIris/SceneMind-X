@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:753.jpg",
+    "relative_path": "train/753.jpg",
+    "sha256": "e005a2ecbd90cb3b5fcf457931ea551f1b5e3fb77f0450ff34898cda969803bb",
+    "split": "train"
+  },
+  "canonical_sha256": "b2f449d63ce3396472a1688e9d7c920cab2a5bade241521ead06f8d2994aca4f",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "霓虹灯",
+      "商业街",
+      "招牌",
+      "室内",
+      "灯光"
+    ],
+    "short_description": "一条布满彩色霓虹招牌和红色装饰牌的室内商业街，灯光璀璨，充满热闹氛围。",
+    "theme": "霓虹灯商业街"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "天花板为黑色网格状结构。",
+      "多处霓虹灯招牌发出红、黄、蓝等颜色光。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "彩色灯光",
+      "红色装饰",
+      "密集排列"
+    ],
+    "relations": [
+      "招牌悬挂在天花板下。",
+      "天花板为黑色网格状。"
+    ],
+    "scene": "室内商业街",
+    "subjects": [
+      "霓虹灯招牌",
+      "装饰性标牌",
+      "天花板网格"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "天花板为黑色网格状结构；多处霓虹灯招牌发出红、黄、蓝等颜色光。",
+    "safe_facts": [
+      "天花板为黑色网格状结构。",
+      "多处霓虹灯招牌发出红、黄、蓝等颜色光。"
+    ]
+  },
+  "label_id": "cpl_4c3ef9e74f4153ee092223c4",
+  "provenance": {
+    "generated_at": "2026-08-03T12:15:57.614352+00:00",
+    "migrated_at": "2026-08-03T12:15:57.618004+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "4f26366a2dce09335c4e5bc9a3c92af9e2ea3ca94783a7e51ef0641801d732a1",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_3c5a0cc4322e875872a584d2",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:15:57.618457+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_3c5a0cc4322e875872a584d2"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "uncertain",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}

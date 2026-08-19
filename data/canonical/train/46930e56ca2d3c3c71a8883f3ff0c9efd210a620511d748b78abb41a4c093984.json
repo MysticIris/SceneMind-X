@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:263.jpg",
+    "relative_path": "train/263.jpg",
+    "sha256": "46930e56ca2d3c3c71a8883f3ff0c9efd210a620511d748b78abb41a4c093984",
+    "split": "train"
+  },
+  "canonical_sha256": "fb20bc2e794252858d5edb3b6f6b02c10755d3b216874a2803c4e3f3cd2b9bbd",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "玻璃瓶",
+      "白色标签",
+      "桌面"
+    ],
+    "short_description": "两个装有淡黄色液体的玻璃瓶，瓶身贴有白色标签，摆放在木质桌面上。",
+    "theme": "产品"
+  },
+  "evidence": {
+    "cautious_inferences": [],
+    "direct_observations": [
+      "两个玻璃瓶并排摆放。",
+      "瓶内液体呈淡黄色。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [],
+    "attributes": [
+      "透明",
+      "白色标签",
+      "瓶盖为白色"
+    ],
+    "relations": [
+      "瓶子放置于桌面。"
+    ],
+    "scene": "室内桌面",
+    "subjects": [
+      "玻璃瓶",
+      "标签"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "未验证的具体文字内容。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "两个玻璃瓶并排摆放；瓶内液体呈淡黄色。",
+    "safe_facts": [
+      "两个玻璃瓶并排摆放。",
+      "瓶内液体呈淡黄色。"
+    ]
+  },
+  "label_id": "cpl_ec050d6656389b1cdc4762da",
+  "provenance": {
+    "generated_at": "2026-08-03T10:27:34.629057+00:00",
+    "migrated_at": "2026-08-03T10:27:34.632229+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "a2fd190aaafc5c7cbb549d19dec4cf9145eda2c9e99d28bd14a10bbafdf4a9ce",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_d957c78ca4dddc3313b2528f",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T10:27:34.632809+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_d957c78ca4dddc3313b2528f"
+  ],
+  "text_evidence": {
+    "candidate_text": [
+      "桂花酒",
+      "香林花語",
+      "純米釀",
+      "IN YELLOW"
+    ],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "present_readable",
+    "verification_status": "candidate",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": [
+      "桂花酒",
+      "香林花語",
+      "純米釀",
+      "IN YELLOW"
+    ]
+  }
+}

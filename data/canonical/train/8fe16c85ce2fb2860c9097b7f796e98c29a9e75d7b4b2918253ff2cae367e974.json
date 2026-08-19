@@ -1,0 +1,125 @@
+{
+  "asset": {
+    "asset_id": "course_v1:train:728.jpg",
+    "relative_path": "train/728.jpg",
+    "sha256": "8fe16c85ce2fb2860c9097b7f796e98c29a9e75d7b4b2918253ff2cae367e974",
+    "split": "train"
+  },
+  "canonical_sha256": "340c851c74601762003d34b073f3efa1395e6ee1d41cc599c633f64486568439",
+  "canonical_status": "active_candidate",
+  "display": {
+    "micro_tags": [
+      "毛绒玩具",
+      "胡萝卜造型",
+      "卡通表情"
+    ],
+    "short_description": "一只手拿着一个黄色毛绒胡萝卜玩偶，顶部有绿色叶子，脸上有眼睛、微笑和腮红，背景是红色物体和深色地面。",
+    "theme": "可爱胡萝卜玩偶"
+  },
+  "evidence": {
+    "cautious_inferences": [
+      "玩偶可能被设计成卡通风格的蔬菜形象。"
+    ],
+    "direct_observations": [
+      "图像中有一只手正握着一个黄色的毛绒玩具。",
+      "玩偶顶部有绿色叶子，面部有闭合的眼睛、微笑线条和粉色圆形腮红。"
+    ],
+    "uncertainties": []
+  },
+  "facts": {
+    "actions": [
+      "手持"
+    ],
+    "attributes": [
+      "黄色",
+      "绿色叶子",
+      "闭眼微笑",
+      "粉色腮红",
+      "黑色条纹"
+    ],
+    "relations": [
+      "手握着玩偶。"
+    ],
+    "scene": "室内环境，有红色物体和深色地面",
+    "subjects": [
+      "一只手",
+      "一个毛绒胡萝卜玩偶"
+    ],
+    "visual_medium": "photograph"
+  },
+  "fallback": {
+    "caption_composer": "phase6_0b_safe_facts_caption_composer_v1",
+    "do_not_assert": [
+      "玩偶可能被设计成卡通风格的蔬菜形象。"
+    ],
+    "must_not_override_valid_model_output": true,
+    "policy": "use_only_when_public_model_body_invalid",
+    "safe_caption": "图像中有一只手正握着一个黄色的毛绒玩具；玩偶顶部有绿色叶子，面部有闭合的眼睛、微笑线条和粉色圆形腮红。",
+    "safe_facts": [
+      "图像中有一只手正握着一个黄色的毛绒玩具。",
+      "玩偶顶部有绿色叶子，面部有闭合的眼睛、微笑线条和粉色圆形腮红。"
+    ]
+  },
+  "label_id": "cpl_070059319d49213d88aad33c",
+  "provenance": {
+    "generated_at": "2026-08-03T12:10:10.260221+00:00",
+    "migrated_at": "2026-08-03T12:10:10.262658+00:00",
+    "migration_version": "phase6_0b_canonical_safety_migration_v1",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "normalizer": "phase6_0a_lossless_normalizer_v1",
+    "prompt_id": "phase6_0a_canonical_pseudo_label_v1",
+    "prompt_sha256": "d902aea11cdae8c151445c308bffc5075e12ff12977773221f92454ca727d111",
+    "raw_output_sha256": "43effcb73b30110775af5d079d73535498414600dd47952ac69c4a47f9010269",
+    "recovered_at_tokens": null,
+    "source_label_id": "cpl_377cea3673c8c44f898e42c1",
+    "source_run_id": "run_20260803_full_v2_1_1",
+    "source_schema_version": "scenemindx_canonical_pseudo_label_v2_candidate",
+    "split_compatibility_migrated_at": "2026-08-03T12:10:10.263014+00:00",
+    "split_compatibility_migration_version": "phase6_1_split_compatibility_migration_v1",
+    "split_compatibility_validator": "phase6_1_split_compatibility_validator_v1",
+    "validator": "phase6_0b_canonical_safety_validator_v1"
+  },
+  "quality": {
+    "needs_review": false,
+    "sanitization_actions": [],
+    "sanitization_applied": false,
+    "schema_valid": true,
+    "semantic_status": "warning",
+    "validation_errors": [],
+    "warning_codes": [
+      "migrated_from_phase6_0a",
+      "punctuation_normalized",
+      "safe_caption_rebuilt",
+      "safe_facts_rebuilt"
+    ]
+  },
+  "review": {
+    "automatic_validation": {
+      "status": "warning"
+    },
+    "codex_visual_review": {
+      "notes": [],
+      "status": "not_reviewed"
+    },
+    "gold_status": false,
+    "review_label": "machine_provisional",
+    "user_human_review": {
+      "status": "pending"
+    }
+  },
+  "schema_version": "scenemindx_canonical_pseudo_label_v2_1_1_candidate",
+  "supersedes": [
+    "cpl_377cea3673c8c44f898e42c1"
+  ],
+  "text_evidence": {
+    "candidate_text": [],
+    "confidence": null,
+    "ocr_candidates": [],
+    "presence": "none",
+    "verification_status": "none",
+    "verified_text": [],
+    "verified_text_source": "not_available",
+    "visual_candidates": []
+  }
+}
